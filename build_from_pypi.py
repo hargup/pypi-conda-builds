@@ -197,7 +197,7 @@ def get_previous_build_timestamp():
     file_name = 'timestamp'
     try:
         timestamp = int(open(file_name, 'r').readline().strip())
-    except FileNotFoundError:
+    except IOError:
         timestamp = 0
 
     return timestamp
@@ -210,12 +210,14 @@ def save_timestamp():
     import time
     file_name = 'timestamp'
     with open(file_name, 'w') as timestamp_file:
-        timestamp_file.write(int(time.time))
+        # PyPI's XMLRPC interface expects the value in int, time.time retuns a
+        # float.
+        timestamp_file.write(str(int(time.time())))
+
+
 
 
 def main(args):
-    save_timestamp()
-
     if args.n:
         top_n_packages = set(get_packages_list(args.n))
     else:
@@ -224,7 +226,7 @@ def main(args):
     if args.all:
         old_pkgs = packages_data.keys()
     else:
-        changed_pkgs = set(client.changed_package(get_previous_build_timestamp()))
+        changed_pkgs = set(client.changed_packages(get_previous_build_timestamp()))
         # Include old failed or changed packages
         old_pkgs = set(pkg for pkg in packages_data if
                        packages_data[pkg]['package_available'] is not True or
@@ -255,6 +257,7 @@ def main(args):
             else:
                 pipbuild(pkg, pipbuild_data, packages_data)
 
+    save_timestamp()
     save_data()
 
 if __name__ == "__main__":
