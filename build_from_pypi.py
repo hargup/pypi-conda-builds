@@ -164,21 +164,6 @@ def reorganise_old_format(packages_old, packages, recipes, build):
         build[package['name']] = {'build_successful': package['build']}
 
 
-pypi_url = 'http://pypi.python.org/pypi'
-client = ServerProxy(pypi_url)
-
-log_dir = "./logs/"
-recipes_dir = "./recipes/"
-
-all_packages = yaml.load(open('sorted_packages.yaml', 'r'))
-anaconda_packages = set(yaml.load(open('anaconda.yaml', 'r')))
-greylist_packages = set(yaml.load(open('greylist.yaml', 'r')))
-packages_data = yaml.load(open('packages_data.yaml', 'r'))
-recipes_data = yaml.load(open('recipes_data.yaml', 'r'))
-build_data = yaml.load(open('build_data.yaml', 'r'))
-pipbuild_data = yaml.load(open('pipbuild_data.yaml', 'r'))
-
-
 def get_packages_list(n):
     """
     Gives the list of top n packages sorted by download count
@@ -215,6 +200,29 @@ def save_timestamp():
         timestamp_file.write(str(int(time.time())))
 
 
+def yaml_load(file_name, default=None):
+    """
+    Load a yaml file given a filename, returns default if file doesn't exists.
+    """
+    try:
+        res = yaml.load(open(file_name, 'r'))
+    except IOError:
+        res = default
+
+    return res
+
+pypi_url = 'http://pypi.python.org/pypi'
+client = ServerProxy(pypi_url)
+
+log_dir = "./logs/"
+recipes_dir = "./recipes/"
+
+anaconda_packages = set(yaml_load('anaconda.yaml', default=[]))
+greylist_packages = set(yaml_load('greylist.yaml', default=[]))
+packages_data = yaml_load('packages_data.yaml', dict())
+recipes_data = yaml_load('recipes_data.yaml', dict())
+build_data = yaml_load('build_data.yaml', dict())
+pipbuild_data = yaml_load('pipbuild_data.yaml', dict())
 
 
 def main(args):
