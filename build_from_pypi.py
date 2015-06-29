@@ -4,7 +4,6 @@ import argparse
 import subprocess
 import yaml
 import shlex
-from conda.install import rm_rf
 
 parser = argparse.ArgumentParser()
 parser.add_argument("-n",
@@ -22,10 +21,6 @@ parser.add_argument("--build",
 parser.add_argument("--pipbuild",
                     help="pipuild packages",
                     action="store_true")
-# parser.add_argument("--all",
-#                     help="Apply process at all the packages including the ones"
-#                          " those passed",
-#                     action="store_true")
 parser.add_argument("--packages",
                     help="List of names of packags to create",
                     nargs="+",
@@ -55,14 +50,15 @@ def create_recipe(package, recipes_data):
     print(msg)
 
     # Remove the old recipe
-    if isdir(recipes_dir + package):
-        rm_rf(recipes_dir + package)
-
-    cmd = "conda skeleton pypi %s --output-dir %s" \
-        " --recursive --no-prompt --all-extras --noarch-python"
-    cmd = cmd % (package, recipes_dir)
-    err = subprocess.call(shlex.split(cmd), stdout=log_file,
-                          stderr=subprocess.STDOUT)
+    if not isdir(recipes_dir + package):
+        cmd = "conda skeleton pypi %s --output-dir %s" \
+            " --recursive --no-prompt --all-extras --noarch-python"
+        cmd = cmd % (package, recipes_dir)
+        err = subprocess.call(shlex.split(cmd), stdout=log_file,
+                              stderr=subprocess.STDOUT)
+    else:
+        err = 0
+        print("Recipe already available")
 
     if err is 0:
         msg = "Succesfully created conda recipe for %s\n" % (package)
@@ -75,7 +71,7 @@ def create_recipe(package, recipes_data):
 
 
 def build_recipe(package, build_data, packages_data):
-    log_file_name = log_dir + "%s_build_data.log" % (package)
+    log_file_name = log_dir + "%s_build.log" % (package)
     log_file = open(log_file_name, 'w')
 
     if package not in build_data.keys():
@@ -89,10 +85,10 @@ def build_recipe(package, build_data, packages_data):
                           stderr=subprocess.STDOUT)
 
     if err is 0:
-        msg = "Succesfully build_data conda package for %s\n" % (package)
+        msg = "Succesfully build conda package for %s\n" % (package)
         build_data[package]['build_successful'] = True
     else:
-        msg = "Failed to build_data conda package for %s\n" % (package)
+        msg = "Failed to build conda package for %s\n" % (package)
         build_data[package]['build_successful'] = False
         packages_data[package]['package_available'] = True
         packages_data[package]['availability_type'] = 'conda-build'
@@ -107,7 +103,7 @@ def pipbuild(package, pipbuild_data, packages_data):
     if package not in pipbuild_data.keys():
         pipbuild_data[package] = dict()
 
-    msg = "Creating Conda recipe for %s using pipbuild_data\n" % (package)
+    msg = "Creating Conda recipe for %s using pipbuild\n" % (package)
     print(msg)
 
     cmd = "conda pipbuild %s --noarch-python" % (package)
@@ -172,10 +168,13 @@ def reorganise_old_format(packages_old, packages, recipes, build):
 def main(args):
     if args.n:
         new_packages = set(all_packages[:args.n])
-        old_failed = set(pkg for pkg in packages_data if
-                         packages_data[pkg]['package_available'] is not True)
-        candidate_packages = new_packages.union(old_failed) \
-            - (anaconda_packages.union(greylist_packages))
+    else:
+        new_packages = set()
+
+    old_failed = set(pkg for pkg in packages_data if
+                     packages_data[pkg]['package_available'] is not True)
+    candidate_packages = new_packages.union(old_failed) \
+        - (anaconda_packages.union(greylist_packages))
 
     # TODO: complete the part where list of packages is passed through
     # commandline
