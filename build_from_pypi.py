@@ -9,7 +9,7 @@ if sys.version_info < (3,):
     from xmlrpclib import ServerProxy, Transport, ProtocolError
 else:
     from xmlrpc.client import ServerProxy
-from compiler_report import compile_all_reports
+from compile_report import compile_all_reports
 
 
 parser = argparse.ArgumentParser()
