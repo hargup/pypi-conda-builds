@@ -9,6 +9,7 @@ if sys.version_info < (3,):
     from xmlrpclib import ServerProxy, Transport, ProtocolError
 else:
     from xmlrpc.client import ServerProxy
+from compiler_report import compile_all_reports
 
 
 parser = argparse.ArgumentParser()
@@ -265,8 +266,13 @@ def main(args):
             else:
                 pipbuild(pkg, pipbuild_data, packages_data)
 
-    save_timestamp()
-    save_data()
 
 if __name__ == "__main__":
-    main(args)
+    try:
+        main(args)
+    except KeyboardInterrupt:
+        print("Process Interrupted by User")
+    finally:
+        save_timestamp()
+        save_data()
+        compile_all_reports()
