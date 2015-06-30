@@ -169,7 +169,7 @@ def get_packages_list(n):
     """
     Gives the list of top n packages sorted by download count
     """
-    return [pkg for (pkg, downloads) in client.top_packages(n)]
+    return [pkg.lower() for (pkg, downloads) in client.top_packages(n)]
 
 
 def get_previous_build_timestamp():
