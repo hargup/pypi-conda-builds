@@ -4,6 +4,12 @@ import argparse
 import subprocess
 import yaml
 import shlex
+import sys
+if sys.version_info < (3,):
+    from xmlrpclib import ServerProxy, Transport, ProtocolError
+else:
+    from xmlrpc.client import ServerProxy
+
 
 parser = argparse.ArgumentParser()
 parser.add_argument("-n",
@@ -30,17 +36,6 @@ parser.add_argument("--all",
                          " those passed in earlier builds",
                     action="store_true")
 args = parser.parse_args()
-
-log_dir = "./logs/"
-recipes_dir = "./recipes/"
-
-all_packages = yaml.load(open('sorted_packages.yaml', 'r'))
-anaconda_packages = set(yaml.load(open('anaconda.yaml', 'r')))
-greylist_packages = set(yaml.load(open('greylist.yaml', 'r')))
-packages_data = yaml.load(open('packages_data.yaml', 'r'))
-recipes_data = yaml.load(open('recipes_data.yaml', 'r'))
-build_data = yaml.load(open('build_data.yaml', 'r'))
-pipbuild_data = yaml.load(open('pipbuild_data.yaml', 'r'))
 
 
 def create_recipe(package, recipes_data):
@@ -91,11 +86,11 @@ def build_recipe(package, build_data, packages_data):
     if err is 0:
         msg = "Succesfully build conda package for %s\n" % (package)
         build_data[package]['build_successful'] = True
+        packages_data[package]['package_available'] = True
+        packages_data[package]['availability_type'] = 'conda-build'
     else:
         msg = "Failed to build conda package for %s\n" % (package)
         build_data[package]['build_successful'] = False
-        packages_data[package]['package_available'] = True
-        packages_data[package]['availability_type'] = 'conda-build'
     print(msg)
     log_file.close()
 
@@ -116,12 +111,12 @@ def pipbuild(package, pipbuild_data, packages_data):
 
     if err is 0:
         msg = "Succesfully created conda package for %s\n" % (package)
-        pipbuild_data[package]['build_successful'] = True
-    else:
-        msg = "Failed to create conda package for %s\n" % (package)
-        pipbuild_data[package]['build_successful'] = False
+        pipbuild_data[package]['pipbuild_successful'] = True
         packages_data[package]['package_available'] = True
         packages_data[package]['availability_type'] = 'pipbuild'
+    else:
+        msg = "Failed to create conda package for %s\n" % (package)
+        pipbuild_data[package]['pipbuild_successful'] = False
     print(msg)
     log_file.close()
 
@@ -169,20 +164,86 @@ def reorganise_old_format(packages_old, packages, recipes, build):
         build[package['name']] = {'build_successful': package['build']}
 
 
+def get_packages_list(n):
+    """
+    Gives the list of top n packages sorted by download count
+    """
+    return [pkg for (pkg, downloads) in client.top_packages(n)]
+
+
+def get_previous_build_timestamp():
+    """
+    Return the time of previous build in second since Epoch[1]. Returns 0 if
+    timestamp file is not available
+
+    [1]: https://en.wikipedia.org/wiki/Unix_time
+
+    """
+    file_name = 'timestamp'
+    try:
+        timestamp = int(open(file_name, 'r').readline().strip())
+    except IOError:
+        timestamp = 0
+
+    return timestamp
+
+
+def save_timestamp():
+    """
+    Save the current timestamp to file 'timestamp'
+    """
+    import time
+    file_name = 'timestamp'
+    with open(file_name, 'w') as timestamp_file:
+        # PyPI's XMLRPC interface expects the value in int, time.time retuns a
+        # float.
+        timestamp_file.write(str(int(time.time())))
+
+
+def yaml_load(file_name, default=None):
+    """
+    Load a yaml file given a filename, returns default if file doesn't exists.
+    """
+    try:
+        res = yaml.load(open(file_name, 'r'))
+    except IOError:
+        res = default
+
+    return res
+
+pypi_url = 'http://pypi.python.org/pypi'
+client = ServerProxy(pypi_url)
+
+log_dir = "./logs/"
+recipes_dir = "./recipes/"
+
+anaconda_packages = set(yaml_load('anaconda.yaml', default=[]))
+greylist_packages = set(yaml_load('greylist.yaml', default=[]))
+packages_data = yaml_load('packages_data.yaml', dict())
+recipes_data = yaml_load('recipes_data.yaml', dict())
+build_data = yaml_load('build_data.yaml', dict())
+pipbuild_data = yaml_load('pipbuild_data.yaml', dict())
+
+
 def main(args):
     if args.n:
-        new_packages = set(all_packages[:args.n])
+        top_n_packages = set(get_packages_list(args.n))
     else:
-        new_packages = set()
+        top_n_packages = set()
 
     if args.all:
         old_pkgs = packages_data.keys()
     else:
+        changed_pkgs = set(client.changed_packages(get_previous_build_timestamp()))
+        # Include old failed or changed packages
         old_pkgs = set(pkg for pkg in packages_data if
-                       packages_data[pkg]['package_available'] is not True)
+                       packages_data[pkg]['package_available'] is not True or
+                       pkg in changed_pkgs)
 
-    candidate_packages = new_packages.union(old_pkgs) \
+    candidate_packages = top_n_packages.union(old_pkgs) \
         - (anaconda_packages.union(greylist_packages))
+
+
 
     # TODO: complete the part where list of packages is passed through
     # commandline
@@ -204,6 +265,8 @@ def main(args):
             else:
                 pipbuild(pkg, pipbuild_data, packages_data)
 
+    save_timestamp()
     save_data()
 
-main(args)
+if __name__ == "__main__":
+    main(args)
