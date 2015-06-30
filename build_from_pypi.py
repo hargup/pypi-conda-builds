@@ -149,16 +149,16 @@ def clean_data():
 def reorganise_old_format(packages_old, packages, recipes, build):
     for package in packages_old:
         package_available = False
-        availablility_type = None
+        availability_type = None
         if package['anaconda']:
             package_available = True
-            availablility_type = "Anaconda"
+            availability_type = "Anaconda"
         elif package['build']:
             package_available = True
-            availablility_type = "conda-build"
+            availability_type = "conda-build"
 
         packages[package['name']] = {'package_available': package_available,
-                                     'availablility_type': availablility_type}
+                                     'availability_type': availability_type}
 
         recipes[package['name']] = {'recipe_available': package['recipe']}
         build[package['name']] = {'build_successful': package['build']}
