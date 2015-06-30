@@ -139,7 +139,7 @@ def compile_pipbuild_report():
     subprocess.call(shlex.split(cmd))
 
 
-def main():
+def compile_all_reports():
     compile_main_report()
     compile_recipe_report()
     compile_build_report()
@@ -147,4 +147,4 @@ def main():
 
 
 if __name__ == "__main__":
-    main()
+    compile_all_reports()
