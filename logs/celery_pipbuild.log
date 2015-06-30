@@ -1,33 +1,39 @@
-Package search: {'_pypi_ordering': False, 'version': '3.1.18', 'name': 'celery', 'summary': 'Distributed Task Queue'}
-Fetching package metadata: ....
 Error: prefix already exists: /home/ubuntu/miniconda/envs/_pipbuild_
-Exception:
-Traceback (most recent call last):
-  File "/home/ubuntu/miniconda/envs/_pipbuild_/lib/python2.7/site-packages/pip/basecommand.py", line 223, in main
-    status = self.run(options, args)
-  File "/home/ubuntu/miniconda/envs/_pipbuild_/lib/python2.7/site-packages/pip/commands/install.py", line 268, in run
-    wheel_cache
-  File "/home/ubuntu/miniconda/envs/_pipbuild_/lib/python2.7/site-packages/pip/basecommand.py", line 268, in populate_requirement_set
-    wheel_cache=wheel_cache
-  File "/home/ubuntu/miniconda/envs/_pipbuild_/lib/python2.7/site-packages/pip/req/req_install.py", line 207, in from_line
-    wheel_cache=wheel_cache)
-  File "/home/ubuntu/miniconda/envs/_pipbuild_/lib/python2.7/site-packages/pip/req/req_install.py", line 66, in __init__
-    req = pkg_resources.Requirement.parse(req)
-  File "/home/ubuntu/miniconda/envs/_pipbuild_/lib/python2.7/site-packages/pip/_vendor/pkg_resources/__init__.py", line 2960, in parse
-    reqs = list(parse_requirements(s))
-  File "/home/ubuntu/miniconda/envs/_pipbuild_/lib/python2.7/site-packages/pip/_vendor/pkg_resources/__init__.py", line 2904, in parse_requirements
-    "version spec")
-  File "/home/ubuntu/miniconda/envs/_pipbuild_/lib/python2.7/site-packages/pip/_vendor/pkg_resources/__init__.py", line 2869, in scan_list
-    raise ValueError(msg, line, "at", line[p:])
-ValueError: ('Expected version spec in', 'pytz==>dev', 'at', '==>dev')
-
+Collecting celery==3.1.18
+  Downloading http://localhost/packages/2.7/c/celery/celery-3.1.18-py2.py3-none-any.whl (515kB)
+Collecting pytz>dev (from celery==3.1.18)
+  Downloading http://localhost/packages/py2.py3/p/pytz/pytz-2015.4-py2.py3-none-any.whl (475kB)
+Collecting billiard<3.4,>=3.3.0.20 (from celery==3.1.18)
+  Downloading http://localhost/packages/source/b/billiard/billiard-3.3.0.20.tar.gz (150kB)
+setuptools must be installed to install from a source distribution
+Package search: {'_pypi_ordering': False, 'version': '3.1.18', 'name': 'celery', 'summary': 'Distributed Task Queue'}
 Creating standard recipe for celery-3.1.18
-Converting recipe in /home/ubuntu/pypi-conda-builds/celery
-package = celery
-   dependencies = [u'pytz >dev', u'billiard >=3.3.0.20,<3.4', u'kombu >=3.0.25,<3.1']
-Creating standard recipe for pytz->dev
-Error: Version >dev of pytz is not available on PyPI.
+Using url https://pypi.python.org/packages/source/c/celery/celery-3.1.18.tar.gz (1.2 MB) for celery.
+Downloading celery
+Using cached download
+Unpacking celery...
+done
+working in /tmp/tmpmc8i_8conda_skeleton_celery-3.1.18.tar.gz
+Fetching package metadata: ......
+
+WARNING: conda-build appears to be out of date. You have version 1.13.0 but the
+latest version is 1.14.0. Run
+
+conda update -n root conda-build
+
+to get the latest version.
+
+Solving package specifications: .patching file core.py
+Hunk #1 succeeded at 168 with fuzz 2 (offset 2 lines).
+Traceback (most recent call last):
+  File "setup.py", line 5, in <module>
+    from setuptools import setup, find_packages
+ImportError: No module named setuptools
+
+Applying patch: '/tmp/tmpmc8i_8conda_skeleton_celery-3.1.18.tar.gz/pypi-distutils.patch'
+$PYTHONPATH = /tmp/tmpmc8i_8conda_skeleton_celery-3.1.18.tar.gz/celery-3.1.18
+Error: command failed: /home/ubuntu/miniconda/envs/_build/bin/python setup.py install
 
 conda create -n _pipbuild_ --yes python pip
-/home/ubuntu/miniconda/envs/_pipbuild_/bin/pip install pytz==>dev
-Error: Could not pip install pytz==>dev
+/home/ubuntu/miniconda/envs/_pipbuild_/bin/pip install celery==3.1.18
+Error: Could not pip install celery==3.1.18

@@ -1,9 +1,15 @@
-Package search: {'_pypi_ordering': False, 'version': '1.3.1', 'name': 'python-instagram', 'summary': 'Instagram API client'}
-Fetching package metadata: ....
 Removing old build directory
 Removing old work directory
 BUILD START: simplejson-3.7.3-py27_0
 Fetching package metadata: ......
+
+WARNING: conda-build appears to be out of date. You have version 1.13.0 but the
+latest version is 1.14.0. Run
+
+conda update -n root conda-build
+
+to get the latest version.
+
 Solving package specifications: .+ pip install simplejson
 Collecting simplejson
   Downloading http://localhost/packages/source/s/simplejson/simplejson-3.6.5.tar.gz (73kB)
@@ -13,15 +19,15 @@ Successfully installed simplejson-3.6.5
 
 The following NEW packages will be INSTALLED:
 
-    openssl:    1.0.1k-1    
-    pip:        7.0.3-py27_0
-    python:     2.7.10-0    
-    readline:   6.2-2       
-    setuptools: 17.0-py27_0 
-    sqlite:     3.8.4.1-1   
-    system:     5.8-2       
-    tk:         8.5.18-0    
-    zlib:       1.2.8-0     
+    openssl:    1.0.1k-1     
+    pip:        7.0.3-py27_0 
+    python:     2.7.10-0     
+    readline:   6.2-2        
+    setuptools: 18.0.1-py27_0
+    sqlite:     3.8.4.1-1    
+    system:     5.8-2        
+    tk:         8.5.18-0     
+    zlib:       1.2.8-0      
 
 Linking packages ...
 [                    ]|                                                  |   0%[openssl             ]|                                                  |   0%[readline            ]|#####                                             |  11%[sqlite              ]|###########                                       |  22%[system              ]|################                                  |  33%[tk                  ]|######################                            |  44%[zlib                ]|###########################                       |  55%[python              ]|#################################                 |  66%[setuptools          ]|######################################            |  77%[pip                 ]|############################################      |  88%[      COMPLETE      ]|##################################################| 100%
@@ -47,6 +53,14 @@ Removing old build directory
 Removing old work directory
 BUILD START: httplib2-0.9.1-py27_0
 Fetching package metadata: ......
+
+WARNING: conda-build appears to be out of date. You have version 1.13.0 but the
+latest version is 1.14.0. Run
+
+conda update -n root conda-build
+
+to get the latest version.
+
 Solving package specifications: .+ pip install httplib2
 Collecting httplib2
   Downloading http://localhost/packages/source/h/httplib2/httplib2-0.9.1.tar.gz (205kB)
@@ -56,15 +70,15 @@ Successfully installed httplib2-0.9.1
 
 The following NEW packages will be INSTALLED:
 
-    openssl:    1.0.1k-1    
-    pip:        7.0.3-py27_0
-    python:     2.7.10-0    
-    readline:   6.2-2       
-    setuptools: 17.0-py27_0 
-    sqlite:     3.8.4.1-1   
-    system:     5.8-2       
-    tk:         8.5.18-0    
-    zlib:       1.2.8-0     
+    openssl:    1.0.1k-1     
+    pip:        7.0.3-py27_0 
+    python:     2.7.10-0     
+    readline:   6.2-2        
+    setuptools: 18.0.1-py27_0
+    sqlite:     3.8.4.1-1    
+    system:     5.8-2        
+    tk:         8.5.18-0     
+    zlib:       1.2.8-0      
 
 Linking packages ...
 [                    ]|                                                  |   0%[openssl             ]|                                                  |   0%[readline            ]|#####                                             |  11%[sqlite              ]|###########                                       |  22%[system              ]|################                                  |  33%[tk                  ]|######################                            |  44%[zlib                ]|###########################                       |  55%[python              ]|#################################                 |  66%[setuptools          ]|######################################            |  77%[pip                 ]|############################################      |  88%[      COMPLETE      ]|##################################################| 100%
@@ -85,50 +99,87 @@ BUILD END: httplib2-0.9.1-py27_0
 
 Removing old build directory
 Removing old work directory
-BUILD START: python-instagram-1.3.1-py27_0
+BUILD START: six-1.9.0-py27_0
 Fetching package metadata: ......
-Solving package specifications: .+ pip install python-instagram
-Collecting python-instagram
-  Downloading http://localhost/packages/source/p/python-instagram/python-instagram-1.3.1.tar.gz
-Requirement already satisfied (use --upgrade to upgrade): simplejson in /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages (from python-instagram)
-Requirement already satisfied (use --upgrade to upgrade): httplib2 in /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages (from python-instagram)
-Requirement already satisfied (use --upgrade to upgrade): six in /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages (from python-instagram)
-Installing collected packages: python-instagram
-  Running setup.py install for python-instagram
-Successfully installed python-instagram-1.3.1
+
+WARNING: conda-build appears to be out of date. You have version 1.13.0 but the
+latest version is 1.14.0. Run
+
+conda update -n root conda-build
+
+to get the latest version.
+
+Solving package specifications: .+ pip install six
+Collecting six
+  Downloading http://localhost/packages/3.3/s/six/six-1.9.0-py2.py3-none-any.whl
+Installing collected packages: six
+Successfully installed six-1.9.0
 
 The following NEW packages will be INSTALLED:
 
-    httplib2:   0.9.1-py27_0
-    openssl:    1.0.1k-1    
-    pip:        7.0.3-py27_0
-    python:     2.7.10-0    
-    readline:   6.2-2       
-    setuptools: 17.0-py27_0 
-    simplejson: 3.7.3-py27_0
-    six:        1.9.0-py27_0
-    sqlite:     3.8.4.1-1   
-    system:     5.8-2       
-    tk:         8.5.18-0    
-    zlib:       1.2.8-0     
+    openssl:    1.0.1k-1     
+    pip:        7.0.3-py27_0 
+    python:     2.7.10-0     
+    readline:   6.2-2        
+    setuptools: 18.0.1-py27_0
+    sqlite:     3.8.4.1-1    
+    system:     5.8-2        
+    tk:         8.5.18-0     
+    zlib:       1.2.8-0      
 
 Linking packages ...
-[                    ]|                                                  |   0%[openssl             ]|                                                  |   0%[readline            ]|####                                              |   8%[sqlite              ]|########                                          |  16%[system              ]|############                                      |  25%[tk                  ]|################                                  |  33%[zlib                ]|####################                              |  41%[httplib2            ]|#########################                         |  50%[python              ]|#############################                     |  58%[setuptools          ]|#################################                 |  66%[simplejson          ]|#####################################             |  75%[six                 ]|#########################################         |  83%[pip                 ]|#############################################     |  91%[      COMPLETE      ]|##################################################| 100%
+[                    ]|                                                  |   0%[openssl             ]|                                                  |   0%[readline            ]|#####                                             |  11%[sqlite              ]|###########                                       |  22%[system              ]|################                                  |  33%[tk                  ]|######################                            |  44%[zlib                ]|###########################                       |  55%[python              ]|#################################                 |  66%[setuptools          ]|######################################            |  77%[pip                 ]|############################################      |  88%[      COMPLETE      ]|##################################################| 100%
 Removing old work directory
-Copying /home/ubuntu/pypi-conda-builds/python-instagram to /home/ubuntu/miniconda/conda-bld/work
-Package: python-instagram-1.3.1-py27_0
+Copying /home/ubuntu/pypi-conda-builds/six to /home/ubuntu/miniconda/conda-bld/work
+Package: six-1.9.0-py27_0
 source tree in: /home/ubuntu/miniconda/conda-bld/work
-number of files: 23
+number of files: 8
 Fixing permissions
 Fixing permissions
-BUILD END: python-instagram-1.3.1-py27_0
+BUILD END: six-1.9.0-py27_0
 # If you want to upload this package to binstar.org later, type:
 #
-# $ binstar upload /home/ubuntu/miniconda/conda-bld/linux-64/python-instagram-1.3.1-py27_0.tar.bz2
+# $ binstar upload /home/ubuntu/miniconda/conda-bld/linux-64/six-1.9.0-py27_0.tar.bz2
 #
 # To have conda build upload to binstar automatically, use
 # $ conda config --set binstar_upload yes
 
+Removing old build directory
+Removing old work directory
+BUILD START: python-instagram-1.3.1-py_0
+Fetching package metadata: ......
+
+WARNING: conda-build appears to be out of date. You have version 1.13.0 but the
+latest version is 1.14.0. Run
+
+conda update -n root conda-build
+
+to get the latest version.
+
+Solving package specifications: .................
+Warning: 2 possible package resolutions (only showing differing packages):
+	[u'httplib2-0.9.1-py_0.tar.bz2'],
+	[u'httplib2-0.9.1-py27_0.tar.bz2'],
+/home/ubuntu/miniconda/pkgs/httplib2-0.9.1-py_0/bin/.httplib2-pre-link.sh: line 2: /home/ubuntu/miniconda/envs/_build/bin/python: No such file or directory
+
+The following NEW packages will be INSTALLED:
+
+    httplib2:   0.9.1-py_0   
+    openssl:    1.0.1k-1     
+    pip:        7.0.3-py27_0 
+    python:     2.7.10-0     
+    readline:   6.2-2        
+    setuptools: 18.0.1-py27_0
+    simplejson: 3.7.3-py27_0 
+    six:        1.9.0-py27_0 
+    sqlite:     3.8.4.1-1    
+    system:     5.8-2        
+    tk:         8.5.18-0     
+    zlib:       1.2.8-0      
+
+Linking packages ...
+[                    ]|                                                  |   0%[openssl             ]|                                                  |   0%[readline            ]|####                                              |   8%[sqlite              ]|########                                          |  16%[system              ]|############                                      |  25%[tk                  ]|################                                  |  33%[zlib                ]|####################                              |  41%[httplib2            ]|#########################                         |  50%Error: pre-link failed: httplib2-0.9.1-py_0
+Package search: {'_pypi_ordering': False, 'version': '1.3.1', 'name': 'python-instagram', 'summary': 'Instagram API client'}
 Creating standard recipe for python-instagram-1.3.1
 Converting recipe in /home/ubuntu/pypi-conda-builds/python-instagram
 package = python-instagram
@@ -143,4 +194,9 @@ Converting recipe in /home/ubuntu/pypi-conda-builds/httplib2
 package = httplib2
    dependencies = []
 Building conda package for httplib2
+Creating standard recipe for six
+Converting recipe in /home/ubuntu/pypi-conda-builds/six
+package = six
+   dependencies = []
+Building conda package for six
 Building conda package for python-instagram

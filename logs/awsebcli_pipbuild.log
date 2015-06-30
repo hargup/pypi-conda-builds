@@ -1,0 +1,35 @@
+Error: prefix already exists: /home/ubuntu/miniconda/envs/_pipbuild_
+Collecting awsebcli==3.4.5
+  Could not find a version that satisfies the requirement awsebcli==3.4.5 (from versions: 3.0.1, 3.0.2, 3.0.3, 3.0.4, 3.0.5, 3.0.6, 3.0.7, 3.0.8, 3.0.9, 3.0.10, 3.0.11, 3.1, 3.1.1, 3.1.2, 3.1.3, 3.1.4, 3.2, 3.2.1, 3.2.2, 3.3, 3.3.1, 3.3.2, 3.4, 3.4.2, 3.4.3)
+No matching distribution found for awsebcli==3.4.5
+Package search: {'_pypi_ordering': False, 'version': '3.4.5', 'name': 'awsebcli', 'summary': 'Command Line Interface for AWS EB.'}
+Creating standard recipe for awsebcli-3.4.5
+Using url https://pypi.python.org/packages/source/a/awsebcli/awsebcli-3.4.5.tar.gz (855 KB) for awsebcli.
+Downloading awsebcli
+Using cached download
+Unpacking awsebcli...
+done
+working in /tmp/tmpumFxjHconda_skeleton_awsebcli-3.4.5.tar.gz
+Fetching package metadata: ......
+
+WARNING: conda-build appears to be out of date. You have version 1.13.0 but the
+latest version is 1.14.0. Run
+
+conda update -n root conda-build
+
+to get the latest version.
+
+Solving package specifications: .patching file core.py
+Hunk #1 succeeded at 168 with fuzz 2 (offset 2 lines).
+Traceback (most recent call last):
+  File "setup.py", line 4, in <module>
+    from setuptools import setup, find_packages
+ImportError: No module named setuptools
+
+Applying patch: '/tmp/tmpumFxjHconda_skeleton_awsebcli-3.4.5.tar.gz/pypi-distutils.patch'
+$PYTHONPATH = /tmp/tmpumFxjHconda_skeleton_awsebcli-3.4.5.tar.gz/awsebcli-3.4.5
+Error: command failed: /home/ubuntu/miniconda/envs/_build/bin/python setup.py install
+
+conda create -n _pipbuild_ --yes python pip
+/home/ubuntu/miniconda/envs/_pipbuild_/bin/pip install awsebcli==3.4.5
+Error: Could not pip install awsebcli==3.4.5

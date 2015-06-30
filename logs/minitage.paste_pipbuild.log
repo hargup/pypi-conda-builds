@@ -1,0 +1,35 @@
+Error: prefix already exists: /home/ubuntu/miniconda/envs/_pipbuild_
+Collecting minitage.paste==1.4.6
+  Downloading http://localhost/packages/source/m/minitage.paste/minitage.paste-1.4.6.zip (673kB)
+setuptools must be installed to install from a source distribution
+Package search: {'_pypi_ordering': False, 'version': '1.4.6', 'name': 'minitage.paste', 'summary': 'PasteScripts to facilitate use of minitage and creation of minitage based projects sponsored by Makina Corpus.'}
+Creating standard recipe for minitage.paste-1.4.6
+Using url https://pypi.python.org/packages/source/m/minitage.paste/minitage.paste-1.4.6.zip (658 KB) for minitage.paste.
+Downloading minitage.paste
+Using cached download
+Unpacking minitage.paste...
+done
+working in /tmp/tmpwuKdklconda_skeleton_minitage.paste-1.4.6.zip
+Fetching package metadata: ......
+
+WARNING: conda-build appears to be out of date. You have version 1.13.0 but the
+latest version is 1.14.0. Run
+
+conda update -n root conda-build
+
+to get the latest version.
+
+Solving package specifications: .patching file core.py
+Hunk #1 succeeded at 168 with fuzz 2 (offset 2 lines).
+Traceback (most recent call last):
+  File "setup.py", line 2, in <module>
+    from setuptools import setup, find_packages
+ImportError: No module named setuptools
+
+Applying patch: '/tmp/tmpwuKdklconda_skeleton_minitage.paste-1.4.6.zip/pypi-distutils.patch'
+$PYTHONPATH = /tmp/tmpwuKdklconda_skeleton_minitage.paste-1.4.6.zip/minitage.paste-1.4.6
+Error: command failed: /home/ubuntu/miniconda/envs/_build/bin/python setup.py install
+
+conda create -n _pipbuild_ --yes python pip
+/home/ubuntu/miniconda/envs/_pipbuild_/bin/pip install minitage.paste==1.4.6
+Error: Could not pip install minitage.paste==1.4.6

@@ -1,0 +1,35 @@
+Error: prefix already exists: /home/ubuntu/miniconda/envs/_pipbuild_
+Collecting django-countries==3.3
+  Downloading http://localhost/packages/source/d/django-countries/django-countries-3.3.tar.gz (245kB)
+setuptools must be installed to install from a source distribution
+Package search: {'_pypi_ordering': False, 'version': '3.3', 'name': 'django-countries', 'summary': 'Provides a country field for Django models.'}
+Creating standard recipe for django-countries-3.3
+Using url https://pypi.python.org/packages/source/d/django-countries/django-countries-3.3.tar.gz (240 KB) for django-countries.
+Downloading django-countries
+Using cached download
+Unpacking django-countries...
+done
+working in /tmp/tmpLm1_QPconda_skeleton_django-countries-3.3.tar.gz
+Fetching package metadata: ......
+
+WARNING: conda-build appears to be out of date. You have version 1.13.0 but the
+latest version is 1.14.0. Run
+
+conda update -n root conda-build
+
+to get the latest version.
+
+Solving package specifications: .patching file core.py
+Hunk #1 succeeded at 168 with fuzz 2 (offset 2 lines).
+Traceback (most recent call last):
+  File "setup.py", line 3, in <module>
+    from setuptools import setup, find_packages
+ImportError: No module named setuptools
+
+Applying patch: '/tmp/tmpLm1_QPconda_skeleton_django-countries-3.3.tar.gz/pypi-distutils.patch'
+$PYTHONPATH = /tmp/tmpLm1_QPconda_skeleton_django-countries-3.3.tar.gz/django-countries-3.3
+Error: command failed: /home/ubuntu/miniconda/envs/_build/bin/python setup.py install
+
+conda create -n _pipbuild_ --yes python pip
+/home/ubuntu/miniconda/envs/_pipbuild_/bin/pip install django-countries==3.3
+Error: Could not pip install django-countries==3.3

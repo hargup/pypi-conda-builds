@@ -1,32 +1,35 @@
 Error: prefix already exists: /home/ubuntu/miniconda/envs/_pipbuild_
-Exception:
-Traceback (most recent call last):
-  File "/home/ubuntu/miniconda/envs/_pipbuild_/lib/python2.7/site-packages/pip/basecommand.py", line 223, in main
-    status = self.run(options, args)
-  File "/home/ubuntu/miniconda/envs/_pipbuild_/lib/python2.7/site-packages/pip/commands/install.py", line 268, in run
-    wheel_cache
-  File "/home/ubuntu/miniconda/envs/_pipbuild_/lib/python2.7/site-packages/pip/basecommand.py", line 268, in populate_requirement_set
-    wheel_cache=wheel_cache
-  File "/home/ubuntu/miniconda/envs/_pipbuild_/lib/python2.7/site-packages/pip/req/req_install.py", line 207, in from_line
-    wheel_cache=wheel_cache)
-  File "/home/ubuntu/miniconda/envs/_pipbuild_/lib/python2.7/site-packages/pip/req/req_install.py", line 66, in __init__
-    req = pkg_resources.Requirement.parse(req)
-  File "/home/ubuntu/miniconda/envs/_pipbuild_/lib/python2.7/site-packages/pip/_vendor/pkg_resources/__init__.py", line 2960, in parse
-    reqs = list(parse_requirements(s))
-  File "/home/ubuntu/miniconda/envs/_pipbuild_/lib/python2.7/site-packages/pip/_vendor/pkg_resources/__init__.py", line 2904, in parse_requirements
-    "version spec")
-  File "/home/ubuntu/miniconda/envs/_pipbuild_/lib/python2.7/site-packages/pip/_vendor/pkg_resources/__init__.py", line 2869, in scan_list
-    raise ValueError(msg, line, "at", line[p:])
-ValueError: ('Expected version spec in', 'dogpile.core==>=0.4.1', 'at', '==>=0.4.1')
-
+Collecting dogpile.cache==0.5.6
+  Downloading http://localhost/packages/source/d/dogpile.cache/dogpile.cache-0.5.6.tar.gz (189kB)
+setuptools must be installed to install from a source distribution
 Package search: {'_pypi_ordering': False, 'version': '0.5.6', 'name': 'dogpile.cache', 'summary': 'A caching front-end based on the Dogpile lock.'}
 Creating standard recipe for dogpile.cache-0.5.6
-Converting recipe in /home/ubuntu/pypi-conda-builds/dogpile.cache
-package = dogpile.cache
-   dependencies = [u'dogpile.core >=0.4.1']
-Creating standard recipe for dogpile.core->=0.4.1
-Error: Version >=0.4.1 of dogpile.core is not available on PyPI.
+Using url https://pypi.python.org/packages/source/d/dogpile.cache/dogpile.cache-0.5.6.tar.gz (185 KB) for dogpile.cache.
+Downloading dogpile.cache
+Using cached download
+Unpacking dogpile.cache...
+done
+working in /tmp/tmpCFJO4aconda_skeleton_dogpile.cache-0.5.6.tar.gz
+Fetching package metadata: ......
+
+WARNING: conda-build appears to be out of date. You have version 1.13.0 but the
+latest version is 1.14.0. Run
+
+conda update -n root conda-build
+
+to get the latest version.
+
+Solving package specifications: .patching file core.py
+Hunk #1 succeeded at 168 with fuzz 2 (offset 2 lines).
+Traceback (most recent call last):
+  File "setup.py", line 4, in <module>
+    from setuptools import setup, find_packages
+ImportError: No module named setuptools
+
+Applying patch: '/tmp/tmpCFJO4aconda_skeleton_dogpile.cache-0.5.6.tar.gz/pypi-distutils.patch'
+$PYTHONPATH = /tmp/tmpCFJO4aconda_skeleton_dogpile.cache-0.5.6.tar.gz/dogpile.cache-0.5.6
+Error: command failed: /home/ubuntu/miniconda/envs/_build/bin/python setup.py install
 
 conda create -n _pipbuild_ --yes python pip
-/home/ubuntu/miniconda/envs/_pipbuild_/bin/pip install dogpile.core==>=0.4.1
-Error: Could not pip install dogpile.core==>=0.4.1
+/home/ubuntu/miniconda/envs/_pipbuild_/bin/pip install dogpile.cache==0.5.6
+Error: Could not pip install dogpile.cache==0.5.6

@@ -1,2 +1,61 @@
-Package search: {'_pypi_ordering': False, 'version': '2.6', 'name': 'psycopg2', 'summary': 'psycopg2 - Python-PostgreSQL Database Adapter'}
-Fetching package metadata: ....
+Removing old build directory
+Removing old work directory
+BUILD START: psycopg2-2.6.1-py_0
+Fetching package metadata: ......
+
+WARNING: conda-build appears to be out of date. You have version 1.13.0 but the
+latest version is 1.14.0. Run
+
+conda update -n root conda-build
+
+to get the latest version.
+
+Solving package specifications: .+ pip install psycopg2
+Collecting psycopg2
+  Downloading http://localhost/packages/source/p/psycopg2/psycopg2-2.6.tar.gz (367kB)
+    Complete output from command python setup.py egg_info:
+    running egg_info
+    creating pip-egg-info/psycopg2.egg-info
+    writing pip-egg-info/psycopg2.egg-info/PKG-INFO
+    writing top-level names to pip-egg-info/psycopg2.egg-info/top_level.txt
+    writing dependency_links to pip-egg-info/psycopg2.egg-info/dependency_links.txt
+    writing manifest file 'pip-egg-info/psycopg2.egg-info/SOURCES.txt'
+    warning: manifest_maker: standard file '-c' not found
+    
+    Error: pg_config executable not found.
+    
+    Please add the directory containing pg_config to the PATH
+    or specify the full executable path with the option:
+    
+        python setup.py build_ext --pg-config /path/to/pg_config build ...
+    
+    or with the pg_config option in 'setup.cfg'.
+    
+    ----------------------------------------
+Command "python setup.py egg_info" failed with error code 1 in /tmp/pip-build-wjoRDo/psycopg2
+
+The following NEW packages will be INSTALLED:
+
+    openssl:    1.0.1k-1     
+    pip:        7.0.3-py27_0 
+    python:     2.7.10-0     
+    readline:   6.2-2        
+    setuptools: 18.0.1-py27_0
+    sqlite:     3.8.4.1-1    
+    system:     5.8-2        
+    tk:         8.5.18-0     
+    zlib:       1.2.8-0      
+
+Linking packages ...
+[                    ]|                                                  |   0%[openssl             ]|                                                  |   0%[readline            ]|#####                                             |  11%[sqlite              ]|###########                                       |  22%[system              ]|################                                  |  33%[tk                  ]|######################                            |  44%[zlib                ]|###########################                       |  55%[python              ]|#################################                 |  66%[setuptools          ]|######################################            |  77%[pip                 ]|############################################      |  88%[      COMPLETE      ]|##################################################| 100%
+Removing old work directory
+Copying /home/ubuntu/pypi-conda-builds/psycopg2 to /home/ubuntu/miniconda/conda-bld/work
+Package: psycopg2-2.6.1-py_0
+source tree in: /home/ubuntu/miniconda/conda-bld/work
+Command failed: /bin/bash -x -e /home/ubuntu/pypi-conda-builds/psycopg2/build.sh
+Package search: {'_pypi_ordering': False, 'version': '2.6.1', 'name': 'psycopg2', 'summary': 'psycopg2 - Python-PostgreSQL Database Adapter'}
+Creating standard recipe for psycopg2-2.6.1
+Converting recipe in /home/ubuntu/pypi-conda-builds/psycopg2
+package = psycopg2
+   dependencies = []
+Building conda package for psycopg2

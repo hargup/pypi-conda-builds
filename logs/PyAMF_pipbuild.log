@@ -1,0 +1,45 @@
+Error: prefix already exists: /home/ubuntu/miniconda/envs/_pipbuild_
+Collecting PyAMF==0.7.2
+  Downloading http://localhost/packages/source/P/PyAMF/PyAMF-0.7.2.tar.gz (1.6MB)
+setuptools must be installed to install from a source distribution
+Package search: {'_pypi_ordering': False, 'version': '0.7.2', 'name': 'PyAMF', 'summary': 'AMF support for Python'}
+Creating standard recipe for pyamf-0.7.2
+Using url https://pypi.python.org/packages/source/P/PyAMF/PyAMF-0.7.2.tar.gz (1.6 MB) for PyAMF.
+Downloading PyAMF
+Using cached download
+Unpacking PyAMF...
+done
+working in /tmp/tmpa78pzxconda_skeleton_PyAMF-0.7.2.tar.gz
+Fetching package metadata: ......
+
+WARNING: conda-build appears to be out of date. You have version 1.13.0 but the
+latest version is 1.14.0. Run
+
+conda update -n root conda-build
+
+to get the latest version.
+
+Solving package specifications: .patching file core.py
+Hunk #1 succeeded at 168 with fuzz 2 (offset 2 lines).
+Traceback (most recent call last):
+  File "setup.py", line 7, in <module>
+    import setupinfo
+  File "/tmp/tmpa78pzxconda_skeleton_PyAMF-0.7.2.tar.gz/PyAMF-0.7.2/setupinfo.py", line 17, in <module>
+    from setuptools.command.build_ext import build_ext
+ImportError: No module named setuptools.command.build_ext
+
+The following NEW packages will be INSTALLED:
+
+    numpy:  1.9.2-py27_0
+    pyyaml: 3.11-py27_1 
+    yaml:   0.1.6-0     
+
+Linking packages ...
+[                    ]|                                                  |   0%[yaml                ]|                                                  |   0%[numpy               ]|################                                  |  33%[pyyaml              ]|#################################                 |  66%[      COMPLETE      ]|##################################################| 100%
+Applying patch: '/tmp/tmpa78pzxconda_skeleton_PyAMF-0.7.2.tar.gz/pypi-distutils.patch'
+$PYTHONPATH = /tmp/tmpa78pzxconda_skeleton_PyAMF-0.7.2.tar.gz/PyAMF-0.7.2
+Error: command failed: /home/ubuntu/miniconda/envs/_build/bin/python setup.py install
+
+conda create -n _pipbuild_ --yes python pip
+/home/ubuntu/miniconda/envs/_pipbuild_/bin/pip install PyAMF==0.7.2
+Error: Could not pip install PyAMF==0.7.2

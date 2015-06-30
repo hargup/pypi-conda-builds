@@ -1,0 +1,35 @@
+Error: prefix already exists: /home/ubuntu/miniconda/envs/_pipbuild_
+Collecting Flask-Cache==0.13.1
+  Downloading http://localhost/packages/source/F/Flask-Cache/Flask-Cache-0.13.1.tar.gz (45kB)
+setuptools must be installed to install from a source distribution
+Package search: {'_pypi_ordering': False, 'version': '0.13.1', 'name': 'Flask-Cache', 'summary': 'Adds cache support to your Flask application'}
+Creating standard recipe for flask-cache-0.13.1
+Using url https://pypi.python.org/packages/source/F/Flask-Cache/Flask-Cache-0.13.1.tar.gz (45 KB) for Flask-Cache.
+Downloading Flask-Cache
+Using cached download
+Unpacking Flask-Cache...
+done
+working in /tmp/tmpwDHtY7conda_skeleton_Flask-Cache-0.13.1.tar.gz
+Fetching package metadata: ......
+
+WARNING: conda-build appears to be out of date. You have version 1.13.0 but the
+latest version is 1.14.0. Run
+
+conda update -n root conda-build
+
+to get the latest version.
+
+Solving package specifications: .patching file core.py
+Hunk #1 succeeded at 168 with fuzz 2 (offset 2 lines).
+Traceback (most recent call last):
+  File "setup.py", line 10, in <module>
+    from setuptools import setup
+ImportError: No module named setuptools
+
+Applying patch: '/tmp/tmpwDHtY7conda_skeleton_Flask-Cache-0.13.1.tar.gz/pypi-distutils.patch'
+$PYTHONPATH = /tmp/tmpwDHtY7conda_skeleton_Flask-Cache-0.13.1.tar.gz/Flask-Cache-0.13.1
+Error: command failed: /home/ubuntu/miniconda/envs/_build/bin/python setup.py install
+
+conda create -n _pipbuild_ --yes python pip
+/home/ubuntu/miniconda/envs/_pipbuild_/bin/pip install Flask-Cache==0.13.1
+Error: Could not pip install Flask-Cache==0.13.1

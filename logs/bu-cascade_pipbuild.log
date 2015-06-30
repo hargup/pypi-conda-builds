@@ -1,98 +1,43 @@
-Removing old build directory
-Removing old work directory
-BUILD START: suds-0.4-py27_0
-Fetching package metadata: ......
-Solving package specifications: .+ pip install suds
-Collecting suds
-  Downloading http://localhost/packages/source/s/suds/suds-0.4.tar.gz (104kB)
-Installing collected packages: suds
-  Running setup.py install for suds
-Successfully installed suds-0.4
-
-The following NEW packages will be INSTALLED:
-
-    openssl:    1.0.1k-1    
-    pip:        7.0.3-py27_0
-    python:     2.7.10-0    
-    readline:   6.2-2       
-    setuptools: 17.0-py27_0 
-    sqlite:     3.8.4.1-1   
-    system:     5.8-2       
-    tk:         8.5.18-0    
-    zlib:       1.2.8-0     
-
-Linking packages ...
-[                    ]|                                                  |   0%[openssl             ]|                                                  |   0%[readline            ]|#####                                             |  11%[sqlite              ]|###########                                       |  22%[system              ]|################                                  |  33%[tk                  ]|######################                            |  44%[zlib                ]|###########################                       |  55%[python              ]|#################################                 |  66%[setuptools          ]|######################################            |  77%[pip                 ]|############################################      |  88%[      COMPLETE      ]|##################################################| 100%
-Removing old work directory
-Copying /home/ubuntu/pypi-conda-builds/suds to /home/ubuntu/miniconda/conda-bld/work
-Package: suds-0.4-py27_0
-source tree in: /home/ubuntu/miniconda/conda-bld/work
-number of files: 170
-Fixing permissions
-Fixing permissions
-BUILD END: suds-0.4-py27_0
-# If you want to upload this package to binstar.org later, type:
-#
-# $ binstar upload /home/ubuntu/miniconda/conda-bld/linux-64/suds-0.4-py27_0.tar.bz2
-#
-# To have conda build upload to binstar automatically, use
-# $ conda config --set binstar_upload yes
-
-Removing old build directory
-Removing old work directory
-BUILD START: bu-cascade-1.98-py_0
-Fetching package metadata: ......
-Solving package specifications: .................
-Warning: 2 possible package resolutions (only showing differing packages):
-	[u'suds-0.4-py_0.tar.bz2'],
-	[u'suds-0.4-py27_0.tar.bz2'],
-+ pip install bu-cascade
-Collecting bu-cascade
-  Downloading http://localhost/packages/source/b/bu-cascade/bu_cascade-1.97.tar.gz
-Requirement already satisfied (use --upgrade to upgrade): suds in /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages (from bu-cascade)
-Installing collected packages: bu-cascade
-  Running setup.py install for bu-cascade
-Successfully installed bu-cascade-1.97
-
-The following NEW packages will be INSTALLED:
-
-    openssl:    1.0.1k-1    
-    pip:        7.0.3-py27_0
-    python:     2.7.10-0    
-    readline:   6.2-2       
-    setuptools: 17.0-py27_0 
-    sqlite:     3.8.4.1-1   
-    suds:       0.4-py_0    
-    system:     5.8-2       
-    tk:         8.5.18-0    
-    zlib:       1.2.8-0     
-
-Linking packages ...
-[                    ]|                                                  |   0%[openssl             ]|                                                  |   0%[readline            ]|#####                                             |  10%[sqlite              ]|##########                                        |  20%[system              ]|###############                                   |  30%[tk                  ]|####################                              |  40%[zlib                ]|#########################                         |  50%[python              ]|##############################                    |  60%[setuptools          ]|###################################               |  70%[suds                ]|########################################          |  80%[pip                 ]|#############################################     |  90%[      COMPLETE      ]|##################################################| 100%
-Removing old work directory
-Copying /home/ubuntu/pypi-conda-builds/bu-cascade to /home/ubuntu/miniconda/conda-bld/work
-Package: bu-cascade-1.98-py_0
-source tree in: /home/ubuntu/miniconda/conda-bld/work
-compiling .pyc files...
-number of files: 84
-Fixing permissions
-Fixing permissions
-BUILD END: bu-cascade-1.98-py_0
-# If you want to upload this package to binstar.org later, type:
-#
-# $ binstar upload /home/ubuntu/miniconda/conda-bld/noarch/bu-cascade-1.98-py_0.tar.bz2
-#
-# To have conda build upload to binstar automatically, use
-# $ conda config --set binstar_upload yes
-
+Error: prefix already exists: /home/ubuntu/miniconda/envs/_pipbuild_
+Collecting bu-cascade==1.98
+  Could not find a version that satisfies the requirement bu-cascade==1.98 (from versions: 0.1, 0.2, 0.3, 0.4, 0.5, 1.0, 1.1, 1.2, 1.4, 1.5, 1.8, 1.9, 1.21, 1.22, 1.23, 1.24, 1.25, 1.26, 1.27, 1.28, 1.29, 1.31, 1.32, 1.33, 1.34, 1.35, 1.36, 1.37, 1.38, 1.39, 1.41, 1.42, 1.43, 1.44, 1.45, 1.47, 1.48, 1.49, 1.51, 1.52, 1.53, 1.54, 1.55, 1.56, 1.57, 1.58, 1.59, 1.61, 1.62, 1.63, 1.64, 1.65, 1.66, 1.67, 1.68, 1.69, 1.71, 1.72, 1.73, 1.74, 1.75, 1.76, 1.77, 1.78, 1.79, 1.81, 1.82, 1.83, 1.84, 1.85, 1.86, 1.87, 1.88, 1.91, 1.92, 1.93, 1.94, 1.95, 1.96, 1.97)
+No matching distribution found for bu-cascade==1.98
 Package search: {'_pypi_ordering': False, 'version': '1.98', 'name': 'bu-cascade', 'summary': 'Cascade Server web services integration'}
 Creating standard recipe for bu-cascade-1.98
-Converting recipe in /home/ubuntu/pypi-conda-builds/bu-cascade
-package = bu-cascade
-   dependencies = [u'suds']
-Creating standard recipe for suds
-Converting recipe in /home/ubuntu/pypi-conda-builds/suds
-package = suds
-   dependencies = []
-Building conda package for suds
-Building conda package for bu-cascade
+Using url https://pypi.python.org/packages/source/b/bu-cascade/bu_cascade-1.98.tar.gz (4 KB) for bu-cascade.
+Downloading bu-cascade
+Using cached download
+Unpacking bu-cascade...
+done
+working in /tmp/tmpdwM4sbconda_skeleton_bu_cascade-1.98.tar.gz
+Fetching package metadata: ......
+
+WARNING: conda-build appears to be out of date. You have version 1.13.0 but the
+latest version is 1.14.0. Run
+
+conda update -n root conda-build
+
+to get the latest version.
+
+Solving package specifications: .patching file core.py
+Hunk #1 succeeded at 168 with fuzz 2 (offset 2 lines).
+Traceback (most recent call last):
+  File "setup.py", line 1, in <module>
+    from setuptools import find_packages
+ImportError: No module named setuptools
+
+The following NEW packages will be INSTALLED:
+
+    numpy:  1.9.2-py27_0
+    pyyaml: 3.11-py27_1 
+    yaml:   0.1.6-0     
+
+Linking packages ...
+[                    ]|                                                  |   0%[yaml                ]|                                                  |   0%[numpy               ]|################                                  |  33%[pyyaml              ]|#################################                 |  66%[      COMPLETE      ]|##################################################| 100%
+Applying patch: '/tmp/tmpdwM4sbconda_skeleton_bu_cascade-1.98.tar.gz/pypi-distutils.patch'
+$PYTHONPATH = /tmp/tmpdwM4sbconda_skeleton_bu_cascade-1.98.tar.gz/bu_cascade-1.98
+Error: command failed: /home/ubuntu/miniconda/envs/_build/bin/python setup.py install
+
+conda create -n _pipbuild_ --yes python pip
+/home/ubuntu/miniconda/envs/_pipbuild_/bin/pip install bu-cascade==1.98
+Error: Could not pip install bu-cascade==1.98

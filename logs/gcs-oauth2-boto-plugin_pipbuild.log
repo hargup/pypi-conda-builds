@@ -1,0 +1,35 @@
+Error: prefix already exists: /home/ubuntu/miniconda/envs/_pipbuild_
+Collecting gcs-oauth2-boto-plugin==1.9
+  Downloading http://localhost/packages/source/g/gcs-oauth2-boto-plugin/gcs-oauth2-boto-plugin-1.9.tar.gz
+setuptools must be installed to install from a source distribution
+Package search: {'_pypi_ordering': False, 'version': '1.9', 'name': 'gcs-oauth2-boto-plugin', 'summary': 'Auth plugin allowing use the use of OAuth 2.0 credentials for Google Cloud Storage in the Boto library.'}
+Creating standard recipe for gcs-oauth2-boto-plugin-1.9
+Using url https://pypi.python.org/packages/source/g/gcs-oauth2-boto-plugin/gcs-oauth2-boto-plugin-1.9.tar.gz (14 KB) for gcs-oauth2-boto-plugin.
+Downloading gcs-oauth2-boto-plugin
+Using cached download
+Unpacking gcs-oauth2-boto-plugin...
+done
+working in /tmp/tmpfTndYNconda_skeleton_gcs-oauth2-boto-plugin-1.9.tar.gz
+Fetching package metadata: ......
+
+WARNING: conda-build appears to be out of date. You have version 1.13.0 but the
+latest version is 1.14.0. Run
+
+conda update -n root conda-build
+
+to get the latest version.
+
+Solving package specifications: .patching file core.py
+Hunk #1 succeeded at 168 with fuzz 2 (offset 2 lines).
+Traceback (most recent call last):
+  File "setup.py", line 20, in <module>
+    from setuptools import find_packages
+ImportError: No module named setuptools
+
+Applying patch: '/tmp/tmpfTndYNconda_skeleton_gcs-oauth2-boto-plugin-1.9.tar.gz/pypi-distutils.patch'
+$PYTHONPATH = /tmp/tmpfTndYNconda_skeleton_gcs-oauth2-boto-plugin-1.9.tar.gz/gcs-oauth2-boto-plugin-1.9
+Error: command failed: /home/ubuntu/miniconda/envs/_build/bin/python setup.py install
+
+conda create -n _pipbuild_ --yes python pip
+/home/ubuntu/miniconda/envs/_pipbuild_/bin/pip install gcs-oauth2-boto-plugin==1.9
+Error: Could not pip install gcs-oauth2-boto-plugin==1.9

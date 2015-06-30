@@ -1,32 +1,35 @@
 Error: prefix already exists: /home/ubuntu/miniconda/envs/_pipbuild_
-Exception:
-Traceback (most recent call last):
-  File "/home/ubuntu/miniconda/envs/_pipbuild_/lib/python2.7/site-packages/pip/basecommand.py", line 223, in main
-    status = self.run(options, args)
-  File "/home/ubuntu/miniconda/envs/_pipbuild_/lib/python2.7/site-packages/pip/commands/install.py", line 268, in run
-    wheel_cache
-  File "/home/ubuntu/miniconda/envs/_pipbuild_/lib/python2.7/site-packages/pip/basecommand.py", line 268, in populate_requirement_set
-    wheel_cache=wheel_cache
-  File "/home/ubuntu/miniconda/envs/_pipbuild_/lib/python2.7/site-packages/pip/req/req_install.py", line 207, in from_line
-    wheel_cache=wheel_cache)
-  File "/home/ubuntu/miniconda/envs/_pipbuild_/lib/python2.7/site-packages/pip/req/req_install.py", line 66, in __init__
-    req = pkg_resources.Requirement.parse(req)
-  File "/home/ubuntu/miniconda/envs/_pipbuild_/lib/python2.7/site-packages/pip/_vendor/pkg_resources/__init__.py", line 2960, in parse
-    reqs = list(parse_requirements(s))
-  File "/home/ubuntu/miniconda/envs/_pipbuild_/lib/python2.7/site-packages/pip/_vendor/pkg_resources/__init__.py", line 2904, in parse_requirements
-    "version spec")
-  File "/home/ubuntu/miniconda/envs/_pipbuild_/lib/python2.7/site-packages/pip/_vendor/pkg_resources/__init__.py", line 2869, in scan_list
-    raise ValueError(msg, line, "at", line[p:])
-ValueError: ('Expected version spec in', 'lxml==>=2.1', 'at', '==>=2.1')
-
+Collecting pyquery==1.2.9
+  Downloading http://localhost/packages/source/p/pyquery/pyquery-1.2.9.zip (45kB)
+setuptools must be installed to install from a source distribution
 Package search: {'_pypi_ordering': False, 'version': '1.2.9', 'name': 'pyquery', 'summary': 'A jquery-like library for python'}
 Creating standard recipe for pyquery-1.2.9
-Converting recipe in /home/ubuntu/pypi-conda-builds/pyquery
-package = pyquery
-   dependencies = [u'lxml >=2.1', u'cssselect']
-Creating standard recipe for lxml->=2.1
-Error: Version >=2.1 of lxml is not available on PyPI.
+Using url https://pypi.python.org/packages/source/p/pyquery/pyquery-1.2.9.zip (44 KB) for pyquery.
+Downloading pyquery
+Using cached download
+Unpacking pyquery...
+done
+working in /tmp/tmpeKfHrwconda_skeleton_pyquery-1.2.9.zip
+Fetching package metadata: ......
+
+WARNING: conda-build appears to be out of date. You have version 1.13.0 but the
+latest version is 1.14.0. Run
+
+conda update -n root conda-build
+
+to get the latest version.
+
+Solving package specifications: .patching file core.py
+Hunk #1 succeeded at 168 with fuzz 2 (offset 2 lines).
+Traceback (most recent call last):
+  File "setup.py", line 7, in <module>
+    from setuptools import setup, find_packages
+ImportError: No module named setuptools
+
+Applying patch: '/tmp/tmpeKfHrwconda_skeleton_pyquery-1.2.9.zip/pypi-distutils.patch'
+$PYTHONPATH = /tmp/tmpeKfHrwconda_skeleton_pyquery-1.2.9.zip/pyquery-1.2.9
+Error: command failed: /home/ubuntu/miniconda/envs/_build/bin/python setup.py install
 
 conda create -n _pipbuild_ --yes python pip
-/home/ubuntu/miniconda/envs/_pipbuild_/bin/pip install lxml==>=2.1
-Error: Could not pip install lxml==>=2.1
+/home/ubuntu/miniconda/envs/_pipbuild_/bin/pip install pyquery==1.2.9
+Error: Could not pip install pyquery==1.2.9

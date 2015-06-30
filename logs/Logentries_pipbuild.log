@@ -1,0 +1,90 @@
+Error: prefix already exists: /home/ubuntu/miniconda/envs/_pipbuild_
+Collecting certifi==2015.04.28
+  Downloading http://localhost/packages/2.7/c/certifi/certifi-2015.04.28-py2.py3-none-any.whl (373kB)
+Installing collected packages: certifi
+Successfully installed certifi-2015.4.28
+Traceback (most recent call last):
+  File "__tmpfile__.py", line 1, in <module>
+    import pkg_resources;
+ImportError: No module named pkg_resources
+An unexpected error has occurred, please consider sending the
+following traceback to the conda GitHub issue tracker at:
+
+    https://github.com/conda/conda-build/issues
+
+Include the output of the command 'conda info' in your report.
+
+
+Package search: {'_pypi_ordering': False, 'version': '0.7', 'name': 'Logentries', 'summary': 'Python Logger plugin to send logs to Logentries'}
+Creating standard recipe for logentries-0.7
+Converting recipe in /home/ubuntu/pypi-conda-builds/logentries
+package = Logentries
+   dependencies = [u'certifi']
+Creating standard recipe for certifi
+Warning, the following versions were found for certifi
+2015.04.28
+14.05.14
+1.0.1
+1.0.0
+0.0.8
+0.0.7
+0.0.6
+0.0.5
+0.0.4
+0.0.3
+0.0.2
+0.0.1
+0
+Using 2015.04.28
+Use --version to specify a different version.
+Using url https://pypi.python.org/packages/source/c/certifi/certifi-2015.04.28.tar.gz (362 KB) for certifi.
+Downloading certifi
+Using cached download
+Unpacking certifi...
+done
+working in /tmp/tmpvuqKn2conda_skeleton_certifi-2015.04.28.tar.gz
+Fetching package metadata: ......
+
+WARNING: conda-build appears to be out of date. You have version 1.13.0 but the
+latest version is 1.14.0. Run
+
+conda update -n root conda-build
+
+to get the latest version.
+
+Solving package specifications: .patching file core.py
+Hunk #1 succeeded at 168 with fuzz 2 (offset 2 lines).
+Traceback (most recent call last):
+  File "setup.py", line 7, in <module>
+    from setuptools import setup
+ImportError: No module named setuptools
+
+Applying patch: '/tmp/tmpvuqKn2conda_skeleton_certifi-2015.04.28.tar.gz/pypi-distutils.patch'
+$PYTHONPATH = /tmp/tmpvuqKn2conda_skeleton_certifi-2015.04.28.tar.gz/certifi-2015.04.28
+Error: command failed: /home/ubuntu/miniconda/envs/_build/bin/python setup.py install
+
+conda create -n _pipbuild_ --yes python pip
+/home/ubuntu/miniconda/envs/_pipbuild_/bin/pip install certifi==2015.04.28
+Getting dependencies...
+Traceback (most recent call last):
+  File "/home/ubuntu/miniconda/bin/conda-pipbuild", line 6, in <module>
+    exec(compile(open(__file__).read(), __file__, 'exec'))
+  File "/home/ubuntu/conda-build/bin/conda-pipbuild", line 5, in <module>
+    sys.exit(main())
+  File "/home/ubuntu/conda-build/conda_build/main_pipbuild.py", line 80, in main
+    args_func(args, p)
+  File "/home/ubuntu/conda-build/conda_build/main_build.py", line 349, in args_func
+    args.func(args, p)
+  File "/home/ubuntu/conda-build/conda_build/main_pipbuild.py", line 360, in execute
+    build_package(package, version, noarch_python=args.noarch_python)
+  File "/home/ubuntu/conda-build/conda_build/main_pipbuild.py", line 314, in build_package
+    build_package(depend)
+  File "/home/ubuntu/conda-build/conda_build/main_pipbuild.py", line 304, in build_package
+    noarch_python=noarch_python)
+  File "/home/ubuntu/conda-build/conda_build/main_pipbuild.py", line 240, in make_recipe
+    depends = get_all_dependencies(package, version)
+  File "/home/ubuntu/conda-build/conda_build/main_pipbuild.py", line 219, in get_all_dependencies
+    output = subprocess.check_output(cmd3args)
+  File "/home/ubuntu/miniconda/lib/python2.7/subprocess.py", line 573, in check_output
+    raise CalledProcessError(retcode, cmd, output=output)
+subprocess.CalledProcessError: Command '['/home/ubuntu/miniconda/envs/_pipbuild_/bin/python', '__tmpfile__.py']' returned non-zero exit status 1

@@ -1,0 +1,219 @@
+Removing old build directory
+Removing old work directory
+BUILD START: chardet-2.3.0-py27_0
+Fetching package metadata: ......
+
+WARNING: conda-build appears to be out of date. You have version 1.13.0 but the
+latest version is 1.14.1. Run
+
+conda update -n root conda-build
+
+to get the latest version.
+
+Solving package specifications: .+ pip install chardet
+Collecting chardet
+  Downloading http://localhost/packages/source/c/chardet/chardet-2.3.0.tar.gz (164kB)
+Installing collected packages: chardet
+  Running setup.py install for chardet
+Successfully installed chardet-2.3.0
+
+The following NEW packages will be INSTALLED:
+
+    openssl:    1.0.1k-1     
+    pip:        7.0.3-py27_0 
+    python:     2.7.10-0     
+    readline:   6.2-2        
+    setuptools: 18.0.1-py27_0
+    sqlite:     3.8.4.1-1    
+    system:     5.8-2        
+    tk:         8.5.18-0     
+    zlib:       1.2.8-0      
+
+Linking packages ...
+[                    ]|                                                  |   0%[openssl             ]|                                                  |   0%[readline            ]|#####                                             |  11%[sqlite              ]|###########                                       |  22%[system              ]|################                                  |  33%[tk                  ]|######################                            |  44%[zlib                ]|###########################                       |  55%[python              ]|#################################                 |  66%[setuptools          ]|######################################            |  77%[pip                 ]|############################################      |  88%[      COMPLETE      ]|##################################################| 100%
+Removing old work directory
+Copying /home/ubuntu/pypi-conda-builds/chardet to /home/ubuntu/miniconda/conda-bld/work
+Package: chardet-2.3.0-py27_0
+source tree in: /home/ubuntu/miniconda/conda-bld/work
+number of files: 83
+Fixing permissions
+Detected hard-coded path in text file bin/chardetect
+Fixing permissions
+BUILD END: chardet-2.3.0-py27_0
+# If you want to upload this package to binstar.org later, type:
+#
+# $ binstar upload /home/ubuntu/miniconda/conda-bld/linux-64/chardet-2.3.0-py27_0.tar.bz2
+#
+# To have conda build upload to binstar automatically, use
+# $ conda config --set binstar_upload yes
+
+Removing old build directory
+Removing old work directory
+BUILD START: asyncio-3.4.3-py27_0
+Fetching package metadata: ......
+
+WARNING: conda-build appears to be out of date. You have version 1.13.0 but the
+latest version is 1.14.1. Run
+
+conda update -n root conda-build
+
+to get the latest version.
+
+Solving package specifications: .+ pip install asyncio
+Collecting asyncio
+  Downloading http://localhost/packages/source/a/asyncio/asyncio-3.4.3.tar.gz (204kB)
+Installing collected packages: asyncio
+  Running setup.py install for asyncio
+Successfully installed asyncio-3.4.3
+Compiling /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/asyncio/base_events.py ...
+  File "/home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/asyncio/base_events.py", line 177
+    yield from waiter
+             ^
+SyntaxError: invalid syntax
+
+Compiling /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/asyncio/base_subprocess.py ...
+  File "/home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/asyncio/base_subprocess.py", line 151
+    _, pipe = yield from loop.connect_write_pipe(
+                       ^
+SyntaxError: invalid syntax
+
+Compiling /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/asyncio/coroutines.py ...
+  File "/home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/asyncio/coroutines.py", line 46
+    yield from gen
+             ^
+SyntaxError: invalid syntax
+
+Compiling /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/asyncio/events.py ...
+  File "/home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/asyncio/events.py", line 282
+    def getaddrinfo(self, host, port, *, family=0, type=0, proto=0, flags=0):
+                                       ^
+SyntaxError: invalid syntax
+
+Compiling /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/asyncio/futures.py ...
+  File "/home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/asyncio/futures.py", line 143
+    def __init__(self, *, loop=None):
+                        ^
+SyntaxError: invalid syntax
+
+Compiling /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/asyncio/locks.py ...
+  File "/home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/asyncio/locks.py", line 96
+    def __init__(self, *, loop=None):
+                        ^
+SyntaxError: invalid syntax
+
+Compiling /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/asyncio/proactor_events.py ...
+  File "/home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/asyncio/proactor_events.py", line 386
+    *, server_side=False, server_hostname=None,
+     ^
+SyntaxError: invalid syntax
+
+Compiling /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/asyncio/queues.py ...
+  File "/home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/asyncio/queues.py", line 41
+    def __init__(self, maxsize=0, *, loop=None):
+                                   ^
+SyntaxError: invalid syntax
+
+Compiling /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/asyncio/selector_events.py ...
+  File "/home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/asyncio/selector_events.py", line 57
+    def _make_socket_transport(self, sock, protocol, waiter=None, *,
+                                                                   ^
+SyntaxError: invalid syntax
+
+Compiling /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/asyncio/selectors.py ...
+  File "/home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/asyncio/selectors.py", line 39
+    "{!r}".format(fileobj)) from None
+                               ^
+SyntaxError: invalid syntax
+
+Compiling /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/asyncio/streams.py ...
+  File "/home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/asyncio/streams.py", line 39
+    def open_connection(host=None, port=None, *,
+                                               ^
+SyntaxError: invalid syntax
+
+Compiling /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/asyncio/subprocess.py ...
+  File "/home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/asyncio/subprocess.py", line 118
+    return (yield from self._transport._wait())
+                     ^
+SyntaxError: invalid syntax
+
+Compiling /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/asyncio/tasks.py ...
+  File "/home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/asyncio/tasks.py", line 70
+    def __init__(self, coro, *, loop=None):
+                              ^
+SyntaxError: invalid syntax
+
+Compiling /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/asyncio/test_utils.py ...
+  File "/home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/asyncio/test_utils.py", line 134
+    def _run_test_server(*, address, use_ssl=False, server_cls, server_ssl_cls):
+                          ^
+SyntaxError: invalid syntax
+
+Compiling /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/asyncio/unix_events.py ...
+  File "/home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/asyncio/unix_events.py", line 188
+    yield from waiter
+             ^
+SyntaxError: invalid syntax
+
+Compiling /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/asyncio/windows_events.py ...
+  File "/home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/asyncio/windows_events.py", line 45
+    def __init__(self, ov, *, loop=None):
+                            ^
+SyntaxError: invalid syntax
+
+Compiling /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/asyncio/windows_utils.py ...
+  File "/home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/asyncio/windows_utils.py", line 83
+    def pipe(*, duplex=False, overlapped=(True, True), bufsize=BUFSIZE):
+              ^
+SyntaxError: invalid syntax
+
+
+The following NEW packages will be INSTALLED:
+
+    openssl:    1.0.1k-1     
+    pip:        7.0.3-py27_0 
+    python:     2.7.10-0     
+    readline:   6.2-2        
+    setuptools: 18.0.1-py27_0
+    sqlite:     3.8.4.1-1    
+    system:     5.8-2        
+    tk:         8.5.18-0     
+    zlib:       1.2.8-0      
+
+Linking packages ...
+[                    ]|                                                  |   0%[openssl             ]|                                                  |   0%[readline            ]|#####                                             |  11%[sqlite              ]|###########                                       |  22%[system              ]|################                                  |  33%[tk                  ]|######################                            |  44%[zlib                ]|###########################                       |  55%[python              ]|#################################                 |  66%[setuptools          ]|######################################            |  77%[pip                 ]|############################################      |  88%[      COMPLETE      ]|##################################################| 100%
+Removing old work directory
+Copying /home/ubuntu/pypi-conda-builds/asyncio to /home/ubuntu/miniconda/conda-bld/work
+Package: asyncio-3.4.3-py27_0
+source tree in: /home/ubuntu/miniconda/conda-bld/work
+compiling .pyc files...
+Command failed: /home/ubuntu/miniconda/envs/_build/bin/python -Wi /home/ubuntu/miniconda/envs/_build/lib/python2.7/compileall.py -q -x port_v3 /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages
+Removing old build directory
+Removing old work directory
+BUILD START: aiohttp-0.16.5-py_0
+Fetching package metadata: ......
+
+WARNING: conda-build appears to be out of date. You have version 1.13.0 but the
+latest version is 1.14.1. Run
+
+conda update -n root conda-build
+
+to get the latest version.
+
+Error: No packages found in current linux-64 channels matching: asyncio
+Package search: {'_pypi_ordering': False, 'version': '0.16.5', 'name': 'aiohttp', 'summary': 'http client/server for asyncio'}
+Creating standard recipe for aiohttp-0.16.5
+Converting recipe in /home/ubuntu/pypi-conda-builds/aiohttp
+package = aiohttp
+   dependencies = [u'chardet', u'asyncio']
+Creating standard recipe for chardet
+Converting recipe in /home/ubuntu/pypi-conda-builds/chardet
+package = chardet
+   dependencies = []
+Building conda package for chardet
+Creating standard recipe for asyncio
+Converting recipe in /home/ubuntu/pypi-conda-builds/asyncio
+package = asyncio
+   dependencies = []
+Building conda package for asyncio
+Building conda package for aiohttp

@@ -1,0 +1,9 @@
+Removing old build directory
+Removing old work directory
+Error: bad character '-' in package/version: 1.2.3-4
+Package search: {'_pypi_ordering': False, 'version': '1.2.3-4', 'name': 'bitmath', 'summary': 'Pythonic module for representing and manipulating file sizes with different prefix notations.'}
+Creating standard recipe for bitmath-1.2.3-4
+Converting recipe in /home/ubuntu/pypi-conda-builds/bitmath
+package = bitmath
+   dependencies = []
+Building conda package for bitmath

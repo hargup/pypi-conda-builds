@@ -1,0 +1,35 @@
+Error: prefix already exists: /home/ubuntu/miniconda/envs/_pipbuild_
+Collecting djangocms-admin-style==0.2.7
+  Could not find a version that satisfies the requirement djangocms-admin-style==0.2.7 (from versions: 0.0.8, 0.0.9, 0.0.10, 0.0.11, 0.0.12, 0.0.13, 0.0.14, 0.0.15, 0.1.0, 0.1.1, 0.1.2, 0.1.3, 0.1.4, 0.2.0, 0.2.1, 0.2.2, 0.2.3, 0.2.4, 0.2.5)
+No matching distribution found for djangocms-admin-style==0.2.7
+Package search: {'_pypi_ordering': False, 'version': '0.2.7', 'name': 'djangocms-admin-style', 'summary': 'Adds pretty CSS styles for the django CMS admin interface.'}
+Creating standard recipe for djangocms-admin-style-0.2.7
+Using url https://pypi.python.org/packages/source/d/djangocms-admin-style/djangocms-admin-style-0.2.7.tar.gz (373 KB) for djangocms-admin-style.
+Downloading djangocms-admin-style
+Using cached download
+Unpacking djangocms-admin-style...
+done
+working in /tmp/tmpul8Adeconda_skeleton_djangocms-admin-style-0.2.7.tar.gz
+Fetching package metadata: ......
+
+WARNING: conda-build appears to be out of date. You have version 1.13.0 but the
+latest version is 1.14.0. Run
+
+conda update -n root conda-build
+
+to get the latest version.
+
+Solving package specifications: .patching file core.py
+Hunk #1 succeeded at 168 with fuzz 2 (offset 2 lines).
+Traceback (most recent call last):
+  File "setup.py", line 1, in <module>
+    from setuptools import setup, find_packages
+ImportError: No module named setuptools
+
+Applying patch: '/tmp/tmpul8Adeconda_skeleton_djangocms-admin-style-0.2.7.tar.gz/pypi-distutils.patch'
+$PYTHONPATH = /tmp/tmpul8Adeconda_skeleton_djangocms-admin-style-0.2.7.tar.gz/djangocms-admin-style-0.2.7
+Error: command failed: /home/ubuntu/miniconda/envs/_build/bin/python setup.py install
+
+conda create -n _pipbuild_ --yes python pip
+/home/ubuntu/miniconda/envs/_pipbuild_/bin/pip install djangocms-admin-style==0.2.7
+Error: Could not pip install djangocms-admin-style==0.2.7

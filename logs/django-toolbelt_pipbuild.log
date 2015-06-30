@@ -1,0 +1,35 @@
+Error: prefix already exists: /home/ubuntu/miniconda/envs/_pipbuild_
+Collecting django-toolbelt==0.0.1
+  Downloading http://localhost/packages/source/d/django-toolbelt/django-toolbelt-0.0.1.tar.gz
+setuptools must be installed to install from a source distribution
+Package search: {'_pypi_ordering': False, 'version': '0.0.1', 'name': 'django-toolbelt', 'summary': 'A simple collection of common Django utilities.'}
+Creating standard recipe for django-toolbelt-0.0.1
+Using url https://pypi.python.org/packages/source/d/django-toolbelt/django-toolbelt-0.0.1.tar.gz (2 KB) for django-toolbelt.
+Downloading django-toolbelt
+Using cached download
+Unpacking django-toolbelt...
+done
+working in /tmp/tmpaVnWiXconda_skeleton_django-toolbelt-0.0.1.tar.gz
+Fetching package metadata: ......
+
+WARNING: conda-build appears to be out of date. You have version 1.13.0 but the
+latest version is 1.14.0. Run
+
+conda update -n root conda-build
+
+to get the latest version.
+
+Solving package specifications: .patching file core.py
+Hunk #1 succeeded at 168 with fuzz 2 (offset 2 lines).
+Traceback (most recent call last):
+  File "setup.py", line 16, in <module>
+    from setuptools import setup
+ImportError: No module named setuptools
+
+Applying patch: '/tmp/tmpaVnWiXconda_skeleton_django-toolbelt-0.0.1.tar.gz/pypi-distutils.patch'
+$PYTHONPATH = /tmp/tmpaVnWiXconda_skeleton_django-toolbelt-0.0.1.tar.gz/django-toolbelt-0.0.1
+Error: command failed: /home/ubuntu/miniconda/envs/_build/bin/python setup.py install
+
+conda create -n _pipbuild_ --yes python pip
+/home/ubuntu/miniconda/envs/_pipbuild_/bin/pip install django-toolbelt==0.0.1
+Error: Could not pip install django-toolbelt==0.0.1

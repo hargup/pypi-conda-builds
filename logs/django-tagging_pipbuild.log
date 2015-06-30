@@ -1,0 +1,35 @@
+Error: prefix already exists: /home/ubuntu/miniconda/envs/_pipbuild_
+Collecting django-tagging==0.4
+  Could not find a version that satisfies the requirement django-tagging==0.4 (from versions: 0.3, 0.3.1, 0.3.2, 0.3.3, 0.3.4, 0.3.6)
+  Some externally hosted files were ignored as access to them may be unreliable (use --allow-external django-tagging to allow).
+No matching distribution found for django-tagging==0.4
+Package search: {'_pypi_ordering': False, 'version': '0.4', 'name': 'django-tagging', 'summary': 'Generic tagging application for Django'}
+Creating standard recipe for django-tagging-0.4
+Using url https://pypi.python.org/packages/source/d/django-tagging/django-tagging-0.4.tar.gz (43 KB) for django-tagging.
+Downloading django-tagging
+Unpacking django-tagging...
+done
+working in /tmp/tmpBIMDC7conda_skeleton_django-tagging-0.4.tar.gz
+Fetching package metadata: ......
+
+WARNING: conda-build appears to be out of date. You have version 1.13.0 but the
+latest version is 1.14.0. Run
+
+conda update -n root conda-build
+
+to get the latest version.
+
+Solving package specifications: .patching file core.py
+Hunk #1 succeeded at 168 with fuzz 2 (offset 2 lines).
+Traceback (most recent call last):
+  File "setup.py", line 4, in <module>
+    from setuptools import setup
+ImportError: No module named setuptools
+
+Applying patch: '/tmp/tmpBIMDC7conda_skeleton_django-tagging-0.4.tar.gz/pypi-distutils.patch'
+$PYTHONPATH = /tmp/tmpBIMDC7conda_skeleton_django-tagging-0.4.tar.gz/django-tagging-0.4
+Error: command failed: /home/ubuntu/miniconda/envs/_build/bin/python setup.py install
+
+conda create -n _pipbuild_ --yes python pip
+/home/ubuntu/miniconda/envs/_pipbuild_/bin/pip install django-tagging==0.4
+Error: Could not pip install django-tagging==0.4

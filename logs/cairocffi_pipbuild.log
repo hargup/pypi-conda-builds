@@ -1,0 +1,34 @@
+Error: prefix already exists: /home/ubuntu/miniconda/envs/_pipbuild_
+Collecting cairocffi==0.7.1
+  Could not find a version that satisfies the requirement cairocffi==0.7.1 (from versions: 0.1, 0.2, 0.3, 0.3.1, 0.3.2, 0.4, 0.4.1, 0.4.2, 0.4.3, 0.5, 0.5.1, 0.5.2, 0.5.3, 0.5.4, 0.6)
+No matching distribution found for cairocffi==0.7.1
+Package search: {'_pypi_ordering': False, 'version': '0.7.1', 'name': 'cairocffi', 'summary': 'cffi-based cairo bindings for Python'}
+Creating standard recipe for cairocffi-0.7.1
+Using url https://pypi.python.org/packages/source/c/cairocffi/cairocffi-0.7.1.tar.gz (74 KB) for cairocffi.
+Downloading cairocffi
+Unpacking cairocffi...
+done
+working in /tmp/tmpw4AR8zconda_skeleton_cairocffi-0.7.1.tar.gz
+Fetching package metadata: ......
+
+WARNING: conda-build appears to be out of date. You have version 1.13.0 but the
+latest version is 1.14.0. Run
+
+conda update -n root conda-build
+
+to get the latest version.
+
+Solving package specifications: .patching file core.py
+Hunk #1 succeeded at 168 with fuzz 2 (offset 2 lines).
+Traceback (most recent call last):
+  File "setup.py", line 1, in <module>
+    from setuptools import setup, find_packages
+ImportError: No module named setuptools
+
+Applying patch: '/tmp/tmpw4AR8zconda_skeleton_cairocffi-0.7.1.tar.gz/pypi-distutils.patch'
+$PYTHONPATH = /tmp/tmpw4AR8zconda_skeleton_cairocffi-0.7.1.tar.gz/cairocffi-0.7.1
+Error: command failed: /home/ubuntu/miniconda/envs/_build/bin/python setup.py install
+
+conda create -n _pipbuild_ --yes python pip
+/home/ubuntu/miniconda/envs/_pipbuild_/bin/pip install cairocffi==0.7.1
+Error: Could not pip install cairocffi==0.7.1

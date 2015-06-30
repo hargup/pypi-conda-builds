@@ -2,6 +2,14 @@ Removing old build directory
 Removing old work directory
 BUILD START: six-1.9.0-py27_0
 Fetching package metadata: ......
+
+WARNING: conda-build appears to be out of date. You have version 1.13.0 but the
+latest version is 1.14.0. Run
+
+conda update -n root conda-build
+
+to get the latest version.
+
 Solving package specifications: .+ pip install six
 Collecting six
   Downloading http://localhost/packages/3.3/s/six/six-1.9.0-py2.py3-none-any.whl
@@ -41,6 +49,14 @@ Removing old build directory
 Removing old work directory
 BUILD START: html5lib-0.99999-py_0
 Fetching package metadata: ......
+
+WARNING: conda-build appears to be out of date. You have version 1.13.0 but the
+latest version is 1.14.0. Run
+
+conda update -n root conda-build
+
+to get the latest version.
+
 Solving package specifications: .+ pip install html5lib
 Collecting html5lib
   Downloading http://localhost/packages/source/h/html5lib/html5lib-0.99999.tar.gz (887kB)

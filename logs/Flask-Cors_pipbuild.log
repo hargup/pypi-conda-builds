@@ -1,0 +1,35 @@
+Error: prefix already exists: /home/ubuntu/miniconda/envs/_pipbuild_
+Collecting Flask-Cors==2.0.1
+  Downloading http://localhost/packages/source/F/Flask-Cors/Flask-Cors-2.0.1.tar.gz
+setuptools must be installed to install from a source distribution
+Package search: {'_pypi_ordering': False, 'version': '2.0.1', 'name': 'Flask-Cors', 'summary': 'A Flask extension adding a decorator for CORS support'}
+Creating standard recipe for flask-cors-2.0.1
+Using url https://pypi.python.org/packages/source/F/Flask-Cors/Flask-Cors-2.0.1.tar.gz (27 KB) for Flask-Cors.
+Downloading Flask-Cors
+Using cached download
+Unpacking Flask-Cors...
+done
+working in /tmp/tmp7URcjkconda_skeleton_Flask-Cors-2.0.1.tar.gz
+Fetching package metadata: ......
+
+WARNING: conda-build appears to be out of date. You have version 1.13.0 but the
+latest version is 1.14.0. Run
+
+conda update -n root conda-build
+
+to get the latest version.
+
+Solving package specifications: .patching file core.py
+Hunk #1 succeeded at 168 with fuzz 2 (offset 2 lines).
+Traceback (most recent call last):
+  File "setup.py", line 12, in <module>
+    from setuptools import setup
+ImportError: No module named setuptools
+
+Applying patch: '/tmp/tmp7URcjkconda_skeleton_Flask-Cors-2.0.1.tar.gz/pypi-distutils.patch'
+$PYTHONPATH = /tmp/tmp7URcjkconda_skeleton_Flask-Cors-2.0.1.tar.gz/Flask-Cors-2.0.1
+Error: command failed: /home/ubuntu/miniconda/envs/_build/bin/python setup.py install
+
+conda create -n _pipbuild_ --yes python pip
+/home/ubuntu/miniconda/envs/_pipbuild_/bin/pip install Flask-Cors==2.0.1
+Error: Could not pip install Flask-Cors==2.0.1

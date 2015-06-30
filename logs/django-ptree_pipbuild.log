@@ -1,0 +1,35 @@
+Error: prefix already exists: /home/ubuntu/miniconda/envs/_pipbuild_
+Collecting django-ptree==0.2.151
+  Downloading http://localhost/packages/source/d/django-ptree/django-ptree-0.2.151.zip (274kB)
+setuptools must be installed to install from a source distribution
+Package search: {'_pypi_ordering': False, 'version': '0.2.151', 'name': 'django-ptree', 'summary': 'pTree is a Django toolset that makes it easy to create and administer web-based social science experiments.'}
+Creating standard recipe for django-ptree-0.2.151
+Using url https://pypi.python.org/packages/source/d/django-ptree/django-ptree-0.2.151.zip (268 KB) for django-ptree.
+Downloading django-ptree
+Using cached download
+Unpacking django-ptree...
+done
+working in /tmp/tmpHi0TeCconda_skeleton_django-ptree-0.2.151.zip
+Fetching package metadata: ......
+
+WARNING: conda-build appears to be out of date. You have version 1.13.0 but the
+latest version is 1.14.0. Run
+
+conda update -n root conda-build
+
+to get the latest version.
+
+Solving package specifications: .patching file core.py
+Hunk #1 succeeded at 168 with fuzz 2 (offset 2 lines).
+Traceback (most recent call last):
+  File "setup.py", line 3, in <module>
+    from setuptools import setup, find_packages
+ImportError: No module named setuptools
+
+Applying patch: '/tmp/tmpHi0TeCconda_skeleton_django-ptree-0.2.151.zip/pypi-distutils.patch'
+$PYTHONPATH = /tmp/tmpHi0TeCconda_skeleton_django-ptree-0.2.151.zip/django-ptree-0.2.151
+Error: command failed: /home/ubuntu/miniconda/envs/_build/bin/python setup.py install
+
+conda create -n _pipbuild_ --yes python pip
+/home/ubuntu/miniconda/envs/_pipbuild_/bin/pip install django-ptree==0.2.151
+Error: Could not pip install django-ptree==0.2.151

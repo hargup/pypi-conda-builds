@@ -1,62 +1,35 @@
-Package search: {'_pypi_ordering': False, 'version': '2.0.10', 'name': 'uWSGI', 'summary': 'The uWSGI server'}
-Fetching package metadata: ....
-Fetching package metadata: ....
-Solving package specifications: .
-Package plan for installation in environment /home/ubuntu/miniconda/envs/_pipbuild_:
-
-The following NEW packages will be INSTALLED:
-
-    openssl:    1.0.1k-1    
-    pip:        7.0.3-py27_0
-    python:     2.7.10-0    
-    readline:   6.2-2       
-    setuptools: 17.0-py27_0 
-    sqlite:     3.8.4.1-1   
-    system:     5.8-2       
-    tk:         8.5.18-0    
-    zlib:       1.2.8-0     
-
-Linking packages ...
-[                    ]|                                                  |   0%[openssl             ]|                                                  |   0%[readline            ]|#####                                             |  11%[sqlite              ]|###########                                       |  22%[system              ]|################                                  |  33%[tk                  ]|######################                            |  44%[zlib                ]|###########################                       |  55%[python              ]|#################################                 |  66%[setuptools          ]|######################################            |  77%[pip                 ]|############################################      |  88%[      COMPLETE      ]|##################################################| 100%
-#
-# To activate this environment, use:
-# $ source activate _pipbuild_
-#
-# To deactivate this environment, use:
-# $ source deactivate
-#
+Error: prefix already exists: /home/ubuntu/miniconda/envs/_pipbuild_
 Collecting uWSGI==2.0.10
   Downloading http://localhost/packages/source/u/uWSGI/uwsgi-2.0.10.tar.gz (779kB)
-Installing collected packages: uWSGI
-  Running setup.py install for uWSGI
-Successfully installed uWSGI-2.0.10
-Fetching package metadata: ....
-
-Package plan for package removal in environment /home/ubuntu/miniconda/envs/_pipbuild_:
-
-The following packages will be REMOVED:
-
-    openssl:    1.0.1k-1    
-    pip:        7.0.3-py27_0
-    python:     2.7.10-0    
-    readline:   6.2-2       
-    setuptools: 17.0-py27_0 
-    sqlite:     3.8.4.1-1   
-    system:     5.8-2       
-    tk:         8.5.18-0    
-    zlib:       1.2.8-0     
-
-Unlinking packages ...
-[                    ]|                                                  |   0%[openssl             ]|                                                  |   0%[pip                 ]|#####                                             |  11%[python              ]|###########                                       |  22%[readline            ]|################                                  |  33%[setuptools          ]|######################                            |  44%[sqlite              ]|###########################                       |  55%[system              ]|#################################                 |  66%[tk                  ]|######################################            |  77%[zlib                ]|############################################      |  88%[      COMPLETE      ]|##################################################| 100%
-Removing old build directory
-Removing old work directory
-Error: package/name must be lowercase, got: u'uWSGI'
+setuptools must be installed to install from a source distribution
+Package search: {'_pypi_ordering': False, 'version': '2.0.10', 'name': 'uWSGI', 'summary': 'The uWSGI server'}
 Creating standard recipe for uwsgi-2.0.10
-Error: directory already exists: ./uwsgi
+Using url https://pypi.python.org/packages/source/u/uWSGI/uwsgi-2.0.10.tar.gz (762 KB) for uWSGI.
+Downloading uWSGI
+Using cached download
+Unpacking uWSGI...
+done
+working in /tmp/tmpb94rxKconda_skeleton_uwsgi-2.0.10.tar.gz
+Fetching package metadata: ......
+
+WARNING: conda-build appears to be out of date. You have version 1.13.0 but the
+latest version is 1.14.0. Run
+
+conda update -n root conda-build
+
+to get the latest version.
+
+Solving package specifications: .patching file core.py
+Hunk #1 succeeded at 168 with fuzz 2 (offset 2 lines).
+Traceback (most recent call last):
+  File "setup.py", line 6, in <module>
+    from setuptools import setup
+ImportError: No module named setuptools
+
+Applying patch: '/tmp/tmpb94rxKconda_skeleton_uwsgi-2.0.10.tar.gz/pypi-distutils.patch'
+$PYTHONPATH = /tmp/tmpb94rxKconda_skeleton_uwsgi-2.0.10.tar.gz/uwsgi-2.0.10
+Error: command failed: /home/ubuntu/miniconda/envs/_build/bin/python setup.py install
 
 conda create -n _pipbuild_ --yes python pip
 /home/ubuntu/miniconda/envs/_pipbuild_/bin/pip install uWSGI==2.0.10
-Getting dependencies...
-package = uWSGI
-   dependencies = []
-Building conda package for uwsgi
+Error: Could not pip install uWSGI==2.0.10

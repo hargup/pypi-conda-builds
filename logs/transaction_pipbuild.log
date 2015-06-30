@@ -1,0 +1,124 @@
+Removing old build directory
+Removing old work directory
+BUILD START: zope.interface-4.1.2-py27_0
+Fetching package metadata: ......
+
+WARNING: conda-build appears to be out of date. You have version 1.13.0 but the
+latest version is 1.14.0. Run
+
+conda update -n root conda-build
+
+to get the latest version.
+
+Solving package specifications: .+ pip install zope.interface
+Collecting zope.interface
+  Downloading http://localhost/packages/source/z/zope.interface/zope.interface-4.1.2.tar.gz (919kB)
+Requirement already satisfied (use --upgrade to upgrade): setuptools in /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages (from zope.interface)
+Installing collected packages: zope.interface
+  Running setup.py install for zope.interface
+Successfully installed zope.interface-4.1.2
+
+The following NEW packages will be INSTALLED:
+
+    openssl:    1.0.1k-1     
+    pip:        7.0.3-py27_0 
+    python:     2.7.10-0     
+    readline:   6.2-2        
+    setuptools: 18.0.1-py27_0
+    sqlite:     3.8.4.1-1    
+    system:     5.8-2        
+    tk:         8.5.18-0     
+    zlib:       1.2.8-0      
+
+Linking packages ...
+[                    ]|                                                  |   0%[openssl             ]|                                                  |   0%[readline            ]|#####                                             |  11%[sqlite              ]|###########                                       |  22%[system              ]|################                                  |  33%[tk                  ]|######################                            |  44%[zlib                ]|###########################                       |  55%[python              ]|#################################                 |  66%[setuptools          ]|######################################            |  77%[pip                 ]|############################################      |  88%[      COMPLETE      ]|##################################################| 100%
+Removing old work directory
+Copying /home/ubuntu/pypi-conda-builds/zope.interface to /home/ubuntu/miniconda/conda-bld/work
+Package: zope.interface-4.1.2-py27_0
+source tree in: /home/ubuntu/miniconda/conda-bld/work
+number of files: 99
+Fixing permissions
+patchelf: file: /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/zope/interface/_zope_interface_coptimizations.so
+    setting rpath to: $ORIGIN/../../../..
+Ignored hard-coded path in lib/python2.7/site-packages/zope/interface/_zope_interface_coptimizations.so
+Fixing permissions
+BUILD END: zope.interface-4.1.2-py27_0
+# If you want to upload this package to binstar.org later, type:
+#
+# $ binstar upload /home/ubuntu/miniconda/conda-bld/linux-64/zope.interface-4.1.2-py27_0.tar.bz2
+#
+# To have conda build upload to binstar automatically, use
+# $ conda config --set binstar_upload yes
+
+Removing old build directory
+Removing old work directory
+BUILD START: transaction-1.4.4-py_0
+Fetching package metadata: ......
+
+WARNING: conda-build appears to be out of date. You have version 1.13.0 but the
+latest version is 1.14.0. Run
+
+conda update -n root conda-build
+
+to get the latest version.
+
+Solving package specifications: .+ pip install transaction
+Collecting transaction
+  Downloading http://localhost/packages/source/t/transaction/transaction-1.4.3.tar.gz (332kB)
+Requirement already satisfied (use --upgrade to upgrade): zope.interface in /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages (from transaction)
+Installing collected packages: transaction
+  Running setup.py install for transaction
+Successfully installed transaction-1.4.3
+
+The following packages will be downloaded:
+
+    package                    |            build
+    ---------------------------|-----------------
+    zope.interface-4.1.2       |           py27_1         157 KB
+
+The following NEW packages will be INSTALLED:
+
+    nose:           1.3.7-py27_0 
+    openssl:        1.0.1k-1     
+    pip:            7.0.3-py27_0 
+    python:         2.7.10-0     
+    readline:       6.2-2        
+    setuptools:     18.0.1-py27_0
+    sqlite:         3.8.4.1-1    
+    system:         5.8-2        
+    tk:             8.5.18-0     
+    zlib:           1.2.8-0      
+    zope.interface: 4.1.2-py27_1 
+
+Fetching packages ...
+zope.interface   0% |                              | ETA:  --:--:--   0.00  B/szope.interface  10% |###                            | ETA:  0:00:00  25.20 MB/szope.interface  20% |######                         | ETA:  0:00:00  34.06 MB/szope.interface  30% |#########                      | ETA:  0:00:00  35.82 MB/szope.interface  40% |############                   | ETA:  0:00:00  37.53 MB/szope.interface  50% |###############                | ETA:  0:00:00  37.25 MB/szope.interface  61% |##################             | ETA:  0:00:00  38.01 MB/szope.interface  71% |######################         | ETA:  0:00:00  38.92 MB/szope.interface  81% |#########################      | ETA:  0:00:00  40.18 MB/szope.interface  91% |############################   | ETA:  0:00:00  41.00 MB/szope.interface 100% |###############################| ETA:  0:00:00  41.54 MB/szope.interface 100% |###############################| Time: 0:00:00  38.96 MB/s
+Extracting packages ...
+[                    ]|                                                  |   0%[zope.interface      ]|                                                  |   0%[      COMPLETE      ]|##################################################| 100%
+Linking packages ...
+[      COMPLETE      ]|                                                  |   0%[openssl             ]|                                                  |   0%[openssl             ]|                                                  |   0%[readline            ]|####                                              |   9%[sqlite              ]|#########                                         |  18%[system              ]|#############                                     |  27%[tk                  ]|##################                                |  36%[zlib                ]|######################                            |  45%[nose                ]|###########################                       |  54%[python              ]|###############################                   |  63%[setuptools          ]|####################################              |  72%[zope.interface      ]|########################################          |  81%[pip                 ]|#############################################     |  90%[      COMPLETE      ]|##################################################| 100%
+Removing old work directory
+Copying /home/ubuntu/pypi-conda-builds/transaction to /home/ubuntu/miniconda/conda-bld/work
+Package: transaction-1.4.4-py_0
+source tree in: /home/ubuntu/miniconda/conda-bld/work
+number of files: 42
+Fixing permissions
+Fixing permissions
+BUILD END: transaction-1.4.4-py_0
+# If you want to upload this package to binstar.org later, type:
+#
+# $ binstar upload /home/ubuntu/miniconda/conda-bld/noarch/transaction-1.4.4-py_0.tar.bz2
+#
+# To have conda build upload to binstar automatically, use
+# $ conda config --set binstar_upload yes
+
+Package search: {'_pypi_ordering': False, 'version': '1.4.4', 'name': 'transaction', 'summary': 'Transaction management for Python'}
+Creating standard recipe for transaction-1.4.4
+Converting recipe in /home/ubuntu/pypi-conda-builds/transaction
+package = transaction
+   dependencies = [u'zope.interface']
+Creating standard recipe for zope.interface
+Converting recipe in /home/ubuntu/pypi-conda-builds/zope.interface
+package = zope.interface
+   dependencies = []
+Building conda package for zope.interface
+Building conda package for transaction

@@ -1,0 +1,37 @@
+Error: prefix already exists: /home/ubuntu/miniconda/envs/_pipbuild_
+Collecting treq==15.0.0
+  Downloading http://localhost/packages/py2/t/treq/treq-15.0.0-py2-none-any.whl
+Collecting Twisted>=12.1.0 (from treq==15.0.0)
+  Downloading http://localhost/packages/source/T/Twisted/Twisted-15.1.0.tar.bz2 (4.5MB)
+setuptools must be installed to install from a source distribution
+Package search: {'_pypi_ordering': False, 'version': '15.0.0', 'name': 'treq', 'summary': "A requests-like API built on top of twisted.web's Agent"}
+Creating standard recipe for treq-15.0.0
+Using url https://pypi.python.org/packages/source/t/treq/treq-15.0.0.tar.gz (31 KB) for treq.
+Downloading treq
+Using cached download
+Unpacking treq...
+done
+working in /tmp/tmptMSmulconda_skeleton_treq-15.0.0.tar.gz
+Fetching package metadata: ......
+
+WARNING: conda-build appears to be out of date. You have version 1.13.0 but the
+latest version is 1.14.0. Run
+
+conda update -n root conda-build
+
+to get the latest version.
+
+Solving package specifications: .patching file core.py
+Hunk #1 succeeded at 168 with fuzz 2 (offset 2 lines).
+Traceback (most recent call last):
+  File "setup.py", line 1, in <module>
+    from setuptools import find_packages, setup
+ImportError: No module named setuptools
+
+Applying patch: '/tmp/tmptMSmulconda_skeleton_treq-15.0.0.tar.gz/pypi-distutils.patch'
+$PYTHONPATH = /tmp/tmptMSmulconda_skeleton_treq-15.0.0.tar.gz/treq-15.0.0
+Error: command failed: /home/ubuntu/miniconda/envs/_build/bin/python setup.py install
+
+conda create -n _pipbuild_ --yes python pip
+/home/ubuntu/miniconda/envs/_pipbuild_/bin/pip install treq==15.0.0
+Error: Could not pip install treq==15.0.0

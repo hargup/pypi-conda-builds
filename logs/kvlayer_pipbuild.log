@@ -1,0 +1,43 @@
+Error: prefix already exists: /home/ubuntu/miniconda/envs/_pipbuild_
+Collecting kvlayer==0.5.8.dev1
+  Could not find a version that satisfies the requirement kvlayer==0.5.8.dev1 (from versions: 0.2.16, 0.2.20.dev2, 0.3.2, 0.4.1, 0.4.2.dev1, 0.4.5, 0.4.6.dev3, 0.4.6, 0.4.7.dev3, 0.4.7.dev6, 0.4.8.dev1, 0.4.8.dev2, 0.4.8.dev5, 0.4.8.dev7, 0.4.8.dev8, 0.4.8.dev13, 0.4.8.dev14, 0.4.8.dev15, 0.4.8.dev16, 0.4.8.dev17, 0.4.8.dev20, 0.4.8.dev23, 0.4.9, 0.4.10.dev1, 0.4.10.dev2, 0.4.10, 0.4.11.dev1, 0.4.11.dev2, 0.4.11, 0.4.12.dev1, 0.4.12.dev2, 0.4.12.dev4, 0.4.12.dev6, 0.4.12.dev9, 0.4.12.dev10, 0.4.12.dev11, 0.4.12, 0.4.13, 0.4.14.dev1, 0.4.14, 0.4.15.dev1, 0.4.15.dev2, 0.4.15.dev3, 0.4.15.dev4, 0.4.15.dev5, 0.4.15, 0.4.16.dev2, 0.4.16.dev3, 0.4.16.dev4, 0.4.16, 0.4.17, 0.4.18, 0.4.19, 0.4.20, 0.4.21.dev4, 0.4.21, 0.5.0, 0.5.1, 0.5.2.dev1, 0.5.2, 0.5.3.dev1, 0.5.3.dev2, 0.5.3.dev5, 0.5.3.dev6, 0.5.3.dev7, 0.5.3.dev8, 0.5.3.dev9, 0.5.3, 0.5.4.dev3, 0.5.4.dev4, 0.5.4, 0.5.5.dev2, 0.5.5, 0.5.6.dev1, 0.5.6, 0.5.7.dev1)
+No matching distribution found for kvlayer==0.5.8.dev1
+Package search: {'_pypi_ordering': False, 'version': '0.5.8.dev1', 'name': 'kvlayer', 'summary': 'table-oriented abstraction layer over key-value stores'}
+Creating standard recipe for kvlayer-0.5.8.dev1
+Using url https://pypi.python.org/packages/source/k/kvlayer/kvlayer-0.5.8.dev1.tar.gz (74 KB) for kvlayer.
+Downloading kvlayer
+Using cached download
+Unpacking kvlayer...
+done
+working in /tmp/tmpR5DsGJconda_skeleton_kvlayer-0.5.8.dev1.tar.gz
+Fetching package metadata: ......
+
+WARNING: conda-build appears to be out of date. You have version 1.13.0 but the
+latest version is 1.14.0. Run
+
+conda update -n root conda-build
+
+to get the latest version.
+
+Solving package specifications: .patching file core.py
+Hunk #1 succeeded at 168 with fuzz 2 (offset 2 lines).
+Traceback (most recent call last):
+  File "setup.py", line 10, in <module>
+    from setuptools import setup, find_packages
+ImportError: No module named setuptools
+
+The following NEW packages will be INSTALLED:
+
+    numpy:  1.9.2-py27_0
+    pyyaml: 3.11-py27_1 
+    yaml:   0.1.6-0     
+
+Linking packages ...
+[                    ]|                                                  |   0%[yaml                ]|                                                  |   0%[numpy               ]|################                                  |  33%[pyyaml              ]|#################################                 |  66%[      COMPLETE      ]|##################################################| 100%
+Applying patch: '/tmp/tmpR5DsGJconda_skeleton_kvlayer-0.5.8.dev1.tar.gz/pypi-distutils.patch'
+$PYTHONPATH = /tmp/tmpR5DsGJconda_skeleton_kvlayer-0.5.8.dev1.tar.gz/kvlayer-0.5.8.dev1
+Error: command failed: /home/ubuntu/miniconda/envs/_build/bin/python setup.py install
+
+conda create -n _pipbuild_ --yes python pip
+/home/ubuntu/miniconda/envs/_pipbuild_/bin/pip install kvlayer==0.5.8.dev1
+Error: Could not pip install kvlayer==0.5.8.dev1

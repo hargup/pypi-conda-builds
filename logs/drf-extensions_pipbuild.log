@@ -1,0 +1,35 @@
+Error: prefix already exists: /home/ubuntu/miniconda/envs/_pipbuild_
+Collecting drf-extensions==0.2.7
+  Downloading http://localhost/packages/source/d/drf-extensions/drf-extensions-0.2.7.tar.gz (162kB)
+setuptools must be installed to install from a source distribution
+Package search: {'_pypi_ordering': False, 'version': '0.2.7', 'name': 'drf-extensions', 'summary': 'Extensions for Django REST Framework'}
+Creating standard recipe for drf-extensions-0.2.7
+Using url https://pypi.python.org/packages/source/d/drf-extensions/drf-extensions-0.2.7.tar.gz (159 KB) for drf-extensions.
+Downloading drf-extensions
+Using cached download
+Unpacking drf-extensions...
+done
+working in /tmp/tmpNYYFhAconda_skeleton_drf-extensions-0.2.7.tar.gz
+Fetching package metadata: ......
+
+WARNING: conda-build appears to be out of date. You have version 1.13.0 but the
+latest version is 1.14.0. Run
+
+conda update -n root conda-build
+
+to get the latest version.
+
+Solving package specifications: .patching file core.py
+Hunk #1 succeeded at 168 with fuzz 2 (offset 2 lines).
+Traceback (most recent call last):
+  File "setup.py", line 3, in <module>
+    from setuptools import setup
+ImportError: No module named setuptools
+
+Applying patch: '/tmp/tmpNYYFhAconda_skeleton_drf-extensions-0.2.7.tar.gz/pypi-distutils.patch'
+$PYTHONPATH = /tmp/tmpNYYFhAconda_skeleton_drf-extensions-0.2.7.tar.gz/drf-extensions-0.2.7
+Error: command failed: /home/ubuntu/miniconda/envs/_build/bin/python setup.py install
+
+conda create -n _pipbuild_ --yes python pip
+/home/ubuntu/miniconda/envs/_pipbuild_/bin/pip install drf-extensions==0.2.7
+Error: Could not pip install drf-extensions==0.2.7

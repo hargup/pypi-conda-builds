@@ -1,0 +1,43 @@
+Error: prefix already exists: /home/ubuntu/miniconda/envs/_pipbuild_
+Collecting daemonocle==0.8
+  Downloading http://localhost/packages/source/d/daemonocle/daemonocle-0.8.tar.gz
+setuptools must be installed to install from a source distribution
+Package search: {'_pypi_ordering': False, 'version': '0.8', 'name': 'daemonocle', 'summary': 'A Python library for creating super fancy Unix daemons'}
+Creating standard recipe for daemonocle-0.8
+Using url https://pypi.python.org/packages/source/d/daemonocle/daemonocle-0.8.tar.gz (16 KB) for daemonocle.
+Downloading daemonocle
+Using cached download
+Unpacking daemonocle...
+done
+working in /tmp/tmpgf3WZhconda_skeleton_daemonocle-0.8.tar.gz
+Fetching package metadata: ......
+
+WARNING: conda-build appears to be out of date. You have version 1.13.0 but the
+latest version is 1.14.0. Run
+
+conda update -n root conda-build
+
+to get the latest version.
+
+Solving package specifications: .patching file core.py
+Hunk #1 succeeded at 168 with fuzz 2 (offset 2 lines).
+Traceback (most recent call last):
+  File "setup.py", line 1, in <module>
+    from setuptools import setup
+ImportError: No module named setuptools
+
+The following NEW packages will be INSTALLED:
+
+    numpy:  1.9.2-py27_0
+    pyyaml: 3.11-py27_1 
+    yaml:   0.1.6-0     
+
+Linking packages ...
+[                    ]|                                                  |   0%[yaml                ]|                                                  |   0%[numpy               ]|################                                  |  33%[pyyaml              ]|#################################                 |  66%[      COMPLETE      ]|##################################################| 100%
+Applying patch: '/tmp/tmpgf3WZhconda_skeleton_daemonocle-0.8.tar.gz/pypi-distutils.patch'
+$PYTHONPATH = /tmp/tmpgf3WZhconda_skeleton_daemonocle-0.8.tar.gz/daemonocle-0.8
+Error: command failed: /home/ubuntu/miniconda/envs/_build/bin/python setup.py install
+
+conda create -n _pipbuild_ --yes python pip
+/home/ubuntu/miniconda/envs/_pipbuild_/bin/pip install daemonocle==0.8
+Error: Could not pip install daemonocle==0.8

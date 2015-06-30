@@ -1,47 +1,35 @@
-Package search: {'_pypi_ordering': False, 'version': '0.4.6', 'name': 'python-magic', 'summary': 'File type identification using libmagic'}
-Fetching package metadata: ....
-Removing old build directory
-Removing old work directory
-BUILD START: python-magic-0.4.6-py27_0
-Fetching package metadata: ......
-Solving package specifications: .+ pip install python-magic
-Collecting python-magic
+Error: prefix already exists: /home/ubuntu/miniconda/envs/_pipbuild_
+Collecting python-magic==0.4.6
   Downloading http://localhost/packages/source/p/python-magic/python-magic-0.4.6.tar.gz
-Installing collected packages: python-magic
-  Running setup.py install for python-magic
-Successfully installed python-magic-0.4.6
-
-The following NEW packages will be INSTALLED:
-
-    openssl:    1.0.1k-1    
-    pip:        7.0.3-py27_0
-    python:     2.7.10-0    
-    readline:   6.2-2       
-    setuptools: 17.0-py27_0 
-    sqlite:     3.8.4.1-1   
-    system:     5.8-2       
-    tk:         8.5.18-0    
-    zlib:       1.2.8-0     
-
-Linking packages ...
-[                    ]|                                                  |   0%[openssl             ]|                                                  |   0%[readline            ]|#####                                             |  11%[sqlite              ]|###########                                       |  22%[system              ]|################                                  |  33%[tk                  ]|######################                            |  44%[zlib                ]|###########################                       |  55%[python              ]|#################################                 |  66%[setuptools          ]|######################################            |  77%[pip                 ]|############################################      |  88%[      COMPLETE      ]|##################################################| 100%
-Removing old work directory
-Copying /home/ubuntu/pypi-conda-builds/python-magic to /home/ubuntu/miniconda/conda-bld/work
-Package: python-magic-0.4.6-py27_0
-source tree in: /home/ubuntu/miniconda/conda-bld/work
-number of files: 7
-Fixing permissions
-Fixing permissions
-BUILD END: python-magic-0.4.6-py27_0
-# If you want to upload this package to binstar.org later, type:
-#
-# $ binstar upload /home/ubuntu/miniconda/conda-bld/linux-64/python-magic-0.4.6-py27_0.tar.bz2
-#
-# To have conda build upload to binstar automatically, use
-# $ conda config --set binstar_upload yes
-
+setuptools must be installed to install from a source distribution
+Package search: {'_pypi_ordering': False, 'version': '0.4.6', 'name': 'python-magic', 'summary': 'File type identification using libmagic'}
 Creating standard recipe for python-magic-0.4.6
-Converting recipe in /home/ubuntu/pypi-conda-builds/python-magic
-package = python-magic
-   dependencies = []
-Building conda package for python-magic
+Using url https://pypi.python.org/packages/source/p/python-magic/python-magic-0.4.6.tar.gz (3 KB) for python-magic.
+Downloading python-magic
+Using cached download
+Unpacking python-magic...
+done
+working in /tmp/tmpYu2T4Vconda_skeleton_python-magic-0.4.6.tar.gz
+Fetching package metadata: ......
+
+WARNING: conda-build appears to be out of date. You have version 1.13.0 but the
+latest version is 1.14.0. Run
+
+conda update -n root conda-build
+
+to get the latest version.
+
+Solving package specifications: .patching file core.py
+Hunk #1 succeeded at 168 with fuzz 2 (offset 2 lines).
+Traceback (most recent call last):
+  File "setup.py", line 1, in <module>
+    from setuptools import setup, Extension
+ImportError: No module named setuptools
+
+Applying patch: '/tmp/tmpYu2T4Vconda_skeleton_python-magic-0.4.6.tar.gz/pypi-distutils.patch'
+$PYTHONPATH = /tmp/tmpYu2T4Vconda_skeleton_python-magic-0.4.6.tar.gz/python-magic-0.4.6
+Error: command failed: /home/ubuntu/miniconda/envs/_build/bin/python setup.py install
+
+conda create -n _pipbuild_ --yes python pip
+/home/ubuntu/miniconda/envs/_pipbuild_/bin/pip install python-magic==0.4.6
+Error: Could not pip install python-magic==0.4.6

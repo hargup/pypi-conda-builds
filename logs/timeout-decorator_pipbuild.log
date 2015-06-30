@@ -2,10 +2,20 @@ Removing old build directory
 Removing old work directory
 BUILD START: timeout-decorator-0.3.2-py_0
 Fetching package metadata: ......
+
+WARNING: conda-build appears to be out of date. You have version 1.13.0 but the
+latest version is 1.14.0. Run
+
+conda update -n root conda-build
+
+to get the latest version.
+
 Solving package specifications: .+ pip install timeout-decorator
 Collecting timeout-decorator
   Downloading http://localhost/packages/source/t/timeout-decorator/timeout-decorator-0.3.2.tar.gz
-setuptools must be installed to install from a source distribution
+Installing collected packages: timeout-decorator
+  Running setup.py install for timeout-decorator
+Successfully installed timeout-decorator-0.3.2
 
 The following NEW packages will be INSTALLED:
 
@@ -13,7 +23,7 @@ The following NEW packages will be INSTALLED:
     pip:        7.0.3-py27_0 
     python:     2.7.10-0     
     readline:   6.2-2        
-    setuptools: 17.1.1-py27_0
+    setuptools: 18.0.1-py27_0
     sqlite:     3.8.4.1-1    
     system:     5.8-2        
     tk:         8.5.18-0     
@@ -25,7 +35,17 @@ Removing old work directory
 Copying /home/ubuntu/pypi-conda-builds/timeout-decorator to /home/ubuntu/miniconda/conda-bld/work
 Package: timeout-decorator-0.3.2-py_0
 source tree in: /home/ubuntu/miniconda/conda-bld/work
-Command failed: /bin/bash -x -e /home/ubuntu/pypi-conda-builds/timeout-decorator/build.sh
+number of files: 9
+Fixing permissions
+Fixing permissions
+BUILD END: timeout-decorator-0.3.2-py_0
+# If you want to upload this package to binstar.org later, type:
+#
+# $ binstar upload /home/ubuntu/miniconda/conda-bld/noarch/timeout-decorator-0.3.2-py_0.tar.bz2
+#
+# To have conda build upload to binstar automatically, use
+# $ conda config --set binstar_upload yes
+
 Package search: {'_pypi_ordering': False, 'version': '0.3.2', 'name': 'timeout-decorator', 'summary': 'Timeout decorator'}
 Creating standard recipe for timeout-decorator-0.3.2
 Converting recipe in /home/ubuntu/pypi-conda-builds/timeout-decorator

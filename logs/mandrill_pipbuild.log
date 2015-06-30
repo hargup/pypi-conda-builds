@@ -1,0 +1,35 @@
+Error: prefix already exists: /home/ubuntu/miniconda/envs/_pipbuild_
+Collecting mandrill==1.0.57
+  Downloading http://localhost/packages/source/m/mandrill/mandrill-1.0.57.tar.gz
+setuptools must be installed to install from a source distribution
+Package search: {'_pypi_ordering': False, 'version': '1.0.57', 'name': 'mandrill', 'summary': 'A CLI client and Python API library for the Mandrill email as a service platform.'}
+Creating standard recipe for mandrill-1.0.57
+Using url https://pypi.python.org/packages/source/m/mandrill/mandrill-1.0.57.tar.gz (27 KB) for mandrill.
+Downloading mandrill
+Using cached download
+Unpacking mandrill...
+done
+working in /tmp/tmptOb6ykconda_skeleton_mandrill-1.0.57.tar.gz
+Fetching package metadata: ......
+
+WARNING: conda-build appears to be out of date. You have version 1.13.0 but the
+latest version is 1.14.0. Run
+
+conda update -n root conda-build
+
+to get the latest version.
+
+Solving package specifications: .patching file core.py
+Hunk #1 succeeded at 168 with fuzz 2 (offset 2 lines).
+Traceback (most recent call last):
+  File "setup.py", line 1, in <module>
+    from setuptools import setup
+ImportError: No module named setuptools
+
+Applying patch: '/tmp/tmptOb6ykconda_skeleton_mandrill-1.0.57.tar.gz/pypi-distutils.patch'
+$PYTHONPATH = /tmp/tmptOb6ykconda_skeleton_mandrill-1.0.57.tar.gz/mandrill-1.0.57
+Error: command failed: /home/ubuntu/miniconda/envs/_build/bin/python setup.py install
+
+conda create -n _pipbuild_ --yes python pip
+/home/ubuntu/miniconda/envs/_pipbuild_/bin/pip install mandrill==1.0.57
+Error: Could not pip install mandrill==1.0.57

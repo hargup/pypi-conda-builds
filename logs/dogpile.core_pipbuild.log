@@ -1,47 +1,43 @@
-Package search: {'_pypi_ordering': False, 'version': '0.4.1', 'name': 'dogpile.core', 'summary': "A 'dogpile' lock, typically used as a component of a larger caching solution"}
-Fetching package metadata: ....
-Removing old build directory
-Removing old work directory
-BUILD START: dogpile.core-0.4.1-py27_0
-Fetching package metadata: ......
-Solving package specifications: .+ pip install dogpile.core
-Collecting dogpile.core
+Error: prefix already exists: /home/ubuntu/miniconda/envs/_pipbuild_
+Collecting dogpile.core==0.4.1
   Downloading http://localhost/packages/source/d/dogpile.core/dogpile.core-0.4.1.tar.gz (99kB)
-Installing collected packages: dogpile.core
-  Running setup.py install for dogpile.core
-Successfully installed dogpile.core-0.4.1
+setuptools must be installed to install from a source distribution
+Package search: {'_pypi_ordering': False, 'version': '0.4.1', 'name': 'dogpile.core', 'summary': "A 'dogpile' lock, typically used as a component of a larger caching solution"}
+Creating standard recipe for dogpile.core-0.4.1
+Using url https://pypi.python.org/packages/source/d/dogpile.core/dogpile.core-0.4.1.tar.gz (97 KB) for dogpile.core.
+Downloading dogpile.core
+Using cached download
+Unpacking dogpile.core...
+done
+working in /tmp/tmptrx42Dconda_skeleton_dogpile.core-0.4.1.tar.gz
+Fetching package metadata: ......
+
+WARNING: conda-build appears to be out of date. You have version 1.13.0 but the
+latest version is 1.14.0. Run
+
+conda update -n root conda-build
+
+to get the latest version.
+
+Solving package specifications: .patching file core.py
+Hunk #1 succeeded at 168 with fuzz 2 (offset 2 lines).
+Traceback (most recent call last):
+  File "setup.py", line 5, in <module>
+    from setuptools import setup, find_packages
+ImportError: No module named setuptools
 
 The following NEW packages will be INSTALLED:
 
-    openssl:    1.0.1k-1    
-    pip:        7.0.3-py27_0
-    python:     2.7.10-0    
-    readline:   6.2-2       
-    setuptools: 17.0-py27_0 
-    sqlite:     3.8.4.1-1   
-    system:     5.8-2       
-    tk:         8.5.18-0    
-    zlib:       1.2.8-0     
+    numpy:  1.9.2-py27_0
+    pyyaml: 3.11-py27_1 
+    yaml:   0.1.6-0     
 
 Linking packages ...
-[                    ]|                                                  |   0%[openssl             ]|                                                  |   0%[readline            ]|#####                                             |  11%[sqlite              ]|###########                                       |  22%[system              ]|################                                  |  33%[tk                  ]|######################                            |  44%[zlib                ]|###########################                       |  55%[python              ]|#################################                 |  66%[setuptools          ]|######################################            |  77%[pip                 ]|############################################      |  88%[      COMPLETE      ]|##################################################| 100%
-Removing old work directory
-Copying /home/ubuntu/pypi-conda-builds/dogpile.core to /home/ubuntu/miniconda/conda-bld/work
-Package: dogpile.core-0.4.1-py27_0
-source tree in: /home/ubuntu/miniconda/conda-bld/work
-number of files: 20
-Fixing permissions
-Fixing permissions
-BUILD END: dogpile.core-0.4.1-py27_0
-# If you want to upload this package to binstar.org later, type:
-#
-# $ binstar upload /home/ubuntu/miniconda/conda-bld/linux-64/dogpile.core-0.4.1-py27_0.tar.bz2
-#
-# To have conda build upload to binstar automatically, use
-# $ conda config --set binstar_upload yes
+[                    ]|                                                  |   0%[yaml                ]|                                                  |   0%[numpy               ]|################                                  |  33%[pyyaml              ]|#################################                 |  66%[      COMPLETE      ]|##################################################| 100%
+Applying patch: '/tmp/tmptrx42Dconda_skeleton_dogpile.core-0.4.1.tar.gz/pypi-distutils.patch'
+$PYTHONPATH = /tmp/tmptrx42Dconda_skeleton_dogpile.core-0.4.1.tar.gz/dogpile.core-0.4.1
+Error: command failed: /home/ubuntu/miniconda/envs/_build/bin/python setup.py install
 
-Creating standard recipe for dogpile.core-0.4.1
-Converting recipe in /home/ubuntu/pypi-conda-builds/dogpile.core
-package = dogpile.core
-   dependencies = []
-Building conda package for dogpile.core
+conda create -n _pipbuild_ --yes python pip
+/home/ubuntu/miniconda/envs/_pipbuild_/bin/pip install dogpile.core==0.4.1
+Error: Could not pip install dogpile.core==0.4.1

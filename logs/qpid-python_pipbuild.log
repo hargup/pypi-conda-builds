@@ -1,0 +1,11 @@
+Error: prefix already exists: /home/ubuntu/miniconda/envs/_pipbuild_
+Collecting qpid-python==0.26.2
+  Could not find a version that satisfies the requirement qpid-python==0.26.2 (from versions: 0.20, 0.26)
+No matching distribution found for qpid-python==0.26.2
+Package search: {'_pypi_ordering': False, 'version': '0.26.2', 'name': 'qpid-python', 'summary': 'Python client implementation for Apache Qpid'}
+Creating standard recipe for qpid-python-0.26.2
+Error: Could not parse url for qpid-python: UNKNOWN
+
+conda create -n _pipbuild_ --yes python pip
+/home/ubuntu/miniconda/envs/_pipbuild_/bin/pip install qpid-python==0.26.2
+Error: Could not pip install qpid-python==0.26.2

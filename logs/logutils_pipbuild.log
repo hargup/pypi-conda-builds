@@ -2,6 +2,14 @@ Removing old build directory
 Removing old work directory
 BUILD START: logutils-0.3.3-py_0
 Fetching package metadata: ......
+
+WARNING: conda-build appears to be out of date. You have version 1.13.0 but the
+latest version is 1.14.0. Run
+
+conda update -n root conda-build
+
+to get the latest version.
+
 Solving package specifications: .+ pip install logutils
 Collecting logutils
   Downloading http://localhost/packages/source/l/logutils/logutils-0.3.3.tar.gz

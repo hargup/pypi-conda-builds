@@ -1,0 +1,35 @@
+Error: prefix already exists: /home/ubuntu/miniconda/envs/_pipbuild_
+Collecting AWSpider==0.3.2.12
+  Downloading http://localhost/packages/source/A/AWSpider/AWSpider-0.3.2.12.tar.gz (75kB)
+setuptools must be installed to install from a source distribution
+Package search: {'_pypi_ordering': False, 'version': '0.3.2.12', 'name': 'AWSpider', 'summary': 'Amazon Web Services web crawler'}
+Creating standard recipe for awspider-0.3.2.12
+Using url https://pypi.python.org/packages/source/A/AWSpider/AWSpider-0.3.2.12.tar.gz (74 KB) for AWSpider.
+Downloading AWSpider
+Using cached download
+Unpacking AWSpider...
+done
+working in /tmp/tmpDWppjKconda_skeleton_AWSpider-0.3.2.12.tar.gz
+Fetching package metadata: ......
+
+WARNING: conda-build appears to be out of date. You have version 1.13.0 but the
+latest version is 1.14.0. Run
+
+conda update -n root conda-build
+
+to get the latest version.
+
+Solving package specifications: .patching file core.py
+Hunk #1 succeeded at 168 with fuzz 2 (offset 2 lines).
+Traceback (most recent call last):
+  File "setup.py", line 1, in <module>
+    from setuptools import setup, find_packages
+ImportError: No module named setuptools
+
+Applying patch: '/tmp/tmpDWppjKconda_skeleton_AWSpider-0.3.2.12.tar.gz/pypi-distutils.patch'
+$PYTHONPATH = /tmp/tmpDWppjKconda_skeleton_AWSpider-0.3.2.12.tar.gz/AWSpider-0.3.2.12
+Error: command failed: /home/ubuntu/miniconda/envs/_build/bin/python setup.py install
+
+conda create -n _pipbuild_ --yes python pip
+/home/ubuntu/miniconda/envs/_pipbuild_/bin/pip install AWSpider==0.3.2.12
+Error: Could not pip install AWSpider==0.3.2.12

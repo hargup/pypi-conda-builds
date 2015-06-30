@@ -1,0 +1,43 @@
+Error: prefix already exists: /home/ubuntu/miniconda/envs/_pipbuild_
+Collecting pyspectral==v0.1.0
+  Downloading http://localhost/packages/source/p/pyspectral/pyspectral-v0.1.0.tar.gz
+setuptools must be installed to install from a source distribution
+Package search: {'_pypi_ordering': False, 'version': 'v0.1.0', 'name': 'pyspectral', 'summary': 'Getting satellite sensor rsr functions and the solar spectrum'}
+Creating standard recipe for pyspectral-v0.1.0
+Using url https://pypi.python.org/packages/source/p/pyspectral/pyspectral-v0.1.0.tar.gz (18 KB) for pyspectral.
+Downloading pyspectral
+Using cached download
+Unpacking pyspectral...
+done
+working in /tmp/tmpS_EKJ0conda_skeleton_pyspectral-v0.1.0.tar.gz
+Fetching package metadata: ......
+
+WARNING: conda-build appears to be out of date. You have version 1.13.0 but the
+latest version is 1.14.0. Run
+
+conda update -n root conda-build
+
+to get the latest version.
+
+Solving package specifications: .patching file core.py
+Hunk #1 succeeded at 168 with fuzz 2 (offset 2 lines).
+Traceback (most recent call last):
+  File "setup.py", line 31, in <module>
+    from setuptools import setup
+ImportError: No module named setuptools
+
+The following NEW packages will be INSTALLED:
+
+    numpy:  1.9.2-py27_0
+    pyyaml: 3.11-py27_1 
+    yaml:   0.1.6-0     
+
+Linking packages ...
+[                    ]|                                                  |   0%[yaml                ]|                                                  |   0%[numpy               ]|################                                  |  33%[pyyaml              ]|#################################                 |  66%[      COMPLETE      ]|##################################################| 100%
+Applying patch: '/tmp/tmpS_EKJ0conda_skeleton_pyspectral-v0.1.0.tar.gz/pypi-distutils.patch'
+$PYTHONPATH = /tmp/tmpS_EKJ0conda_skeleton_pyspectral-v0.1.0.tar.gz/pyspectral-v0.1.0
+Error: command failed: /home/ubuntu/miniconda/envs/_build/bin/python setup.py install
+
+conda create -n _pipbuild_ --yes python pip
+/home/ubuntu/miniconda/envs/_pipbuild_/bin/pip install pyspectral==v0.1.0
+Error: Could not pip install pyspectral==v0.1.0

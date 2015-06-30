@@ -1,32 +1,35 @@
 Error: prefix already exists: /home/ubuntu/miniconda/envs/_pipbuild_
-Exception:
-Traceback (most recent call last):
-  File "/home/ubuntu/miniconda/envs/_pipbuild_/lib/python2.7/site-packages/pip/basecommand.py", line 223, in main
-    status = self.run(options, args)
-  File "/home/ubuntu/miniconda/envs/_pipbuild_/lib/python2.7/site-packages/pip/commands/install.py", line 268, in run
-    wheel_cache
-  File "/home/ubuntu/miniconda/envs/_pipbuild_/lib/python2.7/site-packages/pip/basecommand.py", line 268, in populate_requirement_set
-    wheel_cache=wheel_cache
-  File "/home/ubuntu/miniconda/envs/_pipbuild_/lib/python2.7/site-packages/pip/req/req_install.py", line 207, in from_line
-    wheel_cache=wheel_cache)
-  File "/home/ubuntu/miniconda/envs/_pipbuild_/lib/python2.7/site-packages/pip/req/req_install.py", line 66, in __init__
-    req = pkg_resources.Requirement.parse(req)
-  File "/home/ubuntu/miniconda/envs/_pipbuild_/lib/python2.7/site-packages/pip/_vendor/pkg_resources/__init__.py", line 2960, in parse
-    reqs = list(parse_requirements(s))
-  File "/home/ubuntu/miniconda/envs/_pipbuild_/lib/python2.7/site-packages/pip/_vendor/pkg_resources/__init__.py", line 2904, in parse_requirements
-    "version spec")
-  File "/home/ubuntu/miniconda/envs/_pipbuild_/lib/python2.7/site-packages/pip/_vendor/pkg_resources/__init__.py", line 2869, in scan_list
-    raise ValueError(msg, line, "at", line[p:])
-ValueError: ('Expected version spec in', 'py==>=1.4.22', 'at', '==>=1.4.22')
-
+Collecting pytest-cov==1.8.1
+  Downloading http://localhost/packages/source/p/pytest-cov/pytest-cov-1.8.1.tar.gz
+setuptools must be installed to install from a source distribution
 Package search: {'_pypi_ordering': False, 'version': '1.8.1', 'name': 'pytest-cov', 'summary': 'py.test plugin for coverage reporting with support for both centralised and distributed testing, including subprocesses and multiprocessing'}
 Creating standard recipe for pytest-cov-1.8.1
-Converting recipe in /home/ubuntu/pypi-conda-builds/pytest-cov
-package = pytest-cov
-   dependencies = [u'py >=1.4.22', u'pytest >=2.6.0', u'coverage >=3.7.1,<4.0a1', u'cov-core >=1.14.0']
-Creating standard recipe for py->=1.4.22
-Error: Version >=1.4.22 of py is not available on PyPI.
+Using url https://pypi.python.org/packages/source/p/pytest-cov/pytest-cov-1.8.1.tar.gz (8 KB) for pytest-cov.
+Downloading pytest-cov
+Using cached download
+Unpacking pytest-cov...
+done
+working in /tmp/tmpffk8Guconda_skeleton_pytest-cov-1.8.1.tar.gz
+Fetching package metadata: ......
+
+WARNING: conda-build appears to be out of date. You have version 1.13.0 but the
+latest version is 1.14.0. Run
+
+conda update -n root conda-build
+
+to get the latest version.
+
+Solving package specifications: .patching file core.py
+Hunk #1 succeeded at 168 with fuzz 2 (offset 2 lines).
+Traceback (most recent call last):
+  File "setup.py", line 1, in <module>
+    import setuptools
+ImportError: No module named setuptools
+
+Applying patch: '/tmp/tmpffk8Guconda_skeleton_pytest-cov-1.8.1.tar.gz/pypi-distutils.patch'
+$PYTHONPATH = /tmp/tmpffk8Guconda_skeleton_pytest-cov-1.8.1.tar.gz/pytest-cov-1.8.1
+Error: command failed: /home/ubuntu/miniconda/envs/_build/bin/python setup.py install
 
 conda create -n _pipbuild_ --yes python pip
-/home/ubuntu/miniconda/envs/_pipbuild_/bin/pip install py==>=1.4.22
-Error: Could not pip install py==>=1.4.22
+/home/ubuntu/miniconda/envs/_pipbuild_/bin/pip install pytest-cov==1.8.1
+Error: Could not pip install pytest-cov==1.8.1

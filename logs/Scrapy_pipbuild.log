@@ -1,77 +1,42 @@
-Package search: {'_pypi_ordering': False, 'version': '1.0.0rc2', 'name': 'Scrapy', 'summary': 'A high-level Web Crawling and Web Scraping framework'}
-Fetching package metadata: ....
-Removing old build directory
-Removing old work directory
-BUILD START: scrapy-1.0.0rc2-py27_0
+Error: prefix already exists: /home/ubuntu/miniconda/envs/_pipbuild_
+Collecting Scrapy==1.0.0
+  Could not find a version that satisfies the requirement Scrapy==1.0.0 (from versions: 0.7, 0.8, 0.9, 0.10.4.2364, 0.12.0.2550, 0.14.1, 0.14.2, 0.14.3, 0.14.4, 0.16.0, 0.16.1, 0.16.2, 0.16.3, 0.16.4, 0.16.5, 0.18.0, 0.18.1, 0.18.2, 0.18.3, 0.18.4, 0.20.0, 0.20.1, 0.20.2, 0.22.0, 0.22.1, 0.22.2, 0.24.0, 0.24.1, 0.24.2, 0.24.3, 0.24.4, 0.24.5, 0.24.6)
+No matching distribution found for Scrapy==1.0.0
+Package search: {'_pypi_ordering': False, 'version': '1.0.0', 'name': 'Scrapy', 'summary': 'A high-level Web Crawling and Web Scraping framework'}
+Creating standard recipe for scrapy-1.0.0
+Using url https://pypi.python.org/packages/source/S/Scrapy/Scrapy-1.0.0.tar.gz (641 KB) for Scrapy.
+Downloading Scrapy
+Unpacking Scrapy...
+done
+working in /tmp/tmphg2D2Dconda_skeleton_Scrapy-1.0.0.tar.gz
 Fetching package metadata: ......
-Solving package specifications: .+ pip install Scrapy
-Collecting Scrapy
-  Downloading http://localhost/packages/2.7/S/Scrapy/Scrapy-0.24.6-py2-none-any.whl (444kB)
-Requirement already satisfied (use --upgrade to upgrade): cssselect>=0.9 in /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/cssselect-0.9.1-py2.7.egg (from Scrapy)
-Requirement already satisfied (use --upgrade to upgrade): queuelib in /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/queuelib-1.2.2-py2.7.egg (from Scrapy)
-Requirement already satisfied (use --upgrade to upgrade): pyOpenSSL in /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages (from Scrapy)
-Requirement already satisfied (use --upgrade to upgrade): w3lib>=1.8.0 in /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/w3lib-1.11.0-py2.7.egg (from Scrapy)
-Requirement already satisfied (use --upgrade to upgrade): lxml in /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages (from Scrapy)
-Requirement already satisfied (use --upgrade to upgrade): Twisted>=10.0.0 in /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages (from Scrapy)
-Requirement already satisfied (use --upgrade to upgrade): six>=1.5.2 in /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages (from Scrapy)
-Requirement already satisfied (use --upgrade to upgrade): cryptography>=0.7 in /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages (from pyOpenSSL->Scrapy)
-Requirement already satisfied (use --upgrade to upgrade): pyasn1 in /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/pyasn1-0.1.7-py2.7.egg (from cryptography>=0.7->pyOpenSSL->Scrapy)
-Requirement already satisfied (use --upgrade to upgrade): setuptools in /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/setuptools-17.0-py2.7.egg (from cryptography>=0.7->pyOpenSSL->Scrapy)
-Requirement already satisfied (use --upgrade to upgrade): enum34 in /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages (from cryptography>=0.7->pyOpenSSL->Scrapy)
-Requirement already satisfied (use --upgrade to upgrade): cffi>=0.8 in /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages (from cryptography>=0.7->pyOpenSSL->Scrapy)
-Requirement already satisfied (use --upgrade to upgrade): pycparser in /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages (from cffi>=0.8->cryptography>=0.7->pyOpenSSL->Scrapy)
-Installing collected packages: Scrapy
-Successfully installed Scrapy-0.24.6
+
+WARNING: conda-build appears to be out of date. You have version 1.13.0 but the
+latest version is 1.14.0. Run
+
+conda update -n root conda-build
+
+to get the latest version.
+
+Solving package specifications: .patching file core.py
+Hunk #1 succeeded at 168 with fuzz 2 (offset 2 lines).
+Traceback (most recent call last):
+  File "setup.py", line 2, in <module>
+    from setuptools import setup, find_packages
+ImportError: No module named setuptools
 
 The following NEW packages will be INSTALLED:
 
-    cffi:           1.1.0-py27_0 
-    cryptography:   0.8.2-py27_0 
-    cssselect:      0.9.1-py27_0 
-    enum34:         1.0.4-py27_0 
-    libffi:         3.0.13-0     
-    libxml2:        2.9.0-0      
-    libxslt:        1.1.28-0     
-    lxml:           3.4.4-py27_0 
-    openssl:        1.0.1k-1     
-    pip:            7.0.3-py27_0 
-    pyasn1:         0.1.7-py27_0 
-    pycparser:      2.13-py27_0  
-    pyopenssl:      0.15.1-py27_0
-    python:         2.7.10-0     
-    queuelib:       1.2.2-py27_0 
-    readline:       6.2-2        
-    setuptools:     17.0-py27_0  
-    six:            1.9.0-py27_0 
-    sqlite:         3.8.4.1-1    
-    system:         5.8-2        
-    tk:             8.5.18-0     
-    twisted:        15.2.1-py27_0
-    w3lib:          1.11.0-py27_0
-    zlib:           1.2.8-0      
-    zope.interface: 4.1.2-py27_0 
+    numpy:  1.9.2-py27_0
+    pyyaml: 3.11-py27_1 
+    yaml:   0.1.6-0     
 
 Linking packages ...
-[                    ]|                                                  |   0%[libffi              ]|                                                  |   0%[openssl             ]|##                                                |   4%[readline            ]|####                                              |   8%[sqlite              ]|######                                            |  12%[system              ]|########                                          |  16%[tk                  ]|##########                                        |  20%[zlib                ]|############                                      |  24%[libxml2             ]|##############                                    |  28%[libxslt             ]|################                                  |  32%[cssselect           ]|##################                                |  36%[enum34              ]|####################                              |  40%[lxml                ]|######################                            |  44%[pyasn1              ]|########################                          |  48%[pycparser           ]|##########################                        |  52%[cffi                ]|############################                      |  56%[python              ]|##############################                    |  60%[queuelib            ]|################################                  |  64%[setuptools          ]|##################################                |  68%[six                 ]|####################################              |  72%[zope.interface      ]|######################################            |  76%[cryptography        ]|########################################          |  80%[pip                 ]|##########################################        |  84%[twisted             ]|############################################      |  88%[w3lib               ]|##############################################    |  92%[pyopenssl           ]|################################################  |  96%[      COMPLETE      ]|##################################################| 100%
-Removing old work directory
-Copying /home/ubuntu/pypi-conda-builds/scrapy to /home/ubuntu/miniconda/conda-bld/work
-Package: scrapy-1.0.0rc2-py27_0
-source tree in: /home/ubuntu/miniconda/conda-bld/work
-number of files: 647
-Fixing permissions
-Detected hard-coded path in text file bin/scrapy
-Detected hard-coded path in text file lib/python2.7/site-packages/Scrapy-0.24.6.dist-info/RECORD
-Fixing permissions
-BUILD END: scrapy-1.0.0rc2-py27_0
-# If you want to upload this package to binstar.org later, type:
-#
-# $ binstar upload /home/ubuntu/miniconda/conda-bld/linux-64/scrapy-1.0.0rc2-py27_0.tar.bz2
-#
-# To have conda build upload to binstar automatically, use
-# $ conda config --set binstar_upload yes
+[                    ]|                                                  |   0%[yaml                ]|                                                  |   0%[numpy               ]|################                                  |  33%[pyyaml              ]|#################################                 |  66%[      COMPLETE      ]|##################################################| 100%
+Applying patch: '/tmp/tmphg2D2Dconda_skeleton_Scrapy-1.0.0.tar.gz/pypi-distutils.patch'
+$PYTHONPATH = /tmp/tmphg2D2Dconda_skeleton_Scrapy-1.0.0.tar.gz/Scrapy-1.0.0
+Error: command failed: /home/ubuntu/miniconda/envs/_build/bin/python setup.py install
 
-Creating standard recipe for scrapy-1.0.0rc2
-Converting recipe in /home/ubuntu/pypi-conda-builds/scrapy
-package = Scrapy
-   dependencies = [u'twisted >=10.0.0', u'w3lib >=1.8.0', u'queuelib', u'lxml', u'pyopenssl', u'cssselect >=0.9', u'six >=1.5.2']
-Building conda package for scrapy
+conda create -n _pipbuild_ --yes python pip
+/home/ubuntu/miniconda/envs/_pipbuild_/bin/pip install Scrapy==1.0.0
+Error: Could not pip install Scrapy==1.0.0

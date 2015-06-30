@@ -1,0 +1,11 @@
+Error: prefix already exists: /home/ubuntu/miniconda/envs/_pipbuild_
+Collecting androidviewclient==10.5.1
+  Could not find a version that satisfies the requirement androidviewclient==10.5.1 (from versions: )
+No matching distribution found for androidviewclient==10.5.1
+Package search: {'_pypi_ordering': False, 'version': '10.5.1', 'name': 'androidviewclient', 'summary': 'AndroidViewClient is a 100% pure python library and tools\n        that simplifies test script creation providing higher level\n        operations and the ability of obtaining the tree of Views present at\n        any given moment on the device or emulator screen.'}
+Creating standard recipe for androidviewclient-10.5.1
+Error: Could not parse url for androidviewclient: UNKNOWN
+
+conda create -n _pipbuild_ --yes python pip
+/home/ubuntu/miniconda/envs/_pipbuild_/bin/pip install androidviewclient==10.5.1
+Error: Could not pip install androidviewclient==10.5.1

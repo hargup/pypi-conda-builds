@@ -5,9 +5,9 @@ Traceback (most recent call last):
     sys.exit(main())
   File "/home/ubuntu/conda-build/conda_build/main_build.py", line 127, in main
     args_func(args, p)
-  File "/home/ubuntu/conda-build/conda_build/main_build.py", line 346, in args_func
+  File "/home/ubuntu/conda-build/conda_build/main_build.py", line 349, in args_func
     args.func(args, p)
-  File "/home/ubuntu/conda-build/conda_build/main_build.py", line 272, in execute
+  File "/home/ubuntu/conda-build/conda_build/main_build.py", line 273, in execute
     m = MetaData(recipe_dir)
   File "/home/ubuntu/conda-build/conda_build/metadata.py", line 264, in __init__
     self.parse_again()
@@ -15,9 +15,9 @@ Traceback (most recent call last):
     self.meta = parse(get_contents(self.meta_path))
   File "/home/ubuntu/conda-build/conda_build/metadata.py", line 107, in parse
     res = yamlize(data)
-  File "/home/ubuntu/miniconda/lib/python2.7/site-packages/conda/utils.py", line 120, in __call__
+  File "/home/ubuntu/miniconda/lib/python2.7/site-packages/conda/utils.py", line 119, in __call__
     value = self.func(*args, **kw)
-  File "/home/ubuntu/conda-build/conda_build/metadata.py", line 96, in yamlize
+  File "/home/ubuntu/conda-build/conda_build/metadata.py", line 95, in yamlize
     return yaml.load(data)
   File "/home/ubuntu/miniconda/lib/python2.7/site-packages/yaml/__init__.py", line 71, in load
     return loader.get_single_data()

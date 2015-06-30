@@ -1,50 +1,35 @@
+Error: prefix already exists: /home/ubuntu/miniconda/envs/_pipbuild_
+Collecting websocket-client==0.32.0
+  Could not find a version that satisfies the requirement websocket-client==0.32.0 (from versions: 0.3, 0.4, 0.4.1, 0.5.0a0, 0.5.0, 0.5.1, 0.6.0, 0.7.0, 0.8.0, 0.9.0, 0.10.0, 0.11.0, 0.12.0, 0.13.0, 0.14.0, 0.14.1, 0.15.0, 0.16.0a0, 0.16.0, 0.17.0, 0.18.0, 0.19.0, 0.20.0, 0.21.0, 0.22.0, 0.23.0, 0.24.0, 0.25.0, 0.26.0, 0.27.0, 0.28.0, 0.29.0, 0.30.0)
+No matching distribution found for websocket-client==0.32.0
 Package search: {'_pypi_ordering': False, 'version': '0.32.0', 'name': 'websocket-client', 'summary': 'WebSocket client for python. hybi13 is supported.'}
-Fetching package metadata: ....
-Removing old build directory
-Removing old work directory
-BUILD START: websocket-client-0.32.0-py27_0
-Fetching package metadata: ......
-Solving package specifications: .+ pip install websocket-client
-Collecting websocket-client
-  Downloading http://localhost/packages/source/w/websocket-client/websocket_client-0.30.0.tar.gz (191kB)
-Requirement already satisfied (use --upgrade to upgrade): six in /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages (from websocket-client)
-Installing collected packages: websocket-client
-  Running setup.py install for websocket-client
-Successfully installed websocket-client-0.30.0
-
-The following NEW packages will be INSTALLED:
-
-    openssl:    1.0.1k-1    
-    pip:        7.0.3-py27_0
-    python:     2.7.10-0    
-    readline:   6.2-2       
-    setuptools: 17.0-py27_0 
-    six:        1.9.0-py27_0
-    sqlite:     3.8.4.1-1   
-    system:     5.8-2       
-    tk:         8.5.18-0    
-    zlib:       1.2.8-0     
-
-Linking packages ...
-[                    ]|                                                  |   0%[openssl             ]|                                                  |   0%[readline            ]|#####                                             |  10%[sqlite              ]|##########                                        |  20%[system              ]|###############                                   |  30%[tk                  ]|####################                              |  40%[zlib                ]|#########################                         |  50%[python              ]|##############################                    |  60%[setuptools          ]|###################################               |  70%[six                 ]|########################################          |  80%[pip                 ]|#############################################     |  90%[      COMPLETE      ]|##################################################| 100%
-Removing old work directory
-Copying /home/ubuntu/pypi-conda-builds/websocket-client to /home/ubuntu/miniconda/conda-bld/work
-Package: websocket-client-0.32.0-py27_0
-source tree in: /home/ubuntu/miniconda/conda-bld/work
-number of files: 38
-Fixing permissions
-Detected hard-coded path in text file bin/wsdump.py
-Fixing permissions
-BUILD END: websocket-client-0.32.0-py27_0
-# If you want to upload this package to binstar.org later, type:
-#
-# $ binstar upload /home/ubuntu/miniconda/conda-bld/linux-64/websocket-client-0.32.0-py27_0.tar.bz2
-#
-# To have conda build upload to binstar automatically, use
-# $ conda config --set binstar_upload yes
-
 Creating standard recipe for websocket-client-0.32.0
-Converting recipe in /home/ubuntu/pypi-conda-builds/websocket-client
-package = websocket-client
-   dependencies = [u'six']
-Building conda package for websocket-client
+Using url https://pypi.python.org/packages/source/w/websocket-client/websocket_client-0.32.0.tar.gz (188 KB) for websocket-client.
+Downloading websocket-client
+Using cached download
+Unpacking websocket-client...
+done
+working in /tmp/tmpnMU8xAconda_skeleton_websocket_client-0.32.0.tar.gz
+Fetching package metadata: ......
+
+WARNING: conda-build appears to be out of date. You have version 1.13.0 but the
+latest version is 1.14.0. Run
+
+conda update -n root conda-build
+
+to get the latest version.
+
+Solving package specifications: .patching file core.py
+Hunk #1 succeeded at 168 with fuzz 2 (offset 2 lines).
+Traceback (most recent call last):
+  File "setup.py", line 1, in <module>
+    from setuptools import setup
+ImportError: No module named setuptools
+
+Applying patch: '/tmp/tmpnMU8xAconda_skeleton_websocket_client-0.32.0.tar.gz/pypi-distutils.patch'
+$PYTHONPATH = /tmp/tmpnMU8xAconda_skeleton_websocket_client-0.32.0.tar.gz/websocket_client-0.32.0
+Error: command failed: /home/ubuntu/miniconda/envs/_build/bin/python setup.py install
+
+conda create -n _pipbuild_ --yes python pip
+/home/ubuntu/miniconda/envs/_pipbuild_/bin/pip install websocket-client==0.32.0
+Error: Could not pip install websocket-client==0.32.0

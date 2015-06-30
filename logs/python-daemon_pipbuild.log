@@ -1,53 +1,95 @@
-Package search: {'_pypi_ordering': False, 'version': '2.0.5', 'name': 'python-daemon', 'summary': 'Library to implement a well-behaved Unix daemon process.'}
-Fetching package metadata: ....
 Removing old build directory
 Removing old work directory
-BUILD START: python-daemon-2.0.5-py27_0
+BUILD START: docutils-0.12-py27_0
 Fetching package metadata: ......
-Solving package specifications: .+ pip install python-daemon
-Collecting python-daemon
-  Downloading http://localhost/packages/3.4/p/python-daemon/python_daemon-2.0.5-py2.py3-none-any.whl
-Requirement already satisfied (use --upgrade to upgrade): docutils in /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages (from python-daemon)
-Requirement already satisfied (use --upgrade to upgrade): setuptools in /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/setuptools-17.0-py2.7.egg (from python-daemon)
-Requirement already satisfied (use --upgrade to upgrade): lockfile>=0.10 in /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages (from python-daemon)
-Installing collected packages: python-daemon
-Successfully installed python-daemon-2.0.5
+
+WARNING: conda-build appears to be out of date. You have version 1.13.0 but the
+latest version is 1.14.0. Run
+
+conda update -n root conda-build
+
+to get the latest version.
+
+Solving package specifications: .+ pip install docutils
+Collecting docutils
+  Downloading http://localhost/packages/source/d/docutils/docutils-0.12.tar.gz (1.6MB)
+Installing collected packages: docutils
+  Running setup.py install for docutils
+Successfully installed docutils-0.12
 
 The following NEW packages will be INSTALLED:
 
-    docutils:   0.12-py27_0  
-    lockfile:   0.10.2-py27_0
     openssl:    1.0.1k-1     
-    pbr:        1.1.0-py_0   
     pip:        7.0.3-py27_0 
     python:     2.7.10-0     
     readline:   6.2-2        
-    setuptools: 17.0-py27_0  
+    setuptools: 18.0.1-py27_0
     sqlite:     3.8.4.1-1    
     system:     5.8-2        
     tk:         8.5.18-0     
     zlib:       1.2.8-0      
 
 Linking packages ...
-[                    ]|                                                  |   0%[openssl             ]|                                                  |   0%[readline            ]|####                                              |   8%[sqlite              ]|########                                          |  16%[system              ]|############                                      |  25%[tk                  ]|################                                  |  33%[zlib                ]|####################                              |  41%[docutils            ]|#########################                         |  50%[python              ]|#############################                     |  58%[setuptools          ]|#################################                 |  66%[pbr                 ]|#####################################             |  75%[pip                 ]|#########################################         |  83%[lockfile            ]|#############################################     |  91%[      COMPLETE      ]|##################################################| 100%
+[                    ]|                                                  |   0%[openssl             ]|                                                  |   0%[readline            ]|#####                                             |  11%[sqlite              ]|###########                                       |  22%[system              ]|################                                  |  33%[tk                  ]|######################                            |  44%[zlib                ]|###########################                       |  55%[python              ]|#################################                 |  66%[setuptools          ]|######################################            |  77%[pip                 ]|############################################      |  88%[      COMPLETE      ]|##################################################| 100%
 Removing old work directory
-Copying /home/ubuntu/pypi-conda-builds/python-daemon to /home/ubuntu/miniconda/conda-bld/work
-Package: python-daemon-2.0.5-py27_0
+Copying /home/ubuntu/pypi-conda-builds/docutils to /home/ubuntu/miniconda/conda-bld/work
+Package: docutils-0.12-py27_0
 source tree in: /home/ubuntu/miniconda/conda-bld/work
-compiling .pyc files...
-number of files: 54
+number of files: 298
 Fixing permissions
+Detected hard-coded path in text file bin/rst2html.py
+Detected hard-coded path in text file bin/rst2latex.py
+Detected hard-coded path in text file bin/rst2man.py
+Detected hard-coded path in text file bin/rst2odt.py
+Detected hard-coded path in text file bin/rst2odt_prepstyles.py
+Detected hard-coded path in text file bin/rst2pseudoxml.py
+Detected hard-coded path in text file bin/rst2s5.py
+Detected hard-coded path in text file bin/rst2xetex.py
+Detected hard-coded path in text file bin/rst2xml.py
+Detected hard-coded path in text file bin/rstpep2html.py
 Fixing permissions
-BUILD END: python-daemon-2.0.5-py27_0
+BUILD END: docutils-0.12-py27_0
 # If you want to upload this package to binstar.org later, type:
 #
-# $ binstar upload /home/ubuntu/miniconda/conda-bld/linux-64/python-daemon-2.0.5-py27_0.tar.bz2
+# $ binstar upload /home/ubuntu/miniconda/conda-bld/linux-64/docutils-0.12-py27_0.tar.bz2
 #
 # To have conda build upload to binstar automatically, use
 # $ conda config --set binstar_upload yes
 
+Error: prefix already exists: /home/ubuntu/miniconda/envs/_pipbuild_
+Exception:
+Traceback (most recent call last):
+  File "/home/ubuntu/miniconda/envs/_pipbuild_/lib/python2.7/site-packages/pip/basecommand.py", line 223, in main
+    status = self.run(options, args)
+  File "/home/ubuntu/miniconda/envs/_pipbuild_/lib/python2.7/site-packages/pip/commands/install.py", line 268, in run
+    wheel_cache
+  File "/home/ubuntu/miniconda/envs/_pipbuild_/lib/python2.7/site-packages/pip/basecommand.py", line 268, in populate_requirement_set
+    wheel_cache=wheel_cache
+  File "/home/ubuntu/miniconda/envs/_pipbuild_/lib/python2.7/site-packages/pip/req/req_install.py", line 207, in from_line
+    wheel_cache=wheel_cache)
+  File "/home/ubuntu/miniconda/envs/_pipbuild_/lib/python2.7/site-packages/pip/req/req_install.py", line 66, in __init__
+    req = pkg_resources.Requirement.parse(req)
+  File "/home/ubuntu/miniconda/envs/_pipbuild_/lib/python2.7/site-packages/pip/_vendor/pkg_resources/__init__.py", line 2960, in parse
+    reqs = list(parse_requirements(s))
+  File "/home/ubuntu/miniconda/envs/_pipbuild_/lib/python2.7/site-packages/pip/_vendor/pkg_resources/__init__.py", line 2904, in parse_requirements
+    "version spec")
+  File "/home/ubuntu/miniconda/envs/_pipbuild_/lib/python2.7/site-packages/pip/_vendor/pkg_resources/__init__.py", line 2869, in scan_list
+    raise ValueError(msg, line, "at", line[p:])
+ValueError: ('Expected version spec in', 'lockfile==>=0.10', 'at', '==>=0.10')
+
+Package search: {'_pypi_ordering': False, 'version': '2.0.5', 'name': 'python-daemon', 'summary': 'Library to implement a well-behaved Unix daemon process.'}
 Creating standard recipe for python-daemon-2.0.5
 Converting recipe in /home/ubuntu/pypi-conda-builds/python-daemon
 package = python-daemon
    dependencies = [u'docutils', u'lockfile >=0.10']
-Building conda package for python-daemon
+Creating standard recipe for docutils
+Converting recipe in /home/ubuntu/pypi-conda-builds/docutils
+package = docutils
+   dependencies = []
+Building conda package for docutils
+Creating standard recipe for lockfile->=0.10
+Error: directory already exists: ./lockfile
+
+conda create -n _pipbuild_ --yes python pip
+/home/ubuntu/miniconda/envs/_pipbuild_/bin/pip install lockfile==>=0.10
+Error: Could not pip install lockfile==>=0.10

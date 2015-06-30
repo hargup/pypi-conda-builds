@@ -1,0 +1,43 @@
+Error: prefix already exists: /home/ubuntu/miniconda/envs/_pipbuild_
+Collecting rednose==0.4.3
+  Could not find a version that satisfies the requirement rednose==0.4.3 (from versions: 0.1.4, 0.1.5, 0.2, 0.2.1, 0.2.2, 0.2.3, 0.2.5, 0.3, 0.4.0, 0.4.1)
+No matching distribution found for rednose==0.4.3
+Package search: {'_pypi_ordering': False, 'version': '0.4.3', 'name': 'rednose', 'summary': 'coloured output for nosetests'}
+Creating standard recipe for rednose-0.4.3
+Using url https://pypi.python.org/packages/source/r/rednose/rednose-0.4.3.tar.gz (6 KB) for rednose.
+Downloading rednose
+Using cached download
+Unpacking rednose...
+done
+working in /tmp/tmpqecx9Pconda_skeleton_rednose-0.4.3.tar.gz
+Fetching package metadata: ......
+
+WARNING: conda-build appears to be out of date. You have version 1.13.0 but the
+latest version is 1.14.0. Run
+
+conda update -n root conda-build
+
+to get the latest version.
+
+Solving package specifications: .patching file core.py
+Hunk #1 succeeded at 168 with fuzz 2 (offset 2 lines).
+Traceback (most recent call last):
+  File "setup.py", line 7, in <module>
+    from setuptools import *
+ImportError: No module named setuptools
+
+The following NEW packages will be INSTALLED:
+
+    numpy:  1.9.2-py27_0
+    pyyaml: 3.11-py27_1 
+    yaml:   0.1.6-0     
+
+Linking packages ...
+[                    ]|                                                  |   0%[yaml                ]|                                                  |   0%[numpy               ]|################                                  |  33%[pyyaml              ]|#################################                 |  66%[      COMPLETE      ]|##################################################| 100%
+Applying patch: '/tmp/tmpqecx9Pconda_skeleton_rednose-0.4.3.tar.gz/pypi-distutils.patch'
+$PYTHONPATH = /tmp/tmpqecx9Pconda_skeleton_rednose-0.4.3.tar.gz/rednose-0.4.3
+Error: command failed: /home/ubuntu/miniconda/envs/_build/bin/python setup.py install
+
+conda create -n _pipbuild_ --yes python pip
+/home/ubuntu/miniconda/envs/_pipbuild_/bin/pip install rednose==0.4.3
+Error: Could not pip install rednose==0.4.3

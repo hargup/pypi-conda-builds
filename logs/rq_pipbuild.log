@@ -1,0 +1,35 @@
+Error: prefix already exists: /home/ubuntu/miniconda/envs/_pipbuild_
+Collecting rq==0.5.3
+  Could not find a version that satisfies the requirement rq==0.5.3 (from versions: 0.1.0, 0.1.1, 0.1.2, 0.2.0, 0.2.1, 0.2.2, 0.3.0, 0.3.1, 0.3.2, 0.3.3, 0.3.4, 0.3.5, 0.3.6, 0.3.7, 0.3.8, 0.3.9, 0.3.10, 0.3.11, 0.3.12, 0.3.13, 0.4.0, 0.4.1, 0.4.2, 0.4.3, 0.4.4, 0.4.5, 0.4.6, 0.5.0, 0.5.1, 0.5.2)
+No matching distribution found for rq==0.5.3
+Package search: {'_pypi_ordering': False, 'version': '0.5.3', 'name': 'rq', 'summary': 'RQ is a simple, lightweight, library for creating background jobs, and processing them.'}
+Creating standard recipe for rq-0.5.3
+Using url https://pypi.python.org/packages/source/r/rq/rq-0.5.3.tar.gz (45 KB) for rq.
+Downloading rq
+Using cached download
+Unpacking rq...
+done
+working in /tmp/tmp0DFPoHconda_skeleton_rq-0.5.3.tar.gz
+Fetching package metadata: ......
+
+WARNING: conda-build appears to be out of date. You have version 1.13.0 but the
+latest version is 1.14.0. Run
+
+conda update -n root conda-build
+
+to get the latest version.
+
+Solving package specifications: .patching file core.py
+Hunk #1 succeeded at 168 with fuzz 2 (offset 2 lines).
+Traceback (most recent call last):
+  File "setup.py", line 7, in <module>
+    from setuptools import setup, find_packages
+ImportError: No module named setuptools
+
+Applying patch: '/tmp/tmp0DFPoHconda_skeleton_rq-0.5.3.tar.gz/pypi-distutils.patch'
+$PYTHONPATH = /tmp/tmp0DFPoHconda_skeleton_rq-0.5.3.tar.gz/rq-0.5.3
+Error: command failed: /home/ubuntu/miniconda/envs/_build/bin/python setup.py install
+
+conda create -n _pipbuild_ --yes python pip
+/home/ubuntu/miniconda/envs/_pipbuild_/bin/pip install rq==0.5.3
+Error: Could not pip install rq==0.5.3

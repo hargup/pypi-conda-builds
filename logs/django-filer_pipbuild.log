@@ -1,0 +1,35 @@
+Error: prefix already exists: /home/ubuntu/miniconda/envs/_pipbuild_
+Collecting django-filer==0.9.11
+  Could not find a version that satisfies the requirement django-filer==0.9.11 (from versions: 0.1.3a0, 0.7.0, 0.7.1, 0.7.2, 0.8.1, 0.8.2, 0.8.3, 0.8.4, 0.8.5, 0.8.6, 0.8.7, 0.9, 0.9.1, 0.9.2, 0.9.3, 0.9.4, 0.9.5, 0.9.6, 0.9.7, 0.9.8, 0.9.9)
+No matching distribution found for django-filer==0.9.11
+Package search: {'_pypi_ordering': False, 'version': '0.1.3a', 'name': 'django-filer', 'summary': 'A file management application for django that makes handling of files and images a breeze.'}
+Creating standard recipe for django-filer-0.9.11
+Using url https://pypi.python.org/packages/source/d/django-filer/django-filer-0.9.11.tar.gz (744 KB) for django-filer.
+Downloading django-filer
+Using cached download
+Unpacking django-filer...
+done
+working in /tmp/tmpFs4dL4conda_skeleton_django-filer-0.9.11.tar.gz
+Fetching package metadata: ......
+
+WARNING: conda-build appears to be out of date. You have version 1.13.0 but the
+latest version is 1.14.0. Run
+
+conda update -n root conda-build
+
+to get the latest version.
+
+Solving package specifications: .patching file core.py
+Hunk #1 succeeded at 168 with fuzz 2 (offset 2 lines).
+Traceback (most recent call last):
+  File "setup.py", line 1, in <module>
+    from setuptools import setup, find_packages
+ImportError: No module named setuptools
+
+Applying patch: '/tmp/tmpFs4dL4conda_skeleton_django-filer-0.9.11.tar.gz/pypi-distutils.patch'
+$PYTHONPATH = /tmp/tmpFs4dL4conda_skeleton_django-filer-0.9.11.tar.gz/django-filer-0.9.11
+Error: command failed: /home/ubuntu/miniconda/envs/_build/bin/python setup.py install
+
+conda create -n _pipbuild_ --yes python pip
+/home/ubuntu/miniconda/envs/_pipbuild_/bin/pip install django-filer==0.9.11
+Error: Could not pip install django-filer==0.9.11

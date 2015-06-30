@@ -1,0 +1,109 @@
+Removing old build directory
+Removing old work directory
+BUILD START: pep8-1.6.2-py27_0
+Fetching package metadata: ......
+
+WARNING: conda-build appears to be out of date. You have version 1.13.0 but the
+latest version is 1.14.0. Run
+
+conda update -n root conda-build
+
+to get the latest version.
+
+Solving package specifications: .+ pip install pep8
+Collecting pep8
+  Downloading http://localhost/packages/py2.py3/p/pep8/pep8-1.6.2-py2.py3-none-any.whl (40kB)
+Installing collected packages: pep8
+Successfully installed pep8-1.6.2
+
+The following NEW packages will be INSTALLED:
+
+    openssl:    1.0.1k-1     
+    pip:        7.0.3-py27_0 
+    python:     2.7.10-0     
+    readline:   6.2-2        
+    setuptools: 18.0.1-py27_0
+    sqlite:     3.8.4.1-1    
+    system:     5.8-2        
+    tk:         8.5.18-0     
+    zlib:       1.2.8-0      
+
+Linking packages ...
+[                    ]|                                                  |   0%[openssl             ]|                                                  |   0%[readline            ]|#####                                             |  11%[sqlite              ]|###########                                       |  22%[system              ]|################                                  |  33%[tk                  ]|######################                            |  44%[zlib                ]|###########################                       |  55%[python              ]|#################################                 |  66%[setuptools          ]|######################################            |  77%[pip                 ]|############################################      |  88%[      COMPLETE      ]|##################################################| 100%
+Removing old work directory
+Copying /home/ubuntu/pypi-conda-builds/pep8 to /home/ubuntu/miniconda/conda-bld/work
+Package: pep8-1.6.2-py27_0
+source tree in: /home/ubuntu/miniconda/conda-bld/work
+number of files: 11
+Fixing permissions
+Detected hard-coded path in text file bin/pep8
+Detected hard-coded path in text file lib/python2.7/site-packages/pep8-1.6.2.dist-info/RECORD
+Fixing permissions
+BUILD END: pep8-1.6.2-py27_0
+# If you want to upload this package to binstar.org later, type:
+#
+# $ binstar upload /home/ubuntu/miniconda/conda-bld/linux-64/pep8-1.6.2-py27_0.tar.bz2
+#
+# To have conda build upload to binstar automatically, use
+# $ conda config --set binstar_upload yes
+
+Removing old build directory
+Removing old work directory
+BUILD START: flake8-import-order-0.6.1-py_0
+Fetching package metadata: ......
+
+WARNING: conda-build appears to be out of date. You have version 1.13.0 but the
+latest version is 1.14.0. Run
+
+conda update -n root conda-build
+
+to get the latest version.
+
+Solving package specifications: .+ pip install flake8-import-order
+Collecting flake8-import-order
+  Downloading http://localhost/packages/py2.py3/f/flake8-import-order/flake8_import_order-0.6-py2.py3-none-any.whl
+Requirement already satisfied (use --upgrade to upgrade): pep8 in /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages (from flake8-import-order)
+Installing collected packages: flake8-import-order
+Successfully installed flake8-import-order-0.6
+
+The following NEW packages will be INSTALLED:
+
+    openssl:    1.0.1k-1     
+    pep8:       1.6.2-py27_0 
+    pip:        7.0.3-py27_0 
+    python:     2.7.10-0     
+    readline:   6.2-2        
+    setuptools: 18.0.1-py27_0
+    sqlite:     3.8.4.1-1    
+    system:     5.8-2        
+    tk:         8.5.18-0     
+    zlib:       1.2.8-0      
+
+Linking packages ...
+[                    ]|                                                  |   0%[openssl             ]|                                                  |   0%[readline            ]|#####                                             |  10%[sqlite              ]|##########                                        |  20%[system              ]|###############                                   |  30%[tk                  ]|####################                              |  40%[zlib                ]|#########################                         |  50%[pep8                ]|##############################                    |  60%[python              ]|###################################               |  70%[setuptools          ]|########################################          |  80%[pip                 ]|#############################################     |  90%[      COMPLETE      ]|##################################################| 100%
+Removing old work directory
+Copying /home/ubuntu/pypi-conda-builds/flake8-import-order to /home/ubuntu/miniconda/conda-bld/work
+Package: flake8-import-order-0.6.1-py_0
+source tree in: /home/ubuntu/miniconda/conda-bld/work
+number of files: 17
+Fixing permissions
+Fixing permissions
+BUILD END: flake8-import-order-0.6.1-py_0
+# If you want to upload this package to binstar.org later, type:
+#
+# $ binstar upload /home/ubuntu/miniconda/conda-bld/noarch/flake8-import-order-0.6.1-py_0.tar.bz2
+#
+# To have conda build upload to binstar automatically, use
+# $ conda config --set binstar_upload yes
+
+Package search: {'_pypi_ordering': False, 'version': '0.6.1', 'name': 'flake8-import-order', 'summary': 'Flake8 and pylama plugin that checks the ordering of import statements.'}
+Creating standard recipe for flake8-import-order-0.6.1
+Converting recipe in /home/ubuntu/pypi-conda-builds/flake8-import-order
+package = flake8-import-order
+   dependencies = [u'pep8']
+Creating standard recipe for pep8
+Converting recipe in /home/ubuntu/pypi-conda-builds/pep8
+package = pep8
+   dependencies = []
+Building conda package for pep8
+Building conda package for flake8-import-order

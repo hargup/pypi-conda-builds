@@ -1,0 +1,35 @@
+Error: prefix already exists: /home/ubuntu/miniconda/envs/_pipbuild_
+Collecting Acquisition==4.2.2
+  Could not find a version that satisfies the requirement Acquisition==4.2.2 (from versions: 2.11.0b1, 2.11.1, 2.11.2, 2.11.3, 2.12.0a1, 2.12.1, 2.12.2, 2.12.3, 2.12.4, 2.13.0, 2.13.1, 2.13.2, 2.13.3, 2.13.4, 2.13.5, 2.13.6, 2.13.7, 2.13.8, 2.13.9, 4.0a1, 4.0, 4.0.1, 4.0.2, 4.0.3, 4.1, 4.2, 4.2.1)
+No matching distribution found for Acquisition==4.2.2
+Package search: {'_pypi_ordering': False, 'version': '4.2.2', 'name': 'Acquisition', 'summary': "Acquisition is a mechanism that allows objects to obtain attributes from the containment hierarchy they're in."}
+Creating standard recipe for acquisition-4.2.2
+Using url https://pypi.python.org/packages/source/A/Acquisition/Acquisition-4.2.2.tar.gz (64 KB) for Acquisition.
+Downloading Acquisition
+Using cached download
+Unpacking Acquisition...
+done
+working in /tmp/tmpNJH9ZZconda_skeleton_Acquisition-4.2.2.tar.gz
+Fetching package metadata: ......
+
+WARNING: conda-build appears to be out of date. You have version 1.13.0 but the
+latest version is 1.14.0. Run
+
+conda update -n root conda-build
+
+to get the latest version.
+
+Solving package specifications: .patching file core.py
+Hunk #1 succeeded at 168 with fuzz 2 (offset 2 lines).
+Traceback (most recent call last):
+  File "setup.py", line 19, in <module>
+    from setuptools import setup, find_packages, Extension
+ImportError: No module named setuptools
+
+Applying patch: '/tmp/tmpNJH9ZZconda_skeleton_Acquisition-4.2.2.tar.gz/pypi-distutils.patch'
+$PYTHONPATH = /tmp/tmpNJH9ZZconda_skeleton_Acquisition-4.2.2.tar.gz/Acquisition-4.2.2
+Error: command failed: /home/ubuntu/miniconda/envs/_build/bin/python setup.py install
+
+conda create -n _pipbuild_ --yes python pip
+/home/ubuntu/miniconda/envs/_pipbuild_/bin/pip install Acquisition==4.2.2
+Error: Could not pip install Acquisition==4.2.2

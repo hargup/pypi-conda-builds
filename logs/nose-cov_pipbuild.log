@@ -1,0 +1,35 @@
+Error: prefix already exists: /home/ubuntu/miniconda/envs/_pipbuild_
+Collecting nose-cov==1.6
+  Downloading http://localhost/packages/source/n/nose-cov/nose-cov-1.6.tar.gz
+setuptools must be installed to install from a source distribution
+Package search: {'_pypi_ordering': False, 'version': '1.6', 'name': 'nose-cov', 'summary': 'nose plugin for coverage reporting, including subprocesses and multiprocessing'}
+Creating standard recipe for nose-cov-1.6
+Using url https://pypi.python.org/packages/source/n/nose-cov/nose-cov-1.6.tar.gz (5 KB) for nose-cov.
+Downloading nose-cov
+Using cached download
+Unpacking nose-cov...
+done
+working in /tmp/tmp81jhy1conda_skeleton_nose-cov-1.6.tar.gz
+Fetching package metadata: ......
+
+WARNING: conda-build appears to be out of date. You have version 1.13.0 but the
+latest version is 1.14.0. Run
+
+conda update -n root conda-build
+
+to get the latest version.
+
+Solving package specifications: .patching file core.py
+Hunk #1 succeeded at 168 with fuzz 2 (offset 2 lines).
+Traceback (most recent call last):
+  File "setup.py", line 1, in <module>
+    import setuptools
+ImportError: No module named setuptools
+
+Applying patch: '/tmp/tmp81jhy1conda_skeleton_nose-cov-1.6.tar.gz/pypi-distutils.patch'
+$PYTHONPATH = /tmp/tmp81jhy1conda_skeleton_nose-cov-1.6.tar.gz/nose-cov-1.6
+Error: command failed: /home/ubuntu/miniconda/envs/_build/bin/python setup.py install
+
+conda create -n _pipbuild_ --yes python pip
+/home/ubuntu/miniconda/envs/_pipbuild_/bin/pip install nose-cov==1.6
+Error: Could not pip install nose-cov==1.6

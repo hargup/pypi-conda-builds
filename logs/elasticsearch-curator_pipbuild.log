@@ -1,0 +1,34 @@
+Error: prefix already exists: /home/ubuntu/miniconda/envs/_pipbuild_
+Collecting elasticsearch-curator==3.2.0
+  Could not find a version that satisfies the requirement elasticsearch-curator==3.2.0 (from versions: 0.6.0, 0.6.1, 0.6.2, 1.0.0, 1.1.0, 1.1.2, 1.1.3, 1.2.0, 1.2.1, 1.2.2, 2.0.0, 2.0.1, 2.0.2, 2.1.0, 2.1.1, 2.1.2, 3.0.0, 3.0.1, 3.0.2, 3.0.3)
+No matching distribution found for elasticsearch-curator==3.2.0
+Package search: {'_pypi_ordering': False, 'version': '3.2.0', 'name': 'elasticsearch-curator', 'summary': 'Tending your Elasticsearch indices'}
+Creating standard recipe for elasticsearch-curator-3.2.0
+Using url https://pypi.python.org/packages/source/e/elasticsearch-curator/elasticsearch-curator-3.2.0.tar.gz (77 KB) for elasticsearch-curator.
+Downloading elasticsearch-curator
+Unpacking elasticsearch-curator...
+done
+working in /tmp/tmpKb0Cbmconda_skeleton_elasticsearch-curator-3.2.0.tar.gz
+Fetching package metadata: ......
+
+WARNING: conda-build appears to be out of date. You have version 1.13.0 but the
+latest version is 1.14.0. Run
+
+conda update -n root conda-build
+
+to get the latest version.
+
+Solving package specifications: .patching file core.py
+Hunk #1 succeeded at 168 with fuzz 2 (offset 2 lines).
+Traceback (most recent call last):
+  File "setup.py", line 4, in <module>
+    from setuptools import setup
+ImportError: No module named setuptools
+
+Applying patch: '/tmp/tmpKb0Cbmconda_skeleton_elasticsearch-curator-3.2.0.tar.gz/pypi-distutils.patch'
+$PYTHONPATH = /tmp/tmpKb0Cbmconda_skeleton_elasticsearch-curator-3.2.0.tar.gz/elasticsearch-curator-3.2.0
+Error: command failed: /home/ubuntu/miniconda/envs/_build/bin/python setup.py install
+
+conda create -n _pipbuild_ --yes python pip
+/home/ubuntu/miniconda/envs/_pipbuild_/bin/pip install elasticsearch-curator==3.2.0
+Error: Could not pip install elasticsearch-curator==3.2.0

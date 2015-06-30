@@ -1,0 +1,34 @@
+Error: prefix already exists: /home/ubuntu/miniconda/envs/_pipbuild_
+Collecting dossier.models==0.6.13.dev6
+  Could not find a version that satisfies the requirement dossier.models==0.6.13.dev6 (from versions: 0.3.1.dev4, 0.3.1.dev6, 0.3.1.dev8, 0.3.1.dev11, 0.3.1.dev12, 0.3.1.dev13, 0.3.1.dev14, 0.5.0, 0.5.1.dev1, 0.5.1.dev2, 0.5.1.dev4, 0.5.1.dev9, 0.5.1.dev11, 0.6.0, 0.6.1.dev1, 0.6.1, 0.6.2.dev1, 0.6.2.dev2, 0.6.2.dev3, 0.6.2.dev6, 0.6.2.dev8, 0.6.2.dev9, 0.6.2.dev10, 0.6.2.dev12, 0.6.2.dev14, 0.6.2.dev15, 0.6.2.dev16, 0.6.2.dev18, 0.6.2.dev19, 0.6.2.dev21, 0.6.2.dev23, 0.6.2.dev32, 0.6.2.dev35, 0.6.2.dev36, 0.6.2.dev38, 0.6.2.dev39, 0.6.2.dev47, 0.6.2.dev50, 0.6.2.dev52, 0.6.2.dev54, 0.6.2.dev55, 0.6.2.dev67, 0.6.2.dev72, 0.6.2.dev73, 0.6.2.dev74, 0.6.2.dev76, 0.6.2.dev77, 0.6.2.dev79, 0.6.2, 0.6.3.dev1, 0.6.3.dev6, 0.6.3.dev7, 0.6.3.dev8, 0.6.3.dev9, 0.6.3.dev12, 0.6.3.dev13, 0.6.3.dev18, 0.6.3, 0.6.4, 0.6.5, 0.6.6.dev1, 0.6.6, 0.6.7.dev4, 0.6.7.dev5, 0.6.7)
+No matching distribution found for dossier.models==0.6.13.dev6
+Package search: {'_pypi_ordering': False, 'version': '0.6.13.dev6', 'name': 'dossier.models', 'summary': 'Active learning models'}
+Creating standard recipe for dossier.models-0.6.13.dev6
+Using url https://pypi.python.org/packages/source/d/dossier.models/dossier.models-0.6.13.dev6.tar.gz (92 KB) for dossier.models.
+Downloading dossier.models
+Unpacking dossier.models...
+done
+working in /tmp/tmpvYSn1rconda_skeleton_dossier.models-0.6.13.dev6.tar.gz
+Fetching package metadata: ......
+
+WARNING: conda-build appears to be out of date. You have version 1.13.0 but the
+latest version is 1.14.0. Run
+
+conda update -n root conda-build
+
+to get the latest version.
+
+Solving package specifications: .patching file core.py
+Hunk #1 succeeded at 168 with fuzz 2 (offset 2 lines).
+Traceback (most recent call last):
+  File "setup.py", line 3, in <module>
+    from setuptools import setup, find_packages
+ImportError: No module named setuptools
+
+Applying patch: '/tmp/tmpvYSn1rconda_skeleton_dossier.models-0.6.13.dev6.tar.gz/pypi-distutils.patch'
+$PYTHONPATH = /tmp/tmpvYSn1rconda_skeleton_dossier.models-0.6.13.dev6.tar.gz/dossier.models-0.6.13.dev6
+Error: command failed: /home/ubuntu/miniconda/envs/_build/bin/python setup.py install
+
+conda create -n _pipbuild_ --yes python pip
+/home/ubuntu/miniconda/envs/_pipbuild_/bin/pip install dossier.models==0.6.13.dev6
+Error: Could not pip install dossier.models==0.6.13.dev6

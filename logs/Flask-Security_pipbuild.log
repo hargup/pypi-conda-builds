@@ -1,0 +1,43 @@
+Error: prefix already exists: /home/ubuntu/miniconda/envs/_pipbuild_
+Collecting Flask-Security==1.7.4
+  Downloading http://localhost/packages/source/F/Flask-Security/Flask-Security-1.7.4.tar.gz (41kB)
+setuptools must be installed to install from a source distribution
+Package search: {'_pypi_ordering': False, 'version': '1.7.4', 'name': 'Flask-Security', 'summary': 'Simple security for Flask apps'}
+Creating standard recipe for flask-security-1.7.4
+Using url https://pypi.python.org/packages/source/F/Flask-Security/Flask-Security-1.7.4.tar.gz (40 KB) for Flask-Security.
+Downloading Flask-Security
+Using cached download
+Unpacking Flask-Security...
+done
+working in /tmp/tmp3vjCesconda_skeleton_Flask-Security-1.7.4.tar.gz
+Fetching package metadata: ......
+
+WARNING: conda-build appears to be out of date. You have version 1.13.0 but the
+latest version is 1.14.0. Run
+
+conda update -n root conda-build
+
+to get the latest version.
+
+Solving package specifications: .patching file core.py
+Hunk #1 succeeded at 168 with fuzz 2 (offset 2 lines).
+Traceback (most recent call last):
+  File "setup.py", line 9, in <module>
+    from setuptools import setup, find_packages
+ImportError: No module named setuptools
+
+The following NEW packages will be INSTALLED:
+
+    numpy:  1.9.2-py27_0
+    pyyaml: 3.11-py27_1 
+    yaml:   0.1.6-0     
+
+Linking packages ...
+[                    ]|                                                  |   0%[yaml                ]|                                                  |   0%[numpy               ]|################                                  |  33%[pyyaml              ]|#################################                 |  66%[      COMPLETE      ]|##################################################| 100%
+Applying patch: '/tmp/tmp3vjCesconda_skeleton_Flask-Security-1.7.4.tar.gz/pypi-distutils.patch'
+$PYTHONPATH = /tmp/tmp3vjCesconda_skeleton_Flask-Security-1.7.4.tar.gz/Flask-Security-1.7.4
+Error: command failed: /home/ubuntu/miniconda/envs/_build/bin/python setup.py install
+
+conda create -n _pipbuild_ --yes python pip
+/home/ubuntu/miniconda/envs/_pipbuild_/bin/pip install Flask-Security==1.7.4
+Error: Could not pip install Flask-Security==1.7.4

@@ -2,6 +2,14 @@ Removing old build directory
 Removing old work directory
 BUILD START: python-mimeparse-0.1.4-py_0
 Fetching package metadata: ......
+
+WARNING: conda-build appears to be out of date. You have version 1.13.0 but the
+latest version is 1.14.0. Run
+
+conda update -n root conda-build
+
+to get the latest version.
+
 Solving package specifications: .+ pip install python-mimeparse
 Collecting python-mimeparse
   Downloading http://localhost/packages/source/p/python-mimeparse/python-mimeparse-0.1.4.tar.gz

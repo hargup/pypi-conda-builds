@@ -1,0 +1,32 @@
+Error: prefix already exists: /home/ubuntu/miniconda/envs/_pipbuild_
+Exception:
+Traceback (most recent call last):
+  File "/home/ubuntu/miniconda/envs/_pipbuild_/lib/python2.7/site-packages/pip/basecommand.py", line 223, in main
+    status = self.run(options, args)
+  File "/home/ubuntu/miniconda/envs/_pipbuild_/lib/python2.7/site-packages/pip/commands/install.py", line 268, in run
+    wheel_cache
+  File "/home/ubuntu/miniconda/envs/_pipbuild_/lib/python2.7/site-packages/pip/basecommand.py", line 268, in populate_requirement_set
+    wheel_cache=wheel_cache
+  File "/home/ubuntu/miniconda/envs/_pipbuild_/lib/python2.7/site-packages/pip/req/req_install.py", line 207, in from_line
+    wheel_cache=wheel_cache)
+  File "/home/ubuntu/miniconda/envs/_pipbuild_/lib/python2.7/site-packages/pip/req/req_install.py", line 66, in __init__
+    req = pkg_resources.Requirement.parse(req)
+  File "/home/ubuntu/miniconda/envs/_pipbuild_/lib/python2.7/site-packages/pip/_vendor/pkg_resources/__init__.py", line 2960, in parse
+    reqs = list(parse_requirements(s))
+  File "/home/ubuntu/miniconda/envs/_pipbuild_/lib/python2.7/site-packages/pip/_vendor/pkg_resources/__init__.py", line 2904, in parse_requirements
+    "version spec")
+  File "/home/ubuntu/miniconda/envs/_pipbuild_/lib/python2.7/site-packages/pip/_vendor/pkg_resources/__init__.py", line 2869, in scan_list
+    raise ValueError(msg, line, "at", line[p:])
+ValueError: ('Expected version spec in', 'derpconf==>=0.6.0,<0.7.0', 'at', '==>=0.6.0,<0.7.0')
+
+Package search: {'_pypi_ordering': False, 'version': '0.15.15', 'name': 'holmes', 'summary': 'Holmes is a service to investigate your website health.'}
+Creating standard recipe for holmes-0.15.15
+Converting recipe in /home/ubuntu/pypi-conda-builds/holmes
+package = holmes
+   dependencies = [u'derpconf >=0.6.0,<0.7.0', u'tornado >=3.2.2,<3.3.0', u'cow-framework >=0.8.0,<0.9.0', u'ujson >=1.33,<1.34.0', u'requests >=2.2.1,<2.3.0', u'lxml >=3.3.3,<3.4.0', u'cssselect >=0.9.1,<0.10.0', u'sheep >=0.3.10,<0.4.0', u'pycurl >=7.19.0,<7.20.0', u'alembic >=0.6.3,<0.7.0', u'mysql-python >=1.2.5,<1.3.0', u'six >=1.6.1,<1.7.0', u'octopus-http >=0.6.3,<0.7.0', u'redis >=2.9.1,<2.11.0', u'toredis >=0.1.2,<0.2.0', u'raven >=4.1.1,<4.2.0', u'rotunicode >=1.0.1,<1.1.0', u'materialgirl >=0.5.3,<0.6.0', u'pyelasticsearch >=0.6.1,<0.7.0', u'tornadoes >=2.1.0,<2.2.0', u'babel >=1.3,<1.4', u'holmesalf >=0.1.2,<0.2.0', u'pyjwt >=0.2.1,<0.3.0', u'sqlalchemy >=0.9.0,<1.0.0']
+Creating standard recipe for derpconf->=0.6.0,<0.7.0
+Error: Version >=0.6.0,<0.7.0 of derpconf is not available on PyPI.
+
+conda create -n _pipbuild_ --yes python pip
+/home/ubuntu/miniconda/envs/_pipbuild_/bin/pip install derpconf==>=0.6.0,<0.7.0
+Error: Could not pip install derpconf==>=0.6.0,<0.7.0

@@ -1,46 +1,43 @@
-Removing old build directory
-Removing old work directory
-BUILD START: iso8601-0.1.10-py_0
-Fetching package metadata: ......
-Solving package specifications: .+ pip install iso8601
-Collecting iso8601
+Error: prefix already exists: /home/ubuntu/miniconda/envs/_pipbuild_
+Collecting iso8601==0.1.10
   Downloading http://localhost/packages/source/i/iso8601/iso8601-0.1.10.tar.gz
-Installing collected packages: iso8601
-  Running setup.py install for iso8601
-Successfully installed iso8601-0.1.10
+setuptools must be installed to install from a source distribution
+Package search: {'_pypi_ordering': False, 'version': '0.1.10', 'name': 'iso8601', 'summary': 'Simple module to parse ISO 8601 dates'}
+Creating standard recipe for iso8601-0.1.10
+Using url https://pypi.python.org/packages/source/i/iso8601/iso8601-0.1.10.tar.gz (8 KB) for iso8601.
+Downloading iso8601
+Using cached download
+Unpacking iso8601...
+done
+working in /tmp/tmp1BJJ5bconda_skeleton_iso8601-0.1.10.tar.gz
+Fetching package metadata: ......
+
+WARNING: conda-build appears to be out of date. You have version 1.13.0 but the
+latest version is 1.14.0. Run
+
+conda update -n root conda-build
+
+to get the latest version.
+
+Solving package specifications: .patching file core.py
+Hunk #1 succeeded at 168 with fuzz 2 (offset 2 lines).
+Traceback (most recent call last):
+  File "setup.py", line 6, in <module>
+    from distutils import setup
+ImportError: cannot import name setup
 
 The following NEW packages will be INSTALLED:
 
-    openssl:    1.0.1k-1    
-    pip:        7.0.3-py27_0
-    python:     2.7.10-0    
-    readline:   6.2-2       
-    setuptools: 17.0-py27_0 
-    sqlite:     3.8.4.1-1   
-    system:     5.8-2       
-    tk:         8.5.18-0    
-    zlib:       1.2.8-0     
+    numpy:  1.9.2-py27_0
+    pyyaml: 3.11-py27_1 
+    yaml:   0.1.6-0     
 
 Linking packages ...
-[                    ]|                                                  |   0%[openssl             ]|                                                  |   0%[readline            ]|#####                                             |  11%[sqlite              ]|###########                                       |  22%[system              ]|################                                  |  33%[tk                  ]|######################                            |  44%[zlib                ]|###########################                       |  55%[python              ]|#################################                 |  66%[setuptools          ]|######################################            |  77%[pip                 ]|############################################      |  88%[      COMPLETE      ]|##################################################| 100%
-Removing old work directory
-Copying /home/ubuntu/pypi-conda-builds/iso8601 to /home/ubuntu/miniconda/conda-bld/work
-Package: iso8601-0.1.10-py_0
-source tree in: /home/ubuntu/miniconda/conda-bld/work
-number of files: 11
-Fixing permissions
-Fixing permissions
-BUILD END: iso8601-0.1.10-py_0
-# If you want to upload this package to binstar.org later, type:
-#
-# $ binstar upload /home/ubuntu/miniconda/conda-bld/noarch/iso8601-0.1.10-py_0.tar.bz2
-#
-# To have conda build upload to binstar automatically, use
-# $ conda config --set binstar_upload yes
+[                    ]|                                                  |   0%[yaml                ]|                                                  |   0%[numpy               ]|################                                  |  33%[pyyaml              ]|#################################                 |  66%[      COMPLETE      ]|##################################################| 100%
+Applying patch: '/tmp/tmp1BJJ5bconda_skeleton_iso8601-0.1.10.tar.gz/pypi-distutils.patch'
+$PYTHONPATH = /tmp/tmp1BJJ5bconda_skeleton_iso8601-0.1.10.tar.gz/iso8601-0.1.10
+Error: command failed: /home/ubuntu/miniconda/envs/_build/bin/python setup.py install
 
-Package search: {'_pypi_ordering': False, 'version': '0.1.10', 'name': 'iso8601', 'summary': 'Simple module to parse ISO 8601 dates'}
-Creating standard recipe for iso8601-0.1.10
-Converting recipe in /home/ubuntu/pypi-conda-builds/iso8601
-package = iso8601
-   dependencies = []
-Building conda package for iso8601
+conda create -n _pipbuild_ --yes python pip
+/home/ubuntu/miniconda/envs/_pipbuild_/bin/pip install iso8601==0.1.10
+Error: Could not pip install iso8601==0.1.10

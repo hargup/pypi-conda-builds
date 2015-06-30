@@ -1,0 +1,33 @@
+An unexpected error has occurred, please consider sending the
+following traceback to the conda GitHub issue tracker at:
+
+    https://github.com/conda/conda-build/issues
+
+Include the output of the command 'conda info' in your report.
+
+
+Package search: {'_pypi_ordering': False, 'version': '1.4', 'name': 'rackspace-novaclient', 'summary': 'Metapackage to install python-novaclient and Rackspace extensions'}
+Creating standard recipe for rackspace-novaclient-1.4
+Converting recipe in /home/ubuntu/pypi-conda-builds/rackspace-novaclient
+package = rackspace-novaclient
+   dependencies = [u'python-novaclient', u'rackspace-auth-openstack', u'os_diskconfig_python_novaclient_ext', u'rax_scheduled_images_python_novaclient_ext', u'os_networksv2_python_novaclient_ext', u'os_virtual_interfacesv2_python_novaclient_ext', u'rax_default_network_flags_python_novaclient_ext']
+Creating standard recipe for python-novaclient
+Converting recipe in /home/ubuntu/pypi-conda-builds/python-novaclient
+Traceback (most recent call last):
+  File "/home/ubuntu/miniconda/bin/conda-pipbuild", line 6, in <module>
+    exec(compile(open(__file__).read(), __file__, 'exec'))
+  File "/home/ubuntu/conda-build/bin/conda-pipbuild", line 5, in <module>
+    sys.exit(main())
+  File "/home/ubuntu/conda-build/conda_build/main_pipbuild.py", line 80, in main
+    args_func(args, p)
+  File "/home/ubuntu/conda-build/conda_build/main_build.py", line 349, in args_func
+    args.func(args, p)
+  File "/home/ubuntu/conda-build/conda_build/main_pipbuild.py", line 360, in execute
+    build_package(package, version, noarch_python=args.noarch_python)
+  File "/home/ubuntu/conda-build/conda_build/main_pipbuild.py", line 314, in build_package
+    build_package(depend)
+  File "/home/ubuntu/conda-build/conda_build/main_pipbuild.py", line 301, in build_package
+    noarch_python=noarch_python)
+  File "/home/ubuntu/conda-build/conda_build/main_pipbuild.py", line 183, in convert_recipe
+    d['homeurl'] = meta['about']['home']
+KeyError: 'home'

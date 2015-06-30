@@ -1,0 +1,112 @@
+Removing old build directory
+Removing old work directory
+BUILD START: thrift-0.9.2-py27_0
+Fetching package metadata: ......
+
+WARNING: conda-build appears to be out of date. You have version 1.13.0 but the
+latest version is 1.14.0. Run
+
+conda update -n root conda-build
+
+to get the latest version.
+
+Solving package specifications: .+ pip install thrift
+Collecting thrift
+  Downloading http://localhost/packages/source/t/thrift/thrift-0.9.2.tar.gz
+Installing collected packages: thrift
+  Running setup.py install for thrift
+Successfully installed thrift-0.9.2
+
+The following NEW packages will be INSTALLED:
+
+    openssl:    1.0.1k-1     
+    pip:        7.0.3-py27_0 
+    python:     2.7.10-0     
+    readline:   6.2-2        
+    setuptools: 18.0.1-py27_0
+    sqlite:     3.8.4.1-1    
+    system:     5.8-2        
+    tk:         8.5.18-0     
+    zlib:       1.2.8-0      
+
+Linking packages ...
+[                    ]|                                                  |   0%[openssl             ]|                                                  |   0%[readline            ]|#####                                             |  11%[sqlite              ]|###########                                       |  22%[system              ]|################                                  |  33%[tk                  ]|######################                            |  44%[zlib                ]|###########################                       |  55%[python              ]|#################################                 |  66%[setuptools          ]|######################################            |  77%[pip                 ]|############################################      |  88%[      COMPLETE      ]|##################################################| 100%
+Removing old work directory
+Copying /home/ubuntu/pypi-conda-builds/thrift to /home/ubuntu/miniconda/conda-bld/work
+Package: thrift-0.9.2-py27_0
+source tree in: /home/ubuntu/miniconda/conda-bld/work
+number of files: 84
+Fixing permissions
+patchelf: file: /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/thrift/protocol/fastbinary.so
+    setting rpath to: $ORIGIN/../../../..
+Ignored hard-coded path in lib/python2.7/site-packages/thrift/protocol/fastbinary.so
+Fixing permissions
+BUILD END: thrift-0.9.2-py27_0
+# If you want to upload this package to binstar.org later, type:
+#
+# $ binstar upload /home/ubuntu/miniconda/conda-bld/linux-64/thrift-0.9.2-py27_0.tar.bz2
+#
+# To have conda build upload to binstar automatically, use
+# $ conda config --set binstar_upload yes
+
+Removing old build directory
+Removing old work directory
+BUILD START: pycassa-1.11.1-py_0
+Fetching package metadata: ......
+
+WARNING: conda-build appears to be out of date. You have version 1.13.0 but the
+latest version is 1.14.0. Run
+
+conda update -n root conda-build
+
+to get the latest version.
+
+Solving package specifications: .+ pip install pycassa
+Collecting pycassa
+  Downloading http://localhost/packages/source/p/pycassa/pycassa-1.11.1.tar.gz (81kB)
+Requirement already satisfied (use --upgrade to upgrade): thrift in /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/thrift-0.9.2-py2.7-linux-x86_64.egg (from pycassa)
+Installing collected packages: pycassa
+  Running setup.py install for pycassa
+Successfully installed pycassa-1.11.1
+
+The following NEW packages will be INSTALLED:
+
+    openssl:    1.0.1k-1     
+    pip:        7.0.3-py27_0 
+    python:     2.7.10-0     
+    readline:   6.2-2        
+    setuptools: 18.0.1-py27_0
+    sqlite:     3.8.4.1-1    
+    system:     5.8-2        
+    thrift:     0.9.2-py27_0 
+    tk:         8.5.18-0     
+    zlib:       1.2.8-0      
+
+Linking packages ...
+[                    ]|                                                  |   0%[openssl             ]|                                                  |   0%[readline            ]|#####                                             |  10%[sqlite              ]|##########                                        |  20%[system              ]|###############                                   |  30%[tk                  ]|####################                              |  40%[zlib                ]|#########################                         |  50%[python              ]|##############################                    |  60%[setuptools          ]|###################################               |  70%[thrift              ]|########################################          |  80%[pip                 ]|#############################################     |  90%[      COMPLETE      ]|##################################################| 100%
+Removing old work directory
+Copying /home/ubuntu/pypi-conda-builds/pycassa to /home/ubuntu/miniconda/conda-bld/work
+Package: pycassa-1.11.1-py_0
+source tree in: /home/ubuntu/miniconda/conda-bld/work
+number of files: 51
+Fixing permissions
+Fixing permissions
+BUILD END: pycassa-1.11.1-py_0
+# If you want to upload this package to binstar.org later, type:
+#
+# $ binstar upload /home/ubuntu/miniconda/conda-bld/noarch/pycassa-1.11.1-py_0.tar.bz2
+#
+# To have conda build upload to binstar automatically, use
+# $ conda config --set binstar_upload yes
+
+Package search: {'_pypi_ordering': False, 'version': '1.11.1', 'name': 'pycassa', 'summary': 'Python client library for Apache Cassandra'}
+Creating standard recipe for pycassa-1.11.1
+Converting recipe in /home/ubuntu/pypi-conda-builds/pycassa
+package = pycassa
+   dependencies = [u'thrift']
+Creating standard recipe for thrift
+Converting recipe in /home/ubuntu/pypi-conda-builds/thrift
+package = thrift
+   dependencies = []
+Building conda package for thrift
+Building conda package for pycassa

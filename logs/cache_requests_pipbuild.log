@@ -1,9 +1,15 @@
-Package search: {'_pypi_ordering': False, 'version': '1.0.0', 'name': 'cache_requests', 'summary': 'Simple. Powerful. Persistent LRU caching for the requests library.'}
-Fetching package metadata: ....
 Removing old build directory
 Removing old work directory
 BUILD START: redis-2.10.3-py27_0
 Fetching package metadata: ......
+
+WARNING: conda-build appears to be out of date. You have version 1.13.0 but the
+latest version is 1.14.1. Run
+
+conda update -n root conda-build
+
+to get the latest version.
+
 Solving package specifications: .+ pip install redis
 Collecting redis
   Downloading http://localhost/packages/source/r/redis/redis-2.10.3.tar.gz (86kB)
@@ -13,15 +19,15 @@ Successfully installed redis-2.10.3
 
 The following NEW packages will be INSTALLED:
 
-    openssl:    1.0.1k-1    
-    pip:        7.0.3-py27_0
-    python:     2.7.10-0    
-    readline:   6.2-2       
-    setuptools: 17.0-py27_0 
-    sqlite:     3.8.4.1-1   
-    system:     5.8-2       
-    tk:         8.5.18-0    
-    zlib:       1.2.8-0     
+    openssl:    1.0.1k-1     
+    pip:        7.0.3-py27_0 
+    python:     2.7.10-0     
+    readline:   6.2-2        
+    setuptools: 18.0.1-py27_0
+    sqlite:     3.8.4.1-1    
+    system:     5.8-2        
+    tk:         8.5.18-0     
+    zlib:       1.2.8-0      
 
 Linking packages ...
 [                    ]|                                                  |   0%[openssl             ]|                                                  |   0%[readline            ]|#####                                             |  11%[sqlite              ]|###########                                       |  22%[system              ]|################                                  |  33%[tk                  ]|######################                            |  44%[zlib                ]|###########################                       |  55%[python              ]|#################################                 |  66%[setuptools          ]|######################################            |  77%[pip                 ]|############################################      |  88%[      COMPLETE      ]|##################################################| 100%
@@ -42,8 +48,171 @@ BUILD END: redis-2.10.3-py27_0
 
 Removing old build directory
 Removing old work directory
-BUILD START: redislite-1.0.240-py27_0
+BUILD START: psutil-3.0.1-py27_0
 Fetching package metadata: ......
+
+WARNING: conda-build appears to be out of date. You have version 1.13.0 but the
+latest version is 1.14.1. Run
+
+conda update -n root conda-build
+
+to get the latest version.
+
+Solving package specifications: .+ pip install psutil
+Collecting psutil
+  Downloading http://localhost/packages/source/p/psutil/psutil-2.2.1.tar.gz (223kB)
+Installing collected packages: psutil
+  Running setup.py install for psutil
+Successfully installed psutil-2.2.1
+
+The following NEW packages will be INSTALLED:
+
+    openssl:    1.0.1k-1     
+    pip:        7.0.3-py27_0 
+    python:     2.7.10-0     
+    readline:   6.2-2        
+    setuptools: 18.0.1-py27_0
+    sqlite:     3.8.4.1-1    
+    system:     5.8-2        
+    tk:         8.5.18-0     
+    zlib:       1.2.8-0      
+
+Linking packages ...
+[                    ]|                                                  |   0%[openssl             ]|                                                  |   0%[readline            ]|#####                                             |  11%[sqlite              ]|###########                                       |  22%[system              ]|################                                  |  33%[tk                  ]|######################                            |  44%[zlib                ]|###########################                       |  55%[python              ]|#################################                 |  66%[setuptools          ]|######################################            |  77%[pip                 ]|############################################      |  88%[      COMPLETE      ]|##################################################| 100%
+Removing old work directory
+Copying /home/ubuntu/pypi-conda-builds/psutil to /home/ubuntu/miniconda/conda-bld/work
+Package: psutil-3.0.1-py27_0
+source tree in: /home/ubuntu/miniconda/conda-bld/work
+number of files: 25
+Fixing permissions
+patchelf: file: /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/_psutil_linux.so
+    setting rpath to: $ORIGIN/../..
+patchelf: file: /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/_psutil_posix.so
+    setting rpath to: $ORIGIN/../..
+Ignored hard-coded path in lib/python2.7/site-packages/_psutil_linux.so
+Ignored hard-coded path in lib/python2.7/site-packages/_psutil_posix.so
+Fixing permissions
+BUILD END: psutil-3.0.1-py27_0
+# If you want to upload this package to binstar.org later, type:
+#
+# $ binstar upload /home/ubuntu/miniconda/conda-bld/linux-64/psutil-3.0.1-py27_0.tar.bz2
+#
+# To have conda build upload to binstar automatically, use
+# $ conda config --set binstar_upload yes
+
+Removing old build directory
+Removing old work directory
+BUILD START: markupsafe-0.23-py27_0
+Fetching package metadata: ......
+
+WARNING: conda-build appears to be out of date. You have version 1.13.0 but the
+latest version is 1.14.1. Run
+
+conda update -n root conda-build
+
+to get the latest version.
+
+Solving package specifications: .+ pip install markupsafe
+Collecting markupsafe
+  Downloading http://localhost/packages/source/M/MarkupSafe/MarkupSafe-0.23.tar.gz
+Installing collected packages: markupsafe
+  Running setup.py install for markupsafe
+Successfully installed markupsafe-0.23
+
+The following NEW packages will be INSTALLED:
+
+    openssl:    1.0.1k-1     
+    pip:        7.0.3-py27_0 
+    python:     2.7.10-0     
+    readline:   6.2-2        
+    setuptools: 18.0.1-py27_0
+    sqlite:     3.8.4.1-1    
+    system:     5.8-2        
+    tk:         8.5.18-0     
+    zlib:       1.2.8-0      
+
+Linking packages ...
+[                    ]|                                                  |   0%[openssl             ]|                                                  |   0%[readline            ]|#####                                             |  11%[sqlite              ]|###########                                       |  22%[system              ]|################                                  |  33%[tk                  ]|######################                            |  44%[zlib                ]|###########################                       |  55%[python              ]|#################################                 |  66%[setuptools          ]|######################################            |  77%[pip                 ]|############################################      |  88%[      COMPLETE      ]|##################################################| 100%
+Removing old work directory
+Copying /home/ubuntu/pypi-conda-builds/markupsafe to /home/ubuntu/miniconda/conda-bld/work
+Package: markupsafe-0.23-py27_0
+source tree in: /home/ubuntu/miniconda/conda-bld/work
+number of files: 18
+Fixing permissions
+patchelf: file: /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/markupsafe/_speedups.so
+    setting rpath to: $ORIGIN/../../..
+Ignored hard-coded path in lib/python2.7/site-packages/markupsafe/_speedups.so
+Fixing permissions
+BUILD END: markupsafe-0.23-py27_0
+# If you want to upload this package to binstar.org later, type:
+#
+# $ binstar upload /home/ubuntu/miniconda/conda-bld/linux-64/markupsafe-0.23-py27_0.tar.bz2
+#
+# To have conda build upload to binstar automatically, use
+# $ conda config --set binstar_upload yes
+
+Removing old build directory
+Removing old work directory
+BUILD START: jinja2-2.7.3-py27_0
+Fetching package metadata: ......
+
+WARNING: conda-build appears to be out of date. You have version 1.13.0 but the
+latest version is 1.14.1. Run
+
+conda update -n root conda-build
+
+to get the latest version.
+
+Solving package specifications: .+ pip install jinja2
+Collecting jinja2
+  Downloading http://localhost/packages/source/J/Jinja2/Jinja2-2.7.3.tar.gz (378kB)
+Requirement already satisfied (use --upgrade to upgrade): markupsafe in /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages (from jinja2)
+Installing collected packages: jinja2
+  Running setup.py install for jinja2
+Successfully installed jinja2-2.7.3
+
+The following NEW packages will be INSTALLED:
+
+    markupsafe: 0.23-py27_0  
+    openssl:    1.0.1k-1     
+    pip:        7.0.3-py27_0 
+    python:     2.7.10-0     
+    readline:   6.2-2        
+    setuptools: 18.0.1-py27_0
+    sqlite:     3.8.4.1-1    
+    system:     5.8-2        
+    tk:         8.5.18-0     
+    zlib:       1.2.8-0      
+
+Linking packages ...
+[                    ]|                                                  |   0%[openssl             ]|                                                  |   0%[readline            ]|#####                                             |  10%[sqlite              ]|##########                                        |  20%[system              ]|###############                                   |  30%[tk                  ]|####################                              |  40%[zlib                ]|#########################                         |  50%[markupsafe          ]|##############################                    |  60%[python              ]|###################################               |  70%[setuptools          ]|########################################          |  80%[pip                 ]|#############################################     |  90%[      COMPLETE      ]|##################################################| 100%
+Removing old work directory
+Copying /home/ubuntu/pypi-conda-builds/jinja2 to /home/ubuntu/miniconda/conda-bld/work
+Package: jinja2-2.7.3-py27_0
+source tree in: /home/ubuntu/miniconda/conda-bld/work
+number of files: 92
+Fixing permissions
+Fixing permissions
+BUILD END: jinja2-2.7.3-py27_0
+# If you want to upload this package to binstar.org later, type:
+#
+# $ binstar upload /home/ubuntu/miniconda/conda-bld/linux-64/jinja2-2.7.3-py27_0.tar.bz2
+#
+# To have conda build upload to binstar automatically, use
+# $ conda config --set binstar_upload yes
+
+Removing old build directory
+Removing old work directory
+BUILD START: redislite-1.0.241-py27_0
+Fetching package metadata: ......
+
+WARNING: conda-build appears to be out of date. You have version 1.13.0 but the
+latest version is 1.14.1. Run
+
+conda update -n root conda-build
+
+to get the latest version.
+
 Solving package specifications: .+ pip install redislite
 Collecting redislite
   Downloading http://localhost/packages/source/r/redislite/redislite-1.0.238.tar.gz (3.9MB)
@@ -52,7 +221,7 @@ Requirement already satisfied (use --upgrade to upgrade): psutil in /home/ubuntu
 Requirement already satisfied (use --upgrade to upgrade): jinja2 in /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages (from redislite)
 Installing collected packages: redislite
   Running setup.py install for redislite
-    Complete output from command /home/ubuntu/miniconda/envs/_build/bin/python -c "import setuptools, tokenize;__file__='/tmp/pip-build-zfdJTk/redislite/setup.py';exec(compile(getattr(tokenize, 'open', open)(__file__).read().replace('\r\n', '\n'), __file__, 'exec'))" install --record /tmp/pip-fsyvue-record/install-record.txt --single-version-externally-managed --compile:
+    Complete output from command /home/ubuntu/miniconda/envs/_build/bin/python -c "import setuptools, tokenize;__file__='/tmp/pip-build-4dQaE8/redislite/setup.py';exec(compile(getattr(tokenize, 'open', open)(__file__).read().replace('\r\n', '\n'), __file__, 'exec'))" install --record /tmp/pip-TiKnNl-record/install-record.txt --single-version-externally-managed --compile:
     running install
     running build
     running build_py
@@ -86,11 +255,11 @@ Installing collected packages: redislite
     gcc -pthread -shared -L/home/ubuntu/miniconda/envs/_build/lib -Wl,-rpath=/home/ubuntu/miniconda/envs/_build/lib,--no-as-needed build/temp.linux-x86_64-2.7/src/dummy.o -L/home/ubuntu/miniconda/envs/_build/lib -lpython2.7 -o build/lib.linux-x86_64-2.7/dummy.so
     compiling redis
     ********************************************************************************
-    /tmp/pip-build-zfdJTk/redislite
+    /tmp/pip-build-4dQaE8/redislite
     error: [Errno 2] No such file or directory
     
     ----------------------------------------
-Command "/home/ubuntu/miniconda/envs/_build/bin/python -c "import setuptools, tokenize;__file__='/tmp/pip-build-zfdJTk/redislite/setup.py';exec(compile(getattr(tokenize, 'open', open)(__file__).read().replace('\r\n', '\n'), __file__, 'exec'))" install --record /tmp/pip-fsyvue-record/install-record.txt --single-version-externally-managed --compile" failed with error code 1 in /tmp/pip-build-zfdJTk/redislite
+Command "/home/ubuntu/miniconda/envs/_build/bin/python -c "import setuptools, tokenize;__file__='/tmp/pip-build-4dQaE8/redislite/setup.py';exec(compile(getattr(tokenize, 'open', open)(__file__).read().replace('\r\n', '\n'), __file__, 'exec'))" install --record /tmp/pip-TiKnNl-record/install-record.txt --single-version-externally-managed --compile" failed with error code 1 in /tmp/pip-build-4dQaE8/redislite
 
 The following NEW packages will be INSTALLED:
 
@@ -98,11 +267,11 @@ The following NEW packages will be INSTALLED:
     markupsafe: 0.23-py27_0  
     openssl:    1.0.1k-1     
     pip:        7.0.3-py27_0 
-    psutil:     2.2.1-py27_0 
+    psutil:     3.0.1-py27_0 
     python:     2.7.10-0     
     readline:   6.2-2        
     redis:      2.10.3-py27_0
-    setuptools: 17.0-py27_0  
+    setuptools: 18.0.1-py27_0
     sqlite:     3.8.4.1-1    
     system:     5.8-2        
     tk:         8.5.18-0     
@@ -112,14 +281,70 @@ Linking packages ...
 [                    ]|                                                  |   0%[openssl             ]|                                                  |   0%[readline            ]|###                                               |   7%[sqlite              ]|#######                                           |  15%[system              ]|###########                                       |  23%[tk                  ]|###############                                   |  30%[zlib                ]|###################                               |  38%[markupsafe          ]|#######################                           |  46%[psutil              ]|##########################                        |  53%[python              ]|##############################                    |  61%[redis               ]|##################################                |  69%[setuptools          ]|######################################            |  76%[jinja2              ]|##########################################        |  84%[pip                 ]|##############################################    |  92%[      COMPLETE      ]|##################################################| 100%
 Removing old work directory
 Copying /home/ubuntu/pypi-conda-builds/redislite to /home/ubuntu/miniconda/conda-bld/work
-Package: redislite-1.0.240-py27_0
+Package: redislite-1.0.241-py27_0
 source tree in: /home/ubuntu/miniconda/conda-bld/work
 Command failed: /bin/bash -x -e /home/ubuntu/pypi-conda-builds/redislite/build.sh
 Removing old build directory
 Removing old work directory
-BUILD START: cache_requests-1.0.0-py27_0
+BUILD START: requests-2.7.0-py27_0
 Fetching package metadata: ......
+
+WARNING: conda-build appears to be out of date. You have version 1.13.0 but the
+latest version is 1.14.1. Run
+
+conda update -n root conda-build
+
+to get the latest version.
+
+Solving package specifications: .+ pip install requests
+Collecting requests
+  Downloading http://localhost/packages/2.7/r/requests/requests-2.7.0-py2.py3-none-any.whl (470kB)
+Installing collected packages: requests
+Successfully installed requests-2.7.0
+
+The following NEW packages will be INSTALLED:
+
+    openssl:    1.0.1k-1     
+    pip:        7.0.3-py27_0 
+    python:     2.7.10-0     
+    readline:   6.2-2        
+    setuptools: 18.0.1-py27_0
+    sqlite:     3.8.4.1-1    
+    system:     5.8-2        
+    tk:         8.5.18-0     
+    zlib:       1.2.8-0      
+
+Linking packages ...
+[                    ]|                                                  |   0%[openssl             ]|                                                  |   0%[readline            ]|#####                                             |  11%[sqlite              ]|###########                                       |  22%[system              ]|################                                  |  33%[tk                  ]|######################                            |  44%[zlib                ]|###########################                       |  55%[python              ]|#################################                 |  66%[setuptools          ]|######################################            |  77%[pip                 ]|############################################      |  88%[      COMPLETE      ]|##################################################| 100%
+Removing old work directory
+Copying /home/ubuntu/pypi-conda-builds/requests to /home/ubuntu/miniconda/conda-bld/work
+Package: requests-2.7.0-py27_0
+source tree in: /home/ubuntu/miniconda/conda-bld/work
+number of files: 165
+Fixing permissions
+Fixing permissions
+BUILD END: requests-2.7.0-py27_0
+# If you want to upload this package to binstar.org later, type:
+#
+# $ binstar upload /home/ubuntu/miniconda/conda-bld/linux-64/requests-2.7.0-py27_0.tar.bz2
+#
+# To have conda build upload to binstar automatically, use
+# $ conda config --set binstar_upload yes
+
+Removing old build directory
+Removing old work directory
+BUILD START: cache_requests-1.0.0-py_0
+Fetching package metadata: ......
+
+WARNING: conda-build appears to be out of date. You have version 1.13.0 but the
+latest version is 1.14.1. Run
+
+conda update -n root conda-build
+
+to get the latest version.
+
 Error: No packages found in current linux-64 channels matching: redislite
+Package search: {'_pypi_ordering': False, 'version': '1.0.0', 'name': 'cache_requests', 'summary': 'Simple. Powerful. Persistent LRU caching for the requests library.'}
 Creating standard recipe for cache_requests-1.0.0
 Converting recipe in /home/ubuntu/pypi-conda-builds/cache_requests
 package = cache_requests
@@ -133,5 +358,25 @@ Converting recipe in /home/ubuntu/pypi-conda-builds/redis
 package = redis
    dependencies = []
 Building conda package for redis
+Creating standard recipe for psutil
+Converting recipe in /home/ubuntu/pypi-conda-builds/psutil
+package = psutil
+   dependencies = []
+Building conda package for psutil
+Creating standard recipe for jinja2
+Converting recipe in /home/ubuntu/pypi-conda-builds/jinja2
+package = jinja2
+   dependencies = [u'markupsafe']
+Creating standard recipe for markupsafe
+Converting recipe in /home/ubuntu/pypi-conda-builds/markupsafe
+package = markupsafe
+   dependencies = []
+Building conda package for markupsafe
+Building conda package for jinja2
 Building conda package for redislite
+Creating standard recipe for requests
+Converting recipe in /home/ubuntu/pypi-conda-builds/requests
+package = requests
+   dependencies = []
+Building conda package for requests
 Building conda package for cache_requests

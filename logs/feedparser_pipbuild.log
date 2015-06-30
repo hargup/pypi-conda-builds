@@ -1,46 +1,36 @@
-Removing old build directory
-Removing old work directory
-BUILD START: feedparser-5.2.0-py_0
-Fetching package metadata: ......
-Solving package specifications: .+ pip install feedparser
-Collecting feedparser
-  Downloading http://localhost/packages/source/f/feedparser/feedparser-5.2.0.post1.tar.bz2 (192kB)
-Installing collected packages: feedparser
-  Running setup.py install for feedparser
-Successfully installed feedparser-5.2.0
-
-The following NEW packages will be INSTALLED:
-
-    openssl:    1.0.1k-1    
-    pip:        7.0.3-py27_0
-    python:     2.7.10-0    
-    readline:   6.2-2       
-    setuptools: 17.0-py27_0 
-    sqlite:     3.8.4.1-1   
-    system:     5.8-2       
-    tk:         8.5.18-0    
-    zlib:       1.2.8-0     
-
-Linking packages ...
-[                    ]|                                                  |   0%[openssl             ]|                                                  |   0%[readline            ]|#####                                             |  11%[sqlite              ]|###########                                       |  22%[system              ]|################                                  |  33%[tk                  ]|######################                            |  44%[zlib                ]|###########################                       |  55%[python              ]|#################################                 |  66%[setuptools          ]|######################################            |  77%[pip                 ]|############################################      |  88%[      COMPLETE      ]|##################################################| 100%
-Removing old work directory
-Copying /home/ubuntu/pypi-conda-builds/feedparser to /home/ubuntu/miniconda/conda-bld/work
-Package: feedparser-5.2.0-py_0
-source tree in: /home/ubuntu/miniconda/conda-bld/work
-number of files: 7
-Fixing permissions
-Fixing permissions
-BUILD END: feedparser-5.2.0-py_0
-# If you want to upload this package to binstar.org later, type:
-#
-# $ binstar upload /home/ubuntu/miniconda/conda-bld/noarch/feedparser-5.2.0-py_0.tar.bz2
-#
-# To have conda build upload to binstar automatically, use
-# $ conda config --set binstar_upload yes
-
+Error: prefix already exists: /home/ubuntu/miniconda/envs/_pipbuild_
+Collecting feedparser==5.2.0
+  Could not find a version that satisfies the requirement feedparser==5.2.0 (from versions: 4.1, 5.0, 5.0.1, 5.1, 5.1.1, 5.1.2, 5.1.3, 5.2.0.post1)
+  Some externally hosted files were ignored as access to them may be unreliable (use --allow-external feedparser to allow).
+No matching distribution found for feedparser==5.2.0
 Package search: {'_pypi_ordering': False, 'version': '5.2.0', 'name': 'feedparser', 'summary': 'Handles RSS 0.9x, RSS 1.0, RSS 2.0, CDF, Atom 0.3, and Atom 1.0 feeds'}
 Creating standard recipe for feedparser-5.2.0
-Converting recipe in /home/ubuntu/pypi-conda-builds/feedparser
-package = feedparser
-   dependencies = []
-Building conda package for feedparser
+Using url https://pypi.python.org/packages/source/f/feedparser/feedparser-5.2.0.post1.tar.bz2 (188 KB) for feedparser.
+Downloading feedparser
+Using cached download
+Unpacking feedparser...
+done
+working in /tmp/tmpQClcDCconda_skeleton_feedparser-5.2.0.post1.tar.bz2
+Fetching package metadata: ......
+
+WARNING: conda-build appears to be out of date. You have version 1.13.0 but the
+latest version is 1.14.0. Run
+
+conda update -n root conda-build
+
+to get the latest version.
+
+Solving package specifications: .patching file core.py
+Hunk #1 succeeded at 168 with fuzz 2 (offset 2 lines).
+Traceback (most recent call last):
+  File "setup.py", line 1, in <module>
+    from setuptools import setup
+ImportError: No module named setuptools
+
+Applying patch: '/tmp/tmpQClcDCconda_skeleton_feedparser-5.2.0.post1.tar.bz2/pypi-distutils.patch'
+$PYTHONPATH = /tmp/tmpQClcDCconda_skeleton_feedparser-5.2.0.post1.tar.bz2/feedparser-5.2.0
+Error: command failed: /home/ubuntu/miniconda/envs/_build/bin/python setup.py install
+
+conda create -n _pipbuild_ --yes python pip
+/home/ubuntu/miniconda/envs/_pipbuild_/bin/pip install feedparser==5.2.0
+Error: Could not pip install feedparser==5.2.0

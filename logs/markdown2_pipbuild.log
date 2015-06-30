@@ -2,10 +2,20 @@ Removing old build directory
 Removing old work directory
 BUILD START: markdown2-2.3.0-py_0
 Fetching package metadata: ......
+
+WARNING: conda-build appears to be out of date. You have version 1.13.0 but the
+latest version is 1.14.1. Run
+
+conda update -n root conda-build
+
+to get the latest version.
+
 Solving package specifications: .+ pip install markdown2
 Collecting markdown2
   Downloading http://localhost/packages/source/m/markdown2/markdown2-2.3.0.zip (145kB)
-setuptools must be installed to install from a source distribution
+Installing collected packages: markdown2
+  Running setup.py install for markdown2
+Successfully installed markdown2-2.3.0
 
 The following NEW packages will be INSTALLED:
 
@@ -13,7 +23,7 @@ The following NEW packages will be INSTALLED:
     pip:        7.0.3-py27_0 
     python:     2.7.10-0     
     readline:   6.2-2        
-    setuptools: 17.1.1-py27_0
+    setuptools: 18.0.1-py27_0
     sqlite:     3.8.4.1-1    
     system:     5.8-2        
     tk:         8.5.18-0     
@@ -25,7 +35,17 @@ Removing old work directory
 Copying /home/ubuntu/pypi-conda-builds/markdown2 to /home/ubuntu/miniconda/conda-bld/work
 Package: markdown2-2.3.0-py_0
 source tree in: /home/ubuntu/miniconda/conda-bld/work
-Command failed: /bin/bash -x -e /home/ubuntu/pypi-conda-builds/markdown2/build.sh
+number of files: 8
+Fixing permissions
+Fixing permissions
+BUILD END: markdown2-2.3.0-py_0
+# If you want to upload this package to binstar.org later, type:
+#
+# $ binstar upload /home/ubuntu/miniconda/conda-bld/noarch/markdown2-2.3.0-py_0.tar.bz2
+#
+# To have conda build upload to binstar automatically, use
+# $ conda config --set binstar_upload yes
+
 Package search: {'_pypi_ordering': False, 'version': '2.3.0', 'name': 'markdown2', 'summary': 'A fast and complete Python implementation of Markdown'}
 Creating standard recipe for markdown2-2.3.0
 Converting recipe in /home/ubuntu/pypi-conda-builds/markdown2

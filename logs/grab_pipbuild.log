@@ -1,0 +1,34 @@
+Error: prefix already exists: /home/ubuntu/miniconda/envs/_pipbuild_
+Collecting grab==0.6.21
+  Could not find a version that satisfies the requirement grab==0.6.21 (from versions: 0.1.1, 0.1.2, 0.1.3, 0.1.4, 0.1.5, 0.1.6, 0.1.7, 0.2.0, 0.2.1, 0.2.2, 0.2.3, 0.2.4, 0.2.5, 0.2.6, 0.2.7, 0.2.8, 0.2.9, 0.2.10, 0.2.11, 0.2.12, 0.2.15, 0.2.16, 0.2.17, 0.2.18, 0.2.19, 0.2.20, 0.3, 0.3.1, 0.3.2, 0.3.3, 0.3.4, 0.3.6, 0.3.7, 0.3.8, 0.3.9, 0.3.10, 0.3.11, 0.3.12, 0.3.13, 0.3.14, 0.3.15, 0.3.16, 0.3.17, 0.3.18, 0.3.19, 0.3.20, 0.3.21, 0.3.22, 0.3.23, 0.3.24, 0.3.25, 0.3.26, 0.3.27, 0.3.28, 0.3.29, 0.3.30, 0.3.31, 0.3.32, 0.3.33, 0.4.0, 0.4.1, 0.4.2, 0.4.3, 0.4.4, 0.4.5, 0.4.7, 0.4.8, 0.4.9, 0.4.10, 0.4.11, 0.4.12, 0.4.13, 0.5.0, 0.5.1, 0.5.2, 0.5.3, 0.5.4, 0.5.5, 0.6.0, 0.6.1, 0.6.2, 0.6.3, 0.6.4, 0.6.5, 0.6.6, 0.6.7, 0.6.8, 0.6.9, 0.6.10, 0.6.11, 0.6.12, 0.6.13)
+No matching distribution found for grab==0.6.21
+Package search: {'_pypi_ordering': False, 'version': '0.6.21', 'name': 'grab', 'summary': 'Web Scraping Framework'}
+Creating standard recipe for grab-0.6.21
+Using url https://pypi.python.org/packages/source/g/grab/grab-0.6.21.tar.gz (88 KB) for grab.
+Downloading grab
+Unpacking grab...
+done
+working in /tmp/tmpf0bH5Kconda_skeleton_grab-0.6.21.tar.gz
+Fetching package metadata: ......
+
+WARNING: conda-build appears to be out of date. You have version 1.13.0 but the
+latest version is 1.14.0. Run
+
+conda update -n root conda-build
+
+to get the latest version.
+
+Solving package specifications: .patching file core.py
+Hunk #1 succeeded at 168 with fuzz 2 (offset 2 lines).
+Traceback (most recent call last):
+  File "setup.py", line 1, in <module>
+    from setuptools import setup, find_packages
+ImportError: No module named setuptools
+
+Applying patch: '/tmp/tmpf0bH5Kconda_skeleton_grab-0.6.21.tar.gz/pypi-distutils.patch'
+$PYTHONPATH = /tmp/tmpf0bH5Kconda_skeleton_grab-0.6.21.tar.gz/grab-0.6.21
+Error: command failed: /home/ubuntu/miniconda/envs/_build/bin/python setup.py install
+
+conda create -n _pipbuild_ --yes python pip
+/home/ubuntu/miniconda/envs/_pipbuild_/bin/pip install grab==0.6.21
+Error: Could not pip install grab==0.6.21

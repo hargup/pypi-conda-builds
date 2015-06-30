@@ -19,8 +19,8 @@ Traceback (most recent call last):
     raise ValueError(msg, line, "at", line[p:])
 ValueError: ('Expected version spec in', 'decorator==>=3.3.2', 'at', '==>=3.3.2')
 
-Package search: {'_pypi_ordering': False, 'version': '1.7.0', 'name': 'robotframework-selenium2library', 'summary': 'Web testing library for Robot Framework'}
-Creating standard recipe for robotframework-selenium2library-1.7.0
+Package search: {'_pypi_ordering': False, 'version': '1.7.1', 'name': 'robotframework-selenium2library', 'summary': 'Web testing library for Robot Framework'}
+Creating standard recipe for robotframework-selenium2library-1.7.1
 Converting recipe in /home/ubuntu/pypi-conda-builds/robotframework-selenium2library
 package = robotframework-selenium2library
    dependencies = [u'decorator >=3.3.2', u'selenium >=2.32.0', u'robotframework >=2.6.0', u'docutils >=0.8.1']

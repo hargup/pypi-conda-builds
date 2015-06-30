@@ -1,0 +1,39 @@
+Error: prefix already exists: /home/ubuntu/miniconda/envs/_pipbuild_
+Collecting django-tastypie==0.12.1
+  Downloading http://localhost/packages/2.7/d/django-tastypie/django_tastypie-0.12.1-py2.py3-none-any.whl (75kB)
+Collecting python-dateutil!=2.0,>=1.5 (from django-tastypie==0.12.1)
+  Downloading http://localhost/packages/any/p/python-dateutil/python_dateutil-2.4.2-py2.py3-none-any.whl (188kB)
+Collecting python-mimeparse>=0.1.4 (from django-tastypie==0.12.1)
+  Downloading http://localhost/packages/source/p/python-mimeparse/python-mimeparse-0.1.4.tar.gz
+setuptools must be installed to install from a source distribution
+Package search: {'_pypi_ordering': False, 'version': '0.9.6', 'name': 'django-tastypie', 'summary': 'A flexible & capable API layer for Django.'}
+Creating standard recipe for django-tastypie-0.12.1
+Using url https://pypi.python.org/packages/source/d/django-tastypie/django-tastypie-0.12.1.tar.gz (713 KB) for django-tastypie.
+Downloading django-tastypie
+Using cached download
+Unpacking django-tastypie...
+done
+working in /tmp/tmpjtGWruconda_skeleton_django-tastypie-0.12.1.tar.gz
+Fetching package metadata: ......
+
+WARNING: conda-build appears to be out of date. You have version 1.13.0 but the
+latest version is 1.14.0. Run
+
+conda update -n root conda-build
+
+to get the latest version.
+
+Solving package specifications: .patching file core.py
+Hunk #1 succeeded at 168 with fuzz 2 (offset 2 lines).
+Traceback (most recent call last):
+  File "setup.py", line 6, in <module>
+    from ez_setup import use_setuptools
+ImportError: No module named ez_setup
+
+Applying patch: '/tmp/tmpjtGWruconda_skeleton_django-tastypie-0.12.1.tar.gz/pypi-distutils.patch'
+$PYTHONPATH = /tmp/tmpjtGWruconda_skeleton_django-tastypie-0.12.1.tar.gz/django-tastypie-0.12.1
+Error: command failed: /home/ubuntu/miniconda/envs/_build/bin/python setup.py install
+
+conda create -n _pipbuild_ --yes python pip
+/home/ubuntu/miniconda/envs/_pipbuild_/bin/pip install django-tastypie==0.12.1
+Error: Could not pip install django-tastypie==0.12.1

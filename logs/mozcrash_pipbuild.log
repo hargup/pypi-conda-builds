@@ -1,33 +1,35 @@
-Package search: {'_pypi_ordering': False, 'version': '0.14', 'name': 'mozcrash', 'summary': 'Library for printing stack traces from minidumps left behind by crashed processes'}
-Fetching package metadata: ....
 Error: prefix already exists: /home/ubuntu/miniconda/envs/_pipbuild_
-Exception:
-Traceback (most recent call last):
-  File "/home/ubuntu/miniconda/envs/_pipbuild_/lib/python2.7/site-packages/pip/basecommand.py", line 223, in main
-    status = self.run(options, args)
-  File "/home/ubuntu/miniconda/envs/_pipbuild_/lib/python2.7/site-packages/pip/commands/install.py", line 268, in run
-    wheel_cache
-  File "/home/ubuntu/miniconda/envs/_pipbuild_/lib/python2.7/site-packages/pip/basecommand.py", line 268, in populate_requirement_set
-    wheel_cache=wheel_cache
-  File "/home/ubuntu/miniconda/envs/_pipbuild_/lib/python2.7/site-packages/pip/req/req_install.py", line 207, in from_line
-    wheel_cache=wheel_cache)
-  File "/home/ubuntu/miniconda/envs/_pipbuild_/lib/python2.7/site-packages/pip/req/req_install.py", line 66, in __init__
-    req = pkg_resources.Requirement.parse(req)
-  File "/home/ubuntu/miniconda/envs/_pipbuild_/lib/python2.7/site-packages/pip/_vendor/pkg_resources/__init__.py", line 2960, in parse
-    reqs = list(parse_requirements(s))
-  File "/home/ubuntu/miniconda/envs/_pipbuild_/lib/python2.7/site-packages/pip/_vendor/pkg_resources/__init__.py", line 2904, in parse_requirements
-    "version spec")
-  File "/home/ubuntu/miniconda/envs/_pipbuild_/lib/python2.7/site-packages/pip/_vendor/pkg_resources/__init__.py", line 2869, in scan_list
-    raise ValueError(msg, line, "at", line[p:])
-ValueError: ('Expected version spec in', 'mozfile==>=1.0', 'at', '==>=1.0')
-
+Collecting mozcrash==0.14
+  Downloading http://localhost/packages/source/m/mozcrash/mozcrash-0.14.tar.gz
+setuptools must be installed to install from a source distribution
+Package search: {'_pypi_ordering': False, 'version': '0.14', 'name': 'mozcrash', 'summary': 'Library for printing stack traces from minidumps left behind by crashed processes'}
 Creating standard recipe for mozcrash-0.14
-Converting recipe in /home/ubuntu/pypi-conda-builds/mozcrash
-package = mozcrash
-   dependencies = [u'mozfile >=1.0', u'mozlog']
-Creating standard recipe for mozfile->=1.0
-Error: Version >=1.0 of mozfile is not available on PyPI.
+Using url https://pypi.python.org/packages/source/m/mozcrash/mozcrash-0.14.tar.gz (5 KB) for mozcrash.
+Downloading mozcrash
+Using cached download
+Unpacking mozcrash...
+done
+working in /tmp/tmpgW8yFKconda_skeleton_mozcrash-0.14.tar.gz
+Fetching package metadata: ......
+
+WARNING: conda-build appears to be out of date. You have version 1.13.0 but the
+latest version is 1.14.0. Run
+
+conda update -n root conda-build
+
+to get the latest version.
+
+Solving package specifications: .patching file core.py
+Hunk #1 succeeded at 168 with fuzz 2 (offset 2 lines).
+Traceback (most recent call last):
+  File "setup.py", line 5, in <module>
+    from setuptools import setup
+ImportError: No module named setuptools
+
+Applying patch: '/tmp/tmpgW8yFKconda_skeleton_mozcrash-0.14.tar.gz/pypi-distutils.patch'
+$PYTHONPATH = /tmp/tmpgW8yFKconda_skeleton_mozcrash-0.14.tar.gz/mozcrash-0.14
+Error: command failed: /home/ubuntu/miniconda/envs/_build/bin/python setup.py install
 
 conda create -n _pipbuild_ --yes python pip
-/home/ubuntu/miniconda/envs/_pipbuild_/bin/pip install mozfile==>=1.0
-Error: Could not pip install mozfile==>=1.0
+/home/ubuntu/miniconda/envs/_pipbuild_/bin/pip install mozcrash==0.14
+Error: Could not pip install mozcrash==0.14

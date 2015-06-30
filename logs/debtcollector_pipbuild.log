@@ -1,11 +1,34 @@
-Package search: {'_pypi_ordering': False, 'version': '0.5.0', 'name': 'debtcollector', 'summary': 'A collection of Python deprecation patterns and strategies that help you collect your technical debt in a non-destructive manner.'}
-Fetching package metadata: ....
 Error: prefix already exists: /home/ubuntu/miniconda/envs/_pipbuild_
 Collecting debtcollector==0.5.0
   Could not find a version that satisfies the requirement debtcollector==0.5.0 (from versions: 0.1.0, 0.2.0, 0.3.0, 0.4.0)
 No matching distribution found for debtcollector==0.5.0
+Package search: {'_pypi_ordering': False, 'version': '0.5.0', 'name': 'debtcollector', 'summary': 'A collection of Python deprecation patterns and strategies that help you collect your technical debt in a non-destructive manner.'}
 Creating standard recipe for debtcollector-0.5.0
-Error: directory already exists: ./debtcollector
+Using url https://pypi.python.org/packages/source/d/debtcollector/debtcollector-0.5.0.tar.gz (16 KB) for debtcollector.
+Downloading debtcollector
+Using cached download
+Unpacking debtcollector...
+done
+working in /tmp/tmphTtok0conda_skeleton_debtcollector-0.5.0.tar.gz
+Fetching package metadata: ......
+
+WARNING: conda-build appears to be out of date. You have version 1.13.0 but the
+latest version is 1.14.0. Run
+
+conda update -n root conda-build
+
+to get the latest version.
+
+Solving package specifications: .patching file core.py
+Hunk #1 succeeded at 168 with fuzz 2 (offset 2 lines).
+Traceback (most recent call last):
+  File "setup.py", line 18, in <module>
+    import setuptools
+ImportError: No module named setuptools
+
+Applying patch: '/tmp/tmphTtok0conda_skeleton_debtcollector-0.5.0.tar.gz/pypi-distutils.patch'
+$PYTHONPATH = /tmp/tmphTtok0conda_skeleton_debtcollector-0.5.0.tar.gz/debtcollector-0.5.0
+Error: command failed: /home/ubuntu/miniconda/envs/_build/bin/python setup.py install
 
 conda create -n _pipbuild_ --yes python pip
 /home/ubuntu/miniconda/envs/_pipbuild_/bin/pip install debtcollector==0.5.0

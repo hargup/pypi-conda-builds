@@ -1,5 +1,3 @@
-Package search: {'_pypi_ordering': False, 'version': '1.1.0', 'name': 'warlock', 'summary': 'Python object model built on JSON schema and JSON patch.'}
-Fetching package metadata: ....
 Error: prefix already exists: /home/ubuntu/miniconda/envs/_pipbuild_
 Exception:
 Traceback (most recent call last):
@@ -19,15 +17,16 @@ Traceback (most recent call last):
     "version spec")
   File "/home/ubuntu/miniconda/envs/_pipbuild_/lib/python2.7/site-packages/pip/_vendor/pkg_resources/__init__.py", line 2869, in scan_list
     raise ValueError(msg, line, "at", line[p:])
-ValueError: ('Expected version spec in', 'jsonpatch==>=0.10,<2', 'at', '==>=0.10,<2')
+ValueError: ('Expected version spec in', 'jsonschema==>=0.7,<3', 'at', '==>=0.7,<3')
 
+Package search: {'_pypi_ordering': False, 'version': '1.1.0', 'name': 'warlock', 'summary': 'Python object model built on JSON schema and JSON patch.'}
 Creating standard recipe for warlock-1.1.0
 Converting recipe in /home/ubuntu/pypi-conda-builds/warlock
 package = warlock
    dependencies = [u'jsonschema >=0.7,<3', u'jsonpatch >=0.10,<2', u'six']
-Creating standard recipe for jsonpatch->=0.10,<2
-Error: Version >=0.10,<2 of jsonpatch is not available on PyPI.
+Creating standard recipe for jsonschema->=0.7,<3
+Error: Version >=0.7,<3 of jsonschema is not available on PyPI.
 
 conda create -n _pipbuild_ --yes python pip
-/home/ubuntu/miniconda/envs/_pipbuild_/bin/pip install jsonpatch==>=0.10,<2
-Error: Could not pip install jsonpatch==>=0.10,<2
+/home/ubuntu/miniconda/envs/_pipbuild_/bin/pip install jsonschema==>=0.7,<3
+Error: Could not pip install jsonschema==>=0.7,<3

@@ -1,87 +1,218 @@
-Package search: {'_pypi_ordering': False, 'version': '1.3.4', 'name': 'pyScss', 'summary': 'pyScss, a Scss compiler for Python'}
-Fetching package metadata: ....
-Error: prefix already exists: /home/ubuntu/miniconda/envs/_pipbuild_
-Exception:
-Traceback (most recent call last):
-  File "/home/ubuntu/miniconda/envs/_pipbuild_/lib/python2.7/site-packages/pip/basecommand.py", line 223, in main
-    status = self.run(options, args)
-  File "/home/ubuntu/miniconda/envs/_pipbuild_/lib/python2.7/site-packages/pip/commands/install.py", line 268, in run
-    wheel_cache
-  File "/home/ubuntu/miniconda/envs/_pipbuild_/lib/python2.7/site-packages/pip/basecommand.py", line 268, in populate_requirement_set
-    wheel_cache=wheel_cache
-  File "/home/ubuntu/miniconda/envs/_pipbuild_/lib/python2.7/site-packages/pip/req/req_install.py", line 207, in from_line
-    wheel_cache=wheel_cache)
-  File "/home/ubuntu/miniconda/envs/_pipbuild_/lib/python2.7/site-packages/pip/req/req_install.py", line 66, in __init__
-    req = pkg_resources.Requirement.parse(req)
-  File "/home/ubuntu/miniconda/envs/_pipbuild_/lib/python2.7/site-packages/pip/_vendor/pkg_resources/__init__.py", line 2960, in parse
-    reqs = list(parse_requirements(s))
-  File "/home/ubuntu/miniconda/envs/_pipbuild_/lib/python2.7/site-packages/pip/_vendor/pkg_resources/__init__.py", line 2904, in parse_requirements
-    "version spec")
-  File "/home/ubuntu/miniconda/envs/_pipbuild_/lib/python2.7/site-packages/pip/_vendor/pkg_resources/__init__.py", line 2869, in scan_list
-    raise ValueError(msg, line, "at", line[p:])
-ValueError: ('Expected version spec in', 'pathlib==[0]', 'at', '==[0]')
+Removing old build directory
+Removing old work directory
+BUILD START: six-1.9.0-py27_0
+Fetching package metadata: ......
 
+WARNING: conda-build appears to be out of date. You have version 1.13.0 but the
+latest version is 1.14.0. Run
+
+conda update -n root conda-build
+
+to get the latest version.
+
+Solving package specifications: .+ pip install six
+Collecting six
+  Downloading http://localhost/packages/3.3/s/six/six-1.9.0-py2.py3-none-any.whl
+Installing collected packages: six
+Successfully installed six-1.9.0
+
+The following NEW packages will be INSTALLED:
+
+    openssl:    1.0.1k-1     
+    pip:        7.0.3-py27_0 
+    python:     2.7.10-0     
+    readline:   6.2-2        
+    setuptools: 18.0.1-py27_0
+    sqlite:     3.8.4.1-1    
+    system:     5.8-2        
+    tk:         8.5.18-0     
+    zlib:       1.2.8-0      
+
+Linking packages ...
+[                    ]|                                                  |   0%[openssl             ]|                                                  |   0%[readline            ]|#####                                             |  11%[sqlite              ]|###########                                       |  22%[system              ]|################                                  |  33%[tk                  ]|######################                            |  44%[zlib                ]|###########################                       |  55%[python              ]|#################################                 |  66%[setuptools          ]|######################################            |  77%[pip                 ]|############################################      |  88%[      COMPLETE      ]|##################################################| 100%
+Removing old work directory
+Copying /home/ubuntu/pypi-conda-builds/six to /home/ubuntu/miniconda/conda-bld/work
+Package: six-1.9.0-py27_0
+source tree in: /home/ubuntu/miniconda/conda-bld/work
+number of files: 8
+Fixing permissions
+Fixing permissions
+BUILD END: six-1.9.0-py27_0
+# If you want to upload this package to binstar.org later, type:
+#
+# $ binstar upload /home/ubuntu/miniconda/conda-bld/linux-64/six-1.9.0-py27_0.tar.bz2
+#
+# To have conda build upload to binstar automatically, use
+# $ conda config --set binstar_upload yes
+
+Removing old build directory
+Removing old work directory
+BUILD START: enum34-1.0.4-py27_0
+Fetching package metadata: ......
+
+WARNING: conda-build appears to be out of date. You have version 1.13.0 but the
+latest version is 1.14.0. Run
+
+conda update -n root conda-build
+
+to get the latest version.
+
+Solving package specifications: .+ pip install enum34
+Collecting enum34
+  Downloading http://localhost/packages/source/e/enum34/enum34-1.0.4.tar.gz
+Installing collected packages: enum34
+  Running setup.py install for enum34
+Successfully installed enum34-1.0.4
+
+The following NEW packages will be INSTALLED:
+
+    openssl:    1.0.1k-1     
+    pip:        7.0.3-py27_0 
+    python:     2.7.10-0     
+    readline:   6.2-2        
+    setuptools: 18.0.1-py27_0
+    sqlite:     3.8.4.1-1    
+    system:     5.8-2        
+    tk:         8.5.18-0     
+    zlib:       1.2.8-0      
+
+Linking packages ...
+[                    ]|                                                  |   0%[openssl             ]|                                                  |   0%[readline            ]|#####                                             |  11%[sqlite              ]|###########                                       |  22%[system              ]|################                                  |  33%[tk                  ]|######################                            |  44%[zlib                ]|###########################                       |  55%[python              ]|#################################                 |  66%[setuptools          ]|######################################            |  77%[pip                 ]|############################################      |  88%[      COMPLETE      ]|##################################################| 100%
+Removing old work directory
+Copying /home/ubuntu/pypi-conda-builds/enum34 to /home/ubuntu/miniconda/conda-bld/work
+Package: enum34-1.0.4-py27_0
+source tree in: /home/ubuntu/miniconda/conda-bld/work
+number of files: 14
+Fixing permissions
+Fixing permissions
+BUILD END: enum34-1.0.4-py27_0
+# If you want to upload this package to binstar.org later, type:
+#
+# $ binstar upload /home/ubuntu/miniconda/conda-bld/linux-64/enum34-1.0.4-py27_0.tar.bz2
+#
+# To have conda build upload to binstar automatically, use
+# $ conda config --set binstar_upload yes
+
+Removing old build directory
+Removing old work directory
+BUILD START: pathlib-1.0.1-py27_0
+Fetching package metadata: ......
+
+WARNING: conda-build appears to be out of date. You have version 1.13.0 but the
+latest version is 1.14.0. Run
+
+conda update -n root conda-build
+
+to get the latest version.
+
+Solving package specifications: .+ pip install pathlib
+Collecting pathlib
+  Downloading http://localhost/packages/source/p/pathlib/pathlib-1.0.1.tar.gz (49kB)
+Installing collected packages: pathlib
+  Running setup.py install for pathlib
+Successfully installed pathlib-1.0.1
+
+The following NEW packages will be INSTALLED:
+
+    openssl:    1.0.1k-1     
+    pip:        7.0.3-py27_0 
+    python:     2.7.10-0     
+    readline:   6.2-2        
+    setuptools: 18.0.1-py27_0
+    sqlite:     3.8.4.1-1    
+    system:     5.8-2        
+    tk:         8.5.18-0     
+    zlib:       1.2.8-0      
+
+Linking packages ...
+[                    ]|                                                  |   0%[openssl             ]|                                                  |   0%[readline            ]|#####                                             |  11%[sqlite              ]|###########                                       |  22%[system              ]|################                                  |  33%[tk                  ]|######################                            |  44%[zlib                ]|###########################                       |  55%[python              ]|#################################                 |  66%[setuptools          ]|######################################            |  77%[pip                 ]|############################################      |  88%[      COMPLETE      ]|##################################################| 100%
+Removing old work directory
+Copying /home/ubuntu/pypi-conda-builds/pathlib to /home/ubuntu/miniconda/conda-bld/work
+Package: pathlib-1.0.1-py27_0
+source tree in: /home/ubuntu/miniconda/conda-bld/work
+number of files: 7
+Fixing permissions
+Fixing permissions
+BUILD END: pathlib-1.0.1-py27_0
+# If you want to upload this package to binstar.org later, type:
+#
+# $ binstar upload /home/ubuntu/miniconda/conda-bld/linux-64/pathlib-1.0.1-py27_0.tar.bz2
+#
+# To have conda build upload to binstar automatically, use
+# $ conda config --set binstar_upload yes
+
+Removing old build directory
+Removing old work directory
+BUILD START: pyscss-1.3.4-py_0
+Fetching package metadata: ......
+
+WARNING: conda-build appears to be out of date. You have version 1.13.0 but the
+latest version is 1.14.0. Run
+
+conda update -n root conda-build
+
+to get the latest version.
+
+Solving package specifications: .+ pip install pyScss
+Collecting pyScss
+  Downloading http://localhost/packages/source/p/pyScss/pyScss-1.3.4.tar.gz (120kB)
+Requirement already satisfied (use --upgrade to upgrade): six in /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages (from pyScss)
+Requirement already satisfied (use --upgrade to upgrade): enum34 in /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages (from pyScss)
+Requirement already satisfied (use --upgrade to upgrade): pathlib in /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages (from pyScss)
+Installing collected packages: pyScss
+  Running setup.py install for pyScss
+Successfully installed pyScss-1.3.4
+
+The following NEW packages will be INSTALLED:
+
+    enum34:     1.0.4-py27_0 
+    openssl:    1.0.1k-1     
+    pathlib:    1.0.1-py27_0 
+    pip:        7.0.3-py27_0 
+    python:     2.7.10-0     
+    readline:   6.2-2        
+    setuptools: 18.0.1-py27_0
+    six:        1.9.0-py27_0 
+    sqlite:     3.8.4.1-1    
+    system:     5.8-2        
+    tk:         8.5.18-0     
+    zlib:       1.2.8-0      
+
+Linking packages ...
+[                    ]|                                                  |   0%[openssl             ]|                                                  |   0%[readline            ]|####                                              |   8%[sqlite              ]|########                                          |  16%[system              ]|############                                      |  25%[tk                  ]|################                                  |  33%[zlib                ]|####################                              |  41%[enum34              ]|#########################                         |  50%[pathlib             ]|#############################                     |  58%[python              ]|#################################                 |  66%[setuptools          ]|#####################################             |  75%[six                 ]|#########################################         |  83%[pip                 ]|#############################################     |  91%[      COMPLETE      ]|##################################################| 100%
+Removing old work directory
+Copying /home/ubuntu/pypi-conda-builds/pyscss to /home/ubuntu/miniconda/conda-bld/work
+Package: pyscss-1.3.4-py_0
+source tree in: /home/ubuntu/miniconda/conda-bld/work
+number of files: 78
+Fixing permissions
+Fixing permissions
+BUILD END: pyscss-1.3.4-py_0
+# If you want to upload this package to binstar.org later, type:
+#
+# $ binstar upload /home/ubuntu/miniconda/conda-bld/noarch/pyscss-1.3.4-py_0.tar.bz2
+#
+# To have conda build upload to binstar automatically, use
+# $ conda config --set binstar_upload yes
+
+Package search: {'_pypi_ordering': False, 'version': '1.3.4', 'name': 'pyScss', 'summary': 'pyScss, a Scss compiler for Python'}
 Creating standard recipe for pyscss-1.3.4
 Converting recipe in /home/ubuntu/pypi-conda-builds/pyscss
 package = pyScss
    dependencies = [u'six', u'enum34', u'pathlib']
+Creating standard recipe for six
+Converting recipe in /home/ubuntu/pypi-conda-builds/six
+package = six
+   dependencies = []
+Building conda package for six
+Creating standard recipe for enum34
+Converting recipe in /home/ubuntu/pypi-conda-builds/enum34
+package = enum34
+   dependencies = []
+Building conda package for enum34
 Creating standard recipe for pathlib
-    LOCKERROR: It looks like conda is already doing something.
-    The lock /home/ubuntu/miniconda/conda-bld/.conda_lock-5729 was found. Wait for it to finish before continuing.
-    If you are sure that conda is not running, remove it and try again.
-    You can also use: $ conda clean --lock
-Sleeping for 1 seconds
-    LOCKERROR: It looks like conda is already doing something.
-    The lock /home/ubuntu/miniconda/conda-bld/.conda_lock-5729 was found. Wait for it to finish before continuing.
-    If you are sure that conda is not running, remove it and try again.
-    You can also use: $ conda clean --lock
-Sleeping for 2 seconds
-    LOCKERROR: It looks like conda is already doing something.
-    The lock /home/ubuntu/miniconda/conda-bld/.conda_lock-5729 was found. Wait for it to finish before continuing.
-    If you are sure that conda is not running, remove it and try again.
-    You can also use: $ conda clean --lock
-Sleeping for 4 seconds
-    LOCKERROR: It looks like conda is already doing something.
-    The lock /home/ubuntu/miniconda/conda-bld/.conda_lock-5729 was found. Wait for it to finish before continuing.
-    If you are sure that conda is not running, remove it and try again.
-    You can also use: $ conda clean --lock
-Sleeping for 8 seconds
-    LOCKERROR: It looks like conda is already doing something.
-    The lock /home/ubuntu/miniconda/conda-bld/.conda_lock-5729 was found. Wait for it to finish before continuing.
-    If you are sure that conda is not running, remove it and try again.
-    You can also use: $ conda clean --lock
-Sleeping for 16 seconds
-    LOCKERROR: It looks like conda is already doing something.
-    The lock /home/ubuntu/miniconda/conda-bld/.conda_lock-5729 was found. Wait for it to finish before continuing.
-    If you are sure that conda is not running, remove it and try again.
-    You can also use: $ conda clean --lock
-Sleeping for 32 seconds
-    LOCKERROR: It looks like conda is already doing something.
-    The lock /home/ubuntu/miniconda/conda-bld/.conda_lock-5729 was found. Wait for it to finish before continuing.
-    If you are sure that conda is not running, remove it and try again.
-    You can also use: $ conda clean --lock
-Sleeping for 64 seconds
-    LOCKERROR: It looks like conda is already doing something.
-    The lock /home/ubuntu/miniconda/conda-bld/.conda_lock-5729 was found. Wait for it to finish before continuing.
-    If you are sure that conda is not running, remove it and try again.
-    You can also use: $ conda clean --lock
-Sleeping for 128 seconds
-    LOCKERROR: It looks like conda is already doing something.
-    The lock /home/ubuntu/miniconda/conda-bld/.conda_lock-5729 was found. Wait for it to finish before continuing.
-    If you are sure that conda is not running, remove it and try again.
-    You can also use: $ conda clean --lock
-Sleeping for 256 seconds
-    LOCKERROR: It looks like conda is already doing something.
-    The lock /home/ubuntu/miniconda/conda-bld/.conda_lock-5729 was found. Wait for it to finish before continuing.
-    If you are sure that conda is not running, remove it and try again.
-    You can also use: $ conda clean --lock
-Sleeping for 512 seconds
-Exceeded max retries, giving upError:     LOCKERROR: It looks like conda is already doing something.
-    The lock /home/ubuntu/miniconda/conda-bld/.conda_lock-5729 was found. Wait for it to finish before continuing.
-    If you are sure that conda is not running, remove it and try again.
-    You can also use: $ conda clean --lock
-
-
-conda create -n _pipbuild_ --yes python pip
-/home/ubuntu/miniconda/envs/_pipbuild_/bin/pip install pathlib==[0]
-Error: Could not pip install pathlib==[0]
+Converting recipe in /home/ubuntu/pypi-conda-builds/pathlib
+package = pathlib
+   dependencies = []
+Building conda package for pathlib
+Building conda package for pyscss

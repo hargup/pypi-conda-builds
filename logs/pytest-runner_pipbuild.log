@@ -1,0 +1,35 @@
+Error: prefix already exists: /home/ubuntu/miniconda/envs/_pipbuild_
+Collecting pytest-runner==2.5.1
+  Downloading http://localhost/packages/source/p/pytest-runner/pytest-runner-2.5.1.zip
+setuptools must be installed to install from a source distribution
+Package search: {'_pypi_ordering': False, 'version': '2.5.1', 'name': 'pytest-runner', 'summary': 'Invoke py.test as distutils command with dependency resolution.'}
+Creating standard recipe for pytest-runner-2.5.1
+Using url https://pypi.python.org/packages/source/p/pytest-runner/pytest-runner-2.5.1.zip (11 KB) for pytest-runner.
+Downloading pytest-runner
+Using cached download
+Unpacking pytest-runner...
+done
+working in /tmp/tmpynpbetconda_skeleton_pytest-runner-2.5.1.zip
+Fetching package metadata: ......
+
+WARNING: conda-build appears to be out of date. You have version 1.13.0 but the
+latest version is 1.14.0. Run
+
+conda update -n root conda-build
+
+to get the latest version.
+
+Solving package specifications: .patching file core.py
+Hunk #1 succeeded at 168 with fuzz 2 (offset 2 lines).
+Traceback (most recent call last):
+  File "setup.py", line 8, in <module>
+    import setuptools
+ImportError: No module named setuptools
+
+Applying patch: '/tmp/tmpynpbetconda_skeleton_pytest-runner-2.5.1.zip/pypi-distutils.patch'
+$PYTHONPATH = /tmp/tmpynpbetconda_skeleton_pytest-runner-2.5.1.zip/pytest-runner-2.5.1
+Error: command failed: /home/ubuntu/miniconda/envs/_build/bin/python setup.py install
+
+conda create -n _pipbuild_ --yes python pip
+/home/ubuntu/miniconda/envs/_pipbuild_/bin/pip install pytest-runner==2.5.1
+Error: Could not pip install pytest-runner==2.5.1

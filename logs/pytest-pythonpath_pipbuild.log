@@ -1,32 +1,43 @@
 Error: prefix already exists: /home/ubuntu/miniconda/envs/_pipbuild_
-Exception:
-Traceback (most recent call last):
-  File "/home/ubuntu/miniconda/envs/_pipbuild_/lib/python2.7/site-packages/pip/basecommand.py", line 223, in main
-    status = self.run(options, args)
-  File "/home/ubuntu/miniconda/envs/_pipbuild_/lib/python2.7/site-packages/pip/commands/install.py", line 268, in run
-    wheel_cache
-  File "/home/ubuntu/miniconda/envs/_pipbuild_/lib/python2.7/site-packages/pip/basecommand.py", line 268, in populate_requirement_set
-    wheel_cache=wheel_cache
-  File "/home/ubuntu/miniconda/envs/_pipbuild_/lib/python2.7/site-packages/pip/req/req_install.py", line 207, in from_line
-    wheel_cache=wheel_cache)
-  File "/home/ubuntu/miniconda/envs/_pipbuild_/lib/python2.7/site-packages/pip/req/req_install.py", line 66, in __init__
-    req = pkg_resources.Requirement.parse(req)
-  File "/home/ubuntu/miniconda/envs/_pipbuild_/lib/python2.7/site-packages/pip/_vendor/pkg_resources/__init__.py", line 2960, in parse
-    reqs = list(parse_requirements(s))
-  File "/home/ubuntu/miniconda/envs/_pipbuild_/lib/python2.7/site-packages/pip/_vendor/pkg_resources/__init__.py", line 2904, in parse_requirements
-    "version spec")
-  File "/home/ubuntu/miniconda/envs/_pipbuild_/lib/python2.7/site-packages/pip/_vendor/pkg_resources/__init__.py", line 2869, in scan_list
-    raise ValueError(msg, line, "at", line[p:])
-ValueError: ('Expected version spec in', 'pytest==>=2.5.2', 'at', '==>=2.5.2')
-
+Collecting pytest-pythonpath==0.6
+  Downloading http://localhost/packages/source/p/pytest-pythonpath/pytest-pythonpath-0.6.tar.gz
+setuptools must be installed to install from a source distribution
 Package search: {'_pypi_ordering': False, 'version': '0.6', 'name': 'pytest-pythonpath', 'summary': 'pytest plugin for adding to the PYTHONPATH from command line or configs.'}
 Creating standard recipe for pytest-pythonpath-0.6
-Converting recipe in /home/ubuntu/pypi-conda-builds/pytest-pythonpath
-package = pytest-pythonpath
-   dependencies = [u'pytest >=2.5.2']
-Creating standard recipe for pytest->=2.5.2
-Error: Version >=2.5.2 of pytest is not available on PyPI.
+Using url https://pypi.python.org/packages/source/p/pytest-pythonpath/pytest-pythonpath-0.6.tar.gz (2 KB) for pytest-pythonpath.
+Downloading pytest-pythonpath
+Using cached download
+Unpacking pytest-pythonpath...
+done
+working in /tmp/tmpqj4vCrconda_skeleton_pytest-pythonpath-0.6.tar.gz
+Fetching package metadata: ......
+
+WARNING: conda-build appears to be out of date. You have version 1.13.0 but the
+latest version is 1.14.0. Run
+
+conda update -n root conda-build
+
+to get the latest version.
+
+Solving package specifications: .patching file core.py
+Hunk #1 succeeded at 168 with fuzz 2 (offset 2 lines).
+Traceback (most recent call last):
+  File "setup.py", line 1, in <module>
+    from setuptools import setup
+ImportError: No module named setuptools
+
+The following NEW packages will be INSTALLED:
+
+    numpy:  1.9.2-py27_0
+    pyyaml: 3.11-py27_1 
+    yaml:   0.1.6-0     
+
+Linking packages ...
+[                    ]|                                                  |   0%[yaml                ]|                                                  |   0%[numpy               ]|################                                  |  33%[pyyaml              ]|#################################                 |  66%[      COMPLETE      ]|##################################################| 100%
+Applying patch: '/tmp/tmpqj4vCrconda_skeleton_pytest-pythonpath-0.6.tar.gz/pypi-distutils.patch'
+$PYTHONPATH = /tmp/tmpqj4vCrconda_skeleton_pytest-pythonpath-0.6.tar.gz/pytest-pythonpath-0.6
+Error: command failed: /home/ubuntu/miniconda/envs/_build/bin/python setup.py install
 
 conda create -n _pipbuild_ --yes python pip
-/home/ubuntu/miniconda/envs/_pipbuild_/bin/pip install pytest==>=2.5.2
-Error: Could not pip install pytest==>=2.5.2
+/home/ubuntu/miniconda/envs/_pipbuild_/bin/pip install pytest-pythonpath==0.6
+Error: Could not pip install pytest-pythonpath==0.6

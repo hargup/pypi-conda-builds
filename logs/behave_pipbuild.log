@@ -1,33 +1,39 @@
-Package search: {'_pypi_ordering': False, 'version': '1.2.5', 'name': 'behave', 'summary': 'behave is behaviour-driven development, Python style'}
-Fetching package metadata: ....
 Error: prefix already exists: /home/ubuntu/miniconda/envs/_pipbuild_
-Exception:
-Traceback (most recent call last):
-  File "/home/ubuntu/miniconda/envs/_pipbuild_/lib/python2.7/site-packages/pip/basecommand.py", line 223, in main
-    status = self.run(options, args)
-  File "/home/ubuntu/miniconda/envs/_pipbuild_/lib/python2.7/site-packages/pip/commands/install.py", line 268, in run
-    wheel_cache
-  File "/home/ubuntu/miniconda/envs/_pipbuild_/lib/python2.7/site-packages/pip/basecommand.py", line 268, in populate_requirement_set
-    wheel_cache=wheel_cache
-  File "/home/ubuntu/miniconda/envs/_pipbuild_/lib/python2.7/site-packages/pip/req/req_install.py", line 207, in from_line
-    wheel_cache=wheel_cache)
-  File "/home/ubuntu/miniconda/envs/_pipbuild_/lib/python2.7/site-packages/pip/req/req_install.py", line 66, in __init__
-    req = pkg_resources.Requirement.parse(req)
-  File "/home/ubuntu/miniconda/envs/_pipbuild_/lib/python2.7/site-packages/pip/_vendor/pkg_resources/__init__.py", line 2960, in parse
-    reqs = list(parse_requirements(s))
-  File "/home/ubuntu/miniconda/envs/_pipbuild_/lib/python2.7/site-packages/pip/_vendor/pkg_resources/__init__.py", line 2904, in parse_requirements
-    "version spec")
-  File "/home/ubuntu/miniconda/envs/_pipbuild_/lib/python2.7/site-packages/pip/_vendor/pkg_resources/__init__.py", line 2869, in scan_list
-    raise ValueError(msg, line, "at", line[p:])
-ValueError: ('Expected version spec in', 'parse==>=1.6.3', 'at', '==>=1.6.3')
-
+Collecting behave==1.2.5
+  Downloading http://localhost/packages/py2.py3/b/behave/behave-1.2.5-py2.py3-none-any.whl (109kB)
+Collecting parse>=1.6.3 (from behave==1.2.5)
+  Downloading http://localhost/packages/2.7/p/parse/parse-1.6.6-py2-none-any.whl
+Collecting parse-type>=0.3.4 (from behave==1.2.5)
+  Downloading http://localhost/packages/source/p/parse_type/parse_type-0.3.4.tar.gz (62kB)
+setuptools must be installed to install from a source distribution
+Package search: {'_pypi_ordering': False, 'version': '1.2.5', 'name': 'behave', 'summary': 'behave is behaviour-driven development, Python style'}
 Creating standard recipe for behave-1.2.5
-Converting recipe in /home/ubuntu/pypi-conda-builds/behave
-package = behave
-   dependencies = [u'parse >=1.6.3', u'parse_type >=0.3.4', u'six']
-Creating standard recipe for parse->=1.6.3
-Error: Version >=1.6.3 of parse is not available on PyPI.
+Using url https://pypi.python.org/packages/source/b/behave/behave-1.2.5.tar.bz2 (341 KB) for behave.
+Downloading behave
+Using cached download
+Unpacking behave...
+done
+working in /tmp/tmpIfJ7wUconda_skeleton_behave-1.2.5.tar.bz2
+Fetching package metadata: ......
+
+WARNING: conda-build appears to be out of date. You have version 1.13.0 but the
+latest version is 1.14.0. Run
+
+conda update -n root conda-build
+
+to get the latest version.
+
+Solving package specifications: .patching file core.py
+Hunk #1 succeeded at 168 with fuzz 2 (offset 2 lines).
+Traceback (most recent call last):
+  File "setup.py", line 19, in <module>
+    from setuptools import find_packages, setup
+ImportError: No module named setuptools
+
+Applying patch: '/tmp/tmpIfJ7wUconda_skeleton_behave-1.2.5.tar.bz2/pypi-distutils.patch'
+$PYTHONPATH = /tmp/tmpIfJ7wUconda_skeleton_behave-1.2.5.tar.bz2/behave-1.2.5
+Error: command failed: /home/ubuntu/miniconda/envs/_build/bin/python setup.py install
 
 conda create -n _pipbuild_ --yes python pip
-/home/ubuntu/miniconda/envs/_pipbuild_/bin/pip install parse==>=1.6.3
-Error: Could not pip install parse==>=1.6.3
+/home/ubuntu/miniconda/envs/_pipbuild_/bin/pip install behave==1.2.5
+Error: Could not pip install behave==1.2.5

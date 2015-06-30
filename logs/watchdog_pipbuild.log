@@ -1,5 +1,3 @@
-Package search: {'_pypi_ordering': False, 'version': '0.8.3', 'name': 'watchdog', 'summary': 'Filesystem events monitoring'}
-Fetching package metadata: ....
 Error: prefix already exists: /home/ubuntu/miniconda/envs/_pipbuild_
 Exception:
 Traceback (most recent call last):
@@ -19,15 +17,16 @@ Traceback (most recent call last):
     "version spec")
   File "/home/ubuntu/miniconda/envs/_pipbuild_/lib/python2.7/site-packages/pip/_vendor/pkg_resources/__init__.py", line 2869, in scan_list
     raise ValueError(msg, line, "at", line[p:])
-ValueError: ('Expected version spec in', 'argh==>=0.24.1', 'at', '==>=0.24.1')
+ValueError: ('Expected version spec in', 'pyyaml==>=3.10', 'at', '==>=3.10')
 
+Package search: {'_pypi_ordering': False, 'version': '0.8.3', 'name': 'watchdog', 'summary': 'Filesystem events monitoring'}
 Creating standard recipe for watchdog-0.8.3
 Converting recipe in /home/ubuntu/pypi-conda-builds/watchdog
 package = watchdog
    dependencies = [u'pyyaml >=3.10', u'argh >=0.24.1', u'pathtools >=0.1.1']
-Creating standard recipe for argh->=0.24.1
-Error: Version >=0.24.1 of argh is not available on PyPI.
+Creating standard recipe for pyyaml->=3.10
+Error: Version >=3.10 of pyyaml is not available on PyPI.
 
 conda create -n _pipbuild_ --yes python pip
-/home/ubuntu/miniconda/envs/_pipbuild_/bin/pip install argh==>=0.24.1
-Error: Could not pip install argh==>=0.24.1
+/home/ubuntu/miniconda/envs/_pipbuild_/bin/pip install pyyaml==>=3.10
+Error: Could not pip install pyyaml==>=3.10

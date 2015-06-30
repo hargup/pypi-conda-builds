@@ -1,0 +1,11 @@
+Error: prefix already exists: /home/ubuntu/miniconda/envs/_pipbuild_
+Collecting frida==4.2.5
+  Could not find a version that satisfies the requirement frida==4.2.5 (from versions: )
+No matching distribution found for frida==4.2.5
+Package search: {'_pypi_ordering': False, 'version': '4.2.5', 'name': 'frida', 'summary': 'Inject JavaScript to explore native apps on Windows, Mac, Linux, iOS and Android'}
+Creating standard recipe for frida-4.2.5
+Error: Could not parse url for frida: UNKNOWN
+
+conda create -n _pipbuild_ --yes python pip
+/home/ubuntu/miniconda/envs/_pipbuild_/bin/pip install frida==4.2.5
+Error: Could not pip install frida==4.2.5

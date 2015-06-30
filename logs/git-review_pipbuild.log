@@ -1,0 +1,34 @@
+Error: prefix already exists: /home/ubuntu/miniconda/envs/_pipbuild_
+Collecting git-review==1.25.0
+  Could not find a version that satisfies the requirement git-review==1.25.0 (from versions: 1.0, 1.1, 1.2, 1.3, 1.4, 1.5, 1.6, 1.7, 1.8, 1.9, 1.11, 1.12, 1.13, 1.14, 1.15, 1.16, 1.17, 1.18, 1.19, 1.20, 1.21, 1.22, 1.23, 1.24)
+No matching distribution found for git-review==1.25.0
+Package search: {'_pypi_ordering': False, 'version': '1.25.0', 'name': 'git-review', 'summary': 'Tool to submit code to Gerrit'}
+Creating standard recipe for git-review-1.25.0
+Using url https://pypi.python.org/packages/source/g/git-review/git-review-1.25.0.tar.gz (51 KB) for git-review.
+Downloading git-review
+Unpacking git-review...
+done
+working in /tmp/tmps8CI3Fconda_skeleton_git-review-1.25.0.tar.gz
+Fetching package metadata: ......
+
+WARNING: conda-build appears to be out of date. You have version 1.13.0 but the
+latest version is 1.14.0. Run
+
+conda update -n root conda-build
+
+to get the latest version.
+
+Solving package specifications: .patching file core.py
+Hunk #1 succeeded at 168 with fuzz 2 (offset 2 lines).
+Traceback (most recent call last):
+  File "setup.py", line 17, in <module>
+    import setuptools
+ImportError: No module named setuptools
+
+Applying patch: '/tmp/tmps8CI3Fconda_skeleton_git-review-1.25.0.tar.gz/pypi-distutils.patch'
+$PYTHONPATH = /tmp/tmps8CI3Fconda_skeleton_git-review-1.25.0.tar.gz/git-review-1.25.0
+Error: command failed: /home/ubuntu/miniconda/envs/_build/bin/python setup.py install
+
+conda create -n _pipbuild_ --yes python pip
+/home/ubuntu/miniconda/envs/_pipbuild_/bin/pip install git-review==1.25.0
+Error: Could not pip install git-review==1.25.0

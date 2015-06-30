@@ -1,12 +1,27 @@
-Package search: {'_pypi_ordering': False, 'version': '2.26.0', 'name': 'python-novaclient', 'summary': 'Client library for OpenStack Compute API'}
-Fetching package metadata: ....
-Error: prefix already exists: /home/ubuntu/miniconda/envs/_pipbuild_
-Collecting python-novaclient==2.26.0
-  Could not find a version that satisfies the requirement python-novaclient==2.26.0 (from versions: 2.6.0, 2.6.0.1, 2.6.10, 2.7.0, 2.8.0, 2.9.0, 2.10.0, 2.11.0, 2.11.1, 2.12.0, 2.13.0, 2.14.0, 2.14.1, 2.15.0, 2.16.0, 2.17.0, 2.18.0, 2.18.1, 2.19.0, 2.20.0, 2.21.0, 2.22.0, 2.23.0, 2.24.0, 2.24.1, 2.25.0)
-No matching distribution found for python-novaclient==2.26.0
-Creating standard recipe for python-novaclient-2.26.0
-Error: directory already exists: ./python-novaclient
+An unexpected error has occurred, please consider sending the
+following traceback to the conda GitHub issue tracker at:
 
-conda create -n _pipbuild_ --yes python pip
-/home/ubuntu/miniconda/envs/_pipbuild_/bin/pip install python-novaclient==2.26.0
-Error: Could not pip install python-novaclient==2.26.0
+    https://github.com/conda/conda-build/issues
+
+Include the output of the command 'conda info' in your report.
+
+
+Package search: {'_pypi_ordering': False, 'version': '2.26.0', 'name': 'python-novaclient', 'summary': 'Client library for OpenStack Compute API'}
+Creating standard recipe for python-novaclient-2.26.0
+Converting recipe in /home/ubuntu/pypi-conda-builds/python-novaclient
+Traceback (most recent call last):
+  File "/home/ubuntu/miniconda/bin/conda-pipbuild", line 6, in <module>
+    exec(compile(open(__file__).read(), __file__, 'exec'))
+  File "/home/ubuntu/conda-build/bin/conda-pipbuild", line 5, in <module>
+    sys.exit(main())
+  File "/home/ubuntu/conda-build/conda_build/main_pipbuild.py", line 80, in main
+    args_func(args, p)
+  File "/home/ubuntu/conda-build/conda_build/main_build.py", line 349, in args_func
+    args.func(args, p)
+  File "/home/ubuntu/conda-build/conda_build/main_pipbuild.py", line 360, in execute
+    build_package(package, version, noarch_python=args.noarch_python)
+  File "/home/ubuntu/conda-build/conda_build/main_pipbuild.py", line 301, in build_package
+    noarch_python=noarch_python)
+  File "/home/ubuntu/conda-build/conda_build/main_pipbuild.py", line 183, in convert_recipe
+    d['homeurl'] = meta['about']['home']
+KeyError: 'home'

@@ -1,5 +1,3 @@
-Package search: {'_pypi_ordering': False, 'version': '0.8', 'name': 'mozinfo', 'summary': 'Library to get system information for use in Mozilla testing'}
-Fetching package metadata: ....
 Error: prefix already exists: /home/ubuntu/miniconda/envs/_pipbuild_
 Exception:
 Traceback (most recent call last):
@@ -21,6 +19,7 @@ Traceback (most recent call last):
     raise ValueError(msg, line, "at", line[p:])
 ValueError: ('Expected version spec in', 'mozfile==>=0.12', 'at', '==>=0.12')
 
+Package search: {'_pypi_ordering': False, 'version': '0.8', 'name': 'mozinfo', 'summary': 'Library to get system information for use in Mozilla testing'}
 Creating standard recipe for mozinfo-0.8
 Converting recipe in /home/ubuntu/pypi-conda-builds/mozinfo
 package = mozinfo

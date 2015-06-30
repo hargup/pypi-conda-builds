@@ -1,47 +1,45 @@
-Package search: {'_pypi_ordering': False, 'version': '3.1.6.2', 'name': 'XStatic-D3', 'summary': 'D3 3.1.6 (XStatic packaging standard)'}
-Fetching package metadata: ....
-Removing old build directory
-Removing old work directory
-BUILD START: xstatic-d3-3.1.6.2-py27_0
-Fetching package metadata: ......
-Solving package specifications: .+ pip install XStatic-D3
-Collecting XStatic-D3
+Error: prefix already exists: /home/ubuntu/miniconda/envs/_pipbuild_
+Collecting XStatic-D3==3.1.6.2
   Downloading http://localhost/packages/source/X/XStatic-D3/XStatic-D3-3.1.6.2.tar.gz (66kB)
-Installing collected packages: XStatic-D3
-  Running setup.py install for XStatic-D3
-Successfully installed XStatic-D3-3.1.6.2
+setuptools must be installed to install from a source distribution
+Package search: {'_pypi_ordering': False, 'version': '3.1.6.2', 'name': 'XStatic-D3', 'summary': 'D3 3.1.6 (XStatic packaging standard)'}
+Creating standard recipe for xstatic-d3-3.1.6.2
+Using url https://pypi.python.org/packages/source/X/XStatic-D3/XStatic-D3-3.1.6.2.tar.gz (64 KB) for XStatic-D3.
+Downloading XStatic-D3
+Using cached download
+Unpacking XStatic-D3...
+done
+working in /tmp/tmpdmaR7uconda_skeleton_XStatic-D3-3.1.6.2.tar.gz
+Fetching package metadata: ......
+
+WARNING: conda-build appears to be out of date. You have version 1.13.0 but the
+latest version is 1.14.0. Run
+
+conda update -n root conda-build
+
+to get the latest version.
+
+Solving package specifications: .patching file core.py
+Hunk #1 succeeded at 168 with fuzz 2 (offset 2 lines).
+Traceback (most recent call last):
+  File "setup.py", line 1, in <module>
+    from xstatic.pkg import d3 as xs
+  File "/tmp/tmpdmaR7uconda_skeleton_XStatic-D3-3.1.6.2.tar.gz/XStatic-D3-3.1.6.2/xstatic/__init__.py", line 1, in <module>
+    __import__('pkg_resources').declare_namespace(__name__)
+ImportError: No module named pkg_resources
 
 The following NEW packages will be INSTALLED:
 
-    openssl:    1.0.1k-1    
-    pip:        7.0.3-py27_0
-    python:     2.7.10-0    
-    readline:   6.2-2       
-    setuptools: 17.0-py27_0 
-    sqlite:     3.8.4.1-1   
-    system:     5.8-2       
-    tk:         8.5.18-0    
-    zlib:       1.2.8-0     
+    numpy:  1.9.2-py27_0
+    pyyaml: 3.11-py27_1 
+    yaml:   0.1.6-0     
 
 Linking packages ...
-[                    ]|                                                  |   0%[openssl             ]|                                                  |   0%[readline            ]|#####                                             |  11%[sqlite              ]|###########                                       |  22%[system              ]|################                                  |  33%[tk                  ]|######################                            |  44%[zlib                ]|###########################                       |  55%[python              ]|#################################                 |  66%[setuptools          ]|######################################            |  77%[pip                 ]|############################################      |  88%[      COMPLETE      ]|##################################################| 100%
-Removing old work directory
-Copying /home/ubuntu/pypi-conda-builds/xstatic-d3 to /home/ubuntu/miniconda/conda-bld/work
-Package: xstatic-d3-3.1.6.2-py27_0
-source tree in: /home/ubuntu/miniconda/conda-bld/work
-number of files: 11
-Fixing permissions
-Fixing permissions
-BUILD END: xstatic-d3-3.1.6.2-py27_0
-# If you want to upload this package to binstar.org later, type:
-#
-# $ binstar upload /home/ubuntu/miniconda/conda-bld/linux-64/xstatic-d3-3.1.6.2-py27_0.tar.bz2
-#
-# To have conda build upload to binstar automatically, use
-# $ conda config --set binstar_upload yes
+[                    ]|                                                  |   0%[yaml                ]|                                                  |   0%[numpy               ]|################                                  |  33%[pyyaml              ]|#################################                 |  66%[      COMPLETE      ]|##################################################| 100%
+Applying patch: '/tmp/tmpdmaR7uconda_skeleton_XStatic-D3-3.1.6.2.tar.gz/pypi-distutils.patch'
+$PYTHONPATH = /tmp/tmpdmaR7uconda_skeleton_XStatic-D3-3.1.6.2.tar.gz/XStatic-D3-3.1.6.2
+Error: command failed: /home/ubuntu/miniconda/envs/_build/bin/python setup.py install
 
-Creating standard recipe for xstatic-d3-3.1.6.2
-Converting recipe in /home/ubuntu/pypi-conda-builds/xstatic-d3
-package = XStatic-D3
-   dependencies = []
-Building conda package for xstatic-d3
+conda create -n _pipbuild_ --yes python pip
+/home/ubuntu/miniconda/envs/_pipbuild_/bin/pip install XStatic-D3==3.1.6.2
+Error: Could not pip install XStatic-D3==3.1.6.2

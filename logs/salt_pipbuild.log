@@ -16,7 +16,7 @@ Traceback (most recent call last):
     sys.exit(main())
   File "/home/ubuntu/conda-build/conda_build/main_pipbuild.py", line 80, in main
     args_func(args, p)
-  File "/home/ubuntu/conda-build/conda_build/main_build.py", line 346, in args_func
+  File "/home/ubuntu/conda-build/conda_build/main_build.py", line 349, in args_func
     args.func(args, p)
   File "/home/ubuntu/conda-build/conda_build/main_pipbuild.py", line 360, in execute
     build_package(package, version, noarch_python=args.noarch_python)

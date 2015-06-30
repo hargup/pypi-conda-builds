@@ -1,0 +1,32 @@
+Error: prefix already exists: /home/ubuntu/miniconda/envs/_pipbuild_
+Exception:
+Traceback (most recent call last):
+  File "/home/ubuntu/miniconda/envs/_pipbuild_/lib/python2.7/site-packages/pip/basecommand.py", line 223, in main
+    status = self.run(options, args)
+  File "/home/ubuntu/miniconda/envs/_pipbuild_/lib/python2.7/site-packages/pip/commands/install.py", line 268, in run
+    wheel_cache
+  File "/home/ubuntu/miniconda/envs/_pipbuild_/lib/python2.7/site-packages/pip/basecommand.py", line 268, in populate_requirement_set
+    wheel_cache=wheel_cache
+  File "/home/ubuntu/miniconda/envs/_pipbuild_/lib/python2.7/site-packages/pip/req/req_install.py", line 207, in from_line
+    wheel_cache=wheel_cache)
+  File "/home/ubuntu/miniconda/envs/_pipbuild_/lib/python2.7/site-packages/pip/req/req_install.py", line 66, in __init__
+    req = pkg_resources.Requirement.parse(req)
+  File "/home/ubuntu/miniconda/envs/_pipbuild_/lib/python2.7/site-packages/pip/_vendor/pkg_resources/__init__.py", line 2960, in parse
+    reqs = list(parse_requirements(s))
+  File "/home/ubuntu/miniconda/envs/_pipbuild_/lib/python2.7/site-packages/pip/_vendor/pkg_resources/__init__.py", line 2904, in parse_requirements
+    "version spec")
+  File "/home/ubuntu/miniconda/envs/_pipbuild_/lib/python2.7/site-packages/pip/_vendor/pkg_resources/__init__.py", line 2869, in scan_list
+    raise ValueError(msg, line, "at", line[p:])
+ValueError: ('Expected version spec in', 'django====1.4.20', 'at', '====1.4.20')
+
+Package search: {'_pypi_ordering': False, 'version': '5.1.481', 'name': 'tendenci', 'summary': 'Tendenci - A CMS for Nonprofits'}
+Creating standard recipe for tendenci-5.1.481
+Converting recipe in /home/ubuntu/pypi-conda-builds/tendenci
+package = tendenci
+   dependencies = [u'django ==1.4.20', u'pisa', u'reportlab ==2.5', u'html5lib', u'pillow ==2.3.0', u'south ==0.7.5', u'anyjson >=0.2.4', u'django-authority >=0.4', u'django-avatar ==1.0.5', u'django-countries ==1.5', u'django-form-utils >=0.1.8', u'django-localflavor ==1.0', u'django-pagination >=1.0.7', u'django-picklefield >=0.1.6', u'django-simple-captcha ==0.4.2', u'django-tagging ==0.3.4', u'django-tinymce ==1.5.1.dev100', u'django-haystack ==1.2.7', u'feedparser >=4.1', u'httplib2 >=0.4.0', u'pytz ==2012j', u'simplejson >=2.0.9', u'webcolors >=1.3.1', u'xlrd ==0.7.3', u'xlwt >=0.7.2', u'pyparseuri >=0.1', u'pysolr ==2.0.15', u'beautifulsoup ==3.2.1', u'beautifulsoup4 ==4.3.2', u'oauth2 >=1.5.167', u'python_openid >=2.2', u'ordereddict ==1.1', u'createsend ==3.1.0', u'celery ==2.2.7', u'django-celery ==2.2.7', u'django-kombu >=0.9.4', u'mimeparse >=0.1.3', u'python-dateutil ==1.5', u'pdfminer ==20110515', u'stripe ==1.12.0', u'pycrypto ==2.6', u'boto ==2.13.3', u'django-timezones ==0.2', u'django-ses ==0.4.1', u'geraldo ==0.4.16', u'django-tastypie ==0.9.12', u'johnny-cache ==1.4', u'docutils ==0.9.1', u'chardet ==2.1.1', u'dj-database-url ==0.2.1', u'psycopg2 ==2.4.5', u'gunicorn ==0.17.2', u'django-s3-folder-storage ==0.1', u'django-storages ==1.1.5', u'python-memcached ==1.48', u'whoosh ==2.4.1', u'simple-salesforce ==0.51', u'static ==0.4', u'selenium ==2.37.2']
+Creating standard recipe for django-==1.4.20
+Error: Version ==1.4.20 of django is not available on PyPI.
+
+conda create -n _pipbuild_ --yes python pip
+/home/ubuntu/miniconda/envs/_pipbuild_/bin/pip install django====1.4.20
+Error: Could not pip install django====1.4.20

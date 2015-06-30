@@ -1,0 +1,35 @@
+Error: prefix already exists: /home/ubuntu/miniconda/envs/_pipbuild_
+Collecting Flask-Admin==1.2.0
+  Could not find a version that satisfies the requirement Flask-Admin==1.2.0 (from versions: 0.1.3.linux-x86_64, 0.1, 0.1.1, 0.1.2, 0.1.3, 0.1.4, 0.2.0, 0.2.1, 0.2.2, 0.3.0, 0.4.0, 0.4.1, 0.4.2, 1.0.0, 1.0.1, 1.0.2, 1.0.3, 1.0.4, 1.0.5, 1.0.6, 1.0.7, 1.0.8, 1.0.9, 1.1.0)
+  Some externally hosted files were ignored as access to them may be unreliable (use --allow-external Flask-Admin to allow).
+No matching distribution found for Flask-Admin==1.2.0
+Package search: {'_pypi_ordering': False, 'version': '1.2.0', 'name': 'Flask-Admin', 'summary': 'Simple and extensible admin interface framework for Flask'}
+Creating standard recipe for flask-admin-1.2.0
+Using url https://pypi.python.org/packages/source/F/Flask-Admin/Flask-Admin-1.2.0.tar.gz (772 KB) for Flask-Admin.
+Downloading Flask-Admin
+Unpacking Flask-Admin...
+done
+working in /tmp/tmpn_1C85conda_skeleton_Flask-Admin-1.2.0.tar.gz
+Fetching package metadata: ......
+
+WARNING: conda-build appears to be out of date. You have version 1.13.0 but the
+latest version is 1.14.0. Run
+
+conda update -n root conda-build
+
+to get the latest version.
+
+Solving package specifications: .patching file core.py
+Hunk #1 succeeded at 168 with fuzz 2 (offset 2 lines).
+Traceback (most recent call last):
+  File "setup.py", line 5, in <module>
+    from setuptools import setup, find_packages
+ImportError: No module named setuptools
+
+Applying patch: '/tmp/tmpn_1C85conda_skeleton_Flask-Admin-1.2.0.tar.gz/pypi-distutils.patch'
+$PYTHONPATH = /tmp/tmpn_1C85conda_skeleton_Flask-Admin-1.2.0.tar.gz/Flask-Admin-1.2.0
+Error: command failed: /home/ubuntu/miniconda/envs/_build/bin/python setup.py install
+
+conda create -n _pipbuild_ --yes python pip
+/home/ubuntu/miniconda/envs/_pipbuild_/bin/pip install Flask-Admin==1.2.0
+Error: Could not pip install Flask-Admin==1.2.0

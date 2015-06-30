@@ -1,0 +1,292 @@
+Removing old build directory
+Removing old work directory
+BUILD START: pathlib-1.0.1-py27_0
+Fetching package metadata: ......
+
+WARNING: conda-build appears to be out of date. You have version 1.13.0 but the
+latest version is 1.14.0. Run
+
+conda update -n root conda-build
+
+to get the latest version.
+
+Solving package specifications: .+ pip install pathlib
+Collecting pathlib
+  Downloading http://localhost/packages/source/p/pathlib/pathlib-1.0.1.tar.gz (49kB)
+Installing collected packages: pathlib
+  Running setup.py install for pathlib
+Successfully installed pathlib-1.0.1
+
+The following NEW packages will be INSTALLED:
+
+    openssl:    1.0.1k-1     
+    pip:        7.0.3-py27_0 
+    python:     2.7.10-0     
+    readline:   6.2-2        
+    setuptools: 18.0.1-py27_0
+    sqlite:     3.8.4.1-1    
+    system:     5.8-2        
+    tk:         8.5.18-0     
+    zlib:       1.2.8-0      
+
+Linking packages ...
+[                    ]|                                                  |   0%[openssl             ]|                                                  |   0%[readline            ]|#####                                             |  11%[sqlite              ]|###########                                       |  22%[system              ]|################                                  |  33%[tk                  ]|######################                            |  44%[zlib                ]|###########################                       |  55%[python              ]|#################################                 |  66%[setuptools          ]|######################################            |  77%[pip                 ]|############################################      |  88%[      COMPLETE      ]|##################################################| 100%
+Removing old work directory
+Copying /home/ubuntu/pypi-conda-builds/pathlib to /home/ubuntu/miniconda/conda-bld/work
+Package: pathlib-1.0.1-py27_0
+source tree in: /home/ubuntu/miniconda/conda-bld/work
+number of files: 7
+Fixing permissions
+Fixing permissions
+BUILD END: pathlib-1.0.1-py27_0
+# If you want to upload this package to binstar.org later, type:
+#
+# $ binstar upload /home/ubuntu/miniconda/conda-bld/linux-64/pathlib-1.0.1-py27_0.tar.bz2
+#
+# To have conda build upload to binstar automatically, use
+# $ conda config --set binstar_upload yes
+
+Removing old build directory
+Removing old work directory
+BUILD START: psutil-3.0.1-py27_0
+Fetching package metadata: ......
+
+WARNING: conda-build appears to be out of date. You have version 1.13.0 but the
+latest version is 1.14.0. Run
+
+conda update -n root conda-build
+
+to get the latest version.
+
+Solving package specifications: .+ pip install psutil
+Collecting psutil
+  Downloading http://localhost/packages/source/p/psutil/psutil-2.2.1.tar.gz (223kB)
+Installing collected packages: psutil
+  Running setup.py install for psutil
+Successfully installed psutil-2.2.1
+
+The following NEW packages will be INSTALLED:
+
+    openssl:    1.0.1k-1     
+    pip:        7.0.3-py27_0 
+    python:     2.7.10-0     
+    readline:   6.2-2        
+    setuptools: 18.0.1-py27_0
+    sqlite:     3.8.4.1-1    
+    system:     5.8-2        
+    tk:         8.5.18-0     
+    zlib:       1.2.8-0      
+
+Linking packages ...
+[                    ]|                                                  |   0%[openssl             ]|                                                  |   0%[readline            ]|#####                                             |  11%[sqlite              ]|###########                                       |  22%[system              ]|################                                  |  33%[tk                  ]|######################                            |  44%[zlib                ]|###########################                       |  55%[python              ]|#################################                 |  66%[setuptools          ]|######################################            |  77%[pip                 ]|############################################      |  88%[      COMPLETE      ]|##################################################| 100%
+Removing old work directory
+Copying /home/ubuntu/pypi-conda-builds/psutil to /home/ubuntu/miniconda/conda-bld/work
+Package: psutil-3.0.1-py27_0
+source tree in: /home/ubuntu/miniconda/conda-bld/work
+number of files: 25
+Fixing permissions
+patchelf: file: /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/_psutil_linux.so
+    setting rpath to: $ORIGIN/../..
+patchelf: file: /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/_psutil_posix.so
+    setting rpath to: $ORIGIN/../..
+Ignored hard-coded path in lib/python2.7/site-packages/_psutil_linux.so
+Ignored hard-coded path in lib/python2.7/site-packages/_psutil_posix.so
+Fixing permissions
+BUILD END: psutil-3.0.1-py27_0
+# If you want to upload this package to binstar.org later, type:
+#
+# $ binstar upload /home/ubuntu/miniconda/conda-bld/linux-64/psutil-3.0.1-py27_0.tar.bz2
+#
+# To have conda build upload to binstar automatically, use
+# $ conda config --set binstar_upload yes
+
+Removing old build directory
+Removing old work directory
+BUILD START: colorama-0.3.3-py27_0
+Fetching package metadata: ......
+
+WARNING: conda-build appears to be out of date. You have version 1.13.0 but the
+latest version is 1.14.0. Run
+
+conda update -n root conda-build
+
+to get the latest version.
+
+Solving package specifications: .+ pip install colorama
+Collecting colorama
+  Downloading http://localhost/packages/source/c/colorama/colorama-0.3.3.tar.gz
+Installing collected packages: colorama
+  Running setup.py install for colorama
+Successfully installed colorama-0.3.3
+
+The following NEW packages will be INSTALLED:
+
+    openssl:    1.0.1k-1     
+    pip:        7.0.3-py27_0 
+    python:     2.7.10-0     
+    readline:   6.2-2        
+    setuptools: 18.0.1-py27_0
+    sqlite:     3.8.4.1-1    
+    system:     5.8-2        
+    tk:         8.5.18-0     
+    zlib:       1.2.8-0      
+
+Linking packages ...
+[                    ]|                                                  |   0%[openssl             ]|                                                  |   0%[readline            ]|#####                                             |  11%[sqlite              ]|###########                                       |  22%[system              ]|################                                  |  33%[tk                  ]|######################                            |  44%[zlib                ]|###########################                       |  55%[python              ]|#################################                 |  66%[setuptools          ]|######################################            |  77%[pip                 ]|############################################      |  88%[      COMPLETE      ]|##################################################| 100%
+Removing old work directory
+Copying /home/ubuntu/pypi-conda-builds/colorama to /home/ubuntu/miniconda/conda-bld/work
+Package: colorama-0.3.3-py27_0
+source tree in: /home/ubuntu/miniconda/conda-bld/work
+number of files: 17
+Fixing permissions
+Fixing permissions
+BUILD END: colorama-0.3.3-py27_0
+# If you want to upload this package to binstar.org later, type:
+#
+# $ binstar upload /home/ubuntu/miniconda/conda-bld/linux-64/colorama-0.3.3-py27_0.tar.bz2
+#
+# To have conda build upload to binstar automatically, use
+# $ conda config --set binstar_upload yes
+
+Removing old build directory
+Removing old work directory
+BUILD START: six-1.9.0-py27_0
+Fetching package metadata: ......
+
+WARNING: conda-build appears to be out of date. You have version 1.13.0 but the
+latest version is 1.14.0. Run
+
+conda update -n root conda-build
+
+to get the latest version.
+
+Solving package specifications: .+ pip install six
+Collecting six
+  Downloading http://localhost/packages/3.3/s/six/six-1.9.0-py2.py3-none-any.whl
+Installing collected packages: six
+Successfully installed six-1.9.0
+
+The following NEW packages will be INSTALLED:
+
+    openssl:    1.0.1k-1     
+    pip:        7.0.3-py27_0 
+    python:     2.7.10-0     
+    readline:   6.2-2        
+    setuptools: 18.0.1-py27_0
+    sqlite:     3.8.4.1-1    
+    system:     5.8-2        
+    tk:         8.5.18-0     
+    zlib:       1.2.8-0      
+
+Linking packages ...
+[                    ]|                                                  |   0%[openssl             ]|                                                  |   0%[readline            ]|#####                                             |  11%[sqlite              ]|###########                                       |  22%[system              ]|################                                  |  33%[tk                  ]|######################                            |  44%[zlib                ]|###########################                       |  55%[python              ]|#################################                 |  66%[setuptools          ]|######################################            |  77%[pip                 ]|############################################      |  88%[      COMPLETE      ]|##################################################| 100%
+Removing old work directory
+Copying /home/ubuntu/pypi-conda-builds/six to /home/ubuntu/miniconda/conda-bld/work
+Package: six-1.9.0-py27_0
+source tree in: /home/ubuntu/miniconda/conda-bld/work
+number of files: 8
+Fixing permissions
+Fixing permissions
+BUILD END: six-1.9.0-py27_0
+# If you want to upload this package to binstar.org later, type:
+#
+# $ binstar upload /home/ubuntu/miniconda/conda-bld/linux-64/six-1.9.0-py27_0.tar.bz2
+#
+# To have conda build upload to binstar automatically, use
+# $ conda config --set binstar_upload yes
+
+Removing old build directory
+Removing old work directory
+BUILD START: thefuck-1.46-py_0
+Fetching package metadata: ......
+
+WARNING: conda-build appears to be out of date. You have version 1.13.0 but the
+latest version is 1.14.0. Run
+
+conda update -n root conda-build
+
+to get the latest version.
+
+Solving package specifications: .+ pip install thefuck
+Collecting thefuck
+  Downloading http://localhost/packages/3.4/t/thefuck/thefuck-1.40-py2.py3-none-any.whl
+Requirement already satisfied (use --upgrade to upgrade): psutil in /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages (from thefuck)
+Requirement already satisfied (use --upgrade to upgrade): six in /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages (from thefuck)
+Requirement already satisfied (use --upgrade to upgrade): pathlib in /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages (from thefuck)
+Requirement already satisfied (use --upgrade to upgrade): colorama in /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/colorama-0.3.3-py2.7.egg (from thefuck)
+Installing collected packages: thefuck
+Successfully installed thefuck-1.40
+
+The following packages will be downloaded:
+
+    package                    |            build
+    ---------------------------|-----------------
+    pathlib-1.0.1              |           py27_0          23 KB
+    psutil-3.0.1               |           py27_0         102 KB
+    ------------------------------------------------------------
+                                           Total:         125 KB
+
+The following NEW packages will be INSTALLED:
+
+    colorama:   0.3.3-py27_0 
+    openssl:    1.0.1k-1     
+    pathlib:    1.0.1-py27_0 
+    pip:        7.0.3-py27_0 
+    psutil:     3.0.1-py27_0 
+    python:     2.7.10-0     
+    readline:   6.2-2        
+    setuptools: 18.0.1-py27_0
+    six:        1.9.0-py27_0 
+    sqlite:     3.8.4.1-1    
+    system:     5.8-2        
+    tk:         8.5.18-0     
+    zlib:       1.2.8-0      
+
+Fetching packages ...
+pathlib-1.0.1-   0% |                              | ETA:  --:--:--   0.00  B/spathlib-1.0.1-  69% |#####################          | ETA:  0:00:00  28.30 MB/spathlib-1.0.1- 100% |###############################| ETA:  0:00:00  30.67 MB/spathlib-1.0.1- 100% |###############################| Time: 0:00:00  23.91 MB/s
+psutil-3.0.1-p   0% |                              | ETA:  --:--:--   0.00  B/spsutil-3.0.1-p  15% |####                           | Time: 0:00:00  72.18 MB/spsutil-3.0.1-p  31% |#########                      | Time: 0:00:00  76.40 MB/spsutil-3.0.1-p  46% |##############                 | Time: 0:00:00  79.41 MB/spsutil-3.0.1-p  62% |###################            | Time: 0:00:00  81.32 MB/spsutil-3.0.1-p  78% |########################       | Time: 0:00:00  82.42 MB/spsutil-3.0.1-p  93% |#############################  | Time: 0:00:00  83.67 MB/spsutil-3.0.1-p 100% |###############################| Time: 0:00:00  78.94 MB/spsutil-3.0.1-p 100% |###############################| Time: 0:00:00  71.96 MB/spsutil-3.0.1-p 100% |###############################| Time: 0:00:00  65.58 MB/s
+Extracting packages ...
+[                    ]|                                                  |   0%[pathlib             ]|                                                  |   0%[psutil              ]|#########################                         |  50%[      COMPLETE      ]|##################################################| 100%
+Linking packages ...
+[      COMPLETE      ]|                                                  |   0%[openssl             ]|                                                  |   0%[openssl             ]|                                                  |   0%[readline            ]|###                                               |   7%[sqlite              ]|#######                                           |  15%[system              ]|###########                                       |  23%[tk                  ]|###############                                   |  30%[zlib                ]|###################                               |  38%[colorama            ]|#######################                           |  46%[pathlib             ]|##########################                        |  53%[psutil              ]|##############################                    |  61%[python              ]|##################################                |  69%[setuptools          ]|######################################            |  76%[six                 ]|##########################################        |  84%[pip                 ]|##############################################    |  92%[      COMPLETE      ]|##################################################| 100%
+Removing old work directory
+Copying /home/ubuntu/pypi-conda-builds/thefuck to /home/ubuntu/miniconda/conda-bld/work
+Package: thefuck-1.46-py_0
+source tree in: /home/ubuntu/miniconda/conda-bld/work
+number of files: 83
+Fixing permissions
+Fixing permissions
+BUILD END: thefuck-1.46-py_0
+# If you want to upload this package to binstar.org later, type:
+#
+# $ binstar upload /home/ubuntu/miniconda/conda-bld/noarch/thefuck-1.46-py_0.tar.bz2
+#
+# To have conda build upload to binstar automatically, use
+# $ conda config --set binstar_upload yes
+
+Package search: {'_pypi_ordering': False, 'version': '1.46', 'name': 'thefuck', 'summary': 'Magnificent app which corrects your previous console command'}
+Creating standard recipe for thefuck-1.46
+Converting recipe in /home/ubuntu/pypi-conda-builds/thefuck
+package = thefuck
+   dependencies = [u'pathlib', u'psutil', u'colorama', u'six']
+Creating standard recipe for pathlib
+Converting recipe in /home/ubuntu/pypi-conda-builds/pathlib
+package = pathlib
+   dependencies = []
+Building conda package for pathlib
+Creating standard recipe for psutil
+Converting recipe in /home/ubuntu/pypi-conda-builds/psutil
+package = psutil
+   dependencies = []
+Building conda package for psutil
+Creating standard recipe for colorama
+Converting recipe in /home/ubuntu/pypi-conda-builds/colorama
+package = colorama
+   dependencies = []
+Building conda package for colorama
+Creating standard recipe for six
+Converting recipe in /home/ubuntu/pypi-conda-builds/six
+package = six
+   dependencies = []
+Building conda package for six
+Building conda package for thefuck

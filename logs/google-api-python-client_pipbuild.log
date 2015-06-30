@@ -1,33 +1,43 @@
-Package search: {'_pypi_ordering': False, 'version': '1.4.0', 'name': 'google-api-python-client', 'summary': 'Google API Client Library for Python'}
-Fetching package metadata: ....
 Error: prefix already exists: /home/ubuntu/miniconda/envs/_pipbuild_
-Exception:
-Traceback (most recent call last):
-  File "/home/ubuntu/miniconda/envs/_pipbuild_/lib/python2.7/site-packages/pip/basecommand.py", line 223, in main
-    status = self.run(options, args)
-  File "/home/ubuntu/miniconda/envs/_pipbuild_/lib/python2.7/site-packages/pip/commands/install.py", line 268, in run
-    wheel_cache
-  File "/home/ubuntu/miniconda/envs/_pipbuild_/lib/python2.7/site-packages/pip/basecommand.py", line 268, in populate_requirement_set
-    wheel_cache=wheel_cache
-  File "/home/ubuntu/miniconda/envs/_pipbuild_/lib/python2.7/site-packages/pip/req/req_install.py", line 207, in from_line
-    wheel_cache=wheel_cache)
-  File "/home/ubuntu/miniconda/envs/_pipbuild_/lib/python2.7/site-packages/pip/req/req_install.py", line 66, in __init__
-    req = pkg_resources.Requirement.parse(req)
-  File "/home/ubuntu/miniconda/envs/_pipbuild_/lib/python2.7/site-packages/pip/_vendor/pkg_resources/__init__.py", line 2960, in parse
-    reqs = list(parse_requirements(s))
-  File "/home/ubuntu/miniconda/envs/_pipbuild_/lib/python2.7/site-packages/pip/_vendor/pkg_resources/__init__.py", line 2904, in parse_requirements
-    "version spec")
-  File "/home/ubuntu/miniconda/envs/_pipbuild_/lib/python2.7/site-packages/pip/_vendor/pkg_resources/__init__.py", line 2869, in scan_list
-    raise ValueError(msg, line, "at", line[p:])
-ValueError: ('Expected version spec in', 'httplib2==>=0.8', 'at', '==>=0.8')
+Collecting google-api-python-client==1.4.1
+  Could not find a version that satisfies the requirement google-api-python-client==1.4.1 (from versions: 1.0beta5prerelease, 1.0beta5prerelease2, 1.0a1, 1.0a2, 1.0a3, 1.0a4, 1.0a5, 1.0a6, 1.0a7, 1.0a8, 1.0a9, 1.0a10, 1.0a11, 1.0b1, 1.0b2, 1.0b3, 1.0b4, 1.0b5, 1.0b6, 1.0b7, 1.0b8, 1.0b9, 1.0rc1, 1.0rc2, 1.0rc3, 1.0, 1.1, 1.2, 1.3, 1.3.1, 1.3.2, 1.4.0)
+  Some externally hosted files were ignored as access to them may be unreliable (use --allow-external google-api-python-client to allow).
+No matching distribution found for google-api-python-client==1.4.1
+Package search: {'_pypi_ordering': False, 'version': '1.4.1', 'name': 'google-api-python-client', 'summary': 'Google API Client Library for Python'}
+Creating standard recipe for google-api-python-client-1.4.1
+Using url https://pypi.python.org/packages/source/g/google-api-python-client/google-api-python-client-1.4.1.tar.gz (40 KB) for google-api-python-client.
+Downloading google-api-python-client
+Unpacking google-api-python-client...
+done
+working in /tmp/tmpZoRChOconda_skeleton_google-api-python-client-1.4.1.tar.gz
+Fetching package metadata: ......
 
-Creating standard recipe for google-api-python-client-1.4.0
-Converting recipe in /home/ubuntu/pypi-conda-builds/google-api-python-client
-package = google-api-python-client
-   dependencies = [u'httplib2 >=0.8', u'oauth2client >=1.4.6', u'six >=1.6.1', u'uritemplate >=0.6']
-Creating standard recipe for httplib2->=0.8
-Error: Version >=0.8 of httplib2 is not available on PyPI.
+WARNING: conda-build appears to be out of date. You have version 1.13.0 but the
+latest version is 1.14.0. Run
+
+conda update -n root conda-build
+
+to get the latest version.
+
+Solving package specifications: .patching file core.py
+Hunk #1 succeeded at 168 with fuzz 2 (offset 2 lines).
+Traceback (most recent call last):
+  File "setup.py", line 33, in <module>
+    from setuptools import setup
+ImportError: No module named setuptools
+
+The following NEW packages will be INSTALLED:
+
+    numpy:  1.9.2-py27_0
+    pyyaml: 3.11-py27_1 
+    yaml:   0.1.6-0     
+
+Linking packages ...
+[                    ]|                                                  |   0%[yaml                ]|                                                  |   0%[numpy               ]|################                                  |  33%[pyyaml              ]|#################################                 |  66%[      COMPLETE      ]|##################################################| 100%
+Applying patch: '/tmp/tmpZoRChOconda_skeleton_google-api-python-client-1.4.1.tar.gz/pypi-distutils.patch'
+$PYTHONPATH = /tmp/tmpZoRChOconda_skeleton_google-api-python-client-1.4.1.tar.gz/google-api-python-client-1.4.1
+Error: command failed: /home/ubuntu/miniconda/envs/_build/bin/python setup.py install
 
 conda create -n _pipbuild_ --yes python pip
-/home/ubuntu/miniconda/envs/_pipbuild_/bin/pip install httplib2==>=0.8
-Error: Could not pip install httplib2==>=0.8
+/home/ubuntu/miniconda/envs/_pipbuild_/bin/pip install google-api-python-client==1.4.1
+Error: Could not pip install google-api-python-client==1.4.1

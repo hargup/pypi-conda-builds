@@ -1,49 +1,25 @@
+Error: prefix already exists: /home/ubuntu/miniconda/envs/_pipbuild_
+Collecting ll-xist==5.13.1
+  Could not find a version that satisfies the requirement ll-xist==5.13.1 (from versions: 2.8.1, 2.9, 2.10, 2.11, 2.13, 2.14, 2.14.1, 2.14.2, 2.15, 2.15.1, 2.15.2, 2.15.3, 2.15.4, 2.15.5, 3.0, 3.1, 3.2, 3.2.1, 3.2.2, 3.2.3, 3.2.4, 3.2.5, 3.2.6, 3.2.7, 3.3, 3.3.1, 3.4, 3.4.1, 3.4.2, 3.4.3, 3.4.4, 3.5, 3.6, 3.6.1, 3.6.2, 3.6.3, 3.6.4, 3.6.5, 3.6.6, 3.7, 3.7.1, 3.7.2, 3.7.3, 3.7.4, 3.7.5, 3.7.6, 3.8, 3.8.1, 3.8.2, 3.8.3, 3.9, 3.10, 3.10.1, 3.11, 3.11.1, 3.12, 3.12.1, 3.13, 3.14, 3.15, 3.15.1, 3.15.2, 3.15.3, 3.16, 3.17, 3.17.1, 3.17.2, 3.17.3, 3.18, 3.18.1, 3.19, 3.20, 3.20.1, 3.20.2, 3.21, 3.22, 3.23, 3.23.1, 3.24, 3.24.1, 3.25, 4.0, 4.1, 4.2, 4.3, 4.3.1, 4.4, 4.5, 4.6, 4.7, 4.8, 4.9, 4.9.1, 4.10, 5.0, 5.1, 5.2, 5.2.1, 5.2.2, 5.2.3, 5.2.4, 5.2.5, 5.2.6, 5.2.7, 5.3, 5.4, 5.4.1, 5.5, 5.5.1, 5.6, 5.7, 5.7.1, 5.8, 5.8.1, 5.9, 5.9.1, 5.10, 5.11, 5.12, 5.12.1, 5.13)
+  Some externally hosted files were ignored as access to them may be unreliable (use --allow-external ll-xist to allow).
+No matching distribution found for ll-xist==5.13.1
 Package search: {'_pypi_ordering': False, 'version': '2.2', 'name': 'll-xist', 'summary': 'An XML-based extensible HTML generator'}
-Fetching package metadata: ....
-Fetching package metadata: ....
-Solving package specifications: .
-Package plan for installation in environment /home/ubuntu/miniconda/envs/_pipbuild_:
-
-The following NEW packages will be INSTALLED:
-
-    openssl:    1.0.1k-1    
-    pip:        7.0.3-py27_0
-    python:     2.7.10-0    
-    readline:   6.2-2       
-    setuptools: 17.0-py27_0 
-    sqlite:     3.8.4.1-1   
-    system:     5.8-2       
-    tk:         8.5.18-0    
-    zlib:       1.2.8-0     
-
-Linking packages ...
-[                    ]|                                                  |   0%[openssl             ]|                                                  |   0%[readline            ]|#####                                             |  11%[sqlite              ]|###########                                       |  22%[system              ]|################                                  |  33%[tk                  ]|######################                            |  44%[zlib                ]|###########################                       |  55%[python              ]|#################################                 |  66%[setuptools          ]|######################################            |  77%[pip                 ]|############################################      |  88%[      COMPLETE      ]|##################################################| 100%
-#
-# To activate this environment, use:
-# $ source activate _pipbuild_
-#
-# To deactivate this environment, use:
-# $ source deactivate
-#
-Collecting ll-xist==5.13
-  Downloading http://localhost/packages/source/l/ll-xist/ll-xist-5.13.tar.bz2 (519kB)
-    Complete output from command python setup.py egg_info:
-    Traceback (most recent call last):
-      File "<string>", line 20, in <module>
-      File "/tmp/pip-build-EG0WX1/ll-xist/setup.py", line 235, in <module>
-        news = list(open("NEWS.rst", "r", encoding="utf-8"))
-    TypeError: 'encoding' is an invalid keyword argument for this function
-    
-    ----------------------------------------
-Command "python setup.py egg_info" failed with error code 1 in /tmp/pip-build-EG0WX1/ll-xist
-Creating standard recipe for ll-xist-5.13
-Using url https://pypi.python.org/packages/source/l/ll-xist/ll-xist-5.13.tar.bz2 (507 KB) for ll-xist.
-Downloading ll-xist (use --no-download to skip this step)
+Creating standard recipe for ll-xist-5.13.1
+Using url https://pypi.python.org/packages/source/l/ll-xist/ll-xist-5.13.1.tar.bz2 (721 KB) for ll-xist.
+Downloading ll-xist
 Using cached download
 Unpacking ll-xist...
 done
-working in /tmp/tmpFCra8Nconda_skeleton_ll-xist-5.13.tar.bz2
+working in /tmp/tmpyZuPMGconda_skeleton_ll-xist-5.13.1.tar.bz2
 Fetching package metadata: ......
+
+WARNING: conda-build appears to be out of date. You have version 1.13.0 but the
+latest version is 1.14.0. Run
+
+conda update -n root conda-build
+
+to get the latest version.
+
 Solving package specifications: .patching file core.py
 Hunk #1 succeeded at 168 with fuzz 2 (offset 2 lines).
 Traceback (most recent call last):
@@ -51,17 +27,10 @@ Traceback (most recent call last):
     news = list(open("NEWS.rst", "r", encoding="utf-8"))
 TypeError: 'encoding' is an invalid keyword argument for this function
 
-The following NEW packages will be INSTALLED:
-
-    numpy:  1.9.2-py27_0
-    pyyaml: 3.11-py27_0 
-
-Linking packages ...
-[                    ]|                                                  |   0%[numpy               ]|                                                  |   0%[pyyaml              ]|#########################                         |  50%[      COMPLETE      ]|##################################################| 100%
-Applying patch: '/tmp/tmpFCra8Nconda_skeleton_ll-xist-5.13.tar.bz2/pypi-distutils.patch'
-$PYTHONPATH = /tmp/tmpFCra8Nconda_skeleton_ll-xist-5.13.tar.bz2/ll-xist-5.13
+Applying patch: '/tmp/tmpyZuPMGconda_skeleton_ll-xist-5.13.1.tar.bz2/pypi-distutils.patch'
+$PYTHONPATH = /tmp/tmpyZuPMGconda_skeleton_ll-xist-5.13.1.tar.bz2/ll-xist-5.13.1
 Error: command failed: /home/ubuntu/miniconda/envs/_build/bin/python setup.py install
 
 conda create -n _pipbuild_ --yes python pip
-/home/ubuntu/miniconda/envs/_pipbuild_/bin/pip install ll-xist==5.13
-Error: Could not pip install ll-xist==5.13
+/home/ubuntu/miniconda/envs/_pipbuild_/bin/pip install ll-xist==5.13.1
+Error: Could not pip install ll-xist==5.13.1
