@@ -86,11 +86,11 @@ def build_recipe(package, build_data, packages_data):
     if err is 0:
         msg = "Succesfully build conda package for %s\n" % (package)
         build_data[package]['build_successful'] = True
+        packages_data[package]['package_available'] = True
+        packages_data[package]['availability_type'] = 'conda-build'
     else:
         msg = "Failed to build conda package for %s\n" % (package)
         build_data[package]['build_successful'] = False
-        packages_data[package]['package_available'] = True
-        packages_data[package]['availability_type'] = 'conda-build'
     print(msg)
     log_file.close()
 
@@ -111,12 +111,12 @@ def pipbuild(package, pipbuild_data, packages_data):
 
     if err is 0:
         msg = "Succesfully created conda package for %s\n" % (package)
-        pipbuild_data[package]['build_successful'] = True
-    else:
-        msg = "Failed to create conda package for %s\n" % (package)
-        pipbuild_data[package]['build_successful'] = False
+        pipbuild_data[package]['pipbuild_successful'] = True
         packages_data[package]['package_available'] = True
         packages_data[package]['availability_type'] = 'pipbuild'
+    else:
+        msg = "Failed to create conda package for %s\n" % (package)
+        pipbuild_data[package]['pipbuild_successful'] = False
     print(msg)
     log_file.close()
 
