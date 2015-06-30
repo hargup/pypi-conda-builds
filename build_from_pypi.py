@@ -9,6 +9,7 @@ if sys.version_info < (3,):
     from xmlrpclib import ServerProxy, Transport, ProtocolError
 else:
     from xmlrpc.client import ServerProxy
+from compiler_report import compile_all_reports
 
 
 parser = argparse.ArgumentParser()
@@ -149,16 +150,16 @@ def clean_data():
 def reorganise_old_format(packages_old, packages, recipes, build):
     for package in packages_old:
         package_available = False
-        availablility_type = None
+        availability_type = None
         if package['anaconda']:
             package_available = True
-            availablility_type = "Anaconda"
+            availability_type = "Anaconda"
         elif package['build']:
             package_available = True
-            availablility_type = "conda-build"
+            availability_type = "conda-build"
 
         packages[package['name']] = {'package_available': package_available,
-                                     'availablility_type': availablility_type}
+                                     'availability_type': availability_type}
 
         recipes[package['name']] = {'recipe_available': package['recipe']}
         build[package['name']] = {'build_successful': package['build']}
@@ -168,7 +169,7 @@ def get_packages_list(n):
     """
     Gives the list of top n packages sorted by download count
     """
-    return [pkg for (pkg, downloads) in client.top_packages(n)]
+    return [pkg.lower() for (pkg, downloads) in client.top_packages(n)]
 
 
 def get_previous_build_timestamp():
@@ -265,8 +266,13 @@ def main(args):
             else:
                 pipbuild(pkg, pipbuild_data, packages_data)
 
-    save_timestamp()
-    save_data()
 
 if __name__ == "__main__":
-    main(args)
+    try:
+        main(args)
+    except KeyboardInterrupt:
+        print("Process Interrupted by User")
+    finally:
+        save_timestamp()
+        save_data()
+        compile_all_reports()
