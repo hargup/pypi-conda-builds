@@ -50,19 +50,34 @@ Warning, the following versions were found for twitter
 Using 1.17.0
 Use --version to specify a different version.
 Using url https://pypi.python.org/packages/source/t/twitter/twitter-1.17.0.tar.gz (42 KB) for twitter.
-Downloading twitter (use --no-download to skip this step)
+Downloading twitter
 Using cached download
 Unpacking twitter...
 done
-working in /tmp/tmpVYEyeaconda_skeleton_twitter-1.17.0.tar.gz
+working in /tmp/tmpI0LaKaconda_skeleton_twitter-1.17.0.tar.gz
 Fetching package metadata: ......
+
+WARNING: conda-build appears to be out of date. You have version 1.13.0 but the
+latest version is 1.14.1. Run
+
+conda update -n root conda-build
+
+to get the latest version.
+
 Solving package specifications: .patching file core.py
 Hunk #1 succeeded at 168 with fuzz 2 (offset 2 lines).
-Traceback (most recent call last):
-  File "setup.py", line 1, in <module>
-    from setuptools import setup, find_packages
-ImportError: No module named setuptools
 
-Applying patch: '/tmp/tmpVYEyeaconda_skeleton_twitter-1.17.0.tar.gz/pypi-distutils.patch'
-$PYTHONPATH = /tmp/tmpVYEyeaconda_skeleton_twitter-1.17.0.tar.gz/twitter-1.17.0
-Error: command failed: /home/ubuntu/miniconda/envs/_build/bin/python setup.py install
+Applying patch: '/tmp/tmpI0LaKaconda_skeleton_twitter-1.17.0.tar.gz/pypi-distutils.patch'
+WARNING: Could not add entry points. They were:
+
+      # -*- Entry points: -*-
+      [console_scripts]
+      twitter=twitter.cmdline:main
+      twitterbot=twitter.ircbot:main
+      twitter-log=twitter.logger:main
+      twitter-archiver=twitter.archiver:main
+      twitter-follow=twitter.follow:main
+      twitter-stream-example=twitter.stream_example:main
+      
+Writing recipe for twitter
+Done

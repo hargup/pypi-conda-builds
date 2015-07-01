@@ -1,0 +1,44 @@
+Warning, the following versions were found for cli53
+0.4.4
+0.4.3
+0.4.2
+0.4.1
+0.4.0
+0.3.6
+0.3.5
+0.3.4
+0.3.3
+0.3.2
+0.3.1
+0.3.0
+Using 0.4.4
+Use --version to specify a different version.
+Using url https://pypi.python.org/packages/source/c/cli53/cli53-0.4.4.tar.gz (16 KB) for cli53.
+Downloading cli53
+Using cached download
+Unpacking cli53...
+done
+working in /tmp/tmpW_bbSZconda_skeleton_cli53-0.4.4.tar.gz
+Fetching package metadata: ......
+
+WARNING: conda-build appears to be out of date. You have version 1.13.0 but the
+latest version is 1.14.1. Run
+
+conda update -n root conda-build
+
+to get the latest version.
+
+Solving package specifications: .patching file core.py
+Hunk #1 succeeded at 168 with fuzz 2 (offset 2 lines).
+
+The following NEW packages will be INSTALLED:
+
+    numpy:  1.9.2-py27_0
+    pyyaml: 3.11-py27_1 
+    yaml:   0.1.6-0     
+
+Linking packages ...
+[                    ]|                                                  |   0%[yaml                ]|                                                  |   0%[numpy               ]|################                                  |  33%[pyyaml              ]|#################################                 |  66%[      COMPLETE      ]|##################################################| 100%
+Applying patch: '/tmp/tmpW_bbSZconda_skeleton_cli53-0.4.4.tar.gz/pypi-distutils.patch'
+Writing recipe for cli53
+Done

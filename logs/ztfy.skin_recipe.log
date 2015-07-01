@@ -1,0 +1,542 @@
+Warning, the following versions were found for ztfy.skin
+0.6.19
+0.6.18
+0.6.17
+0.6.16
+0.6.15
+0.6.14
+0.6.13
+0.6.12
+0.6.11
+0.6.10
+0.6.9.1
+0.6.9
+0.6.8.1
+0.6.8
+0.6.7
+0.6.6
+0.6.5
+0.6.4
+0.6.3
+0.6.2
+0.6.1
+0.6.0
+0.5.21
+0.5.20
+0.5.19
+0.5.18
+0.5.17
+0.5.16
+0.5.15
+0.5.14
+0.5.13
+0.5.12
+0.5.11
+0.5.10
+0.5.9
+0.5.8
+0.5.7
+0.5.6
+0.5.5
+0.5.4
+0.5.3
+0.5.2
+0.5.1
+0.5.0
+0.4.10
+0.4.9
+0.4.8
+0.4.7
+0.4.6
+0.4.5
+0.4.4
+0.4.3
+0.4.2
+0.4.1
+0.4.0
+0.3.6
+0.3.5
+0.3.4
+0.3.2
+0.3.1
+0.3.0
+0.2.9
+0.2.8
+0.2.7
+0.2.6
+0.2.5
+0.2.4
+0.2.3
+0.1.3
+0.1.2
+0.1
+Using 0.6.19
+Use --version to specify a different version.
+Using url https://pypi.python.org/packages/source/z/ztfy.skin/ztfy.skin-0.6.19.tar.gz (115 KB) for ztfy.skin.
+Downloading ztfy.skin
+Using cached download
+Unpacking ztfy.skin...
+done
+working in /tmp/tmpDnbT1Aconda_skeleton_ztfy.skin-0.6.19.tar.gz
+Fetching package metadata: ......
+
+WARNING: conda-build appears to be out of date. You have version 1.13.0 but the
+latest version is 1.14.1. Run
+
+conda update -n root conda-build
+
+to get the latest version.
+
+Solving package specifications: .patching file core.py
+Hunk #1 succeeded at 168 with fuzz 2 (offset 2 lines).
+
+WARNING: conda-build appears to be out of date. You have version 1.13.0 but the
+latest version is 1.14.1. Run
+
+conda update -n root conda-build
+
+to get the latest version.
+
+
+Applying patch: '/tmp/tmpDnbT1Aconda_skeleton_ztfy.skin-0.6.19.tar.gz/pypi-distutils.patch'
+Warning, the following versions were found for ztfy.utils
+0.4.13
+0.4.12
+0.4.11
+0.4.10
+0.4.9
+0.4.8
+0.4.7
+0.4.6
+0.4.5
+0.4.4
+0.4.3
+0.4.2
+0.4.1
+0.4.0
+0.3.14
+0.3.13
+0.3.12
+0.3.11
+0.3.10
+0.3.9
+0.3.8
+0.3.7
+0.3.6
+0.3.5
+0.3.4
+0.2.1
+0.2
+0.1
+Using 0.4.13
+Use --version to specify a different version.
+Using url https://pypi.python.org/packages/source/z/ztfy.utils/ztfy.utils-0.4.13.tar.gz (49 KB) for ztfy.utils.
+Downloading ztfy.utils
+ztfy.utils-0.4   0% |                              | ETA:  --:--:--   0.00  B/sztfy.utils-0.4  32% |##########                     | ETA:  0:00:00  31.08 MB/sztfy.utils-0.4  65% |####################           | ETA:  0:00:00   2.54 MB/sztfy.utils-0.4  97% |############################## | ETA:  0:00:00   3.75 MB/sztfy.utils-0.4 100% |###############################| ETA:  0:00:00   3.78 MB/sztfy.utils-0.4 100% |###############################| Time: 0:00:00   3.71 MB/s
+Unpacking ztfy.utils...
+done
+working in /tmp/tmpyV9ZKcconda_skeleton_ztfy.utils-0.4.13.tar.gz
+Solving package specifications: .patching file core.py
+Hunk #1 succeeded at 168 with fuzz 2 (offset 2 lines).
+
+Applying patch: '/tmp/tmpyV9ZKcconda_skeleton_ztfy.utils-0.4.13.tar.gz/pypi-distutils.patch'
+WARNING: Could not add entry points. They were:
+
+      # -*- Entry points: -*-
+      
+Warning, the following versions were found for ztfy.jqueryui
+0.7.12
+0.7.11
+0.7.10
+0.7.9
+0.7.8
+0.7.7
+0.7.6
+0.7.5
+0.7.4.1
+0.7.3
+0.7.2
+0.7.1
+0.7.0
+0.6.7
+0.6.6
+0.6.5
+0.6.4
+0.6.3
+0.6.2
+0.6.1
+0.6.0
+0.5.5
+0.5.4
+0.5.3
+0.5.2
+0.3
+0.2
+0.1
+Using 0.7.12
+Use --version to specify a different version.
+Using url https://pypi.python.org/packages/source/z/ztfy.jqueryui/ztfy.jqueryui-0.7.12.tar.gz (1.6 MB) for ztfy.jqueryui.
+Downloading ztfy.jqueryui
+ztfy.jqueryui-   0% |                              | ETA:  --:--:--   0.00  B/sztfy.jqueryui-   0% |                               | Time: 0:00:00  46.68 MB/sztfy.jqueryui-   1% |                               | Time: 0:00:00   2.51 MB/sztfy.jqueryui-   2% |                               | Time: 0:00:00   1.87 MB/sztfy.jqueryui-   3% |#                              | Time: 0:00:00   2.44 MB/sztfy.jqueryui-   4% |#                              | Time: 0:00:00   2.07 MB/sztfy.jqueryui-   5% |#                              | Time: 0:00:00   2.45 MB/sztfy.jqueryui-   6% |##                             | Time: 0:00:00   2.83 MB/sztfy.jqueryui-   7% |##                             | Time: 0:00:00   2.48 MB/sztfy.jqueryui-   8% |##                             | Time: 0:00:00   2.77 MB/sztfy.jqueryui-   9% |##                             | Time: 0:00:00   3.04 MB/sztfy.jqueryui-  10% |###                            | Time: 0:00:00   3.33 MB/sztfy.jqueryui-  11% |###                            | Time: 0:00:00   3.59 MB/sztfy.jqueryui-  12% |###                            | Time: 0:00:00   3.20 MB/sztfy.jqueryui-  13% |####                           | Time: 0:00:00   3.43 MB/sztfy.jqueryui-  14% |####                           | Time: 0:00:00   3.65 MB/sztfy.jqueryui-  15% |####                           | Time: 0:00:00   3.88 MB/sztfy.jqueryui-  16% |#####                          | Time: 0:00:00   4.09 MB/sztfy.jqueryui-  17% |#####                          | Time: 0:00:00   4.32 MB/sztfy.jqueryui-  18% |#####                          | Time: 0:00:00   3.90 MB/sztfy.jqueryui-  19% |#####                          | Time: 0:00:00   4.09 MB/sztfy.jqueryui-  19% |######                         | Time: 0:00:00   4.26 MB/sztfy.jqueryui-  20% |######                         | Time: 0:00:00   4.45 MB/sztfy.jqueryui-  21% |######                         | Time: 0:00:00   4.63 MB/sztfy.jqueryui-  22% |#######                        | Time: 0:00:00   4.82 MB/sztfy.jqueryui-  23% |#######                        | Time: 0:00:00   5.00 MB/sztfy.jqueryui-  24% |#######                        | Time: 0:00:00   4.57 MB/sztfy.jqueryui-  25% |#######                        | Time: 0:00:00   4.73 MB/sztfy.jqueryui-  26% |########                       | Time: 0:00:00   4.89 MB/sztfy.jqueryui-  27% |########                       | Time: 0:00:00   5.02 MB/sztfy.jqueryui-  28% |########                       | Time: 0:00:00   5.17 MB/sztfy.jqueryui-  29% |#########                      | Time: 0:00:00   5.33 MB/sztfy.jqueryui-  30% |#########                      | Time: 0:00:00   5.49 MB/sztfy.jqueryui-  31% |#########                      | Time: 0:00:00   5.65 MB/sztfy.jqueryui-  32% |##########                     | Time: 0:00:00   5.23 MB/sztfy.jqueryui-  33% |##########                     | Time: 0:00:00   5.36 MB/sztfy.jqueryui-  34% |##########                     | Time: 0:00:00   5.50 MB/sztfy.jqueryui-  35% |##########                     | Time: 0:00:00   5.64 MB/sztfy.jqueryui-  36% |###########                    | Time: 0:00:00   5.77 MB/sztfy.jqueryui-  37% |###########                    | Time: 0:00:00   5.89 MB/sztfy.jqueryui-  38% |###########                    | Time: 0:00:00   6.02 MB/sztfy.jqueryui-  38% |############                   | Time: 0:00:00   6.15 MB/sztfy.jqueryui-  39% |############                   | Time: 0:00:00   6.29 MB/sztfy.jqueryui-  40% |############                   | Time: 0:00:00   6.43 MB/sztfy.jqueryui-  41% |############                   | Time: 0:00:00   6.00 MB/sztfy.jqueryui-  42% |#############                  | Time: 0:00:00   6.12 MB/sztfy.jqueryui-  43% |#############                  | Time: 0:00:00   6.24 MB/sztfy.jqueryui-  44% |#############                  | Time: 0:00:00   6.36 MB/sztfy.jqueryui-  45% |##############                 | Time: 0:00:00   6.48 MB/sztfy.jqueryui-  46% |##############                 | Time: 0:00:00   6.60 MB/sztfy.jqueryui-  47% |##############                 | Time: 0:00:00   6.71 MB/sztfy.jqueryui-  48% |###############                | Time: 0:00:00   6.82 MB/sztfy.jqueryui-  49% |###############                | Time: 0:00:00   6.93 MB/sztfy.jqueryui-  50% |###############                | Time: 0:00:00   7.05 MB/sztfy.jqueryui-  51% |###############                | Time: 0:00:00   7.18 MB/sztfy.jqueryui-  52% |################               | Time: 0:00:00   6.76 MB/sztfy.jqueryui-  53% |################               | Time: 0:00:00   6.85 MB/sztfy.jqueryui-  54% |################               | Time: 0:00:00   6.95 MB/sztfy.jqueryui-  55% |#################              | Time: 0:00:00   7.06 MB/sztfy.jqueryui-  56% |#################              | Time: 0:00:00   7.16 MB/sztfy.jqueryui-  57% |#################              | Time: 0:00:00   7.27 MB/sztfy.jqueryui-  57% |#################              | Time: 0:00:00   7.37 MB/sztfy.jqueryui-  58% |##################             | Time: 0:00:00   7.48 MB/sztfy.jqueryui-  59% |##################             | Time: 0:00:00   7.58 MB/sztfy.jqueryui-  60% |##################             | Time: 0:00:00   7.68 MB/sztfy.jqueryui-  61% |###################            | Time: 0:00:00   7.78 MB/sztfy.jqueryui-  62% |###################            | Time: 0:00:00   7.89 MB/sztfy.jqueryui-  63% |###################            | Time: 0:00:00   8.00 MB/sztfy.jqueryui-  64% |####################           | Time: 0:00:00   7.59 MB/sztfy.jqueryui-  65% |####################           | Time: 0:00:00   7.67 MB/sztfy.jqueryui-  66% |####################           | Time: 0:00:00   7.77 MB/sztfy.jqueryui-  67% |####################           | Time: 0:00:00   7.86 MB/sztfy.jqueryui-  68% |#####################          | Time: 0:00:00   7.95 MB/sztfy.jqueryui-  69% |#####################          | Time: 0:00:00   8.04 MB/sztfy.jqueryui-  70% |#####################          | Time: 0:00:00   8.14 MB/sztfy.jqueryui-  71% |######################         | Time: 0:00:00   8.23 MB/sztfy.jqueryui-  72% |######################         | Time: 0:00:00   8.33 MB/sztfy.jqueryui-  73% |######################         | Time: 0:00:00   8.42 MB/sztfy.jqueryui-  74% |######################         | Time: 0:00:00   8.51 MB/sztfy.jqueryui-  75% |#######################        | Time: 0:00:00   8.60 MB/sztfy.jqueryui-  76% |#######################        | Time: 0:00:00   8.70 MB/sztfy.jqueryui-  76% |#######################        | Time: 0:00:00   8.79 MB/sztfy.jqueryui-  77% |########################       | Time: 0:00:00   8.89 MB/sztfy.jqueryui-  78% |########################       | Time: 0:00:00   8.48 MB/sztfy.jqueryui-  79% |########################       | Time: 0:00:00   8.57 MB/sztfy.jqueryui-  80% |#########################      | Time: 0:00:00   8.65 MB/sztfy.jqueryui-  81% |#########################      | Time: 0:00:00   8.73 MB/sztfy.jqueryui-  82% |#########################      | Time: 0:00:00   8.82 MB/sztfy.jqueryui-  83% |#########################      | Time: 0:00:00   8.89 MB/sztfy.jqueryui-  84% |##########################     | Time: 0:00:00   8.98 MB/sztfy.jqueryui-  85% |##########################     | Time: 0:00:00   9.07 MB/sztfy.jqueryui-  86% |##########################     | Time: 0:00:00   9.16 MB/sztfy.jqueryui-  87% |###########################    | Time: 0:00:00   9.09 MB/sztfy.jqueryui-  88% |###########################    | Time: 0:00:00   9.17 MB/sztfy.jqueryui-  89% |###########################    | Tim
+WARNING: conda-build appears to be out of date. You have version 1.13.0 but the
+latest version is 1.14.1. Run
+
+conda update -n root conda-build
+
+to get the latest version.
+
+e: 0:00:00   9.25 MB/sztfy.jqueryui-  90% |###########################    | Time: 0:00:00   9.32 MB/sztfy.jqueryui-  91% |############################   | Time: 0:00:00   9.40 MB/sztfy.jqueryui-  92% |############################   | Time: 0:00:00   9.47 MB/sztfy.jqueryui-  93% |############################   | Time: 0:00:00   9.56 MB/sztfy.jqueryui-  94% |#############################  | Time: 0:00:00   9.34 MB/sztfy.jqueryui-  95% |#############################  | Time: 0:00:00   9.42 MB/sztfy.jqueryui-  95% |#############################  | Time: 0:00:00   9.49 MB/sztfy.jqueryui-  96% |############################## | Time: 0:00:00   9.57 MB/sztfy.jqueryui-  97% |############################## | Time: 0:00:00   9.65 MB/sztfy.jqueryui-  98% |############################## | Time: 0:00:00   9.73 MB/sztfy.jqueryui-  99% |############################## | Time: 0:00:00   9.81 MB/sztfy.jqueryui- 100% |###############################| Time: 0:00:00   9.82 MB/sztfy.jqueryui- 100% |###############################| Time: 0:00:00   9.81 MB/sztfy.jqueryui- 100% |###############################| Time: 0:00:00   9.80 MB/s
+Unpacking ztfy.jqueryui...
+done
+working in /tmp/tmp9CLwFLconda_skeleton_ztfy.jqueryui-0.7.12.tar.gz
+Solving package specifications: .patching file core.py
+Hunk #1 succeeded at 168 with fuzz 2 (offset 2 lines).
+
+WARNING: conda-build appears to be out of date. You have version 1.13.0 but the
+latest version is 1.14.1. Run
+
+conda update -n root conda-build
+
+to get the latest version.
+
+
+Applying patch: '/tmp/tmp9CLwFLconda_skeleton_ztfy.jqueryui-0.7.12.tar.gz/pypi-distutils.patch'
+Warning, the following versions were found for fanstatic
+1.0a5
+1.0a4
+1.0a3
+1.0a2
+1.0a
+0.16
+0.15
+0.14
+0.14a
+0.13.3
+0.13.2
+0.13.1
+0.13
+0.12
+0.11.4
+0.11.3
+0.11.2
+0.11.1
+0.11
+0.10.2
+0.10.1
+0.10
+0.9b
+Using 1.0a5
+Use --version to specify a different version.
+Using url https://pypi.python.org/packages/source/f/fanstatic/fanstatic-1.0a5.zip (252 KB) for fanstatic.
+Downloading fanstatic
+Using cached download
+Unpacking fanstatic...
+done
+working in /tmp/tmpgzehQ4conda_skeleton_fanstatic-1.0a5.zip
+Solving package specifications: .patching file core.py
+Hunk #1 succeeded at 168 with fuzz 2 (offset 2 lines).
+
+WARNING: conda-build appears to be out of date. You have version 1.13.0 but the
+latest version is 1.14.1. Run
+
+conda update -n root conda-build
+
+to get the latest version.
+
+
+Applying patch: '/tmp/tmpgzehQ4conda_skeleton_fanstatic-1.0a5.zip/pypi-distutils.patch'
+Warning, the following versions were found for cssmin
+0.2.0
+0.1.4
+0.1.3
+0.1.2
+0.1.1
+0.1
+Using 0.2.0
+Use --version to specify a different version.
+Using url https://pypi.python.org/packages/source/c/cssmin/cssmin-0.2.0.tar.gz (3 KB) for cssmin.
+Downloading cssmin
+Using cached download
+Unpacking cssmin...
+done
+working in /tmp/tmpbA5Nhpconda_skeleton_cssmin-0.2.0.tar.gz
+Solving package specifications: .patching file core.py
+Hunk #1 succeeded at 168 with fuzz 2 (offset 2 lines).
+
+WARNING: conda-build appears to be out of date. You have version 1.13.0 but the
+latest version is 1.14.1. Run
+
+conda update -n root conda-build
+
+to get the latest version.
+
+
+Applying patch: '/tmp/tmpbA5Nhpconda_skeleton_cssmin-0.2.0.tar.gz/pypi-distutils.patch'
+Warning, the following versions were found for pytest-capturelog
+0.7
+0.6
+0.5
+0.4
+0.3
+0.2
+0.1
+Using 0.7
+Use --version to specify a different version.
+Using url https://pypi.python.org/packages/source/p/pytest-capturelog/pytest-capturelog-0.7.tar.gz (4 KB) for pytest-capturelog.
+Downloading pytest-capturelog
+Using cached download
+Unpacking pytest-capturelog...
+done
+working in /tmp/tmp3xrQpHconda_skeleton_pytest-capturelog-0.7.tar.gz
+Solving package specifications: .patching file core.py
+Hunk #1 succeeded at 168 with fuzz 2 (offset 2 lines).
+
+WARNING: conda-build appears to be out of date. You have version 1.13.0 but the
+latest version is 1.14.1. Run
+
+conda update -n root conda-build
+
+to get the latest version.
+
+
+Applying patch: '/tmp/tmp3xrQpHconda_skeleton_pytest-capturelog-0.7.tar.gz/pypi-distutils.patch'
+Warning, the following versions were found for cssmin
+0.2.0
+0.1.4
+0.1.3
+0.1.2
+0.1.1
+0.1
+Using 0.2.0
+Use --version to specify a different version.
+Using url https://pypi.python.org/packages/source/c/cssmin/cssmin-0.2.0.tar.gz (3 KB) for cssmin.
+Downloading cssmin
+Using cached download
+Unpacking cssmin...
+done
+working in /tmp/tmpPDtSdmconda_skeleton_cssmin-0.2.0.tar.gz
+Solving package specifications: .patching file core.py
+Hunk #1 succeeded at 168 with fuzz 2 (offset 2 lines).
+
+Applying patch: '/tmp/tmpPDtSdmconda_skeleton_cssmin-0.2.0.tar.gz/pypi-distutils.patch'
+Warning, the following versions were found for closure
+20150315
+20140110
+20121212
+20120305
+20110811
+Using 20150315
+Use --version to specify a different version.
+Using url https://pypi.python.org/packages/source/c/closure/closure-20150315.tar.gz (5.4 MB) for closure.
+Downloading closure
+closure-201503   0% |                              | ETA:  --:--:--   0.00  B/sclosure-201503   0% |                               | Time: 0:00:00   5.33 MB/sclosure-201503   0% |                               | Time: 0:00:00   2.58 MB/sclosure-201503   0% |                               | Time: 0:00:00   1.88 MB/sclosure-201503   1% |                               | Time: 0:00:00   2.49 MB/sclosure-201503   1% |                               | Time: 0:00:00   2.08 MB/sclosure-201503   1% |                               | Time: 0:00:00   2.47 MB/sclosure-201503   2% |                               | Time: 0:00:00   2.85 MB/sclosure-201503   2% |                               | Time: 0:00:00   2.48 MB/sclosure-201503   2% |                               | Time: 0:00:00   2.77 MB/sclosure-201503   2% |                               | Time: 0:00:00   3.06 MB/sclosure-201503   3% |                               | Time: 0:00:00   3.32 MB/sclosure-201503   3% |#                              | Time: 0:00:00   2.97 MB/sclosure-201503   3% |#                              | Time: 0:00:00   3.20 MB/sclosure-201503   4% |#                              | Time: 0:00:00   3.43 MB/sclosure-201503   4% |#                              | Time: 0:00:00   3.66 MB/sclosure-201503   4% |#                              | Time: 0:00:00   3.86 MB/sclosure-201503   4% |#                              | Time: 0:00:00   3.96 MB/sclosure-201503   5% |#                              | Time: 0:00:00   3.69 MB/sclosure-201503   5% |#                              | Time: 0:00:00   3.88 MB/sclosure-201503   5% |#                              | Time: 0:00:00   4.07 MB/sclosure-201503   6% |#                              | Time: 0:00:00   4.26 MB/sclosure-201503   6% |#                              | Time: 0:00:00   4.44 MB/sclosure-201503   6% |##                             | Time: 0:00:00   4.51 MB/sclosure-201503   6% |##                             | Time: 0:00:00   4.69 MB/sclosure-201503   7% |##                             | Time: 0:00:00   4.37 MB/sclosure-201503   7% |##                             | Time: 0:00:00   4.53 MB/sclosure-201503   7% |##                             | Time: 0:00:00   4.68 MB/sclosure-201503   8% |##                             | Time: 0:00:00   4.84 MB/sclosure-201503   8% |##                             | Time: 0:00:00   5.00 MB/sclosure-201503   8% |##                             | Time: 0:00:00   5.16 MB/sclosure-201503   8% |##                             | Time: 0:00:00   5.32 MB/sclosure-201503   9% |##                             | Time: 0:00:00   5.38 MB/sclosure-201503   9% |##                             | Time: 0:00:00   5.54 MB/sclosure-201503   9% |###                            | Time: 0:00:00   5.20 MB/sclosure-201503  10% |###                            | Time: 0:00:00   5.33 MB/sclosure-201503  10% |###                            | Time: 0:00:00   5.47 MB/sclosure-201503  10% |###                            | Time: 0:00:00   5.60 MB/sclosure-201503  10% |###                            | Time: 0:00:00   5.74 MB/sclosure-201503  11% |###                            | Time: 0:00:00   5.88 MB/sclosure-201503  11% |###                            | Time: 0:00:00   6.02 MB/sclosure-201503  11% |###                            | Time: 0:00:00   6.16 MB/sclosure-201503  12% |###                            | Time: 0:00:00   6.21 MB/sclosure-201503  12% |###                            | Time: 0:00:00   6.33 MB/sclosure-201503  12% |###                            | Time: 0:00:00   5.98 MB/sclosure-201503  13% |####                           | Time: 0:00:00   6.10 MB/sclosure-201503  13% |####                           | Time: 0:00:00   6.22 MB/sclosure-201503  13% |####                           | Time: 0:00:00   6.34 MB/sclosure-201503  13% |####                           | Time: 0:00:00   6.45 MB/sclosure-201503  14% |####                           | Time: 0:00:00   6.57 MB/sclosure-201503  14% |####                           | Time: 0:00:00   6.69 MB/sclosure-201503  14% |####                           | Time: 0:00:00   6.81 MB/sclosure-201503  15% |####                           | Time: 0:00:00   6.94 MB/sclosure-201503  15% |####                           | Time: 0:00:00   7.00 MB/sclosure-201503  15% |####                           | Time: 0:00:00   7.10 MB/sclosure-201503  15% |####                           | Time: 0:00:00   7.22 MB/sclosure-201503  16% |#####                          | Time: 0:00:00   6.85 MB/sclosure-201503  16% |#####                          | Time: 0:00:00   6.96 MB/sclosure-201503  16% |#####                          | Time: 0:00:00   7.06 MB/sclosure-201503  17% |#####                          | Time: 0:00:00   7.16 MB/sclosure-201503  17% |#####                          | Time: 0:00:00   7.27 MB/sclosure-201503  17% |#####                          | Time: 0:00:00   7.37 MB/sclosure-201503  17% |#####                          | Time: 0:00:00   7.47 MB/sclosure-201503  18% |#####                          | Time: 0:00:00   7.58 MB/sclosure-201503  18% |#####                          | Time: 0:00:00   7.69 MB/sclosure-201503  18% |#####                          | Time: 0:00:00   7.80 MB/sclosure-201503  19% |#####                          | Time: 0:00:00   7.87 MB/sclosure-201503  19% |######                         | Time: 0:00:00   7.96 MB/sclosure-201503  19% |######                         | Time: 0:00:00   8.06 MB/sclosure-201503  19% |######                         | Time: 0:00:00   8.16 MB/sclosure-201503  20% |######                         | Time: 0:00:00   7.78 MB/sclosure-201503  20% |######                         | Time: 0:00:00   7.88 MB/sclosure-201503  20% |######                         | Time: 0:00:00   7.97 MB/sclosure-201503  21% |######                         | Time: 0:00:00   8.06 MB/sclosure-201503  21% |######                         | Time: 0:00:00   8.16 MB/sclosure-201503  21% |######                         | Time: 0:00:00   8.25 MB/sclosure-201503  21% |######                         | Time: 0:00:00   8.34 MB/sclosure-201503  22% |######                         | Time: 0:00:00   8.43 MB/sclosure-201503  22% |######                         | Time: 0:00:00   8.53 MB/sclosure-201503  22% |#######                        | Time: 0:00:00   8.46 MB/sclosure-201503  23% |#######                        | Time: 0:00:00   8.46 MB/sclosure-201503  23% |#######                        | Time: 0:00:00   8.54 MB/sclosure-201503  23% |#######                        | Time: 0:00:00   8.62 MB/sclosure-201503  24% |#######                        | Time: 0:00:00   8.71 MB/sclosure-201503  24% |#######                        | Time: 0:00:00   8.57 MB/sclosure-201503  24% |#######                        | Time: 0:00:00   8.64 MB/sclosure-201503  24% |#######                        | Time: 0:00:00   8.73 MB/sclosure-201503  25% |#######                        | Time: 0:00:00   8.81 MB/sclosure-201503  25% |#######                        | Time: 0:00:00   8.90 MB/sclosure-201503  25% |#######                        | Time: 0:00:00   8.98 MB/sclosure-201503  26% |########                       | Time: 0:00:00   9.06 MB/sclosure-201503  26% |########                       | Time: 0:00:00   9.15 MB/sclosure-201503  26% |########                       | Time: 0:00:00   9.24 MB/sclosure-201503  26% |########                       | Time: 0:00:00   9.06 MB/sclosure-201503  27% |########                       | Time: 0:00:00   9.14 MB/sclosure-201503  27% |########                       | Time: 0:00:00   9.20 MB/sclosure-201503  27% |########                       | Time: 0:00:00   9.15 MB/sclosure-201503  28% |########                       | Time: 0:00:00   9.21 MB/sclosure-201503  28% |########                       | Time: 0:00:00   9.28 MB/sclosure-201503  28% |########                       | Time: 0:00:00   9.32 MB/sclosure-201503  28% |########                       | Time: 0:00:00   9.38 MB/sclosure-201503  29% |#########                      | Time: 0:00:00   9.44 MB/sclosure-201503  29% |#########                      | Time: 0:00:00   9.51 MB/sclosure-201503  29% |#########                      | Time: 0:00:00   9.59 MB/sclosure-201503  30% |#########                      | Time: 0:00:00   9.67 MB/sclosure-201503  30% |#########                      | Time: 0:00:00   9.74 MB/sclosure-201503  30% |#########                      | Time: 0:00:00   9.82 MB/sclosure-201503  30% |#########                      | Time: 0:00:00   9.90 MB/sclosure-201503  31% |#########                      | Time: 0:00:00   9.75 MB/sclosure-201503  31% |#########                      | Time: 0:00:00   9.81 MB/sclosure-201503  31% |#########                      | Time: 0:00:00   9.86 MB/sclosure-201503  32% |#########                      | Time: 0:00:00   9.82 MB/sclosure-201503  32% |##########                     | Time: 0:00:00   9.88 MB/sclosure-201503  32% |##########                     | Time: 0:00:00   9.94 MB/sclosure-201503  32% |##########                     | Time: 0:00:00  10.01 MB/sclosure-201503  33% |##########                     | Time: 0:00:00  10.05 MB/sclosure-201503  33% |##########                     | Time: 0:00:00  10.11 MB/sclosure-201503  33% |##########                     | Time: 0:00:00  10.17 MB/sclosure-201503  34% |##########                     | Time: 0:00:00  10.22 MB/sclosure-201503  34% |##########                     | Time: 0:00:00  10.29 MB/sclosure-201503  34% |##########                     | Time: 0:00:00  10.36 MB/sclosure-201503  34% |##########                     | Time: 0:00:00  10.43 MB/sclosure-201503  35% |##########                     | Time: 0:00:00  10.50 MB/sclosure-201503  35% |###########                    | Time: 0:00:00  10.57 MB/sclosure-201503  35% |###########                    | Time: 0:00:00  10.42 MB/sclosure-201503  36% |###########                    | Time: 0:00:00  10.49 MB/sclosure-201503  36% |###########                    | Time: 0:00:00  10.53 MB/sclosure-201503  36% |###########                    | Time: 0:00:00  10.60 MB/sclosure-201503  37% |###########                    | Time: 0:00:00  10.54 MB/sclosure-201503  37% |###########                    | Time: 0:00:00  10.59 MB/sclosure-201503  37% |###########                    | Time: 0:00:00  10.65 MB/sclosure-201503  37% |###########                    | Time: 0:00:00  10.72 MB/sclosure-201503  38% |###########                    | Time: 0:00:00  10.75 MB/sclosure-201503  38% |###########                    | Time: 0:00:00  10.81 MB/sclosure-201503  38% |############                   | Time: 0:00:00  10.86 MB/sclosure-201503  39% |############                   | Time: 0:00:00  10.92 MB/sclosure-201503  39% |############                   | Time: 0:00:00  10.98 MB/sclosure-201503  39% |############                   | Time: 0:00:00  11.04 MB/sclosure-201503  39% |############                   | Time: 0:00:00  11.10 MB/sclosure-201503  40% |############                   | Time: 0:00:00  11.17 MB/sclosure-201503  40% |############                   | Time: 0:00:00  11.23 MB/sclosure-201503  40% |############                   | Time: 0:00:00  11.09 MB/sclosure-201503  41% |############                   | Time: 0:00:00  11.15 MB/sclosure-201503  41% |############                   | Time: 0:00:00  11.21 MB/sclosure-201503  41% |############                   | Time: 0:00:00  11.25 MB/sclosure-201503  41% |#############                  | Time: 0:00:00  11.21 MB/sclosure-201503  42% |#############                  | Time: 0:00:00  11.25 MB/sclosure-201503  42% |#############                  | Time: 0:00:00  11.29 MB/sclosure-201503  42% |#############                  | Time: 0:00:00  11.34 MB/sclosure-201503  43% |#############                  | Time: 0:00:00  11.40 MB/sclosure-201503  43% |#############                  | Time: 0:00:00  11.43 MB/sclosure-201503  43% |#############                  | Time: 0:00:00  11.48 MB/sclosure-201503  43% |#############                  | Time: 0:00:00  11.54 MB/sclosure-201503  44% |#############                  | Time: 0:00:00  11.59 MB/sclosure-201503  44% |#############                  | Time: 0:00:00  11.64 MB/sclosure-201503  44% |#############                  | Time: 0:00:00  11.70 MB/sclosure-201503  45% |#############                  | Time: 0:00:00  11.76 MB/sclosure-201503  45% |##############                 | Time: 0:00:00  11.81 MB/sclosure-201503  45% |##############                 | Time: 0:00:00  11.88 MB/sclosure-201503  45% |##############                 | Time: 0:00:00  11.75 MB/sclosure-201503  46% |##############                 | Time: 0:00:00  11.81 MB/sclosure-201503  46% |##############                 | Time: 0:00:00  11.86 MB/sclosure-201503  46% |##############                 | Time: 0:00:00  11.89 MB/sclosure-201503  47% |##############                 | Time: 0:00:00  11.86 MB/sclosure-201503  47% |##############                 | Time: 0:00:00  11.90 MB/sclosure-201503  47% |##############                 | Time: 0:00:00  11.93 MB/sclosure-201503  48% |##############                 | Time: 0:00:00  11.99 MB/sclosure-201503  48% |##############                 | Time: 0:00:00  12.02 MB/sclosure-201503  48% |###############                | Time: 0:00:00  12.04 MB/sclosure-201503  48% |###############                | Time: 0:00:00  12.10 MB/sclosure-201503  49% |###############                | Time: 0:00:00  12.16 MB/sclosure-201503  49% |###############                | Time: 0:00:00  12.21 MB/sclosure-201503  49% |###############                | Time: 0:00:00  11.58 MB/sclosure-201503  50% |###############                | Time: 0:00:00  11.63 MB/sclosure-201503  50% |###############                | Time: 0:00:00  11.68 MB/sclosure-201503  50% |###############                | Time: 0:00:00  11.74 MB/sclosure-201503  50% |###############                | Time: 0:00:00  11.79 MB/sclosure-201503  51% |###############                | Time: 0:00:00  11.85 MB/sclosure-201503  51% |###############                | Time: 0:00:00  11.91 MB/sclosure-201503  51% |################               | Time: 0:00:00  11.96 MB/sclosure-201503  52% |################               | Time: 0:00:00  12.02 MB/sclosure-201503  52% |################               | Time: 0:00:00  12.08 MB/sclosure-201503  52% |################               | Time: 0:00:00  12.13 MB/sclosure-201503  52% |################               | Time: 0:00:00  12.19 MB/sclosure-201503  53% |################               | Time: 0:00:00  12.25 MB/sclosure-201503  53% |################               | Time: 0:00:00  12.30 MB/sclosure-201503  53% |################               | Time: 0:00:00  12.36 MB/sclosure-201503  54% |################               | Time: 0:00:00  12.41 MB/sclosure-201503  54% |################               | Time: 0:00:00  12.47 MB/sclosure-201503  54% |################               | Time: 0:00:00  12.52 MB/sclosure-201503  54% |#################              | Time: 0:00:00  12.58 MB/sclosure-201503  55% |#################              | Time: 0:00:00  12.64 MB/sclosure-201503  55% |#################              | Time: 0:00:00  12.25 MB/sclosure-201503  55% |#################              | Time: 0:00:00  12.29 MB/sclosure-201503  56% |#################              | Time: 0:00:00  12.34 MB/sclosure-201503  56% |#################              | Time: 0:00:00  12.39 MB/sclosure-201503  56% |#################              | Time: 0:00:00  12.43 MB/sclosure-201503  56% |#################              | Time: 0:00:00  12.48 MB/sclosure-201503  57% |#################              | Time: 0:00:00  12.52 MB/sclosure-201503  57% |#################              | Time: 0:00:00  12.57 MB/sclosure-201503  57% |#################              | Time: 0:00:00  12.62 MB/sclosure-201503  58% |##################             | Time: 0:00:00  12.68 MB/sclosure-201503  58% |##################             | Time: 0:00:00  12.73 MB/sclosure-201503  58% |##################             | Time: 0:00:00  12.78 MB/sclosure-201503  59% |##################             | Time: 0:00:00  12.83 MB/sclosure-201503  59% |##################             | Time: 0:00:00  12.89 MB/sclosure-201503  59% |##################             | Time: 0:00:00  12.94 MB/sclosure-201503  59% |##################             | Time: 0:00:00  12.99 MB/sclosure-201503  60% |##################             | Time: 0:00:00  13.04 MB/sclosure-201503  60% |##################             | Time: 0:00:00  13.10 MB/sclosure-201503  60% |##################             | Time: 0:00:00  13.15 MB/sclosure-201503  61% |##################             | Time: 0:00:00  13.20 MB/sclosure-201503  61% |###################            | Time: 0:00:00  12.86 MB/sclosure-201503  61% |###################            | Time: 0:00:00  12.89 MB/sclosure-201503  61% |###################            | Time: 0:00:00  12.93 MB/sclosure-201503  62% |###################            | Time: 0:00:00  12.97 MB/sclosure-201503  62% |###################            | Time: 0:00:00  13.02 MB/sclosure-201503  62% |###################            | Time: 0:00:00  13.06 MB/sclosure-201503  63% |###################            | Time: 0:00:00  13.11 MB/sclosure-201503  63% |###################            | Time: 0:00:00  13.16 MB/sclosure-201503  63% |###################            | Time: 0:00:00  13.20 MB/sclosure-201503  63% |###################            | Time: 0:00:00  13.25 MB/sclosure-201503  64% |###################            | Time: 0:00:00  13.30 MB/sclosure-201503  64% |###################            | Time: 0:00:00  13.35 MB/sclosure-201503  64% |####################           | Time: 0:00:00  13.40 MB/sclosure-201503  65% |####################           | Time: 0:00:00  13.45 MB/sclosure-201503  65% |####################           | Time: 0:00:00  13.50 MB/sclosure-201503  65% |####################           | Time: 0:00:00  13.55 MB/sclosure-201503  65% |####################           | Time: 0:00:00  13.59 MB/sclosure-201503  66% |####################           | Time: 0:00:00  13.64 MB/sclosure-201503  66% |####################           | Time: 0:00:00  13.69 MB/sclosure-201503  66% |####################           | Time: 0:00:00  13.74 MB/sclosure-201503  67% |####################           | Time: 0:00:00  13.40 MB/sclosure-201503  67% |####################           | Time: 0:00:00  13.44 MB/sclosure-201503  67% |####################           | Time: 0:00:00  13.48 MB/sclosure-201503  67% |#####################          | Time: 0:00:00  13.52 MB/sclosure-201503  68% |#####################          | Time: 0:00:00  13.56 MB/sclosure-201503  68% |#####################          | Time: 0:00:00  13.60 MB/sclosure-201503  68% |#####################          | Time: 0:00:00  13.65 MB/sclosure-201503  69% |#####################          | Time: 0:00:00  13.69 MB/sclosure-201503  69% |#####################          | Time: 0:00:00  13.72 MB/sclosure-201503  69% |#####################          | Time: 0:00:00  13.76 MB/sclosure-201503  69% |#####################          | Time: 0:00:00  13.80 MB/sclosure-201503  70% |#####################          | Time: 0:00:00  13.84 MB/sclosure-201503  70% |#####################          | Time: 0:00:00  13.89 MB/sclosure-201503  70% |#####################          | Time: 0:00:00  13.94 MB/sclosure-201503  71% |######################         | Time: 0:00:00  13.98 MB/sclosure-201503  71% |######################         | Time: 0:00:00  14.03 MB/sclosure-201503  71% |######################         | Time: 0:00:00  14.08 MB/sclosure-201503  72% |######################         | Time: 0:00:00  14.12 MB/sclosure-201503  72% |######################         | Time: 0:00:00  14.17 MB/sclosure-201503  72% |######################         | Time: 0:00:00  14.21 MB/sclosure-201503  72% |######################         | Time: 0:00:00  14.26 MB/sclosure-201503  73% |######################         | Time: 0:00:00  13.96 MB/sclosure-201503  73% |######################         | Time: 0:00:00  13.99 MB/sclosure-201503  73% |######################         | Time: 0:00:00  14.03 MB/sclosure-201503  74% |######################         | Time: 0:00:00  14.06 MB/sclosure-201503  74% |#######################        | Time: 0:00:00  14.10 MB/sclosure-201503  74% |#######################        | Time: 0:00:00  14.14 MB/sclosure-201503  74% |#######################        | Time: 0:00:00  14.18 MB/sclosure-201503  75% |#######################        | Time: 0:00:00  14.21 MB/sclosure-201503  75% |#######################        | Time: 0:00:00  14.25 MB/sclosure-201503  75% |#######################        | Time: 0:00:00  14.29 MB/sclosure-201503  76% |#######################        | Time: 0:00:00  14.33 MB/sclosure-201503  76% |#######################        | Time: 0:00:00  14.36 MB/sclosure-201503  76% |#######################        | Time: 0:00:00  14.40 MB/sclosure-201503  76% |#######################        | Time: 0:00:00  14.45 MB/sclosure-201503  77% |#######################        | Time: 0:00:00  14.49 MB/sclosure-201503  77% |########################       | Time: 0:00:00  14.53 MB/sclosure-201503  77% |########################       | Time: 0:00:00  14.58 MB/sclosure-201503  78% |########################       | Time: 0:00:00  14.62 MB/sclosure-201503  78% |########################       | Time: 0:00:00  14.67 MB/sclosure-201503  78% |########################       | Time: 0:00:00  14.71 MB/sclosure-201503  78% |########################       | Time: 0:00:00  14.75 MB/sclosure-201503  79% |########################       | Time: 0:00:00  14.80 MB/sclosure-201503  79% |########################       | Time: 0:00:00  14.52 MB/sclosure-201503  79% |########################       | Time: 0:00:00  14.55 MB/sclosure-201503  80% |########################       | Time: 0:00:00  14.58 MB/sclosure-201503  80% |########################       | Time: 0:00:00  14.62 MB/sclosure-201503  80% |#########################      | Time: 0:00:00  14.65 MB/sclosure-201503  80% |#########################      | Time: 0:00:00  14.68 MB/sclosure-201503  81% |#########################      | Time: 0:00:00  14.72 MB/sclosure-201503  81% |#########################      | Time: 0:00:00  14.75 MB/sclosure-201503  81% |#########################      | Time: 0:00:00  14.79 MB/sclosure-201503  82% |#########################      | Time: 0:00:00  14.83 MB/sclosure-201503  82% |#########################      | Time: 0:00:00  14.86 MB/sclosure-201503  82% |#########################      | Time: 0:00:00  14.89 MB/sclosure-201503  83% |#########################      | Time: 0:00:00  14.93 MB/sclosure-201503  83% |#########################      | Time: 0:00:00  14.96 MB/sclosure-201503  83% |#########################      | Time: 0:00:00  15.00 MB/sclosure-201503  83% |##########################     | Time: 0:00:00  15.04 MB/sclosure-201503  84% |##########################     | Time: 0:00:00  15.09 MB/sclosure-201503  84% |##########################     | Time: 0:00:00  15.13 MB/sclosure-201503  84% |##########################     | Time: 0:00:00  15.17 MB/sclosure-201503  85% |##########################     | Time: 0:00:00  15.21 MB/sclosure-201503  85% |##########################     | Time: 0:00:00  15.25 MB/sclosure-201503  85% |##########################     | Time: 0:00:00  15.30 MB/sclosure-201503  85% |##########################     | Time: 0:00:00  15.34 MB/sclosure-201503  86% |##########################     | Time: 0:00:00  15.08 MB/sclosure-201503  86% |##########################     | Time: 0:00:00  15.11 MB/sclosure-201503  86% |##########################     | Time: 0:00:00  15.14 MB/sclosure-201503  87% |##########################     | Time: 0:00:00  15.17 MB/sclosure-201503  87% |###################
+WARNING: conda-build appears to be out of date. You have version 1.13.0 but the
+latest version is 1.14.1. Run
+
+conda update -n root conda-build
+
+to get the latest version.
+
+########    | Time: 0:00:00  15.21 MB/sclosure-201503  87% |###########################    | Time: 0:00:00  15.23 MB/sclosure-201503  87% |###########################    | Time: 0:00:00  15.27 MB/sclosure-201503  88% |###########################    | Time: 0:00:00  15.30 MB/sclosure-201503  88% |###########################    | Time: 0:00:00  15.33 MB/sclosure-201503  88% |###########################    | Time: 0:00:00  15.37 MB/sclosure-201503  89% |###########################    | Time: 0:00:00  15.40 MB/sclosure-201503  89% |###########################    | Time: 0:00:00  15.44 MB/sclosure-201503  89% |###########################    | Time: 0:00:00  15.47 MB/sclosure-201503  89% |###########################    | Time: 0:00:00  15.50 MB/sclosure-201503  90% |###########################    | Time: 0:00:00  15.53 MB/sclosure-201503  90% |############################   | Time: 0:00:00  15.57 MB/sclosure-201503  90% |############################   | Time: 0:00:00  15.61 MB/sclosure-201503  91% |############################   | Time: 0:00:00  15.65 MB/sclosure-201503  91% |############################   | Time: 0:00:00  15.69 MB/sclosure-201503  91% |############################   | Time: 0:00:00  15.73 MB/sclosure-201503  91% |############################   | Time: 0:00:00  15.77 MB/sclosure-201503  92% |############################   | Time: 0:00:00  15.81 MB/sclosure-201503  92% |############################   | Time: 0:00:00  15.85 MB/sclosure-201503  92% |############################   | Time: 0:00:00  15.89 MB/sclosure-201503  93% |############################   | Time: 0:00:00  15.65 MB/sclosure-201503  93% |############################   | Time: 0:00:00  15.68 MB/sclosure-201503  93% |#############################  | Time: 0:00:00  15.71 MB/sclosure-201503  93% |#############################  | Time: 0:00:00  15.74 MB/sclosure-201503  94% |#############################  | Time: 0:00:00  15.77 MB/sclosure-201503  94% |#############################  | Time: 0:00:00  15.80 MB/sclosure-201503  94% |#############################  | Time: 0:00:00  15.82 MB/sclosure-201503  95% |#############################  | Time: 0:00:00  15.85 MB/sclosure-201503  95% |#############################  | Time: 0:00:00  15.88 MB/sclosure-201503  95% |#############################  | Time: 0:00:00  15.92 MB/sclosure-201503  96% |#############################  | Time: 0:00:00  15.95 MB/sclosure-201503  96% |#############################  | Time: 0:00:00  15.98 MB/sclosure-201503  96% |#############################  | Time: 0:00:00  16.01 MB/sclosure-201503  96% |############################## | Time: 0:00:00  16.04 MB/sclosure-201503  97% |############################## | Time: 0:00:00  16.07 MB/sclosure-201503  97% |############################## | Time: 0:00:00  16.11 MB/sclosure-201503  97% |############################## | Time: 0:00:00  16.15 MB/sclosure-201503  98% |############################## | Time: 0:00:00  16.18 MB/sclosure-201503  98% |############################## | Time: 0:00:00  16.22 MB/sclosure-201503  98% |############################## | Time: 0:00:00  16.26 MB/sclosure-201503  98% |############################## | Time: 0:00:00  16.30 MB/sclosure-201503  99% |############################## | Time: 0:00:00  16.33 MB/sclosure-201503  99% |############################## | Time: 0:00:00  16.37 MB/sclosure-201503  99% |############################## | Time: 0:00:00  16.41 MB/sclosure-201503 100% |###############################| Time: 0:00:00  16.44 MB/sclosure-201503 100% |###############################| Time: 0:00:00  16.43 MB/sclosure-201503 100% |###############################| Time: 0:00:00  16.42 MB/s
+Unpacking closure...
+done
+working in /tmp/tmpa4YKu4conda_skeleton_closure-20150315.tar.gz
+Solving package specifications: .patching file core.py
+Hunk #1 succeeded at 168 with fuzz 2 (offset 2 lines).
+
+WARNING: conda-build appears to be out of date. You have version 1.13.0 but the
+latest version is 1.14.1. Run
+
+conda update -n root conda-build
+
+to get the latest version.
+
+
+Applying patch: '/tmp/tmpa4YKu4conda_skeleton_closure-20150315.tar.gz/pypi-distutils.patch'
+Warning, the following versions were found for closure
+20150315
+20140110
+20121212
+20120305
+20110811
+Using 20150315
+Use --version to specify a different version.
+Using url https://pypi.python.org/packages/source/c/closure/closure-20150315.tar.gz (5.4 MB) for closure.
+Downloading closure
+Using cached download
+Unpacking closure...
+done
+working in /tmp/tmpXuAB8kconda_skeleton_closure-20150315.tar.gz
+Solving package specifications: .patching file core.py
+Hunk #1 succeeded at 168 with fuzz 2 (offset 2 lines).
+
+WARNING: conda-build appears to be out of date. You have version 1.13.0 but the
+latest version is 1.14.1. Run
+
+conda update -n root conda-build
+
+to get the latest version.
+
+
+Applying patch: '/tmp/tmpXuAB8kconda_skeleton_closure-20150315.tar.gz/pypi-distutils.patch'
+Warning, the following versions were found for shutilwhich
+1.1.0
+1.0.1
+1.0
+Using 1.1.0
+Use --version to specify a different version.
+Using url https://pypi.python.org/packages/source/s/shutilwhich/shutilwhich-1.1.0.tar.gz (2 KB) for shutilwhich.
+Downloading shutilwhich
+shutilwhich-1.   0% |                              | ETA:  --:--:--   0.00  B/sshutilwhich-1. 100% |###############################| Time: 0:00:00   8.33 MB/sshutilwhich-1. 100% |###############################| Time: 0:00:00   5.21 MB/sshutilwhich-1. 100% |###############################| Time: 0:00:00   3.61 MB/s
+Unpacking shutilwhich...
+done
+working in /tmp/tmpTodaZ5conda_skeleton_shutilwhich-1.1.0.tar.gz
+Solving package specifications: .patching file core.py
+Hunk #1 succeeded at 168 with fuzz 2 (offset 2 lines).
+
+WARNING: conda-build appears to be out of date. You have version 1.13.0 but the
+latest version is 1.14.1. Run
+
+conda update -n root conda-build
+
+to get the latest version.
+
+
+Applying patch: '/tmp/tmpTodaZ5conda_skeleton_shutilwhich-1.1.0.tar.gz/pypi-distutils.patch'
+Warning, the following versions were found for zopyx.txng3.core
+3.6.1.1
+3.6.1
+3.6.0
+3.5.3
+3.5.2
+3.5.1
+3.5.0
+3.4.1
+3.4.0
+3.3.4
+3.3.3
+3.3.2
+3.3.1.3
+3.3.1.2
+3.3.1.1
+3.3.1
+3.3.0
+Using 3.6.1.1
+Use --version to specify a different version.
+Using url https://pypi.python.org/packages/source/z/zopyx.txng3.core/zopyx.txng3.core-3.6.1.1.zip (788 KB) for zopyx.txng3.core.
+Downloading zopyx.txng3.core
+Using cached download
+Unpacking zopyx.txng3.core...
+done
+working in /tmp/tmpH49z9Rconda_skeleton_zopyx.txng3.core-3.6.1.1.zip
+Solving package specifications: .patching file core.py
+Hunk #1 succeeded at 168 with fuzz 2 (offset 2 lines).
+
+WARNING: conda-build appears to be out of date. You have version 1.13.0 but the
+latest version is 1.14.1. Run
+
+conda update -n root conda-build
+
+to get the latest version.
+
+
+Applying patch: '/tmp/tmpH49z9Rconda_skeleton_zopyx.txng3.core-3.6.1.1.zip/pypi-distutils.patch'
+Warning, the following versions were found for zopyx.txng3.ext
+3.3.7
+3.3.5
+3.3.4
+3.3.3.4
+3.3.3.3
+3.3.3.1
+3.3.3
+3.3.2
+3.3.1
+3.3.0
+3.3.0dev
+Using 3.3.7
+Use --version to specify a different version.
+Using url https://pypi.python.org/packages/source/z/zopyx.txng3.ext/zopyx.txng3.ext-3.3.7.zip (3.6 MB) for zopyx.txng3.ext.
+Downloading zopyx.txng3.ext
+Using cached download
+Unpacking zopyx.txng3.ext...
+done
+working in /tmp/tmpba4sLiconda_skeleton_zopyx.txng3.ext-3.3.7.zip
+Solving package specifications: .patching file core.py
+Hunk #1 succeeded at 168 with fuzz 2 (offset 2 lines).
+
+WARNING: conda-build appears to be out of date. You have version 1.13.0 but the
+latest version is 1.14.1. Run
+
+conda update -n root conda-build
+
+to get the latest version.
+
+
+Applying patch: '/tmp/tmpba4sLiconda_skeleton_zopyx.txng3.ext-3.3.7.zip/pypi-distutils.patch'
+Warning, the following versions were found for zope.componentvocabulary
+2.0.0
+2.0.0a1
+1.0.1
+1.0
+Using 2.0.0
+Use --version to specify a different version.
+Using url https://pypi.python.org/packages/source/z/zope.componentvocabulary/zope.componentvocabulary-2.0.0.tar.gz (11 KB) for zope.componentvocabulary.
+Downloading zope.componentvocabulary
+Using cached download
+Unpacking zope.componentvocabulary...
+done
+working in /tmp/tmpZX6RNhconda_skeleton_zope.componentvocabulary-2.0.0.tar.gz
+Solving package specifications: .patching file core.py
+Hunk #1 succeeded at 168 with fuzz 2 (offset 2 lines).
+
+WARNING: conda-build appears to be out of date. You have version 1.13.0 but the
+latest version is 1.14.1. Run
+
+conda update -n root conda-build
+
+to get the latest version.
+
+
+Applying patch: '/tmp/tmpZX6RNhconda_skeleton_zope.componentvocabulary-2.0.0.tar.gz/pypi-distutils.patch'
+Warning, the following versions were found for zope.component
+4.2.2
+4.2.1
+4.2.0
+4.1.0
+4.0.2
+4.0.1
+4.0.0
+3.12.1
+3.12.0
+3.11.0
+3.10.0
+3.9.5
+3.9.4
+3.9.3
+3.9.2
+3.9.1
+3.9.0
+3.8.0
+3.7.1
+3.7.0
+3.6.0
+3.5.1
+3.5.0
+3.4.0
+3.4dev-r72749
+3.4dev-r72748
+3.4dev-r72747
+3.4dev-r72605
+Using 4.2.2
+Use --version to specify a different version.
+Using url https://pypi.python.org/packages/source/z/zope.component/zope.component-4.2.2.tar.gz (534 KB) for zope.component.
+Downloading zope.component
+Using cached download
+Unpacking zope.component...
+done
+working in /tmp/tmpa5dqqQconda_skeleton_zope.component-4.2.2.tar.gz
+Solving package specifications: .patching file core.py
+Hunk #1 succeeded at 168 with fuzz 2 (offset 2 lines).
+
+Applying patch: '/tmp/tmpa5dqqQconda_skeleton_zope.component-4.2.2.tar.gz/pypi-distutils.patch'
+Error: Could not find any versions of package zope.component[zcml]

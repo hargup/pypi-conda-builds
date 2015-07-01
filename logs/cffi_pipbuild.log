@@ -1,0 +1,130 @@
+Removing old build directory
+Removing old work directory
+BUILD START: pycparser-2.14-py27_0
+Fetching package metadata: ......
+
+WARNING: conda-build appears to be out of date. You have version 1.13.0 but the
+latest version is 1.14.1. Run
+
+conda update -n root conda-build
+
+to get the latest version.
+
+Solving package specifications: .+ pip install pycparser
+Collecting pycparser
+  Downloading http://localhost/packages/source/p/pycparser/pycparser-2.13.tar.gz (299kB)
+Installing collected packages: pycparser
+  Running setup.py install for pycparser
+Successfully installed pycparser-2.13
+
+The following NEW packages will be INSTALLED:
+
+    openssl:    1.0.1k-1     
+    pip:        7.0.3-py27_0 
+    python:     2.7.10-0     
+    readline:   6.2-2        
+    setuptools: 18.0.1-py27_0
+    sqlite:     3.8.4.1-1    
+    system:     5.8-2        
+    tk:         8.5.18-0     
+    zlib:       1.2.8-0      
+
+Linking packages ...
+[                    ]|                                                  |   0%[openssl             ]|                                                  |   0%[readline            ]|#####                                             |  11%[sqlite              ]|###########                                       |  22%[system              ]|################                                  |  33%[tk                  ]|######################                            |  44%[zlib                ]|###########################                       |  55%[python              ]|#################################                 |  66%[setuptools          ]|######################################            |  77%[pip                 ]|############################################      |  88%[      COMPLETE      ]|##################################################| 100%
+Removing old work directory
+Copying /home/ubuntu/pypi-conda-builds/pycparser to /home/ubuntu/miniconda/conda-bld/work
+Package: pycparser-2.14-py27_0
+source tree in: /home/ubuntu/miniconda/conda-bld/work
+number of files: 38
+Fixing permissions
+Fixing permissions
+BUILD END: pycparser-2.14-py27_0
+# If you want to upload this package to binstar.org later, type:
+#
+# $ binstar upload /home/ubuntu/miniconda/conda-bld/linux-64/pycparser-2.14-py27_0.tar.bz2
+#
+# To have conda build upload to binstar automatically, use
+# $ conda config --set binstar_upload yes
+
+Removing old build directory
+Removing old work directory
+BUILD START: cffi-1.1.2-py_0
+Fetching package metadata: ......
+
+WARNING: conda-build appears to be out of date. You have version 1.13.0 but the
+latest version is 1.14.1. Run
+
+conda update -n root conda-build
+
+to get the latest version.
+
+Solving package specifications: .+ pip install cffi
+Collecting cffi
+  Downloading http://localhost/packages/source/c/cffi/cffi-0.9.2.tar.gz (209kB)
+Requirement already satisfied (use --upgrade to upgrade): pycparser in /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages (from cffi)
+Installing collected packages: cffi
+  Running setup.py install for cffi
+    Complete output from command /home/ubuntu/miniconda/envs/_build/bin/python -c "import setuptools, tokenize;__file__='/tmp/pip-build-zKAWlG/cffi/setup.py';exec(compile(getattr(tokenize, 'open', open)(__file__).read().replace('\r\n', '\n'), __file__, 'exec'))" install --record /tmp/pip-u3B3gz-record/install-record.txt --single-version-externally-managed --compile:
+    running install
+    running build
+    running build_py
+    creating build
+    creating build/lib.linux-x86_64-2.7
+    creating build/lib.linux-x86_64-2.7/cffi
+    copying cffi/verifier.py -> build/lib.linux-x86_64-2.7/cffi
+    copying cffi/backend_ctypes.py -> build/lib.linux-x86_64-2.7/cffi
+    copying cffi/model.py -> build/lib.linux-x86_64-2.7/cffi
+    copying cffi/api.py -> build/lib.linux-x86_64-2.7/cffi
+    copying cffi/gc_weakref.py -> build/lib.linux-x86_64-2.7/cffi
+    copying cffi/vengine_cpy.py -> build/lib.linux-x86_64-2.7/cffi
+    copying cffi/commontypes.py -> build/lib.linux-x86_64-2.7/cffi
+    copying cffi/lock.py -> build/lib.linux-x86_64-2.7/cffi
+    copying cffi/__init__.py -> build/lib.linux-x86_64-2.7/cffi
+    copying cffi/cparser.py -> build/lib.linux-x86_64-2.7/cffi
+    copying cffi/ffiplatform.py -> build/lib.linux-x86_64-2.7/cffi
+    copying cffi/vengine_gen.py -> build/lib.linux-x86_64-2.7/cffi
+    running build_ext
+    building '_cffi_backend' extension
+    creating build/temp.linux-x86_64-2.7
+    creating build/temp.linux-x86_64-2.7/c
+    gcc -pthread -fno-strict-aliasing -g -O2 -DNDEBUG -g -fwrapv -O3 -Wall -Wstrict-prototypes -fPIC -DUSE__THREAD -I/usr/include/ffi -I/usr/include/libffi -I/home/ubuntu/miniconda/envs/_build/include/python2.7 -c c/_cffi_backend.c -o build/temp.linux-x86_64-2.7/c/_cffi_backend.o
+    c/_cffi_backend.c:13:17: fatal error: ffi.h: No such file or directory
+     #include <ffi.h>
+                     ^
+    compilation terminated.
+    error: command 'gcc' failed with exit status 1
+    
+    ----------------------------------------
+Command "/home/ubuntu/miniconda/envs/_build/bin/python -c "import setuptools, tokenize;__file__='/tmp/pip-build-zKAWlG/cffi/setup.py';exec(compile(getattr(tokenize, 'open', open)(__file__).read().replace('\r\n', '\n'), __file__, 'exec'))" install --record /tmp/pip-u3B3gz-record/install-record.txt --single-version-externally-managed --compile" failed with error code 1 in /tmp/pip-build-zKAWlG/cffi
+
+The following NEW packages will be INSTALLED:
+
+    openssl:    1.0.1k-1     
+    pip:        7.0.3-py27_0 
+    pycparser:  2.14-py27_0  
+    python:     2.7.10-0     
+    readline:   6.2-2        
+    setuptools: 18.0.1-py27_0
+    sqlite:     3.8.4.1-1    
+    system:     5.8-2        
+    tk:         8.5.18-0     
+    zlib:       1.2.8-0      
+
+Linking packages ...
+[                    ]|                                                  |   0%[openssl             ]|                                                  |   0%[readline            ]|#####                                             |  10%[sqlite              ]|##########                                        |  20%[system              ]|###############                                   |  30%[tk                  ]|####################                              |  40%[zlib                ]|#########################                         |  50%[pycparser           ]|##############################                    |  60%[python              ]|###################################               |  70%[setuptools          ]|########################################          |  80%[pip                 ]|#############################################     |  90%[      COMPLETE      ]|##################################################| 100%
+Removing old work directory
+Copying /home/ubuntu/pypi-conda-builds/cffi to /home/ubuntu/miniconda/conda-bld/work
+Package: cffi-1.1.2-py_0
+source tree in: /home/ubuntu/miniconda/conda-bld/work
+Command failed: /bin/bash -x -e /home/ubuntu/pypi-conda-builds/cffi/build.sh
+Package search: {'_pypi_ordering': False, 'version': '1.1.2', 'name': 'cffi', 'summary': 'Foreign Function Interface for Python calling C code.'}
+Creating standard recipe for cffi-1.1.2
+Converting recipe in /home/ubuntu/pypi-conda-builds/cffi
+package = cffi
+   dependencies = [u'pycparser']
+Creating standard recipe for pycparser
+Converting recipe in /home/ubuntu/pypi-conda-builds/pycparser
+package = pycparser
+   dependencies = []
+Building conda package for pycparser
+Building conda package for cffi

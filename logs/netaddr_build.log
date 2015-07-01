@@ -2,6 +2,14 @@ Removing old build directory
 Removing old work directory
 BUILD START: netaddr-0.7.14-py27_0
 Fetching package metadata: ......
+
+WARNING: conda-build appears to be out of date. You have version 1.13.0 but the
+latest version is 1.14.1. Run
+
+conda update -n root conda-build
+
+to get the latest version.
+
 Solving package specifications: .+ /home/ubuntu/miniconda/envs/_build/bin/python setup.py install
 /home/ubuntu/miniconda/envs/_build/lib/python2.7/distutils/dist.py:267: UserWarning: Unknown distribution option: 'install_requires'
   warnings.warn(msg)
@@ -103,15 +111,15 @@ Writing /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/netaddr-0
 
 The following NEW packages will be INSTALLED:
 
-    openssl:    1.0.1k-1    
-    pip:        7.0.3-py27_0
-    python:     2.7.10-0    
-    readline:   6.2-2       
-    setuptools: 17.0-py27_0 
-    sqlite:     3.8.4.1-1   
-    system:     5.8-2       
-    tk:         8.5.18-0    
-    zlib:       1.2.8-0     
+    openssl:    1.0.1k-1     
+    pip:        7.0.3-py27_0 
+    python:     2.7.10-0     
+    readline:   6.2-2        
+    setuptools: 18.0.1-py27_0
+    sqlite:     3.8.4.1-1    
+    system:     5.8-2        
+    tk:         8.5.18-0     
+    zlib:       1.2.8-0      
 
 Linking packages ...
 [                    ]|                                                  |   0%[openssl             ]|                                                  |   0%[readline            ]|#####                                             |  11%[sqlite              ]|###########                                       |  22%[system              ]|################                                  |  33%[tk                  ]|######################                            |  44%[zlib                ]|###########################                       |  55%[python              ]|#################################                 |  66%[setuptools          ]|######################################            |  77%[pip                 ]|############################################      |  88%[      COMPLETE      ]|##################################################| 100%
@@ -129,6 +137,14 @@ Fixing permissions
 BUILD END: netaddr-0.7.14-py27_0
 TEST START: netaddr-0.7.14-py27_0
 Fetching package metadata: ......
+
+WARNING: conda-build appears to be out of date. You have version 1.13.0 but the
+latest version is 1.14.1. Run
+
+conda update -n root conda-build
+
+to get the latest version.
+
 Solving package specifications: .
 The following packages will be downloaded:
 
@@ -143,21 +159,21 @@ The following NEW packages will be INSTALLED:
     pip:        7.0.3-py27_0 
     python:     2.7.10-0     
     readline:   6.2-2        
-    setuptools: 17.0-py27_0  
+    setuptools: 18.0.1-py27_0
     sqlite:     3.8.4.1-1    
     system:     5.8-2        
     tk:         8.5.18-0     
     zlib:       1.2.8-0      
 
 Fetching packages ...
-netaddr-0.7.14   0% |                              | ETA:  --:--:--   0.00  B/snetaddr-0.7.14   1% |                               | ETA:  0:00:00  48.19 MB/snetaddr-0.7.14   2% |                               | ETA:  0:00:00  60.25 MB/snetaddr-0.7.14   4% |#                              | ETA:  0:00:00  66.87 MB/snetaddr-0.7.14   5% |#                              | ETA:  0:00:00  71.25 MB/snetaddr-0.7.14   6% |##                             | ETA:  0:00:00  74.00 MB/snetaddr-0.7.14   8% |##                             | ETA:  0:00:00  76.33 MB/snetaddr-0.7.14   9% |###                            | ETA:  0:00:00  77.81 MB/snetaddr-0.7.14  11% |###                            | ETA:  0:00:00  79.20 MB/snetaddr-0.7.14  12% |###                            | ETA:  0:00:00  80.36 MB/snetaddr-0.7.14  13% |####                           | ETA:  0:00:00  81.35 MB/snetaddr-0.7.14  15% |####                           | ETA:  0:00:00  82.03 MB/snetaddr-0.7.14  16% |#####                          | ETA:  0:00:00  82.75 MB/snetaddr-0.7.14  18% |#####                          | ETA:  0:00:00  83.40 MB/snetaddr-0.7.14  19% |######                         | ETA:  0:00:00  83.84 MB/snetaddr-0.7.14  20% |######                         | ETA:  0:00:00  84.34 MB/snetaddr-0.7.14  22% |######                         | ETA:  0:00:00  84.81 MB/snetaddr-0.7.14  23% |#######                        | ETA:  0:00:00  85.20 MB/snetaddr-0.7.14  25% |#######                        | ETA:  0:00:00  85.44 MB/snetaddr-0.7.14  26% |########                       | ETA:  0:00:00  85.27 MB/snetaddr-0.7.14  27% |########                       | ETA:  0:00:00  85.38 MB/snetaddr-0.7.14  29% |#########                      | ETA:  0:00:00  85.63 MB/snetaddr-0.7.14  30% |#########                      | ETA:  0:00:00  85.80 MB/snetaddr-0.7.14  32% |#########                      | ETA:  0:00:00  86.03 MB/snetaddr-0.7.14  33% |##########                     | ETA:  0:00:00  86.29 MB/snetaddr-0.7.14  34% |##########                     | ETA:  0:00:00  86.50 MB/snetaddr-0.7.14  36% |###########                    | ETA:  0:00:00  86.64 MB/snetaddr-0.7.14  37% |###########                    | ETA:  0:00:00  25.61 MB/snetaddr-0.7.14  39% |############                   | ETA:  0:00:00  26.27 MB/snetaddr-0.7.14  40% |############                   | ETA:  0:00:00  26.93 MB/snetaddr-0.7.14  41% |############                   | ETA:  0:00:00  27.58 MB/snetaddr-0.7.14  43% |#############                  | ETA:  0:00:00  28.21 MB/snetaddr-0.7.14  44% |#############                  | ETA:  0:00:00  28.84 MB/snetaddr-0.7.14  46% |##############                 | ETA:  0:00:00  29.45 MB/snetaddr-0.7.14  47% |##############                 | ETA:  0:00:00  30.06 MB/snetaddr-0.7.14  48% |###############                | ETA:  0:00:00  30.64 MB/snetaddr-0.7.14  50% |###############                | ETA:  0:00:00  31.22 MB/snetaddr-0.7.14  51% |################               | ETA:  0:00:00  31.79 MB/snetaddr-0.7.14  53% |################               | ETA:  0:00:00  32.34 MB/snetaddr-0.7.14  54% |################               | ETA:  0:00:00  32.88 MB/snetaddr-0.7.14  55% |#################              | ETA:  0:00:00  33.36 MB/snetaddr-0.7.14  57% |#################              | ETA:  0:00:00  33.86 MB/snetaddr-0.7.14  58% |##################             | ETA:  0:00:00  34.37 MB/snetaddr-0.7.14  60% |##################             | ETA:  0:00:00  34.87 ===== testing package: netaddr-0.7.14-py27_0 =====
+netaddr-0.7.14   0% |                              | ETA:  --:--:--   0.00  B/snetaddr-0.7.14   1% |                               | ETA:  0:00:00  48.02 MB/snetaddr-0.7.14   2% |                               | ETA:  0:00:00  59.47 MB/snetaddr-0.7.14   4% |#                              | ETA:  0:00:00  65.78 MB/snetaddr-0.7.14   5% |#                              | ETA:  0:00:00  69.71 MB/snetaddr-0.7.14   6% |##                             | ETA:  0:00:00  72.55 MB/snetaddr-0.7.14   8% |##                             | ETA:  0:00:00  74.52 MB/snetaddr-0.7.14   9% |###                            | ETA:  0:00:00  75.95 MB/snetaddr-0.7.14  11% |###                            | ETA:  0:00:00  77.28 MB/snetaddr-0.7.14  12% |###                            | ETA:  0:00:00  78.47 MB/snetaddr-0.7.14  13% |####                           | ETA:  0:00:00  79.45 MB/snetaddr-0.7.14  15% |####                           | ETA:  0:00:00  80.20 MB/snetaddr-0.7.14  16% |#####                          | ETA:  0:00:00  80.97 MB/snetaddr-0.7.14  18% |#####                          | ETA:  0:00:00  81.41 MB/snetaddr-0.7.14  19% |######                         | ETA:  0:00:00  81.95 MB/snetaddr-0.7.14  20% |######                         | ETA:  0:00:00  82.47 MB/snetaddr-0.7.14  22% |######                         | ETA:  0:00:00  82.98 MB/snetaddr-0.7.14  23% |#######                        | ETA:  0:00:00  83.36 MB/snetaddr-0.7.14  25% |#######                        | ETA:  0:00:00  83.75 MB/snetaddr-0.7.14  26% |########                       | ETA:  0:00:00  84.04 MB/snetaddr-0.7.14  27% |########                       | ETA:  0:00:00  83.36 MB/snetaddr-0.7.14  29% |#########                      | ETA:  0:00:00  83.45 MB/snetaddr-0.7.14  30% |#########                      | ETA:  0:00:00  83.74 MB/snetaddr-0.7.14  32% |#########                      | ETA:  0:00:00  84.04 MB/snetaddr-0.7.14  33% |##########                     | ETA:  0:00:00  84.31 MB/snetaddr-0.7.14  34% |##########                     | ETA:  0:00:00  84.55 MB/snetaddr-0.7.14  36% |###########                    | ETA:  0:00:00  84.74 MB/snetaddr-0.7.14  37% |###########                    | ETA:  0:00:00  84.96 MB/snetaddr-0.7.14  39% |############                   | ETA:  0:00:00  85.08 MB/snetaddr-0.7.14  40% |############                   | ETA:  0:00:00  34.66 MB/snetaddr-0.7.14  41% |############                   | ETA:  0:00:00  35.38 MB/snetaddr-0.7.14  43% |#############                  | ETA:  0:00:00  36.09 MB/snetaddr-0.7.14  44% |#############                  | ETA:  0:00:00  36.78 MB/snetaddr-0.7.14  46% |##############                 | ETA:  0:00:00  37.46 MB/snetaddr-0.7.14  47% |##############                 | ETA:  0:00:00  38.12 MB/snetaddr-0.7.14  48% |###############                | ETA:  0:00:00  38.75 MB/snetaddr-0.7.14  50% |###############                | ETA:  0:00:00  39.37 MB/snetaddr-0.7.14  51% |################               | ETA:  0:00:00  39.97 MB/snetaddr-0.7.14  53% |################               | ETA:  0:00:00  40.56 MB/snetaddr-0.7.14  54% |################               | ETA:  0:00:00  41.15 MB/snetaddr-0.7.14  55% |#################              | ETA:  0:00:00  41.72 MB/snetaddr-0.7.14  57% |#################              | ETA:  0:00:00  42.23 MB/snetaddr-0.7.14  58% |##################             | ETA:  0:00:00  42.77 MB/snetaddr-0.7.14  60% |##################             | ETA:  0:00:00  43.30 ===== testing package: netaddr-0.7.14-py27_0 =====
 import: u'netaddr'
 import: u'netaddr.eui'
 import: u'netaddr.ip'
 import: u'netaddr.strategy'
 import: u'netaddr.tests'
 ===== netaddr-0.7.14-py27_0 OK =====
-MB/snetaddr-0.7.14  61% |###################            | ETA:  0:00:00  35.35 MB/snetaddr-0.7.14  62% |###################            | ETA:  0:00:00  35.84 MB/snetaddr-0.7.14  64% |###################            | ETA:  0:00:00  36.32 MB/snetaddr-0.7.14  65% |####################           | ETA:  0:00:00  36.79 MB/snetaddr-0.7.14  67% |####################           | ETA:  0:00:00  37.26 MB/snetaddr-0.7.14  68% |#####################          | ETA:  0:00:00  37.72 MB/snetaddr-0.7.14  69% |#####################          | ETA:  0:00:00  38.16 MB/snetaddr-0.7.14  71% |######################         | ETA:  0:00:00  38.61 MB/snetaddr-0.7.14  72% |######################         | ETA:  0:00:00  39.05 MB/snetaddr-0.7.14  74% |######################         | ETA:  0:00:00  39.48 MB/snetaddr-0.7.14  75% |#######################        | ETA:  0:00:00  39.89 MB/snetaddr-0.7.14  76% |#######################        | ETA:  0:00:00  40.31 MB/snetaddr-0.7.14  78% |########################       | ETA:  0:00:00  40.72 MB/snetaddr-0.7.14  79% |########################       | ETA:  0:00:00  41.13 MB/snetaddr-0.7.14  81% |#########################      | ETA:  0:00:00  41.51 MB/snetaddr-0.7.14  82% |#########################      | ETA:  0:00:00  41.91 MB/snetaddr-0.7.14  83% |#########################      | ETA:  0:00:00  42.29 MB/snetaddr-0.7.14  85% |##########################     | ETA:  0:00:00  42.67 MB/snetaddr-0.7.14  86% |##########################     | ETA:  0:00:00  43.04 MB/snetaddr-0.7.14  87% |###########################    | ETA:  0:00:00  43.37 MB/snetaddr-0.7.14  89% |###########################    | ETA:  0:00:00  43.73 MB/snetaddr-0.7.14  90% |############################   | ETA:  0:00:00  44.09 MB/snetaddr-0.7.14  92% |############################   | ETA:  0:00:00  44.43 MB/snetaddr-0.7.14  93% |#############################  | ETA:  0:00:00  44.78 MB/snetaddr-0.7.14  94% |#############################  | ETA:  0:00:00  45.12 MB/snetaddr-0.7.14  96% |#############################  | ETA:  0:00:00  45.45 MB/snetaddr-0.7.14  97% |############################## | ETA:  0:00:00  45.79 MB/snetaddr-0.7.14  99% |############################## | ETA:  0:00:00  46.11 MB/snetaddr-0.7.14 100% |###############################| Time: 0:00:00  45.94 MB/s
+MB/snetaddr-0.7.14  61% |###################            | ETA:  0:00:00  43.78 MB/snetaddr-0.7.14  62% |###################            | ETA:  0:00:00  44.29 MB/snetaddr-0.7.14  64% |###################            | ETA:  0:00:00  44.80 MB/snetaddr-0.7.14  65% |####################           | ETA:  0:00:00  45.29 MB/snetaddr-0.7.14  67% |####################           | ETA:  0:00:00  45.77 MB/snetaddr-0.7.14  68% |#####################          | ETA:  0:00:00  46.24 MB/snetaddr-0.7.14  69% |#####################          | ETA:  0:00:00  46.69 MB/snetaddr-0.7.14  71% |######################         | ETA:  0:00:00  47.13 MB/snetaddr-0.7.14  72% |######################         | ETA:  0:00:00  47.55 MB/snetaddr-0.7.14  74% |######################         | ETA:  0:00:00  47.99 MB/snetaddr-0.7.14  75% |#######################        | ETA:  0:00:00  48.41 MB/snetaddr-0.7.14  76% |#######################        | ETA:  0:00:00  48.83 MB/snetaddr-0.7.14  78% |########################       | ETA:  0:00:00  49.23 MB/snetaddr-0.7.14  79% |########################       | ETA:  0:00:00  49.63 MB/snetaddr-0.7.14  80% |#########################      | ETA:  0:00:00  50.02 MB/snetaddr-0.7.14  82% |#########################      | ETA:  0:00:00  50.39 MB/snetaddr-0.7.14  83% |#########################      | ETA:  0:00:00  50.76 MB/snetaddr-0.7.14  85% |##########################     | ETA:  0:00:00  51.14 MB/snetaddr-0.7.14  86% |##########################     | ETA:  0:00:00  51.50 MB/snetaddr-0.7.14  87% |###########################    | ETA:  0:00:00  51.81 MB/snetaddr-0.7.14  89% |###########################    | ETA:  0:00:00  52.17 MB/snetaddr-0.7.14  90% |############################   | ETA:  0:00:00  52.50 MB/snetaddr-0.7.14  92% |############################   | ETA:  0:00:00  52.84 MB/snetaddr-0.7.14  93% |#############################  | ETA:  0:00:00  53.16 MB/snetaddr-0.7.14  94% |#############################  | ETA:  0:00:00  53.49 MB/snetaddr-0.7.14  96% |#############################  | ETA:  0:00:00  53.81 MB/snetaddr-0.7.14  97% |############################## | ETA:  0:00:00  54.13 MB/snetaddr-0.7.14  99% |############################## | ETA:  0:00:00  54.44 MB/snetaddr-0.7.14 100% |###############################| Time: 0:00:00  54.11 MB/s
 Extracting packages ...
 [      COMPLETE      ]|                                                  |   0%[netaddr             ]|                                                  |   0%[netaddr             ]|                                                  |   0%[      COMPLETE      ]|##################################################| 100%
 Linking packages ...

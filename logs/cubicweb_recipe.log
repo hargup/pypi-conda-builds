@@ -1,0 +1,468 @@
+Warning, the following versions were found for cubicweb
+3.20.8
+3.20.7
+3.20.6
+3.20.5
+3.20.4
+3.20.3
+3.20.2
+3.20.1
+3.20.0
+3.19.12
+3.19.11
+3.19.10
+3.19.9
+3.19.8
+3.19.7
+3.19.6
+3.19.5
+3.19.4
+3.19.3
+3.19.2
+3.19.1
+3.19.0
+3.18.8
+3.18.7
+3.18.6
+3.18.5
+3.18.4
+3.18.3
+3.18.2
+3.18.1
+3.18.0
+3.17.18
+3.17.17
+3.17.16
+3.17.15
+3.17.14
+3.17.13
+3.17.12
+3.17.11
+3.17.10
+3.17.9
+3.17.8
+3.17.7
+3.17.5
+3.17.4
+3.17.3
+3.17.2
+3.17.1
+3.17.0
+3.16.6
+3.16.5
+3.16.2
+3.16.1
+3.16.0
+3.15.11
+3.15.9
+3.15.8
+3.15.7
+3.15.6
+3.15.2
+3.14.10
+3.14.2
+3.14.1
+3.14.0
+3.13.10
+3.13.9
+3.13.8
+3.13.7
+3.13.6
+3.13.5
+3.13.4
+3.13.3
+3.13.2
+3.13.1
+3.13.0
+3.12.9
+3.12.8
+3.12.7
+3.12.6
+3.12.5
+3.12.4
+3.12.3
+3.12.1
+3.11.1
+3.11.0
+3.10.8
+3.10.7
+3.10.2
+3.10.1
+3.10.0
+3.9.8
+3.9.6
+3.9.5
+3.9.4
+3.9.3
+3.9.2
+3.9.1
+3.9.0
+3.8.6
+3.8.5
+3.8.4
+3.8.3
+3.8.2
+3.8.1
+3.8.0
+3.7.4
+3.7.3
+3.7.2
+3.7.0
+3.6.1
+3.6.0
+3.5.12
+3.5.11
+3.5.1
+3.4.6
+3.4.4
+3.4.2
+3.3.4
+3.3.1
+3.3.0
+3.0.4
+Using 3.20.8
+Use --version to specify a different version.
+Using url https://pypi.python.org/packages/source/c/cubicweb/cubicweb-3.20.8.tar.gz (5.6 MB) for cubicweb.
+Downloading cubicweb
+Unpacking cubicweb...
+done
+working in /tmp/tmpBTw3Qdconda_skeleton_cubicweb-3.20.8.tar.gz
+Fetching package metadata: ......
+
+WARNING: conda-build appears to be out of date. You have version 1.13.0 but the
+latest version is 1.14.1. Run
+
+conda update -n root conda-build
+
+to get the latest version.
+
+Solving package specifications: .patching file core.py
+Hunk #1 succeeded at 168 with fuzz 2 (offset 2 lines).
+
+WARNING: conda-build appears to be out of date. You have version 1.13.0 but the
+latest version is 1.14.1. Run
+
+conda update -n root conda-build
+
+to get the latest version.
+
+
+The following NEW packages will be INSTALLED:
+
+    numpy:      1.9.2-py27_0 
+    openssl:    1.0.1k-1     
+    pip:        7.0.3-py27_0 
+    python:     2.7.10-0     
+    pyyaml:     3.11-py27_1  
+    readline:   6.2-2        
+    setuptools: 18.0.1-py27_0
+    sqlite:     3.8.4.1-1    
+    system:     5.8-2        
+    tk:         8.5.18-0     
+    yaml:       0.1.6-0      
+    zlib:       1.2.8-0      
+
+Linking packages ...
+[                    ]|                                                  |   0%[openssl             ]|                                                  |   0%[readline            ]|####                                              |   8%[sqlite              ]|########                                          |  16%[system              ]|############                                      |  25%[tk                  ]|################                                  |  33%[yaml                ]|####################                              |  41%[zlib                ]|#########################                         |  50%[numpy               ]|#############################                     |  58%[python              ]|#################################                 |  66%[pyyaml              ]|#####################################             |  75%[setuptools          ]|#########################################         |  83%[pip                 ]|#############################################     |  91%[      COMPLETE      ]|##################################################| 100%
+Applying patch: '/tmp/tmpBTw3Qdconda_skeleton_cubicweb-3.20.8.tar.gz/pypi-distutils.patch'
+Warning, the following versions were found for rql
+0.33.0
+0.31.5
+0.31.4
+0.31.3
+0.31.2
+0.31.0
+0.30.1
+0.30.0
+0.29.1
+0.29.0
+0.28.0
+0.27.0
+0.26.6
+0.26.4
+0.26.3
+0.26.2
+0.26.1
+0.26.0
+0.25.0
+0.24.0
+0.22.2
+0.22.0
+Using 0.33.0
+Use --version to specify a different version.
+Using url https://pypi.python.org/packages/source/r/rql/rql-0.33.0.tar.gz (150 KB) for rql.
+Downloading rql
+Using cached download
+Unpacking rql...
+done
+working in /tmp/tmp56_fVXconda_skeleton_rql-0.33.0.tar.gz
+Solving package specifications: .patching file core.py
+Hunk #1 succeeded at 168 with fuzz 2 (offset 2 lines).
+sh: 1: g++: not found
+
+WARNING: conda-build appears to be out of date. You have version 1.13.0 but the
+latest version is 1.14.1. Run
+
+conda update -n root conda-build
+
+to get the latest version.
+
+
+Applying patch: '/tmp/tmp56_fVXconda_skeleton_rql-0.33.0.tar.gz/pypi-distutils.patch'
+Warning, the following versions were found for logilab-constraint
+0.5.0
+0.4.0
+Using 0.5.0
+Use --version to specify a different version.
+Using url https://pypi.python.org/packages/source/l/logilab-constraint/logilab-constraint-0.5.0.tar.gz (47 KB) for logilab-constraint.
+Downloading logilab-constraint
+Using cached download
+Unpacking logilab-constraint...
+done
+working in /tmp/tmpRHl_Hnconda_skeleton_logilab-constraint-0.5.0.tar.gz
+Solving package specifications: .patching file core.py
+Hunk #1 succeeded at 168 with fuzz 2 (offset 2 lines).
+
+WARNING: conda-build appears to be out of date. You have version 1.13.0 but the
+latest version is 1.14.1. Run
+
+conda update -n root conda-build
+
+to get the latest version.
+
+
+Applying patch: '/tmp/tmpRHl_Hnconda_skeleton_logilab-constraint-0.5.0.tar.gz/pypi-distutils.patch'
+yapps not found, trying Yapps
+Using url https://pypi.python.org/packages/source/Y/Yapps/Yapps-2.2.0.tar.gz (13 KB) for Yapps.
+Downloading Yapps
+Using cached download
+Unpacking Yapps...
+done
+working in /tmp/tmpcXhJupconda_skeleton_Yapps-2.2.0.tar.gz
+Solving package specifications: .patching file core.py
+Hunk #1 succeeded at 168 with fuzz 2 (offset 2 lines).
+
+WARNING: conda-build appears to be out of date. You have version 1.13.0 but the
+latest version is 1.14.1. Run
+
+conda update -n root conda-build
+
+to get the latest version.
+
+
+Applying patch: '/tmp/tmpcXhJupconda_skeleton_Yapps-2.2.0.tar.gz/pypi-distutils.patch'
+Warning, the following versions were found for logilab-database
+1.13.3
+1.13.2
+1.13.1
+1.13.0
+1.12.2
+1.12.1
+1.12.0
+1.11.1
+1.11.0
+1.10.0
+1.9.0
+1.8.1
+1.8.0
+1.6.3
+1.6.2
+1.6.1
+1.6.0
+1.5.0
+1.3.2
+1.3.1
+1.3.0
+1.2.0
+1.1.0
+1.0.5
+1.0.4
+1.0.3
+1.0.2
+1.0.0
+Using 1.13.3
+Use --version to specify a different version.
+Using url https://pypi.python.org/packages/source/l/logilab-database/logilab-database-1.13.3.tar.gz (61 KB) for logilab-database.
+Downloading logilab-database
+logilab-databa   0% |                              | ETA:  --:--:--   0.00  B/slogilab-databa  26% |########                       | ETA:  0:00:00  35.87 MB/slogilab-databa  52% |################               | ETA:  0:00:00  28.27 MB/slogilab-databa  79% |########################       | ETA:  0:00:00  35.47 MB/slogilab-databa 100% |###############################| ETA:  0:00:00  38.95 MB/slogilab-databa 100% |###############################| Time: 0:00:00  33.11 MB/s
+Unpacking logilab-database...
+done
+working in /tmp/tmpG5vC2zconda_skeleton_logilab-database-1.13.3.tar.gz
+Solving package specifications: .patching file core.py
+Hunk #1 succeeded at 168 with fuzz 2 (offset 2 lines).
+
+WARNING: conda-build appears to be out of date. You have version 1.13.0 but the
+latest version is 1.14.1. Run
+
+conda update -n root conda-build
+
+to get the latest version.
+
+
+Applying patch: '/tmp/tmpG5vC2zconda_skeleton_logilab-database-1.13.3.tar.gz/pypi-distutils.patch'
+Warning, the following versions were found for logilab-mtconverter
+0.8.2
+0.8.0
+0.7.0
+0.6.0
+Using 0.8.2
+Use --version to specify a different version.
+Using url https://pypi.python.org/packages/source/l/logilab-mtconverter/logilab-mtconverter-0.8.2.tar.gz (43 KB) for logilab-mtconverter.
+Downloading logilab-mtconverter
+Using cached download
+Unpacking logilab-mtconverter...
+done
+working in /tmp/tmpbJ0hBMconda_skeleton_logilab-mtconverter-0.8.2.tar.gz
+Solving package specifications: .patching file core.py
+Hunk #1 succeeded at 168 with fuzz 2 (offset 2 lines).
+
+WARNING: conda-build appears to be out of date. You have version 1.13.0 but the
+latest version is 1.14.1. Run
+
+conda update -n root conda-build
+
+to get the latest version.
+
+
+Applying patch: '/tmp/tmpbJ0hBMconda_skeleton_logilab-mtconverter-0.8.2.tar.gz/pypi-distutils.patch'
+Warning, the following versions were found for logilab-database
+1.13.3
+1.13.2
+1.13.1
+1.13.0
+1.12.2
+1.12.1
+1.12.0
+1.11.1
+1.11.0
+1.10.0
+1.9.0
+1.8.1
+1.8.0
+1.6.3
+1.6.2
+1.6.1
+1.6.0
+1.5.0
+1.3.2
+1.3.1
+1.3.0
+1.2.0
+1.1.0
+1.0.5
+1.0.4
+1.0.3
+1.0.2
+1.0.0
+Using 1.13.3
+Use --version to specify a different version.
+Using url https://pypi.python.org/packages/source/l/logilab-database/logilab-database-1.13.3.tar.gz (61 KB) for logilab-database.
+Downloading logilab-database
+Using cached download
+Unpacking logilab-database...
+done
+working in /tmp/tmp4vt68yconda_skeleton_logilab-database-1.13.3.tar.gz
+Solving package specifications: .patching file core.py
+Hunk #1 succeeded at 168 with fuzz 2 (offset 2 lines).
+
+WARNING: conda-build appears to be out of date. You have version 1.13.0 but the
+latest version is 1.14.1. Run
+
+conda update -n root conda-build
+
+to get the latest version.
+
+
+Applying patch: '/tmp/tmp4vt68yconda_skeleton_logilab-database-1.13.3.tar.gz/pypi-distutils.patch'
+Warning, the following versions were found for yams
+0.40.2
+0.40.1
+0.40.0
+0.39.1
+0.39.0
+0.38.1
+0.38.0
+0.37.0
+0.36.0
+0.34.0
+0.33.0
+0.32.0
+0.31.0
+0.30.3
+0.30.1
+0.30.0
+0.29.1
+0.29.0
+0.28.1
+0.28.0
+0.27.0
+0.24.1
+0.24.0
+0.23.0
+Using 0.40.2
+Use --version to specify a different version.
+Using url https://pypi.python.org/packages/source/y/yams/yams-0.40.2.tar.gz (77 KB) for yams.
+Downloading yams
+Using cached download
+Unpacking yams...
+done
+working in /tmp/tmpioE_hfconda_skeleton_yams-0.40.2.tar.gz
+Solving package specifications: .patching file core.py
+Hunk #1 succeeded at 168 with fuzz 2 (offset 2 lines).
+
+WARNING: conda-build appears to be out of date. You have version 1.13.0 but the
+latest version is 1.14.1. Run
+
+conda update -n root conda-build
+
+to get the latest version.
+
+
+Applying patch: '/tmp/tmpioE_hfconda_skeleton_yams-0.40.2.tar.gz/pypi-distutils.patch'
+Warning, the following versions were found for passlib
+1.6.2
+1.6.1
+1.6
+1.5.3
+1.5.2
+1.5.1
+1.5
+1.4
+1.3.1
+1.3.0
+Using 1.6.2
+Use --version to specify a different version.
+Using url https://pypi.python.org/packages/source/p/passlib/passlib-1.6.2.tar.gz (399 KB) for passlib.
+Downloading passlib
+Using cached download
+Unpacking passlib...
+done
+working in /tmp/tmpbUXhCyconda_skeleton_passlib-1.6.2.tar.gz
+Solving package specifications: .patching file core.py
+Hunk #1 succeeded at 168 with fuzz 2 (offset 2 lines).
+An unexpected error has occurred, please consider sending the
+following traceback to the conda GitHub issue tracker at:
+
+    https://github.com/conda/conda-build/issues
+
+Include the output of the command 'conda info' in your report.
+
+
+
+Applying patch: '/tmp/tmpbUXhCyconda_skeleton_passlib-1.6.2.tar.gz/pypi-distutils.patch'
+Traceback (most recent call last):
+  File "/home/ubuntu/miniconda/bin/conda-skeleton", line 6, in <module>
+    exec(compile(open(__file__).read(), __file__, 'exec'))
+  File "/home/ubuntu/conda-build/bin/conda-skeleton", line 5, in <module>
+    sys.exit(main())
+  File "/home/ubuntu/conda-build/conda_build/main_skeleton.py", line 240, in main
+    args_func(args, p)
+  File "/home/ubuntu/conda-build/conda_build/main_build.py", line 349, in args_func
+    args.func(args, p)
+  File "/home/ubuntu/conda-build/conda_build/main_skeleton.py", line 254, in execute
+    pypi.main(args, parser)
+  File "/home/ubuntu/conda-build/conda_build/pypi.py", line 387, in main
+    get_package_metadata(args, package, d, data)
+  File "/home/ubuntu/conda-build/conda_build/pypi.py", line 623, in get_package_metadata
+    in pkginfo['tests_require']]))
+TypeError: sequence item 0: expected string, NoneType found

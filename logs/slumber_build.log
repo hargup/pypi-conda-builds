@@ -1,12 +1,16 @@
-There was an error importing jinja2.
-Please run `conda install jinja2` to enable jinja template support
 Removing old build directory
 Removing old work directory
-BUILD START: slumber-0.7.1-py27_0
+BUILD START: slumber-0.7.1-py_0
 Fetching package metadata: ......
-Solving package specifications: .There was an error importing jinja2.
-Please run `conda install jinja2` to enable jinja template support
-+ /home/ubuntu/miniconda/envs/_build/bin/python setup.py install
+
+WARNING: conda-build appears to be out of date. You have version 1.13.0 but the
+latest version is 1.14.1. Run
+
+conda update -n root conda-build
+
+to get the latest version.
+
+Solving package specifications: .+ /home/ubuntu/miniconda/envs/_build/bin/python setup.py install
 running install
 running bdist_egg
 running egg_info
@@ -65,16 +69,16 @@ Finished processing dependencies for slumber==0.7.1
 
 The following NEW packages will be INSTALLED:
 
-    openssl:    1.0.1k-1    
-    pip:        6.1.1-py27_0
-    python:     2.7.9-3     
-    readline:   6.2-2       
-    requests:   2.7.0-py27_0
-    setuptools: 16.0-py27_0 
-    sqlite:     3.8.4.1-1   
-    system:     5.8-2       
-    tk:         8.5.18-0    
-    zlib:       1.2.8-0     
+    openssl:    1.0.1k-1     
+    pip:        7.0.3-py27_0 
+    python:     2.7.10-0     
+    readline:   6.2-2        
+    requests:   2.7.0-py27_0 
+    setuptools: 18.0.1-py27_0
+    sqlite:     3.8.4.1-1    
+    system:     5.8-2        
+    tk:         8.5.18-0     
+    zlib:       1.2.8-0      
 
 Linking packages ...
 [                    ]|                                                  |   0%[openssl             ]|                                                  |   0%[readline            ]|#####                                             |  10%[sqlite              ]|##########                                        |  20%[system              ]|###############                                   |  30%[tk                  ]|####################                              |  40%[zlib                ]|#########################                         |  50%[python              ]|##############################                    |  60%[requests            ]|###################################               |  70%[setuptools          ]|########################################          |  80%[pip                 ]|#############################################     |  90%[      COMPLETE      ]|##################################################| 100%
@@ -82,50 +86,28 @@ Removing old work directory
 Source cache directory is: /home/ubuntu/miniconda/conda-bld/src_cache
 Found source in cache: slumber-0.7.1.tar.gz
 Extracting download
-Package: slumber-0.7.1-py27_0
+Package: slumber-0.7.1-py_0
 source tree in: /home/ubuntu/miniconda/conda-bld/work/slumber-0.7.1
 found egg dir: /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/slumber-0.7.1-py2.7.egg
 number of files: 9
 Fixing permissions
 Fixing permissions
-BUILD END: slumber-0.7.1-py27_0
-TEST START: slumber-0.7.1-py27_0
+BUILD END: slumber-0.7.1-py_0
+TEST START: slumber-0.7.1-py_0
 Fetching package metadata: ......
-Solving package specifications: .===== testing package: slumber-0.7.1-py27_0 =====
-import: u'slumber'
-===== slumber-0.7.1-py27_0 OK =====
 
-The following packages will be downloaded:
+WARNING: conda-build appears to be out of date. You have version 1.13.0 but the
+latest version is 1.14.1. Run
 
-    package                    |            build
-    ---------------------------|-----------------
-    slumber-0.7.1              |           py27_0          11 KB
+conda update -n root conda-build
 
-The following NEW packages will be INSTALLED:
+to get the latest version.
 
-    openssl:    1.0.1k-1    
-    pip:        6.1.1-py27_0
-    python:     2.7.9-3     
-    readline:   6.2-2       
-    requests:   2.7.0-py27_0
-    setuptools: 16.0-py27_0 
-    slumber:    0.7.1-py27_0
-    sqlite:     3.8.4.1-1   
-    system:     5.8-2       
-    tk:         8.5.18-0    
-    zlib:       1.2.8-0     
+Solving package specifications: ..
+Error: Unsatisfiable package specifications.
+Generating hint: 
+[      COMPLETE      ]|                                                  |   0%[2/4                 ]|#########################                         |  50%[      COMPLETE      ]|##################################################| 100%
 
-Fetching packages ...
-slumber-0.7.1-   0% |                              | ETA:  --:--:--   0.00  B/sslumber-0.7.1- 100% |###############################| ETA:  0:00:00  32.30 MB/sslumber-0.7.1- 100% |###############################| Time: 0:00:00  19.29 MB/s
-Extracting packages ...
-[      COMPLETE      ]|                                                  |   0%[slumber             ]|                                                  |   0%[slumber             ]|                                                  |   0%[      COMPLETE      ]|##################################################| 100%
-Linking packages ...
-[      COMPLETE      ]|                                                  |   0%[openssl             ]|                                                  |   0%[openssl             ]|                                                  |   0%[readline            ]|####                                              |   9%[sqlite              ]|#########                                         |  18%[system              ]|#############                                     |  27%[tk                  ]|##################                                |  36%[zlib                ]|######################                            |  45%[python              ]|###########################                       |  54%[requests            ]|###############################                   |  63%[setuptools          ]|####################################              |  72%[pip                 ]|########################################          |  81%[slumber             ]|#############################################     |  90%[      COMPLETE      ]|##################################################| 100%
-TEST END: slumber-0.7.1-py27_0
-# If you want to upload this package to binstar.org later, type:
-#
-# $ binstar upload /home/ubuntu/miniconda/conda-bld/linux-64/slumber-0.7.1-py27_0.tar.bz2
-#
-# To have conda build upload to binstar automatically, use
-# $ conda config --set binstar_upload yes
-
+Hint: the following packages conflict with each other:
+  - unittest2
+  - python 2.7*

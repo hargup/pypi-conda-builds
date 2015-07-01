@@ -1,12 +1,16 @@
-There was an error importing jinja2.
-Please run `conda install jinja2` to enable jinja template support
 Removing old build directory
 Removing old work directory
 BUILD START: speaklater-1.3-py27_0
 Fetching package metadata: ......
-Solving package specifications: .There was an error importing jinja2.
-Please run `conda install jinja2` to enable jinja template support
-+ /home/ubuntu/miniconda/envs/_build/bin/python setup.py install
+
+WARNING: conda-build appears to be out of date. You have version 1.13.0 but the
+latest version is 1.14.1. Run
+
+conda update -n root conda-build
+
+to get the latest version.
+
+Solving package specifications: .+ /home/ubuntu/miniconda/envs/_build/bin/python setup.py install
 running install
 running bdist_egg
 running egg_info
@@ -47,15 +51,15 @@ Finished processing dependencies for speaklater==1.3
 
 The following NEW packages will be INSTALLED:
 
-    openssl:    1.0.1k-1    
-    pip:        6.1.1-py27_0
-    python:     2.7.9-3     
-    readline:   6.2-2       
-    setuptools: 16.0-py27_0 
-    sqlite:     3.8.4.1-1   
-    system:     5.8-2       
-    tk:         8.5.18-0    
-    zlib:       1.2.8-0     
+    openssl:    1.0.1k-1     
+    pip:        7.0.3-py27_0 
+    python:     2.7.10-0     
+    readline:   6.2-2        
+    setuptools: 18.0.1-py27_0
+    sqlite:     3.8.4.1-1    
+    system:     5.8-2        
+    tk:         8.5.18-0     
+    zlib:       1.2.8-0      
 
 Linking packages ...
 [                    ]|                                                  |   0%[openssl             ]|                                                  |   0%[readline            ]|#####                                             |  11%[sqlite              ]|###########                                       |  22%[system              ]|################                                  |  33%[tk                  ]|######################                            |  44%[zlib                ]|###########################                       |  55%[python              ]|#################################                 |  66%[setuptools          ]|######################################            |  77%[pip                 ]|############################################      |  88%[      COMPLETE      ]|##################################################| 100%
@@ -70,38 +74,7 @@ number of files: 3
 Fixing permissions
 Fixing permissions
 BUILD END: speaklater-1.3-py27_0
-TEST START: speaklater-1.3-py27_0
-Fetching package metadata: ......
-Solving package specifications: .===== testing package: speaklater-1.3-py27_0 =====
-import: u'speaklater'
-===== speaklater-1.3-py27_0 OK =====
-
-The following packages will be downloaded:
-
-    package                    |            build
-    ---------------------------|-----------------
-    speaklater-1.3             |           py27_0           5 KB
-
-The following NEW packages will be INSTALLED:
-
-    openssl:    1.0.1k-1    
-    pip:        6.1.1-py27_0
-    python:     2.7.9-3     
-    readline:   6.2-2       
-    setuptools: 16.0-py27_0 
-    speaklater: 1.3-py27_0  
-    sqlite:     3.8.4.1-1   
-    system:     5.8-2       
-    tk:         8.5.18-0    
-    zlib:       1.2.8-0     
-
-Fetching packages ...
-speaklater-1.3   0% |                              | ETA:  --:--:--   0.00  B/sspeaklater-1.3 100% |###############################| ETA:  0:00:00   3.97 MB/sspeaklater-1.3 100% |###############################| Time: 0:00:00   3.38 MB/s
-Extracting packages ...
-[      COMPLETE      ]|                                                  |   0%[speaklater          ]|                                                  |   0%[speaklater          ]|                                                  |   0%[      COMPLETE      ]|##################################################| 100%
-Linking packages ...
-[      COMPLETE      ]|                                                  |   0%[openssl             ]|                                                  |   0%[openssl             ]|                                                  |   0%[readline            ]|#####                                             |  10%[sqlite              ]|##########                                        |  20%[system              ]|###############                                   |  30%[tk                  ]|####################                              |  40%[zlib                ]|#########################                         |  50%[python              ]|##############################                    |  60%[setuptools          ]|###################################               |  70%[speaklater          ]|########################################          |  80%[pip                 ]|#############################################     |  90%[      COMPLETE      ]|##################################################| 100%
-TEST END: speaklater-1.3-py27_0
+Nothing to test for: speaklater-1.3-py27_0
 # If you want to upload this package to binstar.org later, type:
 #
 # $ binstar upload /home/ubuntu/miniconda/conda-bld/linux-64/speaklater-1.3-py27_0.tar.bz2

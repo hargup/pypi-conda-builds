@@ -2,6 +2,14 @@ Removing old build directory
 Removing old work directory
 BUILD START: pysnmp-4.2.5-py27_0
 Fetching package metadata: ......
+
+WARNING: conda-build appears to be out of date. You have version 1.13.0 but the
+latest version is 1.14.1. Run
+
+conda update -n root conda-build
+
+to get the latest version.
+
 Solving package specifications: .+ /home/ubuntu/miniconda/envs/_build/bin/python setup.py install
 running install
 running bdist_egg
@@ -490,35 +498,44 @@ Installing build-pysnmp-mib script to /home/ubuntu/miniconda/envs/_build/bin
 
 Installed /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/pysnmp-4.2.5-py2.7.egg
 Processing dependencies for pysnmp==4.2.5
-Searching for pycrypto==2.6.1
+Searching for pycrypto>=2.4.1
+Reading https://pypi.python.org/simple/pycrypto/
 Best match: pycrypto 2.6.1
+Downloading https://pypi.python.org/packages/source/p/pycrypto/pycrypto-2.6.1.tar.gz#md5=55a61a054aa66812daf5161a0d5d7eda
+Processing pycrypto-2.6.1.tar.gz
+Writing /tmp/easy_install-19S0n_/pycrypto-2.6.1/setup.cfg
+Running pycrypto-2.6.1/setup.py -q bdist_egg --dist-dir /tmp/easy_install-19S0n_/pycrypto-2.6.1/egg-dist-tmp-CwFfVJ
+warning: GMP or MPIR library not found; Not building Crypto.PublicKey._fastmath.
+zip_safe flag not set; analyzing archive contents...
+Moving pycrypto-2.6.1-py2.7-linux-x86_64.egg to /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages
 Adding pycrypto 2.6.1 to easy-install.pth file
 
-Using /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages
-Searching for pyasn1==0.1.7
-Best match: pyasn1 0.1.7
-Processing pyasn1-0.1.7-py2.7.egg
-Adding pyasn1 0.1.7 to easy-install.pth file
+Installed /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/pycrypto-2.6.1-py2.7-linux-x86_64.egg
+Searching for pyasn1>=0.1.2
+Reading https://pypi.python.org/simple/pyasn1/
+Best match: pyasn1 0.1.8
+Downloading https://pypi.python.org/packages/2.7/p/pyasn1/pyasn1-0.1.8-py2.7.egg#md5=59f23a2692b9b4bc7901d166eba69167
+Processing pyasn1-0.1.8-py2.7.egg
+Moving pyasn1-0.1.8-py2.7.egg to /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages
+Adding pyasn1 0.1.8 to easy-install.pth file
 
-Using /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/pyasn1-0.1.7-py2.7.egg
+Installed /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/pyasn1-0.1.8-py2.7.egg
 Finished processing dependencies for pysnmp==4.2.5
 
 The following NEW packages will be INSTALLED:
 
-    openssl:    1.0.1k-1    
-    pip:        7.0.3-py27_0
-    pyasn1:     0.1.7-py27_0
-    pycrypto:   2.6.1-py27_0
-    python:     2.7.10-0    
-    readline:   6.2-2       
-    setuptools: 17.0-py27_0 
-    sqlite:     3.8.4.1-1   
-    system:     5.8-2       
-    tk:         8.5.18-0    
-    zlib:       1.2.8-0     
+    openssl:    1.0.1k-1     
+    pip:        7.0.3-py27_0 
+    python:     2.7.10-0     
+    readline:   6.2-2        
+    setuptools: 18.0.1-py27_0
+    sqlite:     3.8.4.1-1    
+    system:     5.8-2        
+    tk:         8.5.18-0     
+    zlib:       1.2.8-0      
 
 Linking packages ...
-[                    ]|                                                  |   0%[openssl             ]|                                                  |   0%[readline            ]|####                                              |   9%[sqlite              ]|#########                                         |  18%[system              ]|#############                                     |  27%[tk                  ]|##################                                |  36%[zlib                ]|######################                            |  45%[pyasn1              ]|###########################                       |  54%[pycrypto            ]|###############################                   |  63%[python              ]|####################################              |  72%[setuptools          ]|########################################          |  81%[pip                 ]|#############################################     |  90%[      COMPLETE      ]|##################################################| 100%
+[                    ]|                                                  |   0%[openssl             ]|                                                  |   0%[readline            ]|#####                                             |  11%[sqlite              ]|###########                                       |  22%[system              ]|################                                  |  33%[tk                  ]|######################                            |  44%[zlib                ]|###########################                       |  55%[python              ]|#################################                 |  66%[setuptools          ]|######################################            |  77%[pip                 ]|############################################      |  88%[      COMPLETE      ]|##################################################| 100%
 Removing old work directory
 Source cache directory is: /home/ubuntu/miniconda/conda-bld/src_cache
 Found source in cache: pysnmp-4.2.5.tar.gz
@@ -526,41 +543,49 @@ Extracting download
 Package: pysnmp-4.2.5-py27_0
 source tree in: /home/ubuntu/miniconda/conda-bld/work/pysnmp-4.2.5
 found egg: /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/pysnmp-4.2.5-py2.7.egg
-number of files: 4
+found egg: /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/pycrypto-2.6.1-py2.7-linux-x86_64.egg
+found egg: /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/pyasn1-0.1.8-py2.7.egg
+number of files: 8
 Fixing permissions
 Detected hard-coded path in text file bin/libsmi2pysnmp
 Fixing permissions
 BUILD END: pysnmp-4.2.5-py27_0
 TEST START: pysnmp-4.2.5-py27_0
 Fetching package metadata: ......
+
+WARNING: conda-build appears to be out of date. You have version 1.13.0 but the
+latest version is 1.14.1. Run
+
+conda update -n root conda-build
+
+to get the latest version.
+
 Solving package specifications: .
 The following packages will be downloaded:
 
     package                    |            build
     ---------------------------|-----------------
-    pysnmp-4.2.5               |           py27_0         396 KB
+    pysnmp-4.2.5               |           py27_0         1.2 MB
 
 The following NEW packages will be INSTALLED:
 
-    openssl:    1.0.1k-1    
-    pip:        7.0.3-py27_0
-    pyasn1:     0.1.7-py27_0
-    pycrypto:   2.6.1-py27_0
-    pysnmp:     4.2.5-py27_0
-    python:     2.7.10-0    
-    readline:   6.2-2       
-    setuptools: 17.0-py27_0 
-    sqlite:     3.8.4.1-1   
-    system:     5.8-2       
-    tk:         8.5.18-0    
-    zlib:       1.2.8-0     
+    openssl:    1.0.1k-1     
+    pip:        7.0.3-py27_0 
+    pysnmp:     4.2.5-py27_0 
+    python:     2.7.10-0     
+    readline:   6.2-2        
+    setuptools: 18.0.1-py27_0
+    sqlite:     3.8.4.1-1    
+    system:     5.8-2        
+    tk:         8.5.18-0     
+    zlib:       1.2.8-0      
 
 Fetching packages ...
-pysnmp-4.2.5-p   0% |                              | ETA:  --:--:--   0.00  B/spysnmp-4.2.5-p   4% |#                              | ETA:  0:00:00  46.81 MB/spysnmp-4.2.5-p   8% |##                             | ETA:  0:00:00  58.73 MB/spysnmp-4.2.5-p  12% |###                            | ETA:  0:00:00  62.85 MB/spysnmp-4.2.5-p  16% |#####                          | ETA:  0:00:00  67.29 MB/spysnmp-4.2.5-p  20% |######                         | ETA:  0:00:00  70.57 MB/spysnmp-4.2.5-p  24% |#######                        | ETA:  0:00:00  73.09 MB/spysnmp-4.2.5-p  28% |########                       | ETA:  0:00:00  74.96 MB/spysnmp-4.2.5-p  32% |##########                     | ETA:  0:00:00  76.57 MB/spysnmp-4.2.5-p  36% |###########                    | ETA:  0:00:00  77.90 MB/spysnmp-4.2.5-p  40% |############                   | ETA:  0:00:00  78.85 MB/spysnmp-4.2.5-p  44% |#############                  | ETA:  0:00:00  79.57 MB/spysnmp-4.2.5-p  48% |###############                | ETA:  0:00:00  80.45 MB/spysnmp-4.2.5-p  52% |################               | ETA:  0:00:00  81.08 MB/spysnmp-4.2.5-p  56% |#################              | ETA:  0:00:00  81.75 MB/spysnmp-4.2.5-p  60% |##################             | ETA:  0:00:00  82.31 MB/spysnmp-4.2.5-p  64% |####################           | ETA:  0:00:00  82.67 MB/spysnmp-4.2.5-p  68% |#####################          | ETA:  0:00:00  83.09 MB/spysnmp-4.2.5-p  72% |######################         | ETA:  0:00:00  83.31 MB/spysnmp-4.2.5-p  76% |#######################        | ETA:  0:00:00  83.71 MB/spysnmp-4.2.5-p  80% |#########################      | ETA:  0:00:00  84.07 MB/spysnmp-4.2.5-p  84% |##########################     | ETA:  0:00:00  84.37 MB/spysnmp-4.2.5-p  88% |###########################    | ETA:  0:00:00  84.67 MB/spysnmp-4.2.5-p  92% |############################   | ETA:  0:00:00  84.97 MB/spysnmp-4.2.5-p  96% |############################## | ETA:  0:00:00  85.28 MB/spysnmp-4.2.5-p 100% |###############################| ETA:  0:00:00  84.42 MB/spysnmp-4.2.5-p 100% |###############################| Time: 0:00:00  80.49 MB/s
+pysnmp-4.2.5-p   0% |                              | ETA:  --:--:--   0.00  B/spysnmp-4.2.5-p   1% |                               | ETA:  0:00:00  47.10 MB/spysnmp-4.2.5-p   2% |                               | ETA:  0:00:00  59.06 MB/spysnmp-4.2.5-p   3% |#                              | ETA:  0:00:00  65.99 MB/spysnmp-4.2.5-p   5% |#                              | ETA:  0:00:00  70.01 MB/spysnmp-4.2.5-p   6% |#                              | ETA:  0:00:00  73.15 MB/spysnmp-4.2.5-p   7% |##                             | ETA:  0:00:00  75.28 MB/spysnmp-4.2.5-p   8% |##                             | ETA:  0:00:00  77.13 MB/spysnmp-4.2.5-p  10% |###                            | ETA:  0:00:00  78.68 MB/spysnmp-4.2.5-p  11% |###                            | ETA:  0:00:00  79.83 MB/spysnmp-4.2.5-p  12% |###                            | ETA:  0:00:00  80.87 MB/spysnmp-4.2.5-p  14% |####                           | ETA:  0:00:00  81.62 MB/spysnmp-4.2.5-p  15% |####                           | ETA:  0:00:00  82.33 MB/spysnmp-4.2.5-p  16% |#####                          | ETA:  0:00:00  82.88 MB/spysnmp-4.2.5-p  17% |#####                          | ETA:  0:00:00  83.44 MB/spysnmp-4.2.5-p  19% |#####                          | ETA:  0:00:00  83.97 MB/spysnmp-4.2.5-p  20% |######                         | ETA:  0:00:00  84.43 MB/spysnmp-4.2.5-p  21% |######                         | ETA:  0:00:00  84.84 MB/spysnmp-4.2.5-p  23% |#######                        | ETA:  0:00:00  85.24 MB/spysnmp-4.2.5-p  24% |#######                        | ETA:  0:00:00  85.50 MB/spysnmp-4.2.5-p  25% |#######                        | ETA:  0:00:00  85.65 MB/spysnmp-4.2.5-p  26% |########                       | ETA:  0:00:00  85.44 MB/spysnmp-4.2.5-p  28% |########                       | ETA:  0:00:00  85.70 MB/spysnmp-4.2.5-p  29% |#########                      | ETA:  0:00:00  85.96 MB/spysnmp-4.2.5-p  30% |#########                      | ETA:  0:00:00  86.21 MB/spysnmp-4.2.5-p  32% |#########                      | ETA:  0:00:00  86.44 MB/spysnmp-4.2.5-p  33% |##########                     | ETA:  0:00:00  86.64 MB/spysnmp-4.2.5-p  34% |##########                     | ETA:  0:00:00  86.76 MB/spysnmp-4.2.5-p  35% |###########                    | ETA:  0:00:00  86.94 MB/spysnmp-4.2.5-p  37% |###########                    | ETA:  0:00:00  87.04 MB/spysnmp-4.2.5-p  38% |###########                    | ETA:  0:00:00  87.21 MB/spysnmp-4.2.5-p  39% |############                   | ETA:  0:00:00  87.31 MB/spysnmp-4.2.5-p  41% |############                   | ETA:  0:00:00  87.47 MB/spysnmp-4.2.5-p  42% |#############                  | ETA:  0:00:00  87.57 MB/spysnmp-4.2.5-p  43% |#############                  | ETA:  0:00:00  87.64 MB/spysnmp-4.2.5-p  44% |#############                  | ETA:  0:00:00  87.76 MB/spysnmp-4.2.5-p  46% |##############                 | ETA:  0:00:00  87.89 MB/spysnmp-4.2.5-p  47% |##############                 | ETA:  0:00:00  87.93 MB/spysnmp-4.2.5-p  48% |###############                | ETA:  0:00:00  88.02 MB/spysnmp-4.2.5-p  50% |###############                | ETA:  0:00:00  88.14 MB/spysnmp-4.2.5-p  51% |###############                | ETA:  0:00:00  88.24 MB/spysnmp-4.2.5-p  52% |################               | ETA:  0:00:00  88.33 MB/spysnmp-4.2.5-p  53% |################               | ETA:  0:00:00  43.23 MB/spysnmp-4.2.5-p  55% |#################              | ETA:  0:00:00  43.75 MB/spysnmp-4.2.5-p  56% |#################              | ETA:  0:00:00  44.24 MB/spysnmp-4.2.5-p  57% |#################              | ETA:  0:00:00  44.75 MB/spysnmp-4.2.5-p  59% |##################             | ETA:  0:00:00  45.25 MB/spysnmp-4.2.5-p  60% |##################             | ETA:  0:00:00  45.75 MB/spysnmp-4.2.5-p  61% |###################            | ETA:  0:00:00  46.23 MB/spysnmp-4.2.5-p  62% |###################            | ETA:  0:00:00  46.71 MB/spysnmp-4.2.5-p  64% |###################            | ETA:  0:00:00  47.18 MB/spysnmp-4.2.5-p  65% |####################           | ETA:  0:00:00  47.62 MB/spysnmp-4.2.5-p  66% |####################           | ETA:  0:00:00  48.07 MB/spysnmp-4.2.5-p  68% |#####################          | ETA:  0:00:00  48.50 MB/spysnmp-4.2.5-p  69% |#####################          | ETA:  0:00:00  48.93 MB/spysnmp-4.2.5-p  70% |#####################          | ETA:  0:00:00  49.35 MB/spysnmp-4.2.5-p  71% |######################         | ETA:  0:00:00  49.76 MB/spysnmp-4.2.5-p  73% |######################         | ETA:  0:00:00  50.17 MB/spysnmp-4.2.5-p  74% |#######################        | ETA:  0:00:00  50.56 MB/spysnmp-4.2.5-p  75% |#######################        | ETA:  0:00:00  50.95 MB/spysnmp-4.2.5-p  77% |#######################        | ETA:  0:00:00  51.34 MB/spysnmp-4.2.5-p  78% |########################       | ETA:  0:00:00  51.70 MB/spysnmp-4.2.5-p  79% |########################       | ETA:  0:00:00  52.07 MB/spysnmp-4.2.5-p  80% |#########################      | ETA:  0:00:00  52.44 MB/spysnmp-4.2.5-p  82% |#########################      | ETA:  0:00:00  52.76 MB/spysnmp-4.2.5-p  83% |#########################      | ETA:  0:00:00  53.10 MB/spysnmp-4.2.5-p  84% |##########################     | ETA:  0:00:00  53.43 MB/spysnmp-4.2.5-p  86% |##########################     | ETA:  0:00:00  53.77 MB/spysnmp-4.2.5-p  87% |###########################    | ETA:  0:00:00  54.10 MB/spysnmp-4.2.5-p  88% |###########################    | ETA:  0:00:00  54.42 MB/spysnmp-4.2.5-p  89% |###########################    | ETA:  0:00:00  54.74 MB/spysnmp-4.2.5-p  91% |############################   | ETA:  0:00:00  55.06 MB/spysnmp-4.2.5-p  92% |############################   | ETA:  0:00:00  55.37 MB/spysnmp-4.2.5-p  93% |#############################  | ETA:  0:00:00  55.67 MB/spysnmp-4.2.5-p  95% |#############################  | ETA:  0:00:00  55.96 MB/spysnmp-4.2.5-p  96% |#############################  | ETA:  0:00:00  56.26 MB/spysnmp-4.2.5-p  97% |############################## | ETA:  0:00:00  56.54 MB/spysnmp-4.2.5-p  98% |############################## | ETA:  0:00:00  56.82 MB/spysnmp-4.2.5-p 100% |###############################| ETA:  0:00:00  57.03 MB/spysnmp-4.2.5-p 100% |###############################| Time: 0:00:00  56.44 MB/s
 Extracting packages ...
 [      COMPLETE      ]|                                                  |   0%[pysnmp              ]|                                                  |   0%[pysnmp              ]|                                                  |   0%[      COMPLETE      ]|##################################################| 100%
 Linking packages ...
-[      COMPLETE      ]|                                                  |   0%[openssl             ]|                                                  |   0%[openssl             ]|                                                  |   0%[readline            ]|####                                              |   8%[sqlite              ]|########                                          |  16%[system              ]|############                                      |  25%[tk                  ]|################                                  |  33%[zlib                ]|####################                              |  41%[pyasn1              ]|#########################                         |  50%[pycrypto            ]|#############################                     |  58%[pysnmp              ]|#################################                 |  66%[python              ]|#####################################===== testing package: pysnmp-4.2.5-py27_0 =====
+[      COMPLETE      ]|                                                  |   0%[openssl             ]|                                                  |   0%[openssl             ]|                                                  |   0%[readline            ]|#####                                             |  10%[sqlite              ]|##########                                        |  20%[system              ]|###############                                   |  30%[tk                  ]|####################                              |  40%[zlib                ]|#########################                         |  50%[pysnmp              ]|##############################                    |  60%[python              ]|###################################               |  70%[setuptools          ]|#####################===== testing package: pysnmp-4.2.5-py27_0 =====
 import: u'pysnmp'
 import: u'pysnmp.carrier'
 import: u'pysnmp.carrier.asynsock'
@@ -588,7 +613,7 @@ import: u'pysnmp.smi'
 import: u'pysnmp.smi.mibs'
 import: u'pysnmp.smi.mibs.instances'
 ===== pysnmp-4.2.5-py27_0 OK =====
-             |  75%[setuptools          ]|#########################################         |  83%[pip                 ]|#############################################     |  91%[      COMPLETE      ]|##################################################| 100%
+###################          |  80%[pip                 ]|#############################################     |  90%[      COMPLETE      ]|##################################################| 100%
 TEST END: pysnmp-4.2.5-py27_0
 # If you want to upload this package to binstar.org later, type:
 #

@@ -1,0 +1,196 @@
+Removing old build directory
+Removing old work directory
+BUILD START: clint-0.4.1-py_0
+Fetching package metadata: ......
+
+WARNING: conda-build appears to be out of date. You have version 1.13.0 but the
+latest version is 1.14.1. Run
+
+conda update -n root conda-build
+
+to get the latest version.
+
+Solving package specifications: .+ /home/ubuntu/miniconda/envs/_build/bin/python setup.py install
+running install
+running bdist_egg
+running egg_info
+writing requirements to clint.egg-info/requires.txt
+writing clint.egg-info/PKG-INFO
+writing top-level names to clint.egg-info/top_level.txt
+writing dependency_links to clint.egg-info/dependency_links.txt
+reading manifest file 'clint.egg-info/SOURCES.txt'
+reading manifest template 'MANIFEST.in'
+warning: no files found matching 'recursive-include'
+warning: no files found matching 'docs'
+writing manifest file 'clint.egg-info/SOURCES.txt'
+installing library code to build/bdist.linux-x86_64/egg
+running install_lib
+running build_py
+creating build
+creating build/lib
+creating build/lib/clint
+copying clint/utils.py -> build/lib/clint
+copying clint/eng.py -> build/lib/clint
+copying clint/pipes.py -> build/lib/clint
+copying clint/resources.py -> build/lib/clint
+copying clint/arguments.py -> build/lib/clint
+copying clint/__init__.py -> build/lib/clint
+creating build/lib/clint/textui
+copying clint/textui/colored.py -> build/lib/clint/textui
+copying clint/textui/validators.py -> build/lib/clint/textui
+copying clint/textui/prompt.py -> build/lib/clint/textui
+copying clint/textui/cols.py -> build/lib/clint/textui
+copying clint/textui/__init__.py -> build/lib/clint/textui
+copying clint/textui/formatters.py -> build/lib/clint/textui
+copying clint/textui/core.py -> build/lib/clint/textui
+copying clint/textui/progress.py -> build/lib/clint/textui
+creating build/lib/clint/packages
+copying clint/packages/__init__.py -> build/lib/clint/packages
+copying clint/packages/ordereddict.py -> build/lib/clint/packages
+copying clint/packages/appdirs.py -> build/lib/clint/packages
+creating build/lib/clint/packages/colorama
+copying clint/packages/colorama/ansitowin32.py -> build/lib/clint/packages/colorama
+copying clint/packages/colorama/initialise.py -> build/lib/clint/packages/colorama
+copying clint/packages/colorama/ansi.py -> build/lib/clint/packages/colorama
+copying clint/packages/colorama/winterm.py -> build/lib/clint/packages/colorama
+copying clint/packages/colorama/__init__.py -> build/lib/clint/packages/colorama
+copying clint/packages/colorama/win32.py -> build/lib/clint/packages/colorama
+creating build/bdist.linux-x86_64
+creating build/bdist.linux-x86_64/egg
+creating build/bdist.linux-x86_64/egg/clint
+copying build/lib/clint/utils.py -> build/bdist.linux-x86_64/egg/clint
+copying build/lib/clint/eng.py -> build/bdist.linux-x86_64/egg/clint
+copying build/lib/clint/pipes.py -> build/bdist.linux-x86_64/egg/clint
+copying build/lib/clint/resources.py -> build/bdist.linux-x86_64/egg/clint
+copying build/lib/clint/arguments.py -> build/bdist.linux-x86_64/egg/clint
+copying build/lib/clint/__init__.py -> build/bdist.linux-x86_64/egg/clint
+creating build/bdist.linux-x86_64/egg/clint/textui
+copying build/lib/clint/textui/colored.py -> build/bdist.linux-x86_64/egg/clint/textui
+copying build/lib/clint/textui/validators.py -> build/bdist.linux-x86_64/egg/clint/textui
+copying build/lib/clint/textui/prompt.py -> build/bdist.linux-x86_64/egg/clint/textui
+copying build/lib/clint/textui/cols.py -> build/bdist.linux-x86_64/egg/clint/textui
+copying build/lib/clint/textui/__init__.py -> build/bdist.linux-x86_64/egg/clint/textui
+copying build/lib/clint/textui/formatters.py -> build/bdist.linux-x86_64/egg/clint/textui
+copying build/lib/clint/textui/core.py -> build/bdist.linux-x86_64/egg/clint/textui
+copying build/lib/clint/textui/progress.py -> build/bdist.linux-x86_64/egg/clint/textui
+creating build/bdist.linux-x86_64/egg/clint/packages
+creating build/bdist.linux-x86_64/egg/clint/packages/colorama
+copying build/lib/clint/packages/colorama/ansitowin32.py -> build/bdist.linux-x86_64/egg/clint/packages/colorama
+copying build/lib/clint/packages/colorama/initialise.py -> build/bdist.linux-x86_64/egg/clint/packages/colorama
+copying build/lib/clint/packages/colorama/ansi.py -> build/bdist.linux-x86_64/egg/clint/packages/colorama
+copying build/lib/clint/packages/colorama/winterm.py -> build/bdist.linux-x86_64/egg/clint/packages/colorama
+copying build/lib/clint/packages/colorama/__init__.py -> build/bdist.linux-x86_64/egg/clint/packages/colorama
+copying build/lib/clint/packages/colorama/win32.py -> build/bdist.linux-x86_64/egg/clint/packages/colorama
+copying build/lib/clint/packages/__init__.py -> build/bdist.linux-x86_64/egg/clint/packages
+copying build/lib/clint/packages/ordereddict.py -> build/bdist.linux-x86_64/egg/clint/packages
+copying build/lib/clint/packages/appdirs.py -> build/bdist.linux-x86_64/egg/clint/packages
+byte-compiling build/bdist.linux-x86_64/egg/clint/utils.py to utils.pyc
+byte-compiling build/bdist.linux-x86_64/egg/clint/eng.py to eng.pyc
+byte-compiling build/bdist.linux-x86_64/egg/clint/pipes.py to pipes.pyc
+byte-compiling build/bdist.linux-x86_64/egg/clint/resources.py to resources.pyc
+byte-compiling build/bdist.linux-x86_64/egg/clint/arguments.py to arguments.pyc
+byte-compiling build/bdist.linux-x86_64/egg/clint/__init__.py to __init__.pyc
+byte-compiling build/bdist.linux-x86_64/egg/clint/textui/colored.py to colored.pyc
+byte-compiling build/bdist.linux-x86_64/egg/clint/textui/validators.py to validators.pyc
+byte-compiling build/bdist.linux-x86_64/egg/clint/textui/prompt.py to prompt.pyc
+byte-compiling build/bdist.linux-x86_64/egg/clint/textui/cols.py to cols.pyc
+byte-compiling build/bdist.linux-x86_64/egg/clint/textui/__init__.py to __init__.pyc
+byte-compiling build/bdist.linux-x86_64/egg/clint/textui/formatters.py to formatters.pyc
+byte-compiling build/bdist.linux-x86_64/egg/clint/textui/core.py to core.pyc
+byte-compiling build/bdist.linux-x86_64/egg/clint/textui/progress.py to progress.pyc
+byte-compiling build/bdist.linux-x86_64/egg/clint/packages/colorama/ansitowin32.py to ansitowin32.pyc
+byte-compiling build/bdist.linux-x86_64/egg/clint/packages/colorama/initialise.py to initialise.pyc
+byte-compiling build/bdist.linux-x86_64/egg/clint/packages/colorama/ansi.py to ansi.pyc
+byte-compiling build/bdist.linux-x86_64/egg/clint/packages/colorama/winterm.py to winterm.pyc
+byte-compiling build/bdist.linux-x86_64/egg/clint/packages/colorama/__init__.py to __init__.pyc
+byte-compiling build/bdist.linux-x86_64/egg/clint/packages/colorama/win32.py to win32.pyc
+byte-compiling build/bdist.linux-x86_64/egg/clint/packages/__init__.py to __init__.pyc
+byte-compiling build/bdist.linux-x86_64/egg/clint/packages/ordereddict.py to ordereddict.pyc
+byte-compiling build/bdist.linux-x86_64/egg/clint/packages/appdirs.py to appdirs.pyc
+creating build/bdist.linux-x86_64/egg/EGG-INFO
+copying clint.egg-info/PKG-INFO -> build/bdist.linux-x86_64/egg/EGG-INFO
+copying clint.egg-info/SOURCES.txt -> build/bdist.linux-x86_64/egg/EGG-INFO
+copying clint.egg-info/dependency_links.txt -> build/bdist.linux-x86_64/egg/EGG-INFO
+copying clint.egg-info/requires.txt -> build/bdist.linux-x86_64/egg/EGG-INFO
+copying clint.egg-info/top_level.txt -> build/bdist.linux-x86_64/egg/EGG-INFO
+zip_safe flag not set; analyzing archive contents...
+creating dist
+creating 'dist/clint-0.4.1-py2.7.egg' and adding 'build/bdist.linux-x86_64/egg' to it
+removing 'build/bdist.linux-x86_64/egg' (and everything under it)
+Processing clint-0.4.1-py2.7.egg
+Copying clint-0.4.1-py2.7.egg to /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages
+Adding clint 0.4.1 to easy-install.pth file
+
+Installed /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/clint-0.4.1-py2.7.egg
+Processing dependencies for clint==0.4.1
+Searching for args==0.1.0
+Best match: args 0.1.0
+Adding args 0.1.0 to easy-install.pth file
+
+Using /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages
+Finished processing dependencies for clint==0.4.1
+
+The following NEW packages will be INSTALLED:
+
+    args:       0.1.0-py27_0 
+    openssl:    1.0.1k-1     
+    pip:        7.0.3-py27_0 
+    python:     2.7.10-0     
+    readline:   6.2-2        
+    setuptools: 18.0.1-py27_0
+    sqlite:     3.8.4.1-1    
+    system:     5.8-2        
+    tk:         8.5.18-0     
+    zlib:       1.2.8-0      
+
+Linking packages ...
+[                    ]|                                                  |   0%[openssl             ]|                                                  |   0%[readline            ]|#####                                             |  10%[sqlite              ]|##########                                        |  20%[system              ]|###############                                   |  30%[tk                  ]|####################                              |  40%[zlib                ]|#########################                         |  50%[args                ]|##############################                    |  60%[python              ]|###################################               |  70%[setuptools          ]|########################################          |  80%[pip                 ]|#############################################     |  90%[      COMPLETE      ]|##################################################| 100%
+Removing old work directory
+Source cache directory is: /home/ubuntu/miniconda/conda-bld/src_cache
+Found source in cache: clint-0.4.1.tar.gz
+Extracting download
+Package: clint-0.4.1-py_0
+source tree in: /home/ubuntu/miniconda/conda-bld/work/clint-0.4.1
+found egg: /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/clint-0.4.1-py2.7.egg
+number of files: 2
+Fixing permissions
+Fixing permissions
+BUILD END: clint-0.4.1-py_0
+TEST START: clint-0.4.1-py_0
+Fetching package metadata: ......
+
+WARNING: conda-build appears to be out of date. You have version 1.13.0 but the
+latest version is 1.14.1. Run
+
+conda update -n root conda-build
+
+to get the latest version.
+
+Solving package specifications: ./home/ubuntu/miniconda/pkgs/clint-0.4.1-py_0/bin/.clint-pre-link.sh: line 2: /home/ubuntu/miniconda/envs/_test/bin/python: No such file or directory
+
+The following packages will be downloaded:
+
+    package                    |            build
+    ---------------------------|-----------------
+    clint-0.4.1                |             py_0          65 KB
+
+The following NEW packages will be INSTALLED:
+
+    args:       0.1.0-py27_0 
+    clint:      0.4.1-py_0   
+    openssl:    1.0.1k-1     
+    pip:        7.0.3-py27_0 
+    python:     2.7.10-0     
+    readline:   6.2-2        
+    setuptools: 18.0.1-py27_0
+    sqlite:     3.8.4.1-1    
+    system:     5.8-2        
+    tk:         8.5.18-0     
+    zlib:       1.2.8-0      
+
+Fetching packages ...
+clint-0.4.1-py   0% |                              | ETA:  --:--:--   0.00  B/sclint-0.4.1-py  24% |#######                        | ETA:  0:00:00  46.31 MB/sclint-0.4.1-py  49% |###############                | ETA:  0:00:00  58.21 MB/sclint-0.4.1-py  73% |######################         | ETA:  0:00:00  64.93 MB/sclint-0.4.1-py  98% |############################## | ETA:  0:00:00  69.13 MB/sclint-0.4.1-py 100% |###############################| ETA:  0:00:00  61.36 MB/sclint-0.4.1-py 100% |###############################| Time: 0:00:00  50.30 MB/s
+Extracting packages ...
+[      COMPLETE      ]|                                                  |   0%[clint               ]|                                                  |   0%[clint               ]|                                                  |   0%[      COMPLETE      ]|##################################################| 100%
+Linking packages ...
+[      COMPLETE      ]|                                                  |   0%[openssl             ]|                                                  |   0%[openssl             ]|                                                  |   0%[readline            ]|####                                              |   9%[sqlite              ]|#########                                         |  18%[system              ]|#############                                     |  27%[tk                  ]|##################                                |  36%[zlib                ]|######################                            |  45%[args                ]|###########################                       |  54%[clint               ]|###############################                   |  63%Error: pre-link failed: clint-0.4.1-py_0

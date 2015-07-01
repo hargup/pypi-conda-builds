@@ -1,0 +1,82 @@
+package:
+  name: pbp.recipe.noserunner
+  version: "0.2.6"
+
+source:
+  fn: pbp.recipe.noserunner-0.2.6.tar.gz
+  url: https://pypi.python.org/packages/source/p/pbp.recipe.noserunner/pbp.recipe.noserunner-0.2.6.tar.gz
+  md5: e40520a6e84a237604591d204dfb7270
+#  patches:
+   # List any patch files here
+   # - fix.patch
+
+build:
+  noarch_python: True
+  preserve_egg_dir: True
+  # entry_points:
+    # Put any entry points (scripts to be generated automatically) here. The
+    # syntax is module:function.  For example
+    #
+    # - pbp.recipe.noserunner = pbp.recipe.noserunner:main
+    #
+    # Would create an entry point called pbp.recipe.noserunner that calls pbp.recipe.noserunner.main()
+
+
+  # If this is a new build for the same version, increment the build
+  # number. If you do not include this key, it defaults to 0.
+  # number: 1
+
+requirements:
+  build:
+    - python
+    - setuptools
+    - setuptools
+    - zc.buildout
+    - nose
+    - zc.recipe.egg
+    - nose
+    - zc.buildout
+    - zc.recipe.egg
+
+  run:
+    - python
+    - setuptools
+    - setuptools
+    - zc.buildout
+    - nose
+    - zc.recipe.egg
+    - nose
+    - zc.buildout
+    - zc.recipe.egg
+
+test:
+  # Python imports
+  imports:
+    - pbp
+    - pbp.recipe
+    - pbp.recipe.noserunner
+    - pbp.recipe.noserunner.tests
+
+  # commands:
+    # You can put test commands to be run here.  Use this to test that the
+    # entry points work.
+
+
+  # You can also put a file called run_test.py in the recipe that will be run
+  # at test time.
+
+  requires:
+    - nose
+    - zc.buildout
+    - zc.recipe.egg
+    # Put any additional test requirements here.  For example
+    # - nose
+
+about:
+  home: http://atomisator.ziade.org
+  license: Zope Public License
+  summary: 'Expert Python Programming - ZC Buildout runner for nose'
+
+# See
+# http://docs.continuum.io/conda/build.html for
+# more information about meta.yaml

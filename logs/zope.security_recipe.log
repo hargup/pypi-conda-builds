@@ -36,18 +36,138 @@ Warning, the following versions were found for zope.security
 Using 4.0.3
 Use --version to specify a different version.
 Using url https://pypi.python.org/packages/source/z/zope.security/zope.security-4.0.3.tar.gz (849 KB) for zope.security.
-Downloading zope.security (use --no-download to skip this step)
+Downloading zope.security
+Using cached download
 Unpacking zope.security...
 done
-working in /tmp/tmpglYNe2conda_skeleton_zope.security-4.0.3.tar.gz
+working in /tmp/tmpTBWRzEconda_skeleton_zope.security-4.0.3.tar.gz
 Fetching package metadata: ......
+
+WARNING: conda-build appears to be out of date. You have version 1.13.0 but the
+latest version is 1.14.1. Run
+
+conda update -n root conda-build
+
+to get the latest version.
+
 Solving package specifications: .patching file core.py
 Hunk #1 succeeded at 168 with fuzz 2 (offset 2 lines).
-Traceback (most recent call last):
-  File "setup.py", line 24, in <module>
-    from setuptools import Extension
-ImportError: No module named setuptools
 
-Applying patch: '/tmp/tmpglYNe2conda_skeleton_zope.security-4.0.3.tar.gz/pypi-distutils.patch'
-$PYTHONPATH = /tmp/tmpglYNe2conda_skeleton_zope.security-4.0.3.tar.gz/zope.security-4.0.3
-Error: command failed: /home/ubuntu/miniconda/envs/_build/bin/python setup.py install
+WARNING: conda-build appears to be out of date. You have version 1.13.0 but the
+latest version is 1.14.1. Run
+
+conda update -n root conda-build
+
+to get the latest version.
+
+
+The following NEW packages will be INSTALLED:
+
+    numpy:  1.9.2-py27_0
+    pyyaml: 3.11-py27_1 
+    yaml:   0.1.6-0     
+
+Linking packages ...
+[                    ]|                                                  |   0%[yaml                ]|                                                  |   0%[numpy               ]|################                                  |  33%[pyyaml              ]|#################################                 |  66%[      COMPLETE      ]|##################################################| 100%
+Applying patch: '/tmp/tmpTBWRzEconda_skeleton_zope.security-4.0.3.tar.gz/pypi-distutils.patch'
+Using url https://pypi.python.org/packages/source/z/zope.untrustedpython/zope.untrustedpython-4.0.0.zip (16 KB) for zope.untrustedpython.
+Downloading zope.untrustedpython
+Using cached download
+Unpacking zope.untrustedpython...
+done
+working in /tmp/tmpZhTlqVconda_skeleton_zope.untrustedpython-4.0.0.zip
+Solving package specifications: .patching file core.py
+Hunk #1 succeeded at 168 with fuzz 2 (offset 2 lines).
+
+WARNING: conda-build appears to be out of date. You have version 1.13.0 but the
+latest version is 1.14.1. Run
+
+conda update -n root conda-build
+
+to get the latest version.
+
+
+Applying patch: '/tmp/tmpZhTlqVconda_skeleton_zope.untrustedpython-4.0.0.zip/pypi-distutils.patch'
+Warning, the following versions were found for zope.location
+4.0.3
+4.0.2
+4.0.1
+4.0.0
+3.9.1
+3.9.0
+3.8.2
+3.8.1
+3.8.0
+3.7.1
+3.7.0
+3.6.0
+3.5.5
+3.5.4
+3.5.3
+3.5.2
+3.5.1
+3.5.0
+3.4.0
+3.4.0b2
+Using 4.0.3
+Use --version to specify a different version.
+Using url https://pypi.python.org/packages/source/z/zope.location/zope.location-4.0.3.tar.gz (150 KB) for zope.location.
+Downloading zope.location
+Using cached download
+Unpacking zope.location...
+done
+working in /tmp/tmpp_xLU2conda_skeleton_zope.location-4.0.3.tar.gz
+Solving package specifications: .patching file core.py
+Hunk #1 succeeded at 168 with fuzz 2 (offset 2 lines).
+
+WARNING: conda-build appears to be out of date. You have version 1.13.0 but the
+latest version is 1.14.1. Run
+
+conda update -n root conda-build
+
+to get the latest version.
+
+
+Applying patch: '/tmp/tmpp_xLU2conda_skeleton_zope.location-4.0.3.tar.gz/pypi-distutils.patch'
+Warning, the following versions were found for zope.component
+4.2.2
+4.2.1
+4.2.0
+4.1.0
+4.0.2
+4.0.1
+4.0.0
+3.12.1
+3.12.0
+3.11.0
+3.10.0
+3.9.5
+3.9.4
+3.9.3
+3.9.2
+3.9.1
+3.9.0
+3.8.0
+3.7.1
+3.7.0
+3.6.0
+3.5.1
+3.5.0
+3.4.0
+3.4dev-r72749
+3.4dev-r72748
+3.4dev-r72747
+3.4dev-r72605
+Using 4.2.2
+Use --version to specify a different version.
+Using url https://pypi.python.org/packages/source/z/zope.component/zope.component-4.2.2.tar.gz (534 KB) for zope.component.
+Downloading zope.component
+Using cached download
+Unpacking zope.component...
+done
+working in /tmp/tmpOxQ2r5conda_skeleton_zope.component-4.2.2.tar.gz
+Solving package specifications: .patching file core.py
+Hunk #1 succeeded at 168 with fuzz 2 (offset 2 lines).
+
+Applying patch: '/tmp/tmpOxQ2r5conda_skeleton_zope.component-4.2.2.tar.gz/pypi-distutils.patch'
+Error: Could not find any versions of package zope.component[zcml]

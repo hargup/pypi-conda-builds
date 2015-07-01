@@ -1,35 +1,396 @@
-Error: prefix already exists: /home/ubuntu/miniconda/envs/_pipbuild_
-Collecting django-toolbelt==0.0.1
-  Downloading http://localhost/packages/source/d/django-toolbelt/django-toolbelt-0.0.1.tar.gz
-setuptools must be installed to install from a source distribution
-Package search: {'_pypi_ordering': False, 'version': '0.0.1', 'name': 'django-toolbelt', 'summary': 'A simple collection of common Django utilities.'}
-Creating standard recipe for django-toolbelt-0.0.1
-Using url https://pypi.python.org/packages/source/d/django-toolbelt/django-toolbelt-0.0.1.tar.gz (2 KB) for django-toolbelt.
-Downloading django-toolbelt
-Using cached download
-Unpacking django-toolbelt...
-done
-working in /tmp/tmpaVnWiXconda_skeleton_django-toolbelt-0.0.1.tar.gz
+Removing old build directory
+Removing old work directory
+BUILD START: django-1.8.2-py27_0
 Fetching package metadata: ......
 
 WARNING: conda-build appears to be out of date. You have version 1.13.0 but the
-latest version is 1.14.0. Run
+latest version is 1.14.1. Run
 
 conda update -n root conda-build
 
 to get the latest version.
 
-Solving package specifications: .patching file core.py
-Hunk #1 succeeded at 168 with fuzz 2 (offset 2 lines).
-Traceback (most recent call last):
-  File "setup.py", line 16, in <module>
-    from setuptools import setup
-ImportError: No module named setuptools
+Solving package specifications: .+ pip install django
+Collecting django
+  Downloading http://localhost/packages/py2.py3/D/Django/Django-1.8.1-py2.py3-none-any.whl (6.2MB)
+Installing collected packages: django
+Successfully installed django-1.8.1
 
-Applying patch: '/tmp/tmpaVnWiXconda_skeleton_django-toolbelt-0.0.1.tar.gz/pypi-distutils.patch'
-$PYTHONPATH = /tmp/tmpaVnWiXconda_skeleton_django-toolbelt-0.0.1.tar.gz/django-toolbelt-0.0.1
-Error: command failed: /home/ubuntu/miniconda/envs/_build/bin/python setup.py install
+The following NEW packages will be INSTALLED:
 
-conda create -n _pipbuild_ --yes python pip
-/home/ubuntu/miniconda/envs/_pipbuild_/bin/pip install django-toolbelt==0.0.1
-Error: Could not pip install django-toolbelt==0.0.1
+    openssl:    1.0.1k-1     
+    pip:        7.0.3-py27_0 
+    python:     2.7.10-0     
+    readline:   6.2-2        
+    setuptools: 18.0.1-py27_0
+    sqlite:     3.8.4.1-1    
+    system:     5.8-2        
+    tk:         8.5.18-0     
+    zlib:       1.2.8-0      
+
+Linking packages ...
+[                    ]|                                                  |   0%[openssl             ]|                                                  |   0%[readline            ]|#####                                             |  11%[sqlite              ]|###########                                       |  22%[system              ]|################                                  |  33%[tk                  ]|######################                            |  44%[zlib                ]|###########################                       |  55%[python              ]|#################################                 |  66%[setuptools          ]|######################################            |  77%[pip                 ]|############################################      |  88%[      COMPLETE      ]|##################################################| 100%
+Removing old work directory
+Copying /home/ubuntu/pypi-conda-builds/django to /home/ubuntu/miniconda/conda-bld/work
+Package: django-1.8.2-py27_0
+source tree in: /home/ubuntu/miniconda/conda-bld/work
+number of files: 3908
+Fixing permissions
+Detected hard-coded path in text file bin/django-admin
+Detected hard-coded path in text file bin/django-admin.py
+Detected hard-coded path in text file lib/python2.7/site-packages/Django-1.8.1.dist-info/RECORD
+Fixing permissions
+BUILD END: django-1.8.2-py27_0
+# If you want to upload this package to binstar.org later, type:
+#
+# $ binstar upload /home/ubuntu/miniconda/conda-bld/linux-64/django-1.8.2-py27_0.tar.bz2
+#
+# To have conda build upload to binstar automatically, use
+# $ conda config --set binstar_upload yes
+
+Removing old build directory
+Removing old work directory
+BUILD START: psycopg2-2.6.1-py27_0
+Fetching package metadata: ......
+
+WARNING: conda-build appears to be out of date. You have version 1.13.0 but the
+latest version is 1.14.1. Run
+
+conda update -n root conda-build
+
+to get the latest version.
+
+Solving package specifications: .+ pip install psycopg2
+Collecting psycopg2
+  Downloading http://localhost/packages/source/p/psycopg2/psycopg2-2.6.tar.gz (367kB)
+    Complete output from command python setup.py egg_info:
+    running egg_info
+    creating pip-egg-info/psycopg2.egg-info
+    writing pip-egg-info/psycopg2.egg-info/PKG-INFO
+    writing top-level names to pip-egg-info/psycopg2.egg-info/top_level.txt
+    writing dependency_links to pip-egg-info/psycopg2.egg-info/dependency_links.txt
+    writing manifest file 'pip-egg-info/psycopg2.egg-info/SOURCES.txt'
+    warning: manifest_maker: standard file '-c' not found
+    
+    Error: pg_config executable not found.
+    
+    Please add the directory containing pg_config to the PATH
+    or specify the full executable path with the option:
+    
+        python setup.py build_ext --pg-config /path/to/pg_config build ...
+    
+    or with the pg_config option in 'setup.cfg'.
+    
+    ----------------------------------------
+Command "python setup.py egg_info" failed with error code 1 in /tmp/pip-build-Ou3fso/psycopg2
+
+The following NEW packages will be INSTALLED:
+
+    openssl:    1.0.1k-1     
+    pip:        7.0.3-py27_0 
+    python:     2.7.10-0     
+    readline:   6.2-2        
+    setuptools: 18.0.1-py27_0
+    sqlite:     3.8.4.1-1    
+    system:     5.8-2        
+    tk:         8.5.18-0     
+    zlib:       1.2.8-0      
+
+Linking packages ...
+[                    ]|                                                  |   0%[openssl             ]|                                                  |   0%[readline            ]|#####                                             |  11%[sqlite              ]|###########                                       |  22%[system              ]|################                                  |  33%[tk                  ]|######################                            |  44%[zlib                ]|###########################                       |  55%[python              ]|#################################                 |  66%[setuptools          ]|######################################            |  77%[pip                 ]|############################################      |  88%[      COMPLETE      ]|##################################################| 100%
+Removing old work directory
+Copying /home/ubuntu/pypi-conda-builds/psycopg2 to /home/ubuntu/miniconda/conda-bld/work
+Package: psycopg2-2.6.1-py27_0
+source tree in: /home/ubuntu/miniconda/conda-bld/work
+Command failed: /bin/bash -x -e /home/ubuntu/pypi-conda-builds/psycopg2/build.sh
+Removing old build directory
+Removing old work directory
+BUILD START: gunicorn-19.3.0-py27_0
+Fetching package metadata: ......
+
+WARNING: conda-build appears to be out of date. You have version 1.13.0 but the
+latest version is 1.14.1. Run
+
+conda update -n root conda-build
+
+to get the latest version.
+
+Solving package specifications: .+ pip install gunicorn
+Collecting gunicorn
+  Downloading http://localhost/packages/3.4/g/gunicorn/gunicorn-19.3.0-py2.py3-none-any.whl (110kB)
+Installing collected packages: gunicorn
+Successfully installed gunicorn-19.3.0
+Compiling /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/gunicorn/workers/_gaiohttp.py ...
+  File "/home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/gunicorn/workers/_gaiohttp.py", line 68
+    yield from self.wsgi.close()
+             ^
+SyntaxError: invalid syntax
+
+
+The following NEW packages will be INSTALLED:
+
+    openssl:    1.0.1k-1     
+    pip:        7.0.3-py27_0 
+    python:     2.7.10-0     
+    readline:   6.2-2        
+    setuptools: 18.0.1-py27_0
+    sqlite:     3.8.4.1-1    
+    system:     5.8-2        
+    tk:         8.5.18-0     
+    zlib:       1.2.8-0      
+
+Linking packages ...
+[                    ]|                                                  |   0%[openssl             ]|                                                  |   0%[readline            ]|#####                                             |  11%[sqlite              ]|###########                                       |  22%[system              ]|################                                  |  33%[tk                  ]|######################                            |  44%[zlib                ]|###########################                       |  55%[python              ]|#################################                 |  66%[setuptools          ]|######################################            |  77%[pip                 ]|############################################      |  88%[      COMPLETE      ]|##################################################| 100%
+Removing old work directory
+Copying /home/ubuntu/pypi-conda-builds/gunicorn to /home/ubuntu/miniconda/conda-bld/work
+Package: gunicorn-19.3.0-py27_0
+source tree in: /home/ubuntu/miniconda/conda-bld/work
+compiling .pyc files...
+Command failed: /home/ubuntu/miniconda/envs/_build/bin/python -Wi /home/ubuntu/miniconda/envs/_build/lib/python2.7/compileall.py -q -x port_v3 /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages
+Removing old build directory
+Removing old work directory
+BUILD START: dj-database-url-0.3.0-py27_0
+Fetching package metadata: ......
+
+WARNING: conda-build appears to be out of date. You have version 1.13.0 but the
+latest version is 1.14.1. Run
+
+conda update -n root conda-build
+
+to get the latest version.
+
+Solving package specifications: .+ pip install dj-database-url
+Collecting dj-database-url
+  Downloading http://localhost/packages/2.7/d/dj-database-url/dj_database_url-0.3.0-py2.py3-none-any.whl
+Installing collected packages: dj-database-url
+Successfully installed dj-database-url-0.3.0
+
+The following NEW packages will be INSTALLED:
+
+    openssl:    1.0.1k-1     
+    pip:        7.0.3-py27_0 
+    python:     2.7.10-0     
+    readline:   6.2-2        
+    setuptools: 18.0.1-py27_0
+    sqlite:     3.8.4.1-1    
+    system:     5.8-2        
+    tk:         8.5.18-0     
+    zlib:       1.2.8-0      
+
+Linking packages ...
+[                    ]|                                                  |   0%[openssl             ]|                                                  |   0%[readline            ]|#####                                             |  11%[sqlite              ]|###########                                       |  22%[system              ]|################                                  |  33%[tk                  ]|######################                            |  44%[zlib                ]|###########################                       |  55%[python              ]|#################################                 |  66%[setuptools          ]|######################################            |  77%[pip                 ]|############################################      |  88%[      COMPLETE      ]|##################################################| 100%
+Removing old work directory
+Copying /home/ubuntu/pypi-conda-builds/dj-database-url to /home/ubuntu/miniconda/conda-bld/work
+Package: dj-database-url-0.3.0-py27_0
+source tree in: /home/ubuntu/miniconda/conda-bld/work
+number of files: 8
+Fixing permissions
+Fixing permissions
+BUILD END: dj-database-url-0.3.0-py27_0
+# If you want to upload this package to binstar.org later, type:
+#
+# $ binstar upload /home/ubuntu/miniconda/conda-bld/linux-64/dj-database-url-0.3.0-py27_0.tar.bz2
+#
+# To have conda build upload to binstar automatically, use
+# $ conda config --set binstar_upload yes
+
+Removing old build directory
+Removing old work directory
+BUILD START: static3-0.6.1-py27_0
+Fetching package metadata: ......
+
+WARNING: conda-build appears to be out of date. You have version 1.13.0 but the
+latest version is 1.14.1. Run
+
+conda update -n root conda-build
+
+to get the latest version.
+
+Solving package specifications: .+ pip install static3
+Collecting static3
+  Downloading http://localhost/packages/source/s/static3/static3-0.6.0.tar.gz
+Installing collected packages: static3
+  Running setup.py install for static3
+Successfully installed static3-0.6.0
+
+The following NEW packages will be INSTALLED:
+
+    openssl:    1.0.1k-1     
+    pip:        7.0.3-py27_0 
+    python:     2.7.10-0     
+    readline:   6.2-2        
+    setuptools: 18.0.1-py27_0
+    sqlite:     3.8.4.1-1    
+    system:     5.8-2        
+    tk:         8.5.18-0     
+    zlib:       1.2.8-0      
+
+Linking packages ...
+[                    ]|                                                  |   0%[openssl             ]|                                                  |   0%[readline            ]|#####                                             |  11%[sqlite              ]|###########                                       |  22%[system              ]|################                                  |  33%[tk                  ]|######################                            |  44%[zlib                ]|###########################                       |  55%[python              ]|#################################                 |  66%[setuptools          ]|######################################            |  77%[pip                 ]|############################################      |  88%[      COMPLETE      ]|##################################################| 100%
+Removing old work directory
+Copying /home/ubuntu/pypi-conda-builds/static3 to /home/ubuntu/miniconda/conda-bld/work
+Package: static3-0.6.1-py27_0
+source tree in: /home/ubuntu/miniconda/conda-bld/work
+number of files: 10
+Fixing permissions
+Detected hard-coded path in text file bin/static
+Fixing permissions
+BUILD END: static3-0.6.1-py27_0
+# If you want to upload this package to binstar.org later, type:
+#
+# $ binstar upload /home/ubuntu/miniconda/conda-bld/linux-64/static3-0.6.1-py27_0.tar.bz2
+#
+# To have conda build upload to binstar automatically, use
+# $ conda config --set binstar_upload yes
+
+Removing old build directory
+Removing old work directory
+BUILD START: dj-static-0.0.6-py27_0
+Fetching package metadata: ......
+
+WARNING: conda-build appears to be out of date. You have version 1.13.0 but the
+latest version is 1.14.1. Run
+
+conda update -n root conda-build
+
+to get the latest version.
+
+Solving package specifications: .+ pip install dj-static
+Collecting dj-static
+  Downloading http://localhost/packages/source/d/dj-static/dj-static-0.0.6.tar.gz
+Requirement already satisfied (use --upgrade to upgrade): static3 in /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages (from dj-static)
+Installing collected packages: dj-static
+  Running setup.py install for dj-static
+Successfully installed dj-static-0.0.6
+
+The following packages will be downloaded:
+
+    package                    |            build
+    ---------------------------|-----------------
+    static3-0.6.1              |           py27_0          13 KB
+
+The following NEW packages will be INSTALLED:
+
+    openssl:    1.0.1k-1     
+    pip:        7.0.3-py27_0 
+    python:     2.7.10-0     
+    readline:   6.2-2        
+    setuptools: 18.0.1-py27_0
+    sqlite:     3.8.4.1-1    
+    static3:    0.6.1-py27_0 
+    system:     5.8-2        
+    tk:         8.5.18-0     
+    zlib:       1.2.8-0      
+
+Fetching packages ...
+static3-0.6.1-   0% |                              | ETA:  --:--:--   0.00  B/sstatic3-0.6.1- 100% |###############################| ETA:  0:00:00  28.77 MB/sstatic3-0.6.1- 100% |###############################| Time: 0:00:00  19.24 MB/s
+Extracting packages ...
+[                    ]|                                                  |   0%[static3             ]|                                                  |   0%[      COMPLETE      ]|##################################################| 100%
+Linking packages ...
+[      COMPLETE      ]|                                                  |   0%[openssl             ]|                                                  |   0%[openssl             ]|                                                  |   0%[readline            ]|#####                                             |  10%[sqlite              ]|##########                                        |  20%[system              ]|###############                                   |  30%[tk                  ]|####################                              |  40%[zlib                ]|#########################                         |  50%[python              ]|##############################                    |  60%[setuptools          ]|###################################               |  70%[static3             ]|########################################          |  80%[pip                 ]|#############################################     |  90%[      COMPLETE      ]|##################################################| 100%
+Removing old work directory
+Copying /home/ubuntu/pypi-conda-builds/dj-static to /home/ubuntu/miniconda/conda-bld/work
+Package: dj-static-0.0.6-py27_0
+source tree in: /home/ubuntu/miniconda/conda-bld/work
+number of files: 9
+Fixing permissions
+Fixing permissions
+BUILD END: dj-static-0.0.6-py27_0
+# If you want to upload this package to binstar.org later, type:
+#
+# $ binstar upload /home/ubuntu/miniconda/conda-bld/linux-64/dj-static-0.0.6-py27_0.tar.bz2
+#
+# To have conda build upload to binstar automatically, use
+# $ conda config --set binstar_upload yes
+
+Removing old build directory
+Removing old work directory
+BUILD START: django-toolbelt-0.0.1-py_0
+Fetching package metadata: ......
+
+WARNING: conda-build appears to be out of date. You have version 1.13.0 but the
+latest version is 1.14.1. Run
+
+conda update -n root conda-build
+
+to get the latest version.
+
+Solving package specifications: .................
+Warning: 2 possible package resolutions (only showing differing packages):
+	[u'dj-database-url-0.3.0-py_0.tar.bz2'],
+	[u'dj-database-url-0.3.0-py27_0.tar.bz2'],
+/home/ubuntu/miniconda/pkgs/dj-database-url-0.3.0-py_0/bin/.dj-database-url-pre-link.sh: line 2: /home/ubuntu/miniconda/envs/_build/bin/python: No such file or directory
+
+The following packages will be downloaded:
+
+    package                    |            build
+    ---------------------------|-----------------
+    dj-database-url-0.3.0      |             py_0           3 KB
+    dj-static-0.0.6            |           py27_0           4 KB
+    gunicorn-19.1.0            |           py27_0         137 KB
+    ------------------------------------------------------------
+                                           Total:         145 KB
+
+The following NEW packages will be INSTALLED:
+
+    dj-database-url: 0.3.0-py_0   
+    dj-static:       0.0.6-py27_0 
+    django:          1.8.2-py27_0 
+    gunicorn:        19.1.0-py27_0
+    openssl:         1.0.1k-1     
+    pastedeploy:     1.5.2-py27_1 
+    pip:             7.0.3-py27_0 
+    psycopg2:        2.6-py27_1   
+    python:          2.7.10-0     
+    readline:        6.2-2        
+    setuptools:      18.0.1-py27_0
+    sqlite:          3.8.4.1-1    
+    static3:         0.6.1-py27_0 
+    system:          5.8-2        
+    tk:              8.5.18-0     
+    zlib:            1.2.8-0      
+
+Fetching packages ...
+dj-database-ur   0% |                              | ETA:  --:--:--   0.00  B/sdj-database-ur 100% |###############################| ETA:  0:00:00   8.47 MB/sdj-database-ur 100% |###############################| Time: 0:00:00   5.13 MB/s
+dj-static-0.0.   0% |                              | ETA:  --:--:--   0.00  B/sdj-static-0.0. 100% |###############################| Time: 0:00:00  22.48 MB/sdj-static-0.0. 100% |###############################| Time: 0:00:00  13.25 MB/sdj-static-0.0. 100% |###############################| Time: 0:00:00   8.71 MB/s
+gunicorn-19.1.   0% |                              | ETA:  --:--:--   0.00  B/sgunicorn-19.1.  11% |###                            | Time: 0:00:00  33.57 MB/sgunicorn-19.1.  23% |#######                        | Time: 0:00:00  29.21 MB/sgunicorn-19.1.  34% |##########                     | Time: 0:00:00  31.98 MB/sgunicorn-19.1.  46% |##############                 | Time: 0:00:00  35.68 MB/sgunicorn-19.1.  58% |##################             | Time: 0:00:00  36.47 MB/sgunicorn-19.1.  69% |#####################          | Time: 0:00:00  36.27 MB/sgunicorn-19.1.  81% |#########################      | Time: 0:00:00  36.76 MB/sgunicorn-19.1.  93% |############################   | Time: 0:00:00  38.39 MB/sgunicorn-19.1. 100% |###############################| Time: 0:00:00  37.79 MB/sgunicorn-19.1. 100% |###############################| Time: 0:00:00  36.27 MB/sgunicorn-19.1. 100% |###############################| Time: 0:00:00  34.67 MB/s
+Extracting packages ...
+[                    ]|                                                  |   0%[dj-database-url     ]|                                                  |   0%[dj-static           ]|################                                  |  33%[gunicorn            ]|#################################                 |  66%[      COMPLETE      ]|##################################################| 100%
+Linking packages ...
+[      COMPLETE      ]|                                                  |   0%[openssl             ]|                                                  |   0%[openssl             ]|                                                  |   0%[readline            ]|###                                               |   6%[sqlite              ]|######                                            |  12%[system              ]|#########                                         |  18%[tk                  ]|############                                      |  25%[zlib                ]|###############                                   |  31%[dj-database-url     ]|##################                                |  37%Error: pre-link failed: dj-database-url-0.3.0-py_0
+Package search: {'_pypi_ordering': False, 'version': '0.0.1', 'name': 'django-toolbelt', 'summary': 'A simple collection of common Django utilities.'}
+Creating standard recipe for django-toolbelt-0.0.1
+Converting recipe in /home/ubuntu/pypi-conda-builds/django-toolbelt
+package = django-toolbelt
+   dependencies = [u'django', u'psycopg2', u'gunicorn', u'dj-database-url', u'dj-static']
+Creating standard recipe for django
+Converting recipe in /home/ubuntu/pypi-conda-builds/django
+package = django
+   dependencies = []
+Building conda package for django
+Creating standard recipe for psycopg2
+Converting recipe in /home/ubuntu/pypi-conda-builds/psycopg2
+package = psycopg2
+   dependencies = []
+Building conda package for psycopg2
+Creating standard recipe for gunicorn
+Converting recipe in /home/ubuntu/pypi-conda-builds/gunicorn
+package = gunicorn
+   dependencies = []
+Building conda package for gunicorn
+Creating standard recipe for dj-database-url
+Converting recipe in /home/ubuntu/pypi-conda-builds/dj-database-url
+package = dj-database-url
+   dependencies = []
+Building conda package for dj-database-url
+Creating standard recipe for dj-static
+Converting recipe in /home/ubuntu/pypi-conda-builds/dj-static
+package = dj-static
+   dependencies = [u'static3']
+Creating standard recipe for static3
+Converting recipe in /home/ubuntu/pypi-conda-builds/static3
+package = static3
+   dependencies = []
+Building conda package for static3
+Building conda package for dj-static
+Building conda package for django-toolbelt

@@ -2,6 +2,14 @@ Removing old build directory
 Removing old work directory
 BUILD START: glob2-0.4.1-py27_0
 Fetching package metadata: ......
+
+WARNING: conda-build appears to be out of date. You have version 1.13.0 but the
+latest version is 1.14.1. Run
+
+conda update -n root conda-build
+
+to get the latest version.
+
 Solving package specifications: .+ /home/ubuntu/miniconda/envs/_build/bin/python setup.py install
 running install
 running bdist_egg
@@ -52,15 +60,15 @@ Finished processing dependencies for glob2==0.4.1
 
 The following NEW packages will be INSTALLED:
 
-    openssl:    1.0.1k-1    
-    pip:        7.0.3-py27_0
-    python:     2.7.10-0    
-    readline:   6.2-2       
-    setuptools: 17.0-py27_0 
-    sqlite:     3.8.4.1-1   
-    system:     5.8-2       
-    tk:         8.5.18-0    
-    zlib:       1.2.8-0     
+    openssl:    1.0.1k-1     
+    pip:        7.0.3-py27_0 
+    python:     2.7.10-0     
+    readline:   6.2-2        
+    setuptools: 18.0.1-py27_0
+    sqlite:     3.8.4.1-1    
+    system:     5.8-2        
+    tk:         8.5.18-0     
+    zlib:       1.2.8-0      
 
 Linking packages ...
 [                    ]|                                                  |   0%[openssl             ]|                                                  |   0%[readline            ]|#####                                             |  11%[sqlite              ]|###########                                       |  22%[system              ]|################                                  |  33%[tk                  ]|######################                            |  44%[zlib                ]|###########################                       |  55%[python              ]|#################################                 |  66%[setuptools          ]|######################################            |  77%[pip                 ]|############################################      |  88%[      COMPLETE      ]|##################################################| 100%
@@ -77,6 +85,14 @@ Fixing permissions
 BUILD END: glob2-0.4.1-py27_0
 TEST START: glob2-0.4.1-py27_0
 Fetching package metadata: ......
+
+WARNING: conda-build appears to be out of date. You have version 1.13.0 but the
+latest version is 1.14.1. Run
+
+conda update -n root conda-build
+
+to get the latest version.
+
 Solving package specifications: .===== testing package: glob2-0.4.1-py27_0 =====
 import: u'glob2'
 ===== glob2-0.4.1-py27_0 OK =====
@@ -89,19 +105,19 @@ The following packages will be downloaded:
 
 The following NEW packages will be INSTALLED:
 
-    glob2:      0.4.1-py27_0
-    openssl:    1.0.1k-1    
-    pip:        7.0.3-py27_0
-    python:     2.7.10-0    
-    readline:   6.2-2       
-    setuptools: 17.0-py27_0 
-    sqlite:     3.8.4.1-1   
-    system:     5.8-2       
-    tk:         8.5.18-0    
-    zlib:       1.2.8-0     
+    glob2:      0.4.1-py27_0 
+    openssl:    1.0.1k-1     
+    pip:        7.0.3-py27_0 
+    python:     2.7.10-0     
+    readline:   6.2-2        
+    setuptools: 18.0.1-py27_0
+    sqlite:     3.8.4.1-1    
+    system:     5.8-2        
+    tk:         8.5.18-0     
+    zlib:       1.2.8-0      
 
 Fetching packages ...
-glob2-0.4.1-py   0% |                              | ETA:  --:--:--   0.00  B/sglob2-0.4.1-py  96% |#############################  | ETA:  0:00:00  46.81 MB/sglob2-0.4.1-py 100% |###############################| ETA:  0:00:00  33.19 MB/sglob2-0.4.1-py 100% |###############################| Time: 0:00:00  22.42 MB/s
+glob2-0.4.1-py   0% |                              | ETA:  --:--:--   0.00  B/sglob2-0.4.1-py  96% |#############################  | ETA:  0:00:00  48.06 MB/sglob2-0.4.1-py 100% |###############################| ETA:  0:00:00  34.06 MB/sglob2-0.4.1-py 100% |###############################| Time: 0:00:00  22.88 MB/s
 Extracting packages ...
 [      COMPLETE      ]|                                                  |   0%[glob2               ]|                                                  |   0%[glob2               ]|                                                  |   0%[      COMPLETE      ]|##################################################| 100%
 Linking packages ...

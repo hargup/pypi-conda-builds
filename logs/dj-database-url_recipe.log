@@ -10,26 +10,23 @@ Warning, the following versions were found for dj-database-url
 Using 0.3.0
 Use --version to specify a different version.
 Using url https://pypi.python.org/packages/source/d/dj-database-url/dj-database-url-0.3.0.tar.gz (3 KB) for dj-database-url.
-Downloading dj-database-url (use --no-download to skip this step)
+Downloading dj-database-url
 Using cached download
 Unpacking dj-database-url...
 done
-working in /tmp/tmpy1OVEuconda_skeleton_dj-database-url-0.3.0.tar.gz
+working in /tmp/tmppcj4KRconda_skeleton_dj-database-url-0.3.0.tar.gz
 Fetching package metadata: ......
+
+WARNING: conda-build appears to be out of date. You have version 1.13.0 but the
+latest version is 1.14.1. Run
+
+conda update -n root conda-build
+
+to get the latest version.
+
 Solving package specifications: .patching file core.py
 Hunk #1 succeeded at 168 with fuzz 2 (offset 2 lines).
-Traceback (most recent call last):
-  File "setup.py", line 37, in <module>
-    from setuptools import setup
-ImportError: No module named setuptools
 
-The following NEW packages will be INSTALLED:
-
-    numpy:  1.9.2-py27_0
-    pyyaml: 3.11-py27_0 
-
-Linking packages ...
-[                    ]|                                                  |   0%[numpy               ]|                                                  |   0%[pyyaml              ]|#########################                         |  50%[      COMPLETE      ]|##################################################| 100%
-Applying patch: '/tmp/tmpy1OVEuconda_skeleton_dj-database-url-0.3.0.tar.gz/pypi-distutils.patch'
-$PYTHONPATH = /tmp/tmpy1OVEuconda_skeleton_dj-database-url-0.3.0.tar.gz/dj-database-url-0.3.0
-Error: command failed: /home/ubuntu/miniconda/envs/_build/bin/python setup.py install
+Applying patch: '/tmp/tmppcj4KRconda_skeleton_dj-database-url-0.3.0.tar.gz/pypi-distutils.patch'
+Writing recipe for dj-database-url
+Done

@@ -2,6 +2,14 @@ Removing old build directory
 Removing old work directory
 BUILD START: shapely-1.5.9-py27_0
 Fetching package metadata: ......
+
+WARNING: conda-build appears to be out of date. You have version 1.13.0 but the
+latest version is 1.14.1. Run
+
+conda update -n root conda-build
+
+to get the latest version.
+
 Solving package specifications: .+ /home/ubuntu/miniconda/envs/_build/bin/python setup.py install
 Numpy or Cython not available, shapely.vectorized submodule not being built.
 running install
@@ -233,15 +241,15 @@ Plain-Python installation succeeded.
 
 The following NEW packages will be INSTALLED:
 
-    openssl:    1.0.1k-1    
-    pip:        7.0.3-py27_0
-    python:     2.7.10-0    
-    readline:   6.2-2       
-    setuptools: 17.0-py27_0 
-    sqlite:     3.8.4.1-1   
-    system:     5.8-2       
-    tk:         8.5.18-0    
-    zlib:       1.2.8-0     
+    openssl:    1.0.1k-1     
+    pip:        7.0.3-py27_0 
+    python:     2.7.10-0     
+    readline:   6.2-2        
+    setuptools: 18.0.1-py27_0
+    sqlite:     3.8.4.1-1    
+    system:     5.8-2        
+    tk:         8.5.18-0     
+    zlib:       1.2.8-0      
 
 Linking packages ...
 [                    ]|                                                  |   0%[openssl             ]|                                                  |   0%[readline            ]|#####                                             |  11%[sqlite              ]|###########                                       |  22%[system              ]|################                                  |  33%[tk                  ]|######################                            |  44%[zlib                ]|###########################                       |  55%[python              ]|#################################                 |  66%[setuptools          ]|######################################            |  77%[pip                 ]|############################################      |  88%[      COMPLETE      ]|##################################################| 100%
@@ -258,6 +266,14 @@ Fixing permissions
 BUILD END: shapely-1.5.9-py27_0
 TEST START: shapely-1.5.9-py27_0
 Fetching package metadata: ......
+
+WARNING: conda-build appears to be out of date. You have version 1.13.0 but the
+latest version is 1.14.1. Run
+
+conda update -n root conda-build
+
+to get the latest version.
+
 Solving package specifications: .===== testing package: shapely-1.5.9-py27_0 =====
 import: u'shapely'
 import: u'shapely.algorithms'
@@ -286,19 +302,19 @@ The following packages will be downloaded:
 
 The following NEW packages will be INSTALLED:
 
-    openssl:    1.0.1k-1    
-    pip:        7.0.3-py27_0
-    python:     2.7.10-0    
-    readline:   6.2-2       
-    setuptools: 17.0-py27_0 
-    shapely:    1.5.9-py27_0
-    sqlite:     3.8.4.1-1   
-    system:     5.8-2       
-    tk:         8.5.18-0    
-    zlib:       1.2.8-0     
+    openssl:    1.0.1k-1     
+    pip:        7.0.3-py27_0 
+    python:     2.7.10-0     
+    readline:   6.2-2        
+    setuptools: 18.0.1-py27_0
+    shapely:    1.5.9-py27_0 
+    sqlite:     3.8.4.1-1    
+    system:     5.8-2        
+    tk:         8.5.18-0     
+    zlib:       1.2.8-0      
 
 Fetching packages ...
-shapely-1.5.9-   0% |                              | ETA:  --:--:--   0.00  B/sshapely-1.5.9-  20% |######                         | ETA:  0:00:00  44.05 MB/sshapely-1.5.9-  41% |############                   | ETA:  0:00:00  56.21 MB/sshapely-1.5.9-  61% |###################            | ETA:  0:00:00  63.51 MB/sshapely-1.5.9-  82% |#########################      | ETA:  0:00:00  67.99 MB/sshapely-1.5.9- 100% |###############################| ETA:  0:00:00  69.52 MB/sshapely-1.5.9- 100% |###############################| Time: 0:00:00  58.68 MB/s
+shapely-1.5.9-   0% |                              | ETA:  --:--:--   0.00  B/sshapely-1.5.9-  20% |######                         | ETA:  0:00:00  47.66 MB/sshapely-1.5.9-  41% |############                   | ETA:  0:00:00  59.27 MB/sshapely-1.5.9-  61% |###################            | ETA:  0:00:00  65.91 MB/sshapely-1.5.9-  82% |#########################      | ETA:  0:00:00  70.03 MB/sshapely-1.5.9- 100% |###############################| ETA:  0:00:00  71.26 MB/sshapely-1.5.9- 100% |###############################| Time: 0:00:00  58.67 MB/s
 Extracting packages ...
 [      COMPLETE      ]|                                                  |   0%[shapely             ]|                                                  |   0%[shapely             ]|                                                  |   0%[      COMPLETE      ]|##################################################| 100%
 Linking packages ...

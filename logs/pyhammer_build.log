@@ -1,0 +1,245 @@
+Removing old build directory
+Removing old work directory
+BUILD START: pyhammer-0.5.26-py_0
+Fetching package metadata: ......
+
+WARNING: conda-build appears to be out of date. You have version 1.13.0 but the
+latest version is 1.14.1. Run
+
+conda update -n root conda-build
+
+to get the latest version.
+
+Solving package specifications: .+ /home/ubuntu/miniconda/envs/_build/bin/python setup.py install
+running install
+running build
+running build_py
+creating build
+creating build/lib
+creating build/lib/pyhammer
+copying pyhammer/utils.py -> build/lib/pyhammer
+copying pyhammer/builder.py -> build/lib/pyhammer
+copying pyhammer/__init__.py -> build/lib/pyhammer
+creating build/lib/pyhammer/filters
+copying pyhammer/filters/docsfilefilter.py -> build/lib/pyhammer/filters
+copying pyhammer/filters/csbinaryfilefilter.py -> build/lib/pyhammer/filters
+copying pyhammer/filters/filefilter.py -> build/lib/pyhammer/filters
+copying pyhammer/filters/pythonfilefilter.py -> build/lib/pyhammer/filters
+copying pyhammer/filters/mstestfilefilter.py -> build/lib/pyhammer/filters
+copying pyhammer/filters/jarfilefilter.py -> build/lib/pyhammer/filters
+copying pyhammer/filters/__init__.py -> build/lib/pyhammer/filters
+creating build/lib/pyhammer/reporters
+copying pyhammer/reporters/memoryreporter.py -> build/lib/pyhammer/reporters
+copying pyhammer/reporters/__init__.py -> build/lib/pyhammer/reporters
+copying pyhammer/reporters/consolereporter.py -> build/lib/pyhammer/reporters
+creating build/lib/pyhammer/tasks
+copying pyhammer/tasks/taskbase.py -> build/lib/pyhammer/tasks
+copying pyhammer/tasks/__init__.py -> build/lib/pyhammer/tasks
+creating build/lib/pyhammer/tasks/helpers
+copying pyhammer/tasks/helpers/nunittesttaskx86.py -> build/lib/pyhammer/tasks/helpers
+copying pyhammer/tasks/helpers/vstesttask.py -> build/lib/pyhammer/tasks/helpers
+copying pyhammer/tasks/helpers/msziptask.py -> build/lib/pyhammer/tasks/helpers
+copying pyhammer/tasks/helpers/commandtask.py -> build/lib/pyhammer/tasks/helpers
+copying pyhammer/tasks/helpers/makenugetpackagetask.py -> build/lib/pyhammer/tasks/helpers
+copying pyhammer/tasks/helpers/nunittesttask.py -> build/lib/pyhammer/tasks/helpers
+copying pyhammer/tasks/helpers/innosetuptask.py -> build/lib/pyhammer/tasks/helpers
+copying pyhammer/tasks/helpers/__init__.py -> build/lib/pyhammer/tasks/helpers
+copying pyhammer/tasks/helpers/mstesttask.py -> build/lib/pyhammer/tasks/helpers
+copying pyhammer/tasks/helpers/msbuildtask.py -> build/lib/pyhammer/tasks/helpers
+copying pyhammer/tasks/helpers/mspublishwebsitetask.py -> build/lib/pyhammer/tasks/helpers
+creating build/lib/pyhammer/tasks/io
+copying pyhammer/tasks/io/createdirtask.py -> build/lib/pyhammer/tasks/io
+copying pyhammer/tasks/io/copytask.py -> build/lib/pyhammer/tasks/io
+copying pyhammer/tasks/io/deletetask.py -> build/lib/pyhammer/tasks/io
+copying pyhammer/tasks/io/__init__.py -> build/lib/pyhammer/tasks/io
+copying pyhammer/tasks/io/renametask.py -> build/lib/pyhammer/tasks/io
+creating build/lib/pyhammer/tasks/git
+copying pyhammer/tasks/git/__init__.py -> build/lib/pyhammer/tasks/git
+copying pyhammer/tasks/git/gitcommitandpushtask.py -> build/lib/pyhammer/tasks/git
+copying pyhammer/tasks/git/gitcheckouttask.py -> build/lib/pyhammer/tasks/git
+creating build/lib/pyhammer/tasks/svn
+copying pyhammer/tasks/svn/svnimporttask.py -> build/lib/pyhammer/tasks/svn
+copying pyhammer/tasks/svn/tortoisesvncommittask.py -> build/lib/pyhammer/tasks/svn
+copying pyhammer/tasks/svn/svnupdatetask.py -> build/lib/pyhammer/tasks/svn
+copying pyhammer/tasks/svn/svncommittask.py -> build/lib/pyhammer/tasks/svn
+copying pyhammer/tasks/svn/svncreatetagtask.py -> build/lib/pyhammer/tasks/svn
+copying pyhammer/tasks/svn/svnunversionedtask.py -> build/lib/pyhammer/tasks/svn
+copying pyhammer/tasks/svn/__init__.py -> build/lib/pyhammer/tasks/svn
+copying pyhammer/tasks/svn/svndeletetask.py -> build/lib/pyhammer/tasks/svn
+creating build/lib/pyhammer/tasks/text
+copying pyhammer/tasks/text/filereplacetask.py -> build/lib/pyhammer/tasks/text
+copying pyhammer/tasks/text/fileputcontenttask.py -> build/lib/pyhammer/tasks/text
+copying pyhammer/tasks/text/setversiontask.py -> build/lib/pyhammer/tasks/text
+copying pyhammer/tasks/text/__init__.py -> build/lib/pyhammer/tasks/text
+copying pyhammer/tasks/text/incrementversiontask.py -> build/lib/pyhammer/tasks/text
+copying pyhammer/tasks/text/applyversiontask.py -> build/lib/pyhammer/tasks/text
+running install_lib
+creating /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/pyhammer
+copying build/lib/pyhammer/utils.py -> /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/pyhammer
+copying build/lib/pyhammer/builder.py -> /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/pyhammer
+creating /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/pyhammer/filters
+copying build/lib/pyhammer/filters/docsfilefilter.py -> /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/pyhammer/filters
+copying build/lib/pyhammer/filters/csbinaryfilefilter.py -> /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/pyhammer/filters
+copying build/lib/pyhammer/filters/filefilter.py -> /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/pyhammer/filters
+copying build/lib/pyhammer/filters/pythonfilefilter.py -> /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/pyhammer/filters
+copying build/lib/pyhammer/filters/mstestfilefilter.py -> /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/pyhammer/filters
+copying build/lib/pyhammer/filters/jarfilefilter.py -> /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/pyhammer/filters
+copying build/lib/pyhammer/filters/__init__.py -> /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/pyhammer/filters
+copying build/lib/pyhammer/__init__.py -> /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/pyhammer
+creating /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/pyhammer/tasks
+creating /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/pyhammer/tasks/text
+copying build/lib/pyhammer/tasks/text/filereplacetask.py -> /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/pyhammer/tasks/text
+copying build/lib/pyhammer/tasks/text/fileputcontenttask.py -> /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/pyhammer/tasks/text
+copying build/lib/pyhammer/tasks/text/setversiontask.py -> /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/pyhammer/tasks/text
+copying build/lib/pyhammer/tasks/text/__init__.py -> /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/pyhammer/tasks/text
+copying build/lib/pyhammer/tasks/text/incrementversiontask.py -> /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/pyhammer/tasks/text
+copying build/lib/pyhammer/tasks/text/applyversiontask.py -> /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/pyhammer/tasks/text
+creating /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/pyhammer/tasks/svn
+copying build/lib/pyhammer/tasks/svn/svnimporttask.py -> /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/pyhammer/tasks/svn
+copying build/lib/pyhammer/tasks/svn/tortoisesvncommittask.py -> /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/pyhammer/tasks/svn
+copying build/lib/pyhammer/tasks/svn/svnupdatetask.py -> /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/pyhammer/tasks/svn
+copying build/lib/pyhammer/tasks/svn/svncommittask.py -> /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/pyhammer/tasks/svn
+copying build/lib/pyhammer/tasks/svn/svncreatetagtask.py -> /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/pyhammer/tasks/svn
+copying build/lib/pyhammer/tasks/svn/svnunversionedtask.py -> /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/pyhammer/tasks/svn
+copying build/lib/pyhammer/tasks/svn/__init__.py -> /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/pyhammer/tasks/svn
+copying build/lib/pyhammer/tasks/svn/svndeletetask.py -> /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/pyhammer/tasks/svn
+copying build/lib/pyhammer/tasks/taskbase.py -> /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/pyhammer/tasks
+creating /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/pyhammer/tasks/io
+copying build/lib/pyhammer/tasks/io/createdirtask.py -> /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/pyhammer/tasks/io
+copying build/lib/pyhammer/tasks/io/copytask.py -> /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/pyhammer/tasks/io
+copying build/lib/pyhammer/tasks/io/deletetask.py -> /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/pyhammer/tasks/io
+copying build/lib/pyhammer/tasks/io/__init__.py -> /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/pyhammer/tasks/io
+copying build/lib/pyhammer/tasks/io/renametask.py -> /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/pyhammer/tasks/io
+creating /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/pyhammer/tasks/git
+copying build/lib/pyhammer/tasks/git/__init__.py -> /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/pyhammer/tasks/git
+copying build/lib/pyhammer/tasks/git/gitcommitandpushtask.py -> /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/pyhammer/tasks/git
+copying build/lib/pyhammer/tasks/git/gitcheckouttask.py -> /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/pyhammer/tasks/git
+copying build/lib/pyhammer/tasks/__init__.py -> /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/pyhammer/tasks
+creating /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/pyhammer/tasks/helpers
+copying build/lib/pyhammer/tasks/helpers/nunittesttaskx86.py -> /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/pyhammer/tasks/helpers
+copying build/lib/pyhammer/tasks/helpers/vstesttask.py -> /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/pyhammer/tasks/helpers
+copying build/lib/pyhammer/tasks/helpers/msziptask.py -> /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/pyhammer/tasks/helpers
+copying build/lib/pyhammer/tasks/helpers/commandtask.py -> /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/pyhammer/tasks/helpers
+copying build/lib/pyhammer/tasks/helpers/makenugetpackagetask.py -> /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/pyhammer/tasks/helpers
+copying build/lib/pyhammer/tasks/helpers/nunittesttask.py -> /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/pyhammer/tasks/helpers
+copying build/lib/pyhammer/tasks/helpers/innosetuptask.py -> /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/pyhammer/tasks/helpers
+copying build/lib/pyhammer/tasks/helpers/__init__.py -> /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/pyhammer/tasks/helpers
+copying build/lib/pyhammer/tasks/helpers/mstesttask.py -> /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/pyhammer/tasks/helpers
+copying build/lib/pyhammer/tasks/helpers/msbuildtask.py -> /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/pyhammer/tasks/helpers
+copying build/lib/pyhammer/tasks/helpers/mspublishwebsitetask.py -> /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/pyhammer/tasks/helpers
+creating /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/pyhammer/reporters
+copying build/lib/pyhammer/reporters/memoryreporter.py -> /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/pyhammer/reporters
+copying build/lib/pyhammer/reporters/__init__.py -> /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/pyhammer/reporters
+copying build/lib/pyhammer/reporters/consolereporter.py -> /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/pyhammer/reporters
+byte-compiling /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/pyhammer/utils.py to utils.pyc
+byte-compiling /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/pyhammer/builder.py to builder.pyc
+byte-compiling /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/pyhammer/filters/docsfilefilter.py to docsfilefilter.pyc
+byte-compiling /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/pyhammer/filters/csbinaryfilefilter.py to csbinaryfilefilter.pyc
+byte-compiling /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/pyhammer/filters/filefilter.py to filefilter.pyc
+byte-compiling /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/pyhammer/filters/pythonfilefilter.py to pythonfilefilter.pyc
+byte-compiling /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/pyhammer/filters/mstestfilefilter.py to mstestfilefilter.pyc
+byte-compiling /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/pyhammer/filters/jarfilefilter.py to jarfilefilter.pyc
+byte-compiling /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/pyhammer/filters/__init__.py to __init__.pyc
+byte-compiling /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/pyhammer/__init__.py to __init__.pyc
+byte-compiling /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/pyhammer/tasks/text/filereplacetask.py to filereplacetask.pyc
+byte-compiling /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/pyhammer/tasks/text/fileputcontenttask.py to fileputcontenttask.pyc
+byte-compiling /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/pyhammer/tasks/text/setversiontask.py to setversiontask.pyc
+byte-compiling /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/pyhammer/tasks/text/__init__.py to __init__.pyc
+byte-compiling /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/pyhammer/tasks/text/incrementversiontask.py to incrementversiontask.pyc
+byte-compiling /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/pyhammer/tasks/text/applyversiontask.py to applyversiontask.pyc
+byte-compiling /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/pyhammer/tasks/svn/svnimporttask.py to svnimporttask.pyc
+byte-compiling /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/pyhammer/tasks/svn/tortoisesvncommittask.py to tortoisesvncommittask.pyc
+byte-compiling /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/pyhammer/tasks/svn/svnupdatetask.py to svnupdatetask.pyc
+byte-compiling /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/pyhammer/tasks/svn/svncommittask.py to svncommittask.pyc
+byte-compiling /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/pyhammer/tasks/svn/svncreatetagtask.py to svncreatetagtask.pyc
+byte-compiling /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/pyhammer/tasks/svn/svnunversionedtask.py to svnunversionedtask.pyc
+byte-compiling /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/pyhammer/tasks/svn/__init__.py to __init__.pyc
+byte-compiling /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/pyhammer/tasks/svn/svndeletetask.py to svndeletetask.pyc
+byte-compiling /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/pyhammer/tasks/taskbase.py to taskbase.pyc
+byte-compiling /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/pyhammer/tasks/io/createdirtask.py to createdirtask.pyc
+byte-compiling /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/pyhammer/tasks/io/copytask.py to copytask.pyc
+byte-compiling /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/pyhammer/tasks/io/deletetask.py to deletetask.pyc
+byte-compiling /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/pyhammer/tasks/io/__init__.py to __init__.pyc
+byte-compiling /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/pyhammer/tasks/io/renametask.py to renametask.pyc
+byte-compiling /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/pyhammer/tasks/git/__init__.py to __init__.pyc
+byte-compiling /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/pyhammer/tasks/git/gitcommitandpushtask.py to gitcommitandpushtask.pyc
+byte-compiling /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/pyhammer/tasks/git/gitcheckouttask.py to gitcheckouttask.pyc
+byte-compiling /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/pyhammer/tasks/__init__.py to __init__.pyc
+byte-compiling /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/pyhammer/tasks/helpers/nunittesttaskx86.py to nunittesttaskx86.pyc
+byte-compiling /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/pyhammer/tasks/helpers/vstesttask.py to vstesttask.pyc
+byte-compiling /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/pyhammer/tasks/helpers/msziptask.py to msziptask.pyc
+byte-compiling /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/pyhammer/tasks/helpers/commandtask.py to commandtask.pyc
+byte-compiling /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/pyhammer/tasks/helpers/makenugetpackagetask.py to makenugetpackagetask.pyc
+byte-compiling /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/pyhammer/tasks/helpers/nunittesttask.py to nunittesttask.pyc
+byte-compiling /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/pyhammer/tasks/helpers/innosetuptask.py to innosetuptask.pyc
+byte-compiling /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/pyhammer/tasks/helpers/__init__.py to __init__.pyc
+byte-compiling /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/pyhammer/tasks/helpers/mstesttask.py to mstesttask.pyc
+byte-compiling /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/pyhammer/tasks/helpers/msbuildtask.py to msbuildtask.pyc
+byte-compiling /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/pyhammer/tasks/helpers/mspublishwebsitetask.py to mspublishwebsitetask.pyc
+byte-compiling /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/pyhammer/reporters/memoryreporter.py to memoryreporter.pyc
+byte-compiling /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/pyhammer/reporters/__init__.py to __init__.pyc
+byte-compiling /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/pyhammer/reporters/consolereporter.py to consolereporter.pyc
+running install_egg_info
+Writing /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/pyhammer-0.5.26-py2.7.egg-info
+
+The following NEW packages will be INSTALLED:
+
+    openssl:    1.0.1k-1     
+    pip:        7.0.3-py27_0 
+    python:     2.7.10-0     
+    readline:   6.2-2        
+    setuptools: 18.0.1-py27_0
+    sqlite:     3.8.4.1-1    
+    system:     5.8-2        
+    tk:         8.5.18-0     
+    zlib:       1.2.8-0      
+
+Linking packages ...
+[                    ]|                                                  |   0%[openssl             ]|                                                  |   0%[readline            ]|#####                                             |  11%[sqlite              ]|###########                                       |  22%[system              ]|################                                  |  33%[tk                  ]|######################                            |  44%[zlib                ]|###########################                       |  55%[python              ]|#################################                 |  66%[setuptools          ]|######################################            |  77%[pip                 ]|############################################      |  88%[      COMPLETE      ]|##################################################| 100%
+Removing old work directory
+Source cache directory is: /home/ubuntu/miniconda/conda-bld/src_cache
+Found source in cache: pyhammer-0.5.26.zip
+Extracting download
+Package: pyhammer-0.5.26-py_0
+source tree in: /home/ubuntu/miniconda/conda-bld/work/pyhammer-0.5.26
+number of files: 97
+Fixing permissions
+Fixing permissions
+BUILD END: pyhammer-0.5.26-py_0
+TEST START: pyhammer-0.5.26-py_0
+Fetching package metadata: ......
+
+WARNING: conda-build appears to be out of date. You have version 1.13.0 but the
+latest version is 1.14.1. Run
+
+conda update -n root conda-build
+
+to get the latest version.
+
+Solving package specifications: ./home/ubuntu/miniconda/pkgs/pyhammer-0.5.26-py_0/bin/.pyhammer-pre-link.sh: line 2: /home/ubuntu/miniconda/envs/_test/bin/python: No such file or directory
+
+The following packages will be downloaded:
+
+    package                    |            build
+    ---------------------------|-----------------
+    pyhammer-0.5.26            |             py_0          10 KB
+
+The following NEW packages will be INSTALLED:
+
+    openssl:    1.0.1k-1     
+    pip:        7.0.3-py27_0 
+    pyhammer:   0.5.26-py_0  
+    python:     2.7.10-0     
+    readline:   6.2-2        
+    setuptools: 18.0.1-py27_0
+    sqlite:     3.8.4.1-1    
+    system:     5.8-2        
+    tk:         8.5.18-0     
+    zlib:       1.2.8-0      
+
+Fetching packages ...
+pyhammer-0.5.2   0% |                              | ETA:  --:--:--   0.00  B/spyhammer-0.5.2 100% |###############################| ETA:  0:00:00  30.44 MB/spyhammer-0.5.2 100% |###############################| Time: 0:00:00  17.37 MB/s
+Extracting packages ...
+[      COMPLETE      ]|                                                  |   0%[pyhammer            ]|                                                  |   0%[pyhammer            ]|                                                  |   0%[      COMPLETE      ]|##################################################| 100%
+Linking packages ...
+[      COMPLETE      ]|                                                  |   0%[openssl             ]|                                                  |   0%[openssl             ]|                                                  |   0%[readline            ]|#####                                             |  10%[sqlite              ]|##########                                        |  20%[system              ]|###############                                   |  30%[tk                  ]|####################                              |  40%[zlib                ]|#########################                         |  50%[pyhammer            ]|##############################                    |  60%Error: pre-link failed: pyhammer-0.5.26-py_0

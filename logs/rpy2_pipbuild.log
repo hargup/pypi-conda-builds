@@ -9,11 +9,11 @@ Downloading rpy2
 Using cached download
 Unpacking rpy2...
 done
-working in /tmp/tmpGJUDHHconda_skeleton_rpy2-2.6.0.tar.gz
+working in /tmp/tmpR6Rudrconda_skeleton_rpy2-2.6.0.tar.gz
 Fetching package metadata: ......
 
 WARNING: conda-build appears to be out of date. You have version 1.13.0 but the
-latest version is 1.14.0. Run
+latest version is 1.14.1. Run
 
 conda update -n root conda-build
 
@@ -23,16 +23,8 @@ Solving package specifications: .patching file core.py
 Hunk #1 succeeded at 168 with fuzz 2 (offset 2 lines).
 Error: Tried to guess R's HOME but no command (R) in the PATH.
 
-The following NEW packages will be INSTALLED:
-
-    numpy:  1.9.2-py27_0
-    pyyaml: 3.11-py27_1 
-    yaml:   0.1.6-0     
-
-Linking packages ...
-[                    ]|                                                  |   0%[yaml                ]|                                                  |   0%[numpy               ]|################                                  |  33%[pyyaml              ]|#################################                 |  66%[      COMPLETE      ]|##################################################| 100%
-Applying patch: '/tmp/tmpGJUDHHconda_skeleton_rpy2-2.6.0.tar.gz/pypi-distutils.patch'
-$PYTHONPATH = /tmp/tmpGJUDHHconda_skeleton_rpy2-2.6.0.tar.gz/rpy2-2.6.0
+Applying patch: '/tmp/tmpR6Rudrconda_skeleton_rpy2-2.6.0.tar.gz/pypi-distutils.patch'
+$PYTHONPATH = /tmp/tmpR6Rudrconda_skeleton_rpy2-2.6.0.tar.gz/rpy2-2.6.0
 Error: command failed: /home/ubuntu/miniconda/envs/_build/bin/python setup.py install
 
 conda create -n _pipbuild_ --yes python pip

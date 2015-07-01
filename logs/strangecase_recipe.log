@@ -1,0 +1,238 @@
+strangecase not found, trying StrangeCase
+Warning, the following versions were found for StrangeCase
+4.6.5
+4.6.3
+4.6.2
+4.6.1
+4.6.0
+v4.5.22
+v4.5.21
+v4.5.20
+v4.5.19
+v4.5.18
+v4.5.17
+v4.5.16
+v4.5.15
+v4.5.14
+v4.5.13
+v4.5.12
+v4.5.11
+v4.5.10
+v4.5.9
+v4.5.8
+v4.5.7
+v4.5.6
+v4.5.5
+v4.5.4
+v4.5.2
+v4.5.1
+v4.5.0
+v4.4.0
+v4.3.1
+v4.3.0
+v4.2.1
+v4.2.0
+v4.1.9
+v4.1.8
+v4.1.7
+v4.1.6
+v4.1.5
+v4.1.4
+v4.1.3
+v4.1.2
+v4.1.0
+v4.0.17
+v4.0.16
+v4.0.15
+v4.0.14
+v4.0.13
+v4.0.12
+v4.0.11
+v4.0.10
+v4.0.9
+v4.0.8
+v4.0.7
+v4.0.6
+v4.0.5
+v4.0.4
+v4.0.3
+v4.0.2
+v4.0.1
+v3.4.0
+v3.2.1
+v3.2.0
+v3.1.2
+v3.1.1
+v3.1.0
+v3.0.2
+v3.0.1
+v3.0.0
+v2.4.1
+v2.4
+v2.3.1
+v2.3.0
+v2.2.2
+v2.2.1
+v2.2.0
+v2.1.5
+v2.1.4
+v2.1.3
+v2.1.2
+v2.1.1
+Using 4.6.5
+Use --version to specify a different version.
+Using url https://pypi.python.org/packages/source/S/StrangeCase/StrangeCase-4.6.5.tar.gz (84 KB) for StrangeCase.
+Downloading StrangeCase
+Using cached download
+Unpacking StrangeCase...
+done
+working in /tmp/tmpElb04hconda_skeleton_StrangeCase-4.6.5.tar.gz
+Fetching package metadata: ......
+
+WARNING: conda-build appears to be out of date. You have version 1.13.0 but the
+latest version is 1.14.1. Run
+
+conda update -n root conda-build
+
+to get the latest version.
+
+Solving package specifications: .patching file core.py
+Hunk #1 succeeded at 168 with fuzz 2 (offset 2 lines).
+
+WARNING: conda-build appears to be out of date. You have version 1.13.0 but the
+latest version is 1.14.1. Run
+
+conda update -n root conda-build
+
+to get the latest version.
+
+
+The following NEW packages will be INSTALLED:
+
+    numpy:  1.9.2-py27_0
+    pyyaml: 3.11-py27_1 
+    yaml:   0.1.6-0     
+
+Linking packages ...
+[                    ]|                                                  |   0%[yaml                ]|                                                  |   0%[numpy               ]|################                                  |  33%[pyyaml              ]|#################################                 |  66%[      COMPLETE      ]|##################################################| 100%
+Applying patch: '/tmp/tmpElb04hconda_skeleton_StrangeCase-4.6.5.tar.gz/pypi-distutils.patch'
+Warning, the following versions were found for plywood
+1.10.0
+1.6.3
+1.6.1
+1.5.5
+1.5.4
+1.5.3
+1.5.2
+1.5.1
+1.5.0
+1.4.0
+1.3.0
+1.2.4
+1.2.3
+1.2.2
+v1.2.0
+v1.1.2
+v0.0.3
+v0.0.2
+v0.0.1
+v0.0.0
+Using 1.10.0
+Use --version to specify a different version.
+Using url https://pypi.python.org/packages/source/p/plywood/plywood-1.10.0.tar.gz (39 KB) for plywood.
+Downloading plywood
+Using cached download
+Unpacking plywood...
+done
+working in /tmp/tmpoXGtqMconda_skeleton_plywood-1.10.0.tar.gz
+Solving package specifications: .patching file core.py
+Hunk #1 succeeded at 168 with fuzz 2 (offset 2 lines).
+
+WARNING: conda-build appears to be out of date. You have version 1.13.0 but the
+latest version is 1.14.1. Run
+
+conda update -n root conda-build
+
+to get the latest version.
+
+
+Applying patch: '/tmp/tmpoXGtqMconda_skeleton_plywood-1.10.0.tar.gz/pypi-distutils.patch'
+Warning, the following versions were found for chomsky
+1.0.2
+1.0.1
+1.0.0
+v0.0.22
+v0.0.21
+v0.0.20
+v0.0.19
+v0.0.18
+v0.0.17
+v0.0.16
+v0.0.14
+v0.0.13
+v0.0.12
+v0.0.11
+v0.0.10
+v0.0.9
+v0.0.8
+v0.0.7
+v0.0.6
+v0.0.5
+v0.0.4
+v0.0.3
+v0.0.2
+v0.0.1
+v0.0.0
+Using 1.0.2
+Use --version to specify a different version.
+Using url https://pypi.python.org/packages/source/c/chomsky/chomsky-1.0.2.tar.gz (16 KB) for chomsky.
+Downloading chomsky
+Using cached download
+Unpacking chomsky...
+done
+working in /tmp/tmpQhokqfconda_skeleton_chomsky-1.0.2.tar.gz
+Solving package specifications: .patching file core.py
+Hunk #1 succeeded at 168 with fuzz 2 (offset 2 lines).
+
+WARNING: conda-build appears to be out of date. You have version 1.13.0 but the
+latest version is 1.14.1. Run
+
+conda update -n root conda-build
+
+to get the latest version.
+
+
+Applying patch: '/tmp/tmpQhokqfconda_skeleton_chomsky-1.0.2.tar.gz/pypi-distutils.patch'
+Warning, the following versions were found for watchdog
+0.8.3
+0.8.2
+0.8.1
+0.8.0
+0.7.1
+0.7.0
+0.6.1
+0.6.0
+0.5.4
+0.5.3
+0.5.2
+0.5.1
+0.5.0
+0.3.6
+0.3.4
+Using 0.8.3
+Use --version to specify a different version.
+Using url https://pypi.python.org/packages/source/w/watchdog/watchdog-0.8.3.tar.gz (81 KB) for watchdog.
+Downloading watchdog
+Using cached download
+Unpacking watchdog...
+done
+working in /tmp/tmpu28rL7conda_skeleton_watchdog-0.8.3.tar.gz
+Solving package specifications: .patching file core.py
+Hunk #1 succeeded at 168 with fuzz 2 (offset 2 lines).
+
+Applying patch: '/tmp/tmpu28rL7conda_skeleton_watchdog-0.8.3.tar.gz/pypi-distutils.patch'
+Writing recipe for watchdog
+Writing recipe for strangecase
+Writing recipe for plywood
+Writing recipe for chomsky
+Done

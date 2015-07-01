@@ -2,6 +2,14 @@ Removing old build directory
 Removing old work directory
 BUILD START: virtualenv-13.0.3-py_0
 Fetching package metadata: ......
+
+WARNING: conda-build appears to be out of date. You have version 1.13.0 but the
+latest version is 1.14.1. Run
+
+conda update -n root conda-build
+
+to get the latest version.
+
 Solving package specifications: .+ /home/ubuntu/miniconda/envs/_build/bin/python setup.py install
 running install
 running bdist_egg
@@ -62,15 +70,15 @@ Finished processing dependencies for virtualenv==13.0.3
 
 The following NEW packages will be INSTALLED:
 
-    openssl:    1.0.1k-1    
-    pip:        7.0.3-py27_0
-    python:     2.7.10-0    
-    readline:   6.2-2       
-    setuptools: 17.0-py27_0 
-    sqlite:     3.8.4.1-1   
-    system:     5.8-2       
-    tk:         8.5.18-0    
-    zlib:       1.2.8-0     
+    openssl:    1.0.1k-1     
+    pip:        7.0.3-py27_0 
+    python:     2.7.10-0     
+    readline:   6.2-2        
+    setuptools: 18.0.1-py27_0
+    sqlite:     3.8.4.1-1    
+    system:     5.8-2        
+    tk:         8.5.18-0     
+    zlib:       1.2.8-0      
 
 Linking packages ...
 [                    ]|                                                  |   0%[openssl             ]|                                                  |   0%[readline            ]|#####                                             |  11%[sqlite              ]|###########                                       |  22%[system              ]|################                                  |  33%[tk                  ]|######################                            |  44%[zlib                ]|###########################                       |  55%[python              ]|#################################                 |  66%[setuptools          ]|######################################            |  77%[pip                 ]|############################################      |  88%[      COMPLETE      ]|##################################################| 100%
@@ -87,6 +95,14 @@ Fixing permissions
 BUILD END: virtualenv-13.0.3-py_0
 TEST START: virtualenv-13.0.3-py_0
 Fetching package metadata: ......
+
+WARNING: conda-build appears to be out of date. You have version 1.13.0 but the
+latest version is 1.14.1. Run
+
+conda update -n root conda-build
+
+to get the latest version.
+
 Solving package specifications: .
 The following packages will be downloaded:
 
@@ -96,19 +112,22 @@ The following packages will be downloaded:
 
 The following NEW packages will be INSTALLED:
 
-    openssl:    1.0.1k-1    
-    pip:        7.0.3-py27_0
-    python:     2.7.10-0    
-    readline:   6.2-2       
-    setuptools: 17.0-py27_0 
-    sqlite:     3.8.4.1-1   
-    system:     5.8-2       
-    tk:         8.5.18-0    
-    virtualenv: 13.0.3-py_0 
-    zlib:       1.2.8-0     
+    mock:       1.0.1-py27_0 
+    openssl:    1.0.1k-1     
+    pip:        7.0.3-py27_0 
+    py:         1.4.27-py27_0
+    pytest:     2.7.1-py27_0 
+    python:     2.7.10-0     
+    readline:   6.2-2        
+    setuptools: 18.0.1-py27_0
+    sqlite:     3.8.4.1-1    
+    system:     5.8-2        
+    tk:         8.5.18-0     
+    virtualenv: 13.0.3-py_0  
+    zlib:       1.2.8-0      
 
 Fetching packages ...
-virtualenv-13.   0% |                              | ETA:  --:--:--   0.00  B/svirtualenv-13.   1% |                               | ETA:  0:00:00   3.80 MB/svirtualenv-13.   3% |#                              | ETA:  0:00:00   7.35 MB/svirtualenv-13.   5% |#                              | ETA:  0:00:00  10.69 MB/svirtualenv-13.   7% |##                             | ETA:  0:00:00  13.83 MB/svirtualenv-13.   9% |##                             | ETA:  0:00:00  16.79 MB/svirtualenv-13.  11% |###                            | ETA:  0:00:00  19.58 MB/svirtualenv-13.  13% |####                           | ETA:  0:00:00  22.23 MB/svirtualenv-13.  15% |####                           | ETA:  0:00:00  24.76 MB/svirtualenv-13.  16% |#####                          | ETA:  0:00:00  27.09 MB/svirtualenv-13.  18% |#####                          | ETA:  0:00:00  29.35 MB/svirtualenv-13.  20% |######                         | ETA:  0:00:00  31.50 MB/svirtualenv-13.  22% |######                         | ETA:  0:00:00  33.57 MB/svirtualenv-13.  24% |#######                        | ETA:  0:00:00  35.53 MB/svirtualenv-13.  26% |########                       | ETA:  0:00:00  37.41 MB/svirtualenv-13.  28% |########                       | ETA:  0:00:00  39.20 MB/svirtualenv-13.  30% |#########                      | ETA:  0:00:00  40.90 MB/svirtualenv-13.  31% |#########                      | ETA:  0:00:00  42.55 MB/svirtualenv-13.  33% |##########                     | ETA:  0:00:00  44.14 MB/svirtualenv-13.  35% |###########                    | ETA:  0:00:00  45.67 MB/svirtualenv-13.  37% |###########                    | ETA:  0:00:00  47.14 MB/svirtualenv-13.  39% |############                   | ETA:  0:00:00  48.50 MB/svirtualenv-13.  41% |############                   | ETA:  0:00:00  49.86 MB/svirtualenv-13.  43% |#############                  | ETA:  0:00:00  51.17 MB/svirtualenv-13.  45% |#############                  | ETA:  0:00:00  52.36 MB/svirtualenv-13.  46% |##############                 | ETA:  0:00:00  53.57 MB/svirtualenv-13.  48% |###############                | ETA:  0:00:00  54.71 MB/svirtualenv-13.  50% |###############                | ETA:  0:00:00  55.84 MB/svirtualenv-13.  52% |################               | ETA:  0:00:00  56.92 MB/svirtualenv-13.  54% |################               | ETA:  0:00:00  57.98 MB/svirtualenv-13.  56% |#################              | ETA:  0:00:00  39.64 MB/svirtualenv-13.  58% |##################             | ETA:  0:00:00  40.50 MB/svirtualenv-13.  60% |##################             | ETA:  0:00:00  41.35 MB/svirtualenv-13.  61% |###################            | ETA:  0:00:00  42.19 MB/svirtualenv-13.  63% |###################            | ETA:  0:00:00  43.01 MB/svirtualenv-13.  65% |####################           | ETA:  0:00:00  43.82 MB/svirtualenv-13.  67% |####################           | ETA:  0:00:00  44.59 MB/svirtualenv-13.  69% |#####################          | ETA:  0:00:00  45.36 MB/svirtualenv-13.  71% |######################         | ETA:  0:00:00  46.09 MB/svirtualenv-13.  73% |######################         | ETA:  0:00:00  46.83 MB/svirtualenv-13.  75% |#######################        | ETA:  0:00:00  47.55 MB/svirtualenv-13.  76% |#######################        | ETA:  0:00:00  48.25 MB/svirtualenv-13.  78% |########################       | ETA:  0:00:00  48.95 MB/svirtualenv-13.  80% |#########################      | ETA:  0:00:00  49.64 MB/svirtu===== testing package: virtualenv-13.0.3-py_0 =====
+virtualenv-13.   0% |                              | ETA:  --:--:--   0.00  B/svirtualenv-13.   1% |                               | ETA:  0:00:00   3.81 MB/svirtualenv-13.   3% |#                              | ETA:  0:00:00   7.37 MB/svirtualenv-13.   5% |#                              | ETA:  0:00:00  10.70 MB/svirtualenv-13.   7% |##                             | ETA:  0:00:00  13.83 MB/svirtualenv-13.   9% |##                             | ETA:  0:00:00  16.78 MB/svirtualenv-13.  11% |###                            | ETA:  0:00:00  19.58 MB/svirtualenv-13.  13% |####                           | ETA:  0:00:00  22.23 MB/svirtualenv-13.  15% |####                           | ETA:  0:00:00  24.73 MB/svirtualenv-13.  16% |#####                          | ETA:  0:00:00  27.11 MB/svirtualenv-13.  18% |#####                          | ETA:  0:00:00  29.32 MB/svirtualenv-13.  20% |######                         | ETA:  0:00:00  31.46 MB/svirtualenv-13.  22% |######                         | ETA:  0:00:00  33.50 MB/svirtualenv-13.  24% |#######                        | ETA:  0:00:00  35.47 MB/svirtualenv-13.  26% |########                       | ETA:  0:00:00  37.32 MB/svirtualenv-13.  28% |########                       | ETA:  0:00:00  39.08 MB/svirtualenv-13.  30% |#########                      | ETA:  0:00:00  40.78 MB/svirtualenv-13.  31% |#########                      | ETA:  0:00:00  42.42 MB/svirtualenv-13.  33% |##########                     | ETA:  0:00:00  43.99 MB/svirtualenv-13.  35% |###########                    | ETA:  0:00:00  45.48 MB/svirtualenv-13.  37% |###########                    | ETA:  0:00:00  46.91 MB/svirtualenv-13.  39% |############                   | ETA:  0:00:00  48.30 MB/svirtualenv-13.  41% |############                   | ETA:  0:00:00  49.64 MB/svirtualenv-13.  43% |#############                  | ETA:  0:00:00  50.94 MB/svirtualenv-13.  45% |#############                  | ETA:  0:00:00  52.10 MB/svirtualenv-13.  46% |##############                 | ETA:  0:00:00  53.28 MB/svirtualenv-13.  48% |###############                | ETA:  0:00:00  54.43 MB/svirtualenv-13.  50% |###############                | ETA:  0:00:00  55.54 MB/svirtualenv-13.  52% |################               | ETA:  0:00:00  56.62 MB/svirtualenv-13.  54% |################               | ETA:  0:00:00  38.60 MB/svirtualenv-13.  56% |#################              | ETA:  0:00:00  39.47 MB/svirtualenv-13.  58% |##################             | ETA:  0:00:00  40.34 MB/svirtualenv-13.  60% |##################             | ETA:  0:00:00  41.19 MB/svirtualenv-13.  61% |###################            | ETA:  0:00:00  42.03 MB/svirtualenv-13.  63% |###################            | ETA:  0:00:00  42.84 MB/svirtualenv-13.  65% |####################           | ETA:  0:00:00  43.62 MB/svirtualenv-13.  67% |####################           | ETA:  0:00:00  44.41 MB/svirtualenv-13.  69% |#####################          | ETA:  0:00:00  45.17 MB/svirtualenv-13.  71% |######################         | ETA:  0:00:00  45.90 MB/svirtualenv-13.  73% |######################         | ETA:  0:00:00  46.62 MB/svirtualenv-13.  75% |#######################        | ETA:  0:00:00  47.33 MB/svirtualenv-13.  76% |#######################        | ETA:  0:00:00  48.04 MB/svirtualenv-13.  78% |########################       | ETA:  0:00:===== testing package: virtualenv-13.0.3-py_0 =====
 import: u'virtualenv_support'
 ===== virtualenv-13.0.3-py_0 OK =====
 + virtualenv --help
@@ -195,11 +214,11 @@ Options:
                         This option has no effect.
   --distribute          DEPRECATED. Retained only for backward compatibility.
                         This option has no effect.
-alenv-13.  82% |#########################      | ETA:  0:00:00  50.31 MB/svirtualenv-13.  84% |##########################     | ETA:  0:00:00  50.95 MB/svirtualenv-13.  86% |##########################     | ETA:  0:00:00  51.59 MB/svirtualenv-13.  88% |###########################    | ETA:  0:00:00  52.22 MB/svirtualenv-13.  90% |###########################    | ETA:  0:00:00  52.84 MB/svirtualenv-13.  91% |############################   | ETA:  0:00:00  53.46 MB/svirtualenv-13.  93% |#############################  | ETA:  0:00:00  54.07 MB/svirtualenv-13.  95% |#############################  | ETA:  0:00:00  54.65 MB/svirtualenv-13.  97% |############################## | ETA:  0:00:00  55.20 MB/svirtualenv-13.  99% |############################## | ETA:  0:00:00  55.77 MB/svirtualenv-13. 100% |###############################| Time: 0:00:00  55.55 MB/s
+00  48.73 MB/svirtualenv-13.  80% |#########################      | ETA:  0:00:00  49.39 MB/svirtualenv-13.  82% |#########################      | ETA:  0:00:00  50.04 MB/svirtualenv-13.  84% |##########################     | ETA:  0:00:00  50.69 MB/svirtualenv-13.  86% |##########################     | ETA:  0:00:00  51.34 MB/svirtualenv-13.  88% |###########################    | ETA:  0:00:00  51.96 MB/svirtualenv-13.  90% |###########################    | ETA:  0:00:00  52.58 MB/svirtualenv-13.  91% |############################   | ETA:  0:00:00  53.18 MB/svirtualenv-13.  93% |#############################  | ETA:  0:00:00  53.77 MB/svirtualenv-13.  95% |#############################  | ETA:  0:00:00  54.35 MB/svirtualenv-13.  97% |############################## | ETA:  0:00:00  54.93 MB/svirtualenv-13.  99% |############################## | ETA:  0:00:00  55.47 MB/svirtualenv-13. 100% |###############################| Time: 0:00:00  55.25 MB/s
 Extracting packages ...
 [      COMPLETE      ]|                                                  |   0%[virtualenv          ]|                                                  |   0%[virtualenv          ]|                                                  |   0%[      COMPLETE      ]|##################################################| 100%
 Linking packages ...
-[      COMPLETE      ]|                                                  |   0%[openssl             ]|                                                  |   0%[openssl             ]|                                                  |   0%[readline            ]|#####                                             |  10%[sqlite              ]|##########                                        |  20%[system              ]|###############                                   |  30%[tk                  ]|####################                              |  40%[zlib                ]|#########################                         |  50%[python              ]|##############################                    |  60%[setuptools          ]|###################################               |  70%[virtualenv          ]|########################################          |  80%[pip                 ]|#############################################     |  90%[      COMPLETE      ]|##################################################| 100%
+[      COMPLETE      ]|                                                  |   0%[openssl             ]|                                                  |   0%[openssl             ]|                                                  |   0%[readline            ]|###                                               |   7%[sqlite              ]|#######                                           |  15%[system              ]|###########                                       |  23%[tk                  ]|###############                                   |  30%[zlib                ]|###################                               |  38%[mock                ]|#######################                           |  46%[py                  ]|##########################                        |  53%[pytest              ]|##############################                    |  61%[python              ]|##################################                |  69%[setuptools          ]|######################################            |  76%[virtualenv          ]|##########################################        |  84%[pip                 ]|##############################################    |  92%[      COMPLETE      ]|##################################################| 100%
 TEST END: virtualenv-13.0.3-py_0
 # If you want to upload this package to binstar.org later, type:
 #

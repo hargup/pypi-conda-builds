@@ -2,28 +2,453 @@ Removing old build directory
 Removing old work directory
 BUILD START: python-subunit-1.1.0-py27_0
 Fetching package metadata: ......
-Solving package specifications: .................
-Warning: 4 possible package resolutions (only showing differing packages):
-	[u'extras-0.0.3-py_0.tar.bz2', u'pbr-1.0.1-py_0.tar.bz2'],
-	[u'extras-0.0.3-py_0.tar.bz2', u'pbr-1.0.1-py27_0.tar.bz2'],
-	[u'extras-0.0.3-py27_0.tar.bz2', u'pbr-1.0.1-py27_0.tar.bz2'],
-	[u'extras-0.0.3-py27_0.tar.bz2', u'pbr-1.0.1-py_0.tar.bz2'],
-/home/ubuntu/miniconda/pkgs/extras-0.0.3-py_0/bin/.extras-pre-link.sh: line 2: /home/ubuntu/miniconda/envs/_build/bin/python: No such file or directory
+
+WARNING: conda-build appears to be out of date. You have version 1.13.0 but the
+latest version is 1.14.1. Run
+
+conda update -n root conda-build
+
+to get the latest version.
+
+Solving package specifications: .+ /home/ubuntu/miniconda/envs/_build/bin/python setup.py install
+running install
+running bdist_egg
+running egg_info
+writing requirements to python_subunit.egg-info/requires.txt
+writing python_subunit.egg-info/PKG-INFO
+writing top-level names to python_subunit.egg-info/top_level.txt
+writing dependency_links to python_subunit.egg-info/dependency_links.txt
+reading manifest file 'python_subunit.egg-info/SOURCES.txt'
+reading manifest template 'MANIFEST.in'
+warning: no previously-included files found matching '.gitignore'
+warning: no previously-included files found matching 'aclocal.m4'
+no previously-included directories found matching 'autom4te.cache'
+no previously-included directories found matching 'c'
+no previously-included directories found matching 'c++'
+no previously-included directories found matching 'compile'
+warning: no previously-included files found matching 'configure*'
+warning: no previously-included files found matching 'depcomp'
+warning: no previously-included files found matching 'INSTALL'
+warning: no previously-included files found matching 'install-sh'
+warning: no previously-included files found matching 'lib*'
+warning: no previously-included files found matching 'ltmain.sh'
+no previously-included directories found matching 'm4'
+warning: no previously-included files found matching 'Makefile*'
+warning: no previously-included files found matching 'missing'
+no previously-included directories found matching 'perl'
+warning: no previously-included files found matching 'py-compile'
+no previously-included directories found matching 'shell'
+warning: no previously-included files found matching 'stamp-h1'
+writing manifest file 'python_subunit.egg-info/SOURCES.txt'
+installing library code to build/bdist.linux-x86_64/egg
+running install_lib
+running build_py
+creating build
+creating build/lib
+creating build/lib/subunit
+copying python/subunit/filters.py -> build/lib/subunit
+copying python/subunit/_output.py -> build/lib/subunit
+copying python/subunit/progress_model.py -> build/lib/subunit
+copying python/subunit/iso8601.py -> build/lib/subunit
+copying python/subunit/chunked.py -> build/lib/subunit
+copying python/subunit/test_results.py -> build/lib/subunit
+copying python/subunit/run.py -> build/lib/subunit
+copying python/subunit/__init__.py -> build/lib/subunit
+copying python/subunit/details.py -> build/lib/subunit
+copying python/subunit/v2.py -> build/lib/subunit
+creating build/lib/subunit/tests
+copying python/subunit/tests/test_progress_model.py -> build/lib/subunit/tests
+copying python/subunit/tests/test_filters.py -> build/lib/subunit/tests
+copying python/subunit/tests/test_test_results.py -> build/lib/subunit/tests
+copying python/subunit/tests/test_chunked.py -> build/lib/subunit/tests
+copying python/subunit/tests/test_test_protocol.py -> build/lib/subunit/tests
+copying python/subunit/tests/sample-script.py -> build/lib/subunit/tests
+copying python/subunit/tests/test_details.py -> build/lib/subunit/tests
+copying python/subunit/tests/sample-two-script.py -> build/lib/subunit/tests
+copying python/subunit/tests/test_test_protocol2.py -> build/lib/subunit/tests
+copying python/subunit/tests/test_subunit_stats.py -> build/lib/subunit/tests
+copying python/subunit/tests/test_run.py -> build/lib/subunit/tests
+copying python/subunit/tests/__init__.py -> build/lib/subunit/tests
+copying python/subunit/tests/test_output_filter.py -> build/lib/subunit/tests
+copying python/subunit/tests/test_subunit_filter.py -> build/lib/subunit/tests
+copying python/subunit/tests/test_tap2subunit.py -> build/lib/subunit/tests
+copying python/subunit/tests/test_subunit_tags.py -> build/lib/subunit/tests
+creating build/bdist.linux-x86_64
+creating build/bdist.linux-x86_64/egg
+creating build/bdist.linux-x86_64/egg/subunit
+copying build/lib/subunit/filters.py -> build/bdist.linux-x86_64/egg/subunit
+copying build/lib/subunit/_output.py -> build/bdist.linux-x86_64/egg/subunit
+copying build/lib/subunit/progress_model.py -> build/bdist.linux-x86_64/egg/subunit
+copying build/lib/subunit/iso8601.py -> build/bdist.linux-x86_64/egg/subunit
+creating build/bdist.linux-x86_64/egg/subunit/tests
+copying build/lib/subunit/tests/test_progress_model.py -> build/bdist.linux-x86_64/egg/subunit/tests
+copying build/lib/subunit/tests/test_filters.py -> build/bdist.linux-x86_64/egg/subunit/tests
+copying build/lib/subunit/tests/test_test_results.py -> build/bdist.linux-x86_64/egg/subunit/tests
+copying build/lib/subunit/tests/test_chunked.py -> build/bdist.linux-x86_64/egg/subunit/tests
+copying build/lib/subunit/tests/test_test_protocol.py -> build/bdist.linux-x86_64/egg/subunit/tests
+copying build/lib/subunit/tests/sample-script.py -> build/bdist.linux-x86_64/egg/subunit/tests
+copying build/lib/subunit/tests/test_details.py -> build/bdist.linux-x86_64/egg/subunit/tests
+copying build/lib/subunit/tests/sample-two-script.py -> build/bdist.linux-x86_64/egg/subunit/tests
+copying build/lib/subunit/tests/test_test_protocol2.py -> build/bdist.linux-x86_64/egg/subunit/tests
+copying build/lib/subunit/tests/test_subunit_stats.py -> build/bdist.linux-x86_64/egg/subunit/tests
+copying build/lib/subunit/tests/test_run.py -> build/bdist.linux-x86_64/egg/subunit/tests
+copying build/lib/subunit/tests/__init__.py -> build/bdist.linux-x86_64/egg/subunit/tests
+copying build/lib/subunit/tests/test_output_filter.py -> build/bdist.linux-x86_64/egg/subunit/tests
+copying build/lib/subunit/tests/test_subunit_filter.py -> build/bdist.linux-x86_64/egg/subunit/tests
+copying build/lib/subunit/tests/test_tap2subunit.py -> build/bdist.linux-x86_64/egg/subunit/tests
+copying build/lib/subunit/tests/test_subunit_tags.py -> build/bdist.linux-x86_64/egg/subunit/tests
+copying build/lib/subunit/chunked.py -> build/bdist.linux-x86_64/egg/subunit
+copying build/lib/subunit/test_results.py -> build/bdist.linux-x86_64/egg/subunit
+copying build/lib/subunit/run.py -> build/bdist.linux-x86_64/egg/subunit
+copying build/lib/subunit/__init__.py -> build/bdist.linux-x86_64/egg/subunit
+copying build/lib/subunit/details.py -> build/bdist.linux-x86_64/egg/subunit
+copying build/lib/subunit/v2.py -> build/bdist.linux-x86_64/egg/subunit
+byte-compiling build/bdist.linux-x86_64/egg/subunit/filters.py to filters.pyc
+byte-compiling build/bdist.linux-x86_64/egg/subunit/_output.py to _output.pyc
+byte-compiling build/bdist.linux-x86_64/egg/subunit/progress_model.py to progress_model.pyc
+byte-compiling build/bdist.linux-x86_64/egg/subunit/iso8601.py to iso8601.pyc
+byte-compiling build/bdist.linux-x86_64/egg/subunit/tests/test_progress_model.py to test_progress_model.pyc
+byte-compiling build/bdist.linux-x86_64/egg/subunit/tests/test_filters.py to test_filters.pyc
+byte-compiling build/bdist.linux-x86_64/egg/subunit/tests/test_test_results.py to test_test_results.pyc
+byte-compiling build/bdist.linux-x86_64/egg/subunit/tests/test_chunked.py to test_chunked.pyc
+byte-compiling build/bdist.linux-x86_64/egg/subunit/tests/test_test_protocol.py to test_test_protocol.pyc
+byte-compiling build/bdist.linux-x86_64/egg/subunit/tests/sample-script.py to sample-script.pyc
+byte-compiling build/bdist.linux-x86_64/egg/subunit/tests/test_details.py to test_details.pyc
+byte-compiling build/bdist.linux-x86_64/egg/subunit/tests/sample-two-script.py to sample-two-script.pyc
+byte-compiling build/bdist.linux-x86_64/egg/subunit/tests/test_test_protocol2.py to test_test_protocol2.pyc
+byte-compiling build/bdist.linux-x86_64/egg/subunit/tests/test_subunit_stats.py to test_subunit_stats.pyc
+byte-compiling build/bdist.linux-x86_64/egg/subunit/tests/test_run.py to test_run.pyc
+byte-compiling build/bdist.linux-x86_64/egg/subunit/tests/__init__.py to __init__.pyc
+byte-compiling build/bdist.linux-x86_64/egg/subunit/tests/test_output_filter.py to test_output_filter.pyc
+byte-compiling build/bdist.linux-x86_64/egg/subunit/tests/test_subunit_filter.py to test_subunit_filter.pyc
+byte-compiling build/bdist.linux-x86_64/egg/subunit/tests/test_tap2subunit.py to test_tap2subunit.pyc
+byte-compiling build/bdist.linux-x86_64/egg/subunit/tests/test_subunit_tags.py to test_subunit_tags.pyc
+byte-compiling build/bdist.linux-x86_64/egg/subunit/chunked.py to chunked.pyc
+byte-compiling build/bdist.linux-x86_64/egg/subunit/test_results.py to test_results.pyc
+byte-compiling build/bdist.linux-x86_64/egg/subunit/run.py to run.pyc
+byte-compiling build/bdist.linux-x86_64/egg/subunit/__init__.py to __init__.pyc
+byte-compiling build/bdist.linux-x86_64/egg/subunit/details.py to details.pyc
+byte-compiling build/bdist.linux-x86_64/egg/subunit/v2.py to v2.pyc
+creating build/bdist.linux-x86_64/egg/EGG-INFO
+installing scripts to build/bdist.linux-x86_64/egg/EGG-INFO/scripts
+running install_scripts
+running build_scripts
+creating build/scripts-2.7
+copying and adjusting filters/subunit-1to2 -> build/scripts-2.7
+copying and adjusting filters/subunit-2to1 -> build/scripts-2.7
+copying and adjusting filters/subunit-filter -> build/scripts-2.7
+copying and adjusting filters/subunit-ls -> build/scripts-2.7
+copying and adjusting filters/subunit-notify -> build/scripts-2.7
+copying and adjusting filters/subunit-output -> build/scripts-2.7
+copying and adjusting filters/subunit-stats -> build/scripts-2.7
+copying and adjusting filters/subunit-tags -> build/scripts-2.7
+copying and adjusting filters/subunit2csv -> build/scripts-2.7
+copying and adjusting filters/subunit2gtk -> build/scripts-2.7
+copying and adjusting filters/subunit2junitxml -> build/scripts-2.7
+copying and adjusting filters/subunit2pyunit -> build/scripts-2.7
+copying and adjusting filters/tap2subunit -> build/scripts-2.7
+changing mode of build/scripts-2.7/subunit-1to2 from 664 to 775
+changing mode of build/scripts-2.7/subunit-2to1 from 664 to 775
+changing mode of build/scripts-2.7/subunit-filter from 664 to 775
+changing mode of build/scripts-2.7/subunit-ls from 664 to 775
+changing mode of build/scripts-2.7/subunit-notify from 664 to 775
+changing mode of build/scripts-2.7/subunit-output from 664 to 775
+changing mode of build/scripts-2.7/subunit-stats from 664 to 775
+changing mode of build/scripts-2.7/subunit-tags from 664 to 775
+changing mode of build/scripts-2.7/subunit2csv from 664 to 775
+changing mode of build/scripts-2.7/subunit2gtk from 664 to 775
+changing mode of build/scripts-2.7/subunit2junitxml from 664 to 775
+changing mode of build/scripts-2.7/subunit2pyunit from 664 to 775
+changing mode of build/scripts-2.7/tap2subunit from 664 to 775
+creating build/bdist.linux-x86_64/egg/EGG-INFO/scripts
+copying build/scripts-2.7/subunit-output -> build/bdist.linux-x86_64/egg/EGG-INFO/scripts
+copying build/scripts-2.7/subunit2pyunit -> build/bdist.linux-x86_64/egg/EGG-INFO/scripts
+copying build/scripts-2.7/subunit2junitxml -> build/bdist.linux-x86_64/egg/EGG-INFO/scripts
+copying build/scripts-2.7/subunit-notify -> build/bdist.linux-x86_64/egg/EGG-INFO/scripts
+copying build/scripts-2.7/subunit-1to2 -> build/bdist.linux-x86_64/egg/EGG-INFO/scripts
+copying build/scripts-2.7/tap2subunit -> build/bdist.linux-x86_64/egg/EGG-INFO/scripts
+copying build/scripts-2.7/subunit2gtk -> build/bdist.linux-x86_64/egg/EGG-INFO/scripts
+copying build/scripts-2.7/subunit-tags -> build/bdist.linux-x86_64/egg/EGG-INFO/scripts
+copying build/scripts-2.7/subunit-stats -> build/bdist.linux-x86_64/egg/EGG-INFO/scripts
+copying build/scripts-2.7/subunit-filter -> build/bdist.linux-x86_64/egg/EGG-INFO/scripts
+copying build/scripts-2.7/subunit-2to1 -> build/bdist.linux-x86_64/egg/EGG-INFO/scripts
+copying build/scripts-2.7/subunit-ls -> build/bdist.linux-x86_64/egg/EGG-INFO/scripts
+copying build/scripts-2.7/subunit2csv -> build/bdist.linux-x86_64/egg/EGG-INFO/scripts
+changing mode of build/bdist.linux-x86_64/egg/EGG-INFO/scripts/subunit-output to 775
+changing mode of build/bdist.linux-x86_64/egg/EGG-INFO/scripts/subunit2pyunit to 775
+changing mode of build/bdist.linux-x86_64/egg/EGG-INFO/scripts/subunit2junitxml to 775
+changing mode of build/bdist.linux-x86_64/egg/EGG-INFO/scripts/subunit-notify to 775
+changing mode of build/bdist.linux-x86_64/egg/EGG-INFO/scripts/subunit-1to2 to 775
+changing mode of build/bdist.linux-x86_64/egg/EGG-INFO/scripts/tap2subunit to 775
+changing mode of build/bdist.linux-x86_64/egg/EGG-INFO/scripts/subunit2gtk to 775
+changing mode of build/bdist.linux-x86_64/egg/EGG-INFO/scripts/subunit-tags to 775
+changing mode of build/bdist.linux-x86_64/egg/EGG-INFO/scripts/subunit-stats to 775
+changing mode of build/bdist.linux-x86_64/egg/EGG-INFO/scripts/subunit-filter to 775
+changing mode of build/bdist.linux-x86_64/egg/EGG-INFO/scripts/subunit-2to1 to 775
+changing mode of build/bdist.linux-x86_64/egg/EGG-INFO/scripts/subunit-ls to 775
+changing mode of build/bdist.linux-x86_64/egg/EGG-INFO/scripts/subunit2csv to 775
+copying python_subunit.egg-info/PKG-INFO -> build/bdist.linux-x86_64/egg/EGG-INFO
+copying python_subunit.egg-info/SOURCES.txt -> build/bdist.linux-x86_64/egg/EGG-INFO
+copying python_subunit.egg-info/dependency_links.txt -> build/bdist.linux-x86_64/egg/EGG-INFO
+copying python_subunit.egg-info/requires.txt -> build/bdist.linux-x86_64/egg/EGG-INFO
+copying python_subunit.egg-info/top_level.txt -> build/bdist.linux-x86_64/egg/EGG-INFO
+zip_safe flag not set; analyzing archive contents...
+subunit.__init__: module references __file__
+subunit.tests.test_subunit_filter: module references __file__
+subunit.tests.test_test_protocol: module references __file__
+creating dist
+creating 'dist/python_subunit-1.1.0-py2.7.egg' and adding 'build/bdist.linux-x86_64/egg' to it
+removing 'build/bdist.linux-x86_64/egg' (and everything under it)
+Processing python_subunit-1.1.0-py2.7.egg
+creating /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/python_subunit-1.1.0-py2.7.egg
+Extracting python_subunit-1.1.0-py2.7.egg to /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages
+Adding python-subunit 1.1.0 to easy-install.pth file
+Installing subunit-output script to /home/ubuntu/miniconda/envs/_build/bin
+Installing subunit2pyunit script to /home/ubuntu/miniconda/envs/_build/bin
+Installing subunit2junitxml script to /home/ubuntu/miniconda/envs/_build/bin
+Installing subunit-notify script to /home/ubuntu/miniconda/envs/_build/bin
+Installing subunit-1to2 script to /home/ubuntu/miniconda/envs/_build/bin
+Installing tap2subunit script to /home/ubuntu/miniconda/envs/_build/bin
+Installing subunit2gtk script to /home/ubuntu/miniconda/envs/_build/bin
+Installing subunit-tags script to /home/ubuntu/miniconda/envs/_build/bin
+Installing subunit-stats script to /home/ubuntu/miniconda/envs/_build/bin
+Installing subunit-filter script to /home/ubuntu/miniconda/envs/_build/bin
+Installing subunit-2to1 script to /home/ubuntu/miniconda/envs/_build/bin
+Installing subunit-ls script to /home/ubuntu/miniconda/envs/_build/bin
+Installing subunit2csv script to /home/ubuntu/miniconda/envs/_build/bin
+
+Installed /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/python_subunit-1.1.0-py2.7.egg
+Processing dependencies for python-subunit==1.1.0
+Searching for testtools>=0.9.34
+Reading https://pypi.python.org/simple/testtools/
+Best match: testtools 1.8.0
+Downloading https://pypi.python.org/packages/source/t/testtools/testtools-1.8.0.tar.gz#md5=89965b0b39930c0d1f5e07c6f545e6a0
+Processing testtools-1.8.0.tar.gz
+Writing /tmp/easy_install-KtTBh7/testtools-1.8.0/setup.cfg
+Running testtools-1.8.0/setup.py -q bdist_egg --dist-dir /tmp/easy_install-KtTBh7/testtools-1.8.0/egg-dist-tmp-urA5Ib
+
+Installed /tmp/easy_install-KtTBh7/testtools-1.8.0/.eggs/pbr-1.2.0-py2.7.egg
+creating /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/testtools-1.8.0-py2.7.egg
+Extracting testtools-1.8.0-py2.7.egg to /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages
+Adding testtools 1.8.0 to easy-install.pth file
+
+Installed /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/testtools-1.8.0-py2.7.egg
+Searching for extras
+Reading https://pypi.python.org/simple/extras/
+Best match: extras 0.0.3
+Downloading https://pypi.python.org/packages/source/e/extras/extras-0.0.3.tar.gz#md5=62d8ba049e3386a6df69b413ea81517b
+Processing extras-0.0.3.tar.gz
+Writing /tmp/easy_install-8FPhku/extras-0.0.3/setup.cfg
+Running extras-0.0.3/setup.py -q bdist_egg --dist-dir /tmp/easy_install-8FPhku/extras-0.0.3/egg-dist-tmp-5W3TZC
+zip_safe flag not set; analyzing archive contents...
+Moving extras-0.0.3-py2.7.egg to /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages
+Adding extras 0.0.3 to easy-install.pth file
+
+Installed /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/extras-0.0.3-py2.7.egg
+Searching for traceback2
+Reading https://pypi.python.org/simple/traceback2/
+Best match: traceback2 1.4.0
+Downloading https://pypi.python.org/packages/source/t/traceback2/traceback2-1.4.0.tar.gz#md5=9e9723f4d70bfc6308fa992dd193c400
+Processing traceback2-1.4.0.tar.gz
+Writing /tmp/easy_install-4KpRUj/traceback2-1.4.0/setup.cfg
+Running traceback2-1.4.0/setup.py -q bdist_egg --dist-dir /tmp/easy_install-4KpRUj/traceback2-1.4.0/egg-dist-tmp-K8js6N
+
+Installed /tmp/easy_install-4KpRUj/traceback2-1.4.0/.eggs/pbr-1.2.0-py2.7.egg
+creating /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/traceback2-1.4.0-py2.7.egg
+Extracting traceback2-1.4.0-py2.7.egg to /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages
+Adding traceback2 1.4.0 to easy-install.pth file
+
+Installed /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/traceback2-1.4.0-py2.7.egg
+Searching for unittest2>=1.0.0
+Reading https://pypi.python.org/simple/unittest2/
+Best match: unittest2 1.1.0
+Downloading https://pypi.python.org/packages/source/u/unittest2/unittest2-1.1.0.tar.gz#md5=f72dae5d44f091df36b6b513305ea000
+Processing unittest2-1.1.0.tar.gz
+Writing /tmp/easy_install-4JoAOC/unittest2-1.1.0/setup.cfg
+Running unittest2-1.1.0/setup.py -q bdist_egg --dist-dir /tmp/easy_install-4JoAOC/unittest2-1.1.0/egg-dist-tmp-u218r2
+no previously-included directories found matching 'documentation/_build'
+zip_safe flag not set; analyzing archive contents...
+six: module references __path__
+
+Installed /tmp/easy_install-4JoAOC/unittest2-1.1.0/.eggs/six-1.9.0-py2.7.egg
+Searching for argparse
+Reading https://pypi.python.org/simple/argparse/
+Best match: argparse 1.3.0
+Downloading https://pypi.python.org/packages/source/a/argparse/argparse-1.3.0.tar.gz#md5=9bcf7f612190885c8c85e30ba41db3c7
+Processing argparse-1.3.0.tar.gz
+Writing /tmp/easy_install-4JoAOC/unittest2-1.1.0/temp/easy_install-S5BGkn/argparse-1.3.0/setup.cfg
+Running argparse-1.3.0/setup.py -q bdist_egg --dist-dir /tmp/easy_install-4JoAOC/unittest2-1.1.0/temp/easy_install-S5BGkn/argparse-1.3.0/egg-dist-tmp-yT_mrs
+warning: no previously-included files matching '*.pyc' found anywhere in distribution
+warning: no previously-included files matching '*.pyo' found anywhere in distribution
+warning: no previously-included files matching '*.orig' found anywhere in distribution
+warning: no previously-included files matching '*.rej' found anywhere in distribution
+no previously-included directories found matching 'doc/_build'
+no previously-included directories found matching 'env24'
+no previously-included directories found matching 'env25'
+no previously-included directories found matching 'env26'
+no previously-included directories found matching 'env27'
+zip_safe flag not set; analyzing archive contents...
+Moving argparse-1.3.0-py2.7.egg to /tmp/easy_install-4JoAOC/unittest2-1.1.0/.eggs
+
+Installed /tmp/easy_install-4JoAOC/unittest2-1.1.0/.eggs/argparse-1.3.0-py2.7.egg
+Searching for linecache2
+Reading https://pypi.python.org/simple/linecache2/
+Best match: linecache2 1.0.0
+Downloading https://pypi.python.org/packages/source/l/linecache2/linecache2-1.0.0.tar.gz#md5=7b25d0289ec36bff1f9e63c4329ce65c
+Processing linecache2-1.0.0.tar.gz
+Writing /tmp/easy_install-4JoAOC/unittest2-1.1.0/temp/easy_install-3Ajs0u/linecache2-1.0.0/setup.cfg
+Running linecache2-1.0.0/setup.py -q bdist_egg --dist-dir /tmp/easy_install-4JoAOC/unittest2-1.1.0/temp/easy_install-3Ajs0u/linecache2-1.0.0/egg-dist-tmp-7J0HWL
+
+Installed /tmp/easy_install-4JoAOC/unittest2-1.1.0/temp/easy_install-3Ajs0u/linecache2-1.0.0/.eggs/pbr-1.2.0-py2.7.egg
+  File "build/bdist.linux-x86_64/egg/linecache2/tests/inspect_fodder2.py", line 102
+    def keyworded(*arg1, arg2=1):
+                            ^
+SyntaxError: invalid syntax
+
+creating /tmp/easy_install-4JoAOC/unittest2-1.1.0/.eggs/linecache2-1.0.0-py2.7.egg
+Extracting linecache2-1.0.0-py2.7.egg to /tmp/easy_install-4JoAOC/unittest2-1.1.0/.eggs
+  File "/tmp/easy_install-4JoAOC/unittest2-1.1.0/.eggs/linecache2-1.0.0-py2.7.egg/linecache2/tests/inspect_fodder2.py", line 102
+    def keyworded(*arg1, arg2=1):
+                            ^
+SyntaxError: invalid syntax
+
+
+Installed /tmp/easy_install-4JoAOC/unittest2-1.1.0/.eggs/linecache2-1.0.0-py2.7.egg
+/home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/setuptools/dist.py:291: UserWarning: The version specified (<__main__.late_version instance at 0x7fa963037908>) is an invalid version, this may not work as expected with newer versions of setuptools, pip, and PyPI. Please see PEP 440 for more details.
+  "details." % self.metadata.version
+zip_safe flag not set; analyzing archive contents...
+unittest2.collector: module references __file__
+unittest2.__init__: module references __file__
+unittest2.loader: module references __file__
+unittest2.loader: module references __path__
+unittest2.test.test_discovery: module references __file__
+unittest2.test.test_discovery: module references __path__
+creating /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/unittest2-1.1.0-py2.7.egg
+Extracting unittest2-1.1.0-py2.7.egg to /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages
+Adding unittest2 1.1.0 to easy-install.pth file
+Installing unit2 script to /home/ubuntu/miniconda/envs/_build/bin
+
+Installed /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/unittest2-1.1.0-py2.7.egg
+Searching for python-mimeparse
+Reading https://pypi.python.org/simple/python-mimeparse/
+Best match: python-mimeparse 0.1.4
+Downloading https://pypi.python.org/packages/source/p/python-mimeparse/python-mimeparse-0.1.4.tar.gz#md5=1d2816a16f17dcfe0c613da611fe7e13
+Processing python-mimeparse-0.1.4.tar.gz
+Writing /tmp/easy_install-v1HES9/python-mimeparse-0.1.4/setup.cfg
+Running python-mimeparse-0.1.4/setup.py -q bdist_egg --dist-dir /tmp/easy_install-v1HES9/python-mimeparse-0.1.4/egg-dist-tmp-Gq5Pzd
+zip_safe flag not set; analyzing archive contents...
+Moving python_mimeparse-0.1.4-py2.7.egg to /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages
+Adding python-mimeparse 0.1.4 to easy-install.pth file
+
+Installed /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/python_mimeparse-0.1.4-py2.7.egg
+Searching for pbr>=0.11
+Reading https://pypi.python.org/simple/pbr/
+Best match: pbr 1.2.0
+Downloading https://pypi.python.org/packages/source/p/pbr/pbr-1.2.0.tar.gz#md5=b5b93565a5c6fd514889d5f5d83a485b
+Processing pbr-1.2.0.tar.gz
+Writing /tmp/easy_install-kYXPrc/pbr-1.2.0/setup.cfg
+Running pbr-1.2.0/setup.py -q bdist_egg --dist-dir /tmp/easy_install-kYXPrc/pbr-1.2.0/egg-dist-tmp-z5A_oz
+creating /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/pbr-1.2.0-py2.7.egg
+Extracting pbr-1.2.0-py2.7.egg to /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages
+Adding pbr 1.2.0 to easy-install.pth file
+Installing pbr script to /home/ubuntu/miniconda/envs/_build/bin
+
+Installed /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/pbr-1.2.0-py2.7.egg
+Searching for linecache2
+Reading https://pypi.python.org/simple/linecache2/
+Best match: linecache2 1.0.0
+Downloading https://pypi.python.org/packages/source/l/linecache2/linecache2-1.0.0.tar.gz#md5=7b25d0289ec36bff1f9e63c4329ce65c
+Processing linecache2-1.0.0.tar.gz
+Writing /tmp/easy_install-veRr4u/linecache2-1.0.0/setup.cfg
+Running linecache2-1.0.0/setup.py -q bdist_egg --dist-dir /tmp/easy_install-veRr4u/linecache2-1.0.0/egg-dist-tmp-S9cmex
+  File "build/bdist.linux-x86_64/egg/linecache2/tests/inspect_fodder2.py", line 102
+    def keyworded(*arg1, arg2=1):
+                            ^
+SyntaxError: invalid syntax
+
+creating /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/linecache2-1.0.0-py2.7.egg
+Extracting linecache2-1.0.0-py2.7.egg to /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages
+  File "/home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/linecache2-1.0.0-py2.7.egg/linecache2/tests/inspect_fodder2.py", line 102
+    def keyworded(*arg1, arg2=1):
+                            ^
+SyntaxError: invalid syntax
+
+Adding linecache2 1.0.0 to easy-install.pth file
+
+Installed /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/linecache2-1.0.0-py2.7.egg
+Searching for six>=1.4
+Reading https://pypi.python.org/simple/six/
+Best match: six 1.9.0
+Downloading https://pypi.python.org/packages/source/s/six/six-1.9.0.tar.gz#md5=476881ef4012262dfc8adc645ee786c4
+Processing six-1.9.0.tar.gz
+Writing /tmp/easy_install-hkm6V1/six-1.9.0/setup.cfg
+Running six-1.9.0/setup.py -q bdist_egg --dist-dir /tmp/easy_install-hkm6V1/six-1.9.0/egg-dist-tmp-C7v3tD
+no previously-included directories found matching 'documentation/_build'
+zip_safe flag not set; analyzing archive contents...
+six: module references __path__
+creating /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/six-1.9.0-py2.7.egg
+Extracting six-1.9.0-py2.7.egg to /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages
+Adding six 1.9.0 to easy-install.pth file
+
+Installed /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/six-1.9.0-py2.7.egg
+Searching for argparse
+Reading https://pypi.python.org/simple/argparse/
+Best match: argparse 1.3.0
+Downloading https://pypi.python.org/packages/source/a/argparse/argparse-1.3.0.tar.gz#md5=9bcf7f612190885c8c85e30ba41db3c7
+Processing argparse-1.3.0.tar.gz
+Writing /tmp/easy_install-cXF7Qz/argparse-1.3.0/setup.cfg
+Running argparse-1.3.0/setup.py -q bdist_egg --dist-dir /tmp/easy_install-cXF7Qz/argparse-1.3.0/egg-dist-tmp-T0GcNO
+warning: no previously-included files matching '*.pyc' found anywhere in distribution
+warning: no previously-included files matching '*.pyo' found anywhere in distribution
+warning: no previously-included files matching '*.orig' found anywhere in distribution
+warning: no previously-included files matching '*.rej' found anywhere in distribution
+no previously-included directories found matching 'doc/_build'
+no previously-included directories found matching 'env24'
+no previously-included directories found matching 'env25'
+no previously-included directories found matching 'env26'
+no previously-included directories found matching 'env27'
+zip_safe flag not set; analyzing archive contents...
+Moving argparse-1.3.0-py2.7.egg to /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages
+Adding argparse 1.3.0 to easy-install.pth file
+
+Installed /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/argparse-1.3.0-py2.7.egg
+Finished processing dependencies for python-subunit==1.1.0
+Compiling /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/linecache2/tests/inspect_fodder2.py ...
+  File "/home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/linecache2/tests/inspect_fodder2.py", line 102
+    def keyworded(*arg1, arg2=1):
+                            ^
+SyntaxError: invalid syntax
+
 
 The following NEW packages will be INSTALLED:
 
-    extras:     0.0.3-py_0  
-    openssl:    1.0.1k-1    
-    pbr:        1.0.1-py_0  
-    pip:        7.0.3-py27_0
-    python:     2.7.10-0    
-    readline:   6.2-2       
-    setuptools: 17.0-py27_0 
-    sqlite:     3.8.4.1-1   
-    system:     5.8-2       
-    testtools:  1.8.0-py27_0
-    tk:         8.5.18-0    
-    zlib:       1.2.8-0     
+    openssl:    1.0.1k-1     
+    pip:        7.0.3-py27_0 
+    python:     2.7.10-0     
+    readline:   6.2-2        
+    setuptools: 18.0.1-py27_0
+    sqlite:     3.8.4.1-1    
+    system:     5.8-2        
+    tk:         8.5.18-0     
+    zlib:       1.2.8-0      
 
 Linking packages ...
-[                    ]|                                                  |   0%[openssl             ]|                                                  |   0%[readline            ]|####                                              |   8%[sqlite              ]|########                                          |  16%[system              ]|############                                      |  25%[tk                  ]|################                                  |  33%[zlib                ]|####################                              |  41%[extras              ]|#########################                         |  50%Error: pre-link failed: extras-0.0.3-py_0
+[                    ]|                                                  |   0%[openssl             ]|                                                  |   0%[readline            ]|#####                                             |  11%[sqlite              ]|###########                                       |  22%[system              ]|################                                  |  33%[tk                  ]|######################                            |  44%[zlib                ]|###########################                       |  55%[python              ]|#################################                 |  66%[setuptools          ]|######################################            |  77%[pip                 ]|############################################      |  88%[      COMPLETE      ]|##################################################| 100%
+Removing old work directory
+Source cache directory is: /home/ubuntu/miniconda/conda-bld/src_cache
+Found source in cache: python-subunit-1.1.0.tar.gz
+Extracting download
+Package: python-subunit-1.1.0-py27_0
+source tree in: /home/ubuntu/miniconda/conda-bld/work/python-subunit-1.1.0
+found egg dir: /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/six-1.9.0-py2.7.egg
+found egg dir: /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/pbr-1.2.0-py2.7.egg
+found egg dir: /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/python_subunit-1.1.0-py2.7.egg
+found egg: /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/argparse-1.3.0-py2.7.egg
+found egg dir: /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/linecache2-1.0.0-py2.7.egg
+found egg dir: /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/unittest2-1.1.0-py2.7.egg
+found egg: /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/python_mimeparse-0.1.4-py2.7.egg
+found egg dir: /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/testtools-1.8.0-py2.7.egg
+found egg: /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/extras-0.0.3-py2.7.egg
+found egg dir: /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/traceback2-1.4.0-py2.7.egg
+compiling .pyc files...
+Command failed: /home/ubuntu/miniconda/envs/_build/bin/python -Wi /home/ubuntu/miniconda/envs/_build/lib/python2.7/compileall.py -q -x port_v3 /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages

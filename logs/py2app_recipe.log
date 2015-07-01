@@ -1,0 +1,205 @@
+Warning, the following versions were found for py2app
+0.9
+0.8.1
+0.8
+0.7.3
+0.7.2
+0.7.1
+0.7
+0.6.4
+0.6.3
+0.6.2
+0.6.1
+0.6
+0.5.2
+0.5.1
+0.5
+0.4.3
+0.4.2
+0.3.6
+0.3.5
+0.3.4
+0.3.3
+0.3.2
+0.3.1
+0.3
+Using 0.9
+Use --version to specify a different version.
+Using url https://pypi.python.org/packages/source/p/py2app/py2app-0.9.tar.gz (1.6 MB) for py2app.
+Downloading py2app
+Using cached download
+Unpacking py2app...
+done
+working in /tmp/tmpetqER0conda_skeleton_py2app-0.9.tar.gz
+Fetching package metadata: ......
+
+WARNING: conda-build appears to be out of date. You have version 1.13.0 but the
+latest version is 1.14.1. Run
+
+conda update -n root conda-build
+
+to get the latest version.
+
+Solving package specifications: .patching file core.py
+Hunk #1 succeeded at 168 with fuzz 2 (offset 2 lines).
+
+WARNING: conda-build appears to be out of date. You have version 1.13.0 but the
+latest version is 1.14.1. Run
+
+conda update -n root conda-build
+
+to get the latest version.
+
+
+The following NEW packages will be INSTALLED:
+
+    numpy:      1.9.2-py27_0 
+    openssl:    1.0.1k-1     
+    pip:        7.0.3-py27_0 
+    python:     2.7.10-0     
+    pyyaml:     3.11-py27_1  
+    readline:   6.2-2        
+    setuptools: 18.0.1-py27_0
+    sqlite:     3.8.4.1-1    
+    system:     5.8-2        
+    tk:         8.5.18-0     
+    yaml:       0.1.6-0      
+    zlib:       1.2.8-0      
+
+Linking packages ...
+[                    ]|                                                  |   0%[openssl             ]|                                                  |   0%[readline            ]|####                                              |   8%[sqlite              ]|########                                          |  16%[system              ]|############                                      |  25%[tk                  ]|################                                  |  33%[yaml                ]|####################                              |  41%[zlib                ]|#########################                         |  50%[numpy               ]|#############################                     |  58%[python              ]|#################################                 |  66%[pyyaml              ]|#####################################             |  75%[setuptools          ]|#########################################         |  83%[pip                 ]|#############################################     |  91%[      COMPLETE      ]|##################################################| 100%
+Applying patch: '/tmp/tmpetqER0conda_skeleton_py2app-0.9.tar.gz/pypi-distutils.patch'
+Warning, the following versions were found for macholib
+1.7
+1.6
+1.5.1
+1.5
+1.4.3
+1.4.2
+1.4.1
+1.4
+1.3
+1.2.1
+1.2
+1.2.dev-r25
+1.1
+1.0
+Using 1.7
+Use --version to specify a different version.
+Using url https://pypi.python.org/packages/source/m/macholib/macholib-1.7.tar.gz (465 KB) for macholib.
+Downloading macholib
+Using cached download
+Unpacking macholib...
+done
+working in /tmp/tmpWxUVgzconda_skeleton_macholib-1.7.tar.gz
+Solving package specifications: .patching file core.py
+Hunk #1 succeeded at 168 with fuzz 2 (offset 2 lines).
+
+WARNING: conda-build appears to be out of date. You have version 1.13.0 but the
+latest version is 1.14.1. Run
+
+conda update -n root conda-build
+
+to get the latest version.
+
+
+Applying patch: '/tmp/tmpWxUVgzconda_skeleton_macholib-1.7.tar.gz/pypi-distutils.patch'
+Warning, the following versions were found for altgraph
+0.12
+0.11
+0.10.2
+0.10.1
+0.10
+0.9
+0.8
+0.7.2
+0.7.1
+0.7.0
+0.6.7
+0.6.6
+Using 0.12
+Use --version to specify a different version.
+Using url https://pypi.python.org/packages/source/a/altgraph/altgraph-0.12.tar.gz (481 KB) for altgraph.
+Downloading altgraph
+Using cached download
+Unpacking altgraph...
+done
+working in /tmp/tmplIxfolconda_skeleton_altgraph-0.12.tar.gz
+Solving package specifications: .patching file core.py
+Hunk #1 succeeded at 168 with fuzz 2 (offset 2 lines).
+
+WARNING: conda-build appears to be out of date. You have version 1.13.0 but the
+latest version is 1.14.1. Run
+
+conda update -n root conda-build
+
+to get the latest version.
+
+
+Applying patch: '/tmp/tmplIxfolconda_skeleton_altgraph-0.12.tar.gz/pypi-distutils.patch'
+Warning, the following versions were found for modulegraph
+0.12.1
+0.12
+0.11.1
+0.11
+0.10.4
+0.10.3
+0.10.2
+0.10.1
+0.10
+0.9.1
+0.9
+0.8
+0.7.3
+0.7
+0.5
+Using 0.12.1
+Use --version to specify a different version.
+Using url https://pypi.python.org/packages/source/m/modulegraph/modulegraph-0.12.1.tar.gz (661 KB) for modulegraph.
+Downloading modulegraph
+Using cached download
+Unpacking modulegraph...
+done
+working in /tmp/tmpyiWOV0conda_skeleton_modulegraph-0.12.1.tar.gz
+Solving package specifications: .patching file core.py
+Hunk #1 succeeded at 168 with fuzz 2 (offset 2 lines).
+
+WARNING: conda-build appears to be out of date. You have version 1.13.0 but the
+latest version is 1.14.1. Run
+
+conda update -n root conda-build
+
+to get the latest version.
+
+
+Applying patch: '/tmp/tmpyiWOV0conda_skeleton_modulegraph-0.12.1.tar.gz/pypi-distutils.patch'
+Warning, the following versions were found for altgraph
+0.12
+0.11
+0.10.2
+0.10.1
+0.10
+0.9
+0.8
+0.7.2
+0.7.1
+0.7.0
+0.6.7
+0.6.6
+Using 0.12
+Use --version to specify a different version.
+Using url https://pypi.python.org/packages/source/a/altgraph/altgraph-0.12.tar.gz (481 KB) for altgraph.
+Downloading altgraph
+Using cached download
+Unpacking altgraph...
+done
+working in /tmp/tmp3Xjivpconda_skeleton_altgraph-0.12.tar.gz
+Solving package specifications: .patching file core.py
+Hunk #1 succeeded at 168 with fuzz 2 (offset 2 lines).
+
+Applying patch: '/tmp/tmp3Xjivpconda_skeleton_altgraph-0.12.tar.gz/pypi-distutils.patch'
+Writing recipe for macholib
+Writing recipe for py2app
+Writing recipe for altgraph
+Writing recipe for modulegraph
+Done

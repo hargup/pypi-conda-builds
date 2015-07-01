@@ -1,0 +1,367 @@
+Removing old build directory
+Removing old work directory
+BUILD START: py2neo-2.0.7-py_0
+Fetching package metadata: ......
+
+WARNING: conda-build appears to be out of date. You have version 1.13.0 but the
+latest version is 1.14.1. Run
+
+conda update -n root conda-build
+
+to get the latest version.
+
+Solving package specifications: .+ /home/ubuntu/miniconda/envs/_build/bin/python setup.py install
+running install
+running bdist_egg
+running egg_info
+writing py2neo.egg-info/PKG-INFO
+writing top-level names to py2neo.egg-info/top_level.txt
+writing dependency_links to py2neo.egg-info/dependency_links.txt
+writing entry points to py2neo.egg-info/entry_points.txt
+reading manifest file 'py2neo.egg-info/SOURCES.txt'
+reading manifest template 'MANIFEST.in'
+writing manifest file 'py2neo.egg-info/SOURCES.txt'
+installing library code to build/bdist.linux-x86_64/egg
+running install_lib
+running build_py
+creating build
+creating build/lib.linux-x86_64-2.7
+creating build/lib.linux-x86_64-2.7/py2neo
+copying py2neo/lang.py -> build/lib.linux-x86_64-2.7/py2neo
+copying py2neo/admin.py -> build/lib.linux-x86_64-2.7/py2neo
+copying py2neo/store.py -> build/lib.linux-x86_64-2.7/py2neo
+copying py2neo/deprecated.py -> build/lib.linux-x86_64-2.7/py2neo
+copying py2neo/types.py -> build/lib.linux-x86_64-2.7/py2neo
+copying py2neo/neo4j.py -> build/lib.linux-x86_64-2.7/py2neo
+copying py2neo/schema.py -> build/lib.linux-x86_64-2.7/py2neo
+copying py2neo/util.py -> build/lib.linux-x86_64-2.7/py2neo
+copying py2neo/env.py -> build/lib.linux-x86_64-2.7/py2neo
+copying py2neo/__init__.py -> build/lib.linux-x86_64-2.7/py2neo
+copying py2neo/error.py -> build/lib.linux-x86_64-2.7/py2neo
+copying py2neo/password.py -> build/lib.linux-x86_64-2.7/py2neo
+copying py2neo/server.py -> build/lib.linux-x86_64-2.7/py2neo
+copying py2neo/core.py -> build/lib.linux-x86_64-2.7/py2neo
+creating build/lib.linux-x86_64-2.7/py2neo/batch
+copying py2neo/batch/read.py -> build/lib.linux-x86_64-2.7/py2neo/batch
+copying py2neo/batch/pull.py -> build/lib.linux-x86_64-2.7/py2neo/batch
+copying py2neo/batch/__init__.py -> build/lib.linux-x86_64-2.7/py2neo/batch
+copying py2neo/batch/push.py -> build/lib.linux-x86_64-2.7/py2neo/batch
+copying py2neo/batch/write.py -> build/lib.linux-x86_64-2.7/py2neo/batch
+copying py2neo/batch/core.py -> build/lib.linux-x86_64-2.7/py2neo/batch
+creating build/lib.linux-x86_64-2.7/py2neo/cypher
+copying py2neo/cypher/task.py -> build/lib.linux-x86_64-2.7/py2neo/cypher
+copying py2neo/cypher/lang.py -> build/lib.linux-x86_64-2.7/py2neo/cypher
+copying py2neo/cypher/__main__.py -> build/lib.linux-x86_64-2.7/py2neo/cypher
+copying py2neo/cypher/util.py -> build/lib.linux-x86_64-2.7/py2neo/cypher
+copying py2neo/cypher/create.py -> build/lib.linux-x86_64-2.7/py2neo/cypher
+copying py2neo/cypher/__init__.py -> build/lib.linux-x86_64-2.7/py2neo/cypher
+copying py2neo/cypher/delete.py -> build/lib.linux-x86_64-2.7/py2neo/cypher
+copying py2neo/cypher/core.py -> build/lib.linux-x86_64-2.7/py2neo/cypher
+creating build/lib.linux-x86_64-2.7/py2neo/ext
+copying py2neo/ext/__init__.py -> build/lib.linux-x86_64-2.7/py2neo/ext
+creating build/lib.linux-x86_64-2.7/py2neo/legacy
+copying py2neo/legacy/index.py -> build/lib.linux-x86_64-2.7/py2neo/legacy
+copying py2neo/legacy/batch.py -> build/lib.linux-x86_64-2.7/py2neo/legacy
+copying py2neo/legacy/__init__.py -> build/lib.linux-x86_64-2.7/py2neo/legacy
+copying py2neo/legacy/core.py -> build/lib.linux-x86_64-2.7/py2neo/legacy
+creating build/lib.linux-x86_64-2.7/py2neo/packages
+copying py2neo/packages/__init__.py -> build/lib.linux-x86_64-2.7/py2neo/packages
+creating build/lib.linux-x86_64-2.7/py2neo/cypher/error
+copying py2neo/cypher/error/network.py -> build/lib.linux-x86_64-2.7/py2neo/cypher/error
+copying py2neo/cypher/error/statement.py -> build/lib.linux-x86_64-2.7/py2neo/cypher/error
+copying py2neo/cypher/error/schema.py -> build/lib.linux-x86_64-2.7/py2neo/cypher/error
+copying py2neo/cypher/error/general.py -> build/lib.linux-x86_64-2.7/py2neo/cypher/error
+copying py2neo/cypher/error/__init__.py -> build/lib.linux-x86_64-2.7/py2neo/cypher/error
+copying py2neo/cypher/error/request.py -> build/lib.linux-x86_64-2.7/py2neo/cypher/error
+copying py2neo/cypher/error/core.py -> build/lib.linux-x86_64-2.7/py2neo/cypher/error
+copying py2neo/cypher/error/transaction.py -> build/lib.linux-x86_64-2.7/py2neo/cypher/error
+creating build/lib.linux-x86_64-2.7/py2neo/ext/spatial
+copying py2neo/ext/spatial/plugin.py -> build/lib.linux-x86_64-2.7/py2neo/ext/spatial
+copying py2neo/ext/spatial/util.py -> build/lib.linux-x86_64-2.7/py2neo/ext/spatial
+copying py2neo/ext/spatial/__init__.py -> build/lib.linux-x86_64-2.7/py2neo/ext/spatial
+copying py2neo/ext/spatial/exceptions.py -> build/lib.linux-x86_64-2.7/py2neo/ext/spatial
+creating build/lib.linux-x86_64-2.7/py2neo/ext/ogm
+copying py2neo/ext/ogm/store.py -> build/lib.linux-x86_64-2.7/py2neo/ext/ogm
+copying py2neo/ext/ogm/__init__.py -> build/lib.linux-x86_64-2.7/py2neo/ext/ogm
+creating build/lib.linux-x86_64-2.7/py2neo/ext/neobox
+copying py2neo/ext/neobox/__main__.py -> build/lib.linux-x86_64-2.7/py2neo/ext/neobox
+copying py2neo/ext/neobox/__init__.py -> build/lib.linux-x86_64-2.7/py2neo/ext/neobox
+copying py2neo/ext/neobox/core.py -> build/lib.linux-x86_64-2.7/py2neo/ext/neobox
+creating build/lib.linux-x86_64-2.7/py2neo/ext/calendar
+copying py2neo/ext/calendar/gregorian.py -> build/lib.linux-x86_64-2.7/py2neo/ext/calendar
+copying py2neo/ext/calendar/__init__.py -> build/lib.linux-x86_64-2.7/py2neo/ext/calendar
+creating build/lib.linux-x86_64-2.7/py2neo/ext/gremlin
+copying py2neo/ext/gremlin/__init__.py -> build/lib.linux-x86_64-2.7/py2neo/ext/gremlin
+creating build/lib.linux-x86_64-2.7/py2neo/ext/geoff
+copying py2neo/ext/geoff/__main__.py -> build/lib.linux-x86_64-2.7/py2neo/ext/geoff
+copying py2neo/ext/geoff/loader.py -> build/lib.linux-x86_64-2.7/py2neo/ext/geoff
+copying py2neo/ext/geoff/xmlutil.py -> build/lib.linux-x86_64-2.7/py2neo/ext/geoff
+copying py2neo/ext/geoff/__init__.py -> build/lib.linux-x86_64-2.7/py2neo/ext/geoff
+copying py2neo/ext/geoff/writer.py -> build/lib.linux-x86_64-2.7/py2neo/ext/geoff
+creating build/lib.linux-x86_64-2.7/py2neo/ext/spatial/scripts
+copying py2neo/ext/spatial/scripts/load_data.py -> build/lib.linux-x86_64-2.7/py2neo/ext/spatial/scripts
+copying py2neo/ext/spatial/scripts/__init__.py -> build/lib.linux-x86_64-2.7/py2neo/ext/spatial/scripts
+creating build/lib.linux-x86_64-2.7/py2neo/packages/httpstream
+copying py2neo/packages/httpstream/watch.py -> build/lib.linux-x86_64-2.7/py2neo/packages/httpstream
+copying py2neo/packages/httpstream/__main__.py -> build/lib.linux-x86_64-2.7/py2neo/packages/httpstream
+copying py2neo/packages/httpstream/jsonencoder.py -> build/lib.linux-x86_64-2.7/py2neo/packages/httpstream
+copying py2neo/packages/httpstream/tardis.py -> build/lib.linux-x86_64-2.7/py2neo/packages/httpstream
+copying py2neo/packages/httpstream/http.py -> build/lib.linux-x86_64-2.7/py2neo/packages/httpstream
+copying py2neo/packages/httpstream/__init__.py -> build/lib.linux-x86_64-2.7/py2neo/packages/httpstream
+copying py2neo/packages/httpstream/numbers.py -> build/lib.linux-x86_64-2.7/py2neo/packages/httpstream
+creating build/lib.linux-x86_64-2.7/py2neo/packages/jsonstream
+copying py2neo/packages/jsonstream/jsonencoder.py -> build/lib.linux-x86_64-2.7/py2neo/packages/jsonstream
+copying py2neo/packages/jsonstream/pyjsonstream.py -> build/lib.linux-x86_64-2.7/py2neo/packages/jsonstream
+copying py2neo/packages/jsonstream/__init__.py -> build/lib.linux-x86_64-2.7/py2neo/packages/jsonstream
+creating build/lib.linux-x86_64-2.7/py2neo/packages/tart
+copying py2neo/packages/tart/tables.py -> build/lib.linux-x86_64-2.7/py2neo/packages/tart
+copying py2neo/packages/tart/__init__.py -> build/lib.linux-x86_64-2.7/py2neo/packages/tart
+creating build/lib.linux-x86_64-2.7/py2neo/packages/httpstream/packages
+copying py2neo/packages/httpstream/packages/__init__.py -> build/lib.linux-x86_64-2.7/py2neo/packages/httpstream/packages
+creating build/lib.linux-x86_64-2.7/py2neo/packages/httpstream/packages/urimagic
+copying py2neo/packages/httpstream/packages/urimagic/rfc6570.py -> build/lib.linux-x86_64-2.7/py2neo/packages/httpstream/packages/urimagic
+copying py2neo/packages/httpstream/packages/urimagic/util.py -> build/lib.linux-x86_64-2.7/py2neo/packages/httpstream/packages/urimagic
+copying py2neo/packages/httpstream/packages/urimagic/rfc3986.py -> build/lib.linux-x86_64-2.7/py2neo/packages/httpstream/packages/urimagic
+copying py2neo/packages/httpstream/packages/urimagic/__init__.py -> build/lib.linux-x86_64-2.7/py2neo/packages/httpstream/packages/urimagic
+copying py2neo/packages/httpstream/packages/urimagic/kvlist.py -> build/lib.linux-x86_64-2.7/py2neo/packages/httpstream/packages/urimagic
+running build_ext
+building 'py2neo.packages.jsonstream.cjsonstream_2x' extension
+creating build/temp.linux-x86_64-2.7
+creating build/temp.linux-x86_64-2.7/py2neo
+creating build/temp.linux-x86_64-2.7/py2neo/packages
+creating build/temp.linux-x86_64-2.7/py2neo/packages/jsonstream
+gcc -pthread -fno-strict-aliasing -g -O2 -DNDEBUG -g -fwrapv -O3 -Wall -Wstrict-prototypes -fPIC -I/home/ubuntu/miniconda/envs/_build/include/python2.7 -c py2neo/packages/jsonstream/cjsonstream_2x.c -o build/temp.linux-x86_64-2.7/py2neo/packages/jsonstream/cjsonstream_2x.o
+gcc -pthread -shared -L/home/ubuntu/miniconda/envs/_build/lib -Wl,-rpath=/home/ubuntu/miniconda/envs/_build/lib,--no-as-needed build/temp.linux-x86_64-2.7/py2neo/packages/jsonstream/cjsonstream_2x.o -L/home/ubuntu/miniconda/envs/_build/lib -lpython2.7 -o build/lib.linux-x86_64-2.7/py2neo/packages/jsonstream/cjsonstream_2x.so
+creating build/bdist.linux-x86_64
+creating build/bdist.linux-x86_64/egg
+creating build/bdist.linux-x86_64/egg/py2neo
+copying build/lib.linux-x86_64-2.7/py2neo/lang.py -> build/bdist.linux-x86_64/egg/py2neo
+creating build/bdist.linux-x86_64/egg/py2neo/batch
+copying build/lib.linux-x86_64-2.7/py2neo/batch/read.py -> build/bdist.linux-x86_64/egg/py2neo/batch
+copying build/lib.linux-x86_64-2.7/py2neo/batch/pull.py -> build/bdist.linux-x86_64/egg/py2neo/batch
+copying build/lib.linux-x86_64-2.7/py2neo/batch/__init__.py -> build/bdist.linux-x86_64/egg/py2neo/batch
+copying build/lib.linux-x86_64-2.7/py2neo/batch/push.py -> build/bdist.linux-x86_64/egg/py2neo/batch
+copying build/lib.linux-x86_64-2.7/py2neo/batch/write.py -> build/bdist.linux-x86_64/egg/py2neo/batch
+copying build/lib.linux-x86_64-2.7/py2neo/batch/core.py -> build/bdist.linux-x86_64/egg/py2neo/batch
+copying build/lib.linux-x86_64-2.7/py2neo/admin.py -> build/bdist.linux-x86_64/egg/py2neo
+copying build/lib.linux-x86_64-2.7/py2neo/store.py -> build/bdist.linux-x86_64/egg/py2neo
+copying build/lib.linux-x86_64-2.7/py2neo/deprecated.py -> build/bdist.linux-x86_64/egg/py2neo
+copying build/lib.linux-x86_64-2.7/py2neo/types.py -> build/bdist.linux-x86_64/egg/py2neo
+copying build/lib.linux-x86_64-2.7/py2neo/neo4j.py -> build/bdist.linux-x86_64/egg/py2neo
+copying build/lib.linux-x86_64-2.7/py2neo/schema.py -> build/bdist.linux-x86_64/egg/py2neo
+copying build/lib.linux-x86_64-2.7/py2neo/util.py -> build/bdist.linux-x86_64/egg/py2neo
+creating build/bdist.linux-x86_64/egg/py2neo/cypher
+copying build/lib.linux-x86_64-2.7/py2neo/cypher/task.py -> build/bdist.linux-x86_64/egg/py2neo/cypher
+copying build/lib.linux-x86_64-2.7/py2neo/cypher/lang.py -> build/bdist.linux-x86_64/egg/py2neo/cypher
+copying build/lib.linux-x86_64-2.7/py2neo/cypher/__main__.py -> build/bdist.linux-x86_64/egg/py2neo/cypher
+creating build/bdist.linux-x86_64/egg/py2neo/cypher/error
+copying build/lib.linux-x86_64-2.7/py2neo/cypher/error/network.py -> build/bdist.linux-x86_64/egg/py2neo/cypher/error
+copying build/lib.linux-x86_64-2.7/py2neo/cypher/error/statement.py -> build/bdist.linux-x86_64/egg/py2neo/cypher/error
+copying build/lib.linux-x86_64-2.7/py2neo/cypher/error/schema.py -> build/bdist.linux-x86_64/egg/py2neo/cypher/error
+copying build/lib.linux-x86_64-2.7/py2neo/cypher/error/general.py -> build/bdist.linux-x86_64/egg/py2neo/cypher/error
+copying build/lib.linux-x86_64-2.7/py2neo/cypher/error/__init__.py -> build/bdist.linux-x86_64/egg/py2neo/cypher/error
+copying build/lib.linux-x86_64-2.7/py2neo/cypher/error/request.py -> build/bdist.linux-x86_64/egg/py2neo/cypher/error
+copying build/lib.linux-x86_64-2.7/py2neo/cypher/error/core.py -> build/bdist.linux-x86_64/egg/py2neo/cypher/error
+copying build/lib.linux-x86_64-2.7/py2neo/cypher/error/transaction.py -> build/bdist.linux-x86_64/egg/py2neo/cypher/error
+copying build/lib.linux-x86_64-2.7/py2neo/cypher/util.py -> build/bdist.linux-x86_64/egg/py2neo/cypher
+copying build/lib.linux-x86_64-2.7/py2neo/cypher/create.py -> build/bdist.linux-x86_64/egg/py2neo/cypher
+copying build/lib.linux-x86_64-2.7/py2neo/cypher/__init__.py -> build/bdist.linux-x86_64/egg/py2neo/cypher
+copying build/lib.linux-x86_64-2.7/py2neo/cypher/delete.py -> build/bdist.linux-x86_64/egg/py2neo/cypher
+copying build/lib.linux-x86_64-2.7/py2neo/cypher/core.py -> build/bdist.linux-x86_64/egg/py2neo/cypher
+copying build/lib.linux-x86_64-2.7/py2neo/env.py -> build/bdist.linux-x86_64/egg/py2neo
+copying build/lib.linux-x86_64-2.7/py2neo/__init__.py -> build/bdist.linux-x86_64/egg/py2neo
+copying build/lib.linux-x86_64-2.7/py2neo/error.py -> build/bdist.linux-x86_64/egg/py2neo
+creating build/bdist.linux-x86_64/egg/py2neo/ext
+creating build/bdist.linux-x86_64/egg/py2neo/ext/spatial
+copying build/lib.linux-x86_64-2.7/py2neo/ext/spatial/plugin.py -> build/bdist.linux-x86_64/egg/py2neo/ext/spatial
+copying build/lib.linux-x86_64-2.7/py2neo/ext/spatial/util.py -> build/bdist.linux-x86_64/egg/py2neo/ext/spatial
+copying build/lib.linux-x86_64-2.7/py2neo/ext/spatial/__init__.py -> build/bdist.linux-x86_64/egg/py2neo/ext/spatial
+creating build/bdist.linux-x86_64/egg/py2neo/ext/spatial/scripts
+copying build/lib.linux-x86_64-2.7/py2neo/ext/spatial/scripts/load_data.py -> build/bdist.linux-x86_64/egg/py2neo/ext/spatial/scripts
+copying build/lib.linux-x86_64-2.7/py2neo/ext/spatial/scripts/__init__.py -> build/bdist.linux-x86_64/egg/py2neo/ext/spatial/scripts
+copying build/lib.linux-x86_64-2.7/py2neo/ext/spatial/exceptions.py -> build/bdist.linux-x86_64/egg/py2neo/ext/spatial
+creating build/bdist.linux-x86_64/egg/py2neo/ext/ogm
+copying build/lib.linux-x86_64-2.7/py2neo/ext/ogm/store.py -> build/bdist.linux-x86_64/egg/py2neo/ext/ogm
+copying build/lib.linux-x86_64-2.7/py2neo/ext/ogm/__init__.py -> build/bdist.linux-x86_64/egg/py2neo/ext/ogm
+creating build/bdist.linux-x86_64/egg/py2neo/ext/neobox
+copying build/lib.linux-x86_64-2.7/py2neo/ext/neobox/__main__.py -> build/bdist.linux-x86_64/egg/py2neo/ext/neobox
+copying build/lib.linux-x86_64-2.7/py2neo/ext/neobox/__init__.py -> build/bdist.linux-x86_64/egg/py2neo/ext/neobox
+copying build/lib.linux-x86_64-2.7/py2neo/ext/neobox/core.py -> build/bdist.linux-x86_64/egg/py2neo/ext/neobox
+creating build/bdist.linux-x86_64/egg/py2neo/ext/calendar
+copying build/lib.linux-x86_64-2.7/py2neo/ext/calendar/gregorian.py -> build/bdist.linux-x86_64/egg/py2neo/ext/calendar
+copying build/lib.linux-x86_64-2.7/py2neo/ext/calendar/__init__.py -> build/bdist.linux-x86_64/egg/py2neo/ext/calendar
+copying build/lib.linux-x86_64-2.7/py2neo/ext/__init__.py -> build/bdist.linux-x86_64/egg/py2neo/ext
+creating build/bdist.linux-x86_64/egg/py2neo/ext/gremlin
+copying build/lib.linux-x86_64-2.7/py2neo/ext/gremlin/__init__.py -> build/bdist.linux-x86_64/egg/py2neo/ext/gremlin
+creating build/bdist.linux-x86_64/egg/py2neo/ext/geoff
+copying build/lib.linux-x86_64-2.7/py2neo/ext/geoff/__main__.py -> build/bdist.linux-x86_64/egg/py2neo/ext/geoff
+copying build/lib.linux-x86_64-2.7/py2neo/ext/geoff/loader.py -> build/bdist.linux-x86_64/egg/py2neo/ext/geoff
+copying build/lib.linux-x86_64-2.7/py2neo/ext/geoff/xmlutil.py -> build/bdist.linux-x86_64/egg/py2neo/ext/geoff
+copying build/lib.linux-x86_64-2.7/py2neo/ext/geoff/__init__.py -> build/bdist.linux-x86_64/egg/py2neo/ext/geoff
+copying build/lib.linux-x86_64-2.7/py2neo/ext/geoff/writer.py -> build/bdist.linux-x86_64/egg/py2neo/ext/geoff
+copying build/lib.linux-x86_64-2.7/py2neo/password.py -> build/bdist.linux-x86_64/egg/py2neo
+copying build/lib.linux-x86_64-2.7/py2neo/server.py -> build/bdist.linux-x86_64/egg/py2neo
+copying build/lib.linux-x86_64-2.7/py2neo/core.py -> build/bdist.linux-x86_64/egg/py2neo
+creating build/bdist.linux-x86_64/egg/py2neo/legacy
+copying build/lib.linux-x86_64-2.7/py2neo/legacy/index.py -> build/bdist.linux-x86_64/egg/py2neo/legacy
+copying build/lib.linux-x86_64-2.7/py2neo/legacy/batch.py -> build/bdist.linux-x86_64/egg/py2neo/legacy
+copying build/lib.linux-x86_64-2.7/py2neo/legacy/__init__.py -> build/bdist.linux-x86_64/egg/py2neo/legacy
+copying build/lib.linux-x86_64-2.7/py2neo/legacy/core.py -> build/bdist.linux-x86_64/egg/py2neo/legacy
+creating build/bdist.linux-x86_64/egg/py2neo/packages
+creating build/bdist.linux-x86_64/egg/py2neo/packages/httpstream
+copying build/lib.linux-x86_64-2.7/py2neo/packages/httpstream/watch.py -> build/bdist.linux-x86_64/egg/py2neo/packages/httpstream
+copying build/lib.linux-x86_64-2.7/py2neo/packages/httpstream/__main__.py -> build/bdist.linux-x86_64/egg/py2neo/packages/httpstream
+copying build/lib.linux-x86_64-2.7/py2neo/packages/httpstream/jsonencoder.py -> build/bdist.linux-x86_64/egg/py2neo/packages/httpstream
+copying build/lib.linux-x86_64-2.7/py2neo/packages/httpstream/tardis.py -> build/bdist.linux-x86_64/egg/py2neo/packages/httpstream
+copying build/lib.linux-x86_64-2.7/py2neo/packages/httpstream/http.py -> build/bdist.linux-x86_64/egg/py2neo/packages/httpstream
+copying build/lib.linux-x86_64-2.7/py2neo/packages/httpstream/__init__.py -> build/bdist.linux-x86_64/egg/py2neo/packages/httpstream
+copying build/lib.linux-x86_64-2.7/py2neo/packages/httpstream/numbers.py -> build/bdist.linux-x86_64/egg/py2neo/packages/httpstream
+creating build/bdist.linux-x86_64/egg/py2neo/packages/httpstream/packages
+copying build/lib.linux-x86_64-2.7/py2neo/packages/httpstream/packages/__init__.py -> build/bdist.linux-x86_64/egg/py2neo/packages/httpstream/packages
+creating build/bdist.linux-x86_64/egg/py2neo/packages/httpstream/packages/urimagic
+copying build/lib.linux-x86_64-2.7/py2neo/packages/httpstream/packages/urimagic/rfc6570.py -> build/bdist.linux-x86_64/egg/py2neo/packages/httpstream/packages/urimagic
+copying build/lib.linux-x86_64-2.7/py2neo/packages/httpstream/packages/urimagic/util.py -> build/bdist.linux-x86_64/egg/py2neo/packages/httpstream/packages/urimagic
+copying build/lib.linux-x86_64-2.7/py2neo/packages/httpstream/packages/urimagic/rfc3986.py -> build/bdist.linux-x86_64/egg/py2neo/packages/httpstream/packages/urimagic
+copying build/lib.linux-x86_64-2.7/py2neo/packages/httpstream/packages/urimagic/__init__.py -> build/bdist.linux-x86_64/egg/py2neo/packages/httpstream/packages/urimagic
+copying build/lib.linux-x86_64-2.7/py2neo/packages/httpstream/packages/urimagic/kvlist.py -> build/bdist.linux-x86_64/egg/py2neo/packages/httpstream/packages/urimagic
+creating build/bdist.linux-x86_64/egg/py2neo/packages/jsonstream
+copying build/lib.linux-x86_64-2.7/py2neo/packages/jsonstream/jsonencoder.py -> build/bdist.linux-x86_64/egg/py2neo/packages/jsonstream
+copying build/lib.linux-x86_64-2.7/py2neo/packages/jsonstream/pyjsonstream.py -> build/bdist.linux-x86_64/egg/py2neo/packages/jsonstream
+copying build/lib.linux-x86_64-2.7/py2neo/packages/jsonstream/cjsonstream_2x.so -> build/bdist.linux-x86_64/egg/py2neo/packages/jsonstream
+copying build/lib.linux-x86_64-2.7/py2neo/packages/jsonstream/__init__.py -> build/bdist.linux-x86_64/egg/py2neo/packages/jsonstream
+creating build/bdist.linux-x86_64/egg/py2neo/packages/tart
+copying build/lib.linux-x86_64-2.7/py2neo/packages/tart/tables.py -> build/bdist.linux-x86_64/egg/py2neo/packages/tart
+copying build/lib.linux-x86_64-2.7/py2neo/packages/tart/__init__.py -> build/bdist.linux-x86_64/egg/py2neo/packages/tart
+copying build/lib.linux-x86_64-2.7/py2neo/packages/__init__.py -> build/bdist.linux-x86_64/egg/py2neo/packages
+byte-compiling build/bdist.linux-x86_64/egg/py2neo/lang.py to lang.pyc
+byte-compiling build/bdist.linux-x86_64/egg/py2neo/batch/read.py to read.pyc
+byte-compiling build/bdist.linux-x86_64/egg/py2neo/batch/pull.py to pull.pyc
+byte-compiling build/bdist.linux-x86_64/egg/py2neo/batch/__init__.py to __init__.pyc
+byte-compiling build/bdist.linux-x86_64/egg/py2neo/batch/push.py to push.pyc
+byte-compiling build/bdist.linux-x86_64/egg/py2neo/batch/write.py to write.pyc
+byte-compiling build/bdist.linux-x86_64/egg/py2neo/batch/core.py to core.pyc
+byte-compiling build/bdist.linux-x86_64/egg/py2neo/admin.py to admin.pyc
+byte-compiling build/bdist.linux-x86_64/egg/py2neo/store.py to store.pyc
+byte-compiling build/bdist.linux-x86_64/egg/py2neo/deprecated.py to deprecated.pyc
+byte-compiling build/bdist.linux-x86_64/egg/py2neo/types.py to types.pyc
+byte-compiling build/bdist.linux-x86_64/egg/py2neo/neo4j.py to neo4j.pyc
+byte-compiling build/bdist.linux-x86_64/egg/py2neo/schema.py to schema.pyc
+byte-compiling build/bdist.linux-x86_64/egg/py2neo/util.py to util.pyc
+byte-compiling build/bdist.linux-x86_64/egg/py2neo/cypher/task.py to task.pyc
+byte-compiling build/bdist.linux-x86_64/egg/py2neo/cypher/lang.py to lang.pyc
+byte-compiling build/bdist.linux-x86_64/egg/py2neo/cypher/__main__.py to __main__.pyc
+byte-compiling build/bdist.linux-x86_64/egg/py2neo/cypher/error/network.py to network.pyc
+byte-compiling build/bdist.linux-x86_64/egg/py2neo/cypher/error/statement.py to statement.pyc
+byte-compiling build/bdist.linux-x86_64/egg/py2neo/cypher/error/schema.py to schema.pyc
+byte-compiling build/bdist.linux-x86_64/egg/py2neo/cypher/error/general.py to general.pyc
+byte-compiling build/bdist.linux-x86_64/egg/py2neo/cypher/error/__init__.py to __init__.pyc
+byte-compiling build/bdist.linux-x86_64/egg/py2neo/cypher/error/request.py to request.pyc
+byte-compiling build/bdist.linux-x86_64/egg/py2neo/cypher/error/core.py to core.pyc
+byte-compiling build/bdist.linux-x86_64/egg/py2neo/cypher/error/transaction.py to transaction.pyc
+byte-compiling build/bdist.linux-x86_64/egg/py2neo/cypher/util.py to util.pyc
+byte-compiling build/bdist.linux-x86_64/egg/py2neo/cypher/create.py to create.pyc
+byte-compiling build/bdist.linux-x86_64/egg/py2neo/cypher/__init__.py to __init__.pyc
+byte-compiling build/bdist.linux-x86_64/egg/py2neo/cypher/delete.py to delete.pyc
+byte-compiling build/bdist.linux-x86_64/egg/py2neo/cypher/core.py to core.pyc
+byte-compiling build/bdist.linux-x86_64/egg/py2neo/env.py to env.pyc
+byte-compiling build/bdist.linux-x86_64/egg/py2neo/__init__.py to __init__.pyc
+byte-compiling build/bdist.linux-x86_64/egg/py2neo/error.py to error.pyc
+byte-compiling build/bdist.linux-x86_64/egg/py2neo/ext/spatial/plugin.py to plugin.pyc
+byte-compiling build/bdist.linux-x86_64/egg/py2neo/ext/spatial/util.py to util.pyc
+byte-compiling build/bdist.linux-x86_64/egg/py2neo/ext/spatial/__init__.py to __init__.pyc
+byte-compiling build/bdist.linux-x86_64/egg/py2neo/ext/spatial/scripts/load_data.py to load_data.pyc
+byte-compiling build/bdist.linux-x86_64/egg/py2neo/ext/spatial/scripts/__init__.py to __init__.pyc
+byte-compiling build/bdist.linux-x86_64/egg/py2neo/ext/spatial/exceptions.py to exceptions.pyc
+byte-compiling build/bdist.linux-x86_64/egg/py2neo/ext/ogm/store.py to store.pyc
+byte-compiling build/bdist.linux-x86_64/egg/py2neo/ext/ogm/__init__.py to __init__.pyc
+byte-compiling build/bdist.linux-x86_64/egg/py2neo/ext/neobox/__main__.py to __main__.pyc
+byte-compiling build/bdist.linux-x86_64/egg/py2neo/ext/neobox/__init__.py to __init__.pyc
+byte-compiling build/bdist.linux-x86_64/egg/py2neo/ext/neobox/core.py to core.pyc
+byte-compiling build/bdist.linux-x86_64/egg/py2neo/ext/calendar/gregorian.py to gregorian.pyc
+byte-compiling build/bdist.linux-x86_64/egg/py2neo/ext/calendar/__init__.py to __init__.pyc
+byte-compiling build/bdist.linux-x86_64/egg/py2neo/ext/__init__.py to __init__.pyc
+byte-compiling build/bdist.linux-x86_64/egg/py2neo/ext/gremlin/__init__.py to __init__.pyc
+byte-compiling build/bdist.linux-x86_64/egg/py2neo/ext/geoff/__main__.py to __main__.pyc
+byte-compiling build/bdist.linux-x86_64/egg/py2neo/ext/geoff/loader.py to loader.pyc
+byte-compiling build/bdist.linux-x86_64/egg/py2neo/ext/geoff/xmlutil.py to xmlutil.pyc
+byte-compiling build/bdist.linux-x86_64/egg/py2neo/ext/geoff/__init__.py to __init__.pyc
+byte-compiling build/bdist.linux-x86_64/egg/py2neo/ext/geoff/writer.py to writer.pyc
+byte-compiling build/bdist.linux-x86_64/egg/py2neo/password.py to password.pyc
+byte-compiling build/bdist.linux-x86_64/egg/py2neo/server.py to server.pyc
+byte-compiling build/bdist.linux-x86_64/egg/py2neo/core.py to core.pyc
+byte-compiling build/bdist.linux-x86_64/egg/py2neo/legacy/index.py to index.pyc
+byte-compiling build/bdist.linux-x86_64/egg/py2neo/legacy/batch.py to batch.pyc
+byte-compiling build/bdist.linux-x86_64/egg/py2neo/legacy/__init__.py to __init__.pyc
+byte-compiling build/bdist.linux-x86_64/egg/py2neo/legacy/core.py to core.pyc
+byte-compiling build/bdist.linux-x86_64/egg/py2neo/packages/httpstream/watch.py to watch.pyc
+byte-compiling build/bdist.linux-x86_64/egg/py2neo/packages/httpstream/__main__.py to __main__.pyc
+byte-compiling build/bdist.linux-x86_64/egg/py2neo/packages/httpstream/jsonencoder.py to jsonencoder.pyc
+byte-compiling build/bdist.linux-x86_64/egg/py2neo/packages/httpstream/tardis.py to tardis.pyc
+byte-compiling build/bdist.linux-x86_64/egg/py2neo/packages/httpstream/http.py to http.pyc
+byte-compiling build/bdist.linux-x86_64/egg/py2neo/packages/httpstream/__init__.py to __init__.pyc
+byte-compiling build/bdist.linux-x86_64/egg/py2neo/packages/httpstream/numbers.py to numbers.pyc
+byte-compiling build/bdist.linux-x86_64/egg/py2neo/packages/httpstream/packages/__init__.py to __init__.pyc
+byte-compiling build/bdist.linux-x86_64/egg/py2neo/packages/httpstream/packages/urimagic/rfc6570.py to rfc6570.pyc
+byte-compiling build/bdist.linux-x86_64/egg/py2neo/packages/httpstream/packages/urimagic/util.py to util.pyc
+byte-compiling build/bdist.linux-x86_64/egg/py2neo/packages/httpstream/packages/urimagic/rfc3986.py to rfc3986.pyc
+byte-compiling build/bdist.linux-x86_64/egg/py2neo/packages/httpstream/packages/urimagic/__init__.py to __init__.pyc
+byte-compiling build/bdist.linux-x86_64/egg/py2neo/packages/httpstream/packages/urimagic/kvlist.py to kvlist.pyc
+byte-compiling build/bdist.linux-x86_64/egg/py2neo/packages/jsonstream/jsonencoder.py to jsonencoder.pyc
+byte-compiling build/bdist.linux-x86_64/egg/py2neo/packages/jsonstream/pyjsonstream.py to pyjsonstream.pyc
+byte-compiling build/bdist.linux-x86_64/egg/py2neo/packages/jsonstream/__init__.py to __init__.pyc
+byte-compiling build/bdist.linux-x86_64/egg/py2neo/packages/tart/tables.py to tables.pyc
+byte-compiling build/bdist.linux-x86_64/egg/py2neo/packages/tart/__init__.py to __init__.pyc
+byte-compiling build/bdist.linux-x86_64/egg/py2neo/packages/__init__.py to __init__.pyc
+creating stub loader for py2neo/packages/jsonstream/cjsonstream_2x.so
+byte-compiling build/bdist.linux-x86_64/egg/py2neo/packages/jsonstream/cjsonstream_2x.py to cjsonstream_2x.pyc
+creating build/bdist.linux-x86_64/egg/EGG-INFO
+copying py2neo.egg-info/PKG-INFO -> build/bdist.linux-x86_64/egg/EGG-INFO
+copying py2neo.egg-info/SOURCES.txt -> build/bdist.linux-x86_64/egg/EGG-INFO
+copying py2neo.egg-info/dependency_links.txt -> build/bdist.linux-x86_64/egg/EGG-INFO
+copying py2neo.egg-info/entry_points.txt -> build/bdist.linux-x86_64/egg/EGG-INFO
+copying py2neo.egg-info/not-zip-safe -> build/bdist.linux-x86_64/egg/EGG-INFO
+copying py2neo.egg-info/top_level.txt -> build/bdist.linux-x86_64/egg/EGG-INFO
+writing build/bdist.linux-x86_64/egg/EGG-INFO/native_libs.txt
+creating dist
+creating 'dist/py2neo-2.0.7-py2.7-linux-x86_64.egg' and adding 'build/bdist.linux-x86_64/egg' to it
+removing 'build/bdist.linux-x86_64/egg' (and everything under it)
+Processing py2neo-2.0.7-py2.7-linux-x86_64.egg
+creating /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/py2neo-2.0.7-py2.7-linux-x86_64.egg
+Extracting py2neo-2.0.7-py2.7-linux-x86_64.egg to /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages
+Adding py2neo 2.0.7 to easy-install.pth file
+Installing neoget script to /home/ubuntu/miniconda/envs/_build/bin
+Installing geoff script to /home/ubuntu/miniconda/envs/_build/bin
+Installing cypher script to /home/ubuntu/miniconda/envs/_build/bin
+Installing neoauth script to /home/ubuntu/miniconda/envs/_build/bin
+Installing neobox script to /home/ubuntu/miniconda/envs/_build/bin
+
+Installed /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/py2neo-2.0.7-py2.7-linux-x86_64.egg
+Processing dependencies for py2neo==2.0.7
+Finished processing dependencies for py2neo==2.0.7
+
+The following NEW packages will be INSTALLED:
+
+    openssl:    1.0.1k-1     
+    pip:        7.0.3-py27_0 
+    python:     2.7.10-0     
+    readline:   6.2-2        
+    setuptools: 18.0.1-py27_0
+    sqlite:     3.8.4.1-1    
+    system:     5.8-2        
+    tk:         8.5.18-0     
+    zlib:       1.2.8-0      
+
+Linking packages ...
+[                    ]|                                                  |   0%[openssl             ]|                                                  |   0%[readline            ]|#####                                             |  11%[sqlite              ]|###########                                       |  22%[system              ]|################                                  |  33%[tk                  ]|######################                            |  44%[zlib                ]|###########################                       |  55%[python              ]|#################################                 |  66%[setuptools          ]|######################################            |  77%[pip                 ]|############################################      |  88%[      COMPLETE      ]|##################################################| 100%
+Removing old work directory
+Source cache directory is: /home/ubuntu/miniconda/conda-bld/src_cache
+Found source in cache: py2neo-2.0.7.tar.gz
+Extracting download
+Package: py2neo-2.0.7-py_0
+source tree in: /home/ubuntu/miniconda/conda-bld/work/py2neo-2.0.7
+found egg dir: /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/py2neo-2.0.7-py2.7-linux-x86_64.egg
+number of files: 165
+Fixing permissions
+patchelf: file: /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/py2neo/packages/jsonstream/cjsonstream_2x.so
+    setting rpath to: $ORIGIN/../../../../..
+[noarch_python] Error: Shared object file found: lib/python2.7/site-packages/py2neo/packages/jsonstream/cjsonstream_2x.so

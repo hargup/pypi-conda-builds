@@ -34,19 +34,70 @@ Warning, the following versions were found for colander
 Using 1.0
 Use --version to specify a different version.
 Using url https://pypi.python.org/packages/source/c/colander/colander-1.0.tar.gz (111 KB) for colander.
-Downloading colander (use --no-download to skip this step)
+Downloading colander
 Using cached download
 Unpacking colander...
 done
-working in /tmp/tmpCWQxhoconda_skeleton_colander-1.0.tar.gz
+working in /tmp/tmpKyTQ0Fconda_skeleton_colander-1.0.tar.gz
 Fetching package metadata: ......
+
+WARNING: conda-build appears to be out of date. You have version 1.13.0 but the
+latest version is 1.14.1. Run
+
+conda update -n root conda-build
+
+to get the latest version.
+
 Solving package specifications: .patching file core.py
 Hunk #1 succeeded at 168 with fuzz 2 (offset 2 lines).
-Traceback (most recent call last):
-  File "setup.py", line 17, in <module>
-    from setuptools import setup
-ImportError: No module named setuptools
 
-Applying patch: '/tmp/tmpCWQxhoconda_skeleton_colander-1.0.tar.gz/pypi-distutils.patch'
-$PYTHONPATH = /tmp/tmpCWQxhoconda_skeleton_colander-1.0.tar.gz/colander-1.0
-Error: command failed: /home/ubuntu/miniconda/envs/_build/bin/python setup.py install
+WARNING: conda-build appears to be out of date. You have version 1.13.0 but the
+latest version is 1.14.1. Run
+
+conda update -n root conda-build
+
+to get the latest version.
+
+
+The following NEW packages will be INSTALLED:
+
+    numpy:      1.9.2-py27_0 
+    openssl:    1.0.1k-1     
+    pip:        7.0.3-py27_0 
+    python:     2.7.10-0     
+    pyyaml:     3.11-py27_1  
+    readline:   6.2-2        
+    setuptools: 18.0.1-py27_0
+    sqlite:     3.8.4.1-1    
+    system:     5.8-2        
+    tk:         8.5.18-0     
+    yaml:       0.1.6-0      
+    zlib:       1.2.8-0      
+
+Linking packages ...
+[                    ]|                                                  |   0%[openssl             ]|                                                  |   0%[readline            ]|####                                              |   8%[sqlite              ]|########                                          |  16%[system              ]|############                                      |  25%[tk                  ]|################                                  |  33%[yaml                ]|####################                              |  41%[zlib                ]|#########################                         |  50%[numpy               ]|#############################                     |  58%[python              ]|#################################                 |  66%[pyyaml              ]|#####################################             |  75%[setuptools          ]|#########################################         |  83%[pip                 ]|#############################################     |  91%[      COMPLETE      ]|##################################################| 100%
+Applying patch: '/tmp/tmpKyTQ0Fconda_skeleton_colander-1.0.tar.gz/pypi-distutils.patch'
+Warning, the following versions were found for translationstring
+1.3
+1.2
+1.1
+1.0
+0.4
+0.3
+0.2
+0.1
+Using 1.3
+Use --version to specify a different version.
+Using url https://pypi.python.org/packages/source/t/translationstring/translationstring-1.3.tar.gz (29 KB) for translationstring.
+Downloading translationstring
+Using cached download
+Unpacking translationstring...
+done
+working in /tmp/tmpzQmwKUconda_skeleton_translationstring-1.3.tar.gz
+Solving package specifications: .patching file core.py
+Hunk #1 succeeded at 168 with fuzz 2 (offset 2 lines).
+
+Applying patch: '/tmp/tmpzQmwKUconda_skeleton_translationstring-1.3.tar.gz/pypi-distutils.patch'
+Writing recipe for colander
+Writing recipe for translationstring
+Done

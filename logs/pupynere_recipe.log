@@ -1,0 +1,106 @@
+Warning, the following versions were found for pupynere
+1.0.15
+1.0.14
+1.0.13
+1.0.12
+1.0.11
+1.0.10
+1.0.9
+1.0.8
+1.0.7
+1.0.6
+1.0.5
+1.0.4
+1.0.3
+1.0.2
+1.0.1
+1.0
+0.2.4
+0.2.3
+0.2.2
+0.2.1
+0.2
+Using 1.0.15
+Use --version to specify a different version.
+Using url https://pypi.python.org/packages/source/p/pupynere/pupynere-1.0.15.tar.gz (8 KB) for pupynere.
+Downloading pupynere
+Using cached download
+Unpacking pupynere...
+done
+working in /tmp/tmpG5qyt3conda_skeleton_pupynere-1.0.15.tar.gz
+Fetching package metadata: ......
+
+WARNING: conda-build appears to be out of date. You have version 1.13.0 but the
+latest version is 1.14.1. Run
+
+conda update -n root conda-build
+
+to get the latest version.
+
+Solving package specifications: .patching file core.py
+Hunk #1 succeeded at 168 with fuzz 2 (offset 2 lines).
+
+WARNING: conda-build appears to be out of date. You have version 1.13.0 but the
+latest version is 1.14.1. Run
+
+conda update -n root conda-build
+
+to get the latest version.
+
+
+Applying patch: '/tmp/tmpG5qyt3conda_skeleton_pupynere-1.0.15.tar.gz/pypi-distutils.patch'
+Warning, the following versions were found for numpy
+1.9.2
+1.9.1
+1.9.0
+1.8.2
+1.8.1
+1.8.0
+1.7.2
+1.7.1
+1.7.0
+1.6.2
+1.6.1
+1.6.0
+1.5.1
+1.5.0
+1.4.1
+1.4.0
+1.3.0
+1.2.1
+1.2.0
+1.1.1
+1.0.4
+1.0.3
+1.0
+1.0rc3
+1.0rc2
+1.0rc1
+1.0b5
+1.0b4
+1.0b1
+0.9.8
+0.9.6
+Using 1.9.2
+Use --version to specify a different version.
+Using url https://pypi.python.org/packages/source/n/numpy/numpy-1.9.2.tar.gz (3.8 MB) for numpy.
+Downloading numpy
+Using cached download
+Unpacking numpy...
+done
+working in /tmp/tmpGXIpbYconda_skeleton_numpy-1.9.2.tar.gz
+Solving package specifications: .patching file core.py
+Hunk #1 succeeded at 168 with fuzz 2 (offset 2 lines).
+Running from numpy source directory.
+Traceback (most recent call last):
+  File "setup.py", line 251, in <module>
+    setup_package()
+  File "setup.py", line 243, in setup_package
+    setup(**metadata)
+  File "/tmp/tmpGXIpbYconda_skeleton_numpy-1.9.2.tar.gz/numpy-1.9.2/numpy/distutils/core.py", line 130, in setup
+    if dist.help or not _command_line_ok():
+AttributeError: 'NoneType' object has no attribute 'help'
+
+Applying patch: '/tmp/tmpGXIpbYconda_skeleton_numpy-1.9.2.tar.gz/pypi-distutils.patch'
+$PYTHONPATH = /tmp/tmpGXIpbYconda_skeleton_numpy-1.9.2.tar.gz/numpy-1.9.2
+Error: command failed: /home/ubuntu/miniconda/envs/_build/bin/python setup.py install

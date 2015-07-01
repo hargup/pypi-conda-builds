@@ -9,32 +9,23 @@ Warning, the following versions were found for suds-jurko
 Using 0.6
 Use --version to specify a different version.
 Using url https://pypi.python.org/packages/source/s/suds-jurko/suds-jurko-0.6.tar.bz2 (141 KB) for suds-jurko.
-Downloading suds-jurko (use --no-download to skip this step)
+Downloading suds-jurko
 Using cached download
 Unpacking suds-jurko...
 done
-working in /tmp/tmpIssDIvconda_skeleton_suds-jurko-0.6.tar.bz2
+working in /tmp/tmp6wyXgTconda_skeleton_suds-jurko-0.6.tar.bz2
 Fetching package metadata: ......
+
+WARNING: conda-build appears to be out of date. You have version 1.13.0 but the
+latest version is 1.14.1. Run
+
+conda update -n root conda-build
+
+to get the latest version.
+
 Solving package specifications: .patching file core.py
 Hunk #1 succeeded at 168 with fuzz 2 (offset 2 lines).
-Downloading https://pypi.python.org/packages/source/s/setuptools/setuptools-1.4.tar.gz
-Traceback (most recent call last):
-  File "setup.py", line 21, in <module>
-    ez_setup.use_setuptools()
-  File "/tmp/tmpIssDIvconda_skeleton_suds-jurko-0.6.tar.bz2/suds-jurko-0.6/ez_setup.py", line 132, in use_setuptools
-    return _do_download(version, download_base, to_dir, download_delay)
-  File "/tmp/tmpIssDIvconda_skeleton_suds-jurko-0.6.tar.bz2/suds-jurko-0.6/ez_setup.py", line 110, in _do_download
-    to_dir, download_delay)
-  File "/tmp/tmpIssDIvconda_skeleton_suds-jurko-0.6.tar.bz2/suds-jurko-0.6/ez_setup.py", line 290, in download_setuptools
-    downloader(url, saveto)
-  File "/tmp/tmpIssDIvconda_skeleton_suds-jurko-0.6.tar.bz2/suds-jurko-0.6/ez_setup.py", line 197, in download_file_curl
-    _clean_check(cmd, target)
-  File "/tmp/tmpIssDIvconda_skeleton_suds-jurko-0.6.tar.bz2/suds-jurko-0.6/ez_setup.py", line 160, in _clean_check
-    subprocess.check_call(cmd)
-  File "/home/ubuntu/miniconda/envs/_build/lib/python2.7/subprocess.py", line 540, in check_call
-    raise CalledProcessError(retcode, cmd)
-subprocess.CalledProcessError: Command '['curl', 'https://pypi.python.org/packages/source/s/setuptools/setuptools-1.4.tar.gz', '--silent', '--output', '/tmp/tmpIssDIvconda_skeleton_suds-jurko-0.6.tar.bz2/suds-jurko-0.6/setuptools-1.4.tar.gz']' returned non-zero exit status 77
 
-Applying patch: '/tmp/tmpIssDIvconda_skeleton_suds-jurko-0.6.tar.bz2/pypi-distutils.patch'
-$PYTHONPATH = /tmp/tmpIssDIvconda_skeleton_suds-jurko-0.6.tar.bz2/suds-jurko-0.6
-Error: command failed: /home/ubuntu/miniconda/envs/_build/bin/python setup.py install
+Applying patch: '/tmp/tmp6wyXgTconda_skeleton_suds-jurko-0.6.tar.bz2/pypi-distutils.patch'
+Writing recipe for suds-jurko
+Done

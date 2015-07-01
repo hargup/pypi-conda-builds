@@ -143,19 +143,282 @@ Warning, the following versions were found for munerator
 Using 0.23.0
 Use --version to specify a different version.
 Using url https://pypi.python.org/packages/source/m/munerator/munerator-0.23.0.tar.gz (2.5 MB) for munerator.
-Downloading munerator (use --no-download to skip this step)
+Downloading munerator
 Using cached download
 Unpacking munerator...
 done
-working in /tmp/tmp3s5atIconda_skeleton_munerator-0.23.0.tar.gz
+working in /tmp/tmpMBQjruconda_skeleton_munerator-0.23.0.tar.gz
 Fetching package metadata: ......
+
+WARNING: conda-build appears to be out of date. You have version 1.13.0 but the
+latest version is 1.14.1. Run
+
+conda update -n root conda-build
+
+to get the latest version.
+
 Solving package specifications: .patching file core.py
 Hunk #1 succeeded at 168 with fuzz 2 (offset 2 lines).
-Traceback (most recent call last):
-  File "setup.py", line 2, in <module>
-    from setuptools import setup, find_packages
-ImportError: No module named setuptools
 
-Applying patch: '/tmp/tmp3s5atIconda_skeleton_munerator-0.23.0.tar.gz/pypi-distutils.patch'
-$PYTHONPATH = /tmp/tmp3s5atIconda_skeleton_munerator-0.23.0.tar.gz/munerator-0.23.0
-Error: command failed: /home/ubuntu/miniconda/envs/_build/bin/python setup.py install
+WARNING: conda-build appears to be out of date. You have version 1.13.0 but the
+latest version is 1.14.1. Run
+
+conda update -n root conda-build
+
+to get the latest version.
+
+
+Applying patch: '/tmp/tmpMBQjruconda_skeleton_munerator-0.23.0.tar.gz/pypi-distutils.patch'
+eve-mongoengine not found, trying Eve-Mongoengine
+Warning, the following versions were found for Eve-Mongoengine
+0.0.9
+0.0.8
+0.0.7
+0.0.6
+0.0.5
+0.0.4
+0.0.3
+0.0.2
+0.0.1
+Using 0.0.9
+Use --version to specify a different version.
+Using url https://pypi.python.org/packages/source/E/Eve-Mongoengine/Eve-Mongoengine-0.0.9.tar.gz (11 KB) for Eve-Mongoengine.
+Downloading Eve-Mongoengine
+Using cached download
+Unpacking Eve-Mongoengine...
+done
+working in /tmp/tmplMbR6Dconda_skeleton_Eve-Mongoengine-0.0.9.tar.gz
+Solving package specifications: .patching file core.py
+Hunk #1 succeeded at 168 with fuzz 2 (offset 2 lines).
+
+WARNING: conda-build appears to be out of date. You have version 1.13.0 but the
+latest version is 1.14.1. Run
+
+conda update -n root conda-build
+
+to get the latest version.
+
+
+Applying patch: '/tmp/tmplMbR6Dconda_skeleton_Eve-Mongoengine-0.0.9.tar.gz/pypi-distutils.patch'
+eve not found, trying Eve
+Warning, the following versions were found for Eve
+0.5.3
+0.5.2
+0.5.1
+0.5
+0.4
+0.3
+0.2
+0.1.1
+0.1
+0.0.9
+0.0.8
+0.0.7
+0.0.6
+0.0.5
+0.0.4
+0.0.3
+0.0.2
+0.0.1
+Using 0.5.3
+Use --version to specify a different version.
+Using url https://pypi.python.org/packages/source/E/Eve/Eve-0.5.3.tar.gz (230 KB) for Eve.
+Downloading Eve
+Using cached download
+Unpacking Eve...
+done
+working in /tmp/tmpazNfQCconda_skeleton_Eve-0.5.3.tar.gz
+Solving package specifications: .patching file core.py
+Hunk #1 succeeded at 168 with fuzz 2 (offset 2 lines).
+
+WARNING: conda-build appears to be out of date. You have version 1.13.0 but the
+latest version is 1.14.1. Run
+
+conda update -n root conda-build
+
+to get the latest version.
+
+
+Applying patch: '/tmp/tmpazNfQCconda_skeleton_Eve-0.5.3.tar.gz/pypi-distutils.patch'
+flask-pymongo not found, trying Flask-PyMongo
+Warning, the following versions were found for Flask-PyMongo
+0.3.1
+0.3.0
+0.2.1
+0.2.0
+0.1.4
+0.1.3
+0.1.2
+0.1.1
+0.1
+Using 0.3.1
+Use --version to specify a different version.
+Using url https://pypi.python.org/packages/source/F/Flask-PyMongo/Flask-PyMongo-0.3.1.tar.gz (22 KB) for Flask-PyMongo.
+Downloading Flask-PyMongo
+Using cached download
+Unpacking Flask-PyMongo...
+done
+working in /tmp/tmpYcUhLQconda_skeleton_Flask-PyMongo-0.3.1.tar.gz
+Solving package specifications: .patching file core.py
+Hunk #1 succeeded at 168 with fuzz 2 (offset 2 lines).
+
+WARNING: conda-build appears to be out of date. You have version 1.13.0 but the
+latest version is 1.14.1. Run
+
+conda update -n root conda-build
+
+to get the latest version.
+
+
+Applying patch: '/tmp/tmpYcUhLQconda_skeleton_Flask-PyMongo-0.3.1.tar.gz/pypi-distutils.patch'
+events not found, trying Events
+Warning, the following versions were found for Events
+0.2.1
+0.2.0
+0.1.0
+Using 0.2.1
+Use --version to specify a different version.
+Using url https://pypi.python.org/packages/source/E/Events/Events-0.2.1.tar.gz (5 KB) for Events.
+Downloading Events
+Using cached download
+Unpacking Events...
+done
+working in /tmp/tmpXsU4plconda_skeleton_Events-0.2.1.tar.gz
+Solving package specifications: .patching file core.py
+Hunk #1 succeeded at 168 with fuzz 2 (offset 2 lines).
+
+WARNING: conda-build appears to be out of date. You have version 1.13.0 but the
+latest version is 1.14.1. Run
+
+conda update -n root conda-build
+
+to get the latest version.
+
+
+Applying patch: '/tmp/tmpXsU4plconda_skeleton_Events-0.2.1.tar.gz/pypi-distutils.patch'
+cerberus not found, trying Cerberus
+Warning, the following versions were found for Cerberus
+0.9
+0.8.1
+0.8
+0.7.2
+0.7.1
+0.7
+0.6
+0.5
+0.4.0
+0.3.0
+0.2.0
+0.1.0
+0.0.3
+0.0.2
+0.0.1
+Using 0.9
+Use --version to specify a different version.
+Using url https://pypi.python.org/packages/source/C/Cerberus/Cerberus-0.9.tar.gz (17 KB) for Cerberus.
+Downloading Cerberus
+Using cached download
+Unpacking Cerberus...
+done
+working in /tmp/tmpx8aqE3conda_skeleton_Cerberus-0.9.tar.gz
+Solving package specifications: .patching file core.py
+Hunk #1 succeeded at 168 with fuzz 2 (offset 2 lines).
+
+WARNING: conda-build appears to be out of date. You have version 1.13.0 but the
+latest version is 1.14.1. Run
+
+conda update -n root conda-build
+
+to get the latest version.
+
+
+Applying patch: '/tmp/tmpx8aqE3conda_skeleton_Cerberus-0.9.tar.gz/pypi-distutils.patch'
+eve not found, trying Eve
+Warning, the following versions were found for Eve
+0.5.3
+0.5.2
+0.5.1
+0.5
+0.4
+0.3
+0.2
+0.1.1
+0.1
+0.0.9
+0.0.8
+0.0.7
+0.0.6
+0.0.5
+0.0.4
+0.0.3
+0.0.2
+0.0.1
+Using 0.5.3
+Use --version to specify a different version.
+Using url https://pypi.python.org/packages/source/E/Eve/Eve-0.5.3.tar.gz (230 KB) for Eve.
+Downloading Eve
+Using cached download
+Unpacking Eve...
+done
+working in /tmp/tmpD8JbFcconda_skeleton_Eve-0.5.3.tar.gz
+Solving package specifications: .patching file core.py
+Hunk #1 succeeded at 168 with fuzz 2 (offset 2 lines).
+
+WARNING: conda-build appears to be out of date. You have version 1.13.0 but the
+latest version is 1.14.1. Run
+
+conda update -n root conda-build
+
+to get the latest version.
+
+
+Applying patch: '/tmp/tmpD8JbFcconda_skeleton_Eve-0.5.3.tar.gz/pypi-distutils.patch'
+Warning, the following versions were found for applib
+1.2
+1.1.0
+1.0.1
+Using 1.2
+Use --version to specify a different version.
+Using url https://pypi.python.org/packages/source/a/applib/applib-1.2.tar.gz (37 KB) for applib.
+Downloading applib
+Using cached download
+Unpacking applib...
+done
+working in /tmp/tmpw3Ztkzconda_skeleton_applib-1.2.tar.gz
+Solving package specifications: .patching file core.py
+Hunk #1 succeeded at 168 with fuzz 2 (offset 2 lines).
+
+WARNING: conda-build appears to be out of date. You have version 1.13.0 but the
+latest version is 1.14.1. Run
+
+conda update -n root conda-build
+
+to get the latest version.
+
+
+Applying patch: '/tmp/tmpw3Ztkzconda_skeleton_applib-1.2.tar.gz/pypi-distutils.patch'
+Warning, the following versions were found for rcfile
+0.1.4
+0.1.1
+0.1.0
+Using 0.1.4
+Use --version to specify a different version.
+Using url https://pypi.python.org/packages/source/r/rcfile/rcfile-0.1.4.tar.gz (4 KB) for rcfile.
+Downloading rcfile
+Using cached download
+Unpacking rcfile...
+done
+working in /tmp/tmpL6cOT8conda_skeleton_rcfile-0.1.4.tar.gz
+Solving package specifications: .patching file core.py
+Hunk #1 succeeded at 168 with fuzz 2 (offset 2 lines).
+
+Applying patch: '/tmp/tmpL6cOT8conda_skeleton_rcfile-0.1.4.tar.gz/pypi-distutils.patch'
+Writing recipe for applib
+Writing recipe for rcfile
+Writing recipe for flask-pymongo
+Writing recipe for eve
+Writing recipe for events
+Writing recipe for munerator
+Writing recipe for eve-mongoengine
+Writing recipe for cerberus
+Done

@@ -1,0 +1,39 @@
+An unexpected error has occurred, please consider sending the
+following traceback to the conda GitHub issue tracker at:
+
+    https://github.com/conda/conda-build/issues
+
+Include the output of the command 'conda info' in your report.
+
+
+Package search: {'_pypi_ordering': False, 'version': '4.0.5', 'name': 'plone.app.contentrules', 'summary': 'Plone integration for plone.contentrules'}
+Creating standard recipe for plone.app.contentrules-4.0.5
+Converting recipe in /home/ubuntu/pypi-conda-builds/plone.app.contentrules
+package = plone.app.contentrules
+   dependencies = [u'plone.contentrules', u'plone.memoize', u'plone.stringinterp', u'plone.uuid', u'plone.autoform', u'plone.app.z3cform', u'plone.app.vocabularies', u'transaction', u'zope.annotation', u'zope.browser', u'zope.component', u'zope.container', u'zope.event', u'zope.i18nmessageid', u'zope.interface', u'zope.lifecycleevent', u'zope.publisher >=3.11.0', u'zope.schema', u'zope.site', u'zope.traversing', u'acquisition', u'products.cmfplone', u'products.cmfcore', u'products.genericsetup', u'products.statusmessages', u'zodb3', u'zope2 >=2.12.3']
+Creating standard recipe for plone.contentrules
+Converting recipe in /home/ubuntu/pypi-conda-builds/plone.contentrules
+package = plone.contentrules
+   dependencies = [u'zodb3', u'zope.annotation', u'zope.component', u'zope.componentvocabulary', u'zope.configuration', u'zope.container', u'zope.i18nmessageid', u'zope.interface', u'zope.lifecycleevent', u'zope.schema', u'zope.testing']
+Creating standard recipe for zodb3
+Converting recipe in /home/ubuntu/pypi-conda-builds/zodb3
+Traceback (most recent call last):
+  File "/home/ubuntu/miniconda/bin/conda-pipbuild", line 6, in <module>
+    exec(compile(open(__file__).read(), __file__, 'exec'))
+  File "/home/ubuntu/conda-build/bin/conda-pipbuild", line 5, in <module>
+    sys.exit(main())
+  File "/home/ubuntu/conda-build/conda_build/main_pipbuild.py", line 80, in main
+    args_func(args, p)
+  File "/home/ubuntu/conda-build/conda_build/main_build.py", line 349, in args_func
+    args.func(args, p)
+  File "/home/ubuntu/conda-build/conda_build/main_pipbuild.py", line 360, in execute
+    build_package(package, version, noarch_python=args.noarch_python)
+  File "/home/ubuntu/conda-build/conda_build/main_pipbuild.py", line 314, in build_package
+    build_package(depend)
+  File "/home/ubuntu/conda-build/conda_build/main_pipbuild.py", line 314, in build_package
+    build_package(depend)
+  File "/home/ubuntu/conda-build/conda_build/main_pipbuild.py", line 301, in build_package
+    noarch_python=noarch_python)
+  File "/home/ubuntu/conda-build/conda_build/main_pipbuild.py", line 183, in convert_recipe
+    d['homeurl'] = meta['about']['home']
+KeyError: 'home'

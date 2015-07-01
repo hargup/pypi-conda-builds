@@ -1,35 +1,0 @@
-Warning, the following versions were found for nosexcover
-1.0.10
-1.0.9
-1.0.8
-1.0.7
-1.0.6.1
-1.0.6
-1.0.5
-1.0.4
-1.0.3
-1.0.2
-1.0.1
-1.0
-Using 1.0.10
-Use --version to specify a different version.
-Using url https://pypi.python.org/packages/source/n/nosexcover/nosexcover-1.0.10.tar.gz (3 KB) for nosexcover.
-Downloading nosexcover (use --no-download to skip this step)
-Using cached download
-Unpacking nosexcover...
-done
-working in /tmp/tmpMB9wMhconda_skeleton_nosexcover-1.0.10.tar.gz
-Fetching package metadata: ......
-Solving package specifications: .patching file core.py
-Hunk #1 succeeded at 168 with fuzz 2 (offset 2 lines).
-
-The following NEW packages will be INSTALLED:
-
-    numpy:  1.9.2-py27_0
-    pyyaml: 3.11-py27_0 
-
-Linking packages ...
-[                    ]|                                                  |   0%[numpy               ]|                                                  |   0%[pyyaml              ]|#########################                         |  50%[      COMPLETE      ]|##################################################| 100%
-Applying patch: '/tmp/tmpMB9wMhconda_skeleton_nosexcover-1.0.10.tar.gz/pypi-distutils.patch'
-Writing recipe for nosexcover
-Done

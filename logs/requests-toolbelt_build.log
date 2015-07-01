@@ -1,0 +1,222 @@
+Removing old build directory
+Removing old work directory
+BUILD START: requests-toolbelt-0.4.0-py_0
+Fetching package metadata: ......
+
+WARNING: conda-build appears to be out of date. You have version 1.13.0 but the
+latest version is 1.14.1. Run
+
+conda update -n root conda-build
+
+to get the latest version.
+
+Solving package specifications: .+ /home/ubuntu/miniconda/envs/_build/bin/python setup.py install
+running install
+running bdist_egg
+running egg_info
+writing requirements to requests_toolbelt.egg-info/requires.txt
+writing requests_toolbelt.egg-info/PKG-INFO
+writing top-level names to requests_toolbelt.egg-info/top_level.txt
+writing dependency_links to requests_toolbelt.egg-info/dependency_links.txt
+reading manifest file 'requests_toolbelt.egg-info/SOURCES.txt'
+reading manifest template 'MANIFEST.in'
+no previously-included directories found matching '*.pyc'
+warning: manifest_maker: MANIFEST.in, line 6: 'recursive-include' expects <dir> <pattern1> <pattern2> ...
+
+warning: manifest_maker: MANIFEST.in, line 7: 'recursive-include' expects <dir> <pattern1> <pattern2> ...
+
+no previously-included directories found matching 'docs/_build'
+writing manifest file 'requests_toolbelt.egg-info/SOURCES.txt'
+installing library code to build/bdist.linux-x86_64/egg
+running install_lib
+running build_py
+creating build
+creating build/lib
+creating build/lib/requests_toolbelt
+copying requests_toolbelt/__init__.py -> build/lib/requests_toolbelt
+copying requests_toolbelt/streaming_iterator.py -> build/lib/requests_toolbelt
+copying requests_toolbelt/exceptions.py -> build/lib/requests_toolbelt
+creating build/lib/requests_toolbelt/adapters
+copying requests_toolbelt/adapters/socket_options.py -> build/lib/requests_toolbelt/adapters
+copying requests_toolbelt/adapters/fingerprint.py -> build/lib/requests_toolbelt/adapters
+copying requests_toolbelt/adapters/ssl.py -> build/lib/requests_toolbelt/adapters
+copying requests_toolbelt/adapters/source.py -> build/lib/requests_toolbelt/adapters
+copying requests_toolbelt/adapters/__init__.py -> build/lib/requests_toolbelt/adapters
+creating build/lib/requests_toolbelt/auth
+copying requests_toolbelt/auth/http_proxy_digest.py -> build/lib/requests_toolbelt/auth
+copying requests_toolbelt/auth/guess.py -> build/lib/requests_toolbelt/auth
+copying requests_toolbelt/auth/__init__.py -> build/lib/requests_toolbelt/auth
+copying requests_toolbelt/auth/handler.py -> build/lib/requests_toolbelt/auth
+creating build/lib/requests_toolbelt/downloadutils
+copying requests_toolbelt/downloadutils/stream.py -> build/lib/requests_toolbelt/downloadutils
+copying requests_toolbelt/downloadutils/__init__.py -> build/lib/requests_toolbelt/downloadutils
+creating build/lib/requests_toolbelt/multipart
+copying requests_toolbelt/multipart/decoder.py -> build/lib/requests_toolbelt/multipart
+copying requests_toolbelt/multipart/__init__.py -> build/lib/requests_toolbelt/multipart
+copying requests_toolbelt/multipart/encoder.py -> build/lib/requests_toolbelt/multipart
+creating build/lib/requests_toolbelt/threaded
+copying requests_toolbelt/threaded/thread.py -> build/lib/requests_toolbelt/threaded
+copying requests_toolbelt/threaded/pool.py -> build/lib/requests_toolbelt/threaded
+copying requests_toolbelt/threaded/__init__.py -> build/lib/requests_toolbelt/threaded
+creating build/lib/requests_toolbelt/utils
+copying requests_toolbelt/utils/user_agent.py -> build/lib/requests_toolbelt/utils
+copying requests_toolbelt/utils/deprecated.py -> build/lib/requests_toolbelt/utils
+copying requests_toolbelt/utils/__init__.py -> build/lib/requests_toolbelt/utils
+creating build/bdist.linux-x86_64
+creating build/bdist.linux-x86_64/egg
+creating build/bdist.linux-x86_64/egg/requests_toolbelt
+creating build/bdist.linux-x86_64/egg/requests_toolbelt/utils
+copying build/lib/requests_toolbelt/utils/user_agent.py -> build/bdist.linux-x86_64/egg/requests_toolbelt/utils
+copying build/lib/requests_toolbelt/utils/deprecated.py -> build/bdist.linux-x86_64/egg/requests_toolbelt/utils
+copying build/lib/requests_toolbelt/utils/__init__.py -> build/bdist.linux-x86_64/egg/requests_toolbelt/utils
+creating build/bdist.linux-x86_64/egg/requests_toolbelt/multipart
+copying build/lib/requests_toolbelt/multipart/decoder.py -> build/bdist.linux-x86_64/egg/requests_toolbelt/multipart
+copying build/lib/requests_toolbelt/multipart/__init__.py -> build/bdist.linux-x86_64/egg/requests_toolbelt/multipart
+copying build/lib/requests_toolbelt/multipart/encoder.py -> build/bdist.linux-x86_64/egg/requests_toolbelt/multipart
+creating build/bdist.linux-x86_64/egg/requests_toolbelt/adapters
+copying build/lib/requests_toolbelt/adapters/socket_options.py -> build/bdist.linux-x86_64/egg/requests_toolbelt/adapters
+copying build/lib/requests_toolbelt/adapters/fingerprint.py -> build/bdist.linux-x86_64/egg/requests_toolbelt/adapters
+copying build/lib/requests_toolbelt/adapters/ssl.py -> build/bdist.linux-x86_64/egg/requests_toolbelt/adapters
+copying build/lib/requests_toolbelt/adapters/source.py -> build/bdist.linux-x86_64/egg/requests_toolbelt/adapters
+copying build/lib/requests_toolbelt/adapters/__init__.py -> build/bdist.linux-x86_64/egg/requests_toolbelt/adapters
+creating build/bdist.linux-x86_64/egg/requests_toolbelt/auth
+copying build/lib/requests_toolbelt/auth/http_proxy_digest.py -> build/bdist.linux-x86_64/egg/requests_toolbelt/auth
+copying build/lib/requests_toolbelt/auth/guess.py -> build/bdist.linux-x86_64/egg/requests_toolbelt/auth
+copying build/lib/requests_toolbelt/auth/__init__.py -> build/bdist.linux-x86_64/egg/requests_toolbelt/auth
+copying build/lib/requests_toolbelt/auth/handler.py -> build/bdist.linux-x86_64/egg/requests_toolbelt/auth
+copying build/lib/requests_toolbelt/__init__.py -> build/bdist.linux-x86_64/egg/requests_toolbelt
+creating build/bdist.linux-x86_64/egg/requests_toolbelt/threaded
+copying build/lib/requests_toolbelt/threaded/thread.py -> build/bdist.linux-x86_64/egg/requests_toolbelt/threaded
+copying build/lib/requests_toolbelt/threaded/pool.py -> build/bdist.linux-x86_64/egg/requests_toolbelt/threaded
+copying build/lib/requests_toolbelt/threaded/__init__.py -> build/bdist.linux-x86_64/egg/requests_toolbelt/threaded
+creating build/bdist.linux-x86_64/egg/requests_toolbelt/downloadutils
+copying build/lib/requests_toolbelt/downloadutils/stream.py -> build/bdist.linux-x86_64/egg/requests_toolbelt/downloadutils
+copying build/lib/requests_toolbelt/downloadutils/__init__.py -> build/bdist.linux-x86_64/egg/requests_toolbelt/downloadutils
+copying build/lib/requests_toolbelt/streaming_iterator.py -> build/bdist.linux-x86_64/egg/requests_toolbelt
+copying build/lib/requests_toolbelt/exceptions.py -> build/bdist.linux-x86_64/egg/requests_toolbelt
+byte-compiling build/bdist.linux-x86_64/egg/requests_toolbelt/utils/user_agent.py to user_agent.pyc
+byte-compiling build/bdist.linux-x86_64/egg/requests_toolbelt/utils/deprecated.py to deprecated.pyc
+byte-compiling build/bdist.linux-x86_64/egg/requests_toolbelt/utils/__init__.py to __init__.pyc
+byte-compiling build/bdist.linux-x86_64/egg/requests_toolbelt/multipart/decoder.py to decoder.pyc
+byte-compiling build/bdist.linux-x86_64/egg/requests_toolbelt/multipart/__init__.py to __init__.pyc
+byte-compiling build/bdist.linux-x86_64/egg/requests_toolbelt/multipart/encoder.py to encoder.pyc
+byte-compiling build/bdist.linux-x86_64/egg/requests_toolbelt/adapters/socket_options.py to socket_options.pyc
+byte-compiling build/bdist.linux-x86_64/egg/requests_toolbelt/adapters/fingerprint.py to fingerprint.pyc
+byte-compiling build/bdist.linux-x86_64/egg/requests_toolbelt/adapters/ssl.py to ssl.pyc
+byte-compiling build/bdist.linux-x86_64/egg/requests_toolbelt/adapters/source.py to source.pyc
+byte-compiling build/bdist.linux-x86_64/egg/requests_toolbelt/adapters/__init__.py to __init__.pyc
+byte-compiling build/bdist.linux-x86_64/egg/requests_toolbelt/auth/http_proxy_digest.py to http_proxy_digest.pyc
+byte-compiling build/bdist.linux-x86_64/egg/requests_toolbelt/auth/guess.py to guess.pyc
+byte-compiling build/bdist.linux-x86_64/egg/requests_toolbelt/auth/__init__.py to __init__.pyc
+byte-compiling build/bdist.linux-x86_64/egg/requests_toolbelt/auth/handler.py to handler.pyc
+byte-compiling build/bdist.linux-x86_64/egg/requests_toolbelt/__init__.py to __init__.pyc
+byte-compiling build/bdist.linux-x86_64/egg/requests_toolbelt/threaded/thread.py to thread.pyc
+byte-compiling build/bdist.linux-x86_64/egg/requests_toolbelt/threaded/pool.py to pool.pyc
+byte-compiling build/bdist.linux-x86_64/egg/requests_toolbelt/threaded/__init__.py to __init__.pyc
+byte-compiling build/bdist.linux-x86_64/egg/requests_toolbelt/downloadutils/stream.py to stream.pyc
+byte-compiling build/bdist.linux-x86_64/egg/requests_toolbelt/downloadutils/__init__.py to __init__.pyc
+byte-compiling build/bdist.linux-x86_64/egg/requests_toolbelt/streaming_iterator.py to streaming_iterator.pyc
+byte-compiling build/bdist.linux-x86_64/egg/requests_toolbelt/exceptions.py to exceptions.pyc
+creating build/bdist.linux-x86_64/egg/EGG-INFO
+copying requests_toolbelt.egg-info/PKG-INFO -> build/bdist.linux-x86_64/egg/EGG-INFO
+copying requests_toolbelt.egg-info/SOURCES.txt -> build/bdist.linux-x86_64/egg/EGG-INFO
+copying requests_toolbelt.egg-info/dependency_links.txt -> build/bdist.linux-x86_64/egg/EGG-INFO
+copying requests_toolbelt.egg-info/requires.txt -> build/bdist.linux-x86_64/egg/EGG-INFO
+copying requests_toolbelt.egg-info/top_level.txt -> build/bdist.linux-x86_64/egg/EGG-INFO
+zip_safe flag not set; analyzing archive contents...
+creating dist
+creating 'dist/requests_toolbelt-0.4.0-py2.7.egg' and adding 'build/bdist.linux-x86_64/egg' to it
+removing 'build/bdist.linux-x86_64/egg' (and everything under it)
+Processing requests_toolbelt-0.4.0-py2.7.egg
+Copying requests_toolbelt-0.4.0-py2.7.egg to /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages
+Adding requests-toolbelt 0.4.0 to easy-install.pth file
+
+Installed /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/requests_toolbelt-0.4.0-py2.7.egg
+Processing dependencies for requests-toolbelt==0.4.0
+Searching for requests==2.7.0
+Best match: requests 2.7.0
+Adding requests 2.7.0 to easy-install.pth file
+
+Using /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages
+Finished processing dependencies for requests-toolbelt==0.4.0
+
+The following NEW packages will be INSTALLED:
+
+    openssl:    1.0.1k-1     
+    pip:        7.0.3-py27_0 
+    python:     2.7.10-0     
+    readline:   6.2-2        
+    requests:   2.7.0-py27_0 
+    setuptools: 18.0.1-py27_0
+    sqlite:     3.8.4.1-1    
+    system:     5.8-2        
+    tk:         8.5.18-0     
+    zlib:       1.2.8-0      
+
+Linking packages ...
+[                    ]|                                                  |   0%[openssl             ]|                                                  |   0%[readline            ]|#####                                             |  10%[sqlite              ]|##########                                        |  20%[system              ]|###############                                   |  30%[tk                  ]|####################                              |  40%[zlib                ]|#########################                         |  50%[python              ]|##############################                    |  60%[requests            ]|###################################               |  70%[setuptools          ]|########################################          |  80%[pip                 ]|#############################################     |  90%[      COMPLETE      ]|##################################################| 100%
+Removing old work directory
+Source cache directory is: /home/ubuntu/miniconda/conda-bld/src_cache
+Found source in cache: requests-toolbelt-0.4.0.tar.gz
+Extracting download
+Package: requests-toolbelt-0.4.0-py_0
+source tree in: /home/ubuntu/miniconda/conda-bld/work/requests-toolbelt-0.4.0
+found egg: /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/requests_toolbelt-0.4.0-py2.7.egg
+number of files: 2
+Fixing permissions
+Fixing permissions
+BUILD END: requests-toolbelt-0.4.0-py_0
+TEST START: requests-toolbelt-0.4.0-py_0
+Fetching package metadata: ......
+
+WARNING: conda-build appears to be out of date. You have version 1.13.0 but the
+latest version is 1.14.1. Run
+
+conda update -n root conda-build
+
+to get the latest version.
+
+Solving package specifications: .===== testing package: requests-toolbelt-0.4.0-py_0 =====
+import: u'requests_toolbelt'
+import: u'requests_toolbelt.adapters'
+import: u'requests_toolbelt.auth'
+import: u'requests_toolbelt.downloadutils'
+import: u'requests_toolbelt.multipart'
+import: u'requests_toolbelt.threaded'
+import: u'requests_toolbelt.utils'
+===== requests-toolbelt-0.4.0-py_0 OK =====
+
+The following packages will be downloaded:
+
+    package                    |            build
+    ---------------------------|-----------------
+    requests-toolbelt-0.4.0    |             py_0          62 KB
+
+The following NEW packages will be INSTALLED:
+
+    openssl:           1.0.1k-1     
+    pip:               7.0.3-py27_0 
+    python:            2.7.10-0     
+    readline:          6.2-2        
+    requests:          2.7.0-py27_0 
+    requests-toolbelt: 0.4.0-py_0   
+    setuptools:        18.0.1-py27_0
+    sqlite:            3.8.4.1-1    
+    system:            5.8-2        
+    tk:                8.5.18-0     
+    zlib:              1.2.8-0      
+
+Fetching packages ...
+requests-toolb   0% |                              | ETA:  --:--:--   0.00  B/srequests-toolb  25% |#######                        | ETA:  0:00:00  46.15 MB/srequests-toolb  51% |###############                | ETA:  0:00:00  58.02 MB/srequests-toolb  76% |#######################        | ETA:  0:00:00  65.03 MB/srequests-toolb 100% |###############################| ETA:  0:00:00  68.37 MB/srequests-toolb 100% |###############################| Time: 0:00:00  55.79 MB/s
+Extracting packages ...
+[      COMPLETE      ]|                                                  |   0%[requests-toolbelt   ]|                                                  |   0%[requests-toolbelt   ]|                                                  |   0%[      COMPLETE      ]|##################################################| 100%
+Linking packages ...
+[      COMPLETE      ]|                                                  |   0%[openssl             ]|                                                  |   0%[openssl             ]|                                                  |   0%[readline            ]|####                                              |   9%[sqlite              ]|#########                                         |  18%[system              ]|#############                                     |  27%[tk                  ]|##################                                |  36%[zlib                ]|######################                            |  45%[python              ]|###########################                       |  54%[requests            ]|###############################                   |  63%[setuptools          ]|####################################              |  72%[pip                 ]|########################################          |  81%[requests-toolbelt   ]|#############################################     |  90%[      COMPLETE      ]|##################################################| 100%
+TEST END: requests-toolbelt-0.4.0-py_0
+# If you want to upload this package to binstar.org later, type:
+#
+# $ binstar upload /home/ubuntu/miniconda/conda-bld/noarch/requests-toolbelt-0.4.0-py_0.tar.bz2
+#
+# To have conda build upload to binstar automatically, use
+# $ conda config --set binstar_upload yes
+

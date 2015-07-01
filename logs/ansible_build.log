@@ -1,8 +1,16 @@
 Removing old build directory
 Removing old work directory
-BUILD START: ansible-1.9.1-py_0
+BUILD START: ansible-1.9.2-py_0
 Fetching package metadata: ......
-Solving package specifications: ...............+ /home/ubuntu/miniconda/envs/_build/bin/python setup.py install
+
+WARNING: conda-build appears to be out of date. You have version 1.13.0 but the
+latest version is 1.14.1. Run
+
+conda update -n root conda-build
+
+to get the latest version.
+
+Solving package specifications: .+ /home/ubuntu/miniconda/envs/_build/bin/python setup.py install
 running install
 running bdist_egg
 running egg_info
@@ -296,11 +304,14 @@ copying lib/ansible/modules/core/system/selinux.py -> build/lib/ansible/modules/
 creating build/lib/ansible/modules/core/windows
 copying lib/ansible/modules/core/windows/win_feature.py -> build/lib/ansible/modules/core/windows
 copying lib/ansible/modules/core/windows/win_ping.py -> build/lib/ansible/modules/core/windows
+copying lib/ansible/modules/core/windows/win_file.py -> build/lib/ansible/modules/core/windows
 copying lib/ansible/modules/core/windows/win_get_url.py -> build/lib/ansible/modules/core/windows
 copying lib/ansible/modules/core/windows/win_user.py -> build/lib/ansible/modules/core/windows
 copying lib/ansible/modules/core/windows/win_group.py -> build/lib/ansible/modules/core/windows
 copying lib/ansible/modules/core/windows/win_msi.py -> build/lib/ansible/modules/core/windows
+copying lib/ansible/modules/core/windows/win_copy.py -> build/lib/ansible/modules/core/windows
 copying lib/ansible/modules/core/windows/win_stat.py -> build/lib/ansible/modules/core/windows
+copying lib/ansible/modules/core/windows/win_template.py -> build/lib/ansible/modules/core/windows
 copying lib/ansible/modules/core/windows/__init__.py -> build/lib/ansible/modules/core/windows
 copying lib/ansible/modules/core/windows/win_service.py -> build/lib/ansible/modules/core/windows
 creating build/lib/ansible/modules/core/cloud
@@ -541,7 +552,9 @@ copying lib/ansible/runner/shell_plugins/csh.py -> build/lib/ansible/runner/shel
 copying lib/ansible/runner/shell_plugins/__init__.py -> build/lib/ansible/runner/shell_plugins
 copying lib/ansible/module_utils/powershell.ps1 -> build/lib/ansible/module_utils
 copying lib/ansible/modules/core/windows/win_stat.ps1 -> build/lib/ansible/modules/core/windows
+copying lib/ansible/modules/core/windows/win_file.ps1 -> build/lib/ansible/modules/core/windows
 copying lib/ansible/modules/core/windows/win_msi.ps1 -> build/lib/ansible/modules/core/windows
+copying lib/ansible/modules/core/windows/win_copy.ps1 -> build/lib/ansible/modules/core/windows
 copying lib/ansible/modules/core/windows/win_service.ps1 -> build/lib/ansible/modules/core/windows
 copying lib/ansible/modules/core/windows/win_feature.ps1 -> build/lib/ansible/modules/core/windows
 copying lib/ansible/modules/core/windows/setup.ps1 -> build/lib/ansible/modules/core/windows
@@ -777,17 +790,22 @@ copying build/lib/ansible/modules/core/system/selinux.py -> build/bdist.linux-x8
 creating build/bdist.linux-x86_64/egg/ansible/modules/core/windows
 copying build/lib/ansible/modules/core/windows/win_stat.ps1 -> build/bdist.linux-x86_64/egg/ansible/modules/core/windows
 copying build/lib/ansible/modules/core/windows/win_feature.py -> build/bdist.linux-x86_64/egg/ansible/modules/core/windows
+copying build/lib/ansible/modules/core/windows/win_file.ps1 -> build/bdist.linux-x86_64/egg/ansible/modules/core/windows
 copying build/lib/ansible/modules/core/windows/win_ping.py -> build/bdist.linux-x86_64/egg/ansible/modules/core/windows
 copying build/lib/ansible/modules/core/windows/win_msi.ps1 -> build/bdist.linux-x86_64/egg/ansible/modules/core/windows
+copying build/lib/ansible/modules/core/windows/win_file.py -> build/bdist.linux-x86_64/egg/ansible/modules/core/windows
 copying build/lib/ansible/modules/core/windows/win_get_url.py -> build/bdist.linux-x86_64/egg/ansible/modules/core/windows
+copying build/lib/ansible/modules/core/windows/win_copy.ps1 -> build/bdist.linux-x86_64/egg/ansible/modules/core/windows
 copying build/lib/ansible/modules/core/windows/win_service.ps1 -> build/bdist.linux-x86_64/egg/ansible/modules/core/windows
 copying build/lib/ansible/modules/core/windows/win_feature.ps1 -> build/bdist.linux-x86_64/egg/ansible/modules/core/windows
 copying build/lib/ansible/modules/core/windows/setup.ps1 -> build/bdist.linux-x86_64/egg/ansible/modules/core/windows
 copying build/lib/ansible/modules/core/windows/win_user.py -> build/bdist.linux-x86_64/egg/ansible/modules/core/windows
 copying build/lib/ansible/modules/core/windows/win_group.py -> build/bdist.linux-x86_64/egg/ansible/modules/core/windows
 copying build/lib/ansible/modules/core/windows/win_msi.py -> build/bdist.linux-x86_64/egg/ansible/modules/core/windows
+copying build/lib/ansible/modules/core/windows/win_copy.py -> build/bdist.linux-x86_64/egg/ansible/modules/core/windows
 copying build/lib/ansible/modules/core/windows/win_get_url.ps1 -> build/bdist.linux-x86_64/egg/ansible/modules/core/windows
 copying build/lib/ansible/modules/core/windows/win_stat.py -> build/bdist.linux-x86_64/egg/ansible/modules/core/windows
+copying build/lib/ansible/modules/core/windows/win_template.py -> build/bdist.linux-x86_64/egg/ansible/modules/core/windows
 copying build/lib/ansible/modules/core/windows/__init__.py -> build/bdist.linux-x86_64/egg/ansible/modules/core/windows
 copying build/lib/ansible/modules/core/windows/win_group.ps1 -> build/bdist.linux-x86_64/egg/ansible/modules/core/windows
 copying build/lib/ansible/modules/core/windows/win_ping.ps1 -> build/bdist.linux-x86_64/egg/ansible/modules/core/windows
@@ -1267,11 +1285,14 @@ byte-compiling build/bdist.linux-x86_64/egg/ansible/modules/core/system/mount.py
 byte-compiling build/bdist.linux-x86_64/egg/ansible/modules/core/system/selinux.py to selinux.pyc
 byte-compiling build/bdist.linux-x86_64/egg/ansible/modules/core/windows/win_feature.py to win_feature.pyc
 byte-compiling build/bdist.linux-x86_64/egg/ansible/modules/core/windows/win_ping.py to win_ping.pyc
+byte-compiling build/bdist.linux-x86_64/egg/ansible/modules/core/windows/win_file.py to win_file.pyc
 byte-compiling build/bdist.linux-x86_64/egg/ansible/modules/core/windows/win_get_url.py to win_get_url.pyc
 byte-compiling build/bdist.linux-x86_64/egg/ansible/modules/core/windows/win_user.py to win_user.pyc
 byte-compiling build/bdist.linux-x86_64/egg/ansible/modules/core/windows/win_group.py to win_group.pyc
 byte-compiling build/bdist.linux-x86_64/egg/ansible/modules/core/windows/win_msi.py to win_msi.pyc
+byte-compiling build/bdist.linux-x86_64/egg/ansible/modules/core/windows/win_copy.py to win_copy.pyc
 byte-compiling build/bdist.linux-x86_64/egg/ansible/modules/core/windows/win_stat.py to win_stat.pyc
+byte-compiling build/bdist.linux-x86_64/egg/ansible/modules/core/windows/win_template.py to win_template.pyc
 byte-compiling build/bdist.linux-x86_64/egg/ansible/modules/core/windows/__init__.py to __init__.pyc
 byte-compiling build/bdist.linux-x86_64/egg/ansible/modules/core/windows/win_service.py to win_service.pyc
 byte-compiling build/bdist.linux-x86_64/egg/ansible/modules/core/__init__.py to __init__.pyc
@@ -1576,12 +1597,12 @@ ansible.utils.__init__: module references __file__
 ansible.utils.plugins: module references __file__
 ansible.module_utils.basic: module references __file__
 creating dist
-creating 'dist/ansible-1.9.1-py2.7.egg' and adding 'build/bdist.linux-x86_64/egg' to it
+creating 'dist/ansible-1.9.2-py2.7.egg' and adding 'build/bdist.linux-x86_64/egg' to it
 removing 'build/bdist.linux-x86_64/egg' (and everything under it)
-Processing ansible-1.9.1-py2.7.egg
-creating /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/ansible-1.9.1-py2.7.egg
-Extracting ansible-1.9.1-py2.7.egg to /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages
-Adding ansible 1.9.1 to easy-install.pth file
+Processing ansible-1.9.2-py2.7.egg
+creating /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/ansible-1.9.2-py2.7.egg
+Extracting ansible-1.9.2-py2.7.egg to /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages
+Adding ansible 1.9.2 to easy-install.pth file
 Installing ansible-vault script to /home/ubuntu/miniconda/envs/_build/bin
 Installing ansible-doc script to /home/ubuntu/miniconda/envs/_build/bin
 Installing ansible-galaxy script to /home/ubuntu/miniconda/envs/_build/bin
@@ -1589,21 +1610,21 @@ Installing ansible script to /home/ubuntu/miniconda/envs/_build/bin
 Installing ansible-pull script to /home/ubuntu/miniconda/envs/_build/bin
 Installing ansible-playbook script to /home/ubuntu/miniconda/envs/_build/bin
 
-Installed /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/ansible-1.9.1-py2.7.egg
-Processing dependencies for ansible==1.9.1
+Installed /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/ansible-1.9.2-py2.7.egg
+Processing dependencies for ansible==1.9.2
 Searching for pycrypto==2.6.1
 Best match: pycrypto 2.6.1
+Processing pycrypto-2.6.1-py2.7-linux-x86_64.egg
 Adding pycrypto 2.6.1 to easy-install.pth file
 
-Using /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages
-Searching for setuptools==17.0
-Best match: setuptools 17.0
-Processing setuptools-17.0-py2.7.egg
-Adding setuptools 17.0 to easy-install.pth file
+Using /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/pycrypto-2.6.1-py2.7-linux-x86_64.egg
+Searching for setuptools==15.2
+Best match: setuptools 15.2
+Adding setuptools 15.2 to easy-install.pth file
+Installing easy_install-3.4 script to /home/ubuntu/miniconda/envs/_build/bin
 Installing easy_install script to /home/ubuntu/miniconda/envs/_build/bin
-Installing easy_install-2.7 script to /home/ubuntu/miniconda/envs/_build/bin
 
-Using /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/setuptools-17.0-py2.7.egg
+Using /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages
 Searching for PyYAML==3.11
 Best match: PyYAML 3.11
 Adding PyYAML 3.11 to easy-install.pth file
@@ -1626,11 +1647,10 @@ Processing ecdsa-0.13-py2.7.egg
 Adding ecdsa 0.13 to easy-install.pth file
 
 Using /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/ecdsa-0.13-py2.7.egg
-Finished processing dependencies for ansible==1.9.1
+Finished processing dependencies for ansible==1.9.2
 
 The following NEW packages will be INSTALLED:
 
-    ecdsa:      0.13-py27_0  
     jinja2:     2.7.3-py27_1 
     markupsafe: 0.23-py27_0  
     openssl:    1.0.1k-1     
@@ -1638,40 +1658,47 @@ The following NEW packages will be INSTALLED:
     pip:        7.0.3-py27_0 
     pycrypto:   2.6.1-py27_0 
     python:     2.7.10-0     
-    pyyaml:     3.11-py27_0  
+    pyyaml:     3.11-py27_1  
     readline:   6.2-2        
-    setuptools: 17.0-py27_0  
+    setuptools: 18.0.1-py27_0
     sqlite:     3.8.4.1-1    
     system:     5.8-2        
     tk:         8.5.18-0     
-    yaml:       0.1.4-0      
+    yaml:       0.1.6-0      
     zlib:       1.2.8-0      
 
 Linking packages ...
-[                    ]|                                                  |   0%[openssl             ]|                                                  |   0%[readline            ]|###                                               |   6%[sqlite              ]|######                                            |  12%[system              ]|#########                                         |  18%[tk                  ]|############                                      |  25%[yaml                ]|###############                                   |  31%[zlib                ]|##################                                |  37%[ecdsa               ]|#####################                             |  43%[markupsafe          ]|#########################                         |  50%[pycrypto            ]|############################                      |  56%[paramiko            ]|###############################                   |  62%[python              ]|##################################                |  68%[pyyaml              ]|#####################################             |  75%[setuptools          ]|########################################          |  81%[jinja2              ]|###########################################       |  87%[pip                 ]|##############################################    |  93%[      COMPLETE      ]|##################################################| 100%
+[                    ]|                                                  |   0%[openssl             ]|                                                  |   0%[readline            ]|###                                               |   6%[sqlite              ]|######                                            |  13%[system              ]|##########                                        |  20%[tk                  ]|#############                                     |  26%[yaml                ]|################                                  |  33%[zlib                ]|####################                              |  40%[markupsafe          ]|#######################                           |  46%[paramiko            ]|##########################                        |  53%[pycrypto            ]|##############################                    |  60%[python              ]|#################################                 |  66%[pyyaml              ]|####################################              |  73%[setuptools          ]|########################################          |  80%[jinja2              ]|###########################################       |  86%[pip                 ]|##############################################    |  93%[      COMPLETE      ]|##################################################| 100%
 Removing old work directory
 Source cache directory is: /home/ubuntu/miniconda/conda-bld/src_cache
-Found source in cache: ansible-1.9.1.tar.gz
+Found source in cache: ansible-1.9.2.tar.gz
 Extracting download
-Package: ansible-1.9.1-py_0
-source tree in: /home/ubuntu/miniconda/conda-bld/work/ansible-1.9.1
-number of files: 922
+Package: ansible-1.9.2-py_0
+source tree in: /home/ubuntu/miniconda/conda-bld/work/ansible-1.9.2
+number of files: 932
 Fixing permissions
 Fixing permissions
-BUILD END: ansible-1.9.1-py_0
-TEST START: ansible-1.9.1-py_0
+BUILD END: ansible-1.9.2-py_0
+TEST START: ansible-1.9.2-py_0
 Fetching package metadata: ......
-Solving package specifications: .............
+
+WARNING: conda-build appears to be out of date. You have version 1.13.0 but the
+latest version is 1.14.1. Run
+
+conda update -n root conda-build
+
+to get the latest version.
+
+Solving package specifications: .
 The following packages will be downloaded:
 
     package                    |            build
     ---------------------------|-----------------
-    ansible-1.9.1              |             py_0         714 KB
+    ansible-1.9.2              |             py_0         722 KB
 
 The following NEW packages will be INSTALLED:
 
-    ansible:    1.9.1-py_0   
-    ecdsa:      0.13-py27_0  
+    ansible:    1.9.2-py_0   
     jinja2:     2.7.3-py27_1 
     markupsafe: 0.23-py27_0  
     openssl:    1.0.1k-1     
@@ -1679,17 +1706,17 @@ The following NEW packages will be INSTALLED:
     pip:        7.0.3-py27_0 
     pycrypto:   2.6.1-py27_0 
     python:     2.7.10-0     
-    pyyaml:     3.11-py27_0  
+    pyyaml:     3.11-py27_1  
     readline:   6.2-2        
-    setuptools: 17.0-py27_0  
+    setuptools: 18.0.1-py27_0
     sqlite:     3.8.4.1-1    
     system:     5.8-2        
     tk:         8.5.18-0     
-    yaml:       0.1.4-0      
+    yaml:       0.1.6-0      
     zlib:       1.2.8-0      
 
 Fetching packages ...
-ansible-1.9.1-   0% |                              | ETA:  --:--:--   0.00  B/sansible-1.9.1-   2% |                               | ETA:  0:00:00  45.39 MB/sansible-1.9.1-   4% |#                              | ETA:  0:00:00   3.76 MB/sansible-1.9.1-   6% |##                             | ETA:  0:00:00   5.52 MB/sansible-1.9.1-   8% |##                             | ETA:  0:00:00   7.20 MB/sansible-1.9.1-  11% |###                            | ETA:  0:00:00   8.82 MB/sansible-1.9.1-  13% |####                           | ETA:  0:00:00  10.37 MB/sansible-1.9.1-  15% |####                           | ETA:  0:00:00  11.86 MB/sansible-1.9.1-  17% |#####                          | ETA:  0:00:00  13.30 MB/sansible-1.9.1-  20% |######                         | ETA:  0:00:00  14.69 MB/sansible-1.9.1-  22% |######                         | ETA:  0:00:00  16.03 MB/sansible-1.9.1-  24% |#######                        | ETA:  0:00:00  17.32 MB/sansible-1.9.1-  26% |########                       | ETA:  0:00:00  18.57 MB/sansible-1.9.1-  29% |#########                      | ETA:  0:00:00  19.77 MB/sansible-1.9.1-  31% |#########                      | ETA:  0:00:00  20.93 MB/sansible-1.9.1-  33% |##########                     | ETA:  0:00:00  22.07 MB/sansible-1.9.1-  35% |###########                    | ETA:  0:00:00  23.16 MB/sansible-1.9.1-  38% |###########                    | ETA:  0:00:00  24.22 MB/sansible-1.9.1-  40% |############                   | ETA:  0:00:00  25.24 MB/sansible-1.9.1-  42% |#############                  | ETA:  0:00:00  26.20 MB/sansible-1.9.1-  44% |#############                  | ETA:  0:00:00  27.16 MB/sansible-1.9.1-  47% |##############                 | ETA:  0:00:00  28.08 MB/sansible-1.9.1-  49% |###############                | ETA:  0:00:00  28.99 MB/sansible-1.9.1-  51% |###############                | ETA:  0:00:00  29.86 MB/sansible-1.9.1-  53% |################               | ETA:  0:00:00  30.73 MB/sansible-1.9.1-  56% |#################              | ETA:  0:00:00  31.55 MB/sansible-1.9.1-  58% |##################             | ETA:  0:00:00  32.36 MB/sansible-1.9.1-  60% |##################             | ETA:  0:00:00  33.16 MB/sansible-1.9.1-  62% |###################            | ETA:  0:00:00  33.92 MB/sansible-1.9.1-  64% |####################           | ETA:  0:00:00  34.67 MB/sansible-1.9.1-  67% |####################           | ETA:  0:00:00  35.39 MB/sansible-1.9.1-  69% |#####################          | ETA:  0:00:00  36.11 MB/sansible-1.9.1-  71% |######################         | ETA:  0:00:00  36.80 MB/sansible-1.9.1-  73% |######################         | ETA:  0:00:00  37.47 MB/sansible-1.9.1-  76% |#######################        | ETA:  0:00:00  38.13 MB/sansible-1.9.1-  78% |########################       | ETA:  0:00:00  38.78 MB/sansible-1.9.1-  80% |#########################      | ETA:  0:00:00  39.39 MB/sansible-1.9.1-  82% |#########################      | ETA:  0:00:00  40.00 MB/sansible-1.9.1-  85% |##########################     | ETA:  0:00:00  40.60 MB/sansible-1.9.1-  87% |###########################    | ETA:  0:00:00  41.19 MB/sansible-1.9.1-  89% |###########################    | ETA:  0:00:00  41.76 MB/sansible-1.9.1-  91% |####===== testing package: ansible-1.9.1-py_0 =====
+ansible-1.9.2-   0% |                              | ETA:  --:--:--   0.00  B/sansible-1.9.2-   2% |                               | ETA:  0:00:00  47.76 MB/sansible-1.9.2-   4% |#                              | ETA:  0:00:00  58.61 MB/sansible-1.9.2-   6% |##                             | ETA:  0:00:00  65.36 MB/sansible-1.9.2-   8% |##                             | ETA:  0:00:00  69.64 MB/sansible-1.9.2-  11% |###                            | ETA:  0:00:00  72.75 MB/sansible-1.9.2-  13% |####                           | ETA:  0:00:00  74.80 MB/sansible-1.9.2-  15% |####                           | ETA:  0:00:00  76.61 MB/sansible-1.9.2-  17% |#####                          | ETA:  0:00:00  78.11 MB/sansible-1.9.2-  19% |######                         | ETA:  0:00:00  79.06 MB/sansible-1.9.2-  22% |######                         | ETA:  0:00:00  80.00 MB/sansible-1.9.2-  24% |#######                        | ETA:  0:00:00  80.89 MB/sansible-1.9.2-  26% |########                       | ETA:  0:00:00  81.65 MB/sansible-1.9.2-  28% |########                       | ETA:  0:00:00  82.27 MB/sansible-1.9.2-  31% |#########                      | ETA:  0:00:00  82.74 MB/sansible-1.9.2-  33% |##########                     | ETA:  0:00:00  83.22 MB/sansible-1.9.2-  35% |##########                     | ETA:  0:00:00  83.67 MB/sansible-1.9.2-  37% |###########                    | ETA:  0:00:00  83.84 MB/sansible-1.9.2-  39% |############                   | ETA:  0:00:00  83.90 MB/sansible-1.9.2-  42% |#############                  | ETA:  0:00:00  84.18 MB/sansible-1.9.2-  44% |#############                  | ETA:  0:00:00  84.39 MB/sansible-1.9.2-  46% |##############                 | ETA:  0:00:00  84.60 MB/sansible-1.9.2-  48% |###############                | ETA:  0:00:00  84.87 MB/sansible-1.9.2-  50% |###############                | ETA:  0:00:00  85.14 MB/sansible-1.9.2-  53% |################               | ETA:  0:00:00  85.22 MB/sansible-1.9.2-  55% |#################              | ETA:  0:00:00  85.40 MB/sansible-1.9.2-  57% |#################              | ETA:  0:00:00  85.62 MB/sansible-1.9.2-  59% |##################             | ETA:  0:00:00  85.80 MB/sansible-1.9.2-  62% |###################            | ETA:  0:00:00  85.99 MB/sansible-1.9.2-  64% |###################            | ETA:  0:00:00  86.12 MB/sansible-1.9.2-  66% |####################           | ETA:  0:00:00  86.28 MB/sansible-1.9.2-  68% |#####################          | ETA:  0:00:00  86.44 MB/sansible-1.9.2-  70% |#####################          | ETA:  0:00:00  86.49 MB/sansible-1.9.2-  73% |######################         | ETA:  0:00:00  86.62 MB/sansible-1.9.2-  75% |#######################        | ETA:  0:00:00  86.73 MB/sansible-1.9.2-  77% |########################       | ETA:  0:00:00  86.86 MB/sansible-1.9.2-  79% |########################       | ETA:  0:00:00  86.98 MB/sansible-1.9.2-  81% |#########################      | ETA:  0:00:00  87.05 MB/sansible-1.9.2-  84% |##########################     | ETA:  0:00:00  87.13 MB/sansible-1.9.2-  86% |##########################     | ETA:  0:00:00  87.24 MB/sansible-1.9.2-  88% |###########################    | ETA:  0:00:00  87.09 MB/sansible-1.9.2-  90% |############################   | E===== testing package: ansible-1.9.2-py_0 =====
 import: u'ansible'
 import: u'ansible.cache'
 import: u'ansible.callback_plugins'
@@ -1759,16 +1786,16 @@ import: u'ansible.runner.lookup_plugins'
 import: u'ansible.runner.shell_plugins'
 import: u'ansible.utils'
 import: u'ansible.utils.module_docs_fragments'
-===== ansible-1.9.1-py_0 OK =====
-########################   | ETA:  0:00:00  42.27 MB/sansible-1.9.1-  94% |#############################  | ETA:  0:00:00  42.78 MB/sansible-1.9.1-  96% |#############################  | ETA:  0:00:00  43.32 MB/sansible-1.9.1-  98% |############################## | ETA:  0:00:00  43.82 MB/sansible-1.9.1- 100% |###############################| ETA:  0:00:00  29.55 MB/sansible-1.9.1- 100% |###############################| Time: 0:00:00  29.27 MB/s
+===== ansible-1.9.2-py_0 OK =====
+TA:  0:00:00  87.15 MB/sansible-1.9.2-  93% |############################   | ETA:  0:00:00  87.15 MB/sansible-1.9.2-  95% |#############################  | ETA:  0:00:00  87.17 MB/sansible-1.9.2-  97% |############################## | ETA:  0:00:00  87.22 MB/sansible-1.9.2-  99% |############################## | ETA:  0:00:00  87.29 MB/sansible-1.9.2- 100% |###############################| Time: 0:00:00  84.70 MB/s
 Extracting packages ...
 [      COMPLETE      ]|                                                  |   0%[ansible             ]|                                                  |   0%[ansible             ]|                                                  |   0%[      COMPLETE      ]|##################################################| 100%
 Linking packages ...
-[      COMPLETE      ]|                                                  |   0%[openssl             ]|                                                  |   0%[openssl             ]|                                                  |   0%[readline            ]|##                                                |   5%[sqlite              ]|#####                                             |  11%[system              ]|########                                          |  17%[tk                  ]|###########                                       |  23%[yaml                ]|##############                                    |  29%[zlib                ]|#################                                 |  35%[ecdsa               ]|####################                              |  41%[markupsafe          ]|#######################                           |  47%[pycrypto            ]|##########################                        |  52%[paramiko            ]|#############################                     |  58%[python              ]|################################                  |  64%[pyyaml              ]|###################################               |  70%[setuptools          ]|######################################            |  76%[jinja2              ]|#########################################         |  82%[pip                 ]|############################################      |  88%[ansible             ]|###############################################   |  94%[      COMPLETE      ]|##################################################| 100%
-TEST END: ansible-1.9.1-py_0
+[      COMPLETE      ]|                                                  |   0%[openssl             ]|                                                  |   0%[openssl             ]|                                                  |   0%[readline            ]|###                                               |   6%[sqlite              ]|######                                            |  12%[system              ]|#########                                         |  18%[tk                  ]|############                                      |  25%[yaml                ]|###############                                   |  31%[zlib                ]|##################                                |  37%[markupsafe          ]|#####################                             |  43%[paramiko            ]|#########################                         |  50%[pycrypto            ]|############################                      |  56%[python              ]|###############################                   |  62%[pyyaml              ]|##################################                |  68%[setuptools          ]|#####################################             |  75%[jinja2              ]|########################################          |  81%[pip                 ]|###########################################       |  87%[ansible             ]|##############################################    |  93%[      COMPLETE      ]|##################################################| 100%
+TEST END: ansible-1.9.2-py_0
 # If you want to upload this package to binstar.org later, type:
 #
-# $ binstar upload /home/ubuntu/miniconda/conda-bld/noarch/ansible-1.9.1-py_0.tar.bz2
+# $ binstar upload /home/ubuntu/miniconda/conda-bld/noarch/ansible-1.9.2-py_0.tar.bz2
 #
 # To have conda build upload to binstar automatically, use
 # $ conda config --set binstar_upload yes

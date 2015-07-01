@@ -4,7 +4,7 @@ BUILD START: beautifulsoup4-4.3.2-py27_0
 Fetching package metadata: ......
 
 WARNING: conda-build appears to be out of date. You have version 1.13.0 but the
-latest version is 1.14.0. Run
+latest version is 1.14.1. Run
 
 conda update -n root conda-build
 
@@ -13,7 +13,9 @@ to get the latest version.
 Solving package specifications: .+ pip install beautifulsoup4
 Collecting beautifulsoup4
   Downloading http://localhost/packages/source/b/beautifulsoup4/beautifulsoup4-4.3.2.tar.gz (143kB)
-setuptools must be installed to install from a source distribution
+Installing collected packages: beautifulsoup4
+  Running setup.py install for beautifulsoup4
+Successfully installed beautifulsoup4-4.3.2
 
 The following NEW packages will be INSTALLED:
 
@@ -21,7 +23,7 @@ The following NEW packages will be INSTALLED:
     pip:        7.0.3-py27_0 
     python:     2.7.10-0     
     readline:   6.2-2        
-    setuptools: 17.1.1-py27_0
+    setuptools: 18.0.1-py27_0
     sqlite:     3.8.4.1-1    
     system:     5.8-2        
     tk:         8.5.18-0     
@@ -33,7 +35,17 @@ Removing old work directory
 Copying /home/ubuntu/pypi-conda-builds/beautifulsoup4 to /home/ubuntu/miniconda/conda-bld/work
 Package: beautifulsoup4-4.3.2-py27_0
 source tree in: /home/ubuntu/miniconda/conda-bld/work
-Command failed: /bin/bash -x -e /home/ubuntu/pypi-conda-builds/beautifulsoup4/build.sh
+number of files: 39
+Fixing permissions
+Fixing permissions
+BUILD END: beautifulsoup4-4.3.2-py27_0
+# If you want to upload this package to binstar.org later, type:
+#
+# $ binstar upload /home/ubuntu/miniconda/conda-bld/linux-64/beautifulsoup4-4.3.2-py27_0.tar.bz2
+#
+# To have conda build upload to binstar automatically, use
+# $ conda config --set binstar_upload yes
+
 Error: prefix already exists: /home/ubuntu/miniconda/envs/_pipbuild_
 Exception:
 Traceback (most recent call last):

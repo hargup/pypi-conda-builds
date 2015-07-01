@@ -1,0 +1,405 @@
+Removing old build directory
+Removing old work directory
+BUILD START: django-guardian-1.3-py_0
+Fetching package metadata: ......
+
+WARNING: conda-build appears to be out of date. You have version 1.13.0 but the
+latest version is 1.14.1. Run
+
+conda update -n root conda-build
+
+to get the latest version.
+
+Solving package specifications: .+ /home/ubuntu/miniconda/envs/_build/bin/python setup.py install
+running install
+running bdist_egg
+running egg_info
+writing requirements to django_guardian.egg-info/requires.txt
+writing django_guardian.egg-info/PKG-INFO
+writing top-level names to django_guardian.egg-info/top_level.txt
+writing dependency_links to django_guardian.egg-info/dependency_links.txt
+reading manifest file 'django_guardian.egg-info/SOURCES.txt'
+reading manifest template 'MANIFEST.in'
+warning: no files found matching '*.json' under directory 'guardian/fixtures'
+warning: no files found matching '*.html' under directory 'guardian/tests/templates'
+warning: no previously-included files matching '*' found under directory 'example_project'
+warning: no previously-included files matching '*' found under directory 'docs/build'
+warning: no previously-included files matching '*' found under directory 'benchmarks'
+writing manifest file 'django_guardian.egg-info/SOURCES.txt'
+installing library code to build/bdist.linux-x86_64/egg
+running install_lib
+running build_py
+creating build
+creating build/lib
+creating build/lib/guardian
+copying guardian/apps.py -> build/lib/guardian
+copying guardian/admin.py -> build/lib/guardian
+copying guardian/mixins.py -> build/lib/guardian
+copying guardian/utils.py -> build/lib/guardian
+copying guardian/compat.py -> build/lib/guardian
+copying guardian/testsettings.py -> build/lib/guardian
+copying guardian/shortcuts.py -> build/lib/guardian
+copying guardian/forms.py -> build/lib/guardian
+copying guardian/managers.py -> build/lib/guardian
+copying guardian/__init__.py -> build/lib/guardian
+copying guardian/backends.py -> build/lib/guardian
+copying guardian/decorators.py -> build/lib/guardian
+copying guardian/models.py -> build/lib/guardian
+copying guardian/core.py -> build/lib/guardian
+copying guardian/exceptions.py -> build/lib/guardian
+creating build/lib/guardian/testapp
+copying guardian/testapp/__init__.py -> build/lib/guardian/testapp
+copying guardian/testapp/models.py -> build/lib/guardian/testapp
+creating build/lib/guardian/management
+copying guardian/management/__init__.py -> build/lib/guardian/management
+creating build/lib/guardian/conf
+copying guardian/conf/__init__.py -> build/lib/guardian/conf
+copying guardian/conf/settings.py -> build/lib/guardian/conf
+creating build/lib/guardian/templatetags
+copying guardian/templatetags/guardian_tags.py -> build/lib/guardian/templatetags
+copying guardian/templatetags/__init__.py -> build/lib/guardian/templatetags
+creating build/lib/guardian/south_migrations
+copying guardian/south_migrations/0002_auto__add_field_groupobjectpermission_object_pk__add_field_userobjectp.py -> build/lib/guardian/south_migrations
+copying guardian/south_migrations/0005_auto__chg_field_groupobjectpermission_object_pk__chg_field_userobjectp.py -> build/lib/guardian/south_migrations
+copying guardian/south_migrations/0004_auto__del_field_groupobjectpermission_object_id__del_unique_groupobjec.py -> build/lib/guardian/south_migrations
+copying guardian/south_migrations/0001_initial.py -> build/lib/guardian/south_migrations
+copying guardian/south_migrations/0003_update_objectpermission_object_pk.py -> build/lib/guardian/south_migrations
+copying guardian/south_migrations/__init__.py -> build/lib/guardian/south_migrations
+creating build/lib/guardian/migrations
+copying guardian/migrations/0001_initial.py -> build/lib/guardian/migrations
+copying guardian/migrations/__init__.py -> build/lib/guardian/migrations
+creating build/lib/guardian/testapp/tests
+copying guardian/testapp/tests/core_test.py -> build/lib/guardian/testapp/tests
+copying guardian/testapp/tests/utils_test.py -> build/lib/guardian/testapp/tests
+copying guardian/testapp/tests/managers_test.py -> build/lib/guardian/testapp/tests
+copying guardian/testapp/tests/mixins_test.py -> build/lib/guardian/testapp/tests
+copying guardian/testapp/tests/shortcuts_test.py -> build/lib/guardian/testapp/tests
+copying guardian/testapp/tests/decorators_test.py -> build/lib/guardian/testapp/tests
+copying guardian/testapp/tests/direct_rel_test.py -> build/lib/guardian/testapp/tests
+copying guardian/testapp/tests/custompkmodel_test.py -> build/lib/guardian/testapp/tests
+copying guardian/testapp/tests/tags_test.py -> build/lib/guardian/testapp/tests
+copying guardian/testapp/tests/orphans_test.py -> build/lib/guardian/testapp/tests
+copying guardian/testapp/tests/conf.py -> build/lib/guardian/testapp/tests
+copying guardian/testapp/tests/forms_test.py -> build/lib/guardian/testapp/tests
+copying guardian/testapp/tests/conf_test.py -> build/lib/guardian/testapp/tests
+copying guardian/testapp/tests/management_test.py -> build/lib/guardian/testapp/tests
+copying guardian/testapp/tests/urls.py -> build/lib/guardian/testapp/tests
+copying guardian/testapp/tests/__init__.py -> build/lib/guardian/testapp/tests
+copying guardian/testapp/tests/other_test.py -> build/lib/guardian/testapp/tests
+copying guardian/testapp/tests/admin_test.py -> build/lib/guardian/testapp/tests
+creating build/lib/guardian/testapp/migrations
+copying guardian/testapp/migrations/0003_auto_20141124_0729.py -> build/lib/guardian/testapp/migrations
+copying guardian/testapp/migrations/0002_logentrywithgroup.py -> build/lib/guardian/testapp/migrations
+copying guardian/testapp/migrations/0001_initial.py -> build/lib/guardian/testapp/migrations
+copying guardian/testapp/migrations/__init__.py -> build/lib/guardian/testapp/migrations
+creating build/lib/guardian/management/commands
+copying guardian/management/commands/clean_orphan_obj_perms.py -> build/lib/guardian/management/commands
+copying guardian/management/commands/__init__.py -> build/lib/guardian/management/commands
+creating build/lib/guardian/locale
+creating build/lib/guardian/locale/es
+creating build/lib/guardian/locale/es/LC_MESSAGES
+copying guardian/locale/es/LC_MESSAGES/django.mo -> build/lib/guardian/locale/es/LC_MESSAGES
+copying guardian/locale/es/LC_MESSAGES/django.po -> build/lib/guardian/locale/es/LC_MESSAGES
+creating build/lib/guardian/locale/fr
+creating build/lib/guardian/locale/fr/LC_MESSAGES
+copying guardian/locale/fr/LC_MESSAGES/django.mo -> build/lib/guardian/locale/fr/LC_MESSAGES
+copying guardian/locale/fr/LC_MESSAGES/django.po -> build/lib/guardian/locale/fr/LC_MESSAGES
+creating build/lib/guardian/locale/pl
+creating build/lib/guardian/locale/pl/LC_MESSAGES
+copying guardian/locale/pl/LC_MESSAGES/django.mo -> build/lib/guardian/locale/pl/LC_MESSAGES
+copying guardian/locale/pl/LC_MESSAGES/django.po -> build/lib/guardian/locale/pl/LC_MESSAGES
+creating build/lib/guardian/locale/pt_BR
+creating build/lib/guardian/locale/pt_BR/LC_MESSAGES
+copying guardian/locale/pt_BR/LC_MESSAGES/django.mo -> build/lib/guardian/locale/pt_BR/LC_MESSAGES
+copying guardian/locale/pt_BR/LC_MESSAGES/django.po -> build/lib/guardian/locale/pt_BR/LC_MESSAGES
+creating build/lib/guardian/templates
+creating build/lib/guardian/templates/admin
+creating build/lib/guardian/templates/admin/guardian
+creating build/lib/guardian/templates/admin/guardian/contrib
+creating build/lib/guardian/templates/admin/guardian/contrib/grappelli
+copying guardian/templates/admin/guardian/contrib/grappelli/field.html -> build/lib/guardian/templates/admin/guardian/contrib/grappelli
+copying guardian/templates/admin/guardian/contrib/grappelli/obj_perms_manage.html -> build/lib/guardian/templates/admin/guardian/contrib/grappelli
+copying guardian/templates/admin/guardian/contrib/grappelli/obj_perms_manage_group.html -> build/lib/guardian/templates/admin/guardian/contrib/grappelli
+copying guardian/templates/admin/guardian/contrib/grappelli/obj_perms_manage_user.html -> build/lib/guardian/templates/admin/guardian/contrib/grappelli
+creating build/lib/guardian/templates/admin/guardian/model
+copying guardian/templates/admin/guardian/model/change_form.html -> build/lib/guardian/templates/admin/guardian/model
+copying guardian/templates/admin/guardian/model/field.html -> build/lib/guardian/templates/admin/guardian/model
+copying guardian/templates/admin/guardian/model/obj_perms_manage.html -> build/lib/guardian/templates/admin/guardian/model
+copying guardian/templates/admin/guardian/model/obj_perms_manage_group.html -> build/lib/guardian/templates/admin/guardian/model
+copying guardian/templates/admin/guardian/model/obj_perms_manage_user.html -> build/lib/guardian/templates/admin/guardian/model
+copying guardian/templates/admin/guardian/model/obj_perms_no.html -> build/lib/guardian/templates/admin/guardian/model
+copying guardian/templates/admin/guardian/model/obj_perms_yes.html -> build/lib/guardian/templates/admin/guardian/model
+creating build/bdist.linux-x86_64
+creating build/bdist.linux-x86_64/egg
+creating build/bdist.linux-x86_64/egg/guardian
+copying build/lib/guardian/apps.py -> build/bdist.linux-x86_64/egg/guardian
+copying build/lib/guardian/admin.py -> build/bdist.linux-x86_64/egg/guardian
+creating build/bdist.linux-x86_64/egg/guardian/testapp
+creating build/bdist.linux-x86_64/egg/guardian/testapp/tests
+copying build/lib/guardian/testapp/tests/core_test.py -> build/bdist.linux-x86_64/egg/guardian/testapp/tests
+copying build/lib/guardian/testapp/tests/utils_test.py -> build/bdist.linux-x86_64/egg/guardian/testapp/tests
+copying build/lib/guardian/testapp/tests/managers_test.py -> build/bdist.linux-x86_64/egg/guardian/testapp/tests
+copying build/lib/guardian/testapp/tests/mixins_test.py -> build/bdist.linux-x86_64/egg/guardian/testapp/tests
+copying build/lib/guardian/testapp/tests/shortcuts_test.py -> build/bdist.linux-x86_64/egg/guardian/testapp/tests
+copying build/lib/guardian/testapp/tests/decorators_test.py -> build/bdist.linux-x86_64/egg/guardian/testapp/tests
+copying build/lib/guardian/testapp/tests/direct_rel_test.py -> build/bdist.linux-x86_64/egg/guardian/testapp/tests
+copying build/lib/guardian/testapp/tests/custompkmodel_test.py -> build/bdist.linux-x86_64/egg/guardian/testapp/tests
+copying build/lib/guardian/testapp/tests/tags_test.py -> build/bdist.linux-x86_64/egg/guardian/testapp/tests
+copying build/lib/guardian/testapp/tests/orphans_test.py -> build/bdist.linux-x86_64/egg/guardian/testapp/tests
+copying build/lib/guardian/testapp/tests/conf.py -> build/bdist.linux-x86_64/egg/guardian/testapp/tests
+copying build/lib/guardian/testapp/tests/forms_test.py -> build/bdist.linux-x86_64/egg/guardian/testapp/tests
+copying build/lib/guardian/testapp/tests/conf_test.py -> build/bdist.linux-x86_64/egg/guardian/testapp/tests
+copying build/lib/guardian/testapp/tests/management_test.py -> build/bdist.linux-x86_64/egg/guardian/testapp/tests
+copying build/lib/guardian/testapp/tests/urls.py -> build/bdist.linux-x86_64/egg/guardian/testapp/tests
+copying build/lib/guardian/testapp/tests/__init__.py -> build/bdist.linux-x86_64/egg/guardian/testapp/tests
+copying build/lib/guardian/testapp/tests/other_test.py -> build/bdist.linux-x86_64/egg/guardian/testapp/tests
+copying build/lib/guardian/testapp/tests/admin_test.py -> build/bdist.linux-x86_64/egg/guardian/testapp/tests
+copying build/lib/guardian/testapp/__init__.py -> build/bdist.linux-x86_64/egg/guardian/testapp
+copying build/lib/guardian/testapp/models.py -> build/bdist.linux-x86_64/egg/guardian/testapp
+creating build/bdist.linux-x86_64/egg/guardian/testapp/migrations
+copying build/lib/guardian/testapp/migrations/0003_auto_20141124_0729.py -> build/bdist.linux-x86_64/egg/guardian/testapp/migrations
+copying build/lib/guardian/testapp/migrations/0002_logentrywithgroup.py -> build/bdist.linux-x86_64/egg/guardian/testapp/migrations
+copying build/lib/guardian/testapp/migrations/0001_initial.py -> build/bdist.linux-x86_64/egg/guardian/testapp/migrations
+copying build/lib/guardian/testapp/migrations/__init__.py -> build/bdist.linux-x86_64/egg/guardian/testapp/migrations
+copying build/lib/guardian/mixins.py -> build/bdist.linux-x86_64/egg/guardian
+copying build/lib/guardian/utils.py -> build/bdist.linux-x86_64/egg/guardian
+copying build/lib/guardian/compat.py -> build/bdist.linux-x86_64/egg/guardian
+creating build/bdist.linux-x86_64/egg/guardian/management
+copying build/lib/guardian/management/__init__.py -> build/bdist.linux-x86_64/egg/guardian/management
+creating build/bdist.linux-x86_64/egg/guardian/management/commands
+copying build/lib/guardian/management/commands/clean_orphan_obj_perms.py -> build/bdist.linux-x86_64/egg/guardian/management/commands
+copying build/lib/guardian/management/commands/__init__.py -> build/bdist.linux-x86_64/egg/guardian/management/commands
+copying build/lib/guardian/testsettings.py -> build/bdist.linux-x86_64/egg/guardian
+creating build/bdist.linux-x86_64/egg/guardian/conf
+copying build/lib/guardian/conf/__init__.py -> build/bdist.linux-x86_64/egg/guardian/conf
+copying build/lib/guardian/conf/settings.py -> build/bdist.linux-x86_64/egg/guardian/conf
+creating build/bdist.linux-x86_64/egg/guardian/templates
+creating build/bdist.linux-x86_64/egg/guardian/templates/admin
+creating build/bdist.linux-x86_64/egg/guardian/templates/admin/guardian
+creating build/bdist.linux-x86_64/egg/guardian/templates/admin/guardian/model
+copying build/lib/guardian/templates/admin/guardian/model/field.html -> build/bdist.linux-x86_64/egg/guardian/templates/admin/guardian/model
+copying build/lib/guardian/templates/admin/guardian/model/obj_perms_manage_user.html -> build/bdist.linux-x86_64/egg/guardian/templates/admin/guardian/model
+copying build/lib/guardian/templates/admin/guardian/model/obj_perms_manage_group.html -> build/bdist.linux-x86_64/egg/guardian/templates/admin/guardian/model
+copying build/lib/guardian/templates/admin/guardian/model/obj_perms_no.html -> build/bdist.linux-x86_64/egg/guardian/templates/admin/guardian/model
+copying build/lib/guardian/templates/admin/guardian/model/obj_perms_yes.html -> build/bdist.linux-x86_64/egg/guardian/templates/admin/guardian/model
+copying build/lib/guardian/templates/admin/guardian/model/change_form.html -> build/bdist.linux-x86_64/egg/guardian/templates/admin/guardian/model
+copying build/lib/guardian/templates/admin/guardian/model/obj_perms_manage.html -> build/bdist.linux-x86_64/egg/guardian/templates/admin/guardian/model
+creating build/bdist.linux-x86_64/egg/guardian/templates/admin/guardian/contrib
+creating build/bdist.linux-x86_64/egg/guardian/templates/admin/guardian/contrib/grappelli
+copying build/lib/guardian/templates/admin/guardian/contrib/grappelli/field.html -> build/bdist.linux-x86_64/egg/guardian/templates/admin/guardian/contrib/grappelli
+copying build/lib/guardian/templates/admin/guardian/contrib/grappelli/obj_perms_manage_user.html -> build/bdist.linux-x86_64/egg/guardian/templates/admin/guardian/contrib/grappelli
+copying build/lib/guardian/templates/admin/guardian/contrib/grappelli/obj_perms_manage_group.html -> build/bdist.linux-x86_64/egg/guardian/templates/admin/guardian/contrib/grappelli
+copying build/lib/guardian/templates/admin/guardian/contrib/grappelli/obj_perms_manage.html -> build/bdist.linux-x86_64/egg/guardian/templates/admin/guardian/contrib/grappelli
+creating build/bdist.linux-x86_64/egg/guardian/templatetags
+copying build/lib/guardian/templatetags/guardian_tags.py -> build/bdist.linux-x86_64/egg/guardian/templatetags
+copying build/lib/guardian/templatetags/__init__.py -> build/bdist.linux-x86_64/egg/guardian/templatetags
+copying build/lib/guardian/shortcuts.py -> build/bdist.linux-x86_64/egg/guardian
+creating build/bdist.linux-x86_64/egg/guardian/south_migrations
+copying build/lib/guardian/south_migrations/0002_auto__add_field_groupobjectpermission_object_pk__add_field_userobjectp.py -> build/bdist.linux-x86_64/egg/guardian/south_migrations
+copying build/lib/guardian/south_migrations/0005_auto__chg_field_groupobjectpermission_object_pk__chg_field_userobjectp.py -> build/bdist.linux-x86_64/egg/guardian/south_migrations
+copying build/lib/guardian/south_migrations/0004_auto__del_field_groupobjectpermission_object_id__del_unique_groupobjec.py -> build/bdist.linux-x86_64/egg/guardian/south_migrations
+copying build/lib/guardian/south_migrations/0001_initial.py -> build/bdist.linux-x86_64/egg/guardian/south_migrations
+copying build/lib/guardian/south_migrations/0003_update_objectpermission_object_pk.py -> build/bdist.linux-x86_64/egg/guardian/south_migrations
+copying build/lib/guardian/south_migrations/__init__.py -> build/bdist.linux-x86_64/egg/guardian/south_migrations
+copying build/lib/guardian/forms.py -> build/bdist.linux-x86_64/egg/guardian
+copying build/lib/guardian/managers.py -> build/bdist.linux-x86_64/egg/guardian
+copying build/lib/guardian/__init__.py -> build/bdist.linux-x86_64/egg/guardian
+copying build/lib/guardian/backends.py -> build/bdist.linux-x86_64/egg/guardian
+copying build/lib/guardian/decorators.py -> build/bdist.linux-x86_64/egg/guardian
+copying build/lib/guardian/models.py -> build/bdist.linux-x86_64/egg/guardian
+creating build/bdist.linux-x86_64/egg/guardian/migrations
+copying build/lib/guardian/migrations/0001_initial.py -> build/bdist.linux-x86_64/egg/guardian/migrations
+copying build/lib/guardian/migrations/__init__.py -> build/bdist.linux-x86_64/egg/guardian/migrations
+copying build/lib/guardian/core.py -> build/bdist.linux-x86_64/egg/guardian
+creating build/bdist.linux-x86_64/egg/guardian/locale
+creating build/bdist.linux-x86_64/egg/guardian/locale/es
+creating build/bdist.linux-x86_64/egg/guardian/locale/es/LC_MESSAGES
+copying build/lib/guardian/locale/es/LC_MESSAGES/django.mo -> build/bdist.linux-x86_64/egg/guardian/locale/es/LC_MESSAGES
+copying build/lib/guardian/locale/es/LC_MESSAGES/django.po -> build/bdist.linux-x86_64/egg/guardian/locale/es/LC_MESSAGES
+creating build/bdist.linux-x86_64/egg/guardian/locale/fr
+creating build/bdist.linux-x86_64/egg/guardian/locale/fr/LC_MESSAGES
+copying build/lib/guardian/locale/fr/LC_MESSAGES/django.mo -> build/bdist.linux-x86_64/egg/guardian/locale/fr/LC_MESSAGES
+copying build/lib/guardian/locale/fr/LC_MESSAGES/django.po -> build/bdist.linux-x86_64/egg/guardian/locale/fr/LC_MESSAGES
+creating build/bdist.linux-x86_64/egg/guardian/locale/pt_BR
+creating build/bdist.linux-x86_64/egg/guardian/locale/pt_BR/LC_MESSAGES
+copying build/lib/guardian/locale/pt_BR/LC_MESSAGES/django.mo -> build/bdist.linux-x86_64/egg/guardian/locale/pt_BR/LC_MESSAGES
+copying build/lib/guardian/locale/pt_BR/LC_MESSAGES/django.po -> build/bdist.linux-x86_64/egg/guardian/locale/pt_BR/LC_MESSAGES
+creating build/bdist.linux-x86_64/egg/guardian/locale/pl
+creating build/bdist.linux-x86_64/egg/guardian/locale/pl/LC_MESSAGES
+copying build/lib/guardian/locale/pl/LC_MESSAGES/django.mo -> build/bdist.linux-x86_64/egg/guardian/locale/pl/LC_MESSAGES
+copying build/lib/guardian/locale/pl/LC_MESSAGES/django.po -> build/bdist.linux-x86_64/egg/guardian/locale/pl/LC_MESSAGES
+copying build/lib/guardian/exceptions.py -> build/bdist.linux-x86_64/egg/guardian
+byte-compiling build/bdist.linux-x86_64/egg/guardian/apps.py to apps.pyc
+byte-compiling build/bdist.linux-x86_64/egg/guardian/admin.py to admin.pyc
+byte-compiling build/bdist.linux-x86_64/egg/guardian/testapp/tests/core_test.py to core_test.pyc
+byte-compiling build/bdist.linux-x86_64/egg/guardian/testapp/tests/utils_test.py to utils_test.pyc
+byte-compiling build/bdist.linux-x86_64/egg/guardian/testapp/tests/managers_test.py to managers_test.pyc
+byte-compiling build/bdist.linux-x86_64/egg/guardian/testapp/tests/mixins_test.py to mixins_test.pyc
+byte-compiling build/bdist.linux-x86_64/egg/guardian/testapp/tests/shortcuts_test.py to shortcuts_test.pyc
+byte-compiling build/bdist.linux-x86_64/egg/guardian/testapp/tests/decorators_test.py to decorators_test.pyc
+byte-compiling build/bdist.linux-x86_64/egg/guardian/testapp/tests/direct_rel_test.py to direct_rel_test.pyc
+byte-compiling build/bdist.linux-x86_64/egg/guardian/testapp/tests/custompkmodel_test.py to custompkmodel_test.pyc
+byte-compiling build/bdist.linux-x86_64/egg/guardian/testapp/tests/tags_test.py to tags_test.pyc
+byte-compiling build/bdist.linux-x86_64/egg/guardian/testapp/tests/orphans_test.py to orphans_test.pyc
+byte-compiling build/bdist.linux-x86_64/egg/guardian/testapp/tests/conf.py to conf.pyc
+byte-compiling build/bdist.linux-x86_64/egg/guardian/testapp/tests/forms_test.py to forms_test.pyc
+byte-compiling build/bdist.linux-x86_64/egg/guardian/testapp/tests/conf_test.py to conf_test.pyc
+byte-compiling build/bdist.linux-x86_64/egg/guardian/testapp/tests/management_test.py to management_test.pyc
+byte-compiling build/bdist.linux-x86_64/egg/guardian/testapp/tests/urls.py to urls.pyc
+byte-compiling build/bdist.linux-x86_64/egg/guardian/testapp/tests/__init__.py to __init__.pyc
+byte-compiling build/bdist.linux-x86_64/egg/guardian/testapp/tests/other_test.py to other_test.pyc
+byte-compiling build/bdist.linux-x86_64/egg/guardian/testapp/tests/admin_test.py to admin_test.pyc
+byte-compiling build/bdist.linux-x86_64/egg/guardian/testapp/__init__.py to __init__.pyc
+byte-compiling build/bdist.linux-x86_64/egg/guardian/testapp/models.py to models.pyc
+byte-compiling build/bdist.linux-x86_64/egg/guardian/testapp/migrations/0003_auto_20141124_0729.py to 0003_auto_20141124_0729.pyc
+byte-compiling build/bdist.linux-x86_64/egg/guardian/testapp/migrations/0002_logentrywithgroup.py to 0002_logentrywithgroup.pyc
+byte-compiling build/bdist.linux-x86_64/egg/guardian/testapp/migrations/0001_initial.py to 0001_initial.pyc
+byte-compiling build/bdist.linux-x86_64/egg/guardian/testapp/migrations/__init__.py to __init__.pyc
+byte-compiling build/bdist.linux-x86_64/egg/guardian/mixins.py to mixins.pyc
+byte-compiling build/bdist.linux-x86_64/egg/guardian/utils.py to utils.pyc
+byte-compiling build/bdist.linux-x86_64/egg/guardian/compat.py to compat.pyc
+byte-compiling build/bdist.linux-x86_64/egg/guardian/management/__init__.py to __init__.pyc
+byte-compiling build/bdist.linux-x86_64/egg/guardian/management/commands/clean_orphan_obj_perms.py to clean_orphan_obj_perms.pyc
+byte-compiling build/bdist.linux-x86_64/egg/guardian/management/commands/__init__.py to __init__.pyc
+byte-compiling build/bdist.linux-x86_64/egg/guardian/testsettings.py to testsettings.pyc
+byte-compiling build/bdist.linux-x86_64/egg/guardian/conf/__init__.py to __init__.pyc
+byte-compiling build/bdist.linux-x86_64/egg/guardian/conf/settings.py to settings.pyc
+byte-compiling build/bdist.linux-x86_64/egg/guardian/templatetags/guardian_tags.py to guardian_tags.pyc
+byte-compiling build/bdist.linux-x86_64/egg/guardian/templatetags/__init__.py to __init__.pyc
+byte-compiling build/bdist.linux-x86_64/egg/guardian/shortcuts.py to shortcuts.pyc
+byte-compiling build/bdist.linux-x86_64/egg/guardian/south_migrations/0002_auto__add_field_groupobjectpermission_object_pk__add_field_userobjectp.py to 0002_auto__add_field_groupobjectpermission_object_pk__add_field_userobjectp.pyc
+byte-compiling build/bdist.linux-x86_64/egg/guardian/south_migrations/0005_auto__chg_field_groupobjectpermission_object_pk__chg_field_userobjectp.py to 0005_auto__chg_field_groupobjectpermission_object_pk__chg_field_userobjectp.pyc
+byte-compiling build/bdist.linux-x86_64/egg/guardian/south_migrations/0004_auto__del_field_groupobjectpermission_object_id__del_unique_groupobjec.py to 0004_auto__del_field_groupobjectpermission_object_id__del_unique_groupobjec.pyc
+byte-compiling build/bdist.linux-x86_64/egg/guardian/south_migrations/0001_initial.py to 0001_initial.pyc
+byte-compiling build/bdist.linux-x86_64/egg/guardian/south_migrations/0003_update_objectpermission_object_pk.py to 0003_update_objectpermission_object_pk.pyc
+byte-compiling build/bdist.linux-x86_64/egg/guardian/south_migrations/__init__.py to __init__.pyc
+byte-compiling build/bdist.linux-x86_64/egg/guardian/forms.py to forms.pyc
+byte-compiling build/bdist.linux-x86_64/egg/guardian/managers.py to managers.pyc
+byte-compiling build/bdist.linux-x86_64/egg/guardian/__init__.py to __init__.pyc
+byte-compiling build/bdist.linux-x86_64/egg/guardian/backends.py to backends.pyc
+byte-compiling build/bdist.linux-x86_64/egg/guardian/decorators.py to decorators.pyc
+byte-compiling build/bdist.linux-x86_64/egg/guardian/models.py to models.pyc
+byte-compiling build/bdist.linux-x86_64/egg/guardian/migrations/0001_initial.py to 0001_initial.pyc
+byte-compiling build/bdist.linux-x86_64/egg/guardian/migrations/__init__.py to __init__.pyc
+byte-compiling build/bdist.linux-x86_64/egg/guardian/core.py to core.pyc
+byte-compiling build/bdist.linux-x86_64/egg/guardian/exceptions.py to exceptions.pyc
+creating build/bdist.linux-x86_64/egg/EGG-INFO
+copying django_guardian.egg-info/PKG-INFO -> build/bdist.linux-x86_64/egg/EGG-INFO
+copying django_guardian.egg-info/SOURCES.txt -> build/bdist.linux-x86_64/egg/EGG-INFO
+copying django_guardian.egg-info/dependency_links.txt -> build/bdist.linux-x86_64/egg/EGG-INFO
+copying django_guardian.egg-info/not-zip-safe -> build/bdist.linux-x86_64/egg/EGG-INFO
+copying django_guardian.egg-info/requires.txt -> build/bdist.linux-x86_64/egg/EGG-INFO
+copying django_guardian.egg-info/top_level.txt -> build/bdist.linux-x86_64/egg/EGG-INFO
+creating dist
+creating 'dist/django_guardian-1.3-py2.7.egg' and adding 'build/bdist.linux-x86_64/egg' to it
+removing 'build/bdist.linux-x86_64/egg' (and everything under it)
+Processing django_guardian-1.3-py2.7.egg
+creating /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/django_guardian-1.3-py2.7.egg
+Extracting django_guardian-1.3-py2.7.egg to /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages
+Adding django-guardian 1.3 to easy-install.pth file
+
+Installed /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/django_guardian-1.3-py2.7.egg
+Processing dependencies for django-guardian==1.3
+Searching for six==1.9.0
+Best match: six 1.9.0
+Adding six 1.9.0 to easy-install.pth file
+
+Using /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages
+Searching for Django==1.8.2
+Best match: Django 1.8.2
+Adding Django 1.8.2 to easy-install.pth file
+
+Using /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages
+Finished processing dependencies for django-guardian==1.3
+
+The following NEW packages will be INSTALLED:
+
+    django:     1.8.2-py27_0 
+    openssl:    1.0.1k-1     
+    pip:        7.0.3-py27_0 
+    python:     2.7.10-0     
+    readline:   6.2-2        
+    setuptools: 18.0.1-py27_0
+    six:        1.9.0-py27_0 
+    sqlite:     3.8.4.1-1    
+    system:     5.8-2        
+    tk:         8.5.18-0     
+    zlib:       1.2.8-0      
+
+Linking packages ...
+[                    ]|                                                  |   0%[openssl             ]|                                                  |   0%[readline            ]|####                                              |   9%[sqlite              ]|#########                                         |  18%[system              ]|#############                                     |  27%[tk                  ]|##################                                |  36%[zlib                ]|######################                            |  45%[django              ]|###########################                       |  54%[python              ]|###############################                   |  63%[setuptools          ]|####################################              |  72%[six                 ]|########################################          |  81%[pip                 ]|#############################################     |  90%[      COMPLETE      ]|##################################################| 100%
+Removing old work directory
+Source cache directory is: /home/ubuntu/miniconda/conda-bld/src_cache
+Found source in cache: django-guardian-1.3.tar.gz
+Extracting download
+Package: django-guardian-1.3-py_0
+source tree in: /home/ubuntu/miniconda/conda-bld/work/django-guardian-1.3
+found egg dir: /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/django_guardian-1.3-py2.7.egg
+number of files: 128
+Fixing permissions
+Fixing permissions
+BUILD END: django-guardian-1.3-py_0
+TEST START: django-guardian-1.3-py_0
+Fetching package metadata: ......
+
+WARNING: conda-build appears to be out of date. You have version 1.13.0 but the
+latest version is 1.14.1. Run
+
+conda update -n root conda-build
+
+to get the latest version.
+
+Solving package specifications: .===== testing package: django-guardian-1.3-py_0 =====
+import: u'guardian'
+import: u'guardian.conf'
+import: u'guardian.management'
+Traceback (most recent call last):
+  File "/home/ubuntu/miniconda/conda-bld/test-tmp_dir/run_test.py", line 31, in <module>
+    import guardian.management
+  File "/home/ubuntu/miniconda/envs/_test/lib/python2.7/site-packages/guardian/management/__init__.py", line 6, in <module>
+    from guardian import models as guardian_app
+  File "/home/ubuntu/miniconda/envs/_test/lib/python2.7/site-packages/guardian/models.py", line 5, in <module>
+    from django.contrib.auth.models import Group
+  File "/home/ubuntu/miniconda/envs/_test/lib/python2.7/site-packages/django/contrib/auth/__init__.py", line 7, in <module>
+    from django.middleware.csrf import rotate_token
+  File "/home/ubuntu/miniconda/envs/_test/lib/python2.7/site-packages/django/middleware/csrf.py", line 14, in <module>
+    from django.utils.cache import patch_vary_headers
+  File "/home/ubuntu/miniconda/envs/_test/lib/python2.7/site-packages/django/utils/cache.py", line 26, in <module>
+    from django.core.cache import caches
+  File "/home/ubuntu/miniconda/envs/_test/lib/python2.7/site-packages/django/core/cache/__init__.py", line 34, in <module>
+    if DEFAULT_CACHE_ALIAS not in settings.CACHES:
+  File "/home/ubuntu/miniconda/envs/_test/lib/python2.7/site-packages/django/conf/__init__.py", line 48, in __getattr__
+    self._setup(name)
+  File "/home/ubuntu/miniconda/envs/_test/lib/python2.7/site-packages/django/conf/__init__.py", line 42, in _setup
+    % (desc, ENVIRONMENT_VARIABLE))
+django.core.exceptions.ImproperlyConfigured: Requested setting CACHES, but settings are not configured. You must either define the environment variable DJANGO_SETTINGS_MODULE or call settings.configure() before accessing settings.
+
+The following packages will be downloaded:
+
+    package                    |            build
+    ---------------------------|-----------------
+    django-guardian-1.3        |             py_0          46 KB
+
+The following NEW packages will be INSTALLED:
+
+    django:          1.8.2-py27_0 
+    django-guardian: 1.3-py_0     
+    mock:            1.0.1-py27_0 
+    openssl:         1.0.1k-1     
+    pip:             7.0.3-py27_0 
+    python:          2.7.10-0     
+    readline:        6.2-2        
+    setuptools:      18.0.1-py27_0
+    six:             1.9.0-py27_0 
+    sqlite:          3.8.4.1-1    
+    system:          5.8-2        
+    tk:              8.5.18-0     
+    zlib:            1.2.8-0      
+
+Fetching packages ...
+django-guardia   0% |                              | ETA:  --:--:--   0.00  B/sdjango-guardia  34% |##########                     | ETA:  0:00:00  47.89 MB/sdjango-guardia  69% |#####################          | ETA:  0:00:00  59.37 MB/sdjango-guardia 100% |###############################| ETA:  0:00:00  63.63 MB/sdjango-guardia 100% |###############################| Time: 0:00:00  48.03 MB/s
+Extracting packages ...
+[      COMPLETE      ]|                                                  |   0%[django-guardian     ]|                                                  |   0%[django-guardian     ]|                                                  |   0%[      COMPLETE      ]|##################################################| 100%
+Linking packages ...
+[      COMPLETE      ]|                                                  |   0%[openssl             ]|                                                  |   0%[openssl             ]|                                                  |   0%[readline            ]|###                                               |   7%[sqlite              ]|#######                                           |  15%[system              ]|###########                                       |  23%[tk                  ]|###############                                   |  30%[zlib                ]|###################                               |  38%[django              ]|#######################                           |  46%[mock                ]|##########################                        |  53%[python              ]|##############################                    |  61%[setuptools          ]|##################################                |  69%[six                 ]|######################################            |  76%[django-guardian     ]|##########################################        |  84%[pip                 ]|##############################################    |  92%[      COMPLETE      ]|##################################################| 100%
+TESTS FAILED: django-guardian-1.3-py_0

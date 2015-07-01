@@ -1,0 +1,172 @@
+Warning, the following versions were found for zope.app.form
+4.0.2
+4.0.1
+4.0
+3.12.2
+3.12.1
+3.12.0
+3.11.1
+3.11.0
+3.10.0
+3.9.0
+3.8.1
+3.8.0
+3.7.3
+3.7.2
+3.7.1
+3.7.0
+3.6.4
+3.6.3
+3.6.2
+3.6.0
+3.5.0
+3.4.2
+3.4.1
+3.4.0
+3.4.0b2
+0.1.dev-r73787
+Using 4.0.2
+Use --version to specify a different version.
+Using url https://pypi.python.org/packages/source/z/zope.app.form/zope.app.form-4.0.2.tar.gz (47 KB) for zope.app.form.
+Downloading zope.app.form
+Using cached download
+Unpacking zope.app.form...
+done
+working in /tmp/tmpKs3qnFconda_skeleton_zope.app.form-4.0.2.tar.gz
+Fetching package metadata: ......
+
+WARNING: conda-build appears to be out of date. You have version 1.13.0 but the
+latest version is 1.14.1. Run
+
+conda update -n root conda-build
+
+to get the latest version.
+
+Solving package specifications: .patching file core.py
+Hunk #1 succeeded at 168 with fuzz 2 (offset 2 lines).
+
+WARNING: conda-build appears to be out of date. You have version 1.13.0 but the
+latest version is 1.14.1. Run
+
+conda update -n root conda-build
+
+to get the latest version.
+
+
+Applying patch: '/tmp/tmpKs3qnFconda_skeleton_zope.app.form-4.0.2.tar.gz/pypi-distutils.patch'
+Warning, the following versions were found for zope.app.testing
+3.10.0
+3.9.0
+3.8.1
+3.8.0
+3.7.8
+3.7.7
+3.7.6
+3.7.5
+3.7.4
+3.7.3
+3.7.2
+3.7.1
+3.7.0
+3.6.2
+3.6.1
+3.6.0
+3.5.6
+3.5.5
+3.5.4
+3.5.3
+3.5.2
+3.5.1
+3.5.1dev
+3.4.5
+3.4.4
+3.4.3
+3.4.2
+3.4.1
+3.4.0
+3.4.0a1
+Using 3.10.0
+Use --version to specify a different version.
+Using url https://pypi.python.org/packages/source/z/zope.app.testing/zope.app.testing-3.10.0.tar.gz (36 KB) for zope.app.testing.
+Downloading zope.app.testing
+Using cached download
+Unpacking zope.app.testing...
+done
+working in /tmp/tmpvUoSf8conda_skeleton_zope.app.testing-3.10.0.tar.gz
+Solving package specifications: .patching file core.py
+Hunk #1 succeeded at 168 with fuzz 2 (offset 2 lines).
+
+WARNING: conda-build appears to be out of date. You have version 1.13.0 but the
+latest version is 1.14.1. Run
+
+conda update -n root conda-build
+
+to get the latest version.
+
+
+Applying patch: '/tmp/tmpvUoSf8conda_skeleton_zope.app.testing-3.10.0.tar.gz/pypi-distutils.patch'
+Warning, the following versions were found for zope.securitypolicy
+4.0.0
+4.0.0a1
+3.7.0
+3.6.1
+3.6.0
+3.5.1
+3.5.0
+3.4.4
+3.4.3
+3.4.2
+3.4.1
+3.4.0
+Using 4.0.0
+Use --version to specify a different version.
+Using url https://pypi.python.org/packages/source/z/zope.securitypolicy/zope.securitypolicy-4.0.0.tar.gz (38 KB) for zope.securitypolicy.
+Downloading zope.securitypolicy
+Using cached download
+Unpacking zope.securitypolicy...
+done
+working in /tmp/tmpMoWS_gconda_skeleton_zope.securitypolicy-4.0.0.tar.gz
+Solving package specifications: .patching file core.py
+Hunk #1 succeeded at 168 with fuzz 2 (offset 2 lines).
+
+WARNING: conda-build appears to be out of date. You have version 1.13.0 but the
+latest version is 1.14.1. Run
+
+conda update -n root conda-build
+
+to get the latest version.
+
+
+Applying patch: '/tmp/tmpMoWS_gconda_skeleton_zope.securitypolicy-4.0.0.tar.gz/pypi-distutils.patch'
+Warning, the following versions were found for zope.dublincore
+4.1.1
+4.1.0
+4.0.1
+4.0.0
+3.8.2
+3.8.1
+3.8.0
+3.7.1
+3.7.0
+3.6.3
+3.6.2
+3.6.1
+3.6.0
+3.5.0
+3.4.3
+3.4.2
+3.4.1
+3.4.0
+Using 4.1.1
+Use --version to specify a different version.
+Using url https://pypi.python.org/packages/source/z/zope.dublincore/zope.dublincore-4.1.1.tar.gz (39 KB) for zope.dublincore.
+Downloading zope.dublincore
+Using cached download
+Unpacking zope.dublincore...
+done
+working in /tmp/tmp8Z2fOaconda_skeleton_zope.dublincore-4.1.1.tar.gz
+Solving package specifications: .patching file core.py
+Hunk #1 succeeded at 168 with fuzz 2 (offset 2 lines).
+
+Applying patch: '/tmp/tmp8Z2fOaconda_skeleton_zope.dublincore-4.1.1.tar.gz/pypi-distutils.patch'
+Error: Could not find any versions of package zope.security[zcml]

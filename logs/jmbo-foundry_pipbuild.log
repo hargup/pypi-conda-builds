@@ -1,0 +1,32 @@
+Error: prefix already exists: /home/ubuntu/miniconda/envs/_pipbuild_
+Exception:
+Traceback (most recent call last):
+  File "/home/ubuntu/miniconda/envs/_pipbuild_/lib/python2.7/site-packages/pip/basecommand.py", line 223, in main
+    status = self.run(options, args)
+  File "/home/ubuntu/miniconda/envs/_pipbuild_/lib/python2.7/site-packages/pip/commands/install.py", line 268, in run
+    wheel_cache
+  File "/home/ubuntu/miniconda/envs/_pipbuild_/lib/python2.7/site-packages/pip/basecommand.py", line 268, in populate_requirement_set
+    wheel_cache=wheel_cache
+  File "/home/ubuntu/miniconda/envs/_pipbuild_/lib/python2.7/site-packages/pip/req/req_install.py", line 207, in from_line
+    wheel_cache=wheel_cache)
+  File "/home/ubuntu/miniconda/envs/_pipbuild_/lib/python2.7/site-packages/pip/req/req_install.py", line 66, in __init__
+    req = pkg_resources.Requirement.parse(req)
+  File "/home/ubuntu/miniconda/envs/_pipbuild_/lib/python2.7/site-packages/pip/_vendor/pkg_resources/__init__.py", line 2960, in parse
+    reqs = list(parse_requirements(s))
+  File "/home/ubuntu/miniconda/envs/_pipbuild_/lib/python2.7/site-packages/pip/_vendor/pkg_resources/__init__.py", line 2904, in parse_requirements
+    "version spec")
+  File "/home/ubuntu/miniconda/envs/_pipbuild_/lib/python2.7/site-packages/pip/_vendor/pkg_resources/__init__.py", line 2869, in scan_list
+    raise ValueError(msg, line, "at", line[p:])
+ValueError: ('Expected version spec in', 'django==>=1.6,<1.7', 'at', '==>=1.6,<1.7')
+
+Package search: {'_pypi_ordering': False, 'version': '2.0.2', 'name': 'jmbo-foundry', 'summary': 'Jmbo Foundry ties together the various Jmbo products enabling you to rapidly build multilingual web and mobi sites with the minimum amount of code and customization.'}
+Creating standard recipe for jmbo-foundry-2.0.2
+Converting recipe in /home/ubuntu/pypi-conda-builds/jmbo-foundry
+package = jmbo-foundry
+   dependencies = [u'django >=1.6,<1.7', u'django_compressor', u'django-dfp >=0.3.3', u'django-export', u'django-googlesearch', u'django-layers-hr >=0.4', u'django-object-tools >=0.0.5', u'django-pagination', u'django-publisher', u'django-simple-autocomplete >=0.5', u'django-social-auth ==0.7.18', u'django-snippetscream', u'jmbo >=2.0.0', u'jmbo-analytics', u'jmbo-contact >=2.0.0', u'jmbo-post >=2.0.0', u'beautifulsoup', u'jellyfish', u'python-memcached', u'pyjwt', u'requests', u'zope.interface']
+Creating standard recipe for django->=1.6,<1.7
+Error: Version >=1.6,<1.7 of django is not available on PyPI.
+
+conda create -n _pipbuild_ --yes python pip
+/home/ubuntu/miniconda/envs/_pipbuild_/bin/pip install django==>=1.6,<1.7
+Error: Could not pip install django==>=1.6,<1.7

@@ -1,0 +1,219 @@
+Removing old build directory
+Removing old work directory
+BUILD START: restrictedpython-3.6.0-py_0
+Fetching package metadata: ......
+
+WARNING: conda-build appears to be out of date. You have version 1.13.0 but the
+latest version is 1.14.1. Run
+
+conda update -n root conda-build
+
+to get the latest version.
+
+Solving package specifications: .+ /home/ubuntu/miniconda/envs/_build/bin/python setup.py install
+running install
+running bdist_egg
+running egg_info
+writing requirements to src/RestrictedPython.egg-info/requires.txt
+writing src/RestrictedPython.egg-info/PKG-INFO
+writing top-level names to src/RestrictedPython.egg-info/top_level.txt
+writing dependency_links to src/RestrictedPython.egg-info/dependency_links.txt
+reading manifest file 'src/RestrictedPython.egg-info/SOURCES.txt'
+writing manifest file 'src/RestrictedPython.egg-info/SOURCES.txt'
+installing library code to build/bdist.linux-x86_64/egg
+running install_lib
+running build_py
+creating build
+creating build/lib
+creating build/lib/RestrictedPython
+copying src/RestrictedPython/Guards.py -> build/lib/RestrictedPython
+copying src/RestrictedPython/RCompile.py -> build/lib/RestrictedPython
+copying src/RestrictedPython/Eval.py -> build/lib/RestrictedPython
+copying src/RestrictedPython/MutatingWalker.py -> build/lib/RestrictedPython
+copying src/RestrictedPython/SelectCompiler.py -> build/lib/RestrictedPython
+copying src/RestrictedPython/Limits.py -> build/lib/RestrictedPython
+copying src/RestrictedPython/PrintCollector.py -> build/lib/RestrictedPython
+copying src/RestrictedPython/RestrictionMutator.py -> build/lib/RestrictedPython
+copying src/RestrictedPython/__init__.py -> build/lib/RestrictedPython
+copying src/RestrictedPython/Utilities.py -> build/lib/RestrictedPython
+creating build/lib/RestrictedPython/tests
+copying src/RestrictedPython/tests/before_and_after25.py -> build/lib/RestrictedPython/tests
+copying src/RestrictedPython/tests/testREADME.py -> build/lib/RestrictedPython/tests
+copying src/RestrictedPython/tests/before_and_after27.py -> build/lib/RestrictedPython/tests
+copying src/RestrictedPython/tests/unpack.py -> build/lib/RestrictedPython/tests
+copying src/RestrictedPython/tests/testCompile.py -> build/lib/RestrictedPython/tests
+copying src/RestrictedPython/tests/testUtiliities.py -> build/lib/RestrictedPython/tests
+copying src/RestrictedPython/tests/before_and_after24.py -> build/lib/RestrictedPython/tests
+copying src/RestrictedPython/tests/restricted_module.py -> build/lib/RestrictedPython/tests
+copying src/RestrictedPython/tests/testRestrictions.py -> build/lib/RestrictedPython/tests
+copying src/RestrictedPython/tests/lambda.py -> build/lib/RestrictedPython/tests
+copying src/RestrictedPython/tests/verify.py -> build/lib/RestrictedPython/tests
+copying src/RestrictedPython/tests/class.py -> build/lib/RestrictedPython/tests
+copying src/RestrictedPython/tests/security_in_syntax27.py -> build/lib/RestrictedPython/tests
+copying src/RestrictedPython/tests/__init__.py -> build/lib/RestrictedPython/tests
+copying src/RestrictedPython/tests/before_and_after26.py -> build/lib/RestrictedPython/tests
+copying src/RestrictedPython/tests/security_in_syntax26.py -> build/lib/RestrictedPython/tests
+copying src/RestrictedPython/tests/security_in_syntax.py -> build/lib/RestrictedPython/tests
+copying src/RestrictedPython/tests/before_and_after.py -> build/lib/RestrictedPython/tests
+copying src/RestrictedPython/README.txt -> build/lib/RestrictedPython
+copying src/RestrictedPython/notes.txt -> build/lib/RestrictedPython
+creating build/bdist.linux-x86_64
+creating build/bdist.linux-x86_64/egg
+creating build/bdist.linux-x86_64/egg/RestrictedPython
+copying build/lib/RestrictedPython/Guards.py -> build/bdist.linux-x86_64/egg/RestrictedPython
+copying build/lib/RestrictedPython/RCompile.py -> build/bdist.linux-x86_64/egg/RestrictedPython
+copying build/lib/RestrictedPython/Eval.py -> build/bdist.linux-x86_64/egg/RestrictedPython
+copying build/lib/RestrictedPython/MutatingWalker.py -> build/bdist.linux-x86_64/egg/RestrictedPython
+copying build/lib/RestrictedPython/SelectCompiler.py -> build/bdist.linux-x86_64/egg/RestrictedPython
+copying build/lib/RestrictedPython/Limits.py -> build/bdist.linux-x86_64/egg/RestrictedPython
+copying build/lib/RestrictedPython/README.txt -> build/bdist.linux-x86_64/egg/RestrictedPython
+copying build/lib/RestrictedPython/PrintCollector.py -> build/bdist.linux-x86_64/egg/RestrictedPython
+creating build/bdist.linux-x86_64/egg/RestrictedPython/tests
+copying build/lib/RestrictedPython/tests/before_and_after25.py -> build/bdist.linux-x86_64/egg/RestrictedPython/tests
+copying build/lib/RestrictedPython/tests/testREADME.py -> build/bdist.linux-x86_64/egg/RestrictedPython/tests
+copying build/lib/RestrictedPython/tests/before_and_after27.py -> build/bdist.linux-x86_64/egg/RestrictedPython/tests
+copying build/lib/RestrictedPython/tests/unpack.py -> build/bdist.linux-x86_64/egg/RestrictedPython/tests
+copying build/lib/RestrictedPython/tests/testCompile.py -> build/bdist.linux-x86_64/egg/RestrictedPython/tests
+copying build/lib/RestrictedPython/tests/testUtiliities.py -> build/bdist.linux-x86_64/egg/RestrictedPython/tests
+copying build/lib/RestrictedPython/tests/before_and_after24.py -> build/bdist.linux-x86_64/egg/RestrictedPython/tests
+copying build/lib/RestrictedPython/tests/restricted_module.py -> build/bdist.linux-x86_64/egg/RestrictedPython/tests
+copying build/lib/RestrictedPython/tests/testRestrictions.py -> build/bdist.linux-x86_64/egg/RestrictedPython/tests
+copying build/lib/RestrictedPython/tests/lambda.py -> build/bdist.linux-x86_64/egg/RestrictedPython/tests
+copying build/lib/RestrictedPython/tests/verify.py -> build/bdist.linux-x86_64/egg/RestrictedPython/tests
+copying build/lib/RestrictedPython/tests/class.py -> build/bdist.linux-x86_64/egg/RestrictedPython/tests
+copying build/lib/RestrictedPython/tests/security_in_syntax27.py -> build/bdist.linux-x86_64/egg/RestrictedPython/tests
+copying build/lib/RestrictedPython/tests/__init__.py -> build/bdist.linux-x86_64/egg/RestrictedPython/tests
+copying build/lib/RestrictedPython/tests/before_and_after26.py -> build/bdist.linux-x86_64/egg/RestrictedPython/tests
+copying build/lib/RestrictedPython/tests/security_in_syntax26.py -> build/bdist.linux-x86_64/egg/RestrictedPython/tests
+copying build/lib/RestrictedPython/tests/security_in_syntax.py -> build/bdist.linux-x86_64/egg/RestrictedPython/tests
+copying build/lib/RestrictedPython/tests/before_and_after.py -> build/bdist.linux-x86_64/egg/RestrictedPython/tests
+copying build/lib/RestrictedPython/RestrictionMutator.py -> build/bdist.linux-x86_64/egg/RestrictedPython
+copying build/lib/RestrictedPython/__init__.py -> build/bdist.linux-x86_64/egg/RestrictedPython
+copying build/lib/RestrictedPython/notes.txt -> build/bdist.linux-x86_64/egg/RestrictedPython
+copying build/lib/RestrictedPython/Utilities.py -> build/bdist.linux-x86_64/egg/RestrictedPython
+byte-compiling build/bdist.linux-x86_64/egg/RestrictedPython/Guards.py to Guards.pyc
+byte-compiling build/bdist.linux-x86_64/egg/RestrictedPython/RCompile.py to RCompile.pyc
+byte-compiling build/bdist.linux-x86_64/egg/RestrictedPython/Eval.py to Eval.pyc
+byte-compiling build/bdist.linux-x86_64/egg/RestrictedPython/MutatingWalker.py to MutatingWalker.pyc
+byte-compiling build/bdist.linux-x86_64/egg/RestrictedPython/SelectCompiler.py to SelectCompiler.pyc
+byte-compiling build/bdist.linux-x86_64/egg/RestrictedPython/Limits.py to Limits.pyc
+byte-compiling build/bdist.linux-x86_64/egg/RestrictedPython/PrintCollector.py to PrintCollector.pyc
+byte-compiling build/bdist.linux-x86_64/egg/RestrictedPython/tests/before_and_after25.py to before_and_after25.pyc
+byte-compiling build/bdist.linux-x86_64/egg/RestrictedPython/tests/testREADME.py to testREADME.pyc
+byte-compiling build/bdist.linux-x86_64/egg/RestrictedPython/tests/before_and_after27.py to before_and_after27.pyc
+byte-compiling build/bdist.linux-x86_64/egg/RestrictedPython/tests/unpack.py to unpack.pyc
+byte-compiling build/bdist.linux-x86_64/egg/RestrictedPython/tests/testCompile.py to testCompile.pyc
+byte-compiling build/bdist.linux-x86_64/egg/RestrictedPython/tests/testUtiliities.py to testUtiliities.pyc
+byte-compiling build/bdist.linux-x86_64/egg/RestrictedPython/tests/before_and_after24.py to before_and_after24.pyc
+byte-compiling build/bdist.linux-x86_64/egg/RestrictedPython/tests/restricted_module.py to restricted_module.pyc
+byte-compiling build/bdist.linux-x86_64/egg/RestrictedPython/tests/testRestrictions.py to testRestrictions.pyc
+byte-compiling build/bdist.linux-x86_64/egg/RestrictedPython/tests/lambda.py to lambda.pyc
+byte-compiling build/bdist.linux-x86_64/egg/RestrictedPython/tests/verify.py to verify.pyc
+byte-compiling build/bdist.linux-x86_64/egg/RestrictedPython/tests/class.py to class.pyc
+byte-compiling build/bdist.linux-x86_64/egg/RestrictedPython/tests/security_in_syntax27.py to security_in_syntax27.pyc
+byte-compiling build/bdist.linux-x86_64/egg/RestrictedPython/tests/__init__.py to __init__.pyc
+byte-compiling build/bdist.linux-x86_64/egg/RestrictedPython/tests/before_and_after26.py to before_and_after26.pyc
+byte-compiling build/bdist.linux-x86_64/egg/RestrictedPython/tests/security_in_syntax26.py to security_in_syntax26.pyc
+byte-compiling build/bdist.linux-x86_64/egg/RestrictedPython/tests/security_in_syntax.py to security_in_syntax.pyc
+byte-compiling build/bdist.linux-x86_64/egg/RestrictedPython/tests/before_and_after.py to before_and_after.pyc
+byte-compiling build/bdist.linux-x86_64/egg/RestrictedPython/RestrictionMutator.py to RestrictionMutator.pyc
+byte-compiling build/bdist.linux-x86_64/egg/RestrictedPython/__init__.py to __init__.pyc
+byte-compiling build/bdist.linux-x86_64/egg/RestrictedPython/Utilities.py to Utilities.pyc
+creating build/bdist.linux-x86_64/egg/EGG-INFO
+copying src/RestrictedPython.egg-info/PKG-INFO -> build/bdist.linux-x86_64/egg/EGG-INFO
+copying src/RestrictedPython.egg-info/SOURCES.txt -> build/bdist.linux-x86_64/egg/EGG-INFO
+copying src/RestrictedPython.egg-info/dependency_links.txt -> build/bdist.linux-x86_64/egg/EGG-INFO
+copying src/RestrictedPython.egg-info/not-zip-safe -> build/bdist.linux-x86_64/egg/EGG-INFO
+copying src/RestrictedPython.egg-info/requires.txt -> build/bdist.linux-x86_64/egg/EGG-INFO
+copying src/RestrictedPython.egg-info/top_level.txt -> build/bdist.linux-x86_64/egg/EGG-INFO
+creating dist
+creating 'dist/RestrictedPython-3.6.0-py2.7.egg' and adding 'build/bdist.linux-x86_64/egg' to it
+removing 'build/bdist.linux-x86_64/egg' (and everything under it)
+Processing RestrictedPython-3.6.0-py2.7.egg
+creating /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/RestrictedPython-3.6.0-py2.7.egg
+Extracting RestrictedPython-3.6.0-py2.7.egg to /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages
+Adding RestrictedPython 3.6.0 to easy-install.pth file
+
+Installed /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/RestrictedPython-3.6.0-py2.7.egg
+Processing dependencies for RestrictedPython==3.6.0
+Searching for setuptools==15.2
+Best match: setuptools 15.2
+Adding setuptools 15.2 to easy-install.pth file
+Installing easy_install-3.4 script to /home/ubuntu/miniconda/envs/_build/bin
+Installing easy_install script to /home/ubuntu/miniconda/envs/_build/bin
+
+Using /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages
+Finished processing dependencies for RestrictedPython==3.6.0
+
+The following NEW packages will be INSTALLED:
+
+    openssl:    1.0.1k-1     
+    pip:        7.0.3-py27_0 
+    python:     2.7.10-0     
+    readline:   6.2-2        
+    setuptools: 18.0.1-py27_0
+    sqlite:     3.8.4.1-1    
+    system:     5.8-2        
+    tk:         8.5.18-0     
+    zlib:       1.2.8-0      
+
+Linking packages ...
+[                    ]|                                                  |   0%[openssl             ]|                                                  |   0%[readline            ]|#####                                             |  11%[sqlite              ]|###########                                       |  22%[system              ]|################                                  |  33%[tk                  ]|######################                            |  44%[zlib                ]|###########################                       |  55%[python              ]|#################################                 |  66%[setuptools          ]|######################################            |  77%[pip                 ]|############################################      |  88%[      COMPLETE      ]|##################################################| 100%
+Removing old work directory
+Source cache directory is: /home/ubuntu/miniconda/conda-bld/src_cache
+Found source in cache: RestrictedPython-3.6.0.zip
+Extracting download
+Package: restrictedpython-3.6.0-py_0
+source tree in: /home/ubuntu/miniconda/conda-bld/work/RestrictedPython-3.6.0
+number of files: 67
+Fixing permissions
+Fixing permissions
+BUILD END: restrictedpython-3.6.0-py_0
+TEST START: restrictedpython-3.6.0-py_0
+Fetching package metadata: ......
+
+WARNING: conda-build appears to be out of date. You have version 1.13.0 but the
+latest version is 1.14.1. Run
+
+conda update -n root conda-build
+
+to get the latest version.
+
+Solving package specifications: .===== testing package: restrictedpython-3.6.0-py_0 =====
+import: u'RestrictedPython'
+import: u'RestrictedPython.tests'
+===== restrictedpython-3.6.0-py_0 OK =====
+
+The following packages will be downloaded:
+
+    package                    |            build
+    ---------------------------|-----------------
+    restrictedpython-3.6.0     |             py_0         103 KB
+
+The following NEW packages will be INSTALLED:
+
+    openssl:          1.0.1k-1     
+    pip:              7.0.3-py27_0 
+    python:           2.7.10-0     
+    readline:         6.2-2        
+    restrictedpython: 3.6.0-py_0   
+    setuptools:       18.0.1-py27_0
+    sqlite:           3.8.4.1-1    
+    system:           5.8-2        
+    tk:               8.5.18-0     
+    zlib:             1.2.8-0      
+
+Fetching packages ...
+restrictedpyth   0% |                              | ETA:  --:--:--   0.00  B/srestrictedpyth  15% |####                           | ETA:  0:00:00  46.56 MB/srestrictedpyth  31% |#########                      | ETA:  0:00:00  58.21 MB/srestrictedpyth  46% |##############                 | ETA:  0:00:00  65.36 MB/srestrictedpyth  62% |###################            | ETA:  0:00:00  69.73 MB/srestrictedpyth  77% |########################       | ETA:  0:00:00  72.83 MB/srestrictedpyth  93% |#############################  | ETA:  0:00:00  75.34 MB/srestrictedpyth 100% |###############################| ETA:  0:00:00  72.00 MB/srestrictedpyth 100% |###############################| Time: 0:00:00  63.09 MB/s
+Extracting packages ...
+[      COMPLETE      ]|                                                  |   0%[restrictedpython    ]|                                                  |   0%[restrictedpython    ]|                                                  |   0%[      COMPLETE      ]|##################################################| 100%
+Linking packages ...
+[      COMPLETE      ]|                                                  |   0%[openssl             ]|                                                  |   0%[openssl             ]|                                                  |   0%[readline            ]|#####                                             |  10%[sqlite              ]|##########                                        |  20%[system              ]|###############                                   |  30%[tk                  ]|####################                              |  40%[zlib                ]|#########################                         |  50%[python              ]|##############################                    |  60%[setuptools          ]|###################################               |  70%[pip                 ]|########################################          |  80%[restrictedpython    ]|#############################################     |  90%[      COMPLETE      ]|##################################################| 100%
+TEST END: restrictedpython-3.6.0-py_0
+# If you want to upload this package to binstar.org later, type:
+#
+# $ binstar upload /home/ubuntu/miniconda/conda-bld/noarch/restrictedpython-3.6.0-py_0.tar.bz2
+#
+# To have conda build upload to binstar automatically, use
+# $ conda config --set binstar_upload yes
+

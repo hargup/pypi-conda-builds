@@ -1,0 +1,172 @@
+Removing old build directory
+Removing old work directory
+BUILD START: psutil-2.2.1-py27_0
+Fetching package metadata: ......
+
+WARNING: conda-build appears to be out of date. You have version 1.13.0 but the
+latest version is 1.14.1. Run
+
+conda update -n root conda-build
+
+to get the latest version.
+
+Solving package specifications: .+ /home/ubuntu/miniconda/envs/_build/bin/python setup.py install
+running install
+running bdist_egg
+running egg_info
+writing psutil.egg-info/PKG-INFO
+writing top-level names to psutil.egg-info/top_level.txt
+writing dependency_links to psutil.egg-info/dependency_links.txt
+reading manifest file 'psutil.egg-info/SOURCES.txt'
+reading manifest template 'MANIFEST.in'
+warning: no previously-included files matching '*' found under directory 'docs/_build'
+writing manifest file 'psutil.egg-info/SOURCES.txt'
+installing library code to build/bdist.linux-x86_64/egg
+running install_lib
+running build_py
+creating build
+creating build/lib.linux-x86_64-2.7
+creating build/lib.linux-x86_64-2.7/psutil
+copying psutil/_pswindows.py -> build/lib.linux-x86_64-2.7/psutil
+copying psutil/_pssunos.py -> build/lib.linux-x86_64-2.7/psutil
+copying psutil/_psbsd.py -> build/lib.linux-x86_64-2.7/psutil
+copying psutil/_pslinux.py -> build/lib.linux-x86_64-2.7/psutil
+copying psutil/_psposix.py -> build/lib.linux-x86_64-2.7/psutil
+copying psutil/_psosx.py -> build/lib.linux-x86_64-2.7/psutil
+copying psutil/__init__.py -> build/lib.linux-x86_64-2.7/psutil
+copying psutil/_common.py -> build/lib.linux-x86_64-2.7/psutil
+copying psutil/_compat.py -> build/lib.linux-x86_64-2.7/psutil
+running build_ext
+building '_psutil_linux' extension
+creating build/temp.linux-x86_64-2.7
+creating build/temp.linux-x86_64-2.7/psutil
+gcc -pthread -fno-strict-aliasing -g -O2 -DNDEBUG -g -fwrapv -O3 -Wall -Wstrict-prototypes -fPIC -DPSUTIL_VERSION=221 -I/home/ubuntu/miniconda/envs/_build/include/python2.7 -c psutil/_psutil_linux.c -o build/temp.linux-x86_64-2.7/psutil/_psutil_linux.o
+gcc -pthread -shared -L/home/ubuntu/miniconda/envs/_build/lib -Wl,-rpath=/home/ubuntu/miniconda/envs/_build/lib,--no-as-needed build/temp.linux-x86_64-2.7/psutil/_psutil_linux.o -L/home/ubuntu/miniconda/envs/_build/lib -lpython2.7 -o build/lib.linux-x86_64-2.7/_psutil_linux.so
+building '_psutil_posix' extension
+gcc -pthread -fno-strict-aliasing -g -O2 -DNDEBUG -g -fwrapv -O3 -Wall -Wstrict-prototypes -fPIC -I/home/ubuntu/miniconda/envs/_build/include/python2.7 -c psutil/_psutil_posix.c -o build/temp.linux-x86_64-2.7/psutil/_psutil_posix.o
+gcc -pthread -shared -L/home/ubuntu/miniconda/envs/_build/lib -Wl,-rpath=/home/ubuntu/miniconda/envs/_build/lib,--no-as-needed build/temp.linux-x86_64-2.7/psutil/_psutil_posix.o -L/home/ubuntu/miniconda/envs/_build/lib -lpython2.7 -o build/lib.linux-x86_64-2.7/_psutil_posix.so
+creating build/bdist.linux-x86_64
+creating build/bdist.linux-x86_64/egg
+copying build/lib.linux-x86_64-2.7/_psutil_linux.so -> build/bdist.linux-x86_64/egg
+creating build/bdist.linux-x86_64/egg/psutil
+copying build/lib.linux-x86_64-2.7/psutil/_pswindows.py -> build/bdist.linux-x86_64/egg/psutil
+copying build/lib.linux-x86_64-2.7/psutil/_pssunos.py -> build/bdist.linux-x86_64/egg/psutil
+copying build/lib.linux-x86_64-2.7/psutil/_psbsd.py -> build/bdist.linux-x86_64/egg/psutil
+copying build/lib.linux-x86_64-2.7/psutil/_pslinux.py -> build/bdist.linux-x86_64/egg/psutil
+copying build/lib.linux-x86_64-2.7/psutil/_psposix.py -> build/bdist.linux-x86_64/egg/psutil
+copying build/lib.linux-x86_64-2.7/psutil/_psosx.py -> build/bdist.linux-x86_64/egg/psutil
+copying build/lib.linux-x86_64-2.7/psutil/__init__.py -> build/bdist.linux-x86_64/egg/psutil
+copying build/lib.linux-x86_64-2.7/psutil/_common.py -> build/bdist.linux-x86_64/egg/psutil
+copying build/lib.linux-x86_64-2.7/psutil/_compat.py -> build/bdist.linux-x86_64/egg/psutil
+copying build/lib.linux-x86_64-2.7/_psutil_posix.so -> build/bdist.linux-x86_64/egg
+byte-compiling build/bdist.linux-x86_64/egg/psutil/_pswindows.py to _pswindows.pyc
+byte-compiling build/bdist.linux-x86_64/egg/psutil/_pssunos.py to _pssunos.pyc
+byte-compiling build/bdist.linux-x86_64/egg/psutil/_psbsd.py to _psbsd.pyc
+byte-compiling build/bdist.linux-x86_64/egg/psutil/_pslinux.py to _pslinux.pyc
+byte-compiling build/bdist.linux-x86_64/egg/psutil/_psposix.py to _psposix.pyc
+byte-compiling build/bdist.linux-x86_64/egg/psutil/_psosx.py to _psosx.pyc
+byte-compiling build/bdist.linux-x86_64/egg/psutil/__init__.py to __init__.pyc
+byte-compiling build/bdist.linux-x86_64/egg/psutil/_common.py to _common.pyc
+byte-compiling build/bdist.linux-x86_64/egg/psutil/_compat.py to _compat.pyc
+creating stub loader for _psutil_linux.so
+creating stub loader for _psutil_posix.so
+byte-compiling build/bdist.linux-x86_64/egg/_psutil_linux.py to _psutil_linux.pyc
+byte-compiling build/bdist.linux-x86_64/egg/_psutil_posix.py to _psutil_posix.pyc
+creating build/bdist.linux-x86_64/egg/EGG-INFO
+copying psutil.egg-info/PKG-INFO -> build/bdist.linux-x86_64/egg/EGG-INFO
+copying psutil.egg-info/SOURCES.txt -> build/bdist.linux-x86_64/egg/EGG-INFO
+copying psutil.egg-info/dependency_links.txt -> build/bdist.linux-x86_64/egg/EGG-INFO
+copying psutil.egg-info/top_level.txt -> build/bdist.linux-x86_64/egg/EGG-INFO
+writing build/bdist.linux-x86_64/egg/EGG-INFO/native_libs.txt
+zip_safe flag not set; analyzing archive contents...
+psutil.__init__: module references __file__
+creating dist
+creating 'dist/psutil-2.2.1-py2.7-linux-x86_64.egg' and adding 'build/bdist.linux-x86_64/egg' to it
+removing 'build/bdist.linux-x86_64/egg' (and everything under it)
+Processing psutil-2.2.1-py2.7-linux-x86_64.egg
+creating /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/psutil-2.2.1-py2.7-linux-x86_64.egg
+Extracting psutil-2.2.1-py2.7-linux-x86_64.egg to /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages
+Adding psutil 2.2.1 to easy-install.pth file
+
+Installed /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/psutil-2.2.1-py2.7-linux-x86_64.egg
+Processing dependencies for psutil==2.2.1
+Finished processing dependencies for psutil==2.2.1
+
+The following NEW packages will be INSTALLED:
+
+    openssl:    1.0.1k-1     
+    pip:        7.0.3-py27_0 
+    python:     2.7.10-0     
+    readline:   6.2-2        
+    setuptools: 18.0.1-py27_0
+    sqlite:     3.8.4.1-1    
+    system:     5.8-2        
+    tk:         8.5.18-0     
+    zlib:       1.2.8-0      
+
+Linking packages ...
+[                    ]|                                                  |   0%[openssl             ]|                                                  |   0%[readline            ]|#####                                             |  11%[sqlite              ]|###########                                       |  22%[system              ]|################                                  |  33%[tk                  ]|######################                            |  44%[zlib                ]|###########################                       |  55%[python              ]|#################################                 |  66%[setuptools          ]|######################################            |  77%[pip                 ]|############################################      |  88%[      COMPLETE      ]|##################################################| 100%
+Removing old work directory
+Source cache directory is: /home/ubuntu/miniconda/conda-bld/src_cache
+Found source in cache: psutil-2.2.1.tar.gz
+Extracting download
+Package: psutil-2.2.1-py27_0
+source tree in: /home/ubuntu/miniconda/conda-bld/work/psutil-2.2.1
+found egg dir: /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/psutil-2.2.1-py2.7-linux-x86_64.egg
+number of files: 21
+Fixing permissions
+patchelf: file: /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/_psutil_linux.so
+    setting rpath to: $ORIGIN/../..
+patchelf: file: /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/_psutil_posix.so
+    setting rpath to: $ORIGIN/../..
+Ignored hard-coded path in lib/python2.7/site-packages/_psutil_linux.so
+Ignored hard-coded path in lib/python2.7/site-packages/_psutil_posix.so
+Fixing permissions
+BUILD END: psutil-2.2.1-py27_0
+TEST START: psutil-2.2.1-py27_0
+Fetching package metadata: ......
+
+WARNING: conda-build appears to be out of date. You have version 1.13.0 but the
+latest version is 1.14.1. Run
+
+conda update -n root conda-build
+
+to get the latest version.
+
+Solving package specifications: .===== testing package: psutil-2.2.1-py27_0 =====
+import: u'psutil'
+===== psutil-2.2.1-py27_0 OK =====
+
+The following packages will be downloaded:
+
+    package                    |            build
+    ---------------------------|-----------------
+    psutil-2.2.1               |           py27_0         102 KB
+
+The following NEW packages will be INSTALLED:
+
+    openssl:    1.0.1k-1     
+    pip:        7.0.3-py27_0 
+    psutil:     2.2.1-py27_0 
+    python:     2.7.10-0     
+    readline:   6.2-2        
+    setuptools: 18.0.1-py27_0
+    sqlite:     3.8.4.1-1    
+    system:     5.8-2        
+    tk:         8.5.18-0     
+    zlib:       1.2.8-0      
+
+Fetching packages ...
+psutil-2.2.1-p   0% |                              | ETA:  --:--:--   0.00  B/spsutil-2.2.1-p  15% |####                           | ETA:  0:00:00  46.65 MB/spsutil-2.2.1-p  31% |#########                      | ETA:  0:00:00  58.09 MB/spsutil-2.2.1-p  46% |##############                 | ETA:  0:00:00  65.01 MB/spsutil-2.2.1-p  62% |###################            | ETA:  0:00:00  69.34 MB/spsutil-2.2.1-p  78% |########################       | ETA:  0:00:00  71.91 MB/spsutil-2.2.1-p  93% |#############################  | ETA:  0:00:00  74.18 MB/spsutil-2.2.1-p 100% |###############################| ETA:  0:00:00  70.45 MB/spsutil-2.2.1-p 100% |###############################| Time: 0:00:00  61.88 MB/s
+Extracting packages ...
+[      COMPLETE      ]|                                                  |   0%[psutil              ]|                                                  |   0%[psutil              ]|                                                  |   0%[      COMPLETE      ]|##################################################| 100%
+Linking packages ...
+[      COMPLETE      ]|                                                  |   0%[openssl             ]|                                                  |   0%[openssl             ]|                                                  |   0%[readline            ]|#####                                             |  10%[sqlite              ]|##########                                        |  20%[system              ]|###############                                   |  30%[tk                  ]|####################                              |  40%[zlib                ]|#########################                         |  50%[psutil              ]|##############################                    |  60%[python              ]|###################################               |  70%[setuptools          ]|########################################          |  80%[pip                 ]|#############################################     |  90%[      COMPLETE      ]|##################################################| 100%
+TEST END: psutil-2.2.1-py27_0
+# If you want to upload this package to binstar.org later, type:
+#
+# $ binstar upload /home/ubuntu/miniconda/conda-bld/linux-64/psutil-2.2.1-py27_0.tar.bz2
+#
+# To have conda build upload to binstar automatically, use
+# $ conda config --set binstar_upload yes
+

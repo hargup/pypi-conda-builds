@@ -1,0 +1,395 @@
+pyck not found, trying PyCK
+Warning, the following versions were found for PyCK
+0.9.8.4
+0.9.8.3
+0.9.8.2
+0.9.8.1.1
+0.9.8.1
+0.9.8
+0.9.7.3
+0.9.7.2
+0.9.7.1
+0.9.7
+0.9.6
+0.9.5
+0.9.4.1
+0.9.3
+0.9.2
+0.9
+0.8.2
+0.8.1
+0.8
+0.7.5.1
+0.7.5
+0.7.4
+0.7.3
+0.7.2
+0.7.1
+0.7
+0.6.8.1
+0.6.8
+0.6.7
+0.6.6
+0.6.5
+0.6.4
+0.6.2
+0.6.1
+0.6
+0.5.5
+0.5.4
+0.5.2
+0.5.1
+0.5
+0.4.3.1
+0.4.3
+0.4.2
+0.4.1
+0.4
+0.3
+0.2.4
+0.2.3
+0.2.2
+0.2.1
+0.2.0
+0.1.6
+0.1.4
+0.1.1
+0.1
+Using 0.9.8.4
+Use --version to specify a different version.
+Using url https://pypi.python.org/packages/source/P/PyCK/PyCK-0.9.8.4.tar.gz (8.2 MB) for PyCK.
+Downloading PyCK
+Unpacking PyCK...
+done
+working in /tmp/tmpQSVvhVconda_skeleton_PyCK-0.9.8.4.tar.gz
+Fetching package metadata: ......
+
+WARNING: conda-build appears to be out of date. You have version 1.13.0 but the
+latest version is 1.14.1. Run
+
+conda update -n root conda-build
+
+to get the latest version.
+
+Solving package specifications: .patching file core.py
+Hunk #1 succeeded at 168 with fuzz 2 (offset 2 lines).
+
+WARNING: conda-build appears to be out of date. You have version 1.13.0 but the
+latest version is 1.14.1. Run
+
+conda update -n root conda-build
+
+to get the latest version.
+
+
+The following NEW packages will be INSTALLED:
+
+    numpy:      1.9.2-py27_0 
+    openssl:    1.0.1k-1     
+    pip:        7.0.3-py27_0 
+    python:     2.7.10-0     
+    pyyaml:     3.11-py27_1  
+    readline:   6.2-2        
+    setuptools: 18.0.1-py27_0
+    sqlite:     3.8.4.1-1    
+    system:     5.8-2        
+    tk:         8.5.18-0     
+    yaml:       0.1.6-0      
+    zlib:       1.2.8-0      
+
+Linking packages ...
+[                    ]|                                                  |   0%[openssl             ]|                                                  |   0%[readline            ]|####                                              |   8%[sqlite              ]|########                                          |  16%[system              ]|############                                      |  25%[tk                  ]|################                                  |  33%[yaml                ]|####################                              |  41%[zlib                ]|#########################                         |  50%[numpy               ]|#############################                     |  58%[python              ]|#################################                 |  66%[pyyaml              ]|#####################################             |  75%[setuptools          ]|#########################################         |  83%[pip                 ]|#############################################     |  91%[      COMPLETE      ]|##################################################| 100%
+Applying patch: '/tmp/tmpQSVvhVconda_skeleton_PyCK-0.9.8.4.tar.gz/pypi-distutils.patch'
+WARNING: Could not add entry points. They were:
+    [pyramid.scaffold]
+    pyck=pyck.scaffolds:PyCKTemplate
+    
+Warning, the following versions were found for pyramid_debugtoolbar
+2.4
+2.3
+2.2.2
+2.2.1
+2.2
+2.1
+2.0.2
+2.0.1
+2.0
+1.0.9
+1.0.8
+1.0.7
+1.0.6
+1.0.5
+1.0.4
+1.0.3
+1.0.2
+1.0.1
+1.0
+0.9.9.1
+0.9.9
+0.9.8
+0.9.7
+0.9.6
+0.9.5
+0.9.4
+0.9.3
+0.9.2
+0.9.1
+0.9
+0.8
+0.7
+0.6
+0.5
+0.4
+0.3
+0.2
+0.1
+Using 2.4
+Use --version to specify a different version.
+Using url https://pypi.python.org/packages/source/p/pyramid_debugtoolbar/pyramid_debugtoolbar-2.4.tar.gz (2.9 MB) for pyramid_debugtoolbar.
+Downloading pyramid_debugtoolbar
+Using cached download
+Unpacking pyramid_debugtoolbar...
+done
+working in /tmp/tmpy6EmWzconda_skeleton_pyramid_debugtoolbar-2.4.tar.gz
+Solving package specifications: .patching file core.py
+Hunk #1 succeeded at 168 with fuzz 2 (offset 2 lines).
+
+WARNING: conda-build appears to be out of date. You have version 1.13.0 but the
+latest version is 1.14.1. Run
+
+conda update -n root conda-build
+
+to get the latest version.
+
+
+Applying patch: '/tmp/tmpy6EmWzconda_skeleton_pyramid_debugtoolbar-2.4.tar.gz/pypi-distutils.patch'
+Warning, the following versions were found for pylons-sphinx-themes
+0.3.1
+0.3
+0.2.2
+0.2.1
+0.2
+0.1
+Using 0.3.1
+Use --version to specify a different version.
+Using url https://pypi.python.org/packages/source/p/pylons-sphinx-themes/pylons-sphinx-themes-0.3.1.tar.gz (132 KB) for pylons-sphinx-themes.
+Downloading pylons-sphinx-themes
+Using cached download
+Unpacking pylons-sphinx-themes...
+done
+working in /tmp/tmpTvpbZZconda_skeleton_pylons-sphinx-themes-0.3.1.tar.gz
+Solving package specifications: .patching file core.py
+Hunk #1 succeeded at 168 with fuzz 2 (offset 2 lines).
+
+WARNING: conda-build appears to be out of date. You have version 1.13.0 but the
+latest version is 1.14.1. Run
+
+conda update -n root conda-build
+
+to get the latest version.
+
+
+Applying patch: '/tmp/tmpTvpbZZconda_skeleton_pylons-sphinx-themes-0.3.1.tar.gz/pypi-distutils.patch'
+Warning, the following versions were found for pyramid_mako
+1.0.2
+1.0.1
+1.0
+1.0a3
+1.0a2
+0.3.1
+0.3
+0.2
+Using 1.0.2
+Use --version to specify a different version.
+Using url https://pypi.python.org/packages/source/p/pyramid_mako/pyramid_mako-1.0.2.tar.gz (37 KB) for pyramid_mako.
+Downloading pyramid_mako
+Using cached download
+Unpacking pyramid_mako...
+done
+working in /tmp/tmpl3ReBPconda_skeleton_pyramid_mako-1.0.2.tar.gz
+Solving package specifications: .patching file core.py
+Hunk #1 succeeded at 168 with fuzz 2 (offset 2 lines).
+
+WARNING: conda-build appears to be out of date. You have version 1.13.0 but the
+latest version is 1.14.1. Run
+
+conda update -n root conda-build
+
+to get the latest version.
+
+
+Applying patch: '/tmp/tmpl3ReBPconda_skeleton_pyramid_mako-1.0.2.tar.gz/pypi-distutils.patch'
+Warning, the following versions were found for pyramid
+1.6a1
+1.5.7
+1.5.6
+1.5.5
+1.5.4
+1.5.3
+1.5.2
+1.5.1
+1.5
+1.5b1
+1.5a4
+1.5a3
+1.5a2
+1.5a1
+1.4.9
+1.4.8
+1.4.7
+1.4.6
+1.4.5
+1.4.4
+1.4.3
+1.4.2
+1.4.1
+1.4
+1.4b3
+1.4b2
+1.4b1
+1.4a4
+1.4a3
+1.4a2
+1.4a1
+1.3.4
+1.3.3
+1.3.2
+1.3.1
+1.3
+1.3b3
+1.3b2
+1.3b1
+1.3a9
+1.3a8
+1.3a7
+1.3a6
+1.3a5
+1.3a4
+1.3a3
+1.3a2
+1.3a1
+1.2.7
+1.2.6
+1.2.5
+1.2.4
+1.2.3
+1.2.2
+1.2.1
+1.2
+1.2b3
+1.2b2
+1.2b1
+1.2a6
+1.2a5
+1.2a4
+1.2a3
+1.2a2
+1.2a1
+1.1.3
+1.1.2
+1.1.1
+1.1
+1.1b4
+1.1b3
+1.1b2
+1.1b1
+1.1a4
+1.1a3
+1.1a2
+1.1a1
+1.0.2
+1.0.1
+1.0
+1.0b3
+1.0b2
+1.0b1
+1.0a10
+1.0a9
+1.0a8
+1.0a7
+1.0a6
+1.0a5
+1.0a4
+1.0a3
+1.0a2
+1.0a1
+Using 1.6a1
+Use --version to specify a different version.
+Using url https://pypi.python.org/packages/source/p/pyramid/pyramid-1.6a1.tar.gz (2.6 MB) for pyramid.
+Downloading pyramid
+Using cached download
+Unpacking pyramid...
+done
+working in /tmp/tmp7bAcX8conda_skeleton_pyramid-1.6a1.tar.gz
+Solving package specifications: .patching file core.py
+Hunk #1 succeeded at 168 with fuzz 2 (offset 2 lines).
+
+WARNING: conda-build appears to be out of date. You have version 1.13.0 but the
+latest version is 1.14.1. Run
+
+conda update -n root conda-build
+
+to get the latest version.
+
+
+Applying patch: '/tmp/tmp7bAcX8conda_skeleton_pyramid-1.6a1.tar.gz/pypi-distutils.patch'
+WARNING: Could not add entry points. They were:
+        [pyramid.scaffold]
+        starter=pyramid.scaffolds:StarterProjectTemplate
+        zodb=pyramid.scaffolds:ZODBProjectTemplate
+        alchemy=pyramid.scaffolds:AlchemyProjectTemplate
+        [console_scripts]
+        pcreate = pyramid.scripts.pcreate:main
+        pserve = pyramid.scripts.pserve:main
+        pshell = pyramid.scripts.pshell:main
+        proutes = pyramid.scripts.proutes:main
+        pviews = pyramid.scripts.pviews:main
+        ptweens = pyramid.scripts.ptweens:main
+        prequest = pyramid.scripts.prequest:main
+        pdistreport = pyramid.scripts.pdistreport:main
+        [paste.server_runner]
+        wsgiref = pyramid.scripts.pserve:wsgiref_server_runner
+        cherrypy = pyramid.scripts.pserve:cherrypy_server_runner
+      
+Warning, the following versions were found for zope.component
+4.2.2
+4.2.1
+4.2.0
+4.1.0
+4.0.2
+4.0.1
+4.0.0
+3.12.1
+3.12.0
+3.11.0
+3.10.0
+3.9.5
+3.9.4
+3.9.3
+3.9.2
+3.9.1
+3.9.0
+3.8.0
+3.7.1
+3.7.0
+3.6.0
+3.5.1
+3.5.0
+3.4.0
+3.4dev-r72749
+3.4dev-r72748
+3.4dev-r72747
+3.4dev-r72605
+Using 4.2.2
+Use --version to specify a different version.
+Using url https://pypi.python.org/packages/source/z/zope.component/zope.component-4.2.2.tar.gz (534 KB) for zope.component.
+Downloading zope.component
+Using cached download
+Unpacking zope.component...
+done
+working in /tmp/tmp0HpeFyconda_skeleton_zope.component-4.2.2.tar.gz
+Solving package specifications: .patching file core.py
+Hunk #1 succeeded at 168 with fuzz 2 (offset 2 lines).
+
+Applying patch: '/tmp/tmp0HpeFyconda_skeleton_zope.component-4.2.2.tar.gz/pypi-distutils.patch'
+Error: Could not find any versions of package zope.component[zcml]

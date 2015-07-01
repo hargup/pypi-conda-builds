@@ -1,0 +1,85 @@
+package:
+  name: dropbox
+  version: "2.2.0"
+
+source:
+  fn: dropbox-2.2.0.zip
+  url: https://pypi.python.org/packages/source/d/dropbox/dropbox-2.2.0.zip
+  md5: 8f9bc437c19b34670aff2526e30c855a
+#  patches:
+   # List any patch files here
+   # - fix.patch
+
+build:
+  noarch_python: True
+  # preserve_egg_dir: True
+  # entry_points:
+    # Put any entry points (scripts to be generated automatically) here. The
+    # syntax is module:function.  For example
+    #
+    # - dropbox = dropbox:main
+    #
+    # Would create an entry point called dropbox that calls dropbox.main()
+
+
+  # If this is a new build for the same version, increment the build
+  # number. If you do not include this key, it defaults to 0.
+  # number: 1
+
+requirements:
+  build:
+    - python
+    - setuptools
+    - urllib3
+
+  run:
+    - python
+    - urllib3
+
+test:
+  # Python imports
+  imports:
+    - dropbox
+    - tests
+
+  # commands:
+    # You can put test commands to be run here.  Use this to test that the
+    # entry points work.
+
+
+  # You can also put a file called run_test.py in the recipe that will be run
+  # at test time.
+
+  requires:
+    - mock
+    # Put any additional test requirements here.  For example
+    # - nose
+
+about:
+  home: http://www.dropbox.com/
+  license: Copyright (c) 2009-2014 Dropbox Inc., http://www.dropbox.com/
+
+    Permission is hereby granted, free of charge, to any person obtaining
+    a copy of this software and associated documentation files (the
+    "Software"), to deal in the Software without restriction, including
+    without limitation the rights to use, copy, modify, merge, publish,
+    distribute, sublicense, and/or sell copies of the Software, and to
+    permit persons to whom the Software is furnished to do so, subject to
+    the following conditions:
+
+    The above copyright notice and this permission notice shall be
+    included in all copies or substantial portions of the Software.
+
+    THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND,
+    EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF
+    MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND
+    NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE
+    LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION
+    OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION
+    WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
+
+  summary: 'Official Dropbox REST API Client'
+
+# See
+# http://docs.continuum.io/conda/build.html for
+# more information about meta.yaml

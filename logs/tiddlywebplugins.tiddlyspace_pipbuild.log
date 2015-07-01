@@ -1,35 +1,32 @@
 Error: prefix already exists: /home/ubuntu/miniconda/envs/_pipbuild_
-Collecting tiddlywebplugins.tiddlyspace==1.2.26
-  Downloading http://localhost/packages/source/t/tiddlywebplugins.tiddlyspace/tiddlywebplugins.tiddlyspace-1.2.26.tar.gz (840kB)
-setuptools must be installed to install from a source distribution
+Exception:
+Traceback (most recent call last):
+  File "/home/ubuntu/miniconda/envs/_pipbuild_/lib/python2.7/site-packages/pip/basecommand.py", line 223, in main
+    status = self.run(options, args)
+  File "/home/ubuntu/miniconda/envs/_pipbuild_/lib/python2.7/site-packages/pip/commands/install.py", line 268, in run
+    wheel_cache
+  File "/home/ubuntu/miniconda/envs/_pipbuild_/lib/python2.7/site-packages/pip/basecommand.py", line 268, in populate_requirement_set
+    wheel_cache=wheel_cache
+  File "/home/ubuntu/miniconda/envs/_pipbuild_/lib/python2.7/site-packages/pip/req/req_install.py", line 207, in from_line
+    wheel_cache=wheel_cache)
+  File "/home/ubuntu/miniconda/envs/_pipbuild_/lib/python2.7/site-packages/pip/req/req_install.py", line 66, in __init__
+    req = pkg_resources.Requirement.parse(req)
+  File "/home/ubuntu/miniconda/envs/_pipbuild_/lib/python2.7/site-packages/pip/_vendor/pkg_resources/__init__.py", line 2960, in parse
+    reqs = list(parse_requirements(s))
+  File "/home/ubuntu/miniconda/envs/_pipbuild_/lib/python2.7/site-packages/pip/_vendor/pkg_resources/__init__.py", line 2904, in parse_requirements
+    "version spec")
+  File "/home/ubuntu/miniconda/envs/_pipbuild_/lib/python2.7/site-packages/pip/_vendor/pkg_resources/__init__.py", line 2869, in scan_list
+    raise ValueError(msg, line, "at", line[p:])
+ValueError: ('Expected version spec in', 'tiddlyweb==>=1.4.17', 'at', '==>=1.4.17')
+
 Package search: {'_pypi_ordering': False, 'version': '1.2.26', 'name': 'tiddlywebplugins.tiddlyspace', 'summary': 'A discoursive social model for Tiddlers'}
 Creating standard recipe for tiddlywebplugins.tiddlyspace-1.2.26
-Using url https://pypi.python.org/packages/source/t/tiddlywebplugins.tiddlyspace/tiddlywebplugins.tiddlyspace-1.2.26.tar.gz (820 KB) for tiddlywebplugins.tiddlyspace.
-Downloading tiddlywebplugins.tiddlyspace
-Using cached download
-Unpacking tiddlywebplugins.tiddlyspace...
-done
-working in /tmp/tmpe4Twjpconda_skeleton_tiddlywebplugins.tiddlyspace-1.2.26.tar.gz
-Fetching package metadata: ......
-
-WARNING: conda-build appears to be out of date. You have version 1.13.0 but the
-latest version is 1.14.0. Run
-
-conda update -n root conda-build
-
-to get the latest version.
-
-Solving package specifications: .patching file core.py
-Hunk #1 succeeded at 168 with fuzz 2 (offset 2 lines).
-Traceback (most recent call last):
-  File "setup.py", line 10, in <module>
-    from setuptools import setup, find_packages
-ImportError: No module named setuptools
-
-Applying patch: '/tmp/tmpe4Twjpconda_skeleton_tiddlywebplugins.tiddlyspace-1.2.26.tar.gz/pypi-distutils.patch'
-$PYTHONPATH = /tmp/tmpe4Twjpconda_skeleton_tiddlywebplugins.tiddlyspace-1.2.26.tar.gz/tiddlywebplugins.tiddlyspace-1.2.26
-Error: command failed: /home/ubuntu/miniconda/envs/_build/bin/python setup.py install
+Converting recipe in /home/ubuntu/pypi-conda-builds/tiddlywebplugins.tiddlyspace
+package = tiddlywebplugins.tiddlyspace
+   dependencies = [u'tiddlyweb >=1.4.17', u'tiddlywebwiki >=0.62.0', u'tiddlywebplugins.status >=0.6', u'tiddlywebplugins.utils >=1.0', u'tiddlywebplugins.logout >=0.6', u'tiddlywebplugins.virtualhosting', u'tiddlywebplugins.hashmaker >=0.3', u'tiddlywebplugins.socialusers >=0.6', u'tiddlywebplugins.magicuser >=0.3', u'tiddlywebplugins.openid2 >=0.5', u'tiddlywebplugins.cookiedomain >=0.6', u'tiddlywebplugins.mselect', u'tiddlywebplugins.oom', u'tiddlywebplugins.prettyerror >=0.9.2', u'tiddlywebplugins.pathinfohack >=0.9.1', u'tiddlywebplugins.form', u'tiddlywebplugins.reflector >=0.6', u'tiddlywebplugins.atom >=1.3.7', u'tiddlywebplugins.mysql3 >=3.0.11', u'tiddlywebplugins.sqlalchemy3 >=3.0.10', u'tiddlywebplugins.privateer', u'tiddlywebplugins.relativetime', u'tiddlywebplugins.jsonp >=0.4', u'tiddlywebplugins.templates >=0.9.5', u'tiddlywebplugins.csrf', u'tiddlywebplugins.whoosher', u'tiddlywebplugins.markdown', u'tiddlywebplugins.imaker', u'httpexceptor']
+Creating standard recipe for tiddlyweb->=1.4.17
+Error: Version >=1.4.17 of tiddlyweb is not available on PyPI.
 
 conda create -n _pipbuild_ --yes python pip
-/home/ubuntu/miniconda/envs/_pipbuild_/bin/pip install tiddlywebplugins.tiddlyspace==1.2.26
-Error: Could not pip install tiddlywebplugins.tiddlyspace==1.2.26
+/home/ubuntu/miniconda/envs/_pipbuild_/bin/pip install tiddlyweb==>=1.4.17
+Error: Could not pip install tiddlyweb==>=1.4.17

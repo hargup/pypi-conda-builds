@@ -25,12 +25,20 @@ Warning, the following versions were found for pygraphviz
 Using 1.3rc2
 Use --version to specify a different version.
 Using url https://pypi.python.org/packages/source/p/pygraphviz/pygraphviz-1.3rc2.tar.gz (94 KB) for pygraphviz.
-Downloading pygraphviz (use --no-download to skip this step)
+Downloading pygraphviz
 Using cached download
 Unpacking pygraphviz...
 done
-working in /tmp/tmp3WjzCQconda_skeleton_pygraphviz-1.3rc2.tar.gz
+working in /tmp/tmpTnijYlconda_skeleton_pygraphviz-1.3rc2.tar.gz
 Fetching package metadata: ......
+
+WARNING: conda-build appears to be out of date. You have version 1.13.0 but the
+latest version is 1.14.1. Run
+
+conda update -n root conda-build
+
+to get the latest version.
+
 Solving package specifications: .patching file core.py
 Hunk #1 succeeded at 168 with fuzz 2 (offset 2 lines).
 /bin/sh: 1: pkg-config: not found
@@ -65,6 +73,6 @@ Traceback (most recent call last):
     raise OSError("Error locating graphviz.")
 OSError: Error locating graphviz.
 
-Applying patch: '/tmp/tmp3WjzCQconda_skeleton_pygraphviz-1.3rc2.tar.gz/pypi-distutils.patch'
-$PYTHONPATH = /tmp/tmp3WjzCQconda_skeleton_pygraphviz-1.3rc2.tar.gz/pygraphviz-1.3rc2
+Applying patch: '/tmp/tmpTnijYlconda_skeleton_pygraphviz-1.3rc2.tar.gz/pypi-distutils.patch'
+$PYTHONPATH = /tmp/tmpTnijYlconda_skeleton_pygraphviz-1.3rc2.tar.gz/pygraphviz-1.3rc2
 Error: command failed: /home/ubuntu/miniconda/envs/_build/bin/python setup.py install

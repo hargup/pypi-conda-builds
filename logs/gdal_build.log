@@ -1,0 +1,86 @@
+Removing old build directory
+Removing old work directory
+BUILD START: gdal-1.11.2-py27_0
+Fetching package metadata: ......
+
+WARNING: conda-build appears to be out of date. You have version 1.13.0 but the
+latest version is 1.14.1. Run
+
+conda update -n root conda-build
+
+to get the latest version.
+
+Solving package specifications: .+ /home/ubuntu/miniconda/envs/_build/bin/python setup.py install
+running install
+running bdist_egg
+running egg_info
+writing GDAL.egg-info/PKG-INFO
+writing top-level names to GDAL.egg-info/top_level.txt
+writing dependency_links to GDAL.egg-info/dependency_links.txt
+Traceback (most recent call last):
+  File "setup.py", line 301, in <module>
+    **extra )
+  File "/home/ubuntu/miniconda/envs/_build/lib/python2.7/distutils/core.py", line 151, in setup
+    dist.run_commands()
+  File "/home/ubuntu/miniconda/envs/_build/lib/python2.7/distutils/dist.py", line 953, in run_commands
+    self.run_command(cmd)
+  File "/home/ubuntu/miniconda/envs/_build/lib/python2.7/distutils/dist.py", line 972, in run_command
+    cmd_obj.run()
+  File "/home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/setuptools/command/install.py", line 67, in run
+    self.do_egg_install()
+  File "/home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/setuptools/command/install.py", line 109, in do_egg_install
+    self.run_command('bdist_egg')
+  File "/home/ubuntu/miniconda/envs/_build/lib/python2.7/distutils/cmd.py", line 326, in run_command
+    self.distribution.run_command(command)
+  File "/home/ubuntu/miniconda/envs/_build/lib/python2.7/distutils/dist.py", line 972, in run_command
+    cmd_obj.run()
+  File "/home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/setuptools/command/bdist_egg.py", line 151, in run
+    self.run_command("egg_info")
+  File "/home/ubuntu/miniconda/envs/_build/lib/python2.7/distutils/cmd.py", line 326, in run_command
+    self.distribution.run_command(command)
+  File "/home/ubuntu/miniconda/envs/_build/lib/python2.7/distutils/dist.py", line 972, in run_command
+    cmd_obj.run()
+  File "/home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/setuptools/command/egg_info.py", line 180, in run
+    self.find_sources()
+  File "/home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/setuptools/command/egg_info.py", line 207, in find_sources
+    mm.run()
+  File "/home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/setuptools/command/egg_info.py", line 291, in run
+    self.add_defaults()
+  File "/home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/setuptools/command/egg_info.py", line 320, in add_defaults
+    sdist.add_defaults(self)
+  File "/home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/setuptools/command/sdist.py", line 130, in add_defaults
+    build_ext = self.get_finalized_command('build_ext')
+  File "/home/ubuntu/miniconda/envs/_build/lib/python2.7/distutils/cmd.py", line 312, in get_finalized_command
+    cmd_obj.ensure_finalized()
+  File "/home/ubuntu/miniconda/envs/_build/lib/python2.7/distutils/cmd.py", line 109, in ensure_finalized
+    self.finalize_options()
+  File "setup.py", line 196, in finalize_options
+    self.gdaldir = self.get_gdal_config('prefix')
+  File "setup.py", line 176, in get_gdal_config
+    return fetch_config(option)
+  File "setup.py", line 129, in fetch_config
+    raise gdal_config_error, e""")
+  File "<string>", line 4, in <module>
+__main__.gdal_config_error: [Errno 2] No such file or directory
+
+The following NEW packages will be INSTALLED:
+
+    openssl:    1.0.1k-1     
+    pip:        7.0.3-py27_0 
+    python:     2.7.10-0     
+    readline:   6.2-2        
+    setuptools: 18.0.1-py27_0
+    sqlite:     3.8.4.1-1    
+    system:     5.8-2        
+    tk:         8.5.18-0     
+    zlib:       1.2.8-0      
+
+Linking packages ...
+[                    ]|                                                  |   0%[openssl             ]|                                                  |   0%[readline            ]|#####                                             |  11%[sqlite              ]|###########                                       |  22%[system              ]|################                                  |  33%[tk                  ]|######################                            |  44%[zlib                ]|###########################                       |  55%[python              ]|#################################                 |  66%[setuptools          ]|######################################            |  77%[pip                 ]|############################################      |  88%[      COMPLETE      ]|##################################################| 100%
+Removing old work directory
+Source cache directory is: /home/ubuntu/miniconda/conda-bld/src_cache
+Found source in cache: GDAL-1.11.2.tar.gz
+Extracting download
+Package: gdal-1.11.2-py27_0
+source tree in: /home/ubuntu/miniconda/conda-bld/work/GDAL-1.11.2
+Command failed: /bin/bash -x -e /home/ubuntu/pypi-conda-builds/recipes/gdal/build.sh

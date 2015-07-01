@@ -1,35 +1,53 @@
-Error: prefix already exists: /home/ubuntu/miniconda/envs/_pipbuild_
-Collecting django-tagging==0.4
-  Could not find a version that satisfies the requirement django-tagging==0.4 (from versions: 0.3, 0.3.1, 0.3.2, 0.3.3, 0.3.4, 0.3.6)
-  Some externally hosted files were ignored as access to them may be unreliable (use --allow-external django-tagging to allow).
-No matching distribution found for django-tagging==0.4
-Package search: {'_pypi_ordering': False, 'version': '0.4', 'name': 'django-tagging', 'summary': 'Generic tagging application for Django'}
-Creating standard recipe for django-tagging-0.4
-Using url https://pypi.python.org/packages/source/d/django-tagging/django-tagging-0.4.tar.gz (43 KB) for django-tagging.
-Downloading django-tagging
-Unpacking django-tagging...
-done
-working in /tmp/tmpBIMDC7conda_skeleton_django-tagging-0.4.tar.gz
+Removing old build directory
+Removing old work directory
+BUILD START: django-tagging-0.4-py_0
 Fetching package metadata: ......
 
 WARNING: conda-build appears to be out of date. You have version 1.13.0 but the
-latest version is 1.14.0. Run
+latest version is 1.14.1. Run
 
 conda update -n root conda-build
 
 to get the latest version.
 
-Solving package specifications: .patching file core.py
-Hunk #1 succeeded at 168 with fuzz 2 (offset 2 lines).
-Traceback (most recent call last):
-  File "setup.py", line 4, in <module>
-    from setuptools import setup
-ImportError: No module named setuptools
+Solving package specifications: .+ pip install django-tagging
+Collecting django-tagging
+  Downloading http://localhost/packages/2.7/d/django-tagging/django_tagging-0.3.6-py2.py3-none-any.whl
+Installing collected packages: django-tagging
+Successfully installed django-tagging-0.3.6
 
-Applying patch: '/tmp/tmpBIMDC7conda_skeleton_django-tagging-0.4.tar.gz/pypi-distutils.patch'
-$PYTHONPATH = /tmp/tmpBIMDC7conda_skeleton_django-tagging-0.4.tar.gz/django-tagging-0.4
-Error: command failed: /home/ubuntu/miniconda/envs/_build/bin/python setup.py install
+The following NEW packages will be INSTALLED:
 
-conda create -n _pipbuild_ --yes python pip
-/home/ubuntu/miniconda/envs/_pipbuild_/bin/pip install django-tagging==0.4
-Error: Could not pip install django-tagging==0.4
+    openssl:    1.0.1k-1     
+    pip:        7.0.3-py27_0 
+    python:     2.7.10-0     
+    readline:   6.2-2        
+    setuptools: 18.0.1-py27_0
+    sqlite:     3.8.4.1-1    
+    system:     5.8-2        
+    tk:         8.5.18-0     
+    zlib:       1.2.8-0      
+
+Linking packages ...
+[                    ]|                                                  |   0%[openssl             ]|                                                  |   0%[readline            ]|#####                                             |  11%[sqlite              ]|###########                                       |  22%[system              ]|################                                  |  33%[tk                  ]|######################                            |  44%[zlib                ]|###########################                       |  55%[python              ]|#################################                 |  66%[setuptools          ]|######################################            |  77%[pip                 ]|############################################      |  88%[      COMPLETE      ]|##################################################| 100%
+Removing old work directory
+Copying /home/ubuntu/pypi-conda-builds/django-tagging to /home/ubuntu/miniconda/conda-bld/work
+Package: django-tagging-0.4-py_0
+source tree in: /home/ubuntu/miniconda/conda-bld/work
+number of files: 40
+Fixing permissions
+Fixing permissions
+BUILD END: django-tagging-0.4-py_0
+# If you want to upload this package to binstar.org later, type:
+#
+# $ binstar upload /home/ubuntu/miniconda/conda-bld/noarch/django-tagging-0.4-py_0.tar.bz2
+#
+# To have conda build upload to binstar automatically, use
+# $ conda config --set binstar_upload yes
+
+Package search: {'_pypi_ordering': False, 'version': '0.4', 'name': 'django-tagging', 'summary': 'Generic tagging application for Django'}
+Creating standard recipe for django-tagging-0.4
+Converting recipe in /home/ubuntu/pypi-conda-builds/django-tagging
+package = django-tagging
+   dependencies = []
+Building conda package for django-tagging

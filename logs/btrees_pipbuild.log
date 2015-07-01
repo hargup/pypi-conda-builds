@@ -1,0 +1,250 @@
+Removing old build directory
+Removing old work directory
+BUILD START: zope.interface-4.1.2-py27_0
+Fetching package metadata: ......
+
+WARNING: conda-build appears to be out of date. You have version 1.13.0 but the
+latest version is 1.14.1. Run
+
+conda update -n root conda-build
+
+to get the latest version.
+
+Solving package specifications: .+ pip install zope.interface
+Collecting zope.interface
+  Downloading http://localhost/packages/source/z/zope.interface/zope.interface-4.1.2.tar.gz (919kB)
+Requirement already satisfied (use --upgrade to upgrade): setuptools in /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages (from zope.interface)
+Installing collected packages: zope.interface
+  Running setup.py install for zope.interface
+Successfully installed zope.interface-4.1.2
+
+The following NEW packages will be INSTALLED:
+
+    openssl:    1.0.1k-1     
+    pip:        7.0.3-py27_0 
+    python:     2.7.10-0     
+    readline:   6.2-2        
+    setuptools: 18.0.1-py27_0
+    sqlite:     3.8.4.1-1    
+    system:     5.8-2        
+    tk:         8.5.18-0     
+    zlib:       1.2.8-0      
+
+Linking packages ...
+[                    ]|                                                  |   0%[openssl             ]|                                                  |   0%[readline            ]|#####                                             |  11%[sqlite              ]|###########                                       |  22%[system              ]|################                                  |  33%[tk                  ]|######################                            |  44%[zlib                ]|###########################                       |  55%[python              ]|#################################                 |  66%[setuptools          ]|######################################            |  77%[pip                 ]|############################################      |  88%[      COMPLETE      ]|##################################################| 100%
+Removing old work directory
+Copying /home/ubuntu/pypi-conda-builds/zope.interface to /home/ubuntu/miniconda/conda-bld/work
+Package: zope.interface-4.1.2-py27_0
+source tree in: /home/ubuntu/miniconda/conda-bld/work
+number of files: 99
+Fixing permissions
+patchelf: file: /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/zope/interface/_zope_interface_coptimizations.so
+    setting rpath to: $ORIGIN/../../../..
+Ignored hard-coded path in lib/python2.7/site-packages/zope/interface/_zope_interface_coptimizations.so
+Fixing permissions
+BUILD END: zope.interface-4.1.2-py27_0
+# If you want to upload this package to binstar.org later, type:
+#
+# $ binstar upload /home/ubuntu/miniconda/conda-bld/linux-64/zope.interface-4.1.2-py27_0.tar.bz2
+#
+# To have conda build upload to binstar automatically, use
+# $ conda config --set binstar_upload yes
+
+Removing old build directory
+Removing old work directory
+BUILD START: persistent-4.1.1-py27_0
+Fetching package metadata: ......
+
+WARNING: conda-build appears to be out of date. You have version 1.13.0 but the
+latest version is 1.14.1. Run
+
+conda update -n root conda-build
+
+to get the latest version.
+
+Solving package specifications: .+ pip install persistent
+Collecting persistent
+  Downloading http://localhost/packages/source/p/persistent/persistent-4.0.9.tar.gz (675kB)
+Requirement already satisfied (use --upgrade to upgrade): zope.interface in /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages (from persistent)
+Installing collected packages: persistent
+  Running setup.py install for persistent
+Successfully installed persistent-4.0.9
+
+The following NEW packages will be INSTALLED:
+
+    nose:           1.3.7-py27_0 
+    openssl:        1.0.1k-1     
+    pip:            7.0.3-py27_0 
+    python:         2.7.10-0     
+    readline:       6.2-2        
+    setuptools:     18.0.1-py27_0
+    sqlite:         3.8.4.1-1    
+    system:         5.8-2        
+    tk:             8.5.18-0     
+    zlib:           1.2.8-0      
+    zope.interface: 4.1.2-py27_1 
+
+Linking packages ...
+[                    ]|                                                  |   0%[openssl             ]|                                                  |   0%[readline            ]|####                                              |   9%[sqlite              ]|#########                                         |  18%[system              ]|#############                                     |  27%[tk                  ]|##################                                |  36%[zlib                ]|######################                            |  45%[nose                ]|###########################                       |  54%[python              ]|###############################                   |  63%[setuptools          ]|####################################              |  72%[zope.interface      ]|########################################          |  81%[pip                 ]|#############################################     |  90%[      COMPLETE      ]|##################################################| 100%
+Removing old work directory
+Copying /home/ubuntu/pypi-conda-builds/persistent to /home/ubuntu/miniconda/conda-bld/work
+Package: persistent-4.1.1-py27_0
+source tree in: /home/ubuntu/miniconda/conda-bld/work
+number of files: 62
+Fixing permissions
+patchelf: file: /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/persistent/_timestamp.so
+    setting rpath to: $ORIGIN/../../..
+patchelf: file: /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/persistent/cPersistence.so
+    setting rpath to: $ORIGIN/../../..
+patchelf: file: /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/persistent/cPickleCache.so
+    setting rpath to: $ORIGIN/../../..
+Ignored hard-coded path in lib/python2.7/site-packages/persistent/_timestamp.so
+Ignored hard-coded path in lib/python2.7/site-packages/persistent/cPersistence.so
+Ignored hard-coded path in lib/python2.7/site-packages/persistent/cPickleCache.so
+Fixing permissions
+BUILD END: persistent-4.1.1-py27_0
+# If you want to upload this package to binstar.org later, type:
+#
+# $ binstar upload /home/ubuntu/miniconda/conda-bld/linux-64/persistent-4.1.1-py27_0.tar.bz2
+#
+# To have conda build upload to binstar automatically, use
+# $ conda config --set binstar_upload yes
+
+Removing old build directory
+Removing old work directory
+BUILD START: zope.interface-4.1.2-py27_0
+Fetching package metadata: ......
+
+WARNING: conda-build appears to be out of date. You have version 1.13.0 but the
+latest version is 1.14.1. Run
+
+conda update -n root conda-build
+
+to get the latest version.
+
+Solving package specifications: .+ pip install zope.interface
+Collecting zope.interface
+  Downloading http://localhost/packages/source/z/zope.interface/zope.interface-4.1.2.tar.gz (919kB)
+Requirement already satisfied (use --upgrade to upgrade): setuptools in /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages (from zope.interface)
+Installing collected packages: zope.interface
+  Running setup.py install for zope.interface
+Successfully installed zope.interface-4.1.2
+
+The following NEW packages will be INSTALLED:
+
+    openssl:    1.0.1k-1     
+    pip:        7.0.3-py27_0 
+    python:     2.7.10-0     
+    readline:   6.2-2        
+    setuptools: 18.0.1-py27_0
+    sqlite:     3.8.4.1-1    
+    system:     5.8-2        
+    tk:         8.5.18-0     
+    zlib:       1.2.8-0      
+
+Linking packages ...
+[                    ]|                                                  |   0%[openssl             ]|                                                  |   0%[readline            ]|#####                                             |  11%[sqlite              ]|###########                                       |  22%[system              ]|################                                  |  33%[tk                  ]|######################                            |  44%[zlib                ]|###########################                       |  55%[python              ]|#################################                 |  66%[setuptools          ]|######################################            |  77%[pip                 ]|############################################      |  88%[      COMPLETE      ]|##################################################| 100%
+Removing old work directory
+Copying /home/ubuntu/pypi-conda-builds/zope.interface to /home/ubuntu/miniconda/conda-bld/work
+Package: zope.interface-4.1.2-py27_0
+source tree in: /home/ubuntu/miniconda/conda-bld/work
+number of files: 99
+Fixing permissions
+patchelf: file: /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/zope/interface/_zope_interface_coptimizations.so
+    setting rpath to: $ORIGIN/../../../..
+Ignored hard-coded path in lib/python2.7/site-packages/zope/interface/_zope_interface_coptimizations.so
+Fixing permissions
+BUILD END: zope.interface-4.1.2-py27_0
+# If you want to upload this package to binstar.org later, type:
+#
+# $ binstar upload /home/ubuntu/miniconda/conda-bld/linux-64/zope.interface-4.1.2-py27_0.tar.bz2
+#
+# To have conda build upload to binstar automatically, use
+# $ conda config --set binstar_upload yes
+
+Removing old build directory
+Removing old work directory
+BUILD START: btrees-4.1.4-py_0
+Fetching package metadata: ......
+
+WARNING: conda-build appears to be out of date. You have version 1.13.0 but the
+latest version is 1.14.1. Run
+
+conda update -n root conda-build
+
+to get the latest version.
+
+Solving package specifications: .+ pip install BTrees
+Collecting BTrees
+  Downloading http://localhost/packages/source/B/BTrees/BTrees-4.1.2.tar.gz (181kB)
+Requirement already satisfied (use --upgrade to upgrade): persistent in /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages (from BTrees)
+Requirement already satisfied (use --upgrade to upgrade): zope.interface in /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages (from BTrees)
+Installing collected packages: BTrees
+  Running setup.py install for BTrees
+Successfully installed BTrees-4.1.2
+
+The following NEW packages will be INSTALLED:
+
+    nose:           1.3.7-py27_0 
+    openssl:        1.0.1k-1     
+    persistent:     4.1.1-py27_0 
+    pip:            7.0.3-py27_0 
+    python:         2.7.10-0     
+    readline:       6.2-2        
+    setuptools:     18.0.1-py27_0
+    sqlite:         3.8.4.1-1    
+    system:         5.8-2        
+    tk:             8.5.18-0     
+    zlib:           1.2.8-0      
+    zope.interface: 4.1.2-py27_1 
+
+Linking packages ...
+[                    ]|                                                  |   0%[openssl             ]|                                                  |   0%[readline            ]|####                                              |   8%[sqlite              ]|########                                          |  16%[system              ]|############                                      |  25%[tk                  ]|################                                  |  33%[zlib                ]|####################                              |  41%[nose                ]|#########################                         |  50%[python              ]|#############################                     |  58%[setuptools          ]|#################################                 |  66%[zope.interface      ]|#####################################             |  75%[persistent          ]|#########################################         |  83%[pip                 ]|#############################################     |  91%[      COMPLETE      ]|##################################################| 100%
+Removing old work directory
+Copying /home/ubuntu/pypi-conda-builds/btrees to /home/ubuntu/miniconda/conda-bld/work
+Package: btrees-4.1.4-py_0
+source tree in: /home/ubuntu/miniconda/conda-bld/work
+number of files: 119
+Fixing permissions
+patchelf: file: /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/BTrees/_IFBTree.so
+    setting rpath to: $ORIGIN/../../..
+patchelf: file: /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/BTrees/_IIBTree.so
+    setting rpath to: $ORIGIN/../../..
+patchelf: file: /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/BTrees/_IOBTree.so
+    setting rpath to: $ORIGIN/../../..
+patchelf: file: /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/BTrees/_LFBTree.so
+    setting rpath to: $ORIGIN/../../..
+patchelf: file: /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/BTrees/_LLBTree.so
+    setting rpath to: $ORIGIN/../../..
+patchelf: file: /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/BTrees/_LOBTree.so
+    setting rpath to: $ORIGIN/../../..
+patchelf: file: /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/BTrees/_OIBTree.so
+    setting rpath to: $ORIGIN/../../..
+patchelf: file: /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/BTrees/_OLBTree.so
+    setting rpath to: $ORIGIN/../../..
+patchelf: file: /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/BTrees/_OOBTree.so
+    setting rpath to: $ORIGIN/../../..
+patchelf: file: /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/BTrees/_fsBTree.so
+    setting rpath to: $ORIGIN/../../..
+[noarch_python] Error: Shared object file found: lib/python2.7/site-packages/BTrees/_IFBTree.so
+Package search: {'_pypi_ordering': False, 'version': '4.1.4', 'name': 'BTrees', 'summary': 'Scalable persistent object containers'}
+Creating standard recipe for btrees-4.1.4
+Converting recipe in /home/ubuntu/pypi-conda-builds/btrees
+package = BTrees
+   dependencies = [u'persistent', u'zope.interface']
+Creating standard recipe for persistent
+Converting recipe in /home/ubuntu/pypi-conda-builds/persistent
+package = persistent
+   dependencies = [u'zope.interface']
+Creating standard recipe for zope.interface
+Converting recipe in /home/ubuntu/pypi-conda-builds/zope.interface
+package = zope.interface
+   dependencies = []
+Building conda package for zope.interface
+Building conda package for persistent
+Creating standard recipe for zope.interface
+Converting recipe in /home/ubuntu/pypi-conda-builds/zope.interface
+package = zope.interface
+   dependencies = []
+Building conda package for zope.interface
+Building conda package for btrees

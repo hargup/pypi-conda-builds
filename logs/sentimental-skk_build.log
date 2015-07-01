@@ -1,0 +1,322 @@
+Removing old build directory
+Removing old work directory
+BUILD START: sentimental-skk-0.0.146-py_0
+Fetching package metadata: ......
+
+WARNING: conda-build appears to be out of date. You have version 1.13.0 but the
+latest version is 1.14.1. Run
+
+conda update -n root conda-build
+
+to get the latest version.
+
+Solving package specifications: .+ /home/ubuntu/miniconda/envs/_build/bin/python setup.py install
+running install
+running bdist_egg
+running egg_info
+writing requirements to sentimental_skk.egg-info/requires.txt
+writing sentimental_skk.egg-info/PKG-INFO
+writing eager_resources to sentimental_skk.egg-info/eager_resources.txt
+writing top-level names to sentimental_skk.egg-info/top_level.txt
+writing dependency_links to sentimental_skk.egg-info/dependency_links.txt
+writing entry points to sentimental_skk.egg-info/entry_points.txt
+file sskk.py (for module sskk) not found
+reading manifest file 'sentimental_skk.egg-info/SOURCES.txt'
+reading manifest template 'MANIFEST.in'
+writing manifest file 'sentimental_skk.egg-info/SOURCES.txt'
+installing library code to build/bdist.linux-x86_64/egg
+running install_lib
+running build_py
+file sskk.py (for module sskk) not found
+creating build
+creating build/lib
+creating build/lib/sskk
+copying sskk/kanadb.py -> build/lib/sskk
+copying sskk/dictionary.py -> build/lib/sskk
+copying sskk/charbuf.py -> build/lib/sskk
+copying sskk/output.py -> build/lib/sskk
+copying sskk/romanrule.py -> build/lib/sskk
+copying sskk/input.py -> build/lib/sskk
+copying sskk/title.py -> build/lib/sskk
+copying sskk/word.py -> build/lib/sskk
+copying sskk/eisuudb.py -> build/lib/sskk
+copying sskk/sskk.py -> build/lib/sskk
+copying sskk/__init__.py -> build/lib/sskk
+copying sskk/settings.py -> build/lib/sskk
+copying sskk/mode.py -> build/lib/sskk
+creating build/lib/sskk/rule
+copying sskk/rule/builtin_base.py -> build/lib/sskk/rule
+copying sskk/rule/builtin_azik.py -> build/lib/sskk/rule
+copying sskk/rule/builtin_normal.py -> build/lib/sskk/rule
+copying sskk/rule/__init__.py -> build/lib/sskk/rule
+copying sskk/rule/builtin_act.py -> build/lib/sskk/rule
+creating build/lib/sskk/canossa
+copying sskk/canossa/setup.py -> build/lib/sskk/canossa
+copying sskk/canossa/__init__.py -> build/lib/sskk/canossa
+creating build/lib/sskk/canossa/canossa
+copying sskk/canossa/canossa/canossa.py -> build/lib/sskk/canossa/canossa
+copying sskk/canossa/canossa/iframe.py -> build/lib/sskk/canossa/canossa
+copying sskk/canossa/canossa/output.py -> build/lib/sskk/canossa/canossa
+copying sskk/canossa/canossa/mouse.py -> build/lib/sskk/canossa/canossa
+copying sskk/canossa/canossa/popup.py -> build/lib/sskk/canossa/canossa
+copying sskk/canossa/canossa/cursor.py -> build/lib/sskk/canossa/canossa
+copying sskk/canossa/canossa/interface.py -> build/lib/sskk/canossa/canossa
+copying sskk/canossa/canossa/constant.py -> build/lib/sskk/canossa/canossa
+copying sskk/canossa/canossa/cell.py -> build/lib/sskk/canossa/canossa
+copying sskk/canossa/canossa/exception.py -> build/lib/sskk/canossa/canossa
+copying sskk/canossa/canossa/__init__.py -> build/lib/sskk/canossa/canossa
+copying sskk/canossa/canossa/line.py -> build/lib/sskk/canossa/canossa
+copying sskk/canossa/canossa/attribute.py -> build/lib/sskk/canossa/canossa
+copying sskk/canossa/canossa/stub.py -> build/lib/sskk/canossa/canossa
+copying sskk/canossa/canossa/screen.py -> build/lib/sskk/canossa/canossa
+creating build/lib/sskk/canossa/canossa/termprop
+copying sskk/canossa/canossa/termprop/setup.py -> build/lib/sskk/canossa/canossa/termprop
+copying sskk/canossa/canossa/termprop/__init__.py -> build/lib/sskk/canossa/canossa/termprop
+creating build/lib/sskk/canossa/canossa/tff
+copying sskk/canossa/canossa/tff/tff.py -> build/lib/sskk/canossa/canossa/tff
+copying sskk/canossa/canossa/tff/setup.py -> build/lib/sskk/canossa/canossa/tff
+copying sskk/canossa/canossa/tff/__init__.py -> build/lib/sskk/canossa/canossa/tff
+creating build/lib/sskk/canossa/canossa/termprop/termprop
+copying sskk/canossa/canossa/termprop/termprop/wcwidth.py -> build/lib/sskk/canossa/canossa/termprop/termprop
+copying sskk/canossa/canossa/termprop/termprop/termprop.py -> build/lib/sskk/canossa/canossa/termprop/termprop
+copying sskk/canossa/canossa/termprop/termprop/__init__.py -> build/lib/sskk/canossa/canossa/termprop/termprop
+creating build/lib/sskk/canossa/canossa/termprop/termprop/db
+copying sskk/canossa/canossa/termprop/termprop/db/__init__.py -> build/lib/sskk/canossa/canossa/termprop/termprop/db
+creating build/lib/sskk/canossa/canossa/termprop/termprop/db/iterm2
+copying sskk/canossa/canossa/termprop/termprop/db/iterm2/__init__.py -> build/lib/sskk/canossa/canossa/termprop/termprop/db/iterm2
+creating build/lib/sskk/canossa/canossa/termprop/termprop/db/unicode6_2
+copying sskk/canossa/canossa/termprop/termprop/db/unicode6_2/normal.py -> build/lib/sskk/canossa/canossa/termprop/termprop/db/unicode6_2
+copying sskk/canossa/canossa/termprop/termprop/db/unicode6_2/cjk.py -> build/lib/sskk/canossa/canossa/termprop/termprop/db/unicode6_2
+copying sskk/canossa/canossa/termprop/termprop/db/unicode6_2/__init__.py -> build/lib/sskk/canossa/canossa/termprop/termprop/db/unicode6_2
+copying sskk/SKK-JISYO.JIS2 -> build/lib/sskk
+copying sskk/SKK-JISYO.L -> build/lib/sskk
+copying sskk/SKK-JISYO.assoc -> build/lib/sskk
+copying sskk/SKK-JISYO.builtin -> build/lib/sskk
+copying sskk/SKK-JISYO.geo -> build/lib/sskk
+copying sskk/SKK-JISYO.jinmei -> build/lib/sskk
+file sskk.py (for module sskk) not found
+creating build/bdist.linux-x86_64
+creating build/bdist.linux-x86_64/egg
+creating build/bdist.linux-x86_64/egg/sskk
+copying build/lib/sskk/kanadb.py -> build/bdist.linux-x86_64/egg/sskk
+copying build/lib/sskk/dictionary.py -> build/bdist.linux-x86_64/egg/sskk
+copying build/lib/sskk/charbuf.py -> build/bdist.linux-x86_64/egg/sskk
+copying build/lib/sskk/SKK-JISYO.JIS2 -> build/bdist.linux-x86_64/egg/sskk
+copying build/lib/sskk/output.py -> build/bdist.linux-x86_64/egg/sskk
+creating build/bdist.linux-x86_64/egg/sskk/rule
+copying build/lib/sskk/rule/builtin_base.py -> build/bdist.linux-x86_64/egg/sskk/rule
+copying build/lib/sskk/rule/builtin_azik.py -> build/bdist.linux-x86_64/egg/sskk/rule
+copying build/lib/sskk/rule/builtin_normal.py -> build/bdist.linux-x86_64/egg/sskk/rule
+copying build/lib/sskk/rule/__init__.py -> build/bdist.linux-x86_64/egg/sskk/rule
+copying build/lib/sskk/rule/builtin_act.py -> build/bdist.linux-x86_64/egg/sskk/rule
+copying build/lib/sskk/SKK-JISYO.L -> build/bdist.linux-x86_64/egg/sskk
+copying build/lib/sskk/SKK-JISYO.builtin -> build/bdist.linux-x86_64/egg/sskk
+copying build/lib/sskk/romanrule.py -> build/bdist.linux-x86_64/egg/sskk
+copying build/lib/sskk/input.py -> build/bdist.linux-x86_64/egg/sskk
+copying build/lib/sskk/title.py -> build/bdist.linux-x86_64/egg/sskk
+copying build/lib/sskk/SKK-JISYO.jinmei -> build/bdist.linux-x86_64/egg/sskk
+copying build/lib/sskk/SKK-JISYO.assoc -> build/bdist.linux-x86_64/egg/sskk
+copying build/lib/sskk/word.py -> build/bdist.linux-x86_64/egg/sskk
+copying build/lib/sskk/eisuudb.py -> build/bdist.linux-x86_64/egg/sskk
+copying build/lib/sskk/sskk.py -> build/bdist.linux-x86_64/egg/sskk
+copying build/lib/sskk/__init__.py -> build/bdist.linux-x86_64/egg/sskk
+copying build/lib/sskk/settings.py -> build/bdist.linux-x86_64/egg/sskk
+creating build/bdist.linux-x86_64/egg/sskk/canossa
+copying build/lib/sskk/canossa/setup.py -> build/bdist.linux-x86_64/egg/sskk/canossa
+copying build/lib/sskk/canossa/__init__.py -> build/bdist.linux-x86_64/egg/sskk/canossa
+creating build/bdist.linux-x86_64/egg/sskk/canossa/canossa
+copying build/lib/sskk/canossa/canossa/canossa.py -> build/bdist.linux-x86_64/egg/sskk/canossa/canossa
+copying build/lib/sskk/canossa/canossa/iframe.py -> build/bdist.linux-x86_64/egg/sskk/canossa/canossa
+copying build/lib/sskk/canossa/canossa/output.py -> build/bdist.linux-x86_64/egg/sskk/canossa/canossa
+creating build/bdist.linux-x86_64/egg/sskk/canossa/canossa/termprop
+creating build/bdist.linux-x86_64/egg/sskk/canossa/canossa/termprop/termprop
+copying build/lib/sskk/canossa/canossa/termprop/termprop/wcwidth.py -> build/bdist.linux-x86_64/egg/sskk/canossa/canossa/termprop/termprop
+copying build/lib/sskk/canossa/canossa/termprop/termprop/termprop.py -> build/bdist.linux-x86_64/egg/sskk/canossa/canossa/termprop/termprop
+copying build/lib/sskk/canossa/canossa/termprop/termprop/__init__.py -> build/bdist.linux-x86_64/egg/sskk/canossa/canossa/termprop/termprop
+creating build/bdist.linux-x86_64/egg/sskk/canossa/canossa/termprop/termprop/db
+creating build/bdist.linux-x86_64/egg/sskk/canossa/canossa/termprop/termprop/db/iterm2
+copying build/lib/sskk/canossa/canossa/termprop/termprop/db/iterm2/__init__.py -> build/bdist.linux-x86_64/egg/sskk/canossa/canossa/termprop/termprop/db/iterm2
+copying build/lib/sskk/canossa/canossa/termprop/termprop/db/__init__.py -> build/bdist.linux-x86_64/egg/sskk/canossa/canossa/termprop/termprop/db
+creating build/bdist.linux-x86_64/egg/sskk/canossa/canossa/termprop/termprop/db/unicode6_2
+copying build/lib/sskk/canossa/canossa/termprop/termprop/db/unicode6_2/normal.py -> build/bdist.linux-x86_64/egg/sskk/canossa/canossa/termprop/termprop/db/unicode6_2
+copying build/lib/sskk/canossa/canossa/termprop/termprop/db/unicode6_2/cjk.py -> build/bdist.linux-x86_64/egg/sskk/canossa/canossa/termprop/termprop/db/unicode6_2
+copying build/lib/sskk/canossa/canossa/termprop/termprop/db/unicode6_2/__init__.py -> build/bdist.linux-x86_64/egg/sskk/canossa/canossa/termprop/termprop/db/unicode6_2
+copying build/lib/sskk/canossa/canossa/termprop/setup.py -> build/bdist.linux-x86_64/egg/sskk/canossa/canossa/termprop
+copying build/lib/sskk/canossa/canossa/termprop/__init__.py -> build/bdist.linux-x86_64/egg/sskk/canossa/canossa/termprop
+creating build/bdist.linux-x86_64/egg/sskk/canossa/canossa/tff
+copying build/lib/sskk/canossa/canossa/tff/tff.py -> build/bdist.linux-x86_64/egg/sskk/canossa/canossa/tff
+copying build/lib/sskk/canossa/canossa/tff/setup.py -> build/bdist.linux-x86_64/egg/sskk/canossa/canossa/tff
+copying build/lib/sskk/canossa/canossa/tff/__init__.py -> build/bdist.linux-x86_64/egg/sskk/canossa/canossa/tff
+copying build/lib/sskk/canossa/canossa/mouse.py -> build/bdist.linux-x86_64/egg/sskk/canossa/canossa
+copying build/lib/sskk/canossa/canossa/popup.py -> build/bdist.linux-x86_64/egg/sskk/canossa/canossa
+copying build/lib/sskk/canossa/canossa/cursor.py -> build/bdist.linux-x86_64/egg/sskk/canossa/canossa
+copying build/lib/sskk/canossa/canossa/interface.py -> build/bdist.linux-x86_64/egg/sskk/canossa/canossa
+copying build/lib/sskk/canossa/canossa/constant.py -> build/bdist.linux-x86_64/egg/sskk/canossa/canossa
+copying build/lib/sskk/canossa/canossa/cell.py -> build/bdist.linux-x86_64/egg/sskk/canossa/canossa
+copying build/lib/sskk/canossa/canossa/exception.py -> build/bdist.linux-x86_64/egg/sskk/canossa/canossa
+copying build/lib/sskk/canossa/canossa/__init__.py -> build/bdist.linux-x86_64/egg/sskk/canossa/canossa
+copying build/lib/sskk/canossa/canossa/line.py -> build/bdist.linux-x86_64/egg/sskk/canossa/canossa
+copying build/lib/sskk/canossa/canossa/attribute.py -> build/bdist.linux-x86_64/egg/sskk/canossa/canossa
+copying build/lib/sskk/canossa/canossa/stub.py -> build/bdist.linux-x86_64/egg/sskk/canossa/canossa
+copying build/lib/sskk/canossa/canossa/screen.py -> build/bdist.linux-x86_64/egg/sskk/canossa/canossa
+copying build/lib/sskk/mode.py -> build/bdist.linux-x86_64/egg/sskk
+copying build/lib/sskk/SKK-JISYO.geo -> build/bdist.linux-x86_64/egg/sskk
+byte-compiling build/bdist.linux-x86_64/egg/sskk/kanadb.py to kanadb.pyc
+byte-compiling build/bdist.linux-x86_64/egg/sskk/dictionary.py to dictionary.pyc
+byte-compiling build/bdist.linux-x86_64/egg/sskk/charbuf.py to charbuf.pyc
+byte-compiling build/bdist.linux-x86_64/egg/sskk/output.py to output.pyc
+byte-compiling build/bdist.linux-x86_64/egg/sskk/rule/builtin_base.py to builtin_base.pyc
+byte-compiling build/bdist.linux-x86_64/egg/sskk/rule/builtin_azik.py to builtin_azik.pyc
+byte-compiling build/bdist.linux-x86_64/egg/sskk/rule/builtin_normal.py to builtin_normal.pyc
+byte-compiling build/bdist.linux-x86_64/egg/sskk/rule/__init__.py to __init__.pyc
+byte-compiling build/bdist.linux-x86_64/egg/sskk/rule/builtin_act.py to builtin_act.pyc
+byte-compiling build/bdist.linux-x86_64/egg/sskk/romanrule.py to romanrule.pyc
+byte-compiling build/bdist.linux-x86_64/egg/sskk/input.py to input.pyc
+byte-compiling build/bdist.linux-x86_64/egg/sskk/title.py to title.pyc
+byte-compiling build/bdist.linux-x86_64/egg/sskk/word.py to word.pyc
+byte-compiling build/bdist.linux-x86_64/egg/sskk/eisuudb.py to eisuudb.pyc
+byte-compiling build/bdist.linux-x86_64/egg/sskk/sskk.py to sskk.pyc
+byte-compiling build/bdist.linux-x86_64/egg/sskk/__init__.py to __init__.pyc
+byte-compiling build/bdist.linux-x86_64/egg/sskk/settings.py to settings.pyc
+byte-compiling build/bdist.linux-x86_64/egg/sskk/canossa/setup.py to setup.pyc
+byte-compiling build/bdist.linux-x86_64/egg/sskk/canossa/__init__.py to __init__.pyc
+byte-compiling build/bdist.linux-x86_64/egg/sskk/canossa/canossa/canossa.py to canossa.pyc
+byte-compiling build/bdist.linux-x86_64/egg/sskk/canossa/canossa/iframe.py to iframe.pyc
+byte-compiling build/bdist.linux-x86_64/egg/sskk/canossa/canossa/output.py to output.pyc
+byte-compiling build/bdist.linux-x86_64/egg/sskk/canossa/canossa/termprop/termprop/wcwidth.py to wcwidth.pyc
+byte-compiling build/bdist.linux-x86_64/egg/sskk/canossa/canossa/termprop/termprop/termprop.py to termprop.pyc
+byte-compiling build/bdist.linux-x86_64/egg/sskk/canossa/canossa/termprop/termprop/__init__.py to __init__.pyc
+byte-compiling build/bdist.linux-x86_64/egg/sskk/canossa/canossa/termprop/termprop/db/iterm2/__init__.py to __init__.pyc
+byte-compiling build/bdist.linux-x86_64/egg/sskk/canossa/canossa/termprop/termprop/db/__init__.py to __init__.pyc
+byte-compiling build/bdist.linux-x86_64/egg/sskk/canossa/canossa/termprop/termprop/db/unicode6_2/normal.py to normal.pyc
+byte-compiling build/bdist.linux-x86_64/egg/sskk/canossa/canossa/termprop/termprop/db/unicode6_2/cjk.py to cjk.pyc
+byte-compiling build/bdist.linux-x86_64/egg/sskk/canossa/canossa/termprop/termprop/db/unicode6_2/__init__.py to __init__.pyc
+byte-compiling build/bdist.linux-x86_64/egg/sskk/canossa/canossa/termprop/setup.py to setup.pyc
+byte-compiling build/bdist.linux-x86_64/egg/sskk/canossa/canossa/termprop/__init__.py to __init__.pyc
+byte-compiling build/bdist.linux-x86_64/egg/sskk/canossa/canossa/tff/tff.py to tff.pyc
+byte-compiling build/bdist.linux-x86_64/egg/sskk/canossa/canossa/tff/setup.py to setup.pyc
+byte-compiling build/bdist.linux-x86_64/egg/sskk/canossa/canossa/tff/__init__.py to __init__.pyc
+byte-compiling build/bdist.linux-x86_64/egg/sskk/canossa/canossa/mouse.py to mouse.pyc
+byte-compiling build/bdist.linux-x86_64/egg/sskk/canossa/canossa/popup.py to popup.pyc
+byte-compiling build/bdist.linux-x86_64/egg/sskk/canossa/canossa/cursor.py to cursor.pyc
+byte-compiling build/bdist.linux-x86_64/egg/sskk/canossa/canossa/interface.py to interface.pyc
+byte-compiling build/bdist.linux-x86_64/egg/sskk/canossa/canossa/constant.py to constant.pyc
+byte-compiling build/bdist.linux-x86_64/egg/sskk/canossa/canossa/cell.py to cell.pyc
+byte-compiling build/bdist.linux-x86_64/egg/sskk/canossa/canossa/exception.py to exception.pyc
+byte-compiling build/bdist.linux-x86_64/egg/sskk/canossa/canossa/__init__.py to __init__.pyc
+byte-compiling build/bdist.linux-x86_64/egg/sskk/canossa/canossa/line.py to line.pyc
+byte-compiling build/bdist.linux-x86_64/egg/sskk/canossa/canossa/attribute.py to attribute.pyc
+byte-compiling build/bdist.linux-x86_64/egg/sskk/canossa/canossa/stub.py to stub.pyc
+byte-compiling build/bdist.linux-x86_64/egg/sskk/canossa/canossa/screen.py to screen.pyc
+byte-compiling build/bdist.linux-x86_64/egg/sskk/mode.py to mode.pyc
+creating build/bdist.linux-x86_64/egg/EGG-INFO
+copying sentimental_skk.egg-info/PKG-INFO -> build/bdist.linux-x86_64/egg/EGG-INFO
+copying sentimental_skk.egg-info/SOURCES.txt -> build/bdist.linux-x86_64/egg/EGG-INFO
+copying sentimental_skk.egg-info/dependency_links.txt -> build/bdist.linux-x86_64/egg/EGG-INFO
+copying sentimental_skk.egg-info/eager_resources.txt -> build/bdist.linux-x86_64/egg/EGG-INFO
+copying sentimental_skk.egg-info/entry_points.txt -> build/bdist.linux-x86_64/egg/EGG-INFO
+copying sentimental_skk.egg-info/not-zip-safe -> build/bdist.linux-x86_64/egg/EGG-INFO
+copying sentimental_skk.egg-info/requires.txt -> build/bdist.linux-x86_64/egg/EGG-INFO
+copying sentimental_skk.egg-info/top_level.txt -> build/bdist.linux-x86_64/egg/EGG-INFO
+creating dist
+creating 'dist/sentimental_skk-0.0.146-py2.7.egg' and adding 'build/bdist.linux-x86_64/egg' to it
+removing 'build/bdist.linux-x86_64/egg' (and everything under it)
+Processing sentimental_skk-0.0.146-py2.7.egg
+creating /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/sentimental_skk-0.0.146-py2.7.egg
+Extracting sentimental_skk-0.0.146-py2.7.egg to /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages
+Adding sentimental-skk 0.0.146 to easy-install.pth file
+Installing sskk script to /home/ubuntu/miniconda/envs/_build/bin
+Installing sskk-test-terminal script to /home/ubuntu/miniconda/envs/_build/bin
+
+Installed /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/sentimental_skk-0.0.146-py2.7.egg
+Processing dependencies for sentimental-skk==0.0.146
+Searching for tff==0.2.10
+Best match: tff 0.2.10
+Adding tff 0.2.10 to easy-install.pth file
+
+Using /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages
+Finished processing dependencies for sentimental-skk==0.0.146
+
+The following NEW packages will be INSTALLED:
+
+    openssl:    1.0.1k-1     
+    pip:        7.0.3-py27_0 
+    python:     2.7.10-0     
+    readline:   6.2-2        
+    setuptools: 18.0.1-py27_0
+    sqlite:     3.8.4.1-1    
+    system:     5.8-2        
+    tff:        0.2.10-py27_0
+    tk:         8.5.18-0     
+    zlib:       1.2.8-0      
+
+Linking packages ...
+[                    ]|                                                  |   0%[openssl             ]|                                                  |   0%[readline            ]|#####                                             |  10%[sqlite              ]|##########                                        |  20%[system              ]|###############                                   |  30%[tk                  ]|####################                              |  40%[zlib                ]|#########################                         |  50%[python              ]|##############################                    |  60%[setuptools          ]|###################################               |  70%[tff                 ]|########################################          |  80%[pip                 ]|#############################################     |  90%[      COMPLETE      ]|##################################################| 100%
+Removing old work directory
+Source cache directory is: /home/ubuntu/miniconda/conda-bld/src_cache
+Found source in cache: sentimental-skk-0.0.146.tar.gz
+Extracting download
+Package: sentimental-skk-0.0.146-py_0
+source tree in: /home/ubuntu/miniconda/conda-bld/work/sentimental-skk-0.0.146
+found egg dir: /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/sentimental_skk-0.0.146-py2.7.egg
+number of files: 105
+Fixing permissions
+Fixing permissions
+BUILD END: sentimental-skk-0.0.146-py_0
+TEST START: sentimental-skk-0.0.146-py_0
+Fetching package metadata: ......
+
+WARNING: conda-build appears to be out of date. You have version 1.13.0 but the
+latest version is 1.14.1. Run
+
+conda update -n root conda-build
+
+to get the latest version.
+
+Solving package specifications: .
+The following packages will be downloaded:
+
+    package                    |            build
+    ---------------------------|-----------------
+    sentimental-skk-0.0.146    |             py_0         2.9 MB
+
+The following NEW packages will be INSTALLED:
+
+    openssl:         1.0.1k-1     
+    pip:             7.0.3-py27_0 
+    python:          2.7.10-0     
+    readline:        6.2-2        
+    sentimental-skk: 0.0.146-py_0 
+    setuptools:      18.0.1-py27_0
+    sqlite:          3.8.4.1-1    
+    system:          5.8-2        
+    tff:             0.2.10-py27_0
+    tk:              8.5.18-0     
+    zlib:            1.2.8-0      
+
+Fetching packages ...
+sentimental-sk   0% |                              | ETA:  --:--:--   0.00  B/ssentimental-sk   1% |                               | ETA:  0:00:00  71.55 MB/ssentimental-sk   2% |                               | ETA:  0:00:00  86.58 MB/ssentimental-sk   3% |#                              | ETA:  0:00:00  91.87 MB/ssentimental-sk   4% |#                              | ETA:  0:00:00  96.45 MB/ssentimental-sk   5% |#                              | ETA:  0:00:00  99.84 MB/ssentimental-sk   6% |##                             | ETA:  0:00:00 102.40 MB/ssentimental-sk   7% |##                             | ETA:  0:00:00 104.21 MB/ssentimental-sk   8% |##                             | ETA:  0:00:00 105.92 MB/ssentimental-sk   9% |###                            | ETA:  0:00:00 106.93 MB/ssentimental-sk  10% |###                            | ETA:  0:00:00 107.93 MB/ssentimental-sk  11% |###                            | ETA:  0:00:00 108.76 MB/ssentimental-sk  12% |####                           | ETA:  0:00:00 109.62 MB/ssentimental-sk  14% |####                           | ETA:  0:00:00 110.30 MB/ssentimental-sk  15% |####                           | ETA:  0:00:00  37.35 MB/ssentimental-sk  16% |#####                          | ETA:  0:00:00  39.14 MB/ssentimental-sk  17% |#####                          | ETA:  0:00:00  40.85 MB/ssentimental-sk  18% |#####                          | ETA:  0:00:00  42.44 MB/ssentimental-sk  19% |######                         | ETA:  0:00:00  44.00 MB/ssentimental-sk  20% |######                         | ETA:  0:00:00  45.50 MB/ssentimental-sk  21% |######                         | ETA:  0:00:00  46.95 MB/ssentimental-sk  22% |#######                        | ETA:  0:00:00  48.33 MB/ssentimental-sk  23% |#######                        | ETA:  0:00:00  49.67 MB/ssentimental-sk  24% |#######                        | ETA:  0:00:00  50.96 MB/ssentimental-sk  25% |########                       | ETA:  0:00:00  52.20 MB/ssentimental-sk  27% |########                       | ETA:  0:00:00  53.40 MB/ssentimental-sk  28% |########                       | ETA:  0:00:00  54.53 MB/ssentimental-sk  29% |#########                      | ETA:  0:00:00  55.66 MB/ssentimental-sk  30% |#########                      | ETA:  0:00:00  56.75 MB/ssentimental-sk  31% |#########                      | ETA:  0:00:00  57.76 MB/ssentimental-sk  32% |##########                     | ETA:  0:00:00  58.76 MB/ssentimental-sk  33% |##########                     | ETA:  0:00:00  59.67 MB/ssentimental-sk  34% |##########                     | ETA:  0:00:00  60.62 MB/ssentimental-sk  35% |###########                    | ETA:  0:00:00  61.54 MB/ssentimental-sk  36% |###########                    | ETA:  0:00:00  62.40 MB/ssentimental-sk  37% |###########                    | ETA:  0:00:00  63.27 MB/ssentimental-sk  38% |############                   | ETA:  0:00:00  64.10 MB/ssentimental-sk  39% |############                   | ETA:  0:00:00  64.92 MB/ssentimental-sk  41% |############                   | ETA:  0:00:00  65.71 MB/ssentimental-sk  42% |#############                  | ETA:  0:00:00  66.46 MB/ssentimental-sk  43% |#############                  | ETA:  0:00:00  67.21 MB/ssentimental-sk  44% |#############                  | ETA:  0:00:00  67.93 MB/ssentimental-sk  45% |##############                 | ETA:  0:00:00  68.62 MB/ssentimental-sk  46% |##############                 | ETA:  0:00:00  49.47 MB/ssentimental-sk  47% |##############                 | ETA:  0:00:00  50.13 MB/ssentimental-sk  48% |###############                | ETA:  0:00:00  50.74 MB/ssentimental-sk  49% |###############                | ETA:  0:00:00  51.37 MB/ssentimental-sk  50% |###############                | ETA:  0:00:00  52.01 MB/ssentimental-sk  51% |################               | ETA:  0:00:00  52.63 MB/ssentimental-sk  52% |################               | ETA:  0:00:00  53.23 MB/ssentimental-sk  54% |################               | ETA:  0:00:00  53.82 MB/ssentimental-sk  55% |#################              | ETA:  0:00:00  54.40 MB/ssentimental-sk  56% |#################              | ETA:  0:00:00  54.98 MB/ssentimental-sk  57% |#################              | ETA:  0:00:00  55.54 MB/ssentimental-sk  58% |##################             | ETA:  0:00:00  56.09 MB/ssentimental-sk  59% |##################             | ETA:  0:00:00  56.63 MB/ssentimental-sk  60% |##################             | ETA:  0:00:00  57.16 MB/ssentimental-sk  61% |###################            | ETA:  0:00:00  57.68 MB/ssentimental-sk  62% |###################            | ETA:  0:00:00  58.20 MB/ssentimental-sk  63% |###################            | ETA:  0:00:00  58.68 MB/ssentimental-sk  64% |####################           | ETA:  0:00:00  59.17 MB/ssentimental-sk  65% |####################           | ETA:  0:00:00  59.66 MB/ssentimental-sk  66% |####################           | ETA:  0:00:00  60.15 MB/ssentimental-sk  68% |#####################          | ETA:  0:00:00  60.63 MB/ssentimental-sk  69% |#####################          | ETA:  0:00:00  61.09 MB/ssentimental-sk  70% |#####################          | ETA:  0:00:00  61.54 MB/ssentimental-sk  71% |######################         | ETA:  0:00:00  62.00 MB/ssentimental-sk  72% |######################         | ETA:  0:00:00  62.45 MB/ssentimental-sk  73% |######################         | ETA:  0:00:00  62.89 MB/ssentimental-sk  74% |#######################        | ETA:  0:00:00  63.32 MB/ssentimental-sk  75% |#######################        | ETA:  0:00:00  63.74 MB/ssentimental-sk  76% |#######################        | ETA:  0:00:00  64.16 MB/ssentimental-sk  77% |########################       | ETA:  0:00:00  52.81 MB/ssentimental-sk  78% |########################       | ETA:  0:00:00  53.20 MB/ssentimental-sk  79% |########################       | ETA:  0:00:00  53.60 MB/ssentimental-sk  81% |#########################      | ETA:  0:00:00  54.00 MB/ssentimental-sk  82% |#########################      | ETA:  0:00:00  54.38 MB/ssentimental-sk  83% |#########################      | ETA:  0:00:00  54.77 MB/ssentimental-sk  84% |##########################     | ETA:  0:00:00  55.15 MB/ssentimental-sk  85% |##########################     | ETA:  0:00:00  55.53 MB/ssentimental-sk  86% |##########################     | ETA:  0:00:00  55.90 MB/ssentimental-sk  87% |###########################    | ETA:  0:00:00  56.27 MB/ssentimental-sk  88% |###########################    | ETA:  0:00:00  56.63 MB/ssentimental-sk  89% |###########################    | ETA:  0:00:00  57.00 MB/ssentimental-sk  90% |############################   | ETA:  0:00:00  57.35 MB/ssentimental-sk  91% |############################   | ETA:  0:00:00  57.70 MB/ssentimental-sk  92% |############################   | ETA:  0:00:00  58.05 MB/ssentimental-sk  94% |#############################  | ETA:  0:00:00  58.39 MB/ssentimental-sk  95% |#############################  | ETA:  0:00:00  58.71 MB/ssentimental-sk  96% |#############################  | ETA:  0:00:00  59.05 MB/ssentimental-sk  97% |############################## | ETA:  0:00:00  59.38 MB/ssentimental-sk  98% |############################## | ETA:  0:00:00  59.71 MB/ssentimental-sk  99% |############################## | ETA:  0:00:00  60.03 MB/ssentimental-sk 100% |###############################| Time: 0:00:00  59.94 MB/s
+Extra===== testing package: sentimental-skk-0.0.146-py_0 =====
+import: u'sskk'
+import: u'sskk.canossa'
+import: u'sskk.canossa.canossa'
+import: u'sskk.canossa.canossa.termprop'
+import: u'sskk.canossa.canossa.termprop.termprop'
+import: u'sskk.canossa.canossa.termprop.termprop.db'
+import: u'sskk.canossa.canossa.termprop.termprop.db.iterm2'
+import: u'sskk.canossa.canossa.termprop.termprop.db.unicode6_2'
+import: u'sskk.canossa.canossa.tff'
+import: u'sskk.rule'
+===== sentimental-skk-0.0.146-py_0 OK =====
+cting packages ...
+[      COMPLETE      ]|                                                  |   0%[sentimental-skk     ]|                                                  |   0%[sentimental-skk     ]|                                                  |   0%[      COMPLETE      ]|##################################################| 100%
+Linking packages ...
+[      COMPLETE      ]|                                                  |   0%[openssl             ]|                                                  |   0%[openssl             ]|                                                  |   0%[readline            ]|####                                              |   9%[sqlite              ]|#########                                         |  18%[system              ]|#############                                     |  27%[tk                  ]|##################                                |  36%[zlib                ]|######################                            |  45%[python              ]|###########################                       |  54%[setuptools          ]|###############################                   |  63%[tff                 ]|####################################              |  72%[pip                 ]|########################################          |  81%[sentimental-skk     ]|#############################################     |  90%[      COMPLETE      ]|##################################################| 100%
+TEST END: sentimental-skk-0.0.146-py_0
+# If you want to upload this package to binstar.org later, type:
+#
+# $ binstar upload /home/ubuntu/miniconda/conda-bld/noarch/sentimental-skk-0.0.146-py_0.tar.bz2
+#
+# To have conda build upload to binstar automatically, use
+# $ conda config --set binstar_upload yes
+

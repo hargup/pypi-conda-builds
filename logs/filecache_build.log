@@ -1,0 +1,118 @@
+Removing old build directory
+Removing old work directory
+BUILD START: filecache-0.75-py_0
+Fetching package metadata: ......
+
+WARNING: conda-build appears to be out of date. You have version 1.13.0 but the
+latest version is 1.14.1. Run
+
+conda update -n root conda-build
+
+to get the latest version.
+
+Solving package specifications: .+ /home/ubuntu/miniconda/envs/_build/bin/python setup.py install
+running install
+running bdist_egg
+running egg_info
+writing filecache.egg-info/PKG-INFO
+writing top-level names to filecache.egg-info/top_level.txt
+writing dependency_links to filecache.egg-info/dependency_links.txt
+reading manifest file 'filecache.egg-info/SOURCES.txt'
+reading manifest template 'MANIFEST.in'
+warning: no files found matching '*.txt' under directory '.'
+warning: no files found matching '*.py' under directory '.'
+no previously-included directories found matching '*.cmd'
+writing manifest file 'filecache.egg-info/SOURCES.txt'
+installing library code to build/bdist.linux-x86_64/egg
+running install_lib
+running build_py
+creating build
+creating build/lib
+creating build/lib/filecache
+copying filecache/__init__.py -> build/lib/filecache
+creating build/bdist.linux-x86_64
+creating build/bdist.linux-x86_64/egg
+creating build/bdist.linux-x86_64/egg/filecache
+copying build/lib/filecache/__init__.py -> build/bdist.linux-x86_64/egg/filecache
+byte-compiling build/bdist.linux-x86_64/egg/filecache/__init__.py to __init__.pyc
+creating build/bdist.linux-x86_64/egg/EGG-INFO
+copying filecache.egg-info/PKG-INFO -> build/bdist.linux-x86_64/egg/EGG-INFO
+copying filecache.egg-info/SOURCES.txt -> build/bdist.linux-x86_64/egg/EGG-INFO
+copying filecache.egg-info/dependency_links.txt -> build/bdist.linux-x86_64/egg/EGG-INFO
+copying filecache.egg-info/top_level.txt -> build/bdist.linux-x86_64/egg/EGG-INFO
+zip_safe flag not set; analyzing archive contents...
+filecache.__init__: module references __file__
+creating dist
+creating 'dist/filecache-0.75-py2.7.egg' and adding 'build/bdist.linux-x86_64/egg' to it
+removing 'build/bdist.linux-x86_64/egg' (and everything under it)
+Processing filecache-0.75-py2.7.egg
+creating /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/filecache-0.75-py2.7.egg
+Extracting filecache-0.75-py2.7.egg to /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages
+Adding filecache 0.75 to easy-install.pth file
+
+Installed /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/filecache-0.75-py2.7.egg
+Processing dependencies for filecache==0.75
+Finished processing dependencies for filecache==0.75
+
+The following NEW packages will be INSTALLED:
+
+    openssl:    1.0.1k-1     
+    pip:        7.0.3-py27_0 
+    python:     2.7.10-0     
+    readline:   6.2-2        
+    setuptools: 18.0.1-py27_0
+    sqlite:     3.8.4.1-1    
+    system:     5.8-2        
+    tk:         8.5.18-0     
+    zlib:       1.2.8-0      
+
+Linking packages ...
+[                    ]|                                                  |   0%[openssl             ]|                                                  |   0%[readline            ]|#####                                             |  11%[sqlite              ]|###########                                       |  22%[system              ]|################                                  |  33%[tk                  ]|######################                            |  44%[zlib                ]|###########################                       |  55%[python              ]|#################################                 |  66%[setuptools          ]|######################################            |  77%[pip                 ]|############################################      |  88%[      COMPLETE      ]|##################################################| 100%
+Removing old work directory
+Source cache directory is: /home/ubuntu/miniconda/conda-bld/src_cache
+Found source in cache: filecache-0.75.zip
+Extracting download
+Package: filecache-0.75-py_0
+source tree in: /home/ubuntu/miniconda/conda-bld/work/filecache-0.75
+found egg dir: /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/filecache-0.75-py2.7.egg
+number of files: 3
+Fixing permissions
+Fixing permissions
+BUILD END: filecache-0.75-py_0
+TEST START: filecache-0.75-py_0
+Fetching package metadata: ......
+
+WARNING: conda-build appears to be out of date. You have version 1.13.0 but the
+latest version is 1.14.1. Run
+
+conda update -n root conda-build
+
+to get the latest version.
+
+Solving package specifications: ./home/ubuntu/miniconda/pkgs/filecache-0.75-py_0/bin/.filecache-pre-link.sh: line 2: /home/ubuntu/miniconda/envs/_test/bin/python: No such file or directory
+
+The following packages will be downloaded:
+
+    package                    |            build
+    ---------------------------|-----------------
+    filecache-0.75             |             py_0           5 KB
+
+The following NEW packages will be INSTALLED:
+
+    filecache:  0.75-py_0    
+    openssl:    1.0.1k-1     
+    pip:        7.0.3-py27_0 
+    python:     2.7.10-0     
+    readline:   6.2-2        
+    setuptools: 18.0.1-py27_0
+    sqlite:     3.8.4.1-1    
+    system:     5.8-2        
+    tk:         8.5.18-0     
+    zlib:       1.2.8-0      
+
+Fetching packages ...
+filecache-0.75   0% |                              | ETA:  --:--:--   0.00  B/sfilecache-0.75 100% |###############################| ETA:  0:00:00  14.50 MB/sfilecache-0.75 100% |###############################| Time: 0:00:00   8.03 MB/s
+Extracting packages ...
+[      COMPLETE      ]|                                                  |   0%[filecache           ]|                                                  |   0%[filecache           ]|                                                  |   0%[      COMPLETE      ]|##################################################| 100%
+Linking packages ...
+[      COMPLETE      ]|                                                  |   0%[openssl             ]|                                                  |   0%[openssl             ]|                                                  |   0%[readline            ]|#####                                             |  10%[sqlite              ]|##########                                        |  20%[system              ]|###############                                   |  30%[tk                  ]|####################                              |  40%[zlib                ]|#########################                         |  50%[filecache           ]|##############################                    |  60%Error: pre-link failed: filecache-0.75-py_0

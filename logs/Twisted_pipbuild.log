@@ -1,41 +1,32 @@
 Error: prefix already exists: /home/ubuntu/miniconda/envs/_pipbuild_
-Collecting Twisted==15.2.1
-  Could not find a version that satisfies the requirement Twisted==15.2.1 (from versions: 2.1.0, 9.0.0, 10.0.0, 10.1.0, 10.2.0, 11.0.0, 11.1.0, 12.0.0, 12.1.0, 12.2.0, 12.3.0, 13.0.0, 13.1.0, 13.2.0, 14.0.0, 14.0.1, 14.0.2, 15.0.0, 15.1.0)
-No matching distribution found for Twisted==15.2.1
+Exception:
+Traceback (most recent call last):
+  File "/home/ubuntu/miniconda/envs/_pipbuild_/lib/python2.7/site-packages/pip/basecommand.py", line 223, in main
+    status = self.run(options, args)
+  File "/home/ubuntu/miniconda/envs/_pipbuild_/lib/python2.7/site-packages/pip/commands/install.py", line 268, in run
+    wheel_cache
+  File "/home/ubuntu/miniconda/envs/_pipbuild_/lib/python2.7/site-packages/pip/basecommand.py", line 268, in populate_requirement_set
+    wheel_cache=wheel_cache
+  File "/home/ubuntu/miniconda/envs/_pipbuild_/lib/python2.7/site-packages/pip/req/req_install.py", line 207, in from_line
+    wheel_cache=wheel_cache)
+  File "/home/ubuntu/miniconda/envs/_pipbuild_/lib/python2.7/site-packages/pip/req/req_install.py", line 66, in __init__
+    req = pkg_resources.Requirement.parse(req)
+  File "/home/ubuntu/miniconda/envs/_pipbuild_/lib/python2.7/site-packages/pip/_vendor/pkg_resources/__init__.py", line 2960, in parse
+    reqs = list(parse_requirements(s))
+  File "/home/ubuntu/miniconda/envs/_pipbuild_/lib/python2.7/site-packages/pip/_vendor/pkg_resources/__init__.py", line 2904, in parse_requirements
+    "version spec")
+  File "/home/ubuntu/miniconda/envs/_pipbuild_/lib/python2.7/site-packages/pip/_vendor/pkg_resources/__init__.py", line 2869, in scan_list
+    raise ValueError(msg, line, "at", line[p:])
+ValueError: ('Expected version spec in', 'zope.interface==>=3.6.0', 'at', '==>=3.6.0')
+
 Package search: {'_pypi_ordering': False, 'version': '15.2.1', 'name': 'Twisted', 'summary': 'Twisted is an event-driven networking engine for Python.'}
 Creating standard recipe for twisted-15.2.1
-Using url https://pypi.python.org/packages/source/T/Twisted/Twisted-15.2.1.tar.bz2 (4.4 MB) for Twisted.
-Downloading Twisted
-Using cached download
-Unpacking Twisted...
-done
-working in /tmp/tmpwPaeT_conda_skeleton_Twisted-15.2.1.tar.bz2
-Fetching package metadata: ......
-
-WARNING: conda-build appears to be out of date. You have version 1.13.0 but the
-latest version is 1.14.0. Run
-
-conda update -n root conda-build
-
-to get the latest version.
-
-Solving package specifications: .patching file core.py
-Hunk #1 succeeded at 168 with fuzz 2 (offset 2 lines).
-Traceback (most recent call last):
-  File "setup.py", line 74, in <module>
-    main(sys.argv[1:])
-  File "setup.py", line 55, in main
-    from twisted.python.dist import (
-  File "./twisted/__init__.py", line 53, in <module>
-    _checkRequirements()
-  File "./twisted/__init__.py", line 37, in _checkRequirements
-    raise ImportError(required + ": no module named zope.interface.")
-ImportError: Twisted requires zope.interface 3.6.0 or later: no module named zope.interface.
-
-Applying patch: '/tmp/tmpwPaeT_conda_skeleton_Twisted-15.2.1.tar.bz2/pypi-distutils.patch'
-$PYTHONPATH = /tmp/tmpwPaeT_conda_skeleton_Twisted-15.2.1.tar.bz2/Twisted-15.2.1
-Error: command failed: /home/ubuntu/miniconda/envs/_build/bin/python setup.py install
+Converting recipe in /home/ubuntu/pypi-conda-builds/twisted
+package = Twisted
+   dependencies = [u'zope.interface >=3.6.0']
+Creating standard recipe for zope.interface->=3.6.0
+Error: Version >=3.6.0 of zope.interface is not available on PyPI.
 
 conda create -n _pipbuild_ --yes python pip
-/home/ubuntu/miniconda/envs/_pipbuild_/bin/pip install Twisted==15.2.1
-Error: Could not pip install Twisted==15.2.1
+/home/ubuntu/miniconda/envs/_pipbuild_/bin/pip install zope.interface==>=3.6.0
+Error: Could not pip install zope.interface==>=3.6.0

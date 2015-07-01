@@ -1,0 +1,282 @@
+Removing old build directory
+Removing old work directory
+BUILD START: django-bootstrap-toolkit-2.15.0-py_0
+Fetching package metadata: ......
+
+WARNING: conda-build appears to be out of date. You have version 1.13.0 but the
+latest version is 1.14.1. Run
+
+conda update -n root conda-build
+
+to get the latest version.
+
+Solving package specifications: .+ /home/ubuntu/miniconda/envs/_build/bin/python setup.py install
+running install
+running bdist_egg
+running egg_info
+writing django_bootstrap_toolkit.egg-info/PKG-INFO
+writing top-level names to django_bootstrap_toolkit.egg-info/top_level.txt
+writing dependency_links to django_bootstrap_toolkit.egg-info/dependency_links.txt
+reading manifest file 'django_bootstrap_toolkit.egg-info/SOURCES.txt'
+reading manifest template 'MANIFEST.in'
+warning: no previously-included files matching '.DS_Store' found under directory '*'
+writing manifest file 'django_bootstrap_toolkit.egg-info/SOURCES.txt'
+installing library code to build/bdist.linux-x86_64/egg
+running install_lib
+running build_py
+creating build
+creating build/lib
+creating build/lib/bootstrap_toolkit
+copying bootstrap_toolkit/_version.py -> build/lib/bootstrap_toolkit
+copying bootstrap_toolkit/widgets.py -> build/lib/bootstrap_toolkit
+copying bootstrap_toolkit/__init__.py -> build/lib/bootstrap_toolkit
+creating build/lib/bootstrap_toolkit/templatetags
+copying bootstrap_toolkit/templatetags/bootstrap_toolkit.py -> build/lib/bootstrap_toolkit/templatetags
+copying bootstrap_toolkit/templatetags/__init__.py -> build/lib/bootstrap_toolkit/templatetags
+creating build/lib/bootstrap_toolkit/static
+creating build/lib/bootstrap_toolkit/static/bootstrap_toolkit
+creating build/lib/bootstrap_toolkit/static/bootstrap_toolkit/js
+copying bootstrap_toolkit/static/bootstrap_toolkit/js/init_datepicker.js -> build/lib/bootstrap_toolkit/static/bootstrap_toolkit/js
+creating build/lib/bootstrap_toolkit/static/datepicker
+creating build/lib/bootstrap_toolkit/static/datepicker/css
+copying bootstrap_toolkit/static/datepicker/css/datepicker.css -> build/lib/bootstrap_toolkit/static/datepicker/css
+creating build/lib/bootstrap_toolkit/static/datepicker/js
+copying bootstrap_toolkit/static/datepicker/js/bootstrap-datepicker.js -> build/lib/bootstrap_toolkit/static/datepicker/js
+creating build/lib/bootstrap_toolkit/static/datepicker/js/locales
+copying bootstrap_toolkit/static/datepicker/js/locales/bootstrap-datepicker.ar.js -> build/lib/bootstrap_toolkit/static/datepicker/js/locales
+copying bootstrap_toolkit/static/datepicker/js/locales/bootstrap-datepicker.bg.js -> build/lib/bootstrap_toolkit/static/datepicker/js/locales
+copying bootstrap_toolkit/static/datepicker/js/locales/bootstrap-datepicker.ca.js -> build/lib/bootstrap_toolkit/static/datepicker/js/locales
+copying bootstrap_toolkit/static/datepicker/js/locales/bootstrap-datepicker.cs.js -> build/lib/bootstrap_toolkit/static/datepicker/js/locales
+copying bootstrap_toolkit/static/datepicker/js/locales/bootstrap-datepicker.da.js -> build/lib/bootstrap_toolkit/static/datepicker/js/locales
+copying bootstrap_toolkit/static/datepicker/js/locales/bootstrap-datepicker.de.js -> build/lib/bootstrap_toolkit/static/datepicker/js/locales
+copying bootstrap_toolkit/static/datepicker/js/locales/bootstrap-datepicker.el.js -> build/lib/bootstrap_toolkit/static/datepicker/js/locales
+copying bootstrap_toolkit/static/datepicker/js/locales/bootstrap-datepicker.es.js -> build/lib/bootstrap_toolkit/static/datepicker/js/locales
+copying bootstrap_toolkit/static/datepicker/js/locales/bootstrap-datepicker.et.js -> build/lib/bootstrap_toolkit/static/datepicker/js/locales
+copying bootstrap_toolkit/static/datepicker/js/locales/bootstrap-datepicker.fi.js -> build/lib/bootstrap_toolkit/static/datepicker/js/locales
+copying bootstrap_toolkit/static/datepicker/js/locales/bootstrap-datepicker.fr.js -> build/lib/bootstrap_toolkit/static/datepicker/js/locales
+copying bootstrap_toolkit/static/datepicker/js/locales/bootstrap-datepicker.he.js -> build/lib/bootstrap_toolkit/static/datepicker/js/locales
+copying bootstrap_toolkit/static/datepicker/js/locales/bootstrap-datepicker.hr.js -> build/lib/bootstrap_toolkit/static/datepicker/js/locales
+copying bootstrap_toolkit/static/datepicker/js/locales/bootstrap-datepicker.hu.js -> build/lib/bootstrap_toolkit/static/datepicker/js/locales
+copying bootstrap_toolkit/static/datepicker/js/locales/bootstrap-datepicker.id.js -> build/lib/bootstrap_toolkit/static/datepicker/js/locales
+copying bootstrap_toolkit/static/datepicker/js/locales/bootstrap-datepicker.is.js -> build/lib/bootstrap_toolkit/static/datepicker/js/locales
+copying bootstrap_toolkit/static/datepicker/js/locales/bootstrap-datepicker.it.js -> build/lib/bootstrap_toolkit/static/datepicker/js/locales
+copying bootstrap_toolkit/static/datepicker/js/locales/bootstrap-datepicker.ja.js -> build/lib/bootstrap_toolkit/static/datepicker/js/locales
+copying bootstrap_toolkit/static/datepicker/js/locales/bootstrap-datepicker.kr.js -> build/lib/bootstrap_toolkit/static/datepicker/js/locales
+copying bootstrap_toolkit/static/datepicker/js/locales/bootstrap-datepicker.lt.js -> build/lib/bootstrap_toolkit/static/datepicker/js/locales
+copying bootstrap_toolkit/static/datepicker/js/locales/bootstrap-datepicker.lv.js -> build/lib/bootstrap_toolkit/static/datepicker/js/locales
+copying bootstrap_toolkit/static/datepicker/js/locales/bootstrap-datepicker.mk.js -> build/lib/bootstrap_toolkit/static/datepicker/js/locales
+copying bootstrap_toolkit/static/datepicker/js/locales/bootstrap-datepicker.ms.js -> build/lib/bootstrap_toolkit/static/datepicker/js/locales
+copying bootstrap_toolkit/static/datepicker/js/locales/bootstrap-datepicker.nb.js -> build/lib/bootstrap_toolkit/static/datepicker/js/locales
+copying bootstrap_toolkit/static/datepicker/js/locales/bootstrap-datepicker.nl.js -> build/lib/bootstrap_toolkit/static/datepicker/js/locales
+copying bootstrap_toolkit/static/datepicker/js/locales/bootstrap-datepicker.pl.js -> build/lib/bootstrap_toolkit/static/datepicker/js/locales
+copying bootstrap_toolkit/static/datepicker/js/locales/bootstrap-datepicker.pt-BR.js -> build/lib/bootstrap_toolkit/static/datepicker/js/locales
+copying bootstrap_toolkit/static/datepicker/js/locales/bootstrap-datepicker.pt.js -> build/lib/bootstrap_toolkit/static/datepicker/js/locales
+copying bootstrap_toolkit/static/datepicker/js/locales/bootstrap-datepicker.ro.js -> build/lib/bootstrap_toolkit/static/datepicker/js/locales
+copying bootstrap_toolkit/static/datepicker/js/locales/bootstrap-datepicker.rs-latin.js -> build/lib/bootstrap_toolkit/static/datepicker/js/locales
+copying bootstrap_toolkit/static/datepicker/js/locales/bootstrap-datepicker.rs.js -> build/lib/bootstrap_toolkit/static/datepicker/js/locales
+copying bootstrap_toolkit/static/datepicker/js/locales/bootstrap-datepicker.ru.js -> build/lib/bootstrap_toolkit/static/datepicker/js/locales
+copying bootstrap_toolkit/static/datepicker/js/locales/bootstrap-datepicker.sk.js -> build/lib/bootstrap_toolkit/static/datepicker/js/locales
+copying bootstrap_toolkit/static/datepicker/js/locales/bootstrap-datepicker.sl.js -> build/lib/bootstrap_toolkit/static/datepicker/js/locales
+copying bootstrap_toolkit/static/datepicker/js/locales/bootstrap-datepicker.sq.js -> build/lib/bootstrap_toolkit/static/datepicker/js/locales
+copying bootstrap_toolkit/static/datepicker/js/locales/bootstrap-datepicker.sv.js -> build/lib/bootstrap_toolkit/static/datepicker/js/locales
+copying bootstrap_toolkit/static/datepicker/js/locales/bootstrap-datepicker.sw.js -> build/lib/bootstrap_toolkit/static/datepicker/js/locales
+copying bootstrap_toolkit/static/datepicker/js/locales/bootstrap-datepicker.th.js -> build/lib/bootstrap_toolkit/static/datepicker/js/locales
+copying bootstrap_toolkit/static/datepicker/js/locales/bootstrap-datepicker.tr.js -> build/lib/bootstrap_toolkit/static/datepicker/js/locales
+copying bootstrap_toolkit/static/datepicker/js/locales/bootstrap-datepicker.uk.js -> build/lib/bootstrap_toolkit/static/datepicker/js/locales
+copying bootstrap_toolkit/static/datepicker/js/locales/bootstrap-datepicker.zh-CN.js -> build/lib/bootstrap_toolkit/static/datepicker/js/locales
+copying bootstrap_toolkit/static/datepicker/js/locales/bootstrap-datepicker.zh-TW.js -> build/lib/bootstrap_toolkit/static/datepicker/js/locales
+creating build/lib/bootstrap_toolkit/templates
+creating build/lib/bootstrap_toolkit/templates/bootstrap_toolkit
+copying bootstrap_toolkit/templates/bootstrap_toolkit/button.html -> build/lib/bootstrap_toolkit/templates/bootstrap_toolkit
+copying bootstrap_toolkit/templates/bootstrap_toolkit/field.html -> build/lib/bootstrap_toolkit/templates/bootstrap_toolkit
+copying bootstrap_toolkit/templates/bootstrap_toolkit/field_checkbox.html -> build/lib/bootstrap_toolkit/templates/bootstrap_toolkit
+copying bootstrap_toolkit/templates/bootstrap_toolkit/field_choices.html -> build/lib/bootstrap_toolkit/templates/bootstrap_toolkit
+copying bootstrap_toolkit/templates/bootstrap_toolkit/field_default.html -> build/lib/bootstrap_toolkit/templates/bootstrap_toolkit
+copying bootstrap_toolkit/templates/bootstrap_toolkit/field_errors.html -> build/lib/bootstrap_toolkit/templates/bootstrap_toolkit
+copying bootstrap_toolkit/templates/bootstrap_toolkit/field_help.html -> build/lib/bootstrap_toolkit/templates/bootstrap_toolkit
+copying bootstrap_toolkit/templates/bootstrap_toolkit/field_horizontal.html -> build/lib/bootstrap_toolkit/templates/bootstrap_toolkit
+copying bootstrap_toolkit/templates/bootstrap_toolkit/field_inline.html -> build/lib/bootstrap_toolkit/templates/bootstrap_toolkit
+copying bootstrap_toolkit/templates/bootstrap_toolkit/field_prepend_append.html -> build/lib/bootstrap_toolkit/templates/bootstrap_toolkit
+copying bootstrap_toolkit/templates/bootstrap_toolkit/field_search.html -> build/lib/bootstrap_toolkit/templates/bootstrap_toolkit
+copying bootstrap_toolkit/templates/bootstrap_toolkit/field_vertical.html -> build/lib/bootstrap_toolkit/templates/bootstrap_toolkit
+copying bootstrap_toolkit/templates/bootstrap_toolkit/field_visible.html -> build/lib/bootstrap_toolkit/templates/bootstrap_toolkit
+copying bootstrap_toolkit/templates/bootstrap_toolkit/form.html -> build/lib/bootstrap_toolkit/templates/bootstrap_toolkit
+copying bootstrap_toolkit/templates/bootstrap_toolkit/formset.html -> build/lib/bootstrap_toolkit/templates/bootstrap_toolkit
+copying bootstrap_toolkit/templates/bootstrap_toolkit/icon.html -> build/lib/bootstrap_toolkit/templates/bootstrap_toolkit
+copying bootstrap_toolkit/templates/bootstrap_toolkit/messages.html -> build/lib/bootstrap_toolkit/templates/bootstrap_toolkit
+copying bootstrap_toolkit/templates/bootstrap_toolkit/nav.html -> build/lib/bootstrap_toolkit/templates/bootstrap_toolkit
+copying bootstrap_toolkit/templates/bootstrap_toolkit/non_field_error.html -> build/lib/bootstrap_toolkit/templates/bootstrap_toolkit
+copying bootstrap_toolkit/templates/bootstrap_toolkit/non_field_errors.html -> build/lib/bootstrap_toolkit/templates/bootstrap_toolkit
+copying bootstrap_toolkit/templates/bootstrap_toolkit/pagination.html -> build/lib/bootstrap_toolkit/templates/bootstrap_toolkit
+copying bootstrap_toolkit/templates/bootstrap_toolkit/pills.html -> build/lib/bootstrap_toolkit/templates/bootstrap_toolkit
+copying bootstrap_toolkit/templates/bootstrap_toolkit/tabs.html -> build/lib/bootstrap_toolkit/templates/bootstrap_toolkit
+creating build/bdist.linux-x86_64
+creating build/bdist.linux-x86_64/egg
+creating build/bdist.linux-x86_64/egg/bootstrap_toolkit
+copying build/lib/bootstrap_toolkit/_version.py -> build/bdist.linux-x86_64/egg/bootstrap_toolkit
+copying build/lib/bootstrap_toolkit/widgets.py -> build/bdist.linux-x86_64/egg/bootstrap_toolkit
+creating build/bdist.linux-x86_64/egg/bootstrap_toolkit/templates
+creating build/bdist.linux-x86_64/egg/bootstrap_toolkit/templates/bootstrap_toolkit
+copying build/lib/bootstrap_toolkit/templates/bootstrap_toolkit/field_inline.html -> build/bdist.linux-x86_64/egg/bootstrap_toolkit/templates/bootstrap_toolkit
+copying build/lib/bootstrap_toolkit/templates/bootstrap_toolkit/formset.html -> build/bdist.linux-x86_64/egg/bootstrap_toolkit/templates/bootstrap_toolkit
+copying build/lib/bootstrap_toolkit/templates/bootstrap_toolkit/pills.html -> build/bdist.linux-x86_64/egg/bootstrap_toolkit/templates/bootstrap_toolkit
+copying build/lib/bootstrap_toolkit/templates/bootstrap_toolkit/non_field_errors.html -> build/bdist.linux-x86_64/egg/bootstrap_toolkit/templates/bootstrap_toolkit
+copying build/lib/bootstrap_toolkit/templates/bootstrap_toolkit/form.html -> build/bdist.linux-x86_64/egg/bootstrap_toolkit/templates/bootstrap_toolkit
+copying build/lib/bootstrap_toolkit/templates/bootstrap_toolkit/field.html -> build/bdist.linux-x86_64/egg/bootstrap_toolkit/templates/bootstrap_toolkit
+copying build/lib/bootstrap_toolkit/templates/bootstrap_toolkit/field_help.html -> build/bdist.linux-x86_64/egg/bootstrap_toolkit/templates/bootstrap_toolkit
+copying build/lib/bootstrap_toolkit/templates/bootstrap_toolkit/field_vertical.html -> build/bdist.linux-x86_64/egg/bootstrap_toolkit/templates/bootstrap_toolkit
+copying build/lib/bootstrap_toolkit/templates/bootstrap_toolkit/icon.html -> build/bdist.linux-x86_64/egg/bootstrap_toolkit/templates/bootstrap_toolkit
+copying build/lib/bootstrap_toolkit/templates/bootstrap_toolkit/button.html -> build/bdist.linux-x86_64/egg/bootstrap_toolkit/templates/bootstrap_toolkit
+copying build/lib/bootstrap_toolkit/templates/bootstrap_toolkit/field_choices.html -> build/bdist.linux-x86_64/egg/bootstrap_toolkit/templates/bootstrap_toolkit
+copying build/lib/bootstrap_toolkit/templates/bootstrap_toolkit/tabs.html -> build/bdist.linux-x86_64/egg/bootstrap_toolkit/templates/bootstrap_toolkit
+copying build/lib/bootstrap_toolkit/templates/bootstrap_toolkit/field_default.html -> build/bdist.linux-x86_64/egg/bootstrap_toolkit/templates/bootstrap_toolkit
+copying build/lib/bootstrap_toolkit/templates/bootstrap_toolkit/field_visible.html -> build/bdist.linux-x86_64/egg/bootstrap_toolkit/templates/bootstrap_toolkit
+copying build/lib/bootstrap_toolkit/templates/bootstrap_toolkit/pagination.html -> build/bdist.linux-x86_64/egg/bootstrap_toolkit/templates/bootstrap_toolkit
+copying build/lib/bootstrap_toolkit/templates/bootstrap_toolkit/nav.html -> build/bdist.linux-x86_64/egg/bootstrap_toolkit/templates/bootstrap_toolkit
+copying build/lib/bootstrap_toolkit/templates/bootstrap_toolkit/non_field_error.html -> build/bdist.linux-x86_64/egg/bootstrap_toolkit/templates/bootstrap_toolkit
+copying build/lib/bootstrap_toolkit/templates/bootstrap_toolkit/field_checkbox.html -> build/bdist.linux-x86_64/egg/bootstrap_toolkit/templates/bootstrap_toolkit
+copying build/lib/bootstrap_toolkit/templates/bootstrap_toolkit/field_horizontal.html -> build/bdist.linux-x86_64/egg/bootstrap_toolkit/templates/bootstrap_toolkit
+copying build/lib/bootstrap_toolkit/templates/bootstrap_toolkit/field_search.html -> build/bdist.linux-x86_64/egg/bootstrap_toolkit/templates/bootstrap_toolkit
+copying build/lib/bootstrap_toolkit/templates/bootstrap_toolkit/field_errors.html -> build/bdist.linux-x86_64/egg/bootstrap_toolkit/templates/bootstrap_toolkit
+copying build/lib/bootstrap_toolkit/templates/bootstrap_toolkit/messages.html -> build/bdist.linux-x86_64/egg/bootstrap_toolkit/templates/bootstrap_toolkit
+copying build/lib/bootstrap_toolkit/templates/bootstrap_toolkit/field_prepend_append.html -> build/bdist.linux-x86_64/egg/bootstrap_toolkit/templates/bootstrap_toolkit
+creating build/bdist.linux-x86_64/egg/bootstrap_toolkit/templatetags
+copying build/lib/bootstrap_toolkit/templatetags/bootstrap_toolkit.py -> build/bdist.linux-x86_64/egg/bootstrap_toolkit/templatetags
+copying build/lib/bootstrap_toolkit/templatetags/__init__.py -> build/bdist.linux-x86_64/egg/bootstrap_toolkit/templatetags
+creating build/bdist.linux-x86_64/egg/bootstrap_toolkit/static
+creating build/bdist.linux-x86_64/egg/bootstrap_toolkit/static/datepicker
+creating build/bdist.linux-x86_64/egg/bootstrap_toolkit/static/datepicker/css
+copying build/lib/bootstrap_toolkit/static/datepicker/css/datepicker.css -> build/bdist.linux-x86_64/egg/bootstrap_toolkit/static/datepicker/css
+creating build/bdist.linux-x86_64/egg/bootstrap_toolkit/static/datepicker/js
+creating build/bdist.linux-x86_64/egg/bootstrap_toolkit/static/datepicker/js/locales
+copying build/lib/bootstrap_toolkit/static/datepicker/js/locales/bootstrap-datepicker.rs.js -> build/bdist.linux-x86_64/egg/bootstrap_toolkit/static/datepicker/js/locales
+copying build/lib/bootstrap_toolkit/static/datepicker/js/locales/bootstrap-datepicker.tr.js -> build/bdist.linux-x86_64/egg/bootstrap_toolkit/static/datepicker/js/locales
+copying build/lib/bootstrap_toolkit/static/datepicker/js/locales/bootstrap-datepicker.sk.js -> build/bdist.linux-x86_64/egg/bootstrap_toolkit/static/datepicker/js/locales
+copying build/lib/bootstrap_toolkit/static/datepicker/js/locales/bootstrap-datepicker.pt.js -> build/bdist.linux-x86_64/egg/bootstrap_toolkit/static/datepicker/js/locales
+copying build/lib/bootstrap_toolkit/static/datepicker/js/locales/bootstrap-datepicker.is.js -> build/bdist.linux-x86_64/egg/bootstrap_toolkit/static/datepicker/js/locales
+copying build/lib/bootstrap_toolkit/static/datepicker/js/locales/bootstrap-datepicker.hu.js -> build/bdist.linux-x86_64/egg/bootstrap_toolkit/static/datepicker/js/locales
+copying build/lib/bootstrap_toolkit/static/datepicker/js/locales/bootstrap-datepicker.ca.js -> build/bdist.linux-x86_64/egg/bootstrap_toolkit/static/datepicker/js/locales
+copying build/lib/bootstrap_toolkit/static/datepicker/js/locales/bootstrap-datepicker.de.js -> build/bdist.linux-x86_64/egg/bootstrap_toolkit/static/datepicker/js/locales
+copying build/lib/bootstrap_toolkit/static/datepicker/js/locales/bootstrap-datepicker.cs.js -> build/bdist.linux-x86_64/egg/bootstrap_toolkit/static/datepicker/js/locales
+copying build/lib/bootstrap_toolkit/static/datepicker/js/locales/bootstrap-datepicker.pt-BR.js -> build/bdist.linux-x86_64/egg/bootstrap_toolkit/static/datepicker/js/locales
+copying build/lib/bootstrap_toolkit/static/datepicker/js/locales/bootstrap-datepicker.lv.js -> build/bdist.linux-x86_64/egg/bootstrap_toolkit/static/datepicker/js/locales
+copying build/lib/bootstrap_toolkit/static/datepicker/js/locales/bootstrap-datepicker.zh-TW.js -> build/bdist.linux-x86_64/egg/bootstrap_toolkit/static/datepicker/js/locales
+copying build/lib/bootstrap_toolkit/static/datepicker/js/locales/bootstrap-datepicker.kr.js -> build/bdist.linux-x86_64/egg/bootstrap_toolkit/static/datepicker/js/locales
+copying build/lib/bootstrap_toolkit/static/datepicker/js/locales/bootstrap-datepicker.fi.js -> build/bdist.linux-x86_64/egg/bootstrap_toolkit/static/datepicker/js/locales
+copying build/lib/bootstrap_toolkit/static/datepicker/js/locales/bootstrap-datepicker.th.js -> build/bdist.linux-x86_64/egg/bootstrap_toolkit/static/datepicker/js/locales
+copying build/lib/bootstrap_toolkit/static/datepicker/js/locales/bootstrap-datepicker.bg.js -> build/bdist.linux-x86_64/egg/bootstrap_toolkit/static/datepicker/js/locales
+copying build/lib/bootstrap_toolkit/static/datepicker/js/locales/bootstrap-datepicker.rs-latin.js -> build/bdist.linux-x86_64/egg/bootstrap_toolkit/static/datepicker/js/locales
+copying build/lib/bootstrap_toolkit/static/datepicker/js/locales/bootstrap-datepicker.zh-CN.js -> build/bdist.linux-x86_64/egg/bootstrap_toolkit/static/datepicker/js/locales
+copying build/lib/bootstrap_toolkit/static/datepicker/js/locales/bootstrap-datepicker.pl.js -> build/bdist.linux-x86_64/egg/bootstrap_toolkit/static/datepicker/js/locales
+copying build/lib/bootstrap_toolkit/static/datepicker/js/locales/bootstrap-datepicker.el.js -> build/bdist.linux-x86_64/egg/bootstrap_toolkit/static/datepicker/js/locales
+copying build/lib/bootstrap_toolkit/static/datepicker/js/locales/bootstrap-datepicker.id.js -> build/bdist.linux-x86_64/egg/bootstrap_toolkit/static/datepicker/js/locales
+copying build/lib/bootstrap_toolkit/static/datepicker/js/locales/bootstrap-datepicker.it.js -> build/bdist.linux-x86_64/egg/bootstrap_toolkit/static/datepicker/js/locales
+copying build/lib/bootstrap_toolkit/static/datepicker/js/locales/bootstrap-datepicker.uk.js -> build/bdist.linux-x86_64/egg/bootstrap_toolkit/static/datepicker/js/locales
+copying build/lib/bootstrap_toolkit/static/datepicker/js/locales/bootstrap-datepicker.nb.js -> build/bdist.linux-x86_64/egg/bootstrap_toolkit/static/datepicker/js/locales
+copying build/lib/bootstrap_toolkit/static/datepicker/js/locales/bootstrap-datepicker.et.js -> build/bdist.linux-x86_64/egg/bootstrap_toolkit/static/datepicker/js/locales
+copying build/lib/bootstrap_toolkit/static/datepicker/js/locales/bootstrap-datepicker.ms.js -> build/bdist.linux-x86_64/egg/bootstrap_toolkit/static/datepicker/js/locales
+copying build/lib/bootstrap_toolkit/static/datepicker/js/locales/bootstrap-datepicker.ar.js -> build/bdist.linux-x86_64/egg/bootstrap_toolkit/static/datepicker/js/locales
+copying build/lib/bootstrap_toolkit/static/datepicker/js/locales/bootstrap-datepicker.mk.js -> build/bdist.linux-x86_64/egg/bootstrap_toolkit/static/datepicker/js/locales
+copying build/lib/bootstrap_toolkit/static/datepicker/js/locales/bootstrap-datepicker.hr.js -> build/bdist.linux-x86_64/egg/bootstrap_toolkit/static/datepicker/js/locales
+copying build/lib/bootstrap_toolkit/static/datepicker/js/locales/bootstrap-datepicker.es.js -> build/bdist.linux-x86_64/egg/bootstrap_toolkit/static/datepicker/js/locales
+copying build/lib/bootstrap_toolkit/static/datepicker/js/locales/bootstrap-datepicker.lt.js -> build/bdist.linux-x86_64/egg/bootstrap_toolkit/static/datepicker/js/locales
+copying build/lib/bootstrap_toolkit/static/datepicker/js/locales/bootstrap-datepicker.ru.js -> build/bdist.linux-x86_64/egg/bootstrap_toolkit/static/datepicker/js/locales
+copying build/lib/bootstrap_toolkit/static/datepicker/js/locales/bootstrap-datepicker.da.js -> build/bdist.linux-x86_64/egg/bootstrap_toolkit/static/datepicker/js/locales
+copying build/lib/bootstrap_toolkit/static/datepicker/js/locales/bootstrap-datepicker.sq.js -> build/bdist.linux-x86_64/egg/bootstrap_toolkit/static/datepicker/js/locales
+copying build/lib/bootstrap_toolkit/static/datepicker/js/locales/bootstrap-datepicker.nl.js -> build/bdist.linux-x86_64/egg/bootstrap_toolkit/static/datepicker/js/locales
+copying build/lib/bootstrap_toolkit/static/datepicker/js/locales/bootstrap-datepicker.he.js -> build/bdist.linux-x86_64/egg/bootstrap_toolkit/static/datepicker/js/locales
+copying build/lib/bootstrap_toolkit/static/datepicker/js/locales/bootstrap-datepicker.sl.js -> build/bdist.linux-x86_64/egg/bootstrap_toolkit/static/datepicker/js/locales
+copying build/lib/bootstrap_toolkit/static/datepicker/js/locales/bootstrap-datepicker.fr.js -> build/bdist.linux-x86_64/egg/bootstrap_toolkit/static/datepicker/js/locales
+copying build/lib/bootstrap_toolkit/static/datepicker/js/locales/bootstrap-datepicker.sw.js -> build/bdist.linux-x86_64/egg/bootstrap_toolkit/static/datepicker/js/locales
+copying build/lib/bootstrap_toolkit/static/datepicker/js/locales/bootstrap-datepicker.ro.js -> build/bdist.linux-x86_64/egg/bootstrap_toolkit/static/datepicker/js/locales
+copying build/lib/bootstrap_toolkit/static/datepicker/js/locales/bootstrap-datepicker.ja.js -> build/bdist.linux-x86_64/egg/bootstrap_toolkit/static/datepicker/js/locales
+copying build/lib/bootstrap_toolkit/static/datepicker/js/locales/bootstrap-datepicker.sv.js -> build/bdist.linux-x86_64/egg/bootstrap_toolkit/static/datepicker/js/locales
+copying build/lib/bootstrap_toolkit/static/datepicker/js/bootstrap-datepicker.js -> build/bdist.linux-x86_64/egg/bootstrap_toolkit/static/datepicker/js
+creating build/bdist.linux-x86_64/egg/bootstrap_toolkit/static/bootstrap_toolkit
+creating build/bdist.linux-x86_64/egg/bootstrap_toolkit/static/bootstrap_toolkit/js
+copying build/lib/bootstrap_toolkit/static/bootstrap_toolkit/js/init_datepicker.js -> build/bdist.linux-x86_64/egg/bootstrap_toolkit/static/bootstrap_toolkit/js
+copying build/lib/bootstrap_toolkit/__init__.py -> build/bdist.linux-x86_64/egg/bootstrap_toolkit
+byte-compiling build/bdist.linux-x86_64/egg/bootstrap_toolkit/_version.py to _version.pyc
+byte-compiling build/bdist.linux-x86_64/egg/bootstrap_toolkit/widgets.py to widgets.pyc
+byte-compiling build/bdist.linux-x86_64/egg/bootstrap_toolkit/templatetags/bootstrap_toolkit.py to bootstrap_toolkit.pyc
+byte-compiling build/bdist.linux-x86_64/egg/bootstrap_toolkit/templatetags/__init__.py to __init__.pyc
+byte-compiling build/bdist.linux-x86_64/egg/bootstrap_toolkit/__init__.py to __init__.pyc
+creating build/bdist.linux-x86_64/egg/EGG-INFO
+copying django_bootstrap_toolkit.egg-info/PKG-INFO -> build/bdist.linux-x86_64/egg/EGG-INFO
+copying django_bootstrap_toolkit.egg-info/SOURCES.txt -> build/bdist.linux-x86_64/egg/EGG-INFO
+copying django_bootstrap_toolkit.egg-info/dependency_links.txt -> build/bdist.linux-x86_64/egg/EGG-INFO
+copying django_bootstrap_toolkit.egg-info/top_level.txt -> build/bdist.linux-x86_64/egg/EGG-INFO
+zip_safe flag not set; analyzing archive contents...
+creating dist
+creating 'dist/django_bootstrap_toolkit-2.15.0-py2.7.egg' and adding 'build/bdist.linux-x86_64/egg' to it
+removing 'build/bdist.linux-x86_64/egg' (and everything under it)
+Processing django_bootstrap_toolkit-2.15.0-py2.7.egg
+Copying django_bootstrap_toolkit-2.15.0-py2.7.egg to /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages
+Adding django-bootstrap-toolkit 2.15.0 to easy-install.pth file
+
+Installed /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/django_bootstrap_toolkit-2.15.0-py2.7.egg
+Processing dependencies for django-bootstrap-toolkit==2.15.0
+Finished processing dependencies for django-bootstrap-toolkit==2.15.0
+
+The following NEW packages will be INSTALLED:
+
+    openssl:    1.0.1k-1     
+    pip:        7.0.3-py27_0 
+    python:     2.7.10-0     
+    readline:   6.2-2        
+    setuptools: 18.0.1-py27_0
+    sqlite:     3.8.4.1-1    
+    system:     5.8-2        
+    tk:         8.5.18-0     
+    zlib:       1.2.8-0      
+
+Linking packages ...
+[                    ]|                                                  |   0%[openssl             ]|                                                  |   0%[readline            ]|#####                                             |  11%[sqlite              ]|###########                                       |  22%[system              ]|################                                  |  33%[tk                  ]|######################                            |  44%[zlib                ]|###########################                       |  55%[python              ]|#################################                 |  66%[setuptools          ]|######################################            |  77%[pip                 ]|############################################      |  88%[      COMPLETE      ]|##################################################| 100%
+Removing old work directory
+Source cache directory is: /home/ubuntu/miniconda/conda-bld/src_cache
+Found source in cache: django-bootstrap-toolkit-2.15.0.tar.gz
+Extracting download
+Package: django-bootstrap-toolkit-2.15.0-py_0
+source tree in: /home/ubuntu/miniconda/conda-bld/work/django-bootstrap-toolkit-2.15.0
+found egg: /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/django_bootstrap_toolkit-2.15.0-py2.7.egg
+number of files: 2
+Fixing permissions
+Fixing permissions
+BUILD END: django-bootstrap-toolkit-2.15.0-py_0
+TEST START: django-bootstrap-toolkit-2.15.0-py_0
+Fetching package metadata: ......
+
+WARNING: conda-build appears to be out of date. You have version 1.13.0 but the
+latest version is 1.14.1. Run
+
+conda update -n root conda-build
+
+to get the latest version.
+
+Solving package specifications: ./home/ubuntu/miniconda/pkgs/django-bootstrap-toolkit-2.15.0-py_0/bin/.django-bootstrap-toolkit-pre-link.sh: line 2: /home/ubuntu/miniconda/envs/_test/bin/python: No such file or directory
+
+The following packages will be downloaded:
+
+    package                    |            build
+    ---------------------------|-----------------
+    django-bootstrap-toolkit-2.15.0|             py_0          49 KB
+
+The following NEW packages will be INSTALLED:
+
+    django-bootstrap-toolkit: 2.15.0-py_0  
+    openssl:                  1.0.1k-1     
+    pip:                      7.0.3-py27_0 
+    python:                   2.7.10-0     
+    readline:                 6.2-2        
+    setuptools:               18.0.1-py27_0
+    sqlite:                   3.8.4.1-1    
+    system:                   5.8-2        
+    tk:                       8.5.18-0     
+    zlib:                     1.2.8-0      
+
+Fetching packages ...
+django-bootstr   0% |                              | ETA:  --:--:--   0.00  B/sdjango-bootstr  32% |##########                     | ETA:  0:00:00  47.62 MB/sdjango-bootstr  65% |####################           | ETA:  0:00:00  58.91 MB/sdjango-bootstr  97% |############################## | ETA:  0:00:00  65.89 MB/sdjango-bootstr 100% |###############################| ETA:  0:00:00  56.56 MB/sdjango-bootstr 100% |###############################| Time: 0:00:00  45.86 MB/s
+Extracting packages ...
+[      COMPLETE      ]|                                                  |   0%[django-bootstrap-toolkit]|                                              |   0%[django-bootstrap-toolkit]|                                              |   0%[      COMPLETE      ]|##################################################| 100%
+Linking packages ...
+[      COMPLETE      ]|                                                  |   0%[openssl             ]|                                                  |   0%[openssl             ]|                                                  |   0%[readline            ]|#####                                             |  10%[sqlite              ]|##########                                        |  20%[system              ]|###############                                   |  30%[tk                  ]|####################                              |  40%[zlib                ]|#########################                         |  50%[django-bootstrap-toolkit]|###########################                   |  60%Error: pre-link failed: django-bootstrap-toolkit-2.15.0-py_0

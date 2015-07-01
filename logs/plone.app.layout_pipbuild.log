@@ -1,0 +1,36 @@
+Error: prefix already exists: /home/ubuntu/miniconda/envs/_pipbuild_
+Exception:
+Traceback (most recent call last):
+  File "/home/ubuntu/miniconda/envs/_pipbuild_/lib/python2.7/site-packages/pip/basecommand.py", line 223, in main
+    status = self.run(options, args)
+  File "/home/ubuntu/miniconda/envs/_pipbuild_/lib/python2.7/site-packages/pip/commands/install.py", line 268, in run
+    wheel_cache
+  File "/home/ubuntu/miniconda/envs/_pipbuild_/lib/python2.7/site-packages/pip/basecommand.py", line 268, in populate_requirement_set
+    wheel_cache=wheel_cache
+  File "/home/ubuntu/miniconda/envs/_pipbuild_/lib/python2.7/site-packages/pip/req/req_install.py", line 207, in from_line
+    wheel_cache=wheel_cache)
+  File "/home/ubuntu/miniconda/envs/_pipbuild_/lib/python2.7/site-packages/pip/req/req_install.py", line 66, in __init__
+    req = pkg_resources.Requirement.parse(req)
+  File "/home/ubuntu/miniconda/envs/_pipbuild_/lib/python2.7/site-packages/pip/_vendor/pkg_resources/__init__.py", line 2960, in parse
+    reqs = list(parse_requirements(s))
+  File "/home/ubuntu/miniconda/envs/_pipbuild_/lib/python2.7/site-packages/pip/_vendor/pkg_resources/__init__.py", line 2904, in parse_requirements
+    "version spec")
+  File "/home/ubuntu/miniconda/envs/_pipbuild_/lib/python2.7/site-packages/pip/_vendor/pkg_resources/__init__.py", line 2869, in scan_list
+    raise ValueError(msg, line, "at", line[p:])
+ValueError: ('Expected version spec in', 'extensionclass==>=4.1.1', 'at', '==>=4.1.1')
+
+Package search: {'_pypi_ordering': False, 'version': '2.1', 'name': 'plone.app.layout', 'summary': 'Layout mechanisms for Plone'}
+Creating standard recipe for plone.app.layout-2.5.7
+Converting recipe in /home/ubuntu/pypi-conda-builds/plone.app.layout
+package = plone.app.layout
+   dependencies = [u'acquisition', u'datetime', u'plone.app.content', u'plone.app.portlets', u'plone.app.viewletmanager >=1.2', u'plone.i18n', u'plone.memoize', u'plone.portlets', u'plone.registry', u'products.cmfcore', u'products.cmfdynamicviewfti', u'products.cmfeditions >=1.2.2', u'products.cmfplone >=4.3', u'zope.component', u'zope.deprecation', u'zope.dottedname', u'zope.i18n', u'zope.interface', u'zope.publisher', u'zope.schema', u'zope.viewlet', u'zope2']
+Creating standard recipe for acquisition
+Converting recipe in /home/ubuntu/pypi-conda-builds/acquisition
+package = acquisition
+   dependencies = [u'extensionclass >=4.1.1', u'zope.interface']
+Creating standard recipe for extensionclass->=4.1.1
+Error: Version >=4.1.1 of extensionclass is not available on PyPI.
+
+conda create -n _pipbuild_ --yes python pip
+/home/ubuntu/miniconda/envs/_pipbuild_/bin/pip install extensionclass==>=4.1.1
+Error: Could not pip install extensionclass==>=4.1.1

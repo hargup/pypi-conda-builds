@@ -1,27 +1,11 @@
-An unexpected error has occurred, please consider sending the
-following traceback to the conda GitHub issue tracker at:
-
-    https://github.com/conda/conda-build/issues
-
-Include the output of the command 'conda info' in your report.
-
-
+Error: prefix already exists: /home/ubuntu/miniconda/envs/_pipbuild_
+Collecting dateutils==0.6.6
+  Downloading http://localhost/packages/source/d/dateutils/dateutils-0.6.6.tar.gz
+setuptools must be installed to install from a source distribution
 Package search: {'_pypi_ordering': False, 'version': '0.6.6', 'name': 'dateutils', 'summary': 'Various utilities for working with date and datetime objects'}
 Creating standard recipe for dateutils-0.6.6
-Converting recipe in /home/ubuntu/pypi-conda-builds/dateutils
-Traceback (most recent call last):
-  File "/home/ubuntu/miniconda/bin/conda-pipbuild", line 6, in <module>
-    exec(compile(open(__file__).read(), __file__, 'exec'))
-  File "/home/ubuntu/conda-build/bin/conda-pipbuild", line 5, in <module>
-    sys.exit(main())
-  File "/home/ubuntu/conda-build/conda_build/main_pipbuild.py", line 80, in main
-    args_func(args, p)
-  File "/home/ubuntu/conda-build/conda_build/main_build.py", line 349, in args_func
-    args.func(args, p)
-  File "/home/ubuntu/conda-build/conda_build/main_pipbuild.py", line 360, in execute
-    build_package(package, version, noarch_python=args.noarch_python)
-  File "/home/ubuntu/conda-build/conda_build/main_pipbuild.py", line 301, in build_package
-    noarch_python=noarch_python)
-  File "/home/ubuntu/conda-build/conda_build/main_pipbuild.py", line 183, in convert_recipe
-    d['homeurl'] = meta['about']['home']
-KeyError: 'home'
+Error: directory already exists: ./dateutils
+
+conda create -n _pipbuild_ --yes python pip
+/home/ubuntu/miniconda/envs/_pipbuild_/bin/pip install dateutils==0.6.6
+Error: Could not pip install dateutils==0.6.6

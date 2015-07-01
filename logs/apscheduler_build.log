@@ -2,6 +2,14 @@ Removing old build directory
 Removing old work directory
 BUILD START: apscheduler-3.0.3-py_0
 Fetching package metadata: ......
+
+WARNING: conda-build appears to be out of date. You have version 1.13.0 but the
+latest version is 1.14.1. Run
+
+conda update -n root conda-build
+
+to get the latest version.
+
 Solving package specifications: .+ /home/ubuntu/miniconda/envs/_build/bin/python setup.py install
 running install
 running bdist_egg
@@ -156,12 +164,12 @@ Best match: futures 3.0.2
 Adding futures 3.0.2 to easy-install.pth file
 
 Using /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages
-Searching for tzlocal==1.1.3
-Best match: tzlocal 1.1.3
-Processing tzlocal-1.1.3-py2.7.egg
-Adding tzlocal 1.1.3 to easy-install.pth file
+Searching for tzlocal==1.2
+Best match: tzlocal 1.2
+Processing tzlocal-1.2-py2.7.egg
+Adding tzlocal 1.2 to easy-install.pth file
 
-Using /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/tzlocal-1.1.3-py2.7.egg
+Using /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/tzlocal-1.2-py2.7.egg
 Searching for pytz==2015.4
 Best match: pytz 2015.4
 Processing pytz-2015.4-py2.7.egg
@@ -173,30 +181,29 @@ Best match: six 1.9.0
 Adding six 1.9.0 to easy-install.pth file
 
 Using /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages
-Searching for setuptools==17.0
-Best match: setuptools 17.0
-Processing setuptools-17.0-py2.7.egg
-Adding setuptools 17.0 to easy-install.pth file
+Searching for setuptools==15.2
+Best match: setuptools 15.2
+Adding setuptools 15.2 to easy-install.pth file
+Installing easy_install-3.4 script to /home/ubuntu/miniconda/envs/_build/bin
 Installing easy_install script to /home/ubuntu/miniconda/envs/_build/bin
-Installing easy_install-2.7 script to /home/ubuntu/miniconda/envs/_build/bin
 
-Using /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/setuptools-17.0-py2.7.egg
+Using /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages
 Finished processing dependencies for APScheduler==3.0.3
 
 The following NEW packages will be INSTALLED:
 
-    futures:    3.0.2-py27_0 
+    futures:    3.0.3-py27_0 
     openssl:    1.0.1k-1     
     pip:        7.0.3-py27_0 
     python:     2.7.10-0     
     pytz:       2015.4-py27_0
     readline:   6.2-2        
-    setuptools: 17.0-py27_0  
+    setuptools: 18.0.1-py27_0
     six:        1.9.0-py27_0 
     sqlite:     3.8.4.1-1    
     system:     5.8-2        
     tk:         8.5.18-0     
-    tzlocal:    1.1.3-py27_0 
+    tzlocal:    1.2-py_0     
     zlib:       1.2.8-0      
 
 Linking packages ...
@@ -207,12 +214,20 @@ Found source in cache: APScheduler-3.0.3.tar.gz
 Extracting download
 Package: apscheduler-3.0.3-py_0
 source tree in: /home/ubuntu/miniconda/conda-bld/work/APScheduler-3.0.3
-number of files: 75
+number of files: 77
 Fixing permissions
 Fixing permissions
 BUILD END: apscheduler-3.0.3-py_0
 TEST START: apscheduler-3.0.3-py_0
 Fetching package metadata: ......
+
+WARNING: conda-build appears to be out of date. You have version 1.13.0 but the
+latest version is 1.14.1. Run
+
+conda update -n root conda-build
+
+to get the latest version.
+
 Solving package specifications: .===== testing package: apscheduler-3.0.3-py_0 =====
 import: u'apscheduler'
 import: u'apscheduler.executors'
@@ -226,27 +241,27 @@ The following packages will be downloaded:
 
     package                    |            build
     ---------------------------|-----------------
-    apscheduler-3.0.3          |             py_0          28 KB
+    apscheduler-3.0.3          |             py_0         102 KB
 
 The following NEW packages will be INSTALLED:
 
     apscheduler: 3.0.3-py_0   
-    futures:     3.0.2-py27_0 
+    futures:     3.0.3-py27_0 
     openssl:     1.0.1k-1     
     pip:         7.0.3-py27_0 
     python:      2.7.10-0     
     pytz:        2015.4-py27_0
     readline:    6.2-2        
-    setuptools:  17.0-py27_0  
+    setuptools:  18.0.1-py27_0
     six:         1.9.0-py27_0 
     sqlite:      3.8.4.1-1    
     system:      5.8-2        
     tk:          8.5.18-0     
-    tzlocal:     1.1.3-py27_0 
+    tzlocal:     1.2-py_0     
     zlib:        1.2.8-0      
 
 Fetching packages ...
-apscheduler-3.   0% |                              | ETA:  --:--:--   0.00  B/sapscheduler-3.  57% |#################              | ETA:  0:00:00  47.62 MB/sapscheduler-3. 100% |###############################| ETA:  0:00:00  50.13 MB/sapscheduler-3. 100% |###############################| Time: 0:00:00  35.22 MB/s
+apscheduler-3.   0% |                              | ETA:  --:--:--   0.00  B/sapscheduler-3.  15% |####                           | ETA:  0:00:00  47.92 MB/sapscheduler-3.  31% |#########                      | ETA:  0:00:00  59.37 MB/sapscheduler-3.  47% |##############                 | ETA:  0:00:00   5.53 MB/sapscheduler-3.  62% |###################            | ETA:  0:00:00   7.22 MB/sapscheduler-3.  78% |########################       | ETA:  0:00:00   8.85 MB/sapscheduler-3.  94% |#############################  | ETA:  0:00:00  10.42 MB/sapscheduler-3. 100% |###############################| ETA:  0:00:00  10.90 MB/sapscheduler-3. 100% |###############################| Time: 0:00:00  10.65 MB/s
 Extracting packages ...
 [      COMPLETE      ]|                                                  |   0%[apscheduler         ]|                                                  |   0%[apscheduler         ]|                                                  |   0%[      COMPLETE      ]|##################################################| 100%
 Linking packages ...

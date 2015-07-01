@@ -1,68 +1,53 @@
-Error: prefix already exists: /home/ubuntu/miniconda/envs/_pipbuild_
-Collecting sorl-thumbnail==12.2
-  Downloading http://localhost/packages/2.7/s/sorl-thumbnail/sorl_thumbnail-12.2-py2.py3-none-any.whl
-Installing collected packages: sorl-thumbnail
-Successfully installed sorl-thumbnail-12.2
-Traceback (most recent call last):
-  File "__tmpfile__.py", line 1, in <module>
-    import pkg_resources;
-ImportError: No module named pkg_resources
-An unexpected error has occurred, please consider sending the
-following traceback to the conda GitHub issue tracker at:
-
-    https://github.com/conda/conda-build/issues
-
-Include the output of the command 'conda info' in your report.
-
-
-Package search: {'_pypi_ordering': False, 'version': '3.2.1', 'name': 'sorl-thumbnail', 'summary': 'Thumbnails for Django'}
-Creating standard recipe for sorl-thumbnail-12.2
-Using url https://pypi.python.org/packages/source/s/sorl-thumbnail/sorl-thumbnail-12.2.tar.gz (511 KB) for sorl-thumbnail.
-Downloading sorl-thumbnail
-Using cached download
-Unpacking sorl-thumbnail...
-done
-working in /tmp/tmpQeyysCconda_skeleton_sorl-thumbnail-12.2.tar.gz
+Removing old build directory
+Removing old work directory
+BUILD START: sorl-thumbnail-12.2-py_0
 Fetching package metadata: ......
 
 WARNING: conda-build appears to be out of date. You have version 1.13.0 but the
-latest version is 1.14.0. Run
+latest version is 1.14.1. Run
 
 conda update -n root conda-build
 
 to get the latest version.
 
-Solving package specifications: .patching file core.py
-Hunk #1 succeeded at 168 with fuzz 2 (offset 2 lines).
-Traceback (most recent call last):
-  File "setup.py", line 2, in <module>
-    from setuptools import setup, find_packages
-ImportError: No module named setuptools
+Solving package specifications: .+ pip install sorl-thumbnail
+Collecting sorl-thumbnail
+  Downloading http://localhost/packages/2.7/s/sorl-thumbnail/sorl_thumbnail-12.2-py2.py3-none-any.whl
+Installing collected packages: sorl-thumbnail
+Successfully installed sorl-thumbnail-12.2
 
-Applying patch: '/tmp/tmpQeyysCconda_skeleton_sorl-thumbnail-12.2.tar.gz/pypi-distutils.patch'
-$PYTHONPATH = /tmp/tmpQeyysCconda_skeleton_sorl-thumbnail-12.2.tar.gz/sorl-thumbnail-12.2
-Error: command failed: /home/ubuntu/miniconda/envs/_build/bin/python setup.py install
+The following NEW packages will be INSTALLED:
 
-conda create -n _pipbuild_ --yes python pip
-/home/ubuntu/miniconda/envs/_pipbuild_/bin/pip install sorl-thumbnail==12.2
-Getting dependencies...
-Traceback (most recent call last):
-  File "/home/ubuntu/miniconda/bin/conda-pipbuild", line 6, in <module>
-    exec(compile(open(__file__).read(), __file__, 'exec'))
-  File "/home/ubuntu/conda-build/bin/conda-pipbuild", line 5, in <module>
-    sys.exit(main())
-  File "/home/ubuntu/conda-build/conda_build/main_pipbuild.py", line 80, in main
-    args_func(args, p)
-  File "/home/ubuntu/conda-build/conda_build/main_build.py", line 349, in args_func
-    args.func(args, p)
-  File "/home/ubuntu/conda-build/conda_build/main_pipbuild.py", line 360, in execute
-    build_package(package, version, noarch_python=args.noarch_python)
-  File "/home/ubuntu/conda-build/conda_build/main_pipbuild.py", line 304, in build_package
-    noarch_python=noarch_python)
-  File "/home/ubuntu/conda-build/conda_build/main_pipbuild.py", line 240, in make_recipe
-    depends = get_all_dependencies(package, version)
-  File "/home/ubuntu/conda-build/conda_build/main_pipbuild.py", line 219, in get_all_dependencies
-    output = subprocess.check_output(cmd3args)
-  File "/home/ubuntu/miniconda/lib/python2.7/subprocess.py", line 573, in check_output
-    raise CalledProcessError(retcode, cmd, output=output)
-subprocess.CalledProcessError: Command '['/home/ubuntu/miniconda/envs/_pipbuild_/bin/python', '__tmpfile__.py']' returned non-zero exit status 1
+    openssl:    1.0.1k-1     
+    pip:        7.0.3-py27_0 
+    python:     2.7.10-0     
+    readline:   6.2-2        
+    setuptools: 18.0.1-py27_0
+    sqlite:     3.8.4.1-1    
+    system:     5.8-2        
+    tk:         8.5.18-0     
+    zlib:       1.2.8-0      
+
+Linking packages ...
+[                    ]|                                                  |   0%[openssl             ]|                                                  |   0%[readline            ]|#####                                             |  11%[sqlite              ]|###########                                       |  22%[system              ]|################                                  |  33%[tk                  ]|######################                            |  44%[zlib                ]|###########################                       |  55%[python              ]|#################################                 |  66%[setuptools          ]|######################################            |  77%[pip                 ]|############################################      |  88%[      COMPLETE      ]|##################################################| 100%
+Removing old work directory
+Copying /home/ubuntu/pypi-conda-builds/sorl-thumbnail to /home/ubuntu/miniconda/conda-bld/work
+Package: sorl-thumbnail-12.2-py_0
+source tree in: /home/ubuntu/miniconda/conda-bld/work
+number of files: 72
+Fixing permissions
+Fixing permissions
+BUILD END: sorl-thumbnail-12.2-py_0
+# If you want to upload this package to binstar.org later, type:
+#
+# $ binstar upload /home/ubuntu/miniconda/conda-bld/noarch/sorl-thumbnail-12.2-py_0.tar.bz2
+#
+# To have conda build upload to binstar automatically, use
+# $ conda config --set binstar_upload yes
+
+Package search: {'_pypi_ordering': False, 'version': '3.2.1', 'name': 'sorl-thumbnail', 'summary': 'Thumbnails for Django'}
+Creating standard recipe for sorl-thumbnail-12.2
+Converting recipe in /home/ubuntu/pypi-conda-builds/sorl-thumbnail
+package = sorl-thumbnail
+   dependencies = []
+Building conda package for sorl-thumbnail

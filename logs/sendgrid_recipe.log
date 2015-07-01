@@ -44,19 +44,51 @@ Warning, the following versions were found for sendgrid
 Using 1.4.0
 Use --version to specify a different version.
 Using url https://pypi.python.org/packages/source/s/sendgrid/sendgrid-1.4.0.tar.gz (7 KB) for sendgrid.
-Downloading sendgrid (use --no-download to skip this step)
+Downloading sendgrid
 Using cached download
 Unpacking sendgrid...
 done
-working in /tmp/tmpLFDryaconda_skeleton_sendgrid-1.4.0.tar.gz
+working in /tmp/tmpEpg1RQconda_skeleton_sendgrid-1.4.0.tar.gz
 Fetching package metadata: ......
+
+WARNING: conda-build appears to be out of date. You have version 1.13.0 but the
+latest version is 1.14.1. Run
+
+conda update -n root conda-build
+
+to get the latest version.
+
 Solving package specifications: .patching file core.py
 Hunk #1 succeeded at 168 with fuzz 2 (offset 2 lines).
-Traceback (most recent call last):
-  File "setup.py", line 2, in <module>
-    from setuptools import setup, find_packages
-ImportError: No module named setuptools
 
-Applying patch: '/tmp/tmpLFDryaconda_skeleton_sendgrid-1.4.0.tar.gz/pypi-distutils.patch'
-$PYTHONPATH = /tmp/tmpLFDryaconda_skeleton_sendgrid-1.4.0.tar.gz/sendgrid-1.4.0
-Error: command failed: /home/ubuntu/miniconda/envs/_build/bin/python setup.py install
+WARNING: conda-build appears to be out of date. You have version 1.13.0 but the
+latest version is 1.14.1. Run
+
+conda update -n root conda-build
+
+to get the latest version.
+
+
+Applying patch: '/tmp/tmpEpg1RQconda_skeleton_sendgrid-1.4.0.tar.gz/pypi-distutils.patch'
+Warning, the following versions were found for smtpapi
+0.2.0
+0.1.3
+0.1.2
+0.1.1
+0.1.0
+0.0.1
+Using 0.2.0
+Use --version to specify a different version.
+Using url https://pypi.python.org/packages/source/s/smtpapi/smtpapi-0.2.0.tar.gz (2 KB) for smtpapi.
+Downloading smtpapi
+Using cached download
+Unpacking smtpapi...
+done
+working in /tmp/tmpkgXyT5conda_skeleton_smtpapi-0.2.0.tar.gz
+Solving package specifications: .patching file core.py
+Hunk #1 succeeded at 168 with fuzz 2 (offset 2 lines).
+
+Applying patch: '/tmp/tmpkgXyT5conda_skeleton_smtpapi-0.2.0.tar.gz/pypi-distutils.patch'
+Writing recipe for sendgrid
+Writing recipe for smtpapi
+Done

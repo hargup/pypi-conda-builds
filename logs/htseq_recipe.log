@@ -1,0 +1,83 @@
+htseq not found, trying HTSeq
+Warning, the following versions were found for HTSeq
+0.6.1
+0.6.0
+0.5.4p5
+0.5.4p3
+0.5.4p2
+0.5.4p1
+0.5.4
+0.5.3p7
+0.5.3p6
+0.5.3p5
+0.5.3p3
+0.5.3p2
+0.5.3p1
+0.5.3
+0.5.1p3
+0.5.1p2
+0.5.1p1
+0.5.0p4
+0.5.0p3
+0.5.0p2
+0.5.0p1
+0.5.0
+0.4.7p4
+0.4.7p3
+0.4.7p2
+0.4.7p1
+0.4.7
+0.4.6p2
+0.4.6p1
+0.4.6
+0.4.5p7
+0.4.5p6
+0.4.5p5
+0.4.5p4
+0.4.5p3
+0.4.5p1
+0.4.5
+0.4.4p6
+0.4.4p5
+0.4.4p4
+0.4.4p3
+0.4.4p2
+0.4.4p1
+0.4.4
+0.4.3-p4
+0.4.3-p3
+0.4.3-p2
+0.4.3-p1
+0.4.3
+0.4.2-p5
+0.4.2-p4
+0.4.2-p3
+0.4.2-p2
+0.4.2-p1
+0.4.2
+0.4.1
+0.4.0
+0.3.7
+Using 0.6.1
+Use --version to specify a different version.
+Using url https://pypi.python.org/packages/source/H/HTSeq/HTSeq-0.6.1.tar.gz (221 KB) for HTSeq.
+Downloading HTSeq
+Using cached download
+Unpacking HTSeq...
+done
+working in /tmp/tmpGXvTbYconda_skeleton_HTSeq-0.6.1.tar.gz
+Fetching package metadata: ......
+
+WARNING: conda-build appears to be out of date. You have version 1.13.0 but the
+latest version is 1.14.1. Run
+
+conda update -n root conda-build
+
+to get the latest version.
+
+Solving package specifications: .patching file core.py
+Hunk #1 succeeded at 168 with fuzz 2 (offset 2 lines).
+
+Applying patch: '/tmp/tmpGXvTbYconda_skeleton_HTSeq-0.6.1.tar.gz/pypi-distutils.patch'
+Writing recipe for htseq
+Done

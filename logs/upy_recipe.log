@@ -1,0 +1,202 @@
+upy not found, trying UPY
+Warning, the following versions were found for UPY
+0.35.1
+0.34.3
+0.34.1
+0.33.4
+0.33.3
+0.33.1
+0.32.2
+0.32.1
+0.31.3
+0.31.2
+0.31.1
+0.30.16
+0.30.15
+0.30.14
+0.30.13
+0.30.12
+0.30.11
+0.30.10
+0.30.9
+0.30.8
+0.30.7
+0.30.6
+0.30.4
+0.30.3
+0.30.2
+0.30.1
+0.20.7
+0.20.6
+0.20.5
+0.20.4
+0.20.3
+0.20.2
+0.20.1
+0.19.6
+0.19.5
+0.19.3
+0.19.2
+0.19.1
+0.18.3
+0.18.2
+0.18.1
+0.17.3
+0.17.2
+0.17.1
+0.16.4
+0.16.3
+0.16.2
+0.16.1
+0.15.10
+0.15.9
+0.15.8
+0.15.7
+0.15.6
+0.15.5
+0.15.4
+0.15.3
+0.15.2
+0.15.1
+0.14.20
+0.14.19
+0.14.18
+0.14.17
+0.14.16
+0.14.15
+0.14.13
+0.14.12
+0.14.11
+0.14.10
+0.14.9
+0.14.8
+0.14.7
+0.14.6
+0.14.5
+0.14.4
+0.14.3
+0.14.2
+0.14.1
+0.13.19
+0.13.18
+0.13.17
+0.13.16
+0.13.15
+0.13.14
+0.13.13
+0.13.12
+0.13.11
+0.13.10
+0.13.9
+0.13.8
+0.13.7
+0.13.6
+0.13.5
+0.13.4
+0.13.3
+0.13.2
+0.13.1
+0.12.19
+0.12.18
+0.12.17
+0.12.16
+0.12.15
+0.12.14
+0.12.13
+0.12.12
+0.12.11
+0.12.10
+0.12.9
+0.12.8
+0.12.7
+0.12.6
+0.12.5
+0.12.4
+0.12.3
+0.12.2
+Using 0.35.1
+Use --version to specify a different version.
+Using url https://pypi.python.org/packages/source/U/UPY/UPY-0.35.1.tar.gz (1.7 MB) for UPY.
+Downloading UPY
+Using cached download
+Unpacking UPY...
+done
+working in /tmp/tmpAXKBZrconda_skeleton_UPY-0.35.1.tar.gz
+Fetching package metadata: ......
+
+WARNING: conda-build appears to be out of date. You have version 1.13.0 but the
+latest version is 1.14.1. Run
+
+conda update -n root conda-build
+
+to get the latest version.
+
+Solving package specifications: .patching file core.py
+Hunk #1 succeeded at 168 with fuzz 2 (offset 2 lines).
+
+WARNING: conda-build appears to be out of date. You have version 1.13.0 but the
+latest version is 1.14.1. Run
+
+conda update -n root conda-build
+
+to get the latest version.
+
+
+The following NEW packages will be INSTALLED:
+
+    numpy:      1.9.2-py27_0 
+    openssl:    1.0.1k-1     
+    pip:        7.0.3-py27_0 
+    python:     2.7.10-0     
+    pyyaml:     3.11-py27_1  
+    readline:   6.2-2        
+    setuptools: 18.0.1-py27_0
+    sqlite:     3.8.4.1-1    
+    system:     5.8-2        
+    tk:         8.5.18-0     
+    yaml:       0.1.6-0      
+    zlib:       1.2.8-0      
+
+Linking packages ...
+[                    ]|                                                  |   0%[openssl             ]|                                                  |   0%[readline            ]|####                                              |   8%[sqlite              ]|########                                          |  16%[system              ]|############                                      |  25%[tk                  ]|################                                  |  33%[yaml                ]|####################                              |  41%[zlib                ]|#########################                         |  50%[numpy               ]|#############################                     |  58%[python              ]|#################################                 |  66%[pyyaml              ]|#####################################             |  75%[setuptools          ]|#########################################         |  83%[pip                 ]|#############################################     |  91%[      COMPLETE      ]|##################################################| 100%
+Applying patch: '/tmp/tmpAXKBZrconda_skeleton_UPY-0.35.1.tar.gz/pypi-distutils.patch'
+Warning, the following versions were found for django-modeltranslation
+0.9.1
+0.9
+0.8.1
+0.8
+0.8b2
+0.8b1
+0.7.3
+0.7.2
+0.7.1
+0.7
+0.6.1
+0.6
+0.5.1
+0.5
+0.5b1
+0.5a1
+0.4.1
+0.4.0
+0.4.0-beta2
+0.4.0-beta1
+0.4.0-alpha1
+0.3.3
+0.3.2
+0.3.1
+0.3
+0.2
+Using 0.9.1
+Use --version to specify a different version.
+Using url https://pypi.python.org/packages/source/d/django-modeltranslation/django-modeltranslation-0.9.1.tar.gz (67 KB) for django-modeltranslation.
+Downloading django-modeltranslation
+Using cached download
+Unpacking django-modeltranslation...
+done
+working in /tmp/tmpoLc8Jjconda_skeleton_django-modeltranslation-0.9.1.tar.gz
+Solving package specifications: .patching file core.py
+Hunk #1 succeeded at 168 with fuzz 2 (offset 2 lines).
+
+Applying patch: '/tmp/tmpoLc8Jjconda_skeleton_django-modeltranslation-0.9.1.tar.gz/pypi-distutils.patch'
+Error: Could not find any versions of package django_imagekit

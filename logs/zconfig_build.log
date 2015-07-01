@@ -1,0 +1,318 @@
+Removing old build directory
+Removing old work directory
+BUILD START: zconfig-3.0.4-py_0
+Fetching package metadata: ......
+
+WARNING: conda-build appears to be out of date. You have version 1.13.0 but the
+latest version is 1.14.1. Run
+
+conda update -n root conda-build
+
+to get the latest version.
+
+Solving package specifications: .+ /home/ubuntu/miniconda/envs/_build/bin/python setup.py install
+running install
+running bdist_egg
+running egg_info
+writing ZConfig.egg-info/PKG-INFO
+writing top-level names to ZConfig.egg-info/top_level.txt
+writing dependency_links to ZConfig.egg-info/dependency_links.txt
+reading manifest file 'ZConfig.egg-info/SOURCES.txt'
+reading manifest template 'MANIFEST.in'
+warning: no files found matching '*.rst'
+warning: no previously-included files matching '*.pyc' found anywhere in distribution
+writing manifest file 'ZConfig.egg-info/SOURCES.txt'
+installing library code to build/bdist.linux-x86_64/egg
+running install_lib
+running build_py
+creating build
+creating build/lib
+creating build/lib/ZConfig
+copying ZConfig/schemaless.py -> build/lib/ZConfig
+copying ZConfig/datatypes.py -> build/lib/ZConfig
+copying ZConfig/cmdline.py -> build/lib/ZConfig
+copying ZConfig/info.py -> build/lib/ZConfig
+copying ZConfig/loader.py -> build/lib/ZConfig
+copying ZConfig/substitution.py -> build/lib/ZConfig
+copying ZConfig/schema.py -> build/lib/ZConfig
+copying ZConfig/matcher.py -> build/lib/ZConfig
+copying ZConfig/cfgparser.py -> build/lib/ZConfig
+copying ZConfig/url.py -> build/lib/ZConfig
+copying ZConfig/__init__.py -> build/lib/ZConfig
+creating build/lib/ZConfig/components
+copying ZConfig/components/__init__.py -> build/lib/ZConfig/components
+creating build/lib/ZConfig/components/basic
+copying ZConfig/components/basic/mapping.py -> build/lib/ZConfig/components/basic
+copying ZConfig/components/basic/__init__.py -> build/lib/ZConfig/components/basic
+creating build/lib/ZConfig/components/basic/tests
+copying ZConfig/components/basic/tests/test_mapping.py -> build/lib/ZConfig/components/basic/tests
+copying ZConfig/components/basic/tests/__init__.py -> build/lib/ZConfig/components/basic/tests
+creating build/lib/ZConfig/components/logger
+copying ZConfig/components/logger/loghandler.py -> build/lib/ZConfig/components/logger
+copying ZConfig/components/logger/datatypes.py -> build/lib/ZConfig/components/logger
+copying ZConfig/components/logger/factory.py -> build/lib/ZConfig/components/logger
+copying ZConfig/components/logger/__init__.py -> build/lib/ZConfig/components/logger
+copying ZConfig/components/logger/logger.py -> build/lib/ZConfig/components/logger
+copying ZConfig/components/logger/handlers.py -> build/lib/ZConfig/components/logger
+creating build/lib/ZConfig/components/logger/tests
+copying ZConfig/components/logger/tests/test_logger.py -> build/lib/ZConfig/components/logger/tests
+copying ZConfig/components/logger/tests/__init__.py -> build/lib/ZConfig/components/logger/tests
+creating build/lib/ZConfig/tests
+copying ZConfig/tests/test_schemaless.py -> build/lib/ZConfig/tests
+copying ZConfig/tests/test_subst.py -> build/lib/ZConfig/tests
+copying ZConfig/tests/test_datatypes.py -> build/lib/ZConfig/tests
+copying ZConfig/tests/test_loader.py -> build/lib/ZConfig/tests
+copying ZConfig/tests/support.py -> build/lib/ZConfig/tests
+copying ZConfig/tests/test_schema.py -> build/lib/ZConfig/tests
+copying ZConfig/tests/__init__.py -> build/lib/ZConfig/tests
+copying ZConfig/tests/test_readme.py -> build/lib/ZConfig/tests
+copying ZConfig/tests/test_cmdline.py -> build/lib/ZConfig/tests
+copying ZConfig/tests/test_cookbook.py -> build/lib/ZConfig/tests
+copying ZConfig/tests/test_config.py -> build/lib/ZConfig/tests
+copying ZConfig/tests/test_cfgimports.py -> build/lib/ZConfig/tests
+creating build/lib/ZConfig/tests/library
+copying ZConfig/tests/library/__init__.py -> build/lib/ZConfig/tests/library
+creating build/lib/ZConfig/tests/library/thing
+copying ZConfig/tests/library/thing/__init__.py -> build/lib/ZConfig/tests/library/thing
+creating build/lib/ZConfig/tests/library/widget
+copying ZConfig/tests/library/widget/__init__.py -> build/lib/ZConfig/tests/library/widget
+copying ZConfig/schemaless.txt -> build/lib/ZConfig
+copying ZConfig/components/basic/component.xml -> build/lib/ZConfig/components/basic
+copying ZConfig/components/basic/mapping.xml -> build/lib/ZConfig/components/basic
+copying ZConfig/components/logger/abstract.xml -> build/lib/ZConfig/components/logger
+copying ZConfig/components/logger/base-logger.xml -> build/lib/ZConfig/components/logger
+copying ZConfig/components/logger/component.xml -> build/lib/ZConfig/components/logger
+copying ZConfig/components/logger/eventlog.xml -> build/lib/ZConfig/components/logger
+copying ZConfig/components/logger/handlers.xml -> build/lib/ZConfig/components/logger
+copying ZConfig/components/logger/logger.xml -> build/lib/ZConfig/components/logger
+copying ZConfig/tests/foosample.zip -> build/lib/ZConfig/tests
+creating build/lib/ZConfig/tests/input
+copying ZConfig/tests/input/base-datatype1.xml -> build/lib/ZConfig/tests/input
+copying ZConfig/tests/input/base-datatype2.xml -> build/lib/ZConfig/tests/input
+copying ZConfig/tests/input/base-keytype1.xml -> build/lib/ZConfig/tests/input
+copying ZConfig/tests/input/base-keytype2.xml -> build/lib/ZConfig/tests/input
+copying ZConfig/tests/input/base.xml -> build/lib/ZConfig/tests/input
+copying ZConfig/tests/input/include.conf -> build/lib/ZConfig/tests/input
+copying ZConfig/tests/input/inner.conf -> build/lib/ZConfig/tests/input
+copying ZConfig/tests/input/library.xml -> build/lib/ZConfig/tests/input
+copying ZConfig/tests/input/logger.xml -> build/lib/ZConfig/tests/input
+copying ZConfig/tests/input/outer.conf -> build/lib/ZConfig/tests/input
+copying ZConfig/tests/input/simple.conf -> build/lib/ZConfig/tests/input
+copying ZConfig/tests/input/simple.xml -> build/lib/ZConfig/tests/input
+copying ZConfig/tests/input/simplesections.conf -> build/lib/ZConfig/tests/input
+copying ZConfig/tests/input/simplesections.xml -> build/lib/ZConfig/tests/input
+creating build/lib/ZConfig/tests/zipsource
+copying ZConfig/tests/zipsource/README.txt -> build/lib/ZConfig/tests/zipsource
+creating build/lib/ZConfig/tests/zipsource/foo
+copying ZConfig/tests/zipsource/foo/__init__.py -> build/lib/ZConfig/tests/zipsource/foo
+creating build/lib/ZConfig/tests/zipsource/foo/sample
+copying ZConfig/tests/zipsource/foo/sample/__init__.py -> build/lib/ZConfig/tests/zipsource/foo/sample
+copying ZConfig/tests/zipsource/foo/sample/component.xml -> build/lib/ZConfig/tests/zipsource/foo/sample
+copying ZConfig/tests/zipsource/foo/sample/datatypes.py -> build/lib/ZConfig/tests/zipsource/foo/sample
+copying ZConfig/tests/library/README.txt -> build/lib/ZConfig/tests/library
+copying ZConfig/tests/library/thing/component.xml -> build/lib/ZConfig/tests/library/thing
+creating build/lib/ZConfig/tests/library/thing/extras
+copying ZConfig/tests/library/thing/extras/extras.xml -> build/lib/ZConfig/tests/library/thing/extras
+copying ZConfig/tests/library/widget/component.xml -> build/lib/ZConfig/tests/library/widget
+copying ZConfig/tests/library/widget/extra.xml -> build/lib/ZConfig/tests/library/widget
+creating build/bdist.linux-x86_64
+creating build/bdist.linux-x86_64/egg
+creating build/bdist.linux-x86_64/egg/ZConfig
+copying build/lib/ZConfig/schemaless.py -> build/bdist.linux-x86_64/egg/ZConfig
+copying build/lib/ZConfig/datatypes.py -> build/bdist.linux-x86_64/egg/ZConfig
+copying build/lib/ZConfig/cmdline.py -> build/bdist.linux-x86_64/egg/ZConfig
+copying build/lib/ZConfig/info.py -> build/bdist.linux-x86_64/egg/ZConfig
+copying build/lib/ZConfig/loader.py -> build/bdist.linux-x86_64/egg/ZConfig
+copying build/lib/ZConfig/substitution.py -> build/bdist.linux-x86_64/egg/ZConfig
+copying build/lib/ZConfig/schema.py -> build/bdist.linux-x86_64/egg/ZConfig
+creating build/bdist.linux-x86_64/egg/ZConfig/tests
+creating build/bdist.linux-x86_64/egg/ZConfig/tests/zipsource
+copying build/lib/ZConfig/tests/zipsource/README.txt -> build/bdist.linux-x86_64/egg/ZConfig/tests/zipsource
+creating build/bdist.linux-x86_64/egg/ZConfig/tests/zipsource/foo
+creating build/bdist.linux-x86_64/egg/ZConfig/tests/zipsource/foo/sample
+copying build/lib/ZConfig/tests/zipsource/foo/sample/datatypes.py -> build/bdist.linux-x86_64/egg/ZConfig/tests/zipsource/foo/sample
+copying build/lib/ZConfig/tests/zipsource/foo/sample/component.xml -> build/bdist.linux-x86_64/egg/ZConfig/tests/zipsource/foo/sample
+copying build/lib/ZConfig/tests/zipsource/foo/sample/__init__.py -> build/bdist.linux-x86_64/egg/ZConfig/tests/zipsource/foo/sample
+copying build/lib/ZConfig/tests/zipsource/foo/__init__.py -> build/bdist.linux-x86_64/egg/ZConfig/tests/zipsource/foo
+creating build/bdist.linux-x86_64/egg/ZConfig/tests/library
+creating build/bdist.linux-x86_64/egg/ZConfig/tests/library/widget
+copying build/lib/ZConfig/tests/library/widget/component.xml -> build/bdist.linux-x86_64/egg/ZConfig/tests/library/widget
+copying build/lib/ZConfig/tests/library/widget/extra.xml -> build/bdist.linux-x86_64/egg/ZConfig/tests/library/widget
+copying build/lib/ZConfig/tests/library/widget/__init__.py -> build/bdist.linux-x86_64/egg/ZConfig/tests/library/widget
+copying build/lib/ZConfig/tests/library/README.txt -> build/bdist.linux-x86_64/egg/ZConfig/tests/library
+creating build/bdist.linux-x86_64/egg/ZConfig/tests/library/thing
+creating build/bdist.linux-x86_64/egg/ZConfig/tests/library/thing/extras
+copying build/lib/ZConfig/tests/library/thing/extras/extras.xml -> build/bdist.linux-x86_64/egg/ZConfig/tests/library/thing/extras
+copying build/lib/ZConfig/tests/library/thing/component.xml -> build/bdist.linux-x86_64/egg/ZConfig/tests/library/thing
+copying build/lib/ZConfig/tests/library/thing/__init__.py -> build/bdist.linux-x86_64/egg/ZConfig/tests/library/thing
+copying build/lib/ZConfig/tests/library/__init__.py -> build/bdist.linux-x86_64/egg/ZConfig/tests/library
+copying build/lib/ZConfig/tests/test_schemaless.py -> build/bdist.linux-x86_64/egg/ZConfig/tests
+copying build/lib/ZConfig/tests/test_subst.py -> build/bdist.linux-x86_64/egg/ZConfig/tests
+copying build/lib/ZConfig/tests/foosample.zip -> build/bdist.linux-x86_64/egg/ZConfig/tests
+creating build/bdist.linux-x86_64/egg/ZConfig/tests/input
+copying build/lib/ZConfig/tests/input/base-datatype2.xml -> build/bdist.linux-x86_64/egg/ZConfig/tests/input
+copying build/lib/ZConfig/tests/input/simple.conf -> build/bdist.linux-x86_64/egg/ZConfig/tests/input
+copying build/lib/ZConfig/tests/input/simple.xml -> build/bdist.linux-x86_64/egg/ZConfig/tests/input
+copying build/lib/ZConfig/tests/input/base-keytype1.xml -> build/bdist.linux-x86_64/egg/ZConfig/tests/input
+copying build/lib/ZConfig/tests/input/base.xml -> build/bdist.linux-x86_64/egg/ZConfig/tests/input
+copying build/lib/ZConfig/tests/input/outer.conf -> build/bdist.linux-x86_64/egg/ZConfig/tests/input
+copying build/lib/ZConfig/tests/input/include.conf -> build/bdist.linux-x86_64/egg/ZConfig/tests/input
+copying build/lib/ZConfig/tests/input/simplesections.conf -> build/bdist.linux-x86_64/egg/ZConfig/tests/input
+copying build/lib/ZConfig/tests/input/inner.conf -> build/bdist.linux-x86_64/egg/ZConfig/tests/input
+copying build/lib/ZConfig/tests/input/base-keytype2.xml -> build/bdist.linux-x86_64/egg/ZConfig/tests/input
+copying build/lib/ZConfig/tests/input/logger.xml -> build/bdist.linux-x86_64/egg/ZConfig/tests/input
+copying build/lib/ZConfig/tests/input/base-datatype1.xml -> build/bdist.linux-x86_64/egg/ZConfig/tests/input
+copying build/lib/ZConfig/tests/input/simplesections.xml -> build/bdist.linux-x86_64/egg/ZConfig/tests/input
+copying build/lib/ZConfig/tests/input/library.xml -> build/bdist.linux-x86_64/egg/ZConfig/tests/input
+copying build/lib/ZConfig/tests/test_datatypes.py -> build/bdist.linux-x86_64/egg/ZConfig/tests
+copying build/lib/ZConfig/tests/test_loader.py -> build/bdist.linux-x86_64/egg/ZConfig/tests
+copying build/lib/ZConfig/tests/support.py -> build/bdist.linux-x86_64/egg/ZConfig/tests
+copying build/lib/ZConfig/tests/test_schema.py -> build/bdist.linux-x86_64/egg/ZConfig/tests
+copying build/lib/ZConfig/tests/__init__.py -> build/bdist.linux-x86_64/egg/ZConfig/tests
+copying build/lib/ZConfig/tests/test_readme.py -> build/bdist.linux-x86_64/egg/ZConfig/tests
+copying build/lib/ZConfig/tests/test_cmdline.py -> build/bdist.linux-x86_64/egg/ZConfig/tests
+copying build/lib/ZConfig/tests/test_cookbook.py -> build/bdist.linux-x86_64/egg/ZConfig/tests
+copying build/lib/ZConfig/tests/test_config.py -> build/bdist.linux-x86_64/egg/ZConfig/tests
+copying build/lib/ZConfig/tests/test_cfgimports.py -> build/bdist.linux-x86_64/egg/ZConfig/tests
+copying build/lib/ZConfig/matcher.py -> build/bdist.linux-x86_64/egg/ZConfig
+copying build/lib/ZConfig/cfgparser.py -> build/bdist.linux-x86_64/egg/ZConfig
+copying build/lib/ZConfig/url.py -> build/bdist.linux-x86_64/egg/ZConfig
+copying build/lib/ZConfig/__init__.py -> build/bdist.linux-x86_64/egg/ZConfig
+copying build/lib/ZConfig/schemaless.txt -> build/bdist.linux-x86_64/egg/ZConfig
+creating build/bdist.linux-x86_64/egg/ZConfig/components
+creating build/bdist.linux-x86_64/egg/ZConfig/components/basic
+copying build/lib/ZConfig/components/basic/component.xml -> build/bdist.linux-x86_64/egg/ZConfig/components/basic
+creating build/bdist.linux-x86_64/egg/ZConfig/components/basic/tests
+copying build/lib/ZConfig/components/basic/tests/test_mapping.py -> build/bdist.linux-x86_64/egg/ZConfig/components/basic/tests
+copying build/lib/ZConfig/components/basic/tests/__init__.py -> build/bdist.linux-x86_64/egg/ZConfig/components/basic/tests
+copying build/lib/ZConfig/components/basic/mapping.py -> build/bdist.linux-x86_64/egg/ZConfig/components/basic
+copying build/lib/ZConfig/components/basic/__init__.py -> build/bdist.linux-x86_64/egg/ZConfig/components/basic
+copying build/lib/ZConfig/components/basic/mapping.xml -> build/bdist.linux-x86_64/egg/ZConfig/components/basic
+creating build/bdist.linux-x86_64/egg/ZConfig/components/logger
+copying build/lib/ZConfig/components/logger/loghandler.py -> build/bdist.linux-x86_64/egg/ZConfig/components/logger
+copying build/lib/ZConfig/components/logger/datatypes.py -> build/bdist.linux-x86_64/egg/ZConfig/components/logger
+copying build/lib/ZConfig/components/logger/handlers.xml -> build/bdist.linux-x86_64/egg/ZConfig/components/logger
+copying build/lib/ZConfig/components/logger/abstract.xml -> build/bdist.linux-x86_64/egg/ZConfig/components/logger
+copying build/lib/ZConfig/components/logger/base-logger.xml -> build/bdist.linux-x86_64/egg/ZConfig/components/logger
+copying build/lib/ZConfig/components/logger/component.xml -> build/bdist.linux-x86_64/egg/ZConfig/components/logger
+copying build/lib/ZConfig/components/logger/factory.py -> build/bdist.linux-x86_64/egg/ZConfig/components/logger
+creating build/bdist.linux-x86_64/egg/ZConfig/components/logger/tests
+copying build/lib/ZConfig/components/logger/tests/test_logger.py -> build/bdist.linux-x86_64/egg/ZConfig/components/logger/tests
+copying build/lib/ZConfig/components/logger/tests/__init__.py -> build/bdist.linux-x86_64/egg/ZConfig/components/logger/tests
+copying build/lib/ZConfig/components/logger/eventlog.xml -> build/bdist.linux-x86_64/egg/ZConfig/components/logger
+copying build/lib/ZConfig/components/logger/__init__.py -> build/bdist.linux-x86_64/egg/ZConfig/components/logger
+copying build/lib/ZConfig/components/logger/logger.py -> build/bdist.linux-x86_64/egg/ZConfig/components/logger
+copying build/lib/ZConfig/components/logger/logger.xml -> build/bdist.linux-x86_64/egg/ZConfig/components/logger
+copying build/lib/ZConfig/components/logger/handlers.py -> build/bdist.linux-x86_64/egg/ZConfig/components/logger
+copying build/lib/ZConfig/components/__init__.py -> build/bdist.linux-x86_64/egg/ZConfig/components
+byte-compiling build/bdist.linux-x86_64/egg/ZConfig/schemaless.py to schemaless.pyc
+byte-compiling build/bdist.linux-x86_64/egg/ZConfig/datatypes.py to datatypes.pyc
+byte-compiling build/bdist.linux-x86_64/egg/ZConfig/cmdline.py to cmdline.pyc
+byte-compiling build/bdist.linux-x86_64/egg/ZConfig/info.py to info.pyc
+byte-compiling build/bdist.linux-x86_64/egg/ZConfig/loader.py to loader.pyc
+byte-compiling build/bdist.linux-x86_64/egg/ZConfig/substitution.py to substitution.pyc
+byte-compiling build/bdist.linux-x86_64/egg/ZConfig/schema.py to schema.pyc
+byte-compiling build/bdist.linux-x86_64/egg/ZConfig/tests/zipsource/foo/sample/datatypes.py to datatypes.pyc
+byte-compiling build/bdist.linux-x86_64/egg/ZConfig/tests/zipsource/foo/sample/__init__.py to __init__.pyc
+byte-compiling build/bdist.linux-x86_64/egg/ZConfig/tests/zipsource/foo/__init__.py to __init__.pyc
+byte-compiling build/bdist.linux-x86_64/egg/ZConfig/tests/library/widget/__init__.py to __init__.pyc
+byte-compiling build/bdist.linux-x86_64/egg/ZConfig/tests/library/thing/__init__.py to __init__.pyc
+byte-compiling build/bdist.linux-x86_64/egg/ZConfig/tests/library/__init__.py to __init__.pyc
+byte-compiling build/bdist.linux-x86_64/egg/ZConfig/tests/test_schemaless.py to test_schemaless.pyc
+byte-compiling build/bdist.linux-x86_64/egg/ZConfig/tests/test_subst.py to test_subst.pyc
+byte-compiling build/bdist.linux-x86_64/egg/ZConfig/tests/test_datatypes.py to test_datatypes.pyc
+byte-compiling build/bdist.linux-x86_64/egg/ZConfig/tests/test_loader.py to test_loader.pyc
+byte-compiling build/bdist.linux-x86_64/egg/ZConfig/tests/support.py to support.pyc
+byte-compiling build/bdist.linux-x86_64/egg/ZConfig/tests/test_schema.py to test_schema.pyc
+byte-compiling build/bdist.linux-x86_64/egg/ZConfig/tests/__init__.py to __init__.pyc
+byte-compiling build/bdist.linux-x86_64/egg/ZConfig/tests/test_readme.py to test_readme.pyc
+byte-compiling build/bdist.linux-x86_64/egg/ZConfig/tests/test_cmdline.py to test_cmdline.pyc
+byte-compiling build/bdist.linux-x86_64/egg/ZConfig/tests/test_cookbook.py to test_cookbook.pyc
+byte-compiling build/bdist.linux-x86_64/egg/ZConfig/tests/test_config.py to test_config.pyc
+byte-compiling build/bdist.linux-x86_64/egg/ZConfig/tests/test_cfgimports.py to test_cfgimports.pyc
+byte-compiling build/bdist.linux-x86_64/egg/ZConfig/matcher.py to matcher.pyc
+byte-compiling build/bdist.linux-x86_64/egg/ZConfig/cfgparser.py to cfgparser.pyc
+byte-compiling build/bdist.linux-x86_64/egg/ZConfig/url.py to url.pyc
+byte-compiling build/bdist.linux-x86_64/egg/ZConfig/__init__.py to __init__.pyc
+byte-compiling build/bdist.linux-x86_64/egg/ZConfig/components/basic/tests/test_mapping.py to test_mapping.pyc
+byte-compiling build/bdist.linux-x86_64/egg/ZConfig/components/basic/tests/__init__.py to __init__.pyc
+byte-compiling build/bdist.linux-x86_64/egg/ZConfig/components/basic/mapping.py to mapping.pyc
+byte-compiling build/bdist.linux-x86_64/egg/ZConfig/components/basic/__init__.py to __init__.pyc
+byte-compiling build/bdist.linux-x86_64/egg/ZConfig/components/logger/loghandler.py to loghandler.pyc
+byte-compiling build/bdist.linux-x86_64/egg/ZConfig/components/logger/datatypes.py to datatypes.pyc
+byte-compiling build/bdist.linux-x86_64/egg/ZConfig/components/logger/factory.py to factory.pyc
+byte-compiling build/bdist.linux-x86_64/egg/ZConfig/components/logger/tests/test_logger.py to test_logger.pyc
+byte-compiling build/bdist.linux-x86_64/egg/ZConfig/components/logger/tests/__init__.py to __init__.pyc
+byte-compiling build/bdist.linux-x86_64/egg/ZConfig/components/logger/__init__.py to __init__.pyc
+byte-compiling build/bdist.linux-x86_64/egg/ZConfig/components/logger/logger.py to logger.pyc
+byte-compiling build/bdist.linux-x86_64/egg/ZConfig/components/logger/handlers.py to handlers.pyc
+byte-compiling build/bdist.linux-x86_64/egg/ZConfig/components/__init__.py to __init__.pyc
+creating build/bdist.linux-x86_64/egg/EGG-INFO
+installing scripts to build/bdist.linux-x86_64/egg/EGG-INFO/scripts
+running install_scripts
+running build_scripts
+creating build/scripts-2.7
+copying and adjusting scripts/zconfig -> build/scripts-2.7
+copying and adjusting scripts/zconfig_schema2html -> build/scripts-2.7
+changing mode of build/scripts-2.7/zconfig from 664 to 775
+changing mode of build/scripts-2.7/zconfig_schema2html from 664 to 775
+creating build/bdist.linux-x86_64/egg/EGG-INFO/scripts
+copying build/scripts-2.7/zconfig_schema2html -> build/bdist.linux-x86_64/egg/EGG-INFO/scripts
+copying build/scripts-2.7/zconfig -> build/bdist.linux-x86_64/egg/EGG-INFO/scripts
+changing mode of build/bdist.linux-x86_64/egg/EGG-INFO/scripts/zconfig_schema2html to 775
+changing mode of build/bdist.linux-x86_64/egg/EGG-INFO/scripts/zconfig to 775
+copying ZConfig.egg-info/PKG-INFO -> build/bdist.linux-x86_64/egg/EGG-INFO
+copying ZConfig.egg-info/SOURCES.txt -> build/bdist.linux-x86_64/egg/EGG-INFO
+copying ZConfig.egg-info/dependency_links.txt -> build/bdist.linux-x86_64/egg/EGG-INFO
+copying ZConfig.egg-info/not-zip-safe -> build/bdist.linux-x86_64/egg/EGG-INFO
+copying ZConfig.egg-info/top_level.txt -> build/bdist.linux-x86_64/egg/EGG-INFO
+creating dist
+creating 'dist/ZConfig-3.0.4-py2.7.egg' and adding 'build/bdist.linux-x86_64/egg' to it
+removing 'build/bdist.linux-x86_64/egg' (and everything under it)
+Processing ZConfig-3.0.4-py2.7.egg
+creating /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/ZConfig-3.0.4-py2.7.egg
+Extracting ZConfig-3.0.4-py2.7.egg to /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages
+Adding ZConfig 3.0.4 to easy-install.pth file
+Installing zconfig_schema2html script to /home/ubuntu/miniconda/envs/_build/bin
+Installing zconfig script to /home/ubuntu/miniconda/envs/_build/bin
+
+Installed /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/ZConfig-3.0.4-py2.7.egg
+Processing dependencies for ZConfig==3.0.4
+Finished processing dependencies for ZConfig==3.0.4
+
+The following NEW packages will be INSTALLED:
+
+    openssl:    1.0.1k-1     
+    pip:        7.0.3-py27_0 
+    python:     2.7.10-0     
+    readline:   6.2-2        
+    setuptools: 18.0.1-py27_0
+    sqlite:     3.8.4.1-1    
+    system:     5.8-2        
+    tk:         8.5.18-0     
+    zlib:       1.2.8-0      
+
+Linking packages ...
+[                    ]|                                                  |   0%[openssl             ]|                                                  |   0%[readline            ]|#####                                             |  11%[sqlite              ]|###########                                       |  22%[system              ]|################                                  |  33%[tk                  ]|######################                            |  44%[zlib                ]|###########################                       |  55%[python              ]|#################################                 |  66%[setuptools          ]|######################################            |  77%[pip                 ]|############################################      |  88%[      COMPLETE      ]|##################################################| 100%
+Removing old work directory
+Source cache directory is: /home/ubuntu/miniconda/conda-bld/src_cache
+Found source in cache: ZConfig-3.0.4.tar.gz
+Extracting download
+Package: zconfig-3.0.4-py_0
+source tree in: /home/ubuntu/miniconda/conda-bld/work/ZConfig-3.0.4
+found egg dir: /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/ZConfig-3.0.4-py2.7.egg
+number of files: 118
+Fixing permissions
+Fixing permissions
+BUILD END: zconfig-3.0.4-py_0
+TEST START: zconfig-3.0.4-py_0
+Fetching package metadata: ......
+
+WARNING: conda-build appears to be out of date. You have version 1.13.0 but the
+latest version is 1.14.1. Run
+
+conda update -n root conda-build
+
+to get the latest version.
+
+Error: No packages found in current linux-64 channels matching: zope.testrunner

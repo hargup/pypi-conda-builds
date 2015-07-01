@@ -1,0 +1,146 @@
+Removing old build directory
+Removing old work directory
+BUILD START: sendgrid-1.4.0-py_0
+Fetching package metadata: ......
+
+WARNING: conda-build appears to be out of date. You have version 1.13.0 but the
+latest version is 1.14.1. Run
+
+conda update -n root conda-build
+
+to get the latest version.
+
+Solving package specifications: .+ /home/ubuntu/miniconda/envs/_build/bin/python setup.py install
+running install
+running bdist_egg
+running egg_info
+writing requirements to sendgrid.egg-info/requires.txt
+writing sendgrid.egg-info/PKG-INFO
+writing top-level names to sendgrid.egg-info/top_level.txt
+writing dependency_links to sendgrid.egg-info/dependency_links.txt
+reading manifest file 'sendgrid.egg-info/SOURCES.txt'
+reading manifest template 'MANIFEST.in'
+warning: no previously-included files matching '*' found under directory 'test'
+writing manifest file 'sendgrid.egg-info/SOURCES.txt'
+installing library code to build/bdist.linux-x86_64/egg
+running install_lib
+running build_py
+creating build
+creating build/lib
+creating build/lib/sendgrid
+copying sendgrid/sendgrid.py -> build/lib/sendgrid
+copying sendgrid/version.py -> build/lib/sendgrid
+copying sendgrid/message.py -> build/lib/sendgrid
+copying sendgrid/__init__.py -> build/lib/sendgrid
+copying sendgrid/exceptions.py -> build/lib/sendgrid
+creating build/bdist.linux-x86_64
+creating build/bdist.linux-x86_64/egg
+creating build/bdist.linux-x86_64/egg/sendgrid
+copying build/lib/sendgrid/sendgrid.py -> build/bdist.linux-x86_64/egg/sendgrid
+copying build/lib/sendgrid/version.py -> build/bdist.linux-x86_64/egg/sendgrid
+copying build/lib/sendgrid/message.py -> build/bdist.linux-x86_64/egg/sendgrid
+copying build/lib/sendgrid/__init__.py -> build/bdist.linux-x86_64/egg/sendgrid
+copying build/lib/sendgrid/exceptions.py -> build/bdist.linux-x86_64/egg/sendgrid
+byte-compiling build/bdist.linux-x86_64/egg/sendgrid/sendgrid.py to sendgrid.pyc
+byte-compiling build/bdist.linux-x86_64/egg/sendgrid/version.py to version.pyc
+byte-compiling build/bdist.linux-x86_64/egg/sendgrid/message.py to message.pyc
+byte-compiling build/bdist.linux-x86_64/egg/sendgrid/__init__.py to __init__.pyc
+byte-compiling build/bdist.linux-x86_64/egg/sendgrid/exceptions.py to exceptions.pyc
+creating build/bdist.linux-x86_64/egg/EGG-INFO
+copying sendgrid.egg-info/PKG-INFO -> build/bdist.linux-x86_64/egg/EGG-INFO
+copying sendgrid.egg-info/SOURCES.txt -> build/bdist.linux-x86_64/egg/EGG-INFO
+copying sendgrid.egg-info/dependency_links.txt -> build/bdist.linux-x86_64/egg/EGG-INFO
+copying sendgrid.egg-info/requires.txt -> build/bdist.linux-x86_64/egg/EGG-INFO
+copying sendgrid.egg-info/top_level.txt -> build/bdist.linux-x86_64/egg/EGG-INFO
+zip_safe flag not set; analyzing archive contents...
+creating dist
+creating 'dist/sendgrid-1.4.0-py2.7.egg' and adding 'build/bdist.linux-x86_64/egg' to it
+removing 'build/bdist.linux-x86_64/egg' (and everything under it)
+Processing sendgrid-1.4.0-py2.7.egg
+Copying sendgrid-1.4.0-py2.7.egg to /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages
+Adding sendgrid 1.4.0 to easy-install.pth file
+
+Installed /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/sendgrid-1.4.0-py2.7.egg
+Processing dependencies for sendgrid==1.4.0
+Searching for smtpapi==0.2.0
+Best match: smtpapi 0.2.0
+Processing smtpapi-0.2.0-py2.7.egg
+Adding smtpapi 0.2.0 to easy-install.pth file
+
+Using /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/smtpapi-0.2.0-py2.7.egg
+Finished processing dependencies for sendgrid==1.4.0
+
+The following NEW packages will be INSTALLED:
+
+    openssl:    1.0.1k-1     
+    pip:        7.0.3-py27_0 
+    python:     2.7.10-0     
+    readline:   6.2-2        
+    setuptools: 18.0.1-py27_0
+    smtpapi:    0.2.0-py27_0 
+    sqlite:     3.8.4.1-1    
+    system:     5.8-2        
+    tk:         8.5.18-0     
+    zlib:       1.2.8-0      
+
+Linking packages ...
+[                    ]|                                                  |   0%[openssl             ]|                                                  |   0%[readline            ]|#####                                             |  10%[sqlite              ]|##########                                        |  20%[system              ]|###############                                   |  30%[tk                  ]|####################                              |  40%[zlib                ]|#########################                         |  50%[python              ]|##############################                    |  60%[setuptools          ]|###################################               |  70%[smtpapi             ]|########################################          |  80%[pip                 ]|#############################################     |  90%[      COMPLETE      ]|##################################################| 100%
+Removing old work directory
+Source cache directory is: /home/ubuntu/miniconda/conda-bld/src_cache
+Found source in cache: sendgrid-1.4.0.tar.gz
+Extracting download
+Package: sendgrid-1.4.0-py_0
+source tree in: /home/ubuntu/miniconda/conda-bld/work/sendgrid-1.4.0
+found egg: /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/sendgrid-1.4.0-py2.7.egg
+number of files: 2
+Fixing permissions
+Fixing permissions
+BUILD END: sendgrid-1.4.0-py_0
+TEST START: sendgrid-1.4.0-py_0
+Fetching package metadata: ......
+
+WARNING: conda-build appears to be out of date. You have version 1.13.0 but the
+latest version is 1.14.1. Run
+
+conda update -n root conda-build
+
+to get the latest version.
+
+Solving package specifications: .===== testing package: sendgrid-1.4.0-py_0 =====
+import: u'sendgrid'
+===== sendgrid-1.4.0-py_0 OK =====
+
+The following packages will be downloaded:
+
+    package                    |            build
+    ---------------------------|-----------------
+    sendgrid-1.4.0             |             py_0          16 KB
+
+The following NEW packages will be INSTALLED:
+
+    openssl:    1.0.1k-1     
+    pip:        7.0.3-py27_0 
+    python:     2.7.10-0     
+    readline:   6.2-2        
+    sendgrid:   1.4.0-py_0   
+    setuptools: 18.0.1-py27_0
+    smtpapi:    0.2.0-py27_0 
+    sqlite:     3.8.4.1-1    
+    system:     5.8-2        
+    tk:         8.5.18-0     
+    zlib:       1.2.8-0      
+
+Fetching packages ...
+sendgrid-1.4.0   0% |                              | ETA:  --:--:--   0.00  B/ssendgrid-1.4.0 100% |###############################| ETA:  0:00:00  45.71 MB/ssendgrid-1.4.0 100% |###############################| Time: 0:00:00  26.23 MB/s
+Extracting packages ...
+[      COMPLETE      ]|                                                  |   0%[sendgrid            ]|                                                  |   0%[sendgrid            ]|                                                  |   0%[      COMPLETE      ]|##################################################| 100%
+Linking packages ...
+[      COMPLETE      ]|                                                  |   0%[openssl             ]|                                                  |   0%[openssl             ]|                                                  |   0%[readline            ]|####                                              |   9%[sqlite              ]|#########                                         |  18%[system              ]|#############                                     |  27%[tk                  ]|##################                                |  36%[zlib                ]|######################                            |  45%[python              ]|###########################                       |  54%[setuptools          ]|###############################                   |  63%[smtpapi             ]|####################################              |  72%[pip                 ]|########################################          |  81%[sendgrid            ]|#############################################     |  90%[      COMPLETE      ]|##################################################| 100%
+TEST END: sendgrid-1.4.0-py_0
+# If you want to upload this package to binstar.org later, type:
+#
+# $ binstar upload /home/ubuntu/miniconda/conda-bld/noarch/sendgrid-1.4.0-py_0.tar.bz2
+#
+# To have conda build upload to binstar automatically, use
+# $ conda config --set binstar_upload yes
+

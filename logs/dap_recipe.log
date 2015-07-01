@@ -1,0 +1,223 @@
+Warning, the following versions were found for dap
+2.2.6.7
+2.2.6.6
+2.2.6.5
+2.2.6.4
+2.2.6.3
+2.2.6.2
+2.2.6.1
+2.2.6
+2.2.5.10
+2.2.5.9
+2.2.5.8
+2.2.5.7
+2.2.5.6
+2.2.5.5
+2.2.5.4
+2.2.5.3
+2.2.5.2
+2.2.5.1
+2.2.5
+2.2.4
+2.2.3
+2.2.2
+2.2.1
+2.2.0
+2.2.0.b5
+2.2.0.b4
+2.2.0.b3
+2.2.0.b2
+2.2.0.b1
+2.2.0.a1dev-r3
+2.1.6
+2.1.5
+2.1.4
+2.1.3
+2.1.2
+2.1.1
+2.1.0
+2.1.0.rc6
+2.1.0.rc5
+2.1.0.rc4
+2.1.0.rc3
+2.1.0.rc2
+2.1.0.rc1
+2.0.0
+Using 2.2.6.7
+Use --version to specify a different version.
+Using url https://pypi.python.org/packages/source/d/dap/dap-2.2.6.7.tar.gz (53 KB) for dap.
+Downloading dap
+Using cached download
+Unpacking dap...
+done
+working in /tmp/tmpPk6kQzconda_skeleton_dap-2.2.6.7.tar.gz
+Fetching package metadata: ......
+
+WARNING: conda-build appears to be out of date. You have version 1.13.0 but the
+latest version is 1.14.1. Run
+
+conda update -n root conda-build
+
+to get the latest version.
+
+Solving package specifications: .patching file core.py
+Hunk #1 succeeded at 168 with fuzz 2 (offset 2 lines).
+
+WARNING: conda-build appears to be out of date. You have version 1.13.0 but the
+latest version is 1.14.1. Run
+
+conda update -n root conda-build
+
+to get the latest version.
+
+
+The following NEW packages will be INSTALLED:
+
+    numpy:  1.9.2-py27_0
+    pyyaml: 3.11-py27_1 
+    yaml:   0.1.6-0     
+
+Linking packages ...
+[                    ]|                                                  |   0%[yaml                ]|                                                  |   0%[numpy               ]|################                                  |  33%[pyyaml              ]|#################################                 |  66%[      COMPLETE      ]|##################################################| 100%
+Applying patch: '/tmp/tmpPk6kQzconda_skeleton_dap-2.2.6.7.tar.gz/pypi-distutils.patch'
+WARNING: Could not add entry points. They were:
+
+      # -*- Entry points: -*-
+      [dap.response]
+      dds = dap.responses.dds
+      das = dap.responses.das
+      dods = dap.responses.dods
+      asc = dap.responses.ascii
+      ascii = dap.responses.ascii
+      ver = dap.responses.version
+      version = dap.responses.version
+      help = dap.responses.help
+
+      [dap.plugin]
+      csv = dap.plugins.csvfiles
+
+      [paste.app_factory]
+      main = dap.wsgi.application:make_app
+      proxy = dap.wsgi.proxy:make_proxy
+
+      [paste.paster_create_template]
+      dap_server = dap.wsgi.templates:DapServerTemplate
+      dap_plugin = dap.plugins.templates:DapPluginTemplate
+      
+wsgifilter not found, trying WSGIFilter
+Warning, the following versions were found for WSGIFilter
+0.2
+0.1dev-r5923
+Using 0.2
+Use --version to specify a different version.
+Using url https://pypi.python.org/packages/source/W/WSGIFilter/WSGIFilter-0.2.tar.gz (23 KB) for WSGIFilter.
+Downloading WSGIFilter
+WSGIFilter-0.2   0% |                              | ETA:  --:--:--   0.00  B/sWSGIFilter-0.2  69% |#####################          | ETA:  0:00:00  36.07 MB/sWSGIFilter-0.2 100% |###############################| ETA:  0:00:00  34.11 MB/sWSGIFilter-0.2 100% |###############################| Time: 0:00:00  24.56 MB/s
+Unpacking WSGIFilter...
+done
+working in /tmp/tmpjkBsW3conda_skeleton_WSGIFilter-0.2.tar.gz
+Solving package specifications: .patching file core.py
+Hunk #1 succeeded at 168 with fuzz 2 (offset 2 lines).
+
+WARNING: conda-build appears to be out of date. You have version 1.13.0 but the
+latest version is 1.14.1. Run
+
+conda update -n root conda-build
+
+to get the latest version.
+
+
+Applying patch: '/tmp/tmpjkBsW3conda_skeleton_WSGIFilter-0.2.tar.gz/pypi-distutils.patch'
+WARNING: Could not add entry points. They were:
+
+      [paste.filter_app_factory]
+      debug_headers = wsgifilter.proxyapp:make_debug_headers
+      testing_vars = wsgifilter.examples.testingvars:TestingVars.paste_deploy_middleware
+      
+httpencode not found, trying HTTPEncode
+Warning, the following versions were found for HTTPEncode
+0.1
+0.1dev
+Using 0.1
+Use --version to specify a different version.
+Using url https://pypi.python.org/packages/source/H/HTTPEncode/HTTPEncode-0.1.tar.gz (34 KB) for HTTPEncode.
+Downloading HTTPEncode
+HTTPEncode-0.1   0% |                              | ETA:  --:--:--   0.00  B/sHTTPEncode-0.1  47% |##############                 | Time: 0:00:00  48.06 MB/sHTTPEncode-0.1  95% |#############################  | Time: 0:00:00   5.82 MB/sHTTPEncode-0.1 100% |###############################| Time: 0:00:00   5.93 MB/sHTTPEncode-0.1 100% |###############################| Time: 0:00:00   5.78 MB/sHTTPEncode-0.1 100% |###############################| Time: 0:00:00   5.62 MB/s
+Unpacking HTTPEncode...
+done
+working in /tmp/tmpd4KaKPconda_skeleton_HTTPEncode-0.1.tar.gz
+Solving package specifications: .patching file core.py
+Hunk #1 succeeded at 168 with fuzz 2 (offset 2 lines).
+An unexpected error has occurred, please consider sending the
+following traceback to the conda GitHub issue tracker at:
+
+    https://github.com/conda/conda-build/issues
+
+Include the output of the command 'conda info' in your report.
+
+
+
+Applying patch: '/tmp/tmpd4KaKPconda_skeleton_HTTPEncode-0.1.tar.gz/pypi-distutils.patch'
+WARNING: Could not add entry points. They were:
+
+      [httpencode.format]
+      name json = httpencode.json:json [json]
+      application/json to python = httpencode.json:json [json]
+      # I'm not terribly comfortable with this one:
+      application/x-javascript to python = httpencode.json:json [json]
+      text/x-json to python = httpencode.json:json [json]
+
+      application/x-www-form-urlencoded to cgi.FieldStorage = httpencode.form:form
+      multipart/form-data to cgi.FieldStorage = httpencode.form:form
+      name form = httpencode.form:form
+
+      application/x-www-form-urlencoded to python = httpencode.form:pyform
+      multipart/form-data to python = httpencode.form:pyform
+      name pyform = httpencode.form:form
+
+      text/xml to lxml = httpencode.lxmlformat:xml [lxml]
+      application/xml to lxml = httpencode.lxmlformat:xml [lxml]
+      name lxml = httpencode.lxmlformat:xml [lxml]
+
+      text/html to lxml = httpencode.lxmlformat:html [lxml]
+      name lxml_html = httpencode.lxmlformat:html [lxml]
+
+      text/xml to ElementTree = httpencode.etree:xml [etree]
+      application/xml to ElementTree = httpencode.etree:xml [etree]
+      name etree = httpencode.etree:xml [etree]
+
+      text/html to BeautifulSoup = httpencode.bsoupfilter:bsoup [BeautifulSoup]
+      name BeautifulSoup = httpencode.bsoupfilter:bsoup [BeautifulSoup]
+      name bsoup = httpencode.bsoupfilter:bsoup [BeautifulSoup]
+      
+      
+Warning, the following versions were found for elementtree
+1.2.6-20050316
+1.2.3-20041205
+1.2.2-20041205
+1.2.1-20041009
+1.2-20040618
+1.0
+Using 1.2.6-20050316
+Use --version to specify a different version.
+Using url http://effbot.org/downloads#elementtree (0 B) for elementtree.
+Downloading elementtree
+Unpacking elementtree...
+Traceback (most recent call last):
+  File "/home/ubuntu/miniconda/bin/conda-skeleton", line 6, in <module>
+    exec(compile(open(__file__).read(), __file__, 'exec'))
+  File "/home/ubuntu/conda-build/bin/conda-skeleton", line 5, in <module>
+    sys.exit(main())
+  File "/home/ubuntu/conda-build/conda_build/main_skeleton.py", line 240, in main
+    args_func(args, p)
+  File "/home/ubuntu/conda-build/conda_build/main_build.py", line 349, in args_func
+    args.func(args, p)
+  File "/home/ubuntu/conda-build/conda_build/main_skeleton.py", line 254, in execute
+    pypi.main(args, parser)
+  File "/home/ubuntu/conda-build/conda_build/pypi.py", line 387, in main
+    get_package_metadata(args, package, d, data)
+  File "/home/ubuntu/conda-build/conda_build/pypi.py", line 480, in get_package_metadata
+    unpack(join(SRC_CACHE, d['filename']), tempdir)
+  File "/home/ubuntu/conda-build/conda_build/pypi.py", line 702, in unpack
+    raise Exception("not a valid source")
+Exception: not a valid source

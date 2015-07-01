@@ -1,0 +1,127 @@
+package:
+  name: tw2.core
+  version: "2.2.2"
+
+source:
+  fn: tw2.core-2.2.2.tar.gz
+  url: https://pypi.python.org/packages/source/t/tw2.core/tw2.core-2.2.2.tar.gz
+  md5: 0f8e7c7a4e3b65aade5ab37d9174311d
+#  patches:
+   # List any patch files here
+   # - fix.patch
+
+build:
+  noarch_python: True
+  # preserve_egg_dir: True
+  # entry_points:
+    # Put any entry points (scripts to be generated automatically) here. The
+    # syntax is module:function.  For example
+    #
+    # - tw2.core = tw2.core:main
+    #
+    # Would create an entry point called tw2.core that calls tw2.core.main()
+
+
+  # If this is a new build for the same version, increment the build
+  # number. If you do not include this key, it defaults to 0.
+  # number: 1
+
+requirements:
+  build:
+    - python
+    - setuptools
+    - webob >=0.9.7
+    - pastedeploy
+    - speaklater
+    - decorator
+    - markupsafe
+    - six
+    - mako >=0.1.1
+    - nose
+    - sieve
+    - coverage
+    - genshi >=0.3.5
+    - mako >=0.1.1
+    - jinja2
+    - chameleon
+    - formencode
+    - webtest
+    - jinja2
+    - genshi >=0.3.5
+    - chameleon
+    - nose
+    - sieve
+    - coverage
+    - genshi >=0.3.5
+    - mako >=0.1.1
+    - jinja2
+    - chameleon
+    - formencode
+    - webtest
+
+  run:
+    - python
+    - webob >=0.9.7
+    - pastedeploy
+    - speaklater
+    - decorator
+    - markupsafe
+    - six
+    - mako >=0.1.1
+    - nose
+    - sieve
+    - coverage
+    - genshi >=0.3.5
+    - mako >=0.1.1
+    - jinja2
+    - chameleon
+    - formencode
+    - webtest
+    - jinja2
+    - genshi >=0.3.5
+    - chameleon
+    - nose
+    - sieve
+    - coverage
+    - genshi >=0.3.5
+    - mako >=0.1.1
+    - jinja2
+    - chameleon
+    - formencode
+    - webtest
+
+test:
+  # Python imports
+  imports:
+    - tw2
+    - tw2.core
+
+  # commands:
+    # You can put test commands to be run here.  Use this to test that the
+    # entry points work.
+
+
+  # You can also put a file called run_test.py in the recipe that will be run
+  # at test time.
+
+  requires:
+    - chameleon
+    - coverage
+    - formencode
+    - genshi >=0.3.5
+    - jinja2
+    - mako >=0.1.1
+    - nose
+    - sieve
+    - webtest
+    # Put any additional test requirements here.  For example
+    # - nose
+
+about:
+  home: http://toscawidgets.org/
+  license: MIT License
+  summary: 'The runtime components for ToscaWidgets 2, a web widget toolkit.'
+
+# See
+# http://docs.continuum.io/conda/build.html for
+# more information about meta.yaml

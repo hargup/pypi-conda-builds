@@ -1,0 +1,372 @@
+Removing old build directory
+Removing old work directory
+BUILD START: filebrowser_safe-0.3.8-py_0
+Fetching package metadata: ......
+
+WARNING: conda-build appears to be out of date. You have version 1.13.0 but the
+latest version is 1.14.1. Run
+
+conda update -n root conda-build
+
+to get the latest version.
+
+Solving package specifications: .+ /home/ubuntu/miniconda/envs/_build/bin/python setup.py install
+running install
+running bdist_egg
+running egg_info
+writing filebrowser_safe.egg-info/PKG-INFO
+writing top-level names to filebrowser_safe.egg-info/top_level.txt
+writing dependency_links to filebrowser_safe.egg-info/dependency_links.txt
+reading manifest file 'filebrowser_safe.egg-info/SOURCES.txt'
+reading manifest template 'MANIFEST.in'
+writing manifest file 'filebrowser_safe.egg-info/SOURCES.txt'
+installing library code to build/bdist.linux-x86_64/egg
+running install_lib
+running build_py
+creating build
+creating build/lib
+creating build/lib/filebrowser_safe
+copying filebrowser_safe/storage.py -> build/lib/filebrowser_safe
+copying filebrowser_safe/fields.py -> build/lib/filebrowser_safe
+copying filebrowser_safe/views.py -> build/lib/filebrowser_safe
+copying filebrowser_safe/urls.py -> build/lib/filebrowser_safe
+copying filebrowser_safe/forms.py -> build/lib/filebrowser_safe
+copying filebrowser_safe/__init__.py -> build/lib/filebrowser_safe
+copying filebrowser_safe/decorators.py -> build/lib/filebrowser_safe
+copying filebrowser_safe/settings.py -> build/lib/filebrowser_safe
+copying filebrowser_safe/models.py -> build/lib/filebrowser_safe
+copying filebrowser_safe/functions.py -> build/lib/filebrowser_safe
+copying filebrowser_safe/base.py -> build/lib/filebrowser_safe
+creating build/lib/filebrowser_safe/templatetags
+copying filebrowser_safe/templatetags/fb_pagination.py -> build/lib/filebrowser_safe/templatetags
+copying filebrowser_safe/templatetags/fb_tags.py -> build/lib/filebrowser_safe/templatetags
+copying filebrowser_safe/templatetags/fb_csrf.py -> build/lib/filebrowser_safe/templatetags
+copying filebrowser_safe/templatetags/__init__.py -> build/lib/filebrowser_safe/templatetags
+creating build/lib/filebrowser_safe/locale
+creating build/lib/filebrowser_safe/locale/ar
+creating build/lib/filebrowser_safe/locale/ar/LC_MESSAGES
+copying filebrowser_safe/locale/ar/LC_MESSAGES/django.mo -> build/lib/filebrowser_safe/locale/ar/LC_MESSAGES
+copying filebrowser_safe/locale/ar/LC_MESSAGES/django.po -> build/lib/filebrowser_safe/locale/ar/LC_MESSAGES
+creating build/lib/filebrowser_safe/locale/ca
+creating build/lib/filebrowser_safe/locale/ca/LC_MESSAGES
+copying filebrowser_safe/locale/ca/LC_MESSAGES/django.mo -> build/lib/filebrowser_safe/locale/ca/LC_MESSAGES
+copying filebrowser_safe/locale/ca/LC_MESSAGES/django.po -> build/lib/filebrowser_safe/locale/ca/LC_MESSAGES
+creating build/lib/filebrowser_safe/locale/de
+creating build/lib/filebrowser_safe/locale/de/LC_MESSAGES
+copying filebrowser_safe/locale/de/LC_MESSAGES/django.mo -> build/lib/filebrowser_safe/locale/de/LC_MESSAGES
+copying filebrowser_safe/locale/de/LC_MESSAGES/django.po -> build/lib/filebrowser_safe/locale/de/LC_MESSAGES
+creating build/lib/filebrowser_safe/locale/es
+creating build/lib/filebrowser_safe/locale/es/LC_MESSAGES
+copying filebrowser_safe/locale/es/LC_MESSAGES/django.mo -> build/lib/filebrowser_safe/locale/es/LC_MESSAGES
+copying filebrowser_safe/locale/es/LC_MESSAGES/django.po -> build/lib/filebrowser_safe/locale/es/LC_MESSAGES
+creating build/lib/filebrowser_safe/locale/fr
+creating build/lib/filebrowser_safe/locale/fr/LC_MESSAGES
+copying filebrowser_safe/locale/fr/LC_MESSAGES/django.mo -> build/lib/filebrowser_safe/locale/fr/LC_MESSAGES
+copying filebrowser_safe/locale/fr/LC_MESSAGES/django.po -> build/lib/filebrowser_safe/locale/fr/LC_MESSAGES
+creating build/lib/filebrowser_safe/locale/it
+creating build/lib/filebrowser_safe/locale/it/LC_MESSAGES
+copying filebrowser_safe/locale/it/LC_MESSAGES/django.mo -> build/lib/filebrowser_safe/locale/it/LC_MESSAGES
+copying filebrowser_safe/locale/it/LC_MESSAGES/django.po -> build/lib/filebrowser_safe/locale/it/LC_MESSAGES
+creating build/lib/filebrowser_safe/locale/nl
+creating build/lib/filebrowser_safe/locale/nl/LC_MESSAGES
+copying filebrowser_safe/locale/nl/LC_MESSAGES/django.mo -> build/lib/filebrowser_safe/locale/nl/LC_MESSAGES
+copying filebrowser_safe/locale/nl/LC_MESSAGES/django.po -> build/lib/filebrowser_safe/locale/nl/LC_MESSAGES
+creating build/lib/filebrowser_safe/locale/ru
+creating build/lib/filebrowser_safe/locale/ru/LC_MESSAGES
+copying filebrowser_safe/locale/ru/LC_MESSAGES/django.mo -> build/lib/filebrowser_safe/locale/ru/LC_MESSAGES
+copying filebrowser_safe/locale/ru/LC_MESSAGES/django.po -> build/lib/filebrowser_safe/locale/ru/LC_MESSAGES
+creating build/lib/filebrowser_safe/locale/sr
+creating build/lib/filebrowser_safe/locale/sr/LC_MESSAGES
+copying filebrowser_safe/locale/sr/LC_MESSAGES/django.mo -> build/lib/filebrowser_safe/locale/sr/LC_MESSAGES
+copying filebrowser_safe/locale/sr/LC_MESSAGES/django.po -> build/lib/filebrowser_safe/locale/sr/LC_MESSAGES
+creating build/lib/filebrowser_safe/locale/sr_Latn
+creating build/lib/filebrowser_safe/locale/sr_Latn/LC_MESSAGES
+copying filebrowser_safe/locale/sr_Latn/LC_MESSAGES/django.mo -> build/lib/filebrowser_safe/locale/sr_Latn/LC_MESSAGES
+copying filebrowser_safe/locale/sr_Latn/LC_MESSAGES/django.po -> build/lib/filebrowser_safe/locale/sr_Latn/LC_MESSAGES
+creating build/lib/filebrowser_safe/locale/zh_CN
+creating build/lib/filebrowser_safe/locale/zh_CN/LC_MESSAGES
+copying filebrowser_safe/locale/zh_CN/LC_MESSAGES/django.mo -> build/lib/filebrowser_safe/locale/zh_CN/LC_MESSAGES
+copying filebrowser_safe/locale/zh_CN/LC_MESSAGES/django.po -> build/lib/filebrowser_safe/locale/zh_CN/LC_MESSAGES
+creating build/lib/filebrowser_safe/locale/zh_TW
+creating build/lib/filebrowser_safe/locale/zh_TW/LC_MESSAGES
+copying filebrowser_safe/locale/zh_TW/LC_MESSAGES/django.mo -> build/lib/filebrowser_safe/locale/zh_TW/LC_MESSAGES
+copying filebrowser_safe/locale/zh_TW/LC_MESSAGES/django.po -> build/lib/filebrowser_safe/locale/zh_TW/LC_MESSAGES
+creating build/lib/filebrowser_safe/static
+creating build/lib/filebrowser_safe/static/filebrowser
+creating build/lib/filebrowser_safe/static/filebrowser/css
+copying filebrowser_safe/static/filebrowser/css/filebrowser.css -> build/lib/filebrowser_safe/static/filebrowser/css
+copying filebrowser_safe/static/filebrowser/css/rtl.css -> build/lib/filebrowser_safe/static/filebrowser/css
+creating build/lib/filebrowser_safe/static/filebrowser/img
+copying filebrowser_safe/static/filebrowser/img/filebrowser_icon_delete.gif -> build/lib/filebrowser_safe/static/filebrowser/img
+copying filebrowser_safe/static/filebrowser/img/filebrowser_icon_delete_hover.gif -> build/lib/filebrowser_safe/static/filebrowser/img
+copying filebrowser_safe/static/filebrowser/img/filebrowser_icon_rename.gif -> build/lib/filebrowser_safe/static/filebrowser/img
+copying filebrowser_safe/static/filebrowser/img/filebrowser_icon_rename_hover.gif -> build/lib/filebrowser_safe/static/filebrowser/img
+copying filebrowser_safe/static/filebrowser/img/filebrowser_icon_select.gif -> build/lib/filebrowser_safe/static/filebrowser/img
+copying filebrowser_safe/static/filebrowser/img/filebrowser_icon_select_disabled.gif -> build/lib/filebrowser_safe/static/filebrowser/img
+copying filebrowser_safe/static/filebrowser/img/filebrowser_icon_select_hover.gif -> build/lib/filebrowser_safe/static/filebrowser/img
+copying filebrowser_safe/static/filebrowser/img/filebrowser_icon_show.gif -> build/lib/filebrowser_safe/static/filebrowser/img
+copying filebrowser_safe/static/filebrowser/img/filebrowser_icon_show_hover.gif -> build/lib/filebrowser_safe/static/filebrowser/img
+copying filebrowser_safe/static/filebrowser/img/filebrowser_icon_showversions.gif -> build/lib/filebrowser_safe/static/filebrowser/img
+copying filebrowser_safe/static/filebrowser/img/filebrowser_icon_showversions_hover.gif -> build/lib/filebrowser_safe/static/filebrowser/img
+copying filebrowser_safe/static/filebrowser/img/filebrowser_type_.gif -> build/lib/filebrowser_safe/static/filebrowser/img
+copying filebrowser_safe/static/filebrowser/img/filebrowser_type_audio.gif -> build/lib/filebrowser_safe/static/filebrowser/img
+copying filebrowser_safe/static/filebrowser/img/filebrowser_type_code.gif -> build/lib/filebrowser_safe/static/filebrowser/img
+copying filebrowser_safe/static/filebrowser/img/filebrowser_type_document.gif -> build/lib/filebrowser_safe/static/filebrowser/img
+copying filebrowser_safe/static/filebrowser/img/filebrowser_type_folder.gif -> build/lib/filebrowser_safe/static/filebrowser/img
+copying filebrowser_safe/static/filebrowser/img/filebrowser_type_image.gif -> build/lib/filebrowser_safe/static/filebrowser/img
+copying filebrowser_safe/static/filebrowser/img/filebrowser_type_video.gif -> build/lib/filebrowser_safe/static/filebrowser/img
+creating build/lib/filebrowser_safe/static/filebrowser/js
+copying filebrowser_safe/static/filebrowser/js/AddFileBrowser.js -> build/lib/filebrowser_safe/static/filebrowser/js
+copying filebrowser_safe/static/filebrowser/js/FB_CKEditor.js -> build/lib/filebrowser_safe/static/filebrowser/js
+copying filebrowser_safe/static/filebrowser/js/FB_FileBrowseField.js -> build/lib/filebrowser_safe/static/filebrowser/js
+copying filebrowser_safe/static/filebrowser/js/FB_TinyMCE.js -> build/lib/filebrowser_safe/static/filebrowser/js
+copying filebrowser_safe/static/filebrowser/js/TinyMCEAdmin.js -> build/lib/filebrowser_safe/static/filebrowser/js
+copying filebrowser_safe/static/filebrowser/js/filebrowser-popup.js -> build/lib/filebrowser_safe/static/filebrowser/js
+creating build/lib/filebrowser_safe/static/filebrowser/uploadify
+copying filebrowser_safe/static/filebrowser/uploadify/cancel.png -> build/lib/filebrowser_safe/static/filebrowser/uploadify
+copying filebrowser_safe/static/filebrowser/uploadify/expressInstall.swf -> build/lib/filebrowser_safe/static/filebrowser/uploadify
+copying filebrowser_safe/static/filebrowser/uploadify/jquery-1.4.2.min.js -> build/lib/filebrowser_safe/static/filebrowser/uploadify
+copying filebrowser_safe/static/filebrowser/uploadify/jquery.uploadify.v2.1.4.js -> build/lib/filebrowser_safe/static/filebrowser/uploadify
+copying filebrowser_safe/static/filebrowser/uploadify/jquery.uploadify.v2.1.4.min.js -> build/lib/filebrowser_safe/static/filebrowser/uploadify
+copying filebrowser_safe/static/filebrowser/uploadify/swfobject.js -> build/lib/filebrowser_safe/static/filebrowser/uploadify
+copying filebrowser_safe/static/filebrowser/uploadify/uploadify.allglyphs.swf -> build/lib/filebrowser_safe/static/filebrowser/uploadify
+copying filebrowser_safe/static/filebrowser/uploadify/uploadify.css -> build/lib/filebrowser_safe/static/filebrowser/uploadify
+copying filebrowser_safe/static/filebrowser/uploadify/uploadify.swf -> build/lib/filebrowser_safe/static/filebrowser/uploadify
+creating build/lib/filebrowser_safe/templates
+creating build/lib/filebrowser_safe/templates/filebrowser
+copying filebrowser_safe/templates/filebrowser/append.html -> build/lib/filebrowser_safe/templates/filebrowser
+copying filebrowser_safe/templates/filebrowser/custom_field.html -> build/lib/filebrowser_safe/templates/filebrowser
+copying filebrowser_safe/templates/filebrowser/index.html -> build/lib/filebrowser_safe/templates/filebrowser
+copying filebrowser_safe/templates/filebrowser/makedir.html -> build/lib/filebrowser_safe/templates/filebrowser
+copying filebrowser_safe/templates/filebrowser/rename.html -> build/lib/filebrowser_safe/templates/filebrowser
+copying filebrowser_safe/templates/filebrowser/upload.html -> build/lib/filebrowser_safe/templates/filebrowser
+creating build/lib/filebrowser_safe/templates/filebrowser/include
+copying filebrowser_safe/templates/filebrowser/include/_response.html -> build/lib/filebrowser_safe/templates/filebrowser/include
+copying filebrowser_safe/templates/filebrowser/include/breadcrumbs.html -> build/lib/filebrowser_safe/templates/filebrowser/include
+copying filebrowser_safe/templates/filebrowser/include/filelisting.html -> build/lib/filebrowser_safe/templates/filebrowser/include
+copying filebrowser_safe/templates/filebrowser/include/filter.html -> build/lib/filebrowser_safe/templates/filebrowser/include
+copying filebrowser_safe/templates/filebrowser/include/paginator.html -> build/lib/filebrowser_safe/templates/filebrowser/include
+copying filebrowser_safe/templates/filebrowser/include/search.html -> build/lib/filebrowser_safe/templates/filebrowser/include
+copying filebrowser_safe/templates/filebrowser/include/tableheader.html -> build/lib/filebrowser_safe/templates/filebrowser/include
+copying filebrowser_safe/templates/filebrowser/include/toolbar.html -> build/lib/filebrowser_safe/templates/filebrowser/include
+creating build/bdist.linux-x86_64
+creating build/bdist.linux-x86_64/egg
+creating build/bdist.linux-x86_64/egg/filebrowser_safe
+copying build/lib/filebrowser_safe/storage.py -> build/bdist.linux-x86_64/egg/filebrowser_safe
+copying build/lib/filebrowser_safe/fields.py -> build/bdist.linux-x86_64/egg/filebrowser_safe
+creating build/bdist.linux-x86_64/egg/filebrowser_safe/templates
+creating build/bdist.linux-x86_64/egg/filebrowser_safe/templates/filebrowser
+copying build/lib/filebrowser_safe/templates/filebrowser/index.html -> build/bdist.linux-x86_64/egg/filebrowser_safe/templates/filebrowser
+copying build/lib/filebrowser_safe/templates/filebrowser/makedir.html -> build/bdist.linux-x86_64/egg/filebrowser_safe/templates/filebrowser
+copying build/lib/filebrowser_safe/templates/filebrowser/rename.html -> build/bdist.linux-x86_64/egg/filebrowser_safe/templates/filebrowser
+copying build/lib/filebrowser_safe/templates/filebrowser/upload.html -> build/bdist.linux-x86_64/egg/filebrowser_safe/templates/filebrowser
+copying build/lib/filebrowser_safe/templates/filebrowser/append.html -> build/bdist.linux-x86_64/egg/filebrowser_safe/templates/filebrowser
+copying build/lib/filebrowser_safe/templates/filebrowser/custom_field.html -> build/bdist.linux-x86_64/egg/filebrowser_safe/templates/filebrowser
+creating build/bdist.linux-x86_64/egg/filebrowser_safe/templates/filebrowser/include
+copying build/lib/filebrowser_safe/templates/filebrowser/include/breadcrumbs.html -> build/bdist.linux-x86_64/egg/filebrowser_safe/templates/filebrowser/include
+copying build/lib/filebrowser_safe/templates/filebrowser/include/tableheader.html -> build/bdist.linux-x86_64/egg/filebrowser_safe/templates/filebrowser/include
+copying build/lib/filebrowser_safe/templates/filebrowser/include/_response.html -> build/bdist.linux-x86_64/egg/filebrowser_safe/templates/filebrowser/include
+copying build/lib/filebrowser_safe/templates/filebrowser/include/paginator.html -> build/bdist.linux-x86_64/egg/filebrowser_safe/templates/filebrowser/include
+copying build/lib/filebrowser_safe/templates/filebrowser/include/toolbar.html -> build/bdist.linux-x86_64/egg/filebrowser_safe/templates/filebrowser/include
+copying build/lib/filebrowser_safe/templates/filebrowser/include/filelisting.html -> build/bdist.linux-x86_64/egg/filebrowser_safe/templates/filebrowser/include
+copying build/lib/filebrowser_safe/templates/filebrowser/include/search.html -> build/bdist.linux-x86_64/egg/filebrowser_safe/templates/filebrowser/include
+copying build/lib/filebrowser_safe/templates/filebrowser/include/filter.html -> build/bdist.linux-x86_64/egg/filebrowser_safe/templates/filebrowser/include
+creating build/bdist.linux-x86_64/egg/filebrowser_safe/templatetags
+copying build/lib/filebrowser_safe/templatetags/fb_pagination.py -> build/bdist.linux-x86_64/egg/filebrowser_safe/templatetags
+copying build/lib/filebrowser_safe/templatetags/fb_tags.py -> build/bdist.linux-x86_64/egg/filebrowser_safe/templatetags
+copying build/lib/filebrowser_safe/templatetags/fb_csrf.py -> build/bdist.linux-x86_64/egg/filebrowser_safe/templatetags
+copying build/lib/filebrowser_safe/templatetags/__init__.py -> build/bdist.linux-x86_64/egg/filebrowser_safe/templatetags
+copying build/lib/filebrowser_safe/views.py -> build/bdist.linux-x86_64/egg/filebrowser_safe
+creating build/bdist.linux-x86_64/egg/filebrowser_safe/static
+creating build/bdist.linux-x86_64/egg/filebrowser_safe/static/filebrowser
+creating build/bdist.linux-x86_64/egg/filebrowser_safe/static/filebrowser/img
+copying build/lib/filebrowser_safe/static/filebrowser/img/filebrowser_icon_delete.gif -> build/bdist.linux-x86_64/egg/filebrowser_safe/static/filebrowser/img
+copying build/lib/filebrowser_safe/static/filebrowser/img/filebrowser_icon_show.gif -> build/bdist.linux-x86_64/egg/filebrowser_safe/static/filebrowser/img
+copying build/lib/filebrowser_safe/static/filebrowser/img/filebrowser_type_image.gif -> build/bdist.linux-x86_64/egg/filebrowser_safe/static/filebrowser/img
+copying build/lib/filebrowser_safe/static/filebrowser/img/filebrowser_type_folder.gif -> build/bdist.linux-x86_64/egg/filebrowser_safe/static/filebrowser/img
+copying build/lib/filebrowser_safe/static/filebrowser/img/filebrowser_icon_select_hover.gif -> build/bdist.linux-x86_64/egg/filebrowser_safe/static/filebrowser/img
+copying build/lib/filebrowser_safe/static/filebrowser/img/filebrowser_icon_rename_hover.gif -> build/bdist.linux-x86_64/egg/filebrowser_safe/static/filebrowser/img
+copying build/lib/filebrowser_safe/static/filebrowser/img/filebrowser_icon_showversions.gif -> build/bdist.linux-x86_64/egg/filebrowser_safe/static/filebrowser/img
+copying build/lib/filebrowser_safe/static/filebrowser/img/filebrowser_type_code.gif -> build/bdist.linux-x86_64/egg/filebrowser_safe/static/filebrowser/img
+copying build/lib/filebrowser_safe/static/filebrowser/img/filebrowser_type_.gif -> build/bdist.linux-x86_64/egg/filebrowser_safe/static/filebrowser/img
+copying build/lib/filebrowser_safe/static/filebrowser/img/filebrowser_icon_select.gif -> build/bdist.linux-x86_64/egg/filebrowser_safe/static/filebrowser/img
+copying build/lib/filebrowser_safe/static/filebrowser/img/filebrowser_icon_delete_hover.gif -> build/bdist.linux-x86_64/egg/filebrowser_safe/static/filebrowser/img
+copying build/lib/filebrowser_safe/static/filebrowser/img/filebrowser_icon_rename.gif -> build/bdist.linux-x86_64/egg/filebrowser_safe/static/filebrowser/img
+copying build/lib/filebrowser_safe/static/filebrowser/img/filebrowser_icon_show_hover.gif -> build/bdist.linux-x86_64/egg/filebrowser_safe/static/filebrowser/img
+copying build/lib/filebrowser_safe/static/filebrowser/img/filebrowser_icon_select_disabled.gif -> build/bdist.linux-x86_64/egg/filebrowser_safe/static/filebrowser/img
+copying build/lib/filebrowser_safe/static/filebrowser/img/filebrowser_icon_showversions_hover.gif -> build/bdist.linux-x86_64/egg/filebrowser_safe/static/filebrowser/img
+copying build/lib/filebrowser_safe/static/filebrowser/img/filebrowser_type_audio.gif -> build/bdist.linux-x86_64/egg/filebrowser_safe/static/filebrowser/img
+copying build/lib/filebrowser_safe/static/filebrowser/img/filebrowser_type_video.gif -> build/bdist.linux-x86_64/egg/filebrowser_safe/static/filebrowser/img
+copying build/lib/filebrowser_safe/static/filebrowser/img/filebrowser_type_document.gif -> build/bdist.linux-x86_64/egg/filebrowser_safe/static/filebrowser/img
+creating build/bdist.linux-x86_64/egg/filebrowser_safe/static/filebrowser/css
+copying build/lib/filebrowser_safe/static/filebrowser/css/rtl.css -> build/bdist.linux-x86_64/egg/filebrowser_safe/static/filebrowser/css
+copying build/lib/filebrowser_safe/static/filebrowser/css/filebrowser.css -> build/bdist.linux-x86_64/egg/filebrowser_safe/static/filebrowser/css
+creating build/bdist.linux-x86_64/egg/filebrowser_safe/static/filebrowser/js
+copying build/lib/filebrowser_safe/static/filebrowser/js/TinyMCEAdmin.js -> build/bdist.linux-x86_64/egg/filebrowser_safe/static/filebrowser/js
+copying build/lib/filebrowser_safe/static/filebrowser/js/filebrowser-popup.js -> build/bdist.linux-x86_64/egg/filebrowser_safe/static/filebrowser/js
+copying build/lib/filebrowser_safe/static/filebrowser/js/FB_CKEditor.js -> build/bdist.linux-x86_64/egg/filebrowser_safe/static/filebrowser/js
+copying build/lib/filebrowser_safe/static/filebrowser/js/FB_TinyMCE.js -> build/bdist.linux-x86_64/egg/filebrowser_safe/static/filebrowser/js
+copying build/lib/filebrowser_safe/static/filebrowser/js/FB_FileBrowseField.js -> build/bdist.linux-x86_64/egg/filebrowser_safe/static/filebrowser/js
+copying build/lib/filebrowser_safe/static/filebrowser/js/AddFileBrowser.js -> build/bdist.linux-x86_64/egg/filebrowser_safe/static/filebrowser/js
+creating build/bdist.linux-x86_64/egg/filebrowser_safe/static/filebrowser/uploadify
+copying build/lib/filebrowser_safe/static/filebrowser/uploadify/swfobject.js -> build/bdist.linux-x86_64/egg/filebrowser_safe/static/filebrowser/uploadify
+copying build/lib/filebrowser_safe/static/filebrowser/uploadify/jquery.uploadify.v2.1.4.js -> build/bdist.linux-x86_64/egg/filebrowser_safe/static/filebrowser/uploadify
+copying build/lib/filebrowser_safe/static/filebrowser/uploadify/uploadify.allglyphs.swf -> build/bdist.linux-x86_64/egg/filebrowser_safe/static/filebrowser/uploadify
+copying build/lib/filebrowser_safe/static/filebrowser/uploadify/uploadify.swf -> build/bdist.linux-x86_64/egg/filebrowser_safe/static/filebrowser/uploadify
+copying build/lib/filebrowser_safe/static/filebrowser/uploadify/jquery.uploadify.v2.1.4.min.js -> build/bdist.linux-x86_64/egg/filebrowser_safe/static/filebrowser/uploadify
+copying build/lib/filebrowser_safe/static/filebrowser/uploadify/cancel.png -> build/bdist.linux-x86_64/egg/filebrowser_safe/static/filebrowser/uploadify
+copying build/lib/filebrowser_safe/static/filebrowser/uploadify/expressInstall.swf -> build/bdist.linux-x86_64/egg/filebrowser_safe/static/filebrowser/uploadify
+copying build/lib/filebrowser_safe/static/filebrowser/uploadify/jquery-1.4.2.min.js -> build/bdist.linux-x86_64/egg/filebrowser_safe/static/filebrowser/uploadify
+copying build/lib/filebrowser_safe/static/filebrowser/uploadify/uploadify.css -> build/bdist.linux-x86_64/egg/filebrowser_safe/static/filebrowser/uploadify
+copying build/lib/filebrowser_safe/urls.py -> build/bdist.linux-x86_64/egg/filebrowser_safe
+copying build/lib/filebrowser_safe/forms.py -> build/bdist.linux-x86_64/egg/filebrowser_safe
+copying build/lib/filebrowser_safe/__init__.py -> build/bdist.linux-x86_64/egg/filebrowser_safe
+copying build/lib/filebrowser_safe/decorators.py -> build/bdist.linux-x86_64/egg/filebrowser_safe
+copying build/lib/filebrowser_safe/settings.py -> build/bdist.linux-x86_64/egg/filebrowser_safe
+copying build/lib/filebrowser_safe/models.py -> build/bdist.linux-x86_64/egg/filebrowser_safe
+copying build/lib/filebrowser_safe/functions.py -> build/bdist.linux-x86_64/egg/filebrowser_safe
+creating build/bdist.linux-x86_64/egg/filebrowser_safe/locale
+creating build/bdist.linux-x86_64/egg/filebrowser_safe/locale/de
+creating build/bdist.linux-x86_64/egg/filebrowser_safe/locale/de/LC_MESSAGES
+copying build/lib/filebrowser_safe/locale/de/LC_MESSAGES/django.mo -> build/bdist.linux-x86_64/egg/filebrowser_safe/locale/de/LC_MESSAGES
+copying build/lib/filebrowser_safe/locale/de/LC_MESSAGES/django.po -> build/bdist.linux-x86_64/egg/filebrowser_safe/locale/de/LC_MESSAGES
+creating build/bdist.linux-x86_64/egg/filebrowser_safe/locale/it
+creating build/bdist.linux-x86_64/egg/filebrowser_safe/locale/it/LC_MESSAGES
+copying build/lib/filebrowser_safe/locale/it/LC_MESSAGES/django.mo -> build/bdist.linux-x86_64/egg/filebrowser_safe/locale/it/LC_MESSAGES
+copying build/lib/filebrowser_safe/locale/it/LC_MESSAGES/django.po -> build/bdist.linux-x86_64/egg/filebrowser_safe/locale/it/LC_MESSAGES
+creating build/bdist.linux-x86_64/egg/filebrowser_safe/locale/zh_TW
+creating build/bdist.linux-x86_64/egg/filebrowser_safe/locale/zh_TW/LC_MESSAGES
+copying build/lib/filebrowser_safe/locale/zh_TW/LC_MESSAGES/django.mo -> build/bdist.linux-x86_64/egg/filebrowser_safe/locale/zh_TW/LC_MESSAGES
+copying build/lib/filebrowser_safe/locale/zh_TW/LC_MESSAGES/django.po -> build/bdist.linux-x86_64/egg/filebrowser_safe/locale/zh_TW/LC_MESSAGES
+creating build/bdist.linux-x86_64/egg/filebrowser_safe/locale/ar
+creating build/bdist.linux-x86_64/egg/filebrowser_safe/locale/ar/LC_MESSAGES
+copying build/lib/filebrowser_safe/locale/ar/LC_MESSAGES/django.mo -> build/bdist.linux-x86_64/egg/filebrowser_safe/locale/ar/LC_MESSAGES
+copying build/lib/filebrowser_safe/locale/ar/LC_MESSAGES/django.po -> build/bdist.linux-x86_64/egg/filebrowser_safe/locale/ar/LC_MESSAGES
+creating build/bdist.linux-x86_64/egg/filebrowser_safe/locale/zh_CN
+creating build/bdist.linux-x86_64/egg/filebrowser_safe/locale/zh_CN/LC_MESSAGES
+copying build/lib/filebrowser_safe/locale/zh_CN/LC_MESSAGES/django.mo -> build/bdist.linux-x86_64/egg/filebrowser_safe/locale/zh_CN/LC_MESSAGES
+copying build/lib/filebrowser_safe/locale/zh_CN/LC_MESSAGES/django.po -> build/bdist.linux-x86_64/egg/filebrowser_safe/locale/zh_CN/LC_MESSAGES
+creating build/bdist.linux-x86_64/egg/filebrowser_safe/locale/es
+creating build/bdist.linux-x86_64/egg/filebrowser_safe/locale/es/LC_MESSAGES
+copying build/lib/filebrowser_safe/locale/es/LC_MESSAGES/django.mo -> build/bdist.linux-x86_64/egg/filebrowser_safe/locale/es/LC_MESSAGES
+copying build/lib/filebrowser_safe/locale/es/LC_MESSAGES/django.po -> build/bdist.linux-x86_64/egg/filebrowser_safe/locale/es/LC_MESSAGES
+creating build/bdist.linux-x86_64/egg/filebrowser_safe/locale/nl
+creating build/bdist.linux-x86_64/egg/filebrowser_safe/locale/nl/LC_MESSAGES
+copying build/lib/filebrowser_safe/locale/nl/LC_MESSAGES/django.mo -> build/bdist.linux-x86_64/egg/filebrowser_safe/locale/nl/LC_MESSAGES
+copying build/lib/filebrowser_safe/locale/nl/LC_MESSAGES/django.po -> build/bdist.linux-x86_64/egg/filebrowser_safe/locale/nl/LC_MESSAGES
+creating build/bdist.linux-x86_64/egg/filebrowser_safe/locale/fr
+creating build/bdist.linux-x86_64/egg/filebrowser_safe/locale/fr/LC_MESSAGES
+copying build/lib/filebrowser_safe/locale/fr/LC_MESSAGES/django.mo -> build/bdist.linux-x86_64/egg/filebrowser_safe/locale/fr/LC_MESSAGES
+copying build/lib/filebrowser_safe/locale/fr/LC_MESSAGES/django.po -> build/bdist.linux-x86_64/egg/filebrowser_safe/locale/fr/LC_MESSAGES
+creating build/bdist.linux-x86_64/egg/filebrowser_safe/locale/ca
+creating build/bdist.linux-x86_64/egg/filebrowser_safe/locale/ca/LC_MESSAGES
+copying build/lib/filebrowser_safe/locale/ca/LC_MESSAGES/django.mo -> build/bdist.linux-x86_64/egg/filebrowser_safe/locale/ca/LC_MESSAGES
+copying build/lib/filebrowser_safe/locale/ca/LC_MESSAGES/django.po -> build/bdist.linux-x86_64/egg/filebrowser_safe/locale/ca/LC_MESSAGES
+creating build/bdist.linux-x86_64/egg/filebrowser_safe/locale/sr
+creating build/bdist.linux-x86_64/egg/filebrowser_safe/locale/sr/LC_MESSAGES
+copying build/lib/filebrowser_safe/locale/sr/LC_MESSAGES/django.mo -> build/bdist.linux-x86_64/egg/filebrowser_safe/locale/sr/LC_MESSAGES
+copying build/lib/filebrowser_safe/locale/sr/LC_MESSAGES/django.po -> build/bdist.linux-x86_64/egg/filebrowser_safe/locale/sr/LC_MESSAGES
+creating build/bdist.linux-x86_64/egg/filebrowser_safe/locale/sr_Latn
+creating build/bdist.linux-x86_64/egg/filebrowser_safe/locale/sr_Latn/LC_MESSAGES
+copying build/lib/filebrowser_safe/locale/sr_Latn/LC_MESSAGES/django.mo -> build/bdist.linux-x86_64/egg/filebrowser_safe/locale/sr_Latn/LC_MESSAGES
+copying build/lib/filebrowser_safe/locale/sr_Latn/LC_MESSAGES/django.po -> build/bdist.linux-x86_64/egg/filebrowser_safe/locale/sr_Latn/LC_MESSAGES
+creating build/bdist.linux-x86_64/egg/filebrowser_safe/locale/ru
+creating build/bdist.linux-x86_64/egg/filebrowser_safe/locale/ru/LC_MESSAGES
+copying build/lib/filebrowser_safe/locale/ru/LC_MESSAGES/django.mo -> build/bdist.linux-x86_64/egg/filebrowser_safe/locale/ru/LC_MESSAGES
+copying build/lib/filebrowser_safe/locale/ru/LC_MESSAGES/django.po -> build/bdist.linux-x86_64/egg/filebrowser_safe/locale/ru/LC_MESSAGES
+copying build/lib/filebrowser_safe/base.py -> build/bdist.linux-x86_64/egg/filebrowser_safe
+byte-compiling build/bdist.linux-x86_64/egg/filebrowser_safe/storage.py to storage.pyc
+byte-compiling build/bdist.linux-x86_64/egg/filebrowser_safe/fields.py to fields.pyc
+byte-compiling build/bdist.linux-x86_64/egg/filebrowser_safe/templatetags/fb_pagination.py to fb_pagination.pyc
+byte-compiling build/bdist.linux-x86_64/egg/filebrowser_safe/templatetags/fb_tags.py to fb_tags.pyc
+byte-compiling build/bdist.linux-x86_64/egg/filebrowser_safe/templatetags/fb_csrf.py to fb_csrf.pyc
+byte-compiling build/bdist.linux-x86_64/egg/filebrowser_safe/templatetags/__init__.py to __init__.pyc
+byte-compiling build/bdist.linux-x86_64/egg/filebrowser_safe/views.py to views.pyc
+byte-compiling build/bdist.linux-x86_64/egg/filebrowser_safe/urls.py to urls.pyc
+byte-compiling build/bdist.linux-x86_64/egg/filebrowser_safe/forms.py to forms.pyc
+byte-compiling build/bdist.linux-x86_64/egg/filebrowser_safe/__init__.py to __init__.pyc
+byte-compiling build/bdist.linux-x86_64/egg/filebrowser_safe/decorators.py to decorators.pyc
+byte-compiling build/bdist.linux-x86_64/egg/filebrowser_safe/settings.py to settings.pyc
+byte-compiling build/bdist.linux-x86_64/egg/filebrowser_safe/models.py to models.pyc
+byte-compiling build/bdist.linux-x86_64/egg/filebrowser_safe/functions.py to functions.pyc
+byte-compiling build/bdist.linux-x86_64/egg/filebrowser_safe/base.py to base.pyc
+creating build/bdist.linux-x86_64/egg/EGG-INFO
+copying filebrowser_safe.egg-info/PKG-INFO -> build/bdist.linux-x86_64/egg/EGG-INFO
+copying filebrowser_safe.egg-info/SOURCES.txt -> build/bdist.linux-x86_64/egg/EGG-INFO
+copying filebrowser_safe.egg-info/dependency_links.txt -> build/bdist.linux-x86_64/egg/EGG-INFO
+copying filebrowser_safe.egg-info/not-zip-safe -> build/bdist.linux-x86_64/egg/EGG-INFO
+copying filebrowser_safe.egg-info/top_level.txt -> build/bdist.linux-x86_64/egg/EGG-INFO
+creating dist
+creating 'dist/filebrowser_safe-0.3.8-py2.7.egg' and adding 'build/bdist.linux-x86_64/egg' to it
+removing 'build/bdist.linux-x86_64/egg' (and everything under it)
+Processing filebrowser_safe-0.3.8-py2.7.egg
+creating /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/filebrowser_safe-0.3.8-py2.7.egg
+Extracting filebrowser_safe-0.3.8-py2.7.egg to /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages
+Adding filebrowser-safe 0.3.8 to easy-install.pth file
+
+Installed /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/filebrowser_safe-0.3.8-py2.7.egg
+Processing dependencies for filebrowser-safe==0.3.8
+Finished processing dependencies for filebrowser-safe==0.3.8
+
+The following NEW packages will be INSTALLED:
+
+    openssl:    1.0.1k-1     
+    pip:        7.0.3-py27_0 
+    python:     2.7.10-0     
+    readline:   6.2-2        
+    setuptools: 18.0.1-py27_0
+    sqlite:     3.8.4.1-1    
+    system:     5.8-2        
+    tk:         8.5.18-0     
+    zlib:       1.2.8-0      
+
+Linking packages ...
+[                    ]|                                                  |   0%[openssl             ]|                                                  |   0%[readline            ]|#####                                             |  11%[sqlite              ]|###########                                       |  22%[system              ]|################                                  |  33%[tk                  ]|######################                            |  44%[zlib                ]|###########################                       |  55%[python              ]|#################################                 |  66%[setuptools          ]|######################################            |  77%[pip                 ]|############################################      |  88%[      COMPLETE      ]|##################################################| 100%
+Removing old work directory
+Source cache directory is: /home/ubuntu/miniconda/conda-bld/src_cache
+Found source in cache: filebrowser_safe-0.3.8.tar.gz
+Extracting download
+Package: filebrowser_safe-0.3.8-py_0
+source tree in: /home/ubuntu/miniconda/conda-bld/work/filebrowser_safe-0.3.8
+found egg dir: /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/filebrowser_safe-0.3.8-py2.7.egg
+number of files: 104
+Fixing permissions
+Fixing permissions
+BUILD END: filebrowser_safe-0.3.8-py_0
+TEST START: filebrowser_safe-0.3.8-py_0
+Fetching package metadata: ......
+
+WARNING: conda-build appears to be out of date. You have version 1.13.0 but the
+latest version is 1.14.1. Run
+
+conda update -n root conda-build
+
+to get the latest version.
+
+Solving package specifications: ./home/ubuntu/miniconda/pkgs/filebrowser_safe-0.3.8-py_0/bin/.filebrowser_safe-pre-link.sh: line 2: /home/ubuntu/miniconda/envs/_test/bin/python: No such file or directory
+
+The following packages will be downloaded:
+
+    package                    |            build
+    ---------------------------|-----------------
+    filebrowser_safe-0.3.8     |             py_0         155 KB
+
+The following NEW packages will be INSTALLED:
+
+    filebrowser_safe: 0.3.8-py_0   
+    openssl:          1.0.1k-1     
+    pip:              7.0.3-py27_0 
+    python:           2.7.10-0     
+    readline:         6.2-2        
+    setuptools:       18.0.1-py27_0
+    sqlite:           3.8.4.1-1    
+    system:           5.8-2        
+    tk:               8.5.18-0     
+    zlib:             1.2.8-0      
+
+Fetching packages ...
+filebrowser_sa   0% |                              | ETA:  --:--:--   0.00  B/sfilebrowser_sa  10% |###                            | ETA:  0:00:00  47.23 MB/sfilebrowser_sa  20% |######                         | ETA:  0:00:00  59.04 MB/sfilebrowser_sa  30% |#########                      | ETA:  0:00:00  66.25 MB/sfilebrowser_sa  41% |############                   | ETA:  0:00:00  70.63 MB/sfilebrowser_sa  51% |################               | ETA:  0:00:00  73.67 MB/sfilebrowser_sa  61% |###################            | ETA:  0:00:00  75.61 MB/sfilebrowser_sa  72% |######################         | ETA:  0:00:00  77.34 MB/sfilebrowser_sa  82% |#########################      | ETA:  0:00:00  78.26 MB/sfilebrowser_sa  92% |############################   | ETA:  0:00:00  79.54 MB/sfilebrowser_sa 100% |###############################| ETA:  0:00:00  78.62 MB/sfilebrowser_sa 100% |###############################| Time: 0:00:00  70.60 MB/s
+Extracting packages ...
+[      COMPLETE      ]|                                                  |   0%[filebrowser_safe    ]|                                                  |   0%[filebrowser_safe    ]|                                                  |   0%[      COMPLETE      ]|##################################################| 100%
+Linking packages ...
+[      COMPLETE      ]|                                                  |   0%[openssl             ]|                                                  |   0%[openssl             ]|                                                  |   0%[readline            ]|#####                                             |  10%[sqlite              ]|##########                                        |  20%[system              ]|###############                                   |  30%[tk                  ]|####################                              |  40%[zlib                ]|#########################                         |  50%[filebrowser_safe    ]|##############################                    |  60%Error: pre-link failed: filebrowser_safe-0.3.8-py_0

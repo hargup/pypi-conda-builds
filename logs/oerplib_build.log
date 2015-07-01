@@ -1,0 +1,165 @@
+Removing old build directory
+Removing old work directory
+BUILD START: oerplib-0.8.4-py_0
+Fetching package metadata: ......
+
+WARNING: conda-build appears to be out of date. You have version 1.13.0 but the
+latest version is 1.14.1. Run
+
+conda update -n root conda-build
+
+to get the latest version.
+
+Solving package specifications: .+ /home/ubuntu/miniconda/envs/_build/bin/python setup.py install
+No Sphinx module found. You have to install Sphinx to be able to generate the documentation.
+running install
+running build
+running build_py
+creating build
+creating build/lib
+creating build/lib/oerplib
+copying oerplib/oerp.py -> build/lib/oerplib
+copying oerplib/__init__.py -> build/lib/oerplib
+copying oerplib/error.py -> build/lib/oerplib
+creating build/lib/oerplib/rpc
+copying oerplib/rpc/netrpclib.py -> build/lib/oerplib/rpc
+copying oerplib/rpc/xmlrpclib_custom.py -> build/lib/oerplib/rpc
+copying oerplib/rpc/jsonrpclib.py -> build/lib/oerplib/rpc
+copying oerplib/rpc/service.py -> build/lib/oerplib/rpc
+copying oerplib/rpc/__init__.py -> build/lib/oerplib/rpc
+copying oerplib/rpc/error.py -> build/lib/oerplib/rpc
+creating build/lib/oerplib/service
+copying oerplib/service/db.py -> build/lib/oerplib/service
+copying oerplib/service/__init__.py -> build/lib/oerplib/service
+copying oerplib/service/common.py -> build/lib/oerplib/service
+copying oerplib/service/wizard.py -> build/lib/oerplib/service
+creating build/lib/oerplib/service/osv
+copying oerplib/service/osv/osv.py -> build/lib/oerplib/service/osv
+copying oerplib/service/osv/fields.py -> build/lib/oerplib/service/osv
+copying oerplib/service/osv/browse.py -> build/lib/oerplib/service/osv
+copying oerplib/service/osv/__init__.py -> build/lib/oerplib/service/osv
+creating build/lib/oerplib/service/inspect
+copying oerplib/service/inspect/relations.py -> build/lib/oerplib/service/inspect
+copying oerplib/service/inspect/on_change.py -> build/lib/oerplib/service/inspect
+copying oerplib/service/inspect/__init__.py -> build/lib/oerplib/service/inspect
+copying oerplib/service/inspect/dependencies.py -> build/lib/oerplib/service/inspect
+creating build/lib/oerplib/tools
+copying oerplib/tools/session.py -> build/lib/oerplib/tools
+copying oerplib/tools/__init__.py -> build/lib/oerplib/tools
+running install_lib
+creating /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/oerplib
+creating /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/oerplib/service
+creating /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/oerplib/service/osv
+copying build/lib/oerplib/service/osv/osv.py -> /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/oerplib/service/osv
+copying build/lib/oerplib/service/osv/fields.py -> /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/oerplib/service/osv
+copying build/lib/oerplib/service/osv/browse.py -> /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/oerplib/service/osv
+copying build/lib/oerplib/service/osv/__init__.py -> /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/oerplib/service/osv
+copying build/lib/oerplib/service/db.py -> /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/oerplib/service
+copying build/lib/oerplib/service/__init__.py -> /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/oerplib/service
+copying build/lib/oerplib/service/common.py -> /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/oerplib/service
+copying build/lib/oerplib/service/wizard.py -> /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/oerplib/service
+creating /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/oerplib/service/inspect
+copying build/lib/oerplib/service/inspect/relations.py -> /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/oerplib/service/inspect
+copying build/lib/oerplib/service/inspect/on_change.py -> /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/oerplib/service/inspect
+copying build/lib/oerplib/service/inspect/__init__.py -> /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/oerplib/service/inspect
+copying build/lib/oerplib/service/inspect/dependencies.py -> /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/oerplib/service/inspect
+creating /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/oerplib/rpc
+copying build/lib/oerplib/rpc/netrpclib.py -> /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/oerplib/rpc
+copying build/lib/oerplib/rpc/xmlrpclib_custom.py -> /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/oerplib/rpc
+copying build/lib/oerplib/rpc/jsonrpclib.py -> /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/oerplib/rpc
+copying build/lib/oerplib/rpc/service.py -> /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/oerplib/rpc
+copying build/lib/oerplib/rpc/__init__.py -> /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/oerplib/rpc
+copying build/lib/oerplib/rpc/error.py -> /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/oerplib/rpc
+copying build/lib/oerplib/oerp.py -> /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/oerplib
+copying build/lib/oerplib/__init__.py -> /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/oerplib
+copying build/lib/oerplib/error.py -> /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/oerplib
+creating /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/oerplib/tools
+copying build/lib/oerplib/tools/session.py -> /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/oerplib/tools
+copying build/lib/oerplib/tools/__init__.py -> /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/oerplib/tools
+byte-compiling /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/oerplib/service/osv/osv.py to osv.pyc
+byte-compiling /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/oerplib/service/osv/fields.py to fields.pyc
+byte-compiling /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/oerplib/service/osv/browse.py to browse.pyc
+byte-compiling /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/oerplib/service/osv/__init__.py to __init__.pyc
+byte-compiling /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/oerplib/service/db.py to db.pyc
+byte-compiling /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/oerplib/service/__init__.py to __init__.pyc
+byte-compiling /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/oerplib/service/common.py to common.pyc
+byte-compiling /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/oerplib/service/wizard.py to wizard.pyc
+byte-compiling /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/oerplib/service/inspect/relations.py to relations.pyc
+byte-compiling /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/oerplib/service/inspect/on_change.py to on_change.pyc
+byte-compiling /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/oerplib/service/inspect/__init__.py to __init__.pyc
+byte-compiling /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/oerplib/service/inspect/dependencies.py to dependencies.pyc
+byte-compiling /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/oerplib/rpc/netrpclib.py to netrpclib.pyc
+byte-compiling /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/oerplib/rpc/xmlrpclib_custom.py to xmlrpclib_custom.pyc
+byte-compiling /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/oerplib/rpc/jsonrpclib.py to jsonrpclib.pyc
+byte-compiling /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/oerplib/rpc/service.py to service.pyc
+byte-compiling /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/oerplib/rpc/__init__.py to __init__.pyc
+byte-compiling /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/oerplib/rpc/error.py to error.pyc
+byte-compiling /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/oerplib/oerp.py to oerp.pyc
+byte-compiling /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/oerplib/__init__.py to __init__.pyc
+byte-compiling /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/oerplib/error.py to error.pyc
+byte-compiling /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/oerplib/tools/session.py to session.pyc
+byte-compiling /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/oerplib/tools/__init__.py to __init__.pyc
+running install_egg_info
+Writing /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/OERPLib-0.8.4-py2.7.egg-info
+
+The following NEW packages will be INSTALLED:
+
+    openssl:    1.0.1k-1     
+    pip:        7.0.3-py27_0 
+    python:     2.7.10-0     
+    readline:   6.2-2        
+    setuptools: 18.0.1-py27_0
+    sqlite:     3.8.4.1-1    
+    system:     5.8-2        
+    tk:         8.5.18-0     
+    zlib:       1.2.8-0      
+
+Linking packages ...
+[                    ]|                                                  |   0%[openssl             ]|                                                  |   0%[readline            ]|#####                                             |  11%[sqlite              ]|###########                                       |  22%[system              ]|################                                  |  33%[tk                  ]|######################                            |  44%[zlib                ]|###########################                       |  55%[python              ]|#################################                 |  66%[setuptools          ]|######################################            |  77%[pip                 ]|############################################      |  88%[      COMPLETE      ]|##################################################| 100%
+Removing old work directory
+Source cache directory is: /home/ubuntu/miniconda/conda-bld/src_cache
+Found source in cache: OERPLib-0.8.4.tar.gz
+Extracting download
+Package: oerplib-0.8.4-py_0
+source tree in: /home/ubuntu/miniconda/conda-bld/work/OERPLib-0.8.4
+number of files: 47
+Fixing permissions
+Fixing permissions
+BUILD END: oerplib-0.8.4-py_0
+TEST START: oerplib-0.8.4-py_0
+Fetching package metadata: ......
+
+WARNING: conda-build appears to be out of date. You have version 1.13.0 but the
+latest version is 1.14.1. Run
+
+conda update -n root conda-build
+
+to get the latest version.
+
+Solving package specifications: ./home/ubuntu/miniconda/pkgs/oerplib-0.8.4-py_0/bin/.oerplib-pre-link.sh: line 2: /home/ubuntu/miniconda/envs/_test/bin/python: No such file or directory
+
+The following packages will be downloaded:
+
+    package                    |            build
+    ---------------------------|-----------------
+    oerplib-0.8.4              |             py_0          31 KB
+
+The following NEW packages will be INSTALLED:
+
+    oerplib:    0.8.4-py_0   
+    openssl:    1.0.1k-1     
+    pip:        7.0.3-py27_0 
+    python:     2.7.10-0     
+    readline:   6.2-2        
+    setuptools: 18.0.1-py27_0
+    sqlite:     3.8.4.1-1    
+    system:     5.8-2        
+    tk:         8.5.18-0     
+    zlib:       1.2.8-0      
+
+Fetching packages ...
+oerplib-0.8.4-   0% |                              | ETA:  --:--:--   0.00  B/soerplib-0.8.4-  50% |###############                | ETA:  0:00:00  46.81 MB/soerplib-0.8.4- 100% |###############################| ETA:  0:00:00  57.41 MB/soerplib-0.8.4- 100% |###############################| Time: 0:00:00  41.45 MB/s
+Extracting packages ...
+[      COMPLETE      ]|                                                  |   0%[oerplib             ]|                                                  |   0%[oerplib             ]|                                                  |   0%[      COMPLETE      ]|##################################################| 100%
+Linking packages ...
+[      COMPLETE      ]|                                                  |   0%[openssl             ]|                                                  |   0%[openssl             ]|                                                  |   0%[readline            ]|#####                                             |  10%[sqlite              ]|##########                                        |  20%[system              ]|###############                                   |  30%[tk                  ]|####################                              |  40%[zlib                ]|#########################                         |  50%[oerplib             ]|##############################                    |  60%Error: pre-link failed: oerplib-0.8.4-py_0

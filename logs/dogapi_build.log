@@ -1,0 +1,300 @@
+Removing old build directory
+Removing old work directory
+BUILD START: dogapi-1.11.1-py_0
+Fetching package metadata: ......
+
+WARNING: conda-build appears to be out of date. You have version 1.13.0 but the
+latest version is 1.14.1. Run
+
+conda update -n root conda-build
+
+to get the latest version.
+
+Solving package specifications: .+ /home/ubuntu/miniconda/envs/_build/bin/python setup.py install
+running install
+running bdist_egg
+running egg_info
+writing requirements to src/dogapi.egg-info/requires.txt
+writing src/dogapi.egg-info/PKG-INFO
+writing top-level names to src/dogapi.egg-info/top_level.txt
+writing dependency_links to src/dogapi.egg-info/dependency_links.txt
+writing entry points to src/dogapi.egg-info/entry_points.txt
+reading manifest file 'src/dogapi.egg-info/SOURCES.txt'
+writing manifest file 'src/dogapi.egg-info/SOURCES.txt'
+installing library code to build/bdist.linux-x86_64/egg
+running install_lib
+running build_py
+creating build
+creating build/lib
+creating build/lib/dogshell
+copying src/dogshell/event.py -> build/lib/dogshell
+copying src/dogshell/tag.py -> build/lib/dogshell
+copying src/dogshell/comment.py -> build/lib/dogshell
+copying src/dogshell/search.py -> build/lib/dogshell
+copying src/dogshell/wrap.py -> build/lib/dogshell
+copying src/dogshell/__init__.py -> build/lib/dogshell
+copying src/dogshell/metric.py -> build/lib/dogshell
+copying src/dogshell/common.py -> build/lib/dogshell
+copying src/dogshell/dashboard.py -> build/lib/dogshell
+creating build/lib/dogapi
+copying src/dogapi/fab.py -> build/lib/dogapi
+copying src/dogapi/constants.py -> build/lib/dogapi
+copying src/dogapi/__init__.py -> build/lib/dogapi
+copying src/dogapi/common.py -> build/lib/dogapi
+copying src/dogapi/exceptions.py -> build/lib/dogapi
+creating build/lib/dogapi/stats
+copying src/dogapi/stats/reporters.py -> build/lib/dogapi/stats
+copying src/dogapi/stats/metrics.py -> build/lib/dogapi/stats
+copying src/dogapi/stats/dog_stats_api.py -> build/lib/dogapi/stats
+copying src/dogapi/stats/statsd.py -> build/lib/dogapi/stats
+copying src/dogapi/stats/periodic_timer.py -> build/lib/dogapi/stats
+copying src/dogapi/stats/__init__.py -> build/lib/dogapi/stats
+creating build/lib/dogapi/http
+copying src/dogapi/http/service_check.py -> build/lib/dogapi/http
+copying src/dogapi/http/metrics.py -> build/lib/dogapi/http
+copying src/dogapi/http/users.py -> build/lib/dogapi/http
+copying src/dogapi/http/monitors.py -> build/lib/dogapi/http
+copying src/dogapi/http/screenboards.py -> build/lib/dogapi/http
+copying src/dogapi/http/events.py -> build/lib/dogapi/http
+copying src/dogapi/http/snapshot.py -> build/lib/dogapi/http
+copying src/dogapi/http/__init__.py -> build/lib/dogapi/http
+copying src/dogapi/http/dashes.py -> build/lib/dogapi/http
+copying src/dogapi/http/infrastructure.py -> build/lib/dogapi/http
+copying src/dogapi/http/base.py -> build/lib/dogapi/http
+copying src/dogapi/http/alerts.py -> build/lib/dogapi/http
+creating build/bdist.linux-x86_64
+creating build/bdist.linux-x86_64/egg
+creating build/bdist.linux-x86_64/egg/dogshell
+copying build/lib/dogshell/event.py -> build/bdist.linux-x86_64/egg/dogshell
+copying build/lib/dogshell/tag.py -> build/bdist.linux-x86_64/egg/dogshell
+copying build/lib/dogshell/comment.py -> build/bdist.linux-x86_64/egg/dogshell
+copying build/lib/dogshell/search.py -> build/bdist.linux-x86_64/egg/dogshell
+copying build/lib/dogshell/wrap.py -> build/bdist.linux-x86_64/egg/dogshell
+copying build/lib/dogshell/__init__.py -> build/bdist.linux-x86_64/egg/dogshell
+copying build/lib/dogshell/metric.py -> build/bdist.linux-x86_64/egg/dogshell
+copying build/lib/dogshell/common.py -> build/bdist.linux-x86_64/egg/dogshell
+copying build/lib/dogshell/dashboard.py -> build/bdist.linux-x86_64/egg/dogshell
+creating build/bdist.linux-x86_64/egg/dogapi
+copying build/lib/dogapi/fab.py -> build/bdist.linux-x86_64/egg/dogapi
+creating build/bdist.linux-x86_64/egg/dogapi/stats
+copying build/lib/dogapi/stats/reporters.py -> build/bdist.linux-x86_64/egg/dogapi/stats
+copying build/lib/dogapi/stats/metrics.py -> build/bdist.linux-x86_64/egg/dogapi/stats
+copying build/lib/dogapi/stats/dog_stats_api.py -> build/bdist.linux-x86_64/egg/dogapi/stats
+copying build/lib/dogapi/stats/statsd.py -> build/bdist.linux-x86_64/egg/dogapi/stats
+copying build/lib/dogapi/stats/periodic_timer.py -> build/bdist.linux-x86_64/egg/dogapi/stats
+copying build/lib/dogapi/stats/__init__.py -> build/bdist.linux-x86_64/egg/dogapi/stats
+copying build/lib/dogapi/constants.py -> build/bdist.linux-x86_64/egg/dogapi
+copying build/lib/dogapi/__init__.py -> build/bdist.linux-x86_64/egg/dogapi
+creating build/bdist.linux-x86_64/egg/dogapi/http
+copying build/lib/dogapi/http/service_check.py -> build/bdist.linux-x86_64/egg/dogapi/http
+copying build/lib/dogapi/http/metrics.py -> build/bdist.linux-x86_64/egg/dogapi/http
+copying build/lib/dogapi/http/users.py -> build/bdist.linux-x86_64/egg/dogapi/http
+copying build/lib/dogapi/http/monitors.py -> build/bdist.linux-x86_64/egg/dogapi/http
+copying build/lib/dogapi/http/screenboards.py -> build/bdist.linux-x86_64/egg/dogapi/http
+copying build/lib/dogapi/http/events.py -> build/bdist.linux-x86_64/egg/dogapi/http
+copying build/lib/dogapi/http/snapshot.py -> build/bdist.linux-x86_64/egg/dogapi/http
+copying build/lib/dogapi/http/__init__.py -> build/bdist.linux-x86_64/egg/dogapi/http
+copying build/lib/dogapi/http/dashes.py -> build/bdist.linux-x86_64/egg/dogapi/http
+copying build/lib/dogapi/http/infrastructure.py -> build/bdist.linux-x86_64/egg/dogapi/http
+copying build/lib/dogapi/http/base.py -> build/bdist.linux-x86_64/egg/dogapi/http
+copying build/lib/dogapi/http/alerts.py -> build/bdist.linux-x86_64/egg/dogapi/http
+copying build/lib/dogapi/common.py -> build/bdist.linux-x86_64/egg/dogapi
+copying build/lib/dogapi/exceptions.py -> build/bdist.linux-x86_64/egg/dogapi
+byte-compiling build/bdist.linux-x86_64/egg/dogshell/event.py to event.pyc
+byte-compiling build/bdist.linux-x86_64/egg/dogshell/tag.py to tag.pyc
+byte-compiling build/bdist.linux-x86_64/egg/dogshell/comment.py to comment.pyc
+byte-compiling build/bdist.linux-x86_64/egg/dogshell/search.py to search.pyc
+byte-compiling build/bdist.linux-x86_64/egg/dogshell/wrap.py to wrap.pyc
+byte-compiling build/bdist.linux-x86_64/egg/dogshell/__init__.py to __init__.pyc
+byte-compiling build/bdist.linux-x86_64/egg/dogshell/metric.py to metric.pyc
+byte-compiling build/bdist.linux-x86_64/egg/dogshell/common.py to common.pyc
+byte-compiling build/bdist.linux-x86_64/egg/dogshell/dashboard.py to dashboard.pyc
+byte-compiling build/bdist.linux-x86_64/egg/dogapi/fab.py to fab.pyc
+byte-compiling build/bdist.linux-x86_64/egg/dogapi/stats/reporters.py to reporters.pyc
+byte-compiling build/bdist.linux-x86_64/egg/dogapi/stats/metrics.py to metrics.pyc
+byte-compiling build/bdist.linux-x86_64/egg/dogapi/stats/dog_stats_api.py to dog_stats_api.pyc
+byte-compiling build/bdist.linux-x86_64/egg/dogapi/stats/statsd.py to statsd.pyc
+byte-compiling build/bdist.linux-x86_64/egg/dogapi/stats/periodic_timer.py to periodic_timer.pyc
+byte-compiling build/bdist.linux-x86_64/egg/dogapi/stats/__init__.py to __init__.pyc
+byte-compiling build/bdist.linux-x86_64/egg/dogapi/constants.py to constants.pyc
+byte-compiling build/bdist.linux-x86_64/egg/dogapi/__init__.py to __init__.pyc
+byte-compiling build/bdist.linux-x86_64/egg/dogapi/http/service_check.py to service_check.pyc
+byte-compiling build/bdist.linux-x86_64/egg/dogapi/http/metrics.py to metrics.pyc
+byte-compiling build/bdist.linux-x86_64/egg/dogapi/http/users.py to users.pyc
+byte-compiling build/bdist.linux-x86_64/egg/dogapi/http/monitors.py to monitors.pyc
+byte-compiling build/bdist.linux-x86_64/egg/dogapi/http/screenboards.py to screenboards.pyc
+byte-compiling build/bdist.linux-x86_64/egg/dogapi/http/events.py to events.pyc
+byte-compiling build/bdist.linux-x86_64/egg/dogapi/http/snapshot.py to snapshot.pyc
+byte-compiling build/bdist.linux-x86_64/egg/dogapi/http/__init__.py to __init__.pyc
+byte-compiling build/bdist.linux-x86_64/egg/dogapi/http/dashes.py to dashes.pyc
+byte-compiling build/bdist.linux-x86_64/egg/dogapi/http/infrastructure.py to infrastructure.pyc
+byte-compiling build/bdist.linux-x86_64/egg/dogapi/http/base.py to base.pyc
+byte-compiling build/bdist.linux-x86_64/egg/dogapi/http/alerts.py to alerts.pyc
+byte-compiling build/bdist.linux-x86_64/egg/dogapi/common.py to common.pyc
+byte-compiling build/bdist.linux-x86_64/egg/dogapi/exceptions.py to exceptions.pyc
+creating build/bdist.linux-x86_64/egg/EGG-INFO
+copying src/dogapi.egg-info/PKG-INFO -> build/bdist.linux-x86_64/egg/EGG-INFO
+copying src/dogapi.egg-info/SOURCES.txt -> build/bdist.linux-x86_64/egg/EGG-INFO
+copying src/dogapi.egg-info/dependency_links.txt -> build/bdist.linux-x86_64/egg/EGG-INFO
+copying src/dogapi.egg-info/entry_points.txt -> build/bdist.linux-x86_64/egg/EGG-INFO
+copying src/dogapi.egg-info/pbr.json -> build/bdist.linux-x86_64/egg/EGG-INFO
+copying src/dogapi.egg-info/requires.txt -> build/bdist.linux-x86_64/egg/EGG-INFO
+copying src/dogapi.egg-info/top_level.txt -> build/bdist.linux-x86_64/egg/EGG-INFO
+zip_safe flag not set; analyzing archive contents...
+creating dist
+creating 'dist/dogapi-1.11.1-py2.7.egg' and adding 'build/bdist.linux-x86_64/egg' to it
+removing 'build/bdist.linux-x86_64/egg' (and everything under it)
+Processing dogapi-1.11.1-py2.7.egg
+Copying dogapi-1.11.1-py2.7.egg to /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages
+Adding dogapi 1.11.1 to easy-install.pth file
+Installing dog script to /home/ubuntu/miniconda/envs/_build/bin
+Installing dogwrap script to /home/ubuntu/miniconda/envs/_build/bin
+
+Installed /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/dogapi-1.11.1-py2.7.egg
+Processing dependencies for dogapi==1.11.1
+Searching for simplejson==3.7.3
+Best match: simplejson 3.7.3
+Adding simplejson 3.7.3 to easy-install.pth file
+
+Using /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages
+Searching for decorator==3.4.2
+Best match: decorator 3.4.2
+Adding decorator 3.4.2 to easy-install.pth file
+
+Using /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages
+Finished processing dependencies for dogapi==1.11.1
+
+The following NEW packages will be INSTALLED:
+
+    decorator:  3.4.2-py27_0 
+    openssl:    1.0.1k-1     
+    pip:        7.0.3-py27_0 
+    python:     2.7.10-0     
+    readline:   6.2-2        
+    setuptools: 18.0.1-py27_0
+    simplejson: 3.7.3-py27_0 
+    sqlite:     3.8.4.1-1    
+    system:     5.8-2        
+    tk:         8.5.18-0     
+    zlib:       1.2.8-0      
+
+Linking packages ...
+[                    ]|                                                  |   0%[openssl             ]|                                                  |   0%[readline            ]|####                                              |   9%[sqlite              ]|#########                                         |  18%[system              ]|#############                                     |  27%[tk                  ]|##################                                |  36%[zlib                ]|######################                            |  45%[decorator           ]|###########################                       |  54%[python              ]|###############################                   |  63%[setuptools          ]|####################################              |  72%[simplejson          ]|########################################          |  81%[pip                 ]|#############################################     |  90%[      COMPLETE      ]|##################################################| 100%
+Removing old work directory
+Source cache directory is: /home/ubuntu/miniconda/conda-bld/src_cache
+Found source in cache: dogapi-1.11.1.tar.gz
+Extracting download
+Package: dogapi-1.11.1-py_0
+source tree in: /home/ubuntu/miniconda/conda-bld/work/dogapi-1.11.1
+found egg: /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/dogapi-1.11.1-py2.7.egg
+number of files: 4
+Fixing permissions
+Fixing permissions
+BUILD END: dogapi-1.11.1-py_0
+TEST START: dogapi-1.11.1-py_0
+Fetching package metadata: ......
+
+WARNING: conda-build appears to be out of date. You have version 1.13.0 but the
+latest version is 1.14.1. Run
+
+conda update -n root conda-build
+
+to get the latest version.
+
+Solving package specifications: .===== testing package: dogapi-1.11.1-py_0 =====
+import: u'dogapi'
+import: u'dogapi.http'
+import: u'dogapi.stats'
+import: u'dogshell'
+===== dogapi-1.11.1-py_0 OK =====
++ dog --help
+usage: dog [-h] [--config CONFIG] [--api-key API_KEY]
+           [--application-key APP_KEY] [--pretty] [--raw] [--timeout TIMEOUT]
+           [-v]
+           {comment,search,metric,tag,event,dashboard} ...
+
+Interact with the Datadog API
+
+optional arguments:
+  -h, --help            show this help message and exit
+  --config CONFIG       location of your dogrc file (default ~/.dogrc)
+                        (default: /home/ubuntu/.dogrc)
+  --api-key API_KEY     your API key, from
+                        https://app.datadoghq.com/account/settings#api
+                        (default: None)
+  --application-key APP_KEY
+                        your Application key, from
+                        https://app.datadoghq.com/account/settings#api
+                        (default: None)
+  --pretty              pretty-print output (suitable for human consumption,
+                        less useful for scripting) (default: None)
+  --raw                 raw JSON as returned by the HTTP service (default:
+                        None)
+  --timeout TIMEOUT     time to wait in seconds before timing out an API call
+                        (default 10) (default: 10)
+  -v, --version         Dog API version
+
+Modes:
+  {comment,search,metric,tag,event,dashboard}
+    comment             Post, update, and delete comments.
+    search              search datadog
+    metric              Post metrics.
+    tag                 View and modify host tags.
+    event               Post events, get event details, and view the event
+                        stream.
+    dashboard           Create, edit, and delete dashboards.
++ dogwrap --help
+Usage: dogwrap [options]
+
+Options:
+  -h, --help            show this help message and exit
+  -n NAME, --name=NAME  The name of the event
+  -k API_KEY, --api_key=API_KEY
+  -m SUBMIT_MODE, --submit_mode=SUBMIT_MODE
+  -t TIMEOUT, --timeout=TIMEOUT
+  --sigterm_timeout=SIGTERM_TIMEOUT
+  --sigkill_timeout=SIGKILL_TIMEOUT
+  --proc_poll_interval=PROC_POLL_INTERVAL
+  --notify_success=NOTIFY_SUCCESS
+  --notify_error=NOTIFY_ERROR
+
+The following packages will be downloaded:
+
+    package                    |            build
+    ---------------------------|-----------------
+    dogapi-1.11.1              |             py_0         165 KB
+
+The following NEW packages will be INSTALLED:
+
+    decorator:  3.4.2-py27_0 
+    dogapi:     1.11.1-py_0  
+    freetype:   2.5.2-2      
+    jpeg:       8d-0         
+    libpng:     1.6.17-0     
+    libtiff:    4.0.2-1      
+    openssl:    1.0.1k-1     
+    pillow:     2.8.2-py27_0 
+    pip:        7.0.3-py27_0 
+    python:     2.7.10-0     
+    readline:   6.2-2        
+    setuptools: 18.0.1-py27_0
+    simplejson: 3.7.3-py27_0 
+    sqlite:     3.8.4.1-1    
+    system:     5.8-2        
+    tk:         8.5.18-0     
+    zlib:       1.2.8-0      
+
+Fetching packages ...
+dogapi-1.11.1-   0% |                              | ETA:  --:--:--   0.00  B/sdogapi-1.11.1-   9% |###                            | ETA:  0:00:00  47.76 MB/sdogapi-1.11.1-  19% |######                         | ETA:  0:00:00  59.47 MB/sdogapi-1.11.1-  29% |#########                      | ETA:  0:00:00  65.97 MB/sdogapi-1.11.1-  38% |############                   | ETA:  0:00:00  70.39 MB/sdogapi-1.11.1-  48% |###############                | ETA:  0:00:00  73.47 MB/sdogapi-1.11.1-  58% |##################             | ETA:  0:00:00  75.45 MB/sdogapi-1.11.1-  67% |#####################          | ETA:  0:00:00  77.29 MB/sdogapi-1.11.1-  77% |########################       | ETA:  0:00:00  78.82 MB/sdogapi-1.11.1-  87% |###########################    | ETA:  0:00:00  80.01 MB/sdogapi-1.11.1-  97% |############################## | ETA:  0:00:00  80.95 MB/sdogapi-1.11.1- 100% |###############################| ETA:  0:00:00  77.67 MB/sdogapi-1.11.1- 100% |###############################| Time: 0:00:00  16.01 MB/s
+Extracting packages ...
+[      COMPLETE      ]|                                                  |   0%[dogapi              ]|                                                  |   0%[dogapi              ]|                                                  |   0%[      COMPLETE      ]|##################################################| 100%
+Linking packages ...
+[      COMPLETE      ]|                                                  |   0%[jpeg                ]|                                                  |   0%[jpeg                ]|                                                  |   0%[libpng              ]|##                                                |   5%[openssl             ]|#####                                             |  11%[readline            ]|########                                          |  17%[sqlite              ]|###########                                       |  23%[system              ]|##############                                    |  29%[tk                  ]|#################                                 |  35%[zlib                ]|####################                              |  41%[freetype            ]|#######################                           |  47%[libtiff             ]|##########################                        |  52%[decorator           ]|#############################                     |  58%[pillow              ]|################################                  |  64%[python              ]|###################################               |  70%[setuptools          ]|######################################            |  76%[simplejson          ]|#########################################         |  82%[dogapi              ]|############################################      |  88%[pip                 ]|###############################################   |  94%[      COMPLETE      ]|##################################################| 100%
+TEST END: dogapi-1.11.1-py_0
+# If you want to upload this package to binstar.org later, type:
+#
+# $ binstar upload /home/ubuntu/miniconda/conda-bld/noarch/dogapi-1.11.1-py_0.tar.bz2
+#
+# To have conda build upload to binstar automatically, use
+# $ conda config --set binstar_upload yes
+

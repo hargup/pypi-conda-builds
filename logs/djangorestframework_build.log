@@ -2,6 +2,14 @@ Removing old build directory
 Removing old work directory
 BUILD START: djangorestframework-3.1.3-py27_0
 Fetching package metadata: ......
+
+WARNING: conda-build appears to be out of date. You have version 1.13.0 but the
+latest version is 1.14.1. Run
+
+conda update -n root conda-build
+
+to get the latest version.
+
 Solving package specifications: .+ /home/ubuntu/miniconda/envs/_build/bin/python setup.py install
 running install
 running bdist_egg
@@ -590,15 +598,15 @@ Finished processing dependencies for djangorestframework==3.1.3
 
 The following NEW packages will be INSTALLED:
 
-    openssl:    1.0.1k-1    
-    pip:        7.0.3-py27_0
-    python:     2.7.10-0    
-    readline:   6.2-2       
-    setuptools: 17.0-py27_0 
-    sqlite:     3.8.4.1-1   
-    system:     5.8-2       
-    tk:         8.5.18-0    
-    zlib:       1.2.8-0     
+    openssl:    1.0.1k-1     
+    pip:        7.0.3-py27_0 
+    python:     2.7.10-0     
+    readline:   6.2-2        
+    setuptools: 18.0.1-py27_0
+    sqlite:     3.8.4.1-1    
+    system:     5.8-2        
+    tk:         8.5.18-0     
+    zlib:       1.2.8-0      
 
 Linking packages ...
 [                    ]|                                                  |   0%[openssl             ]|                                                  |   0%[readline            ]|#####                                             |  11%[sqlite              ]|###########                                       |  22%[system              ]|################                                  |  33%[tk                  ]|######################                            |  44%[zlib                ]|###########################                       |  55%[python              ]|#################################                 |  66%[setuptools          ]|######################################            |  77%[pip                 ]|############################################      |  88%[      COMPLETE      ]|##################################################| 100%
@@ -615,6 +623,14 @@ Fixing permissions
 BUILD END: djangorestframework-3.1.3-py27_0
 TEST START: djangorestframework-3.1.3-py27_0
 Fetching package metadata: ......
+
+WARNING: conda-build appears to be out of date. You have version 1.13.0 but the
+latest version is 1.14.1. Run
+
+conda update -n root conda-build
+
+to get the latest version.
+
 Solving package specifications: .
 The following packages will be downloaded:
 
@@ -624,25 +640,25 @@ The following packages will be downloaded:
 
 The following NEW packages will be INSTALLED:
 
-    djangorestframework: 3.1.3-py27_0
-    openssl:             1.0.1k-1    
-    pip:                 7.0.3-py27_0
-    python:              2.7.10-0    
-    readline:            6.2-2       
-    setuptools:          17.0-py27_0 
-    sqlite:              3.8.4.1-1   
-    system:              5.8-2       
-    tk:                  8.5.18-0    
-    zlib:                1.2.8-0     
+    djangorestframework: 3.1.3-py27_0 
+    openssl:             1.0.1k-1     
+    pip:                 7.0.3-py27_0 
+    python:              2.7.10-0     
+    readline:            6.2-2        
+    setuptools:          18.0.1-py27_0
+    sqlite:              3.8.4.1-1    
+    system:              5.8-2        
+    tk:                  8.5.18-0     
+    zlib:                1.2.8-0      
 
 Fetching packages ...
-djangorestfram   0% |                              | ETA:  --:--:--   0.00  B/sdjangorestfram   4% |#                              | ETA:  0:00:00  45.63 MB/sdjangorestfram   8% |##                             | ETA:  0:00:00  57.48 MB/sdjangorestfram  12% |###                            | ETA:  0:00:00  64.59 MB/sdjangorestfram  16% |#####                          | ETA:  0:00:00  68.77 MB/sdjangorestfram  20% |######                         | ETA:  0:00:00  71.81 MB/sdjangorestfram  24% |#######                        | ETA:  0:00:00  73.64 MB/sdjangorestfram  28% |########                       | ETA:  0:00:00  75.60 MB/sdjangorestfram  32% |##########                     | ETA:  0:00:00  77.19 MB/sdjangorestfram  36% |###########                    | ETA:  0:00:00  78.44 MB/sdjangorestfram  40% |############                   | ETA:  0:00:00  79.54 MB/sdjangorestfram  44% |#############                  | ETA:  0:00:00  79.57 MB/sdjangorestfram  48% |###############                | ETA:  0:00:00  80.28 MB/sdjangorestfram  52% |################               | ETA:  0:00:00  80.83 MB/sdjangorestfram  56% |#################              | ETA:  0:00:00  81.43 MB/sdjangorestfram  60% |##################             | ETA:  0:00:00  82.03 MB/sdjangorestfram  64% |####################           | ETA:  0:00:00  82.54 MB/sdjangorestfram  68% |#####################          | ETA:  0:00:00  83.02 MB/sdjangorestfram  72% |######################         | ETA:  0:00:00  83.48 MB/sdjangorestfram  76% |#######################        | ETA:  0:00:00  83.79 MB/sdjangorestfram  80% |#########################      | ETA:  0:00:00  84.13 MB/sdjangorestfram  84% |##########################     | ETA:  0:00:00  84.35 MB/sdjangorestfram  88% |###########################    | ETA:  0:00:00  29.08 MB/sdjangorestfram  92% |############################   | ETA:  0:00:00  29.96 MB/sdjangorestfram  96% |############################## | ETA:  0:00:00  30.83 MB/sdjangorestfram 100% |###############################| ETA:  0:00:00  31.37 MB/sdjangorestfram 100% |###############################| Time: 0:00:00  30.83 MB/s
+djangorestfram   0% |                              | ETA:  --:--:--   0.00  B/sdjangorestfram   4% |#                              | ETA:  0:00:00  47.49 MB/sdjangorestfram   8% |##                             | ETA:  0:00:00  58.94 MB/sdjangorestfram  12% |###                            | ETA:  0:00:00  65.53 MB/sdjangorestfram  16% |#####                          | ETA:  0:00:00  69.94 MB/sdjangorestfram  20% |######                         | ETA:  0:00:00  72.75 MB/sdjangorestfram  24% |#######                        | ETA:  0:00:00  73.37 MB/sdjangorestfram  28% |########                       | ETA:  0:00:00  75.21 MB/sdjangorestfram  32% |##########                     | ETA:  0:00:00  76.84 MB/sdjangorestfram  36% |###########                    | ETA:  0:00:00  77.89 MB/sdjangorestfram  40% |############                   | ETA:  0:00:00  79.03 MB/sdjangorestfram  44% |#############                  | ETA:  0:00:00  79.99 MB/sdjangorestfram  48% |###############                | ETA:  0:00:00  80.91 MB/sdjangorestfram  52% |################               | ETA:  0:00:00  81.48 MB/sdjangorestfram  56% |#################              | ETA:  0:00:00  82.15 MB/sdjangorestfram  60% |##################             | ETA:  0:00:00  82.77 MB/sdjangorestfram  64% |####################           | ETA:  0:00:00  83.27 MB/sdjangorestfram  68% |#####################          | ETA:  0:00:00  83.59 MB/sdjangorestfram  72% |######################         | ETA:  0:00:00  84.02 MB/sdjangorestfram  76% |#######################        | ETA:  0:00:00  84.41 MB/sdjangorestfram  80% |#########################      | ETA:  0:00:00  84.74 MB/sdjangorestfram  84% |##########################     | ETA:  0:00:00  84.97 MB/sdjangorestfram  88% |###########################    | ETA:  0:00:00  85.29 MB/sdjangorestfram  92% |############################   | ETA:  0:00:00  85.58 MB/sdjangorestfram  97% |############################## | ETA:  0:00:00  85.78 MB/sdjangorestfram 100% |###############################| ETA:  0:00:00  85.26 MB/sdjangorestfram 100% |###############################| Time: 0:00:00  81.33 MB/s
 Extracting packages ...
 [      COMPLETE      ]|                                                  |   0%[djangorestframework ]|                                                  |   0%[djangorestframework ]|                                                  |   0%[      COMPLETE      ]|##################################################| 100%
 Linking packages ...
-[      COMPLETE      ]|                                                  |   0%[openssl             ]|                                                  |   0%[openssl             ]|                                                  |   0%[readline            ]|#####                                             |  10%[sqlite              ]|##########                                        |  20%[system              ]|###############                                   |  30%[tk                  ]|####################                              |  40%[zlib                ]|#########################                         |  50%[djangorestframework ]|##############################                    |  60%[python              ]|###################################               |  70%[setuptools          ]|########################################          |  80%[pip                 ]|#####  File "/home/ubuntu/miniconda/conda-bld/test-tmp_dir/run_test.py", line 28
+[      COMPLETE      ]|                                                  |   0%[openssl             ]|                                                  |   0%[openssl             ]|                                                  |   0%[readline            ]|#####                                             |  10%[sqlite              ]|##########                                        |  20%[system              ]|###############                                   |  30%[tk                  ]|####################                              |  40%[zlib                ]|#########################                         |  50%[djangorestframework ]|##############################                    |  60%[python              ]|###################################               |  70%[setuptools          ]|########################################          |  80%[pip                File "/home/ubuntu/miniconda/conda-bld/test-tmp_dir/run_test.py", line 28
     import rest_framework/authtoken
                          ^
 SyntaxError: invalid syntax
-########################################     |  90%[      COMPLETE      ]|##################################################| 100%
+   ]|#############################################     |  90%[      COMPLETE      ]|##################################################| 100%
 TESTS FAILED: djangorestframework-3.1.3-py27_0

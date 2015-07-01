@@ -47,19 +47,23 @@ Warning, the following versions were found for httpagentparser
 Using 1.7.7
 Use --version to specify a different version.
 Using url https://pypi.python.org/packages/source/h/httpagentparser/httpagentparser-1.7.7.tar.gz (6 KB) for httpagentparser.
-Downloading httpagentparser (use --no-download to skip this step)
+Downloading httpagentparser
 Using cached download
 Unpacking httpagentparser...
 done
-working in /tmp/tmpxp9OM0conda_skeleton_httpagentparser-1.7.7.tar.gz
+working in /tmp/tmpVmmRREconda_skeleton_httpagentparser-1.7.7.tar.gz
 Fetching package metadata: ......
+
+WARNING: conda-build appears to be out of date. You have version 1.13.0 but the
+latest version is 1.14.1. Run
+
+conda update -n root conda-build
+
+to get the latest version.
+
 Solving package specifications: .patching file core.py
 Hunk #1 succeeded at 168 with fuzz 2 (offset 2 lines).
-Traceback (most recent call last):
-  File "setup.py", line 1, in <module>
-    from setuptools import setup, find_packages
-ImportError: No module named setuptools
 
-Applying patch: '/tmp/tmpxp9OM0conda_skeleton_httpagentparser-1.7.7.tar.gz/pypi-distutils.patch'
-$PYTHONPATH = /tmp/tmpxp9OM0conda_skeleton_httpagentparser-1.7.7.tar.gz/httpagentparser-1.7.7
-Error: command failed: /home/ubuntu/miniconda/envs/_build/bin/python setup.py install
+Applying patch: '/tmp/tmpVmmRREconda_skeleton_httpagentparser-1.7.7.tar.gz/pypi-distutils.patch'
+Writing recipe for httpagentparser
+Done

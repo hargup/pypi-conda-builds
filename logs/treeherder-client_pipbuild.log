@@ -1,34 +1,184 @@
-Error: prefix already exists: /home/ubuntu/miniconda/envs/_pipbuild_
-Collecting treeherder-client==1.5
-  Could not find a version that satisfies the requirement treeherder-client==1.5 (from versions: 1.0, 1.1, 1.2)
-No matching distribution found for treeherder-client==1.5
-Package search: {'_pypi_ordering': False, 'version': '1.5', 'name': 'treeherder-client', 'summary': 'Python library to retrieve and submit data to the Treeherder API'}
-Creating standard recipe for treeherder-client-1.5
-Using url https://pypi.python.org/packages/source/t/treeherder-client/treeherder-client-1.5.tar.gz (9 KB) for treeherder-client.
-Downloading treeherder-client
-Unpacking treeherder-client...
-done
-working in /tmp/tmpNPVeBPconda_skeleton_treeherder-client-1.5.tar.gz
+Removing old build directory
+Removing old work directory
+BUILD START: httplib2-0.9.1-py27_0
 Fetching package metadata: ......
 
 WARNING: conda-build appears to be out of date. You have version 1.13.0 but the
-latest version is 1.14.0. Run
+latest version is 1.14.1. Run
 
 conda update -n root conda-build
 
 to get the latest version.
 
-Solving package specifications: .patching file core.py
-Hunk #1 succeeded at 168 with fuzz 2 (offset 2 lines).
-Traceback (most recent call last):
-  File "setup.py", line 5, in <module>
-    from setuptools import setup
-ImportError: No module named setuptools
+Solving package specifications: .+ pip install httplib2
+Collecting httplib2
+  Downloading http://localhost/packages/source/h/httplib2/httplib2-0.9.1.tar.gz (205kB)
+Installing collected packages: httplib2
+  Running setup.py install for httplib2
+Successfully installed httplib2-0.9.1
 
-Applying patch: '/tmp/tmpNPVeBPconda_skeleton_treeherder-client-1.5.tar.gz/pypi-distutils.patch'
-$PYTHONPATH = /tmp/tmpNPVeBPconda_skeleton_treeherder-client-1.5.tar.gz/treeherder-client-1.5
-Error: command failed: /home/ubuntu/miniconda/envs/_build/bin/python setup.py install
+The following NEW packages will be INSTALLED:
 
-conda create -n _pipbuild_ --yes python pip
-/home/ubuntu/miniconda/envs/_pipbuild_/bin/pip install treeherder-client==1.5
-Error: Could not pip install treeherder-client==1.5
+    openssl:    1.0.1k-1     
+    pip:        7.0.3-py27_0 
+    python:     2.7.10-0     
+    readline:   6.2-2        
+    setuptools: 18.0.1-py27_0
+    sqlite:     3.8.4.1-1    
+    system:     5.8-2        
+    tk:         8.5.18-0     
+    zlib:       1.2.8-0      
+
+Linking packages ...
+[                    ]|                                                  |   0%[openssl             ]|                                                  |   0%[readline            ]|#####                                             |  11%[sqlite              ]|###########                                       |  22%[system              ]|################                                  |  33%[tk                  ]|######################                            |  44%[zlib                ]|###########################                       |  55%[python              ]|#################################                 |  66%[setuptools          ]|######################################            |  77%[pip                 ]|############################################      |  88%[      COMPLETE      ]|##################################################| 100%
+Removing old work directory
+Copying /home/ubuntu/pypi-conda-builds/httplib2 to /home/ubuntu/miniconda/conda-bld/work
+Package: httplib2-0.9.1-py27_0
+source tree in: /home/ubuntu/miniconda/conda-bld/work
+number of files: 12
+Fixing permissions
+Fixing permissions
+BUILD END: httplib2-0.9.1-py27_0
+# If you want to upload this package to binstar.org later, type:
+#
+# $ binstar upload /home/ubuntu/miniconda/conda-bld/linux-64/httplib2-0.9.1-py27_0.tar.bz2
+#
+# To have conda build upload to binstar automatically, use
+# $ conda config --set binstar_upload yes
+
+Removing old build directory
+Removing old work directory
+BUILD START: oauth2-1.5.211-py27_0
+Fetching package metadata: ......
+
+WARNING: conda-build appears to be out of date. You have version 1.13.0 but the
+latest version is 1.14.1. Run
+
+conda update -n root conda-build
+
+to get the latest version.
+
+Solving package specifications: .................
+Warning: 2 possible package resolutions (only showing differing packages):
+	[u'httplib2-0.9.1-py_0.tar.bz2'],
+	[u'httplib2-0.9.1-py27_0.tar.bz2'],
+/home/ubuntu/miniconda/pkgs/httplib2-0.9.1-py_0/bin/.httplib2-pre-link.sh: line 2: /home/ubuntu/miniconda/envs/_build/bin/python: No such file or directory
+
+The following NEW packages will be INSTALLED:
+
+    httplib2:   0.9.1-py_0   
+    openssl:    1.0.1k-1     
+    pip:        7.0.3-py27_0 
+    python:     2.7.10-0     
+    readline:   6.2-2        
+    setuptools: 18.0.1-py27_0
+    sqlite:     3.8.4.1-1    
+    system:     5.8-2        
+    tk:         8.5.18-0     
+    zlib:       1.2.8-0      
+
+Linking packages ...
+[                    ]|                                                  |   0%[openssl             ]|                                                  |   0%[readline            ]|#####                                             |  10%[sqlite              ]|##########                                        |  20%[system              ]|###############                                   |  30%[tk                  ]|####################                              |  40%[zlib                ]|#########################                         |  50%[httplib2            ]|##############################                    |  60%Error: pre-link failed: httplib2-0.9.1-py_0
+Removing old build directory
+Removing old work directory
+BUILD START: requests-2.7.0-py27_0
+Fetching package metadata: ......
+
+WARNING: conda-build appears to be out of date. You have version 1.13.0 but the
+latest version is 1.14.1. Run
+
+conda update -n root conda-build
+
+to get the latest version.
+
+Solving package specifications: .+ pip install requests
+Collecting requests
+  Downloading http://localhost/packages/2.7/r/requests/requests-2.7.0-py2.py3-none-any.whl (470kB)
+Installing collected packages: requests
+Successfully installed requests-2.7.0
+
+The following NEW packages will be INSTALLED:
+
+    openssl:    1.0.1k-1     
+    pip:        7.0.3-py27_0 
+    python:     2.7.10-0     
+    readline:   6.2-2        
+    setuptools: 18.0.1-py27_0
+    sqlite:     3.8.4.1-1    
+    system:     5.8-2        
+    tk:         8.5.18-0     
+    zlib:       1.2.8-0      
+
+Linking packages ...
+[                    ]|                                                  |   0%[openssl             ]|                                                  |   0%[readline            ]|#####                                             |  11%[sqlite              ]|###########                                       |  22%[system              ]|################                                  |  33%[tk                  ]|######################                            |  44%[zlib                ]|###########################                       |  55%[python              ]|#################################                 |  66%[setuptools          ]|######################################            |  77%[pip                 ]|############################################      |  88%[      COMPLETE      ]|##################################################| 100%
+Removing old work directory
+Copying /home/ubuntu/pypi-conda-builds/requests to /home/ubuntu/miniconda/conda-bld/work
+Package: requests-2.7.0-py27_0
+source tree in: /home/ubuntu/miniconda/conda-bld/work
+number of files: 165
+Fixing permissions
+Fixing permissions
+BUILD END: requests-2.7.0-py27_0
+# If you want to upload this package to binstar.org later, type:
+#
+# $ binstar upload /home/ubuntu/miniconda/conda-bld/linux-64/requests-2.7.0-py27_0.tar.bz2
+#
+# To have conda build upload to binstar automatically, use
+# $ conda config --set binstar_upload yes
+
+Removing old build directory
+Removing old work directory
+BUILD START: treeherder-client-1.5-py_0
+Fetching package metadata: ......
+
+WARNING: conda-build appears to be out of date. You have version 1.13.0 but the
+latest version is 1.14.1. Run
+
+conda update -n root conda-build
+
+to get the latest version.
+
+Solving package specifications: .................
+Warning: 2 possible package resolutions (only showing differing packages):
+	[u'httplib2-0.9.1-py_0.tar.bz2'],
+	[u'httplib2-0.9.1-py27_0.tar.bz2'],
+/home/ubuntu/miniconda/pkgs/httplib2-0.9.1-py_0/bin/.httplib2-pre-link.sh: line 2: /home/ubuntu/miniconda/envs/_build/bin/python: No such file or directory
+
+The following NEW packages will be INSTALLED:
+
+    httplib2:   0.9.1-py_0    
+    oauth2:     1.5.211-py27_0
+    openssl:    1.0.1k-1      
+    pip:        7.0.3-py27_0  
+    python:     2.7.10-0      
+    readline:   6.2-2         
+    requests:   2.7.0-py27_0  
+    setuptools: 18.0.1-py27_0 
+    sqlite:     3.8.4.1-1     
+    system:     5.8-2         
+    tk:         8.5.18-0      
+    zlib:       1.2.8-0       
+
+Linking packages ...
+[                    ]|                                                  |   0%[openssl             ]|                                                  |   0%[readline            ]|####                                              |   8%[sqlite              ]|########                                          |  16%[system              ]|############                                      |  25%[tk                  ]|################                                  |  33%[zlib                ]|####################                              |  41%[httplib2            ]|#########################                         |  50%Error: pre-link failed: httplib2-0.9.1-py_0
+Package search: {'_pypi_ordering': False, 'version': '1.5', 'name': 'treeherder-client', 'summary': 'Python library to retrieve and submit data to the Treeherder API'}
+Creating standard recipe for treeherder-client-1.5
+Converting recipe in /home/ubuntu/pypi-conda-builds/treeherder-client
+package = treeherder-client
+   dependencies = [u'oauth2', u'requests']
+Creating standard recipe for oauth2
+Converting recipe in /home/ubuntu/pypi-conda-builds/oauth2
+package = oauth2
+   dependencies = [u'httplib2']
+Creating standard recipe for httplib2
+Converting recipe in /home/ubuntu/pypi-conda-builds/httplib2
+package = httplib2
+   dependencies = []
+Building conda package for httplib2
+Building conda package for oauth2
+Creating standard recipe for requests
+Converting recipe in /home/ubuntu/pypi-conda-builds/requests
+package = requests
+   dependencies = []
+Building conda package for requests
+Building conda package for treeherder-client

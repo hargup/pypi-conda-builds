@@ -1,7 +1,15 @@
 Removing old build directory
 Removing old work directory
-BUILD START: coverage-4.0a5-py_0
+BUILD START: coverage-4.0a6-py_0
 Fetching package metadata: ......
+
+WARNING: conda-build appears to be out of date. You have version 1.13.0 but the
+latest version is 1.14.1. Run
+
+conda update -n root conda-build
+
+to get the latest version.
+
 Solving package specifications: .+ /home/ubuntu/miniconda/envs/_build/bin/python setup.py install
 running install
 running bdist_egg
@@ -32,6 +40,7 @@ copying coverage/annotate.py -> build/lib.linux-x86_64-2.7/coverage
 copying coverage/debug.py -> build/lib.linux-x86_64-2.7/coverage
 copying coverage/parser.py -> build/lib.linux-x86_64-2.7/coverage
 copying coverage/version.py -> build/lib.linux-x86_64-2.7/coverage
+copying coverage/plugin_support.py -> build/lib.linux-x86_64-2.7/coverage
 copying coverage/data.py -> build/lib.linux-x86_64-2.7/coverage
 copying coverage/control.py -> build/lib.linux-x86_64-2.7/coverage
 copying coverage/templite.py -> build/lib.linux-x86_64-2.7/coverage
@@ -39,7 +48,6 @@ copying coverage/backunittest.py -> build/lib.linux-x86_64-2.7/coverage
 copying coverage/execfile.py -> build/lib.linux-x86_64-2.7/coverage
 copying coverage/html.py -> build/lib.linux-x86_64-2.7/coverage
 copying coverage/monkey.py -> build/lib.linux-x86_64-2.7/coverage
-copying coverage/codeunit.py -> build/lib.linux-x86_64-2.7/coverage
 copying coverage/misc.py -> build/lib.linux-x86_64-2.7/coverage
 copying coverage/files.py -> build/lib.linux-x86_64-2.7/coverage
 copying coverage/env.py -> build/lib.linux-x86_64-2.7/coverage
@@ -96,6 +104,7 @@ copying build/lib.linux-x86_64-2.7/coverage/htmlfiles/keybd_closed.png -> build/
 copying build/lib.linux-x86_64-2.7/coverage/htmlfiles/jquery.isonscreen.js -> build/bdist.linux-x86_64/egg/coverage/htmlfiles
 copying build/lib.linux-x86_64-2.7/coverage/htmlfiles/jquery.hotkeys.js -> build/bdist.linux-x86_64/egg/coverage/htmlfiles
 copying build/lib.linux-x86_64-2.7/coverage/htmlfiles/jquery.debounce.min.js -> build/bdist.linux-x86_64/egg/coverage/htmlfiles
+copying build/lib.linux-x86_64-2.7/coverage/plugin_support.py -> build/bdist.linux-x86_64/egg/coverage
 copying build/lib.linux-x86_64-2.7/coverage/data.py -> build/bdist.linux-x86_64/egg/coverage
 copying build/lib.linux-x86_64-2.7/coverage/control.py -> build/bdist.linux-x86_64/egg/coverage
 copying build/lib.linux-x86_64-2.7/coverage/templite.py -> build/bdist.linux-x86_64/egg/coverage
@@ -103,7 +112,6 @@ copying build/lib.linux-x86_64-2.7/coverage/backunittest.py -> build/bdist.linux
 copying build/lib.linux-x86_64-2.7/coverage/execfile.py -> build/bdist.linux-x86_64/egg/coverage
 copying build/lib.linux-x86_64-2.7/coverage/html.py -> build/bdist.linux-x86_64/egg/coverage
 copying build/lib.linux-x86_64-2.7/coverage/monkey.py -> build/bdist.linux-x86_64/egg/coverage
-copying build/lib.linux-x86_64-2.7/coverage/codeunit.py -> build/bdist.linux-x86_64/egg/coverage
 copying build/lib.linux-x86_64-2.7/coverage/misc.py -> build/bdist.linux-x86_64/egg/coverage
 copying build/lib.linux-x86_64-2.7/coverage/files.py -> build/bdist.linux-x86_64/egg/coverage
 copying build/lib.linux-x86_64-2.7/coverage/tracer.so -> build/bdist.linux-x86_64/egg/coverage
@@ -128,6 +136,7 @@ byte-compiling build/bdist.linux-x86_64/egg/coverage/annotate.py to annotate.pyc
 byte-compiling build/bdist.linux-x86_64/egg/coverage/debug.py to debug.pyc
 byte-compiling build/bdist.linux-x86_64/egg/coverage/parser.py to parser.pyc
 byte-compiling build/bdist.linux-x86_64/egg/coverage/version.py to version.pyc
+byte-compiling build/bdist.linux-x86_64/egg/coverage/plugin_support.py to plugin_support.pyc
 byte-compiling build/bdist.linux-x86_64/egg/coverage/data.py to data.pyc
 byte-compiling build/bdist.linux-x86_64/egg/coverage/control.py to control.pyc
 byte-compiling build/bdist.linux-x86_64/egg/coverage/templite.py to templite.pyc
@@ -135,7 +144,6 @@ byte-compiling build/bdist.linux-x86_64/egg/coverage/backunittest.py to backunit
 byte-compiling build/bdist.linux-x86_64/egg/coverage/execfile.py to execfile.pyc
 byte-compiling build/bdist.linux-x86_64/egg/coverage/html.py to html.pyc
 byte-compiling build/bdist.linux-x86_64/egg/coverage/monkey.py to monkey.pyc
-byte-compiling build/bdist.linux-x86_64/egg/coverage/codeunit.py to codeunit.pyc
 byte-compiling build/bdist.linux-x86_64/egg/coverage/misc.py to misc.pyc
 byte-compiling build/bdist.linux-x86_64/egg/coverage/files.py to files.pyc
 byte-compiling build/bdist.linux-x86_64/egg/coverage/env.py to env.pyc
@@ -158,41 +166,41 @@ copying coverage.egg-info/not-zip-safe -> build/bdist.linux-x86_64/egg/EGG-INFO
 copying coverage.egg-info/top_level.txt -> build/bdist.linux-x86_64/egg/EGG-INFO
 writing build/bdist.linux-x86_64/egg/EGG-INFO/native_libs.txt
 creating dist
-creating 'dist/coverage-4.0a5-py2.7-linux-x86_64.egg' and adding 'build/bdist.linux-x86_64/egg' to it
+creating 'dist/coverage-4.0a6-py2.7-linux-x86_64.egg' and adding 'build/bdist.linux-x86_64/egg' to it
 removing 'build/bdist.linux-x86_64/egg' (and everything under it)
-Processing coverage-4.0a5-py2.7-linux-x86_64.egg
-creating /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/coverage-4.0a5-py2.7-linux-x86_64.egg
-Extracting coverage-4.0a5-py2.7-linux-x86_64.egg to /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages
-Adding coverage 4.0a5 to easy-install.pth file
+Processing coverage-4.0a6-py2.7-linux-x86_64.egg
+creating /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/coverage-4.0a6-py2.7-linux-x86_64.egg
+Extracting coverage-4.0a6-py2.7-linux-x86_64.egg to /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages
+Adding coverage 4.0a6 to easy-install.pth file
 Installing coverage2 script to /home/ubuntu/miniconda/envs/_build/bin
 Installing coverage-2.7 script to /home/ubuntu/miniconda/envs/_build/bin
 Installing coverage script to /home/ubuntu/miniconda/envs/_build/bin
 
-Installed /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/coverage-4.0a5-py2.7-linux-x86_64.egg
-Processing dependencies for coverage==4.0a5
-Finished processing dependencies for coverage==4.0a5
+Installed /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/coverage-4.0a6-py2.7-linux-x86_64.egg
+Processing dependencies for coverage==4.0a6
+Finished processing dependencies for coverage==4.0a6
 
 The following NEW packages will be INSTALLED:
 
-    openssl:    1.0.1k-1    
-    pip:        7.0.3-py27_0
-    python:     2.7.10-0    
-    readline:   6.2-2       
-    setuptools: 17.0-py27_0 
-    sqlite:     3.8.4.1-1   
-    system:     5.8-2       
-    tk:         8.5.18-0    
-    zlib:       1.2.8-0     
+    openssl:    1.0.1k-1     
+    pip:        7.0.3-py27_0 
+    python:     2.7.10-0     
+    readline:   6.2-2        
+    setuptools: 18.0.1-py27_0
+    sqlite:     3.8.4.1-1    
+    system:     5.8-2        
+    tk:         8.5.18-0     
+    zlib:       1.2.8-0      
 
 Linking packages ...
 [                    ]|                                                  |   0%[openssl             ]|                                                  |   0%[readline            ]|#####                                             |  11%[sqlite              ]|###########                                       |  22%[system              ]|################                                  |  33%[tk                  ]|######################                            |  44%[zlib                ]|###########################                       |  55%[python              ]|#################################                 |  66%[setuptools          ]|######################################            |  77%[pip                 ]|############################################      |  88%[      COMPLETE      ]|##################################################| 100%
 Removing old work directory
 Source cache directory is: /home/ubuntu/miniconda/conda-bld/src_cache
-Found source in cache: coverage-4.0a5.tar.bz2
+Found source in cache: coverage-4.0a6.tar.gz
 Extracting download
-Package: coverage-4.0a5-py_0
-source tree in: /home/ubuntu/miniconda/conda-bld/work/coverage-4.0a5
-found egg dir: /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/coverage-4.0a5-py2.7-linux-x86_64.egg
+Package: coverage-4.0a6-py_0
+source tree in: /home/ubuntu/miniconda/conda-bld/work/coverage-4.0a6
+found egg dir: /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/coverage-4.0a6-py2.7-linux-x86_64.egg
 number of files: 78
 Fixing permissions
 patchelf: file: /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/coverage/tracer.so

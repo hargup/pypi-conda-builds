@@ -1,0 +1,42 @@
+Warning, the following versions were found for filecache
+0.75
+0.71
+0.69
+0.67
+0.66
+0.65
+0.64
+0.63
+0.62
+0.61
+Using 0.75
+Use --version to specify a different version.
+Using url https://pypi.python.org/packages/source/f/filecache/filecache-0.75.zip (9 KB) for filecache.
+Downloading filecache
+Using cached download
+Unpacking filecache...
+done
+working in /tmp/tmp3ubSjNconda_skeleton_filecache-0.75.zip
+Fetching package metadata: ......
+
+WARNING: conda-build appears to be out of date. You have version 1.13.0 but the
+latest version is 1.14.1. Run
+
+conda update -n root conda-build
+
+to get the latest version.
+
+Solving package specifications: .patching file core.py
+Hunk #1 succeeded at 168 with fuzz 2 (offset 2 lines).
+
+The following NEW packages will be INSTALLED:
+
+    numpy:  1.9.2-py27_0
+    pyyaml: 3.11-py27_1 
+    yaml:   0.1.6-0     
+
+Linking packages ...
+[                    ]|                                                  |   0%[yaml                ]|                                                  |   0%[numpy               ]|################                                  |  33%[pyyaml              ]|#################################                 |  66%[      COMPLETE      ]|##################################################| 100%
+Applying patch: '/tmp/tmp3ubSjNconda_skeleton_filecache-0.75.zip/pypi-distutils.patch'
+Writing recipe for filecache
+Done

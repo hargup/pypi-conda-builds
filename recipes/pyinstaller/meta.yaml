@@ -1,0 +1,78 @@
+package:
+  name: pyinstaller
+  version: "2.1"
+
+source:
+  fn: PyInstaller-2.1.tar.gz
+  url: https://pypi.python.org/packages/source/P/PyInstaller/PyInstaller-2.1.tar.gz
+  md5: 248531f6fc94b0ffb02473321496d6d0
+#  patches:
+   # List any patch files here
+   # - fix.patch
+
+build:
+  noarch_python: True
+  # preserve_egg_dir: True
+  # entry_points:
+    # Put any entry points (scripts to be generated automatically) here. The
+    # syntax is module:function.  For example
+    #
+    # - pyinstaller = pyinstaller:main
+    #
+    # Would create an entry point called pyinstaller that calls pyinstaller.main()
+
+
+  # If this is a new build for the same version, increment the build
+  # number. If you do not include this key, it defaults to 0.
+  # number: 1
+
+requirements:
+  build:
+    - python
+    - setuptools
+    - distribute
+
+  run:
+    - python
+    - distribute
+
+test:
+  # Python imports
+  imports:
+    - PyInstaller
+    - PyInstaller.cliutils
+    - PyInstaller.depend
+    - PyInstaller.fake
+    - PyInstaller.hooks
+    - PyInstaller.hooks.utils
+    - PyInstaller.lib
+    - PyInstaller.lib.altgraph
+    - PyInstaller.lib.junitxml
+    - PyInstaller.lib.junitxml.tests
+    - PyInstaller.lib.macholib
+    - PyInstaller.lib.unittest2
+    - PyInstaller.lib.unittest2.test
+    - PyInstaller.loader
+    - PyInstaller.loader.rthooks
+    - PyInstaller.utils
+
+  # commands:
+    # You can put test commands to be run here.  Use this to test that the
+    # entry points work.
+
+
+  # You can also put a file called run_test.py in the recipe that will be run
+  # at test time.
+
+  # requires:
+    # Put any additional test requirements here.  For example
+    # - nose
+
+about:
+  home: http://www.pyinstaller.org
+  license: GPL license with a special exception which allows to use PyInstaller to build and distribute non-free programs (including commercial ones)
+  summary: 'Converts (packages) Python programs into stand-alone executables, under Windows, Linux, Mac OS X, AIX and Solaris.'
+
+# See
+# http://docs.continuum.io/conda/build.html for
+# more information about meta.yaml

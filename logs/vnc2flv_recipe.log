@@ -1,0 +1,33 @@
+Warning, the following versions were found for vnc2flv
+20100207
+20091114
+20091103
+20091025
+20090830
+20090824
+20090802
+20090722
+20090704
+20090628
+Using 20100207
+Use --version to specify a different version.
+Using url https://pypi.python.org/packages/source/v/vnc2flv/vnc2flv-20100207.tar.gz (30 KB) for vnc2flv.
+Downloading vnc2flv
+Unpacking vnc2flv...
+done
+working in /tmp/tmpxx0Jm5conda_skeleton_vnc2flv-20100207.tar.gz
+Fetching package metadata: ......
+
+WARNING: conda-build appears to be out of date. You have version 1.13.0 but the
+latest version is 1.14.1. Run
+
+conda update -n root conda-build
+
+to get the latest version.
+
+Solving package specifications: .patching file core.py
+Hunk #1 succeeded at 168 with fuzz 2 (offset 2 lines).
+
+Applying patch: '/tmp/tmpxx0Jm5conda_skeleton_vnc2flv-20100207.tar.gz/pypi-distutils.patch'
+Writing recipe for vnc2flv
+Done

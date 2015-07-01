@@ -1,0 +1,82 @@
+Warning, the following versions were found for rospkg
+1.0.35
+1.0.34
+1.0.33
+1.0.32
+1.0.30
+1.0.29
+1.0.28
+1.0.27
+1.0.26
+1.0.25
+1.0.24
+1.0.23
+1.0.22
+1.0.21
+1.0.19
+1.0.18
+1.0.17
+1.0.16
+1.0.15
+1.0.14
+1.0.13
+1.0.12
+1.0.11
+1.0.10
+1.0.9
+1.0.7
+1.0.6
+1.0.5
+1.0.4
+1.0.3
+1.0.2
+1.0.1
+1.0.0
+0.12.8
+0.12.6
+0.12.5
+0.12.4
+0.12.0
+0.11.1
+0.11.0
+0.10.1
+0.10.0
+0.9.0
+0.2.6
+0.2.5
+0.2.3
+0.2.2
+0.2.1
+0.2.0
+0.0.1
+Using 1.0.35
+Use --version to specify a different version.
+Using url https://pypi.python.org/packages/source/r/rospkg/rospkg-1.0.35.tar.gz (38 KB) for rospkg.
+Downloading rospkg
+Using cached download
+Unpacking rospkg...
+done
+working in /tmp/tmpJbmL2pconda_skeleton_rospkg-1.0.35.tar.gz
+Fetching package metadata: ......
+
+WARNING: conda-build appears to be out of date. You have version 1.13.0 but the
+latest version is 1.14.1. Run
+
+conda update -n root conda-build
+
+to get the latest version.
+
+Solving package specifications: .patching file core.py
+Hunk #1 succeeded at 168 with fuzz 2 (offset 2 lines).
+
+The following NEW packages will be INSTALLED:
+
+    numpy:  1.9.2-py27_0
+    pyyaml: 3.11-py27_1 
+    yaml:   0.1.6-0     
+
+Linking packages ...
+[                    ]|                                                  |   0%[yaml                ]|                                                  |   0%[numpy               ]|################                                  |  33%[pyyaml              ]|#################################                 |  66%[      COMPLETE      ]|##################################################| 100%
+Applying patch: '/tmp/tmpJbmL2pconda_skeleton_rospkg-1.0.35.tar.gz/pypi-distutils.patch'
+Writing recipe for rospkg
+Done

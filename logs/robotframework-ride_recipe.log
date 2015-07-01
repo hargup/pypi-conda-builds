@@ -1,0 +1,1287 @@
+Warning, the following versions were found for robotframework-ride
+1.4
+1.4b3
+1.4b2
+1.4a1
+1.3
+1.2.3
+1.2.2
+1.2.1
+1.2
+1.1
+1.0.1
+1.0
+0.55
+0.54
+0.53
+0.52.1
+0.52
+0.51
+0.50
+0.49
+0.48
+0.47
+0.46
+0.45
+0.44
+0.43.3
+0.43.2
+0.43.1
+0.43
+0.42.1
+0.42
+0.41
+0.39.1
+Using 1.4
+Use --version to specify a different version.
+Using url https://pypi.python.org/packages/source/r/robotframework-ride/robotframework-ride-1.4.tar.gz (581 KB) for robotframework-ride.
+Downloading robotframework-ride
+Unpacking robotframework-ride...
+done
+working in /tmp/tmp7n4DaXconda_skeleton_robotframework-ride-1.4.tar.gz
+Fetching package metadata: ......
+
+WARNING: conda-build appears to be out of date. You have version 1.13.0 but the
+latest version is 1.14.1. Run
+
+conda update -n root conda-build
+
+to get the latest version.
+
+Solving package specifications: .patching file core.py
+Hunk #1 succeeded at 168 with fuzz 2 (offset 2 lines).
+---> pavement.install
+Searching for Pygments
+Reading https://pypi.python.org/simple/Pygments/
+Best match: Pygments 2.0.2
+Downloading https://pypi.python.org/packages/source/P/Pygments/Pygments-2.0.2.tar.gz#md5=238587a1370d62405edabd0794b3ec4a
+Processing Pygments-2.0.2.tar.gz
+Writing /tmp/easy_install-5erqY_/Pygments-2.0.2/setup.cfg
+Running Pygments-2.0.2/setup.py -q bdist_egg --dist-dir /tmp/easy_install-5erqY_/Pygments-2.0.2/egg-dist-tmp-bvlI54
+No eggs found in /tmp/easy_install-5erqY_/Pygments-2.0.2/egg-dist-tmp-bvlI54 (setup script problem?)
+running install
+running build
+running build_py
+creating build
+creating build/lib
+creating build/lib/robotide
+copying src/robotide/robotapi.py -> build/lib/robotide
+copying src/robotide/version.py -> build/lib/robotide
+copying src/robotide/__init__.py -> build/lib/robotide
+creating build/lib/robotide/controller
+copying src/robotide/controller/macrocontrollers.py -> build/lib/robotide/controller
+copying src/robotide/controller/testexecutionresults.py -> build/lib/robotide/controller
+copying src/robotide/controller/robotdata.py -> build/lib/robotide/controller
+copying src/robotide/controller/basecontroller.py -> build/lib/robotide/controller
+copying src/robotide/controller/validators.py -> build/lib/robotide/controller
+copying src/robotide/controller/commands.py -> build/lib/robotide/controller
+copying src/robotide/controller/tags.py -> build/lib/robotide/controller
+copying src/robotide/controller/dataloader.py -> build/lib/robotide/controller
+copying src/robotide/controller/cellinfo.py -> build/lib/robotide/controller
+copying src/robotide/controller/filecontrollers.py -> build/lib/robotide/controller
+copying src/robotide/controller/arguments.py -> build/lib/robotide/controller
+copying src/robotide/controller/tablecontrollers.py -> build/lib/robotide/controller
+copying src/robotide/controller/__init__.py -> build/lib/robotide/controller
+copying src/robotide/controller/project.py -> build/lib/robotide/controller
+copying src/robotide/controller/stepcontrollers.py -> build/lib/robotide/controller
+copying src/robotide/controller/settingcontrollers.py -> build/lib/robotide/controller
+creating build/lib/robotide/recentfiles
+copying src/robotide/recentfiles/recentfiles.py -> build/lib/robotide/recentfiles
+copying src/robotide/recentfiles/__init__.py -> build/lib/robotide/recentfiles
+creating build/lib/robotide/preferences
+copying src/robotide/preferences/editors.py -> build/lib/robotide/preferences
+copying src/robotide/preferences/configobj.py -> build/lib/robotide/preferences
+copying src/robotide/preferences/widgets.py -> build/lib/robotide/preferences
+copying src/robotide/preferences/editor.py -> build/lib/robotide/preferences
+copying src/robotide/preferences/saving.py -> build/lib/robotide/preferences
+copying src/robotide/preferences/imports.py -> build/lib/robotide/preferences
+copying src/robotide/preferences/__init__.py -> build/lib/robotide/preferences
+copying src/robotide/preferences/settings.py -> build/lib/robotide/preferences
+copying src/robotide/preferences/excludes.py -> build/lib/robotide/preferences
+creating build/lib/robotide/ui
+copying src/robotide/ui/tree.py -> build/lib/robotide/ui
+copying src/robotide/ui/tagdialogs.py -> build/lib/robotide/ui
+copying src/robotide/ui/resourcedialogs.py -> build/lib/robotide/ui
+copying src/robotide/ui/pluginmanager.py -> build/lib/robotide/ui
+copying src/robotide/ui/mainframe.py -> build/lib/robotide/ui
+copying src/robotide/ui/notebook.py -> build/lib/robotide/ui
+copying src/robotide/ui/preview.py -> build/lib/robotide/ui
+copying src/robotide/ui/filedialogs.py -> build/lib/robotide/ui
+copying src/robotide/ui/actiontriggers.py -> build/lib/robotide/ui
+copying src/robotide/ui/__init__.py -> build/lib/robotide/ui
+copying src/robotide/ui/searchdots.py -> build/lib/robotide/ui
+copying src/robotide/ui/images.py -> build/lib/robotide/ui
+copying src/robotide/ui/treenodehandlers.py -> build/lib/robotide/ui
+copying src/robotide/ui/keywordsearch.py -> build/lib/robotide/ui
+copying src/robotide/ui/review.py -> build/lib/robotide/ui
+copying src/robotide/ui/progress.py -> build/lib/robotide/ui
+creating build/lib/robotide/publish
+copying src/robotide/publish/publisher.py -> build/lib/robotide/publish
+copying src/robotide/publish/messages.py -> build/lib/robotide/publish
+copying src/robotide/publish/__init__.py -> build/lib/robotide/publish
+copying src/robotide/publish/messagetype.py -> build/lib/robotide/publish
+creating build/lib/robotide/validators
+copying src/robotide/validators/__init__.py -> build/lib/robotide/validators
+creating build/lib/robotide/usages
+copying src/robotide/usages/commands.py -> build/lib/robotide/usages
+copying src/robotide/usages/usagesdialog.py -> build/lib/robotide/usages
+copying src/robotide/usages/__init__.py -> build/lib/robotide/usages
+copying src/robotide/usages/UsageRunner.py -> build/lib/robotide/usages
+creating build/lib/robotide/searchtests
+copying src/robotide/searchtests/dialogsearchtests.py -> build/lib/robotide/searchtests
+copying src/robotide/searchtests/searchtests.py -> build/lib/robotide/searchtests
+copying src/robotide/searchtests/__init__.py -> build/lib/robotide/searchtests
+creating build/lib/robotide/utils
+copying src/robotide/utils/variablematcher.py -> build/lib/robotide/utils
+copying src/robotide/utils/__init__.py -> build/lib/robotide/utils
+copying src/robotide/utils/eventhandler.py -> build/lib/robotide/utils
+copying src/robotide/utils/printing.py -> build/lib/robotide/utils
+copying src/robotide/utils/versioncomparator.py -> build/lib/robotide/utils
+copying src/robotide/utils/highlightmatcher.py -> build/lib/robotide/utils
+creating build/lib/robotide/run
+copying src/robotide/run/process.py -> build/lib/robotide/run
+copying src/robotide/run/ui.py -> build/lib/robotide/run
+copying src/robotide/run/configmanagerui.py -> build/lib/robotide/run
+copying src/robotide/run/runanything.py -> build/lib/robotide/run
+copying src/robotide/run/__init__.py -> build/lib/robotide/run
+creating build/lib/robotide/log
+copying src/robotide/log/log.py -> build/lib/robotide/log
+copying src/robotide/log/__init__.py -> build/lib/robotide/log
+creating build/lib/robotide/contrib
+copying src/robotide/contrib/__init__.py -> build/lib/robotide/contrib
+creating build/lib/robotide/context
+copying src/robotide/context/platform.py -> build/lib/robotide/context
+copying src/robotide/context/__init__.py -> build/lib/robotide/context
+copying src/robotide/context/logger.py -> build/lib/robotide/context
+copying src/robotide/context/coreplugins.py -> build/lib/robotide/context
+creating build/lib/robotide/application
+copying src/robotide/application/application.py -> build/lib/robotide/application
+copying src/robotide/application/debugconsole.py -> build/lib/robotide/application
+copying src/robotide/application/updatenotifier.py -> build/lib/robotide/application
+copying src/robotide/application/__init__.py -> build/lib/robotide/application
+copying src/robotide/application/pluginloader.py -> build/lib/robotide/application
+copying src/robotide/application/releasenotes.py -> build/lib/robotide/application
+copying src/robotide/application/pluginconnector.py -> build/lib/robotide/application
+copying src/robotide/application/editorprovider.py -> build/lib/robotide/application
+creating build/lib/robotide/action
+copying src/robotide/action/shortcut.py -> build/lib/robotide/action
+copying src/robotide/action/action.py -> build/lib/robotide/action
+copying src/robotide/action/__init__.py -> build/lib/robotide/action
+copying src/robotide/action/actioninfo.py -> build/lib/robotide/action
+creating build/lib/robotide/editor
+copying src/robotide/editor/editors.py -> build/lib/robotide/editor
+copying src/robotide/editor/listeditor.py -> build/lib/robotide/editor
+copying src/robotide/editor/clipboard.py -> build/lib/robotide/editor
+copying src/robotide/editor/settingeditors.py -> build/lib/robotide/editor
+copying src/robotide/editor/robotframeworklexer.py -> build/lib/robotide/editor
+copying src/robotide/editor/kweditor.py -> build/lib/robotide/editor
+copying src/robotide/editor/tooltips.py -> build/lib/robotide/editor
+copying src/robotide/editor/macroeditors.py -> build/lib/robotide/editor
+copying src/robotide/editor/gridcolorizer.py -> build/lib/robotide/editor
+copying src/robotide/editor/popupwindow.py -> build/lib/robotide/editor
+copying src/robotide/editor/tags.py -> build/lib/robotide/editor
+copying src/robotide/editor/grid.py -> build/lib/robotide/editor
+copying src/robotide/editor/__init__.py -> build/lib/robotide/editor
+copying src/robotide/editor/contentassist.py -> build/lib/robotide/editor
+copying src/robotide/editor/texteditor.py -> build/lib/robotide/editor
+copying src/robotide/editor/editorcreator.py -> build/lib/robotide/editor
+copying src/robotide/editor/formatters.py -> build/lib/robotide/editor
+copying src/robotide/editor/dialoghelps.py -> build/lib/robotide/editor
+copying src/robotide/editor/editordialogs.py -> build/lib/robotide/editor
+copying src/robotide/editor/fieldeditors.py -> build/lib/robotide/editor
+copying src/robotide/editor/flowsizer.py -> build/lib/robotide/editor
+creating build/lib/robotide/namespace
+copying src/robotide/namespace/embeddedargs.py -> build/lib/robotide/namespace
+copying src/robotide/namespace/suggesters.py -> build/lib/robotide/namespace
+copying src/robotide/namespace/resourcefactory.py -> build/lib/robotide/namespace
+copying src/robotide/namespace/namespace.py -> build/lib/robotide/namespace
+copying src/robotide/namespace/cache.py -> build/lib/robotide/namespace
+copying src/robotide/namespace/variablefetcher.py -> build/lib/robotide/namespace
+copying src/robotide/namespace/__init__.py -> build/lib/robotide/namespace
+copying src/robotide/namespace/local_namespace.py -> build/lib/robotide/namespace
+creating build/lib/robotide/widgets
+copying src/robotide/widgets/font.py -> build/lib/robotide/widgets
+copying src/robotide/widgets/dialog.py -> build/lib/robotide/widgets
+copying src/robotide/widgets/htmlwindow.py -> build/lib/robotide/widgets
+copying src/robotide/widgets/list.py -> build/lib/robotide/widgets
+copying src/robotide/widgets/button.py -> build/lib/robotide/widgets
+copying src/robotide/widgets/label.py -> build/lib/robotide/widgets
+copying src/robotide/widgets/text.py -> build/lib/robotide/widgets
+copying src/robotide/widgets/__init__.py -> build/lib/robotide/widgets
+copying src/robotide/widgets/popupmenu.py -> build/lib/robotide/widgets
+copying src/robotide/widgets/images.py -> build/lib/robotide/widgets
+copying src/robotide/widgets/sizers.py -> build/lib/robotide/widgets
+creating build/lib/robotide/pluginapi
+copying src/robotide/pluginapi/plugin.py -> build/lib/robotide/pluginapi
+copying src/robotide/pluginapi/tree_aware_plugin_mixin.py -> build/lib/robotide/pluginapi
+copying src/robotide/pluginapi/__init__.py -> build/lib/robotide/pluginapi
+creating build/lib/robotide/spec
+copying src/robotide/spec/specimporter.py -> build/lib/robotide/spec
+copying src/robotide/spec/xmlreaders.py -> build/lib/robotide/spec
+copying src/robotide/spec/librarydatabase.py -> build/lib/robotide/spec
+copying src/robotide/spec/iteminfo.py -> build/lib/robotide/spec
+copying src/robotide/spec/__init__.py -> build/lib/robotide/spec
+copying src/robotide/spec/librarymanager.py -> build/lib/robotide/spec
+copying src/robotide/spec/libraryfetcher.py -> build/lib/robotide/spec
+creating build/lib/robotide/controller/ui
+copying src/robotide/controller/ui/treecontroller.py -> build/lib/robotide/controller/ui
+copying src/robotide/controller/ui/__init__.py -> build/lib/robotide/controller/ui
+creating build/lib/robotide/contrib/testrunner
+copying src/robotide/contrib/testrunner/testrunnerplugin.py -> build/lib/robotide/contrib/testrunner
+copying src/robotide/contrib/testrunner/usages.py -> build/lib/robotide/contrib/testrunner
+copying src/robotide/contrib/testrunner/testrunner.py -> build/lib/robotide/contrib/testrunner
+copying src/robotide/contrib/testrunner/__init__.py -> build/lib/robotide/contrib/testrunner
+copying src/robotide/contrib/testrunner/TestRunnerAgent.py -> build/lib/robotide/contrib/testrunner
+copying src/robotide/contrib/testrunner/runprofiles.py -> build/lib/robotide/contrib/testrunner
+creating build/lib/robotide/lib
+creating build/lib/robotide/lib/robot
+copying src/robotide/lib/robot/rebot.py -> build/lib/robotide/lib/robot
+copying src/robotide/lib/robot/testdoc.py -> build/lib/robotide/lib/robot
+copying src/robotide/lib/robot/errors.py -> build/lib/robotide/lib/robot
+copying src/robotide/lib/robot/tidy.py -> build/lib/robotide/lib/robot
+copying src/robotide/lib/robot/libdoc.py -> build/lib/robotide/lib/robot
+copying src/robotide/lib/robot/pythonpathsetter.py -> build/lib/robotide/lib/robot
+copying src/robotide/lib/robot/version.py -> build/lib/robotide/lib/robot
+copying src/robotide/lib/robot/jarrunner.py -> build/lib/robotide/lib/robot
+copying src/robotide/lib/robot/run.py -> build/lib/robotide/lib/robot
+copying src/robotide/lib/robot/__init__.py -> build/lib/robotide/lib/robot
+copying src/robotide/lib/robot/jythonworkarounds.py -> build/lib/robotide/lib/robot
+creating build/lib/robotide/lib/robot/libraries
+copying src/robotide/lib/robot/libraries/dialogs_ipy.py -> build/lib/robotide/lib/robot/libraries
+copying src/robotide/lib/robot/libraries/DeprecatedBuiltIn.py -> build/lib/robotide/lib/robot/libraries
+copying src/robotide/lib/robot/libraries/Reserved.py -> build/lib/robotide/lib/robot/libraries
+copying src/robotide/lib/robot/libraries/XML.py -> build/lib/robotide/lib/robot/libraries
+copying src/robotide/lib/robot/libraries/Telnet.py -> build/lib/robotide/lib/robot/libraries
+copying src/robotide/lib/robot/libraries/DateTime.py -> build/lib/robotide/lib/robot/libraries
+copying src/robotide/lib/robot/libraries/Remote.py -> build/lib/robotide/lib/robot/libraries
+copying src/robotide/lib/robot/libraries/Easter.py -> build/lib/robotide/lib/robot/libraries
+copying src/robotide/lib/robot/libraries/OperatingSystem.py -> build/lib/robotide/lib/robot/libraries
+copying src/robotide/lib/robot/libraries/dialogs_py.py -> build/lib/robotide/lib/robot/libraries
+copying src/robotide/lib/robot/libraries/Collections.py -> build/lib/robotide/lib/robot/libraries
+copying src/robotide/lib/robot/libraries/Dialogs.py -> build/lib/robotide/lib/robot/libraries
+copying src/robotide/lib/robot/libraries/Screenshot.py -> build/lib/robotide/lib/robot/libraries
+copying src/robotide/lib/robot/libraries/dialogs_jy.py -> build/lib/robotide/lib/robot/libraries
+copying src/robotide/lib/robot/libraries/__init__.py -> build/lib/robotide/lib/robot/libraries
+copying src/robotide/lib/robot/libraries/Process.py -> build/lib/robotide/lib/robot/libraries
+copying src/robotide/lib/robot/libraries/BuiltIn.py -> build/lib/robotide/lib/robot/libraries
+copying src/robotide/lib/robot/libraries/DeprecatedOperatingSystem.py -> build/lib/robotide/lib/robot/libraries
+copying src/robotide/lib/robot/libraries/String.py -> build/lib/robotide/lib/robot/libraries
+creating build/lib/robotide/lib/robot/model
+copying src/robotide/lib/robot/model/totalstatistics.py -> build/lib/robotide/lib/robot/model
+copying src/robotide/lib/robot/model/visitor.py -> build/lib/robotide/lib/robot/model
+copying src/robotide/lib/robot/model/statistics.py -> build/lib/robotide/lib/robot/model
+copying src/robotide/lib/robot/model/tags.py -> build/lib/robotide/lib/robot/model
+copying src/robotide/lib/robot/model/filter.py -> build/lib/robotide/lib/robot/model
+copying src/robotide/lib/robot/model/tagsetter.py -> build/lib/robotide/lib/robot/model
+copying src/robotide/lib/robot/model/tagstatistics.py -> build/lib/robotide/lib/robot/model
+copying src/robotide/lib/robot/model/stats.py -> build/lib/robotide/lib/robot/model
+copying src/robotide/lib/robot/model/itemlist.py -> build/lib/robotide/lib/robot/model
+copying src/robotide/lib/robot/model/message.py -> build/lib/robotide/lib/robot/model
+copying src/robotide/lib/robot/model/configurer.py -> build/lib/robotide/lib/robot/model
+copying src/robotide/lib/robot/model/modelobject.py -> build/lib/robotide/lib/robot/model
+copying src/robotide/lib/robot/model/criticality.py -> build/lib/robotide/lib/robot/model
+copying src/robotide/lib/robot/model/imports.py -> build/lib/robotide/lib/robot/model
+copying src/robotide/lib/robot/model/__init__.py -> build/lib/robotide/lib/robot/model
+copying src/robotide/lib/robot/model/suitestatistics.py -> build/lib/robotide/lib/robot/model
+copying src/robotide/lib/robot/model/testcase.py -> build/lib/robotide/lib/robot/model
+copying src/robotide/lib/robot/model/namepatterns.py -> build/lib/robotide/lib/robot/model
+copying src/robotide/lib/robot/model/keyword.py -> build/lib/robotide/lib/robot/model
+copying src/robotide/lib/robot/model/metadata.py -> build/lib/robotide/lib/robot/model
+copying src/robotide/lib/robot/model/testsuite.py -> build/lib/robotide/lib/robot/model
+creating build/lib/robotide/lib/robot/writer
+copying src/robotide/lib/robot/writer/htmltemplate.py -> build/lib/robotide/lib/robot/writer
+copying src/robotide/lib/robot/writer/rowsplitter.py -> build/lib/robotide/lib/robot/writer
+copying src/robotide/lib/robot/writer/htmlformatter.py -> build/lib/robotide/lib/robot/writer
+copying src/robotide/lib/robot/writer/filewriters.py -> build/lib/robotide/lib/robot/writer
+copying src/robotide/lib/robot/writer/dataextractor.py -> build/lib/robotide/lib/robot/writer
+copying src/robotide/lib/robot/writer/datafilewriter.py -> build/lib/robotide/lib/robot/writer
+copying src/robotide/lib/robot/writer/__init__.py -> build/lib/robotide/lib/robot/writer
+copying src/robotide/lib/robot/writer/formatters.py -> build/lib/robotide/lib/robot/writer
+copying src/robotide/lib/robot/writer/aligners.py -> build/lib/robotide/lib/robot/writer
+creating build/lib/robotide/lib/robot/libdocpkg
+copying src/robotide/lib/robot/libdocpkg/htmlwriter.py -> build/lib/robotide/lib/robot/libdocpkg
+copying src/robotide/lib/robot/libdocpkg/model.py -> build/lib/robotide/lib/robot/libdocpkg
+copying src/robotide/lib/robot/libdocpkg/output.py -> build/lib/robotide/lib/robot/libdocpkg
+copying src/robotide/lib/robot/libdocpkg/consoleviewer.py -> build/lib/robotide/lib/robot/libdocpkg
+copying src/robotide/lib/robot/libdocpkg/specbuilder.py -> build/lib/robotide/lib/robot/libdocpkg
+copying src/robotide/lib/robot/libdocpkg/builder.py -> build/lib/robotide/lib/robot/libdocpkg
+copying src/robotide/lib/robot/libdocpkg/__init__.py -> build/lib/robotide/lib/robot/libdocpkg
+copying src/robotide/lib/robot/libdocpkg/javabuilder.py -> build/lib/robotide/lib/robot/libdocpkg
+copying src/robotide/lib/robot/libdocpkg/robotbuilder.py -> build/lib/robotide/lib/robot/libdocpkg
+copying src/robotide/lib/robot/libdocpkg/xmlwriter.py -> build/lib/robotide/lib/robot/libdocpkg
+copying src/robotide/lib/robot/libdocpkg/writer.py -> build/lib/robotide/lib/robot/libdocpkg
+creating build/lib/robotide/lib/robot/utils
+copying src/robotide/lib/robot/utils/asserts.py -> build/lib/robotide/lib/robot/utils
+copying src/robotide/lib/robot/utils/robottime.py -> build/lib/robotide/lib/robot/utils
+copying src/robotide/lib/robot/utils/escaping.py -> build/lib/robotide/lib/robot/utils
+copying src/robotide/lib/robot/utils/charwidth.py -> build/lib/robotide/lib/robot/utils
+copying src/robotide/lib/robot/utils/encoding.py -> build/lib/robotide/lib/robot/utils
+copying src/robotide/lib/robot/utils/robotinspect.py -> build/lib/robotide/lib/robot/utils
+copying src/robotide/lib/robot/utils/connectioncache.py -> build/lib/robotide/lib/robot/utils
+copying src/robotide/lib/robot/utils/unic.py -> build/lib/robotide/lib/robot/utils
+copying src/robotide/lib/robot/utils/application.py -> build/lib/robotide/lib/robot/utils
+copying src/robotide/lib/robot/utils/recommendations.py -> build/lib/robotide/lib/robot/utils
+copying src/robotide/lib/robot/utils/match.py -> build/lib/robotide/lib/robot/utils
+copying src/robotide/lib/robot/utils/markupwriters.py -> build/lib/robotide/lib/robot/utils
+copying src/robotide/lib/robot/utils/frange.py -> build/lib/robotide/lib/robot/utils
+copying src/robotide/lib/robot/utils/normalizing.py -> build/lib/robotide/lib/robot/utils
+copying src/robotide/lib/robot/utils/htmlformatters.py -> build/lib/robotide/lib/robot/utils
+copying src/robotide/lib/robot/utils/robotpath.py -> build/lib/robotide/lib/robot/utils
+copying src/robotide/lib/robot/utils/markuputils.py -> build/lib/robotide/lib/robot/utils
+copying src/robotide/lib/robot/utils/text.py -> build/lib/robotide/lib/robot/utils
+copying src/robotide/lib/robot/utils/argumentparser.py -> build/lib/robotide/lib/robot/utils
+copying src/robotide/lib/robot/utils/robotenv.py -> build/lib/robotide/lib/robot/utils
+copying src/robotide/lib/robot/utils/importer.py -> build/lib/robotide/lib/robot/utils
+copying src/robotide/lib/robot/utils/misc.py -> build/lib/robotide/lib/robot/utils
+copying src/robotide/lib/robot/utils/encodingsniffer.py -> build/lib/robotide/lib/robot/utils
+copying src/robotide/lib/robot/utils/__init__.py -> build/lib/robotide/lib/robot/utils
+copying src/robotide/lib/robot/utils/error.py -> build/lib/robotide/lib/robot/utils
+copying src/robotide/lib/robot/utils/compress.py -> build/lib/robotide/lib/robot/utils
+copying src/robotide/lib/robot/utils/utf8reader.py -> build/lib/robotide/lib/robot/utils
+copying src/robotide/lib/robot/utils/islike.py -> build/lib/robotide/lib/robot/utils
+copying src/robotide/lib/robot/utils/etreewrapper.py -> build/lib/robotide/lib/robot/utils
+copying src/robotide/lib/robot/utils/setter.py -> build/lib/robotide/lib/robot/utils
+creating build/lib/robotide/lib/robot/running
+copying src/robotide/lib/robot/running/testlibraries.py -> build/lib/robotide/lib/robot/running
+copying src/robotide/lib/robot/running/keywords.py -> build/lib/robotide/lib/robot/running
+copying src/robotide/lib/robot/running/model.py -> build/lib/robotide/lib/robot/running
+copying src/robotide/lib/robot/running/status.py -> build/lib/robotide/lib/robot/running
+copying src/robotide/lib/robot/running/dynamicmethods.py -> build/lib/robotide/lib/robot/running
+copying src/robotide/lib/robot/running/signalhandler.py -> build/lib/robotide/lib/robot/running
+copying src/robotide/lib/robot/running/defaults.py -> build/lib/robotide/lib/robot/running
+copying src/robotide/lib/robot/running/runkwregister.py -> build/lib/robotide/lib/robot/running
+copying src/robotide/lib/robot/running/baselibrary.py -> build/lib/robotide/lib/robot/running
+copying src/robotide/lib/robot/running/builder.py -> build/lib/robotide/lib/robot/running
+copying src/robotide/lib/robot/running/outputcapture.py -> build/lib/robotide/lib/robot/running
+copying src/robotide/lib/robot/running/userkeyword.py -> build/lib/robotide/lib/robot/running
+copying src/robotide/lib/robot/running/namespace.py -> build/lib/robotide/lib/robot/running
+copying src/robotide/lib/robot/running/importer.py -> build/lib/robotide/lib/robot/running
+copying src/robotide/lib/robot/running/context.py -> build/lib/robotide/lib/robot/running
+copying src/robotide/lib/robot/running/__init__.py -> build/lib/robotide/lib/robot/running
+copying src/robotide/lib/robot/running/runner.py -> build/lib/robotide/lib/robot/running
+copying src/robotide/lib/robot/running/usererrorhandler.py -> build/lib/robotide/lib/robot/running
+copying src/robotide/lib/robot/running/randomizer.py -> build/lib/robotide/lib/robot/running
+copying src/robotide/lib/robot/running/handlers.py -> build/lib/robotide/lib/robot/running
+creating build/lib/robotide/lib/robot/variables
+copying src/robotide/lib/robot/variables/variableassigner.py -> build/lib/robotide/lib/robot/variables
+copying src/robotide/lib/robot/variables/variablesplitter.py -> build/lib/robotide/lib/robot/variables
+copying src/robotide/lib/robot/variables/variables.py -> build/lib/robotide/lib/robot/variables
+copying src/robotide/lib/robot/variables/__init__.py -> build/lib/robotide/lib/robot/variables
+copying src/robotide/lib/robot/variables/isvar.py -> build/lib/robotide/lib/robot/variables
+creating build/lib/robotide/lib/robot/reporting
+copying src/robotide/lib/robot/reporting/jswriter.py -> build/lib/robotide/lib/robot/reporting
+copying src/robotide/lib/robot/reporting/logreportwriters.py -> build/lib/robotide/lib/robot/reporting
+copying src/robotide/lib/robot/reporting/jsmodelbuilders.py -> build/lib/robotide/lib/robot/reporting
+copying src/robotide/lib/robot/reporting/jsbuildingcontext.py -> build/lib/robotide/lib/robot/reporting
+copying src/robotide/lib/robot/reporting/jsexecutionresult.py -> build/lib/robotide/lib/robot/reporting
+copying src/robotide/lib/robot/reporting/stringcache.py -> build/lib/robotide/lib/robot/reporting
+copying src/robotide/lib/robot/reporting/resultwriter.py -> build/lib/robotide/lib/robot/reporting
+copying src/robotide/lib/robot/reporting/xunitwriter.py -> build/lib/robotide/lib/robot/reporting
+copying src/robotide/lib/robot/reporting/__init__.py -> build/lib/robotide/lib/robot/reporting
+copying src/robotide/lib/robot/reporting/outputwriter.py -> build/lib/robotide/lib/robot/reporting
+creating build/lib/robotide/lib/robot/api
+copying src/robotide/lib/robot/api/__init__.py -> build/lib/robotide/lib/robot/api
+copying src/robotide/lib/robot/api/logger.py -> build/lib/robotide/lib/robot/api
+creating build/lib/robotide/lib/robot/conf
+copying src/robotide/lib/robot/conf/gatherfailed.py -> build/lib/robotide/lib/robot/conf
+copying src/robotide/lib/robot/conf/__init__.py -> build/lib/robotide/lib/robot/conf
+copying src/robotide/lib/robot/conf/settings.py -> build/lib/robotide/lib/robot/conf
+creating build/lib/robotide/lib/robot/htmldata
+copying src/robotide/lib/robot/htmldata/jsonwriter.py -> build/lib/robotide/lib/robot/htmldata
+copying src/robotide/lib/robot/htmldata/jartemplate.py -> build/lib/robotide/lib/robot/htmldata
+copying src/robotide/lib/robot/htmldata/htmlfilewriter.py -> build/lib/robotide/lib/robot/htmldata
+copying src/robotide/lib/robot/htmldata/__init__.py -> build/lib/robotide/lib/robot/htmldata
+copying src/robotide/lib/robot/htmldata/template.py -> build/lib/robotide/lib/robot/htmldata
+copying src/robotide/lib/robot/htmldata/normaltemplate.py -> build/lib/robotide/lib/robot/htmldata
+creating build/lib/robotide/lib/robot/result
+copying src/robotide/lib/robot/result/xmlelementhandlers.py -> build/lib/robotide/lib/robot/result
+copying src/robotide/lib/robot/result/merger.py -> build/lib/robotide/lib/robot/result
+copying src/robotide/lib/robot/result/flattenkeywordmatcher.py -> build/lib/robotide/lib/robot/result
+copying src/robotide/lib/robot/result/executionresult.py -> build/lib/robotide/lib/robot/result
+copying src/robotide/lib/robot/result/suiteteardownfailed.py -> build/lib/robotide/lib/robot/result
+copying src/robotide/lib/robot/result/resultbuilder.py -> build/lib/robotide/lib/robot/result
+copying src/robotide/lib/robot/result/visitor.py -> build/lib/robotide/lib/robot/result
+copying src/robotide/lib/robot/result/message.py -> build/lib/robotide/lib/robot/result
+copying src/robotide/lib/robot/result/configurer.py -> build/lib/robotide/lib/robot/result
+copying src/robotide/lib/robot/result/messagefilter.py -> build/lib/robotide/lib/robot/result
+copying src/robotide/lib/robot/result/keywordremover.py -> build/lib/robotide/lib/robot/result
+copying src/robotide/lib/robot/result/executionerrors.py -> build/lib/robotide/lib/robot/result
+copying src/robotide/lib/robot/result/__init__.py -> build/lib/robotide/lib/robot/result
+copying src/robotide/lib/robot/result/testcase.py -> build/lib/robotide/lib/robot/result
+copying src/robotide/lib/robot/result/keyword.py -> build/lib/robotide/lib/robot/result
+copying src/robotide/lib/robot/result/testsuite.py -> build/lib/robotide/lib/robot/result
+creating build/lib/robotide/lib/robot/parsing
+copying src/robotide/lib/robot/parsing/tablepopulators.py -> build/lib/robotide/lib/robot/parsing
+copying src/robotide/lib/robot/parsing/txtreader.py -> build/lib/robotide/lib/robot/parsing
+copying src/robotide/lib/robot/parsing/model.py -> build/lib/robotide/lib/robot/parsing
+copying src/robotide/lib/robot/parsing/datarow.py -> build/lib/robotide/lib/robot/parsing
+copying src/robotide/lib/robot/parsing/tsvreader.py -> build/lib/robotide/lib/robot/parsing
+copying src/robotide/lib/robot/parsing/restreader.py -> build/lib/robotide/lib/robot/parsing
+copying src/robotide/lib/robot/parsing/restsupport.py -> build/lib/robotide/lib/robot/parsing
+copying src/robotide/lib/robot/parsing/htmlreader.py -> build/lib/robotide/lib/robot/parsing
+copying src/robotide/lib/robot/parsing/__init__.py -> build/lib/robotide/lib/robot/parsing
+copying src/robotide/lib/robot/parsing/comments.py -> build/lib/robotide/lib/robot/parsing
+copying src/robotide/lib/robot/parsing/settings.py -> build/lib/robotide/lib/robot/parsing
+copying src/robotide/lib/robot/parsing/populators.py -> build/lib/robotide/lib/robot/parsing
+creating build/lib/robotide/lib/robot/output
+copying src/robotide/lib/robot/output/loggerhelper.py -> build/lib/robotide/lib/robot/output
+copying src/robotide/lib/robot/output/filelogger.py -> build/lib/robotide/lib/robot/output
+copying src/robotide/lib/robot/output/xmllogger.py -> build/lib/robotide/lib/robot/output
+copying src/robotide/lib/robot/output/librarylisteners.py -> build/lib/robotide/lib/robot/output
+copying src/robotide/lib/robot/output/highlighting.py -> build/lib/robotide/lib/robot/output
+copying src/robotide/lib/robot/output/output.py -> build/lib/robotide/lib/robot/output
+copying src/robotide/lib/robot/output/monitor.py -> build/lib/robotide/lib/robot/output
+copying src/robotide/lib/robot/output/stdoutlogsplitter.py -> build/lib/robotide/lib/robot/output
+copying src/robotide/lib/robot/output/librarylogger.py -> build/lib/robotide/lib/robot/output
+copying src/robotide/lib/robot/output/pyloggingconf.py -> build/lib/robotide/lib/robot/output
+copying src/robotide/lib/robot/output/debugfile.py -> build/lib/robotide/lib/robot/output
+copying src/robotide/lib/robot/output/__init__.py -> build/lib/robotide/lib/robot/output
+copying src/robotide/lib/robot/output/logger.py -> build/lib/robotide/lib/robot/output
+copying src/robotide/lib/robot/output/listeners.py -> build/lib/robotide/lib/robot/output
+creating build/lib/robotide/lib/robot/running/arguments
+copying src/robotide/lib/robot/running/arguments/argumentresolver.py -> build/lib/robotide/lib/robot/running/arguments
+copying src/robotide/lib/robot/running/arguments/javaargumentcoercer.py -> build/lib/robotide/lib/robot/running/arguments
+copying src/robotide/lib/robot/running/arguments/argumentspec.py -> build/lib/robotide/lib/robot/running/arguments
+copying src/robotide/lib/robot/running/arguments/argumentvalidator.py -> build/lib/robotide/lib/robot/running/arguments
+copying src/robotide/lib/robot/running/arguments/argumentparser.py -> build/lib/robotide/lib/robot/running/arguments
+copying src/robotide/lib/robot/running/arguments/__init__.py -> build/lib/robotide/lib/robot/running/arguments
+copying src/robotide/lib/robot/running/arguments/argumentmapper.py -> build/lib/robotide/lib/robot/running/arguments
+creating build/lib/robotide/lib/robot/running/timeouts
+copying src/robotide/lib/robot/running/timeouts/timeoutwin.py -> build/lib/robotide/lib/robot/running/timeouts
+copying src/robotide/lib/robot/running/timeouts/timeoutthread.py -> build/lib/robotide/lib/robot/running/timeouts
+copying src/robotide/lib/robot/running/timeouts/timeoutsignaling.py -> build/lib/robotide/lib/robot/running/timeouts
+copying src/robotide/lib/robot/running/timeouts/__init__.py -> build/lib/robotide/lib/robot/running/timeouts
+copying src/robotide/lib/robot/running/timeouts/stoppablethread.py -> build/lib/robotide/lib/robot/running/timeouts
+copying src/robotide/lib/robot-commit -> build/lib/robotide/lib
+copying src/robotide/preferences/settings.cfg -> build/lib/robotide/preferences
+copying src/robotide/widgets/folder_wrench.png -> build/lib/robotide/widgets
+copying src/robotide/widgets/switch.png -> build/lib/robotide/widgets
+copying src/robotide/widgets/test_search.png -> build/lib/robotide/widgets
+copying src/robotide/widgets/test_search_button.png -> build/lib/robotide/widgets
+copying src/robotide/widgets/T32.png -> build/lib/robotide/widgets
+copying src/robotide/widgets/kw_search_button.png -> build/lib/robotide/widgets
+copying src/robotide/widgets/control_play.png -> build/lib/robotide/widgets
+copying src/robotide/widgets/page_white_gear.png -> build/lib/robotide/widgets
+copying src/robotide/widgets/robot.png -> build/lib/robotide/widgets
+copying src/robotide/widgets/robot.ico -> build/lib/robotide/widgets
+copying src/robotide/widgets/report.png -> build/lib/robotide/widgets
+copying src/robotide/widgets/robot_failed.png -> build/lib/robotide/widgets
+copying src/robotide/widgets/down_arrow.png -> build/lib/robotide/widgets
+copying src/robotide/widgets/control_pause.png -> build/lib/robotide/widgets
+copying src/robotide/widgets/control_stop.png -> build/lib/robotide/widgets
+copying src/robotide/widgets/folder.png -> build/lib/robotide/widgets
+copying src/robotide/widgets/control_fastforward.png -> build/lib/robotide/widgets
+copying src/robotide/widgets/robot_passed.png -> build/lib/robotide/widgets
+copying src/robotide/widgets/page_white.png -> build/lib/robotide/widgets
+copying src/robotide/widgets/database_refresh.png -> build/lib/robotide/widgets
+copying src/robotide/widgets/dollar.png -> build/lib/robotide/widgets
+copying src/robotide/widgets/kw_search.png -> build/lib/robotide/widgets
+copying src/robotide/widgets/Kw32.png -> build/lib/robotide/widgets
+copying src/robotide/widgets/cog.png -> build/lib/robotide/widgets
+copying src/robotide/widgets/folder_excluded.png -> build/lib/robotide/widgets
+copying src/robotide/widgets/robot_running.png -> build/lib/robotide/widgets
+copying src/robotide/widgets/process.png -> build/lib/robotide/widgets
+running build_scripts
+creating build/scripts-2.7
+copying and adjusting src/bin/ride.py -> build/scripts-2.7
+copying ride_postinstall.py -> build/scripts-2.7
+changing mode of build/scripts-2.7/ride.py from 664 to 775
+changing mode of build/scripts-2.7/ride_postinstall.py from 644 to 755
+running install_lib
+creating /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/robotide
+creating /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/robotide/controller
+creating /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/robotide/controller/ui
+copying build/lib/robotide/controller/ui/treecontroller.py -> /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/robotide/controller/ui
+copying build/lib/robotide/controller/ui/__init__.py -> /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/robotide/controller/ui
+copying build/lib/robotide/controller/macrocontrollers.py -> /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/robotide/controller
+copying build/lib/robotide/controller/testexecutionresults.py -> /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/robotide/controller
+copying build/lib/robotide/controller/robotdata.py -> /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/robotide/controller
+copying build/lib/robotide/controller/basecontroller.py -> /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/robotide/controller
+copying build/lib/robotide/controller/validators.py -> /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/robotide/controller
+copying build/lib/robotide/controller/commands.py -> /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/robotide/controller
+copying build/lib/robotide/controller/tags.py -> /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/robotide/controller
+copying build/lib/robotide/controller/dataloader.py -> /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/robotide/controller
+copying build/lib/robotide/controller/cellinfo.py -> /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/robotide/controller
+copying build/lib/robotide/controller/filecontrollers.py -> /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/robotide/controller
+copying build/lib/robotide/controller/arguments.py -> /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/robotide/controller
+copying build/lib/robotide/controller/tablecontrollers.py -> /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/robotide/controller
+copying build/lib/robotide/controller/__init__.py -> /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/robotide/controller
+copying build/lib/robotide/controller/project.py -> /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/robotide/controller
+copying build/lib/robotide/controller/stepcontrollers.py -> /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/robotide/controller
+copying build/lib/robotide/controller/settingcontrollers.py -> /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/robotide/controller
+creating /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/robotide/recentfiles
+copying build/lib/robotide/recentfiles/recentfiles.py -> /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/robotide/recentfiles
+copying build/lib/robotide/recentfiles/__init__.py -> /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/robotide/recentfiles
+creating /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/robotide/preferences
+copying build/lib/robotide/preferences/editors.py -> /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/robotide/preferences
+copying build/lib/robotide/preferences/configobj.py -> /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/robotide/preferences
+copying build/lib/robotide/preferences/settings.cfg -> /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/robotide/preferences
+copying build/lib/robotide/preferences/widgets.py -> /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/robotide/preferences
+copying build/lib/robotide/preferences/editor.py -> /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/robotide/preferences
+copying build/lib/robotide/preferences/saving.py -> /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/robotide/preferences
+copying build/lib/robotide/preferences/imports.py -> /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/robotide/preferences
+copying build/lib/robotide/preferences/__init__.py -> /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/robotide/preferences
+copying build/lib/robotide/preferences/settings.py -> /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/robotide/preferences
+copying build/lib/robotide/preferences/excludes.py -> /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/robotide/preferences
+copying build/lib/robotide/robotapi.py -> /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/robotide
+creating /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/robotide/ui
+copying build/lib/robotide/ui/tree.py -> /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/robotide/ui
+copying build/lib/robotide/ui/tagdialogs.py -> /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/robotide/ui
+copying build/lib/robotide/ui/resourcedialogs.py -> /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/robotide/ui
+copying build/lib/robotide/ui/pluginmanager.py -> /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/robotide/ui
+copying build/lib/robotide/ui/mainframe.py -> /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/robotide/ui
+copying build/lib/robotide/ui/notebook.py -> /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/robotide/ui
+copying build/lib/robotide/ui/preview.py -> /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/robotide/ui
+copying build/lib/robotide/ui/filedialogs.py -> /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/robotide/ui
+copying build/lib/robotide/ui/actiontriggers.py -> /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/robotide/ui
+copying build/lib/robotide/ui/__init__.py -> /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/robotide/ui
+copying build/lib/robotide/ui/searchdots.py -> /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/robotide/ui
+copying build/lib/robotide/ui/images.py -> /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/robotide/ui
+copying build/lib/robotide/ui/treenodehandlers.py -> /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/robotide/ui
+copying build/lib/robotide/ui/keywordsearch.py -> /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/robotide/ui
+copying build/lib/robotide/ui/review.py -> /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/robotide/ui
+copying build/lib/robotide/ui/progress.py -> /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/robotide/ui
+creating /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/robotide/publish
+copying build/lib/robotide/publish/publisher.py -> /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/robotide/publish
+copying build/lib/robotide/publish/messages.py -> /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/robotide/publish
+copying build/lib/robotide/publish/__init__.py -> /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/robotide/publish
+copying build/lib/robotide/publish/messagetype.py -> /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/robotide/publish
+creating /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/robotide/validators
+copying build/lib/robotide/validators/__init__.py -> /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/robotide/validators
+creating /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/robotide/usages
+copying build/lib/robotide/usages/commands.py -> /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/robotide/usages
+copying build/lib/robotide/usages/usagesdialog.py -> /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/robotide/usages
+copying build/lib/robotide/usages/__init__.py -> /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/robotide/usages
+copying build/lib/robotide/usages/UsageRunner.py -> /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/robotide/usages
+creating /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/robotide/searchtests
+copying build/lib/robotide/searchtests/dialogsearchtests.py -> /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/robotide/searchtests
+copying build/lib/robotide/searchtests/searchtests.py -> /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/robotide/searchtests
+copying build/lib/robotide/searchtests/__init__.py -> /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/robotide/searchtests
+creating /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/robotide/utils
+copying build/lib/robotide/utils/variablematcher.py -> /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/robotide/utils
+copying build/lib/robotide/utils/__init__.py -> /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/robotide/utils
+copying build/lib/robotide/utils/eventhandler.py -> /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/robotide/utils
+copying build/lib/robotide/utils/printing.py -> /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/robotide/utils
+copying build/lib/robotide/utils/versioncomparator.py -> /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/robotide/utils
+copying build/lib/robotide/utils/highlightmatcher.py -> /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/robotide/utils
+creating /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/robotide/run
+copying build/lib/robotide/run/process.py -> /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/robotide/run
+copying build/lib/robotide/run/ui.py -> /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/robotide/run
+copying build/lib/robotide/run/configmanagerui.py -> /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/robotide/run
+copying build/lib/robotide/run/runanything.py -> /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/robotide/run
+copying build/lib/robotide/run/__init__.py -> /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/robotide/run
+copying build/lib/robotide/version.py -> /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/robotide
+creating /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/robotide/log
+copying build/lib/robotide/log/log.py -> /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/robotide/log
+copying build/lib/robotide/log/__init__.py -> /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/robotide/log
+creating /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/robotide/contrib
+creating /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/robotide/contrib/testrunner
+copying build/lib/robotide/contrib/testrunner/testrunnerplugin.py -> /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/robotide/contrib/testrunner
+copying build/lib/robotide/contrib/testrunner/usages.py -> /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/robotide/contrib/testrunner
+copying build/lib/robotide/contrib/testrunner/testrunner.py -> /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/robotide/contrib/testrunner
+copying build/lib/robotide/contrib/testrunner/__init__.py -> /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/robotide/contrib/testrunner
+copying build/lib/robotide/contrib/testrunner/TestRunnerAgent.py -> /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/robotide/contrib/testrunner
+copying build/lib/robotide/contrib/testrunner/runprofiles.py -> /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/robotide/contrib/testrunner
+copying build/lib/robotide/contrib/__init__.py -> /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/robotide/contrib
+creating /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/robotide/context
+copying build/lib/robotide/context/platform.py -> /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/robotide/context
+copying build/lib/robotide/context/__init__.py -> /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/robotide/context
+copying build/lib/robotide/context/logger.py -> /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/robotide/context
+copying build/lib/robotide/context/coreplugins.py -> /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/robotide/context
+creating /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/robotide/application
+copying build/lib/robotide/application/application.py -> /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/robotide/application
+copying build/lib/robotide/application/debugconsole.py -> /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/robotide/application
+copying build/lib/robotide/application/updatenotifier.py -> /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/robotide/application
+copying build/lib/robotide/application/__init__.py -> /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/robotide/application
+copying build/lib/robotide/application/pluginloader.py -> /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/robotide/application
+copying build/lib/robotide/application/releasenotes.py -> /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/robotide/application
+copying build/lib/robotide/application/pluginconnector.py -> /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/robotide/application
+copying build/lib/robotide/application/editorprovider.py -> /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/robotide/application
+creating /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/robotide/action
+copying build/lib/robotide/action/shortcut.py -> /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/robotide/action
+copying build/lib/robotide/action/action.py -> /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/robotide/action
+copying build/lib/robotide/action/__init__.py -> /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/robotide/action
+copying build/lib/robotide/action/actioninfo.py -> /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/robotide/action
+creating /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/robotide/editor
+copying build/lib/robotide/editor/editors.py -> /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/robotide/editor
+copying build/lib/robotide/editor/listeditor.py -> /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/robotide/editor
+copying build/lib/robotide/editor/clipboard.py -> /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/robotide/editor
+copying build/lib/robotide/editor/settingeditors.py -> /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/robotide/editor
+copying build/lib/robotide/editor/robotframeworklexer.py -> /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/robotide/editor
+copying build/lib/robotide/editor/kweditor.py -> /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/robotide/editor
+copying build/lib/robotide/editor/tooltips.py -> /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/robotide/editor
+copying build/lib/robotide/editor/macroeditors.py -> /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/robotide/editor
+copying build/lib/robotide/editor/gridcolorizer.py -> /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/robotide/editor
+copying build/lib/robotide/editor/popupwindow.py -> /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/robotide/editor
+copying build/lib/robotide/editor/tags.py -> /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/robotide/editor
+copying build/lib/robotide/editor/grid.py -> /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/robotide/editor
+copying build/lib/robotide/editor/__init__.py -> /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/robotide/editor
+copying build/lib/robotide/editor/contentassist.py -> /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/robotide/editor
+copying build/lib/robotide/editor/texteditor.py -> /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/robotide/editor
+copying build/lib/robotide/editor/editorcreator.py -> /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/robotide/editor
+copying build/lib/robotide/editor/formatters.py -> /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/robotide/editor
+copying build/lib/robotide/editor/dialoghelps.py -> /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/robotide/editor
+copying build/lib/robotide/editor/editordialogs.py -> /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/robotide/editor
+copying build/lib/robotide/editor/fieldeditors.py -> /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/robotide/editor
+copying build/lib/robotide/editor/flowsizer.py -> /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/robotide/editor
+creating /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/robotide/namespace
+copying build/lib/robotide/namespace/embeddedargs.py -> /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/robotide/namespace
+copying build/lib/robotide/namespace/suggesters.py -> /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/robotide/namespace
+copying build/lib/robotide/namespace/resourcefactory.py -> /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/robotide/namespace
+copying build/lib/robotide/namespace/namespace.py -> /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/robotide/namespace
+copying build/lib/robotide/namespace/cache.py -> /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/robotide/namespace
+copying build/lib/robotide/namespace/variablefetcher.py -> /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/robotide/namespace
+copying build/lib/robotide/namespace/__init__.py -> /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/robotide/namespace
+copying build/lib/robotide/namespace/local_namespace.py -> /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/robotide/namespace
+creating /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/robotide/widgets
+copying build/lib/robotide/widgets/folder_wrench.png -> /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/robotide/widgets
+copying build/lib/robotide/widgets/font.py -> /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/robotide/widgets
+copying build/lib/robotide/widgets/switch.png -> /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/robotide/widgets
+copying build/lib/robotide/widgets/dialog.py -> /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/robotide/widgets
+copying build/lib/robotide/widgets/test_search.png -> /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/robotide/widgets
+copying build/lib/robotide/widgets/test_search_button.png -> /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/robotide/widgets
+copying build/lib/robotide/widgets/T32.png -> /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/robotide/widgets
+copying build/lib/robotide/widgets/kw_search_button.png -> /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/robotide/widgets
+copying build/lib/robotide/widgets/control_play.png -> /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/robotide/widgets
+copying build/lib/robotide/widgets/htmlwindow.py -> /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/robotide/widgets
+copying build/lib/robotide/widgets/list.py -> /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/robotide/widgets
+copying build/lib/robotide/widgets/page_white_gear.png -> /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/robotide/widgets
+copying build/lib/robotide/widgets/robot.png -> /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/robotide/widgets
+copying build/lib/robotide/widgets/button.py -> /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/robotide/widgets
+copying build/lib/robotide/widgets/label.py -> /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/robotide/widgets
+copying build/lib/robotide/widgets/robot.ico -> /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/robotide/widgets
+copying build/lib/robotide/widgets/report.png -> /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/robotide/widgets
+copying build/lib/robotide/widgets/robot_failed.png -> /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/robotide/widgets
+copying build/lib/robotide/widgets/down_arrow.png -> /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/robotide/widgets
+copying build/lib/robotide/widgets/control_pause.png -> /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/robotide/widgets
+copying build/lib/robotide/widgets/text.py -> /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/robotide/widgets
+copying build/lib/robotide/widgets/control_stop.png -> /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/robotide/widgets
+copying build/lib/robotide/widgets/__init__.py -> /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/robotide/widgets
+copying build/lib/robotide/widgets/popupmenu.py -> /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/robotide/widgets
+copying build/lib/robotide/widgets/folder.png -> /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/robotide/widgets
+copying build/lib/robotide/widgets/control_fastforward.png -> /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/robotide/widgets
+copying build/lib/robotide/widgets/robot_passed.png -> /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/robotide/widgets
+copying build/lib/robotide/widgets/page_white.png -> /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/robotide/widgets
+copying build/lib/robotide/widgets/database_refresh.png -> /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/robotide/widgets
+copying build/lib/robotide/widgets/dollar.png -> /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/robotide/widgets
+copying build/lib/robotide/widgets/images.py -> /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/robotide/widgets
+copying build/lib/robotide/widgets/kw_search.png -> /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/robotide/widgets
+copying build/lib/robotide/widgets/Kw32.png -> /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/robotide/widgets
+copying build/lib/robotide/widgets/cog.png -> /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/robotide/widgets
+copying build/lib/robotide/widgets/folder_excluded.png -> /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/robotide/widgets
+copying build/lib/robotide/widgets/sizers.py -> /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/robotide/widgets
+copying build/lib/robotide/widgets/robot_running.png -> /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/robotide/widgets
+copying build/lib/robotide/widgets/process.png -> /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/robotide/widgets
+copying build/lib/robotide/__init__.py -> /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/robotide
+creating /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/robotide/pluginapi
+copying build/lib/robotide/pluginapi/plugin.py -> /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/robotide/pluginapi
+copying build/lib/robotide/pluginapi/tree_aware_plugin_mixin.py -> /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/robotide/pluginapi
+copying build/lib/robotide/pluginapi/__init__.py -> /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/robotide/pluginapi
+creating /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/robotide/lib
+copying build/lib/robotide/lib/robot-commit -> /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/robotide/lib
+creating /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/robotide/lib/robot
+copying build/lib/robotide/lib/robot/rebot.py -> /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/robotide/lib/robot
+copying build/lib/robotide/lib/robot/testdoc.py -> /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/robotide/lib/robot
+creating /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/robotide/lib/robot/libraries
+copying build/lib/robotide/lib/robot/libraries/dialogs_ipy.py -> /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/robotide/lib/robot/libraries
+copying build/lib/robotide/lib/robot/libraries/DeprecatedBuiltIn.py -> /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/robotide/lib/robot/libraries
+copying build/lib/robotide/lib/robot/libraries/Reserved.py -> /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/robotide/lib/robot/libraries
+copying build/lib/robotide/lib/robot/libraries/XML.py -> /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/robotide/lib/robot/libraries
+copying build/lib/robotide/lib/robot/libraries/Telnet.py -> /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/robotide/lib/robot/libraries
+copying build/lib/robotide/lib/robot/libraries/DateTime.py -> /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/robotide/lib/robot/libraries
+copying build/lib/robotide/lib/robot/libraries/Remote.py -> /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/robotide/lib/robot/libraries
+copying build/lib/robotide/lib/robot/libraries/Easter.py -> /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/robotide/lib/robot/libraries
+copying build/lib/robotide/lib/robot/libraries/OperatingSystem.py -> /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/robotide/lib/robot/libraries
+copying build/lib/robotide/lib/robot/libraries/dialogs_py.py -> /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/robotide/lib/robot/libraries
+copying build/lib/robotide/lib/robot/libraries/Collections.py -> /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/robotide/lib/robot/libraries
+copying build/lib/robotide/lib/robot/libraries/Dialogs.py -> /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/robotide/lib/robot/libraries
+copying build/lib/robotide/lib/robot/libraries/Screenshot.py -> /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/robotide/lib/robot/libraries
+copying build/lib/robotide/lib/robot/libraries/dialogs_jy.py -> /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/robotide/lib/robot/libraries
+copying build/lib/robotide/lib/robot/libraries/__init__.py -> /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/robotide/lib/robot/libraries
+copying build/lib/robotide/lib/robot/libraries/Process.py -> /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/robotide/lib/robot/libraries
+copying build/lib/robotide/lib/robot/libraries/BuiltIn.py -> /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/robotide/lib/robot/libraries
+copying build/lib/robotide/lib/robot/libraries/DeprecatedOperatingSystem.py -> /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/robotide/lib/robot/libraries
+copying build/lib/robotide/lib/robot/libraries/String.py -> /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/robotide/lib/robot/libraries
+copying build/lib/robotide/lib/robot/errors.py -> /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/robotide/lib/robot
+copying build/lib/robotide/lib/robot/tidy.py -> /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/robotide/lib/robot
+creating /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/robotide/lib/robot/model
+copying build/lib/robotide/lib/robot/model/totalstatistics.py -> /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/robotide/lib/robot/model
+copying build/lib/robotide/lib/robot/model/visitor.py -> /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/robotide/lib/robot/model
+copying build/lib/robotide/lib/robot/model/statistics.py -> /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/robotide/lib/robot/model
+copying build/lib/robotide/lib/robot/model/tags.py -> /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/robotide/lib/robot/model
+copying build/lib/robotide/lib/robot/model/filter.py -> /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/robotide/lib/robot/model
+copying build/lib/robotide/lib/robot/model/tagsetter.py -> /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/robotide/lib/robot/model
+copying build/lib/robotide/lib/robot/model/tagstatistics.py -> /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/robotide/lib/robot/model
+copying build/lib/robotide/lib/robot/model/stats.py -> /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/robotide/lib/robot/model
+copying build/lib/robotide/lib/robot/model/itemlist.py -> /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/robotide/lib/robot/model
+copying build/lib/robotide/lib/robot/model/message.py -> /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/robotide/lib/robot/model
+copying build/lib/robotide/lib/robot/model/configurer.py -> /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/robotide/lib/robot/model
+copying build/lib/robotide/lib/robot/model/modelobject.py -> /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/robotide/lib/robot/model
+copying build/lib/robotide/lib/robot/model/criticality.py -> /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/robotide/lib/robot/model
+copying build/lib/robotide/lib/robot/model/imports.py -> /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/robotide/lib/robot/model
+copying build/lib/robotide/lib/robot/model/__init__.py -> /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/robotide/lib/robot/model
+copying build/lib/robotide/lib/robot/model/suitestatistics.py -> /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/robotide/lib/robot/model
+copying build/lib/robotide/lib/robot/model/testcase.py -> /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/robotide/lib/robot/model
+copying build/lib/robotide/lib/robot/model/namepatterns.py -> /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/robotide/lib/robot/model
+copying build/lib/robotide/lib/robot/model/keyword.py -> /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/robotide/lib/robot/model
+copying build/lib/robotide/lib/robot/model/metadata.py -> /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/robotide/lib/robot/model
+copying build/lib/robotide/lib/robot/model/testsuite.py -> /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/robotide/lib/robot/model
+creating /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/robotide/lib/robot/writer
+copying build/lib/robotide/lib/robot/writer/htmltemplate.py -> /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/robotide/lib/robot/writer
+copying build/lib/robotide/lib/robot/writer/rowsplitter.py -> /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/robotide/lib/robot/writer
+copying build/lib/robotide/lib/robot/writer/htmlformatter.py -> /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/robotide/lib/robot/writer
+copying build/lib/robotide/lib/robot/writer/filewriters.py -> /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/robotide/lib/robot/writer
+copying build/lib/robotide/lib/robot/writer/dataextractor.py -> /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/robotide/lib/robot/writer
+copying build/lib/robotide/lib/robot/writer/datafilewriter.py -> /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/robotide/lib/robot/writer
+copying build/lib/robotide/lib/robot/writer/__init__.py -> /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/robotide/lib/robot/writer
+copying build/lib/robotide/lib/robot/writer/formatters.py -> /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/robotide/lib/robot/writer
+copying build/lib/robotide/lib/robot/writer/aligners.py -> /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/robotide/lib/robot/writer
+copying build/lib/robotide/lib/robot/libdoc.py -> /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/robotide/lib/robot
+creating /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/robotide/lib/robot/libdocpkg
+copying build/lib/robotide/lib/robot/libdocpkg/htmlwriter.py -> /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/robotide/lib/robot/libdocpkg
+copying build/lib/robotide/lib/robot/libdocpkg/model.py -> /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/robotide/lib/robot/libdocpkg
+copying build/lib/robotide/lib/robot/libdocpkg/output.py -> /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/robotide/lib/robot/libdocpkg
+copying build/lib/robotide/lib/robot/libdocpkg/consoleviewer.py -> /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/robotide/lib/robot/libdocpkg
+copying build/lib/robotide/lib/robot/libdocpkg/specbuilder.py -> /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/robotide/lib/robot/libdocpkg
+copying build/lib/robotide/lib/robot/libdocpkg/builder.py -> /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/robotide/lib/robot/libdocpkg
+copying build/lib/robotide/lib/robot/libdocpkg/__init__.py -> /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/robotide/lib/robot/libdocpkg
+copying build/lib/robotide/lib/robot/libdocpkg/javabuilder.py -> /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/robotide/lib/robot/libdocpkg
+copying build/lib/robotide/lib/robot/libdocpkg/robotbuilder.py -> /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/robotide/lib/robot/libdocpkg
+copying build/lib/robotide/lib/robot/libdocpkg/xmlwriter.py -> /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/robotide/lib/robot/libdocpkg
+copying build/lib/robotide/lib/robot/libdocpkg/writer.py -> /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/robotide/lib/robot/libdocpkg
+copying build/lib/robotide/lib/robot/pythonpathsetter.py -> /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/robotide/lib/robot
+creating /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/robotide/lib/robot/utils
+copying build/lib/robotide/lib/robot/utils/asserts.py -> /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/robotide/lib/robot/utils
+copying build/lib/robotide/lib/robot/utils/robottime.py -> /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/robotide/lib/robot/utils
+copying build/lib/robotide/lib/robot/utils/escaping.py -> /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/robotide/lib/robot/utils
+copying build/lib/robotide/lib/robot/utils/charwidth.py -> /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/robotide/lib/robot/utils
+copying build/lib/robotide/lib/robot/utils/encoding.py -> /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/robotide/lib/robot/utils
+copying build/lib/robotide/lib/robot/utils/robotinspect.py -> /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/robotide/lib/robot/utils
+copying build/lib/robotide/lib/robot/utils/connectioncache.py -> /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/robotide/lib/robot/utils
+copying build/lib/robotide/lib/robot/utils/unic.py -> /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/robotide/lib/robot/utils
+copying build/lib/robotide/lib/robot/utils/application.py -> /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/robotide/lib/robot/utils
+copying build/lib/robotide/lib/robot/utils/recommendations.py -> /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/robotide/lib/robot/utils
+copying build/lib/robotide/lib/robot/utils/match.py -> /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/robotide/lib/robot/utils
+copying build/lib/robotide/lib/robot/utils/markupwriters.py -> /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/robotide/lib/robot/utils
+copying build/lib/robotide/lib/robot/utils/frange.py -> /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/robotide/lib/robot/utils
+copying build/lib/robotide/lib/robot/utils/normalizing.py -> /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/robotide/lib/robot/utils
+copying build/lib/robotide/lib/robot/utils/htmlformatters.py -> /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/robotide/lib/robot/utils
+copying build/lib/robotide/lib/robot/utils/robotpath.py -> /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/robotide/lib/robot/utils
+copying build/lib/robotide/lib/robot/utils/markuputils.py -> /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/robotide/lib/robot/utils
+copying build/lib/robotide/lib/robot/utils/text.py -> /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/robotide/lib/robot/utils
+copying build/lib/robotide/lib/robot/utils/argumentparser.py -> /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/robotide/lib/robot/utils
+copying build/lib/robotide/lib/robot/utils/robotenv.py -> /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/robotide/lib/robot/utils
+copying build/lib/robotide/lib/robot/utils/importer.py -> /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/robotide/lib/robot/utils
+copying build/lib/robotide/lib/robot/utils/misc.py -> /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/robotide/lib/robot/utils
+copying build/lib/robotide/lib/robot/utils/encodingsniffer.py -> /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/robotide/lib/robot/utils
+copying build/lib/robotide/lib/robot/utils/__init__.py -> /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/robotide/lib/robot/utils
+copying build/lib/robotide/lib/robot/utils/error.py -> /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/robotide/lib/robot/utils
+copying build/lib/robotide/lib/robot/utils/compress.py -> /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/robotide/lib/robot/utils
+copying build/lib/robotide/lib/robot/utils/utf8reader.py -> /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/robotide/lib/robot/utils
+copying build/lib/robotide/lib/robot/utils/islike.py -> /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/robotide/lib/robot/utils
+copying build/lib/robotide/lib/robot/utils/etreewrapper.py -> /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/robotide/lib/robot/utils
+copying build/lib/robotide/lib/robot/utils/setter.py -> /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/robotide/lib/robot/utils
+creating /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/robotide/lib/robot/running
+creating /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/robotide/lib/robot/running/arguments
+copying build/lib/robotide/lib/robot/running/arguments/argumentresolver.py -> /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/robotide/lib/robot/running/arguments
+copying build/lib/robotide/lib/robot/running/arguments/javaargumentcoercer.py -> /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/robotide/lib/robot/running/arguments
+copying build/lib/robotide/lib/robot/running/arguments/argumentspec.py -> /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/robotide/lib/robot/running/arguments
+copying build/lib/robotide/lib/robot/running/arguments/argumentvalidator.py -> /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/robotide/lib/robot/running/arguments
+copying build/lib/robotide/lib/robot/running/arguments/argumentparser.py -> /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/robotide/lib/robot/running/arguments
+copying build/lib/robotide/lib/robot/running/arguments/__init__.py -> /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/robotide/lib/robot/running/arguments
+copying build/lib/robotide/lib/robot/running/arguments/argumentmapper.py -> /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/robotide/lib/robot/running/arguments
+copying build/lib/robotide/lib/robot/running/testlibraries.py -> /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/robotide/lib/robot/running
+creating /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/robotide/lib/robot/running/timeouts
+copying build/lib/robotide/lib/robot/running/timeouts/timeoutwin.py -> /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/robotide/lib/robot/running/timeouts
+copying build/lib/robotide/lib/robot/running/timeouts/timeoutthread.py -> /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/robotide/lib/robot/running/timeouts
+copying build/lib/robotide/lib/robot/running/timeouts/timeoutsignaling.py -> /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/robotide/lib/robot/running/timeouts
+copying build/lib/robotide/lib/robot/running/timeouts/__init__.py -> /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/robotide/lib/robot/running/timeouts
+copying build/lib/robotide/lib/robot/running/timeouts/stoppablethread.py -> /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/robotide/lib/robot/running/timeouts
+copying build/lib/robotide/lib/robot/running/keywords.py -> /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/robotide/lib/robot/running
+copying build/lib/robotide/lib/robot/running/model.py -> /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/robotide/lib/robot/running
+copying build/lib/robotide/lib/robot/running/status.py -> /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/robotide/lib/robot/running
+copying build/lib/robotide/lib/robot/running/dynamicmethods.py -> /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/robotide/lib/robot/running
+copying build/lib/robotide/lib/robot/running/signalhandler.py -> /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/robotide/lib/robot/running
+copying build/lib/robotide/lib/robot/running/defaults.py -> /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/robotide/lib/robot/running
+copying build/lib/robotide/lib/robot/running/runkwregister.py -> /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/robotide/lib/robot/running
+copying build/lib/robotide/lib/robot/running/baselibrary.py -> /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/robotide/lib/robot/running
+copying build/lib/robotide/lib/robot/running/builder.py -> /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/robotide/lib/robot/running
+copying build/lib/robotide/lib/robot/running/outputcapture.py -> /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/robotide/lib/robot/running
+copying build/lib/robotide/lib/robot/running/userkeyword.py -> /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/robotide/lib/robot/running
+copying build/lib/robotide/lib/robot/running/namespace.py -> /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/robotide/lib/robot/running
+copying build/lib/robotide/lib/robot/running/importer.py -> /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/robotide/lib/robot/running
+copying build/lib/robotide/lib/robot/running/context.py -> /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/robotide/lib/robot/running
+copying build/lib/robotide/lib/robot/running/__init__.py -> /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/robotide/lib/robot/running
+copying build/lib/robotide/lib/robot/running/runner.py -> /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/robotide/lib/robot/running
+copying build/lib/robotide/lib/robot/running/usererrorhandler.py -> /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/robotide/lib/robot/running
+copying build/lib/robotide/lib/robot/running/randomizer.py -> /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/robotide/lib/robot/running
+copying build/lib/robotide/lib/robot/running/handlers.py -> /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/robotide/lib/robot/running
+creating /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/robotide/lib/robot/variables
+copying build/lib/robotide/lib/robot/variables/variableassigner.py -> /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/robotide/lib/robot/variables
+copying build/lib/robotide/lib/robot/variables/variablesplitter.py -> /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/robotide/lib/robot/variables
+copying build/lib/robotide/lib/robot/variables/variables.py -> /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/robotide/lib/robot/variables
+copying build/lib/robotide/lib/robot/variables/__init__.py -> /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/robotide/lib/robot/variables
+copying build/lib/robotide/lib/robot/variables/isvar.py -> /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/robotide/lib/robot/variables
+creating /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/robotide/lib/robot/reporting
+copying build/lib/robotide/lib/robot/reporting/jswriter.py -> /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/robotide/lib/robot/reporting
+copying build/lib/robotide/lib/robot/reporting/logreportwriters.py -> /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/robotide/lib/robot/reporting
+copying build/lib/robotide/lib/robot/reporting/jsmodelbuilders.py -> /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/robotide/lib/robot/reporting
+copying build/lib/robotide/lib/robot/reporting/jsbuildingcontext.py -> /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/robotide/lib/robot/reporting
+copying build/lib/robotide/lib/robot/reporting/jsexecutionresult.py -> /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/robotide/lib/robot/reporting
+copying build/lib/robotide/lib/robot/reporting/stringcache.py -> /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/robotide/lib/robot/reporting
+copying build/lib/robotide/lib/robot/reporting/resultwriter.py -> /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/robotide/lib/robot/reporting
+copying build/lib/robotide/lib/robot/reporting/xunitwriter.py -> /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/robotide/lib/robot/reporting
+copying build/lib/robotide/lib/robot/reporting/__init__.py -> /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/robotide/lib/robot/reporting
+copying build/lib/robotide/lib/robot/reporting/outputwriter.py -> /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/robotide/lib/robot/reporting
+creating /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/robotide/lib/robot/api
+copying build/lib/robotide/lib/robot/api/__init__.py -> /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/robotide/lib/robot/api
+copying build/lib/robotide/lib/robot/api/logger.py -> /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/robotide/lib/robot/api
+creating /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/robotide/lib/robot/conf
+copying build/lib/robotide/lib/robot/conf/gatherfailed.py -> /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/robotide/lib/robot/conf
+copying build/lib/robotide/lib/robot/conf/__init__.py -> /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/robotide/lib/robot/conf
+copying build/lib/robotide/lib/robot/conf/settings.py -> /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/robotide/lib/robot/conf
+creating /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/robotide/lib/robot/htmldata
+copying build/lib/robotide/lib/robot/htmldata/jsonwriter.py -> /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/robotide/lib/robot/htmldata
+copying build/lib/robotide/lib/robot/htmldata/jartemplate.py -> /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/robotide/lib/robot/htmldata
+copying build/lib/robotide/lib/robot/htmldata/htmlfilewriter.py -> /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/robotide/lib/robot/htmldata
+copying build/lib/robotide/lib/robot/htmldata/__init__.py -> /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/robotide/lib/robot/htmldata
+copying build/lib/robotide/lib/robot/htmldata/template.py -> /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/robotide/lib/robot/htmldata
+copying build/lib/robotide/lib/robot/htmldata/normaltemplate.py -> /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/robotide/lib/robot/htmldata
+copying build/lib/robotide/lib/robot/version.py -> /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/robotide/lib/robot
+creating /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/robotide/lib/robot/result
+copying build/lib/robotide/lib/robot/result/xmlelementhandlers.py -> /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/robotide/lib/robot/result
+copying build/lib/robotide/lib/robot/result/merger.py -> /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/robotide/lib/robot/result
+copying build/lib/robotide/lib/robot/result/flattenkeywordmatcher.py -> /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/robotide/lib/robot/result
+copying build/lib/robotide/lib/robot/result/executionresult.py -> /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/robotide/lib/robot/result
+copying build/lib/robotide/lib/robot/result/suiteteardownfailed.py -> /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/robotide/lib/robot/result
+copying build/lib/robotide/lib/robot/result/resultbuilder.py -> /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/robotide/lib/robot/result
+copying build/lib/robotide/lib/robot/result/visitor.py -> /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/robotide/lib/robot/result
+copying build/lib/robotide/lib/robot/result/message.py -> /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/robotide/lib/robot/result
+copying build/lib/robotide/lib/robot/result/configurer.py -> /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/robotide/lib/robot/result
+copying build/lib/robotide/lib/robot/result/messagefilter.py -> /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/robotide/lib/robot/result
+copying build/lib/robotide/lib/robot/result/keywordremover.py -> /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/robotide/lib/robot/result
+copying build/lib/robotide/lib/robot/result/executionerrors.py -> /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/robotide/lib/robot/result
+copying build/lib/robotide/lib/robot/result/__init__.py -> /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/robotide/lib/robot/result
+copying build/lib/robotide/lib/robot/result/testcase.py -> /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/robotide/lib/robot/result
+copying build/lib/robotide/lib/robot/result/keyword.py -> /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/robotide/lib/robot/result
+copying build/lib/robotide/lib/robot/result/testsuite.py -> /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/robotide/lib/robot/result
+creating /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/robotide/lib/robot/parsing
+copying build/lib/robotide/lib/robot/parsing/tablepopulators.py -> /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/robotide/lib/robot/parsing
+copying build/lib/robotide/lib/robot/parsing/txtreader.py -> /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/robotide/lib/robot/parsing
+copying build/lib/robotide/lib/robot/parsing/model.py -> /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/robotide/lib/robot/parsing
+copying build/lib/robotide/lib/robot/parsing/datarow.py -> /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/robotide/lib/robot/parsing
+copying build/lib/robotide/lib/robot/parsing/tsvreader.py -> /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/robotide/lib/robot/parsing
+copying build/lib/robotide/lib/robot/parsing/restreader.py -> /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/robotide/lib/robot/parsing
+copying build/lib/robotide/lib/robot/parsing/restsupport.py -> /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/robotide/lib/robot/parsing
+copying build/lib/robotide/lib/robot/parsing/htmlreader.py -> /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/robotide/lib/robot/parsing
+copying build/lib/robotide/lib/robot/parsing/__init__.py -> /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/robotide/lib/robot/parsing
+copying build/lib/robotide/lib/robot/parsing/comments.py -> /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/robotide/lib/robot/parsing
+copying build/lib/robotide/lib/robot/parsing/settings.py -> /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/robotide/lib/robot/parsing
+copying build/lib/robotide/lib/robot/parsing/populators.py -> /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/robotide/lib/robot/parsing
+creating /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/robotide/lib/robot/output
+copying build/lib/robotide/lib/robot/output/loggerhelper.py -> /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/robotide/lib/robot/output
+copying build/lib/robotide/lib/robot/output/filelogger.py -> /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/robotide/lib/robot/output
+copying build/lib/robotide/lib/robot/output/xmllogger.py -> /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/robotide/lib/robot/output
+copying build/lib/robotide/lib/robot/output/librarylisteners.py -> /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/robotide/lib/robot/output
+copying build/lib/robotide/lib/robot/output/highlighting.py -> /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/robotide/lib/robot/output
+copying build/lib/robotide/lib/robot/output/output.py -> /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/robotide/lib/robot/output
+copying build/lib/robotide/lib/robot/output/monitor.py -> /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/robotide/lib/robot/output
+copying build/lib/robotide/lib/robot/output/stdoutlogsplitter.py -> /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/robotide/lib/robot/output
+copying build/lib/robotide/lib/robot/output/librarylogger.py -> /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/robotide/lib/robot/output
+copying build/lib/robotide/lib/robot/output/pyloggingconf.py -> /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/robotide/lib/robot/output
+copying build/lib/robotide/lib/robot/output/debugfile.py -> /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/robotide/lib/robot/output
+copying build/lib/robotide/lib/robot/output/__init__.py -> /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/robotide/lib/robot/output
+copying build/lib/robotide/lib/robot/output/logger.py -> /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/robotide/lib/robot/output
+copying build/lib/robotide/lib/robot/output/listeners.py -> /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/robotide/lib/robot/output
+copying build/lib/robotide/lib/robot/jarrunner.py -> /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/robotide/lib/robot
+copying build/lib/robotide/lib/robot/run.py -> /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/robotide/lib/robot
+copying build/lib/robotide/lib/robot/__init__.py -> /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/robotide/lib/robot
+copying build/lib/robotide/lib/robot/jythonworkarounds.py -> /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/robotide/lib/robot
+creating /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/robotide/spec
+copying build/lib/robotide/spec/specimporter.py -> /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/robotide/spec
+copying build/lib/robotide/spec/xmlreaders.py -> /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/robotide/spec
+copying build/lib/robotide/spec/librarydatabase.py -> /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/robotide/spec
+copying build/lib/robotide/spec/iteminfo.py -> /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/robotide/spec
+copying build/lib/robotide/spec/__init__.py -> /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/robotide/spec
+copying build/lib/robotide/spec/librarymanager.py -> /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/robotide/spec
+copying build/lib/robotide/spec/libraryfetcher.py -> /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/robotide/spec
+byte-compiling /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/robotide/controller/ui/treecontroller.py to treecontroller.pyc
+byte-compiling /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/robotide/controller/ui/__init__.py to __init__.pyc
+byte-compiling /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/robotide/controller/macrocontrollers.py to macrocontrollers.pyc
+byte-compiling /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/robotide/controller/testexecutionresults.py to testexecutionresults.pyc
+byte-compiling /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/robotide/controller/robotdata.py to robotdata.pyc
+byte-compiling /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/robotide/controller/basecontroller.py to basecontroller.pyc
+byte-compiling /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/robotide/controller/validators.py to validators.pyc
+byte-compiling /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/robotide/controller/commands.py to commands.pyc
+byte-compiling /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/robotide/controller/tags.py to tags.pyc
+byte-compiling /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/robotide/controller/dataloader.py to dataloader.pyc
+byte-compiling /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/robotide/controller/cellinfo.py to cellinfo.pyc
+byte-compiling /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/robotide/controller/filecontrollers.py to filecontrollers.pyc
+byte-compiling /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/robotide/controller/arguments.py to arguments.pyc
+byte-compiling /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/robotide/controller/tablecontrollers.py to tablecontrollers.pyc
+byte-compiling /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/robotide/controller/__init__.py to __init__.pyc
+byte-compiling /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/robotide/controller/project.py to project.pyc
+byte-compiling /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/robotide/controller/stepcontrollers.py to stepcontrollers.pyc
+byte-compiling /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/robotide/controller/settingcontrollers.py to settingcontrollers.pyc
+byte-compiling /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/robotide/recentfiles/recentfiles.py to recentfiles.pyc
+byte-compiling /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/robotide/recentfiles/__init__.py to __init__.pyc
+byte-compiling /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/robotide/preferences/editors.py to editors.pyc
+byte-compiling /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/robotide/preferences/configobj.py to configobj.pyc
+byte-compiling /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/robotide/preferences/widgets.py to widgets.pyc
+byte-compiling /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/robotide/preferences/editor.py to editor.pyc
+byte-compiling /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/robotide/preferences/saving.py to saving.pyc
+byte-compiling /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/robotide/preferences/imports.py to imports.pyc
+byte-compiling /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/robotide/preferences/__init__.py to __init__.pyc
+byte-compiling /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/robotide/preferences/settings.py to settings.pyc
+byte-compiling /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/robotide/preferences/excludes.py to excludes.pyc
+byte-compiling /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/robotide/robotapi.py to robotapi.pyc
+byte-compiling /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/robotide/ui/tree.py to tree.pyc
+byte-compiling /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/robotide/ui/tagdialogs.py to tagdialogs.pyc
+byte-compiling /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/robotide/ui/resourcedialogs.py to resourcedialogs.pyc
+byte-compiling /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/robotide/ui/pluginmanager.py to pluginmanager.pyc
+byte-compiling /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/robotide/ui/mainframe.py to mainframe.pyc
+byte-compiling /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/robotide/ui/notebook.py to notebook.pyc
+byte-compiling /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/robotide/ui/preview.py to preview.pyc
+byte-compiling /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/robotide/ui/filedialogs.py to filedialogs.pyc
+byte-compiling /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/robotide/ui/actiontriggers.py to actiontriggers.pyc
+byte-compiling /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/robotide/ui/__init__.py to __init__.pyc
+byte-compiling /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/robotide/ui/searchdots.py to searchdots.pyc
+byte-compiling /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/robotide/ui/images.py to images.pyc
+byte-compiling /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/robotide/ui/treenodehandlers.py to treenodehandlers.pyc
+byte-compiling /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/robotide/ui/keywordsearch.py to keywordsearch.pyc
+byte-compiling /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/robotide/ui/review.py to review.pyc
+byte-compiling /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/robotide/ui/progress.py to progress.pyc
+byte-compiling /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/robotide/publish/publisher.py to publisher.pyc
+byte-compiling /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/robotide/publish/messages.py to messages.pyc
+byte-compiling /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/robotide/publish/__init__.py to __init__.pyc
+byte-compiling /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/robotide/publish/messagetype.py to messagetype.pyc
+byte-compiling /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/robotide/validators/__init__.py to __init__.pyc
+byte-compiling /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/robotide/usages/commands.py to commands.pyc
+byte-compiling /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/robotide/usages/usagesdialog.py to usagesdialog.pyc
+byte-compiling /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/robotide/usages/__init__.py to __init__.pyc
+byte-compiling /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/robotide/usages/UsageRunner.py to UsageRunner.pyc
+byte-compiling /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/robotide/searchtests/dialogsearchtests.py to dialogsearchtests.pyc
+byte-compiling /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/robotide/searchtests/searchtests.py to searchtests.pyc
+byte-compiling /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/robotide/searchtests/__init__.py to __init__.pyc
+byte-compiling /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/robotide/utils/variablematcher.py to variablematcher.pyc
+byte-compiling /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/robotide/utils/__init__.py to __init__.pyc
+byte-compiling /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/robotide/utils/eventhandler.py to eventhandler.pyc
+byte-compiling /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/robotide/utils/printing.py to printing.pyc
+byte-compiling /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/robotide/utils/versioncomparator.py to versioncomparator.pyc
+byte-compiling /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/robotide/utils/highlightmatcher.py to highlightmatcher.pyc
+byte-compiling /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/robotide/run/process.py to process.pyc
+byte-compiling /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/robotide/run/ui.py to ui.pyc
+byte-compiling /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/robotide/run/configmanagerui.py to configmanagerui.pyc
+byte-compiling /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/robotide/run/runanything.py to runanything.pyc
+byte-compiling /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/robotide/run/__init__.py to __init__.pyc
+byte-compiling /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/robotide/version.py to version.pyc
+byte-compiling /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/robotide/log/log.py to log.pyc
+byte-compiling /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/robotide/log/__init__.py to __init__.pyc
+byte-compiling /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/robotide/contrib/testrunner/testrunnerplugin.py to testrunnerplugin.pyc
+byte-compiling /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/robotide/contrib/testrunner/usages.py to usages.pyc
+byte-compiling /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/robotide/contrib/testrunner/testrunner.py to testrunner.pyc
+byte-compiling /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/robotide/contrib/testrunner/__init__.py to __init__.pyc
+byte-compiling /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/robotide/contrib/testrunner/TestRunnerAgent.py to TestRunnerAgent.pyc
+byte-compiling /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/robotide/contrib/testrunner/runprofiles.py to runprofiles.pyc
+byte-compiling /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/robotide/contrib/__init__.py to __init__.pyc
+byte-compiling /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/robotide/context/platform.py to platform.pyc
+byte-compiling /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/robotide/context/__init__.py to __init__.pyc
+byte-compiling /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/robotide/context/logger.py to logger.pyc
+byte-compiling /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/robotide/context/coreplugins.py to coreplugins.pyc
+byte-compiling /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/robotide/application/application.py to application.pyc
+byte-compiling /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/robotide/application/debugconsole.py to debugconsole.pyc
+byte-compiling /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/robotide/application/updatenotifier.py to updatenotifier.pyc
+byte-compiling /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/robotide/application/__init__.py to __init__.pyc
+byte-compiling /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/robotide/application/pluginloader.py to pluginloader.pyc
+byte-compiling /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/robotide/application/releasenotes.py to releasenotes.pyc
+byte-compiling /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/robotide/application/pluginconnector.py to pluginconnector.pyc
+byte-compiling /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/robotide/application/editorprovider.py to editorprovider.pyc
+byte-compiling /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/robotide/action/shortcut.py to shortcut.pyc
+byte-compiling /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/robotide/action/action.py to action.pyc
+byte-compiling /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/robotide/action/__init__.py to __init__.pyc
+byte-compiling /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/robotide/action/actioninfo.py to actioninfo.pyc
+byte-compiling /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/robotide/editor/editors.py to editors.pyc
+byte-compiling /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/robotide/editor/listeditor.py to listeditor.pyc
+byte-compiling /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/robotide/editor/clipboard.py to clipboard.pyc
+byte-compiling /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/robotide/editor/settingeditors.py to settingeditors.pyc
+byte-compiling /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/robotide/editor/robotframeworklexer.py to robotframeworklexer.pyc
+byte-compiling /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/robotide/editor/kweditor.py to kweditor.pyc
+byte-compiling /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/robotide/editor/tooltips.py to tooltips.pyc
+byte-compiling /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/robotide/editor/macroeditors.py to macroeditors.pyc
+byte-compiling /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/robotide/editor/gridcolorizer.py to gridcolorizer.pyc
+byte-compiling /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/robotide/editor/popupwindow.py to popupwindow.pyc
+byte-compiling /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/robotide/editor/tags.py to tags.pyc
+byte-compiling /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/robotide/editor/grid.py to grid.pyc
+byte-compiling /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/robotide/editor/__init__.py to __init__.pyc
+byte-compiling /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/robotide/editor/contentassist.py to contentassist.pyc
+byte-compiling /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/robotide/editor/texteditor.py to texteditor.pyc
+byte-compiling /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/robotide/editor/editorcreator.py to editorcreator.pyc
+byte-compiling /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/robotide/editor/formatters.py to formatters.pyc
+byte-compiling /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/robotide/editor/dialoghelps.py to dialoghelps.pyc
+byte-compiling /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/robotide/editor/editordialogs.py to editordialogs.pyc
+byte-compiling /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/robotide/editor/fieldeditors.py to fieldeditors.pyc
+byte-compiling /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/robotide/editor/flowsizer.py to flowsizer.pyc
+byte-compiling /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/robotide/namespace/embeddedargs.py to embeddedargs.pyc
+byte-compiling /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/robotide/namespace/suggesters.py to suggesters.pyc
+byte-compiling /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/robotide/namespace/resourcefactory.py to resourcefactory.pyc
+byte-compiling /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/robotide/namespace/namespace.py to namespace.pyc
+byte-compiling /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/robotide/namespace/cache.py to cache.pyc
+byte-compiling /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/robotide/namespace/variablefetcher.py to variablefetcher.pyc
+byte-compiling /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/robotide/namespace/__init__.py to __init__.pyc
+byte-compiling /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/robotide/namespace/local_namespace.py to local_namespace.pyc
+byte-compiling /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/robotide/widgets/font.py to font.pyc
+byte-compiling /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/robotide/widgets/dialog.py to dialog.pyc
+byte-compiling /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/robotide/widgets/htmlwindow.py to htmlwindow.pyc
+byte-compiling /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/robotide/widgets/list.py to list.pyc
+byte-compiling /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/robotide/widgets/button.py to button.pyc
+byte-compiling /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/robotide/widgets/label.py to label.pyc
+byte-compiling /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/robotide/widgets/text.py to text.pyc
+byte-compiling /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/robotide/widgets/__init__.py to __init__.pyc
+byte-compiling /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/robotide/widgets/popupmenu.py to popupmenu.pyc
+byte-compiling /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/robotide/widgets/images.py to images.pyc
+byte-compiling /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/robotide/widgets/sizers.py to sizers.pyc
+byte-compiling /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/robotide/__init__.py to __init__.pyc
+byte-compiling /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/robotide/pluginapi/plugin.py to plugin.pyc
+byte-compiling /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/robotide/pluginapi/tree_aware_plugin_mixin.py to tree_aware_plugin_mixin.pyc
+byte-compiling /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/robotide/pluginapi/__init__.py to __init__.pyc
+byte-compiling /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/robotide/lib/robot/rebot.py to rebot.pyc
+byte-compiling /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/robotide/lib/robot/testdoc.py to testdoc.pyc
+byte-compiling /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/robotide/lib/robot/libraries/dialogs_ipy.py to dialogs_ipy.pyc
+byte-compiling /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/robotide/lib/robot/libraries/DeprecatedBuiltIn.py to DeprecatedBuiltIn.pyc
+byte-compiling /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/robotide/lib/robot/libraries/Reserved.py to Reserved.pyc
+byte-compiling /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/robotide/lib/robot/libraries/XML.py to XML.pyc
+byte-compiling /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/robotide/lib/robot/libraries/Telnet.py to Telnet.pyc
+byte-compiling /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/robotide/lib/robot/libraries/DateTime.py to DateTime.pyc
+byte-compiling /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/robotide/lib/robot/libraries/Remote.py to Remote.pyc
+byte-compiling /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/robotide/lib/robot/libraries/Easter.py to Easter.pyc
+byte-compiling /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/robotide/lib/robot/libraries/OperatingSystem.py to OperatingSystem.pyc
+byte-compiling /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/robotide/lib/robot/libraries/dialogs_py.py to dialogs_py.pyc
+byte-compiling /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/robotide/lib/robot/libraries/Collections.py to Collections.pyc
+byte-compiling /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/robotide/lib/robot/libraries/Dialogs.py to Dialogs.pyc
+byte-compiling /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/robotide/lib/robot/libraries/Screenshot.py to Screenshot.pyc
+byte-compiling /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/robotide/lib/robot/libraries/dialogs_jy.py to dialogs_jy.pyc
+byte-compiling /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/robotide/lib/robot/libraries/__init__.py to __init__.pyc
+byte-compiling /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/robotide/lib/robot/libraries/Process.py to Process.pyc
+byte-compiling /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/robotide/lib/robot/libraries/BuiltIn.py to BuiltIn.pyc
+byte-compiling /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/robotide/lib/robot/libraries/DeprecatedOperatingSystem.py to DeprecatedOperatingSystem.pyc
+byte-compiling /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/robotide/lib/robot/libraries/String.py to String.pyc
+byte-compiling /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/robotide/lib/robot/errors.py to errors.pyc
+byte-compiling /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/robotide/lib/robot/tidy.py to tidy.pyc
+byte-compiling /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/robotide/lib/robot/model/totalstatistics.py to totalstatistics.pyc
+byte-compiling /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/robotide/lib/robot/model/visitor.py to visitor.pyc
+byte-compiling /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/robotide/lib/robot/model/statistics.py to statistics.pyc
+byte-compiling /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/robotide/lib/robot/model/tags.py to tags.pyc
+byte-compiling /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/robotide/lib/robot/model/filter.py to filter.pyc
+byte-compiling /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/robotide/lib/robot/model/tagsetter.py to tagsetter.pyc
+byte-compiling /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/robotide/lib/robot/model/tagstatistics.py to tagstatistics.pyc
+byte-compiling /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/robotide/lib/robot/model/stats.py to stats.pyc
+byte-compiling /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/robotide/lib/robot/model/itemlist.py to itemlist.pyc
+byte-compiling /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/robotide/lib/robot/model/message.py to message.pyc
+byte-compiling /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/robotide/lib/robot/model/configurer.py to configurer.pyc
+byte-compiling /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/robotide/lib/robot/model/modelobject.py to modelobject.pyc
+byte-compiling /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/robotide/lib/robot/model/criticality.py to criticality.pyc
+byte-compiling /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/robotide/lib/robot/model/imports.py to imports.pyc
+byte-compiling /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/robotide/lib/robot/model/__init__.py to __init__.pyc
+byte-compiling /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/robotide/lib/robot/model/suitestatistics.py to suitestatistics.pyc
+byte-compiling /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/robotide/lib/robot/model/testcase.py to testcase.pyc
+byte-compiling /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/robotide/lib/robot/model/namepatterns.py to namepatterns.pyc
+byte-compiling /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/robotide/lib/robot/model/keyword.py to keyword.pyc
+byte-compiling /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/robotide/lib/robot/model/metadata.py to metadata.pyc
+byte-compiling /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/robotide/lib/robot/model/testsuite.py to testsuite.pyc
+byte-compiling /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/robotide/lib/robot/writer/htmltemplate.py to htmltemplate.pyc
+byte-compiling /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/robotide/lib/robot/writer/rowsplitter.py to rowsplitter.pyc
+byte-compiling /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/robotide/lib/robot/writer/htmlformatter.py to htmlformatter.pyc
+byte-compiling /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/robotide/lib/robot/writer/filewriters.py to filewriters.pyc
+byte-compiling /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/robotide/lib/robot/writer/dataextractor.py to dataextractor.pyc
+byte-compiling /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/robotide/lib/robot/writer/datafilewriter.py to datafilewriter.pyc
+byte-compiling /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/robotide/lib/robot/writer/__init__.py to __init__.pyc
+byte-compiling /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/robotide/lib/robot/writer/formatters.py to formatters.pyc
+byte-compiling /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/robotide/lib/robot/writer/aligners.py to aligners.pyc
+byte-compiling /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/robotide/lib/robot/libdoc.py to libdoc.pyc
+byte-compiling /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/robotide/lib/robot/libdocpkg/htmlwriter.py to htmlwriter.pyc
+byte-compiling /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/robotide/lib/robot/libdocpkg/model.py to model.pyc
+byte-compiling /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/robotide/lib/robot/libdocpkg/output.py to output.pyc
+byte-compiling /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/robotide/lib/robot/libdocpkg/consoleviewer.py to consoleviewer.pyc
+byte-compiling /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/robotide/lib/robot/libdocpkg/specbuilder.py to specbuilder.pyc
+byte-compiling /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/robotide/lib/robot/libdocpkg/builder.py to builder.pyc
+byte-compiling /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/robotide/lib/robot/libdocpkg/__init__.py to __init__.pyc
+byte-compiling /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/robotide/lib/robot/libdocpkg/javabuilder.py to javabuilder.pyc
+byte-compiling /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/robotide/lib/robot/libdocpkg/robotbuilder.py to robotbuilder.pyc
+byte-compiling /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/robotide/lib/robot/libdocpkg/xmlwriter.py to xmlwriter.pyc
+byte-compiling /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/robotide/lib/robot/libdocpkg/writer.py to writer.pyc
+byte-compiling /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/robotide/lib/robot/pythonpathsetter.py to pythonpathsetter.pyc
+byte-compiling /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/robotide/lib/robot/utils/asserts.py to asserts.pyc
+byte-compiling /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/robotide/lib/robot/utils/robottime.py to robottime.pyc
+byte-compiling /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/robotide/lib/robot/utils/escaping.py to escaping.pyc
+byte-compiling /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/robotide/lib/robot/utils/charwidth.py to charwidth.pyc
+byte-compiling /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/robotide/lib/robot/utils/encoding.py to encoding.pyc
+byte-compiling /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/robotide/lib/robot/utils/robotinspect.py to robotinspect.pyc
+byte-compiling /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/robotide/lib/robot/utils/connectioncache.py to connectioncache.pyc
+byte-compiling /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/robotide/lib/robot/utils/unic.py to unic.pyc
+byte-compiling /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/robotide/lib/robot/utils/application.py to application.pyc
+byte-compiling /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/robotide/lib/robot/utils/recommendations.py to recommendations.pyc
+byte-compiling /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/robotide/lib/robot/utils/match.py to match.pyc
+byte-compiling /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/robotide/lib/robot/utils/markupwriters.py to markupwriters.pyc
+byte-compiling /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/robotide/lib/robot/utils/frange.py to frange.pyc
+byte-compiling /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/robotide/lib/robot/utils/normalizing.py to normalizing.pyc
+byte-compiling /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/robotide/lib/robot/utils/htmlformatters.py to htmlformatters.pyc
+byte-compiling /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/robotide/lib/robot/utils/robotpath.py to robotpath.pyc
+byte-compiling /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/robotide/lib/robot/utils/markuputils.py to markuputils.pyc
+byte-compiling /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/robotide/lib/robot/utils/text.py to text.pyc
+byte-compiling /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/robotide/lib/robot/utils/argumentparser.py to argumentparser.pyc
+byte-compiling /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/robotide/lib/robot/utils/robotenv.py to robotenv.pyc
+byte-compiling /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/robotide/lib/robot/utils/importer.py to importer.pyc
+byte-compiling /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/robotide/lib/robot/utils/misc.py to misc.pyc
+byte-compiling /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/robotide/lib/robot/utils/encodingsniffer.py to encodingsniffer.pyc
+byte-compiling /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/robotide/lib/robot/utils/__init__.py to __init__.pyc
+byte-compiling /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/robotide/lib/robot/utils/error.py to error.pyc
+byte-compiling /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/robotide/lib/robot/utils/compress.py to compress.pyc
+byte-compiling /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/robotide/lib/robot/utils/utf8reader.py to utf8reader.pyc
+byte-compiling /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/robotide/lib/robot/utils/islike.py to islike.pyc
+byte-compiling /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/robotide/lib/robot/utils/etreewrapper.py to etreewrapper.pyc
+byte-compiling /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/robotide/lib/robot/utils/setter.py to setter.pyc
+byte-compiling /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/robotide/lib/robot/running/arguments/argumentresolver.py to argumentresolver.pyc
+byte-compiling /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/robotide/lib/robot/running/arguments/javaargumentcoercer.py to javaargumentcoercer.pyc
+byte-compiling /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/robotide/lib/robot/running/arguments/argumentspec.py to argumentspec.pyc
+byte-compiling /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/robotide/lib/robot/running/arguments/argumentvalidator.py to argumentvalidator.pyc
+byte-compiling /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/robotide/lib/robot/running/arguments/argumentparser.py to argumentparser.pyc
+byte-compiling /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/robotide/lib/robot/running/arguments/__init__.py to __init__.pyc
+byte-compiling /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/robotide/lib/robot/running/arguments/argumentmapper.py to argumentmapper.pyc
+byte-compiling /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/robotide/lib/robot/running/testlibraries.py to testlibraries.pyc
+byte-compiling /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/robotide/lib/robot/running/timeouts/timeoutwin.py to timeoutwin.pyc
+byte-compiling /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/robotide/lib/robot/running/timeouts/timeoutthread.py to timeoutthread.pyc
+byte-compiling /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/robotide/lib/robot/running/timeouts/timeoutsignaling.py to timeoutsignaling.pyc
+byte-compiling /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/robotide/lib/robot/running/timeouts/__init__.py to __init__.pyc
+byte-compiling /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/robotide/lib/robot/running/timeouts/stoppablethread.py to stoppablethread.pyc
+byte-compiling /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/robotide/lib/robot/running/keywords.py to keywords.pyc
+byte-compiling /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/robotide/lib/robot/running/model.py to model.pyc
+byte-compiling /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/robotide/lib/robot/running/status.py to status.pyc
+byte-compiling /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/robotide/lib/robot/running/dynamicmethods.py to dynamicmethods.pyc
+byte-compiling /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/robotide/lib/robot/running/signalhandler.py to signalhandler.pyc
+byte-compiling /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/robotide/lib/robot/running/defaults.py to defaults.pyc
+byte-compiling /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/robotide/lib/robot/running/runkwregister.py to runkwregister.pyc
+byte-compiling /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/robotide/lib/robot/running/baselibrary.py to baselibrary.pyc
+byte-compiling /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/robotide/lib/robot/running/builder.py to builder.pyc
+byte-compiling /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/robotide/lib/robot/running/outputcapture.py to outputcapture.pyc
+byte-compiling /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/robotide/lib/robot/running/userkeyword.py to userkeyword.pyc
+byte-compiling /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/robotide/lib/robot/running/namespace.py to namespace.pyc
+byte-compiling /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/robotide/lib/robot/running/importer.py to importer.pyc
+byte-compiling /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/robotide/lib/robot/running/context.py to context.pyc
+byte-compiling /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/robotide/lib/robot/running/__init__.py to __init__.pyc
+byte-compiling /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/robotide/lib/robot/running/runner.py to runner.pyc
+byte-compiling /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/robotide/lib/robot/running/usererrorhandler.py to usererrorhandler.pyc
+byte-compiling /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/robotide/lib/robot/running/randomizer.py to randomizer.pyc
+byte-compiling /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/robotide/lib/robot/running/handlers.py to handlers.pyc
+byte-compiling /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/robotide/lib/robot/variables/variableassigner.py to variableassigner.pyc
+byte-compiling /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/robotide/lib/robot/variables/variablesplitter.py to variablesplitter.pyc
+byte-compiling /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/robotide/lib/robot/variables/variables.py to variables.pyc
+byte-compiling /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/robotide/lib/robot/variables/__init__.py to __init__.pyc
+byte-compiling /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/robotide/lib/robot/variables/isvar.py to isvar.pyc
+byte-compiling /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/robotide/lib/robot/reporting/jswriter.py to jswriter.pyc
+byte-compiling /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/robotide/lib/robot/reporting/logreportwriters.py to logreportwriters.pyc
+byte-compiling /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/robotide/lib/robot/reporting/jsmodelbuilders.py to jsmodelbuilders.pyc
+byte-compiling /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/robotide/lib/robot/reporting/jsbuildingcontext.py to jsbuildingcontext.pyc
+byte-compiling /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/robotide/lib/robot/reporting/jsexecutionresult.py to jsexecutionresult.pyc
+byte-compiling /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/robotide/lib/robot/reporting/stringcache.py to stringcache.pyc
+byte-compiling /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/robotide/lib/robot/reporting/resultwriter.py to resultwriter.pyc
+byte-compiling /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/robotide/lib/robot/reporting/xunitwriter.py to xunitwriter.pyc
+byte-compiling /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/robotide/lib/robot/reporting/__init__.py to __init__.pyc
+byte-compiling /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/robotide/lib/robot/reporting/outputwriter.py to outputwriter.pyc
+byte-compiling /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/robotide/lib/robot/api/__init__.py to __init__.pyc
+byte-compiling /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/robotide/lib/robot/api/logger.py to logger.pyc
+byte-compiling /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/robotide/lib/robot/conf/gatherfailed.py to gatherfailed.pyc
+byte-compiling /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/robotide/lib/robot/conf/__init__.py to __init__.pyc
+byte-compiling /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/robotide/lib/robot/conf/settings.py to settings.pyc
+byte-compiling /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/robotide/lib/robot/htmldata/jsonwriter.py to jsonwriter.pyc
+byte-compiling /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/robotide/lib/robot/htmldata/jartemplate.py to jartemplate.pyc
+byte-compiling /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/robotide/lib/robot/htmldata/htmlfilewriter.py to htmlfilewriter.pyc
+byte-compiling /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/robotide/lib/robot/htmldata/__init__.py to __init__.pyc
+byte-compiling /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/robotide/lib/robot/htmldata/template.py to template.pyc
+byte-compiling /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/robotide/lib/robot/htmldata/normaltemplate.py to normaltemplate.pyc
+byte-compiling /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/robotide/lib/robot/version.py to version.pyc
+byte-compiling /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/robotide/lib/robot/result/xmlelementhandlers.py to xmlelementhandlers.pyc
+byte-compiling /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/robotide/lib/robot/result/merger.py to merger.pyc
+byte-compiling /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/robotide/lib/robot/result/flattenkeywordmatcher.py to flattenkeywordmatcher.pyc
+byte-compiling /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/robotide/lib/robot/result/executionresult.py to executionresult.pyc
+byte-compiling /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/robotide/lib/robot/result/suiteteardownfailed.py to suiteteardownfailed.pyc
+byte-compiling /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/robotide/lib/robot/result/resultbuilder.py to resultbuilder.pyc
+byte-compiling /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/robotide/lib/robot/result/visitor.py to visitor.pyc
+byte-compiling /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/robotide/lib/robot/result/message.py to message.pyc
+byte-compiling /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/robotide/lib/robot/result/configurer.py to configurer.pyc
+byte-compiling /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/robotide/lib/robot/result/messagefilter.py to messagefilter.pyc
+byte-compiling /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/robotide/lib/robot/result/keywordremover.py to keywordremover.pyc
+byte-compiling /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/robotide/lib/robot/result/executionerrors.py to executionerrors.pyc
+byte-compiling /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/robotide/lib/robot/result/__init__.py to __init__.pyc
+byte-compiling /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/robotide/lib/robot/result/testcase.py to testcase.pyc
+byte-compiling /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/robotide/lib/robot/result/keyword.py to keyword.pyc
+byte-compiling /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/robotide/lib/robot/result/testsuite.py to testsuite.pyc
+byte-compiling /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/robotide/lib/robot/parsing/tablepopulators.py to tablepopulators.pyc
+byte-compiling /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/robotide/lib/robot/parsing/txtreader.py to txtreader.pyc
+byte-compiling /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/robotide/lib/robot/parsing/model.py to model.pyc
+byte-compiling /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/robotide/lib/robot/parsing/datarow.py to datarow.pyc
+byte-compiling /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/robotide/lib/robot/parsing/tsvreader.py to tsvreader.pyc
+byte-compiling /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/robotide/lib/robot/parsing/restreader.py to restreader.pyc
+byte-compiling /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/robotide/lib/robot/parsing/restsupport.py to restsupport.pyc
+byte-compiling /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/robotide/lib/robot/parsing/htmlreader.py to htmlreader.pyc
+byte-compiling /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/robotide/lib/robot/parsing/__init__.py to __init__.pyc
+byte-compiling /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/robotide/lib/robot/parsing/comments.py to comments.pyc
+byte-compiling /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/robotide/lib/robot/parsing/settings.py to settings.pyc
+byte-compiling /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/robotide/lib/robot/parsing/populators.py to populators.pyc
+byte-compiling /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/robotide/lib/robot/output/loggerhelper.py to loggerhelper.pyc
+byte-compiling /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/robotide/lib/robot/output/filelogger.py to filelogger.pyc
+byte-compiling /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/robotide/lib/robot/output/xmllogger.py to xmllogger.pyc
+byte-compiling /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/robotide/lib/robot/output/librarylisteners.py to librarylisteners.pyc
+byte-compiling /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/robotide/lib/robot/output/highlighting.py to highlighting.pyc
+byte-compiling /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/robotide/lib/robot/output/output.py to output.pyc
+byte-compiling /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/robotide/lib/robot/output/monitor.py to monitor.pyc
+byte-compiling /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/robotide/lib/robot/output/stdoutlogsplitter.py to stdoutlogsplitter.pyc
+byte-compiling /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/robotide/lib/robot/output/librarylogger.py to librarylogger.pyc
+byte-compiling /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/robotide/lib/robot/output/pyloggingconf.py to pyloggingconf.pyc
+byte-compiling /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/robotide/lib/robot/output/debugfile.py to debugfile.pyc
+byte-compiling /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/robotide/lib/robot/output/__init__.py to __init__.pyc
+byte-compiling /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/robotide/lib/robot/output/logger.py to logger.pyc
+byte-compiling /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/robotide/lib/robot/output/listeners.py to listeners.pyc
+byte-compiling /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/robotide/lib/robot/jarrunner.py to jarrunner.pyc
+byte-compiling /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/robotide/lib/robot/run.py to run.pyc
+byte-compiling /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/robotide/lib/robot/__init__.py to __init__.pyc
+byte-compiling /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/robotide/lib/robot/jythonworkarounds.py to jythonworkarounds.pyc
+byte-compiling /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/robotide/spec/specimporter.py to specimporter.pyc
+byte-compiling /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/robotide/spec/xmlreaders.py to xmlreaders.pyc
+byte-compiling /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/robotide/spec/librarydatabase.py to librarydatabase.pyc
+byte-compiling /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/robotide/spec/iteminfo.py to iteminfo.pyc
+byte-compiling /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/robotide/spec/__init__.py to __init__.pyc
+byte-compiling /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/robotide/spec/librarymanager.py to librarymanager.pyc
+byte-compiling /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/robotide/spec/libraryfetcher.py to libraryfetcher.pyc
+running install_egg_info
+running egg_info
+writing requirements to src/robotframework_ride.egg-info/requires.txt
+writing src/robotframework_ride.egg-info/PKG-INFO
+writing top-level names to src/robotframework_ride.egg-info/top_level.txt
+writing dependency_links to src/robotframework_ride.egg-info/dependency_links.txt
+reading manifest file 'src/robotframework_ride.egg-info/SOURCES.txt'
+reading manifest template 'MANIFEST.in'
+warning: no files found matching 'VERSION.txt'
+warning: no files found matching '*.*' under directory 'lib'
+writing manifest file 'src/robotframework_ride.egg-info/SOURCES.txt'
+Copying src/robotframework_ride.egg-info to /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/robotframework_ride-1.4-py2.7.egg-info
+running install_scripts
+copying build/scripts-2.7/ride.py -> /home/ubuntu/miniconda/envs/_build/bin
+copying build/scripts-2.7/ride_postinstall.py -> /home/ubuntu/miniconda/envs/_build/bin
+changing mode of /home/ubuntu/miniconda/envs/_build/bin/ride.py to 775
+changing mode of /home/ubuntu/miniconda/envs/_build/bin/ride_postinstall.py to 755
+No wxPython installation detected!
+
+Please ensure that you have wxPython installed before running RIDE.
+You can obtain wxPython 2.8.12.1 from http://sourceforge.net/projects/wxpython/files/wxPython/2.8.12.1/
+
+The following NEW packages will be INSTALLED:
+
+    numpy:  1.9.2-py27_0
+    pyyaml: 3.11-py27_1 
+    yaml:   0.1.6-0     
+
+Linking packages ...
+[                    ]|                                                  |   0%[yaml                ]|                                                  |   0%[numpy               ]|################                                  |  33%[pyyaml              ]|#################################                 |  66%[      COMPLETE      ]|##################################################| 100%
+Applying patch: '/tmp/tmp7n4DaXconda_skeleton_robotframework-ride-1.4.tar.gz/pypi-distutils.patch'
+Writing recipe for robotframework-ride
+Done

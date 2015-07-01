@@ -1,0 +1,40 @@
+Error: prefix already exists: /home/ubuntu/miniconda/envs/_pipbuild_
+Collecting scikit-learn==0.16.1
+  Downloading http://localhost/packages/source/s/scikit-learn/scikit-learn-0.16.1.tar.gz (7.3MB)
+setuptools must be installed to install from a source distribution
+Package search: {'_pypi_ordering': False, 'version': '0.13.1', 'name': 'scikit-learn', 'summary': 'A set of python modules for machine learning and data mining'}
+Creating standard recipe for scikit-learn-0.16.1
+Using url https://pypi.python.org/packages/source/s/scikit-learn/scikit-learn-0.16.1.tar.gz (6.9 MB) for scikit-learn.
+Downloading scikit-learn
+Using cached download
+Unpacking scikit-learn...
+done
+working in /tmp/tmp_rwRgrconda_skeleton_scikit-learn-0.16.1.tar.gz
+Fetching package metadata: ......
+
+WARNING: conda-build appears to be out of date. You have version 1.13.0 but the
+latest version is 1.14.1. Run
+
+conda update -n root conda-build
+
+to get the latest version.
+
+Solving package specifications: .patching file core.py
+Hunk #1 succeeded at 168 with fuzz 2 (offset 2 lines).
+Partial import of sklearn during the build process.
+Traceback (most recent call last):
+  File "setup.py", line 173, in <module>
+    setup_package()
+  File "setup.py", line 169, in setup_package
+    setup(**metadata)
+  File "/home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/numpy/distutils/core.py", line 130, in setup
+    if dist.help or not _command_line_ok():
+AttributeError: 'NoneType' object has no attribute 'help'
+
+Applying patch: '/tmp/tmp_rwRgrconda_skeleton_scikit-learn-0.16.1.tar.gz/pypi-distutils.patch'
+$PYTHONPATH = /tmp/tmp_rwRgrconda_skeleton_scikit-learn-0.16.1.tar.gz/scikit-learn-0.16.1
+Error: command failed: /home/ubuntu/miniconda/envs/_build/bin/python setup.py install
+
+conda create -n _pipbuild_ --yes python pip
+/home/ubuntu/miniconda/envs/_pipbuild_/bin/pip install scikit-learn==0.16.1
+Error: Could not pip install scikit-learn==0.16.1

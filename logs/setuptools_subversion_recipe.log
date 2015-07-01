@@ -15,19 +15,36 @@ Warning, the following versions were found for setuptools_subversion
 Using 3.1
 Use --version to specify a different version.
 Using url https://pypi.python.org/packages/source/s/setuptools_subversion/setuptools_subversion-3.1.zip (10 KB) for setuptools_subversion.
-Downloading setuptools_subversion (use --no-download to skip this step)
+Downloading setuptools_subversion
 Using cached download
 Unpacking setuptools_subversion...
 done
-working in /tmp/tmp3oQb9qconda_skeleton_setuptools_subversion-3.1.zip
+working in /tmp/tmpg3aFTnconda_skeleton_setuptools_subversion-3.1.zip
 Fetching package metadata: ......
+
+WARNING: conda-build appears to be out of date. You have version 1.13.0 but the
+latest version is 1.14.1. Run
+
+conda update -n root conda-build
+
+to get the latest version.
+
 Solving package specifications: .patching file core.py
 Hunk #1 succeeded at 168 with fuzz 2 (offset 2 lines).
-Traceback (most recent call last):
-  File "setup.py", line 1, in <module>
-    from setuptools import setup
-ImportError: No module named setuptools
 
-Applying patch: '/tmp/tmp3oQb9qconda_skeleton_setuptools_subversion-3.1.zip/pypi-distutils.patch'
-$PYTHONPATH = /tmp/tmp3oQb9qconda_skeleton_setuptools_subversion-3.1.zip/setuptools_subversion-3.1
-Error: command failed: /home/ubuntu/miniconda/envs/_build/bin/python setup.py install
+The following NEW packages will be INSTALLED:
+
+    numpy:  1.9.2-py27_0
+    pyyaml: 3.11-py27_1 
+    yaml:   0.1.6-0     
+
+Linking packages ...
+[                    ]|                                                  |   0%[yaml                ]|                                                  |   0%[numpy               ]|################                                  |  33%[pyyaml              ]|#################################                 |  66%[      COMPLETE      ]|##################################################| 100%
+Applying patch: '/tmp/tmpg3aFTnconda_skeleton_setuptools_subversion-3.1.zip/pypi-distutils.patch'
+WARNING: Could not add entry points. They were:
+
+        [setuptools.file_finders]
+        svn=setuptools_subversion:listfiles
+    
+Writing recipe for setuptools_subversion
+Done

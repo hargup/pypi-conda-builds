@@ -1,0 +1,377 @@
+Removing old build directory
+Removing old work directory
+BUILD START: cheetah-2.4.4-py27_0
+Fetching package metadata: ......
+
+WARNING: conda-build appears to be out of date. You have version 1.13.0 but the
+latest version is 1.14.1. Run
+
+conda update -n root conda-build
+
+to get the latest version.
+
+Solving package specifications: .+ /home/ubuntu/miniconda/envs/_build/bin/python setup.py install
+running install
+running bdist_egg
+running egg_info
+writing requirements to Cheetah.egg-info/requires.txt
+writing Cheetah.egg-info/PKG-INFO
+writing top-level names to Cheetah.egg-info/top_level.txt
+writing dependency_links to Cheetah.egg-info/dependency_links.txt
+reading manifest file 'Cheetah.egg-info/SOURCES.txt'
+reading manifest template 'MANIFEST.in'
+warning: no files found matching 'examples'
+warning: no files found matching 'docs'
+warning: no files found matching 'bin'
+warning: no files found matching '*' under directory 'docs'
+warning: no files found matching '*' under directory 'examples'
+warning: no previously-included files matching '*.pyc' found under directory 'cheetah'
+warning: no previously-included files matching '*~' found under directory 'cheetah'
+warning: no previously-included files matching '*.aux' found under directory 'cheetah'
+warning: no previously-included files matching '*~' found under directory 'docs'
+warning: no previously-included files matching '*.aux' found under directory 'docs'
+writing manifest file 'Cheetah.egg-info/SOURCES.txt'
+installing library code to build/bdist.linux-x86_64/egg
+running install_lib
+running build_py
+creating build
+creating build/lib.linux-x86_64-2.7
+creating build/lib.linux-x86_64-2.7/Cheetah
+copying cheetah/Template.py -> build/lib.linux-x86_64-2.7/Cheetah
+copying cheetah/SourceReader.py -> build/lib.linux-x86_64-2.7/Cheetah
+copying cheetah/DirectiveAnalyzer.py -> build/lib.linux-x86_64-2.7/Cheetah
+copying cheetah/ImportManager.py -> build/lib.linux-x86_64-2.7/Cheetah
+copying cheetah/Filters.py -> build/lib.linux-x86_64-2.7/Cheetah
+copying cheetah/Unspecified.py -> build/lib.linux-x86_64-2.7/Cheetah
+copying cheetah/Version.py -> build/lib.linux-x86_64-2.7/Cheetah
+copying cheetah/FileUtils.py -> build/lib.linux-x86_64-2.7/Cheetah
+copying cheetah/ErrorCatchers.py -> build/lib.linux-x86_64-2.7/Cheetah
+copying cheetah/DummyTransaction.py -> build/lib.linux-x86_64-2.7/Cheetah
+copying cheetah/NameMapper.py -> build/lib.linux-x86_64-2.7/Cheetah
+copying cheetah/Servlet.py -> build/lib.linux-x86_64-2.7/Cheetah
+copying cheetah/CacheRegion.py -> build/lib.linux-x86_64-2.7/Cheetah
+copying cheetah/SettingsManager.py -> build/lib.linux-x86_64-2.7/Cheetah
+copying cheetah/Parser.py -> build/lib.linux-x86_64-2.7/Cheetah
+copying cheetah/ImportHooks.py -> build/lib.linux-x86_64-2.7/Cheetah
+copying cheetah/CheetahWrapper.py -> build/lib.linux-x86_64-2.7/Cheetah
+copying cheetah/Compiler.py -> build/lib.linux-x86_64-2.7/Cheetah
+copying cheetah/Django.py -> build/lib.linux-x86_64-2.7/Cheetah
+copying cheetah/CacheStore.py -> build/lib.linux-x86_64-2.7/Cheetah
+copying cheetah/__init__.py -> build/lib.linux-x86_64-2.7/Cheetah
+copying cheetah/TemplateCmdLineIface.py -> build/lib.linux-x86_64-2.7/Cheetah
+copying cheetah/convertTmplPathToModuleName.py -> build/lib.linux-x86_64-2.7/Cheetah
+creating build/lib.linux-x86_64-2.7/Cheetah/Macros
+copying cheetah/Macros/I18n.py -> build/lib.linux-x86_64-2.7/Cheetah/Macros
+copying cheetah/Macros/__init__.py -> build/lib.linux-x86_64-2.7/Cheetah/Macros
+creating build/lib.linux-x86_64-2.7/Cheetah/Templates
+copying cheetah/Templates/_SkeletonPage.py -> build/lib.linux-x86_64-2.7/Cheetah/Templates
+copying cheetah/Templates/SkeletonPage.py -> build/lib.linux-x86_64-2.7/Cheetah/Templates
+copying cheetah/Templates/__init__.py -> build/lib.linux-x86_64-2.7/Cheetah/Templates
+creating build/lib.linux-x86_64-2.7/Cheetah/Tests
+copying cheetah/Tests/Performance.py -> build/lib.linux-x86_64-2.7/Cheetah/Tests
+copying cheetah/Tests/Template.py -> build/lib.linux-x86_64-2.7/Cheetah/Tests
+copying cheetah/Tests/xmlrunner.py -> build/lib.linux-x86_64-2.7/Cheetah/Tests
+copying cheetah/Tests/Regressions.py -> build/lib.linux-x86_64-2.7/Cheetah/Tests
+copying cheetah/Tests/Filters.py -> build/lib.linux-x86_64-2.7/Cheetah/Tests
+copying cheetah/Tests/Unicode.py -> build/lib.linux-x86_64-2.7/Cheetah/Tests
+copying cheetah/Tests/NameMapper.py -> build/lib.linux-x86_64-2.7/Cheetah/Tests
+copying cheetah/Tests/Misc.py -> build/lib.linux-x86_64-2.7/Cheetah/Tests
+copying cheetah/Tests/SyntaxAndOutput.py -> build/lib.linux-x86_64-2.7/Cheetah/Tests
+copying cheetah/Tests/Parser.py -> build/lib.linux-x86_64-2.7/Cheetah/Tests
+copying cheetah/Tests/Test.py -> build/lib.linux-x86_64-2.7/Cheetah/Tests
+copying cheetah/Tests/CheetahWrapper.py -> build/lib.linux-x86_64-2.7/Cheetah/Tests
+copying cheetah/Tests/Analyzer.py -> build/lib.linux-x86_64-2.7/Cheetah/Tests
+copying cheetah/Tests/__init__.py -> build/lib.linux-x86_64-2.7/Cheetah/Tests
+copying cheetah/Tests/Cheps.py -> build/lib.linux-x86_64-2.7/Cheetah/Tests
+creating build/lib.linux-x86_64-2.7/Cheetah/Tools
+copying cheetah/Tools/CGITemplate.py -> build/lib.linux-x86_64-2.7/Cheetah/Tools
+copying cheetah/Tools/RecursiveNull.py -> build/lib.linux-x86_64-2.7/Cheetah/Tools
+copying cheetah/Tools/SiteHierarchy.py -> build/lib.linux-x86_64-2.7/Cheetah/Tools
+copying cheetah/Tools/__init__.py -> build/lib.linux-x86_64-2.7/Cheetah/Tools
+copying cheetah/Tools/MondoReport.py -> build/lib.linux-x86_64-2.7/Cheetah/Tools
+creating build/lib.linux-x86_64-2.7/Cheetah/Utils
+copying cheetah/Utils/htmlDecode.py -> build/lib.linux-x86_64-2.7/Cheetah/Utils
+copying cheetah/Utils/htmlEncode.py -> build/lib.linux-x86_64-2.7/Cheetah/Utils
+copying cheetah/Utils/WebInputMixin.py -> build/lib.linux-x86_64-2.7/Cheetah/Utils
+copying cheetah/Utils/Misc.py -> build/lib.linux-x86_64-2.7/Cheetah/Utils
+copying cheetah/Utils/statprof.py -> build/lib.linux-x86_64-2.7/Cheetah/Utils
+copying cheetah/Utils/__init__.py -> build/lib.linux-x86_64-2.7/Cheetah/Utils
+copying cheetah/Utils/Indenter.py -> build/lib.linux-x86_64-2.7/Cheetah/Utils
+running build_ext
+building 'Cheetah._namemapper' extension
+creating build/temp.linux-x86_64-2.7
+creating build/temp.linux-x86_64-2.7/cheetah
+creating build/temp.linux-x86_64-2.7/cheetah/c
+gcc -pthread -fno-strict-aliasing -g -O2 -DNDEBUG -g -fwrapv -O3 -Wall -Wstrict-prototypes -fPIC -I/home/ubuntu/miniconda/envs/_build/include/python2.7 -c cheetah/c/_namemapper.c -o build/temp.linux-x86_64-2.7/cheetah/c/_namemapper.o
+gcc -pthread -shared -L/home/ubuntu/miniconda/envs/_build/lib -Wl,-rpath=/home/ubuntu/miniconda/envs/_build/lib,--no-as-needed build/temp.linux-x86_64-2.7/cheetah/c/_namemapper.o -L/home/ubuntu/miniconda/envs/_build/lib -lpython2.7 -o build/lib.linux-x86_64-2.7/Cheetah/_namemapper.so
+creating build/bdist.linux-x86_64
+creating build/bdist.linux-x86_64/egg
+creating build/bdist.linux-x86_64/egg/Cheetah
+copying build/lib.linux-x86_64-2.7/Cheetah/Template.py -> build/bdist.linux-x86_64/egg/Cheetah
+copying build/lib.linux-x86_64-2.7/Cheetah/SourceReader.py -> build/bdist.linux-x86_64/egg/Cheetah
+creating build/bdist.linux-x86_64/egg/Cheetah/Templates
+copying build/lib.linux-x86_64-2.7/Cheetah/Templates/_SkeletonPage.py -> build/bdist.linux-x86_64/egg/Cheetah/Templates
+copying build/lib.linux-x86_64-2.7/Cheetah/Templates/SkeletonPage.py -> build/bdist.linux-x86_64/egg/Cheetah/Templates
+copying build/lib.linux-x86_64-2.7/Cheetah/Templates/__init__.py -> build/bdist.linux-x86_64/egg/Cheetah/Templates
+copying build/lib.linux-x86_64-2.7/Cheetah/DirectiveAnalyzer.py -> build/bdist.linux-x86_64/egg/Cheetah
+copying build/lib.linux-x86_64-2.7/Cheetah/ImportManager.py -> build/bdist.linux-x86_64/egg/Cheetah
+copying build/lib.linux-x86_64-2.7/Cheetah/Filters.py -> build/bdist.linux-x86_64/egg/Cheetah
+copying build/lib.linux-x86_64-2.7/Cheetah/Unspecified.py -> build/bdist.linux-x86_64/egg/Cheetah
+copying build/lib.linux-x86_64-2.7/Cheetah/Version.py -> build/bdist.linux-x86_64/egg/Cheetah
+copying build/lib.linux-x86_64-2.7/Cheetah/FileUtils.py -> build/bdist.linux-x86_64/egg/Cheetah
+copying build/lib.linux-x86_64-2.7/Cheetah/ErrorCatchers.py -> build/bdist.linux-x86_64/egg/Cheetah
+copying build/lib.linux-x86_64-2.7/Cheetah/_namemapper.so -> build/bdist.linux-x86_64/egg/Cheetah
+copying build/lib.linux-x86_64-2.7/Cheetah/DummyTransaction.py -> build/bdist.linux-x86_64/egg/Cheetah
+copying build/lib.linux-x86_64-2.7/Cheetah/NameMapper.py -> build/bdist.linux-x86_64/egg/Cheetah
+creating build/bdist.linux-x86_64/egg/Cheetah/Macros
+copying build/lib.linux-x86_64-2.7/Cheetah/Macros/I18n.py -> build/bdist.linux-x86_64/egg/Cheetah/Macros
+copying build/lib.linux-x86_64-2.7/Cheetah/Macros/__init__.py -> build/bdist.linux-x86_64/egg/Cheetah/Macros
+copying build/lib.linux-x86_64-2.7/Cheetah/Servlet.py -> build/bdist.linux-x86_64/egg/Cheetah
+copying build/lib.linux-x86_64-2.7/Cheetah/CacheRegion.py -> build/bdist.linux-x86_64/egg/Cheetah
+copying build/lib.linux-x86_64-2.7/Cheetah/SettingsManager.py -> build/bdist.linux-x86_64/egg/Cheetah
+copying build/lib.linux-x86_64-2.7/Cheetah/Parser.py -> build/bdist.linux-x86_64/egg/Cheetah
+copying build/lib.linux-x86_64-2.7/Cheetah/ImportHooks.py -> build/bdist.linux-x86_64/egg/Cheetah
+copying build/lib.linux-x86_64-2.7/Cheetah/CheetahWrapper.py -> build/bdist.linux-x86_64/egg/Cheetah
+copying build/lib.linux-x86_64-2.7/Cheetah/Compiler.py -> build/bdist.linux-x86_64/egg/Cheetah
+copying build/lib.linux-x86_64-2.7/Cheetah/Django.py -> build/bdist.linux-x86_64/egg/Cheetah
+copying build/lib.linux-x86_64-2.7/Cheetah/CacheStore.py -> build/bdist.linux-x86_64/egg/Cheetah
+copying build/lib.linux-x86_64-2.7/Cheetah/__init__.py -> build/bdist.linux-x86_64/egg/Cheetah
+copying build/lib.linux-x86_64-2.7/Cheetah/TemplateCmdLineIface.py -> build/bdist.linux-x86_64/egg/Cheetah
+creating build/bdist.linux-x86_64/egg/Cheetah/Tools
+copying build/lib.linux-x86_64-2.7/Cheetah/Tools/CGITemplate.py -> build/bdist.linux-x86_64/egg/Cheetah/Tools
+copying build/lib.linux-x86_64-2.7/Cheetah/Tools/RecursiveNull.py -> build/bdist.linux-x86_64/egg/Cheetah/Tools
+copying build/lib.linux-x86_64-2.7/Cheetah/Tools/SiteHierarchy.py -> build/bdist.linux-x86_64/egg/Cheetah/Tools
+copying build/lib.linux-x86_64-2.7/Cheetah/Tools/__init__.py -> build/bdist.linux-x86_64/egg/Cheetah/Tools
+copying build/lib.linux-x86_64-2.7/Cheetah/Tools/MondoReport.py -> build/bdist.linux-x86_64/egg/Cheetah/Tools
+creating build/bdist.linux-x86_64/egg/Cheetah/Utils
+copying build/lib.linux-x86_64-2.7/Cheetah/Utils/htmlDecode.py -> build/bdist.linux-x86_64/egg/Cheetah/Utils
+copying build/lib.linux-x86_64-2.7/Cheetah/Utils/htmlEncode.py -> build/bdist.linux-x86_64/egg/Cheetah/Utils
+copying build/lib.linux-x86_64-2.7/Cheetah/Utils/WebInputMixin.py -> build/bdist.linux-x86_64/egg/Cheetah/Utils
+copying build/lib.linux-x86_64-2.7/Cheetah/Utils/Misc.py -> build/bdist.linux-x86_64/egg/Cheetah/Utils
+copying build/lib.linux-x86_64-2.7/Cheetah/Utils/statprof.py -> build/bdist.linux-x86_64/egg/Cheetah/Utils
+copying build/lib.linux-x86_64-2.7/Cheetah/Utils/__init__.py -> build/bdist.linux-x86_64/egg/Cheetah/Utils
+copying build/lib.linux-x86_64-2.7/Cheetah/Utils/Indenter.py -> build/bdist.linux-x86_64/egg/Cheetah/Utils
+copying build/lib.linux-x86_64-2.7/Cheetah/convertTmplPathToModuleName.py -> build/bdist.linux-x86_64/egg/Cheetah
+creating build/bdist.linux-x86_64/egg/Cheetah/Tests
+copying build/lib.linux-x86_64-2.7/Cheetah/Tests/Performance.py -> build/bdist.linux-x86_64/egg/Cheetah/Tests
+copying build/lib.linux-x86_64-2.7/Cheetah/Tests/Template.py -> build/bdist.linux-x86_64/egg/Cheetah/Tests
+copying build/lib.linux-x86_64-2.7/Cheetah/Tests/xmlrunner.py -> build/bdist.linux-x86_64/egg/Cheetah/Tests
+copying build/lib.linux-x86_64-2.7/Cheetah/Tests/Regressions.py -> build/bdist.linux-x86_64/egg/Cheetah/Tests
+copying build/lib.linux-x86_64-2.7/Cheetah/Tests/Filters.py -> build/bdist.linux-x86_64/egg/Cheetah/Tests
+copying build/lib.linux-x86_64-2.7/Cheetah/Tests/Unicode.py -> build/bdist.linux-x86_64/egg/Cheetah/Tests
+copying build/lib.linux-x86_64-2.7/Cheetah/Tests/NameMapper.py -> build/bdist.linux-x86_64/egg/Cheetah/Tests
+copying build/lib.linux-x86_64-2.7/Cheetah/Tests/Misc.py -> build/bdist.linux-x86_64/egg/Cheetah/Tests
+copying build/lib.linux-x86_64-2.7/Cheetah/Tests/SyntaxAndOutput.py -> build/bdist.linux-x86_64/egg/Cheetah/Tests
+copying build/lib.linux-x86_64-2.7/Cheetah/Tests/Parser.py -> build/bdist.linux-x86_64/egg/Cheetah/Tests
+copying build/lib.linux-x86_64-2.7/Cheetah/Tests/Test.py -> build/bdist.linux-x86_64/egg/Cheetah/Tests
+copying build/lib.linux-x86_64-2.7/Cheetah/Tests/CheetahWrapper.py -> build/bdist.linux-x86_64/egg/Cheetah/Tests
+copying build/lib.linux-x86_64-2.7/Cheetah/Tests/Analyzer.py -> build/bdist.linux-x86_64/egg/Cheetah/Tests
+copying build/lib.linux-x86_64-2.7/Cheetah/Tests/__init__.py -> build/bdist.linux-x86_64/egg/Cheetah/Tests
+copying build/lib.linux-x86_64-2.7/Cheetah/Tests/Cheps.py -> build/bdist.linux-x86_64/egg/Cheetah/Tests
+byte-compiling build/bdist.linux-x86_64/egg/Cheetah/Template.py to Template.pyc
+byte-compiling build/bdist.linux-x86_64/egg/Cheetah/SourceReader.py to SourceReader.pyc
+byte-compiling build/bdist.linux-x86_64/egg/Cheetah/Templates/_SkeletonPage.py to _SkeletonPage.pyc
+byte-compiling build/bdist.linux-x86_64/egg/Cheetah/Templates/SkeletonPage.py to SkeletonPage.pyc
+byte-compiling build/bdist.linux-x86_64/egg/Cheetah/Templates/__init__.py to __init__.pyc
+byte-compiling build/bdist.linux-x86_64/egg/Cheetah/DirectiveAnalyzer.py to DirectiveAnalyzer.pyc
+byte-compiling build/bdist.linux-x86_64/egg/Cheetah/ImportManager.py to ImportManager.pyc
+byte-compiling build/bdist.linux-x86_64/egg/Cheetah/Filters.py to Filters.pyc
+byte-compiling build/bdist.linux-x86_64/egg/Cheetah/Unspecified.py to Unspecified.pyc
+byte-compiling build/bdist.linux-x86_64/egg/Cheetah/Version.py to Version.pyc
+byte-compiling build/bdist.linux-x86_64/egg/Cheetah/FileUtils.py to FileUtils.pyc
+byte-compiling build/bdist.linux-x86_64/egg/Cheetah/ErrorCatchers.py to ErrorCatchers.pyc
+byte-compiling build/bdist.linux-x86_64/egg/Cheetah/DummyTransaction.py to DummyTransaction.pyc
+byte-compiling build/bdist.linux-x86_64/egg/Cheetah/NameMapper.py to NameMapper.pyc
+byte-compiling build/bdist.linux-x86_64/egg/Cheetah/Macros/I18n.py to I18n.pyc
+byte-compiling build/bdist.linux-x86_64/egg/Cheetah/Macros/__init__.py to __init__.pyc
+byte-compiling build/bdist.linux-x86_64/egg/Cheetah/Servlet.py to Servlet.pyc
+byte-compiling build/bdist.linux-x86_64/egg/Cheetah/CacheRegion.py to CacheRegion.pyc
+byte-compiling build/bdist.linux-x86_64/egg/Cheetah/SettingsManager.py to SettingsManager.pyc
+byte-compiling build/bdist.linux-x86_64/egg/Cheetah/Parser.py to Parser.pyc
+byte-compiling build/bdist.linux-x86_64/egg/Cheetah/ImportHooks.py to ImportHooks.pyc
+byte-compiling build/bdist.linux-x86_64/egg/Cheetah/CheetahWrapper.py to CheetahWrapper.pyc
+byte-compiling build/bdist.linux-x86_64/egg/Cheetah/Compiler.py to Compiler.pyc
+byte-compiling build/bdist.linux-x86_64/egg/Cheetah/Django.py to Django.pyc
+byte-compiling build/bdist.linux-x86_64/egg/Cheetah/CacheStore.py to CacheStore.pyc
+byte-compiling build/bdist.linux-x86_64/egg/Cheetah/__init__.py to __init__.pyc
+byte-compiling build/bdist.linux-x86_64/egg/Cheetah/TemplateCmdLineIface.py to TemplateCmdLineIface.pyc
+byte-compiling build/bdist.linux-x86_64/egg/Cheetah/Tools/CGITemplate.py to CGITemplate.pyc
+byte-compiling build/bdist.linux-x86_64/egg/Cheetah/Tools/RecursiveNull.py to RecursiveNull.pyc
+byte-compiling build/bdist.linux-x86_64/egg/Cheetah/Tools/SiteHierarchy.py to SiteHierarchy.pyc
+byte-compiling build/bdist.linux-x86_64/egg/Cheetah/Tools/__init__.py to __init__.pyc
+byte-compiling build/bdist.linux-x86_64/egg/Cheetah/Tools/MondoReport.py to MondoReport.pyc
+byte-compiling build/bdist.linux-x86_64/egg/Cheetah/Utils/htmlDecode.py to htmlDecode.pyc
+byte-compiling build/bdist.linux-x86_64/egg/Cheetah/Utils/htmlEncode.py to htmlEncode.pyc
+byte-compiling build/bdist.linux-x86_64/egg/Cheetah/Utils/WebInputMixin.py to WebInputMixin.pyc
+byte-compiling build/bdist.linux-x86_64/egg/Cheetah/Utils/Misc.py to Misc.pyc
+byte-compiling build/bdist.linux-x86_64/egg/Cheetah/Utils/statprof.py to statprof.pyc
+byte-compiling build/bdist.linux-x86_64/egg/Cheetah/Utils/__init__.py to __init__.pyc
+byte-compiling build/bdist.linux-x86_64/egg/Cheetah/Utils/Indenter.py to Indenter.pyc
+byte-compiling build/bdist.linux-x86_64/egg/Cheetah/convertTmplPathToModuleName.py to convertTmplPathToModuleName.pyc
+byte-compiling build/bdist.linux-x86_64/egg/Cheetah/Tests/Performance.py to Performance.pyc
+byte-compiling build/bdist.linux-x86_64/egg/Cheetah/Tests/Template.py to Template.pyc
+byte-compiling build/bdist.linux-x86_64/egg/Cheetah/Tests/xmlrunner.py to xmlrunner.pyc
+byte-compiling build/bdist.linux-x86_64/egg/Cheetah/Tests/Regressions.py to Regressions.pyc
+byte-compiling build/bdist.linux-x86_64/egg/Cheetah/Tests/Filters.py to Filters.pyc
+byte-compiling build/bdist.linux-x86_64/egg/Cheetah/Tests/Unicode.py to Unicode.pyc
+byte-compiling build/bdist.linux-x86_64/egg/Cheetah/Tests/NameMapper.py to NameMapper.pyc
+byte-compiling build/bdist.linux-x86_64/egg/Cheetah/Tests/Misc.py to Misc.pyc
+byte-compiling build/bdist.linux-x86_64/egg/Cheetah/Tests/SyntaxAndOutput.py to SyntaxAndOutput.pyc
+byte-compiling build/bdist.linux-x86_64/egg/Cheetah/Tests/Parser.py to Parser.pyc
+byte-compiling build/bdist.linux-x86_64/egg/Cheetah/Tests/Test.py to Test.pyc
+byte-compiling build/bdist.linux-x86_64/egg/Cheetah/Tests/CheetahWrapper.py to CheetahWrapper.pyc
+byte-compiling build/bdist.linux-x86_64/egg/Cheetah/Tests/Analyzer.py to Analyzer.pyc
+byte-compiling build/bdist.linux-x86_64/egg/Cheetah/Tests/__init__.py to __init__.pyc
+byte-compiling build/bdist.linux-x86_64/egg/Cheetah/Tests/Cheps.py to Cheps.pyc
+creating stub loader for Cheetah/_namemapper.so
+byte-compiling build/bdist.linux-x86_64/egg/Cheetah/_namemapper.py to _namemapper.pyc
+installing package data to build/bdist.linux-x86_64/egg
+running install_data
+copying cheetah/Tools/MondoReportDoc.txt -> build/bdist.linux-x86_64/egg/Cheetah/Tools
+copying cheetah/Templates/SkeletonPage.tmpl -> build/bdist.linux-x86_64/egg/Cheetah/Templates
+creating build/bdist.linux-x86_64/egg/EGG-INFO
+installing scripts to build/bdist.linux-x86_64/egg/EGG-INFO/scripts
+running install_scripts
+running build_scripts
+creating build/scripts-2.7
+copying and adjusting bin/cheetah-compile -> build/scripts-2.7
+copying and adjusting bin/cheetah -> build/scripts-2.7
+copying and adjusting bin/cheetah-analyze -> build/scripts-2.7
+changing mode of build/scripts-2.7/cheetah-compile from 664 to 775
+changing mode of build/scripts-2.7/cheetah from 664 to 775
+changing mode of build/scripts-2.7/cheetah-analyze from 664 to 775
+creating build/bdist.linux-x86_64/egg/EGG-INFO/scripts
+copying build/scripts-2.7/cheetah-analyze -> build/bdist.linux-x86_64/egg/EGG-INFO/scripts
+copying build/scripts-2.7/cheetah-compile -> build/bdist.linux-x86_64/egg/EGG-INFO/scripts
+copying build/scripts-2.7/cheetah -> build/bdist.linux-x86_64/egg/EGG-INFO/scripts
+changing mode of build/bdist.linux-x86_64/egg/EGG-INFO/scripts/cheetah-analyze to 775
+changing mode of build/bdist.linux-x86_64/egg/EGG-INFO/scripts/cheetah-compile to 775
+changing mode of build/bdist.linux-x86_64/egg/EGG-INFO/scripts/cheetah to 775
+copying Cheetah.egg-info/PKG-INFO -> build/bdist.linux-x86_64/egg/EGG-INFO
+copying Cheetah.egg-info/SOURCES.txt -> build/bdist.linux-x86_64/egg/EGG-INFO
+copying Cheetah.egg-info/dependency_links.txt -> build/bdist.linux-x86_64/egg/EGG-INFO
+copying Cheetah.egg-info/requires.txt -> build/bdist.linux-x86_64/egg/EGG-INFO
+copying Cheetah.egg-info/top_level.txt -> build/bdist.linux-x86_64/egg/EGG-INFO
+writing build/bdist.linux-x86_64/egg/EGG-INFO/native_libs.txt
+zip_safe flag not set; analyzing archive contents...
+Cheetah.Template: module references __file__
+Cheetah.ImportHooks: module references __file__
+Cheetah.ImportManager: module references __file__
+Cheetah.ImportManager: module references __path__
+Cheetah.NameMapper: module MAY be using inspect.stack
+Cheetah.Tests.Template: module references __file__
+/home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/setuptools/command/bdist_egg.py:394: UnicodeWarning: Unicode equal comparison failed to convert both arguments to Unicode - interpreting them as being unequal
+  symbols = dict.fromkeys(iter_symbols(code))
+creating dist
+creating 'dist/Cheetah-2.4.4-py2.7-linux-x86_64.egg' and adding 'build/bdist.linux-x86_64/egg' to it
+removing 'build/bdist.linux-x86_64/egg' (and everything under it)
+Processing Cheetah-2.4.4-py2.7-linux-x86_64.egg
+creating /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/Cheetah-2.4.4-py2.7-linux-x86_64.egg
+Extracting Cheetah-2.4.4-py2.7-linux-x86_64.egg to /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages
+Adding Cheetah 2.4.4 to easy-install.pth file
+Installing cheetah-analyze script to /home/ubuntu/miniconda/envs/_build/bin
+Installing cheetah-compile script to /home/ubuntu/miniconda/envs/_build/bin
+Installing cheetah script to /home/ubuntu/miniconda/envs/_build/bin
+
+Installed /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/Cheetah-2.4.4-py2.7-linux-x86_64.egg
+Processing dependencies for Cheetah==2.4.4
+Searching for Markdown>=2.0.1
+Reading https://pypi.python.org/simple/Markdown/
+Best match: Markdown 2.6.2
+Downloading https://pypi.python.org/packages/source/M/Markdown/Markdown-2.6.2.zip#md5=3abd47d1b00a2620d12ea41cec0881bf
+Processing Markdown-2.6.2.zip
+Writing /tmp/easy_install-4XbA5N/Markdown-2.6.2/setup.cfg
+Running Markdown-2.6.2/setup.py -q bdist_egg --dist-dir /tmp/easy_install-4XbA5N/Markdown-2.6.2/egg-dist-tmp-Q5Bn1Y
+zip_safe flag not set; analyzing archive contents...
+Moving Markdown-2.6.2-py2.7.egg to /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages
+Adding Markdown 2.6.2 to easy-install.pth file
+Installing markdown_py script to /home/ubuntu/miniconda/envs/_build/bin
+
+Installed /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/Markdown-2.6.2-py2.7.egg
+Finished processing dependencies for Cheetah==2.4.4
+
+The following NEW packages will be INSTALLED:
+
+    openssl:    1.0.1k-1     
+    pip:        7.0.3-py27_0 
+    python:     2.7.10-0     
+    readline:   6.2-2        
+    setuptools: 18.0.1-py27_0
+    sqlite:     3.8.4.1-1    
+    system:     5.8-2        
+    tk:         8.5.18-0     
+    zlib:       1.2.8-0      
+
+Linking packages ...
+[                    ]|                                                  |   0%[openssl             ]|                                                  |   0%[readline            ]|#####                                             |  11%[sqlite              ]|###########                                       |  22%[system              ]|################                                  |  33%[tk                  ]|######################                            |  44%[zlib                ]|###########################                       |  55%[python              ]|#################################                 |  66%[setuptools          ]|######################################            |  77%[pip                 ]|############################################      |  88%[      COMPLETE      ]|##################################################| 100%
+Removing old work directory
+Source cache directory is: /home/ubuntu/miniconda/conda-bld/src_cache
+Found source in cache: Cheetah-2.4.4.tar.gz
+Extracting download
+Package: cheetah-2.4.4-py27_0
+source tree in: /home/ubuntu/miniconda/conda-bld/work/Cheetah-2.4.4
+found egg: /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/Markdown-2.6.2-py2.7.egg
+found egg dir: /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/Cheetah-2.4.4-py2.7-linux-x86_64.egg
+number of files: 120
+Fixing permissions
+patchelf: file: /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/Cheetah/_namemapper.so
+    setting rpath to: $ORIGIN/../../..
+Ignored hard-coded path in lib/python2.7/site-packages/Cheetah/_namemapper.so
+Detected hard-coded path in text file bin/cheetah
+Detected hard-coded path in text file bin/cheetah-analyze
+Detected hard-coded path in text file bin/cheetah-compile
+Detected hard-coded path in text file bin/markdown_py
+Fixing permissions
+BUILD END: cheetah-2.4.4-py27_0
+TEST START: cheetah-2.4.4-py27_0
+Fetching package metadata: ......
+
+WARNING: conda-build appears to be out of date. You have version 1.13.0 but the
+latest version is 1.14.1. Run
+
+conda update -n root conda-build
+
+to get the latest version.
+
+Solving package specifications: .
+The following packages will be downloaded:
+
+    package                    |            build
+    ---------------------------|-----------------
+    cheetah-2.4.4              |           py27_0         438 KB
+
+The following NEW packages will be INSTALLED:
+
+    cheetah:    2.4.4-py27_0 
+    openssl:    1.0.1k-1     
+    pip:        7.0.3-py27_0 
+    python:     2.7.10-0     
+    readline:   6.2-2        
+    setuptools: 18.0.1-py27_0
+    sqlite:     3.8.4.1-1    
+    system:     5.8-2        
+    tk:         8.5.18-0     
+    zlib:       1.2.8-0      
+
+Fetching packages ...
+cheetah-2.4.4-   0% |                              | ETA:  --:--:--   0.00  B/scheetah-2.4.4-   3% |#                              | ETA:  0:00:00  46.81 MB/scheetah-2.4.4-   7% |##                             | ETA:  0:00:00  58.51 MB/scheetah-2.4.4-  10% |###                            | ETA:  0:00:00  65.26 MB/scheetah-2.4.4-  14% |####                           | ETA:  0:00:00  69.71 MB/scheetah-2.4.4-  18% |#####                          | ETA:  0:00:00  72.87 MB/scheetah-2.4.4-  21% |######                         | ETA:  0:00:00  74.70 MB/scheetah-2.4.4-  25% |#######                        | ETA:  0:00:00  76.56 MB/scheetah-2.4.4-  29% |#########                      | ETA:  0:00:00  78.06 MB/scheetah-2.4.4-  32% |##########                     | ETA:  0:00:00  79.27 MB/scheetah-2.4.4-  36% |###########                    | ETA:  0:00:00  80.11 MB/scheetah-2.4.4-  40% |############                   | ETA:  0:00:00  80.09 MB/scheetah-2.4.4-  43% |#############                  | ETA:  0:00:00  80.87 MB/scheetah-2.4.4-  47% |##############                 | ETA:  0:00:00  81.35 MB/scheetah-2.4.4-  51% |###############                | ETA:  0:00:00  81.95 MB/scheetah-2.4.4-  54% |################               | ETA:  0:00:00  82.52 MB/scheetah-2.4.4-  58% |##################             | ETA:  0:00:00  83.03 MB/scheetah-2.4.4-  62% |###################            | ETA:  0:00:00  83.46 MB/scheetah-2.4.4-  65% |####################           | ETA:  0:00:00  83.87 MB/scheetah-2.4.4-  69% |#####################          | ETA:  0:00:00  84.27 MB/scheetah-2.4.4-  73% |######################         | ETA:  0:00:00  84.62 MB/scheetah-2.4.4-  76% |#######################        | ETA:  0:00:00  84.72 MB/scheetah-2.4.4-  80% |########################       | ETA:  0:00:00  85.03 MB/scheetah-2.4.4-  83% |##########################     | ETA:  0:00:00  85.29 MB/scheetah-2.4.4-  87% |###########################    | ETA:  0:00:00  85.52 MB/scheetah-2.4.4-  91% |############################   | ETA:  0:00:00  85.76 MB/scheetah-2.4.4-  94% |#############################  | ETA:  0:00:00  85.97 MB/scheetah-2.4.4-  98% |############################## | ETA:  0:00:00  86.19 MB/scheetah-2.4.4- 100% |###############################| ETA:  0:00:00  84.86 MB/scheetah-2.4.4- 100% |###############################| Time: 0:00:00  81.22 MB/s
+Extracting packages ...
+[      COMPLETE      ]|                                                  |   0%[cheetah             ]|                                                  |   0%[cheetah             ]|                                                  |   0%[      COMPLETE      ]|##################################################| 100%
+Linking packages ...
+[      COMPLETE      ]|                                                  |   0%[openssl             ]|                                                  |   0%[openssl             ]|                                                  |   0%[readline            ]|#####                                             |  10%[sqlite              ]|##########                                        |  20%[system              ]|###############                                   |  30%[tk                  ]|####################                              |  40%[zlib                ]|#########################                         |  50%[cheetah             ]|##############################                    |  60%[python              ]|#####===== testing package: cheetah-2.4.4-py27_0 =====
+import: u'Cheetah'
+import: u'Cheetah.Macros'
+import: u'Cheetah.Templates'
+import: u'Cheetah.Tests'
+import: u'Cheetah.Tools'
+import: u'Cheetah.Utils'
+===== cheetah-2.4.4-py27_0 OK =====
+##############################               |  70%[setuptools          ]|########################################          |  80%[pip                 ]|#############################################     |  90%[      COMPLETE      ]|##################################################| 100%
+TEST END: cheetah-2.4.4-py27_0
+# If you want to upload this package to binstar.org later, type:
+#
+# $ binstar upload /home/ubuntu/miniconda/conda-bld/linux-64/cheetah-2.4.4-py27_0.tar.bz2
+#
+# To have conda build upload to binstar automatically, use
+# $ conda config --set binstar_upload yes
+

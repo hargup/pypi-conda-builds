@@ -1,0 +1,11 @@
+Error: prefix already exists: /home/ubuntu/miniconda/envs/_pipbuild_
+Collecting JSONMapperHGMMPFork==0.62.026
+  Could not find a version that satisfies the requirement JSONMapperHGMMPFork==0.62.026 (from versions: )
+No matching distribution found for JSONMapperHGMMPFork==0.62.026
+Package search: {'_pypi_ordering': False, 'version': '0.62.026', 'name': 'JSONMapperHGMMPFork', 'summary': None}
+Creating standard recipe for jsonmapperhgmmpfork-0.62.026
+Error: Could not build recipe for JSONMapperHGMMPFork. Could not find any valid urls.
+
+conda create -n _pipbuild_ --yes python pip
+/home/ubuntu/miniconda/envs/_pipbuild_/bin/pip install JSONMapperHGMMPFork==0.62.026
+Error: Could not pip install JSONMapperHGMMPFork==0.62.026

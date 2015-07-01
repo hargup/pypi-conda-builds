@@ -2,6 +2,14 @@ Removing old build directory
 Removing old work directory
 BUILD START: alembic-0.7.6-py_0
 Fetching package metadata: ......
+
+WARNING: conda-build appears to be out of date. You have version 1.13.0 but the
+latest version is 1.14.1. Run
+
+conda update -n root conda-build
+
+to get the latest version.
+
 Solving package specifications: .................
 Warning: 2 possible package resolutions (only showing differing packages):
 	[u'mako-1.0.1-py_0.tar.bz2'],
@@ -247,18 +255,18 @@ Finished processing dependencies for alembic==0.7.6
 
 The following NEW packages will be INSTALLED:
 
-    mako:       1.0.1-py_0  
-    markupsafe: 0.23-py27_0 
-    openssl:    1.0.1k-1    
-    pip:        7.0.3-py27_0
-    python:     2.7.10-0    
-    readline:   6.2-2       
-    setuptools: 17.0-py27_0 
-    sqlalchemy: 1.0.4-py27_0
-    sqlite:     3.8.4.1-1   
-    system:     5.8-2       
-    tk:         8.5.18-0    
-    zlib:       1.2.8-0     
+    mako:       1.0.1-py_0   
+    markupsafe: 0.23-py27_0  
+    openssl:    1.0.1k-1     
+    pip:        7.0.3-py27_0 
+    python:     2.7.10-0     
+    readline:   6.2-2        
+    setuptools: 18.0.1-py27_0
+    sqlalchemy: 1.0.5-py27_0 
+    sqlite:     3.8.4.1-1    
+    system:     5.8-2        
+    tk:         8.5.18-0     
+    zlib:       1.2.8-0      
 
 Linking packages ...
 [                    ]|                                                  |   0%[openssl             ]|                                                  |   0%[readline            ]|####                                              |   8%[sqlite              ]|########                                          |  16%[system              ]|############                                      |  25%[tk                  ]|################                                  |  33%[zlib                ]|####################                              |  41%[markupsafe          ]|#########################                         |  50%[python              ]|#############################                     |  58%[setuptools          ]|#################################                 |  66%[sqlalchemy          ]|#####################################             |  75%[mako                ]|#########################################         |  83%[pip                 ]|#############################################     |  91%[      COMPLETE      ]|##################################################| 100%
@@ -276,6 +284,14 @@ Fixing permissions
 BUILD END: alembic-0.7.6-py_0
 TEST START: alembic-0.7.6-py_0
 Fetching package metadata: ......
+
+WARNING: conda-build appears to be out of date. You have version 1.13.0 but the
+latest version is 1.14.1. Run
+
+conda update -n root conda-build
+
+to get the latest version.
+
 Solving package specifications: .................
 Warning: 2 possible package resolutions (only showing differing packages):
 	[u'mako-1.0.1-py_0.tar.bz2'],
@@ -285,16 +301,40 @@ import: u'alembic'
 import: u'alembic.autogenerate'
 import: u'alembic.ddl'
 import: u'alembic.testing'
-Traceback (most recent call last):
-  File "/home/ubuntu/miniconda/conda-bld/test-tmp_dir/run_test.py", line 34, in <module>
-    import alembic.testing
-  File "/home/ubuntu/miniconda/envs/_test/lib/python2.7/site-packages/alembic/testing/__init__.py", line 1, in <module>
-    from .fixtures import TestBase
-  File "/home/ubuntu/miniconda/envs/_test/lib/python2.7/site-packages/alembic/testing/fixtures.py", line 16, in <module>
-    from .plugin.plugin_base import SkipTest
-  File "/home/ubuntu/miniconda/envs/_test/lib/python2.7/site-packages/alembic/testing/plugin/plugin_base.py", line 25, in <module>
-    from _pytest.runner import Skipped as SkipTest
-ImportError: No module named _pytest.runner
+import: u'alembic.testing.plugin'
+===== alembic-0.7.6-py_0 OK =====
++ alembic --help
+usage: alembic [-h] [-c CONFIG] [-n NAME] [-x X] [--raiseerr]
+               {branches,current,downgrade,heads,history,init,list_templates,merge,revision,show,stamp,upgrade}
+               ...
+
+positional arguments:
+  {branches,current,downgrade,heads,history,init,list_templates,merge,revision,show,stamp,upgrade}
+    branches            Show current branch points
+    current             Display the current revision for a database.
+    downgrade           Revert to a previous version.
+    heads               Show current available heads in the script directory
+    history             List changeset scripts in chronological order.
+    init                Initialize a new scripts directory.
+    list_templates      List available templates
+    merge               Merge two revisions together. Creates a new migration
+                        file. .. versionadded:: 0.7.0 .. seealso::
+                        :ref:`branches`
+    revision            Create a new revision file.
+    show                Show the revision(s) denoted by the given symbol.
+    stamp               'stamp' the revision table with the given revision;
+                        don't run any migrations.
+    upgrade             Upgrade to a later version.
+
+optional arguments:
+  -h, --help            show this help message and exit
+  -c CONFIG, --config CONFIG
+                        Alternate config file
+  -n NAME, --name NAME  Name of section in .ini file to use for Alembic config
+  -x X                  Additional arguments consumed by custom env.py
+                        scripts, e.g. -x setting1=somesetting -x
+                        setting2=somesetting
+  --raiseerr            Raise a full stack trace on error
 
 The following packages will be downloaded:
 
@@ -304,24 +344,33 @@ The following packages will be downloaded:
 
 The following NEW packages will be INSTALLED:
 
-    alembic:    0.7.6-py_0  
-    mako:       1.0.1-py_0  
-    markupsafe: 0.23-py27_0 
-    openssl:    1.0.1k-1    
-    pip:        7.0.3-py27_0
-    python:     2.7.10-0    
-    readline:   6.2-2       
-    setuptools: 17.0-py27_0 
-    sqlalchemy: 1.0.4-py27_0
-    sqlite:     3.8.4.1-1   
-    system:     5.8-2       
-    tk:         8.5.18-0    
-    zlib:       1.2.8-0     
+    alembic:    0.7.6-py_0   
+    mako:       1.0.1-py_0   
+    markupsafe: 0.23-py27_0  
+    mock:       1.0.1-py27_0 
+    nose:       1.3.7-py27_0 
+    openssl:    1.0.1k-1     
+    pip:        7.0.3-py27_0 
+    python:     2.7.10-0     
+    readline:   6.2-2        
+    setuptools: 18.0.1-py27_0
+    sqlalchemy: 1.0.5-py27_0 
+    sqlite:     3.8.4.1-1    
+    system:     5.8-2        
+    tk:         8.5.18-0     
+    zlib:       1.2.8-0      
 
 Fetching packages ...
-alembic-0.7.6-   0% |                              | ETA:  --:--:--   0.00  B/salembic-0.7.6-  10% |###                            | ETA:  0:00:00  45.39 MB/salembic-0.7.6-  20% |######                         | ETA:  0:00:00  56.61 MB/salembic-0.7.6-  31% |#########                      | ETA:  0:00:00  63.59 MB/salembic-0.7.6-  41% |############                   | ETA:  0:00:00  68.12 MB/salembic-0.7.6-  52% |################               | ETA:  0:00:00  71.24 MB/salembic-0.7.6-  62% |###################            | ETA:  0:00:00  73.37 MB/salembic-0.7.6-  73% |######################         | ETA:  0:00:00  75.16 MB/salembic-0.7.6-  83% |#########################      | ETA:  0:00:00  76.61 MB/salembic-0.7.6-  94% |#############################  | ETA:  0:00:00  77.57 MB/salembic-0.7.6- 100% |###############################| ETA:  0:00:00  75.77 MB/salembic-0.7.6- 100% |###############################| Time: 0:00:00  68.02 MB/s
+alembic-0.7.6-   0% |                              | ETA:  --:--:--   0.00  B/salembic-0.7.6-  10% |###                            | ETA:  0:00:00  43.22 MB/salembic-0.7.6-  20% |######                         | ETA:  0:00:00  55.62 MB/salembic-0.7.6-  31% |#########                      | ETA:  0:00:00  62.78 MB/salembic-0.7.6-  41% |############                   | ETA:  0:00:00  67.42 MB/salembic-0.7.6-  52% |################               | ETA:  0:00:00  70.86 MB/salembic-0.7.6-  62% |###################            | ETA:  0:00:00  73.47 MB/salembic-0.7.6-  73% |######################         | ETA:  0:00:00  75.10 MB/salembic-0.7.6-  83% |#########################      | ETA:  0:00:00  76.56 MB/salembic-0.7.6-  94% |#############################  | ETA:  0:00:00  77.93 MB/salembic-0.7.6- 100% |###############################| ETA:  0:00:00  76.20 MB/salembic-0.7.6- 100% |###############################| Time: 0:00:00  68.35 MB/s
 Extracting packages ...
 [      COMPLETE      ]|                                                  |   0%[alembic             ]|                                                  |   0%[alembic             ]|                                                  |   0%[      COMPLETE      ]|##################################################| 100%
 Linking packages ...
-[      COMPLETE      ]|                                                  |   0%[openssl             ]|                                                  |   0%[openssl             ]|                                                  |   0%[readline            ]|###                                               |   7%[sqlite              ]|#######                                           |  15%[system              ]|###########                                       |  23%[tk                  ]|###############                                   |  30%[zlib                ]|###################                               |  38%[markupsafe          ]|#######################                           |  46%[python              ]|##########################                        |  53%[setuptools          ]|##############################                    |  61%[sqlalchemy          ]|##################################                |  69%[mako                ]|######################################            |  76%[pip                 ]|##########################################        |  84%[alembic             ]|##############################################    |  92%[      COMPLETE      ]|##################################################| 100%
-TESTS FAILED: alembic-0.7.6-py_0
+[      COMPLETE      ]|                                                  |   0%[openssl             ]|                                                  |   0%[openssl             ]|                                                  |   0%[readline            ]|###                                               |   6%[sqlite              ]|######                                            |  13%[system              ]|##########                                        |  20%[tk                  ]|#############                                     |  26%[zlib                ]|################                                  |  33%[markupsafe          ]|####################                              |  40%[mock                ]|#######################                           |  46%[nose                ]|##########################                        |  53%[python              ]|##############################                    |  60%[setuptools          ]|#################################                 |  66%[sqlalchemy          ]|####################################              |  73%[mako                ]|########################################          |  80%[pip                 ]|###########################################       |  86%[alembic             ]|##############################################    |  93%[      COMPLETE      ]|##################################################| 100%
+TEST END: alembic-0.7.6-py_0
+# If you want to upload this package to binstar.org later, type:
+#
+# $ binstar upload /home/ubuntu/miniconda/conda-bld/noarch/alembic-0.7.6-py_0.tar.bz2
+#
+# To have conda build upload to binstar automatically, use
+# $ conda config --set binstar_upload yes
+

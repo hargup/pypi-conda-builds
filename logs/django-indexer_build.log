@@ -1,0 +1,121 @@
+Removing old build directory
+Removing old work directory
+BUILD START: django-indexer-0.3.0-py_0
+Fetching package metadata: ......
+
+WARNING: conda-build appears to be out of date. You have version 1.13.0 but the
+latest version is 1.14.1. Run
+
+conda update -n root conda-build
+
+to get the latest version.
+
+Solving package specifications: .+ /home/ubuntu/miniconda/envs/_build/bin/python setup.py install
+running install
+running bdist_egg
+running egg_info
+writing django_indexer.egg-info/PKG-INFO
+writing top-level names to django_indexer.egg-info/top_level.txt
+writing dependency_links to django_indexer.egg-info/dependency_links.txt
+reading manifest file 'django_indexer.egg-info/SOURCES.txt'
+reading manifest template 'MANIFEST.in'
+warning: no files found matching 'README.rst'
+warning: no previously-included files matching '*~' found anywhere in distribution
+writing manifest file 'django_indexer.egg-info/SOURCES.txt'
+installing library code to build/bdist.linux-x86_64/egg
+running install_lib
+running build_py
+creating build
+creating build/lib
+creating build/lib/indexer
+copying indexer/utils.py -> build/lib/indexer
+copying indexer/runtests.py -> build/lib/indexer
+copying indexer/__init__.py -> build/lib/indexer
+copying indexer/manager.py -> build/lib/indexer
+copying indexer/models.py -> build/lib/indexer
+creating build/lib/indexer/tests
+copying indexer/tests/tests.py -> build/lib/indexer/tests
+copying indexer/tests/__init__.py -> build/lib/indexer/tests
+copying indexer/tests/models.py -> build/lib/indexer/tests
+creating build/lib/indexer/migrations
+copying indexer/migrations/0001_initial.py -> build/lib/indexer/migrations
+copying indexer/migrations/__init__.py -> build/lib/indexer/migrations
+creating build/bdist.linux-x86_64
+creating build/bdist.linux-x86_64/egg
+creating build/bdist.linux-x86_64/egg/indexer
+copying build/lib/indexer/utils.py -> build/bdist.linux-x86_64/egg/indexer
+copying build/lib/indexer/runtests.py -> build/bdist.linux-x86_64/egg/indexer
+creating build/bdist.linux-x86_64/egg/indexer/tests
+copying build/lib/indexer/tests/tests.py -> build/bdist.linux-x86_64/egg/indexer/tests
+copying build/lib/indexer/tests/__init__.py -> build/bdist.linux-x86_64/egg/indexer/tests
+copying build/lib/indexer/tests/models.py -> build/bdist.linux-x86_64/egg/indexer/tests
+copying build/lib/indexer/__init__.py -> build/bdist.linux-x86_64/egg/indexer
+copying build/lib/indexer/manager.py -> build/bdist.linux-x86_64/egg/indexer
+copying build/lib/indexer/models.py -> build/bdist.linux-x86_64/egg/indexer
+creating build/bdist.linux-x86_64/egg/indexer/migrations
+copying build/lib/indexer/migrations/0001_initial.py -> build/bdist.linux-x86_64/egg/indexer/migrations
+copying build/lib/indexer/migrations/__init__.py -> build/bdist.linux-x86_64/egg/indexer/migrations
+byte-compiling build/bdist.linux-x86_64/egg/indexer/utils.py to utils.pyc
+byte-compiling build/bdist.linux-x86_64/egg/indexer/runtests.py to runtests.pyc
+byte-compiling build/bdist.linux-x86_64/egg/indexer/tests/tests.py to tests.pyc
+byte-compiling build/bdist.linux-x86_64/egg/indexer/tests/__init__.py to __init__.pyc
+byte-compiling build/bdist.linux-x86_64/egg/indexer/tests/models.py to models.pyc
+byte-compiling build/bdist.linux-x86_64/egg/indexer/__init__.py to __init__.pyc
+byte-compiling build/bdist.linux-x86_64/egg/indexer/manager.py to manager.pyc
+byte-compiling build/bdist.linux-x86_64/egg/indexer/models.py to models.pyc
+byte-compiling build/bdist.linux-x86_64/egg/indexer/migrations/0001_initial.py to 0001_initial.pyc
+byte-compiling build/bdist.linux-x86_64/egg/indexer/migrations/__init__.py to __init__.pyc
+creating build/bdist.linux-x86_64/egg/EGG-INFO
+copying django_indexer.egg-info/PKG-INFO -> build/bdist.linux-x86_64/egg/EGG-INFO
+copying django_indexer.egg-info/SOURCES.txt -> build/bdist.linux-x86_64/egg/EGG-INFO
+copying django_indexer.egg-info/dependency_links.txt -> build/bdist.linux-x86_64/egg/EGG-INFO
+copying django_indexer.egg-info/not-zip-safe -> build/bdist.linux-x86_64/egg/EGG-INFO
+copying django_indexer.egg-info/top_level.txt -> build/bdist.linux-x86_64/egg/EGG-INFO
+creating dist
+creating 'dist/django_indexer-0.3.0-py2.7.egg' and adding 'build/bdist.linux-x86_64/egg' to it
+removing 'build/bdist.linux-x86_64/egg' (and everything under it)
+Processing django_indexer-0.3.0-py2.7.egg
+creating /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/django_indexer-0.3.0-py2.7.egg
+Extracting django_indexer-0.3.0-py2.7.egg to /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages
+Adding django-indexer 0.3.0 to easy-install.pth file
+
+Installed /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/django_indexer-0.3.0-py2.7.egg
+Processing dependencies for django-indexer==0.3.0
+Finished processing dependencies for django-indexer==0.3.0
+
+The following NEW packages will be INSTALLED:
+
+    openssl:    1.0.1k-1     
+    pip:        7.0.3-py27_0 
+    python:     2.7.10-0     
+    readline:   6.2-2        
+    setuptools: 18.0.1-py27_0
+    sqlite:     3.8.4.1-1    
+    system:     5.8-2        
+    tk:         8.5.18-0     
+    zlib:       1.2.8-0      
+
+Linking packages ...
+[                    ]|                                                  |   0%[openssl             ]|                                                  |   0%[readline            ]|#####                                             |  11%[sqlite              ]|###########                                       |  22%[system              ]|################                                  |  33%[tk                  ]|######################                            |  44%[zlib                ]|###########################                       |  55%[python              ]|#################################                 |  66%[setuptools          ]|######################################            |  77%[pip                 ]|############################################      |  88%[      COMPLETE      ]|##################################################| 100%
+Removing old work directory
+Source cache directory is: /home/ubuntu/miniconda/conda-bld/src_cache
+Found source in cache: django-indexer-0.3.0.tar.gz
+Extracting download
+Package: django-indexer-0.3.0-py_0
+source tree in: /home/ubuntu/miniconda/conda-bld/work/django-indexer-0.3.0
+found egg dir: /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/django_indexer-0.3.0-py2.7.egg
+number of files: 21
+Fixing permissions
+Fixing permissions
+BUILD END: django-indexer-0.3.0-py_0
+TEST START: django-indexer-0.3.0-py_0
+Fetching package metadata: ......
+
+WARNING: conda-build appears to be out of date. You have version 1.13.0 but the
+latest version is 1.14.1. Run
+
+conda update -n root conda-build
+
+to get the latest version.
+
+Error: No packages found in current linux-64 channels matching: south

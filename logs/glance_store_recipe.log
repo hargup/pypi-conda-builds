@@ -20,19 +20,31 @@ Warning, the following versions were found for glance_store
 Using 0.6.0
 Use --version to specify a different version.
 Using url https://pypi.python.org/packages/source/g/glance_store/glance_store-0.6.0.tar.gz (104 KB) for glance_store.
-Downloading glance_store (use --no-download to skip this step)
+Downloading glance_store
 Using cached download
 Unpacking glance_store...
 done
-working in /tmp/tmpjmrLv1conda_skeleton_glance_store-0.6.0.tar.gz
+working in /tmp/tmprF0yW3conda_skeleton_glance_store-0.6.0.tar.gz
 Fetching package metadata: ......
+
+WARNING: conda-build appears to be out of date. You have version 1.13.0 but the
+latest version is 1.14.1. Run
+
+conda update -n root conda-build
+
+to get the latest version.
+
 Solving package specifications: .patching file core.py
 Hunk #1 succeeded at 168 with fuzz 2 (offset 2 lines).
-Traceback (most recent call last):
-  File "setup.py", line 18, in <module>
-    import setuptools
-ImportError: No module named setuptools
 
-Applying patch: '/tmp/tmpjmrLv1conda_skeleton_glance_store-0.6.0.tar.gz/pypi-distutils.patch'
-$PYTHONPATH = /tmp/tmpjmrLv1conda_skeleton_glance_store-0.6.0.tar.gz/glance_store-0.6.0
-Error: command failed: /home/ubuntu/miniconda/envs/_build/bin/python setup.py install
+The following NEW packages will be INSTALLED:
+
+    numpy:  1.9.2-py27_0
+    pyyaml: 3.11-py27_1 
+    yaml:   0.1.6-0     
+
+Linking packages ...
+[                    ]|                                                  |   0%[yaml                ]|                                                  |   0%[numpy               ]|################                                  |  33%[pyyaml              ]|#################################                 |  66%[      COMPLETE      ]|##################################################| 100%
+Applying patch: '/tmp/tmprF0yW3conda_skeleton_glance_store-0.6.0.tar.gz/pypi-distutils.patch'
+Writing recipe for glance_store
+Done

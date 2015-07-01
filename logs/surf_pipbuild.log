@@ -1,0 +1,12 @@
+Error: prefix already exists: /home/ubuntu/miniconda/envs/_pipbuild_
+Collecting SuRF==1.1.4-r352
+  Could not find a version that satisfies the requirement SuRF==1.1.4-r352 (from versions: )
+  Some externally hosted files were ignored as access to them may be unreliable (use --allow-external SuRF to allow).
+No matching distribution found for SuRF==1.1.4-r352
+Package search: {'_pypi_ordering': False, 'version': '1.1.4-r352', 'name': 'SuRF', 'summary': 'Object RDF Mapper'}
+Creating standard recipe for surf-1.1.4-r352
+Error: Could not parse url for SuRF: UNKNOWN
+
+conda create -n _pipbuild_ --yes python pip
+/home/ubuntu/miniconda/envs/_pipbuild_/bin/pip install SuRF==1.1.4-r352
+Error: Could not pip install SuRF==1.1.4-r352

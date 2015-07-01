@@ -1,0 +1,738 @@
+Removing old build directory
+Removing old work directory
+BUILD START: blockdiag-1.5.2-py_0
+Fetching package metadata: ......
+
+WARNING: conda-build appears to be out of date. You have version 1.13.0 but the
+latest version is 1.14.1. Run
+
+conda update -n root conda-build
+
+to get the latest version.
+
+Solving package specifications: .+ /home/ubuntu/miniconda/envs/_build/bin/python setup.py install
+running install
+running bdist_egg
+running egg_info
+writing requirements to src/blockdiag.egg-info/requires.txt
+writing src/blockdiag.egg-info/PKG-INFO
+writing top-level names to src/blockdiag.egg-info/top_level.txt
+writing dependency_links to src/blockdiag.egg-info/dependency_links.txt
+writing entry points to src/blockdiag.egg-info/entry_points.txt
+reading manifest file 'src/blockdiag.egg-info/SOURCES.txt'
+reading manifest template 'MANIFEST.in'
+warning: no previously-included files found matching '.drone.io.sh'
+warning: no previously-included files found matching 'examples/update.sh'
+writing manifest file 'src/blockdiag.egg-info/SOURCES.txt'
+installing library code to _build/bdist.linux-x86_64/egg
+running install_lib
+running build_py
+creating _build
+creating _build/lib
+copying src/blockdiag_sphinxhelper.py -> _build/lib
+creating _build/lib/blockdiag
+copying src/blockdiag/metrics.py -> _build/lib/blockdiag
+copying src/blockdiag/drawer.py -> _build/lib/blockdiag
+copying src/blockdiag/parser.py -> _build/lib/blockdiag
+copying src/blockdiag/builder.py -> _build/lib/blockdiag
+copying src/blockdiag/__init__.py -> _build/lib/blockdiag
+copying src/blockdiag/command.py -> _build/lib/blockdiag
+copying src/blockdiag/elements.py -> _build/lib/blockdiag
+creating _build/lib/blockdiag/noderenderer
+copying src/blockdiag/noderenderer/textbox.py -> _build/lib/blockdiag/noderenderer
+copying src/blockdiag/noderenderer/circle.py -> _build/lib/blockdiag/noderenderer
+copying src/blockdiag/noderenderer/minidiamond.py -> _build/lib/blockdiag/noderenderer
+copying src/blockdiag/noderenderer/cloud.py -> _build/lib/blockdiag/noderenderer
+copying src/blockdiag/noderenderer/endpoint.py -> _build/lib/blockdiag/noderenderer
+copying src/blockdiag/noderenderer/square.py -> _build/lib/blockdiag/noderenderer
+copying src/blockdiag/noderenderer/diamond.py -> _build/lib/blockdiag/noderenderer
+copying src/blockdiag/noderenderer/note.py -> _build/lib/blockdiag/noderenderer
+copying src/blockdiag/noderenderer/box.py -> _build/lib/blockdiag/noderenderer
+copying src/blockdiag/noderenderer/none.py -> _build/lib/blockdiag/noderenderer
+copying src/blockdiag/noderenderer/ellipse.py -> _build/lib/blockdiag/noderenderer
+copying src/blockdiag/noderenderer/mail.py -> _build/lib/blockdiag/noderenderer
+copying src/blockdiag/noderenderer/__init__.py -> _build/lib/blockdiag/noderenderer
+copying src/blockdiag/noderenderer/beginpoint.py -> _build/lib/blockdiag/noderenderer
+copying src/blockdiag/noderenderer/roundedbox.py -> _build/lib/blockdiag/noderenderer
+copying src/blockdiag/noderenderer/actor.py -> _build/lib/blockdiag/noderenderer
+copying src/blockdiag/noderenderer/dots.py -> _build/lib/blockdiag/noderenderer
+copying src/blockdiag/noderenderer/base.py -> _build/lib/blockdiag/noderenderer
+creating _build/lib/blockdiag/imagedraw
+copying src/blockdiag/imagedraw/svg.py -> _build/lib/blockdiag/imagedraw
+copying src/blockdiag/imagedraw/png.py -> _build/lib/blockdiag/imagedraw
+copying src/blockdiag/imagedraw/textfolder.py -> _build/lib/blockdiag/imagedraw
+copying src/blockdiag/imagedraw/__init__.py -> _build/lib/blockdiag/imagedraw
+copying src/blockdiag/imagedraw/simplesvg.py -> _build/lib/blockdiag/imagedraw
+copying src/blockdiag/imagedraw/pdf.py -> _build/lib/blockdiag/imagedraw
+copying src/blockdiag/imagedraw/base.py -> _build/lib/blockdiag/imagedraw
+creating _build/lib/blockdiag/utils
+copying src/blockdiag/utils/uuid.py -> _build/lib/blockdiag/utils
+copying src/blockdiag/utils/compat.py -> _build/lib/blockdiag/utils
+copying src/blockdiag/utils/myitertools.py -> _build/lib/blockdiag/utils
+copying src/blockdiag/utils/config.py -> _build/lib/blockdiag/utils
+copying src/blockdiag/utils/fontmap.py -> _build/lib/blockdiag/utils
+copying src/blockdiag/utils/bootstrap.py -> _build/lib/blockdiag/utils
+copying src/blockdiag/utils/urlutil.py -> _build/lib/blockdiag/utils
+copying src/blockdiag/utils/__init__.py -> _build/lib/blockdiag/utils
+copying src/blockdiag/utils/images.py -> _build/lib/blockdiag/utils
+copying src/blockdiag/utils/logging.py -> _build/lib/blockdiag/utils
+creating _build/lib/blockdiag/plugins
+copying src/blockdiag/plugins/attributes.py -> _build/lib/blockdiag/plugins
+copying src/blockdiag/plugins/__init__.py -> _build/lib/blockdiag/plugins
+copying src/blockdiag/plugins/autoclass.py -> _build/lib/blockdiag/plugins
+creating _build/lib/blockdiag/tests
+copying src/blockdiag/tests/test_boot_params.py -> _build/lib/blockdiag/tests
+copying src/blockdiag/tests/utils.py -> _build/lib/blockdiag/tests
+copying src/blockdiag/tests/test_imagedraw_utils.py -> _build/lib/blockdiag/tests
+copying src/blockdiag/tests/test_imagedraw_textfolder.py -> _build/lib/blockdiag/tests
+copying src/blockdiag/tests/test_builder.py -> _build/lib/blockdiag/tests
+copying src/blockdiag/tests/test_builder_separate.py -> _build/lib/blockdiag/tests
+copying src/blockdiag/tests/test_builder_edge.py -> _build/lib/blockdiag/tests
+copying src/blockdiag/tests/test_generate_diagram.py -> _build/lib/blockdiag/tests
+copying src/blockdiag/tests/test_parser.py -> _build/lib/blockdiag/tests
+copying src/blockdiag/tests/test_builder_errors.py -> _build/lib/blockdiag/tests
+copying src/blockdiag/tests/test_command.py -> _build/lib/blockdiag/tests
+copying src/blockdiag/tests/__init__.py -> _build/lib/blockdiag/tests
+copying src/blockdiag/tests/test_builder_group.py -> _build/lib/blockdiag/tests
+copying src/blockdiag/tests/test_builder_node.py -> _build/lib/blockdiag/tests
+copying src/blockdiag/tests/test_utils_fontmap.py -> _build/lib/blockdiag/tests
+copying src/blockdiag/tests/test_utils.py -> _build/lib/blockdiag/tests
+creating _build/lib/blockdiag/noderenderer/flowchart
+copying src/blockdiag/noderenderer/flowchart/input.py -> _build/lib/blockdiag/noderenderer/flowchart
+copying src/blockdiag/noderenderer/flowchart/terminator.py -> _build/lib/blockdiag/noderenderer/flowchart
+copying src/blockdiag/noderenderer/flowchart/loopin.py -> _build/lib/blockdiag/noderenderer/flowchart
+copying src/blockdiag/noderenderer/flowchart/database.py -> _build/lib/blockdiag/noderenderer/flowchart
+copying src/blockdiag/noderenderer/flowchart/__init__.py -> _build/lib/blockdiag/noderenderer/flowchart
+copying src/blockdiag/noderenderer/flowchart/loopout.py -> _build/lib/blockdiag/noderenderer/flowchart
+creating _build/lib/blockdiag/imagedraw/utils
+copying src/blockdiag/imagedraw/utils/pillow.py -> _build/lib/blockdiag/imagedraw/utils
+copying src/blockdiag/imagedraw/utils/ellipse.py -> _build/lib/blockdiag/imagedraw/utils
+copying src/blockdiag/imagedraw/utils/__init__.py -> _build/lib/blockdiag/imagedraw/utils
+creating _build/lib/blockdiag/imagedraw/filters
+copying src/blockdiag/imagedraw/filters/linejump.py -> _build/lib/blockdiag/imagedraw/filters
+copying src/blockdiag/imagedraw/filters/__init__.py -> _build/lib/blockdiag/imagedraw/filters
+creating _build/lib/blockdiag/utils/rst
+copying src/blockdiag/utils/rst/directives.py -> _build/lib/blockdiag/utils/rst
+copying src/blockdiag/utils/rst/nodes.py -> _build/lib/blockdiag/utils/rst
+copying src/blockdiag/utils/rst/__init__.py -> _build/lib/blockdiag/utils/rst
+creating _build/lib/blockdiag/tests/rst
+copying src/blockdiag/tests/rst/test_blockdiag_directives.py -> _build/lib/blockdiag/tests/rst
+copying src/blockdiag/tests/rst/test_base_directives.py -> _build/lib/blockdiag/tests/rst
+copying src/blockdiag/tests/rst/__init__.py -> _build/lib/blockdiag/tests/rst
+creating _build/lib/blockdiag/tests/VLGothic
+copying src/blockdiag/tests/VLGothic/LICENSE -> _build/lib/blockdiag/tests/VLGothic
+copying src/blockdiag/tests/VLGothic/LICENSE.en -> _build/lib/blockdiag/tests/VLGothic
+copying src/blockdiag/tests/VLGothic/LICENSE_E.mplus -> _build/lib/blockdiag/tests/VLGothic
+copying src/blockdiag/tests/VLGothic/LICENSE_J.mplus -> _build/lib/blockdiag/tests/VLGothic
+copying src/blockdiag/tests/VLGothic/VL-Gothic-Regular.ttf -> _build/lib/blockdiag/tests/VLGothic
+creating _build/lib/blockdiag/tests/diagrams
+copying src/blockdiag/tests/diagrams/README -> _build/lib/blockdiag/tests/diagrams
+copying src/blockdiag/tests/diagrams/auto_jumping_edge.diag -> _build/lib/blockdiag/tests/diagrams
+copying src/blockdiag/tests/diagrams/background_url_image.diag -> _build/lib/blockdiag/tests/diagrams
+copying src/blockdiag/tests/diagrams/beginpoint_color.diag -> _build/lib/blockdiag/tests/diagrams
+copying src/blockdiag/tests/diagrams/branched.diag -> _build/lib/blockdiag/tests/diagrams
+copying src/blockdiag/tests/diagrams/circular_ref.diag -> _build/lib/blockdiag/tests/diagrams
+copying src/blockdiag/tests/diagrams/circular_ref2.diag -> _build/lib/blockdiag/tests/diagrams
+copying src/blockdiag/tests/diagrams/circular_ref_and_parent_node.diag -> _build/lib/blockdiag/tests/diagrams
+copying src/blockdiag/tests/diagrams/circular_ref_to_root.diag -> _build/lib/blockdiag/tests/diagrams
+copying src/blockdiag/tests/diagrams/circular_skipped_edge.diag -> _build/lib/blockdiag/tests/diagrams
+copying src/blockdiag/tests/diagrams/debian-logo-256color-palettealpha.png -> _build/lib/blockdiag/tests/diagrams
+copying src/blockdiag/tests/diagrams/define_class.diag -> _build/lib/blockdiag/tests/diagrams
+copying src/blockdiag/tests/diagrams/diagram_attributes.diag -> _build/lib/blockdiag/tests/diagrams
+copying src/blockdiag/tests/diagrams/diagram_attributes_order.diag -> _build/lib/blockdiag/tests/diagrams
+copying src/blockdiag/tests/diagrams/diagram_orientation.diag -> _build/lib/blockdiag/tests/diagrams
+copying src/blockdiag/tests/diagrams/edge_attribute.diag -> _build/lib/blockdiag/tests/diagrams
+copying src/blockdiag/tests/diagrams/edge_datamodels.diag -> _build/lib/blockdiag/tests/diagrams
+copying src/blockdiag/tests/diagrams/edge_label.diag -> _build/lib/blockdiag/tests/diagrams
+copying src/blockdiag/tests/diagrams/edge_layout_landscape.diag -> _build/lib/blockdiag/tests/diagrams
+copying src/blockdiag/tests/diagrams/edge_layout_portrait.diag -> _build/lib/blockdiag/tests/diagrams
+copying src/blockdiag/tests/diagrams/edge_shape.diag -> _build/lib/blockdiag/tests/diagrams
+copying src/blockdiag/tests/diagrams/edge_styles.diag -> _build/lib/blockdiag/tests/diagrams
+copying src/blockdiag/tests/diagrams/empty_group.diag -> _build/lib/blockdiag/tests/diagrams
+copying src/blockdiag/tests/diagrams/empty_group_declaration.diag -> _build/lib/blockdiag/tests/diagrams
+copying src/blockdiag/tests/diagrams/empty_nested_group.diag -> _build/lib/blockdiag/tests/diagrams
+copying src/blockdiag/tests/diagrams/endpoint_color.diag -> _build/lib/blockdiag/tests/diagrams
+copying src/blockdiag/tests/diagrams/flowable_node.diag -> _build/lib/blockdiag/tests/diagrams
+copying src/blockdiag/tests/diagrams/folded_edge.diag -> _build/lib/blockdiag/tests/diagrams
+copying src/blockdiag/tests/diagrams/group_and_skipped_edge.diag -> _build/lib/blockdiag/tests/diagrams
+copying src/blockdiag/tests/diagrams/group_attribute.diag -> _build/lib/blockdiag/tests/diagrams
+copying src/blockdiag/tests/diagrams/group_children_height.diag -> _build/lib/blockdiag/tests/diagrams
+copying src/blockdiag/tests/diagrams/group_children_order.diag -> _build/lib/blockdiag/tests/diagrams
+copying src/blockdiag/tests/diagrams/group_children_order2.diag -> _build/lib/blockdiag/tests/diagrams
+copying src/blockdiag/tests/diagrams/group_children_order3.diag -> _build/lib/blockdiag/tests/diagrams
+copying src/blockdiag/tests/diagrams/group_children_order4.diag -> _build/lib/blockdiag/tests/diagrams
+copying src/blockdiag/tests/diagrams/group_declare_as_node_attribute.diag -> _build/lib/blockdiag/tests/diagrams
+copying src/blockdiag/tests/diagrams/group_height.diag -> _build/lib/blockdiag/tests/diagrams
+copying src/blockdiag/tests/diagrams/group_id_and_node_id_are_not_conflicted.diag -> _build/lib/blockdiag/tests/diagrams
+copying src/blockdiag/tests/diagrams/group_label.diag -> _build/lib/blockdiag/tests/diagrams
+copying src/blockdiag/tests/diagrams/group_order.diag -> _build/lib/blockdiag/tests/diagrams
+copying src/blockdiag/tests/diagrams/group_order2.diag -> _build/lib/blockdiag/tests/diagrams
+copying src/blockdiag/tests/diagrams/group_order3.diag -> _build/lib/blockdiag/tests/diagrams
+copying src/blockdiag/tests/diagrams/group_orientation.diag -> _build/lib/blockdiag/tests/diagrams
+copying src/blockdiag/tests/diagrams/group_sibling.diag -> _build/lib/blockdiag/tests/diagrams
+copying src/blockdiag/tests/diagrams/group_works_node_decorator.diag -> _build/lib/blockdiag/tests/diagrams
+copying src/blockdiag/tests/diagrams/labeled_circular_ref.diag -> _build/lib/blockdiag/tests/diagrams
+copying src/blockdiag/tests/diagrams/large_group_and_node.diag -> _build/lib/blockdiag/tests/diagrams
+copying src/blockdiag/tests/diagrams/large_group_and_node2.diag -> _build/lib/blockdiag/tests/diagrams
+copying src/blockdiag/tests/diagrams/large_group_and_two_nodes.diag -> _build/lib/blockdiag/tests/diagrams
+copying src/blockdiag/tests/diagrams/merge_groups.diag -> _build/lib/blockdiag/tests/diagrams
+copying src/blockdiag/tests/diagrams/multiple_groups.diag -> _build/lib/blockdiag/tests/diagrams
+copying src/blockdiag/tests/diagrams/multiple_nested_groups.diag -> _build/lib/blockdiag/tests/diagrams
+copying src/blockdiag/tests/diagrams/multiple_node_relation.diag -> _build/lib/blockdiag/tests/diagrams
+copying src/blockdiag/tests/diagrams/multiple_nodes_definition.diag -> _build/lib/blockdiag/tests/diagrams
+copying src/blockdiag/tests/diagrams/multiple_parent_node.diag -> _build/lib/blockdiag/tests/diagrams
+copying src/blockdiag/tests/diagrams/nested_group_orientation.diag -> _build/lib/blockdiag/tests/diagrams
+copying src/blockdiag/tests/diagrams/nested_group_orientation2.diag -> _build/lib/blockdiag/tests/diagrams
+copying src/blockdiag/tests/diagrams/nested_groups.diag -> _build/lib/blockdiag/tests/diagrams
+copying src/blockdiag/tests/diagrams/nested_groups_and_edges.diag -> _build/lib/blockdiag/tests/diagrams
+copying src/blockdiag/tests/diagrams/nested_groups_work_node_decorator.diag -> _build/lib/blockdiag/tests/diagrams
+copying src/blockdiag/tests/diagrams/nested_skipped_circular.diag -> _build/lib/blockdiag/tests/diagrams
+copying src/blockdiag/tests/diagrams/node_attribute.diag -> _build/lib/blockdiag/tests/diagrams
+copying src/blockdiag/tests/diagrams/node_attribute_and_group.diag -> _build/lib/blockdiag/tests/diagrams
+copying src/blockdiag/tests/diagrams/node_has_multilined_label.diag -> _build/lib/blockdiag/tests/diagrams
+copying src/blockdiag/tests/diagrams/node_height.diag -> _build/lib/blockdiag/tests/diagrams
+copying src/blockdiag/tests/diagrams/node_icon.diag -> _build/lib/blockdiag/tests/diagrams
+copying src/blockdiag/tests/diagrams/node_id_includes_dot.diag -> _build/lib/blockdiag/tests/diagrams
+copying src/blockdiag/tests/diagrams/node_in_group_follows_outer_node.diag -> _build/lib/blockdiag/tests/diagrams
+copying src/blockdiag/tests/diagrams/node_link.diag -> _build/lib/blockdiag/tests/diagrams
+copying src/blockdiag/tests/diagrams/node_rotated_labels.diag -> _build/lib/blockdiag/tests/diagrams
+copying src/blockdiag/tests/diagrams/node_shape.diag -> _build/lib/blockdiag/tests/diagrams
+copying src/blockdiag/tests/diagrams/node_shape_background.diag -> _build/lib/blockdiag/tests/diagrams
+copying src/blockdiag/tests/diagrams/node_shape_namespace.diag -> _build/lib/blockdiag/tests/diagrams
+copying src/blockdiag/tests/diagrams/node_shape_with_none_shadow.diag -> _build/lib/blockdiag/tests/diagrams
+copying src/blockdiag/tests/diagrams/node_shape_with_solid_shadow.diag -> _build/lib/blockdiag/tests/diagrams
+copying src/blockdiag/tests/diagrams/node_style_dasharray.diag -> _build/lib/blockdiag/tests/diagrams
+copying src/blockdiag/tests/diagrams/node_styles.diag -> _build/lib/blockdiag/tests/diagrams
+copying src/blockdiag/tests/diagrams/node_width_and_height.diag -> _build/lib/blockdiag/tests/diagrams
+copying src/blockdiag/tests/diagrams/non_rhombus_relation_height.diag -> _build/lib/blockdiag/tests/diagrams
+copying src/blockdiag/tests/diagrams/outer_node_follows_node_in_group.diag -> _build/lib/blockdiag/tests/diagrams
+copying src/blockdiag/tests/diagrams/plugin_attributes.diag -> _build/lib/blockdiag/tests/diagrams
+copying src/blockdiag/tests/diagrams/plugin_autoclass.diag -> _build/lib/blockdiag/tests/diagrams
+copying src/blockdiag/tests/diagrams/portrait_dots.diag -> _build/lib/blockdiag/tests/diagrams
+copying src/blockdiag/tests/diagrams/quoted_node_id.diag -> _build/lib/blockdiag/tests/diagrams
+copying src/blockdiag/tests/diagrams/reverse_multiple_groups.diag -> _build/lib/blockdiag/tests/diagrams
+copying src/blockdiag/tests/diagrams/rhombus_relation_height.diag -> _build/lib/blockdiag/tests/diagrams
+copying src/blockdiag/tests/diagrams/self_ref.diag -> _build/lib/blockdiag/tests/diagrams
+copying src/blockdiag/tests/diagrams/separate1.diag -> _build/lib/blockdiag/tests/diagrams
+copying src/blockdiag/tests/diagrams/separate2.diag -> _build/lib/blockdiag/tests/diagrams
+copying src/blockdiag/tests/diagrams/simple_group.diag -> _build/lib/blockdiag/tests/diagrams
+copying src/blockdiag/tests/diagrams/single_edge.diag -> _build/lib/blockdiag/tests/diagrams
+copying src/blockdiag/tests/diagrams/single_node.diag -> _build/lib/blockdiag/tests/diagrams
+copying src/blockdiag/tests/diagrams/skipped_circular.diag -> _build/lib/blockdiag/tests/diagrams
+copying src/blockdiag/tests/diagrams/skipped_edge.diag -> _build/lib/blockdiag/tests/diagrams
+copying src/blockdiag/tests/diagrams/skipped_edge_down.diag -> _build/lib/blockdiag/tests/diagrams
+copying src/blockdiag/tests/diagrams/skipped_edge_flowchart_rightdown.diag -> _build/lib/blockdiag/tests/diagrams
+copying src/blockdiag/tests/diagrams/skipped_edge_flowchart_rightdown2.diag -> _build/lib/blockdiag/tests/diagrams
+copying src/blockdiag/tests/diagrams/skipped_edge_leftdown.diag -> _build/lib/blockdiag/tests/diagrams
+copying src/blockdiag/tests/diagrams/skipped_edge_portrait_down.diag -> _build/lib/blockdiag/tests/diagrams
+copying src/blockdiag/tests/diagrams/skipped_edge_portrait_flowchart_rightdown.diag -> _build/lib/blockdiag/tests/diagrams
+copying src/blockdiag/tests/diagrams/skipped_edge_portrait_flowchart_rightdown2.diag -> _build/lib/blockdiag/tests/diagrams
+copying src/blockdiag/tests/diagrams/skipped_edge_portrait_leftdown.diag -> _build/lib/blockdiag/tests/diagrams
+copying src/blockdiag/tests/diagrams/skipped_edge_portrait_right.diag -> _build/lib/blockdiag/tests/diagrams
+copying src/blockdiag/tests/diagrams/skipped_edge_portrait_rightdown.diag -> _build/lib/blockdiag/tests/diagrams
+copying src/blockdiag/tests/diagrams/skipped_edge_right.diag -> _build/lib/blockdiag/tests/diagrams
+copying src/blockdiag/tests/diagrams/skipped_edge_rightdown.diag -> _build/lib/blockdiag/tests/diagrams
+copying src/blockdiag/tests/diagrams/skipped_edge_rightup.diag -> _build/lib/blockdiag/tests/diagrams
+copying src/blockdiag/tests/diagrams/skipped_edge_up.diag -> _build/lib/blockdiag/tests/diagrams
+copying src/blockdiag/tests/diagrams/skipped_twin_circular.diag -> _build/lib/blockdiag/tests/diagrams
+copying src/blockdiag/tests/diagrams/slided_children.diag -> _build/lib/blockdiag/tests/diagrams
+copying src/blockdiag/tests/diagrams/stacked_node_and_edges.diag -> _build/lib/blockdiag/tests/diagrams
+copying src/blockdiag/tests/diagrams/triple_branched.diag -> _build/lib/blockdiag/tests/diagrams
+copying src/blockdiag/tests/diagrams/twin_circular_ref.diag -> _build/lib/blockdiag/tests/diagrams
+copying src/blockdiag/tests/diagrams/twin_circular_ref_to_root.diag -> _build/lib/blockdiag/tests/diagrams
+copying src/blockdiag/tests/diagrams/twin_forked.diag -> _build/lib/blockdiag/tests/diagrams
+copying src/blockdiag/tests/diagrams/twin_multiple_parent_node.diag -> _build/lib/blockdiag/tests/diagrams
+copying src/blockdiag/tests/diagrams/two_edges.diag -> _build/lib/blockdiag/tests/diagrams
+copying src/blockdiag/tests/diagrams/white.gif -> _build/lib/blockdiag/tests/diagrams
+creating _build/lib/blockdiag/tests/diagrams/errors
+copying src/blockdiag/tests/diagrams/errors/belongs_to_two_groups.diag -> _build/lib/blockdiag/tests/diagrams/errors
+copying src/blockdiag/tests/diagrams/errors/group_follows_node.diag -> _build/lib/blockdiag/tests/diagrams/errors
+copying src/blockdiag/tests/diagrams/errors/lexer_error.diag -> _build/lib/blockdiag/tests/diagrams/errors
+copying src/blockdiag/tests/diagrams/errors/node_follows_group.diag -> _build/lib/blockdiag/tests/diagrams/errors
+copying src/blockdiag/tests/diagrams/errors/unknown_diagram_default_shape.diag -> _build/lib/blockdiag/tests/diagrams/errors
+copying src/blockdiag/tests/diagrams/errors/unknown_diagram_edge_layout.diag -> _build/lib/blockdiag/tests/diagrams/errors
+copying src/blockdiag/tests/diagrams/errors/unknown_diagram_orientation.diag -> _build/lib/blockdiag/tests/diagrams/errors
+copying src/blockdiag/tests/diagrams/errors/unknown_diagram_type.diag -> _build/lib/blockdiag/tests/diagrams/errors
+copying src/blockdiag/tests/diagrams/errors/unknown_edge_class.diag -> _build/lib/blockdiag/tests/diagrams/errors
+copying src/blockdiag/tests/diagrams/errors/unknown_edge_dir.diag -> _build/lib/blockdiag/tests/diagrams/errors
+copying src/blockdiag/tests/diagrams/errors/unknown_edge_hstyle.diag -> _build/lib/blockdiag/tests/diagrams/errors
+copying src/blockdiag/tests/diagrams/errors/unknown_edge_style.diag -> _build/lib/blockdiag/tests/diagrams/errors
+copying src/blockdiag/tests/diagrams/errors/unknown_group_class.diag -> _build/lib/blockdiag/tests/diagrams/errors
+copying src/blockdiag/tests/diagrams/errors/unknown_group_orientation.diag -> _build/lib/blockdiag/tests/diagrams/errors
+copying src/blockdiag/tests/diagrams/errors/unknown_group_shape.diag -> _build/lib/blockdiag/tests/diagrams/errors
+copying src/blockdiag/tests/diagrams/errors/unknown_node_attribute.diag -> _build/lib/blockdiag/tests/diagrams/errors
+copying src/blockdiag/tests/diagrams/errors/unknown_node_class.diag -> _build/lib/blockdiag/tests/diagrams/errors
+copying src/blockdiag/tests/diagrams/errors/unknown_node_shape.diag -> _build/lib/blockdiag/tests/diagrams/errors
+copying src/blockdiag/tests/diagrams/errors/unknown_node_style.diag -> _build/lib/blockdiag/tests/diagrams/errors
+copying src/blockdiag/tests/diagrams/errors/unknown_plugin.diag -> _build/lib/blockdiag/tests/diagrams/errors
+creating _build/bdist.linux-x86_64
+creating _build/bdist.linux-x86_64/egg
+copying _build/lib/blockdiag_sphinxhelper.py -> _build/bdist.linux-x86_64/egg
+creating _build/bdist.linux-x86_64/egg/blockdiag
+creating _build/bdist.linux-x86_64/egg/blockdiag/noderenderer
+copying _build/lib/blockdiag/noderenderer/textbox.py -> _build/bdist.linux-x86_64/egg/blockdiag/noderenderer
+copying _build/lib/blockdiag/noderenderer/circle.py -> _build/bdist.linux-x86_64/egg/blockdiag/noderenderer
+copying _build/lib/blockdiag/noderenderer/minidiamond.py -> _build/bdist.linux-x86_64/egg/blockdiag/noderenderer
+copying _build/lib/blockdiag/noderenderer/cloud.py -> _build/bdist.linux-x86_64/egg/blockdiag/noderenderer
+copying _build/lib/blockdiag/noderenderer/endpoint.py -> _build/bdist.linux-x86_64/egg/blockdiag/noderenderer
+copying _build/lib/blockdiag/noderenderer/square.py -> _build/bdist.linux-x86_64/egg/blockdiag/noderenderer
+copying _build/lib/blockdiag/noderenderer/diamond.py -> _build/bdist.linux-x86_64/egg/blockdiag/noderenderer
+copying _build/lib/blockdiag/noderenderer/note.py -> _build/bdist.linux-x86_64/egg/blockdiag/noderenderer
+copying _build/lib/blockdiag/noderenderer/box.py -> _build/bdist.linux-x86_64/egg/blockdiag/noderenderer
+copying _build/lib/blockdiag/noderenderer/none.py -> _build/bdist.linux-x86_64/egg/blockdiag/noderenderer
+copying _build/lib/blockdiag/noderenderer/ellipse.py -> _build/bdist.linux-x86_64/egg/blockdiag/noderenderer
+copying _build/lib/blockdiag/noderenderer/mail.py -> _build/bdist.linux-x86_64/egg/blockdiag/noderenderer
+copying _build/lib/blockdiag/noderenderer/__init__.py -> _build/bdist.linux-x86_64/egg/blockdiag/noderenderer
+copying _build/lib/blockdiag/noderenderer/beginpoint.py -> _build/bdist.linux-x86_64/egg/blockdiag/noderenderer
+copying _build/lib/blockdiag/noderenderer/roundedbox.py -> _build/bdist.linux-x86_64/egg/blockdiag/noderenderer
+copying _build/lib/blockdiag/noderenderer/actor.py -> _build/bdist.linux-x86_64/egg/blockdiag/noderenderer
+copying _build/lib/blockdiag/noderenderer/dots.py -> _build/bdist.linux-x86_64/egg/blockdiag/noderenderer
+copying _build/lib/blockdiag/noderenderer/base.py -> _build/bdist.linux-x86_64/egg/blockdiag/noderenderer
+creating _build/bdist.linux-x86_64/egg/blockdiag/noderenderer/flowchart
+copying _build/lib/blockdiag/noderenderer/flowchart/input.py -> _build/bdist.linux-x86_64/egg/blockdiag/noderenderer/flowchart
+copying _build/lib/blockdiag/noderenderer/flowchart/terminator.py -> _build/bdist.linux-x86_64/egg/blockdiag/noderenderer/flowchart
+copying _build/lib/blockdiag/noderenderer/flowchart/loopin.py -> _build/bdist.linux-x86_64/egg/blockdiag/noderenderer/flowchart
+copying _build/lib/blockdiag/noderenderer/flowchart/database.py -> _build/bdist.linux-x86_64/egg/blockdiag/noderenderer/flowchart
+copying _build/lib/blockdiag/noderenderer/flowchart/__init__.py -> _build/bdist.linux-x86_64/egg/blockdiag/noderenderer/flowchart
+copying _build/lib/blockdiag/noderenderer/flowchart/loopout.py -> _build/bdist.linux-x86_64/egg/blockdiag/noderenderer/flowchart
+copying _build/lib/blockdiag/metrics.py -> _build/bdist.linux-x86_64/egg/blockdiag
+creating _build/bdist.linux-x86_64/egg/blockdiag/imagedraw
+copying _build/lib/blockdiag/imagedraw/svg.py -> _build/bdist.linux-x86_64/egg/blockdiag/imagedraw
+copying _build/lib/blockdiag/imagedraw/png.py -> _build/bdist.linux-x86_64/egg/blockdiag/imagedraw
+copying _build/lib/blockdiag/imagedraw/textfolder.py -> _build/bdist.linux-x86_64/egg/blockdiag/imagedraw
+creating _build/bdist.linux-x86_64/egg/blockdiag/imagedraw/utils
+copying _build/lib/blockdiag/imagedraw/utils/pillow.py -> _build/bdist.linux-x86_64/egg/blockdiag/imagedraw/utils
+copying _build/lib/blockdiag/imagedraw/utils/ellipse.py -> _build/bdist.linux-x86_64/egg/blockdiag/imagedraw/utils
+copying _build/lib/blockdiag/imagedraw/utils/__init__.py -> _build/bdist.linux-x86_64/egg/blockdiag/imagedraw/utils
+creating _build/bdist.linux-x86_64/egg/blockdiag/imagedraw/filters
+copying _build/lib/blockdiag/imagedraw/filters/linejump.py -> _build/bdist.linux-x86_64/egg/blockdiag/imagedraw/filters
+copying _build/lib/blockdiag/imagedraw/filters/__init__.py -> _build/bdist.linux-x86_64/egg/blockdiag/imagedraw/filters
+copying _build/lib/blockdiag/imagedraw/__init__.py -> _build/bdist.linux-x86_64/egg/blockdiag/imagedraw
+copying _build/lib/blockdiag/imagedraw/simplesvg.py -> _build/bdist.linux-x86_64/egg/blockdiag/imagedraw
+copying _build/lib/blockdiag/imagedraw/pdf.py -> _build/bdist.linux-x86_64/egg/blockdiag/imagedraw
+copying _build/lib/blockdiag/imagedraw/base.py -> _build/bdist.linux-x86_64/egg/blockdiag/imagedraw
+creating _build/bdist.linux-x86_64/egg/blockdiag/utils
+copying _build/lib/blockdiag/utils/uuid.py -> _build/bdist.linux-x86_64/egg/blockdiag/utils
+copying _build/lib/blockdiag/utils/compat.py -> _build/bdist.linux-x86_64/egg/blockdiag/utils
+copying _build/lib/blockdiag/utils/myitertools.py -> _build/bdist.linux-x86_64/egg/blockdiag/utils
+copying _build/lib/blockdiag/utils/config.py -> _build/bdist.linux-x86_64/egg/blockdiag/utils
+creating _build/bdist.linux-x86_64/egg/blockdiag/utils/rst
+copying _build/lib/blockdiag/utils/rst/directives.py -> _build/bdist.linux-x86_64/egg/blockdiag/utils/rst
+copying _build/lib/blockdiag/utils/rst/nodes.py -> _build/bdist.linux-x86_64/egg/blockdiag/utils/rst
+copying _build/lib/blockdiag/utils/rst/__init__.py -> _build/bdist.linux-x86_64/egg/blockdiag/utils/rst
+copying _build/lib/blockdiag/utils/fontmap.py -> _build/bdist.linux-x86_64/egg/blockdiag/utils
+copying _build/lib/blockdiag/utils/bootstrap.py -> _build/bdist.linux-x86_64/egg/blockdiag/utils
+copying _build/lib/blockdiag/utils/urlutil.py -> _build/bdist.linux-x86_64/egg/blockdiag/utils
+copying _build/lib/blockdiag/utils/__init__.py -> _build/bdist.linux-x86_64/egg/blockdiag/utils
+copying _build/lib/blockdiag/utils/images.py -> _build/bdist.linux-x86_64/egg/blockdiag/utils
+copying _build/lib/blockdiag/utils/logging.py -> _build/bdist.linux-x86_64/egg/blockdiag/utils
+copying _build/lib/blockdiag/drawer.py -> _build/bdist.linux-x86_64/egg/blockdiag
+copying _build/lib/blockdiag/parser.py -> _build/bdist.linux-x86_64/egg/blockdiag
+creating _build/bdist.linux-x86_64/egg/blockdiag/plugins
+copying _build/lib/blockdiag/plugins/attributes.py -> _build/bdist.linux-x86_64/egg/blockdiag/plugins
+copying _build/lib/blockdiag/plugins/__init__.py -> _build/bdist.linux-x86_64/egg/blockdiag/plugins
+copying _build/lib/blockdiag/plugins/autoclass.py -> _build/bdist.linux-x86_64/egg/blockdiag/plugins
+copying _build/lib/blockdiag/builder.py -> _build/bdist.linux-x86_64/egg/blockdiag
+creating _build/bdist.linux-x86_64/egg/blockdiag/tests
+copying _build/lib/blockdiag/tests/test_boot_params.py -> _build/bdist.linux-x86_64/egg/blockdiag/tests
+copying _build/lib/blockdiag/tests/utils.py -> _build/bdist.linux-x86_64/egg/blockdiag/tests
+copying _build/lib/blockdiag/tests/test_imagedraw_utils.py -> _build/bdist.linux-x86_64/egg/blockdiag/tests
+copying _build/lib/blockdiag/tests/test_imagedraw_textfolder.py -> _build/bdist.linux-x86_64/egg/blockdiag/tests
+copying _build/lib/blockdiag/tests/test_builder.py -> _build/bdist.linux-x86_64/egg/blockdiag/tests
+copying _build/lib/blockdiag/tests/test_builder_separate.py -> _build/bdist.linux-x86_64/egg/blockdiag/tests
+creating _build/bdist.linux-x86_64/egg/blockdiag/tests/rst
+copying _build/lib/blockdiag/tests/rst/test_blockdiag_directives.py -> _build/bdist.linux-x86_64/egg/blockdiag/tests/rst
+copying _build/lib/blockdiag/tests/rst/test_base_directives.py -> _build/bdist.linux-x86_64/egg/blockdiag/tests/rst
+copying _build/lib/blockdiag/tests/rst/__init__.py -> _build/bdist.linux-x86_64/egg/blockdiag/tests/rst
+copying _build/lib/blockdiag/tests/test_builder_edge.py -> _build/bdist.linux-x86_64/egg/blockdiag/tests
+copying _build/lib/blockdiag/tests/test_generate_diagram.py -> _build/bdist.linux-x86_64/egg/blockdiag/tests
+creating _build/bdist.linux-x86_64/egg/blockdiag/tests/VLGothic
+copying _build/lib/blockdiag/tests/VLGothic/LICENSE_J.mplus -> _build/bdist.linux-x86_64/egg/blockdiag/tests/VLGothic
+copying _build/lib/blockdiag/tests/VLGothic/LICENSE.en -> _build/bdist.linux-x86_64/egg/blockdiag/tests/VLGothic
+copying _build/lib/blockdiag/tests/VLGothic/LICENSE_E.mplus -> _build/bdist.linux-x86_64/egg/blockdiag/tests/VLGothic
+copying _build/lib/blockdiag/tests/VLGothic/LICENSE -> _build/bdist.linux-x86_64/egg/blockdiag/tests/VLGothic
+copying _build/lib/blockdiag/tests/VLGothic/VL-Gothic-Regular.ttf -> _build/bdist.linux-x86_64/egg/blockdiag/tests/VLGothic
+copying _build/lib/blockdiag/tests/test_parser.py -> _build/bdist.linux-x86_64/egg/blockdiag/tests
+copying _build/lib/blockdiag/tests/test_builder_errors.py -> _build/bdist.linux-x86_64/egg/blockdiag/tests
+copying _build/lib/blockdiag/tests/test_command.py -> _build/bdist.linux-x86_64/egg/blockdiag/tests
+creating _build/bdist.linux-x86_64/egg/blockdiag/tests/diagrams
+copying _build/lib/blockdiag/tests/diagrams/nested_groups_and_edges.diag -> _build/bdist.linux-x86_64/egg/blockdiag/tests/diagrams
+copying _build/lib/blockdiag/tests/diagrams/group_order2.diag -> _build/bdist.linux-x86_64/egg/blockdiag/tests/diagrams
+copying _build/lib/blockdiag/tests/diagrams/single_edge.diag -> _build/bdist.linux-x86_64/egg/blockdiag/tests/diagrams
+copying _build/lib/blockdiag/tests/diagrams/skipped_edge_portrait_leftdown.diag -> _build/bdist.linux-x86_64/egg/blockdiag/tests/diagrams
+copying _build/lib/blockdiag/tests/diagrams/edge_datamodels.diag -> _build/bdist.linux-x86_64/egg/blockdiag/tests/diagrams
+copying _build/lib/blockdiag/tests/diagrams/node_in_group_follows_outer_node.diag -> _build/bdist.linux-x86_64/egg/blockdiag/tests/diagrams
+copying _build/lib/blockdiag/tests/diagrams/skipped_edge_flowchart_rightdown2.diag -> _build/bdist.linux-x86_64/egg/blockdiag/tests/diagrams
+copying _build/lib/blockdiag/tests/diagrams/group_label.diag -> _build/bdist.linux-x86_64/egg/blockdiag/tests/diagrams
+copying _build/lib/blockdiag/tests/diagrams/skipped_twin_circular.diag -> _build/bdist.linux-x86_64/egg/blockdiag/tests/diagrams
+copying _build/lib/blockdiag/tests/diagrams/debian-logo-256color-palettealpha.png -> _build/bdist.linux-x86_64/egg/blockdiag/tests/diagrams
+copying _build/lib/blockdiag/tests/diagrams/nested_groups.diag -> _build/bdist.linux-x86_64/egg/blockdiag/tests/diagrams
+copying _build/lib/blockdiag/tests/diagrams/skipped_edge_flowchart_rightdown.diag -> _build/bdist.linux-x86_64/egg/blockdiag/tests/diagrams
+copying _build/lib/blockdiag/tests/diagrams/node_icon.diag -> _build/bdist.linux-x86_64/egg/blockdiag/tests/diagrams
+copying _build/lib/blockdiag/tests/diagrams/self_ref.diag -> _build/bdist.linux-x86_64/egg/blockdiag/tests/diagrams
+copying _build/lib/blockdiag/tests/diagrams/nested_groups_work_node_decorator.diag -> _build/bdist.linux-x86_64/egg/blockdiag/tests/diagrams
+copying _build/lib/blockdiag/tests/diagrams/skipped_edge_portrait_flowchart_rightdown.diag -> _build/bdist.linux-x86_64/egg/blockdiag/tests/diagrams
+copying _build/lib/blockdiag/tests/diagrams/twin_circular_ref.diag -> _build/bdist.linux-x86_64/egg/blockdiag/tests/diagrams
+copying _build/lib/blockdiag/tests/diagrams/node_shape.diag -> _build/bdist.linux-x86_64/egg/blockdiag/tests/diagrams
+copying _build/lib/blockdiag/tests/diagrams/edge_attribute.diag -> _build/bdist.linux-x86_64/egg/blockdiag/tests/diagrams
+copying _build/lib/blockdiag/tests/diagrams/empty_group.diag -> _build/bdist.linux-x86_64/egg/blockdiag/tests/diagrams
+copying _build/lib/blockdiag/tests/diagrams/two_edges.diag -> _build/bdist.linux-x86_64/egg/blockdiag/tests/diagrams
+copying _build/lib/blockdiag/tests/diagrams/circular_ref_to_root.diag -> _build/bdist.linux-x86_64/egg/blockdiag/tests/diagrams
+copying _build/lib/blockdiag/tests/diagrams/rhombus_relation_height.diag -> _build/bdist.linux-x86_64/egg/blockdiag/tests/diagrams
+copying _build/lib/blockdiag/tests/diagrams/empty_nested_group.diag -> _build/bdist.linux-x86_64/egg/blockdiag/tests/diagrams
+copying _build/lib/blockdiag/tests/diagrams/skipped_edge_leftdown.diag -> _build/bdist.linux-x86_64/egg/blockdiag/tests/diagrams
+copying _build/lib/blockdiag/tests/diagrams/skipped_edge_rightdown.diag -> _build/bdist.linux-x86_64/egg/blockdiag/tests/diagrams
+copying _build/lib/blockdiag/tests/diagrams/flowable_node.diag -> _build/bdist.linux-x86_64/egg/blockdiag/tests/diagrams
+copying _build/lib/blockdiag/tests/diagrams/merge_groups.diag -> _build/bdist.linux-x86_64/egg/blockdiag/tests/diagrams
+copying _build/lib/blockdiag/tests/diagrams/background_url_image.diag -> _build/bdist.linux-x86_64/egg/blockdiag/tests/diagrams
+copying _build/lib/blockdiag/tests/diagrams/skipped_edge_portrait_rightdown.diag -> _build/bdist.linux-x86_64/egg/blockdiag/tests/diagrams
+copying _build/lib/blockdiag/tests/diagrams/empty_group_declaration.diag -> _build/bdist.linux-x86_64/egg/blockdiag/tests/diagrams
+copying _build/lib/blockdiag/tests/diagrams/group_children_height.diag -> _build/bdist.linux-x86_64/egg/blockdiag/tests/diagrams
+copying _build/lib/blockdiag/tests/diagrams/node_shape_with_none_shadow.diag -> _build/bdist.linux-x86_64/egg/blockdiag/tests/diagrams
+copying _build/lib/blockdiag/tests/diagrams/circular_ref.diag -> _build/bdist.linux-x86_64/egg/blockdiag/tests/diagrams
+creating _build/bdist.linux-x86_64/egg/blockdiag/tests/diagrams/errors
+copying _build/lib/blockdiag/tests/diagrams/errors/unknown_node_shape.diag -> _build/bdist.linux-x86_64/egg/blockdiag/tests/diagrams/errors
+copying _build/lib/blockdiag/tests/diagrams/errors/unknown_node_style.diag -> _build/bdist.linux-x86_64/egg/blockdiag/tests/diagrams/errors
+copying _build/lib/blockdiag/tests/diagrams/errors/group_follows_node.diag -> _build/bdist.linux-x86_64/egg/blockdiag/tests/diagrams/errors
+copying _build/lib/blockdiag/tests/diagrams/errors/unknown_diagram_edge_layout.diag -> _build/bdist.linux-x86_64/egg/blockdiag/tests/diagrams/errors
+copying _build/lib/blockdiag/tests/diagrams/errors/unknown_edge_style.diag -> _build/bdist.linux-x86_64/egg/blockdiag/tests/diagrams/errors
+copying _build/lib/blockdiag/tests/diagrams/errors/unknown_diagram_type.diag -> _build/bdist.linux-x86_64/egg/blockdiag/tests/diagrams/errors
+copying _build/lib/blockdiag/tests/diagrams/errors/unknown_edge_dir.diag -> _build/bdist.linux-x86_64/egg/blockdiag/tests/diagrams/errors
+copying _build/lib/blockdiag/tests/diagrams/errors/belongs_to_two_groups.diag -> _build/bdist.linux-x86_64/egg/blockdiag/tests/diagrams/errors
+copying _build/lib/blockdiag/tests/diagrams/errors/unknown_plugin.diag -> _build/bdist.linux-x86_64/egg/blockdiag/tests/diagrams/errors
+copying _build/lib/blockdiag/tests/diagrams/errors/node_follows_group.diag -> _build/bdist.linux-x86_64/egg/blockdiag/tests/diagrams/errors
+copying _build/lib/blockdiag/tests/diagrams/errors/unknown_edge_class.diag -> _build/bdist.linux-x86_64/egg/blockdiag/tests/diagrams/errors
+copying _build/lib/blockdiag/tests/diagrams/errors/unknown_node_attribute.diag -> _build/bdist.linux-x86_64/egg/blockdiag/tests/diagrams/errors
+copying _build/lib/blockdiag/tests/diagrams/errors/unknown_group_orientation.diag -> _build/bdist.linux-x86_64/egg/blockdiag/tests/diagrams/errors
+copying _build/lib/blockdiag/tests/diagrams/errors/unknown_group_shape.diag -> _build/bdist.linux-x86_64/egg/blockdiag/tests/diagrams/errors
+copying _build/lib/blockdiag/tests/diagrams/errors/lexer_error.diag -> _build/bdist.linux-x86_64/egg/blockdiag/tests/diagrams/errors
+copying _build/lib/blockdiag/tests/diagrams/errors/unknown_diagram_orientation.diag -> _build/bdist.linux-x86_64/egg/blockdiag/tests/diagrams/errors
+copying _build/lib/blockdiag/tests/diagrams/errors/unknown_node_class.diag -> _build/bdist.linux-x86_64/egg/blockdiag/tests/diagrams/errors
+copying _build/lib/blockdiag/tests/diagrams/errors/unknown_group_class.diag -> _build/bdist.linux-x86_64/egg/blockdiag/tests/diagrams/errors
+copying _build/lib/blockdiag/tests/diagrams/errors/unknown_edge_hstyle.diag -> _build/bdist.linux-x86_64/egg/blockdiag/tests/diagrams/errors
+copying _build/lib/blockdiag/tests/diagrams/errors/unknown_diagram_default_shape.diag -> _build/bdist.linux-x86_64/egg/blockdiag/tests/diagrams/errors
+copying _build/lib/blockdiag/tests/diagrams/node_link.diag -> _build/bdist.linux-x86_64/egg/blockdiag/tests/diagrams
+copying _build/lib/blockdiag/tests/diagrams/node_shape_with_solid_shadow.diag -> _build/bdist.linux-x86_64/egg/blockdiag/tests/diagrams
+copying _build/lib/blockdiag/tests/diagrams/group_sibling.diag -> _build/bdist.linux-x86_64/egg/blockdiag/tests/diagrams
+copying _build/lib/blockdiag/tests/diagrams/endpoint_color.diag -> _build/bdist.linux-x86_64/egg/blockdiag/tests/diagrams
+copying _build/lib/blockdiag/tests/diagrams/skipped_edge_up.diag -> _build/bdist.linux-x86_64/egg/blockdiag/tests/diagrams
+copying _build/lib/blockdiag/tests/diagrams/define_class.diag -> _build/bdist.linux-x86_64/egg/blockdiag/tests/diagrams
+copying _build/lib/blockdiag/tests/diagrams/edge_layout_landscape.diag -> _build/bdist.linux-x86_64/egg/blockdiag/tests/diagrams
+copying _build/lib/blockdiag/tests/diagrams/skipped_edge_portrait_flowchart_rightdown2.diag -> _build/bdist.linux-x86_64/egg/blockdiag/tests/diagrams
+copying _build/lib/blockdiag/tests/diagrams/circular_ref_and_parent_node.diag -> _build/bdist.linux-x86_64/egg/blockdiag/tests/diagrams
+copying _build/lib/blockdiag/tests/diagrams/white.gif -> _build/bdist.linux-x86_64/egg/blockdiag/tests/diagrams
+copying _build/lib/blockdiag/tests/diagrams/diagram_orientation.diag -> _build/bdist.linux-x86_64/egg/blockdiag/tests/diagrams
+copying _build/lib/blockdiag/tests/diagrams/skipped_edge_portrait_down.diag -> _build/bdist.linux-x86_64/egg/blockdiag/tests/diagrams
+copying _build/lib/blockdiag/tests/diagrams/multiple_node_relation.diag -> _build/bdist.linux-x86_64/egg/blockdiag/tests/diagrams
+copying _build/lib/blockdiag/tests/diagrams/group_order3.diag -> _build/bdist.linux-x86_64/egg/blockdiag/tests/diagrams
+copying _build/lib/blockdiag/tests/diagrams/group_declare_as_node_attribute.diag -> _build/bdist.linux-x86_64/egg/blockdiag/tests/diagrams
+copying _build/lib/blockdiag/tests/diagrams/group_and_skipped_edge.diag -> _build/bdist.linux-x86_64/egg/blockdiag/tests/diagrams
+copying _build/lib/blockdiag/tests/diagrams/circular_skipped_edge.diag -> _build/bdist.linux-x86_64/egg/blockdiag/tests/diagrams
+copying _build/lib/blockdiag/tests/diagrams/skipped_circular.diag -> _build/bdist.linux-x86_64/egg/blockdiag/tests/diagrams
+copying _build/lib/blockdiag/tests/diagrams/diagram_attributes_order.diag -> _build/bdist.linux-x86_64/egg/blockdiag/tests/diagrams
+copying _build/lib/blockdiag/tests/diagrams/plugin_autoclass.diag -> _build/bdist.linux-x86_64/egg/blockdiag/tests/diagrams
+copying _build/lib/blockdiag/tests/diagrams/group_height.diag -> _build/bdist.linux-x86_64/egg/blockdiag/tests/diagrams
+copying _build/lib/blockdiag/tests/diagrams/skipped_edge_down.diag -> _build/bdist.linux-x86_64/egg/blockdiag/tests/diagrams
+copying _build/lib/blockdiag/tests/diagrams/edge_styles.diag -> _build/bdist.linux-x86_64/egg/blockdiag/tests/diagrams
+copying _build/lib/blockdiag/tests/diagrams/node_shape_background.diag -> _build/bdist.linux-x86_64/egg/blockdiag/tests/diagrams
+copying _build/lib/blockdiag/tests/diagrams/multiple_groups.diag -> _build/bdist.linux-x86_64/egg/blockdiag/tests/diagrams
+copying _build/lib/blockdiag/tests/diagrams/beginpoint_color.diag -> _build/bdist.linux-x86_64/egg/blockdiag/tests/diagrams
+copying _build/lib/blockdiag/tests/diagrams/plugin_attributes.diag -> _build/bdist.linux-x86_64/egg/blockdiag/tests/diagrams
+copying _build/lib/blockdiag/tests/diagrams/nested_group_orientation2.diag -> _build/bdist.linux-x86_64/egg/blockdiag/tests/diagrams
+copying _build/lib/blockdiag/tests/diagrams/edge_shape.diag -> _build/bdist.linux-x86_64/egg/blockdiag/tests/diagrams
+copying _build/lib/blockdiag/tests/diagrams/triple_branched.diag -> _build/bdist.linux-x86_64/egg/blockdiag/tests/diagrams
+copying _build/lib/blockdiag/tests/diagrams/reverse_multiple_groups.diag -> _build/bdist.linux-x86_64/egg/blockdiag/tests/diagrams
+copying _build/lib/blockdiag/tests/diagrams/group_order.diag -> _build/bdist.linux-x86_64/egg/blockdiag/tests/diagrams
+copying _build/lib/blockdiag/tests/diagrams/slided_children.diag -> _build/bdist.linux-x86_64/egg/blockdiag/tests/diagrams
+copying _build/lib/blockdiag/tests/diagrams/folded_edge.diag -> _build/bdist.linux-x86_64/egg/blockdiag/tests/diagrams
+copying _build/lib/blockdiag/tests/diagrams/nested_group_orientation.diag -> _build/bdist.linux-x86_64/egg/blockdiag/tests/diagrams
+copying _build/lib/blockdiag/tests/diagrams/non_rhombus_relation_height.diag -> _build/bdist.linux-x86_64/egg/blockdiag/tests/diagrams
+copying _build/lib/blockdiag/tests/diagrams/group_children_order2.diag -> _build/bdist.linux-x86_64/egg/blockdiag/tests/diagrams
+copying _build/lib/blockdiag/tests/diagrams/nested_skipped_circular.diag -> _build/bdist.linux-x86_64/egg/blockdiag/tests/diagrams
+copying _build/lib/blockdiag/tests/diagrams/group_orientation.diag -> _build/bdist.linux-x86_64/egg/blockdiag/tests/diagrams
+copying _build/lib/blockdiag/tests/diagrams/quoted_node_id.diag -> _build/bdist.linux-x86_64/egg/blockdiag/tests/diagrams
+copying _build/lib/blockdiag/tests/diagrams/skipped_edge_rightup.diag -> _build/bdist.linux-x86_64/egg/blockdiag/tests/diagrams
+copying _build/lib/blockdiag/tests/diagrams/node_style_dasharray.diag -> _build/bdist.linux-x86_64/egg/blockdiag/tests/diagrams
+copying _build/lib/blockdiag/tests/diagrams/multiple_parent_node.diag -> _build/bdist.linux-x86_64/egg/blockdiag/tests/diagrams
+copying _build/lib/blockdiag/tests/diagrams/node_id_includes_dot.diag -> _build/bdist.linux-x86_64/egg/blockdiag/tests/diagrams
+copying _build/lib/blockdiag/tests/diagrams/group_children_order.diag -> _build/bdist.linux-x86_64/egg/blockdiag/tests/diagrams
+copying _build/lib/blockdiag/tests/diagrams/multiple_nodes_definition.diag -> _build/bdist.linux-x86_64/egg/blockdiag/tests/diagrams
+copying _build/lib/blockdiag/tests/diagrams/separate2.diag -> _build/bdist.linux-x86_64/egg/blockdiag/tests/diagrams
+copying _build/lib/blockdiag/tests/diagrams/skipped_edge_right.diag -> _build/bdist.linux-x86_64/egg/blockdiag/tests/diagrams
+copying _build/lib/blockdiag/tests/diagrams/node_height.diag -> _build/bdist.linux-x86_64/egg/blockdiag/tests/diagrams
+copying _build/lib/blockdiag/tests/diagrams/twin_circular_ref_to_root.diag -> _build/bdist.linux-x86_64/egg/blockdiag/tests/diagrams
+copying _build/lib/blockdiag/tests/diagrams/node_attribute_and_group.diag -> _build/bdist.linux-x86_64/egg/blockdiag/tests/diagrams
+copying _build/lib/blockdiag/tests/diagrams/node_has_multilined_label.diag -> _build/bdist.linux-x86_64/egg/blockdiag/tests/diagrams
+copying _build/lib/blockdiag/tests/diagrams/stacked_node_and_edges.diag -> _build/bdist.linux-x86_64/egg/blockdiag/tests/diagrams
+copying _build/lib/blockdiag/tests/diagrams/large_group_and_two_nodes.diag -> _build/bdist.linux-x86_64/egg/blockdiag/tests/diagrams
+copying _build/lib/blockdiag/tests/diagrams/skipped_edge_portrait_right.diag -> _build/bdist.linux-x86_64/egg/blockdiag/tests/diagrams
+copying _build/lib/blockdiag/tests/diagrams/node_styles.diag -> _build/bdist.linux-x86_64/egg/blockdiag/tests/diagrams
+copying _build/lib/blockdiag/tests/diagrams/auto_jumping_edge.diag -> _build/bdist.linux-x86_64/egg/blockdiag/tests/diagrams
+copying _build/lib/blockdiag/tests/diagrams/circular_ref2.diag -> _build/bdist.linux-x86_64/egg/blockdiag/tests/diagrams
+copying _build/lib/blockdiag/tests/diagrams/twin_multiple_parent_node.diag -> _build/bdist.linux-x86_64/egg/blockdiag/tests/diagrams
+copying _build/lib/blockdiag/tests/diagrams/group_attribute.diag -> _build/bdist.linux-x86_64/egg/blockdiag/tests/diagrams
+copying _build/lib/blockdiag/tests/diagrams/node_attribute.diag -> _build/bdist.linux-x86_64/egg/blockdiag/tests/diagrams
+copying _build/lib/blockdiag/tests/diagrams/group_id_and_node_id_are_not_conflicted.diag -> _build/bdist.linux-x86_64/egg/blockdiag/tests/diagrams
+copying _build/lib/blockdiag/tests/diagrams/group_works_node_decorator.diag -> _build/bdist.linux-x86_64/egg/blockdiag/tests/diagrams
+copying _build/lib/blockdiag/tests/diagrams/single_node.diag -> _build/bdist.linux-x86_64/egg/blockdiag/tests/diagrams
+copying _build/lib/blockdiag/tests/diagrams/skipped_edge.diag -> _build/bdist.linux-x86_64/egg/blockdiag/tests/diagrams
+copying _build/lib/blockdiag/tests/diagrams/diagram_attributes.diag -> _build/bdist.linux-x86_64/egg/blockdiag/tests/diagrams
+copying _build/lib/blockdiag/tests/diagrams/outer_node_follows_node_in_group.diag -> _build/bdist.linux-x86_64/egg/blockdiag/tests/diagrams
+copying _build/lib/blockdiag/tests/diagrams/node_width_and_height.diag -> _build/bdist.linux-x86_64/egg/blockdiag/tests/diagrams
+copying _build/lib/blockdiag/tests/diagrams/twin_forked.diag -> _build/bdist.linux-x86_64/egg/blockdiag/tests/diagrams
+copying _build/lib/blockdiag/tests/diagrams/node_rotated_labels.diag -> _build/bdist.linux-x86_64/egg/blockdiag/tests/diagrams
+copying _build/lib/blockdiag/tests/diagrams/multiple_nested_groups.diag -> _build/bdist.linux-x86_64/egg/blockdiag/tests/diagrams
+copying _build/lib/blockdiag/tests/diagrams/edge_label.diag -> _build/bdist.linux-x86_64/egg/blockdiag/tests/diagrams
+copying _build/lib/blockdiag/tests/diagrams/edge_layout_portrait.diag -> _build/bdist.linux-x86_64/egg/blockdiag/tests/diagrams
+copying _build/lib/blockdiag/tests/diagrams/labeled_circular_ref.diag -> _build/bdist.linux-x86_64/egg/blockdiag/tests/diagrams
+copying _build/lib/blockdiag/tests/diagrams/large_group_and_node.diag -> _build/bdist.linux-x86_64/egg/blockdiag/tests/diagrams
+copying _build/lib/blockdiag/tests/diagrams/branched.diag -> _build/bdist.linux-x86_64/egg/blockdiag/tests/diagrams
+copying _build/lib/blockdiag/tests/diagrams/portrait_dots.diag -> _build/bdist.linux-x86_64/egg/blockdiag/tests/diagrams
+copying _build/lib/blockdiag/tests/diagrams/group_children_order4.diag -> _build/bdist.linux-x86_64/egg/blockdiag/tests/diagrams
+copying _build/lib/blockdiag/tests/diagrams/node_shape_namespace.diag -> _build/bdist.linux-x86_64/egg/blockdiag/tests/diagrams
+copying _build/lib/blockdiag/tests/diagrams/large_group_and_node2.diag -> _build/bdist.linux-x86_64/egg/blockdiag/tests/diagrams
+copying _build/lib/blockdiag/tests/diagrams/README -> _build/bdist.linux-x86_64/egg/blockdiag/tests/diagrams
+copying _build/lib/blockdiag/tests/diagrams/separate1.diag -> _build/bdist.linux-x86_64/egg/blockdiag/tests/diagrams
+copying _build/lib/blockdiag/tests/diagrams/group_children_order3.diag -> _build/bdist.linux-x86_64/egg/blockdiag/tests/diagrams
+copying _build/lib/blockdiag/tests/diagrams/simple_group.diag -> _build/bdist.linux-x86_64/egg/blockdiag/tests/diagrams
+copying _build/lib/blockdiag/tests/__init__.py -> _build/bdist.linux-x86_64/egg/blockdiag/tests
+copying _build/lib/blockdiag/tests/test_builder_group.py -> _build/bdist.linux-x86_64/egg/blockdiag/tests
+copying _build/lib/blockdiag/tests/test_builder_node.py -> _build/bdist.linux-x86_64/egg/blockdiag/tests
+copying _build/lib/blockdiag/tests/test_utils_fontmap.py -> _build/bdist.linux-x86_64/egg/blockdiag/tests
+copying _build/lib/blockdiag/tests/test_utils.py -> _build/bdist.linux-x86_64/egg/blockdiag/tests
+copying _build/lib/blockdiag/__init__.py -> _build/bdist.linux-x86_64/egg/blockdiag
+copying _build/lib/blockdiag/command.py -> _build/bdist.linux-x86_64/egg/blockdiag
+copying _build/lib/blockdiag/elements.py -> _build/bdist.linux-x86_64/egg/blockdiag
+byte-compiling _build/bdist.linux-x86_64/egg/blockdiag_sphinxhelper.py to blockdiag_sphinxhelper.pyc
+byte-compiling _build/bdist.linux-x86_64/egg/blockdiag/noderenderer/textbox.py to textbox.pyc
+byte-compiling _build/bdist.linux-x86_64/egg/blockdiag/noderenderer/circle.py to circle.pyc
+byte-compiling _build/bdist.linux-x86_64/egg/blockdiag/noderenderer/minidiamond.py to minidiamond.pyc
+byte-compiling _build/bdist.linux-x86_64/egg/blockdiag/noderenderer/cloud.py to cloud.pyc
+byte-compiling _build/bdist.linux-x86_64/egg/blockdiag/noderenderer/endpoint.py to endpoint.pyc
+byte-compiling _build/bdist.linux-x86_64/egg/blockdiag/noderenderer/square.py to square.pyc
+byte-compiling _build/bdist.linux-x86_64/egg/blockdiag/noderenderer/diamond.py to diamond.pyc
+byte-compiling _build/bdist.linux-x86_64/egg/blockdiag/noderenderer/note.py to note.pyc
+byte-compiling _build/bdist.linux-x86_64/egg/blockdiag/noderenderer/box.py to box.pyc
+byte-compiling _build/bdist.linux-x86_64/egg/blockdiag/noderenderer/none.py to none.pyc
+byte-compiling _build/bdist.linux-x86_64/egg/blockdiag/noderenderer/ellipse.py to ellipse.pyc
+byte-compiling _build/bdist.linux-x86_64/egg/blockdiag/noderenderer/mail.py to mail.pyc
+byte-compiling _build/bdist.linux-x86_64/egg/blockdiag/noderenderer/__init__.py to __init__.pyc
+byte-compiling _build/bdist.linux-x86_64/egg/blockdiag/noderenderer/beginpoint.py to beginpoint.pyc
+byte-compiling _build/bdist.linux-x86_64/egg/blockdiag/noderenderer/roundedbox.py to roundedbox.pyc
+byte-compiling _build/bdist.linux-x86_64/egg/blockdiag/noderenderer/actor.py to actor.pyc
+byte-compiling _build/bdist.linux-x86_64/egg/blockdiag/noderenderer/dots.py to dots.pyc
+byte-compiling _build/bdist.linux-x86_64/egg/blockdiag/noderenderer/base.py to base.pyc
+byte-compiling _build/bdist.linux-x86_64/egg/blockdiag/noderenderer/flowchart/input.py to input.pyc
+byte-compiling _build/bdist.linux-x86_64/egg/blockdiag/noderenderer/flowchart/terminator.py to terminator.pyc
+byte-compiling _build/bdist.linux-x86_64/egg/blockdiag/noderenderer/flowchart/loopin.py to loopin.pyc
+byte-compiling _build/bdist.linux-x86_64/egg/blockdiag/noderenderer/flowchart/database.py to database.pyc
+byte-compiling _build/bdist.linux-x86_64/egg/blockdiag/noderenderer/flowchart/__init__.py to __init__.pyc
+byte-compiling _build/bdist.linux-x86_64/egg/blockdiag/noderenderer/flowchart/loopout.py to loopout.pyc
+byte-compiling _build/bdist.linux-x86_64/egg/blockdiag/metrics.py to metrics.pyc
+byte-compiling _build/bdist.linux-x86_64/egg/blockdiag/imagedraw/svg.py to svg.pyc
+byte-compiling _build/bdist.linux-x86_64/egg/blockdiag/imagedraw/png.py to png.pyc
+byte-compiling _build/bdist.linux-x86_64/egg/blockdiag/imagedraw/textfolder.py to textfolder.pyc
+byte-compiling _build/bdist.linux-x86_64/egg/blockdiag/imagedraw/utils/pillow.py to pillow.pyc
+byte-compiling _build/bdist.linux-x86_64/egg/blockdiag/imagedraw/utils/ellipse.py to ellipse.pyc
+byte-compiling _build/bdist.linux-x86_64/egg/blockdiag/imagedraw/utils/__init__.py to __init__.pyc
+byte-compiling _build/bdist.linux-x86_64/egg/blockdiag/imagedraw/filters/linejump.py to linejump.pyc
+byte-compiling _build/bdist.linux-x86_64/egg/blockdiag/imagedraw/filters/__init__.py to __init__.pyc
+byte-compiling _build/bdist.linux-x86_64/egg/blockdiag/imagedraw/__init__.py to __init__.pyc
+byte-compiling _build/bdist.linux-x86_64/egg/blockdiag/imagedraw/simplesvg.py to simplesvg.pyc
+byte-compiling _build/bdist.linux-x86_64/egg/blockdiag/imagedraw/pdf.py to pdf.pyc
+byte-compiling _build/bdist.linux-x86_64/egg/blockdiag/imagedraw/base.py to base.pyc
+byte-compiling _build/bdist.linux-x86_64/egg/blockdiag/utils/uuid.py to uuid.pyc
+byte-compiling _build/bdist.linux-x86_64/egg/blockdiag/utils/compat.py to compat.pyc
+byte-compiling _build/bdist.linux-x86_64/egg/blockdiag/utils/myitertools.py to myitertools.pyc
+byte-compiling _build/bdist.linux-x86_64/egg/blockdiag/utils/config.py to config.pyc
+byte-compiling _build/bdist.linux-x86_64/egg/blockdiag/utils/rst/directives.py to directives.pyc
+byte-compiling _build/bdist.linux-x86_64/egg/blockdiag/utils/rst/nodes.py to nodes.pyc
+byte-compiling _build/bdist.linux-x86_64/egg/blockdiag/utils/rst/__init__.py to __init__.pyc
+byte-compiling _build/bdist.linux-x86_64/egg/blockdiag/utils/fontmap.py to fontmap.pyc
+byte-compiling _build/bdist.linux-x86_64/egg/blockdiag/utils/bootstrap.py to bootstrap.pyc
+byte-compiling _build/bdist.linux-x86_64/egg/blockdiag/utils/urlutil.py to urlutil.pyc
+byte-compiling _build/bdist.linux-x86_64/egg/blockdiag/utils/__init__.py to __init__.pyc
+byte-compiling _build/bdist.linux-x86_64/egg/blockdiag/utils/images.py to images.pyc
+byte-compiling _build/bdist.linux-x86_64/egg/blockdiag/utils/logging.py to logging.pyc
+byte-compiling _build/bdist.linux-x86_64/egg/blockdiag/drawer.py to drawer.pyc
+byte-compiling _build/bdist.linux-x86_64/egg/blockdiag/parser.py to parser.pyc
+byte-compiling _build/bdist.linux-x86_64/egg/blockdiag/plugins/attributes.py to attributes.pyc
+byte-compiling _build/bdist.linux-x86_64/egg/blockdiag/plugins/__init__.py to __init__.pyc
+byte-compiling _build/bdist.linux-x86_64/egg/blockdiag/plugins/autoclass.py to autoclass.pyc
+byte-compiling _build/bdist.linux-x86_64/egg/blockdiag/builder.py to builder.pyc
+byte-compiling _build/bdist.linux-x86_64/egg/blockdiag/tests/test_boot_params.py to test_boot_params.pyc
+byte-compiling _build/bdist.linux-x86_64/egg/blockdiag/tests/utils.py to utils.pyc
+byte-compiling _build/bdist.linux-x86_64/egg/blockdiag/tests/test_imagedraw_utils.py to test_imagedraw_utils.pyc
+byte-compiling _build/bdist.linux-x86_64/egg/blockdiag/tests/test_imagedraw_textfolder.py to test_imagedraw_textfolder.pyc
+byte-compiling _build/bdist.linux-x86_64/egg/blockdiag/tests/test_builder.py to test_builder.pyc
+byte-compiling _build/bdist.linux-x86_64/egg/blockdiag/tests/test_builder_separate.py to test_builder_separate.pyc
+byte-compiling _build/bdist.linux-x86_64/egg/blockdiag/tests/rst/test_blockdiag_directives.py to test_blockdiag_directives.pyc
+byte-compiling _build/bdist.linux-x86_64/egg/blockdiag/tests/rst/test_base_directives.py to test_base_directives.pyc
+byte-compiling _build/bdist.linux-x86_64/egg/blockdiag/tests/rst/__init__.py to __init__.pyc
+byte-compiling _build/bdist.linux-x86_64/egg/blockdiag/tests/test_builder_edge.py to test_builder_edge.pyc
+byte-compiling _build/bdist.linux-x86_64/egg/blockdiag/tests/test_generate_diagram.py to test_generate_diagram.pyc
+byte-compiling _build/bdist.linux-x86_64/egg/blockdiag/tests/test_parser.py to test_parser.pyc
+byte-compiling _build/bdist.linux-x86_64/egg/blockdiag/tests/test_builder_errors.py to test_builder_errors.pyc
+byte-compiling _build/bdist.linux-x86_64/egg/blockdiag/tests/test_command.py to test_command.pyc
+byte-compiling _build/bdist.linux-x86_64/egg/blockdiag/tests/__init__.py to __init__.pyc
+byte-compiling _build/bdist.linux-x86_64/egg/blockdiag/tests/test_builder_group.py to test_builder_group.pyc
+byte-compiling _build/bdist.linux-x86_64/egg/blockdiag/tests/test_builder_node.py to test_builder_node.pyc
+byte-compiling _build/bdist.linux-x86_64/egg/blockdiag/tests/test_utils_fontmap.py to test_utils_fontmap.pyc
+byte-compiling _build/bdist.linux-x86_64/egg/blockdiag/tests/test_utils.py to test_utils.pyc
+byte-compiling _build/bdist.linux-x86_64/egg/blockdiag/__init__.py to __init__.pyc
+byte-compiling _build/bdist.linux-x86_64/egg/blockdiag/command.py to command.pyc
+byte-compiling _build/bdist.linux-x86_64/egg/blockdiag/elements.py to elements.pyc
+creating _build/bdist.linux-x86_64/egg/EGG-INFO
+copying src/blockdiag.egg-info/PKG-INFO -> _build/bdist.linux-x86_64/egg/EGG-INFO
+copying src/blockdiag.egg-info/SOURCES.txt -> _build/bdist.linux-x86_64/egg/EGG-INFO
+copying src/blockdiag.egg-info/dependency_links.txt -> _build/bdist.linux-x86_64/egg/EGG-INFO
+copying src/blockdiag.egg-info/entry_points.txt -> _build/bdist.linux-x86_64/egg/EGG-INFO
+copying src/blockdiag.egg-info/requires.txt -> _build/bdist.linux-x86_64/egg/EGG-INFO
+copying src/blockdiag.egg-info/top_level.txt -> _build/bdist.linux-x86_64/egg/EGG-INFO
+zip_safe flag not set; analyzing archive contents...
+blockdiag.tests.test_command: module references __file__
+blockdiag.tests.test_utils_fontmap: module references __file__
+blockdiag.tests.test_generate_diagram: module references __file__
+blockdiag.tests.utils: module references __file__
+blockdiag.tests.rst.test_base_directives: module references __file__
+creating dist
+creating 'dist/blockdiag-1.5.2-py2.7.egg' and adding '_build/bdist.linux-x86_64/egg' to it
+removing '_build/bdist.linux-x86_64/egg' (and everything under it)
+Processing blockdiag-1.5.2-py2.7.egg
+creating /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/blockdiag-1.5.2-py2.7.egg
+Extracting blockdiag-1.5.2-py2.7.egg to /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages
+Adding blockdiag 1.5.2 to easy-install.pth file
+Installing blockdiag script to /home/ubuntu/miniconda/envs/_build/bin
+
+Installed /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/blockdiag-1.5.2-py2.7.egg
+Processing dependencies for blockdiag==1.5.2
+Searching for webcolors==1.5
+Best match: webcolors 1.5
+Adding webcolors 1.5 to easy-install.pth file
+
+Using /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages
+Searching for Pillow==2.8.2
+Best match: Pillow 2.8.2
+Adding Pillow 2.8.2 to easy-install.pth file
+
+Using /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages
+Searching for funcparserlib==0.3.6
+Best match: funcparserlib 0.3.6
+Processing funcparserlib-0.3.6-py2.7.egg
+Adding funcparserlib 0.3.6 to easy-install.pth file
+
+Using /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/funcparserlib-0.3.6-py2.7.egg
+Searching for setuptools==15.2
+Best match: setuptools 15.2
+Adding setuptools 15.2 to easy-install.pth file
+Installing easy_install-3.4 script to /home/ubuntu/miniconda/envs/_build/bin
+Installing easy_install script to /home/ubuntu/miniconda/envs/_build/bin
+
+Using /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages
+Finished processing dependencies for blockdiag==1.5.2
+
+The following NEW packages will be INSTALLED:
+
+    docutils:      0.12-py27_0  
+    freetype:      2.5.2-2      
+    funcparserlib: 0.3.6-py27_0 
+    jpeg:          8d-0         
+    libpng:        1.6.17-0     
+    libtiff:       4.0.2-1      
+    mock:          1.0.1-py27_0 
+    nose:          1.3.7-py27_0 
+    openssl:       1.0.1k-1     
+    pep8:          1.6.2-py27_0 
+    pillow:        2.8.2-py27_0 
+    pip:           7.0.3-py27_0 
+    python:        2.7.10-0     
+    readline:      6.2-2        
+    reportlab:     3.2.0-py27_0 
+    setuptools:    18.0.1-py27_0
+    sqlite:        3.8.4.1-1    
+    system:        5.8-2        
+    tk:            8.5.18-0     
+    webcolors:     1.5-py27_0   
+    zlib:          1.2.8-0      
+
+Linking packages ...
+[                    ]|                                                  |   0%[jpeg                ]|                                                  |   0%[libpng              ]|##                                                |   4%[openssl             ]|####                                              |   9%[readline            ]|#######                                           |  14%[sqlite              ]|#########                                         |  19%[system              ]|###########                                       |  23%[tk                  ]|##############                                    |  28%[zlib                ]|################                                  |  33%[freetype            ]|###################                               |  38%[libtiff             ]|#####################                             |  42%[docutils            ]|#######################                           |  47%[funcparserlib       ]|##########################                        |  52%[mock                ]|############################                      |  57%[nose                ]|##############################                    |  61%[pep8                ]|#################################                 |  66%[pillow              ]|###################################               |  71%[python              ]|######################################            |  76%[setuptools          ]|########################################          |  80%[webcolors           ]|##########################################        |  85%[pip                 ]|#############################################     |  90%[reportlab           ]|###############################################   |  95%[      COMPLETE      ]|##################################################| 100%
+Removing old work directory
+Source cache directory is: /home/ubuntu/miniconda/conda-bld/src_cache
+Found source in cache: blockdiag-1.5.2.tar.gz
+Extracting download
+Package: blockdiag-1.5.2-py_0
+source tree in: /home/ubuntu/miniconda/conda-bld/work/blockdiag-1.5.2
+number of files: 310
+Fixing permissions
+Fixing permissions
+BUILD END: blockdiag-1.5.2-py_0
+TEST START: blockdiag-1.5.2-py_0
+Fetching package metadata: ......
+
+WARNING: conda-build appears to be out of date. You have version 1.13.0 but the
+latest version is 1.14.1. Run
+
+conda update -n root conda-build
+
+to get the latest version.
+
+Solving package specifications: .
+The following packages will be downloaded:
+
+    package                    |            build
+    ---------------------------|-----------------
+    blockdiag-1.5.2            |             py_0         2.5 MB
+
+The following NEW packages will be INSTALLED:
+
+    blockdiag:     1.5.2-py_0   
+    docutils:      0.12-py27_0  
+    freetype:      2.5.2-2      
+    funcparserlib: 0.3.6-py27_0 
+    jpeg:          8d-0         
+    libpng:        1.6.17-0     
+    libtiff:       4.0.2-1      
+    mock:          1.0.1-py27_0 
+    nose:          1.3.7-py27_0 
+    openssl:       1.0.1k-1     
+    pep8:          1.6.2-py27_0 
+    pillow:        2.8.2-py27_0 
+    pip:           7.0.3-py27_0 
+    python:        2.7.10-0     
+    readline:      6.2-2        
+    reportlab:     3.2.0-py27_0 
+    setuptools:    18.0.1-py27_0
+    sqlite:        3.8.4.1-1    
+    system:        5.8-2        
+    tk:            8.5.18-0     
+    webcolors:     1.5-py27_0   
+    zlib:          1.2.8-0      
+
+Fetching packages ...
+blockdiag-1.5.   0% |                              | ETA:  --:--:--   0.00  B/sblockdiag-1.5.   1% |                               | ETA:  0:00:00  72.34 MB/sblockdiag-1.5.   2% |                               | ETA:  0:00:00  86.68 MB/sblockdiag-1.5.   3% |#                              | ETA:  0:00:00  94.35 MB/sblockdiag-1.5.   5% |#                              | ETA:  0:00:00  97.46 MB/sblockdiag-1.5.   6% |#                              | ETA:  0:00:00 100.57 MB/sblockdiag-1.5.   7% |##                             | ETA:  0:00:00 101.56 MB/sblockdiag-1.5.   8% |##                             | ETA:  0:00:00 103.37 MB/sblockdiag-1.5.  10% |###                            | ETA:  0:00:00 104.48 MB/sblockdiag-1.5.  11% |###                            | ETA:  0:00:00 105.67 MB/sblockdiag-1.5.  12% |###                            | ETA:  0:00:00  21.45 MB/sblockdiag-1.5.  13% |####                           | ETA:  0:00:00  23.17 MB/sblockdiag-1.5.  15% |####                           | ETA:  0:00:00  24.83 MB/sblockdiag-1.5.  16% |#####                          | ETA:  0:00:00  26.44 MB/sblockdiag-1.5.  17% |#####                          | ETA:  0:00:00  27.97 MB/sblockdiag-1.5.  18% |#####                          | ETA:  0:00:00  29.47 MB/sblockdiag-1.5.  20% |######                         | ETA:  0:00:00  30.92 MB/sblockdiag-1.5.  21% |######                         | ETA:  0:00:00  32.33 MB/sblockdiag-1.5.  22% |#######                        | ETA:  0:00:00  33.69 MB/sblockdiag-1.5.  23% |#######                        | ETA:  0:00:00  34.96 MB/sblockdiag-1.5.  25% |#######                        | ETA:  0:00:00  36.23 MB/sblockdiag-1.5.  26% |########                       | ETA:  0:00:00  37.47 MB/sblockdiag-1.5.  27% |########                       | ETA:  0:00:00  38.67 MB/sblockdiag-1.5.  28% |########                       | ETA:  0:00:00  39.83 MB/sblockdiag-1.5.  30% |#########                      | ETA:  0:00:00  40.95 MB/sblockdiag-1.5.  31% |#########                      | ETA:  0:00:00  42.04 MB/sblockdiag-1.5.  32% |##########                     | ETA:  0:00:00  43.12 MB/sblockdiag-1.5.  33% |##########                     | ETA:  0:00:00  44.15 MB/sblockdiag-1.5.  35% |##########                     | ETA:  0:00:00  45.17 MB/sblockdiag-1.5.  36% |###########                    | ETA:  0:00:00  46.13 MB/sblockdiag-1.5.  37% |###########                    | ETA:  0:00:00  47.09 MB/sblockdiag-1.5.  38% |############                   | ETA:  0:00:00  48.02 MB/sblockdiag-1.5.  40% |############                   | ETA:  0:00:00  48.93 MB/sblockdiag-1.5.  41% |############                   | ETA:  0:00:00  49.82 MB/sblockdiag-1.5.  42% |#############                  | ETA:  0:00:00  50.63 MB/sblockdiag-1.5.  44% |#############                  | ETA:  0:00:00  51.46 MB/sblockdiag-1.5.  45% |##############                 | ETA:  0:00:00  52.29 MB/sblockdiag-1.5.  46% |##############                 | ETA:  0:00:00  53.09 MB/sblockdiag-1.5.  47% |##############                 | ETA:  0:00:00  53.87 MB/sblockdiag-1.5.  49% |###############                | ETA:  0:00:00  40.51 MB/sblockdiag-1.5.  50% |###############                | ETA:  0:00:00  41.19 MB/sblockdiag-1.5.  51% |###############                | ETA:  0:00:00  41.85 MB/sblockdiag-1.5.  52% |################               | ETA:  0:00:00  42.51 MB/sblockdiag-1.5.  54% |################               | ETA:  0:00:00  43.15 MB/sblockdiag-1.5.  55% |#################              | ETA:  0:00:00  43.78 MB/sblockdiag-1.5.  56% |#################              | ETA:  0:00:00  44.40 MB/sblockdiag-1.5.  57% |#################              | ETA:  0:00:00  45.01 MB/sblockdiag-1.5.  59% |##################             | ETA:  0:00:00  45.59 MB/sblockdiag-1.5.  60% |##################             | ETA:  0:00:00  46.18 MB/sblockdiag-1.5.  61% |###################            | ETA:  0:00:00  46.75 MB/sblockdiag-1.5.  62% |###################            | ETA:  0:00:00  47.32 MB/sblockdiag-1.5.  64% |###################            | ETA:  0:00:00  47.89 MB/sblockdiag-1.5.  65% |####################           | ETA:  0:00:00  48.45 MB/sblockdiag-1.5.  66% |####################           | ETA:  0:00:00  48.99 MB/sblockdiag-1.5.  67% |#####################          | ETA:  0:00:00  49.52 MB/sblockdiag-1.5.  69% |#####################          | ETA:  0:00:00  50.05 MB/sblockdiag-1.5.  70% |#####################          | ETA:  0:00:00  50.57 MB/sblockdiag-1.5.  71% |######################         | ETA:  0:00:00  51.09 MB/sblockdiag-1.5.  72% |######################         | ETA:  0:00:00  51.59 MB/sblockdiag-1.5.  74% |######################         | ETA:  0:00:00  52.08 MB/sblockdiag-1.5.  75% |#######################        | ETA:  0:00:00  52.57 MB/sblockdiag-1.5.  76% |#######################        | ETA:  0:00:00  53.06 MB/sblockdiag-1.5.  77% |########################       | ETA:  0:00:00  53.51 MB/sblockdiag-1.5.  79% |########################       | ETA:  0:00:00  53.98 MB/sblockdiag-1.5.  80% |########################       | ETA:  0:00:00  54.44 MB/sblockdiag-1.5.  81% |#########################      | ETA:  0:00:00  54.90 MB/sblockdiag-1.5.  82% |#########################      | ETA:  0:00:00  55.35 MB/sblockdiag-1.5.  84% |##########################     | ETA:  0:00:00  46.24 MB/sblockdiag-1.5.  85% |##########################     | ETA:  0:00:00  46.65 MB/sblockdiag-1.5.  86% |##########################     | ETA:  0:00:00  47.07 MB/sblockdiag-1.5.  88% |###########################    | ETA:  0:00:00  47.46 MB/sblockdiag-1.5.  89% |###########################    | ETA:  0:00:00  47.87 MB/sblockdiag-1.5.  90% |############################   | ETA:  0:00:00  48.27 MB/sblockdiag-1.5.  91% |############################   | ETA:  0:00:00  48.66 MB/sblockdiag-1.5.  93% |############################   | ETA:  0:00:00  49.05 MB/sblockdiag-1.5.  94% |#############################  | ETA:  0:00:00  49.43 MB/sblockdiag-1.5.  95% |#############################  | ETA:  0:00:00  49.80 MB/sblockdiag-1.5.  96% |############################## | ETA:  0:00:00  50.18 MB/sblockdiag-1.5.  98% |############################## | ETA:  0:00:00  50.55 MB/sblockdiag-1.5.  99% |############################## | ETA:  0:00:00  50.92 MB/sblockdiag-1.5. 100% |###############################| Time: 0:00:00  50.88 MB/s
+Extracting packages ...
+[      COMPLETE      ]|                                                  |   0%[blockdiag           ]|                                                  |   0%[blockdiag           ]|                                                  |   0%[      COMPLETE      ]|##################################################| 100%
+Linking packages ...
+[      COMPLETE      ]|                                                  |   0%[jpeg                ]|                                                  |   0%[jpeg                ]|                                                  |   0%[libpng              ]|##                                                |   4%[openssl          ===== testing package: blockdiag-1.5.2-py_0 =====
+import: u'blockdiag'
+import: u'blockdiag.imagedraw'
+import: u'blockdiag.imagedraw.filters'
+import: u'blockdiag.imagedraw.utils'
+import: u'blockdiag.noderenderer'
+import: u'blockdiag.noderenderer.flowchart'
+import: u'blockdiag.plugins'
+import: u'blockdiag.tests'
+import: u'blockdiag.tests.rst'
+import: u'blockdiag.utils'
+import: u'blockdiag.utils.rst'
+===== blockdiag-1.5.2-py_0 OK =====
+   ]|####                                              |   9%[readline            ]|######                                            |  13%[sqlite              ]|#########                                         |  18%[system              ]|###########                                       |  22%[tk                  ]|#############                                     |  27%[zlib                ]|###############                                   |  31%[freetype            ]|##################                                |  36%[libtiff             ]|####################                              |  40%[docutils            ]|######################                            |  45%[funcparserlib       ]|#########################                         |  50%[mock                ]|###########################                       |  54%[nose                ]|#############################                     |  59%[pep8                ]|###############################                   |  63%[pillow              ]|##################################                |  68%[python              ]|####################################              |  72%[setuptools          ]|######################################            |  77%[webcolors           ]|########################################          |  81%[pip                 ]|###########################################       |  86%[reportlab           ]|#############################################     |  90%[blockdiag           ]|###############################################   |  95%[      COMPLETE      ]|##################################################| 100%
+TEST END: blockdiag-1.5.2-py_0
+# If you want to upload this package to binstar.org later, type:
+#
+# $ binstar upload /home/ubuntu/miniconda/conda-bld/noarch/blockdiag-1.5.2-py_0.tar.bz2
+#
+# To have conda build upload to binstar automatically, use
+# $ conda config --set binstar_upload yes
+

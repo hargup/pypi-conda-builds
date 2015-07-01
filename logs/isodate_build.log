@@ -2,6 +2,14 @@ Removing old build directory
 Removing old work directory
 BUILD START: isodate-0.5.1-py27_0
 Fetching package metadata: ......
+
+WARNING: conda-build appears to be out of date. You have version 1.13.0 but the
+latest version is 1.14.1. Run
+
+conda update -n root conda-build
+
+to get the latest version.
+
 Solving package specifications: .+ /home/ubuntu/miniconda/envs/_build/bin/python setup.py install
 running install
 running bdist_egg
@@ -93,15 +101,15 @@ Finished processing dependencies for isodate==0.5.1
 
 The following NEW packages will be INSTALLED:
 
-    openssl:    1.0.1k-1    
-    pip:        7.0.3-py27_0
-    python:     2.7.10-0    
-    readline:   6.2-2       
-    setuptools: 17.0-py27_0 
-    sqlite:     3.8.4.1-1   
-    system:     5.8-2       
-    tk:         8.5.18-0    
-    zlib:       1.2.8-0     
+    openssl:    1.0.1k-1     
+    pip:        7.0.3-py27_0 
+    python:     2.7.10-0     
+    readline:   6.2-2        
+    setuptools: 18.0.1-py27_0
+    sqlite:     3.8.4.1-1    
+    system:     5.8-2        
+    tk:         8.5.18-0     
+    zlib:       1.2.8-0      
 
 Linking packages ...
 [                    ]|                                                  |   0%[openssl             ]|                                                  |   0%[readline            ]|#####                                             |  11%[sqlite              ]|###########                                       |  22%[system              ]|################                                  |  33%[tk                  ]|######################                            |  44%[zlib                ]|###########################                       |  55%[python              ]|#################################                 |  66%[setuptools          ]|######################################            |  77%[pip                 ]|############################################      |  88%[      COMPLETE      ]|##################################################| 100%
@@ -118,6 +126,14 @@ Fixing permissions
 BUILD END: isodate-0.5.1-py27_0
 TEST START: isodate-0.5.1-py27_0
 Fetching package metadata: ......
+
+WARNING: conda-build appears to be out of date. You have version 1.13.0 but the
+latest version is 1.14.1. Run
+
+conda update -n root conda-build
+
+to get the latest version.
+
 Solving package specifications: .===== testing package: isodate-0.5.1-py27_0 =====
 import: u'isodate'
 import: u'isodate.tests'
@@ -131,19 +147,19 @@ The following packages will be downloaded:
 
 The following NEW packages will be INSTALLED:
 
-    isodate:    0.5.1-py27_0
-    openssl:    1.0.1k-1    
-    pip:        7.0.3-py27_0
-    python:     2.7.10-0    
-    readline:   6.2-2       
-    setuptools: 17.0-py27_0 
-    sqlite:     3.8.4.1-1   
-    system:     5.8-2       
-    tk:         8.5.18-0    
-    zlib:       1.2.8-0     
+    isodate:    0.5.1-py27_0 
+    openssl:    1.0.1k-1     
+    pip:        7.0.3-py27_0 
+    python:     2.7.10-0     
+    readline:   6.2-2        
+    setuptools: 18.0.1-py27_0
+    sqlite:     3.8.4.1-1    
+    system:     5.8-2        
+    tk:         8.5.18-0     
+    zlib:       1.2.8-0      
 
 Fetching packages ...
-isodate-0.5.1-   0% |                              | ETA:  --:--:--   0.00  B/sisodate-0.5.1-  22% |######                         | ETA:  0:00:00  47.49 MB/sisodate-0.5.1-  44% |#############                  | ETA:  0:00:00  58.84 MB/sisodate-0.5.1-  66% |####################           | ETA:  0:00:00  65.61 MB/sisodate-0.5.1-  88% |###########################    | ETA:  0:00:00  69.87 MB/sisodate-0.5.1- 100% |###############################| ETA:  0:00:00  65.73 MB/sisodate-0.5.1- 100% |###############################| Time: 0:00:00  54.23 MB/s
+isodate-0.5.1-   0% |                              | ETA:  --:--:--   0.00  B/sisodate-0.5.1-  22% |######                         | ETA:  0:00:00  47.76 MB/sisodate-0.5.1-  44% |#############                  | ETA:  0:00:00  59.27 MB/sisodate-0.5.1-  66% |####################           | ETA:  0:00:00  65.53 MB/sisodate-0.5.1-  88% |###########################    | ETA:  0:00:00  69.71 MB/sisodate-0.5.1- 100% |###############################| ETA:  0:00:00  66.91 MB/sisodate-0.5.1- 100% |###############################| Time: 0:00:00  55.16 MB/s
 Extracting packages ...
 [      COMPLETE      ]|                                                  |   0%[isodate             ]|                                                  |   0%[isodate             ]|                                                  |   0%[      COMPLETE      ]|##################################################| 100%
 Linking packages ...

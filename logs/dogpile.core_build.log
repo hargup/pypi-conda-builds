@@ -1,7 +1,15 @@
 Removing old build directory
 Removing old work directory
-BUILD START: dogpile.core-0.4.1-py27_0
+BUILD START: dogpile.core-0.4.1-py_0
 Fetching package metadata: ......
+
+WARNING: conda-build appears to be out of date. You have version 1.13.0 but the
+latest version is 1.14.1. Run
+
+conda update -n root conda-build
+
+to get the latest version.
+
 Solving package specifications: .+ /home/ubuntu/miniconda/envs/_build/bin/python setup.py install
 running install
 running bdist_egg
@@ -73,15 +81,15 @@ Finished processing dependencies for dogpile.core==0.4.1
 
 The following NEW packages will be INSTALLED:
 
-    openssl:    1.0.1k-1    
-    pip:        7.0.3-py27_0
-    python:     2.7.10-0    
-    readline:   6.2-2       
-    setuptools: 17.0-py27_0 
-    sqlite:     3.8.4.1-1   
-    system:     5.8-2       
-    tk:         8.5.18-0    
-    zlib:       1.2.8-0     
+    openssl:    1.0.1k-1     
+    pip:        7.0.3-py27_0 
+    python:     2.7.10-0     
+    readline:   6.2-2        
+    setuptools: 18.0.1-py27_0
+    sqlite:     3.8.4.1-1    
+    system:     5.8-2        
+    tk:         8.5.18-0     
+    zlib:       1.2.8-0      
 
 Linking packages ...
 [                    ]|                                                  |   0%[openssl             ]|                                                  |   0%[readline            ]|#####                                             |  11%[sqlite              ]|###########                                       |  22%[system              ]|################                                  |  33%[tk                  ]|######################                            |  44%[zlib                ]|###########################                       |  55%[python              ]|#################################                 |  66%[setuptools          ]|######################################            |  77%[pip                 ]|############################################      |  88%[      COMPLETE      ]|##################################################| 100%
@@ -89,50 +97,48 @@ Removing old work directory
 Source cache directory is: /home/ubuntu/miniconda/conda-bld/src_cache
 Found source in cache: dogpile.core-0.4.1.tar.gz
 Extracting download
-Package: dogpile.core-0.4.1-py27_0
+Package: dogpile.core-0.4.1-py_0
 source tree in: /home/ubuntu/miniconda/conda-bld/work/dogpile.core-0.4.1
 found egg dir: /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/dogpile.core-0.4.1-py2.7.egg
 number of files: 15
 Fixing permissions
 Fixing permissions
-BUILD END: dogpile.core-0.4.1-py27_0
-TEST START: dogpile.core-0.4.1-py27_0
+BUILD END: dogpile.core-0.4.1-py_0
+TEST START: dogpile.core-0.4.1-py_0
 Fetching package metadata: ......
-Solving package specifications: .===== testing package: dogpile.core-0.4.1-py27_0 =====
-import: u'dogpile'
-import: u'dogpile.core'
-===== dogpile.core-0.4.1-py27_0 OK =====
+
+WARNING: conda-build appears to be out of date. You have version 1.13.0 but the
+latest version is 1.14.1. Run
+
+conda update -n root conda-build
+
+to get the latest version.
+
+Solving package specifications: ./home/ubuntu/miniconda/pkgs/dogpile.core-0.4.1-py_0/bin/.dogpile.core-pre-link.sh: line 2: /home/ubuntu/miniconda/envs/_test/bin/python: No such file or directory
 
 The following packages will be downloaded:
 
     package                    |            build
     ---------------------------|-----------------
-    dogpile.core-0.4.1         |           py27_0          11 KB
+    dogpile.core-0.4.1         |             py_0           7 KB
 
 The following NEW packages will be INSTALLED:
 
-    dogpile.core: 0.4.1-py27_0
-    openssl:      1.0.1k-1    
-    pip:          7.0.3-py27_0
-    python:       2.7.10-0    
-    readline:     6.2-2       
-    setuptools:   17.0-py27_0 
-    sqlite:       3.8.4.1-1   
-    system:       5.8-2       
-    tk:           8.5.18-0    
-    zlib:         1.2.8-0     
+    dogpile.core: 0.4.1-py_0   
+    nose:         1.3.7-py27_0 
+    openssl:      1.0.1k-1     
+    pip:          7.0.3-py27_0 
+    python:       2.7.10-0     
+    readline:     6.2-2        
+    setuptools:   18.0.1-py27_0
+    sqlite:       3.8.4.1-1    
+    system:       5.8-2        
+    tk:           8.5.18-0     
+    zlib:         1.2.8-0      
 
 Fetching packages ...
-dogpile.core-0   0% |                              | ETA:  --:--:--   0.00  B/sdogpile.core-0 100% |###############################| ETA:  0:00:00  33.83 MB/sdogpile.core-0 100% |###############################| Time: 0:00:00  19.27 MB/s
+dogpile.core-0   0% |                              | ETA:  --:--:--   0.00  B/sdogpile.core-0 100% |###############################| ETA:  0:00:00  22.47 MB/sdogpile.core-0 100% |###############################| Time: 0:00:00  12.44 MB/s
 Extracting packages ...
 [      COMPLETE      ]|                                                  |   0%[dogpile.core        ]|                                                  |   0%[dogpile.core        ]|                                                  |   0%[      COMPLETE      ]|##################################################| 100%
 Linking packages ...
-[      COMPLETE      ]|                                                  |   0%[openssl             ]|                                                  |   0%[openssl             ]|                                                  |   0%[readline            ]|#####                                             |  10%[sqlite              ]|##########                                        |  20%[system              ]|###############                                   |  30%[tk                  ]|####################                              |  40%[zlib                ]|#########################                         |  50%[dogpile.core        ]|##############################                    |  60%[python              ]|###################################               |  70%[setuptools          ]|########################################          |  80%[pip                 ]|#############################################     |  90%[      COMPLETE      ]|##################################################| 100%
-TEST END: dogpile.core-0.4.1-py27_0
-# If you want to upload this package to binstar.org later, type:
-#
-# $ binstar upload /home/ubuntu/miniconda/conda-bld/linux-64/dogpile.core-0.4.1-py27_0.tar.bz2
-#
-# To have conda build upload to binstar automatically, use
-# $ conda config --set binstar_upload yes
-
+[      COMPLETE      ]|                                                  |   0%[openssl             ]|                                                  |   0%[openssl             ]|                                                  |   0%[readline            ]|####                                              |   9%[sqlite              ]|#########                                         |  18%[system              ]|#############                                     |  27%[tk                  ]|##################                                |  36%[zlib                ]|######################                            |  45%[dogpile.core        ]|###########################                       |  54%Error: pre-link failed: dogpile.core-0.4.1-py_0

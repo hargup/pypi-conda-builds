@@ -124,16 +124,32 @@ Warning, the following versions were found for kombu
 Using 3.0.26
 Use --version to specify a different version.
 Using url https://pypi.python.org/packages/source/k/kombu/kombu-3.0.26.tar.gz (367 KB) for kombu.
-Downloading kombu (use --no-download to skip this step)
+Downloading kombu
 Using cached download
 Unpacking kombu...
 done
-working in /tmp/tmpK9ArbFconda_skeleton_kombu-3.0.26.tar.gz
+working in /tmp/tmpCN0cfUconda_skeleton_kombu-3.0.26.tar.gz
 Fetching package metadata: ......
+
+WARNING: conda-build appears to be out of date. You have version 1.13.0 but the
+latest version is 1.14.1. Run
+
+conda update -n root conda-build
+
+to get the latest version.
+
 Solving package specifications: .patching file core.py
 Hunk #1 succeeded at 168 with fuzz 2 (offset 2 lines).
 
-Applying patch: '/tmp/tmpK9ArbFconda_skeleton_kombu-3.0.26.tar.gz/pypi-distutils.patch'
+WARNING: conda-build appears to be out of date. You have version 1.13.0 but the
+latest version is 1.14.1. Run
+
+conda update -n root conda-build
+
+to get the latest version.
+
+
+Applying patch: '/tmp/tmpCN0cfUconda_skeleton_kombu-3.0.26.tar.gz/pypi-distutils.patch'
 Warning, the following versions were found for softlayer_messaging
 1.0.3
 1.0.2
@@ -142,18 +158,38 @@ Warning, the following versions were found for softlayer_messaging
 Using 1.0.3
 Use --version to specify a different version.
 Using url https://pypi.python.org/packages/source/s/softlayer_messaging/softlayer_messaging-1.0.3.tar.gz (5 KB) for softlayer_messaging.
-Downloading softlayer_messaging (use --no-download to skip this step)
+Downloading softlayer_messaging
 Using cached download
 Unpacking softlayer_messaging...
 done
-working in /tmp/tmph2pBmEconda_skeleton_softlayer_messaging-1.0.3.tar.gz
+working in /tmp/tmp97LyJYconda_skeleton_softlayer_messaging-1.0.3.tar.gz
 Solving package specifications: .patching file core.py
 Hunk #1 succeeded at 168 with fuzz 2 (offset 2 lines).
-Traceback (most recent call last):
-  File "setup.py", line 2, in <module>
-    from setuptools import setup, find_packages
-ImportError: No module named setuptools
 
-Applying patch: '/tmp/tmph2pBmEconda_skeleton_softlayer_messaging-1.0.3.tar.gz/pypi-distutils.patch'
-$PYTHONPATH = /tmp/tmph2pBmEconda_skeleton_softlayer_messaging-1.0.3.tar.gz/softlayer_messaging-1.0.3
-Error: command failed: /home/ubuntu/miniconda/envs/_build/bin/python setup.py install
+WARNING: conda-build appears to be out of date. You have version 1.13.0 but the
+latest version is 1.14.1. Run
+
+conda update -n root conda-build
+
+to get the latest version.
+
+
+Applying patch: '/tmp/tmp97LyJYconda_skeleton_softlayer_messaging-1.0.3.tar.gz/pypi-distutils.patch'
+Using url https://pypi.python.org/packages/source/q/qpid-tools/qpid-tools-0.26.tar.gz (38 KB) for qpid-tools.
+Downloading qpid-tools
+Using cached download
+Unpacking qpid-tools...
+done
+working in /tmp/tmpaTGmTaconda_skeleton_qpid-tools-0.26.tar.gz
+Solving package specifications: .patching file core.py
+Hunk #1 succeeded at 168 with fuzz 2 (offset 2 lines).
+
+Applying patch: '/tmp/tmpaTGmTaconda_skeleton_qpid-tools-0.26.tar.gz/pypi-distutils.patch'
+Warning, the following versions were found for qpid-python
+0.26.2
+0.26.1
+0.26
+0.20
+Using 0.26.2
+Use --version to specify a different version.
+Error: Could not parse url for qpid-python: UNKNOWN

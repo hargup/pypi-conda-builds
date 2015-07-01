@@ -2,6 +2,14 @@ Removing old build directory
 Removing old work directory
 BUILD START: chameleon-2.22-py27_0
 Fetching package metadata: ......
+
+WARNING: conda-build appears to be out of date. You have version 1.13.0 but the
+latest version is 1.14.1. Run
+
+conda update -n root conda-build
+
+to get the latest version.
+
 Solving package specifications: .+ /home/ubuntu/miniconda/envs/_build/bin/python setup.py install
 running install
 running bdist_egg
@@ -949,15 +957,15 @@ Finished processing dependencies for Chameleon==2.22
 
 The following NEW packages will be INSTALLED:
 
-    openssl:    1.0.1k-1    
-    pip:        7.0.3-py27_0
-    python:     2.7.10-0    
-    readline:   6.2-2       
-    setuptools: 17.0-py27_0 
-    sqlite:     3.8.4.1-1   
-    system:     5.8-2       
-    tk:         8.5.18-0    
-    zlib:       1.2.8-0     
+    openssl:    1.0.1k-1     
+    pip:        7.0.3-py27_0 
+    python:     2.7.10-0     
+    readline:   6.2-2        
+    setuptools: 18.0.1-py27_0
+    sqlite:     3.8.4.1-1    
+    system:     5.8-2        
+    tk:         8.5.18-0     
+    zlib:       1.2.8-0      
 
 Linking packages ...
 [                    ]|                                                  |   0%[openssl             ]|                                                  |   0%[readline            ]|#####                                             |  11%[sqlite              ]|###########                                       |  22%[system              ]|################                                  |  33%[tk                  ]|######################                            |  44%[zlib                ]|###########################                       |  55%[python              ]|#################################                 |  66%[setuptools          ]|######################################            |  77%[pip                 ]|############################################      |  88%[      COMPLETE      ]|##################################################| 100%
@@ -974,6 +982,14 @@ Fixing permissions
 BUILD END: chameleon-2.22-py27_0
 TEST START: chameleon-2.22-py27_0
 Fetching package metadata: ......
+
+WARNING: conda-build appears to be out of date. You have version 1.13.0 but the
+latest version is 1.14.1. Run
+
+conda update -n root conda-build
+
+to get the latest version.
+
 Solving package specifications: .===== testing package: chameleon-2.22-py27_0 =====
 import: u'chameleon'
 import: u'chameleon.tests'
@@ -988,19 +1004,19 @@ The following packages will be downloaded:
 
 The following NEW packages will be INSTALLED:
 
-    chameleon:  2.22-py27_0 
-    openssl:    1.0.1k-1    
-    pip:        7.0.3-py27_0
-    python:     2.7.10-0    
-    readline:   6.2-2       
-    setuptools: 17.0-py27_0 
-    sqlite:     3.8.4.1-1   
-    system:     5.8-2       
-    tk:         8.5.18-0    
-    zlib:       1.2.8-0     
+    chameleon:  2.22-py27_0  
+    openssl:    1.0.1k-1     
+    pip:        7.0.3-py27_0 
+    python:     2.7.10-0     
+    readline:   6.2-2        
+    setuptools: 18.0.1-py27_0
+    sqlite:     3.8.4.1-1    
+    system:     5.8-2        
+    tk:         8.5.18-0     
+    zlib:       1.2.8-0      
 
 Fetching packages ...
-chameleon-2.22   0% |                              | ETA:  --:--:--   0.00  B/schameleon-2.22   7% |##                             | ETA:  0:00:00  46.56 MB/schameleon-2.22  15% |####                           | ETA:  0:00:00  57.80 MB/schameleon-2.22  22% |#######                        | ETA:  0:00:00  64.69 MB/schameleon-2.22  30% |#########                      | ETA:  0:00:00  69.13 MB/schameleon-2.22  38% |###########                    | ETA:  0:00:00  72.25 MB/schameleon-2.22  45% |##############                 | ETA:  0:00:00  73.09 MB/schameleon-2.22  53% |################               | ETA:  0:00:00  74.67 MB/schameleon-2.22  61% |##################             | ETA:  0:00:00  76.30 MB/schameleon-2.22  68% |#####################          | ETA:  0:00:00  77.70 MB/schameleon-2.22  76% |#######################        | ETA:  0:00:00  78.70 MB/schameleon-2.22  84% |##########################     | ETA:  0:00:00  79.54 MB/schameleon-2.22  91% |############################   | ETA:  0:00:00  80.35 MB/schameleon-2.22  99% |############################## | ETA:  0:00:00  80.93 MB/schameleon-2.22 100% |###############################| Time: 0:00:00  73.49 MB/s
+chameleon-2.22   0% |                              | ETA:  --:--:--   0.00  B/schameleon-2.22   7% |##                             | ETA:  0:00:00  47.89 MB/schameleon-2.22  15% |####                           | ETA:  0:00:00  59.57 MB/schameleon-2.22  23% |#######                        | ETA:  0:00:00   5.54 MB/schameleon-2.22  30% |#########                      | ETA:  0:00:00   7.21 MB/schameleon-2.22  38% |###########                    | ETA:  0:00:00   8.83 MB/schameleon-2.22  46% |##############                 | ETA:  0:00:00  10.39 MB/schameleon-2.22  53% |################               | ETA:  0:00:00  11.88 MB/schameleon-2.22  61% |###################            | ETA:  0:00:00  13.33 MB/schameleon-2.22  69% |#####################          | ETA:  0:00:00  14.72 MB/schameleon-2.22  76% |#######################        | ETA:  0:00:00  16.06 MB/schameleon-2.22  84% |##########################     | ETA:  0:00:00  17.36 MB/schameleon-2.22  92% |############################   | ETA:  0:00:00  18.62 MB/schameleon-2.22  99% |############################## | ETA:  0:00:00  19.82 MB/schameleon-2.22 100% |###############################| Time: 0:00:00  19.39 MB/s
 Extracting packages ...
 [      COMPLETE      ]|                                                  |   0%[chameleon           ]|                                                  |   0%[chameleon           ]|                                                  |   0%[      COMPLETE      ]|##################################################| 100%
 Linking packages ...

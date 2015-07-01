@@ -1,0 +1,1353 @@
+Removing old build directory
+Removing old work directory
+BUILD START: pygithub-1.25.2-py27_0
+Fetching package metadata: ......
+
+WARNING: conda-build appears to be out of date. You have version 1.13.0 but the
+latest version is 1.14.1. Run
+
+conda update -n root conda-build
+
+to get the latest version.
+
+Solving package specifications: .+ /home/ubuntu/miniconda/envs/_build/bin/python setup.py install
+running install
+running bdist_egg
+running egg_info
+writing PyGithub.egg-info/PKG-INFO
+writing top-level names to PyGithub.egg-info/top_level.txt
+writing dependency_links to PyGithub.egg-info/dependency_links.txt
+reading manifest file 'PyGithub.egg-info/SOURCES.txt'
+reading manifest template 'MANIFEST.in'
+writing manifest file 'PyGithub.egg-info/SOURCES.txt'
+installing library code to build/bdist.linux-x86_64/egg
+running install_lib
+running build_py
+creating build
+creating build/lib
+creating build/lib/github
+copying github/GitBlob.py -> build/lib/github
+copying github/Event.py -> build/lib/github
+copying github/GitAuthor.py -> build/lib/github
+copying github/StatusMessage.py -> build/lib/github
+copying github/GithubException.py -> build/lib/github
+copying github/StatsCommitActivity.py -> build/lib/github
+copying github/MainClass.py -> build/lib/github
+copying github/Download.py -> build/lib/github
+copying github/GitTreeElement.py -> build/lib/github
+copying github/GitCommit.py -> build/lib/github
+copying github/Permissions.py -> build/lib/github
+copying github/NotificationSubject.py -> build/lib/github
+copying github/PaginatedList.py -> build/lib/github
+copying github/InputGitAuthor.py -> build/lib/github
+copying github/Tag.py -> build/lib/github
+copying github/RateLimit.py -> build/lib/github
+copying github/HookDescription.py -> build/lib/github
+copying github/GitignoreTemplate.py -> build/lib/github
+copying github/GitTree.py -> build/lib/github
+copying github/Consts.py -> build/lib/github
+copying github/InputGitTreeElement.py -> build/lib/github
+copying github/IssueComment.py -> build/lib/github
+copying github/NamedUser.py -> build/lib/github
+copying github/Legacy.py -> build/lib/github
+copying github/Repository.py -> build/lib/github
+copying github/Hook.py -> build/lib/github
+copying github/GitTag.py -> build/lib/github
+copying github/StatsParticipation.py -> build/lib/github
+copying github/InputFileContent.py -> build/lib/github
+copying github/StatsCodeFrequency.py -> build/lib/github
+copying github/AuthorizationApplication.py -> build/lib/github
+copying github/Comparison.py -> build/lib/github
+copying github/Notification.py -> build/lib/github
+copying github/GistComment.py -> build/lib/github
+copying github/File.py -> build/lib/github
+copying github/GistHistoryState.py -> build/lib/github
+copying github/IssueEvent.py -> build/lib/github
+copying github/Team.py -> build/lib/github
+copying github/Label.py -> build/lib/github
+copying github/GitRef.py -> build/lib/github
+copying github/Status.py -> build/lib/github
+copying github/StatsPunchCard.py -> build/lib/github
+copying github/Rate.py -> build/lib/github
+copying github/ContentFile.py -> build/lib/github
+copying github/GitObject.py -> build/lib/github
+copying github/StatsContributor.py -> build/lib/github
+copying github/Commit.py -> build/lib/github
+copying github/Branch.py -> build/lib/github
+copying github/IssuePullRequest.py -> build/lib/github
+copying github/Plan.py -> build/lib/github
+copying github/__init__.py -> build/lib/github
+copying github/Gist.py -> build/lib/github
+copying github/AuthenticatedUser.py -> build/lib/github
+copying github/RepositoryKey.py -> build/lib/github
+copying github/PullRequestComment.py -> build/lib/github
+copying github/GistFile.py -> build/lib/github
+copying github/UserKey.py -> build/lib/github
+copying github/CommitStatus.py -> build/lib/github
+copying github/Authorization.py -> build/lib/github
+copying github/PullRequestPart.py -> build/lib/github
+copying github/Organization.py -> build/lib/github
+copying github/Milestone.py -> build/lib/github
+copying github/CommitStats.py -> build/lib/github
+copying github/HookResponse.py -> build/lib/github
+copying github/PullRequest.py -> build/lib/github
+copying github/PullRequestMergeStatus.py -> build/lib/github
+copying github/CommitComment.py -> build/lib/github
+copying github/GithubObject.py -> build/lib/github
+copying github/Issue.py -> build/lib/github
+copying github/Requester.py -> build/lib/github
+creating build/lib/github/tests
+copying github/tests/GitBlob.py -> build/lib/github/tests
+copying github/tests/Event.py -> build/lib/github/tests
+copying github/tests/RateLimiting.py -> build/lib/github/tests
+copying github/tests/Download.py -> build/lib/github/tests
+copying github/tests/Issue80.py -> build/lib/github/tests
+copying github/tests/GitCommit.py -> build/lib/github/tests
+copying github/tests/__main__.py -> build/lib/github/tests
+copying github/tests/PaginatedList.py -> build/lib/github/tests
+copying github/tests/Issue216.py -> build/lib/github/tests
+copying github/tests/Issue278.py -> build/lib/github/tests
+copying github/tests/Issue50.py -> build/lib/github/tests
+copying github/tests/Tag.py -> build/lib/github/tests
+copying github/tests/Github_.py -> build/lib/github/tests
+copying github/tests/GitTree.py -> build/lib/github/tests
+copying github/tests/IssueComment.py -> build/lib/github/tests
+copying github/tests/Issue134.py -> build/lib/github/tests
+copying github/tests/NamedUser.py -> build/lib/github/tests
+copying github/tests/Issue87.py -> build/lib/github/tests
+copying github/tests/Repository.py -> build/lib/github/tests
+copying github/tests/Hook.py -> build/lib/github/tests
+copying github/tests/GitTag.py -> build/lib/github/tests
+copying github/tests/BadAttributes.py -> build/lib/github/tests
+copying github/tests/Issue139.py -> build/lib/github/tests
+copying github/tests/Logging_.py -> build/lib/github/tests
+copying github/tests/Equality.py -> build/lib/github/tests
+copying github/tests/Issue54.py -> build/lib/github/tests
+copying github/tests/PullRequestFile.py -> build/lib/github/tests
+copying github/tests/GistComment.py -> build/lib/github/tests
+copying github/tests/RawData.py -> build/lib/github/tests
+copying github/tests/Issue174.py -> build/lib/github/tests
+copying github/tests/IssueEvent.py -> build/lib/github/tests
+copying github/tests/AllTests.py -> build/lib/github/tests
+copying github/tests/Team.py -> build/lib/github/tests
+copying github/tests/Label.py -> build/lib/github/tests
+copying github/tests/GitRef.py -> build/lib/github/tests
+copying github/tests/Status.py -> build/lib/github/tests
+copying github/tests/Search.py -> build/lib/github/tests
+copying github/tests/Authentication.py -> build/lib/github/tests
+copying github/tests/ContentFile.py -> build/lib/github/tests
+copying github/tests/Issue33.py -> build/lib/github/tests
+copying github/tests/Commit.py -> build/lib/github/tests
+copying github/tests/Branch.py -> build/lib/github/tests
+copying github/tests/Issue214.py -> build/lib/github/tests
+copying github/tests/ExposeAllAttributes.py -> build/lib/github/tests
+copying github/tests/Issue140.py -> build/lib/github/tests
+copying github/tests/__init__.py -> build/lib/github/tests
+copying github/tests/ConditionalRequestUpdate.py -> build/lib/github/tests
+copying github/tests/Issue133.py -> build/lib/github/tests
+copying github/tests/Gist.py -> build/lib/github/tests
+copying github/tests/Persistence.py -> build/lib/github/tests
+copying github/tests/AuthenticatedUser.py -> build/lib/github/tests
+copying github/tests/RepositoryKey.py -> build/lib/github/tests
+copying github/tests/PullRequestComment.py -> build/lib/github/tests
+copying github/tests/UserKey.py -> build/lib/github/tests
+copying github/tests/CommitStatus.py -> build/lib/github/tests
+copying github/tests/Authorization.py -> build/lib/github/tests
+copying github/tests/Issue131.py -> build/lib/github/tests
+copying github/tests/Markdown.py -> build/lib/github/tests
+copying github/tests/Organization.py -> build/lib/github/tests
+copying github/tests/Issue158.py -> build/lib/github/tests
+copying github/tests/Milestone.py -> build/lib/github/tests
+copying github/tests/Enterprise.py -> build/lib/github/tests
+copying github/tests/Exceptions.py -> build/lib/github/tests
+copying github/tests/PullRequest.py -> build/lib/github/tests
+copying github/tests/CommitComment.py -> build/lib/github/tests
+copying github/tests/Framework.py -> build/lib/github/tests
+copying github/tests/Issue.py -> build/lib/github/tests
+copying github/tests/Issue142.py -> build/lib/github/tests
+creating build/lib/github/tests/ReplayData
+copying github/tests/ReplayData/Github.testGetGitignoreTemplate.txt -> build/lib/github/tests/ReplayData
+copying github/tests/ReplayData/Repository.testCreateGitTree.txt -> build/lib/github/tests/ReplayData
+copying github/tests/ReplayData/Branch.setUp.txt -> build/lib/github/tests/ReplayData
+copying github/tests/ReplayData/Issue216.setUp.txt -> build/lib/github/tests/ReplayData
+copying github/tests/ReplayData/PullRequest.testMerge.txt -> build/lib/github/tests/ReplayData
+copying github/tests/ReplayData/IssueComment.setUp.txt -> build/lib/github/tests/ReplayData
+copying github/tests/ReplayData/BadAttributes.testBadSimpleAttribute.txt -> build/lib/github/tests/ReplayData
+copying github/tests/ReplayData/Search.testUrlquotingOfQualifiers.txt -> build/lib/github/tests/ReplayData
+copying github/tests/ReplayData/Github.testGetHooks.txt -> build/lib/github/tests/ReplayData
+copying github/tests/ReplayData/NamedUser.testGetKeys.txt -> build/lib/github/tests/ReplayData
+copying github/tests/ReplayData/Enterprise.testLongUrl.txt -> build/lib/github/tests/ReplayData
+copying github/tests/ReplayData/RepositoryKey.testDelete.txt -> build/lib/github/tests/ReplayData
+copying github/tests/ReplayData/Repository.testGetLanguages.txt -> build/lib/github/tests/ReplayData
+copying github/tests/ReplayData/Issue87.testCreateIssueWithEscapedPercentInTitle.txt -> build/lib/github/tests/ReplayData
+copying github/tests/ReplayData/Github.testGetRepoFromFullName.txt -> build/lib/github/tests/ReplayData
+copying github/tests/ReplayData/Repository.testEditWithAllArguments.txt -> build/lib/github/tests/ReplayData
+copying github/tests/ReplayData/Github.testLegacySearchUsers.txt -> build/lib/github/tests/ReplayData
+copying github/tests/ReplayData/Issue216.testIteration.txt -> build/lib/github/tests/ReplayData
+copying github/tests/ReplayData/Team.testEditWithoutArguments.txt -> build/lib/github/tests/ReplayData
+copying github/tests/ReplayData/GitRef.testDelete.txt -> build/lib/github/tests/ReplayData
+copying github/tests/ReplayData/Issue50.testGetLabels.txt -> build/lib/github/tests/ReplayData
+copying github/tests/ReplayData/Github.testGetGists.txt -> build/lib/github/tests/ReplayData
+copying github/tests/ReplayData/CommitStatus.setUp.txt -> build/lib/github/tests/ReplayData
+copying github/tests/ReplayData/BadAttributes.testBadTransformedAttributeInDict.txt -> build/lib/github/tests/ReplayData
+copying github/tests/ReplayData/Repository.testGetArchiveLink.txt -> build/lib/github/tests/ReplayData
+copying github/tests/ReplayData/Repository.testSearchIssues.txt -> build/lib/github/tests/ReplayData
+copying github/tests/ReplayData/Organization.testPublicMembers.txt -> build/lib/github/tests/ReplayData
+copying github/tests/ReplayData/Issue.testEditWithAllParameters.txt -> build/lib/github/tests/ReplayData
+copying github/tests/ReplayData/PaginatedList.testSliceIndexingUntilFourthPage.txt -> build/lib/github/tests/ReplayData
+copying github/tests/ReplayData/PaginatedList.testReversedIterationWithMultiplePages.txt -> build/lib/github/tests/ReplayData
+copying github/tests/ReplayData/Event.setUp.txt -> build/lib/github/tests/ReplayData
+copying github/tests/ReplayData/PaginatedList.testCustomPerPage.txt -> build/lib/github/tests/ReplayData
+copying github/tests/ReplayData/RawData.testCompletedObject.txt -> build/lib/github/tests/ReplayData
+copying github/tests/ReplayData/Repository.testCreateGitCommitWithParents.txt -> build/lib/github/tests/ReplayData
+copying github/tests/ReplayData/Github.testLegacySearchReposPagination.txt -> build/lib/github/tests/ReplayData
+copying github/tests/ReplayData/Logging.testLoggingWithOAuthAuthentication.txt -> build/lib/github/tests/ReplayData
+copying github/tests/ReplayData/Issue158.testPaginationWithSecretKeyAuthentication.txt -> build/lib/github/tests/ReplayData
+copying github/tests/ReplayData/Exceptions.testUnknownUser.txt -> build/lib/github/tests/ReplayData
+copying github/tests/ReplayData/AuthenticatedUser.testGetEvents.txt -> build/lib/github/tests/ReplayData
+copying github/tests/ReplayData/Organization.testGetRepos.txt -> build/lib/github/tests/ReplayData
+copying github/tests/ReplayData/Issue214.testEditIssue.txt -> build/lib/github/tests/ReplayData
+copying github/tests/ReplayData/PullRequestFile.setUp.txt -> build/lib/github/tests/ReplayData
+copying github/tests/ReplayData/AuthenticatedUser.testGetKeys.txt -> build/lib/github/tests/ReplayData
+copying github/tests/ReplayData/Repository.testGetCommitsWithAuthor.txt -> build/lib/github/tests/ReplayData
+copying github/tests/ReplayData/Equality.testUserEquality.txt -> build/lib/github/tests/ReplayData
+copying github/tests/ReplayData/NamedUser.testGetOrgs.txt -> build/lib/github/tests/ReplayData
+copying github/tests/ReplayData/NamedUser.testAttributesOfOtherUser.txt -> build/lib/github/tests/ReplayData
+copying github/tests/ReplayData/Repository.testGetGitRefs.txt -> build/lib/github/tests/ReplayData
+copying github/tests/ReplayData/Hook.testEditWithMinimalParameters.txt -> build/lib/github/tests/ReplayData
+copying github/tests/ReplayData/Issue50.testSetIssueLabels.txt -> build/lib/github/tests/ReplayData
+copying github/tests/ReplayData/NamedUser.testGetRepos.txt -> build/lib/github/tests/ReplayData
+copying github/tests/ReplayData/PullRequest.testCreateComment.txt -> build/lib/github/tests/ReplayData
+copying github/tests/ReplayData/BadAttributes.testIssue195.txt -> build/lib/github/tests/ReplayData
+copying github/tests/ReplayData/Organization.testCreateFork.txt -> build/lib/github/tests/ReplayData
+copying github/tests/ReplayData/Github.testGetGitignoreTemplates.txt -> build/lib/github/tests/ReplayData
+copying github/tests/ReplayData/Repository.testGetPullsComments.txt -> build/lib/github/tests/ReplayData
+copying github/tests/ReplayData/Repository.testCreateMilestoneWithMinimalArguments.txt -> build/lib/github/tests/ReplayData
+copying github/tests/ReplayData/Repository.testCreateLabel.txt -> build/lib/github/tests/ReplayData
+copying github/tests/ReplayData/Github.testGetRepoFromId.txt -> build/lib/github/tests/ReplayData
+copying github/tests/ReplayData/AuthenticatedUser.testGetRepos.txt -> build/lib/github/tests/ReplayData
+copying github/tests/ReplayData/Repository.testGetMilestonesWithArguments.txt -> build/lib/github/tests/ReplayData
+copying github/tests/ReplayData/PaginatedList.testInterruptedIteration.txt -> build/lib/github/tests/ReplayData
+copying github/tests/ReplayData/Search.testSearchUsers.txt -> build/lib/github/tests/ReplayData
+copying github/tests/ReplayData/RateLimiting.testRateLimiting.txt -> build/lib/github/tests/ReplayData
+copying github/tests/ReplayData/SpecificExceptions.testBadUserAgent.txt -> build/lib/github/tests/ReplayData
+copying github/tests/ReplayData/Repository.testGetLabels.txt -> build/lib/github/tests/ReplayData
+copying github/tests/ReplayData/Repository.testMergeWithMessage.txt -> build/lib/github/tests/ReplayData
+copying github/tests/ReplayData/Repository.testCreatePullFromIssue.txt -> build/lib/github/tests/ReplayData
+copying github/tests/ReplayData/Authentication.testAuthorizationHeaderWithLogin.txt -> build/lib/github/tests/ReplayData
+copying github/tests/ReplayData/Issue50.testCreateIssueWithLabel.txt -> build/lib/github/tests/ReplayData
+copying github/tests/ReplayData/PullRequest.testEditWithoutArguments.txt -> build/lib/github/tests/ReplayData
+copying github/tests/ReplayData/AuthenticatedUser.testCreateAuthorizationWithAllArguments.txt -> build/lib/github/tests/ReplayData
+copying github/tests/ReplayData/NamedUser.testGetWatched.txt -> build/lib/github/tests/ReplayData
+copying github/tests/ReplayData/Issue.testGetEvents.txt -> build/lib/github/tests/ReplayData
+copying github/tests/ReplayData/Github.testGetEmojis.txt -> build/lib/github/tests/ReplayData
+copying github/tests/ReplayData/CommitComment.setUp.txt -> build/lib/github/tests/ReplayData
+copying github/tests/ReplayData/Authentication.testBasicAuthentication.txt -> build/lib/github/tests/ReplayData
+copying github/tests/ReplayData/Logging.testLoggingWithBasicAuthentication.txt -> build/lib/github/tests/ReplayData
+copying github/tests/ReplayData/Repository.testGetStargazers.txt -> build/lib/github/tests/ReplayData
+copying github/tests/ReplayData/Repository.testCreateGitCommit.txt -> build/lib/github/tests/ReplayData
+copying github/tests/ReplayData/Organization.testGetTeams.txt -> build/lib/github/tests/ReplayData
+copying github/tests/ReplayData/Milestone.testEditWithMinimalParameters.txt -> build/lib/github/tests/ReplayData
+copying github/tests/ReplayData/Issue214.testCollaborators.txt -> build/lib/github/tests/ReplayData
+copying github/tests/ReplayData/Download.setUp.txt -> build/lib/github/tests/ReplayData
+copying github/tests/ReplayData/Github.testSearchUserByEmail.txt -> build/lib/github/tests/ReplayData
+copying github/tests/ReplayData/Hook.testDelete.txt -> build/lib/github/tests/ReplayData
+copying github/tests/ReplayData/ExposeAllAttributes.testAllClasses.txt -> build/lib/github/tests/ReplayData
+copying github/tests/ReplayData/AuthenticatedUser.testGetGists.txt -> build/lib/github/tests/ReplayData
+copying github/tests/ReplayData/Exceptions.testNonJsonDataReturnedByGithub.txt -> build/lib/github/tests/ReplayData
+copying github/tests/ReplayData/ConditionalRequestUpdate.setUp.txt -> build/lib/github/tests/ReplayData
+copying github/tests/ReplayData/Issue140.testGetDirContentsWithRef.txt -> build/lib/github/tests/ReplayData
+copying github/tests/ReplayData/GitBlob.setUp.txt -> build/lib/github/tests/ReplayData
+copying github/tests/ReplayData/Status.testGetLastMessage.txt -> build/lib/github/tests/ReplayData
+copying github/tests/ReplayData/Github.testLegacySearchReposExplicitPagination.txt -> build/lib/github/tests/ReplayData
+copying github/tests/ReplayData/AuthenticatedUser.testSubscriptions.txt -> build/lib/github/tests/ReplayData
+copying github/tests/ReplayData/Markdown.testRenderGithubFlavoredMarkdown.txt -> build/lib/github/tests/ReplayData
+copying github/tests/ReplayData/NamedUser.testGetRepo.txt -> build/lib/github/tests/ReplayData
+copying github/tests/ReplayData/PullRequestComment.setUp.txt -> build/lib/github/tests/ReplayData
+copying github/tests/ReplayData/AuthenticatedUser.testEditWithAllArguments.txt -> build/lib/github/tests/ReplayData
+copying github/tests/ReplayData/Repository.testGetIssuesEvents.txt -> build/lib/github/tests/ReplayData
+copying github/tests/ReplayData/Repository.testCollaborators.txt -> build/lib/github/tests/ReplayData
+copying github/tests/ReplayData/ConditionalRequestUpdate.testDidUpdate.txt -> build/lib/github/tests/ReplayData
+copying github/tests/ReplayData/Organization.testMembers.txt -> build/lib/github/tests/ReplayData
+copying github/tests/ReplayData/Issue.testEditResetMilestone.txt -> build/lib/github/tests/ReplayData
+copying github/tests/ReplayData/AuthenticatedUser.testCreateGist.txt -> build/lib/github/tests/ReplayData
+copying github/tests/ReplayData/Authorization.testDelete.txt -> build/lib/github/tests/ReplayData
+copying github/tests/ReplayData/CommitComment.testDelete.txt -> build/lib/github/tests/ReplayData
+copying github/tests/ReplayData/Issue140.testGetDirContents.txt -> build/lib/github/tests/ReplayData
+copying github/tests/ReplayData/AuthenticatedUser.testGetNotificationsWithOtherArguments.txt -> build/lib/github/tests/ReplayData
+copying github/tests/ReplayData/Commit.testCreateCommentOnFileLine.txt -> build/lib/github/tests/ReplayData
+copying github/tests/ReplayData/Repository.testCreateGitCommitWithAllArguments.txt -> build/lib/github/tests/ReplayData
+copying github/tests/ReplayData/Authentication.testUserAgent.txt -> build/lib/github/tests/ReplayData
+copying github/tests/ReplayData/Status.testGetStatus.txt -> build/lib/github/tests/ReplayData
+copying github/tests/ReplayData/Gist.testRenameFile.txt -> build/lib/github/tests/ReplayData
+copying github/tests/ReplayData/Issue87.testCreateIssueWithPercentInBody.txt -> build/lib/github/tests/ReplayData
+copying github/tests/ReplayData/PullRequestComment.testDelete.txt -> build/lib/github/tests/ReplayData
+copying github/tests/ReplayData/Repository.testStatisticsBeforeCaching.txt -> build/lib/github/tests/ReplayData
+copying github/tests/ReplayData/RepositoryKey.setUp.txt -> build/lib/github/tests/ReplayData
+copying github/tests/ReplayData/Issue87.setUp.txt -> build/lib/github/tests/ReplayData
+copying github/tests/ReplayData/NamedUser.testHasInFollowing.txt -> build/lib/github/tests/ReplayData
+copying github/tests/ReplayData/Issue.testAddAndRemoveLabels.txt -> build/lib/github/tests/ReplayData
+copying github/tests/ReplayData/BadAttributes.testBadTransformedAttributeInList.txt -> build/lib/github/tests/ReplayData
+copying github/tests/ReplayData/GistComment.setUp.txt -> build/lib/github/tests/ReplayData
+copying github/tests/ReplayData/Repository.testGetIssuesWithWildcards.txt -> build/lib/github/tests/ReplayData
+copying github/tests/ReplayData/Github.testLegacySearchUsersExplicitPagination.txt -> build/lib/github/tests/ReplayData
+copying github/tests/ReplayData/Hook.setUp.txt -> build/lib/github/tests/ReplayData
+copying github/tests/ReplayData/RawData.testNotYetCompletedObject.txt -> build/lib/github/tests/ReplayData
+copying github/tests/ReplayData/Repository.testGetEvents.txt -> build/lib/github/tests/ReplayData
+copying github/tests/ReplayData/Issue.testGetComments.txt -> build/lib/github/tests/ReplayData
+copying github/tests/ReplayData/Repository.testMergeWithConflict.txt -> build/lib/github/tests/ReplayData
+copying github/tests/ReplayData/PaginatedList.testIntIndexingAfterIteration.txt -> build/lib/github/tests/ReplayData
+copying github/tests/ReplayData/Issue.testAttributes.txt -> build/lib/github/tests/ReplayData
+copying github/tests/ReplayData/RepositoryKey.testEditWithoutParameters.txt -> build/lib/github/tests/ReplayData
+copying github/tests/ReplayData/Label.testDelete.txt -> build/lib/github/tests/ReplayData
+copying github/tests/ReplayData/PullRequest.testGetIssueComments.txt -> build/lib/github/tests/ReplayData
+copying github/tests/ReplayData/Organization.testGetIssuesWithAllArguments.txt -> build/lib/github/tests/ReplayData
+copying github/tests/ReplayData/Authorization.testEdit.txt -> build/lib/github/tests/ReplayData
+copying github/tests/ReplayData/Issue.testEditWithoutParameters.txt -> build/lib/github/tests/ReplayData
+copying github/tests/ReplayData/Search.testGetPageOnSearchUsers.txt -> build/lib/github/tests/ReplayData
+copying github/tests/ReplayData/Issue33.testClosedIssues.txt -> build/lib/github/tests/ReplayData
+copying github/tests/ReplayData/Github.testGetHook.txt -> build/lib/github/tests/ReplayData
+copying github/tests/ReplayData/Hook.testTest.txt -> build/lib/github/tests/ReplayData
+copying github/tests/ReplayData/PaginatedList.testCustomPerPageWithGetPage.txt -> build/lib/github/tests/ReplayData
+copying github/tests/ReplayData/AuthenticatedUser.testGetStarredGists.txt -> build/lib/github/tests/ReplayData
+copying github/tests/ReplayData/RateLimiting.testResetTime.txt -> build/lib/github/tests/ReplayData
+copying github/tests/ReplayData/GitCommit.setUp.txt -> build/lib/github/tests/ReplayData
+copying github/tests/ReplayData/Issue140.testGetFileContents.txt -> build/lib/github/tests/ReplayData
+copying github/tests/ReplayData/Repository.testGetContents.txt -> build/lib/github/tests/ReplayData
+copying github/tests/ReplayData/Repository.testDelete.txt -> build/lib/github/tests/ReplayData
+copying github/tests/ReplayData/Exceptions.testInvalidInput.txt -> build/lib/github/tests/ReplayData
+copying github/tests/ReplayData/AuthenticatedUser.testStarring.txt -> build/lib/github/tests/ReplayData
+copying github/tests/ReplayData/Milestone.testGetLabels.txt -> build/lib/github/tests/ReplayData
+copying github/tests/ReplayData/Issue140.setUp.txt -> build/lib/github/tests/ReplayData
+copying github/tests/ReplayData/Github.testGetUsersSince.txt -> build/lib/github/tests/ReplayData
+copying github/tests/ReplayData/Issue33.setUp.txt -> build/lib/github/tests/ReplayData
+copying github/tests/ReplayData/Gist.testGetComments.txt -> build/lib/github/tests/ReplayData
+copying github/tests/ReplayData/PaginatedList.testIntIndexingInThirdPage.txt -> build/lib/github/tests/ReplayData
+copying github/tests/ReplayData/NamedUser.testGetReposWithType.txt -> build/lib/github/tests/ReplayData
+copying github/tests/ReplayData/PaginatedList.testCustomPerPageWithNoUrlParams2.txt -> build/lib/github/tests/ReplayData
+copying github/tests/ReplayData/PullRequest.testGetCommits.txt -> build/lib/github/tests/ReplayData
+copying github/tests/ReplayData/Issue139.testCompletion.txt -> build/lib/github/tests/ReplayData
+copying github/tests/ReplayData/Gist.testDelete.txt -> build/lib/github/tests/ReplayData
+copying github/tests/ReplayData/AuthenticatedUser.testCreateRepositoryWithAllArguments.txt -> build/lib/github/tests/ReplayData
+copying github/tests/ReplayData/Issue50.testGetLabel.txt -> build/lib/github/tests/ReplayData
+copying github/tests/ReplayData/Milestone.setUp.txt -> build/lib/github/tests/ReplayData
+copying github/tests/ReplayData/PaginatedList.testReversedIterationWithSinglePage.txt -> build/lib/github/tests/ReplayData
+copying github/tests/ReplayData/Authentication.testNoAuthentication.txt -> build/lib/github/tests/ReplayData
+copying github/tests/ReplayData/UserKey.setUp.txt -> build/lib/github/tests/ReplayData
+copying github/tests/ReplayData/Commit.testGetComments.txt -> build/lib/github/tests/ReplayData
+copying github/tests/ReplayData/GitTree.setUp.txt -> build/lib/github/tests/ReplayData
+copying github/tests/ReplayData/Team.testRepos.txt -> build/lib/github/tests/ReplayData
+copying github/tests/ReplayData/GistComment.testDelete.txt -> build/lib/github/tests/ReplayData
+copying github/tests/ReplayData/Markdown.setUp.txt -> build/lib/github/tests/ReplayData
+copying github/tests/ReplayData/PaginatedList.testGetFirstPage.txt -> build/lib/github/tests/ReplayData
+copying github/tests/ReplayData/Repository.testGetIssuesWithArguments.txt -> build/lib/github/tests/ReplayData
+copying github/tests/ReplayData/SpecificExceptions.testBadCredentials.txt -> build/lib/github/tests/ReplayData
+copying github/tests/ReplayData/ConditionalRequestUpdate.testDidNotUpdate.txt -> build/lib/github/tests/ReplayData
+copying github/tests/ReplayData/Issue80.testIgnoreHttpsFromGithubEnterpriseWithPort.txt -> build/lib/github/tests/ReplayData
+copying github/tests/ReplayData/AuthenticatedUser.testCreateAuthorizationWithoutArguments.txt -> build/lib/github/tests/ReplayData
+copying github/tests/ReplayData/Issue139.setUp.txt -> build/lib/github/tests/ReplayData
+copying github/tests/ReplayData/Repository.testMergeWithNothingToDo.txt -> build/lib/github/tests/ReplayData
+copying github/tests/ReplayData/Repository.testGetWatchers.txt -> build/lib/github/tests/ReplayData
+copying github/tests/ReplayData/Issue214.setUp.txt -> build/lib/github/tests/ReplayData
+copying github/tests/ReplayData/Issue.testAddAndRemoveLabelsWithStringArguments.txt -> build/lib/github/tests/ReplayData
+copying github/tests/ReplayData/Logging.testLoggingWithoutAuthentication.txt -> build/lib/github/tests/ReplayData
+copying github/tests/ReplayData/Repository.testCreateKey.txt -> build/lib/github/tests/ReplayData
+copying github/tests/ReplayData/Github.testSearchUsers.txt -> build/lib/github/tests/ReplayData
+copying github/tests/ReplayData/NamedUser.testGetReceivedEvents.txt -> build/lib/github/tests/ReplayData
+copying github/tests/ReplayData/Issue50.testGetIssuesWithLabel.txt -> build/lib/github/tests/ReplayData
+copying github/tests/ReplayData/PaginatedList.testIntIndexingInFirstPage.txt -> build/lib/github/tests/ReplayData
+copying github/tests/ReplayData/IssueEvent.testAttributes.txt -> build/lib/github/tests/ReplayData
+copying github/tests/ReplayData/Enterprise.testHttp.txt -> build/lib/github/tests/ReplayData
+copying github/tests/ReplayData/Github.testLegacySearchUsersPagination.txt -> build/lib/github/tests/ReplayData
+copying github/tests/ReplayData/Issue.testDeleteAndSetLabelsWithStringArguments.txt -> build/lib/github/tests/ReplayData
+copying github/tests/ReplayData/Repository.testGetContentsWithRef.txt -> build/lib/github/tests/ReplayData
+copying github/tests/ReplayData/GistComment.testEdit.txt -> build/lib/github/tests/ReplayData
+copying github/tests/ReplayData/Repository.testGetGitTreeWithRecursive.txt -> build/lib/github/tests/ReplayData
+copying github/tests/ReplayData/NamedUser.testGetFollowing.txt -> build/lib/github/tests/ReplayData
+copying github/tests/ReplayData/Organization.testCreateTeam.txt -> build/lib/github/tests/ReplayData
+copying github/tests/ReplayData/Issue50.testAddLabelToIssue.txt -> build/lib/github/tests/ReplayData
+copying github/tests/ReplayData/NamedUser.testGetGists.txt -> build/lib/github/tests/ReplayData
+copying github/tests/ReplayData/Issue278.testIteration.txt -> build/lib/github/tests/ReplayData
+copying github/tests/ReplayData/AuthenticatedUser.testCreateRepository.txt -> build/lib/github/tests/ReplayData
+copying github/tests/ReplayData/Authentication.testOAuthAuthentication.txt -> build/lib/github/tests/ReplayData
+copying github/tests/ReplayData/Issue87.testCreateIssueWithPercentInTitle.txt -> build/lib/github/tests/ReplayData
+copying github/tests/ReplayData/RateLimiting.testGetRateLimit.txt -> build/lib/github/tests/ReplayData
+copying github/tests/ReplayData/Organization.testGetReposWithType.txt -> build/lib/github/tests/ReplayData
+copying github/tests/ReplayData/PullRequest.testCreateIssueComment.txt -> build/lib/github/tests/ReplayData
+copying github/tests/ReplayData/Gist.testCreateComment.txt -> build/lib/github/tests/ReplayData
+copying github/tests/ReplayData/NamedUser.testGetSubscriptions.txt -> build/lib/github/tests/ReplayData
+copying github/tests/ReplayData/PaginatedList.testInterruptedIterationInSlice.txt -> build/lib/github/tests/ReplayData
+copying github/tests/ReplayData/Repository.testCreateGitTreeWithBaseTree.txt -> build/lib/github/tests/ReplayData
+copying github/tests/ReplayData/Repository.testEditWithDefaultBranch.txt -> build/lib/github/tests/ReplayData
+copying github/tests/ReplayData/PullRequest.testMergeWithCommitMessage.txt -> build/lib/github/tests/ReplayData
+copying github/tests/ReplayData/Issue.testGetLabels.txt -> build/lib/github/tests/ReplayData
+copying github/tests/ReplayData/RawData.testNonCompletableObject.txt -> build/lib/github/tests/ReplayData
+copying github/tests/ReplayData/Authentication.testAuthorizationHeaderWithToken.txt -> build/lib/github/tests/ReplayData
+copying github/tests/ReplayData/PaginatedList.testReversedIterationSupportsIterator.txt -> build/lib/github/tests/ReplayData
+copying github/tests/ReplayData/Issue131.setUp.txt -> build/lib/github/tests/ReplayData
+copying github/tests/ReplayData/Team.setUp.txt -> build/lib/github/tests/ReplayData
+copying github/tests/ReplayData/Repository.testGetLabel.txt -> build/lib/github/tests/ReplayData
+copying github/tests/ReplayData/Gist.testDeleteFile.txt -> build/lib/github/tests/ReplayData
+copying github/tests/ReplayData/Team.testMembers.txt -> build/lib/github/tests/ReplayData
+copying github/tests/ReplayData/Exceptions.testUnknownObject.txt -> build/lib/github/tests/ReplayData
+copying github/tests/ReplayData/AuthenticatedUser.testCreateGistWithoutDescription.txt -> build/lib/github/tests/ReplayData
+copying github/tests/ReplayData/Issue131.testGetPullWithOrgHeadUser.txt -> build/lib/github/tests/ReplayData
+copying github/tests/ReplayData/Repository.testCreateHookWithAllParameters.txt -> build/lib/github/tests/ReplayData
+copying github/tests/ReplayData/Team.testEditWithAllArguments.txt -> build/lib/github/tests/ReplayData
+copying github/tests/ReplayData/AuthenticatedUser.testEmails.txt -> build/lib/github/tests/ReplayData
+copying github/tests/ReplayData/Repository.testGetCommitsWithSinceUntil.txt -> build/lib/github/tests/ReplayData
+copying github/tests/ReplayData/Repository.testStatisticsAfterCaching.txt -> build/lib/github/tests/ReplayData
+copying github/tests/ReplayData/Milestone.testEditWithAllParameters.txt -> build/lib/github/tests/ReplayData
+copying github/tests/ReplayData/Github.testGetRepos.txt -> build/lib/github/tests/ReplayData
+copying github/tests/ReplayData/NamedUser.testGetStarred.txt -> build/lib/github/tests/ReplayData
+copying github/tests/ReplayData/Repository.testGetForks.txt -> build/lib/github/tests/ReplayData
+copying github/tests/ReplayData/Repository.testCompare.txt -> build/lib/github/tests/ReplayData
+copying github/tests/ReplayData/PaginatedList.testSliceIndexingInFirstPage.txt -> build/lib/github/tests/ReplayData
+copying github/tests/ReplayData/AuthenticatedUser.testGetUserIssues.txt -> build/lib/github/tests/ReplayData
+copying github/tests/ReplayData/IssueEvent.setUp.txt -> build/lib/github/tests/ReplayData
+copying github/tests/ReplayData/Repository.testLegacySearchIssues.txt -> build/lib/github/tests/ReplayData
+copying github/tests/ReplayData/PaginatedList.testIteration.txt -> build/lib/github/tests/ReplayData
+copying github/tests/ReplayData/Gist.testAttributes.txt -> build/lib/github/tests/ReplayData
+copying github/tests/ReplayData/Repository.testGetIssuesComments.txt -> build/lib/github/tests/ReplayData
+copying github/tests/ReplayData/Repository.testGetComments.txt -> build/lib/github/tests/ReplayData
+copying github/tests/ReplayData/Issue87.testCreateIssueWithEscapedPercentInBody.txt -> build/lib/github/tests/ReplayData
+copying github/tests/ReplayData/UserKey.testEditWithoutArguments.txt -> build/lib/github/tests/ReplayData
+copying github/tests/ReplayData/PullRequest.setUp.txt -> build/lib/github/tests/ReplayData
+copying github/tests/ReplayData/Issue174.setUp.txt -> build/lib/github/tests/ReplayData
+copying github/tests/ReplayData/Issue50.testIssueGetLabels.txt -> build/lib/github/tests/ReplayData
+copying github/tests/ReplayData/PullRequest.testEditWithAllArguments.txt -> build/lib/github/tests/ReplayData
+copying github/tests/ReplayData/AuthenticatedUser.testWatching.txt -> build/lib/github/tests/ReplayData
+copying github/tests/ReplayData/GitRef.testEditWithForce.txt -> build/lib/github/tests/ReplayData
+copying github/tests/ReplayData/Repository.setUp.txt -> build/lib/github/tests/ReplayData
+copying github/tests/ReplayData/Issue134.testGetOAuthScopesFromHeader.txt -> build/lib/github/tests/ReplayData
+copying github/tests/ReplayData/ContentFile.setUp.txt -> build/lib/github/tests/ReplayData
+copying github/tests/ReplayData/Equality.testBranchEquality.txt -> build/lib/github/tests/ReplayData
+copying github/tests/ReplayData/Gist.testEditWithoutParameters.txt -> build/lib/github/tests/ReplayData
+copying github/tests/ReplayData/Issue54.setUp.txt -> build/lib/github/tests/ReplayData
+copying github/tests/ReplayData/AuthenticatedUser.testAttributes.txt -> build/lib/github/tests/ReplayData
+copying github/tests/ReplayData/PaginatedList.setUp.txt -> build/lib/github/tests/ReplayData
+copying github/tests/ReplayData/Authentication.testSecretKeyAuthentication.txt -> build/lib/github/tests/ReplayData
+copying github/tests/ReplayData/Repository.testGetTeams.txt -> build/lib/github/tests/ReplayData
+copying github/tests/ReplayData/AuthenticatedUser.testGetAuthorizations.txt -> build/lib/github/tests/ReplayData
+copying github/tests/ReplayData/AuthenticatedUser.testCreateKey.txt -> build/lib/github/tests/ReplayData
+copying github/tests/ReplayData/Commit.testCreateStatusWithoutOptionalParameters.txt -> build/lib/github/tests/ReplayData
+copying github/tests/ReplayData/AuthenticatedUser.testGetIssues.txt -> build/lib/github/tests/ReplayData
+copying github/tests/ReplayData/Markdown.testRenderMarkdown.txt -> build/lib/github/tests/ReplayData
+copying github/tests/ReplayData/AuthenticatedUser.testGetUserIssuesWithAllArguments.txt -> build/lib/github/tests/ReplayData
+copying github/tests/ReplayData/Issue.testEditResetAssignee.txt -> build/lib/github/tests/ReplayData
+copying github/tests/ReplayData/Repository.testCreateIssue.txt -> build/lib/github/tests/ReplayData
+copying github/tests/ReplayData/Issue.testDeleteAndSetLabels.txt -> build/lib/github/tests/ReplayData
+copying github/tests/ReplayData/SpecificExceptions.testRateLimitExceeded.txt -> build/lib/github/tests/ReplayData
+copying github/tests/ReplayData/Issue140.testGetDirContentsThenLazyCompletionOfFile.txt -> build/lib/github/tests/ReplayData
+copying github/tests/ReplayData/IssueComment.testEdit.txt -> build/lib/github/tests/ReplayData
+copying github/tests/ReplayData/Repository.testGetHooks.txt -> build/lib/github/tests/ReplayData
+copying github/tests/ReplayData/Issue33.testOpenIssues.txt -> build/lib/github/tests/ReplayData
+copying github/tests/ReplayData/AuthenticatedUser.testCreateRepositoryWithAutoInit.txt -> build/lib/github/tests/ReplayData
+copying github/tests/ReplayData/Search.testUrlquotingOfQuery.txt -> build/lib/github/tests/ReplayData
+copying github/tests/ReplayData/BadAttributes.testBadSimpleAttributeInList.txt -> build/lib/github/tests/ReplayData
+copying github/tests/ReplayData/Issue50.setUp.txt -> build/lib/github/tests/ReplayData
+copying github/tests/ReplayData/Organization.testEditWithoutArguments.txt -> build/lib/github/tests/ReplayData
+copying github/tests/ReplayData/SpecificExceptions.testUnknownObject.txt -> build/lib/github/tests/ReplayData
+copying github/tests/ReplayData/Organization.testGetMembers.txt -> build/lib/github/tests/ReplayData
+copying github/tests/ReplayData/Tag.setUp.txt -> build/lib/github/tests/ReplayData
+copying github/tests/ReplayData/Issue134.testGetAuthorizationsSucceedsWhenAutenticatedThroughLoginPassword.txt -> build/lib/github/tests/ReplayData
+copying github/tests/ReplayData/Organization.testCreateRepoWithMinimalArguments.txt -> build/lib/github/tests/ReplayData
+copying github/tests/ReplayData/Repository.testGetPulls.txt -> build/lib/github/tests/ReplayData
+copying github/tests/ReplayData/Issue174.testGetDirContentsWhithHttpRedirect.txt -> build/lib/github/tests/ReplayData
+copying github/tests/ReplayData/Github.testGetUsers.txt -> build/lib/github/tests/ReplayData
+copying github/tests/ReplayData/IssueComment.testDelete.txt -> build/lib/github/tests/ReplayData
+copying github/tests/ReplayData/Repository.testCreatePull.txt -> build/lib/github/tests/ReplayData
+copying github/tests/ReplayData/AuthenticatedUser.testGetOrgs.txt -> build/lib/github/tests/ReplayData
+copying github/tests/ReplayData/Search.testSearchIssues.txt -> build/lib/github/tests/ReplayData
+copying github/tests/ReplayData/AuthenticatedUser.testGetNotification.txt -> build/lib/github/tests/ReplayData
+copying github/tests/ReplayData/Gist.testStarring.txt -> build/lib/github/tests/ReplayData
+copying github/tests/ReplayData/Label.setUp.txt -> build/lib/github/tests/ReplayData
+copying github/tests/ReplayData/ConditionalRequestUpdate.testUpdateObjectWithoutEtag.txt -> build/lib/github/tests/ReplayData
+copying github/tests/ReplayData/Issue50.testCreateLabel.txt -> build/lib/github/tests/ReplayData
+copying github/tests/ReplayData/Organization.setUp.txt -> build/lib/github/tests/ReplayData
+copying github/tests/ReplayData/BadAttributes.testBadAttributeTransformation.txt -> build/lib/github/tests/ReplayData
+copying github/tests/ReplayData/Persistence.setUp.txt -> build/lib/github/tests/ReplayData
+copying github/tests/ReplayData/Gist.testFork.txt -> build/lib/github/tests/ReplayData
+copying github/tests/ReplayData/NamedUser.testGetPublicEvents.txt -> build/lib/github/tests/ReplayData
+copying github/tests/ReplayData/Organization.testEditWithAllArguments.txt -> build/lib/github/tests/ReplayData
+copying github/tests/ReplayData/Download.testDelete.txt -> build/lib/github/tests/ReplayData
+copying github/tests/ReplayData/BadAttributes.testBadTransformedAttribute.txt -> build/lib/github/tests/ReplayData
+copying github/tests/ReplayData/Repository.testGetNetworkEvents.txt -> build/lib/github/tests/ReplayData
+copying github/tests/ReplayData/AuthenticatedUser.testEditWithoutArguments.txt -> build/lib/github/tests/ReplayData
+copying github/tests/ReplayData/PaginatedList.testSeveralIterations.txt -> build/lib/github/tests/ReplayData
+copying github/tests/ReplayData/AuthenticatedUser.testGetTeams.txt -> build/lib/github/tests/ReplayData
+copying github/tests/ReplayData/GitTag.setUp.txt -> build/lib/github/tests/ReplayData
+copying github/tests/ReplayData/Issue133.testGetPageWithoutInitialArguments.txt -> build/lib/github/tests/ReplayData
+copying github/tests/ReplayData/AuthenticatedUser.testGetIssuesWithAllArguments.txt -> build/lib/github/tests/ReplayData
+copying github/tests/ReplayData/Organization.testGetIssues.txt -> build/lib/github/tests/ReplayData
+copying github/tests/ReplayData/Repository.testSubscribePubSubHubbub.txt -> build/lib/github/tests/ReplayData
+copying github/tests/ReplayData/Github.testLegacySearchUserByEmail.txt -> build/lib/github/tests/ReplayData
+copying github/tests/ReplayData/Issue.testCreateComment.txt -> build/lib/github/tests/ReplayData
+copying github/tests/ReplayData/Organization.testCreateRepositoryWithAutoInit.txt -> build/lib/github/tests/ReplayData
+copying github/tests/ReplayData/GitRef.setUp.txt -> build/lib/github/tests/ReplayData
+copying github/tests/ReplayData/AuthenticatedUser.testGetOrganizationEvents.txt -> build/lib/github/tests/ReplayData
+copying github/tests/ReplayData/NamedUser.testGetPublicReceivedEvents.txt -> build/lib/github/tests/ReplayData
+copying github/tests/ReplayData/Search.testPaginateSearchUsers.txt -> build/lib/github/tests/ReplayData
+copying github/tests/ReplayData/Branch.testCommitCommentsOnLine.txt -> build/lib/github/tests/ReplayData
+copying github/tests/ReplayData/Exceptions.testBadAuthentication.txt -> build/lib/github/tests/ReplayData
+copying github/tests/ReplayData/Repository.testCreateMilestone.txt -> build/lib/github/tests/ReplayData
+copying github/tests/ReplayData/Repository.testEditWithoutArguments.txt -> build/lib/github/tests/ReplayData
+copying github/tests/ReplayData/AuthenticatedUser.testGetNotifications.txt -> build/lib/github/tests/ReplayData
+copying github/tests/ReplayData/Issue214.testGetIssues.txt -> build/lib/github/tests/ReplayData
+copying github/tests/ReplayData/Repository.testAssignees.txt -> build/lib/github/tests/ReplayData
+copying github/tests/ReplayData/NamedUser.setUp.txt -> build/lib/github/tests/ReplayData
+copying github/tests/ReplayData/Commit.testCreateComment.txt -> build/lib/github/tests/ReplayData
+copying github/tests/ReplayData/Issue50.testRemoveLabelFromIssue.txt -> build/lib/github/tests/ReplayData
+copying github/tests/ReplayData/Repository.testGetDownloads.txt -> build/lib/github/tests/ReplayData
+copying github/tests/ReplayData/Issue134.testGetAuthorizationsFailsWhenAutenticatedThroughOAuth.txt -> build/lib/github/tests/ReplayData
+copying github/tests/ReplayData/Commit.testCreateStatusWithAllParameters.txt -> build/lib/github/tests/ReplayData
+copying github/tests/ReplayData/Repository.testGetBranch.txt -> build/lib/github/tests/ReplayData
+copying github/tests/ReplayData/PaginatedList.testGettingTheReversedListDoesNotModifyTheOriginalList.txt -> build/lib/github/tests/ReplayData
+copying github/tests/ReplayData/NamedUser.testGetEvents.txt -> build/lib/github/tests/ReplayData
+copying github/tests/ReplayData/Milestone.testDelete.txt -> build/lib/github/tests/ReplayData
+copying github/tests/ReplayData/Repository.testGetGitRefWithIssue102Reverted.txt -> build/lib/github/tests/ReplayData
+copying github/tests/ReplayData/Repository.testCreateIssueWithAllArguments.txt -> build/lib/github/tests/ReplayData
+copying github/tests/ReplayData/Logging.testLoggingWithBaseUrl.txt -> build/lib/github/tests/ReplayData
+copying github/tests/ReplayData/Repository.testGetCommitsWithArguments.txt -> build/lib/github/tests/ReplayData
+copying github/tests/ReplayData/AuthenticatedUser.testCreateAuthorizationWithClientIdAndSecret.txt -> build/lib/github/tests/ReplayData
+copying github/tests/ReplayData/Repository.testBadSubscribePubSubHubbub.txt -> build/lib/github/tests/ReplayData
+copying github/tests/ReplayData/Search.testSearchCode.txt -> build/lib/github/tests/ReplayData
+copying github/tests/ReplayData/Search.testSearchRepos.txt -> build/lib/github/tests/ReplayData
+copying github/tests/ReplayData/Issue214.testCreateIssue.txt -> build/lib/github/tests/ReplayData
+copying github/tests/ReplayData/PullRequest.testGetIssueComment.txt -> build/lib/github/tests/ReplayData
+copying github/tests/ReplayData/Repository.testCreateHookWithMinimalParameters.txt -> build/lib/github/tests/ReplayData
+copying github/tests/ReplayData/PaginatedList.testGetThirdPage.txt -> build/lib/github/tests/ReplayData
+copying github/tests/ReplayData/Repository.testGetSubscribers.txt -> build/lib/github/tests/ReplayData
+copying github/tests/ReplayData/Persistence.testLoadAndUpdate.txt -> build/lib/github/tests/ReplayData
+copying github/tests/ReplayData/Enterprise.testSpecificPort.txt -> build/lib/github/tests/ReplayData
+copying github/tests/ReplayData/Github.testLegacySearchRepos.txt -> build/lib/github/tests/ReplayData
+copying github/tests/ReplayData/RepositoryKey.testEdit.txt -> build/lib/github/tests/ReplayData
+copying github/tests/ReplayData/Authorization.setUp.txt -> build/lib/github/tests/ReplayData
+copying github/tests/ReplayData/Commit.testCreateCommentOnFilePosition.txt -> build/lib/github/tests/ReplayData
+copying github/tests/ReplayData/Github.testGetReposSince.txt -> build/lib/github/tests/ReplayData
+copying github/tests/ReplayData/AuthenticatedUser.testCreateFork.txt -> build/lib/github/tests/ReplayData
+copying github/tests/ReplayData/Hook.testEditWithAllParameters.txt -> build/lib/github/tests/ReplayData
+copying github/tests/ReplayData/Status.testGetMessages.txt -> build/lib/github/tests/ReplayData
+copying github/tests/ReplayData/PullRequestComment.testEdit.txt -> build/lib/github/tests/ReplayData
+copying github/tests/ReplayData/UserKey.testDelete.txt -> build/lib/github/tests/ReplayData
+copying github/tests/ReplayData/Repository.testCreateGitTagWithAllArguments.txt -> build/lib/github/tests/ReplayData
+copying github/tests/ReplayData/Label.testEdit.txt -> build/lib/github/tests/ReplayData
+copying github/tests/ReplayData/Repository.testMergeWithoutMessage.txt -> build/lib/github/tests/ReplayData
+copying github/tests/ReplayData/Repository.testCreateGitBlob.txt -> build/lib/github/tests/ReplayData
+copying github/tests/ReplayData/Issue214.testAssignees.txt -> build/lib/github/tests/ReplayData
+copying github/tests/ReplayData/Issue.setUp.txt -> build/lib/github/tests/ReplayData
+copying github/tests/ReplayData/Organization.testCreateRepoWithAllArguments.txt -> build/lib/github/tests/ReplayData
+copying github/tests/ReplayData/Repository.testGetGitRef.txt -> build/lib/github/tests/ReplayData
+copying github/tests/ReplayData/BadAttributes.testBadAttributeInClassAttribute.txt -> build/lib/github/tests/ReplayData
+copying github/tests/ReplayData/PaginatedList.testSliceIndexingUntilEnd.txt -> build/lib/github/tests/ReplayData
+copying github/tests/ReplayData/PullRequest.testGetComments.txt -> build/lib/github/tests/ReplayData
+copying github/tests/ReplayData/NamedUser.testGetFollowers.txt -> build/lib/github/tests/ReplayData
+copying github/tests/ReplayData/Commit.setUp.txt -> build/lib/github/tests/ReplayData
+copying github/tests/ReplayData/Repository.testGetContributors.txt -> build/lib/github/tests/ReplayData
+copying github/tests/ReplayData/AuthenticatedUser.testFollowing.txt -> build/lib/github/tests/ReplayData
+copying github/tests/ReplayData/AuthenticatedUser.testGetReposWithArguments.txt -> build/lib/github/tests/ReplayData
+copying github/tests/ReplayData/GitRef.testEdit.txt -> build/lib/github/tests/ReplayData
+copying github/tests/ReplayData/Repository.testUnsubscribePubSubHubbub.txt -> build/lib/github/tests/ReplayData
+copying github/tests/ReplayData/PullRequest.testGetFiles.txt -> build/lib/github/tests/ReplayData
+copying github/tests/ReplayData/Repository.testGetKeys.txt -> build/lib/github/tests/ReplayData
+copying github/tests/ReplayData/Issue131.testGetPullsWithOrgHeadUser.txt -> build/lib/github/tests/ReplayData
+copying github/tests/ReplayData/CommitComment.testEdit.txt -> build/lib/github/tests/ReplayData
+copying github/tests/ReplayData/Gist.testEditWithAllParameters.txt -> build/lib/github/tests/ReplayData
+copying github/tests/ReplayData/Repository.testCreateGitTag.txt -> build/lib/github/tests/ReplayData
+copying github/tests/ReplayData/Github.testSearchRepos.txt -> build/lib/github/tests/ReplayData
+copying github/tests/ReplayData/Organization.testGetPublicMembers.txt -> build/lib/github/tests/ReplayData
+copying github/tests/ReplayData/Organization.testCreateTeamWithAllArguments.txt -> build/lib/github/tests/ReplayData
+copying github/tests/ReplayData/Repository.testGetPullsWithArguments.txt -> build/lib/github/tests/ReplayData
+copying github/tests/ReplayData/Issue80.testIgnoreHttpsFromGithubEnterprise.txt -> build/lib/github/tests/ReplayData
+copying github/tests/ReplayData/Team.testDelete.txt -> build/lib/github/tests/ReplayData
+copying github/tests/ReplayData/UserKey.testEditWithAllArguments.txt -> build/lib/github/tests/ReplayData
+copying github/tests/ReplayData/Repository.testGetCommits.txt -> build/lib/github/tests/ReplayData
+copying github/tests/ReplayData/Repository.testCreateGitRef.txt -> build/lib/github/tests/ReplayData
+copying github/tests/ReplayData/Equality.testUserDifference.txt -> build/lib/github/tests/ReplayData
+copying github/tests/ReplayData/Enterprise.testHttps.txt -> build/lib/github/tests/ReplayData
+copying github/tests/ReplayData/Repository.testCreateGitTreeWithSha.txt -> build/lib/github/tests/ReplayData
+copying github/tests/ReplayData/Repository.testGetIssues.txt -> build/lib/github/tests/ReplayData
+copying github/tests/ReplayData/Issue278.setUp.txt -> build/lib/github/tests/ReplayData
+copying github/tests/ReplayData/Repository.testGetMilestones.txt -> build/lib/github/tests/ReplayData
+copying github/tests/ReplayData/Issue54.testConversion.txt -> build/lib/github/tests/ReplayData
+copying github/tests/ReplayData/Github.testLegacySearchReposWithLanguage.txt -> build/lib/github/tests/ReplayData
+copying github/tests/ReplayData/Organization.testGetEvents.txt -> build/lib/github/tests/ReplayData
+creating build/bdist.linux-x86_64
+creating build/bdist.linux-x86_64/egg
+creating build/bdist.linux-x86_64/egg/github
+copying build/lib/github/GitBlob.py -> build/bdist.linux-x86_64/egg/github
+copying build/lib/github/Event.py -> build/bdist.linux-x86_64/egg/github
+copying build/lib/github/GitAuthor.py -> build/bdist.linux-x86_64/egg/github
+copying build/lib/github/StatusMessage.py -> build/bdist.linux-x86_64/egg/github
+copying build/lib/github/GithubException.py -> build/bdist.linux-x86_64/egg/github
+copying build/lib/github/StatsCommitActivity.py -> build/bdist.linux-x86_64/egg/github
+copying build/lib/github/MainClass.py -> build/bdist.linux-x86_64/egg/github
+copying build/lib/github/Download.py -> build/bdist.linux-x86_64/egg/github
+copying build/lib/github/GitTreeElement.py -> build/bdist.linux-x86_64/egg/github
+copying build/lib/github/GitCommit.py -> build/bdist.linux-x86_64/egg/github
+copying build/lib/github/Permissions.py -> build/bdist.linux-x86_64/egg/github
+copying build/lib/github/NotificationSubject.py -> build/bdist.linux-x86_64/egg/github
+copying build/lib/github/PaginatedList.py -> build/bdist.linux-x86_64/egg/github
+copying build/lib/github/InputGitAuthor.py -> build/bdist.linux-x86_64/egg/github
+copying build/lib/github/Tag.py -> build/bdist.linux-x86_64/egg/github
+copying build/lib/github/RateLimit.py -> build/bdist.linux-x86_64/egg/github
+copying build/lib/github/HookDescription.py -> build/bdist.linux-x86_64/egg/github
+copying build/lib/github/GitignoreTemplate.py -> build/bdist.linux-x86_64/egg/github
+copying build/lib/github/GitTree.py -> build/bdist.linux-x86_64/egg/github
+copying build/lib/github/Consts.py -> build/bdist.linux-x86_64/egg/github
+copying build/lib/github/InputGitTreeElement.py -> build/bdist.linux-x86_64/egg/github
+copying build/lib/github/IssueComment.py -> build/bdist.linux-x86_64/egg/github
+copying build/lib/github/NamedUser.py -> build/bdist.linux-x86_64/egg/github
+copying build/lib/github/Legacy.py -> build/bdist.linux-x86_64/egg/github
+copying build/lib/github/Repository.py -> build/bdist.linux-x86_64/egg/github
+copying build/lib/github/Hook.py -> build/bdist.linux-x86_64/egg/github
+copying build/lib/github/GitTag.py -> build/bdist.linux-x86_64/egg/github
+copying build/lib/github/StatsParticipation.py -> build/bdist.linux-x86_64/egg/github
+copying build/lib/github/InputFileContent.py -> build/bdist.linux-x86_64/egg/github
+copying build/lib/github/StatsCodeFrequency.py -> build/bdist.linux-x86_64/egg/github
+copying build/lib/github/AuthorizationApplication.py -> build/bdist.linux-x86_64/egg/github
+copying build/lib/github/Comparison.py -> build/bdist.linux-x86_64/egg/github
+copying build/lib/github/Notification.py -> build/bdist.linux-x86_64/egg/github
+copying build/lib/github/GistComment.py -> build/bdist.linux-x86_64/egg/github
+copying build/lib/github/File.py -> build/bdist.linux-x86_64/egg/github
+copying build/lib/github/GistHistoryState.py -> build/bdist.linux-x86_64/egg/github
+copying build/lib/github/IssueEvent.py -> build/bdist.linux-x86_64/egg/github
+copying build/lib/github/Team.py -> build/bdist.linux-x86_64/egg/github
+copying build/lib/github/Label.py -> build/bdist.linux-x86_64/egg/github
+creating build/bdist.linux-x86_64/egg/github/tests
+copying build/lib/github/tests/GitBlob.py -> build/bdist.linux-x86_64/egg/github/tests
+copying build/lib/github/tests/Event.py -> build/bdist.linux-x86_64/egg/github/tests
+copying build/lib/github/tests/RateLimiting.py -> build/bdist.linux-x86_64/egg/github/tests
+copying build/lib/github/tests/Download.py -> build/bdist.linux-x86_64/egg/github/tests
+copying build/lib/github/tests/Issue80.py -> build/bdist.linux-x86_64/egg/github/tests
+copying build/lib/github/tests/GitCommit.py -> build/bdist.linux-x86_64/egg/github/tests
+copying build/lib/github/tests/__main__.py -> build/bdist.linux-x86_64/egg/github/tests
+copying build/lib/github/tests/PaginatedList.py -> build/bdist.linux-x86_64/egg/github/tests
+copying build/lib/github/tests/Issue216.py -> build/bdist.linux-x86_64/egg/github/tests
+copying build/lib/github/tests/Issue278.py -> build/bdist.linux-x86_64/egg/github/tests
+copying build/lib/github/tests/Issue50.py -> build/bdist.linux-x86_64/egg/github/tests
+copying build/lib/github/tests/Tag.py -> build/bdist.linux-x86_64/egg/github/tests
+copying build/lib/github/tests/Github_.py -> build/bdist.linux-x86_64/egg/github/tests
+creating build/bdist.linux-x86_64/egg/github/tests/ReplayData
+copying build/lib/github/tests/ReplayData/Github.testGetGitignoreTemplate.txt -> build/bdist.linux-x86_64/egg/github/tests/ReplayData
+copying build/lib/github/tests/ReplayData/Repository.testCreateGitTree.txt -> build/bdist.linux-x86_64/egg/github/tests/ReplayData
+copying build/lib/github/tests/ReplayData/Branch.setUp.txt -> build/bdist.linux-x86_64/egg/github/tests/ReplayData
+copying build/lib/github/tests/ReplayData/Issue216.setUp.txt -> build/bdist.linux-x86_64/egg/github/tests/ReplayData
+copying build/lib/github/tests/ReplayData/PullRequest.testMerge.txt -> build/bdist.linux-x86_64/egg/github/tests/ReplayData
+copying build/lib/github/tests/ReplayData/IssueComment.setUp.txt -> build/bdist.linux-x86_64/egg/github/tests/ReplayData
+copying build/lib/github/tests/ReplayData/BadAttributes.testBadSimpleAttribute.txt -> build/bdist.linux-x86_64/egg/github/tests/ReplayData
+copying build/lib/github/tests/ReplayData/Search.testUrlquotingOfQualifiers.txt -> build/bdist.linux-x86_64/egg/github/tests/ReplayData
+copying build/lib/github/tests/ReplayData/Github.testGetHooks.txt -> build/bdist.linux-x86_64/egg/github/tests/ReplayData
+copying build/lib/github/tests/ReplayData/NamedUser.testGetKeys.txt -> build/bdist.linux-x86_64/egg/github/tests/ReplayData
+copying build/lib/github/tests/ReplayData/Enterprise.testLongUrl.txt -> build/bdist.linux-x86_64/egg/github/tests/ReplayData
+copying build/lib/github/tests/ReplayData/RepositoryKey.testDelete.txt -> build/bdist.linux-x86_64/egg/github/tests/ReplayData
+copying build/lib/github/tests/ReplayData/Repository.testGetLanguages.txt -> build/bdist.linux-x86_64/egg/github/tests/ReplayData
+copying build/lib/github/tests/ReplayData/Issue87.testCreateIssueWithEscapedPercentInTitle.txt -> build/bdist.linux-x86_64/egg/github/tests/ReplayData
+copying build/lib/github/tests/ReplayData/Github.testGetRepoFromFullName.txt -> build/bdist.linux-x86_64/egg/github/tests/ReplayData
+copying build/lib/github/tests/ReplayData/Repository.testEditWithAllArguments.txt -> build/bdist.linux-x86_64/egg/github/tests/ReplayData
+copying build/lib/github/tests/ReplayData/Github.testLegacySearchUsers.txt -> build/bdist.linux-x86_64/egg/github/tests/ReplayData
+copying build/lib/github/tests/ReplayData/Issue216.testIteration.txt -> build/bdist.linux-x86_64/egg/github/tests/ReplayData
+copying build/lib/github/tests/ReplayData/Team.testEditWithoutArguments.txt -> build/bdist.linux-x86_64/egg/github/tests/ReplayData
+copying build/lib/github/tests/ReplayData/GitRef.testDelete.txt -> build/bdist.linux-x86_64/egg/github/tests/ReplayData
+copying build/lib/github/tests/ReplayData/Issue50.testGetLabels.txt -> build/bdist.linux-x86_64/egg/github/tests/ReplayData
+copying build/lib/github/tests/ReplayData/Github.testGetGists.txt -> build/bdist.linux-x86_64/egg/github/tests/ReplayData
+copying build/lib/github/tests/ReplayData/CommitStatus.setUp.txt -> build/bdist.linux-x86_64/egg/github/tests/ReplayData
+copying build/lib/github/tests/ReplayData/BadAttributes.testBadTransformedAttributeInDict.txt -> build/bdist.linux-x86_64/egg/github/tests/ReplayData
+copying build/lib/github/tests/ReplayData/Repository.testGetArchiveLink.txt -> build/bdist.linux-x86_64/egg/github/tests/ReplayData
+copying build/lib/github/tests/ReplayData/Repository.testSearchIssues.txt -> build/bdist.linux-x86_64/egg/github/tests/ReplayData
+copying build/lib/github/tests/ReplayData/Organization.testPublicMembers.txt -> build/bdist.linux-x86_64/egg/github/tests/ReplayData
+copying build/lib/github/tests/ReplayData/Issue.testEditWithAllParameters.txt -> build/bdist.linux-x86_64/egg/github/tests/ReplayData
+copying build/lib/github/tests/ReplayData/PaginatedList.testSliceIndexingUntilFourthPage.txt -> build/bdist.linux-x86_64/egg/github/tests/ReplayData
+copying build/lib/github/tests/ReplayData/PaginatedList.testReversedIterationWithMultiplePages.txt -> build/bdist.linux-x86_64/egg/github/tests/ReplayData
+copying build/lib/github/tests/ReplayData/Event.setUp.txt -> build/bdist.linux-x86_64/egg/github/tests/ReplayData
+copying build/lib/github/tests/ReplayData/PaginatedList.testCustomPerPage.txt -> build/bdist.linux-x86_64/egg/github/tests/ReplayData
+copying build/lib/github/tests/ReplayData/RawData.testCompletedObject.txt -> build/bdist.linux-x86_64/egg/github/tests/ReplayData
+copying build/lib/github/tests/ReplayData/Repository.testCreateGitCommitWithParents.txt -> build/bdist.linux-x86_64/egg/github/tests/ReplayData
+copying build/lib/github/tests/ReplayData/Github.testLegacySearchReposPagination.txt -> build/bdist.linux-x86_64/egg/github/tests/ReplayData
+copying build/lib/github/tests/ReplayData/Logging.testLoggingWithOAuthAuthentication.txt -> build/bdist.linux-x86_64/egg/github/tests/ReplayData
+copying build/lib/github/tests/ReplayData/Issue158.testPaginationWithSecretKeyAuthentication.txt -> build/bdist.linux-x86_64/egg/github/tests/ReplayData
+copying build/lib/github/tests/ReplayData/Exceptions.testUnknownUser.txt -> build/bdist.linux-x86_64/egg/github/tests/ReplayData
+copying build/lib/github/tests/ReplayData/AuthenticatedUser.testGetEvents.txt -> build/bdist.linux-x86_64/egg/github/tests/ReplayData
+copying build/lib/github/tests/ReplayData/Organization.testGetRepos.txt -> build/bdist.linux-x86_64/egg/github/tests/ReplayData
+copying build/lib/github/tests/ReplayData/Issue214.testEditIssue.txt -> build/bdist.linux-x86_64/egg/github/tests/ReplayData
+copying build/lib/github/tests/ReplayData/PullRequestFile.setUp.txt -> build/bdist.linux-x86_64/egg/github/tests/ReplayData
+copying build/lib/github/tests/ReplayData/AuthenticatedUser.testGetKeys.txt -> build/bdist.linux-x86_64/egg/github/tests/ReplayData
+copying build/lib/github/tests/ReplayData/Repository.testGetCommitsWithAuthor.txt -> build/bdist.linux-x86_64/egg/github/tests/ReplayData
+copying build/lib/github/tests/ReplayData/Equality.testUserEquality.txt -> build/bdist.linux-x86_64/egg/github/tests/ReplayData
+copying build/lib/github/tests/ReplayData/NamedUser.testGetOrgs.txt -> build/bdist.linux-x86_64/egg/github/tests/ReplayData
+copying build/lib/github/tests/ReplayData/NamedUser.testAttributesOfOtherUser.txt -> build/bdist.linux-x86_64/egg/github/tests/ReplayData
+copying build/lib/github/tests/ReplayData/Repository.testGetGitRefs.txt -> build/bdist.linux-x86_64/egg/github/tests/ReplayData
+copying build/lib/github/tests/ReplayData/Hook.testEditWithMinimalParameters.txt -> build/bdist.linux-x86_64/egg/github/tests/ReplayData
+copying build/lib/github/tests/ReplayData/Issue50.testSetIssueLabels.txt -> build/bdist.linux-x86_64/egg/github/tests/ReplayData
+copying build/lib/github/tests/ReplayData/NamedUser.testGetRepos.txt -> build/bdist.linux-x86_64/egg/github/tests/ReplayData
+copying build/lib/github/tests/ReplayData/PullRequest.testCreateComment.txt -> build/bdist.linux-x86_64/egg/github/tests/ReplayData
+copying build/lib/github/tests/ReplayData/BadAttributes.testIssue195.txt -> build/bdist.linux-x86_64/egg/github/tests/ReplayData
+copying build/lib/github/tests/ReplayData/Organization.testCreateFork.txt -> build/bdist.linux-x86_64/egg/github/tests/ReplayData
+copying build/lib/github/tests/ReplayData/Github.testGetGitignoreTemplates.txt -> build/bdist.linux-x86_64/egg/github/tests/ReplayData
+copying build/lib/github/tests/ReplayData/Repository.testGetPullsComments.txt -> build/bdist.linux-x86_64/egg/github/tests/ReplayData
+copying build/lib/github/tests/ReplayData/Repository.testCreateMilestoneWithMinimalArguments.txt -> build/bdist.linux-x86_64/egg/github/tests/ReplayData
+copying build/lib/github/tests/ReplayData/Repository.testCreateLabel.txt -> build/bdist.linux-x86_64/egg/github/tests/ReplayData
+copying build/lib/github/tests/ReplayData/Github.testGetRepoFromId.txt -> build/bdist.linux-x86_64/egg/github/tests/ReplayData
+copying build/lib/github/tests/ReplayData/AuthenticatedUser.testGetRepos.txt -> build/bdist.linux-x86_64/egg/github/tests/ReplayData
+copying build/lib/github/tests/ReplayData/Repository.testGetMilestonesWithArguments.txt -> build/bdist.linux-x86_64/egg/github/tests/ReplayData
+copying build/lib/github/tests/ReplayData/PaginatedList.testInterruptedIteration.txt -> build/bdist.linux-x86_64/egg/github/tests/ReplayData
+copying build/lib/github/tests/ReplayData/Search.testSearchUsers.txt -> build/bdist.linux-x86_64/egg/github/tests/ReplayData
+copying build/lib/github/tests/ReplayData/RateLimiting.testRateLimiting.txt -> build/bdist.linux-x86_64/egg/github/tests/ReplayData
+copying build/lib/github/tests/ReplayData/SpecificExceptions.testBadUserAgent.txt -> build/bdist.linux-x86_64/egg/github/tests/ReplayData
+copying build/lib/github/tests/ReplayData/Repository.testGetLabels.txt -> build/bdist.linux-x86_64/egg/github/tests/ReplayData
+copying build/lib/github/tests/ReplayData/Repository.testMergeWithMessage.txt -> build/bdist.linux-x86_64/egg/github/tests/ReplayData
+copying build/lib/github/tests/ReplayData/Repository.testCreatePullFromIssue.txt -> build/bdist.linux-x86_64/egg/github/tests/ReplayData
+copying build/lib/github/tests/ReplayData/Authentication.testAuthorizationHeaderWithLogin.txt -> build/bdist.linux-x86_64/egg/github/tests/ReplayData
+copying build/lib/github/tests/ReplayData/Issue50.testCreateIssueWithLabel.txt -> build/bdist.linux-x86_64/egg/github/tests/ReplayData
+copying build/lib/github/tests/ReplayData/PullRequest.testEditWithoutArguments.txt -> build/bdist.linux-x86_64/egg/github/tests/ReplayData
+copying build/lib/github/tests/ReplayData/AuthenticatedUser.testCreateAuthorizationWithAllArguments.txt -> build/bdist.linux-x86_64/egg/github/tests/ReplayData
+copying build/lib/github/tests/ReplayData/NamedUser.testGetWatched.txt -> build/bdist.linux-x86_64/egg/github/tests/ReplayData
+copying build/lib/github/tests/ReplayData/Issue.testGetEvents.txt -> build/bdist.linux-x86_64/egg/github/tests/ReplayData
+copying build/lib/github/tests/ReplayData/Github.testGetEmojis.txt -> build/bdist.linux-x86_64/egg/github/tests/ReplayData
+copying build/lib/github/tests/ReplayData/CommitComment.setUp.txt -> build/bdist.linux-x86_64/egg/github/tests/ReplayData
+copying build/lib/github/tests/ReplayData/Authentication.testBasicAuthentication.txt -> build/bdist.linux-x86_64/egg/github/tests/ReplayData
+copying build/lib/github/tests/ReplayData/Logging.testLoggingWithBasicAuthentication.txt -> build/bdist.linux-x86_64/egg/github/tests/ReplayData
+copying build/lib/github/tests/ReplayData/Repository.testGetStargazers.txt -> build/bdist.linux-x86_64/egg/github/tests/ReplayData
+copying build/lib/github/tests/ReplayData/Repository.testCreateGitCommit.txt -> build/bdist.linux-x86_64/egg/github/tests/ReplayData
+copying build/lib/github/tests/ReplayData/Organization.testGetTeams.txt -> build/bdist.linux-x86_64/egg/github/tests/ReplayData
+copying build/lib/github/tests/ReplayData/Milestone.testEditWithMinimalParameters.txt -> build/bdist.linux-x86_64/egg/github/tests/ReplayData
+copying build/lib/github/tests/ReplayData/Issue214.testCollaborators.txt -> build/bdist.linux-x86_64/egg/github/tests/ReplayData
+copying build/lib/github/tests/ReplayData/Download.setUp.txt -> build/bdist.linux-x86_64/egg/github/tests/ReplayData
+copying build/lib/github/tests/ReplayData/Github.testSearchUserByEmail.txt -> build/bdist.linux-x86_64/egg/github/tests/ReplayData
+copying build/lib/github/tests/ReplayData/Hook.testDelete.txt -> build/bdist.linux-x86_64/egg/github/tests/ReplayData
+copying build/lib/github/tests/ReplayData/ExposeAllAttributes.testAllClasses.txt -> build/bdist.linux-x86_64/egg/github/tests/ReplayData
+copying build/lib/github/tests/ReplayData/AuthenticatedUser.testGetGists.txt -> build/bdist.linux-x86_64/egg/github/tests/ReplayData
+copying build/lib/github/tests/ReplayData/Exceptions.testNonJsonDataReturnedByGithub.txt -> build/bdist.linux-x86_64/egg/github/tests/ReplayData
+copying build/lib/github/tests/ReplayData/ConditionalRequestUpdate.setUp.txt -> build/bdist.linux-x86_64/egg/github/tests/ReplayData
+copying build/lib/github/tests/ReplayData/Issue140.testGetDirContentsWithRef.txt -> build/bdist.linux-x86_64/egg/github/tests/ReplayData
+copying build/lib/github/tests/ReplayData/GitBlob.setUp.txt -> build/bdist.linux-x86_64/egg/github/tests/ReplayData
+copying build/lib/github/tests/ReplayData/Status.testGetLastMessage.txt -> build/bdist.linux-x86_64/egg/github/tests/ReplayData
+copying build/lib/github/tests/ReplayData/Github.testLegacySearchReposExplicitPagination.txt -> build/bdist.linux-x86_64/egg/github/tests/ReplayData
+copying build/lib/github/tests/ReplayData/AuthenticatedUser.testSubscriptions.txt -> build/bdist.linux-x86_64/egg/github/tests/ReplayData
+copying build/lib/github/tests/ReplayData/Markdown.testRenderGithubFlavoredMarkdown.txt -> build/bdist.linux-x86_64/egg/github/tests/ReplayData
+copying build/lib/github/tests/ReplayData/NamedUser.testGetRepo.txt -> build/bdist.linux-x86_64/egg/github/tests/ReplayData
+copying build/lib/github/tests/ReplayData/PullRequestComment.setUp.txt -> build/bdist.linux-x86_64/egg/github/tests/ReplayData
+copying build/lib/github/tests/ReplayData/AuthenticatedUser.testEditWithAllArguments.txt -> build/bdist.linux-x86_64/egg/github/tests/ReplayData
+copying build/lib/github/tests/ReplayData/Repository.testGetIssuesEvents.txt -> build/bdist.linux-x86_64/egg/github/tests/ReplayData
+copying build/lib/github/tests/ReplayData/Repository.testCollaborators.txt -> build/bdist.linux-x86_64/egg/github/tests/ReplayData
+copying build/lib/github/tests/ReplayData/ConditionalRequestUpdate.testDidUpdate.txt -> build/bdist.linux-x86_64/egg/github/tests/ReplayData
+copying build/lib/github/tests/ReplayData/Organization.testMembers.txt -> build/bdist.linux-x86_64/egg/github/tests/ReplayData
+copying build/lib/github/tests/ReplayData/Issue.testEditResetMilestone.txt -> build/bdist.linux-x86_64/egg/github/tests/ReplayData
+copying build/lib/github/tests/ReplayData/AuthenticatedUser.testCreateGist.txt -> build/bdist.linux-x86_64/egg/github/tests/ReplayData
+copying build/lib/github/tests/ReplayData/Authorization.testDelete.txt -> build/bdist.linux-x86_64/egg/github/tests/ReplayData
+copying build/lib/github/tests/ReplayData/CommitComment.testDelete.txt -> build/bdist.linux-x86_64/egg/github/tests/ReplayData
+copying build/lib/github/tests/ReplayData/Issue140.testGetDirContents.txt -> build/bdist.linux-x86_64/egg/github/tests/ReplayData
+copying build/lib/github/tests/ReplayData/AuthenticatedUser.testGetNotificationsWithOtherArguments.txt -> build/bdist.linux-x86_64/egg/github/tests/ReplayData
+copying build/lib/github/tests/ReplayData/Commit.testCreateCommentOnFileLine.txt -> build/bdist.linux-x86_64/egg/github/tests/ReplayData
+copying build/lib/github/tests/ReplayData/Repository.testCreateGitCommitWithAllArguments.txt -> build/bdist.linux-x86_64/egg/github/tests/ReplayData
+copying build/lib/github/tests/ReplayData/Authentication.testUserAgent.txt -> build/bdist.linux-x86_64/egg/github/tests/ReplayData
+copying build/lib/github/tests/ReplayData/Status.testGetStatus.txt -> build/bdist.linux-x86_64/egg/github/tests/ReplayData
+copying build/lib/github/tests/ReplayData/Gist.testRenameFile.txt -> build/bdist.linux-x86_64/egg/github/tests/ReplayData
+copying build/lib/github/tests/ReplayData/Issue87.testCreateIssueWithPercentInBody.txt -> build/bdist.linux-x86_64/egg/github/tests/ReplayData
+copying build/lib/github/tests/ReplayData/PullRequestComment.testDelete.txt -> build/bdist.linux-x86_64/egg/github/tests/ReplayData
+copying build/lib/github/tests/ReplayData/Repository.testStatisticsBeforeCaching.txt -> build/bdist.linux-x86_64/egg/github/tests/ReplayData
+copying build/lib/github/tests/ReplayData/RepositoryKey.setUp.txt -> build/bdist.linux-x86_64/egg/github/tests/ReplayData
+copying build/lib/github/tests/ReplayData/Issue87.setUp.txt -> build/bdist.linux-x86_64/egg/github/tests/ReplayData
+copying build/lib/github/tests/ReplayData/NamedUser.testHasInFollowing.txt -> build/bdist.linux-x86_64/egg/github/tests/ReplayData
+copying build/lib/github/tests/ReplayData/Issue.testAddAndRemoveLabels.txt -> build/bdist.linux-x86_64/egg/github/tests/ReplayData
+copying build/lib/github/tests/ReplayData/BadAttributes.testBadTransformedAttributeInList.txt -> build/bdist.linux-x86_64/egg/github/tests/ReplayData
+copying build/lib/github/tests/ReplayData/GistComment.setUp.txt -> build/bdist.linux-x86_64/egg/github/tests/ReplayData
+copying build/lib/github/tests/ReplayData/Repository.testGetIssuesWithWildcards.txt -> build/bdist.linux-x86_64/egg/github/tests/ReplayData
+copying build/lib/github/tests/ReplayData/Github.testLegacySearchUsersExplicitPagination.txt -> build/bdist.linux-x86_64/egg/github/tests/ReplayData
+copying build/lib/github/tests/ReplayData/Hook.setUp.txt -> build/bdist.linux-x86_64/egg/github/tests/ReplayData
+copying build/lib/github/tests/ReplayData/RawData.testNotYetCompletedObject.txt -> build/bdist.linux-x86_64/egg/github/tests/ReplayData
+copying build/lib/github/tests/ReplayData/Repository.testGetEvents.txt -> build/bdist.linux-x86_64/egg/github/tests/ReplayData
+copying build/lib/github/tests/ReplayData/Issue.testGetComments.txt -> build/bdist.linux-x86_64/egg/github/tests/ReplayData
+copying build/lib/github/tests/ReplayData/Repository.testMergeWithConflict.txt -> build/bdist.linux-x86_64/egg/github/tests/ReplayData
+copying build/lib/github/tests/ReplayData/PaginatedList.testIntIndexingAfterIteration.txt -> build/bdist.linux-x86_64/egg/github/tests/ReplayData
+copying build/lib/github/tests/ReplayData/Issue.testAttributes.txt -> build/bdist.linux-x86_64/egg/github/tests/ReplayData
+copying build/lib/github/tests/ReplayData/RepositoryKey.testEditWithoutParameters.txt -> build/bdist.linux-x86_64/egg/github/tests/ReplayData
+copying build/lib/github/tests/ReplayData/Label.testDelete.txt -> build/bdist.linux-x86_64/egg/github/tests/ReplayData
+copying build/lib/github/tests/ReplayData/PullRequest.testGetIssueComments.txt -> build/bdist.linux-x86_64/egg/github/tests/ReplayData
+copying build/lib/github/tests/ReplayData/Organization.testGetIssuesWithAllArguments.txt -> build/bdist.linux-x86_64/egg/github/tests/ReplayData
+copying build/lib/github/tests/ReplayData/Authorization.testEdit.txt -> build/bdist.linux-x86_64/egg/github/tests/ReplayData
+copying build/lib/github/tests/ReplayData/Issue.testEditWithoutParameters.txt -> build/bdist.linux-x86_64/egg/github/tests/ReplayData
+copying build/lib/github/tests/ReplayData/Search.testGetPageOnSearchUsers.txt -> build/bdist.linux-x86_64/egg/github/tests/ReplayData
+copying build/lib/github/tests/ReplayData/Issue33.testClosedIssues.txt -> build/bdist.linux-x86_64/egg/github/tests/ReplayData
+copying build/lib/github/tests/ReplayData/Github.testGetHook.txt -> build/bdist.linux-x86_64/egg/github/tests/ReplayData
+copying build/lib/github/tests/ReplayData/Hook.testTest.txt -> build/bdist.linux-x86_64/egg/github/tests/ReplayData
+copying build/lib/github/tests/ReplayData/PaginatedList.testCustomPerPageWithGetPage.txt -> build/bdist.linux-x86_64/egg/github/tests/ReplayData
+copying build/lib/github/tests/ReplayData/AuthenticatedUser.testGetStarredGists.txt -> build/bdist.linux-x86_64/egg/github/tests/ReplayData
+copying build/lib/github/tests/ReplayData/RateLimiting.testResetTime.txt -> build/bdist.linux-x86_64/egg/github/tests/ReplayData
+copying build/lib/github/tests/ReplayData/GitCommit.setUp.txt -> build/bdist.linux-x86_64/egg/github/tests/ReplayData
+copying build/lib/github/tests/ReplayData/Issue140.testGetFileContents.txt -> build/bdist.linux-x86_64/egg/github/tests/ReplayData
+copying build/lib/github/tests/ReplayData/Repository.testGetContents.txt -> build/bdist.linux-x86_64/egg/github/tests/ReplayData
+copying build/lib/github/tests/ReplayData/Repository.testDelete.txt -> build/bdist.linux-x86_64/egg/github/tests/ReplayData
+copying build/lib/github/tests/ReplayData/Exceptions.testInvalidInput.txt -> build/bdist.linux-x86_64/egg/github/tests/ReplayData
+copying build/lib/github/tests/ReplayData/AuthenticatedUser.testStarring.txt -> build/bdist.linux-x86_64/egg/github/tests/ReplayData
+copying build/lib/github/tests/ReplayData/Milestone.testGetLabels.txt -> build/bdist.linux-x86_64/egg/github/tests/ReplayData
+copying build/lib/github/tests/ReplayData/Issue140.setUp.txt -> build/bdist.linux-x86_64/egg/github/tests/ReplayData
+copying build/lib/github/tests/ReplayData/Github.testGetUsersSince.txt -> build/bdist.linux-x86_64/egg/github/tests/ReplayData
+copying build/lib/github/tests/ReplayData/Issue33.setUp.txt -> build/bdist.linux-x86_64/egg/github/tests/ReplayData
+copying build/lib/github/tests/ReplayData/Gist.testGetComments.txt -> build/bdist.linux-x86_64/egg/github/tests/ReplayData
+copying build/lib/github/tests/ReplayData/PaginatedList.testIntIndexingInThirdPage.txt -> build/bdist.linux-x86_64/egg/github/tests/ReplayData
+copying build/lib/github/tests/ReplayData/NamedUser.testGetReposWithType.txt -> build/bdist.linux-x86_64/egg/github/tests/ReplayData
+copying build/lib/github/tests/ReplayData/PaginatedList.testCustomPerPageWithNoUrlParams2.txt -> build/bdist.linux-x86_64/egg/github/tests/ReplayData
+copying build/lib/github/tests/ReplayData/PullRequest.testGetCommits.txt -> build/bdist.linux-x86_64/egg/github/tests/ReplayData
+copying build/lib/github/tests/ReplayData/Issue139.testCompletion.txt -> build/bdist.linux-x86_64/egg/github/tests/ReplayData
+copying build/lib/github/tests/ReplayData/Gist.testDelete.txt -> build/bdist.linux-x86_64/egg/github/tests/ReplayData
+copying build/lib/github/tests/ReplayData/AuthenticatedUser.testCreateRepositoryWithAllArguments.txt -> build/bdist.linux-x86_64/egg/github/tests/ReplayData
+copying build/lib/github/tests/ReplayData/Issue50.testGetLabel.txt -> build/bdist.linux-x86_64/egg/github/tests/ReplayData
+copying build/lib/github/tests/ReplayData/Milestone.setUp.txt -> build/bdist.linux-x86_64/egg/github/tests/ReplayData
+copying build/lib/github/tests/ReplayData/PaginatedList.testReversedIterationWithSinglePage.txt -> build/bdist.linux-x86_64/egg/github/tests/ReplayData
+copying build/lib/github/tests/ReplayData/Authentication.testNoAuthentication.txt -> build/bdist.linux-x86_64/egg/github/tests/ReplayData
+copying build/lib/github/tests/ReplayData/UserKey.setUp.txt -> build/bdist.linux-x86_64/egg/github/tests/ReplayData
+copying build/lib/github/tests/ReplayData/Commit.testGetComments.txt -> build/bdist.linux-x86_64/egg/github/tests/ReplayData
+copying build/lib/github/tests/ReplayData/GitTree.setUp.txt -> build/bdist.linux-x86_64/egg/github/tests/ReplayData
+copying build/lib/github/tests/ReplayData/Team.testRepos.txt -> build/bdist.linux-x86_64/egg/github/tests/ReplayData
+copying build/lib/github/tests/ReplayData/GistComment.testDelete.txt -> build/bdist.linux-x86_64/egg/github/tests/ReplayData
+copying build/lib/github/tests/ReplayData/Markdown.setUp.txt -> build/bdist.linux-x86_64/egg/github/tests/ReplayData
+copying build/lib/github/tests/ReplayData/PaginatedList.testGetFirstPage.txt -> build/bdist.linux-x86_64/egg/github/tests/ReplayData
+copying build/lib/github/tests/ReplayData/Repository.testGetIssuesWithArguments.txt -> build/bdist.linux-x86_64/egg/github/tests/ReplayData
+copying build/lib/github/tests/ReplayData/SpecificExceptions.testBadCredentials.txt -> build/bdist.linux-x86_64/egg/github/tests/ReplayData
+copying build/lib/github/tests/ReplayData/ConditionalRequestUpdate.testDidNotUpdate.txt -> build/bdist.linux-x86_64/egg/github/tests/ReplayData
+copying build/lib/github/tests/ReplayData/Issue80.testIgnoreHttpsFromGithubEnterpriseWithPort.txt -> build/bdist.linux-x86_64/egg/github/tests/ReplayData
+copying build/lib/github/tests/ReplayData/AuthenticatedUser.testCreateAuthorizationWithoutArguments.txt -> build/bdist.linux-x86_64/egg/github/tests/ReplayData
+copying build/lib/github/tests/ReplayData/Issue139.setUp.txt -> build/bdist.linux-x86_64/egg/github/tests/ReplayData
+copying build/lib/github/tests/ReplayData/Repository.testMergeWithNothingToDo.txt -> build/bdist.linux-x86_64/egg/github/tests/ReplayData
+copying build/lib/github/tests/ReplayData/Repository.testGetWatchers.txt -> build/bdist.linux-x86_64/egg/github/tests/ReplayData
+copying build/lib/github/tests/ReplayData/Issue214.setUp.txt -> build/bdist.linux-x86_64/egg/github/tests/ReplayData
+copying build/lib/github/tests/ReplayData/Issue.testAddAndRemoveLabelsWithStringArguments.txt -> build/bdist.linux-x86_64/egg/github/tests/ReplayData
+copying build/lib/github/tests/ReplayData/Logging.testLoggingWithoutAuthentication.txt -> build/bdist.linux-x86_64/egg/github/tests/ReplayData
+copying build/lib/github/tests/ReplayData/Repository.testCreateKey.txt -> build/bdist.linux-x86_64/egg/github/tests/ReplayData
+copying build/lib/github/tests/ReplayData/Github.testSearchUsers.txt -> build/bdist.linux-x86_64/egg/github/tests/ReplayData
+copying build/lib/github/tests/ReplayData/NamedUser.testGetReceivedEvents.txt -> build/bdist.linux-x86_64/egg/github/tests/ReplayData
+copying build/lib/github/tests/ReplayData/Issue50.testGetIssuesWithLabel.txt -> build/bdist.linux-x86_64/egg/github/tests/ReplayData
+copying build/lib/github/tests/ReplayData/PaginatedList.testIntIndexingInFirstPage.txt -> build/bdist.linux-x86_64/egg/github/tests/ReplayData
+copying build/lib/github/tests/ReplayData/IssueEvent.testAttributes.txt -> build/bdist.linux-x86_64/egg/github/tests/ReplayData
+copying build/lib/github/tests/ReplayData/Enterprise.testHttp.txt -> build/bdist.linux-x86_64/egg/github/tests/ReplayData
+copying build/lib/github/tests/ReplayData/Github.testLegacySearchUsersPagination.txt -> build/bdist.linux-x86_64/egg/github/tests/ReplayData
+copying build/lib/github/tests/ReplayData/Issue.testDeleteAndSetLabelsWithStringArguments.txt -> build/bdist.linux-x86_64/egg/github/tests/ReplayData
+copying build/lib/github/tests/ReplayData/Repository.testGetContentsWithRef.txt -> build/bdist.linux-x86_64/egg/github/tests/ReplayData
+copying build/lib/github/tests/ReplayData/GistComment.testEdit.txt -> build/bdist.linux-x86_64/egg/github/tests/ReplayData
+copying build/lib/github/tests/ReplayData/Repository.testGetGitTreeWithRecursive.txt -> build/bdist.linux-x86_64/egg/github/tests/ReplayData
+copying build/lib/github/tests/ReplayData/NamedUser.testGetFollowing.txt -> build/bdist.linux-x86_64/egg/github/tests/ReplayData
+copying build/lib/github/tests/ReplayData/Organization.testCreateTeam.txt -> build/bdist.linux-x86_64/egg/github/tests/ReplayData
+copying build/lib/github/tests/ReplayData/Issue50.testAddLabelToIssue.txt -> build/bdist.linux-x86_64/egg/github/tests/ReplayData
+copying build/lib/github/tests/ReplayData/NamedUser.testGetGists.txt -> build/bdist.linux-x86_64/egg/github/tests/ReplayData
+copying build/lib/github/tests/ReplayData/Issue278.testIteration.txt -> build/bdist.linux-x86_64/egg/github/tests/ReplayData
+copying build/lib/github/tests/ReplayData/AuthenticatedUser.testCreateRepository.txt -> build/bdist.linux-x86_64/egg/github/tests/ReplayData
+copying build/lib/github/tests/ReplayData/Authentication.testOAuthAuthentication.txt -> build/bdist.linux-x86_64/egg/github/tests/ReplayData
+copying build/lib/github/tests/ReplayData/Issue87.testCreateIssueWithPercentInTitle.txt -> build/bdist.linux-x86_64/egg/github/tests/ReplayData
+copying build/lib/github/tests/ReplayData/RateLimiting.testGetRateLimit.txt -> build/bdist.linux-x86_64/egg/github/tests/ReplayData
+copying build/lib/github/tests/ReplayData/Organization.testGetReposWithType.txt -> build/bdist.linux-x86_64/egg/github/tests/ReplayData
+copying build/lib/github/tests/ReplayData/PullRequest.testCreateIssueComment.txt -> build/bdist.linux-x86_64/egg/github/tests/ReplayData
+copying build/lib/github/tests/ReplayData/Gist.testCreateComment.txt -> build/bdist.linux-x86_64/egg/github/tests/ReplayData
+copying build/lib/github/tests/ReplayData/NamedUser.testGetSubscriptions.txt -> build/bdist.linux-x86_64/egg/github/tests/ReplayData
+copying build/lib/github/tests/ReplayData/PaginatedList.testInterruptedIterationInSlice.txt -> build/bdist.linux-x86_64/egg/github/tests/ReplayData
+copying build/lib/github/tests/ReplayData/Repository.testCreateGitTreeWithBaseTree.txt -> build/bdist.linux-x86_64/egg/github/tests/ReplayData
+copying build/lib/github/tests/ReplayData/Repository.testEditWithDefaultBranch.txt -> build/bdist.linux-x86_64/egg/github/tests/ReplayData
+copying build/lib/github/tests/ReplayData/PullRequest.testMergeWithCommitMessage.txt -> build/bdist.linux-x86_64/egg/github/tests/ReplayData
+copying build/lib/github/tests/ReplayData/Issue.testGetLabels.txt -> build/bdist.linux-x86_64/egg/github/tests/ReplayData
+copying build/lib/github/tests/ReplayData/RawData.testNonCompletableObject.txt -> build/bdist.linux-x86_64/egg/github/tests/ReplayData
+copying build/lib/github/tests/ReplayData/Authentication.testAuthorizationHeaderWithToken.txt -> build/bdist.linux-x86_64/egg/github/tests/ReplayData
+copying build/lib/github/tests/ReplayData/PaginatedList.testReversedIterationSupportsIterator.txt -> build/bdist.linux-x86_64/egg/github/tests/ReplayData
+copying build/lib/github/tests/ReplayData/Issue131.setUp.txt -> build/bdist.linux-x86_64/egg/github/tests/ReplayData
+copying build/lib/github/tests/ReplayData/Team.setUp.txt -> build/bdist.linux-x86_64/egg/github/tests/ReplayData
+copying build/lib/github/tests/ReplayData/Repository.testGetLabel.txt -> build/bdist.linux-x86_64/egg/github/tests/ReplayData
+copying build/lib/github/tests/ReplayData/Gist.testDeleteFile.txt -> build/bdist.linux-x86_64/egg/github/tests/ReplayData
+copying build/lib/github/tests/ReplayData/Team.testMembers.txt -> build/bdist.linux-x86_64/egg/github/tests/ReplayData
+copying build/lib/github/tests/ReplayData/Exceptions.testUnknownObject.txt -> build/bdist.linux-x86_64/egg/github/tests/ReplayData
+copying build/lib/github/tests/ReplayData/AuthenticatedUser.testCreateGistWithoutDescription.txt -> build/bdist.linux-x86_64/egg/github/tests/ReplayData
+copying build/lib/github/tests/ReplayData/Issue131.testGetPullWithOrgHeadUser.txt -> build/bdist.linux-x86_64/egg/github/tests/ReplayData
+copying build/lib/github/tests/ReplayData/Repository.testCreateHookWithAllParameters.txt -> build/bdist.linux-x86_64/egg/github/tests/ReplayData
+copying build/lib/github/tests/ReplayData/Team.testEditWithAllArguments.txt -> build/bdist.linux-x86_64/egg/github/tests/ReplayData
+copying build/lib/github/tests/ReplayData/AuthenticatedUser.testEmails.txt -> build/bdist.linux-x86_64/egg/github/tests/ReplayData
+copying build/lib/github/tests/ReplayData/Repository.testGetCommitsWithSinceUntil.txt -> build/bdist.linux-x86_64/egg/github/tests/ReplayData
+copying build/lib/github/tests/ReplayData/Repository.testStatisticsAfterCaching.txt -> build/bdist.linux-x86_64/egg/github/tests/ReplayData
+copying build/lib/github/tests/ReplayData/Milestone.testEditWithAllParameters.txt -> build/bdist.linux-x86_64/egg/github/tests/ReplayData
+copying build/lib/github/tests/ReplayData/Github.testGetRepos.txt -> build/bdist.linux-x86_64/egg/github/tests/ReplayData
+copying build/lib/github/tests/ReplayData/NamedUser.testGetStarred.txt -> build/bdist.linux-x86_64/egg/github/tests/ReplayData
+copying build/lib/github/tests/ReplayData/Repository.testGetForks.txt -> build/bdist.linux-x86_64/egg/github/tests/ReplayData
+copying build/lib/github/tests/ReplayData/Repository.testCompare.txt -> build/bdist.linux-x86_64/egg/github/tests/ReplayData
+copying build/lib/github/tests/ReplayData/PaginatedList.testSliceIndexingInFirstPage.txt -> build/bdist.linux-x86_64/egg/github/tests/ReplayData
+copying build/lib/github/tests/ReplayData/AuthenticatedUser.testGetUserIssues.txt -> build/bdist.linux-x86_64/egg/github/tests/ReplayData
+copying build/lib/github/tests/ReplayData/IssueEvent.setUp.txt -> build/bdist.linux-x86_64/egg/github/tests/ReplayData
+copying build/lib/github/tests/ReplayData/Repository.testLegacySearchIssues.txt -> build/bdist.linux-x86_64/egg/github/tests/ReplayData
+copying build/lib/github/tests/ReplayData/PaginatedList.testIteration.txt -> build/bdist.linux-x86_64/egg/github/tests/ReplayData
+copying build/lib/github/tests/ReplayData/Gist.testAttributes.txt -> build/bdist.linux-x86_64/egg/github/tests/ReplayData
+copying build/lib/github/tests/ReplayData/Repository.testGetIssuesComments.txt -> build/bdist.linux-x86_64/egg/github/tests/ReplayData
+copying build/lib/github/tests/ReplayData/Repository.testGetComments.txt -> build/bdist.linux-x86_64/egg/github/tests/ReplayData
+copying build/lib/github/tests/ReplayData/Issue87.testCreateIssueWithEscapedPercentInBody.txt -> build/bdist.linux-x86_64/egg/github/tests/ReplayData
+copying build/lib/github/tests/ReplayData/UserKey.testEditWithoutArguments.txt -> build/bdist.linux-x86_64/egg/github/tests/ReplayData
+copying build/lib/github/tests/ReplayData/PullRequest.setUp.txt -> build/bdist.linux-x86_64/egg/github/tests/ReplayData
+copying build/lib/github/tests/ReplayData/Issue174.setUp.txt -> build/bdist.linux-x86_64/egg/github/tests/ReplayData
+copying build/lib/github/tests/ReplayData/Issue50.testIssueGetLabels.txt -> build/bdist.linux-x86_64/egg/github/tests/ReplayData
+copying build/lib/github/tests/ReplayData/PullRequest.testEditWithAllArguments.txt -> build/bdist.linux-x86_64/egg/github/tests/ReplayData
+copying build/lib/github/tests/ReplayData/AuthenticatedUser.testWatching.txt -> build/bdist.linux-x86_64/egg/github/tests/ReplayData
+copying build/lib/github/tests/ReplayData/GitRef.testEditWithForce.txt -> build/bdist.linux-x86_64/egg/github/tests/ReplayData
+copying build/lib/github/tests/ReplayData/Repository.setUp.txt -> build/bdist.linux-x86_64/egg/github/tests/ReplayData
+copying build/lib/github/tests/ReplayData/Issue134.testGetOAuthScopesFromHeader.txt -> build/bdist.linux-x86_64/egg/github/tests/ReplayData
+copying build/lib/github/tests/ReplayData/ContentFile.setUp.txt -> build/bdist.linux-x86_64/egg/github/tests/ReplayData
+copying build/lib/github/tests/ReplayData/Equality.testBranchEquality.txt -> build/bdist.linux-x86_64/egg/github/tests/ReplayData
+copying build/lib/github/tests/ReplayData/Gist.testEditWithoutParameters.txt -> build/bdist.linux-x86_64/egg/github/tests/ReplayData
+copying build/lib/github/tests/ReplayData/Issue54.setUp.txt -> build/bdist.linux-x86_64/egg/github/tests/ReplayData
+copying build/lib/github/tests/ReplayData/AuthenticatedUser.testAttributes.txt -> build/bdist.linux-x86_64/egg/github/tests/ReplayData
+copying build/lib/github/tests/ReplayData/PaginatedList.setUp.txt -> build/bdist.linux-x86_64/egg/github/tests/ReplayData
+copying build/lib/github/tests/ReplayData/Authentication.testSecretKeyAuthentication.txt -> build/bdist.linux-x86_64/egg/github/tests/ReplayData
+copying build/lib/github/tests/ReplayData/Repository.testGetTeams.txt -> build/bdist.linux-x86_64/egg/github/tests/ReplayData
+copying build/lib/github/tests/ReplayData/AuthenticatedUser.testGetAuthorizations.txt -> build/bdist.linux-x86_64/egg/github/tests/ReplayData
+copying build/lib/github/tests/ReplayData/AuthenticatedUser.testCreateKey.txt -> build/bdist.linux-x86_64/egg/github/tests/ReplayData
+copying build/lib/github/tests/ReplayData/Commit.testCreateStatusWithoutOptionalParameters.txt -> build/bdist.linux-x86_64/egg/github/tests/ReplayData
+copying build/lib/github/tests/ReplayData/AuthenticatedUser.testGetIssues.txt -> build/bdist.linux-x86_64/egg/github/tests/ReplayData
+copying build/lib/github/tests/ReplayData/Markdown.testRenderMarkdown.txt -> build/bdist.linux-x86_64/egg/github/tests/ReplayData
+copying build/lib/github/tests/ReplayData/AuthenticatedUser.testGetUserIssuesWithAllArguments.txt -> build/bdist.linux-x86_64/egg/github/tests/ReplayData
+copying build/lib/github/tests/ReplayData/Issue.testEditResetAssignee.txt -> build/bdist.linux-x86_64/egg/github/tests/ReplayData
+copying build/lib/github/tests/ReplayData/Repository.testCreateIssue.txt -> build/bdist.linux-x86_64/egg/github/tests/ReplayData
+copying build/lib/github/tests/ReplayData/Issue.testDeleteAndSetLabels.txt -> build/bdist.linux-x86_64/egg/github/tests/ReplayData
+copying build/lib/github/tests/ReplayData/SpecificExceptions.testRateLimitExceeded.txt -> build/bdist.linux-x86_64/egg/github/tests/ReplayData
+copying build/lib/github/tests/ReplayData/Issue140.testGetDirContentsThenLazyCompletionOfFile.txt -> build/bdist.linux-x86_64/egg/github/tests/ReplayData
+copying build/lib/github/tests/ReplayData/IssueComment.testEdit.txt -> build/bdist.linux-x86_64/egg/github/tests/ReplayData
+copying build/lib/github/tests/ReplayData/Repository.testGetHooks.txt -> build/bdist.linux-x86_64/egg/github/tests/ReplayData
+copying build/lib/github/tests/ReplayData/Issue33.testOpenIssues.txt -> build/bdist.linux-x86_64/egg/github/tests/ReplayData
+copying build/lib/github/tests/ReplayData/AuthenticatedUser.testCreateRepositoryWithAutoInit.txt -> build/bdist.linux-x86_64/egg/github/tests/ReplayData
+copying build/lib/github/tests/ReplayData/Search.testUrlquotingOfQuery.txt -> build/bdist.linux-x86_64/egg/github/tests/ReplayData
+copying build/lib/github/tests/ReplayData/BadAttributes.testBadSimpleAttributeInList.txt -> build/bdist.linux-x86_64/egg/github/tests/ReplayData
+copying build/lib/github/tests/ReplayData/Issue50.setUp.txt -> build/bdist.linux-x86_64/egg/github/tests/ReplayData
+copying build/lib/github/tests/ReplayData/Organization.testEditWithoutArguments.txt -> build/bdist.linux-x86_64/egg/github/tests/ReplayData
+copying build/lib/github/tests/ReplayData/SpecificExceptions.testUnknownObject.txt -> build/bdist.linux-x86_64/egg/github/tests/ReplayData
+copying build/lib/github/tests/ReplayData/Organization.testGetMembers.txt -> build/bdist.linux-x86_64/egg/github/tests/ReplayData
+copying build/lib/github/tests/ReplayData/Tag.setUp.txt -> build/bdist.linux-x86_64/egg/github/tests/ReplayData
+copying build/lib/github/tests/ReplayData/Issue134.testGetAuthorizationsSucceedsWhenAutenticatedThroughLoginPassword.txt -> build/bdist.linux-x86_64/egg/github/tests/ReplayData
+copying build/lib/github/tests/ReplayData/Organization.testCreateRepoWithMinimalArguments.txt -> build/bdist.linux-x86_64/egg/github/tests/ReplayData
+copying build/lib/github/tests/ReplayData/Repository.testGetPulls.txt -> build/bdist.linux-x86_64/egg/github/tests/ReplayData
+copying build/lib/github/tests/ReplayData/Issue174.testGetDirContentsWhithHttpRedirect.txt -> build/bdist.linux-x86_64/egg/github/tests/ReplayData
+copying build/lib/github/tests/ReplayData/Github.testGetUsers.txt -> build/bdist.linux-x86_64/egg/github/tests/ReplayData
+copying build/lib/github/tests/ReplayData/IssueComment.testDelete.txt -> build/bdist.linux-x86_64/egg/github/tests/ReplayData
+copying build/lib/github/tests/ReplayData/Repository.testCreatePull.txt -> build/bdist.linux-x86_64/egg/github/tests/ReplayData
+copying build/lib/github/tests/ReplayData/AuthenticatedUser.testGetOrgs.txt -> build/bdist.linux-x86_64/egg/github/tests/ReplayData
+copying build/lib/github/tests/ReplayData/Search.testSearchIssues.txt -> build/bdist.linux-x86_64/egg/github/tests/ReplayData
+copying build/lib/github/tests/ReplayData/AuthenticatedUser.testGetNotification.txt -> build/bdist.linux-x86_64/egg/github/tests/ReplayData
+copying build/lib/github/tests/ReplayData/Gist.testStarring.txt -> build/bdist.linux-x86_64/egg/github/tests/ReplayData
+copying build/lib/github/tests/ReplayData/Label.setUp.txt -> build/bdist.linux-x86_64/egg/github/tests/ReplayData
+copying build/lib/github/tests/ReplayData/ConditionalRequestUpdate.testUpdateObjectWithoutEtag.txt -> build/bdist.linux-x86_64/egg/github/tests/ReplayData
+copying build/lib/github/tests/ReplayData/Issue50.testCreateLabel.txt -> build/bdist.linux-x86_64/egg/github/tests/ReplayData
+copying build/lib/github/tests/ReplayData/Organization.setUp.txt -> build/bdist.linux-x86_64/egg/github/tests/ReplayData
+copying build/lib/github/tests/ReplayData/BadAttributes.testBadAttributeTransformation.txt -> build/bdist.linux-x86_64/egg/github/tests/ReplayData
+copying build/lib/github/tests/ReplayData/Persistence.setUp.txt -> build/bdist.linux-x86_64/egg/github/tests/ReplayData
+copying build/lib/github/tests/ReplayData/Gist.testFork.txt -> build/bdist.linux-x86_64/egg/github/tests/ReplayData
+copying build/lib/github/tests/ReplayData/NamedUser.testGetPublicEvents.txt -> build/bdist.linux-x86_64/egg/github/tests/ReplayData
+copying build/lib/github/tests/ReplayData/Organization.testEditWithAllArguments.txt -> build/bdist.linux-x86_64/egg/github/tests/ReplayData
+copying build/lib/github/tests/ReplayData/Download.testDelete.txt -> build/bdist.linux-x86_64/egg/github/tests/ReplayData
+copying build/lib/github/tests/ReplayData/BadAttributes.testBadTransformedAttribute.txt -> build/bdist.linux-x86_64/egg/github/tests/ReplayData
+copying build/lib/github/tests/ReplayData/Repository.testGetNetworkEvents.txt -> build/bdist.linux-x86_64/egg/github/tests/ReplayData
+copying build/lib/github/tests/ReplayData/AuthenticatedUser.testEditWithoutArguments.txt -> build/bdist.linux-x86_64/egg/github/tests/ReplayData
+copying build/lib/github/tests/ReplayData/PaginatedList.testSeveralIterations.txt -> build/bdist.linux-x86_64/egg/github/tests/ReplayData
+copying build/lib/github/tests/ReplayData/AuthenticatedUser.testGetTeams.txt -> build/bdist.linux-x86_64/egg/github/tests/ReplayData
+copying build/lib/github/tests/ReplayData/GitTag.setUp.txt -> build/bdist.linux-x86_64/egg/github/tests/ReplayData
+copying build/lib/github/tests/ReplayData/Issue133.testGetPageWithoutInitialArguments.txt -> build/bdist.linux-x86_64/egg/github/tests/ReplayData
+copying build/lib/github/tests/ReplayData/AuthenticatedUser.testGetIssuesWithAllArguments.txt -> build/bdist.linux-x86_64/egg/github/tests/ReplayData
+copying build/lib/github/tests/ReplayData/Organization.testGetIssues.txt -> build/bdist.linux-x86_64/egg/github/tests/ReplayData
+copying build/lib/github/tests/ReplayData/Repository.testSubscribePubSubHubbub.txt -> build/bdist.linux-x86_64/egg/github/tests/ReplayData
+copying build/lib/github/tests/ReplayData/Github.testLegacySearchUserByEmail.txt -> build/bdist.linux-x86_64/egg/github/tests/ReplayData
+copying build/lib/github/tests/ReplayData/Issue.testCreateComment.txt -> build/bdist.linux-x86_64/egg/github/tests/ReplayData
+copying build/lib/github/tests/ReplayData/Organization.testCreateRepositoryWithAutoInit.txt -> build/bdist.linux-x86_64/egg/github/tests/ReplayData
+copying build/lib/github/tests/ReplayData/GitRef.setUp.txt -> build/bdist.linux-x86_64/egg/github/tests/ReplayData
+copying build/lib/github/tests/ReplayData/AuthenticatedUser.testGetOrganizationEvents.txt -> build/bdist.linux-x86_64/egg/github/tests/ReplayData
+copying build/lib/github/tests/ReplayData/NamedUser.testGetPublicReceivedEvents.txt -> build/bdist.linux-x86_64/egg/github/tests/ReplayData
+copying build/lib/github/tests/ReplayData/Search.testPaginateSearchUsers.txt -> build/bdist.linux-x86_64/egg/github/tests/ReplayData
+copying build/lib/github/tests/ReplayData/Branch.testCommitCommentsOnLine.txt -> build/bdist.linux-x86_64/egg/github/tests/ReplayData
+copying build/lib/github/tests/ReplayData/Exceptions.testBadAuthentication.txt -> build/bdist.linux-x86_64/egg/github/tests/ReplayData
+copying build/lib/github/tests/ReplayData/Repository.testCreateMilestone.txt -> build/bdist.linux-x86_64/egg/github/tests/ReplayData
+copying build/lib/github/tests/ReplayData/Repository.testEditWithoutArguments.txt -> build/bdist.linux-x86_64/egg/github/tests/ReplayData
+copying build/lib/github/tests/ReplayData/AuthenticatedUser.testGetNotifications.txt -> build/bdist.linux-x86_64/egg/github/tests/ReplayData
+copying build/lib/github/tests/ReplayData/Issue214.testGetIssues.txt -> build/bdist.linux-x86_64/egg/github/tests/ReplayData
+copying build/lib/github/tests/ReplayData/Repository.testAssignees.txt -> build/bdist.linux-x86_64/egg/github/tests/ReplayData
+copying build/lib/github/tests/ReplayData/NamedUser.setUp.txt -> build/bdist.linux-x86_64/egg/github/tests/ReplayData
+copying build/lib/github/tests/ReplayData/Commit.testCreateComment.txt -> build/bdist.linux-x86_64/egg/github/tests/ReplayData
+copying build/lib/github/tests/ReplayData/Issue50.testRemoveLabelFromIssue.txt -> build/bdist.linux-x86_64/egg/github/tests/ReplayData
+copying build/lib/github/tests/ReplayData/Repository.testGetDownloads.txt -> build/bdist.linux-x86_64/egg/github/tests/ReplayData
+copying build/lib/github/tests/ReplayData/Issue134.testGetAuthorizationsFailsWhenAutenticatedThroughOAuth.txt -> build/bdist.linux-x86_64/egg/github/tests/ReplayData
+copying build/lib/github/tests/ReplayData/Commit.testCreateStatusWithAllParameters.txt -> build/bdist.linux-x86_64/egg/github/tests/ReplayData
+copying build/lib/github/tests/ReplayData/Repository.testGetBranch.txt -> build/bdist.linux-x86_64/egg/github/tests/ReplayData
+copying build/lib/github/tests/ReplayData/PaginatedList.testGettingTheReversedListDoesNotModifyTheOriginalList.txt -> build/bdist.linux-x86_64/egg/github/tests/ReplayData
+copying build/lib/github/tests/ReplayData/NamedUser.testGetEvents.txt -> build/bdist.linux-x86_64/egg/github/tests/ReplayData
+copying build/lib/github/tests/ReplayData/Milestone.testDelete.txt -> build/bdist.linux-x86_64/egg/github/tests/ReplayData
+copying build/lib/github/tests/ReplayData/Repository.testGetGitRefWithIssue102Reverted.txt -> build/bdist.linux-x86_64/egg/github/tests/ReplayData
+copying build/lib/github/tests/ReplayData/Repository.testCreateIssueWithAllArguments.txt -> build/bdist.linux-x86_64/egg/github/tests/ReplayData
+copying build/lib/github/tests/ReplayData/Logging.testLoggingWithBaseUrl.txt -> build/bdist.linux-x86_64/egg/github/tests/ReplayData
+copying build/lib/github/tests/ReplayData/Repository.testGetCommitsWithArguments.txt -> build/bdist.linux-x86_64/egg/github/tests/ReplayData
+copying build/lib/github/tests/ReplayData/AuthenticatedUser.testCreateAuthorizationWithClientIdAndSecret.txt -> build/bdist.linux-x86_64/egg/github/tests/ReplayData
+copying build/lib/github/tests/ReplayData/Repository.testBadSubscribePubSubHubbub.txt -> build/bdist.linux-x86_64/egg/github/tests/ReplayData
+copying build/lib/github/tests/ReplayData/Search.testSearchCode.txt -> build/bdist.linux-x86_64/egg/github/tests/ReplayData
+copying build/lib/github/tests/ReplayData/Search.testSearchRepos.txt -> build/bdist.linux-x86_64/egg/github/tests/ReplayData
+copying build/lib/github/tests/ReplayData/Issue214.testCreateIssue.txt -> build/bdist.linux-x86_64/egg/github/tests/ReplayData
+copying build/lib/github/tests/ReplayData/PullRequest.testGetIssueComment.txt -> build/bdist.linux-x86_64/egg/github/tests/ReplayData
+copying build/lib/github/tests/ReplayData/Repository.testCreateHookWithMinimalParameters.txt -> build/bdist.linux-x86_64/egg/github/tests/ReplayData
+copying build/lib/github/tests/ReplayData/PaginatedList.testGetThirdPage.txt -> build/bdist.linux-x86_64/egg/github/tests/ReplayData
+copying build/lib/github/tests/ReplayData/Repository.testGetSubscribers.txt -> build/bdist.linux-x86_64/egg/github/tests/ReplayData
+copying build/lib/github/tests/ReplayData/Persistence.testLoadAndUpdate.txt -> build/bdist.linux-x86_64/egg/github/tests/ReplayData
+copying build/lib/github/tests/ReplayData/Enterprise.testSpecificPort.txt -> build/bdist.linux-x86_64/egg/github/tests/ReplayData
+copying build/lib/github/tests/ReplayData/Github.testLegacySearchRepos.txt -> build/bdist.linux-x86_64/egg/github/tests/ReplayData
+copying build/lib/github/tests/ReplayData/RepositoryKey.testEdit.txt -> build/bdist.linux-x86_64/egg/github/tests/ReplayData
+copying build/lib/github/tests/ReplayData/Authorization.setUp.txt -> build/bdist.linux-x86_64/egg/github/tests/ReplayData
+copying build/lib/github/tests/ReplayData/Commit.testCreateCommentOnFilePosition.txt -> build/bdist.linux-x86_64/egg/github/tests/ReplayData
+copying build/lib/github/tests/ReplayData/Github.testGetReposSince.txt -> build/bdist.linux-x86_64/egg/github/tests/ReplayData
+copying build/lib/github/tests/ReplayData/AuthenticatedUser.testCreateFork.txt -> build/bdist.linux-x86_64/egg/github/tests/ReplayData
+copying build/lib/github/tests/ReplayData/Hook.testEditWithAllParameters.txt -> build/bdist.linux-x86_64/egg/github/tests/ReplayData
+copying build/lib/github/tests/ReplayData/Status.testGetMessages.txt -> build/bdist.linux-x86_64/egg/github/tests/ReplayData
+copying build/lib/github/tests/ReplayData/PullRequestComment.testEdit.txt -> build/bdist.linux-x86_64/egg/github/tests/ReplayData
+copying build/lib/github/tests/ReplayData/UserKey.testDelete.txt -> build/bdist.linux-x86_64/egg/github/tests/ReplayData
+copying build/lib/github/tests/ReplayData/Repository.testCreateGitTagWithAllArguments.txt -> build/bdist.linux-x86_64/egg/github/tests/ReplayData
+copying build/lib/github/tests/ReplayData/Label.testEdit.txt -> build/bdist.linux-x86_64/egg/github/tests/ReplayData
+copying build/lib/github/tests/ReplayData/Repository.testMergeWithoutMessage.txt -> build/bdist.linux-x86_64/egg/github/tests/ReplayData
+copying build/lib/github/tests/ReplayData/Repository.testCreateGitBlob.txt -> build/bdist.linux-x86_64/egg/github/tests/ReplayData
+copying build/lib/github/tests/ReplayData/Issue214.testAssignees.txt -> build/bdist.linux-x86_64/egg/github/tests/ReplayData
+copying build/lib/github/tests/ReplayData/Issue.setUp.txt -> build/bdist.linux-x86_64/egg/github/tests/ReplayData
+copying build/lib/github/tests/ReplayData/Organization.testCreateRepoWithAllArguments.txt -> build/bdist.linux-x86_64/egg/github/tests/ReplayData
+copying build/lib/github/tests/ReplayData/Repository.testGetGitRef.txt -> build/bdist.linux-x86_64/egg/github/tests/ReplayData
+copying build/lib/github/tests/ReplayData/BadAttributes.testBadAttributeInClassAttribute.txt -> build/bdist.linux-x86_64/egg/github/tests/ReplayData
+copying build/lib/github/tests/ReplayData/PaginatedList.testSliceIndexingUntilEnd.txt -> build/bdist.linux-x86_64/egg/github/tests/ReplayData
+copying build/lib/github/tests/ReplayData/PullRequest.testGetComments.txt -> build/bdist.linux-x86_64/egg/github/tests/ReplayData
+copying build/lib/github/tests/ReplayData/NamedUser.testGetFollowers.txt -> build/bdist.linux-x86_64/egg/github/tests/ReplayData
+copying build/lib/github/tests/ReplayData/Commit.setUp.txt -> build/bdist.linux-x86_64/egg/github/tests/ReplayData
+copying build/lib/github/tests/ReplayData/Repository.testGetContributors.txt -> build/bdist.linux-x86_64/egg/github/tests/ReplayData
+copying build/lib/github/tests/ReplayData/AuthenticatedUser.testFollowing.txt -> build/bdist.linux-x86_64/egg/github/tests/ReplayData
+copying build/lib/github/tests/ReplayData/AuthenticatedUser.testGetReposWithArguments.txt -> build/bdist.linux-x86_64/egg/github/tests/ReplayData
+copying build/lib/github/tests/ReplayData/GitRef.testEdit.txt -> build/bdist.linux-x86_64/egg/github/tests/ReplayData
+copying build/lib/github/tests/ReplayData/Repository.testUnsubscribePubSubHubbub.txt -> build/bdist.linux-x86_64/egg/github/tests/ReplayData
+copying build/lib/github/tests/ReplayData/PullRequest.testGetFiles.txt -> build/bdist.linux-x86_64/egg/github/tests/ReplayData
+copying build/lib/github/tests/ReplayData/Repository.testGetKeys.txt -> build/bdist.linux-x86_64/egg/github/tests/ReplayData
+copying build/lib/github/tests/ReplayData/Issue131.testGetPullsWithOrgHeadUser.txt -> build/bdist.linux-x86_64/egg/github/tests/ReplayData
+copying build/lib/github/tests/ReplayData/CommitComment.testEdit.txt -> build/bdist.linux-x86_64/egg/github/tests/ReplayData
+copying build/lib/github/tests/ReplayData/Gist.testEditWithAllParameters.txt -> build/bdist.linux-x86_64/egg/github/tests/ReplayData
+copying build/lib/github/tests/ReplayData/Repository.testCreateGitTag.txt -> build/bdist.linux-x86_64/egg/github/tests/ReplayData
+copying build/lib/github/tests/ReplayData/Github.testSearchRepos.txt -> build/bdist.linux-x86_64/egg/github/tests/ReplayData
+copying build/lib/github/tests/ReplayData/Organization.testGetPublicMembers.txt -> build/bdist.linux-x86_64/egg/github/tests/ReplayData
+copying build/lib/github/tests/ReplayData/Organization.testCreateTeamWithAllArguments.txt -> build/bdist.linux-x86_64/egg/github/tests/ReplayData
+copying build/lib/github/tests/ReplayData/Repository.testGetPullsWithArguments.txt -> build/bdist.linux-x86_64/egg/github/tests/ReplayData
+copying build/lib/github/tests/ReplayData/Issue80.testIgnoreHttpsFromGithubEnterprise.txt -> build/bdist.linux-x86_64/egg/github/tests/ReplayData
+copying build/lib/github/tests/ReplayData/Team.testDelete.txt -> build/bdist.linux-x86_64/egg/github/tests/ReplayData
+copying build/lib/github/tests/ReplayData/UserKey.testEditWithAllArguments.txt -> build/bdist.linux-x86_64/egg/github/tests/ReplayData
+copying build/lib/github/tests/ReplayData/Repository.testGetCommits.txt -> build/bdist.linux-x86_64/egg/github/tests/ReplayData
+copying build/lib/github/tests/ReplayData/Repository.testCreateGitRef.txt -> build/bdist.linux-x86_64/egg/github/tests/ReplayData
+copying build/lib/github/tests/ReplayData/Equality.testUserDifference.txt -> build/bdist.linux-x86_64/egg/github/tests/ReplayData
+copying build/lib/github/tests/ReplayData/Enterprise.testHttps.txt -> build/bdist.linux-x86_64/egg/github/tests/ReplayData
+copying build/lib/github/tests/ReplayData/Repository.testCreateGitTreeWithSha.txt -> build/bdist.linux-x86_64/egg/github/tests/ReplayData
+copying build/lib/github/tests/ReplayData/Repository.testGetIssues.txt -> build/bdist.linux-x86_64/egg/github/tests/ReplayData
+copying build/lib/github/tests/ReplayData/Issue278.setUp.txt -> build/bdist.linux-x86_64/egg/github/tests/ReplayData
+copying build/lib/github/tests/ReplayData/Repository.testGetMilestones.txt -> build/bdist.linux-x86_64/egg/github/tests/ReplayData
+copying build/lib/github/tests/ReplayData/Issue54.testConversion.txt -> build/bdist.linux-x86_64/egg/github/tests/ReplayData
+copying build/lib/github/tests/ReplayData/Github.testLegacySearchReposWithLanguage.txt -> build/bdist.linux-x86_64/egg/github/tests/ReplayData
+copying build/lib/github/tests/ReplayData/Organization.testGetEvents.txt -> build/bdist.linux-x86_64/egg/github/tests/ReplayData
+copying build/lib/github/tests/GitTree.py -> build/bdist.linux-x86_64/egg/github/tests
+copying build/lib/github/tests/IssueComment.py -> build/bdist.linux-x86_64/egg/github/tests
+copying build/lib/github/tests/Issue134.py -> build/bdist.linux-x86_64/egg/github/tests
+copying build/lib/github/tests/NamedUser.py -> build/bdist.linux-x86_64/egg/github/tests
+copying build/lib/github/tests/Issue87.py -> build/bdist.linux-x86_64/egg/github/tests
+copying build/lib/github/tests/Repository.py -> build/bdist.linux-x86_64/egg/github/tests
+copying build/lib/github/tests/Hook.py -> build/bdist.linux-x86_64/egg/github/tests
+copying build/lib/github/tests/GitTag.py -> build/bdist.linux-x86_64/egg/github/tests
+copying build/lib/github/tests/BadAttributes.py -> build/bdist.linux-x86_64/egg/github/tests
+copying build/lib/github/tests/Issue139.py -> build/bdist.linux-x86_64/egg/github/tests
+copying build/lib/github/tests/Logging_.py -> build/bdist.linux-x86_64/egg/github/tests
+copying build/lib/github/tests/Equality.py -> build/bdist.linux-x86_64/egg/github/tests
+copying build/lib/github/tests/Issue54.py -> build/bdist.linux-x86_64/egg/github/tests
+copying build/lib/github/tests/PullRequestFile.py -> build/bdist.linux-x86_64/egg/github/tests
+copying build/lib/github/tests/GistComment.py -> build/bdist.linux-x86_64/egg/github/tests
+copying build/lib/github/tests/RawData.py -> build/bdist.linux-x86_64/egg/github/tests
+copying build/lib/github/tests/Issue174.py -> build/bdist.linux-x86_64/egg/github/tests
+copying build/lib/github/tests/IssueEvent.py -> build/bdist.linux-x86_64/egg/github/tests
+copying build/lib/github/tests/AllTests.py -> build/bdist.linux-x86_64/egg/github/tests
+copying build/lib/github/tests/Team.py -> build/bdist.linux-x86_64/egg/github/tests
+copying build/lib/github/tests/Label.py -> build/bdist.linux-x86_64/egg/github/tests
+copying build/lib/github/tests/GitRef.py -> build/bdist.linux-x86_64/egg/github/tests
+copying build/lib/github/tests/Status.py -> build/bdist.linux-x86_64/egg/github/tests
+copying build/lib/github/tests/Search.py -> build/bdist.linux-x86_64/egg/github/tests
+copying build/lib/github/tests/Authentication.py -> build/bdist.linux-x86_64/egg/github/tests
+copying build/lib/github/tests/ContentFile.py -> build/bdist.linux-x86_64/egg/github/tests
+copying build/lib/github/tests/Issue33.py -> build/bdist.linux-x86_64/egg/github/tests
+copying build/lib/github/tests/Commit.py -> build/bdist.linux-x86_64/egg/github/tests
+copying build/lib/github/tests/Branch.py -> build/bdist.linux-x86_64/egg/github/tests
+copying build/lib/github/tests/Issue214.py -> build/bdist.linux-x86_64/egg/github/tests
+copying build/lib/github/tests/ExposeAllAttributes.py -> build/bdist.linux-x86_64/egg/github/tests
+copying build/lib/github/tests/Issue140.py -> build/bdist.linux-x86_64/egg/github/tests
+copying build/lib/github/tests/__init__.py -> build/bdist.linux-x86_64/egg/github/tests
+copying build/lib/github/tests/ConditionalRequestUpdate.py -> build/bdist.linux-x86_64/egg/github/tests
+copying build/lib/github/tests/Issue133.py -> build/bdist.linux-x86_64/egg/github/tests
+copying build/lib/github/tests/Gist.py -> build/bdist.linux-x86_64/egg/github/tests
+copying build/lib/github/tests/Persistence.py -> build/bdist.linux-x86_64/egg/github/tests
+copying build/lib/github/tests/AuthenticatedUser.py -> build/bdist.linux-x86_64/egg/github/tests
+copying build/lib/github/tests/RepositoryKey.py -> build/bdist.linux-x86_64/egg/github/tests
+copying build/lib/github/tests/PullRequestComment.py -> build/bdist.linux-x86_64/egg/github/tests
+copying build/lib/github/tests/UserKey.py -> build/bdist.linux-x86_64/egg/github/tests
+copying build/lib/github/tests/CommitStatus.py -> build/bdist.linux-x86_64/egg/github/tests
+copying build/lib/github/tests/Authorization.py -> build/bdist.linux-x86_64/egg/github/tests
+copying build/lib/github/tests/Issue131.py -> build/bdist.linux-x86_64/egg/github/tests
+copying build/lib/github/tests/Markdown.py -> build/bdist.linux-x86_64/egg/github/tests
+copying build/lib/github/tests/Organization.py -> build/bdist.linux-x86_64/egg/github/tests
+copying build/lib/github/tests/Issue158.py -> build/bdist.linux-x86_64/egg/github/tests
+copying build/lib/github/tests/Milestone.py -> build/bdist.linux-x86_64/egg/github/tests
+copying build/lib/github/tests/Enterprise.py -> build/bdist.linux-x86_64/egg/github/tests
+copying build/lib/github/tests/Exceptions.py -> build/bdist.linux-x86_64/egg/github/tests
+copying build/lib/github/tests/PullRequest.py -> build/bdist.linux-x86_64/egg/github/tests
+copying build/lib/github/tests/CommitComment.py -> build/bdist.linux-x86_64/egg/github/tests
+copying build/lib/github/tests/Framework.py -> build/bdist.linux-x86_64/egg/github/tests
+copying build/lib/github/tests/Issue.py -> build/bdist.linux-x86_64/egg/github/tests
+copying build/lib/github/tests/Issue142.py -> build/bdist.linux-x86_64/egg/github/tests
+copying build/lib/github/GitRef.py -> build/bdist.linux-x86_64/egg/github
+copying build/lib/github/Status.py -> build/bdist.linux-x86_64/egg/github
+copying build/lib/github/StatsPunchCard.py -> build/bdist.linux-x86_64/egg/github
+copying build/lib/github/Rate.py -> build/bdist.linux-x86_64/egg/github
+copying build/lib/github/ContentFile.py -> build/bdist.linux-x86_64/egg/github
+copying build/lib/github/GitObject.py -> build/bdist.linux-x86_64/egg/github
+copying build/lib/github/StatsContributor.py -> build/bdist.linux-x86_64/egg/github
+copying build/lib/github/Commit.py -> build/bdist.linux-x86_64/egg/github
+copying build/lib/github/Branch.py -> build/bdist.linux-x86_64/egg/github
+copying build/lib/github/IssuePullRequest.py -> build/bdist.linux-x86_64/egg/github
+copying build/lib/github/Plan.py -> build/bdist.linux-x86_64/egg/github
+copying build/lib/github/__init__.py -> build/bdist.linux-x86_64/egg/github
+copying build/lib/github/Gist.py -> build/bdist.linux-x86_64/egg/github
+copying build/lib/github/AuthenticatedUser.py -> build/bdist.linux-x86_64/egg/github
+copying build/lib/github/RepositoryKey.py -> build/bdist.linux-x86_64/egg/github
+copying build/lib/github/PullRequestComment.py -> build/bdist.linux-x86_64/egg/github
+copying build/lib/github/GistFile.py -> build/bdist.linux-x86_64/egg/github
+copying build/lib/github/UserKey.py -> build/bdist.linux-x86_64/egg/github
+copying build/lib/github/CommitStatus.py -> build/bdist.linux-x86_64/egg/github
+copying build/lib/github/Authorization.py -> build/bdist.linux-x86_64/egg/github
+copying build/lib/github/PullRequestPart.py -> build/bdist.linux-x86_64/egg/github
+copying build/lib/github/Organization.py -> build/bdist.linux-x86_64/egg/github
+copying build/lib/github/Milestone.py -> build/bdist.linux-x86_64/egg/github
+copying build/lib/github/CommitStats.py -> build/bdist.linux-x86_64/egg/github
+copying build/lib/github/HookResponse.py -> build/bdist.linux-x86_64/egg/github
+copying build/lib/github/PullRequest.py -> build/bdist.linux-x86_64/egg/github
+copying build/lib/github/PullRequestMergeStatus.py -> build/bdist.linux-x86_64/egg/github
+copying build/lib/github/CommitComment.py -> build/bdist.linux-x86_64/egg/github
+copying build/lib/github/GithubObject.py -> build/bdist.linux-x86_64/egg/github
+copying build/lib/github/Issue.py -> build/bdist.linux-x86_64/egg/github
+copying build/lib/github/Requester.py -> build/bdist.linux-x86_64/egg/github
+byte-compiling build/bdist.linux-x86_64/egg/github/GitBlob.py to GitBlob.pyc
+byte-compiling build/bdist.linux-x86_64/egg/github/Event.py to Event.pyc
+byte-compiling build/bdist.linux-x86_64/egg/github/GitAuthor.py to GitAuthor.pyc
+byte-compiling build/bdist.linux-x86_64/egg/github/StatusMessage.py to StatusMessage.pyc
+byte-compiling build/bdist.linux-x86_64/egg/github/GithubException.py to GithubException.pyc
+byte-compiling build/bdist.linux-x86_64/egg/github/StatsCommitActivity.py to StatsCommitActivity.pyc
+byte-compiling build/bdist.linux-x86_64/egg/github/MainClass.py to MainClass.pyc
+byte-compiling build/bdist.linux-x86_64/egg/github/Download.py to Download.pyc
+byte-compiling build/bdist.linux-x86_64/egg/github/GitTreeElement.py to GitTreeElement.pyc
+byte-compiling build/bdist.linux-x86_64/egg/github/GitCommit.py to GitCommit.pyc
+byte-compiling build/bdist.linux-x86_64/egg/github/Permissions.py to Permissions.pyc
+byte-compiling build/bdist.linux-x86_64/egg/github/NotificationSubject.py to NotificationSubject.pyc
+byte-compiling build/bdist.linux-x86_64/egg/github/PaginatedList.py to PaginatedList.pyc
+byte-compiling build/bdist.linux-x86_64/egg/github/InputGitAuthor.py to InputGitAuthor.pyc
+byte-compiling build/bdist.linux-x86_64/egg/github/Tag.py to Tag.pyc
+byte-compiling build/bdist.linux-x86_64/egg/github/RateLimit.py to RateLimit.pyc
+byte-compiling build/bdist.linux-x86_64/egg/github/HookDescription.py to HookDescription.pyc
+byte-compiling build/bdist.linux-x86_64/egg/github/GitignoreTemplate.py to GitignoreTemplate.pyc
+byte-compiling build/bdist.linux-x86_64/egg/github/GitTree.py to GitTree.pyc
+byte-compiling build/bdist.linux-x86_64/egg/github/Consts.py to Consts.pyc
+byte-compiling build/bdist.linux-x86_64/egg/github/InputGitTreeElement.py to InputGitTreeElement.pyc
+byte-compiling build/bdist.linux-x86_64/egg/github/IssueComment.py to IssueComment.pyc
+byte-compiling build/bdist.linux-x86_64/egg/github/NamedUser.py to NamedUser.pyc
+byte-compiling build/bdist.linux-x86_64/egg/github/Legacy.py to Legacy.pyc
+byte-compiling build/bdist.linux-x86_64/egg/github/Repository.py to Repository.pyc
+byte-compiling build/bdist.linux-x86_64/egg/github/Hook.py to Hook.pyc
+byte-compiling build/bdist.linux-x86_64/egg/github/GitTag.py to GitTag.pyc
+byte-compiling build/bdist.linux-x86_64/egg/github/StatsParticipation.py to StatsParticipation.pyc
+byte-compiling build/bdist.linux-x86_64/egg/github/InputFileContent.py to InputFileContent.pyc
+byte-compiling build/bdist.linux-x86_64/egg/github/StatsCodeFrequency.py to StatsCodeFrequency.pyc
+byte-compiling build/bdist.linux-x86_64/egg/github/AuthorizationApplication.py to AuthorizationApplication.pyc
+byte-compiling build/bdist.linux-x86_64/egg/github/Comparison.py to Comparison.pyc
+byte-compiling build/bdist.linux-x86_64/egg/github/Notification.py to Notification.pyc
+byte-compiling build/bdist.linux-x86_64/egg/github/GistComment.py to GistComment.pyc
+byte-compiling build/bdist.linux-x86_64/egg/github/File.py to File.pyc
+byte-compiling build/bdist.linux-x86_64/egg/github/GistHistoryState.py to GistHistoryState.pyc
+byte-compiling build/bdist.linux-x86_64/egg/github/IssueEvent.py to IssueEvent.pyc
+byte-compiling build/bdist.linux-x86_64/egg/github/Team.py to Team.pyc
+byte-compiling build/bdist.linux-x86_64/egg/github/Label.py to Label.pyc
+byte-compiling build/bdist.linux-x86_64/egg/github/tests/GitBlob.py to GitBlob.pyc
+byte-compiling build/bdist.linux-x86_64/egg/github/tests/Event.py to Event.pyc
+byte-compiling build/bdist.linux-x86_64/egg/github/tests/RateLimiting.py to RateLimiting.pyc
+byte-compiling build/bdist.linux-x86_64/egg/github/tests/Download.py to Download.pyc
+byte-compiling build/bdist.linux-x86_64/egg/github/tests/Issue80.py to Issue80.pyc
+byte-compiling build/bdist.linux-x86_64/egg/github/tests/GitCommit.py to GitCommit.pyc
+byte-compiling build/bdist.linux-x86_64/egg/github/tests/__main__.py to __main__.pyc
+byte-compiling build/bdist.linux-x86_64/egg/github/tests/PaginatedList.py to PaginatedList.pyc
+byte-compiling build/bdist.linux-x86_64/egg/github/tests/Issue216.py to Issue216.pyc
+byte-compiling build/bdist.linux-x86_64/egg/github/tests/Issue278.py to Issue278.pyc
+byte-compiling build/bdist.linux-x86_64/egg/github/tests/Issue50.py to Issue50.pyc
+byte-compiling build/bdist.linux-x86_64/egg/github/tests/Tag.py to Tag.pyc
+byte-compiling build/bdist.linux-x86_64/egg/github/tests/Github_.py to Github_.pyc
+byte-compiling build/bdist.linux-x86_64/egg/github/tests/GitTree.py to GitTree.pyc
+byte-compiling build/bdist.linux-x86_64/egg/github/tests/IssueComment.py to IssueComment.pyc
+byte-compiling build/bdist.linux-x86_64/egg/github/tests/Issue134.py to Issue134.pyc
+byte-compiling build/bdist.linux-x86_64/egg/github/tests/NamedUser.py to NamedUser.pyc
+byte-compiling build/bdist.linux-x86_64/egg/github/tests/Issue87.py to Issue87.pyc
+byte-compiling build/bdist.linux-x86_64/egg/github/tests/Repository.py to Repository.pyc
+byte-compiling build/bdist.linux-x86_64/egg/github/tests/Hook.py to Hook.pyc
+byte-compiling build/bdist.linux-x86_64/egg/github/tests/GitTag.py to GitTag.pyc
+byte-compiling build/bdist.linux-x86_64/egg/github/tests/BadAttributes.py to BadAttributes.pyc
+byte-compiling build/bdist.linux-x86_64/egg/github/tests/Issue139.py to Issue139.pyc
+byte-compiling build/bdist.linux-x86_64/egg/github/tests/Logging_.py to Logging_.pyc
+byte-compiling build/bdist.linux-x86_64/egg/github/tests/Equality.py to Equality.pyc
+byte-compiling build/bdist.linux-x86_64/egg/github/tests/Issue54.py to Issue54.pyc
+byte-compiling build/bdist.linux-x86_64/egg/github/tests/PullRequestFile.py to PullRequestFile.pyc
+byte-compiling build/bdist.linux-x86_64/egg/github/tests/GistComment.py to GistComment.pyc
+byte-compiling build/bdist.linux-x86_64/egg/github/tests/RawData.py to RawData.pyc
+byte-compiling build/bdist.linux-x86_64/egg/github/tests/Issue174.py to Issue174.pyc
+byte-compiling build/bdist.linux-x86_64/egg/github/tests/IssueEvent.py to IssueEvent.pyc
+byte-compiling build/bdist.linux-x86_64/egg/github/tests/AllTests.py to AllTests.pyc
+byte-compiling build/bdist.linux-x86_64/egg/github/tests/Team.py to Team.pyc
+byte-compiling build/bdist.linux-x86_64/egg/github/tests/Label.py to Label.pyc
+byte-compiling build/bdist.linux-x86_64/egg/github/tests/GitRef.py to GitRef.pyc
+byte-compiling build/bdist.linux-x86_64/egg/github/tests/Status.py to Status.pyc
+byte-compiling build/bdist.linux-x86_64/egg/github/tests/Search.py to Search.pyc
+byte-compiling build/bdist.linux-x86_64/egg/github/tests/Authentication.py to Authentication.pyc
+byte-compiling build/bdist.linux-x86_64/egg/github/tests/ContentFile.py to ContentFile.pyc
+byte-compiling build/bdist.linux-x86_64/egg/github/tests/Issue33.py to Issue33.pyc
+byte-compiling build/bdist.linux-x86_64/egg/github/tests/Commit.py to Commit.pyc
+byte-compiling build/bdist.linux-x86_64/egg/github/tests/Branch.py to Branch.pyc
+byte-compiling build/bdist.linux-x86_64/egg/github/tests/Issue214.py to Issue214.pyc
+byte-compiling build/bdist.linux-x86_64/egg/github/tests/ExposeAllAttributes.py to ExposeAllAttributes.pyc
+byte-compiling build/bdist.linux-x86_64/egg/github/tests/Issue140.py to Issue140.pyc
+byte-compiling build/bdist.linux-x86_64/egg/github/tests/__init__.py to __init__.pyc
+byte-compiling build/bdist.linux-x86_64/egg/github/tests/ConditionalRequestUpdate.py to ConditionalRequestUpdate.pyc
+byte-compiling build/bdist.linux-x86_64/egg/github/tests/Issue133.py to Issue133.pyc
+byte-compiling build/bdist.linux-x86_64/egg/github/tests/Gist.py to Gist.pyc
+byte-compiling build/bdist.linux-x86_64/egg/github/tests/Persistence.py to Persistence.pyc
+byte-compiling build/bdist.linux-x86_64/egg/github/tests/AuthenticatedUser.py to AuthenticatedUser.pyc
+byte-compiling build/bdist.linux-x86_64/egg/github/tests/RepositoryKey.py to RepositoryKey.pyc
+byte-compiling build/bdist.linux-x86_64/egg/github/tests/PullRequestComment.py to PullRequestComment.pyc
+byte-compiling build/bdist.linux-x86_64/egg/github/tests/UserKey.py to UserKey.pyc
+byte-compiling build/bdist.linux-x86_64/egg/github/tests/CommitStatus.py to CommitStatus.pyc
+byte-compiling build/bdist.linux-x86_64/egg/github/tests/Authorization.py to Authorization.pyc
+byte-compiling build/bdist.linux-x86_64/egg/github/tests/Issue131.py to Issue131.pyc
+byte-compiling build/bdist.linux-x86_64/egg/github/tests/Markdown.py to Markdown.pyc
+byte-compiling build/bdist.linux-x86_64/egg/github/tests/Organization.py to Organization.pyc
+byte-compiling build/bdist.linux-x86_64/egg/github/tests/Issue158.py to Issue158.pyc
+byte-compiling build/bdist.linux-x86_64/egg/github/tests/Milestone.py to Milestone.pyc
+byte-compiling build/bdist.linux-x86_64/egg/github/tests/Enterprise.py to Enterprise.pyc
+byte-compiling build/bdist.linux-x86_64/egg/github/tests/Exceptions.py to Exceptions.pyc
+byte-compiling build/bdist.linux-x86_64/egg/github/tests/PullRequest.py to PullRequest.pyc
+byte-compiling build/bdist.linux-x86_64/egg/github/tests/CommitComment.py to CommitComment.pyc
+byte-compiling build/bdist.linux-x86_64/egg/github/tests/Framework.py to Framework.pyc
+byte-compiling build/bdist.linux-x86_64/egg/github/tests/Issue.py to Issue.pyc
+byte-compiling build/bdist.linux-x86_64/egg/github/tests/Issue142.py to Issue142.pyc
+byte-compiling build/bdist.linux-x86_64/egg/github/GitRef.py to GitRef.pyc
+byte-compiling build/bdist.linux-x86_64/egg/github/Status.py to Status.pyc
+byte-compiling build/bdist.linux-x86_64/egg/github/StatsPunchCard.py to StatsPunchCard.pyc
+byte-compiling build/bdist.linux-x86_64/egg/github/Rate.py to Rate.pyc
+byte-compiling build/bdist.linux-x86_64/egg/github/ContentFile.py to ContentFile.pyc
+byte-compiling build/bdist.linux-x86_64/egg/github/GitObject.py to GitObject.pyc
+byte-compiling build/bdist.linux-x86_64/egg/github/StatsContributor.py to StatsContributor.pyc
+byte-compiling build/bdist.linux-x86_64/egg/github/Commit.py to Commit.pyc
+byte-compiling build/bdist.linux-x86_64/egg/github/Branch.py to Branch.pyc
+byte-compiling build/bdist.linux-x86_64/egg/github/IssuePullRequest.py to IssuePullRequest.pyc
+byte-compiling build/bdist.linux-x86_64/egg/github/Plan.py to Plan.pyc
+byte-compiling build/bdist.linux-x86_64/egg/github/__init__.py to __init__.pyc
+byte-compiling build/bdist.linux-x86_64/egg/github/Gist.py to Gist.pyc
+byte-compiling build/bdist.linux-x86_64/egg/github/AuthenticatedUser.py to AuthenticatedUser.pyc
+byte-compiling build/bdist.linux-x86_64/egg/github/RepositoryKey.py to RepositoryKey.pyc
+byte-compiling build/bdist.linux-x86_64/egg/github/PullRequestComment.py to PullRequestComment.pyc
+byte-compiling build/bdist.linux-x86_64/egg/github/GistFile.py to GistFile.pyc
+byte-compiling build/bdist.linux-x86_64/egg/github/UserKey.py to UserKey.pyc
+byte-compiling build/bdist.linux-x86_64/egg/github/CommitStatus.py to CommitStatus.pyc
+byte-compiling build/bdist.linux-x86_64/egg/github/Authorization.py to Authorization.pyc
+byte-compiling build/bdist.linux-x86_64/egg/github/PullRequestPart.py to PullRequestPart.pyc
+byte-compiling build/bdist.linux-x86_64/egg/github/Organization.py to Organization.pyc
+byte-compiling build/bdist.linux-x86_64/egg/github/Milestone.py to Milestone.pyc
+byte-compiling build/bdist.linux-x86_64/egg/github/CommitStats.py to CommitStats.pyc
+byte-compiling build/bdist.linux-x86_64/egg/github/HookResponse.py to HookResponse.pyc
+byte-compiling build/bdist.linux-x86_64/egg/github/PullRequest.py to PullRequest.pyc
+byte-compiling build/bdist.linux-x86_64/egg/github/PullRequestMergeStatus.py to PullRequestMergeStatus.pyc
+byte-compiling build/bdist.linux-x86_64/egg/github/CommitComment.py to CommitComment.pyc
+byte-compiling build/bdist.linux-x86_64/egg/github/GithubObject.py to GithubObject.pyc
+byte-compiling build/bdist.linux-x86_64/egg/github/Issue.py to Issue.pyc
+byte-compiling build/bdist.linux-x86_64/egg/github/Requester.py to Requester.pyc
+creating build/bdist.linux-x86_64/egg/EGG-INFO
+copying PyGithub.egg-info/PKG-INFO -> build/bdist.linux-x86_64/egg/EGG-INFO
+copying PyGithub.egg-info/SOURCES.txt -> build/bdist.linux-x86_64/egg/EGG-INFO
+copying PyGithub.egg-info/dependency_links.txt -> build/bdist.linux-x86_64/egg/EGG-INFO
+copying PyGithub.egg-info/top_level.txt -> build/bdist.linux-x86_64/egg/EGG-INFO
+zip_safe flag not set; analyzing archive contents...
+github.tests.Framework: module references __file__
+creating dist
+creating 'dist/PyGithub-1.25.2-py2.7.egg' and adding 'build/bdist.linux-x86_64/egg' to it
+removing 'build/bdist.linux-x86_64/egg' (and everything under it)
+Processing PyGithub-1.25.2-py2.7.egg
+creating /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/PyGithub-1.25.2-py2.7.egg
+Extracting PyGithub-1.25.2-py2.7.egg to /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages
+Adding PyGithub 1.25.2 to easy-install.pth file
+
+Installed /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/PyGithub-1.25.2-py2.7.egg
+Processing dependencies for PyGithub==1.25.2
+Finished processing dependencies for PyGithub==1.25.2
+
+The following NEW packages will be INSTALLED:
+
+    openssl:    1.0.1k-1     
+    pip:        7.0.3-py27_0 
+    python:     2.7.10-0     
+    readline:   6.2-2        
+    setuptools: 18.0.1-py27_0
+    sqlite:     3.8.4.1-1    
+    system:     5.8-2        
+    tk:         8.5.18-0     
+    zlib:       1.2.8-0      
+
+Linking packages ...
+[                    ]|                                                  |   0%[openssl             ]|                                                  |   0%[readline            ]|#####                                             |  11%[sqlite              ]|###########                                       |  22%[system              ]|################                                  |  33%[tk                  ]|######################                            |  44%[zlib                ]|###########################                       |  55%[python              ]|#################################                 |  66%[setuptools          ]|######################################            |  77%[pip                 ]|############################################      |  88%[      COMPLETE      ]|##################################################| 100%
+Removing old work directory
+Source cache directory is: /home/ubuntu/miniconda/conda-bld/src_cache
+Found source in cache: PyGithub-1.25.2.tar.gz
+Extracting download
+Package: pygithub-1.25.2-py27_0
+source tree in: /home/ubuntu/miniconda/conda-bld/work/PyGithub-1.25.2
+found egg dir: /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/PyGithub-1.25.2-py2.7.egg
+number of files: 683
+Fixing permissions
+Fixing permissions
+BUILD END: pygithub-1.25.2-py27_0
+TEST START: pygithub-1.25.2-py27_0
+Fetching package metadata: ......
+
+WARNING: conda-build appears to be out of date. You have version 1.13.0 but the
+latest version is 1.14.1. Run
+
+conda update -n root conda-build
+
+to get the latest version.
+
+Solving package specifications: .
+The following packages will be downloaded:
+
+    package                    |            build
+    ---------------------------|-----------------
+    pygithub-1.25.2            |           py27_0         1.7 MB
+
+The following NEW packages will be INSTALLED:
+
+    openssl:    1.0.1k-1     
+    pip:        7.0.3-py27_0 
+    pygithub:   1.25.2-py27_0
+    python:     2.7.10-0     
+    readline:   6.2-2        
+    setuptools: 18.0.1-py27_0
+    sqlite:     3.8.4.1-1    
+    system:     5.8-2        
+    tk:         8.5.18-0     
+    zlib:       1.2.8-0      
+
+Fetching packages ...
+pygithub-1.25.   0% |                              | ETA:  --:--:--   0.00  B/spygithub-1.25.   1% |                               | ETA:  0:00:00  71.55 MB/spygithub-1.25.   3% |#                              | ETA:  0:00:00  86.22 MB/spygithub-1.25.   5% |#                              | ETA:  0:00:00  94.33 MB/spygithub-1.25.   7% |##                             | ETA:  0:00:00  99.29 MB/spygithub-1.25.   9% |##                             | ETA:  0:00:00 102.26 MB/spygithub-1.25.  10% |###                            | ETA:  0:00:00 103.91 MB/spygithub-1.25.  12% |###                            | ETA:  0:00:00 105.75 MB/spygithub-1.25.  14% |####                           | ETA:  0:00:00 107.30 MB/spygithub-1.25.  16% |#####                          | ETA:  0:00:00 107.75 MB/spygithub-1.25.  18% |#####                          | ETA:  0:00:00 108.68 MB/spygithub-1.25.  20% |######                         | ETA:  0:00:00 109.39 MB/spygithub-1.25.  21% |######                         | ETA:  0:00:00 110.20 MB/spygithub-1.25.  23% |#######                        | ETA:  0:00:00 110.87 MB/spygithub-1.25.  25% |#######                        | ETA:  0:00:00 111.45 MB/spygithub-1.25.  27% |########                       | ETA:  0:00:00 111.91 MB/spygithub-1.25.  29% |#########                      | ETA:  0:00:00 112.26 MB/spygithub-1.25.  31% |#########                      | ETA:  0:00:00 112.74 MB/spygithub-1.25.  32% |##########                     | ETA:  0:00:00 113.14 MB/spygithub-1.25.  34% |##########                     | ETA:  0:00:00 113.53 MB/spygithub-1.25.  36% |###########                    | ETA:  0:00:00  47.15 MB/spygithub-1.25.  38% |###########                    | ETA:  0:00:00  48.51 MB/spygithub-1.25.  40% |############                   | ETA:  0:00:00  49.85 MB/spygithub-1.25.  42% |#############                  | ETA:  0:00:00  51.09 MB/spygithub-1.25.  43% |#############                  | ETA:  0:00:00  52.33 MB/spygithub-1.25.  45% |##############                 | ETA:  0:00:00  53.52 MB/spygithub-1.25.  47% |##############                 | ETA:  0:00:00  54.66 MB/spygithub-1.25.  49% |###############                | ETA:  0:00:00  55.78 MB/spygithub-1.25.  51% |###############                | ETA:  0:00:00  56.86 MB/spygithub-1.25.  53% |################               | ETA:  0:00:00  57.91 MB/spygithub-1.25.  54% |#################              | ETA:  0:00:00  58.92 MB/spygithub-1.25.  56% |#################              | ETA:  0:00:00  59.87 MB/spygithub-1.25.  58% |##################             | ETA:  0:00:00  60.81 MB/spygithub-1.25.  60% |##################             | ETA:  0:00:00  61.74 MB/spygithub-1.25.  62% |###################            | ETA:  0:00:00  62.64 MB/spygithub-1.25.  64% |###################            | ETA:  0:00:00  63.46 MB/spygithub-1.25.  65% |####################           | ETA:  0:00:00  64.29 MB/spygithub-1.25.  67% |####################           | ETA:  0:00:00  65.04 MB/spygithub-1.25.  69% |#####################          | ETA:  0:00:00  65.83 MB/spygithub-1.25.  71% |######################         | ETA:  0:00:00  66.58 MB/spygithub-1.25.  73% |######################         | ETA:  0:00:00  67.32 MB/spygithub-1.25.  75% |#######################        | ETA:  0:00:00  68.02 MB/spygithub-1.25.  76% |#######################        | ETA:  0:00:00  68.73 MB/spygithub-1.25.  78% |########################       | ETA:  0:00:00  69.41 ===== testing package: pygithub-1.25.2-py27_0 =====
+import: u'github'
+import: u'github.tests'
+===== pygithub-1.25.2-py27_0 OK =====
+MB/spygithub-1.25.  80% |########################       | ETA:  0:00:00  70.05 MB/spygithub-1.25.  82% |#########################      | ETA:  0:00:00  70.70 MB/spygithub-1.25.  84% |##########################     | ETA:  0:00:00  71.32 MB/spygithub-1.25.  85% |##########################     | ETA:  0:00:00  71.93 MB/spygithub-1.25.  87% |###########################    | ETA:  0:00:00  72.53 MB/spygithub-1.25.  89% |###########################    | ETA:  0:00:00  73.10 MB/spygithub-1.25.  91% |############################   | ETA:  0:00:00  73.67 MB/spygithub-1.25.  93% |############################   | ETA:  0:00:00  74.16 MB/spygithub-1.25.  95% |#############################  | ETA:  0:00:00  74.70 MB/spygithub-1.25.  96% |############################## | ETA:  0:00:00  75.23 MB/spygithub-1.25.  98% |############################## | ETA:  0:00:00  75.76 MB/spygithub-1.25. 100% |###############################| ETA:  0:00:00  75.86 MB/spygithub-1.25. 100% |###############################| Time: 0:00:00  75.12 MB/s
+Extracting packages ...
+[      COMPLETE      ]|                                                  |   0%[pygithub            ]|                                                  |   0%[pygithub            ]|                                                  |   0%[      COMPLETE      ]|##################################################| 100%
+Linking packages ...
+[      COMPLETE      ]|                                                  |   0%[openssl             ]|                                                  |   0%[openssl             ]|                                                  |   0%[readline            ]|#####                                             |  10%[sqlite              ]|##########                                        |  20%[system              ]|###############                                   |  30%[tk                  ]|####################                              |  40%[zlib                ]|#########################                         |  50%[pygithub            ]|##############################                    |  60%[python              ]|###################################               |  70%[setuptools          ]|########################################          |  80%[pip                 ]|#############################################     |  90%[      COMPLETE      ]|##################################################| 100%
+TEST END: pygithub-1.25.2-py27_0
+# If you want to upload this package to binstar.org later, type:
+#
+# $ binstar upload /home/ubuntu/miniconda/conda-bld/linux-64/pygithub-1.25.2-py27_0.tar.bz2
+#
+# To have conda build upload to binstar automatically, use
+# $ conda config --set binstar_upload yes
+

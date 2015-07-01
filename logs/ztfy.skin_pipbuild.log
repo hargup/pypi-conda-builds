@@ -1,0 +1,85 @@
+Removing old build directory
+Removing old work directory
+BUILD START: setuptools-18.0.1-py27_0
+Fetching package metadata: ......
+
+WARNING: conda-build appears to be out of date. You have version 1.13.0 but the
+latest version is 1.14.1. Run
+
+conda update -n root conda-build
+
+to get the latest version.
+
+Solving package specifications: .+ pip install setuptools
+Requirement already satisfied (use --upgrade to upgrade): setuptools in /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages
+
+The following NEW packages will be INSTALLED:
+
+    openssl:    1.0.1k-1     
+    pip:        7.0.3-py27_0 
+    python:     2.7.10-0     
+    readline:   6.2-2        
+    setuptools: 18.0.1-py27_0
+    sqlite:     3.8.4.1-1    
+    system:     5.8-2        
+    tk:         8.5.18-0     
+    zlib:       1.2.8-0      
+
+Linking packages ...
+[                    ]|                                                  |   0%[openssl             ]|                                                  |   0%[readline            ]|#####                                             |  11%[sqlite              ]|###########                                       |  22%[system              ]|################                                  |  33%[tk                  ]|######################                            |  44%[zlib                ]|###########################                       |  55%[python              ]|#################################                 |  66%[setuptools          ]|######################################            |  77%[pip                 ]|############################################      |  88%[      COMPLETE      ]|##################################################| 100%
+Removing old work directory
+Copying /home/ubuntu/pypi-conda-builds/setuptools to /home/ubuntu/miniconda/conda-bld/work
+Package: setuptools-18.0.1-py27_0
+source tree in: /home/ubuntu/miniconda/conda-bld/work
+number of files: 0
+Fixing permissions
+Fixing permissions
+BUILD END: setuptools-18.0.1-py27_0
+# If you want to upload this package to binstar.org later, type:
+#
+# $ binstar upload /home/ubuntu/miniconda/conda-bld/linux-64/setuptools-18.0.1-py27_0.tar.bz2
+#
+# To have conda build upload to binstar automatically, use
+# $ conda config --set binstar_upload yes
+
+Error: prefix already exists: /home/ubuntu/miniconda/envs/_pipbuild_
+Exception:
+Traceback (most recent call last):
+  File "/home/ubuntu/miniconda/envs/_pipbuild_/lib/python2.7/site-packages/pip/basecommand.py", line 223, in main
+    status = self.run(options, args)
+  File "/home/ubuntu/miniconda/envs/_pipbuild_/lib/python2.7/site-packages/pip/commands/install.py", line 268, in run
+    wheel_cache
+  File "/home/ubuntu/miniconda/envs/_pipbuild_/lib/python2.7/site-packages/pip/basecommand.py", line 268, in populate_requirement_set
+    wheel_cache=wheel_cache
+  File "/home/ubuntu/miniconda/envs/_pipbuild_/lib/python2.7/site-packages/pip/req/req_install.py", line 207, in from_line
+    wheel_cache=wheel_cache)
+  File "/home/ubuntu/miniconda/envs/_pipbuild_/lib/python2.7/site-packages/pip/req/req_install.py", line 66, in __init__
+    req = pkg_resources.Requirement.parse(req)
+  File "/home/ubuntu/miniconda/envs/_pipbuild_/lib/python2.7/site-packages/pip/_vendor/pkg_resources/__init__.py", line 2960, in parse
+    reqs = list(parse_requirements(s))
+  File "/home/ubuntu/miniconda/envs/_pipbuild_/lib/python2.7/site-packages/pip/_vendor/pkg_resources/__init__.py", line 2904, in parse_requirements
+    "version spec")
+  File "/home/ubuntu/miniconda/envs/_pipbuild_/lib/python2.7/site-packages/pip/_vendor/pkg_resources/__init__.py", line 2869, in scan_list
+    raise ValueError(msg, line, "at", line[p:])
+ValueError: ('Expected version spec in', 'webob==>=1.2', 'at', '==>=1.2')
+
+Package search: {'_pypi_ordering': False, 'version': '0.6.19', 'name': 'ztfy.skin', 'summary': 'ZTFY skin utility package, including views, forms and viewlets base classes'}
+Creating standard recipe for ztfy.skin-0.6.19
+Converting recipe in /home/ubuntu/pypi-conda-builds/ztfy.skin
+package = ztfy.skin
+   dependencies = [u'setuptools', u'fanstatic', u'jquery.layer', u'z3c.form', u'z3c.formjs', u'z3c.formui', u'z3c.json', u'z3c.jsonrpc', u'z3c.language.switch', u'z3c.layer.pagelet', u'z3c.menu.simple', u'z3c.table', u'z3c.template', u'zope.app.renderer', u'zope.authentication', u'zope.browserpage', u'zope.browserresource', u'zope.component', u'zope.container', u'zope.contentprovider', u'zope.dublincore', u'zope.event', u'zope.i18n', u'zope.i18nmessageid', u'zope.interface', u'zope.intid', u'zope.lifecycleevent', u'zope.publisher', u'zope.schema', u'zope.security', u'zope.traversing', u'zope.viewlet', u'ztfy.base', u'ztfy.baseskin', u'ztfy.i18n', u'ztfy.jqueryui >=0.7.0', u'ztfy.utils >=0.4.0']
+Creating standard recipe for setuptools
+Converting recipe in /home/ubuntu/pypi-conda-builds/setuptools
+package = setuptools
+   dependencies = []
+Building conda package for setuptools
+Creating standard recipe for fanstatic
+Converting recipe in /home/ubuntu/pypi-conda-builds/fanstatic
+package = fanstatic
+   dependencies = [u'webob >=1.2', u'setuptools', u'shutilwhich']
+Creating standard recipe for webob->=1.2
+Error: Version >=1.2 of webob is not available on PyPI.
+
+conda create -n _pipbuild_ --yes python pip
+/home/ubuntu/miniconda/envs/_pipbuild_/bin/pip install webob==>=1.2
+Error: Could not pip install webob==>=1.2

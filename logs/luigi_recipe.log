@@ -1,4 +1,5 @@
 Warning, the following versions were found for luigi
+1.3.0
 1.2.1
 1.1.2
 1.1.1
@@ -28,17 +29,33 @@ Warning, the following versions were found for luigi
 1.0.2
 1.0.1
 1.0
-Using 1.2.1
+Using 1.3.0
 Use --version to specify a different version.
-Using url https://pypi.python.org/packages/source/l/luigi/luigi-1.2.1.tar.gz (439 KB) for luigi.
-Downloading luigi (use --no-download to skip this step)
+Using url https://pypi.python.org/packages/source/l/luigi/luigi-1.3.0.tar.gz (447 KB) for luigi.
+Downloading luigi
 Using cached download
 Unpacking luigi...
 done
-working in /tmp/tmp2cxTYlconda_skeleton_luigi-1.2.1.tar.gz
+working in /tmp/tmpjRofFeconda_skeleton_luigi-1.3.0.tar.gz
 Fetching package metadata: ......
+
+WARNING: conda-build appears to be out of date. You have version 1.13.0 but the
+latest version is 1.14.1. Run
+
+conda update -n root conda-build
+
+to get the latest version.
+
 Solving package specifications: .patching file core.py
 Hunk #1 succeeded at 168 with fuzz 2 (offset 2 lines).
 
-Applying patch: '/tmp/tmp2cxTYlconda_skeleton_luigi-1.2.1.tar.gz/pypi-distutils.patch'
+The following NEW packages will be INSTALLED:
+
+    numpy:  1.9.2-py27_0
+    pyyaml: 3.11-py27_1 
+    yaml:   0.1.6-0     
+
+Linking packages ...
+[                    ]|                                                  |   0%[yaml                ]|                                                  |   0%[numpy               ]|################                                  |  33%[pyyaml              ]|#################################                 |  66%[      COMPLETE      ]|##################################################| 100%
+Applying patch: '/tmp/tmpjRofFeconda_skeleton_luigi-1.3.0.tar.gz/pypi-distutils.patch'
 Error: Could not find any versions of package cached_property

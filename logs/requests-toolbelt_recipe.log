@@ -10,19 +10,31 @@ Warning, the following versions were found for requests-toolbelt
 Using 0.4.0
 Use --version to specify a different version.
 Using url https://pypi.python.org/packages/source/r/requests-toolbelt/requests-toolbelt-0.4.0.tar.gz (25 KB) for requests-toolbelt.
-Downloading requests-toolbelt (use --no-download to skip this step)
+Downloading requests-toolbelt
 Using cached download
 Unpacking requests-toolbelt...
 done
-working in /tmp/tmpQVGSOJconda_skeleton_requests-toolbelt-0.4.0.tar.gz
+working in /tmp/tmpfSD931conda_skeleton_requests-toolbelt-0.4.0.tar.gz
 Fetching package metadata: ......
+
+WARNING: conda-build appears to be out of date. You have version 1.13.0 but the
+latest version is 1.14.1. Run
+
+conda update -n root conda-build
+
+to get the latest version.
+
 Solving package specifications: .patching file core.py
 Hunk #1 succeeded at 168 with fuzz 2 (offset 2 lines).
-Traceback (most recent call last):
-  File "setup.py", line 7, in <module>
-    from setuptools import setup
-ImportError: No module named setuptools
 
-Applying patch: '/tmp/tmpQVGSOJconda_skeleton_requests-toolbelt-0.4.0.tar.gz/pypi-distutils.patch'
-$PYTHONPATH = /tmp/tmpQVGSOJconda_skeleton_requests-toolbelt-0.4.0.tar.gz/requests-toolbelt-0.4.0
-Error: command failed: /home/ubuntu/miniconda/envs/_build/bin/python setup.py install
+The following NEW packages will be INSTALLED:
+
+    numpy:  1.9.2-py27_0
+    pyyaml: 3.11-py27_1 
+    yaml:   0.1.6-0     
+
+Linking packages ...
+[                    ]|                                                  |   0%[yaml                ]|                                                  |   0%[numpy               ]|################                                  |  33%[pyyaml              ]|#################################                 |  66%[      COMPLETE      ]|##################################################| 100%
+Applying patch: '/tmp/tmpfSD931conda_skeleton_requests-toolbelt-0.4.0.tar.gz/pypi-distutils.patch'
+Writing recipe for requests-toolbelt
+Done

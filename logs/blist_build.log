@@ -1,7 +1,15 @@
 Removing old build directory
 Removing old work directory
-BUILD START: blist-1.3.6-py27_0
+BUILD START: blist-1.3.6-py_0
 Fetching package metadata: ......
+
+WARNING: conda-build appears to be out of date. You have version 1.13.0 but the
+latest version is 1.14.1. Run
+
+conda update -n root conda-build
+
+to get the latest version.
+
 Solving package specifications: .+ /home/ubuntu/miniconda/envs/_build/bin/python setup.py install
 running install
 running bdist_egg
@@ -64,15 +72,15 @@ Finished processing dependencies for blist==1.3.6
 
 The following NEW packages will be INSTALLED:
 
-    openssl:    1.0.1k-1    
-    pip:        7.0.3-py27_0
-    python:     2.7.10-0    
-    readline:   6.2-2       
-    setuptools: 17.0-py27_0 
-    sqlite:     3.8.4.1-1   
-    system:     5.8-2       
-    tk:         8.5.18-0    
-    zlib:       1.2.8-0     
+    openssl:    1.0.1k-1     
+    pip:        7.0.3-py27_0 
+    python:     2.7.10-0     
+    readline:   6.2-2        
+    setuptools: 18.0.1-py27_0
+    sqlite:     3.8.4.1-1    
+    system:     5.8-2        
+    tk:         8.5.18-0     
+    zlib:       1.2.8-0      
 
 Linking packages ...
 [                    ]|                                                  |   0%[openssl             ]|                                                  |   0%[readline            ]|#####                                             |  11%[sqlite              ]|###########                                       |  22%[system              ]|################                                  |  33%[tk                  ]|######################                            |  44%[zlib                ]|###########################                       |  55%[python              ]|#################################                 |  66%[setuptools          ]|######################################            |  77%[pip                 ]|############################################      |  88%[      COMPLETE      ]|##################################################| 100%
@@ -80,52 +88,11 @@ Removing old work directory
 Source cache directory is: /home/ubuntu/miniconda/conda-bld/src_cache
 Found source in cache: blist-1.3.6.tar.gz
 Extracting download
-Package: blist-1.3.6-py27_0
+Package: blist-1.3.6-py_0
 source tree in: /home/ubuntu/miniconda/conda-bld/work/blist-1.3.6
 found egg dir: /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/blist-1.3.6-py2.7-linux-x86_64.egg
 number of files: 10
 Fixing permissions
 patchelf: file: /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/blist/_blist.so
     setting rpath to: $ORIGIN/../../..
-Ignored hard-coded path in lib/python2.7/site-packages/blist/_blist.so
-Fixing permissions
-BUILD END: blist-1.3.6-py27_0
-TEST START: blist-1.3.6-py27_0
-Fetching package metadata: ......
-Solving package specifications: .===== testing package: blist-1.3.6-py27_0 =====
-import: u'blist'
-===== blist-1.3.6-py27_0 OK =====
-
-The following packages will be downloaded:
-
-    package                    |            build
-    ---------------------------|-----------------
-    blist-1.3.6                |           py27_0         156 KB
-
-The following NEW packages will be INSTALLED:
-
-    blist:      1.3.6-py27_0
-    openssl:    1.0.1k-1    
-    pip:        7.0.3-py27_0
-    python:     2.7.10-0    
-    readline:   6.2-2       
-    setuptools: 17.0-py27_0 
-    sqlite:     3.8.4.1-1   
-    system:     5.8-2       
-    tk:         8.5.18-0    
-    zlib:       1.2.8-0     
-
-Fetching packages ...
-blist-1.3.6-py   0% |                              | ETA:  --:--:--   0.00  B/sblist-1.3.6-py  10% |###                            | ETA:  0:00:00  47.07 MB/sblist-1.3.6-py  20% |######                         | ETA:  0:00:00  59.14 MB/sblist-1.3.6-py  30% |#########                      | ETA:  0:00:00  65.70 MB/sblist-1.3.6-py  41% |############                   | ETA:  0:00:00  70.16 MB/sblist-1.3.6-py  51% |###############                | ETA:  0:00:00  73.20 MB/sblist-1.3.6-py  61% |###################            | ETA:  0:00:00  75.50 MB/sblist-1.3.6-py  71% |######################         | ETA:  0:00:00  77.13 MB/sblist-1.3.6-py  82% |#########################      | ETA:  0:00:00  77.14 MB/sblist-1.3.6-py  92% |############################   | ETA:  0:00:00  78.39 MB/sblist-1.3.6-py 100% |###############################| ETA:  0:00:00  77.90 MB/sblist-1.3.6-py 100% |###############################| Time: 0:00:00  69.86 MB/s
-Extracting packages ...
-[      COMPLETE      ]|                                                  |   0%[blist               ]|                                                  |   0%[blist               ]|                                                  |   0%[      COMPLETE      ]|##################################################| 100%
-Linking packages ...
-[      COMPLETE      ]|                                                  |   0%[openssl             ]|                                                  |   0%[openssl             ]|                                                  |   0%[readline            ]|#####                                             |  10%[sqlite              ]|##########                                        |  20%[system              ]|###############                                   |  30%[tk                  ]|####################                              |  40%[zlib                ]|#########################                         |  50%[blist               ]|##############################                    |  60%[python              ]|###################################               |  70%[setuptools          ]|########################################          |  80%[pip                 ]|#############################################     |  90%[      COMPLETE      ]|##################################################| 100%
-TEST END: blist-1.3.6-py27_0
-# If you want to upload this package to binstar.org later, type:
-#
-# $ binstar upload /home/ubuntu/miniconda/conda-bld/linux-64/blist-1.3.6-py27_0.tar.bz2
-#
-# To have conda build upload to binstar automatically, use
-# $ conda config --set binstar_upload yes
-
+[noarch_python] Error: Shared object file found: lib/python2.7/site-packages/blist/_blist.so

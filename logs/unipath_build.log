@@ -1,0 +1,135 @@
+Removing old build directory
+Removing old work directory
+BUILD START: unipath-1.1-py_0
+Fetching package metadata: ......
+
+WARNING: conda-build appears to be out of date. You have version 1.13.0 but the
+latest version is 1.14.1. Run
+
+conda update -n root conda-build
+
+to get the latest version.
+
+Solving package specifications: .+ /home/ubuntu/miniconda/envs/_build/bin/python setup.py install
+running install
+running bdist_egg
+running egg_info
+writing Unipath.egg-info/PKG-INFO
+writing top-level names to Unipath.egg-info/top_level.txt
+writing dependency_links to Unipath.egg-info/dependency_links.txt
+reading manifest file 'Unipath.egg-info/SOURCES.txt'
+reading manifest template 'MANIFEST.in'
+writing manifest file 'Unipath.egg-info/SOURCES.txt'
+installing library code to build/bdist.linux-x86_64/egg
+running install_lib
+running build_py
+creating build
+creating build/lib
+creating build/lib/unipath
+copying unipath/tools.py -> build/lib/unipath
+copying unipath/errors.py -> build/lib/unipath
+copying unipath/path.py -> build/lib/unipath
+copying unipath/__init__.py -> build/lib/unipath
+copying unipath/abstractpath.py -> build/lib/unipath
+creating build/bdist.linux-x86_64
+creating build/bdist.linux-x86_64/egg
+creating build/bdist.linux-x86_64/egg/unipath
+copying build/lib/unipath/tools.py -> build/bdist.linux-x86_64/egg/unipath
+copying build/lib/unipath/errors.py -> build/bdist.linux-x86_64/egg/unipath
+copying build/lib/unipath/path.py -> build/bdist.linux-x86_64/egg/unipath
+copying build/lib/unipath/__init__.py -> build/bdist.linux-x86_64/egg/unipath
+copying build/lib/unipath/abstractpath.py -> build/bdist.linux-x86_64/egg/unipath
+byte-compiling build/bdist.linux-x86_64/egg/unipath/tools.py to tools.pyc
+byte-compiling build/bdist.linux-x86_64/egg/unipath/errors.py to errors.pyc
+byte-compiling build/bdist.linux-x86_64/egg/unipath/path.py to path.pyc
+byte-compiling build/bdist.linux-x86_64/egg/unipath/__init__.py to __init__.pyc
+byte-compiling build/bdist.linux-x86_64/egg/unipath/abstractpath.py to abstractpath.pyc
+creating build/bdist.linux-x86_64/egg/EGG-INFO
+copying Unipath.egg-info/PKG-INFO -> build/bdist.linux-x86_64/egg/EGG-INFO
+copying Unipath.egg-info/SOURCES.txt -> build/bdist.linux-x86_64/egg/EGG-INFO
+copying Unipath.egg-info/dependency_links.txt -> build/bdist.linux-x86_64/egg/EGG-INFO
+copying Unipath.egg-info/top_level.txt -> build/bdist.linux-x86_64/egg/EGG-INFO
+zip_safe flag not set; analyzing archive contents...
+creating dist
+creating 'dist/Unipath-1.1-py2.7.egg' and adding 'build/bdist.linux-x86_64/egg' to it
+removing 'build/bdist.linux-x86_64/egg' (and everything under it)
+Processing Unipath-1.1-py2.7.egg
+Copying Unipath-1.1-py2.7.egg to /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages
+Adding Unipath 1.1 to easy-install.pth file
+
+Installed /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/Unipath-1.1-py2.7.egg
+Processing dependencies for Unipath==1.1
+Finished processing dependencies for Unipath==1.1
+
+The following NEW packages will be INSTALLED:
+
+    openssl:    1.0.1k-1     
+    pip:        7.0.3-py27_0 
+    python:     2.7.10-0     
+    readline:   6.2-2        
+    setuptools: 18.0.1-py27_0
+    sqlite:     3.8.4.1-1    
+    system:     5.8-2        
+    tk:         8.5.18-0     
+    zlib:       1.2.8-0      
+
+Linking packages ...
+[                    ]|                                                  |   0%[openssl             ]|                                                  |   0%[readline            ]|#####                                             |  11%[sqlite              ]|###########                                       |  22%[system              ]|################                                  |  33%[tk                  ]|######################                            |  44%[zlib                ]|###########################                       |  55%[python              ]|#################################                 |  66%[setuptools          ]|######################################            |  77%[pip                 ]|############################################      |  88%[      COMPLETE      ]|##################################################| 100%
+Removing old work directory
+Source cache directory is: /home/ubuntu/miniconda/conda-bld/src_cache
+Found source in cache: Unipath-1.1.tar.gz
+Extracting download
+Package: unipath-1.1-py_0
+source tree in: /home/ubuntu/miniconda/conda-bld/work/Unipath-1.1
+found egg: /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/Unipath-1.1-py2.7.egg
+number of files: 2
+Fixing permissions
+Fixing permissions
+BUILD END: unipath-1.1-py_0
+TEST START: unipath-1.1-py_0
+Fetching package metadata: ......
+
+WARNING: conda-build appears to be out of date. You have version 1.13.0 but the
+latest version is 1.14.1. Run
+
+conda update -n root conda-build
+
+to get the latest version.
+
+Solving package specifications: .===== testing package: unipath-1.1-py_0 =====
+import: u'unipath'
+===== unipath-1.1-py_0 OK =====
+
+The following packages will be downloaded:
+
+    package                    |            build
+    ---------------------------|-----------------
+    unipath-1.1                |             py_0          22 KB
+
+The following NEW packages will be INSTALLED:
+
+    openssl:    1.0.1k-1     
+    pip:        7.0.3-py27_0 
+    python:     2.7.10-0     
+    readline:   6.2-2        
+    setuptools: 18.0.1-py27_0
+    sqlite:     3.8.4.1-1    
+    system:     5.8-2        
+    tk:         8.5.18-0     
+    unipath:    1.1-py_0     
+    zlib:       1.2.8-0      
+
+Fetching packages ...
+unipath-1.1-py   0% |                              | ETA:  --:--:--   0.00  B/sunipath-1.1-py  73% |######################         | ETA:  0:00:00  47.76 MB/sunipath-1.1-py 100% |###############################| ETA:  0:00:00  42.44 MB/sunipath-1.1-py 100% |###############################| Time: 0:00:00  30.19 MB/s
+Extracting packages ...
+[      COMPLETE      ]|                                                  |   0%[unipath             ]|                                                  |   0%[unipath             ]|                                                  |   0%[      COMPLETE      ]|##################################################| 100%
+Linking packages ...
+[      COMPLETE      ]|                                                  |   0%[openssl             ]|                                                  |   0%[openssl             ]|                                                  |   0%[readline            ]|#####                                             |  10%[sqlite              ]|##########                                        |  20%[system              ]|###############                                   |  30%[tk                  ]|####################                              |  40%[zlib                ]|#########################                         |  50%[python              ]|##############################                    |  60%[setuptools          ]|###################################               |  70%[unipath             ]|########################################          |  80%[pip                 ]|#############################################     |  90%[      COMPLETE      ]|##################################################| 100%
+TEST END: unipath-1.1-py_0
+# If you want to upload this package to binstar.org later, type:
+#
+# $ binstar upload /home/ubuntu/miniconda/conda-bld/noarch/unipath-1.1-py_0.tar.bz2
+#
+# To have conda build upload to binstar automatically, use
+# $ conda config --set binstar_upload yes
+

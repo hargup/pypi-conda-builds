@@ -2,6 +2,14 @@ Removing old build directory
 Removing old work directory
 BUILD START: versiontools-1.9.1-py_0
 Fetching package metadata: ......
+
+WARNING: conda-build appears to be out of date. You have version 1.13.0 but the
+latest version is 1.14.1. Run
+
+conda update -n root conda-build
+
+to get the latest version.
+
 Solving package specifications: .+ /home/ubuntu/miniconda/envs/_build/bin/python setup.py install
 running install
 running bdist_egg
@@ -63,15 +71,15 @@ Finished processing dependencies for versiontools==1.9.1
 
 The following NEW packages will be INSTALLED:
 
-    openssl:    1.0.1k-1    
-    pip:        7.0.3-py27_0
-    python:     2.7.10-0    
-    readline:   6.2-2       
-    setuptools: 17.0-py27_0 
-    sqlite:     3.8.4.1-1   
-    system:     5.8-2       
-    tk:         8.5.18-0    
-    zlib:       1.2.8-0     
+    openssl:    1.0.1k-1     
+    pip:        7.0.3-py27_0 
+    python:     2.7.10-0     
+    readline:   6.2-2        
+    setuptools: 18.0.1-py27_0
+    sqlite:     3.8.4.1-1    
+    system:     5.8-2        
+    tk:         8.5.18-0     
+    zlib:       1.2.8-0      
 
 Linking packages ...
 [                    ]|                                                  |   0%[openssl             ]|                                                  |   0%[readline            ]|#####                                             |  11%[sqlite              ]|###########                                       |  22%[system              ]|################                                  |  33%[tk                  ]|######################                            |  44%[zlib                ]|###########################                       |  55%[python              ]|#################################                 |  66%[setuptools          ]|######################################            |  77%[pip                 ]|############################################      |  88%[      COMPLETE      ]|##################################################| 100%
@@ -88,6 +96,14 @@ Fixing permissions
 BUILD END: versiontools-1.9.1-py_0
 TEST START: versiontools-1.9.1-py_0
 Fetching package metadata: ......
+
+WARNING: conda-build appears to be out of date. You have version 1.13.0 but the
+latest version is 1.14.1. Run
+
+conda update -n root conda-build
+
+to get the latest version.
+
 Solving package specifications: .===== testing package: versiontools-1.9.1-py_0 =====
 import: u'versiontools'
 ===== versiontools-1.9.1-py_0 OK =====
@@ -100,23 +116,23 @@ The following packages will be downloaded:
 
 The following NEW packages will be INSTALLED:
 
-    openssl:      1.0.1k-1    
-    pip:          7.0.3-py27_0
-    python:       2.7.10-0    
-    readline:     6.2-2       
-    setuptools:   17.0-py27_0 
-    sqlite:       3.8.4.1-1   
-    system:       5.8-2       
-    tk:           8.5.18-0    
-    versiontools: 1.9.1-py_0  
-    zlib:         1.2.8-0     
+    openssl:      1.0.1k-1     
+    pip:          7.0.3-py27_0 
+    python:       2.7.10-0     
+    readline:     6.2-2        
+    setuptools:   18.0.1-py27_0
+    sqlite:       3.8.4.1-1    
+    system:       5.8-2        
+    tk:           8.5.18-0     
+    versiontools: 1.9.1-py_0   
+    zlib:         1.2.8-0      
 
 Fetching packages ...
-versiontools-1   0% |                              | ETA:  --:--:--   0.00  B/sversiontools-1  48% |##############                 | ETA:  0:00:00  46.28 MB/sversiontools-1  96% |#############################  | ETA:  0:00:00  58.11 MB/sversiontools-1 100% |###############################| ETA:  0:00:00  48.11 MB/sversiontools-1 100% |###############################| Time: 0:00:00  36.11 MB/s
+versiontools-1   0% |                              | ETA:  --:--:--   0.00  B/sversiontools-1  47% |##############                 | ETA:  0:00:00  46.81 MB/sversiontools-1  95% |#############################  | ETA:  0:00:00  59.04 MB/sversiontools-1 100% |###############################| ETA:  0:00:00  49.02 MB/sversiontools-1 100% |###############################| Time: 0:00:00  36.54 MB/s
 Extracting packages ...
 [      COMPLETE      ]|                                                  |   0%[versiontools        ]|                                                  |   0%[versiontools        ]|                                                  |   0%[      COMPLETE      ]|##################################################| 100%
 Linking packages ...
-[      COMPLETE      ]|                                                  |   0%[openssl             ]|                                                  |   0%[openssl             ]|                                                  |   0%[readline            ]|#####                                             |  10%[sqlite              ]|##########                                        |  20%[system              ]|###############                                   |  30%[tk                  ]|####################                              |  40%[zlib                ]|#########################                         |  50%[python              ]|##############################                    |  60%[setuptools          ]|###################################               |  70%[pip                 ]|########################################          |  80%[versiontools        ]|#############################################     |  90%[      COMPLETE      ]|##################################################| 100%
+[      COMPLETE      ]|                                                  |   0%[openssl             ]|                                                  |   0%[openssl             ]|                                                  |   0%[readline            ]|#####                                             |  10%[sqlite              ]|##########                                        |  20%[system              ]|###############                                   |  30%[tk                  ]|####################                              |  40%[zlib                ]|#########################                         |  50%[python              ]|##############################                    |  60%[setuptools          ]|###################################               |  70%[versiontools        ]|########################################          |  80%[pip                 ]|#############################################     |  90%[      COMPLETE      ]|##################################################| 100%
 TEST END: versiontools-1.9.1-py_0
 # If you want to upload this package to binstar.org later, type:
 #

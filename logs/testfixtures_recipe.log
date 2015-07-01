@@ -49,19 +49,86 @@ Warning, the following versions were found for testfixtures
 Using 4.1.2
 Use --version to specify a different version.
 Using url https://pypi.python.org/packages/source/t/testfixtures/testfixtures-4.1.2.tar.gz (80 KB) for testfixtures.
-Downloading testfixtures (use --no-download to skip this step)
+Downloading testfixtures
 Using cached download
 Unpacking testfixtures...
 done
-working in /tmp/tmpWhUgqgconda_skeleton_testfixtures-4.1.2.tar.gz
+working in /tmp/tmpI0Rwg5conda_skeleton_testfixtures-4.1.2.tar.gz
 Fetching package metadata: ......
+
+WARNING: conda-build appears to be out of date. You have version 1.13.0 but the
+latest version is 1.14.1. Run
+
+conda update -n root conda-build
+
+to get the latest version.
+
 Solving package specifications: .patching file core.py
 Hunk #1 succeeded at 168 with fuzz 2 (offset 2 lines).
-Traceback (most recent call last):
-  File "setup.py", line 11, in <module>
-    from setuptools import setup, find_packages
-ImportError: No module named setuptools
 
-Applying patch: '/tmp/tmpWhUgqgconda_skeleton_testfixtures-4.1.2.tar.gz/pypi-distutils.patch'
-$PYTHONPATH = /tmp/tmpWhUgqgconda_skeleton_testfixtures-4.1.2.tar.gz/testfixtures-4.1.2
-Error: command failed: /home/ubuntu/miniconda/envs/_build/bin/python setup.py install
+WARNING: conda-build appears to be out of date. You have version 1.13.0 but the
+latest version is 1.14.1. Run
+
+conda update -n root conda-build
+
+to get the latest version.
+
+
+Applying patch: '/tmp/tmpI0Rwg5conda_skeleton_testfixtures-4.1.2.tar.gz/pypi-distutils.patch'
+Warning, the following versions were found for pkginfo
+1.2.1
+1.2
+1.2b1
+1.1
+1.1b1
+1.0
+1.0b2
+1.0b1
+0.9.1
+0.9
+0.8
+0.7
+0.6
+0.5
+0.4.1
+0.4
+0.3
+0.2
+0.1.1
+0.1
+Using 1.2.1
+Use --version to specify a different version.
+Using url https://pypi.python.org/packages/source/p/pkginfo/pkginfo-1.2.1.tar.gz (30 KB) for pkginfo.
+Downloading pkginfo
+Using cached download
+Unpacking pkginfo...
+done
+working in /tmp/tmpDoe8bzconda_skeleton_pkginfo-1.2.1.tar.gz
+Solving package specifications: .patching file core.py
+Hunk #1 succeeded at 168 with fuzz 2 (offset 2 lines).
+An unexpected error has occurred, please consider sending the
+following traceback to the conda GitHub issue tracker at:
+
+    https://github.com/conda/conda-build/issues
+
+Include the output of the command 'conda info' in your report.
+
+
+
+Applying patch: '/tmp/tmpDoe8bzconda_skeleton_pkginfo-1.2.1.tar.gz/pypi-distutils.patch'
+Traceback (most recent call last):
+  File "/home/ubuntu/miniconda/bin/conda-skeleton", line 6, in <module>
+    exec(compile(open(__file__).read(), __file__, 'exec'))
+  File "/home/ubuntu/conda-build/bin/conda-skeleton", line 5, in <module>
+    sys.exit(main())
+  File "/home/ubuntu/conda-build/conda_build/main_skeleton.py", line 240, in main
+    args_func(args, p)
+  File "/home/ubuntu/conda-build/conda_build/main_build.py", line 349, in args_func
+    args.func(args, p)
+  File "/home/ubuntu/conda-build/conda_build/main_skeleton.py", line 254, in execute
+    pypi.main(args, parser)
+  File "/home/ubuntu/conda-build/conda_build/pypi.py", line 387, in main
+    get_package_metadata(args, package, d, data)
+  File "/home/ubuntu/conda-build/conda_build/pypi.py", line 535, in get_package_metadata
+    d['entry_points'] = INDENT.join([''] + entry_list)
+TypeError: sequence item 1: expected string, list found

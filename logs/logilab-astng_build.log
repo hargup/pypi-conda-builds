@@ -1,0 +1,363 @@
+Removing old build directory
+Removing old work directory
+BUILD START: logilab-astng-0.24.3-py27_0
+Fetching package metadata: ......
+
+WARNING: conda-build appears to be out of date. You have version 1.13.0 but the
+latest version is 1.14.1. Run
+
+conda update -n root conda-build
+
+to get the latest version.
+
+Solving package specifications: .+ /home/ubuntu/miniconda/envs/_build/bin/python setup.py install
+running install
+running bdist_egg
+running egg_info
+writing requirements to logilab_astng.egg-info/requires.txt
+writing logilab_astng.egg-info/PKG-INFO
+writing namespace_packages to logilab_astng.egg-info/namespace_packages.txt
+writing top-level names to logilab_astng.egg-info/top_level.txt
+writing dependency_links to logilab_astng.egg-info/dependency_links.txt
+package init file './test/__init__.py' not found (or not a regular file)
+reading manifest file 'logilab_astng.egg-info/SOURCES.txt'
+reading manifest template 'MANIFEST.in'
+writing manifest file 'logilab_astng.egg-info/SOURCES.txt'
+installing library code to build/bdist.linux-x86_64/egg
+running install_lib
+running build_py
+creating build
+creating build/lib
+creating build/lib/logilab
+creating build/lib/logilab/astng
+copying ./protocols.py -> build/lib/logilab/astng
+copying ./mixins.py -> build/lib/logilab/astng
+copying ./inference.py -> build/lib/logilab/astng
+copying ./utils.py -> build/lib/logilab/astng
+copying ./rebuilder.py -> build/lib/logilab/astng
+copying ./nodes.py -> build/lib/logilab/astng
+copying ./bases.py -> build/lib/logilab/astng
+copying ./raw_building.py -> build/lib/logilab/astng
+copying ./scoped_nodes.py -> build/lib/logilab/astng
+copying ./as_string.py -> build/lib/logilab/astng
+copying ./inspector.py -> build/lib/logilab/astng
+copying ./node_classes.py -> build/lib/logilab/astng
+copying ./builder.py -> build/lib/logilab/astng
+copying ./__init__.py -> build/lib/logilab/astng
+copying ./manager.py -> build/lib/logilab/astng
+copying ./__pkginfo__.py -> build/lib/logilab/astng
+copying ./exceptions.py -> build/lib/logilab/astng
+package init file './test/__init__.py' not found (or not a regular file)
+creating build/lib/logilab/astng/test
+copying ./test/unittest_utils.py -> build/lib/logilab/astng/test
+copying ./test/unittest_python3.py -> build/lib/logilab/astng/test
+copying ./test/unittest_builder.py -> build/lib/logilab/astng/test
+copying ./test/unittest_inference.py -> build/lib/logilab/astng/test
+copying ./test/unittest_regrtest.py -> build/lib/logilab/astng/test
+copying ./test/unittest_manager.py -> build/lib/logilab/astng/test
+copying ./test/unittest_nodes.py -> build/lib/logilab/astng/test
+copying ./test/unittest_inspector.py -> build/lib/logilab/astng/test
+copying ./test/unittest_lookup.py -> build/lib/logilab/astng/test
+copying ./test/unittest_scoped_nodes.py -> build/lib/logilab/astng/test
+creating build/lib/logilab/astng/test/data2
+copying ./test/data2/suppliermodule_test.py -> build/lib/logilab/astng/test/data2
+copying ./test/data2/clientmodule_test.py -> build/lib/logilab/astng/test/data2
+copying ./test/data2/__init__.py -> build/lib/logilab/astng/test/data2
+creating build/lib/logilab/astng/test/data
+copying ./test/data/module.py -> build/lib/logilab/astng/test/data
+copying ./test/data/email.py -> build/lib/logilab/astng/test/data
+copying ./test/data/absimport.py -> build/lib/logilab/astng/test/data
+copying ./test/data/module2.py -> build/lib/logilab/astng/test/data
+copying ./test/data/format.py -> build/lib/logilab/astng/test/data
+copying ./test/data/all.py -> build/lib/logilab/astng/test/data
+copying ./test/data/nonregr.py -> build/lib/logilab/astng/test/data
+copying ./test/data/__init__.py -> build/lib/logilab/astng/test/data
+copying ./test/data/noendingnewline.py -> build/lib/logilab/astng/test/data
+copying ./test/data/notall.py -> build/lib/logilab/astng/test/data
+creating build/lib/logilab/astng/test/data/SSL1
+copying ./test/data/SSL1/Connection1.py -> build/lib/logilab/astng/test/data/SSL1
+copying ./test/data/SSL1/__init__.py -> build/lib/logilab/astng/test/data/SSL1
+creating build/lib/logilab/astng/test/data/appl
+copying ./test/data/appl/myConnection.py -> build/lib/logilab/astng/test/data/appl
+copying ./test/data/appl/__init__.py -> build/lib/logilab/astng/test/data/appl
+package init file './test/__init__.py' not found (or not a regular file)
+creating build/bdist.linux-x86_64
+creating build/bdist.linux-x86_64/egg
+creating build/bdist.linux-x86_64/egg/logilab
+creating build/bdist.linux-x86_64/egg/logilab/astng
+copying build/lib/logilab/astng/protocols.py -> build/bdist.linux-x86_64/egg/logilab/astng
+copying build/lib/logilab/astng/mixins.py -> build/bdist.linux-x86_64/egg/logilab/astng
+copying build/lib/logilab/astng/inference.py -> build/bdist.linux-x86_64/egg/logilab/astng
+copying build/lib/logilab/astng/utils.py -> build/bdist.linux-x86_64/egg/logilab/astng
+copying build/lib/logilab/astng/rebuilder.py -> build/bdist.linux-x86_64/egg/logilab/astng
+copying build/lib/logilab/astng/nodes.py -> build/bdist.linux-x86_64/egg/logilab/astng
+copying build/lib/logilab/astng/bases.py -> build/bdist.linux-x86_64/egg/logilab/astng
+copying build/lib/logilab/astng/raw_building.py -> build/bdist.linux-x86_64/egg/logilab/astng
+copying build/lib/logilab/astng/scoped_nodes.py -> build/bdist.linux-x86_64/egg/logilab/astng
+copying build/lib/logilab/astng/as_string.py -> build/bdist.linux-x86_64/egg/logilab/astng
+copying build/lib/logilab/astng/inspector.py -> build/bdist.linux-x86_64/egg/logilab/astng
+copying build/lib/logilab/astng/node_classes.py -> build/bdist.linux-x86_64/egg/logilab/astng
+copying build/lib/logilab/astng/builder.py -> build/bdist.linux-x86_64/egg/logilab/astng
+creating build/bdist.linux-x86_64/egg/logilab/astng/brain
+copying build/lib/logilab/astng/brain/py2stdlib.py -> build/bdist.linux-x86_64/egg/logilab/astng/brain
+copying build/lib/logilab/astng/brain/py2mechanize.py -> build/bdist.linux-x86_64/egg/logilab/astng/brain
+copying build/lib/logilab/astng/brain/py2qt4.py -> build/bdist.linux-x86_64/egg/logilab/astng/brain
+creating build/bdist.linux-x86_64/egg/logilab/astng/test
+copying build/lib/logilab/astng/test/unittest_utils.py -> build/bdist.linux-x86_64/egg/logilab/astng/test
+copying build/lib/logilab/astng/test/unittest_python3.py -> build/bdist.linux-x86_64/egg/logilab/astng/test
+copying build/lib/logilab/astng/test/unittest_builder.py -> build/bdist.linux-x86_64/egg/logilab/astng/test
+copying build/lib/logilab/astng/test/unittest_inference.py -> build/bdist.linux-x86_64/egg/logilab/astng/test
+copying build/lib/logilab/astng/test/unittest_regrtest.py -> build/bdist.linux-x86_64/egg/logilab/astng/test
+copying build/lib/logilab/astng/test/unittest_manager.py -> build/bdist.linux-x86_64/egg/logilab/astng/test
+copying build/lib/logilab/astng/test/unittest_nodes.py -> build/bdist.linux-x86_64/egg/logilab/astng/test
+copying build/lib/logilab/astng/test/unittest_inspector.py -> build/bdist.linux-x86_64/egg/logilab/astng/test
+copying build/lib/logilab/astng/test/unittest_lookup.py -> build/bdist.linux-x86_64/egg/logilab/astng/test
+copying build/lib/logilab/astng/test/unittest_scoped_nodes.py -> build/bdist.linux-x86_64/egg/logilab/astng/test
+creating build/bdist.linux-x86_64/egg/logilab/astng/test/data2
+copying build/lib/logilab/astng/test/data2/suppliermodule_test.py -> build/bdist.linux-x86_64/egg/logilab/astng/test/data2
+copying build/lib/logilab/astng/test/data2/clientmodule_test.py -> build/bdist.linux-x86_64/egg/logilab/astng/test/data2
+copying build/lib/logilab/astng/test/data2/__init__.py -> build/bdist.linux-x86_64/egg/logilab/astng/test/data2
+creating build/bdist.linux-x86_64/egg/logilab/astng/test/data
+copying build/lib/logilab/astng/test/data/module.py -> build/bdist.linux-x86_64/egg/logilab/astng/test/data
+copying build/lib/logilab/astng/test/data/email.py -> build/bdist.linux-x86_64/egg/logilab/astng/test/data
+copying build/lib/logilab/astng/test/data/absimport.py -> build/bdist.linux-x86_64/egg/logilab/astng/test/data
+creating build/bdist.linux-x86_64/egg/logilab/astng/test/data/SSL1
+copying build/lib/logilab/astng/test/data/SSL1/Connection1.py -> build/bdist.linux-x86_64/egg/logilab/astng/test/data/SSL1
+copying build/lib/logilab/astng/test/data/SSL1/__init__.py -> build/bdist.linux-x86_64/egg/logilab/astng/test/data/SSL1
+creating build/bdist.linux-x86_64/egg/logilab/astng/test/data/appl
+copying build/lib/logilab/astng/test/data/appl/myConnection.py -> build/bdist.linux-x86_64/egg/logilab/astng/test/data/appl
+copying build/lib/logilab/astng/test/data/appl/__init__.py -> build/bdist.linux-x86_64/egg/logilab/astng/test/data/appl
+copying build/lib/logilab/astng/test/data/module2.py -> build/bdist.linux-x86_64/egg/logilab/astng/test/data
+copying build/lib/logilab/astng/test/data/format.py -> build/bdist.linux-x86_64/egg/logilab/astng/test/data
+copying build/lib/logilab/astng/test/data/all.py -> build/bdist.linux-x86_64/egg/logilab/astng/test/data
+copying build/lib/logilab/astng/test/data/nonregr.py -> build/bdist.linux-x86_64/egg/logilab/astng/test/data
+copying build/lib/logilab/astng/test/data/__init__.py -> build/bdist.linux-x86_64/egg/logilab/astng/test/data
+copying build/lib/logilab/astng/test/data/noendingnewline.py -> build/bdist.linux-x86_64/egg/logilab/astng/test/data
+copying build/lib/logilab/astng/test/data/MyPyPa-0.1.0-py2.5.zip -> build/bdist.linux-x86_64/egg/logilab/astng/test/data
+copying build/lib/logilab/astng/test/data/notall.py -> build/bdist.linux-x86_64/egg/logilab/astng/test/data
+copying build/lib/logilab/astng/test/data/MyPyPa-0.1.0-py2.5.egg -> build/bdist.linux-x86_64/egg/logilab/astng/test/data
+creating build/bdist.linux-x86_64/egg/logilab/astng/test/regrtest_data
+creating build/bdist.linux-x86_64/egg/logilab/astng/test/regrtest_data/package
+copying build/lib/logilab/astng/test/regrtest_data/package/absimport.py -> build/bdist.linux-x86_64/egg/logilab/astng/test/regrtest_data/package
+copying build/lib/logilab/astng/test/regrtest_data/package/hello.py -> build/bdist.linux-x86_64/egg/logilab/astng/test/regrtest_data/package
+creating build/bdist.linux-x86_64/egg/logilab/astng/test/regrtest_data/package/subpackage
+copying build/lib/logilab/astng/test/regrtest_data/package/subpackage/module.py -> build/bdist.linux-x86_64/egg/logilab/astng/test/regrtest_data/package/subpackage
+copying build/lib/logilab/astng/test/regrtest_data/package/subpackage/__init__.py -> build/bdist.linux-x86_64/egg/logilab/astng/test/regrtest_data/package/subpackage
+copying build/lib/logilab/astng/test/regrtest_data/package/__init__.py -> build/bdist.linux-x86_64/egg/logilab/astng/test/regrtest_data/package
+copying build/lib/logilab/astng/test/regrtest_data/package/import_package_subpackage_module.py -> build/bdist.linux-x86_64/egg/logilab/astng/test/regrtest_data/package
+creating build/bdist.linux-x86_64/egg/logilab/astng/test/regrtest_data/absimp
+copying build/lib/logilab/astng/test/regrtest_data/absimp/__init__.py -> build/bdist.linux-x86_64/egg/logilab/astng/test/regrtest_data/absimp
+creating build/bdist.linux-x86_64/egg/logilab/astng/test/regrtest_data/absimp/sidepackage
+copying build/lib/logilab/astng/test/regrtest_data/absimp/sidepackage/__init__.py -> build/bdist.linux-x86_64/egg/logilab/astng/test/regrtest_data/absimp/sidepackage
+copying build/lib/logilab/astng/test/regrtest_data/absimp/string.py -> build/bdist.linux-x86_64/egg/logilab/astng/test/regrtest_data/absimp
+copying build/lib/logilab/astng/test/regrtest_data/descriptor_crash.py -> build/bdist.linux-x86_64/egg/logilab/astng/test/regrtest_data
+copying build/lib/logilab/astng/__init__.py -> build/bdist.linux-x86_64/egg/logilab/astng
+copying build/lib/logilab/astng/manager.py -> build/bdist.linux-x86_64/egg/logilab/astng
+copying build/lib/logilab/astng/__pkginfo__.py -> build/bdist.linux-x86_64/egg/logilab/astng
+copying build/lib/logilab/astng/exceptions.py -> build/bdist.linux-x86_64/egg/logilab/astng
+byte-compiling build/bdist.linux-x86_64/egg/logilab/astng/protocols.py to protocols.pyc
+byte-compiling build/bdist.linux-x86_64/egg/logilab/astng/mixins.py to mixins.pyc
+byte-compiling build/bdist.linux-x86_64/egg/logilab/astng/inference.py to inference.pyc
+byte-compiling build/bdist.linux-x86_64/egg/logilab/astng/utils.py to utils.pyc
+byte-compiling build/bdist.linux-x86_64/egg/logilab/astng/rebuilder.py to rebuilder.pyc
+byte-compiling build/bdist.linux-x86_64/egg/logilab/astng/nodes.py to nodes.pyc
+byte-compiling build/bdist.linux-x86_64/egg/logilab/astng/bases.py to bases.pyc
+byte-compiling build/bdist.linux-x86_64/egg/logilab/astng/raw_building.py to raw_building.pyc
+byte-compiling build/bdist.linux-x86_64/egg/logilab/astng/scoped_nodes.py to scoped_nodes.pyc
+byte-compiling build/bdist.linux-x86_64/egg/logilab/astng/as_string.py to as_string.pyc
+byte-compiling build/bdist.linux-x86_64/egg/logilab/astng/inspector.py to inspector.pyc
+byte-compiling build/bdist.linux-x86_64/egg/logilab/astng/node_classes.py to node_classes.pyc
+byte-compiling build/bdist.linux-x86_64/egg/logilab/astng/builder.py to builder.pyc
+byte-compiling build/bdist.linux-x86_64/egg/logilab/astng/brain/py2stdlib.py to py2stdlib.pyc
+byte-compiling build/bdist.linux-x86_64/egg/logilab/astng/brain/py2mechanize.py to py2mechanize.pyc
+byte-compiling build/bdist.linux-x86_64/egg/logilab/astng/brain/py2qt4.py to py2qt4.pyc
+byte-compiling build/bdist.linux-x86_64/egg/logilab/astng/test/unittest_utils.py to unittest_utils.pyc
+byte-compiling build/bdist.linux-x86_64/egg/logilab/astng/test/unittest_python3.py to unittest_python3.pyc
+byte-compiling build/bdist.linux-x86_64/egg/logilab/astng/test/unittest_builder.py to unittest_builder.pyc
+byte-compiling build/bdist.linux-x86_64/egg/logilab/astng/test/unittest_inference.py to unittest_inference.pyc
+byte-compiling build/bdist.linux-x86_64/egg/logilab/astng/test/unittest_regrtest.py to unittest_regrtest.pyc
+byte-compiling build/bdist.linux-x86_64/egg/logilab/astng/test/unittest_manager.py to unittest_manager.pyc
+byte-compiling build/bdist.linux-x86_64/egg/logilab/astng/test/unittest_nodes.py to unittest_nodes.pyc
+byte-compiling build/bdist.linux-x86_64/egg/logilab/astng/test/unittest_inspector.py to unittest_inspector.pyc
+byte-compiling build/bdist.linux-x86_64/egg/logilab/astng/test/unittest_lookup.py to unittest_lookup.pyc
+byte-compiling build/bdist.linux-x86_64/egg/logilab/astng/test/unittest_scoped_nodes.py to unittest_scoped_nodes.pyc
+byte-compiling build/bdist.linux-x86_64/egg/logilab/astng/test/data2/suppliermodule_test.py to suppliermodule_test.pyc
+byte-compiling build/bdist.linux-x86_64/egg/logilab/astng/test/data2/clientmodule_test.py to clientmodule_test.pyc
+byte-compiling build/bdist.linux-x86_64/egg/logilab/astng/test/data2/__init__.py to __init__.pyc
+byte-compiling build/bdist.linux-x86_64/egg/logilab/astng/test/data/module.py to module.pyc
+byte-compiling build/bdist.linux-x86_64/egg/logilab/astng/test/data/email.py to email.pyc
+byte-compiling build/bdist.linux-x86_64/egg/logilab/astng/test/data/absimport.py to absimport.pyc
+byte-compiling build/bdist.linux-x86_64/egg/logilab/astng/test/data/SSL1/Connection1.py to Connection1.pyc
+byte-compiling build/bdist.linux-x86_64/egg/logilab/astng/test/data/SSL1/__init__.py to __init__.pyc
+byte-compiling build/bdist.linux-x86_64/egg/logilab/astng/test/data/appl/myConnection.py to myConnection.pyc
+byte-compiling build/bdist.linux-x86_64/egg/logilab/astng/test/data/appl/__init__.py to __init__.pyc
+byte-compiling build/bdist.linux-x86_64/egg/logilab/astng/test/data/module2.py to module2.pyc
+byte-compiling build/bdist.linux-x86_64/egg/logilab/astng/test/data/format.py to format.pyc
+byte-compiling build/bdist.linux-x86_64/egg/logilab/astng/test/data/all.py to all.pyc
+byte-compiling build/bdist.linux-x86_64/egg/logilab/astng/test/data/nonregr.py to nonregr.pyc
+byte-compiling build/bdist.linux-x86_64/egg/logilab/astng/test/data/__init__.py to __init__.pyc
+byte-compiling build/bdist.linux-x86_64/egg/logilab/astng/test/data/noendingnewline.py to noendingnewline.pyc
+byte-compiling build/bdist.linux-x86_64/egg/logilab/astng/test/data/notall.py to notall.pyc
+byte-compiling build/bdist.linux-x86_64/egg/logilab/astng/test/regrtest_data/package/absimport.py to absimport.pyc
+byte-compiling build/bdist.linux-x86_64/egg/logilab/astng/test/regrtest_data/package/hello.py to hello.pyc
+byte-compiling build/bdist.linux-x86_64/egg/logilab/astng/test/regrtest_data/package/subpackage/module.py to module.pyc
+byte-compiling build/bdist.linux-x86_64/egg/logilab/astng/test/regrtest_data/package/subpackage/__init__.py to __init__.pyc
+byte-compiling build/bdist.linux-x86_64/egg/logilab/astng/test/regrtest_data/package/__init__.py to __init__.pyc
+byte-compiling build/bdist.linux-x86_64/egg/logilab/astng/test/regrtest_data/package/import_package_subpackage_module.py to import_package_subpackage_module.pyc
+byte-compiling build/bdist.linux-x86_64/egg/logilab/astng/test/regrtest_data/absimp/__init__.py to __init__.pyc
+byte-compiling build/bdist.linux-x86_64/egg/logilab/astng/test/regrtest_data/absimp/sidepackage/__init__.py to __init__.pyc
+byte-compiling build/bdist.linux-x86_64/egg/logilab/astng/test/regrtest_data/absimp/string.py to string.pyc
+byte-compiling build/bdist.linux-x86_64/egg/logilab/astng/test/regrtest_data/descriptor_crash.py to descriptor_crash.pyc
+byte-compiling build/bdist.linux-x86_64/egg/logilab/astng/__init__.py to __init__.pyc
+byte-compiling build/bdist.linux-x86_64/egg/logilab/astng/manager.py to manager.pyc
+byte-compiling build/bdist.linux-x86_64/egg/logilab/astng/__pkginfo__.py to __pkginfo__.pyc
+byte-compiling build/bdist.linux-x86_64/egg/logilab/astng/exceptions.py to exceptions.pyc
+creating build/bdist.linux-x86_64/egg/EGG-INFO
+copying logilab_astng.egg-info/PKG-INFO -> build/bdist.linux-x86_64/egg/EGG-INFO
+copying logilab_astng.egg-info/SOURCES.txt -> build/bdist.linux-x86_64/egg/EGG-INFO
+copying logilab_astng.egg-info/dependency_links.txt -> build/bdist.linux-x86_64/egg/EGG-INFO
+copying logilab_astng.egg-info/namespace_packages.txt -> build/bdist.linux-x86_64/egg/EGG-INFO
+copying logilab_astng.egg-info/requires.txt -> build/bdist.linux-x86_64/egg/EGG-INFO
+copying logilab_astng.egg-info/top_level.txt -> build/bdist.linux-x86_64/egg/EGG-INFO
+zip_safe flag not set; analyzing archive contents...
+logilab.astng.manager: module references __file__
+logilab.astng.raw_building: module references __file__
+logilab.astng.raw_building: module references __path__
+logilab.astng.__init__: module references __file__
+logilab.astng.builder: module references __file__
+logilab.astng.scoped_nodes: module references __file__
+logilab.astng.scoped_nodes: module references __path__
+logilab.astng.test.unittest_nodes: module references __file__
+logilab.astng.test.unittest_builder: module references __file__
+logilab.astng.test.unittest_builder: module references __path__
+logilab.astng.test.unittest_scoped_nodes: module references __file__
+logilab.astng.test.unittest_scoped_nodes: module references __path__
+logilab.astng.test.unittest_inspector: module references __file__
+logilab.astng.test.unittest_lookup: module references __file__
+logilab.astng.test.unittest_lookup: module references __path__
+logilab.astng.test.unittest_utils: module references __file__
+logilab.astng.test.unittest_regrtest: module references __file__
+logilab.astng.test.unittest_inference: module references __file__
+logilab.astng.test.unittest_manager: module references __file__
+creating dist
+creating 'dist/logilab_astng-0.24.3-py2.7.egg' and adding 'build/bdist.linux-x86_64/egg' to it
+removing 'build/bdist.linux-x86_64/egg' (and everything under it)
+Processing logilab_astng-0.24.3-py2.7.egg
+creating /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/logilab_astng-0.24.3-py2.7.egg
+Extracting logilab_astng-0.24.3-py2.7.egg to /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages
+Adding logilab-astng 0.24.3 to easy-install.pth file
+
+Installed /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/logilab_astng-0.24.3-py2.7.egg
+Processing dependencies for logilab-astng==0.24.3
+Searching for logilab-common>=0.53.0
+Reading https://pypi.python.org/simple/logilab-common/
+Best match: logilab-common 1.0.0
+Downloading https://pypi.python.org/packages/source/l/logilab-common/logilab-common-1.0.0.tar.gz#md5=1c455d35a539e269670d0c71a9f7b80c
+Processing logilab-common-1.0.0.tar.gz
+Writing /tmp/easy_install-JKnbGQ/logilab-common-1.0.0/setup.cfg
+Running logilab-common-1.0.0/setup.py -q bdist_egg --dist-dir /tmp/easy_install-JKnbGQ/logilab-common-1.0.0/egg-dist-tmp-O3b7N2
+warning: no files found matching '*.py' under directory 'test/input'
+warning: no files found matching '*' under directory 'doc/html'
+zip_safe flag not set; analyzing archive contents...
+logilab.common.testlib: module references __file__
+logilab.common.testlib: module MAY be using inspect.getinnerframes
+logilab.common.pytest: module references __file__
+logilab.common.registry: module references __file__
+logilab.common.modutils: module references __file__
+logilab.common.modutils: module references __path__
+logilab.common.debugger: module MAY be using inspect.getsource
+creating /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/logilab_common-1.0.0-py2.7.egg
+Extracting logilab_common-1.0.0-py2.7.egg to /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages
+Adding logilab-common 1.0.0 to easy-install.pth file
+Installing pytest script to /home/ubuntu/miniconda/envs/_build/bin
+
+Installed /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/logilab_common-1.0.0-py2.7.egg
+Searching for six>=1.4.0
+Reading https://pypi.python.org/simple/six/
+Best match: six 1.9.0
+Downloading https://pypi.python.org/packages/source/s/six/six-1.9.0.tar.gz#md5=476881ef4012262dfc8adc645ee786c4
+Processing six-1.9.0.tar.gz
+Writing /tmp/easy_install-gRUjbJ/six-1.9.0/setup.cfg
+Running six-1.9.0/setup.py -q bdist_egg --dist-dir /tmp/easy_install-gRUjbJ/six-1.9.0/egg-dist-tmp-qz0ZoW
+no previously-included directories found matching 'documentation/_build'
+zip_safe flag not set; analyzing archive contents...
+six: module references __path__
+creating /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/six-1.9.0-py2.7.egg
+Extracting six-1.9.0-py2.7.egg to /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages
+Adding six 1.9.0 to easy-install.pth file
+
+Installed /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/six-1.9.0-py2.7.egg
+Finished processing dependencies for logilab-astng==0.24.3
+
+The following NEW packages will be INSTALLED:
+
+    openssl:    1.0.1k-1     
+    pip:        7.0.3-py27_0 
+    python:     2.7.10-0     
+    readline:   6.2-2        
+    setuptools: 18.0.1-py27_0
+    sqlite:     3.8.4.1-1    
+    system:     5.8-2        
+    tk:         8.5.18-0     
+    zlib:       1.2.8-0      
+
+Linking packages ...
+[                    ]|                                                  |   0%[openssl             ]|                                                  |   0%[readline            ]|#####                                             |  11%[sqlite              ]|###########                                       |  22%[system              ]|################                                  |  33%[tk                  ]|######################                            |  44%[zlib                ]|###########################                       |  55%[python              ]|#################################                 |  66%[setuptools          ]|######################################            |  77%[pip                 ]|############################################      |  88%[      COMPLETE      ]|##################################################| 100%
+Removing old work directory
+Source cache directory is: /home/ubuntu/miniconda/conda-bld/src_cache
+Found source in cache: logilab-astng-0.24.3.tar.gz
+Extracting download
+Package: logilab-astng-0.24.3-py27_0
+source tree in: /home/ubuntu/miniconda/conda-bld/work/logilab-astng-0.24.3
+found egg dir: /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/six-1.9.0-py2.7.egg
+found egg dir: /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/logilab_astng-0.24.3-py2.7.egg
+found egg dir: /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/logilab_common-1.0.0-py2.7.egg
+number of files: 202
+Fixing permissions
+Detected hard-coded path in text file bin/pytest
+Fixing permissions
+BUILD END: logilab-astng-0.24.3-py27_0
+TEST START: logilab-astng-0.24.3-py27_0
+Fetching package metadata: ......
+
+WARNING: conda-build appears to be out of date. You have version 1.13.0 but the
+latest version is 1.14.1. Run
+
+conda update -n root conda-build
+
+to get the latest version.
+
+Solving package specifications: .===== testing package: logilab-astng-0.24.3-py27_0 =====
+import: u'logilab.astng'
+import: u'logilab.astng.test'
+Traceback (most recent call last):
+  File "/home/ubuntu/miniconda/conda-bld/test-tmp_dir/run_test.py", line 28, in <module>
+    import logilab.astng.test
+ImportError: No module named test
+
+The following packages will be downloaded:
+
+    package                    |            build
+    ---------------------------|-----------------
+    logilab-astng-0.24.3       |           py27_0         348 KB
+
+The following NEW packages will be INSTALLED:
+
+    logilab-astng: 0.24.3-py27_0
+    openssl:       1.0.1k-1     
+    pip:           7.0.3-py27_0 
+    python:        2.7.10-0     
+    readline:      6.2-2        
+    setuptools:    18.0.1-py27_0
+    sqlite:        3.8.4.1-1    
+    system:        5.8-2        
+    tk:            8.5.18-0     
+    zlib:          1.2.8-0      
+
+Fetching packages ...
+logilab-astng-   0% |                              | ETA:  --:--:--   0.00  B/slogilab-astng-   4% |#                              | ETA:  0:00:00  47.89 MB/slogilab-astng-   9% |##                             | ETA:  0:00:00  57.48 MB/slogilab-astng-  13% |####                           | ETA:  0:00:00  64.24 MB/slogilab-astng-  18% |#####                          | ETA:  0:00:00  68.62 MB/slogilab-astng-  22% |#######                        | ETA:  0:00:00  71.73 MB/slogilab-astng-  27% |########                       | ETA:  0:00:00  74.13 MB/slogilab-astng-  32% |#########                      | ETA:  0:00:00  75.99 MB/slogilab-astng-  36% |###########                    | ETA:  0:00:00  77.55 MB/slogilab-astng-  41% |############                   | ETA:  0:00:00  78.81 MB/slogilab-astng-  45% |##############                 | ETA:  0:00:00  79.72 MB/slogilab-astng-  50% |###############                | ETA:  0:00:00  80.60 MB/slogilab-astng-  55% |#################              | ETA:  0:00:00  81.28 MB/slogilab-astng-  59% |##################             | ETA:  0:00:00  81.73 MB/slogilab-astng-  64% |###################            | ETA:  0:00:00  82.39 MB/slogilab-astng-  68% |#####################          | ETA:  0:00:00  82.94 MB/slogilab-astng-  73% |######################         | ETA:  0:00:00  83.43 MB/slogilab-astng-  78% |########################       | ETA:  0:00:00  83.84 MB/slogilab-astng-  82% |#########################      | ETA:  0:00:00  84.14 MB/slogilab-astng-  87% |###########################    | ETA:  0:00:00  84.43 MB/slogilab-astng-  91% |############################   | ETA:  0:00:00  84.71 MB/slogilab-astng-  96% |#############################  | ETA:  0:00:00  85.01 MB/slogilab-astng- 100% |###############################| ETA:  0:00:00  84.59 MB/slogilab-astng- 100% |###############################| Time: 0:00:00  80.22 MB/s
+Extracting packages ...
+[      COMPLETE      ]|                                                  |   0%[logilab-astng       ]|                                                  |   0%[logilab-astng       ]|                                                  |   0%[      COMPLETE      ]|##################################################| 100%
+Linking packages ...
+[      COMPLETE      ]|                                                  |   0%[openssl             ]|                                                  |   0%[openssl             ]|                                                  |   0%[readline            ]|#####                                             |  10%[sqlite              ]|##########                                        |  20%[system              ]|###############                                   |  30%[tk                  ]|####################                              |  40%[zlib                ]|#########################                         |  50%[logilab-astng       ]|##############################                    |  60%[python              ]|###################################               |  70%[setuptools          ]|########################################          |  80%[pip                 ]|#############################################     |  90%[      COMPLETE      ]|##################################################| 100%
+TESTS FAILED: logilab-astng-0.24.3-py27_0

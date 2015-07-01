@@ -2,6 +2,14 @@ Removing old build directory
 Removing old work directory
 BUILD START: kairos-0.10.1-py27_0
 Fetching package metadata: ......
+
+WARNING: conda-build appears to be out of date. You have version 1.13.0 but the
+latest version is 1.14.1. Run
+
+conda update -n root conda-build
+
+to get the latest version.
+
 Solving package specifications: .+ /home/ubuntu/miniconda/envs/_build/bin/python setup.py install
 running install
 running bdist_egg
@@ -72,16 +80,16 @@ Finished processing dependencies for kairos==0.10.1
 
 The following NEW packages will be INSTALLED:
 
-    monthdelta: 1.0b-py27_0 
-    openssl:    1.0.1k-1    
-    pip:        7.0.3-py27_0
-    python:     2.7.10-0    
-    readline:   6.2-2       
-    setuptools: 17.0-py27_0 
-    sqlite:     3.8.4.1-1   
-    system:     5.8-2       
-    tk:         8.5.18-0    
-    zlib:       1.2.8-0     
+    monthdelta: 1.0b-py27_0  
+    openssl:    1.0.1k-1     
+    pip:        7.0.3-py27_0 
+    python:     2.7.10-0     
+    readline:   6.2-2        
+    setuptools: 18.0.1-py27_0
+    sqlite:     3.8.4.1-1    
+    system:     5.8-2        
+    tk:         8.5.18-0     
+    zlib:       1.2.8-0      
 
 Linking packages ...
 [                    ]|                                                  |   0%[openssl             ]|                                                  |   0%[readline            ]|#####                                             |  10%[sqlite              ]|##########                                        |  20%[system              ]|###############                                   |  30%[tk                  ]|####################                              |  40%[zlib                ]|#########################                         |  50%[monthdelta          ]|##############################                    |  60%[python              ]|###################################               |  70%[setuptools          ]|########################################          |  80%[pip                 ]|#############################################     |  90%[      COMPLETE      ]|##################################################| 100%
@@ -98,6 +106,14 @@ Fixing permissions
 BUILD END: kairos-0.10.1-py27_0
 TEST START: kairos-0.10.1-py27_0
 Fetching package metadata: ......
+
+WARNING: conda-build appears to be out of date. You have version 1.13.0 but the
+latest version is 1.14.1. Run
+
+conda update -n root conda-build
+
+to get the latest version.
+
 Solving package specifications: ./home/ubuntu/miniconda/envs/_test/lib/python2.7/site-packages/kairos-0.10.1-py2.7.egg/kairos/timeseries.py:1048: UserWarning: Redis backend not loaded, No module named redis
 /home/ubuntu/miniconda/envs/_test/lib/python2.7/site-packages/kairos-0.10.1-py2.7.egg/kairos/timeseries.py:1054: UserWarning: Mongo backend not loaded, No module named pymongo
 /home/ubuntu/miniconda/envs/_test/lib/python2.7/site-packages/kairos-0.10.1-py2.7.egg/kairos/timeseries.py:1060: UserWarning: SQL backend not loaded, No module named sqlalchemy.types
@@ -120,14 +136,14 @@ The following NEW packages will be INSTALLED:
     pip:        7.0.3-py27_0 
     python:     2.7.10-0     
     readline:   6.2-2        
-    setuptools: 17.0-py27_0  
+    setuptools: 18.0.1-py27_0
     sqlite:     3.8.4.1-1    
     system:     5.8-2        
     tk:         8.5.18-0     
     zlib:       1.2.8-0      
 
 Fetching packages ...
-kairos-0.10.1-   0% |                              | ETA:  --:--:--   0.00  B/skairos-0.10.1-  22% |#######                        | ETA:  0:00:00  46.03 MB/skairos-0.10.1-  45% |##############                 | ETA:  0:00:00  57.80 MB/skairos-0.10.1-  68% |#####################          | ETA:  0:00:00  62.55 MB/skairos-0.10.1-  91% |############################   | ETA:  0:00:00  67.09 MB/skairos-0.10.1- 100% |###############################| ETA:  0:00:00  63.01 MB/skairos-0.10.1- 100% |###############################| Time: 0:00:00   7.52 MB/s
+kairos-0.10.1-   0% |                              | ETA:  --:--:--   0.00  B/skairos-0.10.1-  22% |#######                        | ETA:  0:00:00  46.97 MB/skairos-0.10.1-  45% |##############                 | ETA:  0:00:00  58.73 MB/skairos-0.10.1-  68% |#####################          | ETA:  0:00:00  63.67 MB/skairos-0.10.1-  91% |############################   | ETA:  0:00:00  67.70 MB/skairos-0.10.1- 100% |###############################| ETA:  0:00:00  63.49 MB/skairos-0.10.1- 100% |###############################| Time: 0:00:00  52.52 MB/s
 Extracting packages ...
 [      COMPLETE      ]|                                                  |   0%[kairos              ]|                                                  |   0%[kairos              ]|                                                  |   0%[      COMPLETE      ]|##################################################| 100%
 Linking packages ...

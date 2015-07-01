@@ -4,7 +4,7 @@ BUILD START: psycopg2-2.6.1-py_0
 Fetching package metadata: ......
 
 WARNING: conda-build appears to be out of date. You have version 1.13.0 but the
-latest version is 1.14.0. Run
+latest version is 1.14.1. Run
 
 conda update -n root conda-build
 
@@ -32,7 +32,7 @@ Collecting psycopg2
     or with the pg_config option in 'setup.cfg'.
     
     ----------------------------------------
-Command "python setup.py egg_info" failed with error code 1 in /tmp/pip-build-wjoRDo/psycopg2
+Command "python setup.py egg_info" failed with error code 1 in /tmp/pip-build-4o3dx0/psycopg2
 
 The following NEW packages will be INSTALLED:
 

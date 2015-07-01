@@ -1,0 +1,182 @@
+Removing old build directory
+Removing old work directory
+BUILD START: twitter-1.17.0-py_0
+Fetching package metadata: ......
+
+WARNING: conda-build appears to be out of date. You have version 1.13.0 but the
+latest version is 1.14.1. Run
+
+conda update -n root conda-build
+
+to get the latest version.
+
+Solving package specifications: .+ /home/ubuntu/miniconda/envs/_build/bin/python setup.py install
+running install
+running bdist_egg
+running egg_info
+writing twitter.egg-info/PKG-INFO
+writing top-level names to twitter.egg-info/top_level.txt
+writing dependency_links to twitter.egg-info/dependency_links.txt
+writing entry points to twitter.egg-info/entry_points.txt
+reading manifest file 'twitter.egg-info/SOURCES.txt'
+writing manifest file 'twitter.egg-info/SOURCES.txt'
+installing library code to build/bdist.linux-x86_64/egg
+running install_lib
+running build_py
+creating build
+creating build/lib
+creating build/lib/twitter
+copying twitter/archiver.py -> build/lib/twitter
+copying twitter/ircbot.py -> build/lib/twitter
+copying twitter/cmdline.py -> build/lib/twitter
+copying twitter/api.py -> build/lib/twitter
+copying twitter/stream.py -> build/lib/twitter
+copying twitter/follow.py -> build/lib/twitter
+copying twitter/timezones.py -> build/lib/twitter
+copying twitter/ansi.py -> build/lib/twitter
+copying twitter/stream_example.py -> build/lib/twitter
+copying twitter/oauth.py -> build/lib/twitter
+copying twitter/oauth_dance.py -> build/lib/twitter
+copying twitter/util.py -> build/lib/twitter
+copying twitter/oauth2.py -> build/lib/twitter
+copying twitter/__init__.py -> build/lib/twitter
+copying twitter/corrupt.py -> build/lib/twitter
+copying twitter/twitter_globals.py -> build/lib/twitter
+copying twitter/logger.py -> build/lib/twitter
+copying twitter/auth.py -> build/lib/twitter
+creating build/bdist.linux-x86_64
+creating build/bdist.linux-x86_64/egg
+creating build/bdist.linux-x86_64/egg/twitter
+copying build/lib/twitter/archiver.py -> build/bdist.linux-x86_64/egg/twitter
+copying build/lib/twitter/ircbot.py -> build/bdist.linux-x86_64/egg/twitter
+copying build/lib/twitter/cmdline.py -> build/bdist.linux-x86_64/egg/twitter
+copying build/lib/twitter/api.py -> build/bdist.linux-x86_64/egg/twitter
+copying build/lib/twitter/stream.py -> build/bdist.linux-x86_64/egg/twitter
+copying build/lib/twitter/follow.py -> build/bdist.linux-x86_64/egg/twitter
+copying build/lib/twitter/timezones.py -> build/bdist.linux-x86_64/egg/twitter
+copying build/lib/twitter/ansi.py -> build/bdist.linux-x86_64/egg/twitter
+copying build/lib/twitter/stream_example.py -> build/bdist.linux-x86_64/egg/twitter
+copying build/lib/twitter/oauth.py -> build/bdist.linux-x86_64/egg/twitter
+copying build/lib/twitter/oauth_dance.py -> build/bdist.linux-x86_64/egg/twitter
+copying build/lib/twitter/util.py -> build/bdist.linux-x86_64/egg/twitter
+copying build/lib/twitter/oauth2.py -> build/bdist.linux-x86_64/egg/twitter
+copying build/lib/twitter/__init__.py -> build/bdist.linux-x86_64/egg/twitter
+copying build/lib/twitter/corrupt.py -> build/bdist.linux-x86_64/egg/twitter
+copying build/lib/twitter/twitter_globals.py -> build/bdist.linux-x86_64/egg/twitter
+copying build/lib/twitter/logger.py -> build/bdist.linux-x86_64/egg/twitter
+copying build/lib/twitter/auth.py -> build/bdist.linux-x86_64/egg/twitter
+byte-compiling build/bdist.linux-x86_64/egg/twitter/archiver.py to archiver.pyc
+byte-compiling build/bdist.linux-x86_64/egg/twitter/ircbot.py to ircbot.pyc
+byte-compiling build/bdist.linux-x86_64/egg/twitter/cmdline.py to cmdline.pyc
+byte-compiling build/bdist.linux-x86_64/egg/twitter/api.py to api.pyc
+byte-compiling build/bdist.linux-x86_64/egg/twitter/stream.py to stream.pyc
+byte-compiling build/bdist.linux-x86_64/egg/twitter/follow.py to follow.pyc
+byte-compiling build/bdist.linux-x86_64/egg/twitter/timezones.py to timezones.pyc
+byte-compiling build/bdist.linux-x86_64/egg/twitter/ansi.py to ansi.pyc
+byte-compiling build/bdist.linux-x86_64/egg/twitter/stream_example.py to stream_example.pyc
+byte-compiling build/bdist.linux-x86_64/egg/twitter/oauth.py to oauth.pyc
+byte-compiling build/bdist.linux-x86_64/egg/twitter/oauth_dance.py to oauth_dance.pyc
+byte-compiling build/bdist.linux-x86_64/egg/twitter/util.py to util.pyc
+byte-compiling build/bdist.linux-x86_64/egg/twitter/oauth2.py to oauth2.pyc
+byte-compiling build/bdist.linux-x86_64/egg/twitter/__init__.py to __init__.pyc
+byte-compiling build/bdist.linux-x86_64/egg/twitter/corrupt.py to corrupt.pyc
+byte-compiling build/bdist.linux-x86_64/egg/twitter/twitter_globals.py to twitter_globals.pyc
+byte-compiling build/bdist.linux-x86_64/egg/twitter/logger.py to logger.pyc
+byte-compiling build/bdist.linux-x86_64/egg/twitter/auth.py to auth.pyc
+creating build/bdist.linux-x86_64/egg/EGG-INFO
+copying twitter.egg-info/PKG-INFO -> build/bdist.linux-x86_64/egg/EGG-INFO
+copying twitter.egg-info/SOURCES.txt -> build/bdist.linux-x86_64/egg/EGG-INFO
+copying twitter.egg-info/dependency_links.txt -> build/bdist.linux-x86_64/egg/EGG-INFO
+copying twitter.egg-info/entry_points.txt -> build/bdist.linux-x86_64/egg/EGG-INFO
+copying twitter.egg-info/top_level.txt -> build/bdist.linux-x86_64/egg/EGG-INFO
+copying twitter.egg-info/zip-safe -> build/bdist.linux-x86_64/egg/EGG-INFO
+creating dist
+creating 'dist/twitter-1.17.0-py2.7.egg' and adding 'build/bdist.linux-x86_64/egg' to it
+removing 'build/bdist.linux-x86_64/egg' (and everything under it)
+Processing twitter-1.17.0-py2.7.egg
+Copying twitter-1.17.0-py2.7.egg to /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages
+Adding twitter 1.17.0 to easy-install.pth file
+Installing twitter-log script to /home/ubuntu/miniconda/envs/_build/bin
+Installing twitter script to /home/ubuntu/miniconda/envs/_build/bin
+Installing twitterbot script to /home/ubuntu/miniconda/envs/_build/bin
+Installing twitter-follow script to /home/ubuntu/miniconda/envs/_build/bin
+Installing twitter-stream-example script to /home/ubuntu/miniconda/envs/_build/bin
+Installing twitter-archiver script to /home/ubuntu/miniconda/envs/_build/bin
+
+Installed /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/twitter-1.17.0-py2.7.egg
+Processing dependencies for twitter==1.17.0
+Finished processing dependencies for twitter==1.17.0
+
+The following NEW packages will be INSTALLED:
+
+    openssl:    1.0.1k-1     
+    pip:        7.0.3-py27_0 
+    python:     2.7.10-0     
+    readline:   6.2-2        
+    setuptools: 18.0.1-py27_0
+    sqlite:     3.8.4.1-1    
+    system:     5.8-2        
+    tk:         8.5.18-0     
+    zlib:       1.2.8-0      
+
+Linking packages ...
+[                    ]|                                                  |   0%[openssl             ]|                                                  |   0%[readline            ]|#####                                             |  11%[sqlite              ]|###########                                       |  22%[system              ]|################                                  |  33%[tk                  ]|######################                            |  44%[zlib                ]|###########################                       |  55%[python              ]|#################################                 |  66%[setuptools          ]|######################################            |  77%[pip                 ]|############################################      |  88%[      COMPLETE      ]|##################################################| 100%
+Removing old work directory
+Source cache directory is: /home/ubuntu/miniconda/conda-bld/src_cache
+Found source in cache: twitter-1.17.0.tar.gz
+Extracting download
+Package: twitter-1.17.0-py_0
+source tree in: /home/ubuntu/miniconda/conda-bld/work/twitter-1.17.0
+found egg: /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/twitter-1.17.0-py2.7.egg
+number of files: 8
+Fixing permissions
+Fixing permissions
+BUILD END: twitter-1.17.0-py_0
+TEST START: twitter-1.17.0-py_0
+Fetching package metadata: ......
+
+WARNING: conda-build appears to be out of date. You have version 1.13.0 but the
+latest version is 1.14.1. Run
+
+conda update -n root conda-build
+
+to get the latest version.
+
+Solving package specifications: .===== testing package: twitter-1.17.0-py_0 =====
+import: u'twitter'
+===== twitter-1.17.0-py_0 OK =====
+
+The following packages will be downloaded:
+
+    package                    |            build
+    ---------------------------|-----------------
+    twitter-1.17.0             |             py_0         185 KB
+
+The following NEW packages will be INSTALLED:
+
+    nose:       1.3.7-py27_0 
+    openssl:    1.0.1k-1     
+    pip:        7.0.3-py27_0 
+    python:     2.7.10-0     
+    readline:   6.2-2        
+    setuptools: 18.0.1-py27_0
+    sqlite:     3.8.4.1-1    
+    system:     5.8-2        
+    tk:         8.5.18-0     
+    twitter:    1.17.0-py_0  
+    zlib:       1.2.8-0      
+
+Fetching packages ...
+twitter-1.17.0   0% |                              | ETA:  --:--:--   0.00  B/stwitter-1.17.0   8% |##                             | ETA:  0:00:00  46.56 MB/stwitter-1.17.0  17% |#####                          | ETA:  0:00:00  58.31 MB/stwitter-1.17.0  25% |########                       | ETA:  0:00:00  65.18 MB/stwitter-1.17.0  34% |##########                     | ETA:  0:00:00   7.21 MB/stwitter-1.17.0  43% |#############                  | ETA:  0:00:00   8.83 MB/stwitter-1.17.0  51% |################               | ETA:  0:00:00  10.39 MB/stwitter-1.17.0  60% |##################             | ETA:  0:00:00  11.88 MB/stwitter-1.17.0  69% |#####################          | ETA:  0:00:00  13.32 MB/stwitter-1.17.0  77% |########################       | ETA:  0:00:00  14.72 MB/stwitter-1.17.0  86% |##########################     | ETA:  0:00:00  16.06 MB/stwitter-1.17.0  95% |#############################  | ETA:  0:00:00  17.36 MB/stwitter-1.17.0 100% |###############################| ETA:  0:00:00  17.94 MB/stwitter-1.17.0 100% |###############################| Time: 0:00:00  17.54 MB/s
+Extracting packages ...
+[      COMPLETE      ]|                                                  |   0%[twitter             ]|                                                  |   0%[twitter             ]|                                                  |   0%[      COMPLETE      ]|##################################################| 100%
+Linking packages ...
+[      COMPLETE      ]|                                                  |   0%[openssl             ]|                                                  |   0%[openssl             ]|                                                  |   0%[readline            ]|####                                              |   9%[sqlite              ]|#########                                         |  18%[system              ]|#############                                     |  27%[tk                  ]|##################                                |  36%[zlib                ]|######################                            |  45%[nose                ]|###########################                       |  54%[python              ]|###############################                   |  63%[setuptools          ]|####################################              |  72%[twitter             ]|########################################          |  81%[pip                 ]|#############################################     |  90%[      COMPLETE      ]|##################################################| 100%
+TEST END: twitter-1.17.0-py_0
+# If you want to upload this package to binstar.org later, type:
+#
+# $ binstar upload /home/ubuntu/miniconda/conda-bld/noarch/twitter-1.17.0-py_0.tar.bz2
+#
+# To have conda build upload to binstar automatically, use
+# $ conda config --set binstar_upload yes
+

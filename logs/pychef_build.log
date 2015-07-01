@@ -1,0 +1,174 @@
+Removing old build directory
+Removing old work directory
+BUILD START: pychef-0.2.3-py_0
+Fetching package metadata: ......
+
+WARNING: conda-build appears to be out of date. You have version 1.13.0 but the
+latest version is 1.14.1. Run
+
+conda update -n root conda-build
+
+to get the latest version.
+
+Solving package specifications: .+ /home/ubuntu/miniconda/envs/_build/bin/python setup.py install
+running install
+running bdist_egg
+running egg_info
+writing PyChef.egg-info/PKG-INFO
+writing top-level names to PyChef.egg-info/top_level.txt
+writing dependency_links to PyChef.egg-info/dependency_links.txt
+reading manifest file 'PyChef.egg-info/SOURCES.txt'
+reading manifest template 'MANIFEST.in'
+writing manifest file 'PyChef.egg-info/SOURCES.txt'
+installing library code to build/bdist.linux-x86_64/egg
+running install_lib
+running build_py
+creating build
+creating build/lib
+creating build/lib/chef
+copying chef/data_bag.py -> build/lib/chef
+copying chef/api.py -> build/lib/chef
+copying chef/search.py -> build/lib/chef
+copying chef/environment.py -> build/lib/chef
+copying chef/client.py -> build/lib/chef
+copying chef/role.py -> build/lib/chef
+copying chef/__init__.py -> build/lib/chef
+copying chef/rsa.py -> build/lib/chef
+copying chef/fabric.py -> build/lib/chef
+copying chef/node.py -> build/lib/chef
+copying chef/auth.py -> build/lib/chef
+copying chef/base.py -> build/lib/chef
+copying chef/exceptions.py -> build/lib/chef
+creating build/lib/chef/utils
+copying chef/utils/json.py -> build/lib/chef/utils
+copying chef/utils/file.py -> build/lib/chef/utils
+copying chef/utils/__init__.py -> build/lib/chef/utils
+creating build/lib/chef/tests
+copying chef/tests/test_data_bag.py -> build/lib/chef/tests
+copying chef/tests/test_rsa.py -> build/lib/chef/tests
+copying chef/tests/test_environment.py -> build/lib/chef/tests
+copying chef/tests/test_fabric.py -> build/lib/chef/tests
+copying chef/tests/test_node.py -> build/lib/chef/tests
+copying chef/tests/test_search.py -> build/lib/chef/tests
+copying chef/tests/test_client.py -> build/lib/chef/tests
+copying chef/tests/test_api.py -> build/lib/chef/tests
+copying chef/tests/__init__.py -> build/lib/chef/tests
+copying chef/tests/test_role.py -> build/lib/chef/tests
+creating build/bdist.linux-x86_64
+creating build/bdist.linux-x86_64/egg
+creating build/bdist.linux-x86_64/egg/chef
+copying build/lib/chef/data_bag.py -> build/bdist.linux-x86_64/egg/chef
+copying build/lib/chef/api.py -> build/bdist.linux-x86_64/egg/chef
+creating build/bdist.linux-x86_64/egg/chef/utils
+copying build/lib/chef/utils/json.py -> build/bdist.linux-x86_64/egg/chef/utils
+copying build/lib/chef/utils/file.py -> build/bdist.linux-x86_64/egg/chef/utils
+copying build/lib/chef/utils/__init__.py -> build/bdist.linux-x86_64/egg/chef/utils
+copying build/lib/chef/search.py -> build/bdist.linux-x86_64/egg/chef
+copying build/lib/chef/environment.py -> build/bdist.linux-x86_64/egg/chef
+creating build/bdist.linux-x86_64/egg/chef/tests
+copying build/lib/chef/tests/test_data_bag.py -> build/bdist.linux-x86_64/egg/chef/tests
+copying build/lib/chef/tests/test_rsa.py -> build/bdist.linux-x86_64/egg/chef/tests
+copying build/lib/chef/tests/test_environment.py -> build/bdist.linux-x86_64/egg/chef/tests
+copying build/lib/chef/tests/test_fabric.py -> build/bdist.linux-x86_64/egg/chef/tests
+copying build/lib/chef/tests/test_node.py -> build/bdist.linux-x86_64/egg/chef/tests
+copying build/lib/chef/tests/test_search.py -> build/bdist.linux-x86_64/egg/chef/tests
+copying build/lib/chef/tests/test_client.py -> build/bdist.linux-x86_64/egg/chef/tests
+copying build/lib/chef/tests/test_api.py -> build/bdist.linux-x86_64/egg/chef/tests
+copying build/lib/chef/tests/__init__.py -> build/bdist.linux-x86_64/egg/chef/tests
+copying build/lib/chef/tests/test_role.py -> build/bdist.linux-x86_64/egg/chef/tests
+copying build/lib/chef/client.py -> build/bdist.linux-x86_64/egg/chef
+copying build/lib/chef/role.py -> build/bdist.linux-x86_64/egg/chef
+copying build/lib/chef/__init__.py -> build/bdist.linux-x86_64/egg/chef
+copying build/lib/chef/rsa.py -> build/bdist.linux-x86_64/egg/chef
+copying build/lib/chef/fabric.py -> build/bdist.linux-x86_64/egg/chef
+copying build/lib/chef/node.py -> build/bdist.linux-x86_64/egg/chef
+copying build/lib/chef/auth.py -> build/bdist.linux-x86_64/egg/chef
+copying build/lib/chef/base.py -> build/bdist.linux-x86_64/egg/chef
+copying build/lib/chef/exceptions.py -> build/bdist.linux-x86_64/egg/chef
+byte-compiling build/bdist.linux-x86_64/egg/chef/data_bag.py to data_bag.pyc
+byte-compiling build/bdist.linux-x86_64/egg/chef/api.py to api.pyc
+byte-compiling build/bdist.linux-x86_64/egg/chef/utils/json.py to json.pyc
+byte-compiling build/bdist.linux-x86_64/egg/chef/utils/file.py to file.pyc
+byte-compiling build/bdist.linux-x86_64/egg/chef/utils/__init__.py to __init__.pyc
+byte-compiling build/bdist.linux-x86_64/egg/chef/search.py to search.pyc
+byte-compiling build/bdist.linux-x86_64/egg/chef/environment.py to environment.pyc
+byte-compiling build/bdist.linux-x86_64/egg/chef/tests/test_data_bag.py to test_data_bag.pyc
+byte-compiling build/bdist.linux-x86_64/egg/chef/tests/test_rsa.py to test_rsa.pyc
+byte-compiling build/bdist.linux-x86_64/egg/chef/tests/test_environment.py to test_environment.pyc
+byte-compiling build/bdist.linux-x86_64/egg/chef/tests/test_fabric.py to test_fabric.pyc
+byte-compiling build/bdist.linux-x86_64/egg/chef/tests/test_node.py to test_node.pyc
+byte-compiling build/bdist.linux-x86_64/egg/chef/tests/test_search.py to test_search.pyc
+byte-compiling build/bdist.linux-x86_64/egg/chef/tests/test_client.py to test_client.pyc
+byte-compiling build/bdist.linux-x86_64/egg/chef/tests/test_api.py to test_api.pyc
+byte-compiling build/bdist.linux-x86_64/egg/chef/tests/__init__.py to __init__.pyc
+byte-compiling build/bdist.linux-x86_64/egg/chef/tests/test_role.py to test_role.pyc
+byte-compiling build/bdist.linux-x86_64/egg/chef/client.py to client.pyc
+byte-compiling build/bdist.linux-x86_64/egg/chef/role.py to role.pyc
+byte-compiling build/bdist.linux-x86_64/egg/chef/__init__.py to __init__.pyc
+byte-compiling build/bdist.linux-x86_64/egg/chef/rsa.py to rsa.pyc
+byte-compiling build/bdist.linux-x86_64/egg/chef/fabric.py to fabric.pyc
+byte-compiling build/bdist.linux-x86_64/egg/chef/node.py to node.pyc
+byte-compiling build/bdist.linux-x86_64/egg/chef/auth.py to auth.pyc
+byte-compiling build/bdist.linux-x86_64/egg/chef/base.py to base.pyc
+byte-compiling build/bdist.linux-x86_64/egg/chef/exceptions.py to exceptions.pyc
+creating build/bdist.linux-x86_64/egg/EGG-INFO
+copying PyChef.egg-info/PKG-INFO -> build/bdist.linux-x86_64/egg/EGG-INFO
+copying PyChef.egg-info/SOURCES.txt -> build/bdist.linux-x86_64/egg/EGG-INFO
+copying PyChef.egg-info/dependency_links.txt -> build/bdist.linux-x86_64/egg/EGG-INFO
+copying PyChef.egg-info/not-zip-safe -> build/bdist.linux-x86_64/egg/EGG-INFO
+copying PyChef.egg-info/top_level.txt -> build/bdist.linux-x86_64/egg/EGG-INFO
+creating dist
+creating 'dist/PyChef-0.2.3-py2.7.egg' and adding 'build/bdist.linux-x86_64/egg' to it
+removing 'build/bdist.linux-x86_64/egg' (and everything under it)
+Processing PyChef-0.2.3-py2.7.egg
+creating /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/PyChef-0.2.3-py2.7.egg
+Extracting PyChef-0.2.3-py2.7.egg to /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages
+Adding PyChef 0.2.3 to easy-install.pth file
+
+Installed /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/PyChef-0.2.3-py2.7.egg
+Processing dependencies for PyChef==0.2.3
+Finished processing dependencies for PyChef==0.2.3
+
+The following NEW packages will be INSTALLED:
+
+    openssl:    1.0.1k-1     
+    pip:        7.0.3-py27_0 
+    python:     2.7.10-0     
+    readline:   6.2-2        
+    setuptools: 18.0.1-py27_0
+    sqlite:     3.8.4.1-1    
+    system:     5.8-2        
+    tk:         8.5.18-0     
+    zlib:       1.2.8-0      
+
+Linking packages ...
+[                    ]|                                                  |   0%[openssl             ]|                                                  |   0%[readline            ]|#####                                             |  11%[sqlite              ]|###########                                       |  22%[system              ]|################                                  |  33%[tk                  ]|######################                            |  44%[zlib                ]|###########################                       |  55%[python              ]|#################################                 |  66%[setuptools          ]|######################################            |  77%[pip                 ]|############################################      |  88%[      COMPLETE      ]|##################################################| 100%
+Removing old work directory
+Source cache directory is: /home/ubuntu/miniconda/conda-bld/src_cache
+Found source in cache: PyChef-0.2.3.tar.gz
+Extracting download
+Package: pychef-0.2.3-py_0
+source tree in: /home/ubuntu/miniconda/conda-bld/work/PyChef-0.2.3
+found egg dir: /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/PyChef-0.2.3-py2.7.egg
+number of files: 53
+Fixing permissions
+Fixing permissions
+BUILD END: pychef-0.2.3-py_0
+TEST START: pychef-0.2.3-py_0
+Fetching package metadata: ......
+
+WARNING: conda-build appears to be out of date. You have version 1.13.0 but the
+latest version is 1.14.1. Run
+
+conda update -n root conda-build
+
+to get the latest version.
+
+Solving package specifications: ..
+Error: Unsatisfiable package specifications.
+Generating hint: 
+[      COMPLETE      ]|                                                  |   0%[2/4                 ]|#########################                         |  50%[      COMPLETE      ]|##################################################| 100%
+
+Hint: the following packages conflict with each other:
+  - unittest2
+  - python 2.7*

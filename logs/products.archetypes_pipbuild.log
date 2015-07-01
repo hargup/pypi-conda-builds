@@ -1,0 +1,36 @@
+Error: prefix already exists: /home/ubuntu/miniconda/envs/_pipbuild_
+Exception:
+Traceback (most recent call last):
+  File "/home/ubuntu/miniconda/envs/_pipbuild_/lib/python2.7/site-packages/pip/basecommand.py", line 223, in main
+    status = self.run(options, args)
+  File "/home/ubuntu/miniconda/envs/_pipbuild_/lib/python2.7/site-packages/pip/commands/install.py", line 268, in run
+    wheel_cache
+  File "/home/ubuntu/miniconda/envs/_pipbuild_/lib/python2.7/site-packages/pip/basecommand.py", line 268, in populate_requirement_set
+    wheel_cache=wheel_cache
+  File "/home/ubuntu/miniconda/envs/_pipbuild_/lib/python2.7/site-packages/pip/req/req_install.py", line 207, in from_line
+    wheel_cache=wheel_cache)
+  File "/home/ubuntu/miniconda/envs/_pipbuild_/lib/python2.7/site-packages/pip/req/req_install.py", line 66, in __init__
+    req = pkg_resources.Requirement.parse(req)
+  File "/home/ubuntu/miniconda/envs/_pipbuild_/lib/python2.7/site-packages/pip/_vendor/pkg_resources/__init__.py", line 2960, in parse
+    reqs = list(parse_requirements(s))
+  File "/home/ubuntu/miniconda/envs/_pipbuild_/lib/python2.7/site-packages/pip/_vendor/pkg_resources/__init__.py", line 2904, in parse_requirements
+    "version spec")
+  File "/home/ubuntu/miniconda/envs/_pipbuild_/lib/python2.7/site-packages/pip/_vendor/pkg_resources/__init__.py", line 2869, in scan_list
+    raise ValueError(msg, line, "at", line[p:])
+ValueError: ('Expected version spec in', 'zope.interface==>=4.1.0', 'at', '==>=4.1.0')
+
+Package search: {'_pypi_ordering': False, 'version': '1.10.7', 'name': 'Products.Archetypes', 'summary': 'Archetypes is a developers framework for rapidly developing and deploying rich, full featured content types within the context of Zope/CMF and Plone.'}
+Creating standard recipe for products.archetypes-1.10.7
+Converting recipe in /home/ubuntu/pypi-conda-builds/products.archetypes
+package = Products.Archetypes
+   dependencies = [u'zope.component', u'zope.contenttype', u'zope.datetime', u'zope.deferredimport', u'zope.event', u'zope.i18n', u'zope.i18nmessageid', u'zope.interface', u'zope.lifecycleevent', u'zope.publisher', u'zope.schema', u'zope.site', u'zope.tal', u'zope.viewlet', u'products.cmfcore', u'products.cmfformcontroller', u'products.cmfquickinstallertool', u'products.dcworkflow', u'products.genericsetup', u'products.mimetypesregistry >=2.0.3', u'products.placelesstranslationservice', u'products.portaltransforms', u'products.zsqlmethods', u'products.statusmessages', u'products.validation', u'plone.folder', u'plone.uuid', u'plone.app.folder', u'acquisition', u'datetime', u'extensionclass', u'transaction', u'zodb3', u'zope2 >=2.13.1', u'plone.app.widgets >=2.0.0.dev0']
+Creating standard recipe for zope.component
+Converting recipe in /home/ubuntu/pypi-conda-builds/zope.component
+package = zope.component
+   dependencies = [u'zope.interface >=4.1.0', u'zope.event']
+Creating standard recipe for zope.interface->=4.1.0
+Error: Version >=4.1.0 of zope.interface is not available on PyPI.
+
+conda create -n _pipbuild_ --yes python pip
+/home/ubuntu/miniconda/envs/_pipbuild_/bin/pip install zope.interface==>=4.1.0
+Error: Could not pip install zope.interface==>=4.1.0

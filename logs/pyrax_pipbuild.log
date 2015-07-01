@@ -1,39 +1,32 @@
 Error: prefix already exists: /home/ubuntu/miniconda/envs/_pipbuild_
-Collecting pyrax==1.9.4
-  Downloading http://localhost/packages/2.7/p/pyrax/pyrax-1.9.4-py2.py3-none-any.whl (346kB)
-Collecting requests>=2.2.1 (from pyrax==1.9.4)
-  Downloading http://localhost/packages/2.7/r/requests/requests-2.7.0-py2.py3-none-any.whl (470kB)
-Collecting rackspace-novaclient (from pyrax==1.9.4)
-  Downloading http://localhost/packages/source/r/rackspace-novaclient/rackspace-novaclient-1.4.tar.gz
-setuptools must be installed to install from a source distribution
+Exception:
+Traceback (most recent call last):
+  File "/home/ubuntu/miniconda/envs/_pipbuild_/lib/python2.7/site-packages/pip/basecommand.py", line 223, in main
+    status = self.run(options, args)
+  File "/home/ubuntu/miniconda/envs/_pipbuild_/lib/python2.7/site-packages/pip/commands/install.py", line 268, in run
+    wheel_cache
+  File "/home/ubuntu/miniconda/envs/_pipbuild_/lib/python2.7/site-packages/pip/basecommand.py", line 268, in populate_requirement_set
+    wheel_cache=wheel_cache
+  File "/home/ubuntu/miniconda/envs/_pipbuild_/lib/python2.7/site-packages/pip/req/req_install.py", line 207, in from_line
+    wheel_cache=wheel_cache)
+  File "/home/ubuntu/miniconda/envs/_pipbuild_/lib/python2.7/site-packages/pip/req/req_install.py", line 66, in __init__
+    req = pkg_resources.Requirement.parse(req)
+  File "/home/ubuntu/miniconda/envs/_pipbuild_/lib/python2.7/site-packages/pip/_vendor/pkg_resources/__init__.py", line 2960, in parse
+    reqs = list(parse_requirements(s))
+  File "/home/ubuntu/miniconda/envs/_pipbuild_/lib/python2.7/site-packages/pip/_vendor/pkg_resources/__init__.py", line 2904, in parse_requirements
+    "version spec")
+  File "/home/ubuntu/miniconda/envs/_pipbuild_/lib/python2.7/site-packages/pip/_vendor/pkg_resources/__init__.py", line 2869, in scan_list
+    raise ValueError(msg, line, "at", line[p:])
+ValueError: ('Expected version spec in', 'python-novaclient==>=2.13.0', 'at', '==>=2.13.0')
+
 Package search: {'_pypi_ordering': False, 'version': '1.9.4', 'name': 'pyrax', 'summary': 'Python language bindings for OpenStack Clouds.'}
 Creating standard recipe for pyrax-1.9.4
-Using url https://pypi.python.org/packages/source/p/pyrax/pyrax-1.9.4.tar.gz (305 KB) for pyrax.
-Downloading pyrax
-Using cached download
-Unpacking pyrax...
-done
-working in /tmp/tmpCph9MFconda_skeleton_pyrax-1.9.4.tar.gz
-Fetching package metadata: ......
-
-WARNING: conda-build appears to be out of date. You have version 1.13.0 but the
-latest version is 1.14.0. Run
-
-conda update -n root conda-build
-
-to get the latest version.
-
-Solving package specifications: .patching file core.py
-Hunk #1 succeeded at 168 with fuzz 2 (offset 2 lines).
-Traceback (most recent call last):
-  File "setup.py", line 3, in <module>
-    from setuptools import setup
-ImportError: No module named setuptools
-
-Applying patch: '/tmp/tmpCph9MFconda_skeleton_pyrax-1.9.4.tar.gz/pypi-distutils.patch'
-$PYTHONPATH = /tmp/tmpCph9MFconda_skeleton_pyrax-1.9.4.tar.gz/pyrax-1.9.4
-Error: command failed: /home/ubuntu/miniconda/envs/_build/bin/python setup.py install
+Converting recipe in /home/ubuntu/pypi-conda-builds/pyrax
+package = pyrax
+   dependencies = [u'python-novaclient >=2.13.0', u'rackspace-novaclient', u'keyring', u'requests >=2.2.1', u'six >=1.9.0', u'mock']
+Creating standard recipe for python-novaclient->=2.13.0
+Error: directory already exists: ./python-novaclient
 
 conda create -n _pipbuild_ --yes python pip
-/home/ubuntu/miniconda/envs/_pipbuild_/bin/pip install pyrax==1.9.4
-Error: Could not pip install pyrax==1.9.4
+/home/ubuntu/miniconda/envs/_pipbuild_/bin/pip install python-novaclient==>=2.13.0
+Error: Could not pip install python-novaclient==>=2.13.0

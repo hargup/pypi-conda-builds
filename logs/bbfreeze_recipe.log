@@ -1,0 +1,89 @@
+Warning, the following versions were found for bbfreeze
+1.1.3
+1.1.2
+1.1.1
+1.1.0
+1.0.2
+1.0.1
+1.0.0
+0.97.3
+0.97.2
+0.97.1
+0.97.0
+0.96.5
+0.96.4
+0.96.3
+0.96.2
+0.96.1
+0.96.0
+0.95.4
+0.95.3
+0.95.2
+0.95.1
+0.95.0
+0.94.1
+0.94.0
+0.93.2
+0.93.1
+0.93.0
+0.92.0
+0.91.0
+Using 1.1.3
+Use --version to specify a different version.
+Using url https://pypi.python.org/packages/source/b/bbfreeze/bbfreeze-1.1.3.zip (63 KB) for bbfreeze.
+Downloading bbfreeze
+Using cached download
+Unpacking bbfreeze...
+done
+working in /tmp/tmpEv5efyconda_skeleton_bbfreeze-1.1.3.zip
+Fetching package metadata: ......
+
+WARNING: conda-build appears to be out of date. You have version 1.13.0 but the
+latest version is 1.14.1. Run
+
+conda update -n root conda-build
+
+to get the latest version.
+
+Solving package specifications: .patching file core.py
+Hunk #1 succeeded at 168 with fuzz 2 (offset 2 lines).
+
+WARNING: conda-build appears to be out of date. You have version 1.13.0 but the
+latest version is 1.14.1. Run
+
+conda update -n root conda-build
+
+to get the latest version.
+
+
+Applying patch: '/tmp/tmpEv5efyconda_skeleton_bbfreeze-1.1.3.zip/pypi-distutils.patch'
+Using url https://pypi.python.org/packages/source/b/bbfreeze-loader/bbfreeze-loader-1.1.0.zip (13 KB) for bbfreeze-loader.
+Downloading bbfreeze-loader
+Using cached download
+Unpacking bbfreeze-loader...
+done
+working in /tmp/tmpP4F0yCconda_skeleton_bbfreeze-loader-1.1.0.zip
+Solving package specifications: .patching file core.py
+Hunk #1 succeeded at 168 with fuzz 2 (offset 2 lines).
+
+------ bbfreeze-loader 1.1.0 configuration ------
+PYTHONVERSION = python2.7
+bits = 64
+darwin = False
+linker = gcc -pthread -L/home/ubuntu/miniconda/envs/_build/lib -Wl,-rpath=/home/ubuntu/miniconda/envs/_build/lib,--no-as-needed -Xlinker -export-dynamic
+platform = Linux-3.13.0-48-generic-x86_64-with-debian-jessie-sid
+static_library = /home/ubuntu/miniconda/envs/_build/lib/python2.7/config/libpython2.7.a
+symbolic_functions_bug = False
+sys.executable = /home/ubuntu/miniconda/envs/_build/bin/python
+sys.maxunicode = 0x10ffff
+sys.version = 2.7.10 |Continuum Analytics, Inc.| (default, May 28 2015, 17:02:03) 
+[GCC 4.4.7 20120313 (Red Hat 4.4.7-1)]
+unix = True
+win32 = False
+-------------------------------------------------
+
+
+Applying patch: '/tmp/tmpP4F0yCconda_skeleton_bbfreeze-loader-1.1.0.zip/pypi-distutils.patch'
+Writing recipe for bbfreeze-loader
+Writing recipe for bbfreeze
+Done

@@ -1,19 +1,21 @@
 Removing old build directory
 Removing old work directory
-BUILD START: rdflib-4.2.0-py_0
+BUILD START: isodate-0.5.1-py27_0
 Fetching package metadata: ......
 
 WARNING: conda-build appears to be out of date. You have version 1.13.0 but the
-latest version is 1.14.0. Run
+latest version is 1.14.1. Run
 
 conda update -n root conda-build
 
 to get the latest version.
 
-Solving package specifications: .+ pip install rdflib
-Collecting rdflib
-  Downloading http://localhost/packages/source/r/rdflib/rdflib-4.2.0.tar.gz (881kB)
-setuptools must be installed to install from a source distribution
+Solving package specifications: .+ pip install isodate
+Collecting isodate
+  Downloading http://localhost/packages/source/i/isodate/isodate-0.5.1.tar.gz
+Installing collected packages: isodate
+  Running setup.py install for isodate
+Successfully installed isodate-0.5.1
 
 The following NEW packages will be INSTALLED:
 
@@ -21,7 +23,7 @@ The following NEW packages will be INSTALLED:
     pip:        7.0.3-py27_0 
     python:     2.7.10-0     
     readline:   6.2-2        
-    setuptools: 17.1.1-py27_0
+    setuptools: 18.0.1-py27_0
     sqlite:     3.8.4.1-1    
     system:     5.8-2        
     tk:         8.5.18-0     
@@ -30,13 +32,110 @@ The following NEW packages will be INSTALLED:
 Linking packages ...
 [                    ]|                                                  |   0%[openssl             ]|                                                  |   0%[readline            ]|#####                                             |  11%[sqlite              ]|###########                                       |  22%[system              ]|################                                  |  33%[tk                  ]|######################                            |  44%[zlib                ]|###########################                       |  55%[python              ]|#################################                 |  66%[setuptools          ]|######################################            |  77%[pip                 ]|############################################      |  88%[      COMPLETE      ]|##################################################| 100%
 Removing old work directory
-Copying /home/ubuntu/pypi-conda-builds/rdflib to /home/ubuntu/miniconda/conda-bld/work
-Package: rdflib-4.2.0-py_0
+Copying /home/ubuntu/pypi-conda-builds/isodate to /home/ubuntu/miniconda/conda-bld/work
+Package: isodate-0.5.1-py27_0
 source tree in: /home/ubuntu/miniconda/conda-bld/work
-Command failed: /bin/bash -x -e /home/ubuntu/pypi-conda-builds/rdflib/build.sh
+number of files: 39
+Fixing permissions
+Fixing permissions
+BUILD END: isodate-0.5.1-py27_0
+# If you want to upload this package to binstar.org later, type:
+#
+# $ binstar upload /home/ubuntu/miniconda/conda-bld/linux-64/isodate-0.5.1-py27_0.tar.bz2
+#
+# To have conda build upload to binstar automatically, use
+# $ conda config --set binstar_upload yes
+
+Removing old build directory
+Removing old work directory
+BUILD START: pyparsing-2.0.3-py27_0
+Fetching package metadata: ......
+
+WARNING: conda-build appears to be out of date. You have version 1.13.0 but the
+latest version is 1.14.1. Run
+
+conda update -n root conda-build
+
+to get the latest version.
+
+Solving package specifications: .+ pip install pyparsing
+Collecting pyparsing
+  Downloading http://localhost/packages/2.6/p/pyparsing/pyparsing-2.0.3-py2.py3-none-any.whl
+Installing collected packages: pyparsing
+Successfully installed pyparsing-2.0.3
+
+The following NEW packages will be INSTALLED:
+
+    openssl:    1.0.1k-1     
+    pip:        7.0.3-py27_0 
+    python:     2.7.10-0     
+    readline:   6.2-2        
+    setuptools: 18.0.1-py27_0
+    sqlite:     3.8.4.1-1    
+    system:     5.8-2        
+    tk:         8.5.18-0     
+    zlib:       1.2.8-0      
+
+Linking packages ...
+[                    ]|                                                  |   0%[openssl             ]|                                                  |   0%[readline            ]|#####                                             |  11%[sqlite              ]|###########                                       |  22%[system              ]|################                                  |  33%[tk                  ]|######################                            |  44%[zlib                ]|###########################                       |  55%[python              ]|#################################                 |  66%[setuptools          ]|######################################            |  77%[pip                 ]|############################################      |  88%[      COMPLETE      ]|##################################################| 100%
+Removing old work directory
+Copying /home/ubuntu/pypi-conda-builds/pyparsing to /home/ubuntu/miniconda/conda-bld/work
+Package: pyparsing-2.0.3-py27_0
+source tree in: /home/ubuntu/miniconda/conda-bld/work
+number of files: 8
+Fixing permissions
+Fixing permissions
+BUILD END: pyparsing-2.0.3-py27_0
+# If you want to upload this package to binstar.org later, type:
+#
+# $ binstar upload /home/ubuntu/miniconda/conda-bld/linux-64/pyparsing-2.0.3-py27_0.tar.bz2
+#
+# To have conda build upload to binstar automatically, use
+# $ conda config --set binstar_upload yes
+
+Error: prefix already exists: /home/ubuntu/miniconda/envs/_pipbuild_
+Exception:
+Traceback (most recent call last):
+  File "/home/ubuntu/miniconda/envs/_pipbuild_/lib/python2.7/site-packages/pip/basecommand.py", line 223, in main
+    status = self.run(options, args)
+  File "/home/ubuntu/miniconda/envs/_pipbuild_/lib/python2.7/site-packages/pip/commands/install.py", line 268, in run
+    wheel_cache
+  File "/home/ubuntu/miniconda/envs/_pipbuild_/lib/python2.7/site-packages/pip/basecommand.py", line 268, in populate_requirement_set
+    wheel_cache=wheel_cache
+  File "/home/ubuntu/miniconda/envs/_pipbuild_/lib/python2.7/site-packages/pip/req/req_install.py", line 207, in from_line
+    wheel_cache=wheel_cache)
+  File "/home/ubuntu/miniconda/envs/_pipbuild_/lib/python2.7/site-packages/pip/req/req_install.py", line 66, in __init__
+    req = pkg_resources.Requirement.parse(req)
+  File "/home/ubuntu/miniconda/envs/_pipbuild_/lib/python2.7/site-packages/pip/_vendor/pkg_resources/__init__.py", line 2960, in parse
+    reqs = list(parse_requirements(s))
+  File "/home/ubuntu/miniconda/envs/_pipbuild_/lib/python2.7/site-packages/pip/_vendor/pkg_resources/__init__.py", line 2904, in parse_requirements
+    "version spec")
+  File "/home/ubuntu/miniconda/envs/_pipbuild_/lib/python2.7/site-packages/pip/_vendor/pkg_resources/__init__.py", line 2869, in scan_list
+    raise ValueError(msg, line, "at", line[p:])
+ValueError: ('Expected version spec in', 'rdflib==>=2.4.2', 'at', '==>=2.4.2')
+
 Package search: {'_pypi_ordering': False, 'version': '4.2.0', 'name': 'rdflib', 'summary': 'RDFLib is a Python library for working with RDF, a simple yet powerful language for representing information.'}
 Creating standard recipe for rdflib-4.2.0
 Converting recipe in /home/ubuntu/pypi-conda-builds/rdflib
 package = rdflib
+   dependencies = [u'isodate', u'pyparsing', u'sparqlwrapper', u'html5lib']
+Creating standard recipe for isodate
+Converting recipe in /home/ubuntu/pypi-conda-builds/isodate
+package = isodate
    dependencies = []
-Building conda package for rdflib
+Building conda package for isodate
+Creating standard recipe for pyparsing
+Converting recipe in /home/ubuntu/pypi-conda-builds/pyparsing
+package = pyparsing
+   dependencies = []
+Building conda package for pyparsing
+Creating standard recipe for sparqlwrapper
+Converting recipe in /home/ubuntu/pypi-conda-builds/sparqlwrapper
+package = sparqlwrapper
+   dependencies = [u'rdflib >=2.4.2']
+Creating standard recipe for rdflib->=2.4.2
+Error: directory already exists: ./rdflib
+
+conda create -n _pipbuild_ --yes python pip
+/home/ubuntu/miniconda/envs/_pipbuild_/bin/pip install rdflib==>=2.4.2
+Error: Could not pip install rdflib==>=2.4.2

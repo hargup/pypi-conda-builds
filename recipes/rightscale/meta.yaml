@@ -1,0 +1,61 @@
+package:
+  name: rightscale
+  version: "0.302"
+
+source:
+  fn: rightscale-0.302.tar.gz
+  url: https://pypi.python.org/packages/source/r/rightscale/rightscale-0.302.tar.gz
+  md5: dbcb134a7c68ffa818b378636da79c5c
+#  patches:
+   # List any patch files here
+   # - fix.patch
+
+build:
+  noarch_python: True
+  # preserve_egg_dir: True
+  # entry_points:
+    # Put any entry points (scripts to be generated automatically) here. The
+    # syntax is module:function.  For example
+    #
+    # - rightscale = rightscale:main
+    #
+    # Would create an entry point called rightscale that calls rightscale.main()
+
+
+  # If this is a new build for the same version, increment the build
+  # number. If you do not include this key, it defaults to 0.
+  # number: 1
+
+requirements:
+  build:
+    - python
+
+  run:
+    - python
+
+test:
+  # Python imports
+  imports:
+    - rightscale
+    - rightscale.util
+
+  # commands:
+    # You can put test commands to be run here.  Use this to test that the
+    # entry points work.
+
+
+  # You can also put a file called run_test.py in the recipe that will be run
+  # at test time.
+
+  # requires:
+    # Put any additional test requirements here.  For example
+    # - nose
+
+about:
+  home: none-yet
+  license: UNKNOWN
+  summary: u"Object-oriented library for RightScale's API."
+
+# See
+# http://docs.continuum.io/conda/build.html for
+# more information about meta.yaml

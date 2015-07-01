@@ -2,6 +2,14 @@ Removing old build directory
 Removing old work directory
 BUILD START: reportlab-3.2.0-py27_0
 Fetching package metadata: ......
+
+WARNING: conda-build appears to be out of date. You have version 1.13.0 but the
+latest version is 1.14.1. Run
+
+conda update -n root conda-build
+
+to get the latest version.
+
 Solving package specifications: .+ /home/ubuntu/miniconda/envs/_build/bin/python setup.py install
 ################################################
 #Attempting install of _rl_accel & pyHnj
@@ -708,14 +716,13 @@ Adding reportlab 3.2.0 to easy-install.pth file
 
 Installed /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/reportlab-3.2.0-py2.7-linux-x86_64.egg
 Processing dependencies for reportlab==3.2.0
-Searching for setuptools==17.0
-Best match: setuptools 17.0
-Processing setuptools-17.0-py2.7.egg
-Adding setuptools 17.0 to easy-install.pth file
+Searching for setuptools==15.2
+Best match: setuptools 15.2
+Adding setuptools 15.2 to easy-install.pth file
+Installing easy_install-3.4 script to /home/ubuntu/miniconda/envs/_build/bin
 Installing easy_install script to /home/ubuntu/miniconda/envs/_build/bin
-Installing easy_install-2.7 script to /home/ubuntu/miniconda/envs/_build/bin
 
-Using /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/setuptools-17.0-py2.7.egg
+Using /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages
 Searching for pip==7.0.3
 Best match: pip 7.0.3
 Adding pip 7.0.3 to easy-install.pth file
@@ -724,9 +731,9 @@ Installing pip2.7 script to /home/ubuntu/miniconda/envs/_build/bin
 Installing pip2 script to /home/ubuntu/miniconda/envs/_build/bin
 
 Using /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages
-Searching for Pillow==2.8.1
-Best match: Pillow 2.8.1
-Adding Pillow 2.8.1 to easy-install.pth file
+Searching for Pillow==2.8.2
+Best match: Pillow 2.8.2
+Adding Pillow 2.8.2 to easy-install.pth file
 
 Using /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages
 Finished processing dependencies for reportlab==3.2.0
@@ -747,20 +754,20 @@ Finished download of standard T1 font curves
 
 The following NEW packages will be INSTALLED:
 
-    freetype:   2.5.2-2     
-    jpeg:       8d-0        
-    libpng:     1.6.17-0    
-    libtiff:    4.0.2-1     
-    openssl:    1.0.1k-1    
-    pillow:     2.8.1-py27_2
-    pip:        7.0.3-py27_0
-    python:     2.7.10-0    
-    readline:   6.2-2       
-    setuptools: 17.0-py27_0 
-    sqlite:     3.8.4.1-1   
-    system:     5.8-2       
-    tk:         8.5.18-0    
-    zlib:       1.2.8-0     
+    freetype:   2.5.2-2      
+    jpeg:       8d-0         
+    libpng:     1.6.17-0     
+    libtiff:    4.0.2-1      
+    openssl:    1.0.1k-1     
+    pillow:     2.8.2-py27_0 
+    pip:        7.0.3-py27_0 
+    python:     2.7.10-0     
+    readline:   6.2-2        
+    setuptools: 18.0.1-py27_0
+    sqlite:     3.8.4.1-1    
+    system:     5.8-2        
+    tk:         8.5.18-0     
+    zlib:       1.2.8-0      
 
 Linking packages ...
 [                    ]|                                                  |   0%[jpeg                ]|                                                  |   0%[libpng              ]|###                                               |   7%[openssl             ]|#######                                           |  14%[readline            ]|##########                                        |  21%[sqlite              ]|##############                                    |  28%[system              ]|#################                                 |  35%[tk                  ]|#####################                             |  42%[zlib                ]|#########################                         |  50%[freetype            ]|############################                      |  57%[libtiff             ]|################################                  |  64%[pillow              ]|###################################               |  71%[python              ]|#######################################           |  78%[setuptools          ]|##########################################        |  85%[pip                 ]|##############################################    |  92%[      COMPLETE      ]|##################################################| 100%
@@ -771,7 +778,7 @@ Extracting download
 Package: reportlab-3.2.0-py27_0
 source tree in: /home/ubuntu/miniconda/conda-bld/work/reportlab-3.2.0
 found egg dir: /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/reportlab-3.2.0-py2.7-linux-x86_64.egg
-number of files: 333
+number of files: 335
 Fixing permissions
 patchelf: file: /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/reportlab/graphics/_renderPM.so
     setting rpath to: $ORIGIN/../../../..
@@ -782,12 +789,22 @@ patchelf: file: /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/r
 Ignored hard-coded path in lib/python2.7/site-packages/reportlab/graphics/_renderPM.so
 Ignored hard-coded path in lib/python2.7/site-packages/reportlab/lib/_rl_accel.so
 Ignored hard-coded path in lib/python2.7/site-packages/reportlab/lib/pyHnj.so
+Detected hard-coded path in text file bin/easy_install-3.4
 Detected hard-coded path in text file bin/pip2
 Detected hard-coded path in text file bin/pip2.7
+Detected hard-coded path in text file lib/python2.7/site-packages/setuptools.pth
 Fixing permissions
 BUILD END: reportlab-3.2.0-py27_0
 TEST START: reportlab-3.2.0-py27_0
 Fetching package metadata: ......
+
+WARNING: conda-build appears to be out of date. You have version 1.13.0 but the
+latest version is 1.14.1. Run
+
+conda update -n root conda-build
+
+to get the latest version.
+
 Solving package specifications: .
 The following packages will be downloaded:
 
@@ -797,28 +814,28 @@ The following packages will be downloaded:
 
 The following NEW packages will be INSTALLED:
 
-    freetype:   2.5.2-2     
-    jpeg:       8d-0        
-    libpng:     1.6.17-0    
-    libtiff:    4.0.2-1     
-    openssl:    1.0.1k-1    
-    pillow:     2.8.1-py27_2
-    pip:        7.0.3-py27_0
-    python:     2.7.10-0    
-    readline:   6.2-2       
-    reportlab:  3.2.0-py27_0
-    setuptools: 17.0-py27_0 
-    sqlite:     3.8.4.1-1   
-    system:     5.8-2       
-    tk:         8.5.18-0    
-    zlib:       1.2.8-0     
+    freetype:   2.5.2-2      
+    jpeg:       8d-0         
+    libpng:     1.6.17-0     
+    libtiff:    4.0.2-1      
+    openssl:    1.0.1k-1     
+    pillow:     2.8.2-py27_0 
+    pip:        7.0.3-py27_0 
+    python:     2.7.10-0     
+    readline:   6.2-2        
+    reportlab:  3.2.0-py27_0 
+    setuptools: 18.0.1-py27_0
+    sqlite:     3.8.4.1-1    
+    system:     5.8-2        
+    tk:         8.5.18-0     
+    zlib:       1.2.8-0      
 
 Fetching packages ...
-reportlab-3.2.   0% |                              | ETA:  --:--:--   0.00  B/sreportlab-3.2.   1% |                               | ETA:  0:00:00  64.25 MB/sreportlab-3.2.   2% |                               | ETA:  0:00:00  81.23 MB/sreportlab-3.2.   4% |#                              | ETA:  0:00:00  90.03 MB/sreportlab-3.2.   5% |#                              | ETA:  0:00:00  95.20 MB/sreportlab-3.2.   6% |##                             | ETA:  0:00:00  98.71 MB/sreportlab-3.2.   8% |##                             | ETA:  0:00:00 101.51 MB/sreportlab-3.2.   9% |##                             | ETA:  0:00:00 103.71 MB/sreportlab-3.2.  10% |###                            | ETA:  0:00:00 105.45 MB/sreportlab-3.2.  12% |###                            | ETA:  0:00:00 106.62 MB/sreportlab-3.2.  13% |####                           | ETA:  0:00:00 107.65 MB/sreportlab-3.2.  15% |####                           | ETA:  0:00:00  23.25 MB/sreportlab-3.2.  16% |#####                          | ETA:  0:00:00  24.90 MB/sreportlab-3.2.  17% |#####                          | ETA:  0:00:00  26.52 MB/sreportlab-3.2.  19% |#####                          | ETA:  0:00:00  28.05 MB/sreportlab-3.2.  20% |######                         | ETA:  0:00:00  29.54 MB/sreportlab-3.2.  21% |######                         | ETA:  0:00:00  30.99 MB/sreportlab-3.2.  23% |#######                        | ETA:  0:00:00  32.41 MB/sreportlab-3.2.  24% |#######                        | ETA:  0:00:00  33.78 MB/sreportlab-3.2.  25% |########                       | ETA:  0:00:00  35.11 MB/sreportlab-3.2.  27% |########                       | ETA:  0:00:00  36.39 MB/sreportlab-3.2.  28% |########                       | ETA:  0:00:00  37.64 MB/sreportlab-3.2.  30% |#########                      | ETA:  0:00:00  38.85 MB/sreportlab-3.2.  31% |#########                      | ETA:  0:00:00  40.03 MB/sreportlab-3.2.  32% |##########                     | ETA:  0:00:00  41.18 MB/sreportlab-3.2.  34% |##########                     | ETA:  0:00:00  42.29 MB/sreportlab-3.2.  35% |##########                     | ETA:  0:00:00  43.36 MB/sreportlab-3.2.  36% |###########                    | ETA:  0:00:00  44.41 MB/sreportlab-3.2.  38% |###########                    | ETA:  0:00:00  45.43 MB/sreportlab-3.2.  39% |############                   | ETA:  0:00:00  46.39 MB/sreportlab-3.2.  40% |############                   | ETA:  0:00:00  47.35 MB/sreportlab-3.2.  42% |#############                  | ETA:  0:00:00  48.28 MB/sreportlab-3.2.  43% |#############                  | ETA:  0:00:00  49.21 MB/sreportlab-3.2.  45% |#############                  | ETA:  0:00:00  50.10 MB/sreportlab-3.2.  46% |##############                 | ETA:  0:00:00  50.98 MB/sreportlab-3.2.  47% |##############                 | ETA:  0:00:00  51.82 MB/sreportlab-3.2.  49% |###############                | ETA:  0:00:00  52.65 MB/sreportlab-3.2.  50% |###############                | ETA:  0:00:00  53.47 MB/sreportlab-3.2.  51% |################               | ETA:  0:00:00  54.26 MB/sreportlab-3.2.  53% |################               | ETA:  0:00:00  55.04 MB/sreportlab-3.2.  54% |################               | ETA:  0:00:00  55.79 MB/sreportlab-3.2.  55% |#################              | ETA:  0:00:00  56.51 MB/sreportlab-3.2.  57% |#################              | ETA:  0:00:00  57.23 MB/sreportlab-3.2.  58% |##################             | ETA:  0:00:00  57.88 MB/sreportlab-3.2.  60% |##################             | ETA:  0:00:00  58.57 MB/sreportlab-3.2.  61% |###################            | ETA:  0:00:00  59.23 MB/sreportlab-3.2.  62% |###################            | ETA:  0:00:00  59.88 MB/sreportlab-3.2.  64% |###################            | ETA:  0:00:00  60.54 MB/sreportlab-3.2.  65% |####################           | ETA:  0:00:00  61.17 MB/sreportlab-3.2.  66% |####################           | ETA:  0:00:00  61.80 MB/sreportlab-3.2.  68% |#####################          | ETA:  0:00:00  62.40 MB/sreportlab-3.2.  69% |#####################          | ETA:  0:00:00  62.99 MB/sreportlab-3.2.  70% |#####################          | ETA:  0:00:00  63.58 MB/sreportlab-3.2.  72% |######################         | ETA:  0:00:00  64.16 MB/sreportlab-3.2.  73% |######################         | ETA:  0:00:00  64.71 MB/sreportlab-3.2.  75% |#######################        | ETA:  0:00:00  65.26 MB/sreportlab-3.2.  76% |#######################        | ETA:  0:00:00  45.78 MB/sreportlab-3.2.  77% |########################       | ETA:  0:00:00  46.26 MB/sreportlab-3.2.  79% |########################       | ETA:  0:00:00  46.75 MB/sreportlab-3.2.  80% |########################       | ETA:  0:00:00  47.24 MB/sreportlab-3.2.  81% |#########################      | ETA:  0:00:00  47.73 MB/sreportlab-3.2.  83% |#########################      | ETA:  0:00:00  48.20 MB/sreportlab-3.2.  84% |##########################     | ETA:  0:00:00  48.67 MB/sreportlab-3.2.  85% |##########################     | ETA:  0:00:00  49.13 MB/sreportlab-3.2.  87% |###########################    | ETA:  0:00:00  49.59 MB/sreportlab-3.2.  88% |###########################    | ETA:  0:00:00  50.05 MB/sreportlab-3.2.  90% |###########################    | ETA:  0:00:00  50.49 MB/sreportlab-3.2.  91% |############################   | ETA:  0:00:00  50.93 MB/sreportlab-3.2.  92% |############################   | ETA:  0:00:00  51.37 MB/sreportlab-3.2.  94% |#############################  | ETA:  0:00:00  51.80 MB/sreportlab-3.2.  95% |#############################  | ETA:  0:00:00  52.22 MB/sreportlab-3.2.  96% |############################## | ETA:  0:00:00  52.63 MB/sreportlab-3.2.  98% |############################## | ETA:  0:00:00  53.03 MB/sreportlab-3.2.  99% |############################## | ETA:  0:00:00  53.44 MB/sreportlab-3.2. 100% |###############################| Time: 0:00:00  53.30 MB/s
+reportlab-3.2.   0% |                              | ETA:  --:--:--   0.00  B/sreportlab-3.2.   1% |                               | ETA:  0:00:00  71.25 MB/sreportlab-3.2.   2% |                               | ETA:  0:00:00  85.34 MB/sreportlab-3.2.   4% |#                              | ETA:  0:00:00  93.26 MB/sreportlab-3.2.   5% |#                              | ETA:  0:00:00   9.69 MB/sreportlab-3.2.   6% |##                             | ETA:  0:00:00  11.86 MB/sreportlab-3.2.   8% |##                             | ETA:  0:00:00  13.95 MB/sreportlab-3.2.   9% |##                             | ETA:  0:00:00  15.95 MB/sreportlab-3.2.  10% |###                            | ETA:  0:00:00  17.86 MB/sreportlab-3.2.  12% |###                            | ETA:  0:00:00  19.72 MB/sreportlab-3.2.  13% |####                           | ETA:  0:00:00  21.50 MB/sreportlab-3.2.  14% |####                           | ETA:  0:00:00  23.23 MB/sreportlab-3.2.  16% |#####                          | ETA:  0:00:00  24.90 MB/sreportlab-3.2.  17% |#####                          | ETA:  0:00:00  26.51 MB/sreportlab-3.2.  19% |#####                          | ETA:  0:00:00  28.06 MB/sreportlab-3.2.  20% |######                         | ETA:  0:00:00  29.57 MB/sreportlab-3.2.  21% |######                         | ETA:  0:00:00  31.02 MB/sreportlab-3.2.  23% |#######                        | ETA:  0:00:00  32.43 MB/sreportlab-3.2.  24% |#######                        | ETA:  0:00:00  33.79 MB/sreportlab-3.2.  25% |########                       | ETA:  0:00:00  35.10 MB/sreportlab-3.2.  27% |########                       | ETA:  0:00:00  36.39 MB/sreportlab-3.2.  28% |########                       | ETA:  0:00:00  37.63 MB/sreportlab-3.2.  29% |#########                      | ETA:  0:00:00  38.80 MB/sreportlab-3.2.  31% |#########                      | ETA:  0:00:00  39.96 MB/sreportlab-3.2.  32% |##########                     | ETA:  0:00:00  41.09 MB/sreportlab-3.2.  34% |##########                     | ETA:  0:00:00  42.20 MB/sreportlab-3.2.  35% |##########                     | ETA:  0:00:00  43.26 MB/sreportlab-3.2.  36% |###########                    | ETA:  0:00:00  44.31 MB/sreportlab-3.2.  38% |###########                    | ETA:  0:00:00  45.31 MB/sreportlab-3.2.  39% |############                   | ETA:  0:00:00  46.30 MB/sreportlab-3.2.  40% |############                   | ETA:  0:00:00  47.26 MB/sreportlab-3.2.  42% |#############                  | ETA:  0:00:00  48.19 MB/sreportlab-3.2.  43% |#############                  | ETA:  0:00:00  49.11 MB/sreportlab-3.2.  44% |#############                  | ETA:  0:00:00  36.31 MB/sreportlab-3.2.  46% |##############                 | ETA:  0:00:00  37.07 MB/sreportlab-3.2.  47% |##############                 | ETA:  0:00:00  37.81 MB/sreportlab-3.2.  49% |###############                | ETA:  0:00:00  38.52 MB/sreportlab-3.2.  50% |###############                | ETA:  0:00:00  39.23 MB/sreportlab-3.2.  51% |################               | ETA:  0:00:00  39.93 MB/sreportlab-3.2.  53% |################               | ETA:  0:00:00  40.63 MB/sreportlab-3.2.  54% |################               | ETA:  0:00:00  41.31 MB/sreportlab-3.2.  55% |#################              | ETA:  0:00:00  41.97 MB/sreportlab-3.2.  57% |#################              | ETA:  0:00:00  42.63 MB/sreportlab-3.2.  58% |##################             | ETA:  0:00:00  43.26 MB/sreportlab-3.2.  59% |##################             | ETA:  0:00:00  43.90 MB/sreportlab-3.2.  61% |###################            | ETA:  0:00:00  44.52 MB/sreportlab-3.2.  62% |###################            | ETA:  0:00:00  45.13 MB/sreportlab-3.2.  64% |###################            | ETA:  0:00:00  45.74 MB/sreportlab-3.2.  65% |####################           | ETA:  0:00:00  46.32 MB/sreportlab-3.2.  66% |####################           | ETA:  0:00:00  46.90 MB/sreportlab-3.2.  68% |#####################          | ETA:  0:00:00  47.46 MB/sreportlab-3.2.  69% |#####################          | ETA:  0:00:00  48.02 MB/sreportlab-3.2.  70% |#####################          | ETA:  0:00:00  48.58 MB/sreportlab-3.2.  72% |######################         | ETA:  0:00:00  49.12 MB/sreportlab-3.2.  73% |######################         | ETA:  0:00:00  49.66 MB/sreportlab-3.2.  74% |#######################        | ETA:  0:00:00  50.20 MB/sreportlab-3.2.  76% |#######################        | ETA:  0:00:00  50.73 MB/sreportlab-3.2.  77% |########################       | ETA:  0:00:00  51.24 MB/sreportlab-3.2.  79% |########################       | ETA:  0:00:00  51.74 MB/sreportlab-3.2.  80% |########################       | ETA:  0:00:00  52.25 MB/sreportlab-3.2.  81% |#########################      | ETA:  0:00:00  52.74 MB/sreportlab-3.2.  83% |#########################      | ETA:  0:00:00  53.23 MB/sreportlab-3.2.  84% |##########################     | ETA:  0:00:00  44.19 MB/sreportlab-3.2.  85% |##########################     | ETA:  0:00:00  44.64 MB/sreportlab-3.2.  87% |###########################    | ETA:  0:00:00  45.06 MB/sreportlab-3.2.  88% |###########################    | ETA:  0:00:00  45.49 MB/sreportlab-3.2.  89% |###########################    | ETA:  0:00:00  45.92 MB/sreportlab-3.2.  91% |############################   | ETA:  0:00:00  46.35 MB/sreportlab-3.2.  92% |############################   | ETA:  0:00:00  46.77 MB/sreportlab-3.2.  94% |#############################  | ETA:  0:00:00  47.18 MB/sreportlab-3.2.  95% |#############################  | ETA:  0:00:00  47.59 MB/sreportlab-3.2.  96% |############################## | ETA:  0:00:00  48.00 MB/sreportlab-3.2.  98% |############################## | ETA:  0:00:00  48.40 MB/sreportlab-3.2.  99% |############################## | ETA:  0:00:00  48.80 MB/sreportlab-3.2. 100% |###############################| Time: 0:00:00  48.69 MB/s
 Extracting packages ...
 [      COMPLETE      ]|                                                  |   0%[reportlab           ]|                                                  |   0%[reportlab           ]|                                                  |   0%[      COMPLETE      ]|##################################################| 100%
 Linking packages ...
-[      COMPLETE      ]|                                                  |   0%[jpeg                ]|                                                  |   0%[jpeg                ]|                                                  |   0%[libpng              ]|###                                               |   6%[openssl             ]|######                                            |  13%[readline            ]|##########                                        |  20%[sqlite              ]|#############                                     |  26%[system              ]|################                                  |  33%[tk                  ]|####################                              |  40%[zlib                ]|#######################                           |  46%[freetype            ]|##########################                        |  53%[libtiff             ]|##############################                    |  60%[pillow              ]|#################################                 |  66%[python              ]|####################################          ===== testing package: reportlab-3.2.0-py27_0 =====
+[      COMPLETE      ]|                                                  |   0%[jpeg                ]|                                                  |   0%[jpeg                ]|                                                  |   0%[libpng              ]|###                                               |   6%[openssl             ]|######                                            |  13%[readline            ]|##########                                        |  20%[sqlite              ]|#############                                     |  26%[system              ]|################                                  |  33%[tk                  ]|####################                              |  40%[zlib                ]|#######################                           |  46%[freetype            ]|##########################                        |  53%[libtiff             ]|##############################                    |  60%[pillow              ]|#################################                 |  66%[python              ]|###############################===== testing package: reportlab-3.2.0-py27_0 =====
 import: u'reportlab'
 import: u'reportlab.graphics'
 import: u'reportlab.graphics.barcode'
@@ -830,7 +847,7 @@ import: u'reportlab.pdfbase'
 import: u'reportlab.pdfgen'
 import: u'reportlab.platypus'
 ===== reportlab-3.2.0-py27_0 OK =====
-    |  73%[setuptools          ]|########################################          |  80%[pip                 ]|###########################################       |  86%[reportlab           ]|##############################################    |  93%[      COMPLETE      ]|##################################################| 100%
+#####              |  73%[setuptools          ]|########################################          |  80%[pip                 ]|###########################################       |  86%[reportlab           ]|##############################################    |  93%[      COMPLETE      ]|##################################################| 100%
 TEST END: reportlab-3.2.0-py27_0
 # If you want to upload this package to binstar.org later, type:
 #

@@ -4,19 +4,23 @@ Warning, the following versions were found for django-localflavor
 Using 1.1
 Use --version to specify a different version.
 Using url https://pypi.python.org/packages/source/d/django-localflavor/django-localflavor-1.1.tar.gz (2.4 MB) for django-localflavor.
-Downloading django-localflavor (use --no-download to skip this step)
+Downloading django-localflavor
 Using cached download
 Unpacking django-localflavor...
 done
-working in /tmp/tmp7t65o0conda_skeleton_django-localflavor-1.1.tar.gz
+working in /tmp/tmp6qxrYxconda_skeleton_django-localflavor-1.1.tar.gz
 Fetching package metadata: ......
+
+WARNING: conda-build appears to be out of date. You have version 1.13.0 but the
+latest version is 1.14.1. Run
+
+conda update -n root conda-build
+
+to get the latest version.
+
 Solving package specifications: .patching file core.py
 Hunk #1 succeeded at 168 with fuzz 2 (offset 2 lines).
-Traceback (most recent call last):
-  File "setup.py", line 7, in <module>
-    from setuptools import setup, find_packages
-ImportError: No module named setuptools
 
-Applying patch: '/tmp/tmp7t65o0conda_skeleton_django-localflavor-1.1.tar.gz/pypi-distutils.patch'
-$PYTHONPATH = /tmp/tmp7t65o0conda_skeleton_django-localflavor-1.1.tar.gz/django-localflavor-1.1
-Error: command failed: /home/ubuntu/miniconda/envs/_build/bin/python setup.py install
+Applying patch: '/tmp/tmp6qxrYxconda_skeleton_django-localflavor-1.1.tar.gz/pypi-distutils.patch'
+Writing recipe for django-localflavor
+Done

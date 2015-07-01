@@ -1,35 +1,55 @@
-Error: prefix already exists: /home/ubuntu/miniconda/envs/_pipbuild_
-Collecting zope.deprecation==4.1.2
-  Downloading http://localhost/packages/source/z/zope.deprecation/zope.deprecation-4.1.2.tar.gz (146kB)
-setuptools must be installed to install from a source distribution
-Package search: {'_pypi_ordering': False, 'version': '4.1.2', 'name': 'zope.deprecation', 'summary': 'Zope Deprecation Infrastructure'}
-Creating standard recipe for zope.deprecation-4.1.2
-Using url https://pypi.python.org/packages/source/z/zope.deprecation/zope.deprecation-4.1.2.tar.gz (143 KB) for zope.deprecation.
-Downloading zope.deprecation
-Using cached download
-Unpacking zope.deprecation...
-done
-working in /tmp/tmp_WafHzconda_skeleton_zope.deprecation-4.1.2.tar.gz
+Removing old build directory
+Removing old work directory
+BUILD START: zope.deprecation-4.1.2-py_0
 Fetching package metadata: ......
 
 WARNING: conda-build appears to be out of date. You have version 1.13.0 but the
-latest version is 1.14.0. Run
+latest version is 1.14.1. Run
 
 conda update -n root conda-build
 
 to get the latest version.
 
-Solving package specifications: .patching file core.py
-Hunk #1 succeeded at 168 with fuzz 2 (offset 2 lines).
-Traceback (most recent call last):
-  File "setup.py", line 23, in <module>
-    from setuptools import setup, find_packages
-ImportError: No module named setuptools
+Solving package specifications: .+ pip install zope.deprecation
+Collecting zope.deprecation
+  Downloading http://localhost/packages/source/z/zope.deprecation/zope.deprecation-4.1.2.tar.gz (146kB)
+Requirement already satisfied (use --upgrade to upgrade): setuptools in /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages (from zope.deprecation)
+Installing collected packages: zope.deprecation
+  Running setup.py install for zope.deprecation
+Successfully installed zope.deprecation-4.1.2
 
-Applying patch: '/tmp/tmp_WafHzconda_skeleton_zope.deprecation-4.1.2.tar.gz/pypi-distutils.patch'
-$PYTHONPATH = /tmp/tmp_WafHzconda_skeleton_zope.deprecation-4.1.2.tar.gz/zope.deprecation-4.1.2
-Error: command failed: /home/ubuntu/miniconda/envs/_build/bin/python setup.py install
+The following NEW packages will be INSTALLED:
 
-conda create -n _pipbuild_ --yes python pip
-/home/ubuntu/miniconda/envs/_pipbuild_/bin/pip install zope.deprecation==4.1.2
-Error: Could not pip install zope.deprecation==4.1.2
+    openssl:    1.0.1k-1     
+    pip:        7.0.3-py27_0 
+    python:     2.7.10-0     
+    readline:   6.2-2        
+    setuptools: 18.0.1-py27_0
+    sqlite:     3.8.4.1-1    
+    system:     5.8-2        
+    tk:         8.5.18-0     
+    zlib:       1.2.8-0      
+
+Linking packages ...
+[                    ]|                                                  |   0%[openssl             ]|                                                  |   0%[readline            ]|#####                                             |  11%[sqlite              ]|###########                                       |  22%[system              ]|################                                  |  33%[tk                  ]|######################                            |  44%[zlib                ]|###########################                       |  55%[python              ]|#################################                 |  66%[setuptools          ]|######################################            |  77%[pip                 ]|############################################      |  88%[      COMPLETE      ]|##################################################| 100%
+Removing old work directory
+Copying /home/ubuntu/pypi-conda-builds/zope.deprecation to /home/ubuntu/miniconda/conda-bld/work
+Package: zope.deprecation-4.1.2-py_0
+source tree in: /home/ubuntu/miniconda/conda-bld/work
+number of files: 17
+Fixing permissions
+Fixing permissions
+BUILD END: zope.deprecation-4.1.2-py_0
+# If you want to upload this package to binstar.org later, type:
+#
+# $ binstar upload /home/ubuntu/miniconda/conda-bld/noarch/zope.deprecation-4.1.2-py_0.tar.bz2
+#
+# To have conda build upload to binstar automatically, use
+# $ conda config --set binstar_upload yes
+
+Package search: {'_pypi_ordering': False, 'version': '4.1.2', 'name': 'zope.deprecation', 'summary': 'Zope Deprecation Infrastructure'}
+Creating standard recipe for zope.deprecation-4.1.2
+Converting recipe in /home/ubuntu/pypi-conda-builds/zope.deprecation
+package = zope.deprecation
+   dependencies = []
+Building conda package for zope.deprecation

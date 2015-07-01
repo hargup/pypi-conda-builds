@@ -1,0 +1,304 @@
+plone not found, trying Plone
+Warning, the following versions were found for Plone
+5.0b2
+5.0b1
+5.0a3
+5.0a2
+5.0a1
+4.3.6
+4.3.5
+4.3.4
+4.3.3
+4.3.2
+4.3.1
+4.3
+4.3rc1
+4.3b2
+4.3b1
+4.3a2
+4.3a1
+4.2.7
+4.2.6
+4.2.5
+4.2.4
+4.2.3
+4.2.2
+4.2.1
+4.2
+4.2rc2
+4.2rc1
+4.2b2
+4.2b1
+4.2a2
+4.2a1
+4.1.6
+4.1.5
+4.1.4
+4.1.3
+4.1.2
+4.1.1
+4.1
+4.1rc3
+4.1rc2
+4.1b2
+4.1b1
+4.1a3
+4.1a2
+4.1a1
+4.0.10
+4.0.9
+4.0.8
+4.0.7
+4.0.6
+4.0.5
+4.0.4
+4.0.3
+4.0.2
+4.0.1
+4.0
+4.0rc1
+4.0b5
+4.0b4
+4.0b3
+4.0b2
+4.0b1
+4.0a5
+4.0a4
+4.0a3
+4.0a2
+4.0a1
+3.3.6
+3.3.5
+3.3.4
+3.3.3
+3.3.2
+3.3.1
+3.3
+3.3rc5
+3.3rc4
+3.3rc3
+3.3rc2
+3.3rc1
+3.3b1
+3.2.3
+3.2.2
+3.2.1
+3.2
+3.2rc1
+3.2a1
+Using 5.0b2
+Use --version to specify a different version.
+Using url https://pypi.python.org/packages/source/P/Plone/Plone-5.0b2.zip (21 KB) for Plone.
+Downloading Plone
+Using cached download
+Unpacking Plone...
+done
+working in /tmp/tmpXMCWJYconda_skeleton_Plone-5.0b2.zip
+Fetching package metadata: ......
+
+WARNING: conda-build appears to be out of date. You have version 1.13.0 but the
+latest version is 1.14.1. Run
+
+conda update -n root conda-build
+
+to get the latest version.
+
+Solving package specifications: .patching file core.py
+Hunk #1 succeeded at 168 with fuzz 2 (offset 2 lines).
+
+WARNING: conda-build appears to be out of date. You have version 1.13.0 but the
+latest version is 1.14.1. Run
+
+conda update -n root conda-build
+
+to get the latest version.
+
+
+Applying patch: '/tmp/tmpXMCWJYconda_skeleton_Plone-5.0b2.zip/pypi-distutils.patch'
+Warning, the following versions were found for plone.app.upgrade
+1.3.10
+1.3.9
+1.3.8
+1.3.7
+1.3.6
+1.3.5
+1.3.4
+1.3.3
+1.3.2
+1.3.1
+1.3
+1.3rc1
+1.3b2
+1.3b1
+1.3a2
+1.3a1
+1.2.7
+1.2.6
+1.2.5
+1.2.4
+1.2.3
+1.2.2
+1.2.1
+1.2
+1.2rc2
+1.2rc1
+1.2b2
+1.2b1
+1.2a2
+1.2a1
+1.1.7
+1.1.6
+1.1.5
+1.1.4
+1.1.3
+1.1.2
+1.1.1
+1.1
+1.1rc3
+1.1rc2
+1.1b2
+1.1b1
+1.1a3
+1.1a2
+1.1a1
+1.0.10
+1.0.9
+1.0.8
+1.0.7
+1.0.6
+1.0.5
+1.0.4
+1.0.3
+1.0.2
+1.0.1
+1.0
+1.0rc1
+1.0b5
+1.0b4
+1.0b3
+1.0b2
+1.0b1
+1.0a5
+1.0a4
+1.0a3
+1.0a2
+1.0a1
+Using 1.3.10
+Use --version to specify a different version.
+Using url https://pypi.python.org/packages/source/p/plone.app.upgrade/plone.app.upgrade-1.3.10.zip (1.7 MB) for plone.app.upgrade.
+Downloading plone.app.upgrade
+Using cached download
+Unpacking plone.app.upgrade...
+done
+working in /tmp/tmpHEMo6kconda_skeleton_plone.app.upgrade-1.3.10.zip
+Solving package specifications: .patching file core.py
+Hunk #1 succeeded at 168 with fuzz 2 (offset 2 lines).
+
+Applying patch: '/tmp/tmpHEMo6kconda_skeleton_plone.app.upgrade-1.3.10.zip/pypi-distutils.patch'
+WARNING: Could not add entry points. They were:
+
+      [z3c.autoinclude.plugin]
+      target = plone
+      
+Warning, the following versions were found for plone.app.theming
+1.2.6
+1.2.5
+1.2.4
+1.2.3
+1.2.2
+1.2.1
+1.2.0
+1.1.6
+1.1.5
+1.1.4
+1.1.3
+1.1.2
+1.1.1
+1.1
+1.1b2
+1.1b1
+1.1a2
+1.1a1
+1.0.4
+1.0.3
+1.0.2
+1.0.1
+1.0
+1.0b9
+1.0b8
+1.0b7
+1.0b6
+1.0b5
+1.0b4
+1.0b3
+1.0b2
+1.0b1
+Using 1.2.6
+Use --version to specify a different version.
+Using url https://pypi.python.org/packages/source/p/plone.app.theming/plone.app.theming-1.2.6.tar.gz (1.1 MB) for plone.app.theming.
+Downloading plone.app.theming
+plone.app.them   0% |                              | ETA:  --:--:--   0.00  B/splone.app.them   1% |                               | ETA:  0:00:00  30.46 MB/splone.app.them   2% |                               | ETA:  0:00:00   2.39 MB/splone.app.them   4% |#                              | ETA:  0:00:00   1.76 MB/splone.app.them   5% |#                              | ETA:  0:00:00   2.32 MB/splone.app.them   7% |##                             | ETA:  0:00:00   1.95 MB/splone.app.them   8% |##                             | ETA:  0:00:00   2.32 MB/splone.app.them   9% |###                            | ETA:  0:00:00   2.43 MB/splone.app.them  11% |###                            | ETA:  0:00:00   2.33 MB/splone.app.them  12% |###                            | ETA:  0:00:00   2.60 MB/splone.app.them  14% |####                           | ETA:  0:00:00   2.67 MB/splone.app.them  15% |####                           | ETA:  0:00:00   2.92 MB/splone.app.them  17% |#####                          | ETA:  0:00:00   2.79 MB/splone.app.them  18% |#####                          | ETA:  0:00:00   3.01 MB/splone.app.them  19% |######                         | ETA:  0:00:00   3.23 MB/splone.app.them  21% |######                         | ETA:  0:00:00   3.25 MB/splone.app.them  22% |#######                        | ETA:  0:00:00   3.45 MB/splone.app.them  24% |#######                        | ETA:  0:00:00   3.29 MB/splone.app.them  25% |#######                        | ETA:  0:00:00   3.47 MB/splone.app.them  26% |########                       | ETA:  0:00:00   3.65 MB/splone.app.them  28% |########                       | ETA:  0:00:00   3.83 MB/splone.app.them  29% |#########                      | ETA:  0:00:00   3.83 MB/splone.app.them  31% |#########                      | ETA:  0:00:00   3.92 MB/splone.app.them  32% |##########                     | ETA:  0:00:00   4.09 MB/splone.app.them  34% |##########                     | ETA:  0:00:00   3.96 MB/splone.app.them  35% |##########                     | ETA:  0:00:00   4.12 MB/splone.app.them  36% |###########                    | ETA:  0:00:00   4.27 MB/splone.app.them  38% |###########                    | ETA:  0:00:00   4.42 MB/splone.app.them  39% |############                   | ETA:  0:00:00   4.41 MB/splone.app.them  41% |############                   | ETA:  0:00:00   4.48 MB/splone.app.them  42% |#############                  | ETA:  0:00:00   4.62 MB/splone.app.them  43% |#############                  | ETA:  0:00:00   4.50 MB/splone.app.them  45% |##############                 | ETA:  0:00:00   4.63 MB/splone.app.them  46% |##############                 | ETA:  0:00:00   4.75 MB/splone.app.them  48% |##############                 | ETA:  0:00:00   4.88 MB/splone.app.them  49% |###############                | ETA:  0:00:00   5.01 MB/splone.app.them  51% |###############                | ETA:  0:00:00   4.99 MB/splone.app.them  52% |################               | ETA:  0:00:00   5.12 MB/splone.app.them  53% |################               | ETA:  0:00:00   5.17 MB/splone.app.them  55% |#################              | ETA:  0:00:00   5.29 MB/splone.app.them  56% |#################              | ETA:  0:00:00   5.16 MB/splone.app.them  58% |##################             | ETA:  0:00:00   5.27 MB/splone.app.them  59% |##################             | ET
+WARNING: conda-build appears to be out of date. You have version 1.13.0 but the
+latest version is 1.14.1. Run
+
+conda update -n root conda-build
+
+to get the latest version.
+
+A:  0:00:00   5.38 MB/splone.app.them  60% |##################             | ETA:  0:00:00   5.49 MB/splone.app.them  62% |###################            | ETA:  0:00:00   5.60 MB/splone.app.them  63% |###################            | ETA:  0:00:00   5.72 MB/splone.app.them  65% |####################           | ETA:  0:00:00   5.84 MB/splone.app.them  66% |####################           | ETA:  0:00:00   5.80 MB/splone.app.them  68% |#####################          | ETA:  0:00:00   5.85 MB/splone.app.them  69% |#####################          | ETA:  0:00:00   5.95 MB/splone.app.them  70% |#####################          | ETA:  0:00:00   6.06 MB/splone.app.them  72% |######################         | ETA:  0:00:00   6.17 MB/splone.app.them  73% |######################         | ETA:  0:00:00   6.02 MB/splone.app.them  75% |#######################        | ETA:  0:00:00   6.12 MB/splone.app.them  76% |#######################        | ETA:  0:00:00   6.22 MB/splone.app.them  77% |########################       | ETA:  0:00:00   6.33 MB/splone.app.them  79% |########################       | ETA:  0:00:00   6.43 MB/splone.app.them  80% |#########################      | ETA:  0:00:00   6.53 MB/splone.app.them  82% |#########################      | ETA:  0:00:00   6.63 MB/splone.app.them  83% |#########################      | ETA:  0:00:00   6.60 MB/splone.app.them  85% |##########################     | ETA:  0:00:00   6.69 MB/splone.app.them  86% |##########################     | ETA:  0:00:00   6.79 MB/splone.app.them  87% |###########################    | ETA:  0:00:00   6.81 MB/splone.app.them  89% |###########################    | ETA:  0:00:00   6.91 MB/splone.app.them  90% |############################   | ETA:  0:00:00   7.00 MB/splone.app.them  92% |############################   | ETA:  0:00:00   7.10 MB/splone.app.them  93% |############################   | ETA:  0:00:00   6.95 MB/splone.app.them  94% |#############################  | ETA:  0:00:00   7.02 MB/splone.app.them  96% |#############################  | ETA:  0:00:00   7.11 MB/splone.app.them  97% |############################## | ETA:  0:00:00   7.20 MB/splone.app.them  99% |############################## | ETA:  0:00:00   7.29 MB/splone.app.them 100% |###############################| Time: 0:00:00   7.34 MB/s
+Unpacking plone.app.theming...
+done
+working in /tmp/tmpulmWR9conda_skeleton_plone.app.theming-1.2.6.tar.gz
+Solving package specifications: .patching file core.py
+Hunk #1 succeeded at 168 with fuzz 2 (offset 2 lines).
+
+WARNING: conda-build appears to be out of date. You have version 1.13.0 but the
+latest version is 1.14.1. Run
+
+conda update -n root conda-build
+
+to get the latest version.
+
+
+Applying patch: '/tmp/tmpulmWR9conda_skeleton_plone.app.theming-1.2.6.tar.gz/pypi-distutils.patch'
+WARNING: Could not add entry points. They were:
+
+    [z3c.autoinclude.plugin]
+    target = plone
+    
+Warning, the following versions were found for plone.app.testing
+5.0b4
+5.0b3
+5.0b2
+5.0b1
+5.0a2
+5.0a1
+4.2.5
+4.2.4
+4.2.3
+4.2.2
+4.2.1
+4.2
+4.0.2
+4.0.1
+4.0
+4.0a6
+4.0a5
+4.0a4
+4.0a3
+3.0a1
+1.0a2
+1.0a1
+Using 5.0b4
+Use --version to specify a different version.
+Using url https://pypi.python.org/packages/source/p/plone.app.testing/plone.app.testing-5.0b4.tar.gz (80 KB) for plone.app.testing.
+Downloading plone.app.testing
+Using cached download
+Unpacking plone.app.testing...
+done
+working in /tmp/tmpTx3OPlconda_skeleton_plone.app.testing-5.0b4.tar.gz
+Solving package specifications: .patching file core.py
+Hunk #1 succeeded at 168 with fuzz 2 (offset 2 lines).
+
+Applying patch: '/tmp/tmpTx3OPlconda_skeleton_plone.app.testing-5.0b4.tar.gz/pypi-distutils.patch'
+Error: Could not parse: plone.testing [zca,security,zodb,z2]

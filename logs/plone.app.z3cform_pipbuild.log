@@ -1,0 +1,36 @@
+Error: prefix already exists: /home/ubuntu/miniconda/envs/_pipbuild_
+Exception:
+Traceback (most recent call last):
+  File "/home/ubuntu/miniconda/envs/_pipbuild_/lib/python2.7/site-packages/pip/basecommand.py", line 223, in main
+    status = self.run(options, args)
+  File "/home/ubuntu/miniconda/envs/_pipbuild_/lib/python2.7/site-packages/pip/commands/install.py", line 268, in run
+    wheel_cache
+  File "/home/ubuntu/miniconda/envs/_pipbuild_/lib/python2.7/site-packages/pip/basecommand.py", line 268, in populate_requirement_set
+    wheel_cache=wheel_cache
+  File "/home/ubuntu/miniconda/envs/_pipbuild_/lib/python2.7/site-packages/pip/req/req_install.py", line 207, in from_line
+    wheel_cache=wheel_cache)
+  File "/home/ubuntu/miniconda/envs/_pipbuild_/lib/python2.7/site-packages/pip/req/req_install.py", line 66, in __init__
+    req = pkg_resources.Requirement.parse(req)
+  File "/home/ubuntu/miniconda/envs/_pipbuild_/lib/python2.7/site-packages/pip/_vendor/pkg_resources/__init__.py", line 2960, in parse
+    reqs = list(parse_requirements(s))
+  File "/home/ubuntu/miniconda/envs/_pipbuild_/lib/python2.7/site-packages/pip/_vendor/pkg_resources/__init__.py", line 2904, in parse_requirements
+    "version spec")
+  File "/home/ubuntu/miniconda/envs/_pipbuild_/lib/python2.7/site-packages/pip/_vendor/pkg_resources/__init__.py", line 2869, in scan_list
+    raise ValueError(msg, line, "at", line[p:])
+ValueError: ('Expected version spec in', 'extensionclass==>=4.1.1', 'at', '==>=4.1.1')
+
+Package search: {'_pypi_ordering': False, 'version': '1.1.2', 'name': 'plone.app.z3cform', 'summary': 'A collection of widgets, templates and other components for use with z3c.form and Plone'}
+Creating standard recipe for plone.app.z3cform-1.1.2
+Converting recipe in /home/ubuntu/pypi-conda-builds/plone.app.z3cform
+package = plone.app.z3cform
+   dependencies = [u'acquisition', u'products.cmfcore', u'products.cmfplone', u'zope2', u'plone.app.widgets >=2.0.0.dev0', u'plone.protect', u'plone.z3cform >=0.5.11dev', u'z3c.form >=3.0', u'z3c.formwidget.query', u'zope.browserpage', u'zope.component', u'zope.globalrequest', u'zope.i18n', u'zope.i18nmessageid', u'zope.interface', u'zope.schema', u'zope.traversing', u'plone.app.textfield']
+Creating standard recipe for acquisition
+Converting recipe in /home/ubuntu/pypi-conda-builds/acquisition
+package = acquisition
+   dependencies = [u'extensionclass >=4.1.1', u'zope.interface']
+Creating standard recipe for extensionclass->=4.1.1
+Error: Version >=4.1.1 of extensionclass is not available on PyPI.
+
+conda create -n _pipbuild_ --yes python pip
+/home/ubuntu/miniconda/envs/_pipbuild_/bin/pip install extensionclass==>=4.1.1
+Error: Could not pip install extensionclass==>=4.1.1

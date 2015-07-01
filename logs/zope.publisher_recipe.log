@@ -1,0 +1,371 @@
+Warning, the following versions were found for zope.publisher
+4.2.1
+4.2.0
+4.1.0
+4.0.0
+4.0.0a4
+4.0.0a3
+4.0.0a2
+4.0.0a1
+3.13.4
+3.13.3
+3.13.2
+3.13.1
+3.13.0
+3.12.6
+3.12.5
+3.12.4
+3.12.3
+3.12.2
+3.12.1
+3.12.0
+3.11.0
+3.10.1
+3.10.0
+3.9.3
+3.9.2
+3.9.1
+3.9.0
+3.8.0
+3.7.0
+3.6.4
+3.6.3
+3.6.2
+3.6.1
+3.6.0
+3.5.8
+3.5.7
+3.5.6
+3.5.5
+3.5.4
+3.5.3
+3.5.2
+3.5.1
+3.5.0
+3.4.10
+3.4.9
+3.4.8
+3.4.7
+3.4.6
+3.4.5
+3.4.4
+3.4.3
+3.4.2
+3.4.1
+3.4.1b2
+3.3.3
+Using 4.2.1
+Use --version to specify a different version.
+Using url https://pypi.python.org/packages/source/z/zope.publisher/zope.publisher-4.2.1.tar.gz (94 KB) for zope.publisher.
+Downloading zope.publisher
+Using cached download
+Unpacking zope.publisher...
+done
+working in /tmp/tmpks1f1Vconda_skeleton_zope.publisher-4.2.1.tar.gz
+Fetching package metadata: ......
+
+WARNING: conda-build appears to be out of date. You have version 1.13.0 but the
+latest version is 1.14.1. Run
+
+conda update -n root conda-build
+
+to get the latest version.
+
+Solving package specifications: .patching file core.py
+Hunk #1 succeeded at 168 with fuzz 2 (offset 2 lines).
+
+WARNING: conda-build appears to be out of date. You have version 1.13.0 but the
+latest version is 1.14.1. Run
+
+conda update -n root conda-build
+
+to get the latest version.
+
+
+The following NEW packages will be INSTALLED:
+
+    numpy:  1.9.2-py27_0
+    pyyaml: 3.11-py27_1 
+    yaml:   0.1.6-0     
+
+Linking packages ...
+[                    ]|                                                  |   0%[yaml                ]|                                                  |   0%[numpy               ]|################                                  |  33%[pyyaml              ]|#################################                 |  66%[      COMPLETE      ]|##################################################| 100%
+Applying patch: '/tmp/tmpks1f1Vconda_skeleton_zope.publisher-4.2.1.tar.gz/pypi-distutils.patch'
+WARNING: Could not add entry points. They were:
+
+[paste.app_factory]
+main = zope.publisher.paste:Application
+
+[zope.publisher.publication_factory]
+sample = zope.publisher.tests.test_paste:SamplePublication
+
+Warning, the following versions were found for zope.security
+4.0.3
+4.0.2
+4.0.1
+4.0.0
+4.0.0b1
+4.0.0a5
+4.0.0a4
+4.0.0a3
+4.0.0a2
+4.0.0a1
+3.9.0
+3.8.5
+3.8.4
+3.8.3
+3.8.2
+3.8.1
+3.8.0
+3.7.4
+3.7.3
+3.7.2
+3.7.1
+3.7.0
+3.6.3
+3.6.2
+3.6.1
+3.6.0
+3.5.2
+3.5.1
+3.5.0
+3.4.3
+3.4.2
+3.4.1
+3.4.0
+3.4.0b5
+Using 4.0.3
+Use --version to specify a different version.
+Using url https://pypi.python.org/packages/source/z/zope.security/zope.security-4.0.3.tar.gz (849 KB) for zope.security.
+Downloading zope.security
+Using cached download
+Unpacking zope.security...
+done
+working in /tmp/tmpubdgWnconda_skeleton_zope.security-4.0.3.tar.gz
+Solving package specifications: .patching file core.py
+Hunk #1 succeeded at 168 with fuzz 2 (offset 2 lines).
+
+WARNING: conda-build appears to be out of date. You have version 1.13.0 but the
+latest version is 1.14.1. Run
+
+conda update -n root conda-build
+
+to get the latest version.
+
+
+Applying patch: '/tmp/tmpubdgWnconda_skeleton_zope.security-4.0.3.tar.gz/pypi-distutils.patch'
+Using url https://pypi.python.org/packages/source/z/zope.untrustedpython/zope.untrustedpython-4.0.0.zip (16 KB) for zope.untrustedpython.
+Downloading zope.untrustedpython
+Using cached download
+Unpacking zope.untrustedpython...
+done
+working in /tmp/tmpBLprqLconda_skeleton_zope.untrustedpython-4.0.0.zip
+Solving package specifications: .patching file core.py
+Hunk #1 succeeded at 168 with fuzz 2 (offset 2 lines).
+
+WARNING: conda-build appears to be out of date. You have version 1.13.0 but the
+latest version is 1.14.1. Run
+
+conda update -n root conda-build
+
+to get the latest version.
+
+
+Applying patch: '/tmp/tmpBLprqLconda_skeleton_zope.untrustedpython-4.0.0.zip/pypi-distutils.patch'
+restrictedpython not found, trying RestrictedPython
+Warning, the following versions were found for RestrictedPython
+3.6.0
+3.6.0a1
+3.5.2
+3.5.1
+3.5.0
+3.4.3
+3.4.2
+Using 3.6.0
+Use --version to specify a different version.
+Using url https://pypi.python.org/packages/source/R/RestrictedPython/RestrictedPython-3.6.0.zip (55 KB) for RestrictedPython.
+Downloading RestrictedPython
+Using cached download
+Unpacking RestrictedPython...
+done
+working in /tmp/tmpz3MpL_conda_skeleton_RestrictedPython-3.6.0.zip
+Solving package specifications: .patching file core.py
+Hunk #1 succeeded at 168 with fuzz 2 (offset 2 lines).
+
+WARNING: conda-build appears to be out of date. You have version 1.13.0 but the
+latest version is 1.14.1. Run
+
+conda update -n root conda-build
+
+to get the latest version.
+
+
+Applying patch: '/tmp/tmpz3MpL_conda_skeleton_RestrictedPython-3.6.0.zip/pypi-distutils.patch'
+Warning, the following versions were found for zope.testrunner
+4.4.9
+4.4.8
+4.4.7
+4.4.6
+4.4.5
+4.4.4
+4.4.3
+4.4.2
+4.4.1
+4.4.0
+4.3.3
+4.3.2
+4.3.1
+4.3.0
+4.2.0
+4.1.1
+4.1.0
+4.0.4
+4.0.3
+4.0.2
+4.0.1
+4.0.0
+4.0.0b5
+4.0.0b4
+4.0.0b3
+4.0.0b2
+4.0.0b1
+Using 4.4.9
+Use --version to specify a different version.
+Using url https://pypi.python.org/packages/source/z/zope.testrunner/zope.testrunner-4.4.9.zip (258 KB) for zope.testrunner.
+Downloading zope.testrunner
+Using cached download
+Unpacking zope.testrunner...
+done
+working in /tmp/tmpOeQ0V4conda_skeleton_zope.testrunner-4.4.9.zip
+Solving package specifications: .patching file core.py
+Hunk #1 succeeded at 168 with fuzz 2 (offset 2 lines).
+
+WARNING: conda-build appears to be out of date. You have version 1.13.0 but the
+latest version is 1.14.1. Run
+
+conda update -n root conda-build
+
+to get the latest version.
+
+
+Applying patch: '/tmp/tmpOeQ0V4conda_skeleton_zope.testrunner-4.4.9.zip/pypi-distutils.patch'
+Warning, the following versions were found for zope.location
+4.0.3
+4.0.2
+4.0.1
+4.0.0
+3.9.1
+3.9.0
+3.8.2
+3.8.1
+3.8.0
+3.7.1
+3.7.0
+3.6.0
+3.5.5
+3.5.4
+3.5.3
+3.5.2
+3.5.1
+3.5.0
+3.4.0
+3.4.0b2
+Using 4.0.3
+Use --version to specify a different version.
+Using url https://pypi.python.org/packages/source/z/zope.location/zope.location-4.0.3.tar.gz (150 KB) for zope.location.
+Downloading zope.location
+Using cached download
+Unpacking zope.location...
+done
+working in /tmp/tmpQAga3fconda_skeleton_zope.location-4.0.3.tar.gz
+Solving package specifications: .patching file core.py
+Hunk #1 succeeded at 168 with fuzz 2 (offset 2 lines).
+
+WARNING: conda-build appears to be out of date. You have version 1.13.0 but the
+latest version is 1.14.1. Run
+
+conda update -n root conda-build
+
+to get the latest version.
+
+
+Applying patch: '/tmp/tmpQAga3fconda_skeleton_zope.location-4.0.3.tar.gz/pypi-distutils.patch'
+Warning, the following versions were found for zope.configuration
+4.0.3
+4.0.2
+4.0.1
+4.0.0
+3.8.1
+3.8.0
+3.7.4
+3.7.3
+3.7.2
+3.7.1
+3.7.0
+3.6.0
+3.5.0
+3.4.1
+3.4.0
+3.4dev-r72952
+Using 4.0.3
+Use --version to specify a different version.
+Using url https://pypi.python.org/packages/source/z/zope.configuration/zope.configuration-4.0.3.tar.gz (476 KB) for zope.configuration.
+Downloading zope.configuration
+Using cached download
+Unpacking zope.configuration...
+done
+working in /tmp/tmpqJjc_pconda_skeleton_zope.configuration-4.0.3.tar.gz
+Solving package specifications: .patching file core.py
+Hunk #1 succeeded at 168 with fuzz 2 (offset 2 lines).
+
+WARNING: conda-build appears to be out of date. You have version 1.13.0 but the
+latest version is 1.14.1. Run
+
+conda update -n root conda-build
+
+to get the latest version.
+
+
+Applying patch: '/tmp/tmpqJjc_pconda_skeleton_zope.configuration-4.0.3.tar.gz/pypi-distutils.patch'
+Warning, the following versions were found for zope.component
+4.2.2
+4.2.1
+4.2.0
+4.1.0
+4.0.2
+4.0.1
+4.0.0
+3.12.1
+3.12.0
+3.11.0
+3.10.0
+3.9.5
+3.9.4
+3.9.3
+3.9.2
+3.9.1
+3.9.0
+3.8.0
+3.7.1
+3.7.0
+3.6.0
+3.5.1
+3.5.0
+3.4.0
+3.4dev-r72749
+3.4dev-r72748
+3.4dev-r72747
+3.4dev-r72605
+Using 4.2.2
+Use --version to specify a different version.
+Using url https://pypi.python.org/packages/source/z/zope.component/zope.component-4.2.2.tar.gz (534 KB) for zope.component.
+Downloading zope.component
+Using cached download
+Unpacking zope.component...
+done
+working in /tmp/tmp4Pd0crconda_skeleton_zope.component-4.2.2.tar.gz
+Solving package specifications: .patching file core.py
+Hunk #1 succeeded at 168 with fuzz 2 (offset 2 lines).
+
+Applying patch: '/tmp/tmp4Pd0crconda_skeleton_zope.component-4.2.2.tar.gz/pypi-distutils.patch'
+Error: Could not find any versions of package zope.component[zcml]

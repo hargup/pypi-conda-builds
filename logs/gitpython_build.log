@@ -2,7 +2,19 @@ Removing old build directory
 Removing old work directory
 BUILD START: gitpython-1.0.1-py27_0
 Fetching package metadata: ......
-Solving package specifications: .+ /home/ubuntu/miniconda/envs/_build/bin/python setup.py install
+
+WARNING: conda-build appears to be out of date. You have version 1.13.0 but the
+latest version is 1.14.1. Run
+
+conda update -n root conda-build
+
+to get the latest version.
+
+Solving package specifications: .................
+Warning: 2 possible package resolutions (only showing differing packages):
+	[u'smmap-0.9.0-py_0.tar.bz2'],
+	[u'smmap-0.9.0-py27_0.tar.bz2'],
++ /home/ubuntu/miniconda/envs/_build/bin/python setup.py install
 /home/ubuntu/miniconda/envs/_build/lib/python2.7/distutils/dist.py:267: UserWarning: Unknown distribution option: 'test_requirements'
   warnings.warn(msg)
 running install
@@ -366,17 +378,17 @@ Finished processing dependencies for GitPython==1.0.1
 
 The following NEW packages will be INSTALLED:
 
-    gitdb:      0.6.4-py27_0
-    openssl:    1.0.1k-1    
-    pip:        7.0.3-py27_0
-    python:     2.7.10-0    
-    readline:   6.2-2       
-    setuptools: 17.0-py27_0 
-    smmap:      0.9.0-py27_0
-    sqlite:     3.8.4.1-1   
-    system:     5.8-2       
-    tk:         8.5.18-0    
-    zlib:       1.2.8-0     
+    gitdb:      0.6.4-py27_0 
+    openssl:    1.0.1k-1     
+    pip:        7.0.3-py27_0 
+    python:     2.7.10-0     
+    readline:   6.2-2        
+    setuptools: 18.0.1-py27_0
+    smmap:      0.9.0-py_0   
+    sqlite:     3.8.4.1-1    
+    system:     5.8-2        
+    tk:         8.5.18-0     
+    zlib:       1.2.8-0      
 
 Linking packages ...
 [                    ]|                                                  |   0%[openssl             ]|                                                  |   0%[readline            ]|####                                              |   9%[sqlite              ]|#########                                         |  18%[system              ]|#############                                     |  27%[tk                  ]|##################                                |  36%[zlib                ]|######################                            |  45%[python              ]|###########################                       |  54%[setuptools          ]|###############################                   |  63%[smmap               ]|####################################              |  72%[gitdb               ]|########################################          |  81%[pip                 ]|#############################################     |  90%[      COMPLETE      ]|##################################################| 100%
@@ -393,7 +405,19 @@ Fixing permissions
 BUILD END: gitpython-1.0.1-py27_0
 TEST START: gitpython-1.0.1-py27_0
 Fetching package metadata: ......
-Solving package specifications: .
+
+WARNING: conda-build appears to be out of date. You have version 1.13.0 but the
+latest version is 1.14.1. Run
+
+conda update -n root conda-build
+
+to get the latest version.
+
+Solving package specifications: .................
+Warning: 2 possible package resolutions (only showing differing packages):
+	[u'smmap-0.9.0-py_0.tar.bz2'],
+	[u'smmap-0.9.0-py27_0.tar.bz2'],
+
 The following packages will be downloaded:
 
     package                    |            build
@@ -402,25 +426,25 @@ The following packages will be downloaded:
 
 The following NEW packages will be INSTALLED:
 
-    gitdb:      0.6.4-py27_0
-    gitpython:  1.0.1-py27_0
-    openssl:    1.0.1k-1    
-    pip:        7.0.3-py27_0
-    python:     2.7.10-0    
-    readline:   6.2-2       
-    setuptools: 17.0-py27_0 
-    smmap:      0.9.0-py27_0
-    sqlite:     3.8.4.1-1   
-    system:     5.8-2       
-    tk:         8.5.18-0    
-    zlib:       1.2.8-0     
+    gitdb:      0.6.4-py27_0 
+    gitpython:  1.0.1-py27_0 
+    openssl:    1.0.1k-1     
+    pip:        7.0.3-py27_0 
+    python:     2.7.10-0     
+    readline:   6.2-2        
+    setuptools: 18.0.1-py27_0
+    smmap:      0.9.0-py_0   
+    sqlite:     3.8.4.1-1    
+    system:     5.8-2        
+    tk:         8.5.18-0     
+    zlib:       1.2.8-0      
 
 Fetching packages ...
-gitpython-1.0.   0% |                              | ETA:  --:--:--   0.00  B/sgitpython-1.0.   3% |#                              | ETA:  0:00:00  45.75 MB/sgitpython-1.0.   7% |##                             | ETA:  0:00:00  57.67 MB/sgitpython-1.0.  11% |###                            | ETA:  0:00:00  64.75 MB/sgitpython-1.0.  15% |####                           | ETA:  0:00:00  69.20 MB/sgitpython-1.0.  19% |#####                          | ETA:  0:00:00  72.17 MB/sgitpython-1.0.  22% |#######                        | ETA:  0:00:00  74.36 MB/sgitpython-1.0.  26% |########                       | ETA:  0:00:00  76.25 MB/sgitpython-1.0.  30% |#########                      | ETA:  0:00:00  77.78 MB/sgitpython-1.0.  34% |##########                     | ETA:  0:00:00  78.73 MB/sgitpython-1.0.  38% |###########                    | ETA:  0:00:00  79.84 MB/sgitpython-1.0.  42% |#############                  | ETA:  0:00:00  80.71 MB/sgitpython-1.0.  45% |##############                 | ETA:  0:00:00  81.54 MB/sgitpython-1.0.  49% |###############                | ETA:  0:00:00  81.67 MB/sgitpython-1.0.  53% |################               | ETA:  0:00:00  82.24 MB/sgitpython-1.0.  57% |#################              | ETA:  0:00:00  82.83 MB/sgitpython-1.0.  61% |##################             | ETA:  0:00:00  83.30 MB/sgitpython-1.0.  64% |####################           | ETA:  0:00:00  83.67 MB/sgitpython-1.0.  68% |#####################          | ETA:  0:00:00  84.04 MB/sgitpython-1.0.  72% |######################         | ETA:  0:00:00  84.43 MB/sgitpython-1.0.  76% |#######################        | ETA:  0:00:00  84.71 MB/sgitpython-1.0.  80% |########################       | ETA:  0:00:00  85.01 MB/sgitpython-1.0.  84% |##########################     | ETA:  0:00:00  85.33 MB/sgitpython-1.0.  87% |###########################    | ETA:  0:00:00  85.60 MB/sgitpython-1.0.  91% |############################   | ETA:  0:00:00  85.78 MB/sgitpython-1.0.  95% |#############################  | ETA:  0:00:00  85.96 MB/sgitpython-1.0.  99% |############################## | ETA:  0:00:00  86.18 MB/sgitpython-1.0. 100% |###############################| Time: 0:00:00  32.11 MB/s
+gitpython-1.0.   0% |                              | ETA:  --:--:--   0.00  B/sgitpython-1.0.   3% |#                              | ETA:  0:00:00  44.89 MB/sgitpython-1.0.   7% |##                             | ETA:  0:00:00  56.68 MB/sgitpython-1.0.  11% |###                            | ETA:  0:00:00  63.91 MB/sgitpython-1.0.  15% |####                           | ETA:  0:00:00  67.90 MB/sgitpython-1.0.  19% |#####                          | ETA:  0:00:00  69.36 MB/sgitpython-1.0.  22% |#######                        | ETA:  0:00:00  71.60 MB/sgitpython-1.0.  26% |########                       | ETA:  0:00:00  73.65 MB/sgitpython-1.0.  30% |#########                      | ETA:  0:00:00  75.37 MB/sgitpython-1.0.  34% |##########                     | ETA:  0:00:00  14.65 MB/sgitpython-1.0.  38% |###########                    | ETA:  0:00:00  15.99 MB/sgitpython-1.0.  42% |#############                  | ETA:  0:00:00  17.28 MB/sgitpython-1.0.  45% |##############                 | ETA:  0:00:00  18.52 MB/sgitpython-1.0.  49% |###############                | ETA:  0:00:00  19.73 MB/sgitpython-1.0.  53% |################               | ETA:  0:00:00  20.89 MB/sgitpython-1.0.  57% |#################              | ETA:  0:00:00  22.02 MB/sgitpython-1.0.  61% |##################             | ETA:  0:00:00  23.12 MB/sgitpython-1.0.  64% |####################           | ETA:  0:00:00  24.18 MB/sgitpython-1.0.  68% |#####################          | ETA:  0:00:00  25.21 MB/sgitpython-1.0.  72% |######################         | ETA:  0:00:00  26.21 MB/sgitpython-1.0.  76% |#######################        | ETA:  0:00:00  27.17 MB/sgitpython-1.0.  80% |########################       | ETA:  0:00:00  28.10 MB/sgitpython-1.0.  84% |##########################     | ETA:  0:00:00  29.01 MB/sgitpython-1.0.  87% |###########################    | ETA:  0:00:00  29.90 MB/sgitpython-1.0.  91% |############################   | ETA:  0:00:00  30.76 MB/sgitpython-1.0.  95% |#############################  | ETA:  0:00:00  31.60 MB/sgitpython-1.0.  99% |############################## | ETA:  0:00:00  32.37 MB/sgitpython-1.0. 100% |###############################| Time: 0:00:00  31.88 MB/s
 Extracting packages ...
 [      COMPLETE      ]|                                                  |   0%[gitpython           ]|                                                  |   0%[gitpython           ]|                                                  |   0%[      COMPLETE      ]|##################################################| 100%
 Linking packages ...
-[      COMPLETE      ]|                                                  |   0%[openssl             ]|                                                  |   0%[openssl             ]|                                                  |   0%[readline            ]|####                                              |   8%[sqlite              ]|########                                          |  16%[system              ]|############                                      |  25%[tk                  ]|################                                  |  33%[zlib                ]|####################                              |  41%[python              ]|#########################                         |  50%[setuptools          ]|#############################                     |  58%[smmap               ]|#################################    ===== testing package: gitpython-1.0.1-py27_0 =====
+[      COMPLETE      ]|                                                  |   0%[openssl             ]|                                                  |   0%[openssl             ]|                                                  |   0%[readline            ]|####                                              |   8%[sqlite              ]|########                                          |  16%[system              ]|############                                      |  25%[tk                  ]|################                                  |  33%[zlib                ]|####################                              |  41%[python              ]|#########################                         |  50%[setuptools          ]|#############################                     |  58%[smmap               ]|#########################===== testing package: gitpython-1.0.1-py27_0 =====
 import: u'git'
 import: u'git.index'
 import: u'git.objects'
@@ -437,5 +461,5 @@ Traceback (most recent call last):
   File "/home/ubuntu/miniconda/envs/_test/lib/python2.7/site-packages/git/test/lib/asserts.py", line 10, in <module>
     from nose.tools import (
 ImportError: No module named nose.tools
-             |  66%[gitdb               ]|#####################################             |  75%[pip                 ]|#########################################         |  83%[gitpython           ]|#############################################     |  91%[      COMPLETE      ]|##################################################| 100%
+########                 |  66%[gitdb               ]|#####################################             |  75%[pip                 ]|#########################################         |  83%[gitpython           ]|#############################################     |  91%[      COMPLETE      ]|##################################################| 100%
 TESTS FAILED: gitpython-1.0.1-py27_0

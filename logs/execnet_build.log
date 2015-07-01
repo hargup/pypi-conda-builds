@@ -1,39 +1,132 @@
 Removing old build directory
 Removing old work directory
-BUILD START: execnet-1.3.0-py27_0
+BUILD START: execnet-1.3.0-py_0
 Fetching package metadata: ......
+
+WARNING: conda-build appears to be out of date. You have version 1.13.0 but the
+latest version is 1.14.1. Run
+
+conda update -n root conda-build
+
+to get the latest version.
+
 Solving package specifications: .+ /home/ubuntu/miniconda/envs/_build/bin/python setup.py install
-Traceback (most recent call last):
-  File "setup.py", line 71, in <module>
-    main()
-  File "setup.py", line 66, in main
-    'hgdistver',
-  File "/home/ubuntu/miniconda/envs/_build/lib/python2.7/distutils/core.py", line 111, in setup
-    _setup_distribution = dist = klass(attrs)
-  File "/home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/setuptools-17.0-py2.7.egg/setuptools/dist.py", line 268, in __init__
-  File "/home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/setuptools-17.0-py2.7.egg/setuptools/dist.py", line 313, in fetch_build_eggs
-  File "/home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/setuptools-17.0-py2.7.egg/pkg_resources/__init__.py", line 830, in resolve
-  File "/home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/setuptools-17.0-py2.7.egg/pkg_resources/__init__.py", line 1075, in best_match
-  File "/home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/setuptools-17.0-py2.7.egg/pkg_resources/__init__.py", line 1087, in obtain
-  File "/home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/setuptools-17.0-py2.7.egg/setuptools/dist.py", line 380, in fetch_build_egg
-  File "/home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/setuptools-17.0-py2.7.egg/setuptools/command/easy_install.py", line 617, in easy_install
-  File "/home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/setuptools-17.0-py2.7.egg/setuptools/package_index.py", line 594, in fetch_distribution
-  File "/home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/setuptools-17.0-py2.7.egg/setuptools/package_index.py", line 431, in find_packages
-  File "/home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/setuptools-17.0-py2.7.egg/setuptools/package_index.py", line 765, in scan_url
-  File "/home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/setuptools-17.0-py2.7.egg/setuptools/package_index.py", line 283, in process_url
-RuntimeError: Setuptools downloading is disabled in conda build. Be sure to add all dependencies in the meta.yaml  url=https://pypi.python.org/simple/hgdistver/r
+zip_safe flag not set; analyzing archive contents...
+
+Installed /home/ubuntu/miniconda/conda-bld/work/execnet-1.3.0/.eggs/hgdistver-0.25-py2.7.egg
+running install
+running bdist_egg
+running egg_info
+writing execnet.egg-info/PKG-INFO
+writing top-level names to execnet.egg-info/top_level.txt
+writing dependency_links to execnet.egg-info/dependency_links.txt
+reading manifest file 'execnet.egg-info/SOURCES.txt'
+writing manifest file 'execnet.egg-info/SOURCES.txt'
+installing library code to build/bdist.linux-x86_64/egg
+running install_lib
+running build_py
+creating build
+creating build/lib
+creating build/lib/execnet
+copying execnet/gateway.py -> build/lib/execnet
+copying execnet/deprecated.py -> build/lib/execnet
+copying execnet/rsync_remote.py -> build/lib/execnet
+copying execnet/rsync.py -> build/lib/execnet
+copying execnet/xspec.py -> build/lib/execnet
+copying execnet/gateway_socket.py -> build/lib/execnet
+copying execnet/gateway_base.py -> build/lib/execnet
+copying execnet/__init__.py -> build/lib/execnet
+copying execnet/multi.py -> build/lib/execnet
+copying execnet/gateway_bootstrap.py -> build/lib/execnet
+copying execnet/apipkg.py -> build/lib/execnet
+copying execnet/gateway_io.py -> build/lib/execnet
+creating build/lib/execnet/script
+copying execnet/script/loop_socketserver.py -> build/lib/execnet/script
+copying execnet/script/xx.py -> build/lib/execnet/script
+copying execnet/script/shell.py -> build/lib/execnet/script
+copying execnet/script/socketserver.py -> build/lib/execnet/script
+copying execnet/script/__init__.py -> build/lib/execnet/script
+copying execnet/script/quitserver.py -> build/lib/execnet/script
+copying execnet/script/socketserverservice.py -> build/lib/execnet/script
+creating build/bdist.linux-x86_64
+creating build/bdist.linux-x86_64/egg
+creating build/bdist.linux-x86_64/egg/execnet
+copying build/lib/execnet/gateway.py -> build/bdist.linux-x86_64/egg/execnet
+copying build/lib/execnet/deprecated.py -> build/bdist.linux-x86_64/egg/execnet
+copying build/lib/execnet/rsync_remote.py -> build/bdist.linux-x86_64/egg/execnet
+creating build/bdist.linux-x86_64/egg/execnet/script
+copying build/lib/execnet/script/loop_socketserver.py -> build/bdist.linux-x86_64/egg/execnet/script
+copying build/lib/execnet/script/xx.py -> build/bdist.linux-x86_64/egg/execnet/script
+copying build/lib/execnet/script/shell.py -> build/bdist.linux-x86_64/egg/execnet/script
+copying build/lib/execnet/script/socketserver.py -> build/bdist.linux-x86_64/egg/execnet/script
+copying build/lib/execnet/script/__init__.py -> build/bdist.linux-x86_64/egg/execnet/script
+copying build/lib/execnet/script/quitserver.py -> build/bdist.linux-x86_64/egg/execnet/script
+copying build/lib/execnet/script/socketserverservice.py -> build/bdist.linux-x86_64/egg/execnet/script
+copying build/lib/execnet/rsync.py -> build/bdist.linux-x86_64/egg/execnet
+copying build/lib/execnet/xspec.py -> build/bdist.linux-x86_64/egg/execnet
+copying build/lib/execnet/gateway_socket.py -> build/bdist.linux-x86_64/egg/execnet
+copying build/lib/execnet/gateway_base.py -> build/bdist.linux-x86_64/egg/execnet
+copying build/lib/execnet/__init__.py -> build/bdist.linux-x86_64/egg/execnet
+copying build/lib/execnet/multi.py -> build/bdist.linux-x86_64/egg/execnet
+copying build/lib/execnet/gateway_bootstrap.py -> build/bdist.linux-x86_64/egg/execnet
+copying build/lib/execnet/apipkg.py -> build/bdist.linux-x86_64/egg/execnet
+copying build/lib/execnet/gateway_io.py -> build/bdist.linux-x86_64/egg/execnet
+byte-compiling build/bdist.linux-x86_64/egg/execnet/gateway.py to gateway.pyc
+byte-compiling build/bdist.linux-x86_64/egg/execnet/deprecated.py to deprecated.pyc
+byte-compiling build/bdist.linux-x86_64/egg/execnet/rsync_remote.py to rsync_remote.pyc
+byte-compiling build/bdist.linux-x86_64/egg/execnet/script/loop_socketserver.py to loop_socketserver.pyc
+byte-compiling build/bdist.linux-x86_64/egg/execnet/script/xx.py to xx.pyc
+byte-compiling build/bdist.linux-x86_64/egg/execnet/script/shell.py to shell.pyc
+byte-compiling build/bdist.linux-x86_64/egg/execnet/script/socketserver.py to socketserver.pyc
+byte-compiling build/bdist.linux-x86_64/egg/execnet/script/__init__.py to __init__.pyc
+byte-compiling build/bdist.linux-x86_64/egg/execnet/script/quitserver.py to quitserver.pyc
+byte-compiling build/bdist.linux-x86_64/egg/execnet/script/socketserverservice.py to socketserverservice.pyc
+byte-compiling build/bdist.linux-x86_64/egg/execnet/rsync.py to rsync.pyc
+byte-compiling build/bdist.linux-x86_64/egg/execnet/xspec.py to xspec.pyc
+byte-compiling build/bdist.linux-x86_64/egg/execnet/gateway_socket.py to gateway_socket.pyc
+byte-compiling build/bdist.linux-x86_64/egg/execnet/gateway_base.py to gateway_base.pyc
+byte-compiling build/bdist.linux-x86_64/egg/execnet/__init__.py to __init__.pyc
+byte-compiling build/bdist.linux-x86_64/egg/execnet/multi.py to multi.pyc
+byte-compiling build/bdist.linux-x86_64/egg/execnet/gateway_bootstrap.py to gateway_bootstrap.pyc
+byte-compiling build/bdist.linux-x86_64/egg/execnet/apipkg.py to apipkg.pyc
+byte-compiling build/bdist.linux-x86_64/egg/execnet/gateway_io.py to gateway_io.pyc
+creating build/bdist.linux-x86_64/egg/EGG-INFO
+copying execnet.egg-info/PKG-INFO -> build/bdist.linux-x86_64/egg/EGG-INFO
+copying execnet.egg-info/SOURCES.txt -> build/bdist.linux-x86_64/egg/EGG-INFO
+copying execnet.egg-info/dependency_links.txt -> build/bdist.linux-x86_64/egg/EGG-INFO
+copying execnet.egg-info/top_level.txt -> build/bdist.linux-x86_64/egg/EGG-INFO
+zip_safe flag not set; analyzing archive contents...
+execnet.gateway_bootstrap: module references __file__
+execnet.gateway_bootstrap: module MAY be using inspect.getsource
+execnet.apipkg: module references __file__
+execnet.apipkg: module references __path__
+execnet.gateway: module references __file__
+execnet.gateway: module MAY be using inspect.getsource
+execnet.gateway: module MAY be using inspect.getsourcefile
+execnet.script.socketserverservice: module references __file__
+creating dist
+creating 'dist/execnet-1.3.0-py2.7.egg' and adding 'build/bdist.linux-x86_64/egg' to it
+removing 'build/bdist.linux-x86_64/egg' (and everything under it)
+Processing execnet-1.3.0-py2.7.egg
+creating /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/execnet-1.3.0-py2.7.egg
+Extracting execnet-1.3.0-py2.7.egg to /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages
+Adding execnet 1.3.0 to easy-install.pth file
+
+Installed /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/execnet-1.3.0-py2.7.egg
+Processing dependencies for execnet==1.3.0
+Finished processing dependencies for execnet==1.3.0
 
 The following NEW packages will be INSTALLED:
 
-    openssl:    1.0.1k-1    
-    pip:        7.0.3-py27_0
-    python:     2.7.10-0    
-    readline:   6.2-2       
-    setuptools: 17.0-py27_0 
-    sqlite:     3.8.4.1-1   
-    system:     5.8-2       
-    tk:         8.5.18-0    
-    zlib:       1.2.8-0     
+    openssl:    1.0.1k-1     
+    pip:        7.0.3-py27_0 
+    python:     2.7.10-0     
+    readline:   6.2-2        
+    setuptools: 18.0.1-py27_0
+    sqlite:     3.8.4.1-1    
+    system:     5.8-2        
+    tk:         8.5.18-0     
+    zlib:       1.2.8-0      
 
 Linking packages ...
 [                    ]|                                                  |   0%[openssl             ]|                                                  |   0%[readline            ]|#####                                             |  11%[sqlite              ]|###########                                       |  22%[system              ]|################                                  |  33%[tk                  ]|######################                            |  44%[zlib                ]|###########################                       |  55%[python              ]|#################################                 |  66%[setuptools          ]|######################################            |  77%[pip                 ]|############################################      |  88%[      COMPLETE      ]|##################################################| 100%
@@ -41,6 +134,47 @@ Removing old work directory
 Source cache directory is: /home/ubuntu/miniconda/conda-bld/src_cache
 Found source in cache: execnet-1.3.0.tar.gz
 Extracting download
-Package: execnet-1.3.0-py27_0
+Package: execnet-1.3.0-py_0
 source tree in: /home/ubuntu/miniconda/conda-bld/work/execnet-1.3.0
-Command failed: /bin/bash -x -e /home/ubuntu/pypi-conda-builds/recipes/execnet/build.sh
+found egg dir: /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/execnet-1.3.0-py2.7.egg
+number of files: 39
+Fixing permissions
+Fixing permissions
+BUILD END: execnet-1.3.0-py_0
+TEST START: execnet-1.3.0-py_0
+Fetching package metadata: ......
+
+WARNING: conda-build appears to be out of date. You have version 1.13.0 but the
+latest version is 1.14.1. Run
+
+conda update -n root conda-build
+
+to get the latest version.
+
+Solving package specifications: ./home/ubuntu/miniconda/pkgs/execnet-1.3.0-py_0/bin/.execnet-pre-link.sh: line 2: /home/ubuntu/miniconda/envs/_test/bin/python: No such file or directory
+
+The following packages will be downloaded:
+
+    package                    |            build
+    ---------------------------|-----------------
+    execnet-1.3.0              |             py_0          27 KB
+
+The following NEW packages will be INSTALLED:
+
+    execnet:    1.3.0-py_0   
+    openssl:    1.0.1k-1     
+    pip:        7.0.3-py27_0 
+    python:     2.7.10-0     
+    readline:   6.2-2        
+    setuptools: 18.0.1-py27_0
+    sqlite:     3.8.4.1-1    
+    system:     5.8-2        
+    tk:         8.5.18-0     
+    zlib:       1.2.8-0      
+
+Fetching packages ...
+execnet-1.3.0-   0% |                              | ETA:  --:--:--   0.00  B/sexecnet-1.3.0-  59% |##################             | ETA:  0:00:00  44.28 MB/sexecnet-1.3.0- 100% |###############################| ETA:  0:00:00  48.61 MB/sexecnet-1.3.0- 100% |###############################| Time: 0:00:00  33.76 MB/s
+Extracting packages ...
+[      COMPLETE      ]|                                                  |   0%[execnet             ]|                                                  |   0%[execnet             ]|                                                  |   0%[      COMPLETE      ]|##################################################| 100%
+Linking packages ...
+[      COMPLETE      ]|                                                  |   0%[openssl             ]|                                                  |   0%[openssl             ]|                                                  |   0%[readline            ]|#####                                             |  10%[sqlite              ]|##########                                        |  20%[system              ]|###############                                   |  30%[tk                  ]|####################                              |  40%[zlib                ]|#########################                         |  50%[execnet             ]|##############################                    |  60%Error: pre-link failed: execnet-1.3.0-py_0

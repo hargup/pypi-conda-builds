@@ -1,7 +1,15 @@
 Removing old build directory
 Removing old work directory
-BUILD START: tzlocal-1.1.3-py27_0
+BUILD START: tzlocal-1.2-py_0
 Fetching package metadata: ......
+
+WARNING: conda-build appears to be out of date. You have version 1.13.0 but the
+latest version is 1.14.1. Run
+
+conda update -n root conda-build
+
+to get the latest version.
+
 Solving package specifications: .+ /home/ubuntu/miniconda/envs/_build/bin/python setup.py install
 running install
 running bdist_egg
@@ -97,21 +105,21 @@ copying tzlocal.egg-info/requires.txt -> build/bdist.linux-x86_64/egg/EGG-INFO
 copying tzlocal.egg-info/top_level.txt -> build/bdist.linux-x86_64/egg/EGG-INFO
 copying tzlocal.egg-info/zip-safe -> build/bdist.linux-x86_64/egg/EGG-INFO
 creating dist
-creating 'dist/tzlocal-1.1.3-py2.7.egg' and adding 'build/bdist.linux-x86_64/egg' to it
+creating 'dist/tzlocal-1.2-py2.7.egg' and adding 'build/bdist.linux-x86_64/egg' to it
 removing 'build/bdist.linux-x86_64/egg' (and everything under it)
-Processing tzlocal-1.1.3-py2.7.egg
-Copying tzlocal-1.1.3-py2.7.egg to /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages
-Adding tzlocal 1.1.3 to easy-install.pth file
+Processing tzlocal-1.2-py2.7.egg
+Copying tzlocal-1.2-py2.7.egg to /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages
+Adding tzlocal 1.2 to easy-install.pth file
 
-Installed /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/tzlocal-1.1.3-py2.7.egg
-Processing dependencies for tzlocal==1.1.3
+Installed /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/tzlocal-1.2-py2.7.egg
+Processing dependencies for tzlocal==1.2
 Searching for pytz==2015.4
 Best match: pytz 2015.4
 Processing pytz-2015.4-py2.7.egg
 Adding pytz 2015.4 to easy-install.pth file
 
 Using /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/pytz-2015.4-py2.7.egg
-Finished processing dependencies for tzlocal==1.1.3
+Finished processing dependencies for tzlocal==1.2
 
 The following NEW packages will be INSTALLED:
 
@@ -120,7 +128,7 @@ The following NEW packages will be INSTALLED:
     python:     2.7.10-0     
     pytz:       2015.4-py27_0
     readline:   6.2-2        
-    setuptools: 17.0-py27_0  
+    setuptools: 18.0.1-py27_0
     sqlite:     3.8.4.1-1    
     system:     5.8-2        
     tk:         8.5.18-0     
@@ -130,26 +138,34 @@ Linking packages ...
 [                    ]|                                                  |   0%[openssl             ]|                                                  |   0%[readline            ]|#####                                             |  10%[sqlite              ]|##########                                        |  20%[system              ]|###############                                   |  30%[tk                  ]|####################                              |  40%[zlib                ]|#########################                         |  50%[python              ]|##############################                    |  60%[pytz                ]|###################################               |  70%[setuptools          ]|########################################          |  80%[pip                 ]|#############################################     |  90%[      COMPLETE      ]|##################################################| 100%
 Removing old work directory
 Source cache directory is: /home/ubuntu/miniconda/conda-bld/src_cache
-Found source in cache: tzlocal-1.1.3.tar.gz
+Found source in cache: tzlocal-1.2.tar.gz
 Extracting download
-Package: tzlocal-1.1.3-py27_0
-source tree in: /home/ubuntu/miniconda/conda-bld/work/tzlocal-1.1.3
-found egg: /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/tzlocal-1.1.3-py2.7.egg
+Package: tzlocal-1.2-py_0
+source tree in: /home/ubuntu/miniconda/conda-bld/work/tzlocal-1.2
+found egg: /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/tzlocal-1.2-py2.7.egg
 number of files: 2
 Fixing permissions
 Fixing permissions
-BUILD END: tzlocal-1.1.3-py27_0
-TEST START: tzlocal-1.1.3-py27_0
+BUILD END: tzlocal-1.2-py_0
+TEST START: tzlocal-1.2-py_0
 Fetching package metadata: ......
-Solving package specifications: .===== testing package: tzlocal-1.1.3-py27_0 =====
+
+WARNING: conda-build appears to be out of date. You have version 1.13.0 but the
+latest version is 1.14.1. Run
+
+conda update -n root conda-build
+
+to get the latest version.
+
+Solving package specifications: .===== testing package: tzlocal-1.2-py_0 =====
 import: u'tzlocal'
-===== tzlocal-1.1.3-py27_0 OK =====
+===== tzlocal-1.2-py_0 OK =====
 
 The following packages will be downloaded:
 
     package                    |            build
     ---------------------------|-----------------
-    tzlocal-1.1.3              |           py27_0          26 KB
+    tzlocal-1.2                |             py_0          27 KB
 
 The following NEW packages will be INSTALLED:
 
@@ -158,23 +174,23 @@ The following NEW packages will be INSTALLED:
     python:     2.7.10-0     
     pytz:       2015.4-py27_0
     readline:   6.2-2        
-    setuptools: 17.0-py27_0  
+    setuptools: 18.0.1-py27_0
     sqlite:     3.8.4.1-1    
     system:     5.8-2        
     tk:         8.5.18-0     
-    tzlocal:    1.1.3-py27_0 
+    tzlocal:    1.2-py_0     
     zlib:       1.2.8-0      
 
 Fetching packages ...
-tzlocal-1.1.3-   0% |                              | ETA:  --:--:--   0.00  B/stzlocal-1.1.3-  61% |###################            | ETA:  0:00:00  45.27 MB/stzlocal-1.1.3- 100% |###############################| ETA:  0:00:00  47.55 MB/stzlocal-1.1.3- 100% |###############################| Time: 0:00:00  33.96 MB/s
+tzlocal-1.2-py   0% |                              | ETA:  --:--:--   0.00  B/stzlocal-1.2-py  58% |##################             | ETA:  0:00:00  48.19 MB/stzlocal-1.2-py 100% |###############################| ETA:  0:00:00  49.36 MB/stzlocal-1.2-py 100% |###############################| Time: 0:00:00  34.38 MB/s
 Extracting packages ...
 [      COMPLETE      ]|                                                  |   0%[tzlocal             ]|                                                  |   0%[tzlocal             ]|                                                  |   0%[      COMPLETE      ]|##################################################| 100%
 Linking packages ...
 [      COMPLETE      ]|                                                  |   0%[openssl             ]|                                                  |   0%[openssl             ]|                                                  |   0%[readline            ]|####                                              |   9%[sqlite              ]|#########                                         |  18%[system              ]|#############                                     |  27%[tk                  ]|##################                                |  36%[zlib                ]|######################                            |  45%[python              ]|###########################                       |  54%[pytz                ]|###############################                   |  63%[setuptools          ]|####################################              |  72%[pip                 ]|########################################          |  81%[tzlocal             ]|#############################################     |  90%[      COMPLETE      ]|##################################################| 100%
-TEST END: tzlocal-1.1.3-py27_0
+TEST END: tzlocal-1.2-py_0
 # If you want to upload this package to binstar.org later, type:
 #
-# $ binstar upload /home/ubuntu/miniconda/conda-bld/linux-64/tzlocal-1.1.3-py27_0.tar.bz2
+# $ binstar upload /home/ubuntu/miniconda/conda-bld/noarch/tzlocal-1.2-py_0.tar.bz2
 #
 # To have conda build upload to binstar automatically, use
 # $ conda config --set binstar_upload yes

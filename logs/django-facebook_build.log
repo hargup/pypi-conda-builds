@@ -1,0 +1,362 @@
+Removing old build directory
+Removing old work directory
+BUILD START: django-facebook-6.0.3-py_0
+Fetching package metadata: ......
+
+WARNING: conda-build appears to be out of date. You have version 1.13.0 but the
+latest version is 1.14.1. Run
+
+conda update -n root conda-build
+
+to get the latest version.
+
+Solving package specifications: .................
+Warning: 2 possible package resolutions (only showing differing packages):
+	[u'unidecode-0.4.17-py27_0.tar.bz2'],
+	[u'unidecode-0.04.17-py27_0.tar.bz2'],
++ /home/ubuntu/miniconda/envs/_build/bin/python setup.py install
+running install
+running bdist_egg
+running egg_info
+writing requirements to django_facebook.egg-info/requires.txt
+writing django_facebook.egg-info/PKG-INFO
+writing top-level names to django_facebook.egg-info/top_level.txt
+writing dependency_links to django_facebook.egg-info/dependency_links.txt
+reading manifest file 'django_facebook.egg-info/SOURCES.txt'
+reading manifest template 'MANIFEST.in'
+writing manifest file 'django_facebook.egg-info/SOURCES.txt'
+installing library code to build/bdist.linux-x86_64/egg
+running install_lib
+running build_py
+creating build
+creating build/lib
+creating build/lib/django_facebook
+copying django_facebook/registration_views.py -> build/lib/django_facebook
+copying django_facebook/admin.py -> build/lib/django_facebook
+copying django_facebook/auth_backends.py -> build/lib/django_facebook
+copying django_facebook/tasks.py -> build/lib/django_facebook
+copying django_facebook/auth_urls.py -> build/lib/django_facebook
+copying django_facebook/registration_backends.py -> build/lib/django_facebook
+copying django_facebook/utils.py -> build/lib/django_facebook
+copying django_facebook/signals.py -> build/lib/django_facebook
+copying django_facebook/api.py -> build/lib/django_facebook
+copying django_facebook/connect.py -> build/lib/django_facebook
+copying django_facebook/canvas.py -> build/lib/django_facebook
+copying django_facebook/views.py -> build/lib/django_facebook
+copying django_facebook/tests.py -> build/lib/django_facebook
+copying django_facebook/urls.py -> build/lib/django_facebook
+copying django_facebook/forms.py -> build/lib/django_facebook
+copying django_facebook/__init__.py -> build/lib/django_facebook
+copying django_facebook/context_processors.py -> build/lib/django_facebook
+copying django_facebook/decorators.py -> build/lib/django_facebook
+copying django_facebook/settings.py -> build/lib/django_facebook
+copying django_facebook/models.py -> build/lib/django_facebook
+copying django_facebook/example_views.py -> build/lib/django_facebook
+copying django_facebook/admin_actions.py -> build/lib/django_facebook
+copying django_facebook/model_managers.py -> build/lib/django_facebook
+copying django_facebook/middleware.py -> build/lib/django_facebook
+copying django_facebook/exceptions.py -> build/lib/django_facebook
+creating build/lib/open_facebook
+copying open_facebook/utils.py -> build/lib/open_facebook
+copying open_facebook/api.py -> build/lib/open_facebook
+copying open_facebook/tests.py -> build/lib/open_facebook
+copying open_facebook/__init__.py -> build/lib/open_facebook
+copying open_facebook/models.py -> build/lib/open_facebook
+copying open_facebook/exceptions.py -> build/lib/open_facebook
+creating build/lib/django_facebook/management
+copying django_facebook/management/__init__.py -> build/lib/django_facebook/management
+creating build/lib/django_facebook/templatetags
+copying django_facebook/templatetags/__init__.py -> build/lib/django_facebook/templatetags
+creating build/lib/django_facebook/south_migrations
+copying django_facebook/south_migrations/0001_initial.py -> build/lib/django_facebook/south_migrations
+copying django_facebook/south_migrations/__init__.py -> build/lib/django_facebook/south_migrations
+creating build/lib/django_facebook/test_utils
+copying django_facebook/test_utils/mocks.py -> build/lib/django_facebook/test_utils
+copying django_facebook/test_utils/convert_json.py -> build/lib/django_facebook/test_utils
+copying django_facebook/test_utils/forms.py -> build/lib/django_facebook/test_utils
+copying django_facebook/test_utils/__init__.py -> build/lib/django_facebook/test_utils
+copying django_facebook/test_utils/testcases.py -> build/lib/django_facebook/test_utils
+copying django_facebook/test_utils/sample_user_data.py -> build/lib/django_facebook/test_utils
+creating build/lib/django_facebook/management/commands
+copying django_facebook/management/commands/retry_open_graph_shares.py -> build/lib/django_facebook/management/commands
+copying django_facebook/management/commands/extend_tokens.py -> build/lib/django_facebook/management/commands
+copying django_facebook/management/commands/__init__.py -> build/lib/django_facebook/management/commands
+copying django_facebook/management/commands/base.py -> build/lib/django_facebook/management/commands
+creating build/lib/django_facebook/fixtures
+copying django_facebook/fixtures/users.json -> build/lib/django_facebook/fixtures
+creating build/lib/django_facebook/templates
+creating build/lib/django_facebook/templates/django_facebook
+copying django_facebook/templates/django_facebook/canvas.html -> build/lib/django_facebook/templates/django_facebook
+copying django_facebook/templates/django_facebook/_facebook_js.html -> build/lib/django_facebook/templates/django_facebook
+copying django_facebook/templates/django_facebook/my_style.html -> build/lib/django_facebook/templates/django_facebook
+copying django_facebook/templates/django_facebook/page_tab.html -> build/lib/django_facebook/templates/django_facebook
+copying django_facebook/templates/django_facebook/_canvas_base.html -> build/lib/django_facebook/templates/django_facebook
+copying django_facebook/templates/django_facebook/canvas_redirect.html -> build/lib/django_facebook/templates/django_facebook
+copying django_facebook/templates/django_facebook/example.html -> build/lib/django_facebook/templates/django_facebook
+copying django_facebook/templates/django_facebook/registration.html -> build/lib/django_facebook/templates/django_facebook
+copying django_facebook/templates/django_facebook/connect.html -> build/lib/django_facebook/templates/django_facebook
+creating build/lib/django_facebook/static
+creating build/lib/django_facebook/static/django_facebook
+creating build/lib/django_facebook/static/django_facebook/images
+copying django_facebook/static/django_facebook/images/facebook_close.png -> build/lib/django_facebook/static/django_facebook/images
+copying django_facebook/static/django_facebook/images/facebook_login.png -> build/lib/django_facebook/static/django_facebook/images
+copying django_facebook/static/django_facebook/images/facebook_loading.gif -> build/lib/django_facebook/static/django_facebook/images
+creating build/lib/django_facebook/static/django_facebook/css
+copying django_facebook/static/django_facebook/css/facebook.css -> build/lib/django_facebook/static/django_facebook/css
+creating build/lib/django_facebook/static/django_facebook/js
+copying django_facebook/static/django_facebook/js/statictest.js -> build/lib/django_facebook/static/django_facebook/js
+copying django_facebook/static/django_facebook/js/facebook.js -> build/lib/django_facebook/static/django_facebook/js
+creating build/bdist.linux-x86_64
+creating build/bdist.linux-x86_64/egg
+creating build/bdist.linux-x86_64/egg/django_facebook
+creating build/bdist.linux-x86_64/egg/django_facebook/fixtures
+copying build/lib/django_facebook/fixtures/users.json -> build/bdist.linux-x86_64/egg/django_facebook/fixtures
+copying build/lib/django_facebook/registration_views.py -> build/bdist.linux-x86_64/egg/django_facebook
+copying build/lib/django_facebook/admin.py -> build/bdist.linux-x86_64/egg/django_facebook
+copying build/lib/django_facebook/auth_backends.py -> build/bdist.linux-x86_64/egg/django_facebook
+copying build/lib/django_facebook/tasks.py -> build/bdist.linux-x86_64/egg/django_facebook
+copying build/lib/django_facebook/auth_urls.py -> build/bdist.linux-x86_64/egg/django_facebook
+copying build/lib/django_facebook/registration_backends.py -> build/bdist.linux-x86_64/egg/django_facebook
+copying build/lib/django_facebook/utils.py -> build/bdist.linux-x86_64/egg/django_facebook
+copying build/lib/django_facebook/signals.py -> build/bdist.linux-x86_64/egg/django_facebook
+creating build/bdist.linux-x86_64/egg/django_facebook/management
+copying build/lib/django_facebook/management/__init__.py -> build/bdist.linux-x86_64/egg/django_facebook/management
+creating build/bdist.linux-x86_64/egg/django_facebook/management/commands
+copying build/lib/django_facebook/management/commands/retry_open_graph_shares.py -> build/bdist.linux-x86_64/egg/django_facebook/management/commands
+copying build/lib/django_facebook/management/commands/extend_tokens.py -> build/bdist.linux-x86_64/egg/django_facebook/management/commands
+copying build/lib/django_facebook/management/commands/__init__.py -> build/bdist.linux-x86_64/egg/django_facebook/management/commands
+copying build/lib/django_facebook/management/commands/base.py -> build/bdist.linux-x86_64/egg/django_facebook/management/commands
+copying build/lib/django_facebook/api.py -> build/bdist.linux-x86_64/egg/django_facebook
+copying build/lib/django_facebook/connect.py -> build/bdist.linux-x86_64/egg/django_facebook
+copying build/lib/django_facebook/canvas.py -> build/bdist.linux-x86_64/egg/django_facebook
+creating build/bdist.linux-x86_64/egg/django_facebook/templates
+creating build/bdist.linux-x86_64/egg/django_facebook/templates/django_facebook
+copying build/lib/django_facebook/templates/django_facebook/canvas.html -> build/bdist.linux-x86_64/egg/django_facebook/templates/django_facebook
+copying build/lib/django_facebook/templates/django_facebook/_facebook_js.html -> build/bdist.linux-x86_64/egg/django_facebook/templates/django_facebook
+copying build/lib/django_facebook/templates/django_facebook/my_style.html -> build/bdist.linux-x86_64/egg/django_facebook/templates/django_facebook
+copying build/lib/django_facebook/templates/django_facebook/page_tab.html -> build/bdist.linux-x86_64/egg/django_facebook/templates/django_facebook
+copying build/lib/django_facebook/templates/django_facebook/_canvas_base.html -> build/bdist.linux-x86_64/egg/django_facebook/templates/django_facebook
+copying build/lib/django_facebook/templates/django_facebook/canvas_redirect.html -> build/bdist.linux-x86_64/egg/django_facebook/templates/django_facebook
+copying build/lib/django_facebook/templates/django_facebook/example.html -> build/bdist.linux-x86_64/egg/django_facebook/templates/django_facebook
+copying build/lib/django_facebook/templates/django_facebook/registration.html -> build/bdist.linux-x86_64/egg/django_facebook/templates/django_facebook
+copying build/lib/django_facebook/templates/django_facebook/connect.html -> build/bdist.linux-x86_64/egg/django_facebook/templates/django_facebook
+creating build/bdist.linux-x86_64/egg/django_facebook/templatetags
+copying build/lib/django_facebook/templatetags/__init__.py -> build/bdist.linux-x86_64/egg/django_facebook/templatetags
+creating build/bdist.linux-x86_64/egg/django_facebook/south_migrations
+copying build/lib/django_facebook/south_migrations/0001_initial.py -> build/bdist.linux-x86_64/egg/django_facebook/south_migrations
+copying build/lib/django_facebook/south_migrations/__init__.py -> build/bdist.linux-x86_64/egg/django_facebook/south_migrations
+copying build/lib/django_facebook/views.py -> build/bdist.linux-x86_64/egg/django_facebook
+copying build/lib/django_facebook/tests.py -> build/bdist.linux-x86_64/egg/django_facebook
+creating build/bdist.linux-x86_64/egg/django_facebook/test_utils
+copying build/lib/django_facebook/test_utils/mocks.py -> build/bdist.linux-x86_64/egg/django_facebook/test_utils
+copying build/lib/django_facebook/test_utils/convert_json.py -> build/bdist.linux-x86_64/egg/django_facebook/test_utils
+copying build/lib/django_facebook/test_utils/forms.py -> build/bdist.linux-x86_64/egg/django_facebook/test_utils
+copying build/lib/django_facebook/test_utils/__init__.py -> build/bdist.linux-x86_64/egg/django_facebook/test_utils
+copying build/lib/django_facebook/test_utils/testcases.py -> build/bdist.linux-x86_64/egg/django_facebook/test_utils
+copying build/lib/django_facebook/test_utils/sample_user_data.py -> build/bdist.linux-x86_64/egg/django_facebook/test_utils
+creating build/bdist.linux-x86_64/egg/django_facebook/static
+creating build/bdist.linux-x86_64/egg/django_facebook/static/django_facebook
+creating build/bdist.linux-x86_64/egg/django_facebook/static/django_facebook/images
+copying build/lib/django_facebook/static/django_facebook/images/facebook_close.png -> build/bdist.linux-x86_64/egg/django_facebook/static/django_facebook/images
+copying build/lib/django_facebook/static/django_facebook/images/facebook_login.png -> build/bdist.linux-x86_64/egg/django_facebook/static/django_facebook/images
+copying build/lib/django_facebook/static/django_facebook/images/facebook_loading.gif -> build/bdist.linux-x86_64/egg/django_facebook/static/django_facebook/images
+creating build/bdist.linux-x86_64/egg/django_facebook/static/django_facebook/css
+copying build/lib/django_facebook/static/django_facebook/css/facebook.css -> build/bdist.linux-x86_64/egg/django_facebook/static/django_facebook/css
+creating build/bdist.linux-x86_64/egg/django_facebook/static/django_facebook/js
+copying build/lib/django_facebook/static/django_facebook/js/statictest.js -> build/bdist.linux-x86_64/egg/django_facebook/static/django_facebook/js
+copying build/lib/django_facebook/static/django_facebook/js/facebook.js -> build/bdist.linux-x86_64/egg/django_facebook/static/django_facebook/js
+copying build/lib/django_facebook/urls.py -> build/bdist.linux-x86_64/egg/django_facebook
+copying build/lib/django_facebook/forms.py -> build/bdist.linux-x86_64/egg/django_facebook
+copying build/lib/django_facebook/__init__.py -> build/bdist.linux-x86_64/egg/django_facebook
+copying build/lib/django_facebook/context_processors.py -> build/bdist.linux-x86_64/egg/django_facebook
+copying build/lib/django_facebook/decorators.py -> build/bdist.linux-x86_64/egg/django_facebook
+copying build/lib/django_facebook/settings.py -> build/bdist.linux-x86_64/egg/django_facebook
+copying build/lib/django_facebook/models.py -> build/bdist.linux-x86_64/egg/django_facebook
+copying build/lib/django_facebook/example_views.py -> build/bdist.linux-x86_64/egg/django_facebook
+copying build/lib/django_facebook/admin_actions.py -> build/bdist.linux-x86_64/egg/django_facebook
+copying build/lib/django_facebook/model_managers.py -> build/bdist.linux-x86_64/egg/django_facebook
+copying build/lib/django_facebook/middleware.py -> build/bdist.linux-x86_64/egg/django_facebook
+copying build/lib/django_facebook/exceptions.py -> build/bdist.linux-x86_64/egg/django_facebook
+creating build/bdist.linux-x86_64/egg/open_facebook
+copying build/lib/open_facebook/utils.py -> build/bdist.linux-x86_64/egg/open_facebook
+copying build/lib/open_facebook/api.py -> build/bdist.linux-x86_64/egg/open_facebook
+copying build/lib/open_facebook/tests.py -> build/bdist.linux-x86_64/egg/open_facebook
+copying build/lib/open_facebook/__init__.py -> build/bdist.linux-x86_64/egg/open_facebook
+copying build/lib/open_facebook/models.py -> build/bdist.linux-x86_64/egg/open_facebook
+copying build/lib/open_facebook/exceptions.py -> build/bdist.linux-x86_64/egg/open_facebook
+byte-compiling build/bdist.linux-x86_64/egg/django_facebook/registration_views.py to registration_views.pyc
+byte-compiling build/bdist.linux-x86_64/egg/django_facebook/admin.py to admin.pyc
+byte-compiling build/bdist.linux-x86_64/egg/django_facebook/auth_backends.py to auth_backends.pyc
+byte-compiling build/bdist.linux-x86_64/egg/django_facebook/tasks.py to tasks.pyc
+byte-compiling build/bdist.linux-x86_64/egg/django_facebook/auth_urls.py to auth_urls.pyc
+byte-compiling build/bdist.linux-x86_64/egg/django_facebook/registration_backends.py to registration_backends.pyc
+byte-compiling build/bdist.linux-x86_64/egg/django_facebook/utils.py to utils.pyc
+byte-compiling build/bdist.linux-x86_64/egg/django_facebook/signals.py to signals.pyc
+byte-compiling build/bdist.linux-x86_64/egg/django_facebook/management/__init__.py to __init__.pyc
+byte-compiling build/bdist.linux-x86_64/egg/django_facebook/management/commands/retry_open_graph_shares.py to retry_open_graph_shares.pyc
+byte-compiling build/bdist.linux-x86_64/egg/django_facebook/management/commands/extend_tokens.py to extend_tokens.pyc
+byte-compiling build/bdist.linux-x86_64/egg/django_facebook/management/commands/__init__.py to __init__.pyc
+byte-compiling build/bdist.linux-x86_64/egg/django_facebook/management/commands/base.py to base.pyc
+byte-compiling build/bdist.linux-x86_64/egg/django_facebook/api.py to api.pyc
+byte-compiling build/bdist.linux-x86_64/egg/django_facebook/connect.py to connect.pyc
+byte-compiling build/bdist.linux-x86_64/egg/django_facebook/canvas.py to canvas.pyc
+byte-compiling build/bdist.linux-x86_64/egg/django_facebook/templatetags/__init__.py to __init__.pyc
+byte-compiling build/bdist.linux-x86_64/egg/django_facebook/south_migrations/0001_initial.py to 0001_initial.pyc
+byte-compiling build/bdist.linux-x86_64/egg/django_facebook/south_migrations/__init__.py to __init__.pyc
+byte-compiling build/bdist.linux-x86_64/egg/django_facebook/views.py to views.pyc
+byte-compiling build/bdist.linux-x86_64/egg/django_facebook/tests.py to tests.pyc
+byte-compiling build/bdist.linux-x86_64/egg/django_facebook/test_utils/mocks.py to mocks.pyc
+byte-compiling build/bdist.linux-x86_64/egg/django_facebook/test_utils/convert_json.py to convert_json.pyc
+byte-compiling build/bdist.linux-x86_64/egg/django_facebook/test_utils/forms.py to forms.pyc
+byte-compiling build/bdist.linux-x86_64/egg/django_facebook/test_utils/__init__.py to __init__.pyc
+byte-compiling build/bdist.linux-x86_64/egg/django_facebook/test_utils/testcases.py to testcases.pyc
+byte-compiling build/bdist.linux-x86_64/egg/django_facebook/test_utils/sample_user_data.py to sample_user_data.pyc
+byte-compiling build/bdist.linux-x86_64/egg/django_facebook/urls.py to urls.pyc
+byte-compiling build/bdist.linux-x86_64/egg/django_facebook/forms.py to forms.pyc
+byte-compiling build/bdist.linux-x86_64/egg/django_facebook/__init__.py to __init__.pyc
+byte-compiling build/bdist.linux-x86_64/egg/django_facebook/context_processors.py to context_processors.pyc
+byte-compiling build/bdist.linux-x86_64/egg/django_facebook/decorators.py to decorators.pyc
+byte-compiling build/bdist.linux-x86_64/egg/django_facebook/settings.py to settings.pyc
+byte-compiling build/bdist.linux-x86_64/egg/django_facebook/models.py to models.pyc
+byte-compiling build/bdist.linux-x86_64/egg/django_facebook/example_views.py to example_views.pyc
+byte-compiling build/bdist.linux-x86_64/egg/django_facebook/admin_actions.py to admin_actions.pyc
+byte-compiling build/bdist.linux-x86_64/egg/django_facebook/model_managers.py to model_managers.pyc
+byte-compiling build/bdist.linux-x86_64/egg/django_facebook/middleware.py to middleware.pyc
+byte-compiling build/bdist.linux-x86_64/egg/django_facebook/exceptions.py to exceptions.pyc
+byte-compiling build/bdist.linux-x86_64/egg/open_facebook/utils.py to utils.pyc
+byte-compiling build/bdist.linux-x86_64/egg/open_facebook/api.py to api.pyc
+byte-compiling build/bdist.linux-x86_64/egg/open_facebook/tests.py to tests.pyc
+byte-compiling build/bdist.linux-x86_64/egg/open_facebook/__init__.py to __init__.pyc
+byte-compiling build/bdist.linux-x86_64/egg/open_facebook/models.py to models.pyc
+byte-compiling build/bdist.linux-x86_64/egg/open_facebook/exceptions.py to exceptions.pyc
+creating build/bdist.linux-x86_64/egg/EGG-INFO
+copying django_facebook.egg-info/PKG-INFO -> build/bdist.linux-x86_64/egg/EGG-INFO
+copying django_facebook.egg-info/SOURCES.txt -> build/bdist.linux-x86_64/egg/EGG-INFO
+copying django_facebook.egg-info/dependency_links.txt -> build/bdist.linux-x86_64/egg/EGG-INFO
+copying django_facebook.egg-info/not-zip-safe -> build/bdist.linux-x86_64/egg/EGG-INFO
+copying django_facebook.egg-info/requires.txt -> build/bdist.linux-x86_64/egg/EGG-INFO
+copying django_facebook.egg-info/top_level.txt -> build/bdist.linux-x86_64/egg/EGG-INFO
+creating dist
+creating 'dist/django_facebook-6.0.3-py2.7.egg' and adding 'build/bdist.linux-x86_64/egg' to it
+removing 'build/bdist.linux-x86_64/egg' (and everything under it)
+Processing django_facebook-6.0.3-py2.7.egg
+creating /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/django_facebook-6.0.3-py2.7.egg
+Extracting django_facebook-6.0.3-py2.7.egg to /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages
+Adding django-facebook 6.0.3 to easy-install.pth file
+
+Installed /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/django_facebook-6.0.3-py2.7.egg
+Processing dependencies for django-facebook==6.0.3
+Searching for Unidecode==0.4.17
+Best match: Unidecode 0.4.17
+Adding Unidecode 0.4.17 to easy-install.pth file
+
+Using /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages
+Finished processing dependencies for django-facebook==6.0.3
+
+The following NEW packages will be INSTALLED:
+
+    openssl:    1.0.1k-1     
+    pip:        7.0.3-py27_0 
+    python:     2.7.10-0     
+    readline:   6.2-2        
+    setuptools: 18.0.1-py27_0
+    sqlite:     3.8.4.1-1    
+    system:     5.8-2        
+    tk:         8.5.18-0     
+    unidecode:  0.4.17-py27_0
+    zlib:       1.2.8-0      
+
+Linking packages ...
+[                    ]|                                                  |   0%[openssl             ]|                                                  |   0%[readline            ]|#####                                             |  10%[sqlite              ]|##########                                        |  20%[system              ]|###############                                   |  30%[tk                  ]|####################                              |  40%[zlib                ]|#########################                         |  50%[python              ]|##############################                    |  60%[setuptools          ]|###################################               |  70%[unidecode           ]|########################################          |  80%[pip                 ]|#############################################     |  90%[      COMPLETE      ]|##################################################| 100%
+Removing old work directory
+Source cache directory is: /home/ubuntu/miniconda/conda-bld/src_cache
+Found source in cache: django-facebook-6.0.3.tar.gz
+Extracting download
+Package: django-facebook-6.0.3-py_0
+source tree in: /home/ubuntu/miniconda/conda-bld/work/django-facebook-6.0.3
+found egg dir: /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/django_facebook-6.0.3-py2.7.egg
+number of files: 107
+Fixing permissions
+Fixing permissions
+BUILD END: django-facebook-6.0.3-py_0
+TEST START: django-facebook-6.0.3-py_0
+Fetching package metadata: ......
+
+WARNING: conda-build appears to be out of date. You have version 1.13.0 but the
+latest version is 1.14.1. Run
+
+conda update -n root conda-build
+
+to get the latest version.
+
+Solving package specifications: .................
+Warning: 8 possible package resolutions (only showing differing packages):
+	[u'pytest-django-2.8.0-py_0.tar.bz2', u'python-memcached-1.54-py_0.tar.bz2', u'unidecode-0.4.17-py27_0.tar.bz2'],
+	[u'pytest-django-2.8.0-py_0.tar.bz2', u'python-memcached-1.54-py_0.tar.bz2', u'unidecode-0.04.17-py27_0.tar.bz2'],
+	[u'pytest-django-2.8.0-py_0.tar.bz2', u'python-memcached-1.54-py27_0.tar.bz2', u'unidecode-0.04.17-py27_0.tar.bz2'],
+	[u'pytest-django-2.8.0-py_0.tar.bz2', u'python-memcached-1.54-py27_0.tar.bz2', u'unidecode-0.4.17-py27_0.tar.bz2'],
+	[u'pytest-django-2.8.0-py27_0.tar.bz2', u'python-memcached-1.54-py27_0.tar.bz2', u'unidecode-0.4.17-py27_0.tar.bz2'],
+	[u'pytest-django-2.8.0-py27_0.tar.bz2', u'python-memcached-1.54-py27_0.tar.bz2', u'unidecode-0.04.17-py27_0.tar.bz2'],
+	[u'pytest-django-2.8.0-py27_0.tar.bz2', u'python-memcached-1.54-py_0.tar.bz2', u'unidecode-0.04.17-py27_0.tar.bz2'],
+	[u'pytest-django-2.8.0-py27_0.tar.bz2', u'python-memcached-1.54-py_0.tar.bz2', u'unidecode-0.4.17-py27_0.tar.bz2'],
+
+The following packages will be downloaded:
+
+    package                    |            build
+    ---------------------------|-----------------
+    lcms-1.19                  |                0         595 KB
+    pil-1.1.7                  |           py27_2         650 KB
+    django-facebook-6.0.3      |             py_0          73 KB
+    python-memcached-1.54      |             py_0          35 KB
+    ------------------------------------------------------------
+                                           Total:         1.3 MB
+
+The following NEW packages will be INSTALLED:
+
+    django:           1.8.2-py27_0 
+    django-facebook:  6.0.3-py_0   
+    freetype:         2.5.2-2      
+    jpeg:             8d-0         
+    lcms:             1.19-0       
+    libpng:           1.6.17-0     
+    mock:             1.0.1-py27_0 
+    openssl:          1.0.1k-1     
+    pil:              1.1.7-py27_2 
+    pip:              7.0.3-py27_0 
+    py:               1.4.27-py27_0
+    pytest:           2.7.1-py27_0 
+    pytest-django:    2.8.0-py_0   
+    python:           2.7.10-0     
+    python-memcached: 1.54-py_0    
+    readline:         6.2-2        
+    setuptools:       18.0.1-py27_0
+    six:              1.9.0-py27_0 
+    sqlite:           3.8.4.1-1    
+    system:           5.8-2        
+    tk:               8.5.18-0     
+    unidecode:        0.4.17-py27_0
+    zlib:             1.2.8-0      
+
+Fetching packages ...
+lcms-1.19-0.ta   0% |                              | ETA:  --:--:--   0.00  B/slcms-1.19-0.ta   2% |                               | ETA:  0:00:00  26.13 MB/slcms-1.19-0.ta   5% |#                              | ETA:  0:00:00  20.09 MB/slcms-1.19-0.ta   8% |##                             | ETA:  0:00:00  25.45 MB/slcms-1.19-0.ta  10% |###                            | ETA:  0:00:00  24.49 MB/slcms-1.19-0.ta  13% |####                           | ETA:  0:00:00  26.68 MB/slcms-1.19-0.ta  16% |#####                          | ETA:  0:00:00  26.76 MB/slcms-1.19-0.ta  18% |#####                          | ETA:  0:00:00  28.90 MB/slcms-1.19-0.ta  21% |######                         | ETA:  0:00:00  29.78 MB/slcms-1.19-0.ta  24% |#######                        | ETA:  0:00:00  30.48 MB/slcms-1.19-0.ta  26% |########                       | ETA:  0:00:00  31.30 MB/slcms-1.19-0.ta  29% |#########                      | ETA:  0:00:00  31.41 MB/slcms-1.19-0.ta  32% |##########                     | ETA:  0:00:00  31.60 MB/slcms-1.19-0.ta  34% |##########                     | ETA:  0:00:00  31.76 MB/slcms-1.19-0.ta  37% |###########                    | ETA:  0:00:00  31.71 MB/slcms-1.19-0.ta  40% |############                   | ETA:  0:00:00  32.24 MB/slcms-1.19-0.ta  43% |#############                  | ETA:  0:00:00  32.42 MB/slcms-1.19-0.ta  45% |##############                 | ETA:  0:00:00  32.39 MB/slcms-1.19-0.ta  48% |###############                | ETA:  0:00:00  32.49 MB/slcms-1.19-0.ta  51% |###############                | ETA:  0:00:00  33.01 MB/slcms-1.19-0.ta  53% |################               | ETA:  0:00:00  33.56 MB/slcms-1.19-0.ta  56% |#################              | ETA:  0:00:00  33.81 MB/slcms-1.19-0.ta  59% |##################             | ETA:  0:00:00  34.45 MB/slcms-1.19-0.ta  61% |###################            | ETA:  0:00:00  34.70 MB/slcms-1.19-0.ta  64% |####################           | ETA:  0:00:00  34.91 MB/slcms-1.19-0.ta  67% |####################           | ETA:  0:00:00  20.74 MB/slcms-1.19-0.ta  69% |#####################          | ETA:  0:00:00  21.27 MB/slcms-1.19-0.ta  72% |######################         | ETA:  0:00:00  21.82 MB/slcms-1.19-0.ta  75% |#######################        | ETA:  0:00:00  22.26 MB/slcms-1.19-0.ta  77% |########################       | ETA:  0:00:00  22.70 MB/slcms-1.19-0.ta  80% |#########################      | ETA:  0:00:00  23.21 MB/slcms-1.19-0.ta  83% |#########################      | ETA:  0:00:00  23.70 MB/slcms-1.19-0.ta  86% |##########################     | ETA:  0:00:00  24.18 MB/slcms-1.19-0.ta  88% |###########################    | ETA:  0:00:00  24.65 MB/slcms-1.19-0.ta  91% |############################   | ETA:  0:00:00  25.10 MB/slcms-1.19-0.ta  94% |#############################  | ETA:  0:00:00  25.55 MB/slcms-1.19-0.ta  96% |############################## | ETA:  0:00:00  25.98 MB/slcms-1.19-0.ta  99% |############################## | ETA:  0:00:00  26.41 MB/slcms-1.19-0.ta 100% |###############################| Time: 0:00:00  26.15 MB/s
+pil-1.1.7-py27   0% |                              | ETA:  --:--:--   0.00  B/spil-1.1.7-py27   2% |                               | Time: 0:00:00   5.23 MB/spil-1.1.7-py27   4% |#                              | Time: 0:00:00   9.12 MB/spil-1.1.7-py27   7% |##                             | Time: 0:00:00  12.35 MB/spil-1.1.7-py27   9% |###                            | Time: 0:00:00  15.09 MB/spil-1.1.7-py27  12% |###                            | Time: 0:00:00  16.61 MB/spil-1.1.7-py27  14% |####                           | Time: 0:00:00  18.56 MB/spil-1.1.7-py27  17% |#####                          | Time: 0:00:00  20.13 MB/spil-1.1.7-py27  19% |######                         | Time: 0:00:00  20.38 MB/spil-1.1.7-py27  22% |######                         | Time: 0:00:00  21.75 MB/spil-1.1.7-py27  24% |#######                        | Time: 0:00:00  22.50 MB/spil-1.1.7-py27  27% |########                       | Time: 0:00:00  23.41 MB/spil-1.1.7-py27  29% |#########                      | Time: 0:00:00  24.30 MB/spil-1.1.7-py27  32% |#########                      | Time: 0:00:00  25.03 MB/spil-1.1.7-py27  34% |##########                     | Time: 0:00:00  25.89 MB/spil-1.1.7-py27  36% |###########                    | Time: 0:00:00  26.14 MB/spil-1.1.7-py27  39% |############                   | Time: 0:00:00  27.00 MB/spil-1.1.7-py27  41% |############                   | Time: 0:00:00  27.35 MB/spil-1.1.7-py27  44% |#############                  | Time: 0:00:00  27.57 MB/spil-1.1.7-py27  46% |##############                 | Time: 0:00:00  27.80 MB/spil-1.1.7-py27  49% |###############                | Time: 0:00:00  27.97 MB/spil-1.1.7-py27  51% |################               | Time: 0:00:00  28.38 MB/spil-1.1.7-py27  54% |################               | Time: 0:00:00  28.87 MB/spil-1.1.7-py27  56% |#################              | Time: 0:00:00  29.01 MB/spil-1.1.7-py27  59% |##################             | Time: 0:00:00  18.34 MB/spil-1.1.7-py27  61% |###################            | Time: 0:00:00  18.86 MB/spil-1.1.7-py27  64% |###################            | Time: 0:00:00  19.29 MB/spil-1.1.7-py27  66% |####################           | Time: 0:00:00  19.63 MB/spil-1.1.7-py27  68% |#####################          | Time: 0:00:00  20.02 MB/spil-1.1.7-py27  71% |######################         | Time: 0:00:00  20.37 MB/spil-1.1.7-py27  73% |######################         | Time: 0:00:00  20.74 MB/spil-1.1.7-py27  76% |#######################        | Time: 0:00:00  21.08 MB/spil-1.1.7-py27  78% |########################       | Time: 0:00:00  21.43 MB/spil-1.1.7-py27  81% |#########################      | Time: 0:00:00  21.79 MB/spil-1.1.7-py27  83% |#########################      | Time: 0:00:00  22.09 MB/spil-1.1.7-py27  86% |##########################     | Time: 0:00:00  22.45 MB/spil-1.1.7-py27  88% |###########################    | Time: 0:00:00  22.78 MB/spil-1.1.7-py27  91% |############################   | Time: 0:00:00  23.19 MB/spil-1.1.7-py27  93% |############################   | Time: 0:00:00  23.59 MB/spil-1.1.7-py27  96% |#############################  | Time: 0:00:00  23.99 MB/spil-1.1.7-py27  98% |############################## | Time: 0:00:00  22.07 MB/spil-1.1.7-py27 100% |###############################| Time: 0:00:00  22.25 MB/spil-1.1.7-py27 100% |###############################| Time: 0:00:00  22.14 MB/spil-1.1.7-py27 100% |###############################| Time: 0:00:00  22.01 MB/s
+django-faceboo   0% |                              | ETA:  --:--:--   0.00  B/sdjango-faceboo  21% |######         ===== testing package: django-facebook-6.0.3-py_0 =====
+import: u'django_facebook'
+import: u'django_facebook.management'
+import: u'django_facebook.management.commands'
+import: u'django_facebook.south_migrations'
+import: u'django_facebook.templatetags'
+import: u'django_facebook.test_utils'
+Traceback (most recent call last):
+  File "/home/ubuntu/miniconda/conda-bld/test-tmp_dir/run_test.py", line 40, in <module>
+    import django_facebook.test_utils
+  File "/home/ubuntu/miniconda/envs/_test/lib/python2.7/site-packages/django_facebook/test_utils/__init__.py", line 2, in <module>
+    from test import *
+ImportError: No module named test
+                | Time: 0:00:00  70.34 MB/sdjango-faceboo  43% |#############                  | Time: 0:00:00  73.46 MB/sdjango-faceboo  65% |####################           | Time: 0:00:00  77.65 MB/sdjango-faceboo  87% |##########################     | Time: 0:00:00  79.72 MB/sdjango-faceboo 100% |###############################| Time: 0:00:00  76.23 MB/sdjango-faceboo 100% |###############################| Time: 0:00:00  67.31 MB/sdjango-faceboo 100% |###############################| Time: 0:00:00  59.44 MB/s
+python-memcach   0% |                              | ETA:  --:--:--   0.00  B/spython-memcach  45% |##############                 | Time: 0:00:00  72.80 MB/spython-memcach  90% |############################   | Time: 0:00:00  77.30 MB/spython-memcach 100% |###############################| Time: 0:00:00  63.30 MB/spython-memcach 100% |###############################| Time: 0:00:00  50.96 MB/spython-memcach 100% |###############################| Time: 0:00:00  40.75 MB/s
+Extracting packages ...
+[      COMPLETE      ]|                                                  |   0%[lcms                ]|                                                  |   0%[lcms                ]|                                                  |   0%[pil                 ]|############                                      |  25%[django-facebook     ]|#########################                         |  50%[python-memcached    ]|#####################################             |  75%[      COMPLETE      ]|##################################################| 100%
+Linking packages ...
+[      COMPLETE      ]|                                                  |   0%[jpeg                ]|                                                  |   0%[jpeg                ]|                                                  |   0%[lcms                ]|##                                                |   4%[libpng              ]|####                                              |   8%[openssl             ]|######                                            |  13%[readline            ]|########                                          |  17%[sqlite              ]|##########                                        |  21%[system              ]|#############                                     |  26%[tk                  ]|###############                                   |  30%[zlib                ]|#################                                 |  34%[freetype            ]|###################                               |  39%[django              ]|#####################                             |  43%[mock                ]|#######################                           |  47%[pil                 ]|##########################                        |  52%[py                  ]|############################                      |  56%[pytest              ]|##############################                    |  60%[python              ]|################################                  |  65%[setuptools          ]|##################################                |  69%[six                 ]|####################################              |  73%[unidecode           ]|#######################################           |  78%[django-facebook     ]|#########################################         |  82%[pip                 ]|###########################################       |  86%[pytest-django       ]|#############################################     |  91%[python-memcached    ]|###############################################   |  95%[      COMPLETE      ]|##################################################| 100%
+TESTS FAILED: django-facebook-6.0.3-py_0

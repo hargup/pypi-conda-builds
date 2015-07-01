@@ -1,4 +1,5 @@
 Warning, the following versions were found for marionette_client
+0.16
 0.15
 0.14
 0.13
@@ -70,22 +71,138 @@ Warning, the following versions were found for marionette_client
 0.5.1
 0.5
 0.4
-Using 0.15
+Using 0.16
 Use --version to specify a different version.
-Using url https://pypi.python.org/packages/source/m/marionette_client/marionette_client-0.15.tar.gz (140 KB) for marionette_client.
-Downloading marionette_client (use --no-download to skip this step)
+Using url https://pypi.python.org/packages/source/m/marionette_client/marionette_client-0.16.tar.gz (140 KB) for marionette_client.
+Downloading marionette_client
 Using cached download
 Unpacking marionette_client...
 done
-working in /tmp/tmp9H9pyLconda_skeleton_marionette_client-0.15.tar.gz
+working in /tmp/tmp3CV1DUconda_skeleton_marionette_client-0.16.tar.gz
 Fetching package metadata: ......
+
+WARNING: conda-build appears to be out of date. You have version 1.13.0 but the
+latest version is 1.14.1. Run
+
+conda update -n root conda-build
+
+to get the latest version.
+
 Solving package specifications: .patching file core.py
 Hunk #1 succeeded at 168 with fuzz 2 (offset 2 lines).
-Traceback (most recent call last):
-  File "setup.py", line 1, in <module>
-    from setuptools import setup, find_packages
-ImportError: No module named setuptools
 
-Applying patch: '/tmp/tmp9H9pyLconda_skeleton_marionette_client-0.15.tar.gz/pypi-distutils.patch'
-$PYTHONPATH = /tmp/tmp9H9pyLconda_skeleton_marionette_client-0.15.tar.gz/marionette_client-0.15
-Error: command failed: /home/ubuntu/miniconda/envs/_build/bin/python setup.py install
+WARNING: conda-build appears to be out of date. You have version 1.13.0 but the
+latest version is 1.14.1. Run
+
+conda update -n root conda-build
+
+to get the latest version.
+
+
+The following NEW packages will be INSTALLED:
+
+    numpy:  1.9.2-py27_0
+    pyyaml: 3.11-py27_1 
+    yaml:   0.1.6-0     
+
+Linking packages ...
+[                    ]|                                                  |   0%[yaml                ]|                                                  |   0%[numpy               ]|################                                  |  33%[pyyaml              ]|#################################                 |  66%[      COMPLETE      ]|##################################################| 100%
+Applying patch: '/tmp/tmp3CV1DUconda_skeleton_marionette_client-0.16.tar.gz/pypi-distutils.patch'
+WARNING: Could not add entry points. They were:
+
+      # -*- Entry points: -*-
+      [console_scripts]
+      marionette = marionette.runtests:cli
+      
+Warning, the following versions were found for mozversion
+1.2
+1.1
+1.0
+0.9
+0.8
+0.7
+0.6
+0.5
+0.4
+0.3
+0.2
+0.1
+Using 1.2
+Use --version to specify a different version.
+Using url https://pypi.python.org/packages/source/m/mozversion/mozversion-1.2.tar.gz (5 KB) for mozversion.
+Downloading mozversion
+Using cached download
+Unpacking mozversion...
+done
+working in /tmp/tmp8QCtbxconda_skeleton_mozversion-1.2.tar.gz
+Solving package specifications: .patching file core.py
+Hunk #1 succeeded at 168 with fuzz 2 (offset 2 lines).
+
+WARNING: conda-build appears to be out of date. You have version 1.13.0 but the
+latest version is 1.14.1. Run
+
+conda update -n root conda-build
+
+to get the latest version.
+
+
+Applying patch: '/tmp/tmp8QCtbxconda_skeleton_mozversion-1.2.tar.gz/pypi-distutils.patch'
+WARNING: Could not add entry points. They were:
+
+      # -*- Entry points: -*-
+      [console_scripts]
+      mozversion = mozversion:cli
+      
+Warning, the following versions were found for manifestparser
+1.1
+1.0
+0.9
+0.8
+0.7
+0.6
+Using 1.1
+Use --version to specify a different version.
+Using url https://pypi.python.org/packages/source/m/manifestparser/manifestparser-1.1.tar.gz (16 KB) for manifestparser.
+Downloading manifestparser
+Using cached download
+Unpacking manifestparser...
+done
+working in /tmp/tmp7ecXtdconda_skeleton_manifestparser-1.1.tar.gz
+Solving package specifications: .patching file core.py
+Hunk #1 succeeded at 168 with fuzz 2 (offset 2 lines).
+
+WARNING: conda-build appears to be out of date. You have version 1.13.0 but the
+latest version is 1.14.1. Run
+
+conda update -n root conda-build
+
+to get the latest version.
+
+
+Applying patch: '/tmp/tmp7ecXtdconda_skeleton_manifestparser-1.1.tar.gz/pypi-distutils.patch'
+WARNING: Could not add entry points. They were:
+
+      [console_scripts]
+      manifestparser = manifestparser.cli:main
+      
+Warning, the following versions were found for browsermob-proxy
+0.7.0
+0.6.0
+0.5.0
+0.4.0
+0.2.0
+0.1.0
+0.0.1
+Using 0.7.0
+Use --version to specify a different version.
+Using url https://pypi.python.org/packages/source/b/browsermob-proxy/browsermob-proxy-0.7.0.tar.gz (7 KB) for browsermob-proxy.
+Downloading browsermob-proxy
+Using cached download
+Unpacking browsermob-proxy...
+done
+working in /tmp/tmpG6c58iconda_skeleton_browsermob-proxy-0.7.0.tar.gz
+Solving package specifications: .patching file core.py
+Hunk #1 succeeded at 168 with fuzz 2 (offset 2 lines).
+
+Applying patch: '/tmp/tmpG6c58iconda_skeleton_browsermob-proxy-0.7.0.tar.gz/pypi-distutils.patch'
+Error: Could not find any versions of package marionette-driver

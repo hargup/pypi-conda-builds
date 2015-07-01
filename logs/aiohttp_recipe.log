@@ -52,18 +52,60 @@ Warning, the following versions were found for aiohttp
 Using 0.16.5
 Use --version to specify a different version.
 Using url https://pypi.python.org/packages/source/a/aiohttp/aiohttp-0.16.5.tar.gz (1.5 MB) for aiohttp.
-Downloading aiohttp (use --no-download to skip this step)
+Downloading aiohttp
+Using cached download
 Unpacking aiohttp...
 done
-working in /tmp/tmpzetrUcconda_skeleton_aiohttp-0.16.5.tar.gz
+working in /tmp/tmp6OfPB9conda_skeleton_aiohttp-0.16.5.tar.gz
 Fetching package metadata: ......
+
+WARNING: conda-build appears to be out of date. You have version 1.13.0 but the
+latest version is 1.14.1. Run
+
+conda update -n root conda-build
+
+to get the latest version.
+
 Solving package specifications: .patching file core.py
 Hunk #1 succeeded at 168 with fuzz 2 (offset 2 lines).
-Traceback (most recent call last):
-  File "setup.py", line 5, in <module>
-    from setuptools import setup, find_packages, Extension
-ImportError: No module named setuptools
 
-Applying patch: '/tmp/tmpzetrUcconda_skeleton_aiohttp-0.16.5.tar.gz/pypi-distutils.patch'
-$PYTHONPATH = /tmp/tmpzetrUcconda_skeleton_aiohttp-0.16.5.tar.gz/aiohttp-0.16.5
-Error: command failed: /home/ubuntu/miniconda/envs/_build/bin/python setup.py install
+WARNING: conda-build appears to be out of date. You have version 1.13.0 but the
+latest version is 1.14.1. Run
+
+conda update -n root conda-build
+
+to get the latest version.
+
+
+The following NEW packages will be INSTALLED:
+
+    numpy:  1.9.2-py27_0
+    pyyaml: 3.11-py27_1 
+    yaml:   0.1.6-0     
+
+Linking packages ...
+[                    ]|                                                  |   0%[yaml                ]|                                                  |   0%[numpy               ]|################                                  |  33%[pyyaml              ]|#################################                 |  66%[      COMPLETE      ]|##################################################| 100%
+Applying patch: '/tmp/tmp6OfPB9conda_skeleton_aiohttp-0.16.5.tar.gz/pypi-distutils.patch'
+Warning, the following versions were found for asyncio
+3.4.3
+3.4.2
+3.4.1
+0.4.1
+0.3.1
+0.2.1
+0.1.1
+Using 3.4.3
+Use --version to specify a different version.
+Using url https://pypi.python.org/packages/source/a/asyncio/asyncio-3.4.3.tar.gz (200 KB) for asyncio.
+Downloading asyncio
+Using cached download
+Unpacking asyncio...
+done
+working in /tmp/tmp_Hu8U5conda_skeleton_asyncio-3.4.3.tar.gz
+Solving package specifications: .patching file core.py
+Hunk #1 succeeded at 168 with fuzz 2 (offset 2 lines).
+
+Applying patch: '/tmp/tmp_Hu8U5conda_skeleton_asyncio-3.4.3.tar.gz/pypi-distutils.patch'
+Writing recipe for aiohttp
+Writing recipe for asyncio
+Done

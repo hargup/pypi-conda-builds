@@ -1,78 +1,54 @@
-Error: prefix already exists: /home/ubuntu/miniconda/envs/_pipbuild_
-Collecting pisa==3.0.33
-  Downloading http://localhost/packages/source/p/pisa/pisa-3.0.33.tar.gz (4.5MB)
-setuptools must be installed to install from a source distribution
-Package search: {'_pypi_ordering': False, 'version': '3.0.33', 'name': 'pisa', 'summary': 'PDF generator using HTML and CSS'}
-Creating standard recipe for pisa-3.0.33
-Using url https://pypi.python.org/packages/source/p/pisa/pisa-3.0.33.tar.gz (4.3 MB) for pisa.
-Downloading pisa
-Using cached download
-Unpacking pisa...
-done
-working in /tmp/tmp2AuDV_conda_skeleton_pisa-3.0.33.tar.gz
+Removing old build directory
+Removing old work directory
+BUILD START: pisa-3.0.33-py_0
 Fetching package metadata: ......
 
 WARNING: conda-build appears to be out of date. You have version 1.13.0 but the
-latest version is 1.14.0. Run
+latest version is 1.14.1. Run
 
 conda update -n root conda-build
 
 to get the latest version.
 
-Solving package specifications: .patching file core.py
-Hunk #1 succeeded at 168 with fuzz 2 (offset 2 lines).
+Solving package specifications: .+ pip install pisa
+Collecting pisa
+  Downloading http://localhost/packages/source/p/pisa/pisa-3.0.33.tar.gz (4.5MB)
+Installing collected packages: pisa
+  Running setup.py install for pisa
+Successfully installed pisa-3.0.33
 
----------------------------------------------------------------------------
-This script requires setuptools version 0.6c9 to run (even to display
-help).  I will attempt to download it for you (from
-http://pypi.python.org/packages/2.7/s/setuptools/), but
-you may need to enable firewall access for this script first.
-I will start the download in 15 seconds.
+The following NEW packages will be INSTALLED:
 
-(Note: if this machine does not have network access, please obtain the file
+    openssl:    1.0.1k-1     
+    pip:        7.0.3-py27_0 
+    python:     2.7.10-0     
+    readline:   6.2-2        
+    setuptools: 18.0.1-py27_0
+    sqlite:     3.8.4.1-1    
+    system:     5.8-2        
+    tk:         8.5.18-0     
+    zlib:       1.2.8-0      
 
-   http://pypi.python.org/packages/2.7/s/setuptools/setuptools-0.6c9-py2.7.egg
+Linking packages ...
+[                    ]|                                                  |   0%[openssl             ]|                                                  |   0%[readline            ]|#####                                             |  11%[sqlite              ]|###########                                       |  22%[system              ]|################                                  |  33%[tk                  ]|######################                            |  44%[zlib                ]|###########################                       |  55%[python              ]|#################################                 |  66%[setuptools          ]|######################################            |  77%[pip                 ]|############################################      |  88%[      COMPLETE      ]|##################################################| 100%
+Removing old work directory
+Copying /home/ubuntu/pypi-conda-builds/pisa to /home/ubuntu/miniconda/conda-bld/work
+Package: pisa-3.0.33-py_0
+source tree in: /home/ubuntu/miniconda/conda-bld/work
+number of files: 83
+Fixing permissions
+Fixing permissions
+BUILD END: pisa-3.0.33-py_0
+# If you want to upload this package to binstar.org later, type:
+#
+# $ binstar upload /home/ubuntu/miniconda/conda-bld/noarch/pisa-3.0.33-py_0.tar.bz2
+#
+# To have conda build upload to binstar automatically, use
+# $ conda config --set binstar_upload yes
 
-and place it in this directory before rerunning this script.)
----------------------------------------------------------------------------
-Downloading http://pypi.python.org/packages/2.7/s/setuptools/setuptools-0.6c9-py2.7.egg
-Traceback (most recent call last):
-  File "setup.py", line 27, in <module>
-    use_setuptools()
-  File "/tmp/tmp2AuDV_conda_skeleton_pisa-3.0.33.tar.gz/pisa-3.0.33/ez_setup.py", line 91, in use_setuptools
-    return do_download()       
-  File "/tmp/tmp2AuDV_conda_skeleton_pisa-3.0.33.tar.gz/pisa-3.0.33/ez_setup.py", line 85, in do_download
-    egg = download_setuptools(version, download_base, to_dir, download_delay)
-  File "/tmp/tmp2AuDV_conda_skeleton_pisa-3.0.33.tar.gz/pisa-3.0.33/ez_setup.py", line 146, in download_setuptools
-    src = urllib2.urlopen(url)
-  File "/home/ubuntu/miniconda/envs/_build/lib/python2.7/urllib2.py", line 154, in urlopen
-    return opener.open(url, data, timeout)
-  File "/home/ubuntu/miniconda/envs/_build/lib/python2.7/urllib2.py", line 437, in open
-    response = meth(req, response)
-  File "/home/ubuntu/miniconda/envs/_build/lib/python2.7/urllib2.py", line 550, in http_response
-    'http', request, response, code, msg, hdrs)
-  File "/home/ubuntu/miniconda/envs/_build/lib/python2.7/urllib2.py", line 469, in error
-    result = self._call_chain(*args)
-  File "/home/ubuntu/miniconda/envs/_build/lib/python2.7/urllib2.py", line 409, in _call_chain
-    result = func(*args)
-  File "/home/ubuntu/miniconda/envs/_build/lib/python2.7/urllib2.py", line 656, in http_error_302
-    return self.parent.open(new, timeout=req.timeout)
-  File "/home/ubuntu/miniconda/envs/_build/lib/python2.7/urllib2.py", line 437, in open
-    response = meth(req, response)
-  File "/home/ubuntu/miniconda/envs/_build/lib/python2.7/urllib2.py", line 550, in http_response
-    'http', request, response, code, msg, hdrs)
-  File "/home/ubuntu/miniconda/envs/_build/lib/python2.7/urllib2.py", line 475, in error
-    return self._call_chain(*args)
-  File "/home/ubuntu/miniconda/envs/_build/lib/python2.7/urllib2.py", line 409, in _call_chain
-    result = func(*args)
-  File "/home/ubuntu/miniconda/envs/_build/lib/python2.7/urllib2.py", line 558, in http_error_default
-    raise HTTPError(req.get_full_url(), code, msg, hdrs, fp)
-urllib2.HTTPError: HTTP Error 404: Not Found
-
-Applying patch: '/tmp/tmp2AuDV_conda_skeleton_pisa-3.0.33.tar.gz/pypi-distutils.patch'
-$PYTHONPATH = /tmp/tmp2AuDV_conda_skeleton_pisa-3.0.33.tar.gz/pisa-3.0.33
-Error: command failed: /home/ubuntu/miniconda/envs/_build/bin/python setup.py install
-
-conda create -n _pipbuild_ --yes python pip
-/home/ubuntu/miniconda/envs/_pipbuild_/bin/pip install pisa==3.0.33
-Error: Could not pip install pisa==3.0.33
+Package search: {'_pypi_ordering': False, 'version': '3.0.33', 'name': 'pisa', 'summary': 'PDF generator using HTML and CSS'}
+Creating standard recipe for pisa-3.0.33
+Converting recipe in /home/ubuntu/pypi-conda-builds/pisa
+package = pisa
+   dependencies = []
+Building conda package for pisa

@@ -1,44 +1,109 @@
-Error: prefix already exists: /home/ubuntu/miniconda/envs/_pipbuild_
-Collecting args==0.1.0
+Removing old build directory
+Removing old work directory
+BUILD START: args-0.1.0-py27_0
+Fetching package metadata: ......
+
+WARNING: conda-build appears to be out of date. You have version 1.13.0 but the
+latest version is 1.14.1. Run
+
+conda update -n root conda-build
+
+to get the latest version.
+
+Solving package specifications: .+ pip install args
+Collecting args
   Downloading http://localhost/packages/source/a/args/args-0.1.0.tar.gz
-setuptools must be installed to install from a source distribution
+Installing collected packages: args
+  Running setup.py install for args
+Successfully installed args-0.1.0
+
+The following NEW packages will be INSTALLED:
+
+    openssl:    1.0.1k-1     
+    pip:        7.0.3-py27_0 
+    python:     2.7.10-0     
+    readline:   6.2-2        
+    setuptools: 18.0.1-py27_0
+    sqlite:     3.8.4.1-1    
+    system:     5.8-2        
+    tk:         8.5.18-0     
+    zlib:       1.2.8-0      
+
+Linking packages ...
+[                    ]|                                                  |   0%[openssl             ]|                                                  |   0%[readline            ]|#####                                             |  11%[sqlite              ]|###########                                       |  22%[system              ]|################                                  |  33%[tk                  ]|######################                            |  44%[zlib                ]|###########################                       |  55%[python              ]|#################################                 |  66%[setuptools          ]|######################################            |  77%[pip                 ]|############################################      |  88%[      COMPLETE      ]|##################################################| 100%
+Removing old work directory
+Copying /home/ubuntu/pypi-conda-builds/args to /home/ubuntu/miniconda/conda-bld/work
+Package: args-0.1.0-py27_0
+source tree in: /home/ubuntu/miniconda/conda-bld/work
+number of files: 8
+Fixing permissions
+Fixing permissions
+BUILD END: args-0.1.0-py27_0
+# If you want to upload this package to binstar.org later, type:
+#
+# $ binstar upload /home/ubuntu/miniconda/conda-bld/linux-64/args-0.1.0-py27_0.tar.bz2
+#
+# To have conda build upload to binstar automatically, use
+# $ conda config --set binstar_upload yes
+
+Removing old build directory
+Removing old work directory
+BUILD START: clint-0.4.1-py_0
+Fetching package metadata: ......
+
+WARNING: conda-build appears to be out of date. You have version 1.13.0 but the
+latest version is 1.14.1. Run
+
+conda update -n root conda-build
+
+to get the latest version.
+
+Solving package specifications: .+ pip install clint
+Collecting clint
+  Downloading http://localhost/packages/source/c/clint/clint-0.4.1.tar.gz
+Requirement already satisfied (use --upgrade to upgrade): args in /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages (from clint)
+Installing collected packages: clint
+  Running setup.py install for clint
+Successfully installed clint-0.4.1
+
+The following NEW packages will be INSTALLED:
+
+    args:       0.1.0-py27_0 
+    openssl:    1.0.1k-1     
+    pip:        7.0.3-py27_0 
+    python:     2.7.10-0     
+    readline:   6.2-2        
+    setuptools: 18.0.1-py27_0
+    sqlite:     3.8.4.1-1    
+    system:     5.8-2        
+    tk:         8.5.18-0     
+    zlib:       1.2.8-0      
+
+Linking packages ...
+[                    ]|                                                  |   0%[openssl             ]|                                                  |   0%[readline            ]|#####                                             |  10%[sqlite              ]|##########                                        |  20%[system              ]|###############                                   |  30%[tk                  ]|####################                              |  40%[zlib                ]|#########################                         |  50%[args                ]|##############################                    |  60%[python              ]|###################################               |  70%[setuptools          ]|########################################          |  80%[pip                 ]|#############################################     |  90%[      COMPLETE      ]|##################################################| 100%
+Removing old work directory
+Copying /home/ubuntu/pypi-conda-builds/clint to /home/ubuntu/miniconda/conda-bld/work
+Package: clint-0.4.1-py_0
+source tree in: /home/ubuntu/miniconda/conda-bld/work
+number of files: 52
+Fixing permissions
+Fixing permissions
+BUILD END: clint-0.4.1-py_0
+# If you want to upload this package to binstar.org later, type:
+#
+# $ binstar upload /home/ubuntu/miniconda/conda-bld/noarch/clint-0.4.1-py_0.tar.bz2
+#
+# To have conda build upload to binstar automatically, use
+# $ conda config --set binstar_upload yes
+
 Package search: {'_pypi_ordering': False, 'version': '0.4.1', 'name': 'clint', 'summary': 'Python Command-line Application Tools'}
 Creating standard recipe for clint-0.4.1
 Converting recipe in /home/ubuntu/pypi-conda-builds/clint
 package = clint
    dependencies = [u'args']
 Creating standard recipe for args
-Warning, the following versions were found for args
-0.1.0
-0
-Using 0.1.0
-Use --version to specify a different version.
-Using url https://pypi.python.org/packages/source/a/args/args-0.1.0.tar.gz (3 KB) for args.
-Downloading args
-Using cached download
-Unpacking args...
-done
-working in /tmp/tmpEokxASconda_skeleton_args-0.1.0.tar.gz
-Fetching package metadata: ......
-
-WARNING: conda-build appears to be out of date. You have version 1.13.0 but the
-latest version is 1.14.0. Run
-
-conda update -n root conda-build
-
-to get the latest version.
-
-Solving package specifications: .patching file core.py
-Hunk #1 succeeded at 168 with fuzz 2 (offset 2 lines).
-Traceback (most recent call last):
-  File "setup.py", line 10, in <module>
-    from setuptools import setup
-ImportError: No module named setuptools
-
-Applying patch: '/tmp/tmpEokxASconda_skeleton_args-0.1.0.tar.gz/pypi-distutils.patch'
-$PYTHONPATH = /tmp/tmpEokxASconda_skeleton_args-0.1.0.tar.gz/args-0.1.0
-Error: command failed: /home/ubuntu/miniconda/envs/_build/bin/python setup.py install
-
-conda create -n _pipbuild_ --yes python pip
-/home/ubuntu/miniconda/envs/_pipbuild_/bin/pip install args==0.1.0
-Error: Could not pip install args==0.1.0
+Converting recipe in /home/ubuntu/pypi-conda-builds/args
+package = args
+   dependencies = []
+Building conda package for args
+Building conda package for clint

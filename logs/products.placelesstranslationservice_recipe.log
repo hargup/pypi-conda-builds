@@ -1,0 +1,161 @@
+products.placelesstranslationservice not found, trying Products.PlacelessTranslationService
+Warning, the following versions were found for Products.PlacelessTranslationService
+2.0.5
+2.0.4
+2.0.3
+2.0.2
+2.0.1
+2.0
+2.0b6
+2.0b5
+2.0b4
+2.0b2
+2.0b1
+2.0a2
+2.0a1-1
+2.0a1
+1.5.4
+1.5.3
+1.5.2
+1.5.1
+1.5
+1.4.13
+1.4.12
+1.4.11
+1.4.10
+1.4.9
+1.4.8
+1.4.7
+1.4.6
+1.4.5
+1.4.4
+1.4.3
+1.4.2b2
+1.4.2b1
+Using 2.0.5
+Use --version to specify a different version.
+Using url https://pypi.python.org/packages/source/P/Products.PlacelessTranslationService/Products.PlacelessTranslationService-2.0.5.zip (88 KB) for Products.PlacelessTranslationService.
+Downloading Products.PlacelessTranslationService
+Unpacking Products.PlacelessTranslationService...
+done
+working in /tmp/tmpiqvEMdconda_skeleton_Products.PlacelessTranslationService-2.0.5.zip
+Fetching package metadata: ......
+
+WARNING: conda-build appears to be out of date. You have version 1.13.0 but the
+latest version is 1.14.1. Run
+
+conda update -n root conda-build
+
+to get the latest version.
+
+Solving package specifications: .patching file core.py
+Hunk #1 succeeded at 168 with fuzz 2 (offset 2 lines).
+
+WARNING: conda-build appears to be out of date. You have version 1.13.0 but the
+latest version is 1.14.1. Run
+
+conda update -n root conda-build
+
+to get the latest version.
+
+
+The following NEW packages will be INSTALLED:
+
+    numpy:      1.9.2-py27_0 
+    openssl:    1.0.1k-1     
+    pip:        7.0.3-py27_0 
+    python:     2.7.10-0     
+    pyyaml:     3.11-py27_1  
+    readline:   6.2-2        
+    setuptools: 18.0.1-py27_0
+    sqlite:     3.8.4.1-1    
+    system:     5.8-2        
+    tk:         8.5.18-0     
+    yaml:       0.1.6-0      
+    zlib:       1.2.8-0      
+
+Linking packages ...
+[                    ]|                                                  |   0%[openssl             ]|                                                  |   0%[readline            ]|####                                              |   8%[sqlite              ]|########                                          |  16%[system              ]|############                                      |  25%[tk                  ]|################                                  |  33%[yaml                ]|####################                              |  41%[zlib                ]|#########################                         |  50%[numpy               ]|#############################                     |  58%[python              ]|#################################                 |  66%[pyyaml              ]|#####################################             |  75%[setuptools          ]|#########################################         |  83%[pip                 ]|#############################################     |  91%[      COMPLETE      ]|##################################################| 100%
+Applying patch: '/tmp/tmpiqvEMdconda_skeleton_Products.PlacelessTranslationService-2.0.5.zip/pypi-distutils.patch'
+zope2 not found, trying Zope2
+Warning, the following versions were found for Zope2
+2.13.22
+2.13.21
+2.13.20
+2.13.19
+2.13.18
+2.13.17
+2.13.16
+2.13.15
+2.13.14
+2.13.13
+2.13.12
+2.13.11
+2.13.10
+2.13.9
+2.13.8
+2.13.7
+2.13.6
+2.13.5
+2.13.4
+2.13.3
+2.13.2
+2.13.1
+2.13.0
+2.13.0c1
+2.13.0b1
+2.13.0a4
+2.13.0a3
+2.13.0a2
+2.13.0a1
+2.12.28
+2.12.27
+2.12.26
+2.12.25
+2.12.24
+2.12.23
+2.12.22
+2.12.21
+2.12.20
+2.12.19
+2.12.18
+2.12.17
+2.12.16
+2.12.15
+2.12.14
+2.12.13
+2.12.12
+2.12.11
+2.12.10
+2.12.9
+2.12.8
+2.12.7
+2.12.6
+2.12.5
+2.12.4
+2.12.3
+2.12.2
+2.12.1
+2.12.0
+2.12.0c1
+2.12.0b4
+2.12.0b3
+2.12.0b2
+2.12.0b1
+2.12.0a4
+2.12.0a3
+2.12.0a2
+2.12.0.a1
+Using 2.13.22
+Use --version to specify a different version.
+Using url https://pypi.python.org/packages/source/Z/Zope2/Zope2-2.13.22.zip (1.3 MB) for Zope2.
+Downloading Zope2
+Using cached download
+Unpacking Zope2...
+done
+working in /tmp/tmpVhQxL3conda_skeleton_Zope2-2.13.22.zip
+Solving package specifications: .patching file core.py
+Hunk #1 succeeded at 168 with fuzz 2 (offset 2 lines).
+
+Applying patch: '/tmp/tmpVhQxL3conda_skeleton_Zope2-2.13.22.zip/pypi-distutils.patch'
+Error: Could not parse: zope.i18n [zcml]

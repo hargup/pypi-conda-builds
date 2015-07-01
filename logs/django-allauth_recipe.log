@@ -31,19 +31,52 @@ Warning, the following versions were found for django-allauth
 Using 0.20.0
 Use --version to specify a different version.
 Using url https://pypi.python.org/packages/source/d/django-allauth/django-allauth-0.20.0.tar.gz (289 KB) for django-allauth.
-Downloading django-allauth (use --no-download to skip this step)
+Downloading django-allauth
 Using cached download
 Unpacking django-allauth...
 done
-working in /tmp/tmpZnQka1conda_skeleton_django-allauth-0.20.0.tar.gz
+working in /tmp/tmpaw7rK4conda_skeleton_django-allauth-0.20.0.tar.gz
 Fetching package metadata: ......
+
+WARNING: conda-build appears to be out of date. You have version 1.13.0 but the
+latest version is 1.14.1. Run
+
+conda update -n root conda-build
+
+to get the latest version.
+
 Solving package specifications: .patching file core.py
 Hunk #1 succeeded at 168 with fuzz 2 (offset 2 lines).
-Traceback (most recent call last):
-  File "setup.py", line 7, in <module>
-    from setuptools import setup, find_packages
-ImportError: No module named setuptools
 
-Applying patch: '/tmp/tmpZnQka1conda_skeleton_django-allauth-0.20.0.tar.gz/pypi-distutils.patch'
-$PYTHONPATH = /tmp/tmpZnQka1conda_skeleton_django-allauth-0.20.0.tar.gz/django-allauth-0.20.0
-Error: command failed: /home/ubuntu/miniconda/envs/_build/bin/python setup.py install
+WARNING: conda-build appears to be out of date. You have version 1.13.0 but the
+latest version is 1.14.1. Run
+
+conda update -n root conda-build
+
+to get the latest version.
+
+
+Applying patch: '/tmp/tmpaw7rK4conda_skeleton_django-allauth-0.20.0.tar.gz/pypi-distutils.patch'
+Warning, the following versions were found for requests-oauthlib
+0.5.0
+0.4.2
+0.4.1
+0.4.0
+0.3.3
+0.3.2
+0.3.1
+0.3.0
+0.2.0
+Using 0.5.0
+Use --version to specify a different version.
+Using url https://pypi.python.org/packages/source/r/requests-oauthlib/requests-oauthlib-0.5.0.tar.gz (53 KB) for requests-oauthlib.
+Downloading requests-oauthlib
+Using cached download
+Unpacking requests-oauthlib...
+done
+working in /tmp/tmpsJ8HZ9conda_skeleton_requests-oauthlib-0.5.0.tar.gz
+Solving package specifications: .patching file core.py
+Hunk #1 succeeded at 168 with fuzz 2 (offset 2 lines).
+
+Applying patch: '/tmp/tmpsJ8HZ9conda_skeleton_requests-oauthlib-0.5.0.tar.gz/pypi-distutils.patch'
+Error: Could not find any versions of package oauthlib[rsa]

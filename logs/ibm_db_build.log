@@ -1,0 +1,925 @@
+Removing old build directory
+Removing old work directory
+BUILD START: ibm_db-2.0.5.1-py_0
+Fetching package metadata: ......
+
+WARNING: conda-build appears to be out of date. You have version 1.13.0 but the
+latest version is 1.14.1. Run
+
+conda update -n root conda-build
+
+to get the latest version.
+
+Solving package specifications: .+ /home/ubuntu/miniconda/envs/_build/bin/python setup.py install
+Detected 64-bit Python
+Downloading https://public.dhe.ibm.com/ibmdl/export/pub/software/data/db2/drivers/odbc_cli/linuxx64_odbc_cli.tar.gz
+running install
+running bdist_egg
+running egg_info
+creating ibm_db.egg-info
+writing ibm_db.egg-info/PKG-INFO
+writing top-level names to ibm_db.egg-info/top_level.txt
+writing dependency_links to ibm_db.egg-info/dependency_links.txt
+writing manifest file 'ibm_db.egg-info/SOURCES.txt'
+reading manifest file 'ibm_db.egg-info/SOURCES.txt'
+reading manifest template 'MANIFEST.in'
+warning: no files found matching '*' under directory 'ibm_db_dlls'
+writing manifest file 'ibm_db.egg-info/SOURCES.txt'
+installing library code to build/bdist.linux-x86_64/egg
+running install_lib
+running build_py
+creating build
+creating build/lib.linux-x86_64-2.7
+copying config.py -> build/lib.linux-x86_64-2.7
+copying ibm_db_dbi.py -> build/lib.linux-x86_64-2.7
+copying testfunctions.py -> build/lib.linux-x86_64-2.7
+copying tests.py -> build/lib.linux-x86_64-2.7
+creating build/lib.linux-x86_64-2.7/clidriver
+copying clidriver/__init__.py -> build/lib.linux-x86_64-2.7/clidriver
+creating build/lib.linux-x86_64-2.7/tests
+copying tests/test_121_FieldNameAddCol.py -> build/lib.linux-x86_64-2.7/tests
+copying tests/test_003_NumAffectedRows.py -> build/lib.linux-x86_64-2.7/tests
+copying tests/test_241_FieldWidthPosName_02.py -> build/lib.linux-x86_64-2.7/tests
+copying tests/test_decfloat.py -> build/lib.linux-x86_64-2.7/tests
+copying tests/test_024_ForeignKeys.py -> build/lib.linux-x86_64-2.7/tests
+copying tests/test_046_FetchTupleMany_05.py -> build/lib.linux-x86_64-2.7/tests
+copying tests/test_311_InsertSelectDeleteNumLiterals.py -> build/lib.linux-x86_64-2.7/tests
+copying tests/test_6792_FieldTypeRetStrDatetimeTimestamp.py -> build/lib.linux-x86_64-2.7/tests
+copying tests/test_260_FetchTupleMany_07.py -> build/lib.linux-x86_64-2.7/tests
+copying tests/test_042_FetchTupleMany_02.py -> build/lib.linux-x86_64-2.7/tests
+copying tests/test_041_FetchTupleMany_01.py -> build/lib.linux-x86_64-2.7/tests
+copying tests/test_211_FieldDisplaySize_02.py -> build/lib.linux-x86_64-2.7/tests
+copying tests/test_03a_ResultNonExistCol.py -> build/lib.linux-x86_64-2.7/tests
+copying tests/test_124_FieldNamePos_02.py -> build/lib.linux-x86_64-2.7/tests
+copying tests/test_017_selectRowcountPrefetchSTMTOpt.py -> build/lib.linux-x86_64-2.7/tests
+copying tests/test_037_FetchRowIndexPos.py -> build/lib.linux-x86_64-2.7/tests
+copying tests/test_131_PrepareExecuteSelectStatementParams.py -> build/lib.linux-x86_64-2.7/tests
+copying tests/test_148_CallSPDiffBindPattern_01.py -> build/lib.linux-x86_64-2.7/tests
+copying tests/test_261_FetchObjectAccess.py -> build/lib.linux-x86_64-2.7/tests
+copying tests/test_050_AutocommitStatus.py -> build/lib.linux-x86_64-2.7/tests
+copying tests/test_010_UpdateRowCount.py -> build/lib.linux-x86_64-2.7/tests
+copying tests/test_081_ConnWrongUser.py -> build/lib.linux-x86_64-2.7/tests
+copying tests/test_InsertRetrieveDateTimeTypeColumn.py -> build/lib.linux-x86_64-2.7/tests
+copying tests/test_265_NoAffectedRows.py -> build/lib.linux-x86_64-2.7/tests
+copying tests/test_200_MultipleRsltsetsUniformColDefs.py -> build/lib.linux-x86_64-2.7/tests
+copying tests/test_execute_many.py -> build/lib.linux-x86_64-2.7/tests
+copying tests/test_011_DeleteRowCount.py -> build/lib.linux-x86_64-2.7/tests
+copying tests/test_100_SelectDeleteInsertFieldCount.py -> build/lib.linux-x86_64-2.7/tests
+copying tests/test_091_ConnmsgWrongUser.py -> build/lib.linux-x86_64-2.7/tests
+copying tests/test_092_ConnmsgWrongPwd.py -> build/lib.linux-x86_64-2.7/tests
+copying tests/test_066_TableObjects.py -> build/lib.linux-x86_64-2.7/tests
+copying tests/test_147_PrepareWithWrongType.py -> build/lib.linux-x86_64-2.7/tests
+copying tests/test_025_PrimaryKeys.py -> build/lib.linux-x86_64-2.7/tests
+copying tests/test_052_SetAutocommit_02.py -> build/lib.linux-x86_64-2.7/tests
+copying tests/test_062_Tables_03.py -> build/lib.linux-x86_64-2.7/tests
+copying tests/test_014_KeysetDrivenCursorNegativeRow.py -> build/lib.linux-x86_64-2.7/tests
+copying tests/test_034_FetchAssoc.py -> build/lib.linux-x86_64-2.7/tests
+copying tests/test_018_selectRowcountPrefetchSetOpt.py -> build/lib.linux-x86_64-2.7/tests
+copying tests/test_054_CursorType.py -> build/lib.linux-x86_64-2.7/tests
+copying tests/test_053_AttrThruConn.py -> build/lib.linux-x86_64-2.7/tests
+copying tests/test_004_ConnWrongUserPwd.py -> build/lib.linux-x86_64-2.7/tests
+copying tests/test_132_ExecuteStatementArrayMultipleParams.py -> build/lib.linux-x86_64-2.7/tests
+copying tests/test_101_InsertDeleteFieldCount.py -> build/lib.linux-x86_64-2.7/tests
+copying tests/test_012_KeysetDrivenCursorSelect01.py -> build/lib.linux-x86_64-2.7/tests
+copying tests/test_007_pConnPassingOpts.py -> build/lib.linux-x86_64-2.7/tests
+copying tests/test_023_ColumnPrivileges.py -> build/lib.linux-x86_64-2.7/tests
+copying tests/test_120_FieldName.py -> build/lib.linux-x86_64-2.7/tests
+copying tests/test_020_RollbackDelete.py -> build/lib.linux-x86_64-2.7/tests
+copying tests/test_115_NumericTest_02.py -> build/lib.linux-x86_64-2.7/tests
+copying tests/test_114_NumericTest_01.py -> build/lib.linux-x86_64-2.7/tests
+copying tests/test_159a_FetchAssocSeveralRows_02.py -> build/lib.linux-x86_64-2.7/tests
+copying tests/test_250_FreeResult_01.py -> build/lib.linux-x86_64-2.7/tests
+copying tests/test_122_FieldNameDiffCaseColNames.py -> build/lib.linux-x86_64-2.7/tests
+copying tests/test_153_FetchAssocSelect_04.py -> build/lib.linux-x86_64-2.7/tests
+copying tests/test_111_FieldNumAddCol.py -> build/lib.linux-x86_64-2.7/tests
+copying tests/test_145_BindRetrieveNoneEmptyString.py -> build/lib.linux-x86_64-2.7/tests
+copying tests/test_113_DateTest.py -> build/lib.linux-x86_64-2.7/tests
+copying tests/test_141_BindParamSelectStmtMultipleParams_01.py -> build/lib.linux-x86_64-2.7/tests
+copying tests/test_213_FieldDisplaySize_04.py -> build/lib.linux-x86_64-2.7/tests
+copying tests/test_191_ColumnsTable_02.py -> build/lib.linux-x86_64-2.7/tests
+copying tests/test_231_FieldTypeName.py -> build/lib.linux-x86_64-2.7/tests
+copying tests/test_015_InsertDeleteRowCount_01.py -> build/lib.linux-x86_64-2.7/tests
+copying tests/test_157b_FetchAssocScrollableCursor_02.py -> build/lib.linux-x86_64-2.7/tests
+copying tests/test_decimal.py -> build/lib.linux-x86_64-2.7/tests
+copying tests/test_130_PrepExecuteSelectStmt.py -> build/lib.linux-x86_64-2.7/tests
+copying tests/test_019_selectRowcountPrefetchPrepOpt.py -> build/lib.linux-x86_64-2.7/tests
+copying tests/test_162_FetchBothNestedSelects_02.py -> build/lib.linux-x86_64-2.7/tests
+copying tests/test_212_FieldDisplaySize_03.py -> build/lib.linux-x86_64-2.7/tests
+copying tests/test_151_FetchAssocSelect_02.py -> build/lib.linux-x86_64-2.7/tests
+copying tests/test_030_Result.py -> build/lib.linux-x86_64-2.7/tests
+copying tests/test_createDropDB.py -> build/lib.linux-x86_64-2.7/tests
+copying tests/test_150_FetchAssocSelect_01.py -> build/lib.linux-x86_64-2.7/tests
+copying tests/test_103_NumFieldsSelect_02.py -> build/lib.linux-x86_64-2.7/tests
+copying tests/test_159_FetchAssocSeveralRows_01.py -> build/lib.linux-x86_64-2.7/tests
+copying tests/test_060_Tables_01.py -> build/lib.linux-x86_64-2.7/tests
+copying tests/test_080_ConnWrongDbAlias.py -> build/lib.linux-x86_64-2.7/tests
+copying tests/test_008_ColumnInfo.py -> build/lib.linux-x86_64-2.7/tests
+copying tests/test_157a_FetchAssocWithoutScrollableCursorErr.py -> build/lib.linux-x86_64-2.7/tests
+copying tests/test_52949_TestSPIntVarcharXml.py -> build/lib.linux-x86_64-2.7/tests
+copying tests/test_051_SetAutocommit_01.py -> build/lib.linux-x86_64-2.7/tests
+copying tests/test_160_FetchBoth.py -> build/lib.linux-x86_64-2.7/tests
+copying tests/test_047_FetchTupleMany_06.py -> build/lib.linux-x86_64-2.7/tests
+copying tests/test_143_BindParamInsertStmtNoneParam.py -> build/lib.linux-x86_64-2.7/tests
+copying tests/test_146_CallSPINAndOUTParams.py -> build/lib.linux-x86_64-2.7/tests
+copying tests/test_035_FetchRow_01.py -> build/lib.linux-x86_64-2.7/tests
+copying tests/test_043_FetchTupleMany_03.py -> build/lib.linux-x86_64-2.7/tests
+copying tests/test_112_FieldNumDiffCaseColNames.py -> build/lib.linux-x86_64-2.7/tests
+copying tests/test_002_ConnDbUncatalogedConn.py -> build/lib.linux-x86_64-2.7/tests
+copying tests/test_065_FilterTableName.py -> build/lib.linux-x86_64-2.7/tests
+copying tests/test_036_FetchRow_02.py -> build/lib.linux-x86_64-2.7/tests
+copying tests/test_154_AllFetches.py -> build/lib.linux-x86_64-2.7/tests
+copying tests/test_016_InsertDeleteRowCount_02.py -> build/lib.linux-x86_64-2.7/tests
+copying tests/test_110_FieldNum.py -> build/lib.linux-x86_64-2.7/tests
+copying tests/test_180_StmtErrMsg.py -> build/lib.linux-x86_64-2.7/tests
+copying tests/test_155_FetchAssocSelect_05.py -> build/lib.linux-x86_64-2.7/tests
+copying tests/test_061_Tables_02.py -> build/lib.linux-x86_64-2.7/tests
+copying tests/test_044_FetchTupleMany_04.py -> build/lib.linux-x86_64-2.7/tests
+copying tests/test_221_100PersistentConns.py -> build/lib.linux-x86_64-2.7/tests
+copying tests/test_161_FetchBothNestedSelects_01.py -> build/lib.linux-x86_64-2.7/tests
+copying tests/test_195_InsertRetrieveXMLData_01.py -> build/lib.linux-x86_64-2.7/tests
+copying tests/test_201_MultipleRsltsetsDiffColDefs.py -> build/lib.linux-x86_64-2.7/tests
+copying tests/test_133_ExecuteLongInputParams.py -> build/lib.linux-x86_64-2.7/tests
+copying tests/test_032_ResultIndexName.py -> build/lib.linux-x86_64-2.7/tests
+copying tests/test_090_ConnmsgWrongDbAlias.py -> build/lib.linux-x86_64-2.7/tests
+copying tests/test_156_FetchAssocNestedSelects_01.py -> build/lib.linux-x86_64-2.7/tests
+copying tests/test_123_FieldNamePos_01.py -> build/lib.linux-x86_64-2.7/tests
+copying tests/test_116_ConnActive.py -> build/lib.linux-x86_64-2.7/tests
+copying tests/test_190_ColumnsTable_01.py -> build/lib.linux-x86_64-2.7/tests
+copying tests/test_102_NumFieldsSelect_01.py -> build/lib.linux-x86_64-2.7/tests
+copying tests/test_140_BindParamSelectStmt.py -> build/lib.linux-x86_64-2.7/tests
+copying tests/test_049_InsertNoneParam.py -> build/lib.linux-x86_64-2.7/tests
+copying tests/test_220_PersistentConn.py -> build/lib.linux-x86_64-2.7/tests
+copying tests/test_trusted_context_connect.py -> build/lib.linux-x86_64-2.7/tests
+copying tests/test_210_FieldDisplaySize_01.py -> build/lib.linux-x86_64-2.7/tests
+copying tests/test_125_FieldNamePos_03.py -> build/lib.linux-x86_64-2.7/tests
+copying tests/test_142_BindParamSelectStmtMultipleParams_02.py -> build/lib.linux-x86_64-2.7/tests
+copying tests/test_031_ResultIndexPosition.py -> build/lib.linux-x86_64-2.7/tests
+copying tests/test_038_FetchRowIndexPosNested_01.py -> build/lib.linux-x86_64-2.7/tests
+copying tests/__init__.py -> build/lib.linux-x86_64-2.7/tests
+copying tests/test_240_FieldWidthPosName_01.py -> build/lib.linux-x86_64-2.7/tests
+copying tests/test_232_FieldTypePosName.py -> build/lib.linux-x86_64-2.7/tests
+copying tests/test_157_FetchAssocScrollableCursor_01.py -> build/lib.linux-x86_64-2.7/tests
+copying tests/test_196_InsertRetrieveXMLData_02.py -> build/lib.linux-x86_64-2.7/tests
+copying tests/test_6561_InsertNULLValues.py -> build/lib.linux-x86_64-2.7/tests
+copying tests/test_013_KeysetDrivenCursorSelect02.py -> build/lib.linux-x86_64-2.7/tests
+copying tests/test_000_PrepareDb.py -> build/lib.linux-x86_64-2.7/tests
+copying tests/test_021_CommitDelete.py -> build/lib.linux-x86_64-2.7/tests
+copying tests/test_082_ConnWrongPwd.py -> build/lib.linux-x86_64-2.7/tests
+copying tests/test_006_ConnPassingOpts.py -> build/lib.linux-x86_64-2.7/tests
+copying tests/test_230_FieldTypePos.py -> build/lib.linux-x86_64-2.7/tests
+copying tests/test_144_BindParamInsertStmtPARAM_FILE.py -> build/lib.linux-x86_64-2.7/tests
+copying tests/test_071_CloseSuccess.py -> build/lib.linux-x86_64-2.7/tests
+copying tests/test_264_InsertRetrieveBIGINTTypeColumn.py -> build/lib.linux-x86_64-2.7/tests
+copying tests/test_createdbNX.py -> build/lib.linux-x86_64-2.7/tests
+copying tests/test_300_ServerInfo.py -> build/lib.linux-x86_64-2.7/tests
+copying tests/test_064_Tables_05.py -> build/lib.linux-x86_64-2.7/tests
+copying tests/test_033_ResultOutSequenceColumn.py -> build/lib.linux-x86_64-2.7/tests
+copying tests/test_048_FetchTupleBinaryData_02.py -> build/lib.linux-x86_64-2.7/tests
+copying tests/test_recreateDB.py -> build/lib.linux-x86_64-2.7/tests
+copying tests/test_6528_ScopingProblemBindParam.py -> build/lib.linux-x86_64-2.7/tests
+copying tests/test_152_FetchAssocSelect_03.py -> build/lib.linux-x86_64-2.7/tests
+copying tests/test_022_RollbackInsert.py -> build/lib.linux-x86_64-2.7/tests
+copying tests/test_197_StatisticsIndexes.py -> build/lib.linux-x86_64-2.7/tests
+copying tests/test_040_FetchTuple.py -> build/lib.linux-x86_64-2.7/tests
+copying tests/test_070_Close.py -> build/lib.linux-x86_64-2.7/tests
+copying tests/test_251_FreeResult_02.py -> build/lib.linux-x86_64-2.7/tests
+copying tests/test_310_ClientInfo.py -> build/lib.linux-x86_64-2.7/tests
+copying tests/test_001_ConnDb.py -> build/lib.linux-x86_64-2.7/tests
+copying tests/test_158_FetchAssocNestedSelects_02.py -> build/lib.linux-x86_64-2.7/tests
+copying tests/test_045_FetchTupleBinaryData_01.py -> build/lib.linux-x86_64-2.7/tests
+copying tests/test_005_ConnBadUserBadPwd.py -> build/lib.linux-x86_64-2.7/tests
+copying tests/test_039_FetchRowIndexPosNested_02.py -> build/lib.linux-x86_64-2.7/tests
+copying tests/test_063_Tables_04.py -> build/lib.linux-x86_64-2.7/tests
+copying tests/test_trusted_context_pconnect.py -> build/lib.linux-x86_64-2.7/tests
+copying tests/test_6755_ExtraNULLChar_ResultCLOBCol.py -> build/lib.linux-x86_64-2.7/tests
+creating build/lib.linux-x86_64-2.7/clidriver/adm
+copying clidriver/adm/db2drdat -> build/lib.linux-x86_64-2.7/clidriver/adm
+copying clidriver/adm/db2trc -> build/lib.linux-x86_64-2.7/clidriver/adm
+creating build/lib.linux-x86_64-2.7/clidriver/bin
+copying clidriver/bin/db2cli -> build/lib.linux-x86_64-2.7/clidriver/bin
+copying clidriver/bin/db2diag -> build/lib.linux-x86_64-2.7/clidriver/bin
+copying clidriver/bin/db2dsdcfgfill -> build/lib.linux-x86_64-2.7/clidriver/bin
+copying clidriver/bin/db2ldcfg -> build/lib.linux-x86_64-2.7/clidriver/bin
+copying clidriver/bin/db2lddrg -> build/lib.linux-x86_64-2.7/clidriver/bin
+copying clidriver/bin/db2level -> build/lib.linux-x86_64-2.7/clidriver/bin
+copying clidriver/bin/db2support -> build/lib.linux-x86_64-2.7/clidriver/bin
+creating build/lib.linux-x86_64-2.7/clidriver/bnd
+copying clidriver/bnd/db2ajgrt.bnd -> build/lib.linux-x86_64-2.7/clidriver/bnd
+copying clidriver/bnd/db2cli.bnd -> build/lib.linux-x86_64-2.7/clidriver/bnd
+copying clidriver/bnd/db2cli.lst -> build/lib.linux-x86_64-2.7/clidriver/bnd
+copying clidriver/bnd/db2clipk.bnd -> build/lib.linux-x86_64-2.7/clidriver/bnd
+copying clidriver/bnd/db2clist.bnd -> build/lib.linux-x86_64-2.7/clidriver/bnd
+copying clidriver/bnd/ddcs400.lst -> build/lib.linux-x86_64-2.7/clidriver/bnd
+copying clidriver/bnd/ddcsmvs.lst -> build/lib.linux-x86_64-2.7/clidriver/bnd
+copying clidriver/bnd/ddcsvm.lst -> build/lib.linux-x86_64-2.7/clidriver/bnd
+copying clidriver/bnd/ddcsvse.lst -> build/lib.linux-x86_64-2.7/clidriver/bnd
+creating build/lib.linux-x86_64-2.7/clidriver/cfg
+copying clidriver/cfg/DigiCertGlobalRootCA.arm -> build/lib.linux-x86_64-2.7/clidriver/cfg
+copying clidriver/cfg/db2cli.ini.sample -> build/lib.linux-x86_64-2.7/clidriver/cfg
+copying clidriver/cfg/db2dsdriver.cfg.sample -> build/lib.linux-x86_64-2.7/clidriver/cfg
+copying clidriver/cfg/db2dsdriver.xsd -> build/lib.linux-x86_64-2.7/clidriver/cfg
+creating build/lib.linux-x86_64-2.7/clidriver/cfgcache
+copying clidriver/cfgcache/conlic.bin -> build/lib.linux-x86_64-2.7/clidriver/cfgcache
+creating build/lib.linux-x86_64-2.7/clidriver/conv
+creating build/lib.linux-x86_64-2.7/clidriver/conv/alt
+copying clidriver/conv/alt/04370923.cnv -> build/lib.linux-x86_64-2.7/clidriver/conv/alt
+copying clidriver/conv/alt/08500923.cnv -> build/lib.linux-x86_64-2.7/clidriver/conv/alt
+copying clidriver/conv/alt/08501252.cnv -> build/lib.linux-x86_64-2.7/clidriver/conv/alt
+copying clidriver/conv/alt/08600923.cnv -> build/lib.linux-x86_64-2.7/clidriver/conv/alt
+copying clidriver/conv/alt/08630923.cnv -> build/lib.linux-x86_64-2.7/clidriver/conv/alt
+copying clidriver/conv/alt/09230437.cnv -> build/lib.linux-x86_64-2.7/clidriver/conv/alt
+copying clidriver/conv/alt/09230850.cnv -> build/lib.linux-x86_64-2.7/clidriver/conv/alt
+copying clidriver/conv/alt/09230860.cnv -> build/lib.linux-x86_64-2.7/clidriver/conv/alt
+copying clidriver/conv/alt/09231043.cnv -> build/lib.linux-x86_64-2.7/clidriver/conv/alt
+copying clidriver/conv/alt/09231051.cnv -> build/lib.linux-x86_64-2.7/clidriver/conv/alt
+copying clidriver/conv/alt/09231114.cnv -> build/lib.linux-x86_64-2.7/clidriver/conv/alt
+copying clidriver/conv/alt/09231208.cnv -> build/lib.linux-x86_64-2.7/clidriver/conv/alt
+copying clidriver/conv/alt/09231252.cnv -> build/lib.linux-x86_64-2.7/clidriver/conv/alt
+copying clidriver/conv/alt/09231275.cnv -> build/lib.linux-x86_64-2.7/clidriver/conv/alt
+copying clidriver/conv/alt/09241252.cnv -> build/lib.linux-x86_64-2.7/clidriver/conv/alt
+copying clidriver/conv/alt/09370950.cnv -> build/lib.linux-x86_64-2.7/clidriver/conv/alt
+copying clidriver/conv/alt/10430923.cnv -> build/lib.linux-x86_64-2.7/clidriver/conv/alt
+copying clidriver/conv/alt/10510923.cnv -> build/lib.linux-x86_64-2.7/clidriver/conv/alt
+copying clidriver/conv/alt/11140923.cnv -> build/lib.linux-x86_64-2.7/clidriver/conv/alt
+copying clidriver/conv/alt/12080923.cnv -> build/lib.linux-x86_64-2.7/clidriver/conv/alt
+copying clidriver/conv/alt/12520850.cnv -> build/lib.linux-x86_64-2.7/clidriver/conv/alt
+copying clidriver/conv/alt/12520923.cnv -> build/lib.linux-x86_64-2.7/clidriver/conv/alt
+copying clidriver/conv/alt/12750923.cnv -> build/lib.linux-x86_64-2.7/clidriver/conv/alt
+copying clidriver/conv/alt/IBM00850.ucs -> build/lib.linux-x86_64-2.7/clidriver/conv/alt
+copying clidriver/conv/alt/IBM00923.ucs -> build/lib.linux-x86_64-2.7/clidriver/conv/alt
+copying clidriver/conv/alt/IBM01252.ucs -> build/lib.linux-x86_64-2.7/clidriver/conv/alt
+creating build/lib.linux-x86_64-2.7/clidriver/conv/ms
+copying clidriver/conv/ms/0930ucs2.cnv -> build/lib.linux-x86_64-2.7/clidriver/conv/ms
+copying clidriver/conv/ms/0939ucs2.cnv -> build/lib.linux-x86_64-2.7/clidriver/conv/ms
+copying clidriver/conv/ms/0943ucs2.cnv -> build/lib.linux-x86_64-2.7/clidriver/conv/ms
+copying clidriver/conv/ms/0954ucs2.cnv -> build/lib.linux-x86_64-2.7/clidriver/conv/ms
+copying clidriver/conv/ms/5039ucs2.cnv -> build/lib.linux-x86_64-2.7/clidriver/conv/ms
+copying clidriver/conv/ms/ucs20943.cnv -> build/lib.linux-x86_64-2.7/clidriver/conv/ms
+creating build/lib.linux-x86_64-2.7/clidriver/include
+copying clidriver/include/sql.h -> build/lib.linux-x86_64-2.7/clidriver/include
+copying clidriver/include/sqlca.h -> build/lib.linux-x86_64-2.7/clidriver/include
+copying clidriver/include/sqlcli.h -> build/lib.linux-x86_64-2.7/clidriver/include
+copying clidriver/include/sqlcli1.h -> build/lib.linux-x86_64-2.7/clidriver/include
+copying clidriver/include/sqlda.h -> build/lib.linux-x86_64-2.7/clidriver/include
+copying clidriver/include/sqlenv.h -> build/lib.linux-x86_64-2.7/clidriver/include
+copying clidriver/include/sqlext.h -> build/lib.linux-x86_64-2.7/clidriver/include
+copying clidriver/include/sqlstate.h -> build/lib.linux-x86_64-2.7/clidriver/include
+copying clidriver/include/sqlsystm.h -> build/lib.linux-x86_64-2.7/clidriver/include
+creating build/lib.linux-x86_64-2.7/clidriver/lib
+copying clidriver/lib/libDB2xml4c.so -> build/lib.linux-x86_64-2.7/clidriver/lib
+copying clidriver/lib/libDB2xml4c.so.58 -> build/lib.linux-x86_64-2.7/clidriver/lib
+copying clidriver/lib/libDB2xml4c.so.58.0 -> build/lib.linux-x86_64-2.7/clidriver/lib
+copying clidriver/lib/libdb2.so -> build/lib.linux-x86_64-2.7/clidriver/lib
+copying clidriver/lib/libdb2.so.1 -> build/lib.linux-x86_64-2.7/clidriver/lib
+copying clidriver/lib/libdb2clixml4c.so -> build/lib.linux-x86_64-2.7/clidriver/lib
+copying clidriver/lib/libdb2clixml4c.so.1 -> build/lib.linux-x86_64-2.7/clidriver/lib
+creating build/lib.linux-x86_64-2.7/clidriver/lib/icc
+copying clidriver/lib/icc/libgsk8cms_64.so -> build/lib.linux-x86_64-2.7/clidriver/lib/icc
+copying clidriver/lib/icc/libgsk8dbfl_64.so -> build/lib.linux-x86_64-2.7/clidriver/lib/icc
+copying clidriver/lib/icc/libgsk8iccs_64.so -> build/lib.linux-x86_64-2.7/clidriver/lib/icc
+copying clidriver/lib/icc/libgsk8kicc_64.so -> build/lib.linux-x86_64-2.7/clidriver/lib/icc
+copying clidriver/lib/icc/libgsk8km_64.so -> build/lib.linux-x86_64-2.7/clidriver/lib/icc
+copying clidriver/lib/icc/libgsk8ssl_64.so -> build/lib.linux-x86_64-2.7/clidriver/lib/icc
+copying clidriver/lib/icc/libgsk8sys_64.so -> build/lib.linux-x86_64-2.7/clidriver/lib/icc
+copying clidriver/lib/icc/libgsk8valn_64.so -> build/lib.linux-x86_64-2.7/clidriver/lib/icc
+creating build/lib.linux-x86_64-2.7/clidriver/lib/icc/C
+creating build/lib.linux-x86_64-2.7/clidriver/lib/icc/C/icc
+copying clidriver/lib/icc/C/icc/ReadMe.txt -> build/lib.linux-x86_64-2.7/clidriver/lib/icc/C/icc
+creating build/lib.linux-x86_64-2.7/clidriver/lib/icc/C/icc/icclib
+copying clidriver/lib/icc/C/icc/icclib/libicclib082.so -> build/lib.linux-x86_64-2.7/clidriver/lib/icc/C/icc/icclib
+creating build/lib.linux-x86_64-2.7/clidriver/lib/icc/C/icc/osslib
+copying clidriver/lib/icc/C/icc/osslib/libcryptoIBM082.so.1.0.1 -> build/lib.linux-x86_64-2.7/clidriver/lib/icc/C/icc/osslib
+creating build/lib.linux-x86_64-2.7/clidriver/lib/icc/N
+creating build/lib.linux-x86_64-2.7/clidriver/lib/icc/N/icc
+copying clidriver/lib/icc/N/icc/ReadMe.txt -> build/lib.linux-x86_64-2.7/clidriver/lib/icc/N/icc
+creating build/lib.linux-x86_64-2.7/clidriver/lib/icc/N/icc/icclib
+copying clidriver/lib/icc/N/icc/icclib/libicclib083.so -> build/lib.linux-x86_64-2.7/clidriver/lib/icc/N/icc/icclib
+creating build/lib.linux-x86_64-2.7/clidriver/lib/icc/N/icc/osslib
+copying clidriver/lib/icc/N/icc/osslib/libcryptoIBM083.so.1.0.1 -> build/lib.linux-x86_64-2.7/clidriver/lib/icc/N/icc/osslib
+creating build/lib.linux-x86_64-2.7/clidriver/license
+copying clidriver/license/odbc_notices.txt -> build/lib.linux-x86_64-2.7/clidriver/license
+creating build/lib.linux-x86_64-2.7/clidriver/license/UNIX
+copying clidriver/license/UNIX/odbc_LI_cs -> build/lib.linux-x86_64-2.7/clidriver/license/UNIX
+copying clidriver/license/UNIX/odbc_LI_de -> build/lib.linux-x86_64-2.7/clidriver/license/UNIX
+copying clidriver/license/UNIX/odbc_LI_el -> build/lib.linux-x86_64-2.7/clidriver/license/UNIX
+copying clidriver/license/UNIX/odbc_LI_en -> build/lib.linux-x86_64-2.7/clidriver/license/UNIX
+copying clidriver/license/UNIX/odbc_LI_es -> build/lib.linux-x86_64-2.7/clidriver/license/UNIX
+copying clidriver/license/UNIX/odbc_LI_fr -> build/lib.linux-x86_64-2.7/clidriver/license/UNIX
+copying clidriver/license/UNIX/odbc_LI_in -> build/lib.linux-x86_64-2.7/clidriver/license/UNIX
+copying clidriver/license/UNIX/odbc_LI_it -> build/lib.linux-x86_64-2.7/clidriver/license/UNIX
+copying clidriver/license/UNIX/odbc_LI_ja -> build/lib.linux-x86_64-2.7/clidriver/license/UNIX
+copying clidriver/license/UNIX/odbc_LI_ko -> build/lib.linux-x86_64-2.7/clidriver/license/UNIX
+copying clidriver/license/UNIX/odbc_LI_lt -> build/lib.linux-x86_64-2.7/clidriver/license/UNIX
+copying clidriver/license/UNIX/odbc_LI_pl -> build/lib.linux-x86_64-2.7/clidriver/license/UNIX
+copying clidriver/license/UNIX/odbc_LI_pt -> build/lib.linux-x86_64-2.7/clidriver/license/UNIX
+copying clidriver/license/UNIX/odbc_LI_ru -> build/lib.linux-x86_64-2.7/clidriver/license/UNIX
+copying clidriver/license/UNIX/odbc_LI_sl -> build/lib.linux-x86_64-2.7/clidriver/license/UNIX
+copying clidriver/license/UNIX/odbc_LI_tr -> build/lib.linux-x86_64-2.7/clidriver/license/UNIX
+copying clidriver/license/UNIX/odbc_LI_zh -> build/lib.linux-x86_64-2.7/clidriver/license/UNIX
+copying clidriver/license/UNIX/odbc_LI_zh_TW -> build/lib.linux-x86_64-2.7/clidriver/license/UNIX
+creating build/lib.linux-x86_64-2.7/clidriver/msg
+creating build/lib.linux-x86_64-2.7/clidriver/msg/en_US.iso88591
+copying clidriver/msg/en_US.iso88591/db2adm.mo -> build/lib.linux-x86_64-2.7/clidriver/msg/en_US.iso88591
+copying clidriver/msg/en_US.iso88591/db2admh.mo -> build/lib.linux-x86_64-2.7/clidriver/msg/en_US.iso88591
+copying clidriver/msg/en_US.iso88591/db2caem.mo -> build/lib.linux-x86_64-2.7/clidriver/msg/en_US.iso88591
+copying clidriver/msg/en_US.iso88591/db2cklog.mo -> build/lib.linux-x86_64-2.7/clidriver/msg/en_US.iso88591
+copying clidriver/msg/en_US.iso88591/db2cli.mo -> build/lib.linux-x86_64-2.7/clidriver/msg/en_US.iso88591
+copying clidriver/msg/en_US.iso88591/db2clia1.lst -> build/lib.linux-x86_64-2.7/clidriver/msg/en_US.iso88591
+copying clidriver/msg/en_US.iso88591/db2clias.lst -> build/lib.linux-x86_64-2.7/clidriver/msg/en_US.iso88591
+copying clidriver/msg/en_US.iso88591/db2clih.mo -> build/lib.linux-x86_64-2.7/clidriver/msg/en_US.iso88591
+copying clidriver/msg/en_US.iso88591/db2clit.mo -> build/lib.linux-x86_64-2.7/clidriver/msg/en_US.iso88591
+copying clidriver/msg/en_US.iso88591/db2clp.mo -> build/lib.linux-x86_64-2.7/clidriver/msg/en_US.iso88591
+copying clidriver/msg/en_US.iso88591/db2clp2.mo -> build/lib.linux-x86_64-2.7/clidriver/msg/en_US.iso88591
+copying clidriver/msg/en_US.iso88591/db2diag.mo -> build/lib.linux-x86_64-2.7/clidriver/msg/en_US.iso88591
+copying clidriver/msg/en_US.iso88591/db2fodc.mo -> build/lib.linux-x86_64-2.7/clidriver/msg/en_US.iso88591
+copying clidriver/msg/en_US.iso88591/db2sql.mo -> build/lib.linux-x86_64-2.7/clidriver/msg/en_US.iso88591
+copying clidriver/msg/en_US.iso88591/db2sqlh.mo -> build/lib.linux-x86_64-2.7/clidriver/msg/en_US.iso88591
+copying clidriver/msg/en_US.iso88591/db2stt.mo -> build/lib.linux-x86_64-2.7/clidriver/msg/en_US.iso88591
+copying clidriver/msg/en_US.iso88591/db2supp.mo -> build/lib.linux-x86_64-2.7/clidriver/msg/en_US.iso88591
+copying tests/pic1.jpg -> build/lib.linux-x86_64-2.7/tests
+copying tests/spook.png -> build/lib.linux-x86_64-2.7/tests
+running build_ext
+building 'ibm_db' extension
+creating build/temp.linux-x86_64-2.7
+gcc -pthread -fno-strict-aliasing -g -O2 -DNDEBUG -g -fwrapv -O3 -Wall -Wstrict-prototypes -fPIC -Iclidriver/include -I/home/ubuntu/miniconda/envs/_build/include/python2.7 -c ibm_db.c -o build/temp.linux-x86_64-2.7/ibm_db.o
+In file included from clidriver/include/sqlcli.h:983:0,
+                 from clidriver/include/sqlcli1.h:45,
+                 from ibm_db.h:15,
+                 from ibm_db.c:28:
+clidriver/include/sqlext.h:2133:1: warning: function declaration isn’t a prototype [-Wstrict-prototypes]
+ RETCODE SQL_API TraceCloseLogFile();            /* Request to close a trace log */
+ ^
+clidriver/include/sqlext.h:2135:1: warning: function declaration isn’t a prototype [-Wstrict-prototypes]
+ DWORD   SQL_API TraceVersion();                 /* Returns trace API version */
+ ^
+clidriver/include/sqlext.h:2153:1: warning: function declaration isn’t a prototype [-Wstrict-prototypes]
+ DWORD SQL_API   ODBCGetTryWaitValue();          /* In Milliseconds(!) */
+ ^
+In file included from ibm_db.c:28:0:
+ibm_db.h:31:0: warning: "PyObject_CheckBuffer" redefined [enabled by default]
+ #define PyObject_CheckBuffer  PyObject_CheckReadBuffer
+ ^
+In file included from /home/ubuntu/miniconda/envs/_build/include/python2.7/Python.h:133:0,
+                 from ibm_db.c:26:
+/home/ubuntu/miniconda/envs/_build/include/python2.7/abstract.h:534:0: note: this is the location of the previous definition
+ #define PyObject_CheckBuffer(obj) \
+ ^
+gcc -pthread -shared -L/home/ubuntu/miniconda/envs/_build/lib -Wl,-rpath=/home/ubuntu/miniconda/envs/_build/lib,--no-as-needed build/temp.linux-x86_64-2.7/ibm_db.o -Lclidriver/lib -L/home/ubuntu/miniconda/envs/_build/lib -Wl,-R$ORIGIN/clidriver/lib -ldb2 -lpython2.7 -o build/lib.linux-x86_64-2.7/ibm_db.so
+creating build/bdist.linux-x86_64
+creating build/bdist.linux-x86_64/egg
+copying build/lib.linux-x86_64-2.7/config.py -> build/bdist.linux-x86_64/egg
+copying build/lib.linux-x86_64-2.7/testfunctions.py -> build/bdist.linux-x86_64/egg
+copying build/lib.linux-x86_64-2.7/ibm_db_dbi.py -> build/bdist.linux-x86_64/egg
+creating build/bdist.linux-x86_64/egg/clidriver
+creating build/bdist.linux-x86_64/egg/clidriver/license
+creating build/bdist.linux-x86_64/egg/clidriver/license/UNIX
+copying build/lib.linux-x86_64-2.7/clidriver/license/UNIX/odbc_LI_lt -> build/bdist.linux-x86_64/egg/clidriver/license/UNIX
+copying build/lib.linux-x86_64-2.7/clidriver/license/UNIX/odbc_LI_es -> build/bdist.linux-x86_64/egg/clidriver/license/UNIX
+copying build/lib.linux-x86_64-2.7/clidriver/license/UNIX/odbc_LI_sl -> build/bdist.linux-x86_64/egg/clidriver/license/UNIX
+copying build/lib.linux-x86_64-2.7/clidriver/license/UNIX/odbc_LI_ja -> build/bdist.linux-x86_64/egg/clidriver/license/UNIX
+copying build/lib.linux-x86_64-2.7/clidriver/license/UNIX/odbc_LI_pl -> build/bdist.linux-x86_64/egg/clidriver/license/UNIX
+copying build/lib.linux-x86_64-2.7/clidriver/license/UNIX/odbc_LI_en -> build/bdist.linux-x86_64/egg/clidriver/license/UNIX
+copying build/lib.linux-x86_64-2.7/clidriver/license/UNIX/odbc_LI_el -> build/bdist.linux-x86_64/egg/clidriver/license/UNIX
+copying build/lib.linux-x86_64-2.7/clidriver/license/UNIX/odbc_LI_tr -> build/bdist.linux-x86_64/egg/clidriver/license/UNIX
+copying build/lib.linux-x86_64-2.7/clidriver/license/UNIX/odbc_LI_pt -> build/bdist.linux-x86_64/egg/clidriver/license/UNIX
+copying build/lib.linux-x86_64-2.7/clidriver/license/UNIX/odbc_LI_cs -> build/bdist.linux-x86_64/egg/clidriver/license/UNIX
+copying build/lib.linux-x86_64-2.7/clidriver/license/UNIX/odbc_LI_ru -> build/bdist.linux-x86_64/egg/clidriver/license/UNIX
+copying build/lib.linux-x86_64-2.7/clidriver/license/UNIX/odbc_LI_fr -> build/bdist.linux-x86_64/egg/clidriver/license/UNIX
+copying build/lib.linux-x86_64-2.7/clidriver/license/UNIX/odbc_LI_zh_TW -> build/bdist.linux-x86_64/egg/clidriver/license/UNIX
+copying build/lib.linux-x86_64-2.7/clidriver/license/UNIX/odbc_LI_zh -> build/bdist.linux-x86_64/egg/clidriver/license/UNIX
+copying build/lib.linux-x86_64-2.7/clidriver/license/UNIX/odbc_LI_in -> build/bdist.linux-x86_64/egg/clidriver/license/UNIX
+copying build/lib.linux-x86_64-2.7/clidriver/license/UNIX/odbc_LI_it -> build/bdist.linux-x86_64/egg/clidriver/license/UNIX
+copying build/lib.linux-x86_64-2.7/clidriver/license/UNIX/odbc_LI_ko -> build/bdist.linux-x86_64/egg/clidriver/license/UNIX
+copying build/lib.linux-x86_64-2.7/clidriver/license/UNIX/odbc_LI_de -> build/bdist.linux-x86_64/egg/clidriver/license/UNIX
+copying build/lib.linux-x86_64-2.7/clidriver/license/odbc_notices.txt -> build/bdist.linux-x86_64/egg/clidriver/license
+creating build/bdist.linux-x86_64/egg/clidriver/cfg
+copying build/lib.linux-x86_64-2.7/clidriver/cfg/db2dsdriver.xsd -> build/bdist.linux-x86_64/egg/clidriver/cfg
+copying build/lib.linux-x86_64-2.7/clidriver/cfg/db2cli.ini.sample -> build/bdist.linux-x86_64/egg/clidriver/cfg
+copying build/lib.linux-x86_64-2.7/clidriver/cfg/DigiCertGlobalRootCA.arm -> build/bdist.linux-x86_64/egg/clidriver/cfg
+copying build/lib.linux-x86_64-2.7/clidriver/cfg/db2dsdriver.cfg.sample -> build/bdist.linux-x86_64/egg/clidriver/cfg
+creating build/bdist.linux-x86_64/egg/clidriver/conv
+creating build/bdist.linux-x86_64/egg/clidriver/conv/alt
+copying build/lib.linux-x86_64-2.7/clidriver/conv/alt/IBM00850.ucs -> build/bdist.linux-x86_64/egg/clidriver/conv/alt
+copying build/lib.linux-x86_64-2.7/clidriver/conv/alt/IBM01252.ucs -> build/bdist.linux-x86_64/egg/clidriver/conv/alt
+copying build/lib.linux-x86_64-2.7/clidriver/conv/alt/IBM00923.ucs -> build/bdist.linux-x86_64/egg/clidriver/conv/alt
+copying build/lib.linux-x86_64-2.7/clidriver/conv/alt/09231043.cnv -> build/bdist.linux-x86_64/egg/clidriver/conv/alt
+copying build/lib.linux-x86_64-2.7/clidriver/conv/alt/08600923.cnv -> build/bdist.linux-x86_64/egg/clidriver/conv/alt
+copying build/lib.linux-x86_64-2.7/clidriver/conv/alt/08630923.cnv -> build/bdist.linux-x86_64/egg/clidriver/conv/alt
+copying build/lib.linux-x86_64-2.7/clidriver/conv/alt/12080923.cnv -> build/bdist.linux-x86_64/egg/clidriver/conv/alt
+copying build/lib.linux-x86_64-2.7/clidriver/conv/alt/09231114.cnv -> build/bdist.linux-x86_64/egg/clidriver/conv/alt
+copying build/lib.linux-x86_64-2.7/clidriver/conv/alt/10510923.cnv -> build/bdist.linux-x86_64/egg/clidriver/conv/alt
+copying build/lib.linux-x86_64-2.7/clidriver/conv/alt/09231252.cnv -> build/bdist.linux-x86_64/egg/clidriver/conv/alt
+copying build/lib.linux-x86_64-2.7/clidriver/conv/alt/10430923.cnv -> build/bdist.linux-x86_64/egg/clidriver/conv/alt
+copying build/lib.linux-x86_64-2.7/clidriver/conv/alt/09231275.cnv -> build/bdist.linux-x86_64/egg/clidriver/conv/alt
+copying build/lib.linux-x86_64-2.7/clidriver/conv/alt/09230860.cnv -> build/bdist.linux-x86_64/egg/clidriver/conv/alt
+copying build/lib.linux-x86_64-2.7/clidriver/conv/alt/09230437.cnv -> build/bdist.linux-x86_64/egg/clidriver/conv/alt
+copying build/lib.linux-x86_64-2.7/clidriver/conv/alt/08500923.cnv -> build/bdist.linux-x86_64/egg/clidriver/conv/alt
+copying build/lib.linux-x86_64-2.7/clidriver/conv/alt/04370923.cnv -> build/bdist.linux-x86_64/egg/clidriver/conv/alt
+copying build/lib.linux-x86_64-2.7/clidriver/conv/alt/09230850.cnv -> build/bdist.linux-x86_64/egg/clidriver/conv/alt
+copying build/lib.linux-x86_64-2.7/clidriver/conv/alt/12520923.cnv -> build/bdist.linux-x86_64/egg/clidriver/conv/alt
+copying build/lib.linux-x86_64-2.7/clidriver/conv/alt/12750923.cnv -> build/bdist.linux-x86_64/egg/clidriver/conv/alt
+copying build/lib.linux-x86_64-2.7/clidriver/conv/alt/11140923.cnv -> build/bdist.linux-x86_64/egg/clidriver/conv/alt
+copying build/lib.linux-x86_64-2.7/clidriver/conv/alt/09231208.cnv -> build/bdist.linux-x86_64/egg/clidriver/conv/alt
+copying build/lib.linux-x86_64-2.7/clidriver/conv/alt/09241252.cnv -> build/bdist.linux-x86_64/egg/clidriver/conv/alt
+copying build/lib.linux-x86_64-2.7/clidriver/conv/alt/12520850.cnv -> build/bdist.linux-x86_64/egg/clidriver/conv/alt
+copying build/lib.linux-x86_64-2.7/clidriver/conv/alt/09370950.cnv -> build/bdist.linux-x86_64/egg/clidriver/conv/alt
+copying build/lib.linux-x86_64-2.7/clidriver/conv/alt/09231051.cnv -> build/bdist.linux-x86_64/egg/clidriver/conv/alt
+copying build/lib.linux-x86_64-2.7/clidriver/conv/alt/08501252.cnv -> build/bdist.linux-x86_64/egg/clidriver/conv/alt
+creating build/bdist.linux-x86_64/egg/clidriver/conv/ms
+copying build/lib.linux-x86_64-2.7/clidriver/conv/ms/5039ucs2.cnv -> build/bdist.linux-x86_64/egg/clidriver/conv/ms
+copying build/lib.linux-x86_64-2.7/clidriver/conv/ms/0939ucs2.cnv -> build/bdist.linux-x86_64/egg/clidriver/conv/ms
+copying build/lib.linux-x86_64-2.7/clidriver/conv/ms/ucs20943.cnv -> build/bdist.linux-x86_64/egg/clidriver/conv/ms
+copying build/lib.linux-x86_64-2.7/clidriver/conv/ms/0943ucs2.cnv -> build/bdist.linux-x86_64/egg/clidriver/conv/ms
+copying build/lib.linux-x86_64-2.7/clidriver/conv/ms/0930ucs2.cnv -> build/bdist.linux-x86_64/egg/clidriver/conv/ms
+copying build/lib.linux-x86_64-2.7/clidriver/conv/ms/0954ucs2.cnv -> build/bdist.linux-x86_64/egg/clidriver/conv/ms
+creating build/bdist.linux-x86_64/egg/clidriver/bin
+copying build/lib.linux-x86_64-2.7/clidriver/bin/db2support -> build/bdist.linux-x86_64/egg/clidriver/bin
+copying build/lib.linux-x86_64-2.7/clidriver/bin/db2ldcfg -> build/bdist.linux-x86_64/egg/clidriver/bin
+copying build/lib.linux-x86_64-2.7/clidriver/bin/db2lddrg -> build/bdist.linux-x86_64/egg/clidriver/bin
+copying build/lib.linux-x86_64-2.7/clidriver/bin/db2diag -> build/bdist.linux-x86_64/egg/clidriver/bin
+copying build/lib.linux-x86_64-2.7/clidriver/bin/db2cli -> build/bdist.linux-x86_64/egg/clidriver/bin
+copying build/lib.linux-x86_64-2.7/clidriver/bin/db2dsdcfgfill -> build/bdist.linux-x86_64/egg/clidriver/bin
+copying build/lib.linux-x86_64-2.7/clidriver/bin/db2level -> build/bdist.linux-x86_64/egg/clidriver/bin
+creating build/bdist.linux-x86_64/egg/clidriver/bnd
+copying build/lib.linux-x86_64-2.7/clidriver/bnd/db2cli.bnd -> build/bdist.linux-x86_64/egg/clidriver/bnd
+copying build/lib.linux-x86_64-2.7/clidriver/bnd/db2ajgrt.bnd -> build/bdist.linux-x86_64/egg/clidriver/bnd
+copying build/lib.linux-x86_64-2.7/clidriver/bnd/ddcsvm.lst -> build/bdist.linux-x86_64/egg/clidriver/bnd
+copying build/lib.linux-x86_64-2.7/clidriver/bnd/db2clist.bnd -> build/bdist.linux-x86_64/egg/clidriver/bnd
+copying build/lib.linux-x86_64-2.7/clidriver/bnd/ddcsvse.lst -> build/bdist.linux-x86_64/egg/clidriver/bnd
+copying build/lib.linux-x86_64-2.7/clidriver/bnd/ddcsmvs.lst -> build/bdist.linux-x86_64/egg/clidriver/bnd
+copying build/lib.linux-x86_64-2.7/clidriver/bnd/db2clipk.bnd -> build/bdist.linux-x86_64/egg/clidriver/bnd
+copying build/lib.linux-x86_64-2.7/clidriver/bnd/db2cli.lst -> build/bdist.linux-x86_64/egg/clidriver/bnd
+copying build/lib.linux-x86_64-2.7/clidriver/bnd/ddcs400.lst -> build/bdist.linux-x86_64/egg/clidriver/bnd
+copying build/lib.linux-x86_64-2.7/clidriver/__init__.py -> build/bdist.linux-x86_64/egg/clidriver
+creating build/bdist.linux-x86_64/egg/clidriver/adm
+copying build/lib.linux-x86_64-2.7/clidriver/adm/db2trc -> build/bdist.linux-x86_64/egg/clidriver/adm
+copying build/lib.linux-x86_64-2.7/clidriver/adm/db2drdat -> build/bdist.linux-x86_64/egg/clidriver/adm
+creating build/bdist.linux-x86_64/egg/clidriver/include
+copying build/lib.linux-x86_64-2.7/clidriver/include/sqlcli.h -> build/bdist.linux-x86_64/egg/clidriver/include
+copying build/lib.linux-x86_64-2.7/clidriver/include/sqlcli1.h -> build/bdist.linux-x86_64/egg/clidriver/include
+copying build/lib.linux-x86_64-2.7/clidriver/include/sqlca.h -> build/bdist.linux-x86_64/egg/clidriver/include
+copying build/lib.linux-x86_64-2.7/clidriver/include/sqlstate.h -> build/bdist.linux-x86_64/egg/clidriver/include
+copying build/lib.linux-x86_64-2.7/clidriver/include/sql.h -> build/bdist.linux-x86_64/egg/clidriver/include
+copying build/lib.linux-x86_64-2.7/clidriver/include/sqlext.h -> build/bdist.linux-x86_64/egg/clidriver/include
+copying build/lib.linux-x86_64-2.7/clidriver/include/sqlsystm.h -> build/bdist.linux-x86_64/egg/clidriver/include
+copying build/lib.linux-x86_64-2.7/clidriver/include/sqlenv.h -> build/bdist.linux-x86_64/egg/clidriver/include
+copying build/lib.linux-x86_64-2.7/clidriver/include/sqlda.h -> build/bdist.linux-x86_64/egg/clidriver/include
+creating build/bdist.linux-x86_64/egg/clidriver/lib
+copying build/lib.linux-x86_64-2.7/clidriver/lib/libdb2clixml4c.so.1 -> build/bdist.linux-x86_64/egg/clidriver/lib
+copying build/lib.linux-x86_64-2.7/clidriver/lib/libDB2xml4c.so.58 -> build/bdist.linux-x86_64/egg/clidriver/lib
+copying build/lib.linux-x86_64-2.7/clidriver/lib/libDB2xml4c.so -> build/bdist.linux-x86_64/egg/clidriver/lib
+creating build/bdist.linux-x86_64/egg/clidriver/lib/icc
+copying build/lib.linux-x86_64-2.7/clidriver/lib/icc/libgsk8cms_64.so -> build/bdist.linux-x86_64/egg/clidriver/lib/icc
+copying build/lib.linux-x86_64-2.7/clidriver/lib/icc/libgsk8kicc_64.so -> build/bdist.linux-x86_64/egg/clidriver/lib/icc
+copying build/lib.linux-x86_64-2.7/clidriver/lib/icc/libgsk8km_64.so -> build/bdist.linux-x86_64/egg/clidriver/lib/icc
+creating build/bdist.linux-x86_64/egg/clidriver/lib/icc/C
+creating build/bdist.linux-x86_64/egg/clidriver/lib/icc/C/icc
+creating build/bdist.linux-x86_64/egg/clidriver/lib/icc/C/icc/icclib
+copying build/lib.linux-x86_64-2.7/clidriver/lib/icc/C/icc/icclib/libicclib082.so -> build/bdist.linux-x86_64/egg/clidriver/lib/icc/C/icc/icclib
+copying build/lib.linux-x86_64-2.7/clidriver/lib/icc/C/icc/ReadMe.txt -> build/bdist.linux-x86_64/egg/clidriver/lib/icc/C/icc
+creating build/bdist.linux-x86_64/egg/clidriver/lib/icc/C/icc/osslib
+copying build/lib.linux-x86_64-2.7/clidriver/lib/icc/C/icc/osslib/libcryptoIBM082.so.1.0.1 -> build/bdist.linux-x86_64/egg/clidriver/lib/icc/C/icc/osslib
+creating build/bdist.linux-x86_64/egg/clidriver/lib/icc/N
+creating build/bdist.linux-x86_64/egg/clidriver/lib/icc/N/icc
+creating build/bdist.linux-x86_64/egg/clidriver/lib/icc/N/icc/icclib
+copying build/lib.linux-x86_64-2.7/clidriver/lib/icc/N/icc/icclib/libicclib083.so -> build/bdist.linux-x86_64/egg/clidriver/lib/icc/N/icc/icclib
+copying build/lib.linux-x86_64-2.7/clidriver/lib/icc/N/icc/ReadMe.txt -> build/bdist.linux-x86_64/egg/clidriver/lib/icc/N/icc
+creating build/bdist.linux-x86_64/egg/clidriver/lib/icc/N/icc/osslib
+copying build/lib.linux-x86_64-2.7/clidriver/lib/icc/N/icc/osslib/libcryptoIBM083.so.1.0.1 -> build/bdist.linux-x86_64/egg/clidriver/lib/icc/N/icc/osslib
+copying build/lib.linux-x86_64-2.7/clidriver/lib/icc/libgsk8sys_64.so -> build/bdist.linux-x86_64/egg/clidriver/lib/icc
+copying build/lib.linux-x86_64-2.7/clidriver/lib/icc/libgsk8ssl_64.so -> build/bdist.linux-x86_64/egg/clidriver/lib/icc
+copying build/lib.linux-x86_64-2.7/clidriver/lib/icc/libgsk8dbfl_64.so -> build/bdist.linux-x86_64/egg/clidriver/lib/icc
+copying build/lib.linux-x86_64-2.7/clidriver/lib/icc/libgsk8valn_64.so -> build/bdist.linux-x86_64/egg/clidriver/lib/icc
+copying build/lib.linux-x86_64-2.7/clidriver/lib/icc/libgsk8iccs_64.so -> build/bdist.linux-x86_64/egg/clidriver/lib/icc
+copying build/lib.linux-x86_64-2.7/clidriver/lib/libdb2clixml4c.so -> build/bdist.linux-x86_64/egg/clidriver/lib
+copying build/lib.linux-x86_64-2.7/clidriver/lib/libdb2.so.1 -> build/bdist.linux-x86_64/egg/clidriver/lib
+copying build/lib.linux-x86_64-2.7/clidriver/lib/libDB2xml4c.so.58.0 -> build/bdist.linux-x86_64/egg/clidriver/lib
+copying build/lib.linux-x86_64-2.7/clidriver/lib/libdb2.so -> build/bdist.linux-x86_64/egg/clidriver/lib
+creating build/bdist.linux-x86_64/egg/clidriver/cfgcache
+copying build/lib.linux-x86_64-2.7/clidriver/cfgcache/conlic.bin -> build/bdist.linux-x86_64/egg/clidriver/cfgcache
+creating build/bdist.linux-x86_64/egg/clidriver/msg
+creating build/bdist.linux-x86_64/egg/clidriver/msg/en_US.iso88591
+copying build/lib.linux-x86_64-2.7/clidriver/msg/en_US.iso88591/db2admh.mo -> build/bdist.linux-x86_64/egg/clidriver/msg/en_US.iso88591
+copying build/lib.linux-x86_64-2.7/clidriver/msg/en_US.iso88591/db2supp.mo -> build/bdist.linux-x86_64/egg/clidriver/msg/en_US.iso88591
+copying build/lib.linux-x86_64-2.7/clidriver/msg/en_US.iso88591/db2stt.mo -> build/bdist.linux-x86_64/egg/clidriver/msg/en_US.iso88591
+copying build/lib.linux-x86_64-2.7/clidriver/msg/en_US.iso88591/db2clp2.mo -> build/bdist.linux-x86_64/egg/clidriver/msg/en_US.iso88591
+copying build/lib.linux-x86_64-2.7/clidriver/msg/en_US.iso88591/db2sqlh.mo -> build/bdist.linux-x86_64/egg/clidriver/msg/en_US.iso88591
+copying build/lib.linux-x86_64-2.7/clidriver/msg/en_US.iso88591/db2fodc.mo -> build/bdist.linux-x86_64/egg/clidriver/msg/en_US.iso88591
+copying build/lib.linux-x86_64-2.7/clidriver/msg/en_US.iso88591/db2diag.mo -> build/bdist.linux-x86_64/egg/clidriver/msg/en_US.iso88591
+copying build/lib.linux-x86_64-2.7/clidriver/msg/en_US.iso88591/db2clih.mo -> build/bdist.linux-x86_64/egg/clidriver/msg/en_US.iso88591
+copying build/lib.linux-x86_64-2.7/clidriver/msg/en_US.iso88591/db2sql.mo -> build/bdist.linux-x86_64/egg/clidriver/msg/en_US.iso88591
+copying build/lib.linux-x86_64-2.7/clidriver/msg/en_US.iso88591/db2clias.lst -> build/bdist.linux-x86_64/egg/clidriver/msg/en_US.iso88591
+copying build/lib.linux-x86_64-2.7/clidriver/msg/en_US.iso88591/db2clit.mo -> build/bdist.linux-x86_64/egg/clidriver/msg/en_US.iso88591
+copying build/lib.linux-x86_64-2.7/clidriver/msg/en_US.iso88591/db2cklog.mo -> build/bdist.linux-x86_64/egg/clidriver/msg/en_US.iso88591
+copying build/lib.linux-x86_64-2.7/clidriver/msg/en_US.iso88591/db2caem.mo -> build/bdist.linux-x86_64/egg/clidriver/msg/en_US.iso88591
+copying build/lib.linux-x86_64-2.7/clidriver/msg/en_US.iso88591/db2clp.mo -> build/bdist.linux-x86_64/egg/clidriver/msg/en_US.iso88591
+copying build/lib.linux-x86_64-2.7/clidriver/msg/en_US.iso88591/db2cli.mo -> build/bdist.linux-x86_64/egg/clidriver/msg/en_US.iso88591
+copying build/lib.linux-x86_64-2.7/clidriver/msg/en_US.iso88591/db2clia1.lst -> build/bdist.linux-x86_64/egg/clidriver/msg/en_US.iso88591
+copying build/lib.linux-x86_64-2.7/clidriver/msg/en_US.iso88591/db2adm.mo -> build/bdist.linux-x86_64/egg/clidriver/msg/en_US.iso88591
+copying build/lib.linux-x86_64-2.7/tests.py -> build/bdist.linux-x86_64/egg
+creating build/bdist.linux-x86_64/egg/tests
+copying build/lib.linux-x86_64-2.7/tests/test_121_FieldNameAddCol.py -> build/bdist.linux-x86_64/egg/tests
+copying build/lib.linux-x86_64-2.7/tests/test_003_NumAffectedRows.py -> build/bdist.linux-x86_64/egg/tests
+copying build/lib.linux-x86_64-2.7/tests/test_241_FieldWidthPosName_02.py -> build/bdist.linux-x86_64/egg/tests
+copying build/lib.linux-x86_64-2.7/tests/pic1.jpg -> build/bdist.linux-x86_64/egg/tests
+copying build/lib.linux-x86_64-2.7/tests/test_decfloat.py -> build/bdist.linux-x86_64/egg/tests
+copying build/lib.linux-x86_64-2.7/tests/test_024_ForeignKeys.py -> build/bdist.linux-x86_64/egg/tests
+copying build/lib.linux-x86_64-2.7/tests/test_046_FetchTupleMany_05.py -> build/bdist.linux-x86_64/egg/tests
+copying build/lib.linux-x86_64-2.7/tests/test_311_InsertSelectDeleteNumLiterals.py -> build/bdist.linux-x86_64/egg/tests
+copying build/lib.linux-x86_64-2.7/tests/test_6792_FieldTypeRetStrDatetimeTimestamp.py -> build/bdist.linux-x86_64/egg/tests
+copying build/lib.linux-x86_64-2.7/tests/test_260_FetchTupleMany_07.py -> build/bdist.linux-x86_64/egg/tests
+copying build/lib.linux-x86_64-2.7/tests/test_042_FetchTupleMany_02.py -> build/bdist.linux-x86_64/egg/tests
+copying build/lib.linux-x86_64-2.7/tests/test_041_FetchTupleMany_01.py -> build/bdist.linux-x86_64/egg/tests
+copying build/lib.linux-x86_64-2.7/tests/test_211_FieldDisplaySize_02.py -> build/bdist.linux-x86_64/egg/tests
+copying build/lib.linux-x86_64-2.7/tests/test_03a_ResultNonExistCol.py -> build/bdist.linux-x86_64/egg/tests
+copying build/lib.linux-x86_64-2.7/tests/test_124_FieldNamePos_02.py -> build/bdist.linux-x86_64/egg/tests
+copying build/lib.linux-x86_64-2.7/tests/test_017_selectRowcountPrefetchSTMTOpt.py -> build/bdist.linux-x86_64/egg/tests
+copying build/lib.linux-x86_64-2.7/tests/test_037_FetchRowIndexPos.py -> build/bdist.linux-x86_64/egg/tests
+copying build/lib.linux-x86_64-2.7/tests/test_131_PrepareExecuteSelectStatementParams.py -> build/bdist.linux-x86_64/egg/tests
+copying build/lib.linux-x86_64-2.7/tests/test_148_CallSPDiffBindPattern_01.py -> build/bdist.linux-x86_64/egg/tests
+copying build/lib.linux-x86_64-2.7/tests/test_261_FetchObjectAccess.py -> build/bdist.linux-x86_64/egg/tests
+copying build/lib.linux-x86_64-2.7/tests/test_050_AutocommitStatus.py -> build/bdist.linux-x86_64/egg/tests
+copying build/lib.linux-x86_64-2.7/tests/test_010_UpdateRowCount.py -> build/bdist.linux-x86_64/egg/tests
+copying build/lib.linux-x86_64-2.7/tests/test_081_ConnWrongUser.py -> build/bdist.linux-x86_64/egg/tests
+copying build/lib.linux-x86_64-2.7/tests/test_InsertRetrieveDateTimeTypeColumn.py -> build/bdist.linux-x86_64/egg/tests
+copying build/lib.linux-x86_64-2.7/tests/test_265_NoAffectedRows.py -> build/bdist.linux-x86_64/egg/tests
+copying build/lib.linux-x86_64-2.7/tests/test_200_MultipleRsltsetsUniformColDefs.py -> build/bdist.linux-x86_64/egg/tests
+copying build/lib.linux-x86_64-2.7/tests/test_execute_many.py -> build/bdist.linux-x86_64/egg/tests
+copying build/lib.linux-x86_64-2.7/tests/test_011_DeleteRowCount.py -> build/bdist.linux-x86_64/egg/tests
+copying build/lib.linux-x86_64-2.7/tests/test_100_SelectDeleteInsertFieldCount.py -> build/bdist.linux-x86_64/egg/tests
+copying build/lib.linux-x86_64-2.7/tests/test_091_ConnmsgWrongUser.py -> build/bdist.linux-x86_64/egg/tests
+copying build/lib.linux-x86_64-2.7/tests/test_092_ConnmsgWrongPwd.py -> build/bdist.linux-x86_64/egg/tests
+copying build/lib.linux-x86_64-2.7/tests/test_066_TableObjects.py -> build/bdist.linux-x86_64/egg/tests
+copying build/lib.linux-x86_64-2.7/tests/test_147_PrepareWithWrongType.py -> build/bdist.linux-x86_64/egg/tests
+copying build/lib.linux-x86_64-2.7/tests/test_025_PrimaryKeys.py -> build/bdist.linux-x86_64/egg/tests
+copying build/lib.linux-x86_64-2.7/tests/test_052_SetAutocommit_02.py -> build/bdist.linux-x86_64/egg/tests
+copying build/lib.linux-x86_64-2.7/tests/test_062_Tables_03.py -> build/bdist.linux-x86_64/egg/tests
+copying build/lib.linux-x86_64-2.7/tests/test_014_KeysetDrivenCursorNegativeRow.py -> build/bdist.linux-x86_64/egg/tests
+copying build/lib.linux-x86_64-2.7/tests/test_034_FetchAssoc.py -> build/bdist.linux-x86_64/egg/tests
+copying build/lib.linux-x86_64-2.7/tests/test_018_selectRowcountPrefetchSetOpt.py -> build/bdist.linux-x86_64/egg/tests
+copying build/lib.linux-x86_64-2.7/tests/test_054_CursorType.py -> build/bdist.linux-x86_64/egg/tests
+copying build/lib.linux-x86_64-2.7/tests/test_053_AttrThruConn.py -> build/bdist.linux-x86_64/egg/tests
+copying build/lib.linux-x86_64-2.7/tests/test_004_ConnWrongUserPwd.py -> build/bdist.linux-x86_64/egg/tests
+copying build/lib.linux-x86_64-2.7/tests/test_132_ExecuteStatementArrayMultipleParams.py -> build/bdist.linux-x86_64/egg/tests
+copying build/lib.linux-x86_64-2.7/tests/test_101_InsertDeleteFieldCount.py -> build/bdist.linux-x86_64/egg/tests
+copying build/lib.linux-x86_64-2.7/tests/test_012_KeysetDrivenCursorSelect01.py -> build/bdist.linux-x86_64/egg/tests
+copying build/lib.linux-x86_64-2.7/tests/test_007_pConnPassingOpts.py -> build/bdist.linux-x86_64/egg/tests
+copying build/lib.linux-x86_64-2.7/tests/test_023_ColumnPrivileges.py -> build/bdist.linux-x86_64/egg/tests
+copying build/lib.linux-x86_64-2.7/tests/test_120_FieldName.py -> build/bdist.linux-x86_64/egg/tests
+copying build/lib.linux-x86_64-2.7/tests/test_020_RollbackDelete.py -> build/bdist.linux-x86_64/egg/tests
+copying build/lib.linux-x86_64-2.7/tests/test_115_NumericTest_02.py -> build/bdist.linux-x86_64/egg/tests
+copying build/lib.linux-x86_64-2.7/tests/test_114_NumericTest_01.py -> build/bdist.linux-x86_64/egg/tests
+copying build/lib.linux-x86_64-2.7/tests/test_159a_FetchAssocSeveralRows_02.py -> build/bdist.linux-x86_64/egg/tests
+copying build/lib.linux-x86_64-2.7/tests/test_250_FreeResult_01.py -> build/bdist.linux-x86_64/egg/tests
+copying build/lib.linux-x86_64-2.7/tests/test_122_FieldNameDiffCaseColNames.py -> build/bdist.linux-x86_64/egg/tests
+copying build/lib.linux-x86_64-2.7/tests/test_153_FetchAssocSelect_04.py -> build/bdist.linux-x86_64/egg/tests
+copying build/lib.linux-x86_64-2.7/tests/test_111_FieldNumAddCol.py -> build/bdist.linux-x86_64/egg/tests
+copying build/lib.linux-x86_64-2.7/tests/test_145_BindRetrieveNoneEmptyString.py -> build/bdist.linux-x86_64/egg/tests
+copying build/lib.linux-x86_64-2.7/tests/test_113_DateTest.py -> build/bdist.linux-x86_64/egg/tests
+copying build/lib.linux-x86_64-2.7/tests/test_141_BindParamSelectStmtMultipleParams_01.py -> build/bdist.linux-x86_64/egg/tests
+copying build/lib.linux-x86_64-2.7/tests/test_213_FieldDisplaySize_04.py -> build/bdist.linux-x86_64/egg/tests
+copying build/lib.linux-x86_64-2.7/tests/test_191_ColumnsTable_02.py -> build/bdist.linux-x86_64/egg/tests
+copying build/lib.linux-x86_64-2.7/tests/test_231_FieldTypeName.py -> build/bdist.linux-x86_64/egg/tests
+copying build/lib.linux-x86_64-2.7/tests/test_015_InsertDeleteRowCount_01.py -> build/bdist.linux-x86_64/egg/tests
+copying build/lib.linux-x86_64-2.7/tests/test_157b_FetchAssocScrollableCursor_02.py -> build/bdist.linux-x86_64/egg/tests
+copying build/lib.linux-x86_64-2.7/tests/test_decimal.py -> build/bdist.linux-x86_64/egg/tests
+copying build/lib.linux-x86_64-2.7/tests/test_130_PrepExecuteSelectStmt.py -> build/bdist.linux-x86_64/egg/tests
+copying build/lib.linux-x86_64-2.7/tests/test_019_selectRowcountPrefetchPrepOpt.py -> build/bdist.linux-x86_64/egg/tests
+copying build/lib.linux-x86_64-2.7/tests/test_162_FetchBothNestedSelects_02.py -> build/bdist.linux-x86_64/egg/tests
+copying build/lib.linux-x86_64-2.7/tests/test_212_FieldDisplaySize_03.py -> build/bdist.linux-x86_64/egg/tests
+copying build/lib.linux-x86_64-2.7/tests/test_151_FetchAssocSelect_02.py -> build/bdist.linux-x86_64/egg/tests
+copying build/lib.linux-x86_64-2.7/tests/test_030_Result.py -> build/bdist.linux-x86_64/egg/tests
+copying build/lib.linux-x86_64-2.7/tests/test_createDropDB.py -> build/bdist.linux-x86_64/egg/tests
+copying build/lib.linux-x86_64-2.7/tests/test_150_FetchAssocSelect_01.py -> build/bdist.linux-x86_64/egg/tests
+copying build/lib.linux-x86_64-2.7/tests/test_103_NumFieldsSelect_02.py -> build/bdist.linux-x86_64/egg/tests
+copying build/lib.linux-x86_64-2.7/tests/test_159_FetchAssocSeveralRows_01.py -> build/bdist.linux-x86_64/egg/tests
+copying build/lib.linux-x86_64-2.7/tests/test_060_Tables_01.py -> build/bdist.linux-x86_64/egg/tests
+copying build/lib.linux-x86_64-2.7/tests/test_080_ConnWrongDbAlias.py -> build/bdist.linux-x86_64/egg/tests
+copying build/lib.linux-x86_64-2.7/tests/test_008_ColumnInfo.py -> build/bdist.linux-x86_64/egg/tests
+copying build/lib.linux-x86_64-2.7/tests/test_157a_FetchAssocWithoutScrollableCursorErr.py -> build/bdist.linux-x86_64/egg/tests
+copying build/lib.linux-x86_64-2.7/tests/test_52949_TestSPIntVarcharXml.py -> build/bdist.linux-x86_64/egg/tests
+copying build/lib.linux-x86_64-2.7/tests/test_051_SetAutocommit_01.py -> build/bdist.linux-x86_64/egg/tests
+copying build/lib.linux-x86_64-2.7/tests/test_160_FetchBoth.py -> build/bdist.linux-x86_64/egg/tests
+copying build/lib.linux-x86_64-2.7/tests/test_047_FetchTupleMany_06.py -> build/bdist.linux-x86_64/egg/tests
+copying build/lib.linux-x86_64-2.7/tests/test_143_BindParamInsertStmtNoneParam.py -> build/bdist.linux-x86_64/egg/tests
+copying build/lib.linux-x86_64-2.7/tests/test_146_CallSPINAndOUTParams.py -> build/bdist.linux-x86_64/egg/tests
+copying build/lib.linux-x86_64-2.7/tests/test_035_FetchRow_01.py -> build/bdist.linux-x86_64/egg/tests
+copying build/lib.linux-x86_64-2.7/tests/test_043_FetchTupleMany_03.py -> build/bdist.linux-x86_64/egg/tests
+copying build/lib.linux-x86_64-2.7/tests/test_112_FieldNumDiffCaseColNames.py -> build/bdist.linux-x86_64/egg/tests
+copying build/lib.linux-x86_64-2.7/tests/test_002_ConnDbUncatalogedConn.py -> build/bdist.linux-x86_64/egg/tests
+copying build/lib.linux-x86_64-2.7/tests/test_065_FilterTableName.py -> build/bdist.linux-x86_64/egg/tests
+copying build/lib.linux-x86_64-2.7/tests/test_036_FetchRow_02.py -> build/bdist.linux-x86_64/egg/tests
+copying build/lib.linux-x86_64-2.7/tests/test_154_AllFetches.py -> build/bdist.linux-x86_64/egg/tests
+copying build/lib.linux-x86_64-2.7/tests/test_016_InsertDeleteRowCount_02.py -> build/bdist.linux-x86_64/egg/tests
+copying build/lib.linux-x86_64-2.7/tests/test_110_FieldNum.py -> build/bdist.linux-x86_64/egg/tests
+copying build/lib.linux-x86_64-2.7/tests/test_180_StmtErrMsg.py -> build/bdist.linux-x86_64/egg/tests
+copying build/lib.linux-x86_64-2.7/tests/test_155_FetchAssocSelect_05.py -> build/bdist.linux-x86_64/egg/tests
+copying build/lib.linux-x86_64-2.7/tests/test_061_Tables_02.py -> build/bdist.linux-x86_64/egg/tests
+copying build/lib.linux-x86_64-2.7/tests/test_044_FetchTupleMany_04.py -> build/bdist.linux-x86_64/egg/tests
+copying build/lib.linux-x86_64-2.7/tests/test_221_100PersistentConns.py -> build/bdist.linux-x86_64/egg/tests
+copying build/lib.linux-x86_64-2.7/tests/test_161_FetchBothNestedSelects_01.py -> build/bdist.linux-x86_64/egg/tests
+copying build/lib.linux-x86_64-2.7/tests/test_195_InsertRetrieveXMLData_01.py -> build/bdist.linux-x86_64/egg/tests
+copying build/lib.linux-x86_64-2.7/tests/test_201_MultipleRsltsetsDiffColDefs.py -> build/bdist.linux-x86_64/egg/tests
+copying build/lib.linux-x86_64-2.7/tests/test_133_ExecuteLongInputParams.py -> build/bdist.linux-x86_64/egg/tests
+copying build/lib.linux-x86_64-2.7/tests/test_032_ResultIndexName.py -> build/bdist.linux-x86_64/egg/tests
+copying build/lib.linux-x86_64-2.7/tests/test_090_ConnmsgWrongDbAlias.py -> build/bdist.linux-x86_64/egg/tests
+copying build/lib.linux-x86_64-2.7/tests/test_156_FetchAssocNestedSelects_01.py -> build/bdist.linux-x86_64/egg/tests
+copying build/lib.linux-x86_64-2.7/tests/test_123_FieldNamePos_01.py -> build/bdist.linux-x86_64/egg/tests
+copying build/lib.linux-x86_64-2.7/tests/test_116_ConnActive.py -> build/bdist.linux-x86_64/egg/tests
+copying build/lib.linux-x86_64-2.7/tests/test_190_ColumnsTable_01.py -> build/bdist.linux-x86_64/egg/tests
+copying build/lib.linux-x86_64-2.7/tests/test_102_NumFieldsSelect_01.py -> build/bdist.linux-x86_64/egg/tests
+copying build/lib.linux-x86_64-2.7/tests/test_140_BindParamSelectStmt.py -> build/bdist.linux-x86_64/egg/tests
+copying build/lib.linux-x86_64-2.7/tests/test_049_InsertNoneParam.py -> build/bdist.linux-x86_64/egg/tests
+copying build/lib.linux-x86_64-2.7/tests/test_220_PersistentConn.py -> build/bdist.linux-x86_64/egg/tests
+copying build/lib.linux-x86_64-2.7/tests/test_trusted_context_connect.py -> build/bdist.linux-x86_64/egg/tests
+copying build/lib.linux-x86_64-2.7/tests/test_210_FieldDisplaySize_01.py -> build/bdist.linux-x86_64/egg/tests
+copying build/lib.linux-x86_64-2.7/tests/test_125_FieldNamePos_03.py -> build/bdist.linux-x86_64/egg/tests
+copying build/lib.linux-x86_64-2.7/tests/test_142_BindParamSelectStmtMultipleParams_02.py -> build/bdist.linux-x86_64/egg/tests
+copying build/lib.linux-x86_64-2.7/tests/test_031_ResultIndexPosition.py -> build/bdist.linux-x86_64/egg/tests
+copying build/lib.linux-x86_64-2.7/tests/test_038_FetchRowIndexPosNested_01.py -> build/bdist.linux-x86_64/egg/tests
+copying build/lib.linux-x86_64-2.7/tests/__init__.py -> build/bdist.linux-x86_64/egg/tests
+copying build/lib.linux-x86_64-2.7/tests/test_240_FieldWidthPosName_01.py -> build/bdist.linux-x86_64/egg/tests
+copying build/lib.linux-x86_64-2.7/tests/test_232_FieldTypePosName.py -> build/bdist.linux-x86_64/egg/tests
+copying build/lib.linux-x86_64-2.7/tests/test_157_FetchAssocScrollableCursor_01.py -> build/bdist.linux-x86_64/egg/tests
+copying build/lib.linux-x86_64-2.7/tests/test_196_InsertRetrieveXMLData_02.py -> build/bdist.linux-x86_64/egg/tests
+copying build/lib.linux-x86_64-2.7/tests/test_6561_InsertNULLValues.py -> build/bdist.linux-x86_64/egg/tests
+copying build/lib.linux-x86_64-2.7/tests/test_013_KeysetDrivenCursorSelect02.py -> build/bdist.linux-x86_64/egg/tests
+copying build/lib.linux-x86_64-2.7/tests/test_000_PrepareDb.py -> build/bdist.linux-x86_64/egg/tests
+copying build/lib.linux-x86_64-2.7/tests/test_021_CommitDelete.py -> build/bdist.linux-x86_64/egg/tests
+copying build/lib.linux-x86_64-2.7/tests/test_082_ConnWrongPwd.py -> build/bdist.linux-x86_64/egg/tests
+copying build/lib.linux-x86_64-2.7/tests/test_006_ConnPassingOpts.py -> build/bdist.linux-x86_64/egg/tests
+copying build/lib.linux-x86_64-2.7/tests/test_230_FieldTypePos.py -> build/bdist.linux-x86_64/egg/tests
+copying build/lib.linux-x86_64-2.7/tests/test_144_BindParamInsertStmtPARAM_FILE.py -> build/bdist.linux-x86_64/egg/tests
+copying build/lib.linux-x86_64-2.7/tests/test_071_CloseSuccess.py -> build/bdist.linux-x86_64/egg/tests
+copying build/lib.linux-x86_64-2.7/tests/test_264_InsertRetrieveBIGINTTypeColumn.py -> build/bdist.linux-x86_64/egg/tests
+copying build/lib.linux-x86_64-2.7/tests/test_createdbNX.py -> build/bdist.linux-x86_64/egg/tests
+copying build/lib.linux-x86_64-2.7/tests/test_300_ServerInfo.py -> build/bdist.linux-x86_64/egg/tests
+copying build/lib.linux-x86_64-2.7/tests/test_064_Tables_05.py -> build/bdist.linux-x86_64/egg/tests
+copying build/lib.linux-x86_64-2.7/tests/test_033_ResultOutSequenceColumn.py -> build/bdist.linux-x86_64/egg/tests
+copying build/lib.linux-x86_64-2.7/tests/test_048_FetchTupleBinaryData_02.py -> build/bdist.linux-x86_64/egg/tests
+copying build/lib.linux-x86_64-2.7/tests/test_recreateDB.py -> build/bdist.linux-x86_64/egg/tests
+copying build/lib.linux-x86_64-2.7/tests/test_6528_ScopingProblemBindParam.py -> build/bdist.linux-x86_64/egg/tests
+copying build/lib.linux-x86_64-2.7/tests/test_152_FetchAssocSelect_03.py -> build/bdist.linux-x86_64/egg/tests
+copying build/lib.linux-x86_64-2.7/tests/test_022_RollbackInsert.py -> build/bdist.linux-x86_64/egg/tests
+copying build/lib.linux-x86_64-2.7/tests/test_197_StatisticsIndexes.py -> build/bdist.linux-x86_64/egg/tests
+copying build/lib.linux-x86_64-2.7/tests/test_040_FetchTuple.py -> build/bdist.linux-x86_64/egg/tests
+copying build/lib.linux-x86_64-2.7/tests/test_070_Close.py -> build/bdist.linux-x86_64/egg/tests
+copying build/lib.linux-x86_64-2.7/tests/test_251_FreeResult_02.py -> build/bdist.linux-x86_64/egg/tests
+copying build/lib.linux-x86_64-2.7/tests/test_310_ClientInfo.py -> build/bdist.linux-x86_64/egg/tests
+copying build/lib.linux-x86_64-2.7/tests/test_001_ConnDb.py -> build/bdist.linux-x86_64/egg/tests
+copying build/lib.linux-x86_64-2.7/tests/test_158_FetchAssocNestedSelects_02.py -> build/bdist.linux-x86_64/egg/tests
+copying build/lib.linux-x86_64-2.7/tests/test_045_FetchTupleBinaryData_01.py -> build/bdist.linux-x86_64/egg/tests
+copying build/lib.linux-x86_64-2.7/tests/test_005_ConnBadUserBadPwd.py -> build/bdist.linux-x86_64/egg/tests
+copying build/lib.linux-x86_64-2.7/tests/test_039_FetchRowIndexPosNested_02.py -> build/bdist.linux-x86_64/egg/tests
+copying build/lib.linux-x86_64-2.7/tests/test_063_Tables_04.py -> build/bdist.linux-x86_64/egg/tests
+copying build/lib.linux-x86_64-2.7/tests/test_trusted_context_pconnect.py -> build/bdist.linux-x86_64/egg/tests
+copying build/lib.linux-x86_64-2.7/tests/spook.png -> build/bdist.linux-x86_64/egg/tests
+copying build/lib.linux-x86_64-2.7/tests/test_6755_ExtraNULLChar_ResultCLOBCol.py -> build/bdist.linux-x86_64/egg/tests
+copying build/lib.linux-x86_64-2.7/ibm_db.so -> build/bdist.linux-x86_64/egg
+byte-compiling build/bdist.linux-x86_64/egg/config.py to config.pyc
+byte-compiling build/bdist.linux-x86_64/egg/testfunctions.py to testfunctions.pyc
+byte-compiling build/bdist.linux-x86_64/egg/ibm_db_dbi.py to ibm_db_dbi.pyc
+byte-compiling build/bdist.linux-x86_64/egg/clidriver/__init__.py to __init__.pyc
+byte-compiling build/bdist.linux-x86_64/egg/tests.py to tests.pyc
+byte-compiling build/bdist.linux-x86_64/egg/tests/test_121_FieldNameAddCol.py to test_121_FieldNameAddCol.pyc
+byte-compiling build/bdist.linux-x86_64/egg/tests/test_003_NumAffectedRows.py to test_003_NumAffectedRows.pyc
+byte-compiling build/bdist.linux-x86_64/egg/tests/test_241_FieldWidthPosName_02.py to test_241_FieldWidthPosName_02.pyc
+byte-compiling build/bdist.linux-x86_64/egg/tests/test_decfloat.py to test_decfloat.pyc
+byte-compiling build/bdist.linux-x86_64/egg/tests/test_024_ForeignKeys.py to test_024_ForeignKeys.pyc
+byte-compiling build/bdist.linux-x86_64/egg/tests/test_046_FetchTupleMany_05.py to test_046_FetchTupleMany_05.pyc
+byte-compiling build/bdist.linux-x86_64/egg/tests/test_311_InsertSelectDeleteNumLiterals.py to test_311_InsertSelectDeleteNumLiterals.pyc
+byte-compiling build/bdist.linux-x86_64/egg/tests/test_6792_FieldTypeRetStrDatetimeTimestamp.py to test_6792_FieldTypeRetStrDatetimeTimestamp.pyc
+byte-compiling build/bdist.linux-x86_64/egg/tests/test_260_FetchTupleMany_07.py to test_260_FetchTupleMany_07.pyc
+byte-compiling build/bdist.linux-x86_64/egg/tests/test_042_FetchTupleMany_02.py to test_042_FetchTupleMany_02.pyc
+byte-compiling build/bdist.linux-x86_64/egg/tests/test_041_FetchTupleMany_01.py to test_041_FetchTupleMany_01.pyc
+byte-compiling build/bdist.linux-x86_64/egg/tests/test_211_FieldDisplaySize_02.py to test_211_FieldDisplaySize_02.pyc
+byte-compiling build/bdist.linux-x86_64/egg/tests/test_03a_ResultNonExistCol.py to test_03a_ResultNonExistCol.pyc
+byte-compiling build/bdist.linux-x86_64/egg/tests/test_124_FieldNamePos_02.py to test_124_FieldNamePos_02.pyc
+byte-compiling build/bdist.linux-x86_64/egg/tests/test_017_selectRowcountPrefetchSTMTOpt.py to test_017_selectRowcountPrefetchSTMTOpt.pyc
+byte-compiling build/bdist.linux-x86_64/egg/tests/test_037_FetchRowIndexPos.py to test_037_FetchRowIndexPos.pyc
+byte-compiling build/bdist.linux-x86_64/egg/tests/test_131_PrepareExecuteSelectStatementParams.py to test_131_PrepareExecuteSelectStatementParams.pyc
+byte-compiling build/bdist.linux-x86_64/egg/tests/test_148_CallSPDiffBindPattern_01.py to test_148_CallSPDiffBindPattern_01.pyc
+byte-compiling build/bdist.linux-x86_64/egg/tests/test_261_FetchObjectAccess.py to test_261_FetchObjectAccess.pyc
+byte-compiling build/bdist.linux-x86_64/egg/tests/test_050_AutocommitStatus.py to test_050_AutocommitStatus.pyc
+byte-compiling build/bdist.linux-x86_64/egg/tests/test_010_UpdateRowCount.py to test_010_UpdateRowCount.pyc
+byte-compiling build/bdist.linux-x86_64/egg/tests/test_081_ConnWrongUser.py to test_081_ConnWrongUser.pyc
+byte-compiling build/bdist.linux-x86_64/egg/tests/test_InsertRetrieveDateTimeTypeColumn.py to test_InsertRetrieveDateTimeTypeColumn.pyc
+byte-compiling build/bdist.linux-x86_64/egg/tests/test_265_NoAffectedRows.py to test_265_NoAffectedRows.pyc
+byte-compiling build/bdist.linux-x86_64/egg/tests/test_200_MultipleRsltsetsUniformColDefs.py to test_200_MultipleRsltsetsUniformColDefs.pyc
+byte-compiling build/bdist.linux-x86_64/egg/tests/test_execute_many.py to test_execute_many.pyc
+byte-compiling build/bdist.linux-x86_64/egg/tests/test_011_DeleteRowCount.py to test_011_DeleteRowCount.pyc
+byte-compiling build/bdist.linux-x86_64/egg/tests/test_100_SelectDeleteInsertFieldCount.py to test_100_SelectDeleteInsertFieldCount.pyc
+byte-compiling build/bdist.linux-x86_64/egg/tests/test_091_ConnmsgWrongUser.py to test_091_ConnmsgWrongUser.pyc
+byte-compiling build/bdist.linux-x86_64/egg/tests/test_092_ConnmsgWrongPwd.py to test_092_ConnmsgWrongPwd.pyc
+byte-compiling build/bdist.linux-x86_64/egg/tests/test_066_TableObjects.py to test_066_TableObjects.pyc
+byte-compiling build/bdist.linux-x86_64/egg/tests/test_147_PrepareWithWrongType.py to test_147_PrepareWithWrongType.pyc
+byte-compiling build/bdist.linux-x86_64/egg/tests/test_025_PrimaryKeys.py to test_025_PrimaryKeys.pyc
+byte-compiling build/bdist.linux-x86_64/egg/tests/test_052_SetAutocommit_02.py to test_052_SetAutocommit_02.pyc
+byte-compiling build/bdist.linux-x86_64/egg/tests/test_062_Tables_03.py to test_062_Tables_03.pyc
+byte-compiling build/bdist.linux-x86_64/egg/tests/test_014_KeysetDrivenCursorNegativeRow.py to test_014_KeysetDrivenCursorNegativeRow.pyc
+byte-compiling build/bdist.linux-x86_64/egg/tests/test_034_FetchAssoc.py to test_034_FetchAssoc.pyc
+byte-compiling build/bdist.linux-x86_64/egg/tests/test_018_selectRowcountPrefetchSetOpt.py to test_018_selectRowcountPrefetchSetOpt.pyc
+byte-compiling build/bdist.linux-x86_64/egg/tests/test_054_CursorType.py to test_054_CursorType.pyc
+byte-compiling build/bdist.linux-x86_64/egg/tests/test_053_AttrThruConn.py to test_053_AttrThruConn.pyc
+byte-compiling build/bdist.linux-x86_64/egg/tests/test_004_ConnWrongUserPwd.py to test_004_ConnWrongUserPwd.pyc
+byte-compiling build/bdist.linux-x86_64/egg/tests/test_132_ExecuteStatementArrayMultipleParams.py to test_132_ExecuteStatementArrayMultipleParams.pyc
+byte-compiling build/bdist.linux-x86_64/egg/tests/test_101_InsertDeleteFieldCount.py to test_101_InsertDeleteFieldCount.pyc
+byte-compiling build/bdist.linux-x86_64/egg/tests/test_012_KeysetDrivenCursorSelect01.py to test_012_KeysetDrivenCursorSelect01.pyc
+byte-compiling build/bdist.linux-x86_64/egg/tests/test_007_pConnPassingOpts.py to test_007_pConnPassingOpts.pyc
+byte-compiling build/bdist.linux-x86_64/egg/tests/test_023_ColumnPrivileges.py to test_023_ColumnPrivileges.pyc
+byte-compiling build/bdist.linux-x86_64/egg/tests/test_120_FieldName.py to test_120_FieldName.pyc
+byte-compiling build/bdist.linux-x86_64/egg/tests/test_020_RollbackDelete.py to test_020_RollbackDelete.pyc
+byte-compiling build/bdist.linux-x86_64/egg/tests/test_115_NumericTest_02.py to test_115_NumericTest_02.pyc
+byte-compiling build/bdist.linux-x86_64/egg/tests/test_114_NumericTest_01.py to test_114_NumericTest_01.pyc
+byte-compiling build/bdist.linux-x86_64/egg/tests/test_159a_FetchAssocSeveralRows_02.py to test_159a_FetchAssocSeveralRows_02.pyc
+byte-compiling build/bdist.linux-x86_64/egg/tests/test_250_FreeResult_01.py to test_250_FreeResult_01.pyc
+byte-compiling build/bdist.linux-x86_64/egg/tests/test_122_FieldNameDiffCaseColNames.py to test_122_FieldNameDiffCaseColNames.pyc
+byte-compiling build/bdist.linux-x86_64/egg/tests/test_153_FetchAssocSelect_04.py to test_153_FetchAssocSelect_04.pyc
+byte-compiling build/bdist.linux-x86_64/egg/tests/test_111_FieldNumAddCol.py to test_111_FieldNumAddCol.pyc
+byte-compiling build/bdist.linux-x86_64/egg/tests/test_145_BindRetrieveNoneEmptyString.py to test_145_BindRetrieveNoneEmptyString.pyc
+byte-compiling build/bdist.linux-x86_64/egg/tests/test_113_DateTest.py to test_113_DateTest.pyc
+byte-compiling build/bdist.linux-x86_64/egg/tests/test_141_BindParamSelectStmtMultipleParams_01.py to test_141_BindParamSelectStmtMultipleParams_01.pyc
+byte-compiling build/bdist.linux-x86_64/egg/tests/test_213_FieldDisplaySize_04.py to test_213_FieldDisplaySize_04.pyc
+byte-compiling build/bdist.linux-x86_64/egg/tests/test_191_ColumnsTable_02.py to test_191_ColumnsTable_02.pyc
+byte-compiling build/bdist.linux-x86_64/egg/tests/test_231_FieldTypeName.py to test_231_FieldTypeName.pyc
+byte-compiling build/bdist.linux-x86_64/egg/tests/test_015_InsertDeleteRowCount_01.py to test_015_InsertDeleteRowCount_01.pyc
+byte-compiling build/bdist.linux-x86_64/egg/tests/test_157b_FetchAssocScrollableCursor_02.py to test_157b_FetchAssocScrollableCursor_02.pyc
+byte-compiling build/bdist.linux-x86_64/egg/tests/test_decimal.py to test_decimal.pyc
+byte-compiling build/bdist.linux-x86_64/egg/tests/test_130_PrepExecuteSelectStmt.py to test_130_PrepExecuteSelectStmt.pyc
+byte-compiling build/bdist.linux-x86_64/egg/tests/test_019_selectRowcountPrefetchPrepOpt.py to test_019_selectRowcountPrefetchPrepOpt.pyc
+byte-compiling build/bdist.linux-x86_64/egg/tests/test_162_FetchBothNestedSelects_02.py to test_162_FetchBothNestedSelects_02.pyc
+byte-compiling build/bdist.linux-x86_64/egg/tests/test_212_FieldDisplaySize_03.py to test_212_FieldDisplaySize_03.pyc
+byte-compiling build/bdist.linux-x86_64/egg/tests/test_151_FetchAssocSelect_02.py to test_151_FetchAssocSelect_02.pyc
+byte-compiling build/bdist.linux-x86_64/egg/tests/test_030_Result.py to test_030_Result.pyc
+byte-compiling build/bdist.linux-x86_64/egg/tests/test_createDropDB.py to test_createDropDB.pyc
+byte-compiling build/bdist.linux-x86_64/egg/tests/test_150_FetchAssocSelect_01.py to test_150_FetchAssocSelect_01.pyc
+byte-compiling build/bdist.linux-x86_64/egg/tests/test_103_NumFieldsSelect_02.py to test_103_NumFieldsSelect_02.pyc
+byte-compiling build/bdist.linux-x86_64/egg/tests/test_159_FetchAssocSeveralRows_01.py to test_159_FetchAssocSeveralRows_01.pyc
+byte-compiling build/bdist.linux-x86_64/egg/tests/test_060_Tables_01.py to test_060_Tables_01.pyc
+byte-compiling build/bdist.linux-x86_64/egg/tests/test_080_ConnWrongDbAlias.py to test_080_ConnWrongDbAlias.pyc
+byte-compiling build/bdist.linux-x86_64/egg/tests/test_008_ColumnInfo.py to test_008_ColumnInfo.pyc
+byte-compiling build/bdist.linux-x86_64/egg/tests/test_157a_FetchAssocWithoutScrollableCursorErr.py to test_157a_FetchAssocWithoutScrollableCursorErr.pyc
+byte-compiling build/bdist.linux-x86_64/egg/tests/test_52949_TestSPIntVarcharXml.py to test_52949_TestSPIntVarcharXml.pyc
+byte-compiling build/bdist.linux-x86_64/egg/tests/test_051_SetAutocommit_01.py to test_051_SetAutocommit_01.pyc
+byte-compiling build/bdist.linux-x86_64/egg/tests/test_160_FetchBoth.py to test_160_FetchBoth.pyc
+byte-compiling build/bdist.linux-x86_64/egg/tests/test_047_FetchTupleMany_06.py to test_047_FetchTupleMany_06.pyc
+byte-compiling build/bdist.linux-x86_64/egg/tests/test_143_BindParamInsertStmtNoneParam.py to test_143_BindParamInsertStmtNoneParam.pyc
+byte-compiling build/bdist.linux-x86_64/egg/tests/test_146_CallSPINAndOUTParams.py to test_146_CallSPINAndOUTParams.pyc
+byte-compiling build/bdist.linux-x86_64/egg/tests/test_035_FetchRow_01.py to test_035_FetchRow_01.pyc
+byte-compiling build/bdist.linux-x86_64/egg/tests/test_043_FetchTupleMany_03.py to test_043_FetchTupleMany_03.pyc
+byte-compiling build/bdist.linux-x86_64/egg/tests/test_112_FieldNumDiffCaseColNames.py to test_112_FieldNumDiffCaseColNames.pyc
+byte-compiling build/bdist.linux-x86_64/egg/tests/test_002_ConnDbUncatalogedConn.py to test_002_ConnDbUncatalogedConn.pyc
+byte-compiling build/bdist.linux-x86_64/egg/tests/test_065_FilterTableName.py to test_065_FilterTableName.pyc
+byte-compiling build/bdist.linux-x86_64/egg/tests/test_036_FetchRow_02.py to test_036_FetchRow_02.pyc
+byte-compiling build/bdist.linux-x86_64/egg/tests/test_154_AllFetches.py to test_154_AllFetches.pyc
+byte-compiling build/bdist.linux-x86_64/egg/tests/test_016_InsertDeleteRowCount_02.py to test_016_InsertDeleteRowCount_02.pyc
+byte-compiling build/bdist.linux-x86_64/egg/tests/test_110_FieldNum.py to test_110_FieldNum.pyc
+byte-compiling build/bdist.linux-x86_64/egg/tests/test_180_StmtErrMsg.py to test_180_StmtErrMsg.pyc
+byte-compiling build/bdist.linux-x86_64/egg/tests/test_155_FetchAssocSelect_05.py to test_155_FetchAssocSelect_05.pyc
+byte-compiling build/bdist.linux-x86_64/egg/tests/test_061_Tables_02.py to test_061_Tables_02.pyc
+byte-compiling build/bdist.linux-x86_64/egg/tests/test_044_FetchTupleMany_04.py to test_044_FetchTupleMany_04.pyc
+byte-compiling build/bdist.linux-x86_64/egg/tests/test_221_100PersistentConns.py to test_221_100PersistentConns.pyc
+byte-compiling build/bdist.linux-x86_64/egg/tests/test_161_FetchBothNestedSelects_01.py to test_161_FetchBothNestedSelects_01.pyc
+byte-compiling build/bdist.linux-x86_64/egg/tests/test_195_InsertRetrieveXMLData_01.py to test_195_InsertRetrieveXMLData_01.pyc
+byte-compiling build/bdist.linux-x86_64/egg/tests/test_201_MultipleRsltsetsDiffColDefs.py to test_201_MultipleRsltsetsDiffColDefs.pyc
+byte-compiling build/bdist.linux-x86_64/egg/tests/test_133_ExecuteLongInputParams.py to test_133_ExecuteLongInputParams.pyc
+byte-compiling build/bdist.linux-x86_64/egg/tests/test_032_ResultIndexName.py to test_032_ResultIndexName.pyc
+byte-compiling build/bdist.linux-x86_64/egg/tests/test_090_ConnmsgWrongDbAlias.py to test_090_ConnmsgWrongDbAlias.pyc
+byte-compiling build/bdist.linux-x86_64/egg/tests/test_156_FetchAssocNestedSelects_01.py to test_156_FetchAssocNestedSelects_01.pyc
+byte-compiling build/bdist.linux-x86_64/egg/tests/test_123_FieldNamePos_01.py to test_123_FieldNamePos_01.pyc
+byte-compiling build/bdist.linux-x86_64/egg/tests/test_116_ConnActive.py to test_116_ConnActive.pyc
+byte-compiling build/bdist.linux-x86_64/egg/tests/test_190_ColumnsTable_01.py to test_190_ColumnsTable_01.pyc
+byte-compiling build/bdist.linux-x86_64/egg/tests/test_102_NumFieldsSelect_01.py to test_102_NumFieldsSelect_01.pyc
+byte-compiling build/bdist.linux-x86_64/egg/tests/test_140_BindParamSelectStmt.py to test_140_BindParamSelectStmt.pyc
+byte-compiling build/bdist.linux-x86_64/egg/tests/test_049_InsertNoneParam.py to test_049_InsertNoneParam.pyc
+byte-compiling build/bdist.linux-x86_64/egg/tests/test_220_PersistentConn.py to test_220_PersistentConn.pyc
+byte-compiling build/bdist.linux-x86_64/egg/tests/test_trusted_context_connect.py to test_trusted_context_connect.pyc
+byte-compiling build/bdist.linux-x86_64/egg/tests/test_210_FieldDisplaySize_01.py to test_210_FieldDisplaySize_01.pyc
+byte-compiling build/bdist.linux-x86_64/egg/tests/test_125_FieldNamePos_03.py to test_125_FieldNamePos_03.pyc
+byte-compiling build/bdist.linux-x86_64/egg/tests/test_142_BindParamSelectStmtMultipleParams_02.py to test_142_BindParamSelectStmtMultipleParams_02.pyc
+byte-compiling build/bdist.linux-x86_64/egg/tests/test_031_ResultIndexPosition.py to test_031_ResultIndexPosition.pyc
+byte-compiling build/bdist.linux-x86_64/egg/tests/test_038_FetchRowIndexPosNested_01.py to test_038_FetchRowIndexPosNested_01.pyc
+byte-compiling build/bdist.linux-x86_64/egg/tests/__init__.py to __init__.pyc
+byte-compiling build/bdist.linux-x86_64/egg/tests/test_240_FieldWidthPosName_01.py to test_240_FieldWidthPosName_01.pyc
+byte-compiling build/bdist.linux-x86_64/egg/tests/test_232_FieldTypePosName.py to test_232_FieldTypePosName.pyc
+byte-compiling build/bdist.linux-x86_64/egg/tests/test_157_FetchAssocScrollableCursor_01.py to test_157_FetchAssocScrollableCursor_01.pyc
+byte-compiling build/bdist.linux-x86_64/egg/tests/test_196_InsertRetrieveXMLData_02.py to test_196_InsertRetrieveXMLData_02.pyc
+byte-compiling build/bdist.linux-x86_64/egg/tests/test_6561_InsertNULLValues.py to test_6561_InsertNULLValues.pyc
+byte-compiling build/bdist.linux-x86_64/egg/tests/test_013_KeysetDrivenCursorSelect02.py to test_013_KeysetDrivenCursorSelect02.pyc
+byte-compiling build/bdist.linux-x86_64/egg/tests/test_000_PrepareDb.py to test_000_PrepareDb.pyc
+byte-compiling build/bdist.linux-x86_64/egg/tests/test_021_CommitDelete.py to test_021_CommitDelete.pyc
+byte-compiling build/bdist.linux-x86_64/egg/tests/test_082_ConnWrongPwd.py to test_082_ConnWrongPwd.pyc
+byte-compiling build/bdist.linux-x86_64/egg/tests/test_006_ConnPassingOpts.py to test_006_ConnPassingOpts.pyc
+byte-compiling build/bdist.linux-x86_64/egg/tests/test_230_FieldTypePos.py to test_230_FieldTypePos.pyc
+byte-compiling build/bdist.linux-x86_64/egg/tests/test_144_BindParamInsertStmtPARAM_FILE.py to test_144_BindParamInsertStmtPARAM_FILE.pyc
+byte-compiling build/bdist.linux-x86_64/egg/tests/test_071_CloseSuccess.py to test_071_CloseSuccess.pyc
+byte-compiling build/bdist.linux-x86_64/egg/tests/test_264_InsertRetrieveBIGINTTypeColumn.py to test_264_InsertRetrieveBIGINTTypeColumn.pyc
+byte-compiling build/bdist.linux-x86_64/egg/tests/test_createdbNX.py to test_createdbNX.pyc
+byte-compiling build/bdist.linux-x86_64/egg/tests/test_300_ServerInfo.py to test_300_ServerInfo.pyc
+byte-compiling build/bdist.linux-x86_64/egg/tests/test_064_Tables_05.py to test_064_Tables_05.pyc
+byte-compiling build/bdist.linux-x86_64/egg/tests/test_033_ResultOutSequenceColumn.py to test_033_ResultOutSequenceColumn.pyc
+byte-compiling build/bdist.linux-x86_64/egg/tests/test_048_FetchTupleBinaryData_02.py to test_048_FetchTupleBinaryData_02.pyc
+byte-compiling build/bdist.linux-x86_64/egg/tests/test_recreateDB.py to test_recreateDB.pyc
+byte-compiling build/bdist.linux-x86_64/egg/tests/test_6528_ScopingProblemBindParam.py to test_6528_ScopingProblemBindParam.pyc
+byte-compiling build/bdist.linux-x86_64/egg/tests/test_152_FetchAssocSelect_03.py to test_152_FetchAssocSelect_03.pyc
+byte-compiling build/bdist.linux-x86_64/egg/tests/test_022_RollbackInsert.py to test_022_RollbackInsert.pyc
+byte-compiling build/bdist.linux-x86_64/egg/tests/test_197_StatisticsIndexes.py to test_197_StatisticsIndexes.pyc
+byte-compiling build/bdist.linux-x86_64/egg/tests/test_040_FetchTuple.py to test_040_FetchTuple.pyc
+byte-compiling build/bdist.linux-x86_64/egg/tests/test_070_Close.py to test_070_Close.pyc
+byte-compiling build/bdist.linux-x86_64/egg/tests/test_251_FreeResult_02.py to test_251_FreeResult_02.pyc
+byte-compiling build/bdist.linux-x86_64/egg/tests/test_310_ClientInfo.py to test_310_ClientInfo.pyc
+byte-compiling build/bdist.linux-x86_64/egg/tests/test_001_ConnDb.py to test_001_ConnDb.pyc
+byte-compiling build/bdist.linux-x86_64/egg/tests/test_158_FetchAssocNestedSelects_02.py to test_158_FetchAssocNestedSelects_02.pyc
+byte-compiling build/bdist.linux-x86_64/egg/tests/test_045_FetchTupleBinaryData_01.py to test_045_FetchTupleBinaryData_01.pyc
+byte-compiling build/bdist.linux-x86_64/egg/tests/test_005_ConnBadUserBadPwd.py to test_005_ConnBadUserBadPwd.pyc
+byte-compiling build/bdist.linux-x86_64/egg/tests/test_039_FetchRowIndexPosNested_02.py to test_039_FetchRowIndexPosNested_02.pyc
+byte-compiling build/bdist.linux-x86_64/egg/tests/test_063_Tables_04.py to test_063_Tables_04.pyc
+byte-compiling build/bdist.linux-x86_64/egg/tests/test_trusted_context_pconnect.py to test_trusted_context_pconnect.pyc
+byte-compiling build/bdist.linux-x86_64/egg/tests/test_6755_ExtraNULLChar_ResultCLOBCol.py to test_6755_ExtraNULLChar_ResultCLOBCol.pyc
+creating stub loader for ibm_db.so
+byte-compiling build/bdist.linux-x86_64/egg/ibm_db.py to ibm_db.pyc
+installing package data to build/bdist.linux-x86_64/egg
+running install_data
+copying ./README -> build/bdist.linux-x86_64/egg/
+copying ./CHANGES -> build/bdist.linux-x86_64/egg/
+copying ./LICENSE -> build/bdist.linux-x86_64/egg/
+creating build/bdist.linux-x86_64/egg/EGG-INFO
+copying ibm_db.egg-info/PKG-INFO -> build/bdist.linux-x86_64/egg/EGG-INFO
+copying ibm_db.egg-info/SOURCES.txt -> build/bdist.linux-x86_64/egg/EGG-INFO
+copying ibm_db.egg-info/dependency_links.txt -> build/bdist.linux-x86_64/egg/EGG-INFO
+copying ibm_db.egg-info/top_level.txt -> build/bdist.linux-x86_64/egg/EGG-INFO
+writing build/bdist.linux-x86_64/egg/EGG-INFO/native_libs.txt
+zip_safe flag not set; analyzing archive contents...
+tests: module references __file__
+testfunctions: module MAY be using inspect.stack
+tests.test_000_PrepareDb: module references __file__
+tests.test_144_BindParamInsertStmtPARAM_FILE: module references __file__
+creating dist
+creating 'dist/ibm_db-2.0.5.1-py2.7-linux-x86_64.egg' and adding 'build/bdist.linux-x86_64/egg' to it
+removing 'build/bdist.linux-x86_64/egg' (and everything under it)
+Processing ibm_db-2.0.5.1-py2.7-linux-x86_64.egg
+creating /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/ibm_db-2.0.5.1-py2.7-linux-x86_64.egg
+Extracting ibm_db-2.0.5.1-py2.7-linux-x86_64.egg to /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages
+Adding ibm-db 2.0.5.1 to easy-install.pth file
+
+Installed /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/ibm_db-2.0.5.1-py2.7-linux-x86_64.egg
+Processing dependencies for ibm-db==2.0.5.1
+Finished processing dependencies for ibm-db==2.0.5.1
+
+****************************************
+You are downloading a package which includes the Python module for IBM DB2/Informix.  The module is licensed under the Apache License 2.0. The package also includes IBM ODBC and CLI Driver from IBM, which is automatically downloaded as the python module is installed on your system/device. The license agreement to the IBM ODBC and CLI Driver is available in /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/clidriver or /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/ibm_db-2.0.5.1-py2.7-linux-x86_64.egg/clidriver.   Check for additional dependencies, which may come with their own license agreement(s). Your use of the components of the package and dependencies constitutes your acceptance of their respective license agreements. If you do not accept the terms of any license agreement(s), then delete the relevant component(s) from your device.
+****************************************
+An unexpected error has occurred, please consider sending the
+following traceback to the conda GitHub issue tracker at:
+
+    https://github.com/conda/conda-build/issues
+
+Include the output of the command 'conda info' in your report.
+
+
+
+The following NEW packages will be INSTALLED:
+
+    openssl:    1.0.1k-1     
+    pip:        7.0.3-py27_0 
+    python:     2.7.10-0     
+    readline:   6.2-2        
+    setuptools: 18.0.1-py27_0
+    sqlite:     3.8.4.1-1    
+    system:     5.8-2        
+    tk:         8.5.18-0     
+    zlib:       1.2.8-0      
+
+Linking packages ...
+[                    ]|                                                  |   0%[openssl             ]|                                                  |   0%[readline            ]|#####                                             |  11%[sqlite              ]|###########                                       |  22%[system              ]|################                                  |  33%[tk                  ]|######################                            |  44%[zlib                ]|###########################                       |  55%[python              ]|#################################                 |  66%[setuptools          ]|######################################            |  77%[pip                 ]|############################################      |  88%[      COMPLETE      ]|##################################################| 100%
+Removing old work directory
+Source cache directory is: /home/ubuntu/miniconda/conda-bld/src_cache
+Found source in cache: ibm_db-2.0.5.1.tar.gz
+Extracting download
+Package: ibm_db-2.0.5.1-py_0
+source tree in: /home/ubuntu/miniconda/conda-bld/work/ibm_db-2.0.5.1
+found egg dir: /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/ibm_db-2.0.5.1-py2.7-linux-x86_64.egg
+Traceback (most recent call last):
+  File "/home/ubuntu/miniconda/bin/conda-build", line 6, in <module>
+    exec(compile(open(__file__).read(), __file__, 'exec'))
+  File "/home/ubuntu/conda-build/bin/conda-build", line 5, in <module>
+    sys.exit(main())
+  File "/home/ubuntu/conda-build/conda_build/main_build.py", line 127, in main
+    args_func(args, p)
+  File "/home/ubuntu/conda-build/conda_build/main_build.py", line 349, in args_func
+    args.func(args, p)
+  File "/home/ubuntu/conda-build/conda_build/main_build.py", line 308, in execute
+    channel_urls=channel_urls, override_channels=args.override_channels)
+  File "/home/ubuntu/conda-build/conda_build/build.py", line 398, in build
+    post_process(sorted(files2 - files1), preserve_egg_dir=bool(m.get_value('build/preserve_egg_dir')))
+  File "/home/ubuntu/conda-build/conda_build/post.py", line 147, in post_process
+    remove_easy_install_pth(files, preserve_egg_dir=preserve_egg_dir)
+  File "/home/ubuntu/conda-build/conda_build/post.py", line 104, in remove_easy_install_pth
+    utils.copy_into(join(egg_path, fn), join(sp_dir, fn))
+  File "/home/ubuntu/conda-build/conda_build/utils.py", line 36, in copy_into
+    shutil.copy2(srcname, dstname)
+  File "/home/ubuntu/miniconda/lib/python2.7/shutil.py", line 130, in copy2
+    copyfile(src, dst)
+  File "/home/ubuntu/miniconda/lib/python2.7/shutil.py", line 69, in copyfile
+    raise Error("`%s` and `%s` are the same file" % (src, dst))
+shutil.Error: `/home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/ibm_db-2.0.5.1-py2.7-linux-x86_64.egg/README` and `/home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/ibm_db-2.0.5.1-py2.7-linux-x86_64.egg/README` are the same file

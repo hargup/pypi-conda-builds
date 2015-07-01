@@ -2,6 +2,14 @@ Removing old build directory
 Removing old work directory
 BUILD START: filechunkio-1.6-py27_0
 Fetching package metadata: ......
+
+WARNING: conda-build appears to be out of date. You have version 1.13.0 but the
+latest version is 1.14.1. Run
+
+conda update -n root conda-build
+
+to get the latest version.
+
 Solving package specifications: .+ /home/ubuntu/miniconda/envs/_build/bin/python setup.py install
 running install
 running build
@@ -25,15 +33,15 @@ Writing /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/filechunk
 
 The following NEW packages will be INSTALLED:
 
-    openssl:    1.0.1k-1    
-    pip:        7.0.3-py27_0
-    python:     2.7.10-0    
-    readline:   6.2-2       
-    setuptools: 17.0-py27_0 
-    sqlite:     3.8.4.1-1   
-    system:     5.8-2       
-    tk:         8.5.18-0    
-    zlib:       1.2.8-0     
+    openssl:    1.0.1k-1     
+    pip:        7.0.3-py27_0 
+    python:     2.7.10-0     
+    readline:   6.2-2        
+    setuptools: 18.0.1-py27_0
+    sqlite:     3.8.4.1-1    
+    system:     5.8-2        
+    tk:         8.5.18-0     
+    zlib:       1.2.8-0      
 
 Linking packages ...
 [                    ]|                                                  |   0%[openssl             ]|                                                  |   0%[readline            ]|#####                                             |  11%[sqlite              ]|###########                                       |  22%[system              ]|################                                  |  33%[tk                  ]|######################                            |  44%[zlib                ]|###########################                       |  55%[python              ]|#################################                 |  66%[setuptools          ]|######################################            |  77%[pip                 ]|############################################      |  88%[      COMPLETE      ]|##################################################| 100%
@@ -49,6 +57,14 @@ Fixing permissions
 BUILD END: filechunkio-1.6-py27_0
 TEST START: filechunkio-1.6-py27_0
 Fetching package metadata: ......
+
+WARNING: conda-build appears to be out of date. You have version 1.13.0 but the
+latest version is 1.14.1. Run
+
+conda update -n root conda-build
+
+to get the latest version.
+
 Solving package specifications: .===== testing package: filechunkio-1.6-py27_0 =====
 import: u'filechunkio'
 ===== filechunkio-1.6-py27_0 OK =====
@@ -61,19 +77,19 @@ The following packages will be downloaded:
 
 The following NEW packages will be INSTALLED:
 
-    filechunkio: 1.6-py27_0  
-    openssl:     1.0.1k-1    
-    pip:         7.0.3-py27_0
-    python:      2.7.10-0    
-    readline:    6.2-2       
-    setuptools:  17.0-py27_0 
-    sqlite:      3.8.4.1-1   
-    system:      5.8-2       
-    tk:          8.5.18-0    
-    zlib:        1.2.8-0     
+    filechunkio: 1.6-py27_0   
+    openssl:     1.0.1k-1     
+    pip:         7.0.3-py27_0 
+    python:      2.7.10-0     
+    readline:    6.2-2        
+    setuptools:  18.0.1-py27_0
+    sqlite:      3.8.4.1-1    
+    system:      5.8-2        
+    tk:          8.5.18-0     
+    zlib:        1.2.8-0      
 
 Fetching packages ...
-filechunkio-1.   0% |                              | ETA:  --:--:--   0.00  B/sfilechunkio-1. 100% |###############################| ETA:  0:00:00  19.54 MB/sfilechunkio-1. 100% |###############################| Time: 0:00:00  10.91 MB/s
+filechunkio-1.   0% |                              | ETA:  --:--:--   0.00  B/sfilechunkio-1. 100% |###############################| ETA:  0:00:00  19.45 MB/sfilechunkio-1. 100% |###############################| Time: 0:00:00  10.87 MB/s
 Extracting packages ...
 [      COMPLETE      ]|                                                  |   0%[filechunkio         ]|                                                  |   0%[filechunkio         ]|                                                  |   0%[      COMPLETE      ]|##################################################| 100%
 Linking packages ...

@@ -1,0 +1,67 @@
+package:
+  name: transifex-client
+  version: "0.11.1.beta"
+
+source:
+  fn: transifex-client-0.11.1.beta.tar.gz
+  url: https://pypi.python.org/packages/source/t/transifex-client/transifex-client-0.11.1.beta.tar.gz
+  md5: 42ce2b40209f790c1a3f1c4991b0463e
+#  patches:
+   # List any patch files here
+   # - fix.patch
+
+build:
+  noarch_python: True
+  # preserve_egg_dir: True
+  # entry_points:
+    # Put any entry points (scripts to be generated automatically) here. The
+    # syntax is module:function.  For example
+    #
+    # - transifex-client = transifex-client:main
+    #
+    # Would create an entry point called transifex-client that calls transifex-client.main()
+
+
+  # If this is a new build for the same version, increment the build
+  # number. If you do not include this key, it defaults to 0.
+  # number: 1
+
+requirements:
+  build:
+    - python
+    - setuptools
+
+  run:
+    - python
+
+test:
+  # Python imports
+  imports:
+    - txclib
+    - txclib.packages
+    - txclib.packages.urllib3
+    - txclib.packages.urllib3.contrib
+    - txclib.packages.urllib3.packages
+    - txclib.packages.urllib3.packages.ssl_match_hostname
+
+  # commands:
+    # You can put test commands to be run here.  Use this to test that the
+    # entry points work.
+
+
+  # You can also put a file called run_test.py in the recipe that will be run
+  # at test time.
+
+  requires:
+    - mock
+    # Put any additional test requirements here.  For example
+    # - nose
+
+about:
+  home: https://www.transifex.com
+  license: GPLv2
+  summary: 'A command line interface for Transifex'
+
+# See
+# http://docs.continuum.io/conda/build.html for
+# more information about meta.yaml

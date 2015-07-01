@@ -19,8 +19,8 @@ Traceback (most recent call last):
     raise ValueError(msg, line, "at", line[p:])
 ValueError: ('Expected version spec in', 'marionette-transport====0.5', 'at', '====0.5')
 
-Package search: {'_pypi_ordering': False, 'version': '0.9', 'name': 'marionette_driver', 'summary': 'Marionette Driver'}
-Creating standard recipe for marionette_driver-0.9
+Package search: {'_pypi_ordering': False, 'version': '0.10', 'name': 'marionette_driver', 'summary': 'Marionette Driver'}
+Creating standard recipe for marionette_driver-0.10
 Converting recipe in /home/ubuntu/pypi-conda-builds/marionette_driver
 package = marionette_driver
    dependencies = [u'marionette-transport ==0.5', u'mozrunner >=6.2']

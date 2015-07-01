@@ -2,6 +2,14 @@ Removing old build directory
 Removing old work directory
 BUILD START: manifestparser-1.1-py_0
 Fetching package metadata: ......
+
+WARNING: conda-build appears to be out of date. You have version 1.13.0 but the
+latest version is 1.14.1. Run
+
+conda update -n root conda-build
+
+to get the latest version.
+
 Solving package specifications: .+ /home/ubuntu/miniconda/envs/_build/bin/python setup.py install
 running install
 running bdist_egg
@@ -61,15 +69,15 @@ Finished processing dependencies for manifestparser==1.1
 
 The following NEW packages will be INSTALLED:
 
-    openssl:    1.0.1k-1    
-    pip:        7.0.3-py27_0
-    python:     2.7.10-0    
-    readline:   6.2-2       
-    setuptools: 17.0-py27_0 
-    sqlite:     3.8.4.1-1   
-    system:     5.8-2       
-    tk:         8.5.18-0    
-    zlib:       1.2.8-0     
+    openssl:    1.0.1k-1     
+    pip:        7.0.3-py27_0 
+    python:     2.7.10-0     
+    readline:   6.2-2        
+    setuptools: 18.0.1-py27_0
+    sqlite:     3.8.4.1-1    
+    system:     5.8-2        
+    tk:         8.5.18-0     
+    zlib:       1.2.8-0      
 
 Linking packages ...
 [                    ]|                                                  |   0%[openssl             ]|                                                  |   0%[readline            ]|#####                                             |  11%[sqlite              ]|###########                                       |  22%[system              ]|################                                  |  33%[tk                  ]|######################                            |  44%[zlib                ]|###########################                       |  55%[python              ]|#################################                 |  66%[setuptools          ]|######################################            |  77%[pip                 ]|############################################      |  88%[      COMPLETE      ]|##################################################| 100%
@@ -79,23 +87,22 @@ Found source in cache: manifestparser-1.1.tar.gz
 Extracting download
 Package: manifestparser-1.1-py_0
 source tree in: /home/ubuntu/miniconda/conda-bld/work/manifestparser-1.1
-number of files: 20
+found egg dir: /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/manifestparser-1.1-py2.7.egg
+number of files: 14
 Fixing permissions
 Fixing permissions
 BUILD END: manifestparser-1.1-py_0
 TEST START: manifestparser-1.1-py_0
 Fetching package metadata: ......
-Solving package specifications: .===== testing package: manifestparser-1.1-py_0 =====
-import: u'manifestparser'
-===== manifestparser-1.1-py_0 OK =====
-+ manifestparser --help
-Usage: manifestparser [options] [command] ...
 
-Mozilla universal manifest parser. Use `help` to display commands
+WARNING: conda-build appears to be out of date. You have version 1.13.0 but the
+latest version is 1.14.1. Run
 
-Options:
-  -h, --help    show this help message and exit
-  -s, --strict  adhere strictly to errors
+conda update -n root conda-build
+
+to get the latest version.
+
+Solving package specifications: ./home/ubuntu/miniconda/pkgs/manifestparser-1.1-py_0/bin/.manifestparser-pre-link.sh: line 2: /home/ubuntu/miniconda/envs/_test/bin/python: No such file or directory
 
 The following packages will be downloaded:
 
@@ -105,28 +112,20 @@ The following packages will be downloaded:
 
 The following NEW packages will be INSTALLED:
 
-    manifestparser: 1.1-py_0    
-    openssl:        1.0.1k-1    
-    pip:            7.0.3-py27_0
-    python:         2.7.10-0    
-    readline:       6.2-2       
-    setuptools:     17.0-py27_0 
-    sqlite:         3.8.4.1-1   
-    system:         5.8-2       
-    tk:             8.5.18-0    
-    zlib:           1.2.8-0     
+    manifestparser: 1.1-py_0     
+    openssl:        1.0.1k-1     
+    pip:            7.0.3-py27_0 
+    python:         2.7.10-0     
+    readline:       6.2-2        
+    setuptools:     18.0.1-py27_0
+    sqlite:         3.8.4.1-1    
+    system:         5.8-2        
+    tk:             8.5.18-0     
+    zlib:           1.2.8-0      
 
 Fetching packages ...
-manifestparser   0% |                              | ETA:  --:--:--   0.00  B/smanifestparser  17% |#####                          | ETA:  0:00:00  42.34 MB/smanifestparser  35% |###########                    | ETA:  0:00:00  54.26 MB/smanifestparser  53% |################               | ETA:  0:00:00  61.84 MB/smanifestparser  71% |######################         | ETA:  0:00:00  66.46 MB/smanifestparser  89% |###########################    | ETA:  0:00:00  69.95 MB/smanifestparser 100% |###############################| ETA:  0:00:00  68.83 MB/smanifestparser 100% |###############################| Time: 0:00:00  59.76 MB/s
+manifestparser   0% |                              | ETA:  --:--:--   0.00  B/smanifestparser  17% |#####                          | ETA:  0:00:00  48.06 MB/smanifestparser  35% |###########                    | ETA:  0:00:00  59.91 MB/smanifestparser  53% |################               | ETA:  0:00:00  66.78 MB/smanifestparser  71% |######################         | ETA:  0:00:00  70.63 MB/smanifestparser  89% |###########################    | ETA:  0:00:00  73.28 MB/smanifestparser 100% |###############################| ETA:  0:00:00  71.46 MB/smanifestparser 100% |###############################| Time: 0:00:00  60.43 MB/s
 Extracting packages ...
 [      COMPLETE      ]|                                                  |   0%[manifestparser      ]|                                                  |   0%[manifestparser      ]|                                                  |   0%[      COMPLETE      ]|##################################################| 100%
 Linking packages ...
-[      COMPLETE      ]|                                                  |   0%[openssl             ]|                                                  |   0%[openssl             ]|                                                  |   0%[readline            ]|#####                                             |  10%[sqlite              ]|##########                                        |  20%[system              ]|###############                                   |  30%[tk                  ]|####################                              |  40%[zlib                ]|#########################                         |  50%[python              ]|##############################                    |  60%[setuptools          ]|###################################               |  70%[manifestparser      ]|########################################          |  80%[pip                 ]|#############################################     |  90%[      COMPLETE      ]|##################################################| 100%
-TEST END: manifestparser-1.1-py_0
-# If you want to upload this package to binstar.org later, type:
-#
-# $ binstar upload /home/ubuntu/miniconda/conda-bld/noarch/manifestparser-1.1-py_0.tar.bz2
-#
-# To have conda build upload to binstar automatically, use
-# $ conda config --set binstar_upload yes
-
+[      COMPLETE      ]|                                                  |   0%[openssl             ]|                                                  |   0%[openssl             ]|                                                  |   0%[readline            ]|#####                                             |  10%[sqlite              ]|##########                                        |  20%[system              ]|###############                                   |  30%[tk                  ]|####################                              |  40%[zlib                ]|#########################                         |  50%[manifestparser      ]|##############################                    |  60%Error: pre-link failed: manifestparser-1.1-py_0

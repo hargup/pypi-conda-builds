@@ -1,0 +1,70 @@
+package:
+  name: makesite
+  version: "0.9.83"
+
+source:
+  fn: makesite-0.9.83.tar.gz
+  url: https://pypi.python.org/packages/source/m/makesite/makesite-0.9.83.tar.gz
+  md5: d15b904b3b3eb8871c7bf9683613651d
+#  patches:
+   # List any patch files here
+   # - fix.patch
+
+build:
+  noarch_python: True
+  # preserve_egg_dir: True
+  entry_points:
+    # Put any entry points (scripts to be generated automatically) here. The
+    # syntax is module:function.  For example
+    #
+    # - makesite = makesite:main
+    #
+    # Would create an entry point called makesite that calls makesite.main()
+
+    - makesite = makesite.main:console
+
+  # If this is a new build for the same version, increment the build
+  # number. If you do not include this key, it defaults to 0.
+  # number: 1
+
+requirements:
+  build:
+    - python
+    - setuptools
+    - initools ==0.3.1
+    - tempita ==0.5.1
+    - ssh ==1.7.14
+
+  run:
+    - python
+    - initools ==0.3.1
+    - tempita ==0.5.1
+    - ssh ==1.7.14
+
+test:
+  # Python imports
+  imports:
+    - makesite
+    - tests
+
+  commands:
+    # You can put test commands to be run here.  Use this to test that the
+    # entry points work.
+
+    - makesite --help
+
+  # You can also put a file called run_test.py in the recipe that will be run
+  # at test time.
+
+  # requires:
+    # Put any additional test requirements here.  For example
+    # - nose
+
+about:
+  home:  http://github.com/klen/makesite
+  license: GNU Library or Lesser General Public License (LGPL)
+  summary: 'Makesite is collection scripts for make and control site structure.'
+
+# See
+# http://docs.continuum.io/conda/build.html for
+# more information about meta.yaml

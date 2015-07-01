@@ -1,0 +1,45 @@
+Removing old build directory
+Removing old work directory
+BUILD START: dotcloud-0.9.8-py_0
+Fetching package metadata: ......
+
+WARNING: conda-build appears to be out of date. You have version 1.13.0 but the
+latest version is 1.14.1. Run
+
+conda update -n root conda-build
+
+to get the latest version.
+
+Solving package specifications: .................
+Warning: 2 possible package resolutions (only showing differing packages):
+	[u'argparse-1.3.0-py_0.tar.bz2'],
+	[u'argparse-1.3.0-py27_0.tar.bz2'],
+
+The following packages will be downloaded:
+
+    package                    |            build
+    ---------------------------|-----------------
+    requests-1.2.3             |           py27_0         497 KB
+
+The following NEW packages will be INSTALLED:
+
+    argparse:   1.3.0-py_0   
+    colorama:   0.3.3-py27_0 
+    openssl:    1.0.1k-1     
+    pip:        7.0.3-py27_0 
+    python:     2.7.10-0     
+    readline:   6.2-2        
+    requests:   1.2.3-py27_0 
+    setuptools: 18.0.1-py27_0
+    sqlite:     3.8.4.1-1    
+    system:     5.8-2        
+    tk:         8.5.18-0     
+    zlib:       1.2.8-0      
+
+Fetching packages ...
+requests-1.2.3   0% |                              | ETA:  --:--:--   0.00  B/srequests-1.2.3   3% |                               | ETA:  0:00:00  15.59 MB/srequests-1.2.3   6% |#                              | ETA:  0:00:00  19.50 MB/srequests-1.2.3   9% |##                             | ETA:  0:00:00  24.60 MB/srequests-1.2.3  12% |###                            | ETA:  0:00:00  24.78 MB/srequests-1.2.3  16% |####                           | ETA:  0:00:00  26.16 MB/srequests-1.2.3  19% |#####                          | ETA:  0:00:00  24.85 MB/srequests-1.2.3  22% |######                         | ETA:  0:00:00  24.86 MB/srequests-1.2.3  25% |#######                        | ETA:  0:00:00  26.62 MB/srequests-1.2.3  28% |########                       | ETA:  0:00:00  26.51 MB/srequests-1.2.3  32% |#########                      | ETA:  0:00:00  24.88 MB/srequests-1.2.3  35% |##########                     | ETA:  0:00:00  26.35 MB/srequests-1.2.3  38% |###########                    | ETA:  0:00:00  25.87 MB/srequests-1.2.3  41% |############                   | ETA:  0:00:00  25.98 MB/srequests-1.2.3  45% |#############                  | ETA:  0:00:00  26.64 MB/srequests-1.2.3  48% |##############                 | ETA:  0:00:00  26.23 MB/srequests-1.2.3  51% |###############                | ETA:  0:00:00  26.74 MB/srequests-1.2.3  54% |################               | ETA:  0:00:00  27.70 MB/srequests-1.2.3  57% |#################              | ETA:  0:00:00  27.63 MB/srequests-1.2.3  61% |##################             | ETA:  0:00:00  28.45 MB/srequests-1.2.3  64% |###################            | ETA:  0:00:00  28.12 MB/srequests-1.2.3  67% |####################           | ETA:  0:00:00  17.02 MB/srequests-1.2.3  70% |#####################          | ETA:  0:00:00  17.59 MB/srequests-1.2.3  74% |######################         | ETA:  0:00:00  18.06 MB/srequests-1.2.3  77% |#######################        | ETA:  0:00:00  18.51 MB/srequests-1.2.3  80% |########################       | ETA:  0:00:00  18.76 MB/srequests-1.2.3  83% |#########################      | ETA:  0:00:00  19.18 MB/srequests-1.2.3  86% |##########################     | ETA:  0:00:00  19.67 MB/srequests-1.2.3  90% |###########################    | ETA:  0:00:00  20.02 MB/srequests-1.2.3  93% |############################   | ETA:  0:00:00  20.41 MB/srequests-1.2.3  96% |#############################  | ETA:  0:00:00  20.87 MB/srequests-1.2.3  99% |############################## | ETA:  0:00:00  21.34 MB/srequests-1.2.3 100% |###############################| Time: 0:00:00  21.08 MB/s
+Extracting packages ...
+[                    ]|                                                  |   0%[requests            ]|                                                  |   0%[      COMPLETE      ]|##################################################| 100%
+Linking packages ...
+[      COMPLETE      ]|                                                  |   0%[openssl             ]|                                                  |   0%[openssl             ]|                                                  |   0%[readline            ]|####                                              |   8%[sqlite              ]|########                                          |  16%[system              ]|############                                      |  25%[tk                  ]|################         /home/ubuntu/miniconda/pkgs/argparse-1.3.0-py_0/bin/.argparse-pre-link.sh: line 2: /home/ubuntu/miniconda/envs/_build/bin/python: No such file or directory
+                         |  33%[zlib                ]|####################                              |  41%[argparse            ]|#########################                         |  50%Error: pre-link failed: argparse-1.3.0-py_0

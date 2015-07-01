@@ -1,0 +1,479 @@
+Removing old build directory
+Removing old work directory
+BUILD START: djangocms-admin-style-0.2.7-py_0
+Fetching package metadata: ......
+
+WARNING: conda-build appears to be out of date. You have version 1.13.0 but the
+latest version is 1.14.1. Run
+
+conda update -n root conda-build
+
+to get the latest version.
+
+Solving package specifications: .+ /home/ubuntu/miniconda/envs/_build/bin/python setup.py install
+running install
+running bdist_egg
+running egg_info
+writing djangocms_admin_style.egg-info/PKG-INFO
+writing top-level names to djangocms_admin_style.egg-info/top_level.txt
+writing dependency_links to djangocms_admin_style.egg-info/dependency_links.txt
+reading manifest file 'djangocms_admin_style.egg-info/SOURCES.txt'
+reading manifest template 'MANIFEST.in'
+writing manifest file 'djangocms_admin_style.egg-info/SOURCES.txt'
+installing library code to build/bdist.linux-x86_64/egg
+running install_lib
+running build_py
+creating build
+creating build/lib
+creating build/lib/djangocms_admin_style
+copying djangocms_admin_style/__init__.py -> build/lib/djangocms_admin_style
+copying djangocms_admin_style/models.py -> build/lib/djangocms_admin_style
+creating build/lib/djangocms_admin_style/.sass-cache
+creating build/lib/djangocms_admin_style/.sass-cache/017cbcc713cead5d350c571438f58e00f865d888
+copying djangocms_admin_style/.sass-cache/017cbcc713cead5d350c571438f58e00f865d888/_bullets.scssc -> build/lib/djangocms_admin_style/.sass-cache/017cbcc713cead5d350c571438f58e00f865d888
+copying djangocms_admin_style/.sass-cache/017cbcc713cead5d350c571438f58e00f865d888/_horizontal-list.scssc -> build/lib/djangocms_admin_style/.sass-cache/017cbcc713cead5d350c571438f58e00f865d888
+copying djangocms_admin_style/.sass-cache/017cbcc713cead5d350c571438f58e00f865d888/_inline-block-list.scssc -> build/lib/djangocms_admin_style/.sass-cache/017cbcc713cead5d350c571438f58e00f865d888
+copying djangocms_admin_style/.sass-cache/017cbcc713cead5d350c571438f58e00f865d888/_inline-list.scssc -> build/lib/djangocms_admin_style/.sass-cache/017cbcc713cead5d350c571438f58e00f865d888
+creating build/lib/djangocms_admin_style/.sass-cache/2220bd264f24402adfb21ff3738cba26fb93a656
+copying djangocms_admin_style/.sass-cache/2220bd264f24402adfb21ff3738cba26fb93a656/_html5-boilerplate.scssc -> build/lib/djangocms_admin_style/.sass-cache/2220bd264f24402adfb21ff3738cba26fb93a656
+creating build/lib/djangocms_admin_style/.sass-cache/24d2c4bd70b28dcb5be72d3a7ad0afb7f0d5e55a
+copying djangocms_admin_style/.sass-cache/24d2c4bd70b28dcb5be72d3a7ad0afb7f0d5e55a/_ellipsis.scssc -> build/lib/djangocms_admin_style/.sass-cache/24d2c4bd70b28dcb5be72d3a7ad0afb7f0d5e55a
+copying djangocms_admin_style/.sass-cache/24d2c4bd70b28dcb5be72d3a7ad0afb7f0d5e55a/_force-wrap.scssc -> build/lib/djangocms_admin_style/.sass-cache/24d2c4bd70b28dcb5be72d3a7ad0afb7f0d5e55a
+copying djangocms_admin_style/.sass-cache/24d2c4bd70b28dcb5be72d3a7ad0afb7f0d5e55a/_nowrap.scssc -> build/lib/djangocms_admin_style/.sass-cache/24d2c4bd70b28dcb5be72d3a7ad0afb7f0d5e55a
+copying djangocms_admin_style/.sass-cache/24d2c4bd70b28dcb5be72d3a7ad0afb7f0d5e55a/_replacement.scssc -> build/lib/djangocms_admin_style/.sass-cache/24d2c4bd70b28dcb5be72d3a7ad0afb7f0d5e55a
+creating build/lib/djangocms_admin_style/.sass-cache/267721e1002814f2250e856fcd4d0769d0e0cfe6
+copying djangocms_admin_style/.sass-cache/267721e1002814f2250e856fcd4d0769d0e0cfe6/_base.scssc -> build/lib/djangocms_admin_style/.sass-cache/267721e1002814f2250e856fcd4d0769d0e0cfe6
+copying djangocms_admin_style/.sass-cache/267721e1002814f2250e856fcd4d0769d0e0cfe6/_cmsplaceholders.scssc -> build/lib/djangocms_admin_style/.sass-cache/267721e1002814f2250e856fcd4d0769d0e0cfe6
+copying djangocms_admin_style/.sass-cache/267721e1002814f2250e856fcd4d0769d0e0cfe6/_content.scssc -> build/lib/djangocms_admin_style/.sass-cache/267721e1002814f2250e856fcd4d0769d0e0cfe6
+copying djangocms_admin_style/.sass-cache/267721e1002814f2250e856fcd4d0769d0e0cfe6/_filer.scssc -> build/lib/djangocms_admin_style/.sass-cache/267721e1002814f2250e856fcd4d0769d0e0cfe6
+copying djangocms_admin_style/.sass-cache/267721e1002814f2250e856fcd4d0769d0e0cfe6/_forms.scssc -> build/lib/djangocms_admin_style/.sass-cache/267721e1002814f2250e856fcd4d0769d0e0cfe6
+copying djangocms_admin_style/.sass-cache/267721e1002814f2250e856fcd4d0769d0e0cfe6/_icons.scssc -> build/lib/djangocms_admin_style/.sass-cache/267721e1002814f2250e856fcd4d0769d0e0cfe6
+copying djangocms_admin_style/.sass-cache/267721e1002814f2250e856fcd4d0769d0e0cfe6/_mixins.scssc -> build/lib/djangocms_admin_style/.sass-cache/267721e1002814f2250e856fcd4d0769d0e0cfe6
+copying djangocms_admin_style/.sass-cache/267721e1002814f2250e856fcd4d0769d0e0cfe6/_mobile.scssc -> build/lib/djangocms_admin_style/.sass-cache/267721e1002814f2250e856fcd4d0769d0e0cfe6
+copying djangocms_admin_style/.sass-cache/267721e1002814f2250e856fcd4d0769d0e0cfe6/_shortcuts.scssc -> build/lib/djangocms_admin_style/.sass-cache/267721e1002814f2250e856fcd4d0769d0e0cfe6
+copying djangocms_admin_style/.sass-cache/267721e1002814f2250e856fcd4d0769d0e0cfe6/_tables.scssc -> build/lib/djangocms_admin_style/.sass-cache/267721e1002814f2250e856fcd4d0769d0e0cfe6
+creating build/lib/djangocms_admin_style/.sass-cache/5cc24f34735dddd899afca93bb2919b5dda53f4b
+copying djangocms_admin_style/.sass-cache/5cc24f34735dddd899afca93bb2919b5dda53f4b/_animation.scssc -> build/lib/djangocms_admin_style/.sass-cache/5cc24f34735dddd899afca93bb2919b5dda53f4b
+copying djangocms_admin_style/.sass-cache/5cc24f34735dddd899afca93bb2919b5dda53f4b/_appearance.scssc -> build/lib/djangocms_admin_style/.sass-cache/5cc24f34735dddd899afca93bb2919b5dda53f4b
+copying djangocms_admin_style/.sass-cache/5cc24f34735dddd899afca93bb2919b5dda53f4b/_background-clip.scssc -> build/lib/djangocms_admin_style/.sass-cache/5cc24f34735dddd899afca93bb2919b5dda53f4b
+copying djangocms_admin_style/.sass-cache/5cc24f34735dddd899afca93bb2919b5dda53f4b/_background-origin.scssc -> build/lib/djangocms_admin_style/.sass-cache/5cc24f34735dddd899afca93bb2919b5dda53f4b
+copying djangocms_admin_style/.sass-cache/5cc24f34735dddd899afca93bb2919b5dda53f4b/_background-size.scssc -> build/lib/djangocms_admin_style/.sass-cache/5cc24f34735dddd899afca93bb2919b5dda53f4b
+copying djangocms_admin_style/.sass-cache/5cc24f34735dddd899afca93bb2919b5dda53f4b/_border-radius.scssc -> build/lib/djangocms_admin_style/.sass-cache/5cc24f34735dddd899afca93bb2919b5dda53f4b
+copying djangocms_admin_style/.sass-cache/5cc24f34735dddd899afca93bb2919b5dda53f4b/_box-shadow.scssc -> build/lib/djangocms_admin_style/.sass-cache/5cc24f34735dddd899afca93bb2919b5dda53f4b
+copying djangocms_admin_style/.sass-cache/5cc24f34735dddd899afca93bb2919b5dda53f4b/_box-sizing.scssc -> build/lib/djangocms_admin_style/.sass-cache/5cc24f34735dddd899afca93bb2919b5dda53f4b
+copying djangocms_admin_style/.sass-cache/5cc24f34735dddd899afca93bb2919b5dda53f4b/_columns.scssc -> build/lib/djangocms_admin_style/.sass-cache/5cc24f34735dddd899afca93bb2919b5dda53f4b
+copying djangocms_admin_style/.sass-cache/5cc24f34735dddd899afca93bb2919b5dda53f4b/_deprecated-support.scssc -> build/lib/djangocms_admin_style/.sass-cache/5cc24f34735dddd899afca93bb2919b5dda53f4b
+copying djangocms_admin_style/.sass-cache/5cc24f34735dddd899afca93bb2919b5dda53f4b/_filter.scssc -> build/lib/djangocms_admin_style/.sass-cache/5cc24f34735dddd899afca93bb2919b5dda53f4b
+copying djangocms_admin_style/.sass-cache/5cc24f34735dddd899afca93bb2919b5dda53f4b/_flexbox.scssc -> build/lib/djangocms_admin_style/.sass-cache/5cc24f34735dddd899afca93bb2919b5dda53f4b
+copying djangocms_admin_style/.sass-cache/5cc24f34735dddd899afca93bb2919b5dda53f4b/_font-face.scssc -> build/lib/djangocms_admin_style/.sass-cache/5cc24f34735dddd899afca93bb2919b5dda53f4b
+copying djangocms_admin_style/.sass-cache/5cc24f34735dddd899afca93bb2919b5dda53f4b/_hyphenation.scssc -> build/lib/djangocms_admin_style/.sass-cache/5cc24f34735dddd899afca93bb2919b5dda53f4b
+copying djangocms_admin_style/.sass-cache/5cc24f34735dddd899afca93bb2919b5dda53f4b/_images.scssc -> build/lib/djangocms_admin_style/.sass-cache/5cc24f34735dddd899afca93bb2919b5dda53f4b
+copying djangocms_admin_style/.sass-cache/5cc24f34735dddd899afca93bb2919b5dda53f4b/_inline-block.scssc -> build/lib/djangocms_admin_style/.sass-cache/5cc24f34735dddd899afca93bb2919b5dda53f4b
+copying djangocms_admin_style/.sass-cache/5cc24f34735dddd899afca93bb2919b5dda53f4b/_opacity.scssc -> build/lib/djangocms_admin_style/.sass-cache/5cc24f34735dddd899afca93bb2919b5dda53f4b
+copying djangocms_admin_style/.sass-cache/5cc24f34735dddd899afca93bb2919b5dda53f4b/_regions.scssc -> build/lib/djangocms_admin_style/.sass-cache/5cc24f34735dddd899afca93bb2919b5dda53f4b
+copying djangocms_admin_style/.sass-cache/5cc24f34735dddd899afca93bb2919b5dda53f4b/_text-shadow.scssc -> build/lib/djangocms_admin_style/.sass-cache/5cc24f34735dddd899afca93bb2919b5dda53f4b
+copying djangocms_admin_style/.sass-cache/5cc24f34735dddd899afca93bb2919b5dda53f4b/_transform.scssc -> build/lib/djangocms_admin_style/.sass-cache/5cc24f34735dddd899afca93bb2919b5dda53f4b
+copying djangocms_admin_style/.sass-cache/5cc24f34735dddd899afca93bb2919b5dda53f4b/_transition.scssc -> build/lib/djangocms_admin_style/.sass-cache/5cc24f34735dddd899afca93bb2919b5dda53f4b
+copying djangocms_admin_style/.sass-cache/5cc24f34735dddd899afca93bb2919b5dda53f4b/_user-interface.scssc -> build/lib/djangocms_admin_style/.sass-cache/5cc24f34735dddd899afca93bb2919b5dda53f4b
+creating build/lib/djangocms_admin_style/.sass-cache/5dcdfe68c2fa7a765312a1560a471a5764d8bbd9
+copying djangocms_admin_style/.sass-cache/5dcdfe68c2fa7a765312a1560a471a5764d8bbd9/_clearfix.scssc -> build/lib/djangocms_admin_style/.sass-cache/5dcdfe68c2fa7a765312a1560a471a5764d8bbd9
+copying djangocms_admin_style/.sass-cache/5dcdfe68c2fa7a765312a1560a471a5764d8bbd9/_float.scssc -> build/lib/djangocms_admin_style/.sass-cache/5dcdfe68c2fa7a765312a1560a471a5764d8bbd9
+copying djangocms_admin_style/.sass-cache/5dcdfe68c2fa7a765312a1560a471a5764d8bbd9/_hacks.scssc -> build/lib/djangocms_admin_style/.sass-cache/5dcdfe68c2fa7a765312a1560a471a5764d8bbd9
+copying djangocms_admin_style/.sass-cache/5dcdfe68c2fa7a765312a1560a471a5764d8bbd9/_min.scssc -> build/lib/djangocms_admin_style/.sass-cache/5dcdfe68c2fa7a765312a1560a471a5764d8bbd9
+copying djangocms_admin_style/.sass-cache/5dcdfe68c2fa7a765312a1560a471a5764d8bbd9/_reset.scssc -> build/lib/djangocms_admin_style/.sass-cache/5dcdfe68c2fa7a765312a1560a471a5764d8bbd9
+copying djangocms_admin_style/.sass-cache/5dcdfe68c2fa7a765312a1560a471a5764d8bbd9/_tag-cloud.scssc -> build/lib/djangocms_admin_style/.sass-cache/5dcdfe68c2fa7a765312a1560a471a5764d8bbd9
+creating build/lib/djangocms_admin_style/.sass-cache/62028c6b871e0cc393b389db111b4040a81b0544
+copying djangocms_admin_style/.sass-cache/62028c6b871e0cc393b389db111b4040a81b0544/_base.scssc -> build/lib/djangocms_admin_style/.sass-cache/62028c6b871e0cc393b389db111b4040a81b0544
+copying djangocms_admin_style/.sass-cache/62028c6b871e0cc393b389db111b4040a81b0544/_sprite-img.scssc -> build/lib/djangocms_admin_style/.sass-cache/62028c6b871e0cc393b389db111b4040a81b0544
+creating build/lib/djangocms_admin_style/.sass-cache/6849d340380e988836ad1b9d24cffc2f95657def
+copying djangocms_admin_style/.sass-cache/6849d340380e988836ad1b9d24cffc2f95657def/_links.scssc -> build/lib/djangocms_admin_style/.sass-cache/6849d340380e988836ad1b9d24cffc2f95657def
+copying djangocms_admin_style/.sass-cache/6849d340380e988836ad1b9d24cffc2f95657def/_lists.scssc -> build/lib/djangocms_admin_style/.sass-cache/6849d340380e988836ad1b9d24cffc2f95657def
+copying djangocms_admin_style/.sass-cache/6849d340380e988836ad1b9d24cffc2f95657def/_text.scssc -> build/lib/djangocms_admin_style/.sass-cache/6849d340380e988836ad1b9d24cffc2f95657def
+copying djangocms_admin_style/.sass-cache/6849d340380e988836ad1b9d24cffc2f95657def/_units.scssc -> build/lib/djangocms_admin_style/.sass-cache/6849d340380e988836ad1b9d24cffc2f95657def
+copying djangocms_admin_style/.sass-cache/6849d340380e988836ad1b9d24cffc2f95657def/_vertical_rhythm.scssc -> build/lib/djangocms_admin_style/.sass-cache/6849d340380e988836ad1b9d24cffc2f95657def
+creating build/lib/djangocms_admin_style/.sass-cache/6cfae4cd5e67ddf3ae98efc6e8b1ec223d544531
+copying djangocms_admin_style/.sass-cache/6cfae4cd5e67ddf3ae98efc6e8b1ec223d544531/_hover-link.scssc -> build/lib/djangocms_admin_style/.sass-cache/6cfae4cd5e67ddf3ae98efc6e8b1ec223d544531
+copying djangocms_admin_style/.sass-cache/6cfae4cd5e67ddf3ae98efc6e8b1ec223d544531/_link-colors.scssc -> build/lib/djangocms_admin_style/.sass-cache/6cfae4cd5e67ddf3ae98efc6e8b1ec223d544531
+copying djangocms_admin_style/.sass-cache/6cfae4cd5e67ddf3ae98efc6e8b1ec223d544531/_unstyled-link.scssc -> build/lib/djangocms_admin_style/.sass-cache/6cfae4cd5e67ddf3ae98efc6e8b1ec223d544531
+creating build/lib/djangocms_admin_style/.sass-cache/70baf33d12cacbb911d6818b9b0de139362ba65d
+copying djangocms_admin_style/.sass-cache/70baf33d12cacbb911d6818b9b0de139362ba65d/_fonts.scssc -> build/lib/djangocms_admin_style/.sass-cache/70baf33d12cacbb911d6818b9b0de139362ba65d
+copying djangocms_admin_style/.sass-cache/70baf33d12cacbb911d6818b9b0de139362ba65d/_helpers.scssc -> build/lib/djangocms_admin_style/.sass-cache/70baf33d12cacbb911d6818b9b0de139362ba65d
+copying djangocms_admin_style/.sass-cache/70baf33d12cacbb911d6818b9b0de139362ba65d/_media.scssc -> build/lib/djangocms_admin_style/.sass-cache/70baf33d12cacbb911d6818b9b0de139362ba65d
+copying djangocms_admin_style/.sass-cache/70baf33d12cacbb911d6818b9b0de139362ba65d/_reset.scssc -> build/lib/djangocms_admin_style/.sass-cache/70baf33d12cacbb911d6818b9b0de139362ba65d
+copying djangocms_admin_style/.sass-cache/70baf33d12cacbb911d6818b9b0de139362ba65d/_styles.scssc -> build/lib/djangocms_admin_style/.sass-cache/70baf33d12cacbb911d6818b9b0de139362ba65d
+creating build/lib/djangocms_admin_style/.sass-cache/79c86be1e68e49dfc3ea80e09afea1dea78b33fc
+copying djangocms_admin_style/.sass-cache/79c86be1e68e49dfc3ea80e09afea1dea78b33fc/_settings.scssc -> build/lib/djangocms_admin_style/.sass-cache/79c86be1e68e49dfc3ea80e09afea1dea78b33fc
+copying djangocms_admin_style/.sass-cache/79c86be1e68e49dfc3ea80e09afea1dea78b33fc/djangocms-admin-frontend.scssc -> build/lib/djangocms_admin_style/.sass-cache/79c86be1e68e49dfc3ea80e09afea1dea78b33fc
+copying djangocms_admin_style/.sass-cache/79c86be1e68e49dfc3ea80e09afea1dea78b33fc/djangocms-admin.scssc -> build/lib/djangocms_admin_style/.sass-cache/79c86be1e68e49dfc3ea80e09afea1dea78b33fc
+copying djangocms_admin_style/.sass-cache/79c86be1e68e49dfc3ea80e09afea1dea78b33fc/ie.scssc -> build/lib/djangocms_admin_style/.sass-cache/79c86be1e68e49dfc3ea80e09afea1dea78b33fc
+creating build/lib/djangocms_admin_style/.sass-cache/8de4f51c175827d71fc76b49d3c2eb7ad75e3655
+copying djangocms_admin_style/.sass-cache/8de4f51c175827d71fc76b49d3c2eb7ad75e3655/_alternating-rows-and-columns.scssc -> build/lib/djangocms_admin_style/.sass-cache/8de4f51c175827d71fc76b49d3c2eb7ad75e3655
+copying djangocms_admin_style/.sass-cache/8de4f51c175827d71fc76b49d3c2eb7ad75e3655/_borders.scssc -> build/lib/djangocms_admin_style/.sass-cache/8de4f51c175827d71fc76b49d3c2eb7ad75e3655
+copying djangocms_admin_style/.sass-cache/8de4f51c175827d71fc76b49d3c2eb7ad75e3655/_scaffolding.scssc -> build/lib/djangocms_admin_style/.sass-cache/8de4f51c175827d71fc76b49d3c2eb7ad75e3655
+creating build/lib/djangocms_admin_style/.sass-cache/a7a317041d696c7c9090f5fe3be57af6904ace61
+copying djangocms_admin_style/.sass-cache/a7a317041d696c7c9090f5fe3be57af6904ace61/_brightness.scssc -> build/lib/djangocms_admin_style/.sass-cache/a7a317041d696c7c9090f5fe3be57af6904ace61
+copying djangocms_admin_style/.sass-cache/a7a317041d696c7c9090f5fe3be57af6904ace61/_contrast.scssc -> build/lib/djangocms_admin_style/.sass-cache/a7a317041d696c7c9090f5fe3be57af6904ace61
+creating build/lib/djangocms_admin_style/.sass-cache/af514037b6a1781f346984764ad9dcaf22f58363
+copying djangocms_admin_style/.sass-cache/af514037b6a1781f346984764ad9dcaf22f58363/_utilities.scssc -> build/lib/djangocms_admin_style/.sass-cache/af514037b6a1781f346984764ad9dcaf22f58363
+creating build/lib/djangocms_admin_style/.sass-cache/b6ca8540b9ce6ac9c94fe3500eae0f04f9793507
+copying djangocms_admin_style/.sass-cache/b6ca8540b9ce6ac9c94fe3500eae0f04f9793507/_grid-background.scssc -> build/lib/djangocms_admin_style/.sass-cache/b6ca8540b9ce6ac9c94fe3500eae0f04f9793507
+creating build/lib/djangocms_admin_style/.sass-cache/b6eadb7eab40742d4adddddba70be28e35aec3d6
+copying djangocms_admin_style/.sass-cache/b6eadb7eab40742d4adddddba70be28e35aec3d6/_css3.scssc -> build/lib/djangocms_admin_style/.sass-cache/b6eadb7eab40742d4adddddba70be28e35aec3d6
+copying djangocms_admin_style/.sass-cache/b6eadb7eab40742d4adddddba70be28e35aec3d6/_support.scssc -> build/lib/djangocms_admin_style/.sass-cache/b6eadb7eab40742d4adddddba70be28e35aec3d6
+copying djangocms_admin_style/.sass-cache/b6eadb7eab40742d4adddddba70be28e35aec3d6/_typography.scssc -> build/lib/djangocms_admin_style/.sass-cache/b6eadb7eab40742d4adddddba70be28e35aec3d6
+copying djangocms_admin_style/.sass-cache/b6eadb7eab40742d4adddddba70be28e35aec3d6/_utilities.scssc -> build/lib/djangocms_admin_style/.sass-cache/b6eadb7eab40742d4adddddba70be28e35aec3d6
+creating build/lib/djangocms_admin_style/.sass-cache/e4cdd1d27bc35fce2f4b18a7e3de466030feb3f4
+copying djangocms_admin_style/.sass-cache/e4cdd1d27bc35fce2f4b18a7e3de466030feb3f4/_color.scssc -> build/lib/djangocms_admin_style/.sass-cache/e4cdd1d27bc35fce2f4b18a7e3de466030feb3f4
+copying djangocms_admin_style/.sass-cache/e4cdd1d27bc35fce2f4b18a7e3de466030feb3f4/_general.scssc -> build/lib/djangocms_admin_style/.sass-cache/e4cdd1d27bc35fce2f4b18a7e3de466030feb3f4
+copying djangocms_admin_style/.sass-cache/e4cdd1d27bc35fce2f4b18a7e3de466030feb3f4/_sprites.scssc -> build/lib/djangocms_admin_style/.sass-cache/e4cdd1d27bc35fce2f4b18a7e3de466030feb3f4
+copying djangocms_admin_style/.sass-cache/e4cdd1d27bc35fce2f4b18a7e3de466030feb3f4/_tables.scssc -> build/lib/djangocms_admin_style/.sass-cache/e4cdd1d27bc35fce2f4b18a7e3de466030feb3f4
+creating build/lib/djangocms_admin_style/sass
+copying djangocms_admin_style/sass/_settings.scss -> build/lib/djangocms_admin_style/sass
+copying djangocms_admin_style/sass/djangocms-admin-frontend.scss -> build/lib/djangocms_admin_style/sass
+copying djangocms_admin_style/sass/djangocms-admin.scss -> build/lib/djangocms_admin_style/sass
+copying djangocms_admin_style/sass/ie.scss -> build/lib/djangocms_admin_style/sass
+creating build/lib/djangocms_admin_style/sass/libs
+copying djangocms_admin_style/sass/libs/_html5-boilerplate.scss -> build/lib/djangocms_admin_style/sass/libs
+copying djangocms_admin_style/sass/libs/_normalize.scss -> build/lib/djangocms_admin_style/sass/libs
+creating build/lib/djangocms_admin_style/sass/libs/html5-boilerplate
+copying djangocms_admin_style/sass/libs/html5-boilerplate/_fonts.scss -> build/lib/djangocms_admin_style/sass/libs/html5-boilerplate
+copying djangocms_admin_style/sass/libs/html5-boilerplate/_helpers.scss -> build/lib/djangocms_admin_style/sass/libs/html5-boilerplate
+copying djangocms_admin_style/sass/libs/html5-boilerplate/_media.scss -> build/lib/djangocms_admin_style/sass/libs/html5-boilerplate
+copying djangocms_admin_style/sass/libs/html5-boilerplate/_reset.scss -> build/lib/djangocms_admin_style/sass/libs/html5-boilerplate
+copying djangocms_admin_style/sass/libs/html5-boilerplate/_styles.scss -> build/lib/djangocms_admin_style/sass/libs/html5-boilerplate
+creating build/lib/djangocms_admin_style/sass/partials
+copying djangocms_admin_style/sass/partials/_base.scss -> build/lib/djangocms_admin_style/sass/partials
+copying djangocms_admin_style/sass/partials/_cmsplaceholders.scss -> build/lib/djangocms_admin_style/sass/partials
+copying djangocms_admin_style/sass/partials/_content.scss -> build/lib/djangocms_admin_style/sass/partials
+copying djangocms_admin_style/sass/partials/_filer.scss -> build/lib/djangocms_admin_style/sass/partials
+copying djangocms_admin_style/sass/partials/_forms.scss -> build/lib/djangocms_admin_style/sass/partials
+copying djangocms_admin_style/sass/partials/_icons.scss -> build/lib/djangocms_admin_style/sass/partials
+copying djangocms_admin_style/sass/partials/_iconsOLD.scss -> build/lib/djangocms_admin_style/sass/partials
+copying djangocms_admin_style/sass/partials/_messages.scss -> build/lib/djangocms_admin_style/sass/partials
+copying djangocms_admin_style/sass/partials/_mixins.scss -> build/lib/djangocms_admin_style/sass/partials
+copying djangocms_admin_style/sass/partials/_mobile.scss -> build/lib/djangocms_admin_style/sass/partials
+copying djangocms_admin_style/sass/partials/_shortcuts.scss -> build/lib/djangocms_admin_style/sass/partials
+copying djangocms_admin_style/sass/partials/_tables.scss -> build/lib/djangocms_admin_style/sass/partials
+creating build/lib/djangocms_admin_style/static
+creating build/lib/djangocms_admin_style/static/admin
+creating build/lib/djangocms_admin_style/static/admin/img
+copying djangocms_admin_style/static/admin/img/icon-yes.gif -> build/lib/djangocms_admin_style/static/admin/img
+copying djangocms_admin_style/static/admin/img/icon_addlink.gif -> build/lib/djangocms_admin_style/static/admin/img
+copying djangocms_admin_style/static/admin/img/icon_calendar.gif -> build/lib/djangocms_admin_style/static/admin/img
+copying djangocms_admin_style/static/admin/img/icon_changelink.gif -> build/lib/djangocms_admin_style/static/admin/img
+copying djangocms_admin_style/static/admin/img/icon_clock.gif -> build/lib/djangocms_admin_style/static/admin/img
+copying djangocms_admin_style/static/admin/img/icon_deletelink.gif -> build/lib/djangocms_admin_style/static/admin/img
+copying djangocms_admin_style/static/admin/img/icon_searchbox.png -> build/lib/djangocms_admin_style/static/admin/img
+copying djangocms_admin_style/static/admin/img/selector-icons.gif -> build/lib/djangocms_admin_style/static/admin/img
+copying djangocms_admin_style/static/admin/img/selector-search.gif -> build/lib/djangocms_admin_style/static/admin/img
+creating build/lib/djangocms_admin_style/static/cms
+copying djangocms_admin_style/static/cms/PIE.htc -> build/lib/djangocms_admin_style/static/cms
+creating build/lib/djangocms_admin_style/static/cms/images
+copying djangocms_admin_style/static/cms/images/sitemap-li-bg.jpg -> build/lib/djangocms_admin_style/static/cms/images
+creating build/lib/djangocms_admin_style/static/djangocms_admin_style
+creating build/lib/djangocms_admin_style/static/djangocms_admin_style/css
+copying djangocms_admin_style/static/djangocms_admin_style/css/djangocms-admin-frontend.css -> build/lib/djangocms_admin_style/static/djangocms_admin_style/css
+copying djangocms_admin_style/static/djangocms_admin_style/css/djangocms-admin.css -> build/lib/djangocms_admin_style/static/djangocms_admin_style/css
+copying djangocms_admin_style/static/djangocms_admin_style/css/ie.css -> build/lib/djangocms_admin_style/static/djangocms_admin_style/css
+copying djangocms_admin_style/static/djangocms_admin_style/css/pie.css -> build/lib/djangocms_admin_style/static/djangocms_admin_style/css
+creating build/lib/djangocms_admin_style/static/djangocms_admin_style/fonts
+copying djangocms_admin_style/static/djangocms_admin_style/fonts/django-admin-icons.eot -> build/lib/djangocms_admin_style/static/djangocms_admin_style/fonts
+copying djangocms_admin_style/static/djangocms_admin_style/fonts/django-admin-icons.svg -> build/lib/djangocms_admin_style/static/djangocms_admin_style/fonts
+copying djangocms_admin_style/static/djangocms_admin_style/fonts/django-admin-icons.ttf -> build/lib/djangocms_admin_style/static/djangocms_admin_style/fonts
+copying djangocms_admin_style/static/djangocms_admin_style/fonts/django-admin-icons.woff -> build/lib/djangocms_admin_style/static/djangocms_admin_style/fonts
+creating build/lib/djangocms_admin_style/static/djangocms_admin_style/img
+copying djangocms_admin_style/static/djangocms_admin_style/img/bg-pattern-light.jpg -> build/lib/djangocms_admin_style/static/djangocms_admin_style/img
+copying djangocms_admin_style/static/djangocms_admin_style/img/bg-pattern.jpg -> build/lib/djangocms_admin_style/static/djangocms_admin_style/img
+copying djangocms_admin_style/static/djangocms_admin_style/img/icon_addlink@2x.gif -> build/lib/djangocms_admin_style/static/djangocms_admin_style/img
+copying djangocms_admin_style/static/djangocms_admin_style/img/icon_addlink_large.gif -> build/lib/djangocms_admin_style/static/djangocms_admin_style/img
+copying djangocms_admin_style/static/djangocms_admin_style/img/icon_addlink_large@2x.gif -> build/lib/djangocms_admin_style/static/djangocms_admin_style/img
+copying djangocms_admin_style/static/djangocms_admin_style/img/icon_calendar@2x.gif -> build/lib/djangocms_admin_style/static/djangocms_admin_style/img
+copying djangocms_admin_style/static/djangocms_admin_style/img/icon_changelink@2x.gif -> build/lib/djangocms_admin_style/static/djangocms_admin_style/img
+copying djangocms_admin_style/static/djangocms_admin_style/img/icon_changelink_white.png -> build/lib/djangocms_admin_style/static/djangocms_admin_style/img
+copying djangocms_admin_style/static/djangocms_admin_style/img/icon_changelink_white@2x.png -> build/lib/djangocms_admin_style/static/djangocms_admin_style/img
+copying djangocms_admin_style/static/djangocms_admin_style/img/icon_clock@2x.gif -> build/lib/djangocms_admin_style/static/djangocms_admin_style/img
+copying djangocms_admin_style/static/djangocms_admin_style/img/icon_deletelink.png -> build/lib/djangocms_admin_style/static/djangocms_admin_style/img
+copying djangocms_admin_style/static/djangocms_admin_style/img/icon_deletelink@2x.png -> build/lib/djangocms_admin_style/static/djangocms_admin_style/img
+copying djangocms_admin_style/static/djangocms_admin_style/img/icon_searchbox@2x.png -> build/lib/djangocms_admin_style/static/djangocms_admin_style/img
+copying djangocms_admin_style/static/djangocms_admin_style/img/icon_softroot.png -> build/lib/djangocms_admin_style/static/djangocms_admin_style/img
+copying djangocms_admin_style/static/djangocms_admin_style/img/icon_softroot@2x.png -> build/lib/djangocms_admin_style/static/djangocms_admin_style/img
+copying djangocms_admin_style/static/djangocms_admin_style/img/pluginlist-holder-bg.png -> build/lib/djangocms_admin_style/static/djangocms_admin_style/img
+creating build/lib/djangocms_admin_style/templates
+creating build/lib/djangocms_admin_style/templates/admin
+copying djangocms_admin_style/templates/admin/base_site.html -> build/lib/djangocms_admin_style/templates/admin
+copying djangocms_admin_style/templates/admin/delete_confirmation.html -> build/lib/djangocms_admin_style/templates/admin
+copying djangocms_admin_style/templates/admin/delete_selected_confirmation.html -> build/lib/djangocms_admin_style/templates/admin
+creating build/lib/djangocms_admin_style/templates/admin/inc
+copying djangocms_admin_style/templates/admin/inc/branding.html -> build/lib/djangocms_admin_style/templates/admin/inc
+copying djangocms_admin_style/templates/admin/inc/extrahead.html -> build/lib/djangocms_admin_style/templates/admin/inc
+copying djangocms_admin_style/templates/admin/inc/extrastyle.html -> build/lib/djangocms_admin_style/templates/admin/inc
+copying djangocms_admin_style/templates/admin/inc/title.html -> build/lib/djangocms_admin_style/templates/admin/inc
+copying djangocms_admin_style/templates/admin/inc/userlinks.html -> build/lib/djangocms_admin_style/templates/admin/inc
+creating build/bdist.linux-x86_64
+creating build/bdist.linux-x86_64/egg
+creating build/bdist.linux-x86_64/egg/djangocms_admin_style
+creating build/bdist.linux-x86_64/egg/djangocms_admin_style/.sass-cache
+creating build/bdist.linux-x86_64/egg/djangocms_admin_style/.sass-cache/70baf33d12cacbb911d6818b9b0de139362ba65d
+copying build/lib/djangocms_admin_style/.sass-cache/70baf33d12cacbb911d6818b9b0de139362ba65d/_styles.scssc -> build/bdist.linux-x86_64/egg/djangocms_admin_style/.sass-cache/70baf33d12cacbb911d6818b9b0de139362ba65d
+copying build/lib/djangocms_admin_style/.sass-cache/70baf33d12cacbb911d6818b9b0de139362ba65d/_fonts.scssc -> build/bdist.linux-x86_64/egg/djangocms_admin_style/.sass-cache/70baf33d12cacbb911d6818b9b0de139362ba65d
+copying build/lib/djangocms_admin_style/.sass-cache/70baf33d12cacbb911d6818b9b0de139362ba65d/_helpers.scssc -> build/bdist.linux-x86_64/egg/djangocms_admin_style/.sass-cache/70baf33d12cacbb911d6818b9b0de139362ba65d
+copying build/lib/djangocms_admin_style/.sass-cache/70baf33d12cacbb911d6818b9b0de139362ba65d/_media.scssc -> build/bdist.linux-x86_64/egg/djangocms_admin_style/.sass-cache/70baf33d12cacbb911d6818b9b0de139362ba65d
+copying build/lib/djangocms_admin_style/.sass-cache/70baf33d12cacbb911d6818b9b0de139362ba65d/_reset.scssc -> build/bdist.linux-x86_64/egg/djangocms_admin_style/.sass-cache/70baf33d12cacbb911d6818b9b0de139362ba65d
+creating build/bdist.linux-x86_64/egg/djangocms_admin_style/.sass-cache/24d2c4bd70b28dcb5be72d3a7ad0afb7f0d5e55a
+copying build/lib/djangocms_admin_style/.sass-cache/24d2c4bd70b28dcb5be72d3a7ad0afb7f0d5e55a/_nowrap.scssc -> build/bdist.linux-x86_64/egg/djangocms_admin_style/.sass-cache/24d2c4bd70b28dcb5be72d3a7ad0afb7f0d5e55a
+copying build/lib/djangocms_admin_style/.sass-cache/24d2c4bd70b28dcb5be72d3a7ad0afb7f0d5e55a/_replacement.scssc -> build/bdist.linux-x86_64/egg/djangocms_admin_style/.sass-cache/24d2c4bd70b28dcb5be72d3a7ad0afb7f0d5e55a
+copying build/lib/djangocms_admin_style/.sass-cache/24d2c4bd70b28dcb5be72d3a7ad0afb7f0d5e55a/_force-wrap.scssc -> build/bdist.linux-x86_64/egg/djangocms_admin_style/.sass-cache/24d2c4bd70b28dcb5be72d3a7ad0afb7f0d5e55a
+copying build/lib/djangocms_admin_style/.sass-cache/24d2c4bd70b28dcb5be72d3a7ad0afb7f0d5e55a/_ellipsis.scssc -> build/bdist.linux-x86_64/egg/djangocms_admin_style/.sass-cache/24d2c4bd70b28dcb5be72d3a7ad0afb7f0d5e55a
+creating build/bdist.linux-x86_64/egg/djangocms_admin_style/.sass-cache/6cfae4cd5e67ddf3ae98efc6e8b1ec223d544531
+copying build/lib/djangocms_admin_style/.sass-cache/6cfae4cd5e67ddf3ae98efc6e8b1ec223d544531/_hover-link.scssc -> build/bdist.linux-x86_64/egg/djangocms_admin_style/.sass-cache/6cfae4cd5e67ddf3ae98efc6e8b1ec223d544531
+copying build/lib/djangocms_admin_style/.sass-cache/6cfae4cd5e67ddf3ae98efc6e8b1ec223d544531/_link-colors.scssc -> build/bdist.linux-x86_64/egg/djangocms_admin_style/.sass-cache/6cfae4cd5e67ddf3ae98efc6e8b1ec223d544531
+copying build/lib/djangocms_admin_style/.sass-cache/6cfae4cd5e67ddf3ae98efc6e8b1ec223d544531/_unstyled-link.scssc -> build/bdist.linux-x86_64/egg/djangocms_admin_style/.sass-cache/6cfae4cd5e67ddf3ae98efc6e8b1ec223d544531
+creating build/bdist.linux-x86_64/egg/djangocms_admin_style/.sass-cache/b6ca8540b9ce6ac9c94fe3500eae0f04f9793507
+copying build/lib/djangocms_admin_style/.sass-cache/b6ca8540b9ce6ac9c94fe3500eae0f04f9793507/_grid-background.scssc -> build/bdist.linux-x86_64/egg/djangocms_admin_style/.sass-cache/b6ca8540b9ce6ac9c94fe3500eae0f04f9793507
+creating build/bdist.linux-x86_64/egg/djangocms_admin_style/.sass-cache/267721e1002814f2250e856fcd4d0769d0e0cfe6
+copying build/lib/djangocms_admin_style/.sass-cache/267721e1002814f2250e856fcd4d0769d0e0cfe6/_base.scssc -> build/bdist.linux-x86_64/egg/djangocms_admin_style/.sass-cache/267721e1002814f2250e856fcd4d0769d0e0cfe6
+copying build/lib/djangocms_admin_style/.sass-cache/267721e1002814f2250e856fcd4d0769d0e0cfe6/_filer.scssc -> build/bdist.linux-x86_64/egg/djangocms_admin_style/.sass-cache/267721e1002814f2250e856fcd4d0769d0e0cfe6
+copying build/lib/djangocms_admin_style/.sass-cache/267721e1002814f2250e856fcd4d0769d0e0cfe6/_shortcuts.scssc -> build/bdist.linux-x86_64/egg/djangocms_admin_style/.sass-cache/267721e1002814f2250e856fcd4d0769d0e0cfe6
+copying build/lib/djangocms_admin_style/.sass-cache/267721e1002814f2250e856fcd4d0769d0e0cfe6/_tables.scssc -> build/bdist.linux-x86_64/egg/djangocms_admin_style/.sass-cache/267721e1002814f2250e856fcd4d0769d0e0cfe6
+copying build/lib/djangocms_admin_style/.sass-cache/267721e1002814f2250e856fcd4d0769d0e0cfe6/_forms.scssc -> build/bdist.linux-x86_64/egg/djangocms_admin_style/.sass-cache/267721e1002814f2250e856fcd4d0769d0e0cfe6
+copying build/lib/djangocms_admin_style/.sass-cache/267721e1002814f2250e856fcd4d0769d0e0cfe6/_icons.scssc -> build/bdist.linux-x86_64/egg/djangocms_admin_style/.sass-cache/267721e1002814f2250e856fcd4d0769d0e0cfe6
+copying build/lib/djangocms_admin_style/.sass-cache/267721e1002814f2250e856fcd4d0769d0e0cfe6/_mixins.scssc -> build/bdist.linux-x86_64/egg/djangocms_admin_style/.sass-cache/267721e1002814f2250e856fcd4d0769d0e0cfe6
+copying build/lib/djangocms_admin_style/.sass-cache/267721e1002814f2250e856fcd4d0769d0e0cfe6/_mobile.scssc -> build/bdist.linux-x86_64/egg/djangocms_admin_style/.sass-cache/267721e1002814f2250e856fcd4d0769d0e0cfe6
+copying build/lib/djangocms_admin_style/.sass-cache/267721e1002814f2250e856fcd4d0769d0e0cfe6/_cmsplaceholders.scssc -> build/bdist.linux-x86_64/egg/djangocms_admin_style/.sass-cache/267721e1002814f2250e856fcd4d0769d0e0cfe6
+copying build/lib/djangocms_admin_style/.sass-cache/267721e1002814f2250e856fcd4d0769d0e0cfe6/_content.scssc -> build/bdist.linux-x86_64/egg/djangocms_admin_style/.sass-cache/267721e1002814f2250e856fcd4d0769d0e0cfe6
+creating build/bdist.linux-x86_64/egg/djangocms_admin_style/.sass-cache/5dcdfe68c2fa7a765312a1560a471a5764d8bbd9
+copying build/lib/djangocms_admin_style/.sass-cache/5dcdfe68c2fa7a765312a1560a471a5764d8bbd9/_tag-cloud.scssc -> build/bdist.linux-x86_64/egg/djangocms_admin_style/.sass-cache/5dcdfe68c2fa7a765312a1560a471a5764d8bbd9
+copying build/lib/djangocms_admin_style/.sass-cache/5dcdfe68c2fa7a765312a1560a471a5764d8bbd9/_min.scssc -> build/bdist.linux-x86_64/egg/djangocms_admin_style/.sass-cache/5dcdfe68c2fa7a765312a1560a471a5764d8bbd9
+copying build/lib/djangocms_admin_style/.sass-cache/5dcdfe68c2fa7a765312a1560a471a5764d8bbd9/_float.scssc -> build/bdist.linux-x86_64/egg/djangocms_admin_style/.sass-cache/5dcdfe68c2fa7a765312a1560a471a5764d8bbd9
+copying build/lib/djangocms_admin_style/.sass-cache/5dcdfe68c2fa7a765312a1560a471a5764d8bbd9/_clearfix.scssc -> build/bdist.linux-x86_64/egg/djangocms_admin_style/.sass-cache/5dcdfe68c2fa7a765312a1560a471a5764d8bbd9
+copying build/lib/djangocms_admin_style/.sass-cache/5dcdfe68c2fa7a765312a1560a471a5764d8bbd9/_hacks.scssc -> build/bdist.linux-x86_64/egg/djangocms_admin_style/.sass-cache/5dcdfe68c2fa7a765312a1560a471a5764d8bbd9
+copying build/lib/djangocms_admin_style/.sass-cache/5dcdfe68c2fa7a765312a1560a471a5764d8bbd9/_reset.scssc -> build/bdist.linux-x86_64/egg/djangocms_admin_style/.sass-cache/5dcdfe68c2fa7a765312a1560a471a5764d8bbd9
+creating build/bdist.linux-x86_64/egg/djangocms_admin_style/.sass-cache/af514037b6a1781f346984764ad9dcaf22f58363
+copying build/lib/djangocms_admin_style/.sass-cache/af514037b6a1781f346984764ad9dcaf22f58363/_utilities.scssc -> build/bdist.linux-x86_64/egg/djangocms_admin_style/.sass-cache/af514037b6a1781f346984764ad9dcaf22f58363
+creating build/bdist.linux-x86_64/egg/djangocms_admin_style/.sass-cache/b6eadb7eab40742d4adddddba70be28e35aec3d6
+copying build/lib/djangocms_admin_style/.sass-cache/b6eadb7eab40742d4adddddba70be28e35aec3d6/_support.scssc -> build/bdist.linux-x86_64/egg/djangocms_admin_style/.sass-cache/b6eadb7eab40742d4adddddba70be28e35aec3d6
+copying build/lib/djangocms_admin_style/.sass-cache/b6eadb7eab40742d4adddddba70be28e35aec3d6/_css3.scssc -> build/bdist.linux-x86_64/egg/djangocms_admin_style/.sass-cache/b6eadb7eab40742d4adddddba70be28e35aec3d6
+copying build/lib/djangocms_admin_style/.sass-cache/b6eadb7eab40742d4adddddba70be28e35aec3d6/_utilities.scssc -> build/bdist.linux-x86_64/egg/djangocms_admin_style/.sass-cache/b6eadb7eab40742d4adddddba70be28e35aec3d6
+copying build/lib/djangocms_admin_style/.sass-cache/b6eadb7eab40742d4adddddba70be28e35aec3d6/_typography.scssc -> build/bdist.linux-x86_64/egg/djangocms_admin_style/.sass-cache/b6eadb7eab40742d4adddddba70be28e35aec3d6
+creating build/bdist.linux-x86_64/egg/djangocms_admin_style/.sass-cache/a7a317041d696c7c9090f5fe3be57af6904ace61
+copying build/lib/djangocms_admin_style/.sass-cache/a7a317041d696c7c9090f5fe3be57af6904ace61/_contrast.scssc -> build/bdist.linux-x86_64/egg/djangocms_admin_style/.sass-cache/a7a317041d696c7c9090f5fe3be57af6904ace61
+copying build/lib/djangocms_admin_style/.sass-cache/a7a317041d696c7c9090f5fe3be57af6904ace61/_brightness.scssc -> build/bdist.linux-x86_64/egg/djangocms_admin_style/.sass-cache/a7a317041d696c7c9090f5fe3be57af6904ace61
+creating build/bdist.linux-x86_64/egg/djangocms_admin_style/.sass-cache/8de4f51c175827d71fc76b49d3c2eb7ad75e3655
+copying build/lib/djangocms_admin_style/.sass-cache/8de4f51c175827d71fc76b49d3c2eb7ad75e3655/_scaffolding.scssc -> build/bdist.linux-x86_64/egg/djangocms_admin_style/.sass-cache/8de4f51c175827d71fc76b49d3c2eb7ad75e3655
+copying build/lib/djangocms_admin_style/.sass-cache/8de4f51c175827d71fc76b49d3c2eb7ad75e3655/_borders.scssc -> build/bdist.linux-x86_64/egg/djangocms_admin_style/.sass-cache/8de4f51c175827d71fc76b49d3c2eb7ad75e3655
+copying build/lib/djangocms_admin_style/.sass-cache/8de4f51c175827d71fc76b49d3c2eb7ad75e3655/_alternating-rows-and-columns.scssc -> build/bdist.linux-x86_64/egg/djangocms_admin_style/.sass-cache/8de4f51c175827d71fc76b49d3c2eb7ad75e3655
+creating build/bdist.linux-x86_64/egg/djangocms_admin_style/.sass-cache/017cbcc713cead5d350c571438f58e00f865d888
+copying build/lib/djangocms_admin_style/.sass-cache/017cbcc713cead5d350c571438f58e00f865d888/_horizontal-list.scssc -> build/bdist.linux-x86_64/egg/djangocms_admin_style/.sass-cache/017cbcc713cead5d350c571438f58e00f865d888
+copying build/lib/djangocms_admin_style/.sass-cache/017cbcc713cead5d350c571438f58e00f865d888/_inline-block-list.scssc -> build/bdist.linux-x86_64/egg/djangocms_admin_style/.sass-cache/017cbcc713cead5d350c571438f58e00f865d888
+copying build/lib/djangocms_admin_style/.sass-cache/017cbcc713cead5d350c571438f58e00f865d888/_bullets.scssc -> build/bdist.linux-x86_64/egg/djangocms_admin_style/.sass-cache/017cbcc713cead5d350c571438f58e00f865d888
+copying build/lib/djangocms_admin_style/.sass-cache/017cbcc713cead5d350c571438f58e00f865d888/_inline-list.scssc -> build/bdist.linux-x86_64/egg/djangocms_admin_style/.sass-cache/017cbcc713cead5d350c571438f58e00f865d888
+creating build/bdist.linux-x86_64/egg/djangocms_admin_style/.sass-cache/5cc24f34735dddd899afca93bb2919b5dda53f4b
+copying build/lib/djangocms_admin_style/.sass-cache/5cc24f34735dddd899afca93bb2919b5dda53f4b/_columns.scssc -> build/bdist.linux-x86_64/egg/djangocms_admin_style/.sass-cache/5cc24f34735dddd899afca93bb2919b5dda53f4b
+copying build/lib/djangocms_admin_style/.sass-cache/5cc24f34735dddd899afca93bb2919b5dda53f4b/_transform.scssc -> build/bdist.linux-x86_64/egg/djangocms_admin_style/.sass-cache/5cc24f34735dddd899afca93bb2919b5dda53f4b
+copying build/lib/djangocms_admin_style/.sass-cache/5cc24f34735dddd899afca93bb2919b5dda53f4b/_appearance.scssc -> build/bdist.linux-x86_64/egg/djangocms_admin_style/.sass-cache/5cc24f34735dddd899afca93bb2919b5dda53f4b
+copying build/lib/djangocms_admin_style/.sass-cache/5cc24f34735dddd899afca93bb2919b5dda53f4b/_background-origin.scssc -> build/bdist.linux-x86_64/egg/djangocms_admin_style/.sass-cache/5cc24f34735dddd899afca93bb2919b5dda53f4b
+copying build/lib/djangocms_admin_style/.sass-cache/5cc24f34735dddd899afca93bb2919b5dda53f4b/_box-shadow.scssc -> build/bdist.linux-x86_64/egg/djangocms_admin_style/.sass-cache/5cc24f34735dddd899afca93bb2919b5dda53f4b
+copying build/lib/djangocms_admin_style/.sass-cache/5cc24f34735dddd899afca93bb2919b5dda53f4b/_regions.scssc -> build/bdist.linux-x86_64/egg/djangocms_admin_style/.sass-cache/5cc24f34735dddd899afca93bb2919b5dda53f4b
+copying build/lib/djangocms_admin_style/.sass-cache/5cc24f34735dddd899afca93bb2919b5dda53f4b/_images.scssc -> build/bdist.linux-x86_64/egg/djangocms_admin_style/.sass-cache/5cc24f34735dddd899afca93bb2919b5dda53f4b
+copying build/lib/djangocms_admin_style/.sass-cache/5cc24f34735dddd899afca93bb2919b5dda53f4b/_font-face.scssc -> build/bdist.linux-x86_64/egg/djangocms_admin_style/.sass-cache/5cc24f34735dddd899afca93bb2919b5dda53f4b
+copying build/lib/djangocms_admin_style/.sass-cache/5cc24f34735dddd899afca93bb2919b5dda53f4b/_transition.scssc -> build/bdist.linux-x86_64/egg/djangocms_admin_style/.sass-cache/5cc24f34735dddd899afca93bb2919b5dda53f4b
+copying build/lib/djangocms_admin_style/.sass-cache/5cc24f34735dddd899afca93bb2919b5dda53f4b/_user-interface.scssc -> build/bdist.linux-x86_64/egg/djangocms_admin_style/.sass-cache/5cc24f34735dddd899afca93bb2919b5dda53f4b
+copying build/lib/djangocms_admin_style/.sass-cache/5cc24f34735dddd899afca93bb2919b5dda53f4b/_filter.scssc -> build/bdist.linux-x86_64/egg/djangocms_admin_style/.sass-cache/5cc24f34735dddd899afca93bb2919b5dda53f4b
+copying build/lib/djangocms_admin_style/.sass-cache/5cc24f34735dddd899afca93bb2919b5dda53f4b/_hyphenation.scssc -> build/bdist.linux-x86_64/egg/djangocms_admin_style/.sass-cache/5cc24f34735dddd899afca93bb2919b5dda53f4b
+copying build/lib/djangocms_admin_style/.sass-cache/5cc24f34735dddd899afca93bb2919b5dda53f4b/_border-radius.scssc -> build/bdist.linux-x86_64/egg/djangocms_admin_style/.sass-cache/5cc24f34735dddd899afca93bb2919b5dda53f4b
+copying build/lib/djangocms_admin_style/.sass-cache/5cc24f34735dddd899afca93bb2919b5dda53f4b/_inline-block.scssc -> build/bdist.linux-x86_64/egg/djangocms_admin_style/.sass-cache/5cc24f34735dddd899afca93bb2919b5dda53f4b
+copying build/lib/djangocms_admin_style/.sass-cache/5cc24f34735dddd899afca93bb2919b5dda53f4b/_opacity.scssc -> build/bdist.linux-x86_64/egg/djangocms_admin_style/.sass-cache/5cc24f34735dddd899afca93bb2919b5dda53f4b
+copying build/lib/djangocms_admin_style/.sass-cache/5cc24f34735dddd899afca93bb2919b5dda53f4b/_text-shadow.scssc -> build/bdist.linux-x86_64/egg/djangocms_admin_style/.sass-cache/5cc24f34735dddd899afca93bb2919b5dda53f4b
+copying build/lib/djangocms_admin_style/.sass-cache/5cc24f34735dddd899afca93bb2919b5dda53f4b/_animation.scssc -> build/bdist.linux-x86_64/egg/djangocms_admin_style/.sass-cache/5cc24f34735dddd899afca93bb2919b5dda53f4b
+copying build/lib/djangocms_admin_style/.sass-cache/5cc24f34735dddd899afca93bb2919b5dda53f4b/_background-size.scssc -> build/bdist.linux-x86_64/egg/djangocms_admin_style/.sass-cache/5cc24f34735dddd899afca93bb2919b5dda53f4b
+copying build/lib/djangocms_admin_style/.sass-cache/5cc24f34735dddd899afca93bb2919b5dda53f4b/_flexbox.scssc -> build/bdist.linux-x86_64/egg/djangocms_admin_style/.sass-cache/5cc24f34735dddd899afca93bb2919b5dda53f4b
+copying build/lib/djangocms_admin_style/.sass-cache/5cc24f34735dddd899afca93bb2919b5dda53f4b/_deprecated-support.scssc -> build/bdist.linux-x86_64/egg/djangocms_admin_style/.sass-cache/5cc24f34735dddd899afca93bb2919b5dda53f4b
+copying build/lib/djangocms_admin_style/.sass-cache/5cc24f34735dddd899afca93bb2919b5dda53f4b/_box-sizing.scssc -> build/bdist.linux-x86_64/egg/djangocms_admin_style/.sass-cache/5cc24f34735dddd899afca93bb2919b5dda53f4b
+copying build/lib/djangocms_admin_style/.sass-cache/5cc24f34735dddd899afca93bb2919b5dda53f4b/_background-clip.scssc -> build/bdist.linux-x86_64/egg/djangocms_admin_style/.sass-cache/5cc24f34735dddd899afca93bb2919b5dda53f4b
+creating build/bdist.linux-x86_64/egg/djangocms_admin_style/.sass-cache/2220bd264f24402adfb21ff3738cba26fb93a656
+copying build/lib/djangocms_admin_style/.sass-cache/2220bd264f24402adfb21ff3738cba26fb93a656/_html5-boilerplate.scssc -> build/bdist.linux-x86_64/egg/djangocms_admin_style/.sass-cache/2220bd264f24402adfb21ff3738cba26fb93a656
+creating build/bdist.linux-x86_64/egg/djangocms_admin_style/.sass-cache/79c86be1e68e49dfc3ea80e09afea1dea78b33fc
+copying build/lib/djangocms_admin_style/.sass-cache/79c86be1e68e49dfc3ea80e09afea1dea78b33fc/_settings.scssc -> build/bdist.linux-x86_64/egg/djangocms_admin_style/.sass-cache/79c86be1e68e49dfc3ea80e09afea1dea78b33fc
+copying build/lib/djangocms_admin_style/.sass-cache/79c86be1e68e49dfc3ea80e09afea1dea78b33fc/ie.scssc -> build/bdist.linux-x86_64/egg/djangocms_admin_style/.sass-cache/79c86be1e68e49dfc3ea80e09afea1dea78b33fc
+copying build/lib/djangocms_admin_style/.sass-cache/79c86be1e68e49dfc3ea80e09afea1dea78b33fc/djangocms-admin.scssc -> build/bdist.linux-x86_64/egg/djangocms_admin_style/.sass-cache/79c86be1e68e49dfc3ea80e09afea1dea78b33fc
+copying build/lib/djangocms_admin_style/.sass-cache/79c86be1e68e49dfc3ea80e09afea1dea78b33fc/djangocms-admin-frontend.scssc -> build/bdist.linux-x86_64/egg/djangocms_admin_style/.sass-cache/79c86be1e68e49dfc3ea80e09afea1dea78b33fc
+creating build/bdist.linux-x86_64/egg/djangocms_admin_style/.sass-cache/6849d340380e988836ad1b9d24cffc2f95657def
+copying build/lib/djangocms_admin_style/.sass-cache/6849d340380e988836ad1b9d24cffc2f95657def/_text.scssc -> build/bdist.linux-x86_64/egg/djangocms_admin_style/.sass-cache/6849d340380e988836ad1b9d24cffc2f95657def
+copying build/lib/djangocms_admin_style/.sass-cache/6849d340380e988836ad1b9d24cffc2f95657def/_lists.scssc -> build/bdist.linux-x86_64/egg/djangocms_admin_style/.sass-cache/6849d340380e988836ad1b9d24cffc2f95657def
+copying build/lib/djangocms_admin_style/.sass-cache/6849d340380e988836ad1b9d24cffc2f95657def/_units.scssc -> build/bdist.linux-x86_64/egg/djangocms_admin_style/.sass-cache/6849d340380e988836ad1b9d24cffc2f95657def
+copying build/lib/djangocms_admin_style/.sass-cache/6849d340380e988836ad1b9d24cffc2f95657def/_links.scssc -> build/bdist.linux-x86_64/egg/djangocms_admin_style/.sass-cache/6849d340380e988836ad1b9d24cffc2f95657def
+copying build/lib/djangocms_admin_style/.sass-cache/6849d340380e988836ad1b9d24cffc2f95657def/_vertical_rhythm.scssc -> build/bdist.linux-x86_64/egg/djangocms_admin_style/.sass-cache/6849d340380e988836ad1b9d24cffc2f95657def
+creating build/bdist.linux-x86_64/egg/djangocms_admin_style/.sass-cache/62028c6b871e0cc393b389db111b4040a81b0544
+copying build/lib/djangocms_admin_style/.sass-cache/62028c6b871e0cc393b389db111b4040a81b0544/_sprite-img.scssc -> build/bdist.linux-x86_64/egg/djangocms_admin_style/.sass-cache/62028c6b871e0cc393b389db111b4040a81b0544
+copying build/lib/djangocms_admin_style/.sass-cache/62028c6b871e0cc393b389db111b4040a81b0544/_base.scssc -> build/bdist.linux-x86_64/egg/djangocms_admin_style/.sass-cache/62028c6b871e0cc393b389db111b4040a81b0544
+creating build/bdist.linux-x86_64/egg/djangocms_admin_style/.sass-cache/e4cdd1d27bc35fce2f4b18a7e3de466030feb3f4
+copying build/lib/djangocms_admin_style/.sass-cache/e4cdd1d27bc35fce2f4b18a7e3de466030feb3f4/_tables.scssc -> build/bdist.linux-x86_64/egg/djangocms_admin_style/.sass-cache/e4cdd1d27bc35fce2f4b18a7e3de466030feb3f4
+copying build/lib/djangocms_admin_style/.sass-cache/e4cdd1d27bc35fce2f4b18a7e3de466030feb3f4/_sprites.scssc -> build/bdist.linux-x86_64/egg/djangocms_admin_style/.sass-cache/e4cdd1d27bc35fce2f4b18a7e3de466030feb3f4
+copying build/lib/djangocms_admin_style/.sass-cache/e4cdd1d27bc35fce2f4b18a7e3de466030feb3f4/_color.scssc -> build/bdist.linux-x86_64/egg/djangocms_admin_style/.sass-cache/e4cdd1d27bc35fce2f4b18a7e3de466030feb3f4
+copying build/lib/djangocms_admin_style/.sass-cache/e4cdd1d27bc35fce2f4b18a7e3de466030feb3f4/_general.scssc -> build/bdist.linux-x86_64/egg/djangocms_admin_style/.sass-cache/e4cdd1d27bc35fce2f4b18a7e3de466030feb3f4
+creating build/bdist.linux-x86_64/egg/djangocms_admin_style/templates
+creating build/bdist.linux-x86_64/egg/djangocms_admin_style/templates/admin
+creating build/bdist.linux-x86_64/egg/djangocms_admin_style/templates/admin/inc
+copying build/lib/djangocms_admin_style/templates/admin/inc/title.html -> build/bdist.linux-x86_64/egg/djangocms_admin_style/templates/admin/inc
+copying build/lib/djangocms_admin_style/templates/admin/inc/userlinks.html -> build/bdist.linux-x86_64/egg/djangocms_admin_style/templates/admin/inc
+copying build/lib/djangocms_admin_style/templates/admin/inc/branding.html -> build/bdist.linux-x86_64/egg/djangocms_admin_style/templates/admin/inc
+copying build/lib/djangocms_admin_style/templates/admin/inc/extrahead.html -> build/bdist.linux-x86_64/egg/djangocms_admin_style/templates/admin/inc
+copying build/lib/djangocms_admin_style/templates/admin/inc/extrastyle.html -> build/bdist.linux-x86_64/egg/djangocms_admin_style/templates/admin/inc
+copying build/lib/djangocms_admin_style/templates/admin/delete_confirmation.html -> build/bdist.linux-x86_64/egg/djangocms_admin_style/templates/admin
+copying build/lib/djangocms_admin_style/templates/admin/base_site.html -> build/bdist.linux-x86_64/egg/djangocms_admin_style/templates/admin
+copying build/lib/djangocms_admin_style/templates/admin/delete_selected_confirmation.html -> build/bdist.linux-x86_64/egg/djangocms_admin_style/templates/admin
+creating build/bdist.linux-x86_64/egg/djangocms_admin_style/sass
+copying build/lib/djangocms_admin_style/sass/djangocms-admin-frontend.scss -> build/bdist.linux-x86_64/egg/djangocms_admin_style/sass
+creating build/bdist.linux-x86_64/egg/djangocms_admin_style/sass/libs
+copying build/lib/djangocms_admin_style/sass/libs/_normalize.scss -> build/bdist.linux-x86_64/egg/djangocms_admin_style/sass/libs
+copying build/lib/djangocms_admin_style/sass/libs/_html5-boilerplate.scss -> build/bdist.linux-x86_64/egg/djangocms_admin_style/sass/libs
+creating build/bdist.linux-x86_64/egg/djangocms_admin_style/sass/libs/html5-boilerplate
+copying build/lib/djangocms_admin_style/sass/libs/html5-boilerplate/_helpers.scss -> build/bdist.linux-x86_64/egg/djangocms_admin_style/sass/libs/html5-boilerplate
+copying build/lib/djangocms_admin_style/sass/libs/html5-boilerplate/_styles.scss -> build/bdist.linux-x86_64/egg/djangocms_admin_style/sass/libs/html5-boilerplate
+copying build/lib/djangocms_admin_style/sass/libs/html5-boilerplate/_reset.scss -> build/bdist.linux-x86_64/egg/djangocms_admin_style/sass/libs/html5-boilerplate
+copying build/lib/djangocms_admin_style/sass/libs/html5-boilerplate/_fonts.scss -> build/bdist.linux-x86_64/egg/djangocms_admin_style/sass/libs/html5-boilerplate
+copying build/lib/djangocms_admin_style/sass/libs/html5-boilerplate/_media.scss -> build/bdist.linux-x86_64/egg/djangocms_admin_style/sass/libs/html5-boilerplate
+copying build/lib/djangocms_admin_style/sass/djangocms-admin.scss -> build/bdist.linux-x86_64/egg/djangocms_admin_style/sass
+copying build/lib/djangocms_admin_style/sass/_settings.scss -> build/bdist.linux-x86_64/egg/djangocms_admin_style/sass
+creating build/bdist.linux-x86_64/egg/djangocms_admin_style/sass/partials
+copying build/lib/djangocms_admin_style/sass/partials/_messages.scss -> build/bdist.linux-x86_64/egg/djangocms_admin_style/sass/partials
+copying build/lib/djangocms_admin_style/sass/partials/_tables.scss -> build/bdist.linux-x86_64/egg/djangocms_admin_style/sass/partials
+copying build/lib/djangocms_admin_style/sass/partials/_cmsplaceholders.scss -> build/bdist.linux-x86_64/egg/djangocms_admin_style/sass/partials
+copying build/lib/djangocms_admin_style/sass/partials/_mixins.scss -> build/bdist.linux-x86_64/egg/djangocms_admin_style/sass/partials
+copying build/lib/djangocms_admin_style/sass/partials/_mobile.scss -> build/bdist.linux-x86_64/egg/djangocms_admin_style/sass/partials
+copying build/lib/djangocms_admin_style/sass/partials/_filer.scss -> build/bdist.linux-x86_64/egg/djangocms_admin_style/sass/partials
+copying build/lib/djangocms_admin_style/sass/partials/_iconsOLD.scss -> build/bdist.linux-x86_64/egg/djangocms_admin_style/sass/partials
+copying build/lib/djangocms_admin_style/sass/partials/_forms.scss -> build/bdist.linux-x86_64/egg/djangocms_admin_style/sass/partials
+copying build/lib/djangocms_admin_style/sass/partials/_content.scss -> build/bdist.linux-x86_64/egg/djangocms_admin_style/sass/partials
+copying build/lib/djangocms_admin_style/sass/partials/_shortcuts.scss -> build/bdist.linux-x86_64/egg/djangocms_admin_style/sass/partials
+copying build/lib/djangocms_admin_style/sass/partials/_icons.scss -> build/bdist.linux-x86_64/egg/djangocms_admin_style/sass/partials
+copying build/lib/djangocms_admin_style/sass/partials/_base.scss -> build/bdist.linux-x86_64/egg/djangocms_admin_style/sass/partials
+copying build/lib/djangocms_admin_style/sass/ie.scss -> build/bdist.linux-x86_64/egg/djangocms_admin_style/sass
+creating build/bdist.linux-x86_64/egg/djangocms_admin_style/static
+creating build/bdist.linux-x86_64/egg/djangocms_admin_style/static/djangocms_admin_style
+creating build/bdist.linux-x86_64/egg/djangocms_admin_style/static/djangocms_admin_style/fonts
+copying build/lib/djangocms_admin_style/static/djangocms_admin_style/fonts/django-admin-icons.eot -> build/bdist.linux-x86_64/egg/djangocms_admin_style/static/djangocms_admin_style/fonts
+copying build/lib/djangocms_admin_style/static/djangocms_admin_style/fonts/django-admin-icons.woff -> build/bdist.linux-x86_64/egg/djangocms_admin_style/static/djangocms_admin_style/fonts
+copying build/lib/djangocms_admin_style/static/djangocms_admin_style/fonts/django-admin-icons.svg -> build/bdist.linux-x86_64/egg/djangocms_admin_style/static/djangocms_admin_style/fonts
+copying build/lib/djangocms_admin_style/static/djangocms_admin_style/fonts/django-admin-icons.ttf -> build/bdist.linux-x86_64/egg/djangocms_admin_style/static/djangocms_admin_style/fonts
+creating build/bdist.linux-x86_64/egg/djangocms_admin_style/static/djangocms_admin_style/img
+copying build/lib/djangocms_admin_style/static/djangocms_admin_style/img/icon_clock@2x.gif -> build/bdist.linux-x86_64/egg/djangocms_admin_style/static/djangocms_admin_style/img
+copying build/lib/djangocms_admin_style/static/djangocms_admin_style/img/icon_addlink_large.gif -> build/bdist.linux-x86_64/egg/djangocms_admin_style/static/djangocms_admin_style/img
+copying build/lib/djangocms_admin_style/static/djangocms_admin_style/img/bg-pattern-light.jpg -> build/bdist.linux-x86_64/egg/djangocms_admin_style/static/djangocms_admin_style/img
+copying build/lib/djangocms_admin_style/static/djangocms_admin_style/img/icon_softroot@2x.png -> build/bdist.linux-x86_64/egg/djangocms_admin_style/static/djangocms_admin_style/img
+copying build/lib/djangocms_admin_style/static/djangocms_admin_style/img/icon_softroot.png -> build/bdist.linux-x86_64/egg/djangocms_admin_style/static/djangocms_admin_style/img
+copying build/lib/djangocms_admin_style/static/djangocms_admin_style/img/pluginlist-holder-bg.png -> build/bdist.linux-x86_64/egg/djangocms_admin_style/static/djangocms_admin_style/img
+copying build/lib/djangocms_admin_style/static/djangocms_admin_style/img/icon_searchbox@2x.png -> build/bdist.linux-x86_64/egg/djangocms_admin_style/static/djangocms_admin_style/img
+copying build/lib/djangocms_admin_style/static/djangocms_admin_style/img/icon_addlink_large@2x.gif -> build/bdist.linux-x86_64/egg/djangocms_admin_style/static/djangocms_admin_style/img
+copying build/lib/djangocms_admin_style/static/djangocms_admin_style/img/icon_deletelink.png -> build/bdist.linux-x86_64/egg/djangocms_admin_style/static/djangocms_admin_style/img
+copying build/lib/djangocms_admin_style/static/djangocms_admin_style/img/icon_changelink@2x.gif -> build/bdist.linux-x86_64/egg/djangocms_admin_style/static/djangocms_admin_style/img
+copying build/lib/djangocms_admin_style/static/djangocms_admin_style/img/bg-pattern.jpg -> build/bdist.linux-x86_64/egg/djangocms_admin_style/static/djangocms_admin_style/img
+copying build/lib/djangocms_admin_style/static/djangocms_admin_style/img/icon_changelink_white.png -> build/bdist.linux-x86_64/egg/djangocms_admin_style/static/djangocms_admin_style/img
+copying build/lib/djangocms_admin_style/static/djangocms_admin_style/img/icon_addlink@2x.gif -> build/bdist.linux-x86_64/egg/djangocms_admin_style/static/djangocms_admin_style/img
+copying build/lib/djangocms_admin_style/static/djangocms_admin_style/img/icon_changelink_white@2x.png -> build/bdist.linux-x86_64/egg/djangocms_admin_style/static/djangocms_admin_style/img
+copying build/lib/djangocms_admin_style/static/djangocms_admin_style/img/icon_deletelink@2x.png -> build/bdist.linux-x86_64/egg/djangocms_admin_style/static/djangocms_admin_style/img
+copying build/lib/djangocms_admin_style/static/djangocms_admin_style/img/icon_calendar@2x.gif -> build/bdist.linux-x86_64/egg/djangocms_admin_style/static/djangocms_admin_style/img
+creating build/bdist.linux-x86_64/egg/djangocms_admin_style/static/djangocms_admin_style/css
+copying build/lib/djangocms_admin_style/static/djangocms_admin_style/css/djangocms-admin.css -> build/bdist.linux-x86_64/egg/djangocms_admin_style/static/djangocms_admin_style/css
+copying build/lib/djangocms_admin_style/static/djangocms_admin_style/css/ie.css -> build/bdist.linux-x86_64/egg/djangocms_admin_style/static/djangocms_admin_style/css
+copying build/lib/djangocms_admin_style/static/djangocms_admin_style/css/djangocms-admin-frontend.css -> build/bdist.linux-x86_64/egg/djangocms_admin_style/static/djangocms_admin_style/css
+copying build/lib/djangocms_admin_style/static/djangocms_admin_style/css/pie.css -> build/bdist.linux-x86_64/egg/djangocms_admin_style/static/djangocms_admin_style/css
+creating build/bdist.linux-x86_64/egg/djangocms_admin_style/static/cms
+creating build/bdist.linux-x86_64/egg/djangocms_admin_style/static/cms/images
+copying build/lib/djangocms_admin_style/static/cms/images/sitemap-li-bg.jpg -> build/bdist.linux-x86_64/egg/djangocms_admin_style/static/cms/images
+copying build/lib/djangocms_admin_style/static/cms/PIE.htc -> build/bdist.linux-x86_64/egg/djangocms_admin_style/static/cms
+creating build/bdist.linux-x86_64/egg/djangocms_admin_style/static/admin
+creating build/bdist.linux-x86_64/egg/djangocms_admin_style/static/admin/img
+copying build/lib/djangocms_admin_style/static/admin/img/icon_addlink.gif -> build/bdist.linux-x86_64/egg/djangocms_admin_style/static/admin/img
+copying build/lib/djangocms_admin_style/static/admin/img/selector-search.gif -> build/bdist.linux-x86_64/egg/djangocms_admin_style/static/admin/img
+copying build/lib/djangocms_admin_style/static/admin/img/icon_calendar.gif -> build/bdist.linux-x86_64/egg/djangocms_admin_style/static/admin/img
+copying build/lib/djangocms_admin_style/static/admin/img/icon-yes.gif -> build/bdist.linux-x86_64/egg/djangocms_admin_style/static/admin/img
+copying build/lib/djangocms_admin_style/static/admin/img/icon_searchbox.png -> build/bdist.linux-x86_64/egg/djangocms_admin_style/static/admin/img
+copying build/lib/djangocms_admin_style/static/admin/img/icon_changelink.gif -> build/bdist.linux-x86_64/egg/djangocms_admin_style/static/admin/img
+copying build/lib/djangocms_admin_style/static/admin/img/icon_deletelink.gif -> build/bdist.linux-x86_64/egg/djangocms_admin_style/static/admin/img
+copying build/lib/djangocms_admin_style/static/admin/img/selector-icons.gif -> build/bdist.linux-x86_64/egg/djangocms_admin_style/static/admin/img
+copying build/lib/djangocms_admin_style/static/admin/img/icon_clock.gif -> build/bdist.linux-x86_64/egg/djangocms_admin_style/static/admin/img
+copying build/lib/djangocms_admin_style/__init__.py -> build/bdist.linux-x86_64/egg/djangocms_admin_style
+copying build/lib/djangocms_admin_style/models.py -> build/bdist.linux-x86_64/egg/djangocms_admin_style
+byte-compiling build/bdist.linux-x86_64/egg/djangocms_admin_style/__init__.py to __init__.pyc
+byte-compiling build/bdist.linux-x86_64/egg/djangocms_admin_style/models.py to models.pyc
+creating build/bdist.linux-x86_64/egg/EGG-INFO
+copying djangocms_admin_style.egg-info/PKG-INFO -> build/bdist.linux-x86_64/egg/EGG-INFO
+copying djangocms_admin_style.egg-info/SOURCES.txt -> build/bdist.linux-x86_64/egg/EGG-INFO
+copying djangocms_admin_style.egg-info/dependency_links.txt -> build/bdist.linux-x86_64/egg/EGG-INFO
+copying djangocms_admin_style.egg-info/not-zip-safe -> build/bdist.linux-x86_64/egg/EGG-INFO
+copying djangocms_admin_style.egg-info/top_level.txt -> build/bdist.linux-x86_64/egg/EGG-INFO
+creating dist
+creating 'dist/djangocms_admin_style-0.2.7-py2.7.egg' and adding 'build/bdist.linux-x86_64/egg' to it
+removing 'build/bdist.linux-x86_64/egg' (and everything under it)
+Processing djangocms_admin_style-0.2.7-py2.7.egg
+creating /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/djangocms_admin_style-0.2.7-py2.7.egg
+Extracting djangocms_admin_style-0.2.7-py2.7.egg to /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages
+Adding djangocms-admin-style 0.2.7 to easy-install.pth file
+
+Installed /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/djangocms_admin_style-0.2.7-py2.7.egg
+Processing dependencies for djangocms-admin-style==0.2.7
+Finished processing dependencies for djangocms-admin-style==0.2.7
+
+The following NEW packages will be INSTALLED:
+
+    openssl:    1.0.1k-1     
+    pip:        7.0.3-py27_0 
+    python:     2.7.10-0     
+    readline:   6.2-2        
+    setuptools: 18.0.1-py27_0
+    sqlite:     3.8.4.1-1    
+    system:     5.8-2        
+    tk:         8.5.18-0     
+    zlib:       1.2.8-0      
+
+Linking packages ...
+[                    ]|                                                  |   0%[openssl             ]|                                                  |   0%[readline            ]|#####                                             |  11%[sqlite              ]|###########                                       |  22%[system              ]|################                                  |  33%[tk                  ]|######################                            |  44%[zlib                ]|###########################                       |  55%[python              ]|#################################                 |  66%[setuptools          ]|######################################            |  77%[pip                 ]|############################################      |  88%[      COMPLETE      ]|##################################################| 100%
+Removing old work directory
+Source cache directory is: /home/ubuntu/miniconda/conda-bld/src_cache
+Found source in cache: djangocms-admin-style-0.2.7.tar.gz
+Extracting download
+Package: djangocms-admin-style-0.2.7-py_0
+source tree in: /home/ubuntu/miniconda/conda-bld/work/djangocms-admin-style-0.2.7
+found egg dir: /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/djangocms_admin_style-0.2.7-py2.7.egg
+number of files: 152
+Fixing permissions
+Fixing permissions
+BUILD END: djangocms-admin-style-0.2.7-py_0
+TEST START: djangocms-admin-style-0.2.7-py_0
+Fetching package metadata: ......
+
+WARNING: conda-build appears to be out of date. You have version 1.13.0 but the
+latest version is 1.14.1. Run
+
+conda update -n root conda-build
+
+to get the latest version.
+
+Solving package specifications: ./home/ubuntu/miniconda/pkgs/djangocms-admin-style-0.2.7-py_0/bin/.djangocms-admin-style-pre-link.sh: line 2: /home/ubuntu/miniconda/envs/_test/bin/python: No such file or directory
+
+The following packages will be downloaded:
+
+    package                    |            build
+    ---------------------------|-----------------
+    djangocms-admin-style-0.2.7|             py_0         299 KB
+
+The following NEW packages will be INSTALLED:
+
+    djangocms-admin-style: 0.2.7-py_0   
+    openssl:               1.0.1k-1     
+    pip:                   7.0.3-py27_0 
+    python:                2.7.10-0     
+    readline:              6.2-2        
+    setuptools:            18.0.1-py27_0
+    sqlite:                3.8.4.1-1    
+    system:                5.8-2        
+    tk:                    8.5.18-0     
+    zlib:                  1.2.8-0      
+
+Fetching packages ...
+djangocms-admi   0% |                              | ETA:  --:--:--   0.00  B/sdjangocms-admi   5% |#                              | ETA:  0:00:00  45.63 MB/sdjangocms-admi  10% |###                            | ETA:  0:00:00  57.67 MB/sdjangocms-admi  16% |####                           | ETA:  0:00:00  64.85 MB/sdjangocms-admi  21% |######                         | ETA:  0:00:00  69.27 MB/sdjangocms-admi  26% |########                       | ETA:  0:00:00  72.37 MB/sdjangocms-admi  32% |#########                      | ETA:  0:00:00  74.18 MB/sdjangocms-admi  37% |###########                    | ETA:  0:00:00  75.75 MB/sdjangocms-admi  42% |#############                  | ETA:  0:00:00  77.32 MB/sdjangocms-admi  48% |##############                 | ETA:  0:00:00  78.65 MB/sdjangocms-admi  53% |################               | ETA:  0:00:00  79.77 MB/sdjangocms-admi  58% |##################             | ETA:  0:00:00  80.67 MB/sdjangocms-admi  64% |###################            | ETA:  0:00:00  81.37 MB/sdjangocms-admi  69% |#####################          | ETA:  0:00:00  81.95 MB/sdjangocms-admi  74% |#######################        | ETA:  0:00:00  82.33 MB/sdjangocms-admi  80% |########################       | ETA:  0:00:00  82.86 MB/sdjangocms-admi  85% |##########################     | ETA:  0:00:00  83.35 MB/sdjangocms-admi  91% |############################   | ETA:  0:00:00  83.31 MB/sdjangocms-admi  96% |#############################  | ETA:  0:00:00  83.69 MB/sdjangocms-admi 100% |###############################| ETA:  0:00:00  82.92 MB/sdjangocms-admi 100% |###############################| Time: 0:00:00  78.04 MB/s
+Extracting packages ...
+[      COMPLETE      ]|                                                  |   0%[djangocms-admin-style]|                                                 |   0%[djangocms-admin-style]|                                                 |   0%[      COMPLETE      ]|##################################################| 100%
+Linking packages ...
+[      COMPLETE      ]|                                                  |   0%[openssl             ]|                                                  |   0%[openssl             ]|                                                  |   0%[readline            ]|#####                                             |  10%[sqlite              ]|##########                                        |  20%[system              ]|###############                                   |  30%[tk                  ]|####################                              |  40%[zlib                ]|#########################                         |  50%[djangocms-admin-style]|#############################                    |  60%Error: pre-link failed: djangocms-admin-style-0.2.7-py_0

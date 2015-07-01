@@ -1,7 +1,15 @@
 Removing old build directory
 Removing old work directory
-BUILD START: flufl.enum-4.0.1-py27_0
+BUILD START: flufl.enum-4.0.1-py_0
 Fetching package metadata: ......
+
+WARNING: conda-build appears to be out of date. You have version 1.13.0 but the
+latest version is 1.14.1. Run
+
+conda update -n root conda-build
+
+to get the latest version.
+
 Solving package specifications: .+ /home/ubuntu/miniconda/envs/_build/bin/python setup.py install
 running install
 running bdist_egg
@@ -85,15 +93,15 @@ Finished processing dependencies for flufl.enum==4.0.1
 
 The following NEW packages will be INSTALLED:
 
-    openssl:    1.0.1k-1    
-    pip:        7.0.3-py27_0
-    python:     2.7.10-0    
-    readline:   6.2-2       
-    setuptools: 17.0-py27_0 
-    sqlite:     3.8.4.1-1   
-    system:     5.8-2       
-    tk:         8.5.18-0    
-    zlib:       1.2.8-0     
+    openssl:    1.0.1k-1     
+    pip:        7.0.3-py27_0 
+    python:     2.7.10-0     
+    readline:   6.2-2        
+    setuptools: 18.0.1-py27_0
+    sqlite:     3.8.4.1-1    
+    system:     5.8-2        
+    tk:         8.5.18-0     
+    zlib:       1.2.8-0      
 
 Linking packages ...
 [                    ]|                                                  |   0%[openssl             ]|                                                  |   0%[readline            ]|#####                                             |  11%[sqlite              ]|###########                                       |  22%[system              ]|################                                  |  33%[tk                  ]|######################                            |  44%[zlib                ]|###########################                       |  55%[python              ]|#################################                 |  66%[setuptools          ]|######################################            |  77%[pip                 ]|############################################      |  88%[      COMPLETE      ]|##################################################| 100%
@@ -101,52 +109,47 @@ Removing old work directory
 Source cache directory is: /home/ubuntu/miniconda/conda-bld/src_cache
 Found source in cache: flufl.enum-4.0.1.tar.gz
 Extracting download
-Package: flufl.enum-4.0.1-py27_0
+Package: flufl.enum-4.0.1-py_0
 source tree in: /home/ubuntu/miniconda/conda-bld/work/flufl.enum-4.0.1
 found egg dir: /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/flufl.enum-4.0.1-py2.7.egg
 number of files: 22
 Fixing permissions
 Fixing permissions
-BUILD END: flufl.enum-4.0.1-py27_0
-TEST START: flufl.enum-4.0.1-py27_0
+BUILD END: flufl.enum-4.0.1-py_0
+TEST START: flufl.enum-4.0.1-py_0
 Fetching package metadata: ......
-Solving package specifications: .===== testing package: flufl.enum-4.0.1-py27_0 =====
-import: u'flufl'
-import: u'flufl.enum'
-import: u'flufl.enum.docs'
-import: u'flufl.enum.tests'
-===== flufl.enum-4.0.1-py27_0 OK =====
+
+WARNING: conda-build appears to be out of date. You have version 1.13.0 but the
+latest version is 1.14.1. Run
+
+conda update -n root conda-build
+
+to get the latest version.
+
+Solving package specifications: ./home/ubuntu/miniconda/pkgs/flufl.enum-4.0.1-py_0/bin/.flufl.enum-pre-link.sh: line 2: /home/ubuntu/miniconda/envs/_test/bin/python: No such file or directory
 
 The following packages will be downloaded:
 
     package                    |            build
     ---------------------------|-----------------
-    flufl.enum-4.0.1           |           py27_0          25 KB
+    flufl.enum-4.0.1           |             py_0          17 KB
 
 The following NEW packages will be INSTALLED:
 
-    flufl.enum: 4.0.1-py27_0
-    openssl:    1.0.1k-1    
-    pip:        7.0.3-py27_0
-    python:     2.7.10-0    
-    readline:   6.2-2       
-    setuptools: 17.0-py27_0 
-    sqlite:     3.8.4.1-1   
-    system:     5.8-2       
-    tk:         8.5.18-0    
-    zlib:       1.2.8-0     
+    flufl.enum: 4.0.1-py_0   
+    openssl:    1.0.1k-1     
+    pip:        7.0.3-py27_0 
+    python:     2.7.10-0     
+    readline:   6.2-2        
+    setuptools: 18.0.1-py27_0
+    sqlite:     3.8.4.1-1    
+    system:     5.8-2        
+    tk:         8.5.18-0     
+    zlib:       1.2.8-0      
 
 Fetching packages ...
-flufl.enum-4.0   0% |                              | ETA:  --:--:--   0.00  B/sflufl.enum-4.0  64% |####################           | ETA:  0:00:00  46.43 MB/sflufl.enum-4.0 100% |###############################| ETA:  0:00:00   2.90 MB/sflufl.enum-4.0 100% |###############################| Time: 0:00:00   2.83 MB/s
+flufl.enum-4.0   0% |                              | ETA:  --:--:--   0.00  B/sflufl.enum-4.0  93% |#############################  | ETA:  0:00:00  47.79 MB/sflufl.enum-4.0 100% |###############################| ETA:  0:00:00  34.41 MB/sflufl.enum-4.0 100% |###############################| Time: 0:00:00  22.57 MB/s
 Extracting packages ...
 [      COMPLETE      ]|                                                  |   0%[flufl.enum          ]|                                                  |   0%[flufl.enum          ]|                                                  |   0%[      COMPLETE      ]|##################################################| 100%
 Linking packages ...
-[      COMPLETE      ]|                                                  |   0%[openssl             ]|                                                  |   0%[openssl             ]|                                                  |   0%[readline            ]|#####                                             |  10%[sqlite              ]|##########                                        |  20%[system              ]|###############                                   |  30%[tk                  ]|####################                              |  40%[zlib                ]|#########################                         |  50%[flufl.enum          ]|##############################                    |  60%[python              ]|###################################               |  70%[setuptools          ]|########################################          |  80%[pip                 ]|#############################################     |  90%[      COMPLETE      ]|##################################################| 100%
-TEST END: flufl.enum-4.0.1-py27_0
-# If you want to upload this package to binstar.org later, type:
-#
-# $ binstar upload /home/ubuntu/miniconda/conda-bld/linux-64/flufl.enum-4.0.1-py27_0.tar.bz2
-#
-# To have conda build upload to binstar automatically, use
-# $ conda config --set binstar_upload yes
-
+[      COMPLETE      ]|                                                  |   0%[openssl             ]|                                                  |   0%[openssl             ]|                                                  |   0%[readline            ]|#####                                             |  10%[sqlite              ]|##########                                        |  20%[system              ]|###############                                   |  30%[tk                  ]|####################                              |  40%[zlib                ]|#########################                         |  50%[flufl.enum          ]|##############################                    |  60%Error: pre-link failed: flufl.enum-4.0.1-py_0

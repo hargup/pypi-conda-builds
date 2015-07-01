@@ -41,19 +41,74 @@ Warning, the following versions were found for zake
 Using 0.2.2
 Use --version to specify a different version.
 Using url https://pypi.python.org/packages/source/z/zake/zake-0.2.2.tar.gz (13 KB) for zake.
-Downloading zake (use --no-download to skip this step)
+Downloading zake
 Using cached download
 Unpacking zake...
 done
-working in /tmp/tmpsJQQbRconda_skeleton_zake-0.2.2.tar.gz
+working in /tmp/tmp8t3Sl0conda_skeleton_zake-0.2.2.tar.gz
 Fetching package metadata: ......
+
+WARNING: conda-build appears to be out of date. You have version 1.13.0 but the
+latest version is 1.14.1. Run
+
+conda update -n root conda-build
+
+to get the latest version.
+
 Solving package specifications: .patching file core.py
 Hunk #1 succeeded at 168 with fuzz 2 (offset 2 lines).
-Traceback (most recent call last):
-  File "setup.py", line 21, in <module>
-    from setuptools import find_packages
-ImportError: No module named setuptools
 
-Applying patch: '/tmp/tmpsJQQbRconda_skeleton_zake-0.2.2.tar.gz/pypi-distutils.patch'
-$PYTHONPATH = /tmp/tmpsJQQbRconda_skeleton_zake-0.2.2.tar.gz/zake-0.2.2
-Error: command failed: /home/ubuntu/miniconda/envs/_build/bin/python setup.py install
+WARNING: conda-build appears to be out of date. You have version 1.13.0 but the
+latest version is 1.14.1. Run
+
+conda update -n root conda-build
+
+to get the latest version.
+
+
+The following NEW packages will be INSTALLED:
+
+    numpy:  1.9.2-py27_0
+    pyyaml: 3.11-py27_1 
+    yaml:   0.1.6-0     
+
+Linking packages ...
+[                    ]|                                                  |   0%[yaml                ]|                                                  |   0%[numpy               ]|################                                  |  33%[pyyaml              ]|#################################                 |  66%[      COMPLETE      ]|##################################################| 100%
+Applying patch: '/tmp/tmp8t3Sl0conda_skeleton_zake-0.2.2.tar.gz/pypi-distutils.patch'
+Warning, the following versions were found for kazoo
+2.2.1
+2.2
+2.1
+2.0
+2.0b1
+1.3.1
+1.3
+1.2.1
+1.2
+1.1
+1.0
+1.0b1
+0.9
+0.8
+0.7
+0.6
+0.5
+0.3
+0.2
+0.2b1
+0.1.0
+Using 2.2.1
+Use --version to specify a different version.
+Using url https://pypi.python.org/packages/source/k/kazoo/kazoo-2.2.1.tar.gz (106 KB) for kazoo.
+Downloading kazoo
+Using cached download
+Unpacking kazoo...
+done
+working in /tmp/tmpqON7wnconda_skeleton_kazoo-2.2.1.tar.gz
+Solving package specifications: .patching file core.py
+Hunk #1 succeeded at 168 with fuzz 2 (offset 2 lines).
+
+Applying patch: '/tmp/tmpqON7wnconda_skeleton_kazoo-2.2.1.tar.gz/pypi-distutils.patch'
+Writing recipe for kazoo
+Writing recipe for zake
+Done

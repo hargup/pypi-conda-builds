@@ -1,7 +1,7 @@
 sqlobject not found, trying SQLObject
-0
 Warning, the following versions were found for SQLObject
 3.0.0a1dev-20150327
+2.2.0b1dev-20150619
 2.1.2
 2.1.1
 2.1.0
@@ -168,24 +168,37 @@ Warning, the following versions were found for SQLObject
 Using 3.0.0a1dev-20150327
 Use --version to specify a different version.
 Using url https://pypi.python.org/packages/source/S/SQLObject/SQLObject-3.0.0a1dev-20150327.tar.gz (867 KB) for SQLObject.
-Downloading SQLObject (use --no-download to skip this step)
+Downloading SQLObject
 Using cached download
 Unpacking SQLObject...
 done
-working in /tmp/tmpILaP63conda_skeleton_SQLObject-3.0.0a1dev-20150327.tar.gz
+working in /tmp/tmp6KHcK3conda_skeleton_SQLObject-3.0.0a1dev-20150327.tar.gz
 Fetching package metadata: ......
+
+WARNING: conda-build appears to be out of date. You have version 1.13.0 but the
+latest version is 1.14.1. Run
+
+conda update -n root conda-build
+
+to get the latest version.
+
 Solving package specifications: .patching file core.py
 Hunk #1 succeeded at 168 with fuzz 2 (offset 2 lines).
 
-The following NEW packages will be INSTALLED:
+WARNING: conda-build appears to be out of date. You have version 1.13.0 but the
+latest version is 1.14.1. Run
 
-    numpy:  1.9.2-py27_0
-    pyyaml: 3.11-py27_0 
-    yaml:   0.1.4-0     
+conda update -n root conda-build
 
-Linking packages ...
-[                    ]|                                                  |   0%[yaml                ]|                                                  |   0%[numpy               ]|################                                  |  33%[pyyaml              ]|#################################                 |  66%[      COMPLETE      ]|##################################################| 100%
-Applying patch: '/tmp/tmpILaP63conda_skeleton_SQLObject-3.0.0a1dev-20150327.tar.gz/pypi-distutils.patch'
+to get the latest version.
+
+
+Applying patch: '/tmp/tmp6KHcK3conda_skeleton_SQLObject-3.0.0a1dev-20150327.tar.gz/pypi-distutils.patch'
+WARNING: Could not add entry points. They were:
+
+    [paste.filter_app_factory]
+    main = sqlobject.wsgi_middleware:make_middleware
+    
 Warning, the following versions were found for adodbapi
 2.6.0.7
 2.6.0.6
@@ -198,16 +211,15 @@ Warning, the following versions were found for adodbapi
 Using 2.6.0.7
 Use --version to specify a different version.
 Using url https://pypi.python.org/packages/source/a/adodbapi/adodbapi-2.6.0.7.zip (328 KB) for adodbapi.
-Downloading adodbapi (use --no-download to skip this step)
+Downloading adodbapi
 Using cached download
 Unpacking adodbapi...
 done
-working in /tmp/tmpd765Y5conda_skeleton_adodbapi-2.6.0.7.zip
+working in /tmp/tmp5efQINconda_skeleton_adodbapi-2.6.0.7.zip
 Solving package specifications: .patching file core.py
 Hunk #1 succeeded at 168 with fuzz 2 (offset 2 lines).
 adodbapi version="2.6.0.7"
 
-Applying patch: '/tmp/tmpd765Y5conda_skeleton_adodbapi-2.6.0.7.zip/pypi-distutils.patch'
+Applying patch: '/tmp/tmp5efQINconda_skeleton_adodbapi-2.6.0.7.zip/pypi-distutils.patch'
 mysqldb not found, trying MySQLdb
-7
 Error: Could not find any versions of package MySQLdb

@@ -1,12 +1,16 @@
-There was an error importing jinja2.
-Please run `conda install jinja2` to enable jinja template support
 Removing old build directory
 Removing old work directory
-BUILD START: django-grappelli-2.6.4-py27_0
+BUILD START: django-grappelli-2.6.5-py_0
 Fetching package metadata: ......
-Solving package specifications: .There was an error importing jinja2.
-Please run `conda install jinja2` to enable jinja template support
-+ /home/ubuntu/miniconda/envs/_build/bin/python setup.py install
+
+WARNING: conda-build appears to be out of date. You have version 1.13.0 but the
+latest version is 1.14.1. Run
+
+conda update -n root conda-build
+
+to get the latest version.
+
+Solving package specifications: .+ /home/ubuntu/miniconda/envs/_build/bin/python setup.py install
 running install
 running bdist_egg
 running egg_info
@@ -1824,79 +1828,76 @@ copying django_grappelli.egg-info/dependency_links.txt -> build/bdist.linux-x86_
 copying django_grappelli.egg-info/not-zip-safe -> build/bdist.linux-x86_64/egg/EGG-INFO
 copying django_grappelli.egg-info/top_level.txt -> build/bdist.linux-x86_64/egg/EGG-INFO
 creating dist
-creating 'dist/django_grappelli-2.6.4-py2.7.egg' and adding 'build/bdist.linux-x86_64/egg' to it
+creating 'dist/django_grappelli-2.6.5-py2.7.egg' and adding 'build/bdist.linux-x86_64/egg' to it
 removing 'build/bdist.linux-x86_64/egg' (and everything under it)
-Processing django_grappelli-2.6.4-py2.7.egg
-creating /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/django_grappelli-2.6.4-py2.7.egg
-Extracting django_grappelli-2.6.4-py2.7.egg to /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages
-Adding django-grappelli 2.6.4 to easy-install.pth file
+Processing django_grappelli-2.6.5-py2.7.egg
+creating /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/django_grappelli-2.6.5-py2.7.egg
+Extracting django_grappelli-2.6.5-py2.7.egg to /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages
+Adding django-grappelli 2.6.5 to easy-install.pth file
 
-Installed /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/django_grappelli-2.6.4-py2.7.egg
-Processing dependencies for django-grappelli==2.6.4
-Finished processing dependencies for django-grappelli==2.6.4
+Installed /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/django_grappelli-2.6.5-py2.7.egg
+Processing dependencies for django-grappelli==2.6.5
+Finished processing dependencies for django-grappelli==2.6.5
 
 The following NEW packages will be INSTALLED:
 
-    openssl:    1.0.1k-1    
-    pip:        6.1.1-py27_0
-    python:     2.7.9-3     
-    readline:   6.2-2       
-    setuptools: 16.0-py27_0 
-    sqlite:     3.8.4.1-1   
-    system:     5.8-2       
-    tk:         8.5.18-0    
-    zlib:       1.2.8-0     
+    openssl:    1.0.1k-1     
+    pip:        7.0.3-py27_0 
+    python:     2.7.10-0     
+    readline:   6.2-2        
+    setuptools: 18.0.1-py27_0
+    sqlite:     3.8.4.1-1    
+    system:     5.8-2        
+    tk:         8.5.18-0     
+    zlib:       1.2.8-0      
 
 Linking packages ...
 [                    ]|                                                  |   0%[openssl             ]|                                                  |   0%[readline            ]|#####                                             |  11%[sqlite              ]|###########                                       |  22%[system              ]|################                                  |  33%[tk                  ]|######################                            |  44%[zlib                ]|###########################                       |  55%[python              ]|#################################                 |  66%[setuptools          ]|######################################            |  77%[pip                 ]|############################################      |  88%[      COMPLETE      ]|##################################################| 100%
 Removing old work directory
 Source cache directory is: /home/ubuntu/miniconda/conda-bld/src_cache
-Found source in cache: django-grappelli-2.6.4.tar.gz
+Found source in cache: django-grappelli-2.6.5.tar.gz
 Extracting download
-Package: django-grappelli-2.6.4-py27_0
-source tree in: /home/ubuntu/miniconda/conda-bld/work/django-grappelli-2.6.4
-found egg dir: /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/django_grappelli-2.6.4-py2.7.egg
+Package: django-grappelli-2.6.5-py_0
+source tree in: /home/ubuntu/miniconda/conda-bld/work/django-grappelli-2.6.5
+found egg dir: /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/django_grappelli-2.6.5-py2.7.egg
 number of files: 711
 Fixing permissions
 Fixing permissions
-BUILD END: django-grappelli-2.6.4-py27_0
-TEST START: django-grappelli-2.6.4-py27_0
+BUILD END: django-grappelli-2.6.5-py_0
+TEST START: django-grappelli-2.6.5-py_0
 Fetching package metadata: ......
+
+WARNING: conda-build appears to be out of date. You have version 1.13.0 but the
+latest version is 1.14.1. Run
+
+conda update -n root conda-build
+
+to get the latest version.
+
 Solving package specifications: .
 The following packages will be downloaded:
 
     package                    |            build
     ---------------------------|-----------------
-    django-grappelli-2.6.4     |           py27_0         945 KB
+    django-grappelli-2.6.5     |             py_0         927 KB
 
 The following NEW packages will be INSTALLED:
 
-    django-grappelli: 2.6.4-py27_0
-    openssl:          1.0.1k-1    
-    pip:              6.1.1-py27_0
-    python:           2.7.9-3     
-    readline:         6.2-2       
-    setuptools:       16.0-py27_0 
-    sqlite:           3.8.4.1-1   
-    system:           5.8-2       
-    tk:               8.5.18-0    
-    zlib:             1.2.8-0     
+    django-grappelli: 2.6.5-py_0   
+    openssl:          1.0.1k-1     
+    pip:              7.0.3-py27_0 
+    python:           2.7.10-0     
+    readline:         6.2-2        
+    setuptools:       18.0.1-py27_0
+    sqlite:           3.8.4.1-1    
+    system:           5.8-2        
+    tk:               8.5.18-0     
+    zlib:             1.2.8-0      
 
 Fetching packages ...
-django-grappel   0% |                              | ETA:  --:--:--   0.00  B/sdjango-grappel   1% |                               | ETA:  0:00:00  47.62 MB/sdjango-grappel   3% |#                              | ETA:  0:00:00   3.77 MB/sdjango-grappel   5% |#                              | ETA:  0:00:00   5.53 MB/sdjango-grappel   6% |##                             | ETA:  0:00:00   7.22 MB/sdjango-grappel   8% |##                             | ETA:  0:00:00   8.84 MB/sdjango-grappel  10% |###                            | ETA:  0:00:00  10.41 MB/sdjango-grappel  11% |###                            | ETA:  0:00:00  11.92 MB/sdjango-grappel  13% |####                           | ETA:  0:00:00  13.37 MB/sdjango-grappel  15% |####                           | ETA:  0:00:00  14.76 MB/sdjango-grappel  16% |#####                          | ETA:  0:00:00  16.11 MB/sdjango-grappel  18% |#####                          | ETA:  0:00:00  17.42 MB/sdjango-grappel  20% |######                         | ETA:  0:00:00  18.67 MB/sdjango-grappel  22% |######                         | ETA:  0:00:00  19.89 MB/sdjango-grappel  23% |#######                        | ETA:  0:00:00  21.07 MB/sdjango-grappel  25% |#######                        | ETA:  0:00:00  22.21 MB/sdjango-grappel  27% |########                       | ETA:  0:00:00  23.19 MB/sdjango-grappel  28% |########                       | ETA:  0:00:00  24.24 MB/sdjango-grappel  30% |#########                      | ETA:  0:00:00  25.28 MB/sdjango-grappel  32% |#########                      | ETA:  0:00:00  26.27 MB/sdjango-grappel  33% |##########                     | ETA:  0:00:00  27.25 MB/sdjango-grappel  35% |###########                    | ETA:  0:00:00  28.09 MB/sdjango-grappel  37% |###########                    | ETA:  0:00:00  29.00 MB/sdjango-grappel  38% |############                   | ETA:  0:00:00  29.89 MB/sdjango-grappel  40% |############                   | ETA:  0:00:00  30.75 MB/sdjango-grappel  42% |#############                  | ETA:  0:00:00  31.59 MB/sdjango-grappel  44% |#############                  | ETA:  0:00:00  32.41 MB/sdjango-grappel  45% |##############                 | ETA:  0:00:00  33.20 MB/sdjango-grappel  47% |##############                 | ETA:  0:00:00  33.98 MB/sdjango-grappel  49% |###############                | ETA:  0:00:00  34.73 MB/sdjango-grappel  50% |###############                | ETA:  0:00:00  35.47 MB/sdjango-grappel  52% |################               | ETA:  0:00:00  36.19 MB/sdjango-grappel  54% |################               | ETA:  0:00:00  36.89 MB/sdjango-grappel  55% |#################              | ETA:  0:00:00  37.57 MB/sdjango-grappel  57% |#################              | ETA:  0:00:00  38.23 MB/sdjango-grappel  59% |##################             | ETA:  0:00:00  38.88 MB/sdjango-grappel  60% |##################             | ETA:  0:00:00  39.51 MB/sdjango-grappel  62% |###################            | ETA:  0:00:00  40.14 MB/sdjango-grappel  64% |###################            | ETA:  0:00:00  40.71 MB/sdjango-grappel  66% |####################           | ETA:  0:00:00  41.30 MB/sdjango-grappel  67% |#####################          | ETA:  0:00:00  41.86 MB/sdjango-grappel  69% |#####################          | ETA:  0:00:00  42.43 MB/sdjango-grappel  71% |######################         | ETA:  0:00:00  42.97 MB/sdjango-grappel  72% |####===== testing package: django-grappelli-2.6.4-py27_0 =====
-import: u'grappelli'
-import: u'grappelli.dashboard'
-Traceback (most recent call last):
-  File "/home/ubuntu/miniconda/conda-bld/test-tmp_dir/run_test.py", line 28, in <module>
-    import grappelli.dashboard
-  File "/home/ubuntu/miniconda/envs/_test/lib/python2.7/site-packages/grappelli/dashboard/__init__.py", line 1, in <module>
-    from grappelli.dashboard.dashboards import *
-  File "/home/ubuntu/miniconda/envs/_test/lib/python2.7/site-packages/grappelli/dashboard/dashboards.py", line 8, in <module>
-    from django.utils.translation import ugettext_lazy as _
-ImportError: No module named django.utils.translation
-##################         | ETA:  0:00:00  43.52 MB/sdjango-grappel  74% |#######################        | ETA:  0:00:00  44.00 MB/sdjango-grappel  76% |#######################        | ETA:  0:00:00  44.52 MB/sdjango-grappel  77% |########################       | ETA:  0:00:00  45.03 MB/sdjango-grappel  79% |########################       | ETA:  0:00:00  30.75 MB/sdjango-grappel  81% |#########################      | ETA:  0:00:00  31.18 MB/sdjango-grappel  82% |#########################      | ETA:  0:00:00  31.60 MB/sdjango-grappel  84% |##########################     | ETA:  0:00:00  32.03 MB/sdjango-grappel  86% |##########################     | ETA:  0:00:00  32.44 MB/sdjango-grappel  88% |###########################    | ETA:  0:00:00  32.85 MB/sdjango-grappel  89% |###########################    | ETA:  0:00:00  33.25 MB/sdjango-grappel  91% |############################   | ETA:  0:00:00  33.65 MB/sdjango-grappel  93% |############################   | ETA:  0:00:00  34.05 MB/sdjango-grappel  94% |#############################  | ETA:  0:00:00  34.43 MB/sdjango-grappel  96% |#############################  | ETA:  0:00:00  34.81 MB/sdjango-grappel  98% |############################## | ETA:  0:00:00  35.19 MB/sdjango-grappel  99% |############################## | ETA:  0:00:00  35.56 MB/sdjango-grappel 100% |###############################| Time: 0:00:00  35.21 MB/s
+django-grappel   0% |                              | ETA:  --:--:--   0.00  B/sdjango-grappel   1% |                               | ETA:  0:00:00  48.63 MB/sdjango-grappel   3% |#                              | ETA:  0:00:00  60.02 MB/sdjango-grappel   5% |#                              | ETA:  0:00:00  64.34 MB/sdjango-grappel   6% |##                             | ETA:  0:00:00  68.55 MB/sdjango-grappel   8% |##                             | ETA:  0:00:00  71.42 MB/sdjango-grappel  10% |###                            | ETA:  0:00:00  73.64 MB/sdjango-grappel  12% |###                            | ETA:  0:00:00  75.35 MB/sdjango-grappel  13% |####                           | ETA:  0:00:00  77.01 MB/sdjango-grappel  15% |####                           | ETA:  0:00:00  78.31 MB/sdjango-grappel  17% |#####                          | ETA:  0:00:00  79.45 MB/sdjango-grappel  18% |#####                          | ETA:  0:00:00  80.46 MB/sdjango-grappel  20% |######                         | ETA:  0:00:00  81.21 MB/sdjango-grappel  22% |######                         | ETA:  0:00:00  81.79 MB/sdjango-grappel  24% |#######                        | ETA:  0:00:00  82.36 MB/sdjango-grappel  25% |########                       | ETA:  0:00:00  82.94 MB/sdjango-grappel  27% |########                       | ETA:  0:00:00  83.40 MB/sdjango-grappel  29% |#########                      | ETA:  0:00:00  83.87 MB/sdjango-grappel  31% |#########                      | ETA:  0:00:00  84.28 MB/sdjango-grappel  32% |##########                     | ETA:  0:00:00  84.66 MB/sdjango-grappel  34% |##########                     | ETA:  0:00:00  84.89 MB/sdjango-grappel  36% |###########                    | ETA:  0:00:00  85.14 MB/sdjango-grappel  37% |###########                    | ETA:  0:00:00  85.36 MB/sdjango-grappel  39% |############                   | ETA:  0:00:00  85.62 MB/sdjango-grappel  41% |############                   | ETA:  0:00:00  85.87 MB/sdjango-grappel  43% |#############                  | ETA:  0:00:00  31.79 MB/sdjango-grappel  44% |#############                  | ETA:  0:00:00  32.60 MB/sdjango-grappel  46% |##############                 | ETA:  0:00:00  33.40 MB/sdjango-grappel  48% |##############                 | ETA:  0:00:00  34.17 MB/sdjango-grappel  50% |###############                | ETA:  0:00:00  34.91 MB/sdjango-grappel  51% |################               | ETA:  0:00:00  35.65 MB/sdjango-grappel  53% |################               | ETA:  0:00:00  36.36 MB/sdjango-grappel  55% |#################              | ETA:  0:00:00  37.06 MB/sdjango-grappel  56% |#################              | ETA:  0:00:00  37.75 MB/sdjango-grappel  58% |##################             | ETA:  0:00:00  38.41 MB/sdjango-grappel  60% |##################             | ETA:  0:00:00  39.06 MB/sdjango-grappel  62% |###################            | ETA:  0:00:00  39.69 MB/sdjango-grappel  63% |###################            | ETA:  0:00:00  40.30 MB/sdjango-grappel  65% |####################           | ETA:  0:00:00  40.89 MB/sdjango-grappel  67% |####################           | ETA:  0:00:00  41.48 MB/sdjango-grappel  69% |#####################          | ETA:  0:00:00  42.06 MB/sdjango-grappel  70% |#####################          | ETA:  0:00:00  42.63 MB/sdjango-grappel  72% |######################         | ETA:  0:00:00  43.18 MB/sdjango-grappel /home/ubuntu/miniconda/pkgs/django-grappelli-2.6.5-py_0/bin/.django-grappelli-pre-link.sh: line 2: /home/ubuntu/miniconda/envs/_test/bin/python: No such file or directory
+ 74% |######################         | ETA:  0:00:00  43.72 MB/sdjango-grappel  75% |#######################        | ETA:  0:00:00  44.20 MB/sdjango-grappel  77% |########################       | ETA:  0:00:00  44.72 MB/sdjango-grappel  79% |########################       | ETA:  0:00:00  45.22 MB/sdjango-grappel  81% |#########################      | ETA:  0:00:00  45.66 MB/sdjango-grappel  82% |#########################      | ETA:  0:00:00  46.13 MB/sdjango-grappel  84% |##########################     | ETA:  0:00:00  46.60 MB/sdjango-grappel  86% |##########################     | ETA:  0:00:00  47.08 MB/sdjango-grappel  87% |###########################    | ETA:  0:00:00  47.52 MB/sdjango-grappel  89% |###########################    | ETA:  0:00:00  47.96 MB/sdjango-grappel  91% |############################   | ETA:  0:00:00  48.40 MB/sdjango-grappel  93% |############################   | ETA:  0:00:00  48.82 MB/sdjango-grappel  94% |#############################  | ETA:  0:00:00  49.24 MB/sdjango-grappel  96% |#############################  | ETA:  0:00:00  49.66 MB/sdjango-grappel  98% |############################## | ETA:  0:00:00  50.07 MB/sdjango-grappel 100% |###############################| ETA:  0:00:00  50.44 MB/sdjango-grappel 100% |###############################| Time: 0:00:00  49.83 MB/s
 Extracting packages ...
 [      COMPLETE      ]|                                                  |   0%[django-grappelli    ]|                                                  |   0%[django-grappelli    ]|                                                  |   0%[      COMPLETE      ]|##################################################| 100%
 Linking packages ...
-[      COMPLETE      ]|                                                  |   0%[openssl             ]|                                                  |   0%[openssl             ]|                                                  |   0%[readline            ]|#####                                             |  10%[sqlite              ]|##########                                        |  20%[system              ]|###############                                   |  30%[tk                  ]|####################                              |  40%[zlib                ]|#########################                         |  50%[django-grappelli    ]|##############################                    |  60%[python              ]|###################################               |  70%[setuptools          ]|########################################          |  80%[pip                 ]|#############################################     |  90%[      COMPLETE      ]|##################################################| 100%
-TESTS FAILED: django-grappelli-2.6.4-py27_0
+[      COMPLETE      ]|                                                  |   0%[openssl             ]|                                                  |   0%[openssl             ]|                                                  |   0%[readline            ]|#####                                             |  10%[sqlite              ]|##########                                        |  20%[system              ]|###############                                   |  30%[tk                  ]|####################                              |  40%[zlib                ]|#########################                         |  50%[django-grappelli    ]|##############################                    |  60%Error: pre-link failed: django-grappelli-2.6.5-py_0

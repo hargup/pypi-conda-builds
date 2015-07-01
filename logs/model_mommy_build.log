@@ -1,0 +1,124 @@
+Removing old build directory
+Removing old work directory
+BUILD START: model_mommy-1.2.4-py_0
+Fetching package metadata: ......
+
+WARNING: conda-build appears to be out of date. You have version 1.13.0 but the
+latest version is 1.14.1. Run
+
+conda update -n root conda-build
+
+to get the latest version.
+
+Solving package specifications: .+ /home/ubuntu/miniconda/envs/_build/bin/python setup.py install
+running install
+running bdist_egg
+running egg_info
+writing requirements to model_mommy.egg-info/requires.txt
+writing model_mommy.egg-info/PKG-INFO
+writing top-level names to model_mommy.egg-info/top_level.txt
+writing dependency_links to model_mommy.egg-info/dependency_links.txt
+reading manifest file 'model_mommy.egg-info/SOURCES.txt'
+reading manifest template 'MANIFEST.in'
+writing manifest file 'model_mommy.egg-info/SOURCES.txt'
+installing library code to build/bdist.linux-x86_64/egg
+running install_lib
+running build_py
+creating build
+creating build/lib
+creating build/lib/model_mommy
+copying model_mommy/generators.py -> build/lib/model_mommy
+copying model_mommy/recipe.py -> build/lib/model_mommy
+copying model_mommy/mommy.py -> build/lib/model_mommy
+copying model_mommy/__init__.py -> build/lib/model_mommy
+copying model_mommy/timezone.py -> build/lib/model_mommy
+copying model_mommy/exceptions.py -> build/lib/model_mommy
+copying model_mommy/mock-img.jpeg -> build/lib/model_mommy
+copying model_mommy/mock_file.txt -> build/lib/model_mommy
+creating build/bdist.linux-x86_64
+creating build/bdist.linux-x86_64/egg
+creating build/bdist.linux-x86_64/egg/model_mommy
+copying build/lib/model_mommy/generators.py -> build/bdist.linux-x86_64/egg/model_mommy
+copying build/lib/model_mommy/recipe.py -> build/bdist.linux-x86_64/egg/model_mommy
+copying build/lib/model_mommy/mommy.py -> build/bdist.linux-x86_64/egg/model_mommy
+copying build/lib/model_mommy/mock_file.txt -> build/bdist.linux-x86_64/egg/model_mommy
+copying build/lib/model_mommy/__init__.py -> build/bdist.linux-x86_64/egg/model_mommy
+copying build/lib/model_mommy/timezone.py -> build/bdist.linux-x86_64/egg/model_mommy
+copying build/lib/model_mommy/mock-img.jpeg -> build/bdist.linux-x86_64/egg/model_mommy
+copying build/lib/model_mommy/exceptions.py -> build/bdist.linux-x86_64/egg/model_mommy
+byte-compiling build/bdist.linux-x86_64/egg/model_mommy/generators.py to generators.pyc
+byte-compiling build/bdist.linux-x86_64/egg/model_mommy/recipe.py to recipe.pyc
+byte-compiling build/bdist.linux-x86_64/egg/model_mommy/mommy.py to mommy.pyc
+byte-compiling build/bdist.linux-x86_64/egg/model_mommy/__init__.py to __init__.pyc
+byte-compiling build/bdist.linux-x86_64/egg/model_mommy/timezone.py to timezone.pyc
+byte-compiling build/bdist.linux-x86_64/egg/model_mommy/exceptions.py to exceptions.pyc
+creating build/bdist.linux-x86_64/egg/EGG-INFO
+copying model_mommy.egg-info/PKG-INFO -> build/bdist.linux-x86_64/egg/EGG-INFO
+copying model_mommy.egg-info/SOURCES.txt -> build/bdist.linux-x86_64/egg/EGG-INFO
+copying model_mommy.egg-info/dependency_links.txt -> build/bdist.linux-x86_64/egg/EGG-INFO
+copying model_mommy.egg-info/requires.txt -> build/bdist.linux-x86_64/egg/EGG-INFO
+copying model_mommy.egg-info/top_level.txt -> build/bdist.linux-x86_64/egg/EGG-INFO
+zip_safe flag not set; analyzing archive contents...
+model_mommy.generators: module references __file__
+model_mommy.mommy: module references __file__
+model_mommy.recipe: module MAY be using inspect.stack
+creating dist
+creating 'dist/model_mommy-1.2.4-py2.7.egg' and adding 'build/bdist.linux-x86_64/egg' to it
+removing 'build/bdist.linux-x86_64/egg' (and everything under it)
+Processing model_mommy-1.2.4-py2.7.egg
+creating /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/model_mommy-1.2.4-py2.7.egg
+Extracting model_mommy-1.2.4-py2.7.egg to /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages
+Adding model-mommy 1.2.4 to easy-install.pth file
+
+Installed /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/model_mommy-1.2.4-py2.7.egg
+Processing dependencies for model-mommy==1.2.4
+Searching for six==1.9.0
+Best match: six 1.9.0
+Adding six 1.9.0 to easy-install.pth file
+
+Using /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages
+Searching for Django==1.8.2
+Best match: Django 1.8.2
+Adding Django 1.8.2 to easy-install.pth file
+
+Using /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages
+Finished processing dependencies for model-mommy==1.2.4
+
+The following NEW packages will be INSTALLED:
+
+    django:     1.8.2-py27_0 
+    openssl:    1.0.1k-1     
+    pip:        7.0.3-py27_0 
+    python:     2.7.10-0     
+    readline:   6.2-2        
+    setuptools: 18.0.1-py27_0
+    six:        1.9.0-py27_0 
+    sqlite:     3.8.4.1-1    
+    system:     5.8-2        
+    tk:         8.5.18-0     
+    zlib:       1.2.8-0      
+
+Linking packages ...
+[                    ]|                                                  |   0%[openssl             ]|                                                  |   0%[readline            ]|####                                              |   9%[sqlite              ]|#########                                         |  18%[system              ]|#############                                     |  27%[tk                  ]|##################                                |  36%[zlib                ]|######################                            |  45%[django              ]|###########################                       |  54%[python              ]|###############################                   |  63%[setuptools          ]|####################################              |  72%[six                 ]|########################################          |  81%[pip                 ]|#############################################     |  90%[      COMPLETE      ]|##################################################| 100%
+Removing old work directory
+Source cache directory is: /home/ubuntu/miniconda/conda-bld/src_cache
+Found source in cache: model_mommy-1.2.4.tar.gz
+Extracting download
+Package: model_mommy-1.2.4-py_0
+source tree in: /home/ubuntu/miniconda/conda-bld/work/model_mommy-1.2.4
+found egg dir: /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/model_mommy-1.2.4-py2.7.egg
+number of files: 15
+Fixing permissions
+Fixing permissions
+BUILD END: model_mommy-1.2.4-py_0
+TEST START: model_mommy-1.2.4-py_0
+Fetching package metadata: ......
+
+WARNING: conda-build appears to be out of date. You have version 1.13.0 but the
+latest version is 1.14.1. Run
+
+conda update -n root conda-build
+
+to get the latest version.
+
+Error: No packages found in current linux-64 channels matching: tox

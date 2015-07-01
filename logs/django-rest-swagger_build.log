@@ -1,0 +1,43 @@
+Removing old build directory
+Removing old work directory
+BUILD START: django-rest-swagger-0.3.2-py_0
+Fetching package metadata: ......
+
+WARNING: conda-build appears to be out of date. You have version 1.13.0 but the
+latest version is 1.14.1. Run
+
+conda update -n root conda-build
+
+to get the latest version.
+
+Solving package specifications: ./home/ubuntu/miniconda/pkgs/djangorestframework-3.1.3-py_0/bin/.djangorestframework-pre-link.sh: line 2: /home/ubuntu/miniconda/envs/_build/bin/python: No such file or directory
+
+The following packages will be downloaded:
+
+    package                    |            build
+    ---------------------------|-----------------
+    djangorestframework-3.1.3  |             py_0         316 KB
+
+The following NEW packages will be INSTALLED:
+
+    django:              1.8.2-py27_0 
+    djangorestframework: 3.1.3-py_0   
+    docutils:            0.12-py27_0  
+    openssl:             1.0.1k-1     
+    pip:                 7.0.3-py27_0 
+    python:              2.7.10-0     
+    pyyaml:              3.11-py27_1  
+    readline:            6.2-2        
+    setuptools:          18.0.1-py27_0
+    sqlite:              3.8.4.1-1    
+    system:              5.8-2        
+    tk:                  8.5.18-0     
+    yaml:                0.1.6-0      
+    zlib:                1.2.8-0      
+
+Fetching packages ...
+djangorestfram   0% |                              | ETA:  --:--:--   0.00  B/sdjangorestfram   5% |#                              | ETA:  0:00:00  34.07 MB/sdjangorestfram  10% |###                            | ETA:  0:00:00  47.43 MB/sdjangorestfram  15% |####                           | ETA:  0:00:00  55.79 MB/sdjangorestfram  20% |######                         | ETA:  0:00:00  61.48 MB/sdjangorestfram  25% |#######                        | ETA:  0:00:00  65.60 MB/sdjangorestfram  30% |#########                      | ETA:  0:00:00  68.56 MB/sdjangorestfram  35% |##########                     | ETA:  0:00:00  70.97 MB/sdjangorestfram  40% |############                   | ETA:  0:00:00  71.90 MB/sdjangorestfram  45% |##############                 | ETA:  0:00:00  73.65 MB/sdjangorestfram  50% |###############                | ETA:  0:00:00  75.16 MB/sdjangorestfram  55% |#################              | ETA:  0:00:00  76.24 MB/sdjangorestfram  60% |##################             | ETA:  0:00:00  77.38 MB/sdjangorestfram  65% |####################           | ETA:  0:00:00  78.25 MB/sdjangorestfram  70% |#####################          | ETA:  0:00:00  78.99 MB/sdjangorestfram  76% |#######################        | ETA:  0:00:00  79.64 MB/sdjangorestfram  81% |#########################      | ETA:  0:00:00  80.29 MB/sdjangorestfram  86% |##########################     | ETA:  0:00:00  80.90 MB/sdjangorestfram  91% |############################   | ETA:  0:00:00  81.43 MB/sdjangorestfram  96% |#############################  | ETA:  0:00:00  81.86 MB/sdjangorestfram 100% |###############################| ETA:  0:00:00  81.51 MB/sdjangorestfram 100% |###############################| Time: 0:00:00  77.06 MB/s
+Extracting packages ...
+[                    ]|                                                  |   0%[djangorestframework ]|                                                  |   0%[      COMPLETE      ]|##################################################| 100%
+Linking packages ...
+[      COMPLETE      ]|                                                  |   0%[openssl             ]|                                                  |   0%[openssl             ]|                                                  |   0%[readline            ]|###                                               |   7%[sqlite              ]|#######                                           |  14%[system              ]|##########                                        |  21%[tk                  ]|##############                                    |  28%[yaml                ]|#################                                 |  35%[zlib                ]|#####################                             |  42%[django              ]|#########################                         |  50%[djangorestframework ]|############################                      |  57%Error: pre-link failed: djangorestframework-3.1.3-py_0

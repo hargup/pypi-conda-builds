@@ -1,0 +1,1275 @@
+Removing old build directory
+Removing old work directory
+BUILD START: django-localflavor-1.1-py_0
+Fetching package metadata: ......
+
+WARNING: conda-build appears to be out of date. You have version 1.13.0 but the
+latest version is 1.14.1. Run
+
+conda update -n root conda-build
+
+to get the latest version.
+
+Solving package specifications: .+ /home/ubuntu/miniconda/envs/_build/bin/python setup.py install
+running install
+running bdist_egg
+running egg_info
+writing django_localflavor.egg-info/PKG-INFO
+writing top-level names to django_localflavor.egg-info/top_level.txt
+writing dependency_links to django_localflavor.egg-info/dependency_links.txt
+reading manifest file 'django_localflavor.egg-info/SOURCES.txt'
+reading manifest template 'MANIFEST.in'
+warning: no files found matching '*.txt' under directory 'requirements'
+writing manifest file 'django_localflavor.egg-info/SOURCES.txt'
+installing library code to build/bdist.linux-x86_64/egg
+running install_lib
+running build_py
+creating build
+creating build/lib
+creating build/lib/localflavor
+copying localflavor/__init__.py -> build/lib/localflavor
+copying localflavor/models.py -> build/lib/localflavor
+creating build/lib/localflavor/uy
+copying localflavor/uy/util.py -> build/lib/localflavor/uy
+copying localflavor/uy/forms.py -> build/lib/localflavor/uy
+copying localflavor/uy/__init__.py -> build/lib/localflavor/uy
+copying localflavor/uy/uy_departments.py -> build/lib/localflavor/uy
+creating build/lib/localflavor/de
+copying localflavor/de/de_states.py -> build/lib/localflavor/de
+copying localflavor/de/forms.py -> build/lib/localflavor/de
+copying localflavor/de/__init__.py -> build/lib/localflavor/de
+creating build/lib/localflavor/it
+copying localflavor/it/util.py -> build/lib/localflavor/it
+copying localflavor/it/it_region.py -> build/lib/localflavor/it
+copying localflavor/it/forms.py -> build/lib/localflavor/it
+copying localflavor/it/__init__.py -> build/lib/localflavor/it
+copying localflavor/it/it_province.py -> build/lib/localflavor/it
+creating build/lib/localflavor/se
+copying localflavor/se/utils.py -> build/lib/localflavor/se
+copying localflavor/se/se_counties.py -> build/lib/localflavor/se
+copying localflavor/se/forms.py -> build/lib/localflavor/se
+copying localflavor/se/__init__.py -> build/lib/localflavor/se
+creating build/lib/localflavor/mk
+copying localflavor/mk/forms.py -> build/lib/localflavor/mk
+copying localflavor/mk/mk_choices.py -> build/lib/localflavor/mk
+copying localflavor/mk/__init__.py -> build/lib/localflavor/mk
+copying localflavor/mk/models.py -> build/lib/localflavor/mk
+creating build/lib/localflavor/gb
+copying localflavor/gb/gb_regions.py -> build/lib/localflavor/gb
+copying localflavor/gb/forms.py -> build/lib/localflavor/gb
+copying localflavor/gb/__init__.py -> build/lib/localflavor/gb
+creating build/lib/localflavor/pk
+copying localflavor/pk/pk_states.py -> build/lib/localflavor/pk
+copying localflavor/pk/forms.py -> build/lib/localflavor/pk
+copying localflavor/pk/__init__.py -> build/lib/localflavor/pk
+copying localflavor/pk/models.py -> build/lib/localflavor/pk
+creating build/lib/localflavor/no
+copying localflavor/no/no_municipalities.py -> build/lib/localflavor/no
+copying localflavor/no/forms.py -> build/lib/localflavor/no
+copying localflavor/no/__init__.py -> build/lib/localflavor/no
+creating build/lib/localflavor/ar
+copying localflavor/ar/ar_provinces.py -> build/lib/localflavor/ar
+copying localflavor/ar/forms.py -> build/lib/localflavor/ar
+copying localflavor/ar/__init__.py -> build/lib/localflavor/ar
+creating build/lib/localflavor/mx
+copying localflavor/mx/mx_states.py -> build/lib/localflavor/mx
+copying localflavor/mx/forms.py -> build/lib/localflavor/mx
+copying localflavor/mx/__init__.py -> build/lib/localflavor/mx
+copying localflavor/mx/models.py -> build/lib/localflavor/mx
+creating build/lib/localflavor/fi
+copying localflavor/fi/fi_municipalities.py -> build/lib/localflavor/fi
+copying localflavor/fi/forms.py -> build/lib/localflavor/fi
+copying localflavor/fi/__init__.py -> build/lib/localflavor/fi
+creating build/lib/localflavor/pe
+copying localflavor/pe/forms.py -> build/lib/localflavor/pe
+copying localflavor/pe/__init__.py -> build/lib/localflavor/pe
+copying localflavor/pe/pe_region.py -> build/lib/localflavor/pe
+creating build/lib/localflavor/cl
+copying localflavor/cl/cl_regions.py -> build/lib/localflavor/cl
+copying localflavor/cl/forms.py -> build/lib/localflavor/cl
+copying localflavor/cl/__init__.py -> build/lib/localflavor/cl
+creating build/lib/localflavor/jp
+copying localflavor/jp/jp_prefectures.py -> build/lib/localflavor/jp
+copying localflavor/jp/forms.py -> build/lib/localflavor/jp
+copying localflavor/jp/__init__.py -> build/lib/localflavor/jp
+creating build/lib/localflavor/ec
+copying localflavor/ec/ec_provinces.py -> build/lib/localflavor/ec
+copying localflavor/ec/forms.py -> build/lib/localflavor/ec
+copying localflavor/ec/__init__.py -> build/lib/localflavor/ec
+creating build/lib/localflavor/za
+copying localflavor/za/za_provinces.py -> build/lib/localflavor/za
+copying localflavor/za/forms.py -> build/lib/localflavor/za
+copying localflavor/za/__init__.py -> build/lib/localflavor/za
+creating build/lib/localflavor/is_
+copying localflavor/is_/is_postalcodes.py -> build/lib/localflavor/is_
+copying localflavor/is_/forms.py -> build/lib/localflavor/is_
+copying localflavor/is_/__init__.py -> build/lib/localflavor/is_
+creating build/lib/localflavor/br
+copying localflavor/br/br_states.py -> build/lib/localflavor/br
+copying localflavor/br/forms.py -> build/lib/localflavor/br
+copying localflavor/br/__init__.py -> build/lib/localflavor/br
+copying localflavor/br/models.py -> build/lib/localflavor/br
+creating build/lib/localflavor/cz
+copying localflavor/cz/cz_regions.py -> build/lib/localflavor/cz
+copying localflavor/cz/forms.py -> build/lib/localflavor/cz
+copying localflavor/cz/__init__.py -> build/lib/localflavor/cz
+creating build/lib/localflavor/es
+copying localflavor/es/forms.py -> build/lib/localflavor/es
+copying localflavor/es/__init__.py -> build/lib/localflavor/es
+copying localflavor/es/es_regions.py -> build/lib/localflavor/es
+copying localflavor/es/es_provinces.py -> build/lib/localflavor/es
+creating build/lib/localflavor/au
+copying localflavor/au/au_states.py -> build/lib/localflavor/au
+copying localflavor/au/forms.py -> build/lib/localflavor/au
+copying localflavor/au/__init__.py -> build/lib/localflavor/au
+copying localflavor/au/models.py -> build/lib/localflavor/au
+creating build/lib/localflavor/generic
+copying localflavor/generic/checksums.py -> build/lib/localflavor/generic
+copying localflavor/generic/validators.py -> build/lib/localflavor/generic
+copying localflavor/generic/forms.py -> build/lib/localflavor/generic
+copying localflavor/generic/__init__.py -> build/lib/localflavor/generic
+copying localflavor/generic/models.py -> build/lib/localflavor/generic
+creating build/lib/localflavor/pt
+copying localflavor/pt/forms.py -> build/lib/localflavor/pt
+copying localflavor/pt/__init__.py -> build/lib/localflavor/pt
+copying localflavor/pt/pt_regions.py -> build/lib/localflavor/pt
+creating build/lib/localflavor/il
+copying localflavor/il/forms.py -> build/lib/localflavor/il
+copying localflavor/il/__init__.py -> build/lib/localflavor/il
+creating build/lib/localflavor/co
+copying localflavor/co/co_departments.py -> build/lib/localflavor/co
+copying localflavor/co/forms.py -> build/lib/localflavor/co
+copying localflavor/co/__init__.py -> build/lib/localflavor/co
+creating build/lib/localflavor/hr
+copying localflavor/hr/hr_choices.py -> build/lib/localflavor/hr
+copying localflavor/hr/forms.py -> build/lib/localflavor/hr
+copying localflavor/hr/__init__.py -> build/lib/localflavor/hr
+creating build/lib/localflavor/at
+copying localflavor/at/at_states.py -> build/lib/localflavor/at
+copying localflavor/at/forms.py -> build/lib/localflavor/at
+copying localflavor/at/__init__.py -> build/lib/localflavor/at
+creating build/lib/localflavor/nl
+copying localflavor/nl/nl_provinces.py -> build/lib/localflavor/nl
+copying localflavor/nl/forms.py -> build/lib/localflavor/nl
+copying localflavor/nl/__init__.py -> build/lib/localflavor/nl
+copying localflavor/nl/models.py -> build/lib/localflavor/nl
+creating build/lib/localflavor/py_
+copying localflavor/py_/forms.py -> build/lib/localflavor/py_
+copying localflavor/py_/__init__.py -> build/lib/localflavor/py_
+copying localflavor/py_/py_department.py -> build/lib/localflavor/py_
+creating build/lib/localflavor/fr
+copying localflavor/fr/forms.py -> build/lib/localflavor/fr
+copying localflavor/fr/__init__.py -> build/lib/localflavor/fr
+copying localflavor/fr/fr_department.py -> build/lib/localflavor/fr
+copying localflavor/fr/fr_region.py -> build/lib/localflavor/fr
+copying localflavor/fr/models.py -> build/lib/localflavor/fr
+creating build/lib/localflavor/sk
+copying localflavor/sk/sk_regions.py -> build/lib/localflavor/sk
+copying localflavor/sk/sk_districts.py -> build/lib/localflavor/sk
+copying localflavor/sk/forms.py -> build/lib/localflavor/sk
+copying localflavor/sk/__init__.py -> build/lib/localflavor/sk
+creating build/lib/localflavor/sg
+copying localflavor/sg/forms.py -> build/lib/localflavor/sg
+copying localflavor/sg/__init__.py -> build/lib/localflavor/sg
+creating build/lib/localflavor/hk
+copying localflavor/hk/forms.py -> build/lib/localflavor/hk
+copying localflavor/hk/__init__.py -> build/lib/localflavor/hk
+creating build/lib/localflavor/ie
+copying localflavor/ie/forms.py -> build/lib/localflavor/ie
+copying localflavor/ie/__init__.py -> build/lib/localflavor/ie
+copying localflavor/ie/ie_counties.py -> build/lib/localflavor/ie
+creating build/lib/localflavor/ca
+copying localflavor/ca/ca_provinces.py -> build/lib/localflavor/ca
+copying localflavor/ca/forms.py -> build/lib/localflavor/ca
+copying localflavor/ca/__init__.py -> build/lib/localflavor/ca
+creating build/lib/localflavor/ro
+copying localflavor/ro/forms.py -> build/lib/localflavor/ro
+copying localflavor/ro/__init__.py -> build/lib/localflavor/ro
+copying localflavor/ro/ro_counties.py -> build/lib/localflavor/ro
+creating build/lib/localflavor/be
+copying localflavor/be/be_regions.py -> build/lib/localflavor/be
+copying localflavor/be/forms.py -> build/lib/localflavor/be
+copying localflavor/be/be_provinces.py -> build/lib/localflavor/be
+copying localflavor/be/__init__.py -> build/lib/localflavor/be
+creating build/lib/localflavor/lv
+copying localflavor/lv/lv_choices.py -> build/lib/localflavor/lv
+copying localflavor/lv/forms.py -> build/lib/localflavor/lv
+copying localflavor/lv/__init__.py -> build/lib/localflavor/lv
+creating build/lib/localflavor/gr
+copying localflavor/gr/forms.py -> build/lib/localflavor/gr
+copying localflavor/gr/__init__.py -> build/lib/localflavor/gr
+creating build/lib/localflavor/ee
+copying localflavor/ee/forms.py -> build/lib/localflavor/ee
+copying localflavor/ee/__init__.py -> build/lib/localflavor/ee
+copying localflavor/ee/ee_counties.py -> build/lib/localflavor/ee
+creating build/lib/localflavor/kw
+copying localflavor/kw/forms.py -> build/lib/localflavor/kw
+copying localflavor/kw/__init__.py -> build/lib/localflavor/kw
+creating build/lib/localflavor/dk
+copying localflavor/dk/dk_municipalities.py -> build/lib/localflavor/dk
+copying localflavor/dk/dk_postalcodes.py -> build/lib/localflavor/dk
+copying localflavor/dk/forms.py -> build/lib/localflavor/dk
+copying localflavor/dk/__init__.py -> build/lib/localflavor/dk
+creating build/lib/localflavor/in_
+copying localflavor/in_/forms.py -> build/lib/localflavor/in_
+copying localflavor/in_/__init__.py -> build/lib/localflavor/in_
+copying localflavor/in_/in_states.py -> build/lib/localflavor/in_
+copying localflavor/in_/models.py -> build/lib/localflavor/in_
+creating build/lib/localflavor/nz
+copying localflavor/nz/nz_councils.py -> build/lib/localflavor/nz
+copying localflavor/nz/nz_regions.py -> build/lib/localflavor/nz
+copying localflavor/nz/nz_provinces.py -> build/lib/localflavor/nz
+copying localflavor/nz/forms.py -> build/lib/localflavor/nz
+copying localflavor/nz/__init__.py -> build/lib/localflavor/nz
+copying localflavor/nz/models.py -> build/lib/localflavor/nz
+creating build/lib/localflavor/lt
+copying localflavor/lt/lt_choices.py -> build/lib/localflavor/lt
+copying localflavor/lt/forms.py -> build/lib/localflavor/lt
+copying localflavor/lt/__init__.py -> build/lib/localflavor/lt
+creating build/lib/localflavor/cn
+copying localflavor/cn/cn_provinces.py -> build/lib/localflavor/cn
+copying localflavor/cn/forms.py -> build/lib/localflavor/cn
+copying localflavor/cn/__init__.py -> build/lib/localflavor/cn
+creating build/lib/localflavor/ch
+copying localflavor/ch/ch_states.py -> build/lib/localflavor/ch
+copying localflavor/ch/forms.py -> build/lib/localflavor/ch
+copying localflavor/ch/__init__.py -> build/lib/localflavor/ch
+creating build/lib/localflavor/id_
+copying localflavor/id_/id_choices.py -> build/lib/localflavor/id_
+copying localflavor/id_/forms.py -> build/lib/localflavor/id_
+copying localflavor/id_/__init__.py -> build/lib/localflavor/id_
+creating build/lib/localflavor/tr
+copying localflavor/tr/tr_provinces.py -> build/lib/localflavor/tr
+copying localflavor/tr/forms.py -> build/lib/localflavor/tr
+copying localflavor/tr/__init__.py -> build/lib/localflavor/tr
+creating build/lib/localflavor/mt
+copying localflavor/mt/forms.py -> build/lib/localflavor/mt
+copying localflavor/mt/__init__.py -> build/lib/localflavor/mt
+creating build/lib/localflavor/us
+copying localflavor/us/us_states.py -> build/lib/localflavor/us
+copying localflavor/us/forms.py -> build/lib/localflavor/us
+copying localflavor/us/__init__.py -> build/lib/localflavor/us
+copying localflavor/us/models.py -> build/lib/localflavor/us
+creating build/lib/localflavor/pl
+copying localflavor/pl/pl_voivodeships.py -> build/lib/localflavor/pl
+copying localflavor/pl/pl_administrativeunits.py -> build/lib/localflavor/pl
+copying localflavor/pl/forms.py -> build/lib/localflavor/pl
+copying localflavor/pl/__init__.py -> build/lib/localflavor/pl
+creating build/lib/localflavor/ru
+copying localflavor/ru/ru_regions.py -> build/lib/localflavor/ru
+copying localflavor/ru/forms.py -> build/lib/localflavor/ru
+copying localflavor/ru/__init__.py -> build/lib/localflavor/ru
+creating build/lib/localflavor/si
+copying localflavor/si/forms.py -> build/lib/localflavor/si
+copying localflavor/si/__init__.py -> build/lib/localflavor/si
+copying localflavor/si/si_postalcodes.py -> build/lib/localflavor/si
+creating build/lib/localflavor/generic/countries
+copying localflavor/generic/countries/iso_3166.py -> build/lib/localflavor/generic/countries
+copying localflavor/generic/countries/sepa.py -> build/lib/localflavor/generic/countries
+copying localflavor/generic/countries/__init__.py -> build/lib/localflavor/generic/countries
+creating build/lib/localflavor/locale
+creating build/lib/localflavor/locale/de
+creating build/lib/localflavor/locale/de/LC_MESSAGES
+copying localflavor/locale/de/LC_MESSAGES/django.mo -> build/lib/localflavor/locale/de/LC_MESSAGES
+copying localflavor/locale/de/LC_MESSAGES/django.po -> build/lib/localflavor/locale/de/LC_MESSAGES
+creating build/lib/localflavor/locale/it
+creating build/lib/localflavor/locale/it/LC_MESSAGES
+copying localflavor/locale/it/LC_MESSAGES/django.mo -> build/lib/localflavor/locale/it/LC_MESSAGES
+copying localflavor/locale/it/LC_MESSAGES/django.po -> build/lib/localflavor/locale/it/LC_MESSAGES
+creating build/lib/localflavor/locale/es_MX
+creating build/lib/localflavor/locale/es_MX/LC_MESSAGES
+copying localflavor/locale/es_MX/LC_MESSAGES/django.mo -> build/lib/localflavor/locale/es_MX/LC_MESSAGES
+copying localflavor/locale/es_MX/LC_MESSAGES/django.po -> build/lib/localflavor/locale/es_MX/LC_MESSAGES
+creating build/lib/localflavor/locale/zh_TW
+creating build/lib/localflavor/locale/zh_TW/LC_MESSAGES
+copying localflavor/locale/zh_TW/LC_MESSAGES/django.mo -> build/lib/localflavor/locale/zh_TW/LC_MESSAGES
+copying localflavor/locale/zh_TW/LC_MESSAGES/django.po -> build/lib/localflavor/locale/zh_TW/LC_MESSAGES
+creating build/lib/localflavor/locale/es_AR
+creating build/lib/localflavor/locale/es_AR/LC_MESSAGES
+copying localflavor/locale/es_AR/LC_MESSAGES/django.mo -> build/lib/localflavor/locale/es_AR/LC_MESSAGES
+copying localflavor/locale/es_AR/LC_MESSAGES/django.po -> build/lib/localflavor/locale/es_AR/LC_MESSAGES
+creating build/lib/localflavor/locale/ja
+creating build/lib/localflavor/locale/ja/LC_MESSAGES
+copying localflavor/locale/ja/LC_MESSAGES/django.mo -> build/lib/localflavor/locale/ja/LC_MESSAGES
+copying localflavor/locale/ja/LC_MESSAGES/django.po -> build/lib/localflavor/locale/ja/LC_MESSAGES
+creating build/lib/localflavor/locale/cs
+creating build/lib/localflavor/locale/cs/LC_MESSAGES
+copying localflavor/locale/cs/LC_MESSAGES/django.mo -> build/lib/localflavor/locale/cs/LC_MESSAGES
+copying localflavor/locale/cs/LC_MESSAGES/django.po -> build/lib/localflavor/locale/cs/LC_MESSAGES
+creating build/lib/localflavor/locale/mk
+creating build/lib/localflavor/locale/mk/LC_MESSAGES
+copying localflavor/locale/mk/LC_MESSAGES/django.mo -> build/lib/localflavor/locale/mk/LC_MESSAGES
+copying localflavor/locale/mk/LC_MESSAGES/django.po -> build/lib/localflavor/locale/mk/LC_MESSAGES
+creating build/lib/localflavor/locale/sl
+creating build/lib/localflavor/locale/sl/LC_MESSAGES
+copying localflavor/locale/sl/LC_MESSAGES/django.mo -> build/lib/localflavor/locale/sl/LC_MESSAGES
+copying localflavor/locale/sl/LC_MESSAGES/django.po -> build/lib/localflavor/locale/sl/LC_MESSAGES
+creating build/lib/localflavor/locale/sv
+creating build/lib/localflavor/locale/sv/LC_MESSAGES
+copying localflavor/locale/sv/LC_MESSAGES/django.mo -> build/lib/localflavor/locale/sv/LC_MESSAGES
+copying localflavor/locale/sv/LC_MESSAGES/django.po -> build/lib/localflavor/locale/sv/LC_MESSAGES
+creating build/lib/localflavor/locale/eo
+creating build/lib/localflavor/locale/eo/LC_MESSAGES
+copying localflavor/locale/eo/LC_MESSAGES/django.mo -> build/lib/localflavor/locale/eo/LC_MESSAGES
+copying localflavor/locale/eo/LC_MESSAGES/django.po -> build/lib/localflavor/locale/eo/LC_MESSAGES
+creating build/lib/localflavor/locale/ar
+creating build/lib/localflavor/locale/ar/LC_MESSAGES
+copying localflavor/locale/ar/LC_MESSAGES/django.mo -> build/lib/localflavor/locale/ar/LC_MESSAGES
+copying localflavor/locale/ar/LC_MESSAGES/django.po -> build/lib/localflavor/locale/ar/LC_MESSAGES
+creating build/lib/localflavor/locale/bn
+creating build/lib/localflavor/locale/bn/LC_MESSAGES
+copying localflavor/locale/bn/LC_MESSAGES/django.mo -> build/lib/localflavor/locale/bn/LC_MESSAGES
+copying localflavor/locale/bn/LC_MESSAGES/django.po -> build/lib/localflavor/locale/bn/LC_MESSAGES
+creating build/lib/localflavor/locale/fi
+creating build/lib/localflavor/locale/fi/LC_MESSAGES
+copying localflavor/locale/fi/LC_MESSAGES/django.mo -> build/lib/localflavor/locale/fi/LC_MESSAGES
+copying localflavor/locale/fi/LC_MESSAGES/django.po -> build/lib/localflavor/locale/fi/LC_MESSAGES
+creating build/lib/localflavor/locale/ka
+creating build/lib/localflavor/locale/ka/LC_MESSAGES
+copying localflavor/locale/ka/LC_MESSAGES/django.mo -> build/lib/localflavor/locale/ka/LC_MESSAGES
+copying localflavor/locale/ka/LC_MESSAGES/django.po -> build/lib/localflavor/locale/ka/LC_MESSAGES
+creating build/lib/localflavor/locale/ta
+creating build/lib/localflavor/locale/ta/LC_MESSAGES
+copying localflavor/locale/ta/LC_MESSAGES/django.mo -> build/lib/localflavor/locale/ta/LC_MESSAGES
+copying localflavor/locale/ta/LC_MESSAGES/django.po -> build/lib/localflavor/locale/ta/LC_MESSAGES
+creating build/lib/localflavor/locale/km
+creating build/lib/localflavor/locale/km/LC_MESSAGES
+copying localflavor/locale/km/LC_MESSAGES/django.mo -> build/lib/localflavor/locale/km/LC_MESSAGES
+copying localflavor/locale/km/LC_MESSAGES/django.po -> build/lib/localflavor/locale/km/LC_MESSAGES
+creating build/lib/localflavor/locale/ga
+creating build/lib/localflavor/locale/ga/LC_MESSAGES
+copying localflavor/locale/ga/LC_MESSAGES/django.mo -> build/lib/localflavor/locale/ga/LC_MESSAGES
+copying localflavor/locale/ga/LC_MESSAGES/django.po -> build/lib/localflavor/locale/ga/LC_MESSAGES
+creating build/lib/localflavor/locale/zh_CN
+creating build/lib/localflavor/locale/zh_CN/LC_MESSAGES
+copying localflavor/locale/zh_CN/LC_MESSAGES/django.mo -> build/lib/localflavor/locale/zh_CN/LC_MESSAGES
+copying localflavor/locale/zh_CN/LC_MESSAGES/django.po -> build/lib/localflavor/locale/zh_CN/LC_MESSAGES
+creating build/lib/localflavor/locale/az
+creating build/lib/localflavor/locale/az/LC_MESSAGES
+copying localflavor/locale/az/LC_MESSAGES/django.mo -> build/lib/localflavor/locale/az/LC_MESSAGES
+copying localflavor/locale/az/LC_MESSAGES/django.po -> build/lib/localflavor/locale/az/LC_MESSAGES
+creating build/lib/localflavor/locale/vi
+creating build/lib/localflavor/locale/vi/LC_MESSAGES
+copying localflavor/locale/vi/LC_MESSAGES/django.mo -> build/lib/localflavor/locale/vi/LC_MESSAGES
+copying localflavor/locale/vi/LC_MESSAGES/django.po -> build/lib/localflavor/locale/vi/LC_MESSAGES
+creating build/lib/localflavor/locale/te
+creating build/lib/localflavor/locale/te/LC_MESSAGES
+copying localflavor/locale/te/LC_MESSAGES/django.mo -> build/lib/localflavor/locale/te/LC_MESSAGES
+copying localflavor/locale/te/LC_MESSAGES/django.po -> build/lib/localflavor/locale/te/LC_MESSAGES
+creating build/lib/localflavor/locale/es
+creating build/lib/localflavor/locale/es/LC_MESSAGES
+copying localflavor/locale/es/LC_MESSAGES/django.mo -> build/lib/localflavor/locale/es/LC_MESSAGES
+copying localflavor/locale/es/LC_MESSAGES/django.po -> build/lib/localflavor/locale/es/LC_MESSAGES
+creating build/lib/localflavor/locale/en_GB
+creating build/lib/localflavor/locale/en_GB/LC_MESSAGES
+copying localflavor/locale/en_GB/LC_MESSAGES/django.mo -> build/lib/localflavor/locale/en_GB/LC_MESSAGES
+copying localflavor/locale/en_GB/LC_MESSAGES/django.po -> build/lib/localflavor/locale/en_GB/LC_MESSAGES
+creating build/lib/localflavor/locale/is
+creating build/lib/localflavor/locale/is/LC_MESSAGES
+copying localflavor/locale/is/LC_MESSAGES/django.mo -> build/lib/localflavor/locale/is/LC_MESSAGES
+copying localflavor/locale/is/LC_MESSAGES/django.po -> build/lib/localflavor/locale/is/LC_MESSAGES
+creating build/lib/localflavor/locale/pt
+creating build/lib/localflavor/locale/pt/LC_MESSAGES
+copying localflavor/locale/pt/LC_MESSAGES/django.mo -> build/lib/localflavor/locale/pt/LC_MESSAGES
+copying localflavor/locale/pt/LC_MESSAGES/django.po -> build/lib/localflavor/locale/pt/LC_MESSAGES
+creating build/lib/localflavor/locale/en
+creating build/lib/localflavor/locale/en/LC_MESSAGES
+copying localflavor/locale/en/LC_MESSAGES/django.mo -> build/lib/localflavor/locale/en/LC_MESSAGES
+copying localflavor/locale/en/LC_MESSAGES/django.po -> build/lib/localflavor/locale/en/LC_MESSAGES
+creating build/lib/localflavor/locale/hr
+creating build/lib/localflavor/locale/hr/LC_MESSAGES
+copying localflavor/locale/hr/LC_MESSAGES/django.mo -> build/lib/localflavor/locale/hr/LC_MESSAGES
+copying localflavor/locale/hr/LC_MESSAGES/django.po -> build/lib/localflavor/locale/hr/LC_MESSAGES
+creating build/lib/localflavor/locale/nl
+creating build/lib/localflavor/locale/nl/LC_MESSAGES
+copying localflavor/locale/nl/LC_MESSAGES/django.mo -> build/lib/localflavor/locale/nl/LC_MESSAGES
+copying localflavor/locale/nl/LC_MESSAGES/django.po -> build/lib/localflavor/locale/nl/LC_MESSAGES
+creating build/lib/localflavor/locale/fr
+creating build/lib/localflavor/locale/fr/LC_MESSAGES
+copying localflavor/locale/fr/LC_MESSAGES/django.mo -> build/lib/localflavor/locale/fr/LC_MESSAGES
+copying localflavor/locale/fr/LC_MESSAGES/django.po -> build/lib/localflavor/locale/fr/LC_MESSAGES
+creating build/lib/localflavor/locale/sk
+creating build/lib/localflavor/locale/sk/LC_MESSAGES
+copying localflavor/locale/sk/LC_MESSAGES/django.mo -> build/lib/localflavor/locale/sk/LC_MESSAGES
+copying localflavor/locale/sk/LC_MESSAGES/django.po -> build/lib/localflavor/locale/sk/LC_MESSAGES
+creating build/lib/localflavor/locale/fa
+creating build/lib/localflavor/locale/fa/LC_MESSAGES
+copying localflavor/locale/fa/LC_MESSAGES/django.mo -> build/lib/localflavor/locale/fa/LC_MESSAGES
+copying localflavor/locale/fa/LC_MESSAGES/django.po -> build/lib/localflavor/locale/fa/LC_MESSAGES
+creating build/lib/localflavor/locale/bs
+creating build/lib/localflavor/locale/bs/LC_MESSAGES
+copying localflavor/locale/bs/LC_MESSAGES/django.mo -> build/lib/localflavor/locale/bs/LC_MESSAGES
+copying localflavor/locale/bs/LC_MESSAGES/django.po -> build/lib/localflavor/locale/bs/LC_MESSAGES
+creating build/lib/localflavor/locale/eu
+creating build/lib/localflavor/locale/eu/LC_MESSAGES
+copying localflavor/locale/eu/LC_MESSAGES/django.mo -> build/lib/localflavor/locale/eu/LC_MESSAGES
+copying localflavor/locale/eu/LC_MESSAGES/django.po -> build/lib/localflavor/locale/eu/LC_MESSAGES
+creating build/lib/localflavor/locale/ca
+creating build/lib/localflavor/locale/ca/LC_MESSAGES
+copying localflavor/locale/ca/LC_MESSAGES/django.mo -> build/lib/localflavor/locale/ca/LC_MESSAGES
+copying localflavor/locale/ca/LC_MESSAGES/django.po -> build/lib/localflavor/locale/ca/LC_MESSAGES
+creating build/lib/localflavor/locale/da
+creating build/lib/localflavor/locale/da/LC_MESSAGES
+copying localflavor/locale/da/LC_MESSAGES/django.mo -> build/lib/localflavor/locale/da/LC_MESSAGES
+copying localflavor/locale/da/LC_MESSAGES/django.po -> build/lib/localflavor/locale/da/LC_MESSAGES
+creating build/lib/localflavor/locale/sr
+creating build/lib/localflavor/locale/sr/LC_MESSAGES
+copying localflavor/locale/sr/LC_MESSAGES/django.mo -> build/lib/localflavor/locale/sr/LC_MESSAGES
+copying localflavor/locale/sr/LC_MESSAGES/django.po -> build/lib/localflavor/locale/sr/LC_MESSAGES
+creating build/lib/localflavor/locale/ko
+creating build/lib/localflavor/locale/ko/LC_MESSAGES
+copying localflavor/locale/ko/LC_MESSAGES/django.mo -> build/lib/localflavor/locale/ko/LC_MESSAGES
+copying localflavor/locale/ko/LC_MESSAGES/django.po -> build/lib/localflavor/locale/ko/LC_MESSAGES
+creating build/lib/localflavor/locale/sr_Latn
+creating build/lib/localflavor/locale/sr_Latn/LC_MESSAGES
+copying localflavor/locale/sr_Latn/LC_MESSAGES/django.mo -> build/lib/localflavor/locale/sr_Latn/LC_MESSAGES
+copying localflavor/locale/sr_Latn/LC_MESSAGES/django.po -> build/lib/localflavor/locale/sr_Latn/LC_MESSAGES
+creating build/lib/localflavor/locale/pa
+creating build/lib/localflavor/locale/pa/LC_MESSAGES
+copying localflavor/locale/pa/LC_MESSAGES/django.mo -> build/lib/localflavor/locale/pa/LC_MESSAGES
+copying localflavor/locale/pa/LC_MESSAGES/django.po -> build/lib/localflavor/locale/pa/LC_MESSAGES
+creating build/lib/localflavor/locale/kn
+creating build/lib/localflavor/locale/kn/LC_MESSAGES
+copying localflavor/locale/kn/LC_MESSAGES/django.mo -> build/lib/localflavor/locale/kn/LC_MESSAGES
+copying localflavor/locale/kn/LC_MESSAGES/django.po -> build/lib/localflavor/locale/kn/LC_MESSAGES
+creating build/lib/localflavor/locale/ro
+creating build/lib/localflavor/locale/ro/LC_MESSAGES
+copying localflavor/locale/ro/LC_MESSAGES/django.mo -> build/lib/localflavor/locale/ro/LC_MESSAGES
+copying localflavor/locale/ro/LC_MESSAGES/django.po -> build/lib/localflavor/locale/ro/LC_MESSAGES
+creating build/lib/localflavor/locale/el
+creating build/lib/localflavor/locale/el/LC_MESSAGES
+copying localflavor/locale/el/LC_MESSAGES/django.mo -> build/lib/localflavor/locale/el/LC_MESSAGES
+copying localflavor/locale/el/LC_MESSAGES/django.po -> build/lib/localflavor/locale/el/LC_MESSAGES
+creating build/lib/localflavor/locale/lv
+creating build/lib/localflavor/locale/lv/LC_MESSAGES
+copying localflavor/locale/lv/LC_MESSAGES/django.mo -> build/lib/localflavor/locale/lv/LC_MESSAGES
+copying localflavor/locale/lv/LC_MESSAGES/django.po -> build/lib/localflavor/locale/lv/LC_MESSAGES
+creating build/lib/localflavor/locale/mn
+creating build/lib/localflavor/locale/mn/LC_MESSAGES
+copying localflavor/locale/mn/LC_MESSAGES/django.mo -> build/lib/localflavor/locale/mn/LC_MESSAGES
+copying localflavor/locale/mn/LC_MESSAGES/django.po -> build/lib/localflavor/locale/mn/LC_MESSAGES
+creating build/lib/localflavor/locale/uk
+creating build/lib/localflavor/locale/uk/LC_MESSAGES
+copying localflavor/locale/uk/LC_MESSAGES/django.mo -> build/lib/localflavor/locale/uk/LC_MESSAGES
+copying localflavor/locale/uk/LC_MESSAGES/django.po -> build/lib/localflavor/locale/uk/LC_MESSAGES
+creating build/lib/localflavor/locale/nn
+creating build/lib/localflavor/locale/nn/LC_MESSAGES
+copying localflavor/locale/nn/LC_MESSAGES/django.mo -> build/lib/localflavor/locale/nn/LC_MESSAGES
+copying localflavor/locale/nn/LC_MESSAGES/django.po -> build/lib/localflavor/locale/nn/LC_MESSAGES
+creating build/lib/localflavor/locale/id
+creating build/lib/localflavor/locale/id/LC_MESSAGES
+copying localflavor/locale/id/LC_MESSAGES/django.mo -> build/lib/localflavor/locale/id/LC_MESSAGES
+copying localflavor/locale/id/LC_MESSAGES/django.po -> build/lib/localflavor/locale/id/LC_MESSAGES
+creating build/lib/localflavor/locale/lt
+creating build/lib/localflavor/locale/lt/LC_MESSAGES
+copying localflavor/locale/lt/LC_MESSAGES/django.mo -> build/lib/localflavor/locale/lt/LC_MESSAGES
+copying localflavor/locale/lt/LC_MESSAGES/django.po -> build/lib/localflavor/locale/lt/LC_MESSAGES
+creating build/lib/localflavor/locale/hu
+creating build/lib/localflavor/locale/hu/LC_MESSAGES
+copying localflavor/locale/hu/LC_MESSAGES/django.mo -> build/lib/localflavor/locale/hu/LC_MESSAGES
+copying localflavor/locale/hu/LC_MESSAGES/django.po -> build/lib/localflavor/locale/hu/LC_MESSAGES
+creating build/lib/localflavor/locale/th
+creating build/lib/localflavor/locale/th/LC_MESSAGES
+copying localflavor/locale/th/LC_MESSAGES/django.mo -> build/lib/localflavor/locale/th/LC_MESSAGES
+copying localflavor/locale/th/LC_MESSAGES/django.po -> build/lib/localflavor/locale/th/LC_MESSAGES
+creating build/lib/localflavor/locale/gl
+creating build/lib/localflavor/locale/gl/LC_MESSAGES
+copying localflavor/locale/gl/LC_MESSAGES/django.mo -> build/lib/localflavor/locale/gl/LC_MESSAGES
+copying localflavor/locale/gl/LC_MESSAGES/django.po -> build/lib/localflavor/locale/gl/LC_MESSAGES
+creating build/lib/localflavor/locale/hi
+creating build/lib/localflavor/locale/hi/LC_MESSAGES
+copying localflavor/locale/hi/LC_MESSAGES/django.mo -> build/lib/localflavor/locale/hi/LC_MESSAGES
+copying localflavor/locale/hi/LC_MESSAGES/django.po -> build/lib/localflavor/locale/hi/LC_MESSAGES
+creating build/lib/localflavor/locale/et
+creating build/lib/localflavor/locale/et/LC_MESSAGES
+copying localflavor/locale/et/LC_MESSAGES/django.mo -> build/lib/localflavor/locale/et/LC_MESSAGES
+copying localflavor/locale/et/LC_MESSAGES/django.po -> build/lib/localflavor/locale/et/LC_MESSAGES
+creating build/lib/localflavor/locale/cy
+creating build/lib/localflavor/locale/cy/LC_MESSAGES
+copying localflavor/locale/cy/LC_MESSAGES/django.mo -> build/lib/localflavor/locale/cy/LC_MESSAGES
+copying localflavor/locale/cy/LC_MESSAGES/django.po -> build/lib/localflavor/locale/cy/LC_MESSAGES
+creating build/lib/localflavor/locale/he
+creating build/lib/localflavor/locale/he/LC_MESSAGES
+copying localflavor/locale/he/LC_MESSAGES/django.mo -> build/lib/localflavor/locale/he/LC_MESSAGES
+copying localflavor/locale/he/LC_MESSAGES/django.po -> build/lib/localflavor/locale/he/LC_MESSAGES
+creating build/lib/localflavor/locale/tr
+creating build/lib/localflavor/locale/tr/LC_MESSAGES
+copying localflavor/locale/tr/LC_MESSAGES/django.mo -> build/lib/localflavor/locale/tr/LC_MESSAGES
+copying localflavor/locale/tr/LC_MESSAGES/django.po -> build/lib/localflavor/locale/tr/LC_MESSAGES
+creating build/lib/localflavor/locale/bg
+creating build/lib/localflavor/locale/bg/LC_MESSAGES
+copying localflavor/locale/bg/LC_MESSAGES/django.mo -> build/lib/localflavor/locale/bg/LC_MESSAGES
+copying localflavor/locale/bg/LC_MESSAGES/django.po -> build/lib/localflavor/locale/bg/LC_MESSAGES
+creating build/lib/localflavor/locale/nb
+creating build/lib/localflavor/locale/nb/LC_MESSAGES
+copying localflavor/locale/nb/LC_MESSAGES/django.mo -> build/lib/localflavor/locale/nb/LC_MESSAGES
+copying localflavor/locale/nb/LC_MESSAGES/django.po -> build/lib/localflavor/locale/nb/LC_MESSAGES
+creating build/lib/localflavor/locale/pt_BR
+creating build/lib/localflavor/locale/pt_BR/LC_MESSAGES
+copying localflavor/locale/pt_BR/LC_MESSAGES/django.mo -> build/lib/localflavor/locale/pt_BR/LC_MESSAGES
+copying localflavor/locale/pt_BR/LC_MESSAGES/django.po -> build/lib/localflavor/locale/pt_BR/LC_MESSAGES
+creating build/lib/localflavor/locale/pl
+creating build/lib/localflavor/locale/pl/LC_MESSAGES
+copying localflavor/locale/pl/LC_MESSAGES/django.mo -> build/lib/localflavor/locale/pl/LC_MESSAGES
+copying localflavor/locale/pl/LC_MESSAGES/django.po -> build/lib/localflavor/locale/pl/LC_MESSAGES
+creating build/lib/localflavor/locale/ru
+creating build/lib/localflavor/locale/ru/LC_MESSAGES
+copying localflavor/locale/ru/LC_MESSAGES/django.mo -> build/lib/localflavor/locale/ru/LC_MESSAGES
+copying localflavor/locale/ru/LC_MESSAGES/django.po -> build/lib/localflavor/locale/ru/LC_MESSAGES
+creating build/bdist.linux-x86_64
+creating build/bdist.linux-x86_64/egg
+creating build/bdist.linux-x86_64/egg/localflavor
+creating build/bdist.linux-x86_64/egg/localflavor/uy
+copying build/lib/localflavor/uy/util.py -> build/bdist.linux-x86_64/egg/localflavor/uy
+copying build/lib/localflavor/uy/forms.py -> build/bdist.linux-x86_64/egg/localflavor/uy
+copying build/lib/localflavor/uy/__init__.py -> build/bdist.linux-x86_64/egg/localflavor/uy
+copying build/lib/localflavor/uy/uy_departments.py -> build/bdist.linux-x86_64/egg/localflavor/uy
+creating build/bdist.linux-x86_64/egg/localflavor/de
+copying build/lib/localflavor/de/de_states.py -> build/bdist.linux-x86_64/egg/localflavor/de
+copying build/lib/localflavor/de/forms.py -> build/bdist.linux-x86_64/egg/localflavor/de
+copying build/lib/localflavor/de/__init__.py -> build/bdist.linux-x86_64/egg/localflavor/de
+creating build/bdist.linux-x86_64/egg/localflavor/it
+copying build/lib/localflavor/it/util.py -> build/bdist.linux-x86_64/egg/localflavor/it
+copying build/lib/localflavor/it/it_region.py -> build/bdist.linux-x86_64/egg/localflavor/it
+copying build/lib/localflavor/it/forms.py -> build/bdist.linux-x86_64/egg/localflavor/it
+copying build/lib/localflavor/it/__init__.py -> build/bdist.linux-x86_64/egg/localflavor/it
+copying build/lib/localflavor/it/it_province.py -> build/bdist.linux-x86_64/egg/localflavor/it
+creating build/bdist.linux-x86_64/egg/localflavor/se
+copying build/lib/localflavor/se/utils.py -> build/bdist.linux-x86_64/egg/localflavor/se
+copying build/lib/localflavor/se/se_counties.py -> build/bdist.linux-x86_64/egg/localflavor/se
+copying build/lib/localflavor/se/forms.py -> build/bdist.linux-x86_64/egg/localflavor/se
+copying build/lib/localflavor/se/__init__.py -> build/bdist.linux-x86_64/egg/localflavor/se
+creating build/bdist.linux-x86_64/egg/localflavor/mk
+copying build/lib/localflavor/mk/forms.py -> build/bdist.linux-x86_64/egg/localflavor/mk
+copying build/lib/localflavor/mk/mk_choices.py -> build/bdist.linux-x86_64/egg/localflavor/mk
+copying build/lib/localflavor/mk/__init__.py -> build/bdist.linux-x86_64/egg/localflavor/mk
+copying build/lib/localflavor/mk/models.py -> build/bdist.linux-x86_64/egg/localflavor/mk
+creating build/bdist.linux-x86_64/egg/localflavor/gb
+copying build/lib/localflavor/gb/gb_regions.py -> build/bdist.linux-x86_64/egg/localflavor/gb
+copying build/lib/localflavor/gb/forms.py -> build/bdist.linux-x86_64/egg/localflavor/gb
+copying build/lib/localflavor/gb/__init__.py -> build/bdist.linux-x86_64/egg/localflavor/gb
+creating build/bdist.linux-x86_64/egg/localflavor/pk
+copying build/lib/localflavor/pk/pk_states.py -> build/bdist.linux-x86_64/egg/localflavor/pk
+copying build/lib/localflavor/pk/forms.py -> build/bdist.linux-x86_64/egg/localflavor/pk
+copying build/lib/localflavor/pk/__init__.py -> build/bdist.linux-x86_64/egg/localflavor/pk
+copying build/lib/localflavor/pk/models.py -> build/bdist.linux-x86_64/egg/localflavor/pk
+creating build/bdist.linux-x86_64/egg/localflavor/no
+copying build/lib/localflavor/no/no_municipalities.py -> build/bdist.linux-x86_64/egg/localflavor/no
+copying build/lib/localflavor/no/forms.py -> build/bdist.linux-x86_64/egg/localflavor/no
+copying build/lib/localflavor/no/__init__.py -> build/bdist.linux-x86_64/egg/localflavor/no
+creating build/bdist.linux-x86_64/egg/localflavor/ar
+copying build/lib/localflavor/ar/ar_provinces.py -> build/bdist.linux-x86_64/egg/localflavor/ar
+copying build/lib/localflavor/ar/forms.py -> build/bdist.linux-x86_64/egg/localflavor/ar
+copying build/lib/localflavor/ar/__init__.py -> build/bdist.linux-x86_64/egg/localflavor/ar
+creating build/bdist.linux-x86_64/egg/localflavor/mx
+copying build/lib/localflavor/mx/mx_states.py -> build/bdist.linux-x86_64/egg/localflavor/mx
+copying build/lib/localflavor/mx/forms.py -> build/bdist.linux-x86_64/egg/localflavor/mx
+copying build/lib/localflavor/mx/__init__.py -> build/bdist.linux-x86_64/egg/localflavor/mx
+copying build/lib/localflavor/mx/models.py -> build/bdist.linux-x86_64/egg/localflavor/mx
+creating build/bdist.linux-x86_64/egg/localflavor/fi
+copying build/lib/localflavor/fi/fi_municipalities.py -> build/bdist.linux-x86_64/egg/localflavor/fi
+copying build/lib/localflavor/fi/forms.py -> build/bdist.linux-x86_64/egg/localflavor/fi
+copying build/lib/localflavor/fi/__init__.py -> build/bdist.linux-x86_64/egg/localflavor/fi
+creating build/bdist.linux-x86_64/egg/localflavor/pe
+copying build/lib/localflavor/pe/forms.py -> build/bdist.linux-x86_64/egg/localflavor/pe
+copying build/lib/localflavor/pe/__init__.py -> build/bdist.linux-x86_64/egg/localflavor/pe
+copying build/lib/localflavor/pe/pe_region.py -> build/bdist.linux-x86_64/egg/localflavor/pe
+creating build/bdist.linux-x86_64/egg/localflavor/cl
+copying build/lib/localflavor/cl/cl_regions.py -> build/bdist.linux-x86_64/egg/localflavor/cl
+copying build/lib/localflavor/cl/forms.py -> build/bdist.linux-x86_64/egg/localflavor/cl
+copying build/lib/localflavor/cl/__init__.py -> build/bdist.linux-x86_64/egg/localflavor/cl
+creating build/bdist.linux-x86_64/egg/localflavor/jp
+copying build/lib/localflavor/jp/jp_prefectures.py -> build/bdist.linux-x86_64/egg/localflavor/jp
+copying build/lib/localflavor/jp/forms.py -> build/bdist.linux-x86_64/egg/localflavor/jp
+copying build/lib/localflavor/jp/__init__.py -> build/bdist.linux-x86_64/egg/localflavor/jp
+creating build/bdist.linux-x86_64/egg/localflavor/ec
+copying build/lib/localflavor/ec/ec_provinces.py -> build/bdist.linux-x86_64/egg/localflavor/ec
+copying build/lib/localflavor/ec/forms.py -> build/bdist.linux-x86_64/egg/localflavor/ec
+copying build/lib/localflavor/ec/__init__.py -> build/bdist.linux-x86_64/egg/localflavor/ec
+creating build/bdist.linux-x86_64/egg/localflavor/za
+copying build/lib/localflavor/za/za_provinces.py -> build/bdist.linux-x86_64/egg/localflavor/za
+copying build/lib/localflavor/za/forms.py -> build/bdist.linux-x86_64/egg/localflavor/za
+copying build/lib/localflavor/za/__init__.py -> build/bdist.linux-x86_64/egg/localflavor/za
+creating build/bdist.linux-x86_64/egg/localflavor/is_
+copying build/lib/localflavor/is_/is_postalcodes.py -> build/bdist.linux-x86_64/egg/localflavor/is_
+copying build/lib/localflavor/is_/forms.py -> build/bdist.linux-x86_64/egg/localflavor/is_
+copying build/lib/localflavor/is_/__init__.py -> build/bdist.linux-x86_64/egg/localflavor/is_
+creating build/bdist.linux-x86_64/egg/localflavor/br
+copying build/lib/localflavor/br/br_states.py -> build/bdist.linux-x86_64/egg/localflavor/br
+copying build/lib/localflavor/br/forms.py -> build/bdist.linux-x86_64/egg/localflavor/br
+copying build/lib/localflavor/br/__init__.py -> build/bdist.linux-x86_64/egg/localflavor/br
+copying build/lib/localflavor/br/models.py -> build/bdist.linux-x86_64/egg/localflavor/br
+creating build/bdist.linux-x86_64/egg/localflavor/cz
+copying build/lib/localflavor/cz/cz_regions.py -> build/bdist.linux-x86_64/egg/localflavor/cz
+copying build/lib/localflavor/cz/forms.py -> build/bdist.linux-x86_64/egg/localflavor/cz
+copying build/lib/localflavor/cz/__init__.py -> build/bdist.linux-x86_64/egg/localflavor/cz
+creating build/bdist.linux-x86_64/egg/localflavor/es
+copying build/lib/localflavor/es/forms.py -> build/bdist.linux-x86_64/egg/localflavor/es
+copying build/lib/localflavor/es/__init__.py -> build/bdist.linux-x86_64/egg/localflavor/es
+copying build/lib/localflavor/es/es_regions.py -> build/bdist.linux-x86_64/egg/localflavor/es
+copying build/lib/localflavor/es/es_provinces.py -> build/bdist.linux-x86_64/egg/localflavor/es
+creating build/bdist.linux-x86_64/egg/localflavor/au
+copying build/lib/localflavor/au/au_states.py -> build/bdist.linux-x86_64/egg/localflavor/au
+copying build/lib/localflavor/au/forms.py -> build/bdist.linux-x86_64/egg/localflavor/au
+copying build/lib/localflavor/au/__init__.py -> build/bdist.linux-x86_64/egg/localflavor/au
+copying build/lib/localflavor/au/models.py -> build/bdist.linux-x86_64/egg/localflavor/au
+creating build/bdist.linux-x86_64/egg/localflavor/generic
+creating build/bdist.linux-x86_64/egg/localflavor/generic/countries
+copying build/lib/localflavor/generic/countries/iso_3166.py -> build/bdist.linux-x86_64/egg/localflavor/generic/countries
+copying build/lib/localflavor/generic/countries/sepa.py -> build/bdist.linux-x86_64/egg/localflavor/generic/countries
+copying build/lib/localflavor/generic/countries/__init__.py -> build/bdist.linux-x86_64/egg/localflavor/generic/countries
+copying build/lib/localflavor/generic/checksums.py -> build/bdist.linux-x86_64/egg/localflavor/generic
+copying build/lib/localflavor/generic/validators.py -> build/bdist.linux-x86_64/egg/localflavor/generic
+copying build/lib/localflavor/generic/forms.py -> build/bdist.linux-x86_64/egg/localflavor/generic
+copying build/lib/localflavor/generic/__init__.py -> build/bdist.linux-x86_64/egg/localflavor/generic
+copying build/lib/localflavor/generic/models.py -> build/bdist.linux-x86_64/egg/localflavor/generic
+creating build/bdist.linux-x86_64/egg/localflavor/pt
+copying build/lib/localflavor/pt/forms.py -> build/bdist.linux-x86_64/egg/localflavor/pt
+copying build/lib/localflavor/pt/__init__.py -> build/bdist.linux-x86_64/egg/localflavor/pt
+copying build/lib/localflavor/pt/pt_regions.py -> build/bdist.linux-x86_64/egg/localflavor/pt
+creating build/bdist.linux-x86_64/egg/localflavor/il
+copying build/lib/localflavor/il/forms.py -> build/bdist.linux-x86_64/egg/localflavor/il
+copying build/lib/localflavor/il/__init__.py -> build/bdist.linux-x86_64/egg/localflavor/il
+creating build/bdist.linux-x86_64/egg/localflavor/co
+copying build/lib/localflavor/co/co_departments.py -> build/bdist.linux-x86_64/egg/localflavor/co
+copying build/lib/localflavor/co/forms.py -> build/bdist.linux-x86_64/egg/localflavor/co
+copying build/lib/localflavor/co/__init__.py -> build/bdist.linux-x86_64/egg/localflavor/co
+creating build/bdist.linux-x86_64/egg/localflavor/hr
+copying build/lib/localflavor/hr/hr_choices.py -> build/bdist.linux-x86_64/egg/localflavor/hr
+copying build/lib/localflavor/hr/forms.py -> build/bdist.linux-x86_64/egg/localflavor/hr
+copying build/lib/localflavor/hr/__init__.py -> build/bdist.linux-x86_64/egg/localflavor/hr
+creating build/bdist.linux-x86_64/egg/localflavor/at
+copying build/lib/localflavor/at/at_states.py -> build/bdist.linux-x86_64/egg/localflavor/at
+copying build/lib/localflavor/at/forms.py -> build/bdist.linux-x86_64/egg/localflavor/at
+copying build/lib/localflavor/at/__init__.py -> build/bdist.linux-x86_64/egg/localflavor/at
+creating build/bdist.linux-x86_64/egg/localflavor/nl
+copying build/lib/localflavor/nl/nl_provinces.py -> build/bdist.linux-x86_64/egg/localflavor/nl
+copying build/lib/localflavor/nl/forms.py -> build/bdist.linux-x86_64/egg/localflavor/nl
+copying build/lib/localflavor/nl/__init__.py -> build/bdist.linux-x86_64/egg/localflavor/nl
+copying build/lib/localflavor/nl/models.py -> build/bdist.linux-x86_64/egg/localflavor/nl
+creating build/bdist.linux-x86_64/egg/localflavor/py_
+copying build/lib/localflavor/py_/forms.py -> build/bdist.linux-x86_64/egg/localflavor/py_
+copying build/lib/localflavor/py_/__init__.py -> build/bdist.linux-x86_64/egg/localflavor/py_
+copying build/lib/localflavor/py_/py_department.py -> build/bdist.linux-x86_64/egg/localflavor/py_
+creating build/bdist.linux-x86_64/egg/localflavor/fr
+copying build/lib/localflavor/fr/forms.py -> build/bdist.linux-x86_64/egg/localflavor/fr
+copying build/lib/localflavor/fr/__init__.py -> build/bdist.linux-x86_64/egg/localflavor/fr
+copying build/lib/localflavor/fr/fr_department.py -> build/bdist.linux-x86_64/egg/localflavor/fr
+copying build/lib/localflavor/fr/fr_region.py -> build/bdist.linux-x86_64/egg/localflavor/fr
+copying build/lib/localflavor/fr/models.py -> build/bdist.linux-x86_64/egg/localflavor/fr
+creating build/bdist.linux-x86_64/egg/localflavor/sk
+copying build/lib/localflavor/sk/sk_regions.py -> build/bdist.linux-x86_64/egg/localflavor/sk
+copying build/lib/localflavor/sk/sk_districts.py -> build/bdist.linux-x86_64/egg/localflavor/sk
+copying build/lib/localflavor/sk/forms.py -> build/bdist.linux-x86_64/egg/localflavor/sk
+copying build/lib/localflavor/sk/__init__.py -> build/bdist.linux-x86_64/egg/localflavor/sk
+creating build/bdist.linux-x86_64/egg/localflavor/sg
+copying build/lib/localflavor/sg/forms.py -> build/bdist.linux-x86_64/egg/localflavor/sg
+copying build/lib/localflavor/sg/__init__.py -> build/bdist.linux-x86_64/egg/localflavor/sg
+creating build/bdist.linux-x86_64/egg/localflavor/hk
+copying build/lib/localflavor/hk/forms.py -> build/bdist.linux-x86_64/egg/localflavor/hk
+copying build/lib/localflavor/hk/__init__.py -> build/bdist.linux-x86_64/egg/localflavor/hk
+creating build/bdist.linux-x86_64/egg/localflavor/ie
+copying build/lib/localflavor/ie/forms.py -> build/bdist.linux-x86_64/egg/localflavor/ie
+copying build/lib/localflavor/ie/__init__.py -> build/bdist.linux-x86_64/egg/localflavor/ie
+copying build/lib/localflavor/ie/ie_counties.py -> build/bdist.linux-x86_64/egg/localflavor/ie
+creating build/bdist.linux-x86_64/egg/localflavor/ca
+copying build/lib/localflavor/ca/ca_provinces.py -> build/bdist.linux-x86_64/egg/localflavor/ca
+copying build/lib/localflavor/ca/forms.py -> build/bdist.linux-x86_64/egg/localflavor/ca
+copying build/lib/localflavor/ca/__init__.py -> build/bdist.linux-x86_64/egg/localflavor/ca
+creating build/bdist.linux-x86_64/egg/localflavor/ro
+copying build/lib/localflavor/ro/forms.py -> build/bdist.linux-x86_64/egg/localflavor/ro
+copying build/lib/localflavor/ro/__init__.py -> build/bdist.linux-x86_64/egg/localflavor/ro
+copying build/lib/localflavor/ro/ro_counties.py -> build/bdist.linux-x86_64/egg/localflavor/ro
+creating build/bdist.linux-x86_64/egg/localflavor/be
+copying build/lib/localflavor/be/be_regions.py -> build/bdist.linux-x86_64/egg/localflavor/be
+copying build/lib/localflavor/be/forms.py -> build/bdist.linux-x86_64/egg/localflavor/be
+copying build/lib/localflavor/be/be_provinces.py -> build/bdist.linux-x86_64/egg/localflavor/be
+copying build/lib/localflavor/be/__init__.py -> build/bdist.linux-x86_64/egg/localflavor/be
+creating build/bdist.linux-x86_64/egg/localflavor/lv
+copying build/lib/localflavor/lv/lv_choices.py -> build/bdist.linux-x86_64/egg/localflavor/lv
+copying build/lib/localflavor/lv/forms.py -> build/bdist.linux-x86_64/egg/localflavor/lv
+copying build/lib/localflavor/lv/__init__.py -> build/bdist.linux-x86_64/egg/localflavor/lv
+creating build/bdist.linux-x86_64/egg/localflavor/gr
+copying build/lib/localflavor/gr/forms.py -> build/bdist.linux-x86_64/egg/localflavor/gr
+copying build/lib/localflavor/gr/__init__.py -> build/bdist.linux-x86_64/egg/localflavor/gr
+creating build/bdist.linux-x86_64/egg/localflavor/ee
+copying build/lib/localflavor/ee/forms.py -> build/bdist.linux-x86_64/egg/localflavor/ee
+copying build/lib/localflavor/ee/__init__.py -> build/bdist.linux-x86_64/egg/localflavor/ee
+copying build/lib/localflavor/ee/ee_counties.py -> build/bdist.linux-x86_64/egg/localflavor/ee
+creating build/bdist.linux-x86_64/egg/localflavor/kw
+copying build/lib/localflavor/kw/forms.py -> build/bdist.linux-x86_64/egg/localflavor/kw
+copying build/lib/localflavor/kw/__init__.py -> build/bdist.linux-x86_64/egg/localflavor/kw
+copying build/lib/localflavor/__init__.py -> build/bdist.linux-x86_64/egg/localflavor
+creating build/bdist.linux-x86_64/egg/localflavor/dk
+copying build/lib/localflavor/dk/dk_municipalities.py -> build/bdist.linux-x86_64/egg/localflavor/dk
+copying build/lib/localflavor/dk/dk_postalcodes.py -> build/bdist.linux-x86_64/egg/localflavor/dk
+copying build/lib/localflavor/dk/forms.py -> build/bdist.linux-x86_64/egg/localflavor/dk
+copying build/lib/localflavor/dk/__init__.py -> build/bdist.linux-x86_64/egg/localflavor/dk
+creating build/bdist.linux-x86_64/egg/localflavor/in_
+copying build/lib/localflavor/in_/forms.py -> build/bdist.linux-x86_64/egg/localflavor/in_
+copying build/lib/localflavor/in_/__init__.py -> build/bdist.linux-x86_64/egg/localflavor/in_
+copying build/lib/localflavor/in_/in_states.py -> build/bdist.linux-x86_64/egg/localflavor/in_
+copying build/lib/localflavor/in_/models.py -> build/bdist.linux-x86_64/egg/localflavor/in_
+creating build/bdist.linux-x86_64/egg/localflavor/nz
+copying build/lib/localflavor/nz/nz_councils.py -> build/bdist.linux-x86_64/egg/localflavor/nz
+copying build/lib/localflavor/nz/nz_regions.py -> build/bdist.linux-x86_64/egg/localflavor/nz
+copying build/lib/localflavor/nz/nz_provinces.py -> build/bdist.linux-x86_64/egg/localflavor/nz
+copying build/lib/localflavor/nz/forms.py -> build/bdist.linux-x86_64/egg/localflavor/nz
+copying build/lib/localflavor/nz/__init__.py -> build/bdist.linux-x86_64/egg/localflavor/nz
+copying build/lib/localflavor/nz/models.py -> build/bdist.linux-x86_64/egg/localflavor/nz
+copying build/lib/localflavor/models.py -> build/bdist.linux-x86_64/egg/localflavor
+creating build/bdist.linux-x86_64/egg/localflavor/lt
+copying build/lib/localflavor/lt/lt_choices.py -> build/bdist.linux-x86_64/egg/localflavor/lt
+copying build/lib/localflavor/lt/forms.py -> build/bdist.linux-x86_64/egg/localflavor/lt
+copying build/lib/localflavor/lt/__init__.py -> build/bdist.linux-x86_64/egg/localflavor/lt
+creating build/bdist.linux-x86_64/egg/localflavor/cn
+copying build/lib/localflavor/cn/cn_provinces.py -> build/bdist.linux-x86_64/egg/localflavor/cn
+copying build/lib/localflavor/cn/forms.py -> build/bdist.linux-x86_64/egg/localflavor/cn
+copying build/lib/localflavor/cn/__init__.py -> build/bdist.linux-x86_64/egg/localflavor/cn
+creating build/bdist.linux-x86_64/egg/localflavor/ch
+copying build/lib/localflavor/ch/ch_states.py -> build/bdist.linux-x86_64/egg/localflavor/ch
+copying build/lib/localflavor/ch/forms.py -> build/bdist.linux-x86_64/egg/localflavor/ch
+copying build/lib/localflavor/ch/__init__.py -> build/bdist.linux-x86_64/egg/localflavor/ch
+creating build/bdist.linux-x86_64/egg/localflavor/id_
+copying build/lib/localflavor/id_/id_choices.py -> build/bdist.linux-x86_64/egg/localflavor/id_
+copying build/lib/localflavor/id_/forms.py -> build/bdist.linux-x86_64/egg/localflavor/id_
+copying build/lib/localflavor/id_/__init__.py -> build/bdist.linux-x86_64/egg/localflavor/id_
+creating build/bdist.linux-x86_64/egg/localflavor/tr
+copying build/lib/localflavor/tr/tr_provinces.py -> build/bdist.linux-x86_64/egg/localflavor/tr
+copying build/lib/localflavor/tr/forms.py -> build/bdist.linux-x86_64/egg/localflavor/tr
+copying build/lib/localflavor/tr/__init__.py -> build/bdist.linux-x86_64/egg/localflavor/tr
+creating build/bdist.linux-x86_64/egg/localflavor/mt
+copying build/lib/localflavor/mt/forms.py -> build/bdist.linux-x86_64/egg/localflavor/mt
+copying build/lib/localflavor/mt/__init__.py -> build/bdist.linux-x86_64/egg/localflavor/mt
+creating build/bdist.linux-x86_64/egg/localflavor/locale
+creating build/bdist.linux-x86_64/egg/localflavor/locale/de
+creating build/bdist.linux-x86_64/egg/localflavor/locale/de/LC_MESSAGES
+copying build/lib/localflavor/locale/de/LC_MESSAGES/django.mo -> build/bdist.linux-x86_64/egg/localflavor/locale/de/LC_MESSAGES
+copying build/lib/localflavor/locale/de/LC_MESSAGES/django.po -> build/bdist.linux-x86_64/egg/localflavor/locale/de/LC_MESSAGES
+creating build/bdist.linux-x86_64/egg/localflavor/locale/it
+creating build/bdist.linux-x86_64/egg/localflavor/locale/it/LC_MESSAGES
+copying build/lib/localflavor/locale/it/LC_MESSAGES/django.mo -> build/bdist.linux-x86_64/egg/localflavor/locale/it/LC_MESSAGES
+copying build/lib/localflavor/locale/it/LC_MESSAGES/django.po -> build/bdist.linux-x86_64/egg/localflavor/locale/it/LC_MESSAGES
+creating build/bdist.linux-x86_64/egg/localflavor/locale/es_MX
+creating build/bdist.linux-x86_64/egg/localflavor/locale/es_MX/LC_MESSAGES
+copying build/lib/localflavor/locale/es_MX/LC_MESSAGES/django.mo -> build/bdist.linux-x86_64/egg/localflavor/locale/es_MX/LC_MESSAGES
+copying build/lib/localflavor/locale/es_MX/LC_MESSAGES/django.po -> build/bdist.linux-x86_64/egg/localflavor/locale/es_MX/LC_MESSAGES
+creating build/bdist.linux-x86_64/egg/localflavor/locale/zh_TW
+creating build/bdist.linux-x86_64/egg/localflavor/locale/zh_TW/LC_MESSAGES
+copying build/lib/localflavor/locale/zh_TW/LC_MESSAGES/django.mo -> build/bdist.linux-x86_64/egg/localflavor/locale/zh_TW/LC_MESSAGES
+copying build/lib/localflavor/locale/zh_TW/LC_MESSAGES/django.po -> build/bdist.linux-x86_64/egg/localflavor/locale/zh_TW/LC_MESSAGES
+creating build/bdist.linux-x86_64/egg/localflavor/locale/es_AR
+creating build/bdist.linux-x86_64/egg/localflavor/locale/es_AR/LC_MESSAGES
+copying build/lib/localflavor/locale/es_AR/LC_MESSAGES/django.mo -> build/bdist.linux-x86_64/egg/localflavor/locale/es_AR/LC_MESSAGES
+copying build/lib/localflavor/locale/es_AR/LC_MESSAGES/django.po -> build/bdist.linux-x86_64/egg/localflavor/locale/es_AR/LC_MESSAGES
+creating build/bdist.linux-x86_64/egg/localflavor/locale/ja
+creating build/bdist.linux-x86_64/egg/localflavor/locale/ja/LC_MESSAGES
+copying build/lib/localflavor/locale/ja/LC_MESSAGES/django.mo -> build/bdist.linux-x86_64/egg/localflavor/locale/ja/LC_MESSAGES
+copying build/lib/localflavor/locale/ja/LC_MESSAGES/django.po -> build/bdist.linux-x86_64/egg/localflavor/locale/ja/LC_MESSAGES
+creating build/bdist.linux-x86_64/egg/localflavor/locale/cs
+creating build/bdist.linux-x86_64/egg/localflavor/locale/cs/LC_MESSAGES
+copying build/lib/localflavor/locale/cs/LC_MESSAGES/django.mo -> build/bdist.linux-x86_64/egg/localflavor/locale/cs/LC_MESSAGES
+copying build/lib/localflavor/locale/cs/LC_MESSAGES/django.po -> build/bdist.linux-x86_64/egg/localflavor/locale/cs/LC_MESSAGES
+creating build/bdist.linux-x86_64/egg/localflavor/locale/mk
+creating build/bdist.linux-x86_64/egg/localflavor/locale/mk/LC_MESSAGES
+copying build/lib/localflavor/locale/mk/LC_MESSAGES/django.mo -> build/bdist.linux-x86_64/egg/localflavor/locale/mk/LC_MESSAGES
+copying build/lib/localflavor/locale/mk/LC_MESSAGES/django.po -> build/bdist.linux-x86_64/egg/localflavor/locale/mk/LC_MESSAGES
+creating build/bdist.linux-x86_64/egg/localflavor/locale/sl
+creating build/bdist.linux-x86_64/egg/localflavor/locale/sl/LC_MESSAGES
+copying build/lib/localflavor/locale/sl/LC_MESSAGES/django.mo -> build/bdist.linux-x86_64/egg/localflavor/locale/sl/LC_MESSAGES
+copying build/lib/localflavor/locale/sl/LC_MESSAGES/django.po -> build/bdist.linux-x86_64/egg/localflavor/locale/sl/LC_MESSAGES
+creating build/bdist.linux-x86_64/egg/localflavor/locale/sv
+creating build/bdist.linux-x86_64/egg/localflavor/locale/sv/LC_MESSAGES
+copying build/lib/localflavor/locale/sv/LC_MESSAGES/django.mo -> build/bdist.linux-x86_64/egg/localflavor/locale/sv/LC_MESSAGES
+copying build/lib/localflavor/locale/sv/LC_MESSAGES/django.po -> build/bdist.linux-x86_64/egg/localflavor/locale/sv/LC_MESSAGES
+creating build/bdist.linux-x86_64/egg/localflavor/locale/eo
+creating build/bdist.linux-x86_64/egg/localflavor/locale/eo/LC_MESSAGES
+copying build/lib/localflavor/locale/eo/LC_MESSAGES/django.mo -> build/bdist.linux-x86_64/egg/localflavor/locale/eo/LC_MESSAGES
+copying build/lib/localflavor/locale/eo/LC_MESSAGES/django.po -> build/bdist.linux-x86_64/egg/localflavor/locale/eo/LC_MESSAGES
+creating build/bdist.linux-x86_64/egg/localflavor/locale/ar
+creating build/bdist.linux-x86_64/egg/localflavor/locale/ar/LC_MESSAGES
+copying build/lib/localflavor/locale/ar/LC_MESSAGES/django.mo -> build/bdist.linux-x86_64/egg/localflavor/locale/ar/LC_MESSAGES
+copying build/lib/localflavor/locale/ar/LC_MESSAGES/django.po -> build/bdist.linux-x86_64/egg/localflavor/locale/ar/LC_MESSAGES
+creating build/bdist.linux-x86_64/egg/localflavor/locale/bn
+creating build/bdist.linux-x86_64/egg/localflavor/locale/bn/LC_MESSAGES
+copying build/lib/localflavor/locale/bn/LC_MESSAGES/django.mo -> build/bdist.linux-x86_64/egg/localflavor/locale/bn/LC_MESSAGES
+copying build/lib/localflavor/locale/bn/LC_MESSAGES/django.po -> build/bdist.linux-x86_64/egg/localflavor/locale/bn/LC_MESSAGES
+creating build/bdist.linux-x86_64/egg/localflavor/locale/fi
+creating build/bdist.linux-x86_64/egg/localflavor/locale/fi/LC_MESSAGES
+copying build/lib/localflavor/locale/fi/LC_MESSAGES/django.mo -> build/bdist.linux-x86_64/egg/localflavor/locale/fi/LC_MESSAGES
+copying build/lib/localflavor/locale/fi/LC_MESSAGES/django.po -> build/bdist.linux-x86_64/egg/localflavor/locale/fi/LC_MESSAGES
+creating build/bdist.linux-x86_64/egg/localflavor/locale/ka
+creating build/bdist.linux-x86_64/egg/localflavor/locale/ka/LC_MESSAGES
+copying build/lib/localflavor/locale/ka/LC_MESSAGES/django.mo -> build/bdist.linux-x86_64/egg/localflavor/locale/ka/LC_MESSAGES
+copying build/lib/localflavor/locale/ka/LC_MESSAGES/django.po -> build/bdist.linux-x86_64/egg/localflavor/locale/ka/LC_MESSAGES
+creating build/bdist.linux-x86_64/egg/localflavor/locale/ta
+creating build/bdist.linux-x86_64/egg/localflavor/locale/ta/LC_MESSAGES
+copying build/lib/localflavor/locale/ta/LC_MESSAGES/django.mo -> build/bdist.linux-x86_64/egg/localflavor/locale/ta/LC_MESSAGES
+copying build/lib/localflavor/locale/ta/LC_MESSAGES/django.po -> build/bdist.linux-x86_64/egg/localflavor/locale/ta/LC_MESSAGES
+creating build/bdist.linux-x86_64/egg/localflavor/locale/km
+creating build/bdist.linux-x86_64/egg/localflavor/locale/km/LC_MESSAGES
+copying build/lib/localflavor/locale/km/LC_MESSAGES/django.mo -> build/bdist.linux-x86_64/egg/localflavor/locale/km/LC_MESSAGES
+copying build/lib/localflavor/locale/km/LC_MESSAGES/django.po -> build/bdist.linux-x86_64/egg/localflavor/locale/km/LC_MESSAGES
+creating build/bdist.linux-x86_64/egg/localflavor/locale/ga
+creating build/bdist.linux-x86_64/egg/localflavor/locale/ga/LC_MESSAGES
+copying build/lib/localflavor/locale/ga/LC_MESSAGES/django.mo -> build/bdist.linux-x86_64/egg/localflavor/locale/ga/LC_MESSAGES
+copying build/lib/localflavor/locale/ga/LC_MESSAGES/django.po -> build/bdist.linux-x86_64/egg/localflavor/locale/ga/LC_MESSAGES
+creating build/bdist.linux-x86_64/egg/localflavor/locale/zh_CN
+creating build/bdist.linux-x86_64/egg/localflavor/locale/zh_CN/LC_MESSAGES
+copying build/lib/localflavor/locale/zh_CN/LC_MESSAGES/django.mo -> build/bdist.linux-x86_64/egg/localflavor/locale/zh_CN/LC_MESSAGES
+copying build/lib/localflavor/locale/zh_CN/LC_MESSAGES/django.po -> build/bdist.linux-x86_64/egg/localflavor/locale/zh_CN/LC_MESSAGES
+creating build/bdist.linux-x86_64/egg/localflavor/locale/az
+creating build/bdist.linux-x86_64/egg/localflavor/locale/az/LC_MESSAGES
+copying build/lib/localflavor/locale/az/LC_MESSAGES/django.mo -> build/bdist.linux-x86_64/egg/localflavor/locale/az/LC_MESSAGES
+copying build/lib/localflavor/locale/az/LC_MESSAGES/django.po -> build/bdist.linux-x86_64/egg/localflavor/locale/az/LC_MESSAGES
+creating build/bdist.linux-x86_64/egg/localflavor/locale/vi
+creating build/bdist.linux-x86_64/egg/localflavor/locale/vi/LC_MESSAGES
+copying build/lib/localflavor/locale/vi/LC_MESSAGES/django.mo -> build/bdist.linux-x86_64/egg/localflavor/locale/vi/LC_MESSAGES
+copying build/lib/localflavor/locale/vi/LC_MESSAGES/django.po -> build/bdist.linux-x86_64/egg/localflavor/locale/vi/LC_MESSAGES
+creating build/bdist.linux-x86_64/egg/localflavor/locale/te
+creating build/bdist.linux-x86_64/egg/localflavor/locale/te/LC_MESSAGES
+copying build/lib/localflavor/locale/te/LC_MESSAGES/django.mo -> build/bdist.linux-x86_64/egg/localflavor/locale/te/LC_MESSAGES
+copying build/lib/localflavor/locale/te/LC_MESSAGES/django.po -> build/bdist.linux-x86_64/egg/localflavor/locale/te/LC_MESSAGES
+creating build/bdist.linux-x86_64/egg/localflavor/locale/es
+creating build/bdist.linux-x86_64/egg/localflavor/locale/es/LC_MESSAGES
+copying build/lib/localflavor/locale/es/LC_MESSAGES/django.mo -> build/bdist.linux-x86_64/egg/localflavor/locale/es/LC_MESSAGES
+copying build/lib/localflavor/locale/es/LC_MESSAGES/django.po -> build/bdist.linux-x86_64/egg/localflavor/locale/es/LC_MESSAGES
+creating build/bdist.linux-x86_64/egg/localflavor/locale/en_GB
+creating build/bdist.linux-x86_64/egg/localflavor/locale/en_GB/LC_MESSAGES
+copying build/lib/localflavor/locale/en_GB/LC_MESSAGES/django.mo -> build/bdist.linux-x86_64/egg/localflavor/locale/en_GB/LC_MESSAGES
+copying build/lib/localflavor/locale/en_GB/LC_MESSAGES/django.po -> build/bdist.linux-x86_64/egg/localflavor/locale/en_GB/LC_MESSAGES
+creating build/bdist.linux-x86_64/egg/localflavor/locale/is
+creating build/bdist.linux-x86_64/egg/localflavor/locale/is/LC_MESSAGES
+copying build/lib/localflavor/locale/is/LC_MESSAGES/django.mo -> build/bdist.linux-x86_64/egg/localflavor/locale/is/LC_MESSAGES
+copying build/lib/localflavor/locale/is/LC_MESSAGES/django.po -> build/bdist.linux-x86_64/egg/localflavor/locale/is/LC_MESSAGES
+creating build/bdist.linux-x86_64/egg/localflavor/locale/pt
+creating build/bdist.linux-x86_64/egg/localflavor/locale/pt/LC_MESSAGES
+copying build/lib/localflavor/locale/pt/LC_MESSAGES/django.mo -> build/bdist.linux-x86_64/egg/localflavor/locale/pt/LC_MESSAGES
+copying build/lib/localflavor/locale/pt/LC_MESSAGES/django.po -> build/bdist.linux-x86_64/egg/localflavor/locale/pt/LC_MESSAGES
+creating build/bdist.linux-x86_64/egg/localflavor/locale/en
+creating build/bdist.linux-x86_64/egg/localflavor/locale/en/LC_MESSAGES
+copying build/lib/localflavor/locale/en/LC_MESSAGES/django.mo -> build/bdist.linux-x86_64/egg/localflavor/locale/en/LC_MESSAGES
+copying build/lib/localflavor/locale/en/LC_MESSAGES/django.po -> build/bdist.linux-x86_64/egg/localflavor/locale/en/LC_MESSAGES
+creating build/bdist.linux-x86_64/egg/localflavor/locale/hr
+creating build/bdist.linux-x86_64/egg/localflavor/locale/hr/LC_MESSAGES
+copying build/lib/localflavor/locale/hr/LC_MESSAGES/django.mo -> build/bdist.linux-x86_64/egg/localflavor/locale/hr/LC_MESSAGES
+copying build/lib/localflavor/locale/hr/LC_MESSAGES/django.po -> build/bdist.linux-x86_64/egg/localflavor/locale/hr/LC_MESSAGES
+creating build/bdist.linux-x86_64/egg/localflavor/locale/nl
+creating build/bdist.linux-x86_64/egg/localflavor/locale/nl/LC_MESSAGES
+copying build/lib/localflavor/locale/nl/LC_MESSAGES/django.mo -> build/bdist.linux-x86_64/egg/localflavor/locale/nl/LC_MESSAGES
+copying build/lib/localflavor/locale/nl/LC_MESSAGES/django.po -> build/bdist.linux-x86_64/egg/localflavor/locale/nl/LC_MESSAGES
+creating build/bdist.linux-x86_64/egg/localflavor/locale/fr
+creating build/bdist.linux-x86_64/egg/localflavor/locale/fr/LC_MESSAGES
+copying build/lib/localflavor/locale/fr/LC_MESSAGES/django.mo -> build/bdist.linux-x86_64/egg/localflavor/locale/fr/LC_MESSAGES
+copying build/lib/localflavor/locale/fr/LC_MESSAGES/django.po -> build/bdist.linux-x86_64/egg/localflavor/locale/fr/LC_MESSAGES
+creating build/bdist.linux-x86_64/egg/localflavor/locale/sk
+creating build/bdist.linux-x86_64/egg/localflavor/locale/sk/LC_MESSAGES
+copying build/lib/localflavor/locale/sk/LC_MESSAGES/django.mo -> build/bdist.linux-x86_64/egg/localflavor/locale/sk/LC_MESSAGES
+copying build/lib/localflavor/locale/sk/LC_MESSAGES/django.po -> build/bdist.linux-x86_64/egg/localflavor/locale/sk/LC_MESSAGES
+creating build/bdist.linux-x86_64/egg/localflavor/locale/fa
+creating build/bdist.linux-x86_64/egg/localflavor/locale/fa/LC_MESSAGES
+copying build/lib/localflavor/locale/fa/LC_MESSAGES/django.mo -> build/bdist.linux-x86_64/egg/localflavor/locale/fa/LC_MESSAGES
+copying build/lib/localflavor/locale/fa/LC_MESSAGES/django.po -> build/bdist.linux-x86_64/egg/localflavor/locale/fa/LC_MESSAGES
+creating build/bdist.linux-x86_64/egg/localflavor/locale/bs
+creating build/bdist.linux-x86_64/egg/localflavor/locale/bs/LC_MESSAGES
+copying build/lib/localflavor/locale/bs/LC_MESSAGES/django.mo -> build/bdist.linux-x86_64/egg/localflavor/locale/bs/LC_MESSAGES
+copying build/lib/localflavor/locale/bs/LC_MESSAGES/django.po -> build/bdist.linux-x86_64/egg/localflavor/locale/bs/LC_MESSAGES
+creating build/bdist.linux-x86_64/egg/localflavor/locale/eu
+creating build/bdist.linux-x86_64/egg/localflavor/locale/eu/LC_MESSAGES
+copying build/lib/localflavor/locale/eu/LC_MESSAGES/django.mo -> build/bdist.linux-x86_64/egg/localflavor/locale/eu/LC_MESSAGES
+copying build/lib/localflavor/locale/eu/LC_MESSAGES/django.po -> build/bdist.linux-x86_64/egg/localflavor/locale/eu/LC_MESSAGES
+creating build/bdist.linux-x86_64/egg/localflavor/locale/ca
+creating build/bdist.linux-x86_64/egg/localflavor/locale/ca/LC_MESSAGES
+copying build/lib/localflavor/locale/ca/LC_MESSAGES/django.mo -> build/bdist.linux-x86_64/egg/localflavor/locale/ca/LC_MESSAGES
+copying build/lib/localflavor/locale/ca/LC_MESSAGES/django.po -> build/bdist.linux-x86_64/egg/localflavor/locale/ca/LC_MESSAGES
+creating build/bdist.linux-x86_64/egg/localflavor/locale/da
+creating build/bdist.linux-x86_64/egg/localflavor/locale/da/LC_MESSAGES
+copying build/lib/localflavor/locale/da/LC_MESSAGES/django.mo -> build/bdist.linux-x86_64/egg/localflavor/locale/da/LC_MESSAGES
+copying build/lib/localflavor/locale/da/LC_MESSAGES/django.po -> build/bdist.linux-x86_64/egg/localflavor/locale/da/LC_MESSAGES
+creating build/bdist.linux-x86_64/egg/localflavor/locale/sr
+creating build/bdist.linux-x86_64/egg/localflavor/locale/sr/LC_MESSAGES
+copying build/lib/localflavor/locale/sr/LC_MESSAGES/django.mo -> build/bdist.linux-x86_64/egg/localflavor/locale/sr/LC_MESSAGES
+copying build/lib/localflavor/locale/sr/LC_MESSAGES/django.po -> build/bdist.linux-x86_64/egg/localflavor/locale/sr/LC_MESSAGES
+creating build/bdist.linux-x86_64/egg/localflavor/locale/ko
+creating build/bdist.linux-x86_64/egg/localflavor/locale/ko/LC_MESSAGES
+copying build/lib/localflavor/locale/ko/LC_MESSAGES/django.mo -> build/bdist.linux-x86_64/egg/localflavor/locale/ko/LC_MESSAGES
+copying build/lib/localflavor/locale/ko/LC_MESSAGES/django.po -> build/bdist.linux-x86_64/egg/localflavor/locale/ko/LC_MESSAGES
+creating build/bdist.linux-x86_64/egg/localflavor/locale/sr_Latn
+creating build/bdist.linux-x86_64/egg/localflavor/locale/sr_Latn/LC_MESSAGES
+copying build/lib/localflavor/locale/sr_Latn/LC_MESSAGES/django.mo -> build/bdist.linux-x86_64/egg/localflavor/locale/sr_Latn/LC_MESSAGES
+copying build/lib/localflavor/locale/sr_Latn/LC_MESSAGES/django.po -> build/bdist.linux-x86_64/egg/localflavor/locale/sr_Latn/LC_MESSAGES
+creating build/bdist.linux-x86_64/egg/localflavor/locale/pa
+creating build/bdist.linux-x86_64/egg/localflavor/locale/pa/LC_MESSAGES
+copying build/lib/localflavor/locale/pa/LC_MESSAGES/django.mo -> build/bdist.linux-x86_64/egg/localflavor/locale/pa/LC_MESSAGES
+copying build/lib/localflavor/locale/pa/LC_MESSAGES/django.po -> build/bdist.linux-x86_64/egg/localflavor/locale/pa/LC_MESSAGES
+creating build/bdist.linux-x86_64/egg/localflavor/locale/kn
+creating build/bdist.linux-x86_64/egg/localflavor/locale/kn/LC_MESSAGES
+copying build/lib/localflavor/locale/kn/LC_MESSAGES/django.mo -> build/bdist.linux-x86_64/egg/localflavor/locale/kn/LC_MESSAGES
+copying build/lib/localflavor/locale/kn/LC_MESSAGES/django.po -> build/bdist.linux-x86_64/egg/localflavor/locale/kn/LC_MESSAGES
+creating build/bdist.linux-x86_64/egg/localflavor/locale/ro
+creating build/bdist.linux-x86_64/egg/localflavor/locale/ro/LC_MESSAGES
+copying build/lib/localflavor/locale/ro/LC_MESSAGES/django.mo -> build/bdist.linux-x86_64/egg/localflavor/locale/ro/LC_MESSAGES
+copying build/lib/localflavor/locale/ro/LC_MESSAGES/django.po -> build/bdist.linux-x86_64/egg/localflavor/locale/ro/LC_MESSAGES
+creating build/bdist.linux-x86_64/egg/localflavor/locale/el
+creating build/bdist.linux-x86_64/egg/localflavor/locale/el/LC_MESSAGES
+copying build/lib/localflavor/locale/el/LC_MESSAGES/django.mo -> build/bdist.linux-x86_64/egg/localflavor/locale/el/LC_MESSAGES
+copying build/lib/localflavor/locale/el/LC_MESSAGES/django.po -> build/bdist.linux-x86_64/egg/localflavor/locale/el/LC_MESSAGES
+creating build/bdist.linux-x86_64/egg/localflavor/locale/lv
+creating build/bdist.linux-x86_64/egg/localflavor/locale/lv/LC_MESSAGES
+copying build/lib/localflavor/locale/lv/LC_MESSAGES/django.mo -> build/bdist.linux-x86_64/egg/localflavor/locale/lv/LC_MESSAGES
+copying build/lib/localflavor/locale/lv/LC_MESSAGES/django.po -> build/bdist.linux-x86_64/egg/localflavor/locale/lv/LC_MESSAGES
+creating build/bdist.linux-x86_64/egg/localflavor/locale/mn
+creating build/bdist.linux-x86_64/egg/localflavor/locale/mn/LC_MESSAGES
+copying build/lib/localflavor/locale/mn/LC_MESSAGES/django.mo -> build/bdist.linux-x86_64/egg/localflavor/locale/mn/LC_MESSAGES
+copying build/lib/localflavor/locale/mn/LC_MESSAGES/django.po -> build/bdist.linux-x86_64/egg/localflavor/locale/mn/LC_MESSAGES
+creating build/bdist.linux-x86_64/egg/localflavor/locale/uk
+creating build/bdist.linux-x86_64/egg/localflavor/locale/uk/LC_MESSAGES
+copying build/lib/localflavor/locale/uk/LC_MESSAGES/django.mo -> build/bdist.linux-x86_64/egg/localflavor/locale/uk/LC_MESSAGES
+copying build/lib/localflavor/locale/uk/LC_MESSAGES/django.po -> build/bdist.linux-x86_64/egg/localflavor/locale/uk/LC_MESSAGES
+creating build/bdist.linux-x86_64/egg/localflavor/locale/nn
+creating build/bdist.linux-x86_64/egg/localflavor/locale/nn/LC_MESSAGES
+copying build/lib/localflavor/locale/nn/LC_MESSAGES/django.mo -> build/bdist.linux-x86_64/egg/localflavor/locale/nn/LC_MESSAGES
+copying build/lib/localflavor/locale/nn/LC_MESSAGES/django.po -> build/bdist.linux-x86_64/egg/localflavor/locale/nn/LC_MESSAGES
+creating build/bdist.linux-x86_64/egg/localflavor/locale/id
+creating build/bdist.linux-x86_64/egg/localflavor/locale/id/LC_MESSAGES
+copying build/lib/localflavor/locale/id/LC_MESSAGES/django.mo -> build/bdist.linux-x86_64/egg/localflavor/locale/id/LC_MESSAGES
+copying build/lib/localflavor/locale/id/LC_MESSAGES/django.po -> build/bdist.linux-x86_64/egg/localflavor/locale/id/LC_MESSAGES
+creating build/bdist.linux-x86_64/egg/localflavor/locale/lt
+creating build/bdist.linux-x86_64/egg/localflavor/locale/lt/LC_MESSAGES
+copying build/lib/localflavor/locale/lt/LC_MESSAGES/django.mo -> build/bdist.linux-x86_64/egg/localflavor/locale/lt/LC_MESSAGES
+copying build/lib/localflavor/locale/lt/LC_MESSAGES/django.po -> build/bdist.linux-x86_64/egg/localflavor/locale/lt/LC_MESSAGES
+creating build/bdist.linux-x86_64/egg/localflavor/locale/hu
+creating build/bdist.linux-x86_64/egg/localflavor/locale/hu/LC_MESSAGES
+copying build/lib/localflavor/locale/hu/LC_MESSAGES/django.mo -> build/bdist.linux-x86_64/egg/localflavor/locale/hu/LC_MESSAGES
+copying build/lib/localflavor/locale/hu/LC_MESSAGES/django.po -> build/bdist.linux-x86_64/egg/localflavor/locale/hu/LC_MESSAGES
+creating build/bdist.linux-x86_64/egg/localflavor/locale/th
+creating build/bdist.linux-x86_64/egg/localflavor/locale/th/LC_MESSAGES
+copying build/lib/localflavor/locale/th/LC_MESSAGES/django.mo -> build/bdist.linux-x86_64/egg/localflavor/locale/th/LC_MESSAGES
+copying build/lib/localflavor/locale/th/LC_MESSAGES/django.po -> build/bdist.linux-x86_64/egg/localflavor/locale/th/LC_MESSAGES
+creating build/bdist.linux-x86_64/egg/localflavor/locale/gl
+creating build/bdist.linux-x86_64/egg/localflavor/locale/gl/LC_MESSAGES
+copying build/lib/localflavor/locale/gl/LC_MESSAGES/django.mo -> build/bdist.linux-x86_64/egg/localflavor/locale/gl/LC_MESSAGES
+copying build/lib/localflavor/locale/gl/LC_MESSAGES/django.po -> build/bdist.linux-x86_64/egg/localflavor/locale/gl/LC_MESSAGES
+creating build/bdist.linux-x86_64/egg/localflavor/locale/hi
+creating build/bdist.linux-x86_64/egg/localflavor/locale/hi/LC_MESSAGES
+copying build/lib/localflavor/locale/hi/LC_MESSAGES/django.mo -> build/bdist.linux-x86_64/egg/localflavor/locale/hi/LC_MESSAGES
+copying build/lib/localflavor/locale/hi/LC_MESSAGES/django.po -> build/bdist.linux-x86_64/egg/localflavor/locale/hi/LC_MESSAGES
+creating build/bdist.linux-x86_64/egg/localflavor/locale/et
+creating build/bdist.linux-x86_64/egg/localflavor/locale/et/LC_MESSAGES
+copying build/lib/localflavor/locale/et/LC_MESSAGES/django.mo -> build/bdist.linux-x86_64/egg/localflavor/locale/et/LC_MESSAGES
+copying build/lib/localflavor/locale/et/LC_MESSAGES/django.po -> build/bdist.linux-x86_64/egg/localflavor/locale/et/LC_MESSAGES
+creating build/bdist.linux-x86_64/egg/localflavor/locale/cy
+creating build/bdist.linux-x86_64/egg/localflavor/locale/cy/LC_MESSAGES
+copying build/lib/localflavor/locale/cy/LC_MESSAGES/django.mo -> build/bdist.linux-x86_64/egg/localflavor/locale/cy/LC_MESSAGES
+copying build/lib/localflavor/locale/cy/LC_MESSAGES/django.po -> build/bdist.linux-x86_64/egg/localflavor/locale/cy/LC_MESSAGES
+creating build/bdist.linux-x86_64/egg/localflavor/locale/he
+creating build/bdist.linux-x86_64/egg/localflavor/locale/he/LC_MESSAGES
+copying build/lib/localflavor/locale/he/LC_MESSAGES/django.mo -> build/bdist.linux-x86_64/egg/localflavor/locale/he/LC_MESSAGES
+copying build/lib/localflavor/locale/he/LC_MESSAGES/django.po -> build/bdist.linux-x86_64/egg/localflavor/locale/he/LC_MESSAGES
+creating build/bdist.linux-x86_64/egg/localflavor/locale/tr
+creating build/bdist.linux-x86_64/egg/localflavor/locale/tr/LC_MESSAGES
+copying build/lib/localflavor/locale/tr/LC_MESSAGES/django.mo -> build/bdist.linux-x86_64/egg/localflavor/locale/tr/LC_MESSAGES
+copying build/lib/localflavor/locale/tr/LC_MESSAGES/django.po -> build/bdist.linux-x86_64/egg/localflavor/locale/tr/LC_MESSAGES
+creating build/bdist.linux-x86_64/egg/localflavor/locale/bg
+creating build/bdist.linux-x86_64/egg/localflavor/locale/bg/LC_MESSAGES
+copying build/lib/localflavor/locale/bg/LC_MESSAGES/django.mo -> build/bdist.linux-x86_64/egg/localflavor/locale/bg/LC_MESSAGES
+copying build/lib/localflavor/locale/bg/LC_MESSAGES/django.po -> build/bdist.linux-x86_64/egg/localflavor/locale/bg/LC_MESSAGES
+creating build/bdist.linux-x86_64/egg/localflavor/locale/nb
+creating build/bdist.linux-x86_64/egg/localflavor/locale/nb/LC_MESSAGES
+copying build/lib/localflavor/locale/nb/LC_MESSAGES/django.mo -> build/bdist.linux-x86_64/egg/localflavor/locale/nb/LC_MESSAGES
+copying build/lib/localflavor/locale/nb/LC_MESSAGES/django.po -> build/bdist.linux-x86_64/egg/localflavor/locale/nb/LC_MESSAGES
+creating build/bdist.linux-x86_64/egg/localflavor/locale/pt_BR
+creating build/bdist.linux-x86_64/egg/localflavor/locale/pt_BR/LC_MESSAGES
+copying build/lib/localflavor/locale/pt_BR/LC_MESSAGES/django.mo -> build/bdist.linux-x86_64/egg/localflavor/locale/pt_BR/LC_MESSAGES
+copying build/lib/localflavor/locale/pt_BR/LC_MESSAGES/django.po -> build/bdist.linux-x86_64/egg/localflavor/locale/pt_BR/LC_MESSAGES
+creating build/bdist.linux-x86_64/egg/localflavor/locale/pl
+creating build/bdist.linux-x86_64/egg/localflavor/locale/pl/LC_MESSAGES
+copying build/lib/localflavor/locale/pl/LC_MESSAGES/django.mo -> build/bdist.linux-x86_64/egg/localflavor/locale/pl/LC_MESSAGES
+copying build/lib/localflavor/locale/pl/LC_MESSAGES/django.po -> build/bdist.linux-x86_64/egg/localflavor/locale/pl/LC_MESSAGES
+creating build/bdist.linux-x86_64/egg/localflavor/locale/ru
+creating build/bdist.linux-x86_64/egg/localflavor/locale/ru/LC_MESSAGES
+copying build/lib/localflavor/locale/ru/LC_MESSAGES/django.mo -> build/bdist.linux-x86_64/egg/localflavor/locale/ru/LC_MESSAGES
+copying build/lib/localflavor/locale/ru/LC_MESSAGES/django.po -> build/bdist.linux-x86_64/egg/localflavor/locale/ru/LC_MESSAGES
+creating build/bdist.linux-x86_64/egg/localflavor/us
+copying build/lib/localflavor/us/us_states.py -> build/bdist.linux-x86_64/egg/localflavor/us
+copying build/lib/localflavor/us/forms.py -> build/bdist.linux-x86_64/egg/localflavor/us
+copying build/lib/localflavor/us/__init__.py -> build/bdist.linux-x86_64/egg/localflavor/us
+copying build/lib/localflavor/us/models.py -> build/bdist.linux-x86_64/egg/localflavor/us
+creating build/bdist.linux-x86_64/egg/localflavor/pl
+copying build/lib/localflavor/pl/pl_voivodeships.py -> build/bdist.linux-x86_64/egg/localflavor/pl
+copying build/lib/localflavor/pl/pl_administrativeunits.py -> build/bdist.linux-x86_64/egg/localflavor/pl
+copying build/lib/localflavor/pl/forms.py -> build/bdist.linux-x86_64/egg/localflavor/pl
+copying build/lib/localflavor/pl/__init__.py -> build/bdist.linux-x86_64/egg/localflavor/pl
+creating build/bdist.linux-x86_64/egg/localflavor/ru
+copying build/lib/localflavor/ru/ru_regions.py -> build/bdist.linux-x86_64/egg/localflavor/ru
+copying build/lib/localflavor/ru/forms.py -> build/bdist.linux-x86_64/egg/localflavor/ru
+copying build/lib/localflavor/ru/__init__.py -> build/bdist.linux-x86_64/egg/localflavor/ru
+creating build/bdist.linux-x86_64/egg/localflavor/si
+copying build/lib/localflavor/si/forms.py -> build/bdist.linux-x86_64/egg/localflavor/si
+copying build/lib/localflavor/si/__init__.py -> build/bdist.linux-x86_64/egg/localflavor/si
+copying build/lib/localflavor/si/si_postalcodes.py -> build/bdist.linux-x86_64/egg/localflavor/si
+byte-compiling build/bdist.linux-x86_64/egg/localflavor/uy/util.py to util.pyc
+byte-compiling build/bdist.linux-x86_64/egg/localflavor/uy/forms.py to forms.pyc
+byte-compiling build/bdist.linux-x86_64/egg/localflavor/uy/__init__.py to __init__.pyc
+byte-compiling build/bdist.linux-x86_64/egg/localflavor/uy/uy_departments.py to uy_departments.pyc
+byte-compiling build/bdist.linux-x86_64/egg/localflavor/de/de_states.py to de_states.pyc
+byte-compiling build/bdist.linux-x86_64/egg/localflavor/de/forms.py to forms.pyc
+byte-compiling build/bdist.linux-x86_64/egg/localflavor/de/__init__.py to __init__.pyc
+byte-compiling build/bdist.linux-x86_64/egg/localflavor/it/util.py to util.pyc
+byte-compiling build/bdist.linux-x86_64/egg/localflavor/it/it_region.py to it_region.pyc
+byte-compiling build/bdist.linux-x86_64/egg/localflavor/it/forms.py to forms.pyc
+byte-compiling build/bdist.linux-x86_64/egg/localflavor/it/__init__.py to __init__.pyc
+byte-compiling build/bdist.linux-x86_64/egg/localflavor/it/it_province.py to it_province.pyc
+byte-compiling build/bdist.linux-x86_64/egg/localflavor/se/utils.py to utils.pyc
+byte-compiling build/bdist.linux-x86_64/egg/localflavor/se/se_counties.py to se_counties.pyc
+byte-compiling build/bdist.linux-x86_64/egg/localflavor/se/forms.py to forms.pyc
+byte-compiling build/bdist.linux-x86_64/egg/localflavor/se/__init__.py to __init__.pyc
+byte-compiling build/bdist.linux-x86_64/egg/localflavor/mk/forms.py to forms.pyc
+byte-compiling build/bdist.linux-x86_64/egg/localflavor/mk/mk_choices.py to mk_choices.pyc
+byte-compiling build/bdist.linux-x86_64/egg/localflavor/mk/__init__.py to __init__.pyc
+byte-compiling build/bdist.linux-x86_64/egg/localflavor/mk/models.py to models.pyc
+byte-compiling build/bdist.linux-x86_64/egg/localflavor/gb/gb_regions.py to gb_regions.pyc
+byte-compiling build/bdist.linux-x86_64/egg/localflavor/gb/forms.py to forms.pyc
+byte-compiling build/bdist.linux-x86_64/egg/localflavor/gb/__init__.py to __init__.pyc
+byte-compiling build/bdist.linux-x86_64/egg/localflavor/pk/pk_states.py to pk_states.pyc
+byte-compiling build/bdist.linux-x86_64/egg/localflavor/pk/forms.py to forms.pyc
+byte-compiling build/bdist.linux-x86_64/egg/localflavor/pk/__init__.py to __init__.pyc
+byte-compiling build/bdist.linux-x86_64/egg/localflavor/pk/models.py to models.pyc
+byte-compiling build/bdist.linux-x86_64/egg/localflavor/no/no_municipalities.py to no_municipalities.pyc
+byte-compiling build/bdist.linux-x86_64/egg/localflavor/no/forms.py to forms.pyc
+byte-compiling build/bdist.linux-x86_64/egg/localflavor/no/__init__.py to __init__.pyc
+byte-compiling build/bdist.linux-x86_64/egg/localflavor/ar/ar_provinces.py to ar_provinces.pyc
+byte-compiling build/bdist.linux-x86_64/egg/localflavor/ar/forms.py to forms.pyc
+byte-compiling build/bdist.linux-x86_64/egg/localflavor/ar/__init__.py to __init__.pyc
+byte-compiling build/bdist.linux-x86_64/egg/localflavor/mx/mx_states.py to mx_states.pyc
+byte-compiling build/bdist.linux-x86_64/egg/localflavor/mx/forms.py to forms.pyc
+byte-compiling build/bdist.linux-x86_64/egg/localflavor/mx/__init__.py to __init__.pyc
+byte-compiling build/bdist.linux-x86_64/egg/localflavor/mx/models.py to models.pyc
+byte-compiling build/bdist.linux-x86_64/egg/localflavor/fi/fi_municipalities.py to fi_municipalities.pyc
+byte-compiling build/bdist.linux-x86_64/egg/localflavor/fi/forms.py to forms.pyc
+byte-compiling build/bdist.linux-x86_64/egg/localflavor/fi/__init__.py to __init__.pyc
+byte-compiling build/bdist.linux-x86_64/egg/localflavor/pe/forms.py to forms.pyc
+byte-compiling build/bdist.linux-x86_64/egg/localflavor/pe/__init__.py to __init__.pyc
+byte-compiling build/bdist.linux-x86_64/egg/localflavor/pe/pe_region.py to pe_region.pyc
+byte-compiling build/bdist.linux-x86_64/egg/localflavor/cl/cl_regions.py to cl_regions.pyc
+byte-compiling build/bdist.linux-x86_64/egg/localflavor/cl/forms.py to forms.pyc
+byte-compiling build/bdist.linux-x86_64/egg/localflavor/cl/__init__.py to __init__.pyc
+byte-compiling build/bdist.linux-x86_64/egg/localflavor/jp/jp_prefectures.py to jp_prefectures.pyc
+byte-compiling build/bdist.linux-x86_64/egg/localflavor/jp/forms.py to forms.pyc
+byte-compiling build/bdist.linux-x86_64/egg/localflavor/jp/__init__.py to __init__.pyc
+byte-compiling build/bdist.linux-x86_64/egg/localflavor/ec/ec_provinces.py to ec_provinces.pyc
+byte-compiling build/bdist.linux-x86_64/egg/localflavor/ec/forms.py to forms.pyc
+byte-compiling build/bdist.linux-x86_64/egg/localflavor/ec/__init__.py to __init__.pyc
+byte-compiling build/bdist.linux-x86_64/egg/localflavor/za/za_provinces.py to za_provinces.pyc
+byte-compiling build/bdist.linux-x86_64/egg/localflavor/za/forms.py to forms.pyc
+byte-compiling build/bdist.linux-x86_64/egg/localflavor/za/__init__.py to __init__.pyc
+byte-compiling build/bdist.linux-x86_64/egg/localflavor/is_/is_postalcodes.py to is_postalcodes.pyc
+byte-compiling build/bdist.linux-x86_64/egg/localflavor/is_/forms.py to forms.pyc
+byte-compiling build/bdist.linux-x86_64/egg/localflavor/is_/__init__.py to __init__.pyc
+byte-compiling build/bdist.linux-x86_64/egg/localflavor/br/br_states.py to br_states.pyc
+byte-compiling build/bdist.linux-x86_64/egg/localflavor/br/forms.py to forms.pyc
+byte-compiling build/bdist.linux-x86_64/egg/localflavor/br/__init__.py to __init__.pyc
+byte-compiling build/bdist.linux-x86_64/egg/localflavor/br/models.py to models.pyc
+byte-compiling build/bdist.linux-x86_64/egg/localflavor/cz/cz_regions.py to cz_regions.pyc
+byte-compiling build/bdist.linux-x86_64/egg/localflavor/cz/forms.py to forms.pyc
+byte-compiling build/bdist.linux-x86_64/egg/localflavor/cz/__init__.py to __init__.pyc
+byte-compiling build/bdist.linux-x86_64/egg/localflavor/es/forms.py to forms.pyc
+byte-compiling build/bdist.linux-x86_64/egg/localflavor/es/__init__.py to __init__.pyc
+byte-compiling build/bdist.linux-x86_64/egg/localflavor/es/es_regions.py to es_regions.pyc
+byte-compiling build/bdist.linux-x86_64/egg/localflavor/es/es_provinces.py to es_provinces.pyc
+byte-compiling build/bdist.linux-x86_64/egg/localflavor/au/au_states.py to au_states.pyc
+byte-compiling build/bdist.linux-x86_64/egg/localflavor/au/forms.py to forms.pyc
+byte-compiling build/bdist.linux-x86_64/egg/localflavor/au/__init__.py to __init__.pyc
+byte-compiling build/bdist.linux-x86_64/egg/localflavor/au/models.py to models.pyc
+byte-compiling build/bdist.linux-x86_64/egg/localflavor/generic/countries/iso_3166.py to iso_3166.pyc
+byte-compiling build/bdist.linux-x86_64/egg/localflavor/generic/countries/sepa.py to sepa.pyc
+byte-compiling build/bdist.linux-x86_64/egg/localflavor/generic/countries/__init__.py to __init__.pyc
+byte-compiling build/bdist.linux-x86_64/egg/localflavor/generic/checksums.py to checksums.pyc
+byte-compiling build/bdist.linux-x86_64/egg/localflavor/generic/validators.py to validators.pyc
+byte-compiling build/bdist.linux-x86_64/egg/localflavor/generic/forms.py to forms.pyc
+byte-compiling build/bdist.linux-x86_64/egg/localflavor/generic/__init__.py to __init__.pyc
+byte-compiling build/bdist.linux-x86_64/egg/localflavor/generic/models.py to models.pyc
+byte-compiling build/bdist.linux-x86_64/egg/localflavor/pt/forms.py to forms.pyc
+byte-compiling build/bdist.linux-x86_64/egg/localflavor/pt/__init__.py to __init__.pyc
+byte-compiling build/bdist.linux-x86_64/egg/localflavor/pt/pt_regions.py to pt_regions.pyc
+byte-compiling build/bdist.linux-x86_64/egg/localflavor/il/forms.py to forms.pyc
+byte-compiling build/bdist.linux-x86_64/egg/localflavor/il/__init__.py to __init__.pyc
+byte-compiling build/bdist.linux-x86_64/egg/localflavor/co/co_departments.py to co_departments.pyc
+byte-compiling build/bdist.linux-x86_64/egg/localflavor/co/forms.py to forms.pyc
+byte-compiling build/bdist.linux-x86_64/egg/localflavor/co/__init__.py to __init__.pyc
+byte-compiling build/bdist.linux-x86_64/egg/localflavor/hr/hr_choices.py to hr_choices.pyc
+byte-compiling build/bdist.linux-x86_64/egg/localflavor/hr/forms.py to forms.pyc
+byte-compiling build/bdist.linux-x86_64/egg/localflavor/hr/__init__.py to __init__.pyc
+byte-compiling build/bdist.linux-x86_64/egg/localflavor/at/at_states.py to at_states.pyc
+byte-compiling build/bdist.linux-x86_64/egg/localflavor/at/forms.py to forms.pyc
+byte-compiling build/bdist.linux-x86_64/egg/localflavor/at/__init__.py to __init__.pyc
+byte-compiling build/bdist.linux-x86_64/egg/localflavor/nl/nl_provinces.py to nl_provinces.pyc
+byte-compiling build/bdist.linux-x86_64/egg/localflavor/nl/forms.py to forms.pyc
+byte-compiling build/bdist.linux-x86_64/egg/localflavor/nl/__init__.py to __init__.pyc
+byte-compiling build/bdist.linux-x86_64/egg/localflavor/nl/models.py to models.pyc
+byte-compiling build/bdist.linux-x86_64/egg/localflavor/py_/forms.py to forms.pyc
+byte-compiling build/bdist.linux-x86_64/egg/localflavor/py_/__init__.py to __init__.pyc
+byte-compiling build/bdist.linux-x86_64/egg/localflavor/py_/py_department.py to py_department.pyc
+byte-compiling build/bdist.linux-x86_64/egg/localflavor/fr/forms.py to forms.pyc
+byte-compiling build/bdist.linux-x86_64/egg/localflavor/fr/__init__.py to __init__.pyc
+byte-compiling build/bdist.linux-x86_64/egg/localflavor/fr/fr_department.py to fr_department.pyc
+byte-compiling build/bdist.linux-x86_64/egg/localflavor/fr/fr_region.py to fr_region.pyc
+byte-compiling build/bdist.linux-x86_64/egg/localflavor/fr/models.py to models.pyc
+byte-compiling build/bdist.linux-x86_64/egg/localflavor/sk/sk_regions.py to sk_regions.pyc
+byte-compiling build/bdist.linux-x86_64/egg/localflavor/sk/sk_districts.py to sk_districts.pyc
+byte-compiling build/bdist.linux-x86_64/egg/localflavor/sk/forms.py to forms.pyc
+byte-compiling build/bdist.linux-x86_64/egg/localflavor/sk/__init__.py to __init__.pyc
+byte-compiling build/bdist.linux-x86_64/egg/localflavor/sg/forms.py to forms.pyc
+byte-compiling build/bdist.linux-x86_64/egg/localflavor/sg/__init__.py to __init__.pyc
+byte-compiling build/bdist.linux-x86_64/egg/localflavor/hk/forms.py to forms.pyc
+byte-compiling build/bdist.linux-x86_64/egg/localflavor/hk/__init__.py to __init__.pyc
+byte-compiling build/bdist.linux-x86_64/egg/localflavor/ie/forms.py to forms.pyc
+byte-compiling build/bdist.linux-x86_64/egg/localflavor/ie/__init__.py to __init__.pyc
+byte-compiling build/bdist.linux-x86_64/egg/localflavor/ie/ie_counties.py to ie_counties.pyc
+byte-compiling build/bdist.linux-x86_64/egg/localflavor/ca/ca_provinces.py to ca_provinces.pyc
+byte-compiling build/bdist.linux-x86_64/egg/localflavor/ca/forms.py to forms.pyc
+byte-compiling build/bdist.linux-x86_64/egg/localflavor/ca/__init__.py to __init__.pyc
+byte-compiling build/bdist.linux-x86_64/egg/localflavor/ro/forms.py to forms.pyc
+byte-compiling build/bdist.linux-x86_64/egg/localflavor/ro/__init__.py to __init__.pyc
+byte-compiling build/bdist.linux-x86_64/egg/localflavor/ro/ro_counties.py to ro_counties.pyc
+byte-compiling build/bdist.linux-x86_64/egg/localflavor/be/be_regions.py to be_regions.pyc
+byte-compiling build/bdist.linux-x86_64/egg/localflavor/be/forms.py to forms.pyc
+byte-compiling build/bdist.linux-x86_64/egg/localflavor/be/be_provinces.py to be_provinces.pyc
+byte-compiling build/bdist.linux-x86_64/egg/localflavor/be/__init__.py to __init__.pyc
+byte-compiling build/bdist.linux-x86_64/egg/localflavor/lv/lv_choices.py to lv_choices.pyc
+byte-compiling build/bdist.linux-x86_64/egg/localflavor/lv/forms.py to forms.pyc
+byte-compiling build/bdist.linux-x86_64/egg/localflavor/lv/__init__.py to __init__.pyc
+byte-compiling build/bdist.linux-x86_64/egg/localflavor/gr/forms.py to forms.pyc
+byte-compiling build/bdist.linux-x86_64/egg/localflavor/gr/__init__.py to __init__.pyc
+byte-compiling build/bdist.linux-x86_64/egg/localflavor/ee/forms.py to forms.pyc
+byte-compiling build/bdist.linux-x86_64/egg/localflavor/ee/__init__.py to __init__.pyc
+byte-compiling build/bdist.linux-x86_64/egg/localflavor/ee/ee_counties.py to ee_counties.pyc
+byte-compiling build/bdist.linux-x86_64/egg/localflavor/kw/forms.py to forms.pyc
+byte-compiling build/bdist.linux-x86_64/egg/localflavor/kw/__init__.py to __init__.pyc
+byte-compiling build/bdist.linux-x86_64/egg/localflavor/__init__.py to __init__.pyc
+byte-compiling build/bdist.linux-x86_64/egg/localflavor/dk/dk_municipalities.py to dk_municipalities.pyc
+byte-compiling build/bdist.linux-x86_64/egg/localflavor/dk/dk_postalcodes.py to dk_postalcodes.pyc
+byte-compiling build/bdist.linux-x86_64/egg/localflavor/dk/forms.py to forms.pyc
+byte-compiling build/bdist.linux-x86_64/egg/localflavor/dk/__init__.py to __init__.pyc
+byte-compiling build/bdist.linux-x86_64/egg/localflavor/in_/forms.py to forms.pyc
+byte-compiling build/bdist.linux-x86_64/egg/localflavor/in_/__init__.py to __init__.pyc
+byte-compiling build/bdist.linux-x86_64/egg/localflavor/in_/in_states.py to in_states.pyc
+byte-compiling build/bdist.linux-x86_64/egg/localflavor/in_/models.py to models.pyc
+byte-compiling build/bdist.linux-x86_64/egg/localflavor/nz/nz_councils.py to nz_councils.pyc
+byte-compiling build/bdist.linux-x86_64/egg/localflavor/nz/nz_regions.py to nz_regions.pyc
+byte-compiling build/bdist.linux-x86_64/egg/localflavor/nz/nz_provinces.py to nz_provinces.pyc
+byte-compiling build/bdist.linux-x86_64/egg/localflavor/nz/forms.py to forms.pyc
+byte-compiling build/bdist.linux-x86_64/egg/localflavor/nz/__init__.py to __init__.pyc
+byte-compiling build/bdist.linux-x86_64/egg/localflavor/nz/models.py to models.pyc
+byte-compiling build/bdist.linux-x86_64/egg/localflavor/models.py to models.pyc
+byte-compiling build/bdist.linux-x86_64/egg/localflavor/lt/lt_choices.py to lt_choices.pyc
+byte-compiling build/bdist.linux-x86_64/egg/localflavor/lt/forms.py to forms.pyc
+byte-compiling build/bdist.linux-x86_64/egg/localflavor/lt/__init__.py to __init__.pyc
+byte-compiling build/bdist.linux-x86_64/egg/localflavor/cn/cn_provinces.py to cn_provinces.pyc
+byte-compiling build/bdist.linux-x86_64/egg/localflavor/cn/forms.py to forms.pyc
+byte-compiling build/bdist.linux-x86_64/egg/localflavor/cn/__init__.py to __init__.pyc
+byte-compiling build/bdist.linux-x86_64/egg/localflavor/ch/ch_states.py to ch_states.pyc
+byte-compiling build/bdist.linux-x86_64/egg/localflavor/ch/forms.py to forms.pyc
+byte-compiling build/bdist.linux-x86_64/egg/localflavor/ch/__init__.py to __init__.pyc
+byte-compiling build/bdist.linux-x86_64/egg/localflavor/id_/id_choices.py to id_choices.pyc
+byte-compiling build/bdist.linux-x86_64/egg/localflavor/id_/forms.py to forms.pyc
+byte-compiling build/bdist.linux-x86_64/egg/localflavor/id_/__init__.py to __init__.pyc
+byte-compiling build/bdist.linux-x86_64/egg/localflavor/tr/tr_provinces.py to tr_provinces.pyc
+byte-compiling build/bdist.linux-x86_64/egg/localflavor/tr/forms.py to forms.pyc
+byte-compiling build/bdist.linux-x86_64/egg/localflavor/tr/__init__.py to __init__.pyc
+byte-compiling build/bdist.linux-x86_64/egg/localflavor/mt/forms.py to forms.pyc
+byte-compiling build/bdist.linux-x86_64/egg/localflavor/mt/__init__.py to __init__.pyc
+byte-compiling build/bdist.linux-x86_64/egg/localflavor/us/us_states.py to us_states.pyc
+byte-compiling build/bdist.linux-x86_64/egg/localflavor/us/forms.py to forms.pyc
+byte-compiling build/bdist.linux-x86_64/egg/localflavor/us/__init__.py to __init__.pyc
+byte-compiling build/bdist.linux-x86_64/egg/localflavor/us/models.py to models.pyc
+byte-compiling build/bdist.linux-x86_64/egg/localflavor/pl/pl_voivodeships.py to pl_voivodeships.pyc
+byte-compiling build/bdist.linux-x86_64/egg/localflavor/pl/pl_administrativeunits.py to pl_administrativeunits.pyc
+byte-compiling build/bdist.linux-x86_64/egg/localflavor/pl/forms.py to forms.pyc
+byte-compiling build/bdist.linux-x86_64/egg/localflavor/pl/__init__.py to __init__.pyc
+byte-compiling build/bdist.linux-x86_64/egg/localflavor/ru/ru_regions.py to ru_regions.pyc
+byte-compiling build/bdist.linux-x86_64/egg/localflavor/ru/forms.py to forms.pyc
+byte-compiling build/bdist.linux-x86_64/egg/localflavor/ru/__init__.py to __init__.pyc
+byte-compiling build/bdist.linux-x86_64/egg/localflavor/si/forms.py to forms.pyc
+byte-compiling build/bdist.linux-x86_64/egg/localflavor/si/__init__.py to __init__.pyc
+byte-compiling build/bdist.linux-x86_64/egg/localflavor/si/si_postalcodes.py to si_postalcodes.pyc
+creating build/bdist.linux-x86_64/egg/EGG-INFO
+copying django_localflavor.egg-info/PKG-INFO -> build/bdist.linux-x86_64/egg/EGG-INFO
+copying django_localflavor.egg-info/SOURCES.txt -> build/bdist.linux-x86_64/egg/EGG-INFO
+copying django_localflavor.egg-info/dependency_links.txt -> build/bdist.linux-x86_64/egg/EGG-INFO
+copying django_localflavor.egg-info/not-zip-safe -> build/bdist.linux-x86_64/egg/EGG-INFO
+copying django_localflavor.egg-info/top_level.txt -> build/bdist.linux-x86_64/egg/EGG-INFO
+creating dist
+creating 'dist/django_localflavor-1.1-py2.7.egg' and adding 'build/bdist.linux-x86_64/egg' to it
+removing 'build/bdist.linux-x86_64/egg' (and everything under it)
+Processing django_localflavor-1.1-py2.7.egg
+creating /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/django_localflavor-1.1-py2.7.egg
+Extracting django_localflavor-1.1-py2.7.egg to /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages
+Adding django-localflavor 1.1 to easy-install.pth file
+
+Installed /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/django_localflavor-1.1-py2.7.egg
+Processing dependencies for django-localflavor==1.1
+Finished processing dependencies for django-localflavor==1.1
+
+The following NEW packages will be INSTALLED:
+
+    openssl:    1.0.1k-1     
+    pip:        7.0.3-py27_0 
+    python:     2.7.10-0     
+    readline:   6.2-2        
+    setuptools: 18.0.1-py27_0
+    sqlite:     3.8.4.1-1    
+    system:     5.8-2        
+    tk:         8.5.18-0     
+    zlib:       1.2.8-0      
+
+Linking packages ...
+[                    ]|                                                  |   0%[openssl             ]|                                                  |   0%[readline            ]|#####                                             |  11%[sqlite              ]|###########                                       |  22%[system              ]|################                                  |  33%[tk                  ]|######################                            |  44%[zlib                ]|###########################                       |  55%[python              ]|#################################                 |  66%[setuptools          ]|######################################            |  77%[pip                 ]|############################################      |  88%[      COMPLETE      ]|##################################################| 100%
+Removing old work directory
+Source cache directory is: /home/ubuntu/miniconda/conda-bld/src_cache
+Found source in cache: django-localflavor-1.1.tar.gz
+Extracting download
+Package: django-localflavor-1.1-py_0
+source tree in: /home/ubuntu/miniconda/conda-bld/work/django-localflavor-1.1
+found egg dir: /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/django_localflavor-1.1-py2.7.egg
+number of files: 495
+Fixing permissions
+Fixing permissions
+BUILD END: django-localflavor-1.1-py_0
+TEST START: django-localflavor-1.1-py_0
+Fetching package metadata: ......
+
+WARNING: conda-build appears to be out of date. You have version 1.13.0 but the
+latest version is 1.14.1. Run
+
+conda update -n root conda-build
+
+to get the latest version.
+
+Solving package specifications: .
+The following packages will be downloaded:
+
+    package                    |            build
+    ---------------------------|-----------------
+    django-localflavor-1.1     |             py_0         1.1 MB
+
+The following NEW packages will be INSTALLED:
+
+    django-localflavor: 1.1-py_0     
+    openssl:            1.0.1k-1     
+    pip:                7.0.3-py27_0 
+    python:             2.7.10-0     
+    readline:           6.2-2        
+    setuptools:         18.0.1-py27_0
+    sqlite:             3.8.4.1-1    
+    system:             5.8-2        
+    tk:                 8.5.18-0     
+    zlib:               1.2.8-0      
+
+Fetching packages ...
+django-localfl   0% |                              | ETA:  --:--:--   0.00  B/sdjango-localfl   1% |                               | ETA:  0:00:00  47.62 MB/sdjango-localfl   2% |                               | ETA:  0:00:00  58.81 MB/sdjango-localfl   4% |#                              | ETA:  0:00:00  65.70 MB/sdjango-localfl   5% |#                              | ETA:  0:00:00  70.16 MB/sdjango-localfl   7% |##                             | ETA:  0:00:00  72.87 MB/sdjango-localfl   8% |##                             | ETA:  0:00:00  75.03 MB/sdjango-localfl   9% |###                            | ETA:  0:00:00  76.66 MB/sdjango-localfl  11% |###                            | ETA:  0:00:00  77.97 MB/sdjango-localfl  12% |###                            | ETA:  0:00:00  79.23 MB/sdjango-localfl  14% |####                           | ETA:  0:00:00  79.42 MB/sdjango-localfl  15% |####                           | ETA:  0:00:00  80.35 MB/sdjango-localfl  17% |#####                          | ETA:  0:00:00  81.11 MB/sdjango-localfl  18% |#####                          | ETA:  0:00:00  81.70 MB/sdjango-localfl  19% |######                         | ETA:  0:00:00  82.33 MB/sdjango-localfl  21% |######                         | ETA:  0:00:00  82.71 MB/sdjango-localfl  22% |#######                        | ETA:  0:00:00  83.06 MB/sdjango-localfl  24% |#######                        | ETA:  0:00:00  83.39 MB/sdjango-localfl  25% |#######                        | ETA:  0:00:00  83.78 MB/sdjango-localfl  27% |########                       | ETA:  0:00:00  84.11 MB/sdjango-localfl  28% |########                       | ETA:  0:00:00  84.41 MB/sdjango-localfl  29% |#########                      | ETA:  0:00:00  84.66 MB/sdjango-localfl  31% |#########                      | ETA:  0:00:00  84.89 MB/sdjango-localfl  32% |##########                     | ETA:  0:00:00  85.06 MB/sdjango-localfl  34% |##########                     | ETA:  0:00:00  85.30 MB/sdjango-localfl  35% |###########                    | ETA:  0:00:00  85.48 MB/sdjango-localfl  36% |###########                    | ETA:  0:00:00  85.68 MB/sdjango-localfl  38% |###########                    | ETA:  0:00:00  85.91 MB/sdjango-localfl  39% |############                   | ETA:  0:00:00  86.04 MB/sdjango-localfl  41% |############                   | ETA:  0:00:00  86.20 MB/sdjango-localfl  42% |#############                  | ETA:  0:00:00  86.32 MB/sdjango-localfl  44% |#############                  | ETA:  0:00:00  86.48 MB/sdjango-localfl  45% |##############                 | ETA:  0:00:00  86.33 MB/sdjango-localfl  46% |##############                 | ETA:  0:00:00  86.45 MB/sdjango-localfl  48% |##############                 | ETA:  0:00:00  86.61 MB/sdjango-localfl  49% |###############                | ETA:  0:00:00  86.75 MB/sdjango-localfl  51% |###############                | ETA:  0:00:00  86.83 MB/sdjango-localfl  52% |################               | ETA:  0:00:00  86.95 MB/sdjango-localfl  54% |################               | ETA:  0:00:00  40.73 MB/sdjango-localfl  55% |#################              | ETA:  0:00:00  41.30 MB/sdjango-localfl  56% |#################              | ETA:  0:00:00  41.87 MB/sdjango-localfl  58% |##################             | ETA:  0:00:00  42.42 MB/sdjango-localfl  59% |##################             | ETA:  0:00:00  42.97 /home/ubuntu/miniconda/pkgs/django-localflavor-1.1-py_0/bin/.django-localflavor-pre-link.sh: line 2: /home/ubuntu/miniconda/envs/_test/bin/python: No such file or directory
+MB/sdjango-localfl  61% |##################             | ETA:  0:00:00  43.48 MB/sdjango-localfl  62% |###################            | ETA:  0:00:00  44.00 MB/sdjango-localfl  64% |###################            | ETA:  0:00:00  44.51 MB/sdjango-localfl  65% |####################           | ETA:  0:00:00  45.01 MB/sdjango-localfl  66% |####################           | ETA:  0:00:00  45.49 MB/sdjango-localfl  68% |#####################          | ETA:  0:00:00  45.98 MB/sdjango-localfl  69% |#####################          | ETA:  0:00:00  46.45 MB/sdjango-localfl  71% |######################         | ETA:  0:00:00  46.90 MB/sdjango-localfl  72% |######################         | ETA:  0:00:00  47.35 MB/sdjango-localfl  73% |######################         | ETA:  0:00:00  47.80 MB/sdjango-localfl  75% |#######################        | ETA:  0:00:00  48.20 MB/sdjango-localfl  76% |#######################        | ETA:  0:00:00  48.61 MB/sdjango-localfl  78% |########################       | ETA:  0:00:00  49.02 MB/sdjango-localfl  79% |########################       | ETA:  0:00:00  49.43 MB/sdjango-localfl  81% |#########################      | ETA:  0:00:00  49.83 MB/sdjango-localfl  82% |#########################      | ETA:  0:00:00  50.24 MB/sdjango-localfl  83% |##########################     | ETA:  0:00:00  50.62 MB/sdjango-localfl  85% |##########################     | ETA:  0:00:00  50.99 MB/sdjango-localfl  86% |##########################     | ETA:  0:00:00  51.36 MB/sdjango-localfl  88% |###########################    | ETA:  0:00:00  51.72 MB/sdjango-localfl  89% |###########################    | ETA:  0:00:00  52.08 MB/sdjango-localfl  91% |############################   | ETA:  0:00:00  52.43 MB/sdjango-localfl  92% |############################   | ETA:  0:00:00  52.77 MB/sdjango-localfl  93% |#############################  | ETA:  0:00:00  53.12 MB/sdjango-localfl  95% |#############################  | ETA:  0:00:00  53.45 MB/sdjango-localfl  96% |#############################  | ETA:  0:00:00  53.78 MB/sdjango-localfl  98% |############################## | ETA:  0:00:00  54.09 MB/sdjango-localfl  99% |############################## | ETA:  0:00:00  54.41 MB/sdjango-localfl 100% |###############################| Time: 0:00:00  53.86 MB/s
+Extracting packages ...
+[      COMPLETE      ]|                                                  |   0%[django-localflavor  ]|                                                  |   0%[django-localflavor  ]|                                                  |   0%[      COMPLETE      ]|##################################################| 100%
+Linking packages ...
+[      COMPLETE      ]|                                                  |   0%[openssl             ]|                                                  |   0%[openssl             ]|                                                  |   0%[readline            ]|#####                                             |  10%[sqlite              ]|##########                                        |  20%[system              ]|###############                                   |  30%[tk                  ]|####################                              |  40%[zlib                ]|#########################                         |  50%[django-localflavor  ]|##############################                    |  60%Error: pre-link failed: django-localflavor-1.1-py_0

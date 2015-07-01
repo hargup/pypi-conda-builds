@@ -2,7 +2,19 @@ Removing old build directory
 Removing old work directory
 BUILD START: python-coveralls-2.5.0-py_0
 Fetching package metadata: ......
-Solving package specifications: .+ /home/ubuntu/miniconda/envs/_build/bin/python setup.py install
+
+WARNING: conda-build appears to be out of date. You have version 1.13.0 but the
+latest version is 1.14.1. Run
+
+conda update -n root conda-build
+
+to get the latest version.
+
+Solving package specifications: .................
+Warning: 2 possible package resolutions (only showing differing packages):
+	[u'sh-1.11-py_0.tar.bz2'],
+	[u'sh-1.11-py27_0.tar.bz2'],
++ /home/ubuntu/miniconda/envs/_build/bin/python setup.py install
 running install
 running bdist_egg
 running egg_info
@@ -90,28 +102,28 @@ The following packages will be downloaded:
 
     package                    |            build
     ---------------------------|-----------------
-    sh-1.11                    |           py27_0          37 KB
+    sh-1.11                    |             py_0          21 KB
 
 The following NEW packages will be INSTALLED:
 
-    coverage:   3.7.1-py27_0
-    openssl:    1.0.1k-1    
-    pip:        7.0.3-py27_0
-    python:     2.7.10-0    
-    pyyaml:     3.11-py27_0 
-    readline:   6.2-2       
-    requests:   2.7.0-py27_0
-    setuptools: 17.0-py27_0 
-    sh:         1.11-py27_0 
-    six:        1.9.0-py27_0
-    sqlite:     3.8.4.1-1   
-    system:     5.8-2       
-    tk:         8.5.18-0    
-    yaml:       0.1.4-0     
-    zlib:       1.2.8-0     
+    coverage:   3.7.1-py27_0 
+    openssl:    1.0.1k-1     
+    pip:        7.0.3-py27_0 
+    python:     2.7.10-0     
+    pyyaml:     3.11-py27_1  
+    readline:   6.2-2        
+    requests:   2.7.0-py27_0 
+    setuptools: 18.0.1-py27_0
+    sh:         1.11-py_0    
+    six:        1.9.0-py27_0 
+    sqlite:     3.8.4.1-1    
+    system:     5.8-2        
+    tk:         8.5.18-0     
+    yaml:       0.1.6-0      
+    zlib:       1.2.8-0      
 
 Fetching packages ...
-sh-1.11-py27_0   0% |                              | ETA:  --:--:--   0.00  B/ssh-1.11-py27_0  43% |#############                  | ETA:  0:00:00  34.50 MB/ssh-1.11-py27_0  86% |##########################     | ETA:  0:00:00  47.21 MB/ssh-1.11-py27_0 100% |###############################| ETA:  0:00:00  44.07 MB/ssh-1.11-py27_0 100% |###############################| Time: 0:00:00  34.47 MB/s
+sh-1.11-py_0.t   0% |                              | ETA:  --:--:--   0.00  B/ssh-1.11-py_0.t  76% |#######################        | ETA:  0:00:00  35.53 MB/ssh-1.11-py_0.t 100% |###############################| ETA:  0:00:00  33.37 MB/ssh-1.11-py_0.t 100% |###############################| Time: 0:00:00  24.71 MB/s
 Extracting packages ...
 [                    ]|                                                  |   0%[sh                  ]|                                                  |   0%[      COMPLETE      ]|##################################################| 100%
 Linking packages ...
@@ -123,13 +135,26 @@ Extracting download
 Package: python-coveralls-2.5.0-py_0
 source tree in: /home/ubuntu/miniconda/conda-bld/work/python-coveralls-2.5.0
 found egg: /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/python_coveralls-2.5.0-py2.7.egg
-number of files: 3
+compiling .pyc files...
+number of files: 4
 Fixing permissions
 Fixing permissions
 BUILD END: python-coveralls-2.5.0-py_0
 TEST START: python-coveralls-2.5.0-py_0
 Fetching package metadata: ......
-Solving package specifications: .===== testing package: python-coveralls-2.5.0-py_0 =====
+
+WARNING: conda-build appears to be out of date. You have version 1.13.0 but the
+latest version is 1.14.1. Run
+
+conda update -n root conda-build
+
+to get the latest version.
+
+Solving package specifications: .................
+Warning: 2 possible package resolutions (only showing differing packages):
+	[u'sh-1.11-py_0.tar.bz2'],
+	[u'sh-1.11-py27_0.tar.bz2'],
+===== testing package: python-coveralls-2.5.0-py_0 =====
 import: u'coveralls'
 ===== python-coveralls-2.5.0-py_0 OK =====
 + coveralls --help
@@ -163,25 +188,25 @@ The following packages will be downloaded:
 
 The following NEW packages will be INSTALLED:
 
-    coverage:         3.7.1-py27_0
-    openssl:          1.0.1k-1    
-    pip:              7.0.3-py27_0
-    python:           2.7.10-0    
-    python-coveralls: 2.5.0-py_0  
-    pyyaml:           3.11-py27_0 
-    readline:         6.2-2       
-    requests:         2.7.0-py27_0
-    setuptools:       17.0-py27_0 
-    sh:               1.11-py27_0 
-    six:              1.9.0-py27_0
-    sqlite:           3.8.4.1-1   
-    system:           5.8-2       
-    tk:               8.5.18-0    
-    yaml:             0.1.4-0     
-    zlib:             1.2.8-0     
+    coverage:         3.7.1-py27_0 
+    openssl:          1.0.1k-1     
+    pip:              7.0.3-py27_0 
+    python:           2.7.10-0     
+    python-coveralls: 2.5.0-py_0   
+    pyyaml:           3.11-py27_1  
+    readline:         6.2-2        
+    requests:         2.7.0-py27_0 
+    setuptools:       18.0.1-py27_0
+    sh:               1.11-py_0    
+    six:              1.9.0-py27_0 
+    sqlite:           3.8.4.1-1    
+    system:           5.8-2        
+    tk:               8.5.18-0     
+    yaml:             0.1.6-0      
+    zlib:             1.2.8-0      
 
 Fetching packages ...
-python-coveral   0% |                              | ETA:  --:--:--   0.00  B/spython-coveral  17% |#####                          | Time: 0:00:00  62.81 MB/spython-coveral  34% |##########                     | Time: 0:00:00  70.01 MB/spython-coveral  51% |###############                | Time: 0:00:00  74.48 MB/spython-coveral  68% |#####################          | Time: 0:00:00  77.19 MB/spython-coveral  85% |##########################     | Time: 0:00:00  79.32 MB/spython-coveral 100% |###############################| Time: 0:00:00  79.29 MB/spython-coveral 100% |###############################| Time: 0:00:00  71.50 MB/spython-coveral 100% |###############################| Time: 0:00:00  63.30 MB/s
+python-coveral   0% |                              | ETA:  --:--:--   0.00  B/spython-coveral  17% |#####                          | Time: 0:00:00  59.39 MB/spython-coveral  34% |##########                     | Time: 0:00:00  67.14 MB/spython-coveral  51% |###############                | Time: 0:00:00  72.62 MB/spython-coveral  68% |#####################          | Time: 0:00:00  75.95 MB/spython-coveral  85% |##########################     | Time: 0:00:00  78.18 MB/spython-coveral 100% |###############################| Time: 0:00:00  78.07 MB/spython-coveral 100% |###############################| Time: 0:00:00  70.36 MB/spython-coveral 100% |###############################| Time: 0:00:00  63.28 MB/s
 Extracting packages ...
 [      COMPLETE      ]|                                                  |   0%[python-coveralls    ]|                                                  |   0%[python-coveralls    ]|                                                  |   0%[      COMPLETE      ]|##################################################| 100%
 Linking packages ...

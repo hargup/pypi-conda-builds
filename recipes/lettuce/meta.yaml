@@ -1,0 +1,78 @@
+package:
+  name: lettuce
+  version: "0.2.20"
+
+source:
+  fn: lettuce-0.2.20.tar.gz
+  url: https://pypi.python.org/packages/source/l/lettuce/lettuce-0.2.20.tar.gz
+  md5: f365329c345d83b58629e724b6dc4490
+#  patches:
+   # List any patch files here
+   # - fix.patch
+
+build:
+  noarch_python: True
+  # preserve_egg_dir: True
+  entry_points:
+    # Put any entry points (scripts to be generated automatically) here. The
+    # syntax is module:function.  For example
+    #
+    # - lettuce = lettuce:main
+    #
+    # Would create an entry point called lettuce that calls lettuce.main()
+
+    - lettuce = lettuce.bin:main
+
+  # If this is a new build for the same version, increment the build
+  # number. If you do not include this key, it defaults to 0.
+  # number: 1
+
+requirements:
+  build:
+    - python
+    - setuptools
+    - sure
+    - fuzzywuzzy
+    - python-subunit
+
+  run:
+    - python
+    - sure
+    - fuzzywuzzy
+    - python-subunit
+
+test:
+  # Python imports
+  imports:
+    - lettuce
+    - lettuce.django
+    - lettuce.plugins
+    - lettuce/django.mail
+    - lettuce/django.management
+    - lettuce/django.steps
+    - lettuce/django.tests
+    - lettuce/django/management.commands
+    - lettuce/django/tests.functional
+    - lettuce/django/tests.unit
+
+  commands:
+    # You can put test commands to be run here.  Use this to test that the
+    # entry points work.
+
+    - lettuce --help
+
+  # You can also put a file called run_test.py in the recipe that will be run
+  # at test time.
+
+  # requires:
+    # Put any additional test requirements here.  For example
+    # - nose
+
+about:
+  home: http://lettuce.it
+  license: UNKNOWN
+  summary: 'Behaviour Driven Development for python'
+
+# See
+# http://docs.continuum.io/conda/build.html for
+# more information about meta.yaml

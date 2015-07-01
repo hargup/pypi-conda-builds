@@ -2,6 +2,14 @@ Removing old build directory
 Removing old work directory
 BUILD START: qrcode-5.1-py_0
 Fetching package metadata: ......
+
+WARNING: conda-build appears to be out of date. You have version 1.13.0 but the
+latest version is 1.14.1. Run
+
+conda update -n root conda-build
+
+to get the latest version.
+
 Solving package specifications: .+ /home/ubuntu/miniconda/envs/_build/bin/python setup.py install
 running install
 running bdist_egg
@@ -111,16 +119,16 @@ Finished processing dependencies for qrcode==5.1
 
 The following NEW packages will be INSTALLED:
 
-    openssl:    1.0.1k-1    
-    pip:        7.0.3-py27_0
-    python:     2.7.10-0    
-    readline:   6.2-2       
-    setuptools: 17.0-py27_0 
-    six:        1.9.0-py27_0
-    sqlite:     3.8.4.1-1   
-    system:     5.8-2       
-    tk:         8.5.18-0    
-    zlib:       1.2.8-0     
+    openssl:    1.0.1k-1     
+    pip:        7.0.3-py27_0 
+    python:     2.7.10-0     
+    readline:   6.2-2        
+    setuptools: 18.0.1-py27_0
+    six:        1.9.0-py27_0 
+    sqlite:     3.8.4.1-1    
+    system:     5.8-2        
+    tk:         8.5.18-0     
+    zlib:       1.2.8-0      
 
 Linking packages ...
 [                    ]|                                                  |   0%[openssl             ]|                                                  |   0%[readline            ]|#####                                             |  10%[sqlite              ]|##########                                        |  20%[system              ]|###############                                   |  30%[tk                  ]|####################                              |  40%[zlib                ]|#########################                         |  50%[python              ]|##############################                    |  60%[setuptools          ]|###################################               |  70%[six                 ]|########################################          |  80%[pip                 ]|#############################################     |  90%[      COMPLETE      ]|##################################################| 100%
@@ -137,6 +145,14 @@ Fixing permissions
 BUILD END: qrcode-5.1-py_0
 TEST START: qrcode-5.1-py_0
 Fetching package metadata: ......
+
+WARNING: conda-build appears to be out of date. You have version 1.13.0 but the
+latest version is 1.14.1. Run
+
+conda update -n root conda-build
+
+to get the latest version.
+
 Solving package specifications: .===== testing package: qrcode-5.1-py_0 =====
 import: u'qrcode'
 import: u'qrcode.image'
@@ -166,20 +182,20 @@ The following packages will be downloaded:
 
 The following NEW packages will be INSTALLED:
 
-    openssl:    1.0.1k-1    
-    pip:        7.0.3-py27_0
-    python:     2.7.10-0    
-    qrcode:     5.1-py_0    
-    readline:   6.2-2       
-    setuptools: 17.0-py27_0 
-    six:        1.9.0-py27_0
-    sqlite:     3.8.4.1-1   
-    system:     5.8-2       
-    tk:         8.5.18-0    
-    zlib:       1.2.8-0     
+    openssl:    1.0.1k-1     
+    pip:        7.0.3-py27_0 
+    python:     2.7.10-0     
+    qrcode:     5.1-py_0     
+    readline:   6.2-2        
+    setuptools: 18.0.1-py27_0
+    six:        1.9.0-py27_0 
+    sqlite:     3.8.4.1-1    
+    system:     5.8-2        
+    tk:         8.5.18-0     
+    zlib:       1.2.8-0      
 
 Fetching packages ...
-qrcode-5.1-py_   0% |                              | ETA:  --:--:--   0.00  B/sqrcode-5.1-py_  12% |###                            | ETA:  0:00:00   1.93 MB/sqrcode-5.1-py_  24% |#######                        | ETA:  0:00:00   3.76 MB/sqrcode-5.1-py_  36% |###########                    | ETA:  0:00:00   5.52 MB/sqrcode-5.1-py_  48% |###############                | ETA:  0:00:00   7.21 MB/sqrcode-5.1-py_  61% |##################             | ETA:  0:00:00   8.84 MB/sqrcode-5.1-py_  73% |######################         | ETA:  0:00:00  10.40 MB/sqrcode-5.1-py_  85% |##########################     | ETA:  0:00:00  11.90 MB/sqrcode-5.1-py_  97% |############################## | ETA:  0:00:00  13.34 MB/sqrcode-5.1-py_ 100% |###############################| ETA:  0:00:00  13.43 MB/sqrcode-5.1-py_ 100% |###############################| Time: 0:00:00  13.13 MB/s
+qrcode-5.1-py_   0% |                              | ETA:  --:--:--   0.00  B/sqrcode-5.1-py_  12% |###                            | ETA:  0:00:00  47.36 MB/sqrcode-5.1-py_  24% |#######                        | ETA:  0:00:00  59.27 MB/sqrcode-5.1-py_  36% |###########                    | ETA:  0:00:00  65.97 MB/sqrcode-5.1-py_  48% |###############                | ETA:  0:00:00  70.01 MB/sqrcode-5.1-py_  61% |##################             | ETA:  0:00:00  72.75 MB/sqrcode-5.1-py_  73% |######################         | ETA:  0:00:00  75.03 MB/sqrcode-5.1-py_  85% |##########################     | ETA:  0:00:00  76.56 MB/sqrcode-5.1-py_  97% |############################## | ETA:  0:00:00  77.84 MB/sqrcode-5.1-py_ 100% |###############################| ETA:  0:00:00  73.57 MB/sqrcode-5.1-py_ 100% |###############################| Time: 0:00:00  64.69 MB/s
 Extracting packages ...
 [      COMPLETE      ]|                                                  |   0%[qrcode              ]|                                                  |   0%[qrcode              ]|                                                  |   0%[      COMPLETE      ]|##################################################| 100%
 Linking packages ...

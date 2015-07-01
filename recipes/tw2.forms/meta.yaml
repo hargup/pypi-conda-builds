@@ -1,0 +1,113 @@
+package:
+  name: tw2.forms
+  version: "2.2.2.1"
+
+source:
+  fn: tw2.forms-2.2.2.1.tar.gz
+  url: https://pypi.python.org/packages/source/t/tw2.forms/tw2.forms-2.2.2.1.tar.gz
+  md5: 040e2df7ad568a1070a897a4b0af7ce2
+#  patches:
+   # List any patch files here
+   # - fix.patch
+
+build:
+  noarch_python: True
+  # preserve_egg_dir: True
+  # entry_points:
+    # Put any entry points (scripts to be generated automatically) here. The
+    # syntax is module:function.  For example
+    #
+    # - tw2.forms = tw2.forms:main
+    #
+    # Would create an entry point called tw2.forms that calls tw2.forms.main()
+
+
+  # If this is a new build for the same version, increment the build
+  # number. If you do not include this key, it defaults to 0.
+  # number: 1
+
+requirements:
+  build:
+    - python
+    - setuptools
+    - tw2.core >=2.1.4
+    - six
+    - mako >=0.1.1
+    - nose
+    - sieve
+    - coverage
+    - genshi >=0.3.5
+    - mako >=0.1.1
+    - jinja2
+    - webtest
+    - formencode
+    - nose
+    - sieve
+    - coverage
+    - genshi >=0.3.5
+    - mako >=0.1.1
+    - jinja2
+    - webtest
+    - formencode
+    - jinja2
+    - genshi >=0.3.5
+
+  run:
+    - python
+    - tw2.core >=2.1.4
+    - six
+    - mako >=0.1.1
+    - nose
+    - sieve
+    - coverage
+    - genshi >=0.3.5
+    - mako >=0.1.1
+    - jinja2
+    - webtest
+    - formencode
+    - nose
+    - sieve
+    - coverage
+    - genshi >=0.3.5
+    - mako >=0.1.1
+    - jinja2
+    - webtest
+    - formencode
+    - jinja2
+    - genshi >=0.3.5
+
+test:
+  # Python imports
+  imports:
+    - tw2
+    - tw2.forms
+    - tw2.forms.templates
+
+  # commands:
+    # You can put test commands to be run here.  Use this to test that the
+    # entry points work.
+
+
+  # You can also put a file called run_test.py in the recipe that will be run
+  # at test time.
+
+  requires:
+    - coverage
+    - formencode
+    - genshi >=0.3.5
+    - jinja2
+    - mako >=0.1.1
+    - nose
+    - sieve
+    - webtest
+    # Put any additional test requirements here.  For example
+    # - nose
+
+about:
+  home: http://toscawidgets.org/
+  license: MIT License
+  summary: 'The basic form widgets for ToscaWidgets 2, a web widget toolkit.'
+
+# See
+# http://docs.continuum.io/conda/build.html for
+# more information about meta.yaml

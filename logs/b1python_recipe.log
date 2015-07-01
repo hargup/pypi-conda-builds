@@ -1,0 +1,73 @@
+b1python not found, trying B1python
+Warning, the following versions were found for B1python
+0.8.7
+0.8.5
+0.8.4
+0.8.3
+0.8.2
+0.8.0
+0.7.9
+0.7.8
+0.7.8a
+0.7.7
+0.7.6
+0.7.5
+0.7.4
+0.7.3
+0.7.3a
+0.7.2
+0.7.2a
+0.7.1
+0.7.0
+0.6.8
+0.6.7
+0.6.6
+0.6.5
+0.6.4
+0.6.3
+0.6.2
+0.6.1
+0.6.0
+0.5.9
+0.5.8
+0.5.7
+0.5.6
+0.5.5
+0.5.3
+0.5.1
+0.5
+0.5.0a
+0.4.9
+0.4.9a
+0.4.7
+0.4.5
+0.4.2
+0.4.1
+0.4
+Using 0.8.7
+Use --version to specify a different version.
+Using url https://pypi.python.org/packages/source/B/B1python/B1python-0.8.7.tar.gz (151 KB) for B1python.
+Downloading B1python
+Using cached download
+Unpacking B1python...
+done
+working in /tmp/tmpHd7tpnconda_skeleton_B1python-0.8.7.tar.gz
+Fetching package metadata: ......
+
+WARNING: conda-build appears to be out of date. You have version 1.13.0 but the
+latest version is 1.14.1. Run
+
+conda update -n root conda-build
+
+to get the latest version.
+
+Solving package specifications: .patching file core.py
+Hunk #1 succeeded at 168 with fuzz 2 (offset 2 lines).
+Traceback (most recent call last):
+  File "setup.py", line 5, in <module>
+    from Cython.Distutils import build_ext
+ImportError: No module named Cython.Distutils
+
+Applying patch: '/tmp/tmpHd7tpnconda_skeleton_B1python-0.8.7.tar.gz/pypi-distutils.patch'
+$PYTHONPATH = /tmp/tmpHd7tpnconda_skeleton_B1python-0.8.7.tar.gz/B1python-0.8.7
+Error: command failed: /home/ubuntu/miniconda/envs/_build/bin/python setup.py install

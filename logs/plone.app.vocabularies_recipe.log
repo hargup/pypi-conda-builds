@@ -1,0 +1,111 @@
+Warning, the following versions were found for plone.app.vocabularies
+2.1.18
+2.1.17
+2.1.16
+2.1.15
+2.1.14
+2.1.13
+2.1.12
+2.1.11
+2.1.10
+2.1.9
+2.1.8
+2.1.7
+2.1.6
+2.1.5
+2.1.4
+2.1.3
+2.1.2
+2.1.1
+2.1
+2.0.4
+2.0.3
+2.0.2
+2.0.1
+2.0
+2.0b4
+2.0b3
+2.0b2
+2.0b1
+2.0a2
+2.0a1
+1.0.8
+1.0.7
+1.0.6
+1.0.5
+1.0.4
+1.0.3
+1.0.2
+1.0.1
+1.0
+1.0rc3
+1.0rc2
+1.0rc1
+1.0b3
+1.0b2
+1.0b1
+1.0a2
+Using 2.1.18
+Use --version to specify a different version.
+Using url https://pypi.python.org/packages/source/p/plone.app.vocabularies/plone.app.vocabularies-2.1.18.tar.gz (32 KB) for plone.app.vocabularies.
+Downloading plone.app.vocabularies
+Unpacking plone.app.vocabularies...
+done
+working in /tmp/tmp5cSIYsconda_skeleton_plone.app.vocabularies-2.1.18.tar.gz
+Fetching package metadata: ......
+
+WARNING: conda-build appears to be out of date. You have version 1.13.0 but the
+latest version is 1.14.1. Run
+
+conda update -n root conda-build
+
+to get the latest version.
+
+Solving package specifications: .patching file core.py
+Hunk #1 succeeded at 168 with fuzz 2 (offset 2 lines).
+
+WARNING: conda-build appears to be out of date. You have version 1.13.0 but the
+latest version is 1.14.1. Run
+
+conda update -n root conda-build
+
+to get the latest version.
+
+
+Applying patch: '/tmp/tmp5cSIYsconda_skeleton_plone.app.vocabularies-2.1.18.tar.gz/pypi-distutils.patch'
+Warning, the following versions were found for plone.app.testing
+5.0b4
+5.0b3
+5.0b2
+5.0b1
+5.0a2
+5.0a1
+4.2.5
+4.2.4
+4.2.3
+4.2.2
+4.2.1
+4.2
+4.0.2
+4.0.1
+4.0
+4.0a6
+4.0a5
+4.0a4
+4.0a3
+3.0a1
+1.0a2
+1.0a1
+Using 5.0b4
+Use --version to specify a different version.
+Using url https://pypi.python.org/packages/source/p/plone.app.testing/plone.app.testing-5.0b4.tar.gz (80 KB) for plone.app.testing.
+Downloading plone.app.testing
+Using cached download
+Unpacking plone.app.testing...
+done
+working in /tmp/tmpvHKRAMconda_skeleton_plone.app.testing-5.0b4.tar.gz
+Solving package specifications: .patching file core.py
+Hunk #1 succeeded at 168 with fuzz 2 (offset 2 lines).
+
+Applying patch: '/tmp/tmpvHKRAMconda_skeleton_plone.app.testing-5.0b4.tar.gz/pypi-distutils.patch'
+Error: Could not parse: plone.testing [zca,security,zodb,z2]

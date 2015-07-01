@@ -1,35 +1,85 @@
-Error: prefix already exists: /home/ubuntu/miniconda/envs/_pipbuild_
-Collecting pysaml2==2.4.0
-  Downloading http://localhost/packages/source/p/pysaml2/pysaml2-2.4.0.tar.gz (4.1MB)
-setuptools must be installed to install from a source distribution
-Package search: {'_pypi_ordering': False, 'version': '2.4.0', 'name': 'pysaml2', 'summary': 'Python implementation of SAML Version 2'}
-Creating standard recipe for pysaml2-2.4.0
-Using url https://pypi.python.org/packages/source/p/pysaml2/pysaml2-2.4.0.tar.gz (3.9 MB) for pysaml2.
-Downloading pysaml2
-Using cached download
-Unpacking pysaml2...
-done
-working in /tmp/tmpLozCbtconda_skeleton_pysaml2-2.4.0.tar.gz
+Removing old build directory
+Removing old work directory
+BUILD START: decorator-3.4.2-py27_0
 Fetching package metadata: ......
 
 WARNING: conda-build appears to be out of date. You have version 1.13.0 but the
-latest version is 1.14.0. Run
+latest version is 1.14.1. Run
 
 conda update -n root conda-build
 
 to get the latest version.
 
-Solving package specifications: .patching file core.py
-Hunk #1 succeeded at 168 with fuzz 2 (offset 2 lines).
-Traceback (most recent call last):
-  File "setup.py", line 5, in <module>
-    from setuptools import setup
-ImportError: No module named setuptools
+Solving package specifications: .+ pip install decorator
+Collecting decorator
+  Downloading http://localhost/packages/source/d/decorator/decorator-3.4.2.tar.gz
+Installing collected packages: decorator
+  Running setup.py install for decorator
+Successfully installed decorator-3.4.2
 
-Applying patch: '/tmp/tmpLozCbtconda_skeleton_pysaml2-2.4.0.tar.gz/pypi-distutils.patch'
-$PYTHONPATH = /tmp/tmpLozCbtconda_skeleton_pysaml2-2.4.0.tar.gz/pysaml2-2.4.0
-Error: command failed: /home/ubuntu/miniconda/envs/_build/bin/python setup.py install
+The following NEW packages will be INSTALLED:
+
+    openssl:    1.0.1k-1     
+    pip:        7.0.3-py27_0 
+    python:     2.7.10-0     
+    readline:   6.2-2        
+    setuptools: 18.0.1-py27_0
+    sqlite:     3.8.4.1-1    
+    system:     5.8-2        
+    tk:         8.5.18-0     
+    zlib:       1.2.8-0      
+
+Linking packages ...
+[                    ]|                                                  |   0%[openssl             ]|                                                  |   0%[readline            ]|#####                                             |  11%[sqlite              ]|###########                                       |  22%[system              ]|################                                  |  33%[tk                  ]|######################                            |  44%[zlib                ]|###########################                       |  55%[python              ]|#################################                 |  66%[setuptools          ]|######################################            |  77%[pip                 ]|############################################      |  88%[      COMPLETE      ]|##################################################| 100%
+Removing old work directory
+Copying /home/ubuntu/pypi-conda-builds/decorator to /home/ubuntu/miniconda/conda-bld/work
+Package: decorator-3.4.2-py27_0
+source tree in: /home/ubuntu/miniconda/conda-bld/work
+number of files: 8
+Fixing permissions
+Fixing permissions
+BUILD END: decorator-3.4.2-py27_0
+# If you want to upload this package to binstar.org later, type:
+#
+# $ binstar upload /home/ubuntu/miniconda/conda-bld/linux-64/decorator-3.4.2-py27_0.tar.bz2
+#
+# To have conda build upload to binstar automatically, use
+# $ conda config --set binstar_upload yes
+
+Error: prefix already exists: /home/ubuntu/miniconda/envs/_pipbuild_
+Exception:
+Traceback (most recent call last):
+  File "/home/ubuntu/miniconda/envs/_pipbuild_/lib/python2.7/site-packages/pip/basecommand.py", line 223, in main
+    status = self.run(options, args)
+  File "/home/ubuntu/miniconda/envs/_pipbuild_/lib/python2.7/site-packages/pip/commands/install.py", line 268, in run
+    wheel_cache
+  File "/home/ubuntu/miniconda/envs/_pipbuild_/lib/python2.7/site-packages/pip/basecommand.py", line 268, in populate_requirement_set
+    wheel_cache=wheel_cache
+  File "/home/ubuntu/miniconda/envs/_pipbuild_/lib/python2.7/site-packages/pip/req/req_install.py", line 207, in from_line
+    wheel_cache=wheel_cache)
+  File "/home/ubuntu/miniconda/envs/_pipbuild_/lib/python2.7/site-packages/pip/req/req_install.py", line 66, in __init__
+    req = pkg_resources.Requirement.parse(req)
+  File "/home/ubuntu/miniconda/envs/_pipbuild_/lib/python2.7/site-packages/pip/_vendor/pkg_resources/__init__.py", line 2960, in parse
+    reqs = list(parse_requirements(s))
+  File "/home/ubuntu/miniconda/envs/_pipbuild_/lib/python2.7/site-packages/pip/_vendor/pkg_resources/__init__.py", line 2904, in parse_requirements
+    "version spec")
+  File "/home/ubuntu/miniconda/envs/_pipbuild_/lib/python2.7/site-packages/pip/_vendor/pkg_resources/__init__.py", line 2869, in scan_list
+    raise ValueError(msg, line, "at", line[p:])
+ValueError: ('Expected version spec in', 'requests==>=1.0.0', 'at', '==>=1.0.0')
+
+Package search: {'_pypi_ordering': False, 'version': '2.4.0', 'name': 'pysaml2', 'summary': 'Python implementation of SAML Version 2'}
+Creating standard recipe for pysaml2-2.4.0
+Converting recipe in /home/ubuntu/pypi-conda-builds/pysaml2
+package = pysaml2
+   dependencies = [u'decorator', u'requests >=1.0.0', u'paste', u'zope.interface', u'repoze.who', u'pycrypto >=2.2', u'pytz', u'pyopenssl', u'python-dateutil', u'argparse']
+Creating standard recipe for decorator
+Converting recipe in /home/ubuntu/pypi-conda-builds/decorator
+package = decorator
+   dependencies = []
+Building conda package for decorator
+Creating standard recipe for requests->=1.0.0
+Error: Version >=1.0.0 of requests is not available on PyPI.
 
 conda create -n _pipbuild_ --yes python pip
-/home/ubuntu/miniconda/envs/_pipbuild_/bin/pip install pysaml2==2.4.0
-Error: Could not pip install pysaml2==2.4.0
+/home/ubuntu/miniconda/envs/_pipbuild_/bin/pip install requests==>=1.0.0
+Error: Could not pip install requests==>=1.0.0

@@ -1,0 +1,242 @@
+Removing old build directory
+Removing old work directory
+BUILD START: transifex-client-0.11.1.beta-py_0
+Fetching package metadata: ......
+
+WARNING: conda-build appears to be out of date. You have version 1.13.0 but the
+latest version is 1.14.1. Run
+
+conda update -n root conda-build
+
+to get the latest version.
+
+Solving package specifications: .+ /home/ubuntu/miniconda/envs/_build/bin/python setup.py install
+/home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/setuptools/dist.py:291: UserWarning: The version specified ('0.11.1 beta') is an invalid version, this may not work as expected with newer versions of setuptools, pip, and PyPI. Please see PEP 440 for more details.
+  "details." % self.metadata.version
+running install
+running bdist_egg
+running egg_info
+writing transifex_client.egg-info/PKG-INFO
+writing top-level names to transifex_client.egg-info/top_level.txt
+writing dependency_links to transifex_client.egg-info/dependency_links.txt
+reading manifest file 'transifex_client.egg-info/SOURCES.txt'
+reading manifest template 'MANIFEST.in'
+warning: no files found matching '*' under directory 'docs'
+writing manifest file 'transifex_client.egg-info/SOURCES.txt'
+installing library code to build/bdist.linux-x86_64/egg
+running install_lib
+running build_py
+creating build
+creating build/lib
+creating build/lib/txclib
+copying txclib/utils.py -> build/lib/txclib
+copying txclib/processors.py -> build/lib/txclib
+copying txclib/paths.py -> build/lib/txclib
+copying txclib/config.py -> build/lib/txclib
+copying txclib/commands.py -> build/lib/txclib
+copying txclib/parsers.py -> build/lib/txclib
+copying txclib/web.py -> build/lib/txclib
+copying txclib/log.py -> build/lib/txclib
+copying txclib/urls.py -> build/lib/txclib
+copying txclib/__init__.py -> build/lib/txclib
+copying txclib/project.py -> build/lib/txclib
+copying txclib/exceptions.py -> build/lib/txclib
+creating build/lib/txclib/packages
+copying txclib/packages/__init__.py -> build/lib/txclib/packages
+creating build/lib/txclib/packages/urllib3
+copying txclib/packages/urllib3/response.py -> build/lib/txclib/packages/urllib3
+copying txclib/packages/urllib3/connectionpool.py -> build/lib/txclib/packages/urllib3
+copying txclib/packages/urllib3/fields.py -> build/lib/txclib/packages/urllib3
+copying txclib/packages/urllib3/poolmanager.py -> build/lib/txclib/packages/urllib3
+copying txclib/packages/urllib3/util.py -> build/lib/txclib/packages/urllib3
+copying txclib/packages/urllib3/__init__.py -> build/lib/txclib/packages/urllib3
+copying txclib/packages/urllib3/_collections.py -> build/lib/txclib/packages/urllib3
+copying txclib/packages/urllib3/request.py -> build/lib/txclib/packages/urllib3
+copying txclib/packages/urllib3/exceptions.py -> build/lib/txclib/packages/urllib3
+copying txclib/packages/urllib3/filepost.py -> build/lib/txclib/packages/urllib3
+creating build/lib/txclib/packages/urllib3/contrib
+copying txclib/packages/urllib3/contrib/pyopenssl.py -> build/lib/txclib/packages/urllib3/contrib
+copying txclib/packages/urllib3/contrib/ntlmpool.py -> build/lib/txclib/packages/urllib3/contrib
+copying txclib/packages/urllib3/contrib/__init__.py -> build/lib/txclib/packages/urllib3/contrib
+creating build/lib/txclib/packages/urllib3/packages
+copying txclib/packages/urllib3/packages/six.py -> build/lib/txclib/packages/urllib3/packages
+copying txclib/packages/urllib3/packages/ordered_dict.py -> build/lib/txclib/packages/urllib3/packages
+copying txclib/packages/urllib3/packages/__init__.py -> build/lib/txclib/packages/urllib3/packages
+creating build/lib/txclib/packages/urllib3/packages/ssl_match_hostname
+copying txclib/packages/urllib3/packages/ssl_match_hostname/__init__.py -> build/lib/txclib/packages/urllib3/packages/ssl_match_hostname
+copying txclib/cacert.pem -> build/lib/txclib
+creating build/bdist.linux-x86_64
+creating build/bdist.linux-x86_64/egg
+creating build/bdist.linux-x86_64/egg/txclib
+copying build/lib/txclib/utils.py -> build/bdist.linux-x86_64/egg/txclib
+copying build/lib/txclib/processors.py -> build/bdist.linux-x86_64/egg/txclib
+copying build/lib/txclib/paths.py -> build/bdist.linux-x86_64/egg/txclib
+copying build/lib/txclib/config.py -> build/bdist.linux-x86_64/egg/txclib
+copying build/lib/txclib/commands.py -> build/bdist.linux-x86_64/egg/txclib
+copying build/lib/txclib/cacert.pem -> build/bdist.linux-x86_64/egg/txclib
+copying build/lib/txclib/parsers.py -> build/bdist.linux-x86_64/egg/txclib
+copying build/lib/txclib/web.py -> build/bdist.linux-x86_64/egg/txclib
+copying build/lib/txclib/log.py -> build/bdist.linux-x86_64/egg/txclib
+copying build/lib/txclib/urls.py -> build/bdist.linux-x86_64/egg/txclib
+copying build/lib/txclib/__init__.py -> build/bdist.linux-x86_64/egg/txclib
+copying build/lib/txclib/project.py -> build/bdist.linux-x86_64/egg/txclib
+creating build/bdist.linux-x86_64/egg/txclib/packages
+copying build/lib/txclib/packages/__init__.py -> build/bdist.linux-x86_64/egg/txclib/packages
+creating build/bdist.linux-x86_64/egg/txclib/packages/urllib3
+copying build/lib/txclib/packages/urllib3/response.py -> build/bdist.linux-x86_64/egg/txclib/packages/urllib3
+copying build/lib/txclib/packages/urllib3/connectionpool.py -> build/bdist.linux-x86_64/egg/txclib/packages/urllib3
+copying build/lib/txclib/packages/urllib3/fields.py -> build/bdist.linux-x86_64/egg/txclib/packages/urllib3
+copying build/lib/txclib/packages/urllib3/poolmanager.py -> build/bdist.linux-x86_64/egg/txclib/packages/urllib3
+creating build/bdist.linux-x86_64/egg/txclib/packages/urllib3/contrib
+copying build/lib/txclib/packages/urllib3/contrib/pyopenssl.py -> build/bdist.linux-x86_64/egg/txclib/packages/urllib3/contrib
+copying build/lib/txclib/packages/urllib3/contrib/ntlmpool.py -> build/bdist.linux-x86_64/egg/txclib/packages/urllib3/contrib
+copying build/lib/txclib/packages/urllib3/contrib/__init__.py -> build/bdist.linux-x86_64/egg/txclib/packages/urllib3/contrib
+copying build/lib/txclib/packages/urllib3/util.py -> build/bdist.linux-x86_64/egg/txclib/packages/urllib3
+copying build/lib/txclib/packages/urllib3/__init__.py -> build/bdist.linux-x86_64/egg/txclib/packages/urllib3
+copying build/lib/txclib/packages/urllib3/_collections.py -> build/bdist.linux-x86_64/egg/txclib/packages/urllib3
+copying build/lib/txclib/packages/urllib3/request.py -> build/bdist.linux-x86_64/egg/txclib/packages/urllib3
+creating build/bdist.linux-x86_64/egg/txclib/packages/urllib3/packages
+copying build/lib/txclib/packages/urllib3/packages/six.py -> build/bdist.linux-x86_64/egg/txclib/packages/urllib3/packages
+creating build/bdist.linux-x86_64/egg/txclib/packages/urllib3/packages/ssl_match_hostname
+copying build/lib/txclib/packages/urllib3/packages/ssl_match_hostname/__init__.py -> build/bdist.linux-x86_64/egg/txclib/packages/urllib3/packages/ssl_match_hostname
+copying build/lib/txclib/packages/urllib3/packages/ordered_dict.py -> build/bdist.linux-x86_64/egg/txclib/packages/urllib3/packages
+copying build/lib/txclib/packages/urllib3/packages/__init__.py -> build/bdist.linux-x86_64/egg/txclib/packages/urllib3/packages
+copying build/lib/txclib/packages/urllib3/exceptions.py -> build/bdist.linux-x86_64/egg/txclib/packages/urllib3
+copying build/lib/txclib/packages/urllib3/filepost.py -> build/bdist.linux-x86_64/egg/txclib/packages/urllib3
+copying build/lib/txclib/exceptions.py -> build/bdist.linux-x86_64/egg/txclib
+byte-compiling build/bdist.linux-x86_64/egg/txclib/utils.py to utils.pyc
+byte-compiling build/bdist.linux-x86_64/egg/txclib/processors.py to processors.pyc
+byte-compiling build/bdist.linux-x86_64/egg/txclib/paths.py to paths.pyc
+byte-compiling build/bdist.linux-x86_64/egg/txclib/config.py to config.pyc
+byte-compiling build/bdist.linux-x86_64/egg/txclib/commands.py to commands.pyc
+byte-compiling build/bdist.linux-x86_64/egg/txclib/parsers.py to parsers.pyc
+byte-compiling build/bdist.linux-x86_64/egg/txclib/web.py to web.pyc
+byte-compiling build/bdist.linux-x86_64/egg/txclib/log.py to log.pyc
+byte-compiling build/bdist.linux-x86_64/egg/txclib/urls.py to urls.pyc
+byte-compiling build/bdist.linux-x86_64/egg/txclib/__init__.py to __init__.pyc
+byte-compiling build/bdist.linux-x86_64/egg/txclib/project.py to project.pyc
+byte-compiling build/bdist.linux-x86_64/egg/txclib/packages/__init__.py to __init__.pyc
+byte-compiling build/bdist.linux-x86_64/egg/txclib/packages/urllib3/response.py to response.pyc
+byte-compiling build/bdist.linux-x86_64/egg/txclib/packages/urllib3/connectionpool.py to connectionpool.pyc
+byte-compiling build/bdist.linux-x86_64/egg/txclib/packages/urllib3/fields.py to fields.pyc
+byte-compiling build/bdist.linux-x86_64/egg/txclib/packages/urllib3/poolmanager.py to poolmanager.pyc
+byte-compiling build/bdist.linux-x86_64/egg/txclib/packages/urllib3/contrib/pyopenssl.py to pyopenssl.pyc
+byte-compiling build/bdist.linux-x86_64/egg/txclib/packages/urllib3/contrib/ntlmpool.py to ntlmpool.pyc
+byte-compiling build/bdist.linux-x86_64/egg/txclib/packages/urllib3/contrib/__init__.py to __init__.pyc
+byte-compiling build/bdist.linux-x86_64/egg/txclib/packages/urllib3/util.py to util.pyc
+byte-compiling build/bdist.linux-x86_64/egg/txclib/packages/urllib3/__init__.py to __init__.pyc
+byte-compiling build/bdist.linux-x86_64/egg/txclib/packages/urllib3/_collections.py to _collections.pyc
+byte-compiling build/bdist.linux-x86_64/egg/txclib/packages/urllib3/request.py to request.pyc
+byte-compiling build/bdist.linux-x86_64/egg/txclib/packages/urllib3/packages/six.py to six.pyc
+byte-compiling build/bdist.linux-x86_64/egg/txclib/packages/urllib3/packages/ssl_match_hostname/__init__.py to __init__.pyc
+byte-compiling build/bdist.linux-x86_64/egg/txclib/packages/urllib3/packages/ordered_dict.py to ordered_dict.pyc
+byte-compiling build/bdist.linux-x86_64/egg/txclib/packages/urllib3/packages/__init__.py to __init__.pyc
+byte-compiling build/bdist.linux-x86_64/egg/txclib/packages/urllib3/exceptions.py to exceptions.pyc
+byte-compiling build/bdist.linux-x86_64/egg/txclib/packages/urllib3/filepost.py to filepost.pyc
+byte-compiling build/bdist.linux-x86_64/egg/txclib/exceptions.py to exceptions.pyc
+creating build/bdist.linux-x86_64/egg/EGG-INFO
+installing scripts to build/bdist.linux-x86_64/egg/EGG-INFO/scripts
+running install_scripts
+running build_scripts
+creating build/scripts-2.7
+copying and adjusting tx -> build/scripts-2.7
+changing mode of build/scripts-2.7/tx from 664 to 775
+creating build/bdist.linux-x86_64/egg/EGG-INFO/scripts
+copying build/scripts-2.7/tx -> build/bdist.linux-x86_64/egg/EGG-INFO/scripts
+changing mode of build/bdist.linux-x86_64/egg/EGG-INFO/scripts/tx to 775
+copying transifex_client.egg-info/PKG-INFO -> build/bdist.linux-x86_64/egg/EGG-INFO
+copying transifex_client.egg-info/SOURCES.txt -> build/bdist.linux-x86_64/egg/EGG-INFO
+copying transifex_client.egg-info/dependency_links.txt -> build/bdist.linux-x86_64/egg/EGG-INFO
+copying transifex_client.egg-info/not-zip-safe -> build/bdist.linux-x86_64/egg/EGG-INFO
+copying transifex_client.egg-info/top_level.txt -> build/bdist.linux-x86_64/egg/EGG-INFO
+creating dist
+creating 'dist/transifex_client-0.11.1b0-py2.7.egg' and adding 'build/bdist.linux-x86_64/egg' to it
+removing 'build/bdist.linux-x86_64/egg' (and everything under it)
+Processing transifex_client-0.11.1b0-py2.7.egg
+creating /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/transifex_client-0.11.1b0-py2.7.egg
+Extracting transifex_client-0.11.1b0-py2.7.egg to /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages
+Adding transifex-client 0.11.1b0 to easy-install.pth file
+Installing tx script to /home/ubuntu/miniconda/envs/_build/bin
+
+Installed /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/transifex_client-0.11.1b0-py2.7.egg
+Processing dependencies for transifex-client==0.11.1b0
+Finished processing dependencies for transifex-client==0.11.1b0
+
+The following NEW packages will be INSTALLED:
+
+    openssl:    1.0.1k-1     
+    pip:        7.0.3-py27_0 
+    python:     2.7.10-0     
+    readline:   6.2-2        
+    setuptools: 18.0.1-py27_0
+    sqlite:     3.8.4.1-1    
+    system:     5.8-2        
+    tk:         8.5.18-0     
+    zlib:       1.2.8-0      
+
+Linking packages ...
+[                    ]|                                                  |   0%[openssl             ]|                                                  |   0%[readline            ]|#####                                             |  11%[sqlite              ]|###########                                       |  22%[system              ]|################                                  |  33%[tk                  ]|######################                            |  44%[zlib                ]|###########################                       |  55%[python              ]|#################################                 |  66%[setuptools          ]|######################################            |  77%[pip                 ]|############################################      |  88%[      COMPLETE      ]|##################################################| 100%
+Removing old work directory
+Source cache directory is: /home/ubuntu/miniconda/conda-bld/src_cache
+Found source in cache: transifex-client-0.11.1.beta.tar.gz
+Extracting download
+Package: transifex-client-0.11.1.beta-py_0
+source tree in: /home/ubuntu/miniconda/conda-bld/work/transifex-client-0.11.1.beta
+found egg dir: /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/transifex_client-0.11.1b0-py2.7.egg
+number of files: 63
+Fixing permissions
+Fixing permissions
+BUILD END: transifex-client-0.11.1.beta-py_0
+TEST START: transifex-client-0.11.1.beta-py_0
+Fetching package metadata: ......
+
+WARNING: conda-build appears to be out of date. You have version 1.13.0 but the
+latest version is 1.14.1. Run
+
+conda update -n root conda-build
+
+to get the latest version.
+
+Solving package specifications: .===== testing package: transifex-client-0.11.1.beta-py_0 =====
+import: u'txclib'
+import: u'txclib.packages'
+import: u'txclib.packages.urllib3'
+import: u'txclib.packages.urllib3.contrib'
+import: u'txclib.packages.urllib3.packages'
+import: u'txclib.packages.urllib3.packages.ssl_match_hostname'
+===== transifex-client-0.11.1.beta-py_0 OK =====
+
+The following packages will be downloaded:
+
+    package                    |            build
+    ---------------------------|-----------------
+    transifex-client-0.11.1.beta|             py_0         266 KB
+
+The following NEW packages will be INSTALLED:
+
+    mock:             1.0.1-py27_0    
+    openssl:          1.0.1k-1        
+    pip:              7.0.3-py27_0    
+    python:           2.7.10-0        
+    readline:         6.2-2           
+    setuptools:       18.0.1-py27_0   
+    sqlite:           3.8.4.1-1       
+    system:           5.8-2           
+    tk:               8.5.18-0        
+    transifex-client: 0.11.1.beta-py_0
+    zlib:             1.2.8-0         
+
+Fetching packages ...
+transifex-clie   0% |                              | ETA:  --:--:--   0.00  B/stransifex-clie   6% |#                              | ETA:  0:00:00  46.31 MB/stransifex-clie  12% |###                            | ETA:  0:00:00  52.10 MB/stransifex-clie  18% |#####                          | ETA:  0:00:00  59.45 MB/stransifex-clie  24% |#######                        | ETA:  0:00:00  64.39 MB/stransifex-clie  30% |#########                      | ETA:  0:00:00  67.99 MB/stransifex-clie  36% |###########                    | ETA:  0:00:00  70.33 MB/stransifex-clie  42% |#############                  | ETA:  0:00:00  72.27 MB/stransifex-clie  48% |##############                 | ETA:  0:00:00  13.17 MB/stransifex-clie  54% |################               | ETA:  0:00:00  14.55 MB/stransifex-clie  60% |##################             | ETA:  0:00:00  15.88 MB/stransifex-clie  66% |####################           | ETA:  0:00:00  17.16 MB/stransifex-clie  72% |######################         | ETA:  0:00:00  18.40 MB/stransifex-clie  78% |########################       | ETA:  0:00:00  19.60 MB/stransifex-clie  84% |##########################     | ETA:  0:00:00  20.75 MB/stransifex-clie  90% |###########################    | ETA:  0:00:00  21.86 MB/stransifex-clie  96% |#############################  | ETA:  0:00:00  22.94 MB/stransifex-clie 100% |###############################| ETA:  0:00:00  23.53 MB/stransifex-clie 100% |###############################| Time: 0:00:00  23.03 MB/s
+Extracting packages ...
+[      COMPLETE      ]|                                                  |   0%[transifex-client    ]|                                                  |   0%[transifex-client    ]|                                                  |   0%[      COMPLETE      ]|##################################################| 100%
+Linking packages ...
+[      COMPLETE      ]|                                                  |   0%[openssl             ]|                                                  |   0%[openssl             ]|                                                  |   0%[readline            ]|####                                              |   9%[sqlite              ]|#########                                         |  18%[system              ]|#############                                     |  27%[tk                  ]|##################                                |  36%[zlib                ]|######################                            |  45%[mock                ]|###########################                       |  54%[python              ]|###############################                   |  63%[setuptools          ]|####################################              |  72%[transifex-client    ]|########################################          |  81%[pip                 ]|#############################################     |  90%[      COMPLETE      ]|##################################################| 100%
+TEST END: transifex-client-0.11.1.beta-py_0
+# If you want to upload this package to binstar.org later, type:
+#
+# $ binstar upload /home/ubuntu/miniconda/conda-bld/noarch/transifex-client-0.11.1.beta-py_0.tar.bz2
+#
+# To have conda build upload to binstar automatically, use
+# $ conda config --set binstar_upload yes
+

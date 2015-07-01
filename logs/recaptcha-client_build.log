@@ -1,0 +1,140 @@
+Removing old build directory
+Removing old work directory
+BUILD START: recaptcha-client-1.0.6-py_0
+Fetching package metadata: ......
+
+WARNING: conda-build appears to be out of date. You have version 1.13.0 but the
+latest version is 1.14.1. Run
+
+conda update -n root conda-build
+
+to get the latest version.
+
+Solving package specifications: .+ /home/ubuntu/miniconda/envs/_build/bin/python setup.py install
+running install
+running bdist_egg
+running egg_info
+writing requirements to recaptcha_client.egg-info/requires.txt
+writing recaptcha_client.egg-info/PKG-INFO
+writing namespace_packages to recaptcha_client.egg-info/namespace_packages.txt
+writing top-level names to recaptcha_client.egg-info/top_level.txt
+writing dependency_links to recaptcha_client.egg-info/dependency_links.txt
+reading manifest file 'recaptcha_client.egg-info/SOURCES.txt'
+writing manifest file 'recaptcha_client.egg-info/SOURCES.txt'
+installing library code to build/bdist.linux-x86_64/egg
+running install_lib
+running build_py
+creating build
+creating build/lib
+creating build/lib/recaptcha
+copying recaptcha/__init__.py -> build/lib/recaptcha
+creating build/lib/recaptcha/client
+copying recaptcha/client/__init__.py -> build/lib/recaptcha/client
+copying recaptcha/client/mailhide.py -> build/lib/recaptcha/client
+copying recaptcha/client/captcha.py -> build/lib/recaptcha/client
+creating build/bdist.linux-x86_64
+creating build/bdist.linux-x86_64/egg
+creating build/bdist.linux-x86_64/egg/recaptcha
+creating build/bdist.linux-x86_64/egg/recaptcha/client
+copying build/lib/recaptcha/client/__init__.py -> build/bdist.linux-x86_64/egg/recaptcha/client
+copying build/lib/recaptcha/client/mailhide.py -> build/bdist.linux-x86_64/egg/recaptcha/client
+copying build/lib/recaptcha/client/captcha.py -> build/bdist.linux-x86_64/egg/recaptcha/client
+copying build/lib/recaptcha/__init__.py -> build/bdist.linux-x86_64/egg/recaptcha
+byte-compiling build/bdist.linux-x86_64/egg/recaptcha/client/__init__.py to __init__.pyc
+byte-compiling build/bdist.linux-x86_64/egg/recaptcha/client/mailhide.py to mailhide.pyc
+byte-compiling build/bdist.linux-x86_64/egg/recaptcha/client/captcha.py to captcha.pyc
+byte-compiling build/bdist.linux-x86_64/egg/recaptcha/__init__.py to __init__.pyc
+creating build/bdist.linux-x86_64/egg/EGG-INFO
+copying recaptcha_client.egg-info/PKG-INFO -> build/bdist.linux-x86_64/egg/EGG-INFO
+copying recaptcha_client.egg-info/SOURCES.txt -> build/bdist.linux-x86_64/egg/EGG-INFO
+copying recaptcha_client.egg-info/dependency_links.txt -> build/bdist.linux-x86_64/egg/EGG-INFO
+copying recaptcha_client.egg-info/namespace_packages.txt -> build/bdist.linux-x86_64/egg/EGG-INFO
+copying recaptcha_client.egg-info/requires.txt -> build/bdist.linux-x86_64/egg/EGG-INFO
+copying recaptcha_client.egg-info/top_level.txt -> build/bdist.linux-x86_64/egg/EGG-INFO
+zip_safe flag not set; analyzing archive contents...
+creating dist
+creating 'dist/recaptcha_client-1.0.6-py2.7.egg' and adding 'build/bdist.linux-x86_64/egg' to it
+removing 'build/bdist.linux-x86_64/egg' (and everything under it)
+Processing recaptcha_client-1.0.6-py2.7.egg
+Copying recaptcha_client-1.0.6-py2.7.egg to /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages
+Adding recaptcha-client 1.0.6 to easy-install.pth file
+
+Installed /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/recaptcha_client-1.0.6-py2.7.egg
+Processing dependencies for recaptcha-client==1.0.6
+Finished processing dependencies for recaptcha-client==1.0.6
+
+The following NEW packages will be INSTALLED:
+
+    openssl:    1.0.1k-1     
+    pip:        7.0.3-py27_0 
+    pycrypto:   2.6.1-py27_0 
+    python:     2.7.10-0     
+    readline:   6.2-2        
+    setuptools: 18.0.1-py27_0
+    sqlite:     3.8.4.1-1    
+    system:     5.8-2        
+    tk:         8.5.18-0     
+    zlib:       1.2.8-0      
+
+Linking packages ...
+[                    ]|                                                  |   0%[openssl             ]|                                                  |   0%[readline            ]|#####                                             |  10%[sqlite              ]|##########                                        |  20%[system              ]|###############                                   |  30%[tk                  ]|####################                              |  40%[zlib                ]|#########################                         |  50%[pycrypto            ]|##############################                    |  60%[python              ]|###################################               |  70%[setuptools          ]|########################################          |  80%[pip                 ]|#############################################     |  90%[      COMPLETE      ]|##################################################| 100%
+Removing old work directory
+Source cache directory is: /home/ubuntu/miniconda/conda-bld/src_cache
+Found source in cache: recaptcha-client-1.0.6.tar.gz
+Extracting download
+Package: recaptcha-client-1.0.6-py_0
+source tree in: /home/ubuntu/miniconda/conda-bld/work/recaptcha-client-1.0.6
+found egg: /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/recaptcha_client-1.0.6-py2.7.egg
+number of files: 2
+Fixing permissions
+Fixing permissions
+BUILD END: recaptcha-client-1.0.6-py_0
+TEST START: recaptcha-client-1.0.6-py_0
+Fetching package metadata: ......
+
+WARNING: conda-build appears to be out of date. You have version 1.13.0 but the
+latest version is 1.14.1. Run
+
+conda update -n root conda-build
+
+to get the latest version.
+
+Solving package specifications: .===== testing package: recaptcha-client-1.0.6-py_0 =====
+import: u'recaptcha'
+import: u'recaptcha.client'
+===== recaptcha-client-1.0.6-py_0 OK =====
+
+The following packages will be downloaded:
+
+    package                    |            build
+    ---------------------------|-----------------
+    recaptcha-client-1.0.6     |             py_0          11 KB
+
+The following NEW packages will be INSTALLED:
+
+    openssl:          1.0.1k-1     
+    pip:              7.0.3-py27_0 
+    pycrypto:         2.6.1-py27_0 
+    python:           2.7.10-0     
+    readline:         6.2-2        
+    recaptcha-client: 1.0.6-py_0   
+    setuptools:       18.0.1-py27_0
+    sqlite:           3.8.4.1-1    
+    system:           5.8-2        
+    tk:               8.5.18-0     
+    zlib:             1.2.8-0      
+
+Fetching packages ...
+recaptcha-clie   0% |                              | ETA:  --:--:--   0.00  B/srecaptcha-clie 100% |###############################| ETA:  0:00:00   1.27 MB/srecaptcha-clie 100% |###############################| Time: 0:00:00   1.23 MB/s
+Extracting packages ...
+[      COMPLETE      ]|                                                  |   0%[recaptcha-client    ]|                                                  |   0%[recaptcha-client    ]|                                                  |   0%[      COMPLETE      ]|##################################################| 100%
+Linking packages ...
+[      COMPLETE      ]|                                                  |   0%[openssl             ]|                                                  |   0%[openssl             ]|                                                  |   0%[readline            ]|####                                              |   9%[sqlite              ]|#########                                         |  18%[system              ]|#############                                     |  27%[tk                  ]|##################                                |  36%[zlib                ]|######################                            |  45%[pycrypto            ]|###########################                       |  54%[python              ]|###############################                   |  63%[recaptcha-client    ]|####################################              |  72%[setuptools          ]|########################################          |  81%[pip                 ]|#############################################     |  90%[      COMPLETE      ]|##################################################| 100%
+TEST END: recaptcha-client-1.0.6-py_0
+# If you want to upload this package to binstar.org later, type:
+#
+# $ binstar upload /home/ubuntu/miniconda/conda-bld/noarch/recaptcha-client-1.0.6-py_0.tar.bz2
+#
+# To have conda build upload to binstar automatically, use
+# $ conda config --set binstar_upload yes
+

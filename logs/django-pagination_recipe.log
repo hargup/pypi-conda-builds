@@ -1,0 +1,28 @@
+Warning, the following versions were found for django-pagination
+1.0.7
+1.0.6
+1.0.5
+1.0.4
+Using 1.0.7
+Use --version to specify a different version.
+Using url https://pypi.python.org/packages/source/d/django-pagination/django-pagination-1.0.7.tar.gz (12 KB) for django-pagination.
+Downloading django-pagination
+Using cached download
+Unpacking django-pagination...
+done
+working in /tmp/tmpbi5XBnconda_skeleton_django-pagination-1.0.7.tar.gz
+Fetching package metadata: ......
+
+WARNING: conda-build appears to be out of date. You have version 1.13.0 but the
+latest version is 1.14.1. Run
+
+conda update -n root conda-build
+
+to get the latest version.
+
+Solving package specifications: .patching file core.py
+Hunk #1 succeeded at 168 with fuzz 2 (offset 2 lines).
+
+Applying patch: '/tmp/tmpbi5XBnconda_skeleton_django-pagination-1.0.7.tar.gz/pypi-distutils.patch'
+Writing recipe for django-pagination
+Done

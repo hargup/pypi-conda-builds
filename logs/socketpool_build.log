@@ -1,0 +1,149 @@
+Removing old build directory
+Removing old work directory
+BUILD START: socketpool-0.5.3-py_0
+Fetching package metadata: ......
+
+WARNING: conda-build appears to be out of date. You have version 1.13.0 but the
+latest version is 1.14.1. Run
+
+conda update -n root conda-build
+
+to get the latest version.
+
+Solving package specifications: .+ /home/ubuntu/miniconda/envs/_build/bin/python setup.py install
+running install
+running bdist_egg
+running egg_info
+writing socketpool.egg-info/PKG-INFO
+writing top-level names to socketpool.egg-info/top_level.txt
+writing dependency_links to socketpool.egg-info/dependency_links.txt
+reading manifest file 'socketpool.egg-info/SOURCES.txt'
+reading manifest template 'MANIFEST.in'
+writing manifest file 'socketpool.egg-info/SOURCES.txt'
+installing library code to build/bdist.linux-x86_64/egg
+running install_lib
+running build_py
+creating build
+creating build/lib
+creating build/lib/socketpool
+copying socketpool/pool.py -> build/lib/socketpool
+copying socketpool/backend_gevent.py -> build/lib/socketpool
+copying socketpool/backend_thread.py -> build/lib/socketpool
+copying socketpool/util.py -> build/lib/socketpool
+copying socketpool/__init__.py -> build/lib/socketpool
+copying socketpool/conn.py -> build/lib/socketpool
+copying socketpool/backend_eventlet.py -> build/lib/socketpool
+creating build/bdist.linux-x86_64
+creating build/bdist.linux-x86_64/egg
+creating build/bdist.linux-x86_64/egg/socketpool
+copying build/lib/socketpool/pool.py -> build/bdist.linux-x86_64/egg/socketpool
+copying build/lib/socketpool/backend_gevent.py -> build/bdist.linux-x86_64/egg/socketpool
+copying build/lib/socketpool/backend_thread.py -> build/bdist.linux-x86_64/egg/socketpool
+copying build/lib/socketpool/util.py -> build/bdist.linux-x86_64/egg/socketpool
+copying build/lib/socketpool/__init__.py -> build/bdist.linux-x86_64/egg/socketpool
+copying build/lib/socketpool/conn.py -> build/bdist.linux-x86_64/egg/socketpool
+copying build/lib/socketpool/backend_eventlet.py -> build/bdist.linux-x86_64/egg/socketpool
+byte-compiling build/bdist.linux-x86_64/egg/socketpool/pool.py to pool.pyc
+byte-compiling build/bdist.linux-x86_64/egg/socketpool/backend_gevent.py to backend_gevent.pyc
+byte-compiling build/bdist.linux-x86_64/egg/socketpool/backend_thread.py to backend_thread.pyc
+byte-compiling build/bdist.linux-x86_64/egg/socketpool/util.py to util.pyc
+byte-compiling build/bdist.linux-x86_64/egg/socketpool/__init__.py to __init__.pyc
+byte-compiling build/bdist.linux-x86_64/egg/socketpool/conn.py to conn.pyc
+byte-compiling build/bdist.linux-x86_64/egg/socketpool/backend_eventlet.py to backend_eventlet.pyc
+installing package data to build/bdist.linux-x86_64/egg
+running install_data
+copying LICENSE -> build/bdist.linux-x86_64/egg/socketpool
+copying MANIFEST.in -> build/bdist.linux-x86_64/egg/socketpool
+copying NOTICE -> build/bdist.linux-x86_64/egg/socketpool
+copying README.rst -> build/bdist.linux-x86_64/egg/socketpool
+copying THANKS -> build/bdist.linux-x86_64/egg/socketpool
+copying UNLICENSE -> build/bdist.linux-x86_64/egg/socketpool
+creating build/bdist.linux-x86_64/egg/EGG-INFO
+copying socketpool.egg-info/PKG-INFO -> build/bdist.linux-x86_64/egg/EGG-INFO
+copying socketpool.egg-info/SOURCES.txt -> build/bdist.linux-x86_64/egg/EGG-INFO
+copying socketpool.egg-info/dependency_links.txt -> build/bdist.linux-x86_64/egg/EGG-INFO
+copying socketpool.egg-info/top_level.txt -> build/bdist.linux-x86_64/egg/EGG-INFO
+zip_safe flag not set; analyzing archive contents...
+creating dist
+creating 'dist/socketpool-0.5.3-py2.7.egg' and adding 'build/bdist.linux-x86_64/egg' to it
+removing 'build/bdist.linux-x86_64/egg' (and everything under it)
+Processing socketpool-0.5.3-py2.7.egg
+Copying socketpool-0.5.3-py2.7.egg to /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages
+Adding socketpool 0.5.3 to easy-install.pth file
+
+Installed /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/socketpool-0.5.3-py2.7.egg
+Processing dependencies for socketpool==0.5.3
+Finished processing dependencies for socketpool==0.5.3
+
+The following NEW packages will be INSTALLED:
+
+    openssl:    1.0.1k-1     
+    pip:        7.0.3-py27_0 
+    python:     2.7.10-0     
+    readline:   6.2-2        
+    setuptools: 18.0.1-py27_0
+    sqlite:     3.8.4.1-1    
+    system:     5.8-2        
+    tk:         8.5.18-0     
+    zlib:       1.2.8-0      
+
+Linking packages ...
+[                    ]|                                                  |   0%[openssl             ]|                                                  |   0%[readline            ]|#####                                             |  11%[sqlite              ]|###########                                       |  22%[system              ]|################                                  |  33%[tk                  ]|######################                            |  44%[zlib                ]|###########################                       |  55%[python              ]|#################################                 |  66%[setuptools          ]|######################################            |  77%[pip                 ]|############################################      |  88%[      COMPLETE      ]|##################################################| 100%
+Removing old work directory
+Source cache directory is: /home/ubuntu/miniconda/conda-bld/src_cache
+Found source in cache: socketpool-0.5.3.tar.gz
+Extracting download
+Package: socketpool-0.5.3-py_0
+source tree in: /home/ubuntu/miniconda/conda-bld/work/socketpool-0.5.3
+found egg: /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/socketpool-0.5.3-py2.7.egg
+number of files: 2
+Fixing permissions
+Fixing permissions
+BUILD END: socketpool-0.5.3-py_0
+TEST START: socketpool-0.5.3-py_0
+Fetching package metadata: ......
+
+WARNING: conda-build appears to be out of date. You have version 1.13.0 but the
+latest version is 1.14.1. Run
+
+conda update -n root conda-build
+
+to get the latest version.
+
+Solving package specifications: .===== testing package: socketpool-0.5.3-py_0 =====
+import: u'socketpool'
+===== socketpool-0.5.3-py_0 OK =====
+
+The following packages will be downloaded:
+
+    package                    |            build
+    ---------------------------|-----------------
+    socketpool-0.5.3           |             py_0          24 KB
+
+The following NEW packages will be INSTALLED:
+
+    openssl:    1.0.1k-1     
+    pip:        7.0.3-py27_0 
+    python:     2.7.10-0     
+    readline:   6.2-2        
+    setuptools: 18.0.1-py27_0
+    socketpool: 0.5.3-py_0   
+    sqlite:     3.8.4.1-1    
+    system:     5.8-2        
+    tk:         8.5.18-0     
+    zlib:       1.2.8-0      
+
+Fetching packages ...
+socketpool-0.5   0% |                              | ETA:  --:--:--   0.00  B/ssocketpool-0.5  67% |####################           | ETA:  0:00:00  44.51 MB/ssocketpool-0.5 100% |###############################| ETA:  0:00:00  44.21 MB/ssocketpool-0.5 100% |###############################| Time: 0:00:00  30.55 MB/s
+Extracting packages ...
+[      COMPLETE      ]|                                                  |   0%[socketpool          ]|                                                  |   0%[socketpool          ]|                                                  |   0%[      COMPLETE      ]|##################################################| 100%
+Linking packages ...
+[      COMPLETE      ]|                                                  |   0%[openssl             ]|                                                  |   0%[openssl             ]|                                                  |   0%[readline            ]|#####                                             |  10%[sqlite              ]|##########                                        |  20%[system              ]|###############                                   |  30%[tk                  ]|####################                              |  40%[zlib                ]|#########################                         |  50%[python              ]|##############################                    |  60%[setuptools          ]|###################################               |  70%[socketpool          ]|########################################          |  80%[pip                 ]|#############################################     |  90%[      COMPLETE      ]|##################################################| 100%
+TEST END: socketpool-0.5.3-py_0
+# If you want to upload this package to binstar.org later, type:
+#
+# $ binstar upload /home/ubuntu/miniconda/conda-bld/noarch/socketpool-0.5.3-py_0.tar.bz2
+#
+# To have conda build upload to binstar automatically, use
+# $ conda config --set binstar_upload yes
+

@@ -1,0 +1,1261 @@
+Removing old build directory
+Removing old work directory
+BUILD START: grappelli_safe-0.3.13-py_0
+Fetching package metadata: ......
+
+WARNING: conda-build appears to be out of date. You have version 1.13.0 but the
+latest version is 1.14.1. Run
+
+conda update -n root conda-build
+
+to get the latest version.
+
+Solving package specifications: .+ /home/ubuntu/miniconda/envs/_build/bin/python setup.py install
+running install
+running bdist_egg
+running egg_info
+writing grappelli_safe.egg-info/PKG-INFO
+writing top-level names to grappelli_safe.egg-info/top_level.txt
+writing dependency_links to grappelli_safe.egg-info/dependency_links.txt
+reading manifest file 'grappelli_safe.egg-info/SOURCES.txt'
+reading manifest template 'MANIFEST.in'
+warning: no files found matching '*.json' under directory 'grappelli_safe/models/fixtures'
+writing manifest file 'grappelli_safe.egg-info/SOURCES.txt'
+installing library code to build/bdist.linux-x86_64/egg
+running install_lib
+running build_py
+creating build
+creating build/lib
+creating build/lib/grappelli_safe
+copying grappelli_safe/__init__.py -> build/lib/grappelli_safe
+creating build/lib/grappelli_safe/locale
+creating build/lib/grappelli_safe/locale/ar
+creating build/lib/grappelli_safe/locale/ar/LC_MESSAGES
+copying grappelli_safe/locale/ar/LC_MESSAGES/django.mo -> build/lib/grappelli_safe/locale/ar/LC_MESSAGES
+copying grappelli_safe/locale/ar/LC_MESSAGES/django.po -> build/lib/grappelli_safe/locale/ar/LC_MESSAGES
+creating build/lib/grappelli_safe/locale/de
+creating build/lib/grappelli_safe/locale/de/LC_MESSAGES
+copying grappelli_safe/locale/de/LC_MESSAGES/django.mo -> build/lib/grappelli_safe/locale/de/LC_MESSAGES
+copying grappelli_safe/locale/de/LC_MESSAGES/django.po -> build/lib/grappelli_safe/locale/de/LC_MESSAGES
+creating build/lib/grappelli_safe/locale/pt_BR
+creating build/lib/grappelli_safe/locale/pt_BR/LC_MESSAGES
+copying grappelli_safe/locale/pt_BR/LC_MESSAGES/django.mo -> build/lib/grappelli_safe/locale/pt_BR/LC_MESSAGES
+copying grappelli_safe/locale/pt_BR/LC_MESSAGES/django.po -> build/lib/grappelli_safe/locale/pt_BR/LC_MESSAGES
+creating build/lib/grappelli_safe/static
+creating build/lib/grappelli_safe/static/grappelli
+creating build/lib/grappelli_safe/static/grappelli/css
+copying grappelli_safe/static/grappelli/css/base.css -> build/lib/grappelli_safe/static/grappelli/css
+copying grappelli_safe/static/grappelli/css/changelist.css -> build/lib/grappelli_safe/static/grappelli/css
+copying grappelli_safe/static/grappelli/css/dashboard.css -> build/lib/grappelli_safe/static/grappelli/css
+copying grappelli_safe/static/grappelli/css/documentation.css -> build/lib/grappelli_safe/static/grappelli/css
+copying grappelli_safe/static/grappelli/css/forms.css -> build/lib/grappelli_safe/static/grappelli/css
+copying grappelli_safe/static/grappelli/css/login.css -> build/lib/grappelli_safe/static/grappelli/css
+copying grappelli_safe/static/grappelli/css/modules.css -> build/lib/grappelli_safe/static/grappelli/css
+copying grappelli_safe/static/grappelli/css/reset.css -> build/lib/grappelli_safe/static/grappelli/css
+copying grappelli_safe/static/grappelli/css/rtl.css -> build/lib/grappelli_safe/static/grappelli/css
+copying grappelli_safe/static/grappelli/css/tables.css -> build/lib/grappelli_safe/static/grappelli/css
+copying grappelli_safe/static/grappelli/css/typography.css -> build/lib/grappelli_safe/static/grappelli/css
+copying grappelli_safe/static/grappelli/css/webkit-gradients.css -> build/lib/grappelli_safe/static/grappelli/css
+copying grappelli_safe/static/grappelli/css/widgets.css -> build/lib/grappelli_safe/static/grappelli/css
+creating build/lib/grappelli_safe/static/grappelli/img
+copying grappelli_safe/static/grappelli/img/grappelli-icon.png -> build/lib/grappelli_safe/static/grappelli/img
+copying grappelli_safe/static/grappelli/img/icon_calendar.gif -> build/lib/grappelli_safe/static/grappelli/img
+copying grappelli_safe/static/grappelli/img/icon_clock.gif -> build/lib/grappelli_safe/static/grappelli/img
+creating build/lib/grappelli_safe/static/grappelli/img/admin
+copying grappelli_safe/static/grappelli/img/admin/arrow-down.gif -> build/lib/grappelli_safe/static/grappelli/img/admin
+copying grappelli_safe/static/grappelli/img/admin/arrow-up.gif -> build/lib/grappelli_safe/static/grappelli/img/admin
+copying grappelli_safe/static/grappelli/img/admin/changelist-bg.gif -> build/lib/grappelli_safe/static/grappelli/img/admin
+copying grappelli_safe/static/grappelli/img/admin/changelist-bg_rtl.gif -> build/lib/grappelli_safe/static/grappelli/img/admin
+copying grappelli_safe/static/grappelli/img/admin/chooser-bg.gif -> build/lib/grappelli_safe/static/grappelli/img/admin
+copying grappelli_safe/static/grappelli/img/admin/chooser_stacked-bg.gif -> build/lib/grappelli_safe/static/grappelli/img/admin
+copying grappelli_safe/static/grappelli/img/admin/default-bg-reverse.gif -> build/lib/grappelli_safe/static/grappelli/img/admin
+copying grappelli_safe/static/grappelli/img/admin/default-bg.gif -> build/lib/grappelli_safe/static/grappelli/img/admin
+copying grappelli_safe/static/grappelli/img/admin/deleted-overlay.gif -> build/lib/grappelli_safe/static/grappelli/img/admin
+copying grappelli_safe/static/grappelli/img/admin/icon-no.gif -> build/lib/grappelli_safe/static/grappelli/img/admin
+copying grappelli_safe/static/grappelli/img/admin/icon-unknown.gif -> build/lib/grappelli_safe/static/grappelli/img/admin
+copying grappelli_safe/static/grappelli/img/admin/icon-yes.gif -> build/lib/grappelli_safe/static/grappelli/img/admin
+copying grappelli_safe/static/grappelli/img/admin/icon_addlink.gif -> build/lib/grappelli_safe/static/grappelli/img/admin
+copying grappelli_safe/static/grappelli/img/admin/icon_alert.gif -> build/lib/grappelli_safe/static/grappelli/img/admin
+copying grappelli_safe/static/grappelli/img/admin/icon_calendar.gif -> build/lib/grappelli_safe/static/grappelli/img/admin
+copying grappelli_safe/static/grappelli/img/admin/icon_changelink.gif -> build/lib/grappelli_safe/static/grappelli/img/admin
+copying grappelli_safe/static/grappelli/img/admin/icon_clock.gif -> build/lib/grappelli_safe/static/grappelli/img/admin
+copying grappelli_safe/static/grappelli/img/admin/icon_deletelink.gif -> build/lib/grappelli_safe/static/grappelli/img/admin
+copying grappelli_safe/static/grappelli/img/admin/icon_error.gif -> build/lib/grappelli_safe/static/grappelli/img/admin
+copying grappelli_safe/static/grappelli/img/admin/icon_searchbox.png -> build/lib/grappelli_safe/static/grappelli/img/admin
+copying grappelli_safe/static/grappelli/img/admin/icon_success.gif -> build/lib/grappelli_safe/static/grappelli/img/admin
+copying grappelli_safe/static/grappelli/img/admin/inline-delete-8bit.png -> build/lib/grappelli_safe/static/grappelli/img/admin
+copying grappelli_safe/static/grappelli/img/admin/inline-delete.png -> build/lib/grappelli_safe/static/grappelli/img/admin
+copying grappelli_safe/static/grappelli/img/admin/inline-restore-8bit.png -> build/lib/grappelli_safe/static/grappelli/img/admin
+copying grappelli_safe/static/grappelli/img/admin/inline-restore.png -> build/lib/grappelli_safe/static/grappelli/img/admin
+copying grappelli_safe/static/grappelli/img/admin/inline-splitter-bg.gif -> build/lib/grappelli_safe/static/grappelli/img/admin
+copying grappelli_safe/static/grappelli/img/admin/nav-bg-grabber.gif -> build/lib/grappelli_safe/static/grappelli/img/admin
+copying grappelli_safe/static/grappelli/img/admin/nav-bg-reverse.gif -> build/lib/grappelli_safe/static/grappelli/img/admin
+copying grappelli_safe/static/grappelli/img/admin/nav-bg.gif -> build/lib/grappelli_safe/static/grappelli/img/admin
+copying grappelli_safe/static/grappelli/img/admin/selector-add.gif -> build/lib/grappelli_safe/static/grappelli/img/admin
+copying grappelli_safe/static/grappelli/img/admin/selector-addall.gif -> build/lib/grappelli_safe/static/grappelli/img/admin
+copying grappelli_safe/static/grappelli/img/admin/selector-remove.gif -> build/lib/grappelli_safe/static/grappelli/img/admin
+copying grappelli_safe/static/grappelli/img/admin/selector-removeall.gif -> build/lib/grappelli_safe/static/grappelli/img/admin
+copying grappelli_safe/static/grappelli/img/admin/selector-search.gif -> build/lib/grappelli_safe/static/grappelli/img/admin
+copying grappelli_safe/static/grappelli/img/admin/selector_stacked-add.gif -> build/lib/grappelli_safe/static/grappelli/img/admin
+copying grappelli_safe/static/grappelli/img/admin/selector_stacked-remove.gif -> build/lib/grappelli_safe/static/grappelli/img/admin
+copying grappelli_safe/static/grappelli/img/admin/tool-left.gif -> build/lib/grappelli_safe/static/grappelli/img/admin
+copying grappelli_safe/static/grappelli/img/admin/tool-left_over.gif -> build/lib/grappelli_safe/static/grappelli/img/admin
+copying grappelli_safe/static/grappelli/img/admin/tool-right.gif -> build/lib/grappelli_safe/static/grappelli/img/admin
+copying grappelli_safe/static/grappelli/img/admin/tool-right_over.gif -> build/lib/grappelli_safe/static/grappelli/img/admin
+copying grappelli_safe/static/grappelli/img/admin/tooltag-add.gif -> build/lib/grappelli_safe/static/grappelli/img/admin
+copying grappelli_safe/static/grappelli/img/admin/tooltag-add_over.gif -> build/lib/grappelli_safe/static/grappelli/img/admin
+copying grappelli_safe/static/grappelli/img/admin/tooltag-arrowright.gif -> build/lib/grappelli_safe/static/grappelli/img/admin
+copying grappelli_safe/static/grappelli/img/admin/tooltag-arrowright_over.gif -> build/lib/grappelli_safe/static/grappelli/img/admin
+creating build/lib/grappelli_safe/static/grappelli/img/icons
+copying grappelli_safe/static/grappelli/img/icons/icon-actionlist_addlink-hover.png -> build/lib/grappelli_safe/static/grappelli/img/icons
+copying grappelli_safe/static/grappelli/img/icons/icon-actionlist_addlink.png -> build/lib/grappelli_safe/static/grappelli/img/icons
+copying grappelli_safe/static/grappelli/img/icons/icon-actionlist_changelink-hover.png -> build/lib/grappelli_safe/static/grappelli/img/icons
+copying grappelli_safe/static/grappelli/img/icons/icon-actionlist_changelink.png -> build/lib/grappelli_safe/static/grappelli/img/icons
+copying grappelli_safe/static/grappelli/img/icons/icon-actionlist_deletelink.png -> build/lib/grappelli_safe/static/grappelli/img/icons
+copying grappelli_safe/static/grappelli/img/icons/icon-actions_changelist.png -> build/lib/grappelli_safe/static/grappelli/img/icons
+copying grappelli_safe/static/grappelli/img/icons/icon-add_another-hover.png -> build/lib/grappelli_safe/static/grappelli/img/icons
+copying grappelli_safe/static/grappelli/img/icons/icon-add_another.png -> build/lib/grappelli_safe/static/grappelli/img/icons
+copying grappelli_safe/static/grappelli/img/icons/icon-addlink-hover.png -> build/lib/grappelli_safe/static/grappelli/img/icons
+copying grappelli_safe/static/grappelli/img/icons/icon-addlink.png -> build/lib/grappelli_safe/static/grappelli/img/icons
+copying grappelli_safe/static/grappelli/img/icons/icon-bookmark_add-hover.png -> build/lib/grappelli_safe/static/grappelli/img/icons
+copying grappelli_safe/static/grappelli/img/icons/icon-bookmark_add-inactive.png -> build/lib/grappelli_safe/static/grappelli/img/icons
+copying grappelli_safe/static/grappelli/img/icons/icon-bookmark_add.png -> build/lib/grappelli_safe/static/grappelli/img/icons
+copying grappelli_safe/static/grappelli/img/icons/icon-bookmark_manage-hover.png -> build/lib/grappelli_safe/static/grappelli/img/icons
+copying grappelli_safe/static/grappelli/img/icons/icon-bookmark_manage.png -> build/lib/grappelli_safe/static/grappelli/img/icons
+copying grappelli_safe/static/grappelli/img/icons/icon-bookmark_remove-hover.png -> build/lib/grappelli_safe/static/grappelli/img/icons
+copying grappelli_safe/static/grappelli/img/icons/icon-bookmark_remove-inactive.png -> build/lib/grappelli_safe/static/grappelli/img/icons
+copying grappelli_safe/static/grappelli/img/icons/icon-bookmark_remove.png -> build/lib/grappelli_safe/static/grappelli/img/icons
+copying grappelli_safe/static/grappelli/img/icons/icon-calendar-hover.png -> build/lib/grappelli_safe/static/grappelli/img/icons
+copying grappelli_safe/static/grappelli/img/icons/icon-calendar.png -> build/lib/grappelli_safe/static/grappelli/img/icons
+copying grappelli_safe/static/grappelli/img/icons/icon-calendarnav_next.png -> build/lib/grappelli_safe/static/grappelli/img/icons
+copying grappelli_safe/static/grappelli/img/icons/icon-calendarnav_previous.png -> build/lib/grappelli_safe/static/grappelli/img/icons
+copying grappelli_safe/static/grappelli/img/icons/icon-changelink-hover.png -> build/lib/grappelli_safe/static/grappelli/img/icons
+copying grappelli_safe/static/grappelli/img/icons/icon-changelink.png -> build/lib/grappelli_safe/static/grappelli/img/icons
+copying grappelli_safe/static/grappelli/img/icons/icon-clock-hover.png -> build/lib/grappelli_safe/static/grappelli/img/icons
+copying grappelli_safe/static/grappelli/img/icons/icon-clock.png -> build/lib/grappelli_safe/static/grappelli/img/icons
+copying grappelli_safe/static/grappelli/img/icons/icon-fb_show-hover.png -> build/lib/grappelli_safe/static/grappelli/img/icons
+copying grappelli_safe/static/grappelli/img/icons/icon-fb_show.png -> build/lib/grappelli_safe/static/grappelli/img/icons
+copying grappelli_safe/static/grappelli/img/icons/icon-inline_item_tools-addhandler-hover.png -> build/lib/grappelli_safe/static/grappelli/img/icons
+copying grappelli_safe/static/grappelli/img/icons/icon-inline_item_tools-addhandler.png -> build/lib/grappelli_safe/static/grappelli/img/icons
+copying grappelli_safe/static/grappelli/img/icons/icon-inline_item_tools-closehandler-hover.png -> build/lib/grappelli_safe/static/grappelli/img/icons
+copying grappelli_safe/static/grappelli/img/icons/icon-inline_item_tools-closehandler.png -> build/lib/grappelli_safe/static/grappelli/img/icons
+copying grappelli_safe/static/grappelli/img/icons/icon-inline_item_tools-deletelink-hover.png -> build/lib/grappelli_safe/static/grappelli/img/icons
+copying grappelli_safe/static/grappelli/img/icons/icon-inline_item_tools-deletelink.png -> build/lib/grappelli_safe/static/grappelli/img/icons
+copying grappelli_safe/static/grappelli/img/icons/icon-inline_item_tools-draghandler-hover.png -> build/lib/grappelli_safe/static/grappelli/img/icons
+copying grappelli_safe/static/grappelli/img/icons/icon-inline_item_tools-draghandler.png -> build/lib/grappelli_safe/static/grappelli/img/icons
+copying grappelli_safe/static/grappelli/img/icons/icon-inline_item_tools-openhandler-hover.png -> build/lib/grappelli_safe/static/grappelli/img/icons
+copying grappelli_safe/static/grappelli/img/icons/icon-inline_item_tools-openhandler.png -> build/lib/grappelli_safe/static/grappelli/img/icons
+copying grappelli_safe/static/grappelli/img/icons/icon-inline_item_tools-viewsitelink-hover.png -> build/lib/grappelli_safe/static/grappelli/img/icons
+copying grappelli_safe/static/grappelli/img/icons/icon-inline_item_tools-viewsitelink.png -> build/lib/grappelli_safe/static/grappelli/img/icons
+copying grappelli_safe/static/grappelli/img/icons/icon-menulist_external-hover.png -> build/lib/grappelli_safe/static/grappelli/img/icons
+copying grappelli_safe/static/grappelli/img/icons/icon-menulist_external.png -> build/lib/grappelli_safe/static/grappelli/img/icons
+copying grappelli_safe/static/grappelli/img/icons/icon-menulist_internal-hover.png -> build/lib/grappelli_safe/static/grappelli/img/icons
+copying grappelli_safe/static/grappelli/img/icons/icon-menulist_internal.png -> build/lib/grappelli_safe/static/grappelli/img/icons
+copying grappelli_safe/static/grappelli/img/icons/icon-no.png -> build/lib/grappelli_safe/static/grappelli/img/icons
+copying grappelli_safe/static/grappelli/img/icons/icon-related_lookup-hover.png -> build/lib/grappelli_safe/static/grappelli/img/icons
+copying grappelli_safe/static/grappelli/img/icons/icon-related_lookup.png -> build/lib/grappelli_safe/static/grappelli/img/icons
+copying grappelli_safe/static/grappelli/img/icons/icon-searchbox.png -> build/lib/grappelli_safe/static/grappelli/img/icons
+copying grappelli_safe/static/grappelli/img/icons/icon-selector_add-m2m_horizontal-hover.png -> build/lib/grappelli_safe/static/grappelli/img/icons
+copying grappelli_safe/static/grappelli/img/icons/icon-selector_add-m2m_horizontal.png -> build/lib/grappelli_safe/static/grappelli/img/icons
+copying grappelli_safe/static/grappelli/img/icons/icon-selector_add-m2m_vertical-hover.png -> build/lib/grappelli_safe/static/grappelli/img/icons
+copying grappelli_safe/static/grappelli/img/icons/icon-selector_add-m2m_vertical.png -> build/lib/grappelli_safe/static/grappelli/img/icons
+copying grappelli_safe/static/grappelli/img/icons/icon-selector_remove-m2m_horizontal-hover.png -> build/lib/grappelli_safe/static/grappelli/img/icons
+copying grappelli_safe/static/grappelli/img/icons/icon-selector_remove-m2m_horizontal.png -> build/lib/grappelli_safe/static/grappelli/img/icons
+copying grappelli_safe/static/grappelli/img/icons/icon-selector_remove-m2m_vertical-hover.png -> build/lib/grappelli_safe/static/grappelli/img/icons
+copying grappelli_safe/static/grappelli/img/icons/icon-selector_remove-m2m_vertical.png -> build/lib/grappelli_safe/static/grappelli/img/icons
+copying grappelli_safe/static/grappelli/img/icons/icon-th-ascending.png -> build/lib/grappelli_safe/static/grappelli/img/icons
+copying grappelli_safe/static/grappelli/img/icons/icon-th-descending.png -> build/lib/grappelli_safe/static/grappelli/img/icons
+copying grappelli_safe/static/grappelli/img/icons/icon-unknown.png -> build/lib/grappelli_safe/static/grappelli/img/icons
+copying grappelli_safe/static/grappelli/img/icons/icon-yes.png -> build/lib/grappelli_safe/static/grappelli/img/icons
+copying grappelli_safe/static/grappelli/img/icons/icon_fieldset_collapse-closed.png -> build/lib/grappelli_safe/static/grappelli/img/icons
+copying grappelli_safe/static/grappelli/img/icons/icon_fieldset_collapse-open.png -> build/lib/grappelli_safe/static/grappelli/img/icons
+copying grappelli_safe/static/grappelli/img/icons/icon_inline-item-tools_addhandler.png -> build/lib/grappelli_safe/static/grappelli/img/icons
+copying grappelli_safe/static/grappelli/img/icons/icon_inline-item-tools_closehandler.png -> build/lib/grappelli_safe/static/grappelli/img/icons
+copying grappelli_safe/static/grappelli/img/icons/icon_inline-item-tools_openhandler.png -> build/lib/grappelli_safe/static/grappelli/img/icons
+creating build/lib/grappelli_safe/static/grappelli/js
+creating build/lib/grappelli_safe/static/grappelli/js/admin
+copying grappelli_safe/static/grappelli/js/admin/Changelist.js -> build/lib/grappelli_safe/static/grappelli/js/admin
+copying grappelli_safe/static/grappelli/js/admin/CollapsedInlineFieldsets.js -> build/lib/grappelli_safe/static/grappelli/js/admin
+copying grappelli_safe/static/grappelli/js/admin/Inline.js -> build/lib/grappelli_safe/static/grappelli/js/admin
+creating build/lib/grappelli_safe/static/grappelli/tinymce
+copying grappelli_safe/static/grappelli/tinymce/changelog.txt -> build/lib/grappelli_safe/static/grappelli/tinymce
+creating build/lib/grappelli_safe/static/grappelli/tinymce/jscripts
+creating build/lib/grappelli_safe/static/grappelli/tinymce/jscripts/tiny_mce
+copying grappelli_safe/static/grappelli/tinymce/jscripts/tiny_mce/license.txt -> build/lib/grappelli_safe/static/grappelli/tinymce/jscripts/tiny_mce
+copying grappelli_safe/static/grappelli/tinymce/jscripts/tiny_mce/tiny_mce.js -> build/lib/grappelli_safe/static/grappelli/tinymce/jscripts/tiny_mce
+copying grappelli_safe/static/grappelli/tinymce/jscripts/tiny_mce/tiny_mce_popup.js -> build/lib/grappelli_safe/static/grappelli/tinymce/jscripts/tiny_mce
+copying grappelli_safe/static/grappelli/tinymce/jscripts/tiny_mce/tiny_mce_src.js -> build/lib/grappelli_safe/static/grappelli/tinymce/jscripts/tiny_mce
+creating build/lib/grappelli_safe/static/grappelli/tinymce/jscripts/tiny_mce/langs
+copying grappelli_safe/static/grappelli/tinymce/jscripts/tiny_mce/langs/en.js -> build/lib/grappelli_safe/static/grappelli/tinymce/jscripts/tiny_mce/langs
+creating build/lib/grappelli_safe/static/grappelli/tinymce/jscripts/tiny_mce/plugins
+creating build/lib/grappelli_safe/static/grappelli/tinymce/jscripts/tiny_mce/plugins/advhr
+copying grappelli_safe/static/grappelli/tinymce/jscripts/tiny_mce/plugins/advhr/editor_plugin.js -> build/lib/grappelli_safe/static/grappelli/tinymce/jscripts/tiny_mce/plugins/advhr
+copying grappelli_safe/static/grappelli/tinymce/jscripts/tiny_mce/plugins/advhr/editor_plugin_src.js -> build/lib/grappelli_safe/static/grappelli/tinymce/jscripts/tiny_mce/plugins/advhr
+copying grappelli_safe/static/grappelli/tinymce/jscripts/tiny_mce/plugins/advhr/rule.htm -> build/lib/grappelli_safe/static/grappelli/tinymce/jscripts/tiny_mce/plugins/advhr
+creating build/lib/grappelli_safe/static/grappelli/tinymce/jscripts/tiny_mce/plugins/advhr/css
+copying grappelli_safe/static/grappelli/tinymce/jscripts/tiny_mce/plugins/advhr/css/advhr.css -> build/lib/grappelli_safe/static/grappelli/tinymce/jscripts/tiny_mce/plugins/advhr/css
+creating build/lib/grappelli_safe/static/grappelli/tinymce/jscripts/tiny_mce/plugins/advhr/js
+copying grappelli_safe/static/grappelli/tinymce/jscripts/tiny_mce/plugins/advhr/js/rule.js -> build/lib/grappelli_safe/static/grappelli/tinymce/jscripts/tiny_mce/plugins/advhr/js
+creating build/lib/grappelli_safe/static/grappelli/tinymce/jscripts/tiny_mce/plugins/advhr/langs
+copying grappelli_safe/static/grappelli/tinymce/jscripts/tiny_mce/plugins/advhr/langs/en_dlg.js -> build/lib/grappelli_safe/static/grappelli/tinymce/jscripts/tiny_mce/plugins/advhr/langs
+creating build/lib/grappelli_safe/static/grappelli/tinymce/jscripts/tiny_mce/plugins/advimage
+copying grappelli_safe/static/grappelli/tinymce/jscripts/tiny_mce/plugins/advimage/editor_plugin.js -> build/lib/grappelli_safe/static/grappelli/tinymce/jscripts/tiny_mce/plugins/advimage
+copying grappelli_safe/static/grappelli/tinymce/jscripts/tiny_mce/plugins/advimage/editor_plugin_src.js -> build/lib/grappelli_safe/static/grappelli/tinymce/jscripts/tiny_mce/plugins/advimage
+copying grappelli_safe/static/grappelli/tinymce/jscripts/tiny_mce/plugins/advimage/image.htm -> build/lib/grappelli_safe/static/grappelli/tinymce/jscripts/tiny_mce/plugins/advimage
+creating build/lib/grappelli_safe/static/grappelli/tinymce/jscripts/tiny_mce/plugins/advimage/css
+copying grappelli_safe/static/grappelli/tinymce/jscripts/tiny_mce/plugins/advimage/css/advimage.css -> build/lib/grappelli_safe/static/grappelli/tinymce/jscripts/tiny_mce/plugins/advimage/css
+creating build/lib/grappelli_safe/static/grappelli/tinymce/jscripts/tiny_mce/plugins/advimage/img
+copying grappelli_safe/static/grappelli/tinymce/jscripts/tiny_mce/plugins/advimage/img/sample.gif -> build/lib/grappelli_safe/static/grappelli/tinymce/jscripts/tiny_mce/plugins/advimage/img
+creating build/lib/grappelli_safe/static/grappelli/tinymce/jscripts/tiny_mce/plugins/advimage/js
+copying grappelli_safe/static/grappelli/tinymce/jscripts/tiny_mce/plugins/advimage/js/image.js -> build/lib/grappelli_safe/static/grappelli/tinymce/jscripts/tiny_mce/plugins/advimage/js
+creating build/lib/grappelli_safe/static/grappelli/tinymce/jscripts/tiny_mce/plugins/advimage/langs
+copying grappelli_safe/static/grappelli/tinymce/jscripts/tiny_mce/plugins/advimage/langs/en_dlg.js -> build/lib/grappelli_safe/static/grappelli/tinymce/jscripts/tiny_mce/plugins/advimage/langs
+creating build/lib/grappelli_safe/static/grappelli/tinymce/jscripts/tiny_mce/plugins/advlink
+copying grappelli_safe/static/grappelli/tinymce/jscripts/tiny_mce/plugins/advlink/editor_plugin.js -> build/lib/grappelli_safe/static/grappelli/tinymce/jscripts/tiny_mce/plugins/advlink
+copying grappelli_safe/static/grappelli/tinymce/jscripts/tiny_mce/plugins/advlink/editor_plugin_src.js -> build/lib/grappelli_safe/static/grappelli/tinymce/jscripts/tiny_mce/plugins/advlink
+copying grappelli_safe/static/grappelli/tinymce/jscripts/tiny_mce/plugins/advlink/link.htm -> build/lib/grappelli_safe/static/grappelli/tinymce/jscripts/tiny_mce/plugins/advlink
+creating build/lib/grappelli_safe/static/grappelli/tinymce/jscripts/tiny_mce/plugins/advlink/css
+copying grappelli_safe/static/grappelli/tinymce/jscripts/tiny_mce/plugins/advlink/css/advlink.css -> build/lib/grappelli_safe/static/grappelli/tinymce/jscripts/tiny_mce/plugins/advlink/css
+creating build/lib/grappelli_safe/static/grappelli/tinymce/jscripts/tiny_mce/plugins/advlink/js
+copying grappelli_safe/static/grappelli/tinymce/jscripts/tiny_mce/plugins/advlink/js/advlink.js -> build/lib/grappelli_safe/static/grappelli/tinymce/jscripts/tiny_mce/plugins/advlink/js
+creating build/lib/grappelli_safe/static/grappelli/tinymce/jscripts/tiny_mce/plugins/advlink/langs
+copying grappelli_safe/static/grappelli/tinymce/jscripts/tiny_mce/plugins/advlink/langs/en_dlg.js -> build/lib/grappelli_safe/static/grappelli/tinymce/jscripts/tiny_mce/plugins/advlink/langs
+creating build/lib/grappelli_safe/static/grappelli/tinymce/jscripts/tiny_mce/plugins/advlist
+copying grappelli_safe/static/grappelli/tinymce/jscripts/tiny_mce/plugins/advlist/editor_plugin.js -> build/lib/grappelli_safe/static/grappelli/tinymce/jscripts/tiny_mce/plugins/advlist
+copying grappelli_safe/static/grappelli/tinymce/jscripts/tiny_mce/plugins/advlist/editor_plugin_src.js -> build/lib/grappelli_safe/static/grappelli/tinymce/jscripts/tiny_mce/plugins/advlist
+creating build/lib/grappelli_safe/static/grappelli/tinymce/jscripts/tiny_mce/plugins/autolink
+copying grappelli_safe/static/grappelli/tinymce/jscripts/tiny_mce/plugins/autolink/editor_plugin.js -> build/lib/grappelli_safe/static/grappelli/tinymce/jscripts/tiny_mce/plugins/autolink
+copying grappelli_safe/static/grappelli/tinymce/jscripts/tiny_mce/plugins/autolink/editor_plugin_src.js -> build/lib/grappelli_safe/static/grappelli/tinymce/jscripts/tiny_mce/plugins/autolink
+creating build/lib/grappelli_safe/static/grappelli/tinymce/jscripts/tiny_mce/plugins/autoresize
+copying grappelli_safe/static/grappelli/tinymce/jscripts/tiny_mce/plugins/autoresize/editor_plugin.js -> build/lib/grappelli_safe/static/grappelli/tinymce/jscripts/tiny_mce/plugins/autoresize
+copying grappelli_safe/static/grappelli/tinymce/jscripts/tiny_mce/plugins/autoresize/editor_plugin_src.js -> build/lib/grappelli_safe/static/grappelli/tinymce/jscripts/tiny_mce/plugins/autoresize
+creating build/lib/grappelli_safe/static/grappelli/tinymce/jscripts/tiny_mce/plugins/autosave
+copying grappelli_safe/static/grappelli/tinymce/jscripts/tiny_mce/plugins/autosave/editor_plugin.js -> build/lib/grappelli_safe/static/grappelli/tinymce/jscripts/tiny_mce/plugins/autosave
+copying grappelli_safe/static/grappelli/tinymce/jscripts/tiny_mce/plugins/autosave/editor_plugin_src.js -> build/lib/grappelli_safe/static/grappelli/tinymce/jscripts/tiny_mce/plugins/autosave
+creating build/lib/grappelli_safe/static/grappelli/tinymce/jscripts/tiny_mce/plugins/autosave/langs
+copying grappelli_safe/static/grappelli/tinymce/jscripts/tiny_mce/plugins/autosave/langs/en.js -> build/lib/grappelli_safe/static/grappelli/tinymce/jscripts/tiny_mce/plugins/autosave/langs
+creating build/lib/grappelli_safe/static/grappelli/tinymce/jscripts/tiny_mce/plugins/bbcode
+copying grappelli_safe/static/grappelli/tinymce/jscripts/tiny_mce/plugins/bbcode/editor_plugin.js -> build/lib/grappelli_safe/static/grappelli/tinymce/jscripts/tiny_mce/plugins/bbcode
+copying grappelli_safe/static/grappelli/tinymce/jscripts/tiny_mce/plugins/bbcode/editor_plugin_src.js -> build/lib/grappelli_safe/static/grappelli/tinymce/jscripts/tiny_mce/plugins/bbcode
+creating build/lib/grappelli_safe/static/grappelli/tinymce/jscripts/tiny_mce/plugins/contextmenu
+copying grappelli_safe/static/grappelli/tinymce/jscripts/tiny_mce/plugins/contextmenu/editor_plugin.js -> build/lib/grappelli_safe/static/grappelli/tinymce/jscripts/tiny_mce/plugins/contextmenu
+copying grappelli_safe/static/grappelli/tinymce/jscripts/tiny_mce/plugins/contextmenu/editor_plugin_src.js -> build/lib/grappelli_safe/static/grappelli/tinymce/jscripts/tiny_mce/plugins/contextmenu
+creating build/lib/grappelli_safe/static/grappelli/tinymce/jscripts/tiny_mce/plugins/directionality
+copying grappelli_safe/static/grappelli/tinymce/jscripts/tiny_mce/plugins/directionality/editor_plugin.js -> build/lib/grappelli_safe/static/grappelli/tinymce/jscripts/tiny_mce/plugins/directionality
+copying grappelli_safe/static/grappelli/tinymce/jscripts/tiny_mce/plugins/directionality/editor_plugin_src.js -> build/lib/grappelli_safe/static/grappelli/tinymce/jscripts/tiny_mce/plugins/directionality
+creating build/lib/grappelli_safe/static/grappelli/tinymce/jscripts/tiny_mce/plugins/emotions
+copying grappelli_safe/static/grappelli/tinymce/jscripts/tiny_mce/plugins/emotions/editor_plugin.js -> build/lib/grappelli_safe/static/grappelli/tinymce/jscripts/tiny_mce/plugins/emotions
+copying grappelli_safe/static/grappelli/tinymce/jscripts/tiny_mce/plugins/emotions/editor_plugin_src.js -> build/lib/grappelli_safe/static/grappelli/tinymce/jscripts/tiny_mce/plugins/emotions
+copying grappelli_safe/static/grappelli/tinymce/jscripts/tiny_mce/plugins/emotions/emotions.htm -> build/lib/grappelli_safe/static/grappelli/tinymce/jscripts/tiny_mce/plugins/emotions
+creating build/lib/grappelli_safe/static/grappelli/tinymce/jscripts/tiny_mce/plugins/emotions/img
+copying grappelli_safe/static/grappelli/tinymce/jscripts/tiny_mce/plugins/emotions/img/smiley-cool.gif -> build/lib/grappelli_safe/static/grappelli/tinymce/jscripts/tiny_mce/plugins/emotions/img
+copying grappelli_safe/static/grappelli/tinymce/jscripts/tiny_mce/plugins/emotions/img/smiley-cry.gif -> build/lib/grappelli_safe/static/grappelli/tinymce/jscripts/tiny_mce/plugins/emotions/img
+copying grappelli_safe/static/grappelli/tinymce/jscripts/tiny_mce/plugins/emotions/img/smiley-embarassed.gif -> build/lib/grappelli_safe/static/grappelli/tinymce/jscripts/tiny_mce/plugins/emotions/img
+copying grappelli_safe/static/grappelli/tinymce/jscripts/tiny_mce/plugins/emotions/img/smiley-foot-in-mouth.gif -> build/lib/grappelli_safe/static/grappelli/tinymce/jscripts/tiny_mce/plugins/emotions/img
+copying grappelli_safe/static/grappelli/tinymce/jscripts/tiny_mce/plugins/emotions/img/smiley-frown.gif -> build/lib/grappelli_safe/static/grappelli/tinymce/jscripts/tiny_mce/plugins/emotions/img
+copying grappelli_safe/static/grappelli/tinymce/jscripts/tiny_mce/plugins/emotions/img/smiley-innocent.gif -> build/lib/grappelli_safe/static/grappelli/tinymce/jscripts/tiny_mce/plugins/emotions/img
+copying grappelli_safe/static/grappelli/tinymce/jscripts/tiny_mce/plugins/emotions/img/smiley-kiss.gif -> build/lib/grappelli_safe/static/grappelli/tinymce/jscripts/tiny_mce/plugins/emotions/img
+copying grappelli_safe/static/grappelli/tinymce/jscripts/tiny_mce/plugins/emotions/img/smiley-laughing.gif -> build/lib/grappelli_safe/static/grappelli/tinymce/jscripts/tiny_mce/plugins/emotions/img
+copying grappelli_safe/static/grappelli/tinymce/jscripts/tiny_mce/plugins/emotions/img/smiley-money-mouth.gif -> build/lib/grappelli_safe/static/grappelli/tinymce/jscripts/tiny_mce/plugins/emotions/img
+copying grappelli_safe/static/grappelli/tinymce/jscripts/tiny_mce/plugins/emotions/img/smiley-sealed.gif -> build/lib/grappelli_safe/static/grappelli/tinymce/jscripts/tiny_mce/plugins/emotions/img
+copying grappelli_safe/static/grappelli/tinymce/jscripts/tiny_mce/plugins/emotions/img/smiley-smile.gif -> build/lib/grappelli_safe/static/grappelli/tinymce/jscripts/tiny_mce/plugins/emotions/img
+copying grappelli_safe/static/grappelli/tinymce/jscripts/tiny_mce/plugins/emotions/img/smiley-surprised.gif -> build/lib/grappelli_safe/static/grappelli/tinymce/jscripts/tiny_mce/plugins/emotions/img
+copying grappelli_safe/static/grappelli/tinymce/jscripts/tiny_mce/plugins/emotions/img/smiley-tongue-out.gif -> build/lib/grappelli_safe/static/grappelli/tinymce/jscripts/tiny_mce/plugins/emotions/img
+copying grappelli_safe/static/grappelli/tinymce/jscripts/tiny_mce/plugins/emotions/img/smiley-undecided.gif -> build/lib/grappelli_safe/static/grappelli/tinymce/jscripts/tiny_mce/plugins/emotions/img
+copying grappelli_safe/static/grappelli/tinymce/jscripts/tiny_mce/plugins/emotions/img/smiley-wink.gif -> build/lib/grappelli_safe/static/grappelli/tinymce/jscripts/tiny_mce/plugins/emotions/img
+copying grappelli_safe/static/grappelli/tinymce/jscripts/tiny_mce/plugins/emotions/img/smiley-yell.gif -> build/lib/grappelli_safe/static/grappelli/tinymce/jscripts/tiny_mce/plugins/emotions/img
+creating build/lib/grappelli_safe/static/grappelli/tinymce/jscripts/tiny_mce/plugins/emotions/js
+copying grappelli_safe/static/grappelli/tinymce/jscripts/tiny_mce/plugins/emotions/js/emotions.js -> build/lib/grappelli_safe/static/grappelli/tinymce/jscripts/tiny_mce/plugins/emotions/js
+creating build/lib/grappelli_safe/static/grappelli/tinymce/jscripts/tiny_mce/plugins/emotions/langs
+copying grappelli_safe/static/grappelli/tinymce/jscripts/tiny_mce/plugins/emotions/langs/en_dlg.js -> build/lib/grappelli_safe/static/grappelli/tinymce/jscripts/tiny_mce/plugins/emotions/langs
+creating build/lib/grappelli_safe/static/grappelli/tinymce/jscripts/tiny_mce/plugins/example
+copying grappelli_safe/static/grappelli/tinymce/jscripts/tiny_mce/plugins/example/dialog.htm -> build/lib/grappelli_safe/static/grappelli/tinymce/jscripts/tiny_mce/plugins/example
+copying grappelli_safe/static/grappelli/tinymce/jscripts/tiny_mce/plugins/example/editor_plugin.js -> build/lib/grappelli_safe/static/grappelli/tinymce/jscripts/tiny_mce/plugins/example
+copying grappelli_safe/static/grappelli/tinymce/jscripts/tiny_mce/plugins/example/editor_plugin_src.js -> build/lib/grappelli_safe/static/grappelli/tinymce/jscripts/tiny_mce/plugins/example
+creating build/lib/grappelli_safe/static/grappelli/tinymce/jscripts/tiny_mce/plugins/example/img
+copying grappelli_safe/static/grappelli/tinymce/jscripts/tiny_mce/plugins/example/img/example.gif -> build/lib/grappelli_safe/static/grappelli/tinymce/jscripts/tiny_mce/plugins/example/img
+creating build/lib/grappelli_safe/static/grappelli/tinymce/jscripts/tiny_mce/plugins/example/js
+copying grappelli_safe/static/grappelli/tinymce/jscripts/tiny_mce/plugins/example/js/dialog.js -> build/lib/grappelli_safe/static/grappelli/tinymce/jscripts/tiny_mce/plugins/example/js
+creating build/lib/grappelli_safe/static/grappelli/tinymce/jscripts/tiny_mce/plugins/example/langs
+copying grappelli_safe/static/grappelli/tinymce/jscripts/tiny_mce/plugins/example/langs/en.js -> build/lib/grappelli_safe/static/grappelli/tinymce/jscripts/tiny_mce/plugins/example/langs
+copying grappelli_safe/static/grappelli/tinymce/jscripts/tiny_mce/plugins/example/langs/en_dlg.js -> build/lib/grappelli_safe/static/grappelli/tinymce/jscripts/tiny_mce/plugins/example/langs
+creating build/lib/grappelli_safe/static/grappelli/tinymce/jscripts/tiny_mce/plugins/example_dependency
+copying grappelli_safe/static/grappelli/tinymce/jscripts/tiny_mce/plugins/example_dependency/editor_plugin.js -> build/lib/grappelli_safe/static/grappelli/tinymce/jscripts/tiny_mce/plugins/example_dependency
+copying grappelli_safe/static/grappelli/tinymce/jscripts/tiny_mce/plugins/example_dependency/editor_plugin_src.js -> build/lib/grappelli_safe/static/grappelli/tinymce/jscripts/tiny_mce/plugins/example_dependency
+creating build/lib/grappelli_safe/static/grappelli/tinymce/jscripts/tiny_mce/plugins/fullpage
+copying grappelli_safe/static/grappelli/tinymce/jscripts/tiny_mce/plugins/fullpage/editor_plugin.js -> build/lib/grappelli_safe/static/grappelli/tinymce/jscripts/tiny_mce/plugins/fullpage
+copying grappelli_safe/static/grappelli/tinymce/jscripts/tiny_mce/plugins/fullpage/editor_plugin_src.js -> build/lib/grappelli_safe/static/grappelli/tinymce/jscripts/tiny_mce/plugins/fullpage
+copying grappelli_safe/static/grappelli/tinymce/jscripts/tiny_mce/plugins/fullpage/fullpage.htm -> build/lib/grappelli_safe/static/grappelli/tinymce/jscripts/tiny_mce/plugins/fullpage
+creating build/lib/grappelli_safe/static/grappelli/tinymce/jscripts/tiny_mce/plugins/fullpage/css
+copying grappelli_safe/static/grappelli/tinymce/jscripts/tiny_mce/plugins/fullpage/css/fullpage.css -> build/lib/grappelli_safe/static/grappelli/tinymce/jscripts/tiny_mce/plugins/fullpage/css
+creating build/lib/grappelli_safe/static/grappelli/tinymce/jscripts/tiny_mce/plugins/fullpage/js
+copying grappelli_safe/static/grappelli/tinymce/jscripts/tiny_mce/plugins/fullpage/js/fullpage.js -> build/lib/grappelli_safe/static/grappelli/tinymce/jscripts/tiny_mce/plugins/fullpage/js
+creating build/lib/grappelli_safe/static/grappelli/tinymce/jscripts/tiny_mce/plugins/fullpage/langs
+copying grappelli_safe/static/grappelli/tinymce/jscripts/tiny_mce/plugins/fullpage/langs/en_dlg.js -> build/lib/grappelli_safe/static/grappelli/tinymce/jscripts/tiny_mce/plugins/fullpage/langs
+creating build/lib/grappelli_safe/static/grappelli/tinymce/jscripts/tiny_mce/plugins/fullscreen
+copying grappelli_safe/static/grappelli/tinymce/jscripts/tiny_mce/plugins/fullscreen/editor_plugin.js -> build/lib/grappelli_safe/static/grappelli/tinymce/jscripts/tiny_mce/plugins/fullscreen
+copying grappelli_safe/static/grappelli/tinymce/jscripts/tiny_mce/plugins/fullscreen/editor_plugin_src.js -> build/lib/grappelli_safe/static/grappelli/tinymce/jscripts/tiny_mce/plugins/fullscreen
+copying grappelli_safe/static/grappelli/tinymce/jscripts/tiny_mce/plugins/fullscreen/fullscreen.htm -> build/lib/grappelli_safe/static/grappelli/tinymce/jscripts/tiny_mce/plugins/fullscreen
+creating build/lib/grappelli_safe/static/grappelli/tinymce/jscripts/tiny_mce/plugins/iespell
+copying grappelli_safe/static/grappelli/tinymce/jscripts/tiny_mce/plugins/iespell/editor_plugin.js -> build/lib/grappelli_safe/static/grappelli/tinymce/jscripts/tiny_mce/plugins/iespell
+copying grappelli_safe/static/grappelli/tinymce/jscripts/tiny_mce/plugins/iespell/editor_plugin_src.js -> build/lib/grappelli_safe/static/grappelli/tinymce/jscripts/tiny_mce/plugins/iespell
+creating build/lib/grappelli_safe/static/grappelli/tinymce/jscripts/tiny_mce/plugins/inlinepopups
+copying grappelli_safe/static/grappelli/tinymce/jscripts/tiny_mce/plugins/inlinepopups/editor_plugin.js -> build/lib/grappelli_safe/static/grappelli/tinymce/jscripts/tiny_mce/plugins/inlinepopups
+copying grappelli_safe/static/grappelli/tinymce/jscripts/tiny_mce/plugins/inlinepopups/editor_plugin_src.js -> build/lib/grappelli_safe/static/grappelli/tinymce/jscripts/tiny_mce/plugins/inlinepopups
+copying grappelli_safe/static/grappelli/tinymce/jscripts/tiny_mce/plugins/inlinepopups/template.htm -> build/lib/grappelli_safe/static/grappelli/tinymce/jscripts/tiny_mce/plugins/inlinepopups
+creating build/lib/grappelli_safe/static/grappelli/tinymce/jscripts/tiny_mce/plugins/inlinepopups/skins
+creating build/lib/grappelli_safe/static/grappelli/tinymce/jscripts/tiny_mce/plugins/inlinepopups/skins/clearlooks2
+copying grappelli_safe/static/grappelli/tinymce/jscripts/tiny_mce/plugins/inlinepopups/skins/clearlooks2/window.css -> build/lib/grappelli_safe/static/grappelli/tinymce/jscripts/tiny_mce/plugins/inlinepopups/skins/clearlooks2
+creating build/lib/grappelli_safe/static/grappelli/tinymce/jscripts/tiny_mce/plugins/inlinepopups/skins/clearlooks2/img
+copying grappelli_safe/static/grappelli/tinymce/jscripts/tiny_mce/plugins/inlinepopups/skins/clearlooks2/img/alert.gif -> build/lib/grappelli_safe/static/grappelli/tinymce/jscripts/tiny_mce/plugins/inlinepopups/skins/clearlooks2/img
+copying grappelli_safe/static/grappelli/tinymce/jscripts/tiny_mce/plugins/inlinepopups/skins/clearlooks2/img/button.gif -> build/lib/grappelli_safe/static/grappelli/tinymce/jscripts/tiny_mce/plugins/inlinepopups/skins/clearlooks2/img
+copying grappelli_safe/static/grappelli/tinymce/jscripts/tiny_mce/plugins/inlinepopups/skins/clearlooks2/img/buttons.gif -> build/lib/grappelli_safe/static/grappelli/tinymce/jscripts/tiny_mce/plugins/inlinepopups/skins/clearlooks2/img
+copying grappelli_safe/static/grappelli/tinymce/jscripts/tiny_mce/plugins/inlinepopups/skins/clearlooks2/img/confirm.gif -> build/lib/grappelli_safe/static/grappelli/tinymce/jscripts/tiny_mce/plugins/inlinepopups/skins/clearlooks2/img
+copying grappelli_safe/static/grappelli/tinymce/jscripts/tiny_mce/plugins/inlinepopups/skins/clearlooks2/img/corners.gif -> build/lib/grappelli_safe/static/grappelli/tinymce/jscripts/tiny_mce/plugins/inlinepopups/skins/clearlooks2/img
+copying grappelli_safe/static/grappelli/tinymce/jscripts/tiny_mce/plugins/inlinepopups/skins/clearlooks2/img/horizontal.gif -> build/lib/grappelli_safe/static/grappelli/tinymce/jscripts/tiny_mce/plugins/inlinepopups/skins/clearlooks2/img
+copying grappelli_safe/static/grappelli/tinymce/jscripts/tiny_mce/plugins/inlinepopups/skins/clearlooks2/img/vertical.gif -> build/lib/grappelli_safe/static/grappelli/tinymce/jscripts/tiny_mce/plugins/inlinepopups/skins/clearlooks2/img
+creating build/lib/grappelli_safe/static/grappelli/tinymce/jscripts/tiny_mce/plugins/insertdatetime
+copying grappelli_safe/static/grappelli/tinymce/jscripts/tiny_mce/plugins/insertdatetime/editor_plugin.js -> build/lib/grappelli_safe/static/grappelli/tinymce/jscripts/tiny_mce/plugins/insertdatetime
+copying grappelli_safe/static/grappelli/tinymce/jscripts/tiny_mce/plugins/insertdatetime/editor_plugin_src.js -> build/lib/grappelli_safe/static/grappelli/tinymce/jscripts/tiny_mce/plugins/insertdatetime
+creating build/lib/grappelli_safe/static/grappelli/tinymce/jscripts/tiny_mce/plugins/layer
+copying grappelli_safe/static/grappelli/tinymce/jscripts/tiny_mce/plugins/layer/editor_plugin.js -> build/lib/grappelli_safe/static/grappelli/tinymce/jscripts/tiny_mce/plugins/layer
+copying grappelli_safe/static/grappelli/tinymce/jscripts/tiny_mce/plugins/layer/editor_plugin_src.js -> build/lib/grappelli_safe/static/grappelli/tinymce/jscripts/tiny_mce/plugins/layer
+creating build/lib/grappelli_safe/static/grappelli/tinymce/jscripts/tiny_mce/plugins/legacyoutput
+copying grappelli_safe/static/grappelli/tinymce/jscripts/tiny_mce/plugins/legacyoutput/editor_plugin.js -> build/lib/grappelli_safe/static/grappelli/tinymce/jscripts/tiny_mce/plugins/legacyoutput
+copying grappelli_safe/static/grappelli/tinymce/jscripts/tiny_mce/plugins/legacyoutput/editor_plugin_src.js -> build/lib/grappelli_safe/static/grappelli/tinymce/jscripts/tiny_mce/plugins/legacyoutput
+creating build/lib/grappelli_safe/static/grappelli/tinymce/jscripts/tiny_mce/plugins/lists
+copying grappelli_safe/static/grappelli/tinymce/jscripts/tiny_mce/plugins/lists/editor_plugin.js -> build/lib/grappelli_safe/static/grappelli/tinymce/jscripts/tiny_mce/plugins/lists
+copying grappelli_safe/static/grappelli/tinymce/jscripts/tiny_mce/plugins/lists/editor_plugin_src.js -> build/lib/grappelli_safe/static/grappelli/tinymce/jscripts/tiny_mce/plugins/lists
+creating build/lib/grappelli_safe/static/grappelli/tinymce/jscripts/tiny_mce/plugins/media
+copying grappelli_safe/static/grappelli/tinymce/jscripts/tiny_mce/plugins/media/editor_plugin.js -> build/lib/grappelli_safe/static/grappelli/tinymce/jscripts/tiny_mce/plugins/media
+copying grappelli_safe/static/grappelli/tinymce/jscripts/tiny_mce/plugins/media/editor_plugin_src.js -> build/lib/grappelli_safe/static/grappelli/tinymce/jscripts/tiny_mce/plugins/media
+copying grappelli_safe/static/grappelli/tinymce/jscripts/tiny_mce/plugins/media/media.htm -> build/lib/grappelli_safe/static/grappelli/tinymce/jscripts/tiny_mce/plugins/media
+copying grappelli_safe/static/grappelli/tinymce/jscripts/tiny_mce/plugins/media/moxieplayer.swf -> build/lib/grappelli_safe/static/grappelli/tinymce/jscripts/tiny_mce/plugins/media
+creating build/lib/grappelli_safe/static/grappelli/tinymce/jscripts/tiny_mce/plugins/media/css
+copying grappelli_safe/static/grappelli/tinymce/jscripts/tiny_mce/plugins/media/css/media.css -> build/lib/grappelli_safe/static/grappelli/tinymce/jscripts/tiny_mce/plugins/media/css
+creating build/lib/grappelli_safe/static/grappelli/tinymce/jscripts/tiny_mce/plugins/media/js
+copying grappelli_safe/static/grappelli/tinymce/jscripts/tiny_mce/plugins/media/js/embed.js -> build/lib/grappelli_safe/static/grappelli/tinymce/jscripts/tiny_mce/plugins/media/js
+copying grappelli_safe/static/grappelli/tinymce/jscripts/tiny_mce/plugins/media/js/media.js -> build/lib/grappelli_safe/static/grappelli/tinymce/jscripts/tiny_mce/plugins/media/js
+creating build/lib/grappelli_safe/static/grappelli/tinymce/jscripts/tiny_mce/plugins/media/langs
+copying grappelli_safe/static/grappelli/tinymce/jscripts/tiny_mce/plugins/media/langs/en_dlg.js -> build/lib/grappelli_safe/static/grappelli/tinymce/jscripts/tiny_mce/plugins/media/langs
+creating build/lib/grappelli_safe/static/grappelli/tinymce/jscripts/tiny_mce/plugins/nonbreaking
+copying grappelli_safe/static/grappelli/tinymce/jscripts/tiny_mce/plugins/nonbreaking/editor_plugin.js -> build/lib/grappelli_safe/static/grappelli/tinymce/jscripts/tiny_mce/plugins/nonbreaking
+copying grappelli_safe/static/grappelli/tinymce/jscripts/tiny_mce/plugins/nonbreaking/editor_plugin_src.js -> build/lib/grappelli_safe/static/grappelli/tinymce/jscripts/tiny_mce/plugins/nonbreaking
+creating build/lib/grappelli_safe/static/grappelli/tinymce/jscripts/tiny_mce/plugins/noneditable
+copying grappelli_safe/static/grappelli/tinymce/jscripts/tiny_mce/plugins/noneditable/editor_plugin.js -> build/lib/grappelli_safe/static/grappelli/tinymce/jscripts/tiny_mce/plugins/noneditable
+copying grappelli_safe/static/grappelli/tinymce/jscripts/tiny_mce/plugins/noneditable/editor_plugin_src.js -> build/lib/grappelli_safe/static/grappelli/tinymce/jscripts/tiny_mce/plugins/noneditable
+creating build/lib/grappelli_safe/static/grappelli/tinymce/jscripts/tiny_mce/plugins/pagebreak
+copying grappelli_safe/static/grappelli/tinymce/jscripts/tiny_mce/plugins/pagebreak/editor_plugin.js -> build/lib/grappelli_safe/static/grappelli/tinymce/jscripts/tiny_mce/plugins/pagebreak
+copying grappelli_safe/static/grappelli/tinymce/jscripts/tiny_mce/plugins/pagebreak/editor_plugin_src.js -> build/lib/grappelli_safe/static/grappelli/tinymce/jscripts/tiny_mce/plugins/pagebreak
+creating build/lib/grappelli_safe/static/grappelli/tinymce/jscripts/tiny_mce/plugins/paste
+copying grappelli_safe/static/grappelli/tinymce/jscripts/tiny_mce/plugins/paste/editor_plugin.js -> build/lib/grappelli_safe/static/grappelli/tinymce/jscripts/tiny_mce/plugins/paste
+copying grappelli_safe/static/grappelli/tinymce/jscripts/tiny_mce/plugins/paste/editor_plugin_src.js -> build/lib/grappelli_safe/static/grappelli/tinymce/jscripts/tiny_mce/plugins/paste
+copying grappelli_safe/static/grappelli/tinymce/jscripts/tiny_mce/plugins/paste/pastetext.htm -> build/lib/grappelli_safe/static/grappelli/tinymce/jscripts/tiny_mce/plugins/paste
+copying grappelli_safe/static/grappelli/tinymce/jscripts/tiny_mce/plugins/paste/pasteword.htm -> build/lib/grappelli_safe/static/grappelli/tinymce/jscripts/tiny_mce/plugins/paste
+creating build/lib/grappelli_safe/static/grappelli/tinymce/jscripts/tiny_mce/plugins/paste/js
+copying grappelli_safe/static/grappelli/tinymce/jscripts/tiny_mce/plugins/paste/js/pastetext.js -> build/lib/grappelli_safe/static/grappelli/tinymce/jscripts/tiny_mce/plugins/paste/js
+copying grappelli_safe/static/grappelli/tinymce/jscripts/tiny_mce/plugins/paste/js/pasteword.js -> build/lib/grappelli_safe/static/grappelli/tinymce/jscripts/tiny_mce/plugins/paste/js
+creating build/lib/grappelli_safe/static/grappelli/tinymce/jscripts/tiny_mce/plugins/paste/langs
+copying grappelli_safe/static/grappelli/tinymce/jscripts/tiny_mce/plugins/paste/langs/en_dlg.js -> build/lib/grappelli_safe/static/grappelli/tinymce/jscripts/tiny_mce/plugins/paste/langs
+creating build/lib/grappelli_safe/static/grappelli/tinymce/jscripts/tiny_mce/plugins/preview
+copying grappelli_safe/static/grappelli/tinymce/jscripts/tiny_mce/plugins/preview/editor_plugin.js -> build/lib/grappelli_safe/static/grappelli/tinymce/jscripts/tiny_mce/plugins/preview
+copying grappelli_safe/static/grappelli/tinymce/jscripts/tiny_mce/plugins/preview/editor_plugin_src.js -> build/lib/grappelli_safe/static/grappelli/tinymce/jscripts/tiny_mce/plugins/preview
+copying grappelli_safe/static/grappelli/tinymce/jscripts/tiny_mce/plugins/preview/example.html -> build/lib/grappelli_safe/static/grappelli/tinymce/jscripts/tiny_mce/plugins/preview
+copying grappelli_safe/static/grappelli/tinymce/jscripts/tiny_mce/plugins/preview/preview.html -> build/lib/grappelli_safe/static/grappelli/tinymce/jscripts/tiny_mce/plugins/preview
+creating build/lib/grappelli_safe/static/grappelli/tinymce/jscripts/tiny_mce/plugins/preview/jscripts
+copying grappelli_safe/static/grappelli/tinymce/jscripts/tiny_mce/plugins/preview/jscripts/embed.js -> build/lib/grappelli_safe/static/grappelli/tinymce/jscripts/tiny_mce/plugins/preview/jscripts
+creating build/lib/grappelli_safe/static/grappelli/tinymce/jscripts/tiny_mce/plugins/print
+copying grappelli_safe/static/grappelli/tinymce/jscripts/tiny_mce/plugins/print/editor_plugin.js -> build/lib/grappelli_safe/static/grappelli/tinymce/jscripts/tiny_mce/plugins/print
+copying grappelli_safe/static/grappelli/tinymce/jscripts/tiny_mce/plugins/print/editor_plugin_src.js -> build/lib/grappelli_safe/static/grappelli/tinymce/jscripts/tiny_mce/plugins/print
+creating build/lib/grappelli_safe/static/grappelli/tinymce/jscripts/tiny_mce/plugins/save
+copying grappelli_safe/static/grappelli/tinymce/jscripts/tiny_mce/plugins/save/editor_plugin.js -> build/lib/grappelli_safe/static/grappelli/tinymce/jscripts/tiny_mce/plugins/save
+copying grappelli_safe/static/grappelli/tinymce/jscripts/tiny_mce/plugins/save/editor_plugin_src.js -> build/lib/grappelli_safe/static/grappelli/tinymce/jscripts/tiny_mce/plugins/save
+creating build/lib/grappelli_safe/static/grappelli/tinymce/jscripts/tiny_mce/plugins/searchreplace
+copying grappelli_safe/static/grappelli/tinymce/jscripts/tiny_mce/plugins/searchreplace/editor_plugin.js -> build/lib/grappelli_safe/static/grappelli/tinymce/jscripts/tiny_mce/plugins/searchreplace
+copying grappelli_safe/static/grappelli/tinymce/jscripts/tiny_mce/plugins/searchreplace/editor_plugin_src.js -> build/lib/grappelli_safe/static/grappelli/tinymce/jscripts/tiny_mce/plugins/searchreplace
+copying grappelli_safe/static/grappelli/tinymce/jscripts/tiny_mce/plugins/searchreplace/searchreplace.htm -> build/lib/grappelli_safe/static/grappelli/tinymce/jscripts/tiny_mce/plugins/searchreplace
+creating build/lib/grappelli_safe/static/grappelli/tinymce/jscripts/tiny_mce/plugins/searchreplace/css
+copying grappelli_safe/static/grappelli/tinymce/jscripts/tiny_mce/plugins/searchreplace/css/searchreplace.css -> build/lib/grappelli_safe/static/grappelli/tinymce/jscripts/tiny_mce/plugins/searchreplace/css
+creating build/lib/grappelli_safe/static/grappelli/tinymce/jscripts/tiny_mce/plugins/searchreplace/js
+copying grappelli_safe/static/grappelli/tinymce/jscripts/tiny_mce/plugins/searchreplace/js/searchreplace.js -> build/lib/grappelli_safe/static/grappelli/tinymce/jscripts/tiny_mce/plugins/searchreplace/js
+creating build/lib/grappelli_safe/static/grappelli/tinymce/jscripts/tiny_mce/plugins/searchreplace/langs
+copying grappelli_safe/static/grappelli/tinymce/jscripts/tiny_mce/plugins/searchreplace/langs/en_dlg.js -> build/lib/grappelli_safe/static/grappelli/tinymce/jscripts/tiny_mce/plugins/searchreplace/langs
+creating build/lib/grappelli_safe/static/grappelli/tinymce/jscripts/tiny_mce/plugins/spellchecker
+copying grappelli_safe/static/grappelli/tinymce/jscripts/tiny_mce/plugins/spellchecker/editor_plugin.js -> build/lib/grappelli_safe/static/grappelli/tinymce/jscripts/tiny_mce/plugins/spellchecker
+copying grappelli_safe/static/grappelli/tinymce/jscripts/tiny_mce/plugins/spellchecker/editor_plugin_src.js -> build/lib/grappelli_safe/static/grappelli/tinymce/jscripts/tiny_mce/plugins/spellchecker
+creating build/lib/grappelli_safe/static/grappelli/tinymce/jscripts/tiny_mce/plugins/spellchecker/css
+copying grappelli_safe/static/grappelli/tinymce/jscripts/tiny_mce/plugins/spellchecker/css/content.css -> build/lib/grappelli_safe/static/grappelli/tinymce/jscripts/tiny_mce/plugins/spellchecker/css
+creating build/lib/grappelli_safe/static/grappelli/tinymce/jscripts/tiny_mce/plugins/spellchecker/img
+copying grappelli_safe/static/grappelli/tinymce/jscripts/tiny_mce/plugins/spellchecker/img/wline.gif -> build/lib/grappelli_safe/static/grappelli/tinymce/jscripts/tiny_mce/plugins/spellchecker/img
+creating build/lib/grappelli_safe/static/grappelli/tinymce/jscripts/tiny_mce/plugins/style
+copying grappelli_safe/static/grappelli/tinymce/jscripts/tiny_mce/plugins/style/editor_plugin.js -> build/lib/grappelli_safe/static/grappelli/tinymce/jscripts/tiny_mce/plugins/style
+copying grappelli_safe/static/grappelli/tinymce/jscripts/tiny_mce/plugins/style/editor_plugin_src.js -> build/lib/grappelli_safe/static/grappelli/tinymce/jscripts/tiny_mce/plugins/style
+copying grappelli_safe/static/grappelli/tinymce/jscripts/tiny_mce/plugins/style/props.htm -> build/lib/grappelli_safe/static/grappelli/tinymce/jscripts/tiny_mce/plugins/style
+creating build/lib/grappelli_safe/static/grappelli/tinymce/jscripts/tiny_mce/plugins/style/css
+copying grappelli_safe/static/grappelli/tinymce/jscripts/tiny_mce/plugins/style/css/props.css -> build/lib/grappelli_safe/static/grappelli/tinymce/jscripts/tiny_mce/plugins/style/css
+creating build/lib/grappelli_safe/static/grappelli/tinymce/jscripts/tiny_mce/plugins/style/js
+copying grappelli_safe/static/grappelli/tinymce/jscripts/tiny_mce/plugins/style/js/props.js -> build/lib/grappelli_safe/static/grappelli/tinymce/jscripts/tiny_mce/plugins/style/js
+creating build/lib/grappelli_safe/static/grappelli/tinymce/jscripts/tiny_mce/plugins/style/langs
+copying grappelli_safe/static/grappelli/tinymce/jscripts/tiny_mce/plugins/style/langs/en_dlg.js -> build/lib/grappelli_safe/static/grappelli/tinymce/jscripts/tiny_mce/plugins/style/langs
+creating build/lib/grappelli_safe/static/grappelli/tinymce/jscripts/tiny_mce/plugins/tabfocus
+copying grappelli_safe/static/grappelli/tinymce/jscripts/tiny_mce/plugins/tabfocus/editor_plugin.js -> build/lib/grappelli_safe/static/grappelli/tinymce/jscripts/tiny_mce/plugins/tabfocus
+copying grappelli_safe/static/grappelli/tinymce/jscripts/tiny_mce/plugins/tabfocus/editor_plugin_src.js -> build/lib/grappelli_safe/static/grappelli/tinymce/jscripts/tiny_mce/plugins/tabfocus
+creating build/lib/grappelli_safe/static/grappelli/tinymce/jscripts/tiny_mce/plugins/table
+copying grappelli_safe/static/grappelli/tinymce/jscripts/tiny_mce/plugins/table/cell.htm -> build/lib/grappelli_safe/static/grappelli/tinymce/jscripts/tiny_mce/plugins/table
+copying grappelli_safe/static/grappelli/tinymce/jscripts/tiny_mce/plugins/table/editor_plugin.js -> build/lib/grappelli_safe/static/grappelli/tinymce/jscripts/tiny_mce/plugins/table
+copying grappelli_safe/static/grappelli/tinymce/jscripts/tiny_mce/plugins/table/editor_plugin_src.js -> build/lib/grappelli_safe/static/grappelli/tinymce/jscripts/tiny_mce/plugins/table
+copying grappelli_safe/static/grappelli/tinymce/jscripts/tiny_mce/plugins/table/merge_cells.htm -> build/lib/grappelli_safe/static/grappelli/tinymce/jscripts/tiny_mce/plugins/table
+copying grappelli_safe/static/grappelli/tinymce/jscripts/tiny_mce/plugins/table/row.htm -> build/lib/grappelli_safe/static/grappelli/tinymce/jscripts/tiny_mce/plugins/table
+copying grappelli_safe/static/grappelli/tinymce/jscripts/tiny_mce/plugins/table/table.htm -> build/lib/grappelli_safe/static/grappelli/tinymce/jscripts/tiny_mce/plugins/table
+creating build/lib/grappelli_safe/static/grappelli/tinymce/jscripts/tiny_mce/plugins/table/css
+copying grappelli_safe/static/grappelli/tinymce/jscripts/tiny_mce/plugins/table/css/cell.css -> build/lib/grappelli_safe/static/grappelli/tinymce/jscripts/tiny_mce/plugins/table/css
+copying grappelli_safe/static/grappelli/tinymce/jscripts/tiny_mce/plugins/table/css/row.css -> build/lib/grappelli_safe/static/grappelli/tinymce/jscripts/tiny_mce/plugins/table/css
+copying grappelli_safe/static/grappelli/tinymce/jscripts/tiny_mce/plugins/table/css/table.css -> build/lib/grappelli_safe/static/grappelli/tinymce/jscripts/tiny_mce/plugins/table/css
+creating build/lib/grappelli_safe/static/grappelli/tinymce/jscripts/tiny_mce/plugins/table/js
+copying grappelli_safe/static/grappelli/tinymce/jscripts/tiny_mce/plugins/table/js/cell.js -> build/lib/grappelli_safe/static/grappelli/tinymce/jscripts/tiny_mce/plugins/table/js
+copying grappelli_safe/static/grappelli/tinymce/jscripts/tiny_mce/plugins/table/js/merge_cells.js -> build/lib/grappelli_safe/static/grappelli/tinymce/jscripts/tiny_mce/plugins/table/js
+copying grappelli_safe/static/grappelli/tinymce/jscripts/tiny_mce/plugins/table/js/row.js -> build/lib/grappelli_safe/static/grappelli/tinymce/jscripts/tiny_mce/plugins/table/js
+copying grappelli_safe/static/grappelli/tinymce/jscripts/tiny_mce/plugins/table/js/table.js -> build/lib/grappelli_safe/static/grappelli/tinymce/jscripts/tiny_mce/plugins/table/js
+creating build/lib/grappelli_safe/static/grappelli/tinymce/jscripts/tiny_mce/plugins/table/langs
+copying grappelli_safe/static/grappelli/tinymce/jscripts/tiny_mce/plugins/table/langs/en_dlg.js -> build/lib/grappelli_safe/static/grappelli/tinymce/jscripts/tiny_mce/plugins/table/langs
+creating build/lib/grappelli_safe/static/grappelli/tinymce/jscripts/tiny_mce/plugins/template
+copying grappelli_safe/static/grappelli/tinymce/jscripts/tiny_mce/plugins/template/blank.htm -> build/lib/grappelli_safe/static/grappelli/tinymce/jscripts/tiny_mce/plugins/template
+copying grappelli_safe/static/grappelli/tinymce/jscripts/tiny_mce/plugins/template/editor_plugin.js -> build/lib/grappelli_safe/static/grappelli/tinymce/jscripts/tiny_mce/plugins/template
+copying grappelli_safe/static/grappelli/tinymce/jscripts/tiny_mce/plugins/template/editor_plugin_src.js -> build/lib/grappelli_safe/static/grappelli/tinymce/jscripts/tiny_mce/plugins/template
+copying grappelli_safe/static/grappelli/tinymce/jscripts/tiny_mce/plugins/template/template.htm -> build/lib/grappelli_safe/static/grappelli/tinymce/jscripts/tiny_mce/plugins/template
+creating build/lib/grappelli_safe/static/grappelli/tinymce/jscripts/tiny_mce/plugins/template/css
+copying grappelli_safe/static/grappelli/tinymce/jscripts/tiny_mce/plugins/template/css/template.css -> build/lib/grappelli_safe/static/grappelli/tinymce/jscripts/tiny_mce/plugins/template/css
+creating build/lib/grappelli_safe/static/grappelli/tinymce/jscripts/tiny_mce/plugins/template/js
+copying grappelli_safe/static/grappelli/tinymce/jscripts/tiny_mce/plugins/template/js/template.js -> build/lib/grappelli_safe/static/grappelli/tinymce/jscripts/tiny_mce/plugins/template/js
+creating build/lib/grappelli_safe/static/grappelli/tinymce/jscripts/tiny_mce/plugins/template/langs
+copying grappelli_safe/static/grappelli/tinymce/jscripts/tiny_mce/plugins/template/langs/en_dlg.js -> build/lib/grappelli_safe/static/grappelli/tinymce/jscripts/tiny_mce/plugins/template/langs
+creating build/lib/grappelli_safe/static/grappelli/tinymce/jscripts/tiny_mce/plugins/visualchars
+copying grappelli_safe/static/grappelli/tinymce/jscripts/tiny_mce/plugins/visualchars/editor_plugin.js -> build/lib/grappelli_safe/static/grappelli/tinymce/jscripts/tiny_mce/plugins/visualchars
+copying grappelli_safe/static/grappelli/tinymce/jscripts/tiny_mce/plugins/visualchars/editor_plugin_src.js -> build/lib/grappelli_safe/static/grappelli/tinymce/jscripts/tiny_mce/plugins/visualchars
+creating build/lib/grappelli_safe/static/grappelli/tinymce/jscripts/tiny_mce/plugins/wordcount
+copying grappelli_safe/static/grappelli/tinymce/jscripts/tiny_mce/plugins/wordcount/editor_plugin.js -> build/lib/grappelli_safe/static/grappelli/tinymce/jscripts/tiny_mce/plugins/wordcount
+copying grappelli_safe/static/grappelli/tinymce/jscripts/tiny_mce/plugins/wordcount/editor_plugin_src.js -> build/lib/grappelli_safe/static/grappelli/tinymce/jscripts/tiny_mce/plugins/wordcount
+creating build/lib/grappelli_safe/static/grappelli/tinymce/jscripts/tiny_mce/plugins/xhtmlxtras
+copying grappelli_safe/static/grappelli/tinymce/jscripts/tiny_mce/plugins/xhtmlxtras/abbr.htm -> build/lib/grappelli_safe/static/grappelli/tinymce/jscripts/tiny_mce/plugins/xhtmlxtras
+copying grappelli_safe/static/grappelli/tinymce/jscripts/tiny_mce/plugins/xhtmlxtras/acronym.htm -> build/lib/grappelli_safe/static/grappelli/tinymce/jscripts/tiny_mce/plugins/xhtmlxtras
+copying grappelli_safe/static/grappelli/tinymce/jscripts/tiny_mce/plugins/xhtmlxtras/attributes.htm -> build/lib/grappelli_safe/static/grappelli/tinymce/jscripts/tiny_mce/plugins/xhtmlxtras
+copying grappelli_safe/static/grappelli/tinymce/jscripts/tiny_mce/plugins/xhtmlxtras/cite.htm -> build/lib/grappelli_safe/static/grappelli/tinymce/jscripts/tiny_mce/plugins/xhtmlxtras
+copying grappelli_safe/static/grappelli/tinymce/jscripts/tiny_mce/plugins/xhtmlxtras/del.htm -> build/lib/grappelli_safe/static/grappelli/tinymce/jscripts/tiny_mce/plugins/xhtmlxtras
+copying grappelli_safe/static/grappelli/tinymce/jscripts/tiny_mce/plugins/xhtmlxtras/editor_plugin.js -> build/lib/grappelli_safe/static/grappelli/tinymce/jscripts/tiny_mce/plugins/xhtmlxtras
+copying grappelli_safe/static/grappelli/tinymce/jscripts/tiny_mce/plugins/xhtmlxtras/editor_plugin_src.js -> build/lib/grappelli_safe/static/grappelli/tinymce/jscripts/tiny_mce/plugins/xhtmlxtras
+copying grappelli_safe/static/grappelli/tinymce/jscripts/tiny_mce/plugins/xhtmlxtras/ins.htm -> build/lib/grappelli_safe/static/grappelli/tinymce/jscripts/tiny_mce/plugins/xhtmlxtras
+creating build/lib/grappelli_safe/static/grappelli/tinymce/jscripts/tiny_mce/plugins/xhtmlxtras/css
+copying grappelli_safe/static/grappelli/tinymce/jscripts/tiny_mce/plugins/xhtmlxtras/css/attributes.css -> build/lib/grappelli_safe/static/grappelli/tinymce/jscripts/tiny_mce/plugins/xhtmlxtras/css
+copying grappelli_safe/static/grappelli/tinymce/jscripts/tiny_mce/plugins/xhtmlxtras/css/popup.css -> build/lib/grappelli_safe/static/grappelli/tinymce/jscripts/tiny_mce/plugins/xhtmlxtras/css
+creating build/lib/grappelli_safe/static/grappelli/tinymce/jscripts/tiny_mce/plugins/xhtmlxtras/js
+copying grappelli_safe/static/grappelli/tinymce/jscripts/tiny_mce/plugins/xhtmlxtras/js/abbr.js -> build/lib/grappelli_safe/static/grappelli/tinymce/jscripts/tiny_mce/plugins/xhtmlxtras/js
+copying grappelli_safe/static/grappelli/tinymce/jscripts/tiny_mce/plugins/xhtmlxtras/js/acronym.js -> build/lib/grappelli_safe/static/grappelli/tinymce/jscripts/tiny_mce/plugins/xhtmlxtras/js
+copying grappelli_safe/static/grappelli/tinymce/jscripts/tiny_mce/plugins/xhtmlxtras/js/attributes.js -> build/lib/grappelli_safe/static/grappelli/tinymce/jscripts/tiny_mce/plugins/xhtmlxtras/js
+copying grappelli_safe/static/grappelli/tinymce/jscripts/tiny_mce/plugins/xhtmlxtras/js/cite.js -> build/lib/grappelli_safe/static/grappelli/tinymce/jscripts/tiny_mce/plugins/xhtmlxtras/js
+copying grappelli_safe/static/grappelli/tinymce/jscripts/tiny_mce/plugins/xhtmlxtras/js/del.js -> build/lib/grappelli_safe/static/grappelli/tinymce/jscripts/tiny_mce/plugins/xhtmlxtras/js
+copying grappelli_safe/static/grappelli/tinymce/jscripts/tiny_mce/plugins/xhtmlxtras/js/element_common.js -> build/lib/grappelli_safe/static/grappelli/tinymce/jscripts/tiny_mce/plugins/xhtmlxtras/js
+copying grappelli_safe/static/grappelli/tinymce/jscripts/tiny_mce/plugins/xhtmlxtras/js/ins.js -> build/lib/grappelli_safe/static/grappelli/tinymce/jscripts/tiny_mce/plugins/xhtmlxtras/js
+creating build/lib/grappelli_safe/static/grappelli/tinymce/jscripts/tiny_mce/plugins/xhtmlxtras/langs
+copying grappelli_safe/static/grappelli/tinymce/jscripts/tiny_mce/plugins/xhtmlxtras/langs/en_dlg.js -> build/lib/grappelli_safe/static/grappelli/tinymce/jscripts/tiny_mce/plugins/xhtmlxtras/langs
+creating build/lib/grappelli_safe/static/grappelli/tinymce/jscripts/tiny_mce/themes
+creating build/lib/grappelli_safe/static/grappelli/tinymce/jscripts/tiny_mce/themes/advanced
+copying grappelli_safe/static/grappelli/tinymce/jscripts/tiny_mce/themes/advanced/about.htm -> build/lib/grappelli_safe/static/grappelli/tinymce/jscripts/tiny_mce/themes/advanced
+copying grappelli_safe/static/grappelli/tinymce/jscripts/tiny_mce/themes/advanced/anchor.htm -> build/lib/grappelli_safe/static/grappelli/tinymce/jscripts/tiny_mce/themes/advanced
+copying grappelli_safe/static/grappelli/tinymce/jscripts/tiny_mce/themes/advanced/charmap.htm -> build/lib/grappelli_safe/static/grappelli/tinymce/jscripts/tiny_mce/themes/advanced
+copying grappelli_safe/static/grappelli/tinymce/jscripts/tiny_mce/themes/advanced/color_picker.htm -> build/lib/grappelli_safe/static/grappelli/tinymce/jscripts/tiny_mce/themes/advanced
+copying grappelli_safe/static/grappelli/tinymce/jscripts/tiny_mce/themes/advanced/editor_template.js -> build/lib/grappelli_safe/static/grappelli/tinymce/jscripts/tiny_mce/themes/advanced
+copying grappelli_safe/static/grappelli/tinymce/jscripts/tiny_mce/themes/advanced/editor_template_src.js -> build/lib/grappelli_safe/static/grappelli/tinymce/jscripts/tiny_mce/themes/advanced
+copying grappelli_safe/static/grappelli/tinymce/jscripts/tiny_mce/themes/advanced/image.htm -> build/lib/grappelli_safe/static/grappelli/tinymce/jscripts/tiny_mce/themes/advanced
+copying grappelli_safe/static/grappelli/tinymce/jscripts/tiny_mce/themes/advanced/link.htm -> build/lib/grappelli_safe/static/grappelli/tinymce/jscripts/tiny_mce/themes/advanced
+copying grappelli_safe/static/grappelli/tinymce/jscripts/tiny_mce/themes/advanced/shortcuts.htm -> build/lib/grappelli_safe/static/grappelli/tinymce/jscripts/tiny_mce/themes/advanced
+copying grappelli_safe/static/grappelli/tinymce/jscripts/tiny_mce/themes/advanced/source_editor.htm -> build/lib/grappelli_safe/static/grappelli/tinymce/jscripts/tiny_mce/themes/advanced
+creating build/lib/grappelli_safe/static/grappelli/tinymce/jscripts/tiny_mce/themes/advanced/img
+copying grappelli_safe/static/grappelli/tinymce/jscripts/tiny_mce/themes/advanced/img/colorpicker.jpg -> build/lib/grappelli_safe/static/grappelli/tinymce/jscripts/tiny_mce/themes/advanced/img
+copying grappelli_safe/static/grappelli/tinymce/jscripts/tiny_mce/themes/advanced/img/flash.gif -> build/lib/grappelli_safe/static/grappelli/tinymce/jscripts/tiny_mce/themes/advanced/img
+copying grappelli_safe/static/grappelli/tinymce/jscripts/tiny_mce/themes/advanced/img/icons.gif -> build/lib/grappelli_safe/static/grappelli/tinymce/jscripts/tiny_mce/themes/advanced/img
+copying grappelli_safe/static/grappelli/tinymce/jscripts/tiny_mce/themes/advanced/img/iframe.gif -> build/lib/grappelli_safe/static/grappelli/tinymce/jscripts/tiny_mce/themes/advanced/img
+copying grappelli_safe/static/grappelli/tinymce/jscripts/tiny_mce/themes/advanced/img/pagebreak.gif -> build/lib/grappelli_safe/static/grappelli/tinymce/jscripts/tiny_mce/themes/advanced/img
+copying grappelli_safe/static/grappelli/tinymce/jscripts/tiny_mce/themes/advanced/img/quicktime.gif -> build/lib/grappelli_safe/static/grappelli/tinymce/jscripts/tiny_mce/themes/advanced/img
+copying grappelli_safe/static/grappelli/tinymce/jscripts/tiny_mce/themes/advanced/img/realmedia.gif -> build/lib/grappelli_safe/static/grappelli/tinymce/jscripts/tiny_mce/themes/advanced/img
+copying grappelli_safe/static/grappelli/tinymce/jscripts/tiny_mce/themes/advanced/img/shockwave.gif -> build/lib/grappelli_safe/static/grappelli/tinymce/jscripts/tiny_mce/themes/advanced/img
+copying grappelli_safe/static/grappelli/tinymce/jscripts/tiny_mce/themes/advanced/img/trans.gif -> build/lib/grappelli_safe/static/grappelli/tinymce/jscripts/tiny_mce/themes/advanced/img
+copying grappelli_safe/static/grappelli/tinymce/jscripts/tiny_mce/themes/advanced/img/video.gif -> build/lib/grappelli_safe/static/grappelli/tinymce/jscripts/tiny_mce/themes/advanced/img
+copying grappelli_safe/static/grappelli/tinymce/jscripts/tiny_mce/themes/advanced/img/windowsmedia.gif -> build/lib/grappelli_safe/static/grappelli/tinymce/jscripts/tiny_mce/themes/advanced/img
+creating build/lib/grappelli_safe/static/grappelli/tinymce/jscripts/tiny_mce/themes/advanced/js
+copying grappelli_safe/static/grappelli/tinymce/jscripts/tiny_mce/themes/advanced/js/about.js -> build/lib/grappelli_safe/static/grappelli/tinymce/jscripts/tiny_mce/themes/advanced/js
+copying grappelli_safe/static/grappelli/tinymce/jscripts/tiny_mce/themes/advanced/js/anchor.js -> build/lib/grappelli_safe/static/grappelli/tinymce/jscripts/tiny_mce/themes/advanced/js
+copying grappelli_safe/static/grappelli/tinymce/jscripts/tiny_mce/themes/advanced/js/charmap.js -> build/lib/grappelli_safe/static/grappelli/tinymce/jscripts/tiny_mce/themes/advanced/js
+copying grappelli_safe/static/grappelli/tinymce/jscripts/tiny_mce/themes/advanced/js/color_picker.js -> build/lib/grappelli_safe/static/grappelli/tinymce/jscripts/tiny_mce/themes/advanced/js
+copying grappelli_safe/static/grappelli/tinymce/jscripts/tiny_mce/themes/advanced/js/image.js -> build/lib/grappelli_safe/static/grappelli/tinymce/jscripts/tiny_mce/themes/advanced/js
+copying grappelli_safe/static/grappelli/tinymce/jscripts/tiny_mce/themes/advanced/js/link.js -> build/lib/grappelli_safe/static/grappelli/tinymce/jscripts/tiny_mce/themes/advanced/js
+copying grappelli_safe/static/grappelli/tinymce/jscripts/tiny_mce/themes/advanced/js/source_editor.js -> build/lib/grappelli_safe/static/grappelli/tinymce/jscripts/tiny_mce/themes/advanced/js
+creating build/lib/grappelli_safe/static/grappelli/tinymce/jscripts/tiny_mce/themes/advanced/langs
+copying grappelli_safe/static/grappelli/tinymce/jscripts/tiny_mce/themes/advanced/langs/en.js -> build/lib/grappelli_safe/static/grappelli/tinymce/jscripts/tiny_mce/themes/advanced/langs
+copying grappelli_safe/static/grappelli/tinymce/jscripts/tiny_mce/themes/advanced/langs/en_dlg.js -> build/lib/grappelli_safe/static/grappelli/tinymce/jscripts/tiny_mce/themes/advanced/langs
+creating build/lib/grappelli_safe/static/grappelli/tinymce/jscripts/tiny_mce/themes/advanced/skins
+creating build/lib/grappelli_safe/static/grappelli/tinymce/jscripts/tiny_mce/themes/advanced/skins/default
+copying grappelli_safe/static/grappelli/tinymce/jscripts/tiny_mce/themes/advanced/skins/default/content.css -> build/lib/grappelli_safe/static/grappelli/tinymce/jscripts/tiny_mce/themes/advanced/skins/default
+copying grappelli_safe/static/grappelli/tinymce/jscripts/tiny_mce/themes/advanced/skins/default/dialog.css -> build/lib/grappelli_safe/static/grappelli/tinymce/jscripts/tiny_mce/themes/advanced/skins/default
+copying grappelli_safe/static/grappelli/tinymce/jscripts/tiny_mce/themes/advanced/skins/default/ui.css -> build/lib/grappelli_safe/static/grappelli/tinymce/jscripts/tiny_mce/themes/advanced/skins/default
+creating build/lib/grappelli_safe/static/grappelli/tinymce/jscripts/tiny_mce/themes/advanced/skins/default/img
+copying grappelli_safe/static/grappelli/tinymce/jscripts/tiny_mce/themes/advanced/skins/default/img/buttons.png -> build/lib/grappelli_safe/static/grappelli/tinymce/jscripts/tiny_mce/themes/advanced/skins/default/img
+copying grappelli_safe/static/grappelli/tinymce/jscripts/tiny_mce/themes/advanced/skins/default/img/items.gif -> build/lib/grappelli_safe/static/grappelli/tinymce/jscripts/tiny_mce/themes/advanced/skins/default/img
+copying grappelli_safe/static/grappelli/tinymce/jscripts/tiny_mce/themes/advanced/skins/default/img/menu_arrow.gif -> build/lib/grappelli_safe/static/grappelli/tinymce/jscripts/tiny_mce/themes/advanced/skins/default/img
+copying grappelli_safe/static/grappelli/tinymce/jscripts/tiny_mce/themes/advanced/skins/default/img/menu_check.gif -> build/lib/grappelli_safe/static/grappelli/tinymce/jscripts/tiny_mce/themes/advanced/skins/default/img
+copying grappelli_safe/static/grappelli/tinymce/jscripts/tiny_mce/themes/advanced/skins/default/img/progress.gif -> build/lib/grappelli_safe/static/grappelli/tinymce/jscripts/tiny_mce/themes/advanced/skins/default/img
+copying grappelli_safe/static/grappelli/tinymce/jscripts/tiny_mce/themes/advanced/skins/default/img/tabs.gif -> build/lib/grappelli_safe/static/grappelli/tinymce/jscripts/tiny_mce/themes/advanced/skins/default/img
+creating build/lib/grappelli_safe/static/grappelli/tinymce/jscripts/tiny_mce/themes/advanced/skins/highcontrast
+copying grappelli_safe/static/grappelli/tinymce/jscripts/tiny_mce/themes/advanced/skins/highcontrast/content.css -> build/lib/grappelli_safe/static/grappelli/tinymce/jscripts/tiny_mce/themes/advanced/skins/highcontrast
+copying grappelli_safe/static/grappelli/tinymce/jscripts/tiny_mce/themes/advanced/skins/highcontrast/dialog.css -> build/lib/grappelli_safe/static/grappelli/tinymce/jscripts/tiny_mce/themes/advanced/skins/highcontrast
+copying grappelli_safe/static/grappelli/tinymce/jscripts/tiny_mce/themes/advanced/skins/highcontrast/ui.css -> build/lib/grappelli_safe/static/grappelli/tinymce/jscripts/tiny_mce/themes/advanced/skins/highcontrast
+creating build/lib/grappelli_safe/static/grappelli/tinymce/jscripts/tiny_mce/themes/advanced/skins/o2k7
+copying grappelli_safe/static/grappelli/tinymce/jscripts/tiny_mce/themes/advanced/skins/o2k7/content.css -> build/lib/grappelli_safe/static/grappelli/tinymce/jscripts/tiny_mce/themes/advanced/skins/o2k7
+copying grappelli_safe/static/grappelli/tinymce/jscripts/tiny_mce/themes/advanced/skins/o2k7/dialog.css -> build/lib/grappelli_safe/static/grappelli/tinymce/jscripts/tiny_mce/themes/advanced/skins/o2k7
+copying grappelli_safe/static/grappelli/tinymce/jscripts/tiny_mce/themes/advanced/skins/o2k7/ui.css -> build/lib/grappelli_safe/static/grappelli/tinymce/jscripts/tiny_mce/themes/advanced/skins/o2k7
+copying grappelli_safe/static/grappelli/tinymce/jscripts/tiny_mce/themes/advanced/skins/o2k7/ui_black.css -> build/lib/grappelli_safe/static/grappelli/tinymce/jscripts/tiny_mce/themes/advanced/skins/o2k7
+copying grappelli_safe/static/grappelli/tinymce/jscripts/tiny_mce/themes/advanced/skins/o2k7/ui_silver.css -> build/lib/grappelli_safe/static/grappelli/tinymce/jscripts/tiny_mce/themes/advanced/skins/o2k7
+creating build/lib/grappelli_safe/static/grappelli/tinymce/jscripts/tiny_mce/themes/advanced/skins/o2k7/img
+copying grappelli_safe/static/grappelli/tinymce/jscripts/tiny_mce/themes/advanced/skins/o2k7/img/button_bg.png -> build/lib/grappelli_safe/static/grappelli/tinymce/jscripts/tiny_mce/themes/advanced/skins/o2k7/img
+copying grappelli_safe/static/grappelli/tinymce/jscripts/tiny_mce/themes/advanced/skins/o2k7/img/button_bg_black.png -> build/lib/grappelli_safe/static/grappelli/tinymce/jscripts/tiny_mce/themes/advanced/skins/o2k7/img
+copying grappelli_safe/static/grappelli/tinymce/jscripts/tiny_mce/themes/advanced/skins/o2k7/img/button_bg_silver.png -> build/lib/grappelli_safe/static/grappelli/tinymce/jscripts/tiny_mce/themes/advanced/skins/o2k7/img
+creating build/lib/grappelli_safe/static/grappelli/tinymce/jscripts/tiny_mce/themes/advanced/skins/thebigreason
+copying grappelli_safe/static/grappelli/tinymce/jscripts/tiny_mce/themes/advanced/skins/thebigreason/content.css -> build/lib/grappelli_safe/static/grappelli/tinymce/jscripts/tiny_mce/themes/advanced/skins/thebigreason
+copying grappelli_safe/static/grappelli/tinymce/jscripts/tiny_mce/themes/advanced/skins/thebigreason/dialog.css -> build/lib/grappelli_safe/static/grappelli/tinymce/jscripts/tiny_mce/themes/advanced/skins/thebigreason
+copying grappelli_safe/static/grappelli/tinymce/jscripts/tiny_mce/themes/advanced/skins/thebigreason/ui.css -> build/lib/grappelli_safe/static/grappelli/tinymce/jscripts/tiny_mce/themes/advanced/skins/thebigreason
+creating build/lib/grappelli_safe/static/grappelli/tinymce/jscripts/tiny_mce/themes/advanced/skins/thebigreason/img
+copying grappelli_safe/static/grappelli/tinymce/jscripts/tiny_mce/themes/advanced/skins/thebigreason/img/button-bg.png -> build/lib/grappelli_safe/static/grappelli/tinymce/jscripts/tiny_mce/themes/advanced/skins/thebigreason/img
+copying grappelli_safe/static/grappelli/tinymce/jscripts/tiny_mce/themes/advanced/skins/thebigreason/img/icons.png -> build/lib/grappelli_safe/static/grappelli/tinymce/jscripts/tiny_mce/themes/advanced/skins/thebigreason/img
+copying grappelli_safe/static/grappelli/tinymce/jscripts/tiny_mce/themes/advanced/skins/thebigreason/img/items.gif -> build/lib/grappelli_safe/static/grappelli/tinymce/jscripts/tiny_mce/themes/advanced/skins/thebigreason/img
+copying grappelli_safe/static/grappelli/tinymce/jscripts/tiny_mce/themes/advanced/skins/thebigreason/img/menu-arrow.png -> build/lib/grappelli_safe/static/grappelli/tinymce/jscripts/tiny_mce/themes/advanced/skins/thebigreason/img
+copying grappelli_safe/static/grappelli/tinymce/jscripts/tiny_mce/themes/advanced/skins/thebigreason/img/menu-check.png -> build/lib/grappelli_safe/static/grappelli/tinymce/jscripts/tiny_mce/themes/advanced/skins/thebigreason/img
+copying grappelli_safe/static/grappelli/tinymce/jscripts/tiny_mce/themes/advanced/skins/thebigreason/img/progress.gif -> build/lib/grappelli_safe/static/grappelli/tinymce/jscripts/tiny_mce/themes/advanced/skins/thebigreason/img
+copying grappelli_safe/static/grappelli/tinymce/jscripts/tiny_mce/themes/advanced/skins/thebigreason/img/toolbar-bg.png -> build/lib/grappelli_safe/static/grappelli/tinymce/jscripts/tiny_mce/themes/advanced/skins/thebigreason/img
+creating build/lib/grappelli_safe/static/grappelli/tinymce/jscripts/tiny_mce/themes/simple
+copying grappelli_safe/static/grappelli/tinymce/jscripts/tiny_mce/themes/simple/editor_template.js -> build/lib/grappelli_safe/static/grappelli/tinymce/jscripts/tiny_mce/themes/simple
+copying grappelli_safe/static/grappelli/tinymce/jscripts/tiny_mce/themes/simple/editor_template_src.js -> build/lib/grappelli_safe/static/grappelli/tinymce/jscripts/tiny_mce/themes/simple
+creating build/lib/grappelli_safe/static/grappelli/tinymce/jscripts/tiny_mce/themes/simple/img
+copying grappelli_safe/static/grappelli/tinymce/jscripts/tiny_mce/themes/simple/img/icons.gif -> build/lib/grappelli_safe/static/grappelli/tinymce/jscripts/tiny_mce/themes/simple/img
+creating build/lib/grappelli_safe/static/grappelli/tinymce/jscripts/tiny_mce/themes/simple/langs
+copying grappelli_safe/static/grappelli/tinymce/jscripts/tiny_mce/themes/simple/langs/en.js -> build/lib/grappelli_safe/static/grappelli/tinymce/jscripts/tiny_mce/themes/simple/langs
+creating build/lib/grappelli_safe/static/grappelli/tinymce/jscripts/tiny_mce/themes/simple/skins
+creating build/lib/grappelli_safe/static/grappelli/tinymce/jscripts/tiny_mce/themes/simple/skins/default
+copying grappelli_safe/static/grappelli/tinymce/jscripts/tiny_mce/themes/simple/skins/default/content.css -> build/lib/grappelli_safe/static/grappelli/tinymce/jscripts/tiny_mce/themes/simple/skins/default
+copying grappelli_safe/static/grappelli/tinymce/jscripts/tiny_mce/themes/simple/skins/default/ui.css -> build/lib/grappelli_safe/static/grappelli/tinymce/jscripts/tiny_mce/themes/simple/skins/default
+creating build/lib/grappelli_safe/static/grappelli/tinymce/jscripts/tiny_mce/themes/simple/skins/o2k7
+copying grappelli_safe/static/grappelli/tinymce/jscripts/tiny_mce/themes/simple/skins/o2k7/content.css -> build/lib/grappelli_safe/static/grappelli/tinymce/jscripts/tiny_mce/themes/simple/skins/o2k7
+copying grappelli_safe/static/grappelli/tinymce/jscripts/tiny_mce/themes/simple/skins/o2k7/ui.css -> build/lib/grappelli_safe/static/grappelli/tinymce/jscripts/tiny_mce/themes/simple/skins/o2k7
+creating build/lib/grappelli_safe/static/grappelli/tinymce/jscripts/tiny_mce/themes/simple/skins/o2k7/img
+copying grappelli_safe/static/grappelli/tinymce/jscripts/tiny_mce/themes/simple/skins/o2k7/img/button_bg.png -> build/lib/grappelli_safe/static/grappelli/tinymce/jscripts/tiny_mce/themes/simple/skins/o2k7/img
+creating build/lib/grappelli_safe/static/grappelli/tinymce/jscripts/tiny_mce/utils
+copying grappelli_safe/static/grappelli/tinymce/jscripts/tiny_mce/utils/editable_selects.js -> build/lib/grappelli_safe/static/grappelli/tinymce/jscripts/tiny_mce/utils
+copying grappelli_safe/static/grappelli/tinymce/jscripts/tiny_mce/utils/form_utils.js -> build/lib/grappelli_safe/static/grappelli/tinymce/jscripts/tiny_mce/utils
+copying grappelli_safe/static/grappelli/tinymce/jscripts/tiny_mce/utils/mctabs.js -> build/lib/grappelli_safe/static/grappelli/tinymce/jscripts/tiny_mce/utils
+copying grappelli_safe/static/grappelli/tinymce/jscripts/tiny_mce/utils/validate.js -> build/lib/grappelli_safe/static/grappelli/tinymce/jscripts/tiny_mce/utils
+creating build/lib/grappelli_safe/static/grappelli/tinymce_setup
+copying grappelli_safe/static/grappelli/tinymce_setup/tinymce_setup.js -> build/lib/grappelli_safe/static/grappelli/tinymce_setup
+creating build/lib/grappelli_safe/templates
+creating build/lib/grappelli_safe/templates/admin
+copying grappelli_safe/templates/admin/404.html -> build/lib/grappelli_safe/templates/admin
+copying grappelli_safe/templates/admin/500.html -> build/lib/grappelli_safe/templates/admin
+copying grappelli_safe/templates/admin/actions.html -> build/lib/grappelli_safe/templates/admin
+copying grappelli_safe/templates/admin/app_index.html -> build/lib/grappelli_safe/templates/admin
+copying grappelli_safe/templates/admin/base.html -> build/lib/grappelli_safe/templates/admin
+copying grappelli_safe/templates/admin/base_site.html -> build/lib/grappelli_safe/templates/admin
+copying grappelli_safe/templates/admin/change_form.html -> build/lib/grappelli_safe/templates/admin
+copying grappelli_safe/templates/admin/change_list.html -> build/lib/grappelli_safe/templates/admin
+copying grappelli_safe/templates/admin/change_list_results.html -> build/lib/grappelli_safe/templates/admin
+copying grappelli_safe/templates/admin/date_hierarchy.html -> build/lib/grappelli_safe/templates/admin
+copying grappelli_safe/templates/admin/delete_confirmation.html -> build/lib/grappelli_safe/templates/admin
+copying grappelli_safe/templates/admin/delete_selected_confirmation.html -> build/lib/grappelli_safe/templates/admin
+copying grappelli_safe/templates/admin/filter.html -> build/lib/grappelli_safe/templates/admin
+copying grappelli_safe/templates/admin/index.html -> build/lib/grappelli_safe/templates/admin
+copying grappelli_safe/templates/admin/invalid_setup.html -> build/lib/grappelli_safe/templates/admin
+copying grappelli_safe/templates/admin/login.html -> build/lib/grappelli_safe/templates/admin
+copying grappelli_safe/templates/admin/object_history.html -> build/lib/grappelli_safe/templates/admin
+copying grappelli_safe/templates/admin/pagination.html -> build/lib/grappelli_safe/templates/admin
+copying grappelli_safe/templates/admin/prepopulated_fields_js.html -> build/lib/grappelli_safe/templates/admin
+copying grappelli_safe/templates/admin/search_form.html -> build/lib/grappelli_safe/templates/admin
+copying grappelli_safe/templates/admin/submit_line.html -> build/lib/grappelli_safe/templates/admin
+copying grappelli_safe/templates/admin/template_validator.html -> build/lib/grappelli_safe/templates/admin
+creating build/lib/grappelli_safe/templates/admin/auth
+creating build/lib/grappelli_safe/templates/admin/auth/user
+copying grappelli_safe/templates/admin/auth/user/add_form.html -> build/lib/grappelli_safe/templates/admin/auth/user
+copying grappelli_safe/templates/admin/auth/user/change_password.html -> build/lib/grappelli_safe/templates/admin/auth/user
+creating build/lib/grappelli_safe/templates/admin/edit_inline
+copying grappelli_safe/templates/admin/edit_inline/stacked.html -> build/lib/grappelli_safe/templates/admin/edit_inline
+copying grappelli_safe/templates/admin/edit_inline/tabular.html -> build/lib/grappelli_safe/templates/admin/edit_inline
+creating build/lib/grappelli_safe/templates/admin/includes
+copying grappelli_safe/templates/admin/includes/fieldset.html -> build/lib/grappelli_safe/templates/admin/includes
+copying grappelli_safe/templates/admin/includes/fieldset_inline.html -> build/lib/grappelli_safe/templates/admin/includes
+creating build/lib/grappelli_safe/templates/admin/includes_grappelli
+copying grappelli_safe/templates/admin/includes_grappelli/header.html -> build/lib/grappelli_safe/templates/admin/includes_grappelli
+copying grappelli_safe/templates/admin/includes_grappelli/help.html -> build/lib/grappelli_safe/templates/admin/includes_grappelli
+copying grappelli_safe/templates/admin/includes_grappelli/messages.html -> build/lib/grappelli_safe/templates/admin/includes_grappelli
+copying grappelli_safe/templates/admin/includes_grappelli/navigation.html -> build/lib/grappelli_safe/templates/admin/includes_grappelli
+creating build/lib/grappelli_safe/templates/registration
+copying grappelli_safe/templates/registration/logged_out.html -> build/lib/grappelli_safe/templates/registration
+copying grappelli_safe/templates/registration/password_change_done.html -> build/lib/grappelli_safe/templates/registration
+copying grappelli_safe/templates/registration/password_change_form.html -> build/lib/grappelli_safe/templates/registration
+copying grappelli_safe/templates/registration/password_reset_complete.html -> build/lib/grappelli_safe/templates/registration
+copying grappelli_safe/templates/registration/password_reset_confirm.html -> build/lib/grappelli_safe/templates/registration
+copying grappelli_safe/templates/registration/password_reset_done.html -> build/lib/grappelli_safe/templates/registration
+copying grappelli_safe/templates/registration/password_reset_email.html -> build/lib/grappelli_safe/templates/registration
+copying grappelli_safe/templates/registration/password_reset_form.html -> build/lib/grappelli_safe/templates/registration
+creating build/bdist.linux-x86_64
+creating build/bdist.linux-x86_64/egg
+creating build/bdist.linux-x86_64/egg/grappelli_safe
+creating build/bdist.linux-x86_64/egg/grappelli_safe/templates
+creating build/bdist.linux-x86_64/egg/grappelli_safe/templates/admin
+copying build/lib/grappelli_safe/templates/admin/index.html -> build/bdist.linux-x86_64/egg/grappelli_safe/templates/admin
+copying build/lib/grappelli_safe/templates/admin/app_index.html -> build/bdist.linux-x86_64/egg/grappelli_safe/templates/admin
+copying build/lib/grappelli_safe/templates/admin/change_list.html -> build/bdist.linux-x86_64/egg/grappelli_safe/templates/admin
+copying build/lib/grappelli_safe/templates/admin/login.html -> build/bdist.linux-x86_64/egg/grappelli_safe/templates/admin
+copying build/lib/grappelli_safe/templates/admin/object_history.html -> build/bdist.linux-x86_64/egg/grappelli_safe/templates/admin
+copying build/lib/grappelli_safe/templates/admin/500.html -> build/bdist.linux-x86_64/egg/grappelli_safe/templates/admin
+creating build/bdist.linux-x86_64/egg/grappelli_safe/templates/admin/edit_inline
+copying build/lib/grappelli_safe/templates/admin/edit_inline/tabular.html -> build/bdist.linux-x86_64/egg/grappelli_safe/templates/admin/edit_inline
+copying build/lib/grappelli_safe/templates/admin/edit_inline/stacked.html -> build/bdist.linux-x86_64/egg/grappelli_safe/templates/admin/edit_inline
+copying build/lib/grappelli_safe/templates/admin/search_form.html -> build/bdist.linux-x86_64/egg/grappelli_safe/templates/admin
+copying build/lib/grappelli_safe/templates/admin/404.html -> build/bdist.linux-x86_64/egg/grappelli_safe/templates/admin
+creating build/bdist.linux-x86_64/egg/grappelli_safe/templates/admin/includes_grappelli
+copying build/lib/grappelli_safe/templates/admin/includes_grappelli/help.html -> build/bdist.linux-x86_64/egg/grappelli_safe/templates/admin/includes_grappelli
+copying build/lib/grappelli_safe/templates/admin/includes_grappelli/header.html -> build/bdist.linux-x86_64/egg/grappelli_safe/templates/admin/includes_grappelli
+copying build/lib/grappelli_safe/templates/admin/includes_grappelli/navigation.html -> build/bdist.linux-x86_64/egg/grappelli_safe/templates/admin/includes_grappelli
+copying build/lib/grappelli_safe/templates/admin/includes_grappelli/messages.html -> build/bdist.linux-x86_64/egg/grappelli_safe/templates/admin/includes_grappelli
+copying build/lib/grappelli_safe/templates/admin/invalid_setup.html -> build/bdist.linux-x86_64/egg/grappelli_safe/templates/admin
+copying build/lib/grappelli_safe/templates/admin/template_validator.html -> build/bdist.linux-x86_64/egg/grappelli_safe/templates/admin
+copying build/lib/grappelli_safe/templates/admin/submit_line.html -> build/bdist.linux-x86_64/egg/grappelli_safe/templates/admin
+copying build/lib/grappelli_safe/templates/admin/delete_confirmation.html -> build/bdist.linux-x86_64/egg/grappelli_safe/templates/admin
+copying build/lib/grappelli_safe/templates/admin/pagination.html -> build/bdist.linux-x86_64/egg/grappelli_safe/templates/admin
+copying build/lib/grappelli_safe/templates/admin/base_site.html -> build/bdist.linux-x86_64/egg/grappelli_safe/templates/admin
+copying build/lib/grappelli_safe/templates/admin/actions.html -> build/bdist.linux-x86_64/egg/grappelli_safe/templates/admin
+creating build/bdist.linux-x86_64/egg/grappelli_safe/templates/admin/auth
+creating build/bdist.linux-x86_64/egg/grappelli_safe/templates/admin/auth/user
+copying build/lib/grappelli_safe/templates/admin/auth/user/add_form.html -> build/bdist.linux-x86_64/egg/grappelli_safe/templates/admin/auth/user
+copying build/lib/grappelli_safe/templates/admin/auth/user/change_password.html -> build/bdist.linux-x86_64/egg/grappelli_safe/templates/admin/auth/user
+copying build/lib/grappelli_safe/templates/admin/prepopulated_fields_js.html -> build/bdist.linux-x86_64/egg/grappelli_safe/templates/admin
+copying build/lib/grappelli_safe/templates/admin/change_form.html -> build/bdist.linux-x86_64/egg/grappelli_safe/templates/admin
+copying build/lib/grappelli_safe/templates/admin/base.html -> build/bdist.linux-x86_64/egg/grappelli_safe/templates/admin
+copying build/lib/grappelli_safe/templates/admin/change_list_results.html -> build/bdist.linux-x86_64/egg/grappelli_safe/templates/admin
+copying build/lib/grappelli_safe/templates/admin/filter.html -> build/bdist.linux-x86_64/egg/grappelli_safe/templates/admin
+creating build/bdist.linux-x86_64/egg/grappelli_safe/templates/admin/includes
+copying build/lib/grappelli_safe/templates/admin/includes/fieldset.html -> build/bdist.linux-x86_64/egg/grappelli_safe/templates/admin/includes
+copying build/lib/grappelli_safe/templates/admin/includes/fieldset_inline.html -> build/bdist.linux-x86_64/egg/grappelli_safe/templates/admin/includes
+copying build/lib/grappelli_safe/templates/admin/delete_selected_confirmation.html -> build/bdist.linux-x86_64/egg/grappelli_safe/templates/admin
+copying build/lib/grappelli_safe/templates/admin/date_hierarchy.html -> build/bdist.linux-x86_64/egg/grappelli_safe/templates/admin
+creating build/bdist.linux-x86_64/egg/grappelli_safe/templates/registration
+copying build/lib/grappelli_safe/templates/registration/password_change_form.html -> build/bdist.linux-x86_64/egg/grappelli_safe/templates/registration
+copying build/lib/grappelli_safe/templates/registration/password_reset_form.html -> build/bdist.linux-x86_64/egg/grappelli_safe/templates/registration
+copying build/lib/grappelli_safe/templates/registration/password_reset_done.html -> build/bdist.linux-x86_64/egg/grappelli_safe/templates/registration
+copying build/lib/grappelli_safe/templates/registration/password_change_done.html -> build/bdist.linux-x86_64/egg/grappelli_safe/templates/registration
+copying build/lib/grappelli_safe/templates/registration/password_reset_email.html -> build/bdist.linux-x86_64/egg/grappelli_safe/templates/registration
+copying build/lib/grappelli_safe/templates/registration/password_reset_confirm.html -> build/bdist.linux-x86_64/egg/grappelli_safe/templates/registration
+copying build/lib/grappelli_safe/templates/registration/password_reset_complete.html -> build/bdist.linux-x86_64/egg/grappelli_safe/templates/registration
+copying build/lib/grappelli_safe/templates/registration/logged_out.html -> build/bdist.linux-x86_64/egg/grappelli_safe/templates/registration
+creating build/bdist.linux-x86_64/egg/grappelli_safe/static
+creating build/bdist.linux-x86_64/egg/grappelli_safe/static/grappelli
+creating build/bdist.linux-x86_64/egg/grappelli_safe/static/grappelli/tinymce
+copying build/lib/grappelli_safe/static/grappelli/tinymce/changelog.txt -> build/bdist.linux-x86_64/egg/grappelli_safe/static/grappelli/tinymce
+creating build/bdist.linux-x86_64/egg/grappelli_safe/static/grappelli/tinymce/jscripts
+creating build/bdist.linux-x86_64/egg/grappelli_safe/static/grappelli/tinymce/jscripts/tiny_mce
+copying build/lib/grappelli_safe/static/grappelli/tinymce/jscripts/tiny_mce/license.txt -> build/bdist.linux-x86_64/egg/grappelli_safe/static/grappelli/tinymce/jscripts/tiny_mce
+creating build/bdist.linux-x86_64/egg/grappelli_safe/static/grappelli/tinymce/jscripts/tiny_mce/utils
+copying build/lib/grappelli_safe/static/grappelli/tinymce/jscripts/tiny_mce/utils/form_utils.js -> build/bdist.linux-x86_64/egg/grappelli_safe/static/grappelli/tinymce/jscripts/tiny_mce/utils
+copying build/lib/grappelli_safe/static/grappelli/tinymce/jscripts/tiny_mce/utils/mctabs.js -> build/bdist.linux-x86_64/egg/grappelli_safe/static/grappelli/tinymce/jscripts/tiny_mce/utils
+copying build/lib/grappelli_safe/static/grappelli/tinymce/jscripts/tiny_mce/utils/editable_selects.js -> build/bdist.linux-x86_64/egg/grappelli_safe/static/grappelli/tinymce/jscripts/tiny_mce/utils
+copying build/lib/grappelli_safe/static/grappelli/tinymce/jscripts/tiny_mce/utils/validate.js -> build/bdist.linux-x86_64/egg/grappelli_safe/static/grappelli/tinymce/jscripts/tiny_mce/utils
+copying build/lib/grappelli_safe/static/grappelli/tinymce/jscripts/tiny_mce/tiny_mce_src.js -> build/bdist.linux-x86_64/egg/grappelli_safe/static/grappelli/tinymce/jscripts/tiny_mce
+creating build/bdist.linux-x86_64/egg/grappelli_safe/static/grappelli/tinymce/jscripts/tiny_mce/themes
+creating build/bdist.linux-x86_64/egg/grappelli_safe/static/grappelli/tinymce/jscripts/tiny_mce/themes/simple
+creating build/bdist.linux-x86_64/egg/grappelli_safe/static/grappelli/tinymce/jscripts/tiny_mce/themes/simple/img
+copying build/lib/grappelli_safe/static/grappelli/tinymce/jscripts/tiny_mce/themes/simple/img/icons.gif -> build/bdist.linux-x86_64/egg/grappelli_safe/static/grappelli/tinymce/jscripts/tiny_mce/themes/simple/img
+creating build/bdist.linux-x86_64/egg/grappelli_safe/static/grappelli/tinymce/jscripts/tiny_mce/themes/simple/skins
+creating build/bdist.linux-x86_64/egg/grappelli_safe/static/grappelli/tinymce/jscripts/tiny_mce/themes/simple/skins/default
+copying build/lib/grappelli_safe/static/grappelli/tinymce/jscripts/tiny_mce/themes/simple/skins/default/ui.css -> build/bdist.linux-x86_64/egg/grappelli_safe/static/grappelli/tinymce/jscripts/tiny_mce/themes/simple/skins/default
+copying build/lib/grappelli_safe/static/grappelli/tinymce/jscripts/tiny_mce/themes/simple/skins/default/content.css -> build/bdist.linux-x86_64/egg/grappelli_safe/static/grappelli/tinymce/jscripts/tiny_mce/themes/simple/skins/default
+creating build/bdist.linux-x86_64/egg/grappelli_safe/static/grappelli/tinymce/jscripts/tiny_mce/themes/simple/skins/o2k7
+creating build/bdist.linux-x86_64/egg/grappelli_safe/static/grappelli/tinymce/jscripts/tiny_mce/themes/simple/skins/o2k7/img
+copying build/lib/grappelli_safe/static/grappelli/tinymce/jscripts/tiny_mce/themes/simple/skins/o2k7/img/button_bg.png -> build/bdist.linux-x86_64/egg/grappelli_safe/static/grappelli/tinymce/jscripts/tiny_mce/themes/simple/skins/o2k7/img
+copying build/lib/grappelli_safe/static/grappelli/tinymce/jscripts/tiny_mce/themes/simple/skins/o2k7/ui.css -> build/bdist.linux-x86_64/egg/grappelli_safe/static/grappelli/tinymce/jscripts/tiny_mce/themes/simple/skins/o2k7
+copying build/lib/grappelli_safe/static/grappelli/tinymce/jscripts/tiny_mce/themes/simple/skins/o2k7/content.css -> build/bdist.linux-x86_64/egg/grappelli_safe/static/grappelli/tinymce/jscripts/tiny_mce/themes/simple/skins/o2k7
+copying build/lib/grappelli_safe/static/grappelli/tinymce/jscripts/tiny_mce/themes/simple/editor_template_src.js -> build/bdist.linux-x86_64/egg/grappelli_safe/static/grappelli/tinymce/jscripts/tiny_mce/themes/simple
+copying build/lib/grappelli_safe/static/grappelli/tinymce/jscripts/tiny_mce/themes/simple/editor_template.js -> build/bdist.linux-x86_64/egg/grappelli_safe/static/grappelli/tinymce/jscripts/tiny_mce/themes/simple
+creating build/bdist.linux-x86_64/egg/grappelli_safe/static/grappelli/tinymce/jscripts/tiny_mce/themes/simple/langs
+copying build/lib/grappelli_safe/static/grappelli/tinymce/jscripts/tiny_mce/themes/simple/langs/en.js -> build/bdist.linux-x86_64/egg/grappelli_safe/static/grappelli/tinymce/jscripts/tiny_mce/themes/simple/langs
+creating build/bdist.linux-x86_64/egg/grappelli_safe/static/grappelli/tinymce/jscripts/tiny_mce/themes/advanced
+copying build/lib/grappelli_safe/static/grappelli/tinymce/jscripts/tiny_mce/themes/advanced/source_editor.htm -> build/bdist.linux-x86_64/egg/grappelli_safe/static/grappelli/tinymce/jscripts/tiny_mce/themes/advanced
+creating build/bdist.linux-x86_64/egg/grappelli_safe/static/grappelli/tinymce/jscripts/tiny_mce/themes/advanced/img
+copying build/lib/grappelli_safe/static/grappelli/tinymce/jscripts/tiny_mce/themes/advanced/img/quicktime.gif -> build/bdist.linux-x86_64/egg/grappelli_safe/static/grappelli/tinymce/jscripts/tiny_mce/themes/advanced/img
+copying build/lib/grappelli_safe/static/grappelli/tinymce/jscripts/tiny_mce/themes/advanced/img/colorpicker.jpg -> build/bdist.linux-x86_64/egg/grappelli_safe/static/grappelli/tinymce/jscripts/tiny_mce/themes/advanced/img
+copying build/lib/grappelli_safe/static/grappelli/tinymce/jscripts/tiny_mce/themes/advanced/img/trans.gif -> build/bdist.linux-x86_64/egg/grappelli_safe/static/grappelli/tinymce/jscripts/tiny_mce/themes/advanced/img
+copying build/lib/grappelli_safe/static/grappelli/tinymce/jscripts/tiny_mce/themes/advanced/img/shockwave.gif -> build/bdist.linux-x86_64/egg/grappelli_safe/static/grappelli/tinymce/jscripts/tiny_mce/themes/advanced/img
+copying build/lib/grappelli_safe/static/grappelli/tinymce/jscripts/tiny_mce/themes/advanced/img/windowsmedia.gif -> build/bdist.linux-x86_64/egg/grappelli_safe/static/grappelli/tinymce/jscripts/tiny_mce/themes/advanced/img
+copying build/lib/grappelli_safe/static/grappelli/tinymce/jscripts/tiny_mce/themes/advanced/img/pagebreak.gif -> build/bdist.linux-x86_64/egg/grappelli_safe/static/grappelli/tinymce/jscripts/tiny_mce/themes/advanced/img
+copying build/lib/grappelli_safe/static/grappelli/tinymce/jscripts/tiny_mce/themes/advanced/img/flash.gif -> build/bdist.linux-x86_64/egg/grappelli_safe/static/grappelli/tinymce/jscripts/tiny_mce/themes/advanced/img
+copying build/lib/grappelli_safe/static/grappelli/tinymce/jscripts/tiny_mce/themes/advanced/img/realmedia.gif -> build/bdist.linux-x86_64/egg/grappelli_safe/static/grappelli/tinymce/jscripts/tiny_mce/themes/advanced/img
+copying build/lib/grappelli_safe/static/grappelli/tinymce/jscripts/tiny_mce/themes/advanced/img/video.gif -> build/bdist.linux-x86_64/egg/grappelli_safe/static/grappelli/tinymce/jscripts/tiny_mce/themes/advanced/img
+copying build/lib/grappelli_safe/static/grappelli/tinymce/jscripts/tiny_mce/themes/advanced/img/icons.gif -> build/bdist.linux-x86_64/egg/grappelli_safe/static/grappelli/tinymce/jscripts/tiny_mce/themes/advanced/img
+copying build/lib/grappelli_safe/static/grappelli/tinymce/jscripts/tiny_mce/themes/advanced/img/iframe.gif -> build/bdist.linux-x86_64/egg/grappelli_safe/static/grappelli/tinymce/jscripts/tiny_mce/themes/advanced/img
+creating build/bdist.linux-x86_64/egg/grappelli_safe/static/grappelli/tinymce/jscripts/tiny_mce/themes/advanced/skins
+creating build/bdist.linux-x86_64/egg/grappelli_safe/static/grappelli/tinymce/jscripts/tiny_mce/themes/advanced/skins/default
+creating build/bdist.linux-x86_64/egg/grappelli_safe/static/grappelli/tinymce/jscripts/tiny_mce/themes/advanced/skins/default/img
+copying build/lib/grappelli_safe/static/grappelli/tinymce/jscripts/tiny_mce/themes/advanced/skins/default/img/buttons.png -> build/bdist.linux-x86_64/egg/grappelli_safe/static/grappelli/tinymce/jscripts/tiny_mce/themes/advanced/skins/default/img
+copying build/lib/grappelli_safe/static/grappelli/tinymce/jscripts/tiny_mce/themes/advanced/skins/default/img/menu_arrow.gif -> build/bdist.linux-x86_64/egg/grappelli_safe/static/grappelli/tinymce/jscripts/tiny_mce/themes/advanced/skins/default/img
+copying build/lib/grappelli_safe/static/grappelli/tinymce/jscripts/tiny_mce/themes/advanced/skins/default/img/progress.gif -> build/bdist.linux-x86_64/egg/grappelli_safe/static/grappelli/tinymce/jscripts/tiny_mce/themes/advanced/skins/default/img
+copying build/lib/grappelli_safe/static/grappelli/tinymce/jscripts/tiny_mce/themes/advanced/skins/default/img/tabs.gif -> build/bdist.linux-x86_64/egg/grappelli_safe/static/grappelli/tinymce/jscripts/tiny_mce/themes/advanced/skins/default/img
+copying build/lib/grappelli_safe/static/grappelli/tinymce/jscripts/tiny_mce/themes/advanced/skins/default/img/menu_check.gif -> build/bdist.linux-x86_64/egg/grappelli_safe/static/grappelli/tinymce/jscripts/tiny_mce/themes/advanced/skins/default/img
+copying build/lib/grappelli_safe/static/grappelli/tinymce/jscripts/tiny_mce/themes/advanced/skins/default/img/items.gif -> build/bdist.linux-x86_64/egg/grappelli_safe/static/grappelli/tinymce/jscripts/tiny_mce/themes/advanced/skins/default/img
+copying build/lib/grappelli_safe/static/grappelli/tinymce/jscripts/tiny_mce/themes/advanced/skins/default/dialog.css -> build/bdist.linux-x86_64/egg/grappelli_safe/static/grappelli/tinymce/jscripts/tiny_mce/themes/advanced/skins/default
+copying build/lib/grappelli_safe/static/grappelli/tinymce/jscripts/tiny_mce/themes/advanced/skins/default/ui.css -> build/bdist.linux-x86_64/egg/grappelli_safe/static/grappelli/tinymce/jscripts/tiny_mce/themes/advanced/skins/default
+copying build/lib/grappelli_safe/static/grappelli/tinymce/jscripts/tiny_mce/themes/advanced/skins/default/content.css -> build/bdist.linux-x86_64/egg/grappelli_safe/static/grappelli/tinymce/jscripts/tiny_mce/themes/advanced/skins/default
+creating build/bdist.linux-x86_64/egg/grappelli_safe/static/grappelli/tinymce/jscripts/tiny_mce/themes/advanced/skins/highcontrast
+copying build/lib/grappelli_safe/static/grappelli/tinymce/jscripts/tiny_mce/themes/advanced/skins/highcontrast/dialog.css -> build/bdist.linux-x86_64/egg/grappelli_safe/static/grappelli/tinymce/jscripts/tiny_mce/themes/advanced/skins/highcontrast
+copying build/lib/grappelli_safe/static/grappelli/tinymce/jscripts/tiny_mce/themes/advanced/skins/highcontrast/ui.css -> build/bdist.linux-x86_64/egg/grappelli_safe/static/grappelli/tinymce/jscripts/tiny_mce/themes/advanced/skins/highcontrast
+copying build/lib/grappelli_safe/static/grappelli/tinymce/jscripts/tiny_mce/themes/advanced/skins/highcontrast/content.css -> build/bdist.linux-x86_64/egg/grappelli_safe/static/grappelli/tinymce/jscripts/tiny_mce/themes/advanced/skins/highcontrast
+creating build/bdist.linux-x86_64/egg/grappelli_safe/static/grappelli/tinymce/jscripts/tiny_mce/themes/advanced/skins/thebigreason
+creating build/bdist.linux-x86_64/egg/grappelli_safe/static/grappelli/tinymce/jscripts/tiny_mce/themes/advanced/skins/thebigreason/img
+copying build/lib/grappelli_safe/static/grappelli/tinymce/jscripts/tiny_mce/themes/advanced/skins/thebigreason/img/icons.png -> build/bdist.linux-x86_64/egg/grappelli_safe/static/grappelli/tinymce/jscripts/tiny_mce/themes/advanced/skins/thebigreason/img
+copying build/lib/grappelli_safe/static/grappelli/tinymce/jscripts/tiny_mce/themes/advanced/skins/thebigreason/img/toolbar-bg.png -> build/bdist.linux-x86_64/egg/grappelli_safe/static/grappelli/tinymce/jscripts/tiny_mce/themes/advanced/skins/thebigreason/img
+copying build/lib/grappelli_safe/static/grappelli/tinymce/jscripts/tiny_mce/themes/advanced/skins/thebigreason/img/button-bg.png -> build/bdist.linux-x86_64/egg/grappelli_safe/static/grappelli/tinymce/jscripts/tiny_mce/themes/advanced/skins/thebigreason/img
+copying build/lib/grappelli_safe/static/grappelli/tinymce/jscripts/tiny_mce/themes/advanced/skins/thebigreason/img/menu-check.png -> build/bdist.linux-x86_64/egg/grappelli_safe/static/grappelli/tinymce/jscripts/tiny_mce/themes/advanced/skins/thebigreason/img
+copying build/lib/grappelli_safe/static/grappelli/tinymce/jscripts/tiny_mce/themes/advanced/skins/thebigreason/img/menu-arrow.png -> build/bdist.linux-x86_64/egg/grappelli_safe/static/grappelli/tinymce/jscripts/tiny_mce/themes/advanced/skins/thebigreason/img
+copying build/lib/grappelli_safe/static/grappelli/tinymce/jscripts/tiny_mce/themes/advanced/skins/thebigreason/img/progress.gif -> build/bdist.linux-x86_64/egg/grappelli_safe/static/grappelli/tinymce/jscripts/tiny_mce/themes/advanced/skins/thebigreason/img
+copying build/lib/grappelli_safe/static/grappelli/tinymce/jscripts/tiny_mce/themes/advanced/skins/thebigreason/img/items.gif -> build/bdist.linux-x86_64/egg/grappelli_safe/static/grappelli/tinymce/jscripts/tiny_mce/themes/advanced/skins/thebigreason/img
+copying build/lib/grappelli_safe/static/grappelli/tinymce/jscripts/tiny_mce/themes/advanced/skins/thebigreason/dialog.css -> build/bdist.linux-x86_64/egg/grappelli_safe/static/grappelli/tinymce/jscripts/tiny_mce/themes/advanced/skins/thebigreason
+copying build/lib/grappelli_safe/static/grappelli/tinymce/jscripts/tiny_mce/themes/advanced/skins/thebigreason/ui.css -> build/bdist.linux-x86_64/egg/grappelli_safe/static/grappelli/tinymce/jscripts/tiny_mce/themes/advanced/skins/thebigreason
+copying build/lib/grappelli_safe/static/grappelli/tinymce/jscripts/tiny_mce/themes/advanced/skins/thebigreason/content.css -> build/bdist.linux-x86_64/egg/grappelli_safe/static/grappelli/tinymce/jscripts/tiny_mce/themes/advanced/skins/thebigreason
+creating build/bdist.linux-x86_64/egg/grappelli_safe/static/grappelli/tinymce/jscripts/tiny_mce/themes/advanced/skins/o2k7
+creating build/bdist.linux-x86_64/egg/grappelli_safe/static/grappelli/tinymce/jscripts/tiny_mce/themes/advanced/skins/o2k7/img
+copying build/lib/grappelli_safe/static/grappelli/tinymce/jscripts/tiny_mce/themes/advanced/skins/o2k7/img/button_bg.png -> build/bdist.linux-x86_64/egg/grappelli_safe/static/grappelli/tinymce/jscripts/tiny_mce/themes/advanced/skins/o2k7/img
+copying build/lib/grappelli_safe/static/grappelli/tinymce/jscripts/tiny_mce/themes/advanced/skins/o2k7/img/button_bg_silver.png -> build/bdist.linux-x86_64/egg/grappelli_safe/static/grappelli/tinymce/jscripts/tiny_mce/themes/advanced/skins/o2k7/img
+copying build/lib/grappelli_safe/static/grappelli/tinymce/jscripts/tiny_mce/themes/advanced/skins/o2k7/img/button_bg_black.png -> build/bdist.linux-x86_64/egg/grappelli_safe/static/grappelli/tinymce/jscripts/tiny_mce/themes/advanced/skins/o2k7/img
+copying build/lib/grappelli_safe/static/grappelli/tinymce/jscripts/tiny_mce/themes/advanced/skins/o2k7/dialog.css -> build/bdist.linux-x86_64/egg/grappelli_safe/static/grappelli/tinymce/jscripts/tiny_mce/themes/advanced/skins/o2k7
+copying build/lib/grappelli_safe/static/grappelli/tinymce/jscripts/tiny_mce/themes/advanced/skins/o2k7/ui_silver.css -> build/bdist.linux-x86_64/egg/grappelli_safe/static/grappelli/tinymce/jscripts/tiny_mce/themes/advanced/skins/o2k7
+copying build/lib/grappelli_safe/static/grappelli/tinymce/jscripts/tiny_mce/themes/advanced/skins/o2k7/ui.css -> build/bdist.linux-x86_64/egg/grappelli_safe/static/grappelli/tinymce/jscripts/tiny_mce/themes/advanced/skins/o2k7
+copying build/lib/grappelli_safe/static/grappelli/tinymce/jscripts/tiny_mce/themes/advanced/skins/o2k7/ui_black.css -> build/bdist.linux-x86_64/egg/grappelli_safe/static/grappelli/tinymce/jscripts/tiny_mce/themes/advanced/skins/o2k7
+copying build/lib/grappelli_safe/static/grappelli/tinymce/jscripts/tiny_mce/themes/advanced/skins/o2k7/content.css -> build/bdist.linux-x86_64/egg/grappelli_safe/static/grappelli/tinymce/jscripts/tiny_mce/themes/advanced/skins/o2k7
+copying build/lib/grappelli_safe/static/grappelli/tinymce/jscripts/tiny_mce/themes/advanced/color_picker.htm -> build/bdist.linux-x86_64/egg/grappelli_safe/static/grappelli/tinymce/jscripts/tiny_mce/themes/advanced
+copying build/lib/grappelli_safe/static/grappelli/tinymce/jscripts/tiny_mce/themes/advanced/charmap.htm -> build/bdist.linux-x86_64/egg/grappelli_safe/static/grappelli/tinymce/jscripts/tiny_mce/themes/advanced
+copying build/lib/grappelli_safe/static/grappelli/tinymce/jscripts/tiny_mce/themes/advanced/shortcuts.htm -> build/bdist.linux-x86_64/egg/grappelli_safe/static/grappelli/tinymce/jscripts/tiny_mce/themes/advanced
+copying build/lib/grappelli_safe/static/grappelli/tinymce/jscripts/tiny_mce/themes/advanced/image.htm -> build/bdist.linux-x86_64/egg/grappelli_safe/static/grappelli/tinymce/jscripts/tiny_mce/themes/advanced
+creating build/bdist.linux-x86_64/egg/grappelli_safe/static/grappelli/tinymce/jscripts/tiny_mce/themes/advanced/js
+copying build/lib/grappelli_safe/static/grappelli/tinymce/jscripts/tiny_mce/themes/advanced/js/link.js -> build/bdist.linux-x86_64/egg/grappelli_safe/static/grappelli/tinymce/jscripts/tiny_mce/themes/advanced/js
+copying build/lib/grappelli_safe/static/grappelli/tinymce/jscripts/tiny_mce/themes/advanced/js/anchor.js -> build/bdist.linux-x86_64/egg/grappelli_safe/static/grappelli/tinymce/jscripts/tiny_mce/themes/advanced/js
+copying build/lib/grappelli_safe/static/grappelli/tinymce/jscripts/tiny_mce/themes/advanced/js/about.js -> build/bdist.linux-x86_64/egg/grappelli_safe/static/grappelli/tinymce/jscripts/tiny_mce/themes/advanced/js
+copying build/lib/grappelli_safe/static/grappelli/tinymce/jscripts/tiny_mce/themes/advanced/js/color_picker.js -> build/bdist.linux-x86_64/egg/grappelli_safe/static/grappelli/tinymce/jscripts/tiny_mce/themes/advanced/js
+copying build/lib/grappelli_safe/static/grappelli/tinymce/jscripts/tiny_mce/themes/advanced/js/image.js -> build/bdist.linux-x86_64/egg/grappelli_safe/static/grappelli/tinymce/jscripts/tiny_mce/themes/advanced/js
+copying build/lib/grappelli_safe/static/grappelli/tinymce/jscripts/tiny_mce/themes/advanced/js/charmap.js -> build/bdist.linux-x86_64/egg/grappelli_safe/static/grappelli/tinymce/jscripts/tiny_mce/themes/advanced/js
+copying build/lib/grappelli_safe/static/grappelli/tinymce/jscripts/tiny_mce/themes/advanced/js/source_editor.js -> build/bdist.linux-x86_64/egg/grappelli_safe/static/grappelli/tinymce/jscripts/tiny_mce/themes/advanced/js
+copying build/lib/grappelli_safe/static/grappelli/tinymce/jscripts/tiny_mce/themes/advanced/link.htm -> build/bdist.linux-x86_64/egg/grappelli_safe/static/grappelli/tinymce/jscripts/tiny_mce/themes/advanced
+copying build/lib/grappelli_safe/static/grappelli/tinymce/jscripts/tiny_mce/themes/advanced/editor_template_src.js -> build/bdist.linux-x86_64/egg/grappelli_safe/static/grappelli/tinymce/jscripts/tiny_mce/themes/advanced
+copying build/lib/grappelli_safe/static/grappelli/tinymce/jscripts/tiny_mce/themes/advanced/about.htm -> build/bdist.linux-x86_64/egg/grappelli_safe/static/grappelli/tinymce/jscripts/tiny_mce/themes/advanced
+copying build/lib/grappelli_safe/static/grappelli/tinymce/jscripts/tiny_mce/themes/advanced/editor_template.js -> build/bdist.linux-x86_64/egg/grappelli_safe/static/grappelli/tinymce/jscripts/tiny_mce/themes/advanced
+copying build/lib/grappelli_safe/static/grappelli/tinymce/jscripts/tiny_mce/themes/advanced/anchor.htm -> build/bdist.linux-x86_64/egg/grappelli_safe/static/grappelli/tinymce/jscripts/tiny_mce/themes/advanced
+creating build/bdist.linux-x86_64/egg/grappelli_safe/static/grappelli/tinymce/jscripts/tiny_mce/themes/advanced/langs
+copying build/lib/grappelli_safe/static/grappelli/tinymce/jscripts/tiny_mce/themes/advanced/langs/en.js -> build/bdist.linux-x86_64/egg/grappelli_safe/static/grappelli/tinymce/jscripts/tiny_mce/themes/advanced/langs
+copying build/lib/grappelli_safe/static/grappelli/tinymce/jscripts/tiny_mce/themes/advanced/langs/en_dlg.js -> build/bdist.linux-x86_64/egg/grappelli_safe/static/grappelli/tinymce/jscripts/tiny_mce/themes/advanced/langs
+creating build/bdist.linux-x86_64/egg/grappelli_safe/static/grappelli/tinymce/jscripts/tiny_mce/plugins
+creating build/bdist.linux-x86_64/egg/grappelli_safe/static/grappelli/tinymce/jscripts/tiny_mce/plugins/inlinepopups
+copying build/lib/grappelli_safe/static/grappelli/tinymce/jscripts/tiny_mce/plugins/inlinepopups/template.htm -> build/bdist.linux-x86_64/egg/grappelli_safe/static/grappelli/tinymce/jscripts/tiny_mce/plugins/inlinepopups
+creating build/bdist.linux-x86_64/egg/grappelli_safe/static/grappelli/tinymce/jscripts/tiny_mce/plugins/inlinepopups/skins
+creating build/bdist.linux-x86_64/egg/grappelli_safe/static/grappelli/tinymce/jscripts/tiny_mce/plugins/inlinepopups/skins/clearlooks2
+creating build/bdist.linux-x86_64/egg/grappelli_safe/static/grappelli/tinymce/jscripts/tiny_mce/plugins/inlinepopups/skins/clearlooks2/img
+copying build/lib/grappelli_safe/static/grappelli/tinymce/jscripts/tiny_mce/plugins/inlinepopups/skins/clearlooks2/img/buttons.gif -> build/bdist.linux-x86_64/egg/grappelli_safe/static/grappelli/tinymce/jscripts/tiny_mce/plugins/inlinepopups/skins/clearlooks2/img
+copying build/lib/grappelli_safe/static/grappelli/tinymce/jscripts/tiny_mce/plugins/inlinepopups/skins/clearlooks2/img/corners.gif -> build/bdist.linux-x86_64/egg/grappelli_safe/static/grappelli/tinymce/jscripts/tiny_mce/plugins/inlinepopups/skins/clearlooks2/img
+copying build/lib/grappelli_safe/static/grappelli/tinymce/jscripts/tiny_mce/plugins/inlinepopups/skins/clearlooks2/img/vertical.gif -> build/bdist.linux-x86_64/egg/grappelli_safe/static/grappelli/tinymce/jscripts/tiny_mce/plugins/inlinepopups/skins/clearlooks2/img
+copying build/lib/grappelli_safe/static/grappelli/tinymce/jscripts/tiny_mce/plugins/inlinepopups/skins/clearlooks2/img/button.gif -> build/bdist.linux-x86_64/egg/grappelli_safe/static/grappelli/tinymce/jscripts/tiny_mce/plugins/inlinepopups/skins/clearlooks2/img
+copying build/lib/grappelli_safe/static/grappelli/tinymce/jscripts/tiny_mce/plugins/inlinepopups/skins/clearlooks2/img/confirm.gif -> build/bdist.linux-x86_64/egg/grappelli_safe/static/grappelli/tinymce/jscripts/tiny_mce/plugins/inlinepopups/skins/clearlooks2/img
+copying build/lib/grappelli_safe/static/grappelli/tinymce/jscripts/tiny_mce/plugins/inlinepopups/skins/clearlooks2/img/alert.gif -> build/bdist.linux-x86_64/egg/grappelli_safe/static/grappelli/tinymce/jscripts/tiny_mce/plugins/inlinepopups/skins/clearlooks2/img
+copying build/lib/grappelli_safe/static/grappelli/tinymce/jscripts/tiny_mce/plugins/inlinepopups/skins/clearlooks2/img/horizontal.gif -> build/bdist.linux-x86_64/egg/grappelli_safe/static/grappelli/tinymce/jscripts/tiny_mce/plugins/inlinepopups/skins/clearlooks2/img
+copying build/lib/grappelli_safe/static/grappelli/tinymce/jscripts/tiny_mce/plugins/inlinepopups/skins/clearlooks2/window.css -> build/bdist.linux-x86_64/egg/grappelli_safe/static/grappelli/tinymce/jscripts/tiny_mce/plugins/inlinepopups/skins/clearlooks2
+copying build/lib/grappelli_safe/static/grappelli/tinymce/jscripts/tiny_mce/plugins/inlinepopups/editor_plugin.js -> build/bdist.linux-x86_64/egg/grappelli_safe/static/grappelli/tinymce/jscripts/tiny_mce/plugins/inlinepopups
+copying build/lib/grappelli_safe/static/grappelli/tinymce/jscripts/tiny_mce/plugins/inlinepopups/editor_plugin_src.js -> build/bdist.linux-x86_64/egg/grappelli_safe/static/grappelli/tinymce/jscripts/tiny_mce/plugins/inlinepopups
+creating build/bdist.linux-x86_64/egg/grappelli_safe/static/grappelli/tinymce/jscripts/tiny_mce/plugins/preview
+copying build/lib/grappelli_safe/static/grappelli/tinymce/jscripts/tiny_mce/plugins/preview/editor_plugin.js -> build/bdist.linux-x86_64/egg/grappelli_safe/static/grappelli/tinymce/jscripts/tiny_mce/plugins/preview
+creating build/bdist.linux-x86_64/egg/grappelli_safe/static/grappelli/tinymce/jscripts/tiny_mce/plugins/preview/jscripts
+copying build/lib/grappelli_safe/static/grappelli/tinymce/jscripts/tiny_mce/plugins/preview/jscripts/embed.js -> build/bdist.linux-x86_64/egg/grappelli_safe/static/grappelli/tinymce/jscripts/tiny_mce/plugins/preview/jscripts
+copying build/lib/grappelli_safe/static/grappelli/tinymce/jscripts/tiny_mce/plugins/preview/editor_plugin_src.js -> build/bdist.linux-x86_64/egg/grappelli_safe/static/grappelli/tinymce/jscripts/tiny_mce/plugins/preview
+copying build/lib/grappelli_safe/static/grappelli/tinymce/jscripts/tiny_mce/plugins/preview/example.html -> build/bdist.linux-x86_64/egg/grappelli_safe/static/grappelli/tinymce/jscripts/tiny_mce/plugins/preview
+copying build/lib/grappelli_safe/static/grappelli/tinymce/jscripts/tiny_mce/plugins/preview/preview.html -> build/bdist.linux-x86_64/egg/grappelli_safe/static/grappelli/tinymce/jscripts/tiny_mce/plugins/preview
+creating build/bdist.linux-x86_64/egg/grappelli_safe/static/grappelli/tinymce/jscripts/tiny_mce/plugins/noneditable
+copying build/lib/grappelli_safe/static/grappelli/tinymce/jscripts/tiny_mce/plugins/noneditable/editor_plugin.js -> build/bdist.linux-x86_64/egg/grappelli_safe/static/grappelli/tinymce/jscripts/tiny_mce/plugins/noneditable
+copying build/lib/grappelli_safe/static/grappelli/tinymce/jscripts/tiny_mce/plugins/noneditable/editor_plugin_src.js -> build/bdist.linux-x86_64/egg/grappelli_safe/static/grappelli/tinymce/jscripts/tiny_mce/plugins/noneditable
+creating build/bdist.linux-x86_64/egg/grappelli_safe/static/grappelli/tinymce/jscripts/tiny_mce/plugins/print
+copying build/lib/grappelli_safe/static/grappelli/tinymce/jscripts/tiny_mce/plugins/print/editor_plugin.js -> build/bdist.linux-x86_64/egg/grappelli_safe/static/grappelli/tinymce/jscripts/tiny_mce/plugins/print
+copying build/lib/grappelli_safe/static/grappelli/tinymce/jscripts/tiny_mce/plugins/print/editor_plugin_src.js -> build/bdist.linux-x86_64/egg/grappelli_safe/static/grappelli/tinymce/jscripts/tiny_mce/plugins/print
+creating build/bdist.linux-x86_64/egg/grappelli_safe/static/grappelli/tinymce/jscripts/tiny_mce/plugins/contextmenu
+copying build/lib/grappelli_safe/static/grappelli/tinymce/jscripts/tiny_mce/plugins/contextmenu/editor_plugin.js -> build/bdist.linux-x86_64/egg/grappelli_safe/static/grappelli/tinymce/jscripts/tiny_mce/plugins/contextmenu
+copying build/lib/grappelli_safe/static/grappelli/tinymce/jscripts/tiny_mce/plugins/contextmenu/editor_plugin_src.js -> build/bdist.linux-x86_64/egg/grappelli_safe/static/grappelli/tinymce/jscripts/tiny_mce/plugins/contextmenu
+creating build/bdist.linux-x86_64/egg/grappelli_safe/static/grappelli/tinymce/jscripts/tiny_mce/plugins/lists
+copying build/lib/grappelli_safe/static/grappelli/tinymce/jscripts/tiny_mce/plugins/lists/editor_plugin.js -> build/bdist.linux-x86_64/egg/grappelli_safe/static/grappelli/tinymce/jscripts/tiny_mce/plugins/lists
+copying build/lib/grappelli_safe/static/grappelli/tinymce/jscripts/tiny_mce/plugins/lists/editor_plugin_src.js -> build/bdist.linux-x86_64/egg/grappelli_safe/static/grappelli/tinymce/jscripts/tiny_mce/plugins/lists
+creating build/bdist.linux-x86_64/egg/grappelli_safe/static/grappelli/tinymce/jscripts/tiny_mce/plugins/advhr
+copying build/lib/grappelli_safe/static/grappelli/tinymce/jscripts/tiny_mce/plugins/advhr/rule.htm -> build/bdist.linux-x86_64/egg/grappelli_safe/static/grappelli/tinymce/jscripts/tiny_mce/plugins/advhr
+copying build/lib/grappelli_safe/static/grappelli/tinymce/jscripts/tiny_mce/plugins/advhr/editor_plugin.js -> build/bdist.linux-x86_64/egg/grappelli_safe/static/grappelli/tinymce/jscripts/tiny_mce/plugins/advhr
+creating build/bdist.linux-x86_64/egg/grappelli_safe/static/grappelli/tinymce/jscripts/tiny_mce/plugins/advhr/css
+copying build/lib/grappelli_safe/static/grappelli/tinymce/jscripts/tiny_mce/plugins/advhr/css/advhr.css -> build/bdist.linux-x86_64/egg/grappelli_safe/static/grappelli/tinymce/jscripts/tiny_mce/plugins/advhr/css
+creating build/bdist.linux-x86_64/egg/grappelli_safe/static/grappelli/tinymce/jscripts/tiny_mce/plugins/advhr/js
+copying build/lib/grappelli_safe/static/grappelli/tinymce/jscripts/tiny_mce/plugins/advhr/js/rule.js -> build/bdist.linux-x86_64/egg/grappelli_safe/static/grappelli/tinymce/jscripts/tiny_mce/plugins/advhr/js
+copying build/lib/grappelli_safe/static/grappelli/tinymce/jscripts/tiny_mce/plugins/advhr/editor_plugin_src.js -> build/bdist.linux-x86_64/egg/grappelli_safe/static/grappelli/tinymce/jscripts/tiny_mce/plugins/advhr
+creating build/bdist.linux-x86_64/egg/grappelli_safe/static/grappelli/tinymce/jscripts/tiny_mce/plugins/advhr/langs
+copying build/lib/grappelli_safe/static/grappelli/tinymce/jscripts/tiny_mce/plugins/advhr/langs/en_dlg.js -> build/bdist.linux-x86_64/egg/grappelli_safe/static/grappelli/tinymce/jscripts/tiny_mce/plugins/advhr/langs
+creating build/bdist.linux-x86_64/egg/grappelli_safe/static/grappelli/tinymce/jscripts/tiny_mce/plugins/fullpage
+copying build/lib/grappelli_safe/static/grappelli/tinymce/jscripts/tiny_mce/plugins/fullpage/editor_plugin.js -> build/bdist.linux-x86_64/egg/grappelli_safe/static/grappelli/tinymce/jscripts/tiny_mce/plugins/fullpage
+creating build/bdist.linux-x86_64/egg/grappelli_safe/static/grappelli/tinymce/jscripts/tiny_mce/plugins/fullpage/css
+copying build/lib/grappelli_safe/static/grappelli/tinymce/jscripts/tiny_mce/plugins/fullpage/css/fullpage.css -> build/bdist.linux-x86_64/egg/grappelli_safe/static/grappelli/tinymce/jscripts/tiny_mce/plugins/fullpage/css
+creating build/bdist.linux-x86_64/egg/grappelli_safe/static/grappelli/tinymce/jscripts/tiny_mce/plugins/fullpage/js
+copying build/lib/grappelli_safe/static/grappelli/tinymce/jscripts/tiny_mce/plugins/fullpage/js/fullpage.js -> build/bdist.linux-x86_64/egg/grappelli_safe/static/grappelli/tinymce/jscripts/tiny_mce/plugins/fullpage/js
+copying build/lib/grappelli_safe/static/grappelli/tinymce/jscripts/tiny_mce/plugins/fullpage/editor_plugin_src.js -> build/bdist.linux-x86_64/egg/grappelli_safe/static/grappelli/tinymce/jscripts/tiny_mce/plugins/fullpage
+creating build/bdist.linux-x86_64/egg/grappelli_safe/static/grappelli/tinymce/jscripts/tiny_mce/plugins/fullpage/langs
+copying build/lib/grappelli_safe/static/grappelli/tinymce/jscripts/tiny_mce/plugins/fullpage/langs/en_dlg.js -> build/bdist.linux-x86_64/egg/grappelli_safe/static/grappelli/tinymce/jscripts/tiny_mce/plugins/fullpage/langs
+copying build/lib/grappelli_safe/static/grappelli/tinymce/jscripts/tiny_mce/plugins/fullpage/fullpage.htm -> build/bdist.linux-x86_64/egg/grappelli_safe/static/grappelli/tinymce/jscripts/tiny_mce/plugins/fullpage
+creating build/bdist.linux-x86_64/egg/grappelli_safe/static/grappelli/tinymce/jscripts/tiny_mce/plugins/example
+creating build/bdist.linux-x86_64/egg/grappelli_safe/static/grappelli/tinymce/jscripts/tiny_mce/plugins/example/img
+copying build/lib/grappelli_safe/static/grappelli/tinymce/jscripts/tiny_mce/plugins/example/img/example.gif -> build/bdist.linux-x86_64/egg/grappelli_safe/static/grappelli/tinymce/jscripts/tiny_mce/plugins/example/img
+copying build/lib/grappelli_safe/static/grappelli/tinymce/jscripts/tiny_mce/plugins/example/editor_plugin.js -> build/bdist.linux-x86_64/egg/grappelli_safe/static/grappelli/tinymce/jscripts/tiny_mce/plugins/example
+copying build/lib/grappelli_safe/static/grappelli/tinymce/jscripts/tiny_mce/plugins/example/dialog.htm -> build/bdist.linux-x86_64/egg/grappelli_safe/static/grappelli/tinymce/jscripts/tiny_mce/plugins/example
+creating build/bdist.linux-x86_64/egg/grappelli_safe/static/grappelli/tinymce/jscripts/tiny_mce/plugins/example/js
+copying build/lib/grappelli_safe/static/grappelli/tinymce/jscripts/tiny_mce/plugins/example/js/dialog.js -> build/bdist.linux-x86_64/egg/grappelli_safe/static/grappelli/tinymce/jscripts/tiny_mce/plugins/example/js
+copying build/lib/grappelli_safe/static/grappelli/tinymce/jscripts/tiny_mce/plugins/example/editor_plugin_src.js -> build/bdist.linux-x86_64/egg/grappelli_safe/static/grappelli/tinymce/jscripts/tiny_mce/plugins/example
+creating build/bdist.linux-x86_64/egg/grappelli_safe/static/grappelli/tinymce/jscripts/tiny_mce/plugins/example/langs
+copying build/lib/grappelli_safe/static/grappelli/tinymce/jscripts/tiny_mce/plugins/example/langs/en.js -> build/bdist.linux-x86_64/egg/grappelli_safe/static/grappelli/tinymce/jscripts/tiny_mce/plugins/example/langs
+copying build/lib/grappelli_safe/static/grappelli/tinymce/jscripts/tiny_mce/plugins/example/langs/en_dlg.js -> build/bdist.linux-x86_64/egg/grappelli_safe/static/grappelli/tinymce/jscripts/tiny_mce/plugins/example/langs
+creating build/bdist.linux-x86_64/egg/grappelli_safe/static/grappelli/tinymce/jscripts/tiny_mce/plugins/searchreplace
+copying build/lib/grappelli_safe/static/grappelli/tinymce/jscripts/tiny_mce/plugins/searchreplace/editor_plugin.js -> build/bdist.linux-x86_64/egg/grappelli_safe/static/grappelli/tinymce/jscripts/tiny_mce/plugins/searchreplace
+creating build/bdist.linux-x86_64/egg/grappelli_safe/static/grappelli/tinymce/jscripts/tiny_mce/plugins/searchreplace/css
+copying build/lib/grappelli_safe/static/grappelli/tinymce/jscripts/tiny_mce/plugins/searchreplace/css/searchreplace.css -> build/bdist.linux-x86_64/egg/grappelli_safe/static/grappelli/tinymce/jscripts/tiny_mce/plugins/searchreplace/css
+creating build/bdist.linux-x86_64/egg/grappelli_safe/static/grappelli/tinymce/jscripts/tiny_mce/plugins/searchreplace/js
+copying build/lib/grappelli_safe/static/grappelli/tinymce/jscripts/tiny_mce/plugins/searchreplace/js/searchreplace.js -> build/bdist.linux-x86_64/egg/grappelli_safe/static/grappelli/tinymce/jscripts/tiny_mce/plugins/searchreplace/js
+copying build/lib/grappelli_safe/static/grappelli/tinymce/jscripts/tiny_mce/plugins/searchreplace/editor_plugin_src.js -> build/bdist.linux-x86_64/egg/grappelli_safe/static/grappelli/tinymce/jscripts/tiny_mce/plugins/searchreplace
+copying build/lib/grappelli_safe/static/grappelli/tinymce/jscripts/tiny_mce/plugins/searchreplace/searchreplace.htm -> build/bdist.linux-x86_64/egg/grappelli_safe/static/grappelli/tinymce/jscripts/tiny_mce/plugins/searchreplace
+creating build/bdist.linux-x86_64/egg/grappelli_safe/static/grappelli/tinymce/jscripts/tiny_mce/plugins/searchreplace/langs
+copying build/lib/grappelli_safe/static/grappelli/tinymce/jscripts/tiny_mce/plugins/searchreplace/langs/en_dlg.js -> build/bdist.linux-x86_64/egg/grappelli_safe/static/grappelli/tinymce/jscripts/tiny_mce/plugins/searchreplace/langs
+creating build/bdist.linux-x86_64/egg/grappelli_safe/static/grappelli/tinymce/jscripts/tiny_mce/plugins/paste
+copying build/lib/grappelli_safe/static/grappelli/tinymce/jscripts/tiny_mce/plugins/paste/editor_plugin.js -> build/bdist.linux-x86_64/egg/grappelli_safe/static/grappelli/tinymce/jscripts/tiny_mce/plugins/paste
+creating build/bdist.linux-x86_64/egg/grappelli_safe/static/grappelli/tinymce/jscripts/tiny_mce/plugins/paste/js
+copying build/lib/grappelli_safe/static/grappelli/tinymce/jscripts/tiny_mce/plugins/paste/js/pasteword.js -> build/bdist.linux-x86_64/egg/grappelli_safe/static/grappelli/tinymce/jscripts/tiny_mce/plugins/paste/js
+copying build/lib/grappelli_safe/static/grappelli/tinymce/jscripts/tiny_mce/plugins/paste/js/pastetext.js -> build/bdist.linux-x86_64/egg/grappelli_safe/static/grappelli/tinymce/jscripts/tiny_mce/plugins/paste/js
+copying build/lib/grappelli_safe/static/grappelli/tinymce/jscripts/tiny_mce/plugins/paste/pasteword.htm -> build/bdist.linux-x86_64/egg/grappelli_safe/static/grappelli/tinymce/jscripts/tiny_mce/plugins/paste
+copying build/lib/grappelli_safe/static/grappelli/tinymce/jscripts/tiny_mce/plugins/paste/editor_plugin_src.js -> build/bdist.linux-x86_64/egg/grappelli_safe/static/grappelli/tinymce/jscripts/tiny_mce/plugins/paste
+creating build/bdist.linux-x86_64/egg/grappelli_safe/static/grappelli/tinymce/jscripts/tiny_mce/plugins/paste/langs
+copying build/lib/grappelli_safe/static/grappelli/tinymce/jscripts/tiny_mce/plugins/paste/langs/en_dlg.js -> build/bdist.linux-x86_64/egg/grappelli_safe/static/grappelli/tinymce/jscripts/tiny_mce/plugins/paste/langs
+copying build/lib/grappelli_safe/static/grappelli/tinymce/jscripts/tiny_mce/plugins/paste/pastetext.htm -> build/bdist.linux-x86_64/egg/grappelli_safe/static/grappelli/tinymce/jscripts/tiny_mce/plugins/paste
+creating build/bdist.linux-x86_64/egg/grappelli_safe/static/grappelli/tinymce/jscripts/tiny_mce/plugins/advlist
+copying build/lib/grappelli_safe/static/grappelli/tinymce/jscripts/tiny_mce/plugins/advlist/editor_plugin.js -> build/bdist.linux-x86_64/egg/grappelli_safe/static/grappelli/tinymce/jscripts/tiny_mce/plugins/advlist
+copying build/lib/grappelli_safe/static/grappelli/tinymce/jscripts/tiny_mce/plugins/advlist/editor_plugin_src.js -> build/bdist.linux-x86_64/egg/grappelli_safe/static/grappelli/tinymce/jscripts/tiny_mce/plugins/advlist
+creating build/bdist.linux-x86_64/egg/grappelli_safe/static/grappelli/tinymce/jscripts/tiny_mce/plugins/bbcode
+copying build/lib/grappelli_safe/static/grappelli/tinymce/jscripts/tiny_mce/plugins/bbcode/editor_plugin.js -> build/bdist.linux-x86_64/egg/grappelli_safe/static/grappelli/tinymce/jscripts/tiny_mce/plugins/bbcode
+copying build/lib/grappelli_safe/static/grappelli/tinymce/jscripts/tiny_mce/plugins/bbcode/editor_plugin_src.js -> build/bdist.linux-x86_64/egg/grappelli_safe/static/grappelli/tinymce/jscripts/tiny_mce/plugins/bbcode
+creating build/bdist.linux-x86_64/egg/grappelli_safe/static/grappelli/tinymce/jscripts/tiny_mce/plugins/pagebreak
+copying build/lib/grappelli_safe/static/grappelli/tinymce/jscripts/tiny_mce/plugins/pagebreak/editor_plugin.js -> build/bdist.linux-x86_64/egg/grappelli_safe/static/grappelli/tinymce/jscripts/tiny_mce/plugins/pagebreak
+copying build/lib/grappelli_safe/static/grappelli/tinymce/jscripts/tiny_mce/plugins/pagebreak/editor_plugin_src.js -> build/bdist.linux-x86_64/egg/grappelli_safe/static/grappelli/tinymce/jscripts/tiny_mce/plugins/pagebreak
+creating build/bdist.linux-x86_64/egg/grappelli_safe/static/grappelli/tinymce/jscripts/tiny_mce/plugins/legacyoutput
+copying build/lib/grappelli_safe/static/grappelli/tinymce/jscripts/tiny_mce/plugins/legacyoutput/editor_plugin.js -> build/bdist.linux-x86_64/egg/grappelli_safe/static/grappelli/tinymce/jscripts/tiny_mce/plugins/legacyoutput
+copying build/lib/grappelli_safe/static/grappelli/tinymce/jscripts/tiny_mce/plugins/legacyoutput/editor_plugin_src.js -> build/bdist.linux-x86_64/egg/grappelli_safe/static/grappelli/tinymce/jscripts/tiny_mce/plugins/legacyoutput
+creating build/bdist.linux-x86_64/egg/grappelli_safe/static/grappelli/tinymce/jscripts/tiny_mce/plugins/iespell
+copying build/lib/grappelli_safe/static/grappelli/tinymce/jscripts/tiny_mce/plugins/iespell/editor_plugin.js -> build/bdist.linux-x86_64/egg/grappelli_safe/static/grappelli/tinymce/jscripts/tiny_mce/plugins/iespell
+copying build/lib/grappelli_safe/static/grappelli/tinymce/jscripts/tiny_mce/plugins/iespell/editor_plugin_src.js -> build/bdist.linux-x86_64/egg/grappelli_safe/static/grappelli/tinymce/jscripts/tiny_mce/plugins/iespell
+creating build/bdist.linux-x86_64/egg/grappelli_safe/static/grappelli/tinymce/jscripts/tiny_mce/plugins/insertdatetime
+copying build/lib/grappelli_safe/static/grappelli/tinymce/jscripts/tiny_mce/plugins/insertdatetime/editor_plugin.js -> build/bdist.linux-x86_64/egg/grappelli_safe/static/grappelli/tinymce/jscripts/tiny_mce/plugins/insertdatetime
+copying build/lib/grappelli_safe/static/grappelli/tinymce/jscripts/tiny_mce/plugins/insertdatetime/editor_plugin_src.js -> build/bdist.linux-x86_64/egg/grappelli_safe/static/grappelli/tinymce/jscripts/tiny_mce/plugins/insertdatetime
+creating build/bdist.linux-x86_64/egg/grappelli_safe/static/grappelli/tinymce/jscripts/tiny_mce/plugins/style
+copying build/lib/grappelli_safe/static/grappelli/tinymce/jscripts/tiny_mce/plugins/style/props.htm -> build/bdist.linux-x86_64/egg/grappelli_safe/static/grappelli/tinymce/jscripts/tiny_mce/plugins/style
+copying build/lib/grappelli_safe/static/grappelli/tinymce/jscripts/tiny_mce/plugins/style/editor_plugin.js -> build/bdist.linux-x86_64/egg/grappelli_safe/static/grappelli/tinymce/jscripts/tiny_mce/plugins/style
+creating build/bdist.linux-x86_64/egg/grappelli_safe/static/grappelli/tinymce/jscripts/tiny_mce/plugins/style/css
+copying build/lib/grappelli_safe/static/grappelli/tinymce/jscripts/tiny_mce/plugins/style/css/props.css -> build/bdist.linux-x86_64/egg/grappelli_safe/static/grappelli/tinymce/jscripts/tiny_mce/plugins/style/css
+creating build/bdist.linux-x86_64/egg/grappelli_safe/static/grappelli/tinymce/jscripts/tiny_mce/plugins/style/js
+copying build/lib/grappelli_safe/static/grappelli/tinymce/jscripts/tiny_mce/plugins/style/js/props.js -> build/bdist.linux-x86_64/egg/grappelli_safe/static/grappelli/tinymce/jscripts/tiny_mce/plugins/style/js
+copying build/lib/grappelli_safe/static/grappelli/tinymce/jscripts/tiny_mce/plugins/style/editor_plugin_src.js -> build/bdist.linux-x86_64/egg/grappelli_safe/static/grappelli/tinymce/jscripts/tiny_mce/plugins/style
+creating build/bdist.linux-x86_64/egg/grappelli_safe/static/grappelli/tinymce/jscripts/tiny_mce/plugins/style/langs
+copying build/lib/grappelli_safe/static/grappelli/tinymce/jscripts/tiny_mce/plugins/style/langs/en_dlg.js -> build/bdist.linux-x86_64/egg/grappelli_safe/static/grappelli/tinymce/jscripts/tiny_mce/plugins/style/langs
+creating build/bdist.linux-x86_64/egg/grappelli_safe/static/grappelli/tinymce/jscripts/tiny_mce/plugins/visualchars
+copying build/lib/grappelli_safe/static/grappelli/tinymce/jscripts/tiny_mce/plugins/visualchars/editor_plugin.js -> build/bdist.linux-x86_64/egg/grappelli_safe/static/grappelli/tinymce/jscripts/tiny_mce/plugins/visualchars
+copying build/lib/grappelli_safe/static/grappelli/tinymce/jscripts/tiny_mce/plugins/visualchars/editor_plugin_src.js -> build/bdist.linux-x86_64/egg/grappelli_safe/static/grappelli/tinymce/jscripts/tiny_mce/plugins/visualchars
+creating build/bdist.linux-x86_64/egg/grappelli_safe/static/grappelli/tinymce/jscripts/tiny_mce/plugins/advimage
+creating build/bdist.linux-x86_64/egg/grappelli_safe/static/grappelli/tinymce/jscripts/tiny_mce/plugins/advimage/img
+copying build/lib/grappelli_safe/static/grappelli/tinymce/jscripts/tiny_mce/plugins/advimage/img/sample.gif -> build/bdist.linux-x86_64/egg/grappelli_safe/static/grappelli/tinymce/jscripts/tiny_mce/plugins/advimage/img
+copying build/lib/grappelli_safe/static/grappelli/tinymce/jscripts/tiny_mce/plugins/advimage/editor_plugin.js -> build/bdist.linux-x86_64/egg/grappelli_safe/static/grappelli/tinymce/jscripts/tiny_mce/plugins/advimage
+copying build/lib/grappelli_safe/static/grappelli/tinymce/jscripts/tiny_mce/plugins/advimage/image.htm -> build/bdist.linux-x86_64/egg/grappelli_safe/static/grappelli/tinymce/jscripts/tiny_mce/plugins/advimage
+creating build/bdist.linux-x86_64/egg/grappelli_safe/static/grappelli/tinymce/jscripts/tiny_mce/plugins/advimage/css
+copying build/lib/grappelli_safe/static/grappelli/tinymce/jscripts/tiny_mce/plugins/advimage/css/advimage.css -> build/bdist.linux-x86_64/egg/grappelli_safe/static/grappelli/tinymce/jscripts/tiny_mce/plugins/advimage/css
+creating build/bdist.linux-x86_64/egg/grappelli_safe/static/grappelli/tinymce/jscripts/tiny_mce/plugins/advimage/js
+copying build/lib/grappelli_safe/static/grappelli/tinymce/jscripts/tiny_mce/plugins/advimage/js/image.js -> build/bdist.linux-x86_64/egg/grappelli_safe/static/grappelli/tinymce/jscripts/tiny_mce/plugins/advimage/js
+copying build/lib/grappelli_safe/static/grappelli/tinymce/jscripts/tiny_mce/plugins/advimage/editor_plugin_src.js -> build/bdist.linux-x86_64/egg/grappelli_safe/static/grappelli/tinymce/jscripts/tiny_mce/plugins/advimage
+creating build/bdist.linux-x86_64/egg/grappelli_safe/static/grappelli/tinymce/jscripts/tiny_mce/plugins/advimage/langs
+copying build/lib/grappelli_safe/static/grappelli/tinymce/jscripts/tiny_mce/plugins/advimage/langs/en_dlg.js -> build/bdist.linux-x86_64/egg/grappelli_safe/static/grappelli/tinymce/jscripts/tiny_mce/plugins/advimage/langs
+creating build/bdist.linux-x86_64/egg/grappelli_safe/static/grappelli/tinymce/jscripts/tiny_mce/plugins/directionality
+copying build/lib/grappelli_safe/static/grappelli/tinymce/jscripts/tiny_mce/plugins/directionality/editor_plugin.js -> build/bdist.linux-x86_64/egg/grappelli_safe/static/grappelli/tinymce/jscripts/tiny_mce/plugins/directionality
+copying build/lib/grappelli_safe/static/grappelli/tinymce/jscripts/tiny_mce/plugins/directionality/editor_plugin_src.js -> build/bdist.linux-x86_64/egg/grappelli_safe/static/grappelli/tinymce/jscripts/tiny_mce/plugins/directionality
+creating build/bdist.linux-x86_64/egg/grappelli_safe/static/grappelli/tinymce/jscripts/tiny_mce/plugins/xhtmlxtras
+copying build/lib/grappelli_safe/static/grappelli/tinymce/jscripts/tiny_mce/plugins/xhtmlxtras/abbr.htm -> build/bdist.linux-x86_64/egg/grappelli_safe/static/grappelli/tinymce/jscripts/tiny_mce/plugins/xhtmlxtras
+copying build/lib/grappelli_safe/static/grappelli/tinymce/jscripts/tiny_mce/plugins/xhtmlxtras/attributes.htm -> build/bdist.linux-x86_64/egg/grappelli_safe/static/grappelli/tinymce/jscripts/tiny_mce/plugins/xhtmlxtras
+copying build/lib/grappelli_safe/static/grappelli/tinymce/jscripts/tiny_mce/plugins/xhtmlxtras/editor_plugin.js -> build/bdist.linux-x86_64/egg/grappelli_safe/static/grappelli/tinymce/jscripts/tiny_mce/plugins/xhtmlxtras
+copying build/lib/grappelli_safe/static/grappelli/tinymce/jscripts/tiny_mce/plugins/xhtmlxtras/cite.htm -> build/bdist.linux-x86_64/egg/grappelli_safe/static/grappelli/tinymce/jscripts/tiny_mce/plugins/xhtmlxtras
+creating build/bdist.linux-x86_64/egg/grappelli_safe/static/grappelli/tinymce/jscripts/tiny_mce/plugins/xhtmlxtras/css
+copying build/lib/grappelli_safe/static/grappelli/tinymce/jscripts/tiny_mce/plugins/xhtmlxtras/css/attributes.css -> build/bdist.linux-x86_64/egg/grappelli_safe/static/grappelli/tinymce/jscripts/tiny_mce/plugins/xhtmlxtras/css
+copying build/lib/grappelli_safe/static/grappelli/tinymce/jscripts/tiny_mce/plugins/xhtmlxtras/css/popup.css -> build/bdist.linux-x86_64/egg/grappelli_safe/static/grappelli/tinymce/jscripts/tiny_mce/plugins/xhtmlxtras/css
+creating build/bdist.linux-x86_64/egg/grappelli_safe/static/grappelli/tinymce/jscripts/tiny_mce/plugins/xhtmlxtras/js
+copying build/lib/grappelli_safe/static/grappelli/tinymce/jscripts/tiny_mce/plugins/xhtmlxtras/js/cite.js -> build/bdist.linux-x86_64/egg/grappelli_safe/static/grappelli/tinymce/jscripts/tiny_mce/plugins/xhtmlxtras/js
+copying build/lib/grappelli_safe/static/grappelli/tinymce/jscripts/tiny_mce/plugins/xhtmlxtras/js/abbr.js -> build/bdist.linux-x86_64/egg/grappelli_safe/static/grappelli/tinymce/jscripts/tiny_mce/plugins/xhtmlxtras/js
+copying build/lib/grappelli_safe/static/grappelli/tinymce/jscripts/tiny_mce/plugins/xhtmlxtras/js/element_common.js -> build/bdist.linux-x86_64/egg/grappelli_safe/static/grappelli/tinymce/jscripts/tiny_mce/plugins/xhtmlxtras/js
+copying build/lib/grappelli_safe/static/grappelli/tinymce/jscripts/tiny_mce/plugins/xhtmlxtras/js/ins.js -> build/bdist.linux-x86_64/egg/grappelli_safe/static/grappelli/tinymce/jscripts/tiny_mce/plugins/xhtmlxtras/js
+copying build/lib/grappelli_safe/static/grappelli/tinymce/jscripts/tiny_mce/plugins/xhtmlxtras/js/attributes.js -> build/bdist.linux-x86_64/egg/grappelli_safe/static/grappelli/tinymce/jscripts/tiny_mce/plugins/xhtmlxtras/js
+copying build/lib/grappelli_safe/static/grappelli/tinymce/jscripts/tiny_mce/plugins/xhtmlxtras/js/del.js -> build/bdist.linux-x86_64/egg/grappelli_safe/static/grappelli/tinymce/jscripts/tiny_mce/plugins/xhtmlxtras/js
+copying build/lib/grappelli_safe/static/grappelli/tinymce/jscripts/tiny_mce/plugins/xhtmlxtras/js/acronym.js -> build/bdist.linux-x86_64/egg/grappelli_safe/static/grappelli/tinymce/jscripts/tiny_mce/plugins/xhtmlxtras/js
+copying build/lib/grappelli_safe/static/grappelli/tinymce/jscripts/tiny_mce/plugins/xhtmlxtras/editor_plugin_src.js -> build/bdist.linux-x86_64/egg/grappelli_safe/static/grappelli/tinymce/jscripts/tiny_mce/plugins/xhtmlxtras
+copying build/lib/grappelli_safe/static/grappelli/tinymce/jscripts/tiny_mce/plugins/xhtmlxtras/acronym.htm -> build/bdist.linux-x86_64/egg/grappelli_safe/static/grappelli/tinymce/jscripts/tiny_mce/plugins/xhtmlxtras
+creating build/bdist.linux-x86_64/egg/grappelli_safe/static/grappelli/tinymce/jscripts/tiny_mce/plugins/xhtmlxtras/langs
+copying build/lib/grappelli_safe/static/grappelli/tinymce/jscripts/tiny_mce/plugins/xhtmlxtras/langs/en_dlg.js -> build/bdist.linux-x86_64/egg/grappelli_safe/static/grappelli/tinymce/jscripts/tiny_mce/plugins/xhtmlxtras/langs
+copying build/lib/grappelli_safe/static/grappelli/tinymce/jscripts/tiny_mce/plugins/xhtmlxtras/del.htm -> build/bdist.linux-x86_64/egg/grappelli_safe/static/grappelli/tinymce/jscripts/tiny_mce/plugins/xhtmlxtras
+copying build/lib/grappelli_safe/static/grappelli/tinymce/jscripts/tiny_mce/plugins/xhtmlxtras/ins.htm -> build/bdist.linux-x86_64/egg/grappelli_safe/static/grappelli/tinymce/jscripts/tiny_mce/plugins/xhtmlxtras
+creating build/bdist.linux-x86_64/egg/grappelli_safe/static/grappelli/tinymce/jscripts/tiny_mce/plugins/wordcount
+copying build/lib/grappelli_safe/static/grappelli/tinymce/jscripts/tiny_mce/plugins/wordcount/editor_plugin.js -> build/bdist.linux-x86_64/egg/grappelli_safe/static/grappelli/tinymce/jscripts/tiny_mce/plugins/wordcount
+copying build/lib/grappelli_safe/static/grappelli/tinymce/jscripts/tiny_mce/plugins/wordcount/editor_plugin_src.js -> build/bdist.linux-x86_64/egg/grappelli_safe/static/grappelli/tinymce/jscripts/tiny_mce/plugins/wordcount
+creating build/bdist.linux-x86_64/egg/grappelli_safe/static/grappelli/tinymce/jscripts/tiny_mce/plugins/example_dependency
+copying build/lib/grappelli_safe/static/grappelli/tinymce/jscripts/tiny_mce/plugins/example_dependency/editor_plugin.js -> build/bdist.linux-x86_64/egg/grappelli_safe/static/grappelli/tinymce/jscripts/tiny_mce/plugins/example_dependency
+copying build/lib/grappelli_safe/static/grappelli/tinymce/jscripts/tiny_mce/plugins/example_dependency/editor_plugin_src.js -> build/bdist.linux-x86_64/egg/grappelli_safe/static/grappelli/tinymce/jscripts/tiny_mce/plugins/example_dependency
+creating build/bdist.linux-x86_64/egg/grappelli_safe/static/grappelli/tinymce/jscripts/tiny_mce/plugins/autolink
+copying build/lib/grappelli_safe/static/grappelli/tinymce/jscripts/tiny_mce/plugins/autolink/editor_plugin.js -> build/bdist.linux-x86_64/egg/grappelli_safe/static/grappelli/tinymce/jscripts/tiny_mce/plugins/autolink
+copying build/lib/grappelli_safe/static/grappelli/tinymce/jscripts/tiny_mce/plugins/autolink/editor_plugin_src.js -> build/bdist.linux-x86_64/egg/grappelli_safe/static/grappelli/tinymce/jscripts/tiny_mce/plugins/autolink
+creating build/bdist.linux-x86_64/egg/grappelli_safe/static/grappelli/tinymce/jscripts/tiny_mce/plugins/nonbreaking
+copying build/lib/grappelli_safe/static/grappelli/tinymce/jscripts/tiny_mce/plugins/nonbreaking/editor_plugin.js -> build/bdist.linux-x86_64/egg/grappelli_safe/static/grappelli/tinymce/jscripts/tiny_mce/plugins/nonbreaking
+copying build/lib/grappelli_safe/static/grappelli/tinymce/jscripts/tiny_mce/plugins/nonbreaking/editor_plugin_src.js -> build/bdist.linux-x86_64/egg/grappelli_safe/static/grappelli/tinymce/jscripts/tiny_mce/plugins/nonbreaking
+creating build/bdist.linux-x86_64/egg/grappelli_safe/static/grappelli/tinymce/jscripts/tiny_mce/plugins/autoresize
+copying build/lib/grappelli_safe/static/grappelli/tinymce/jscripts/tiny_mce/plugins/autoresize/editor_plugin.js -> build/bdist.linux-x86_64/egg/grappelli_safe/static/grappelli/tinymce/jscripts/tiny_mce/plugins/autoresize
+copying build/lib/grappelli_safe/static/grappelli/tinymce/jscripts/tiny_mce/plugins/autoresize/editor_plugin_src.js -> build/bdist.linux-x86_64/egg/grappelli_safe/static/grappelli/tinymce/jscripts/tiny_mce/plugins/autoresize
+creating build/bdist.linux-x86_64/egg/grappelli_safe/static/grappelli/tinymce/jscripts/tiny_mce/plugins/media
+copying build/lib/grappelli_safe/static/grappelli/tinymce/jscripts/tiny_mce/plugins/media/editor_plugin.js -> build/bdist.linux-x86_64/egg/grappelli_safe/static/grappelli/tinymce/jscripts/tiny_mce/plugins/media
+creating build/bdist.linux-x86_64/egg/grappelli_safe/static/grappelli/tinymce/jscripts/tiny_mce/plugins/media/css
+copying build/lib/grappelli_safe/static/grappelli/tinymce/jscripts/tiny_mce/plugins/media/css/media.css -> build/bdist.linux-x86_64/egg/grappelli_safe/static/grappelli/tinymce/jscripts/tiny_mce/plugins/media/css
+creating build/bdist.linux-x86_64/egg/grappelli_safe/static/grappelli/tinymce/jscripts/tiny_mce/plugins/media/js
+copying build/lib/grappelli_safe/static/grappelli/tinymce/jscripts/tiny_mce/plugins/media/js/embed.js -> build/bdist.linux-x86_64/egg/grappelli_safe/static/grappelli/tinymce/jscripts/tiny_mce/plugins/media/js
+copying build/lib/grappelli_safe/static/grappelli/tinymce/jscripts/tiny_mce/plugins/media/js/media.js -> build/bdist.linux-x86_64/egg/grappelli_safe/static/grappelli/tinymce/jscripts/tiny_mce/plugins/media/js
+copying build/lib/grappelli_safe/static/grappelli/tinymce/jscripts/tiny_mce/plugins/media/editor_plugin_src.js -> build/bdist.linux-x86_64/egg/grappelli_safe/static/grappelli/tinymce/jscripts/tiny_mce/plugins/media
+copying build/lib/grappelli_safe/static/grappelli/tinymce/jscripts/tiny_mce/plugins/media/moxieplayer.swf -> build/bdist.linux-x86_64/egg/grappelli_safe/static/grappelli/tinymce/jscripts/tiny_mce/plugins/media
+copying build/lib/grappelli_safe/static/grappelli/tinymce/jscripts/tiny_mce/plugins/media/media.htm -> build/bdist.linux-x86_64/egg/grappelli_safe/static/grappelli/tinymce/jscripts/tiny_mce/plugins/media
+creating build/bdist.linux-x86_64/egg/grappelli_safe/static/grappelli/tinymce/jscripts/tiny_mce/plugins/media/langs
+copying build/lib/grappelli_safe/static/grappelli/tinymce/jscripts/tiny_mce/plugins/media/langs/en_dlg.js -> build/bdist.linux-x86_64/egg/grappelli_safe/static/grappelli/tinymce/jscripts/tiny_mce/plugins/media/langs
+creating build/bdist.linux-x86_64/egg/grappelli_safe/static/grappelli/tinymce/jscripts/tiny_mce/plugins/tabfocus
+copying build/lib/grappelli_safe/static/grappelli/tinymce/jscripts/tiny_mce/plugins/tabfocus/editor_plugin.js -> build/bdist.linux-x86_64/egg/grappelli_safe/static/grappelli/tinymce/jscripts/tiny_mce/plugins/tabfocus
+copying build/lib/grappelli_safe/static/grappelli/tinymce/jscripts/tiny_mce/plugins/tabfocus/editor_plugin_src.js -> build/bdist.linux-x86_64/egg/grappelli_safe/static/grappelli/tinymce/jscripts/tiny_mce/plugins/tabfocus
+creating build/bdist.linux-x86_64/egg/grappelli_safe/static/grappelli/tinymce/jscripts/tiny_mce/plugins/fullscreen
+copying build/lib/grappelli_safe/static/grappelli/tinymce/jscripts/tiny_mce/plugins/fullscreen/editor_plugin.js -> build/bdist.linux-x86_64/egg/grappelli_safe/static/grappelli/tinymce/jscripts/tiny_mce/plugins/fullscreen
+copying build/lib/grappelli_safe/static/grappelli/tinymce/jscripts/tiny_mce/plugins/fullscreen/editor_plugin_src.js -> build/bdist.linux-x86_64/egg/grappelli_safe/static/grappelli/tinymce/jscripts/tiny_mce/plugins/fullscreen
+copying build/lib/grappelli_safe/static/grappelli/tinymce/jscripts/tiny_mce/plugins/fullscreen/fullscreen.htm -> build/bdist.linux-x86_64/egg/grappelli_safe/static/grappelli/tinymce/jscripts/tiny_mce/plugins/fullscreen
+creating build/bdist.linux-x86_64/egg/grappelli_safe/static/grappelli/tinymce/jscripts/tiny_mce/plugins/save
+copying build/lib/grappelli_safe/static/grappelli/tinymce/jscripts/tiny_mce/plugins/save/editor_plugin.js -> build/bdist.linux-x86_64/egg/grappelli_safe/static/grappelli/tinymce/jscripts/tiny_mce/plugins/save
+copying build/lib/grappelli_safe/static/grappelli/tinymce/jscripts/tiny_mce/plugins/save/editor_plugin_src.js -> build/bdist.linux-x86_64/egg/grappelli_safe/static/grappelli/tinymce/jscripts/tiny_mce/plugins/save
+creating build/bdist.linux-x86_64/egg/grappelli_safe/static/grappelli/tinymce/jscripts/tiny_mce/plugins/table
+copying build/lib/grappelli_safe/static/grappelli/tinymce/jscripts/tiny_mce/plugins/table/cell.htm -> build/bdist.linux-x86_64/egg/grappelli_safe/static/grappelli/tinymce/jscripts/tiny_mce/plugins/table
+copying build/lib/grappelli_safe/static/grappelli/tinymce/jscripts/tiny_mce/plugins/table/merge_cells.htm -> build/bdist.linux-x86_64/egg/grappelli_safe/static/grappelli/tinymce/jscripts/tiny_mce/plugins/table
+copying build/lib/grappelli_safe/static/grappelli/tinymce/jscripts/tiny_mce/plugins/table/editor_plugin.js -> build/bdist.linux-x86_64/egg/grappelli_safe/static/grappelli/tinymce/jscripts/tiny_mce/plugins/table
+creating build/bdist.linux-x86_64/egg/grappelli_safe/static/grappelli/tinymce/jscripts/tiny_mce/plugins/table/css
+copying build/lib/grappelli_safe/static/grappelli/tinymce/jscripts/tiny_mce/plugins/table/css/table.css -> build/bdist.linux-x86_64/egg/grappelli_safe/static/grappelli/tinymce/jscripts/tiny_mce/plugins/table/css
+copying build/lib/grappelli_safe/static/grappelli/tinymce/jscripts/tiny_mce/plugins/table/css/row.css -> build/bdist.linux-x86_64/egg/grappelli_safe/static/grappelli/tinymce/jscripts/tiny_mce/plugins/table/css
+copying build/lib/grappelli_safe/static/grappelli/tinymce/jscripts/tiny_mce/plugins/table/css/cell.css -> build/bdist.linux-x86_64/egg/grappelli_safe/static/grappelli/tinymce/jscripts/tiny_mce/plugins/table/css
+copying build/lib/grappelli_safe/static/grappelli/tinymce/jscripts/tiny_mce/plugins/table/table.htm -> build/bdist.linux-x86_64/egg/grappelli_safe/static/grappelli/tinymce/jscripts/tiny_mce/plugins/table
+creating build/bdist.linux-x86_64/egg/grappelli_safe/static/grappelli/tinymce/jscripts/tiny_mce/plugins/table/js
+copying build/lib/grappelli_safe/static/grappelli/tinymce/jscripts/tiny_mce/plugins/table/js/cell.js -> build/bdist.linux-x86_64/egg/grappelli_safe/static/grappelli/tinymce/jscripts/tiny_mce/plugins/table/js
+copying build/lib/grappelli_safe/static/grappelli/tinymce/jscripts/tiny_mce/plugins/table/js/row.js -> build/bdist.linux-x86_64/egg/grappelli_safe/static/grappelli/tinymce/jscripts/tiny_mce/plugins/table/js
+copying build/lib/grappelli_safe/static/grappelli/tinymce/jscripts/tiny_mce/plugins/table/js/table.js -> build/bdist.linux-x86_64/egg/grappelli_safe/static/grappelli/tinymce/jscripts/tiny_mce/plugins/table/js
+copying build/lib/grappelli_safe/static/grappelli/tinymce/jscripts/tiny_mce/plugins/table/js/merge_cells.js -> build/bdist.linux-x86_64/egg/grappelli_safe/static/grappelli/tinymce/jscripts/tiny_mce/plugins/table/js
+copying build/lib/grappelli_safe/static/grappelli/tinymce/jscripts/tiny_mce/plugins/table/editor_plugin_src.js -> build/bdist.linux-x86_64/egg/grappelli_safe/static/grappelli/tinymce/jscripts/tiny_mce/plugins/table
+copying build/lib/grappelli_safe/static/grappelli/tinymce/jscripts/tiny_mce/plugins/table/row.htm -> build/bdist.linux-x86_64/egg/grappelli_safe/static/grappelli/tinymce/jscripts/tiny_mce/plugins/table
+creating build/bdist.linux-x86_64/egg/grappelli_safe/static/grappelli/tinymce/jscripts/tiny_mce/plugins/table/langs
+copying build/lib/grappelli_safe/static/grappelli/tinymce/jscripts/tiny_mce/plugins/table/langs/en_dlg.js -> build/bdist.linux-x86_64/egg/grappelli_safe/static/grappelli/tinymce/jscripts/tiny_mce/plugins/table/langs
+creating build/bdist.linux-x86_64/egg/grappelli_safe/static/grappelli/tinymce/jscripts/tiny_mce/plugins/template
+copying build/lib/grappelli_safe/static/grappelli/tinymce/jscripts/tiny_mce/plugins/template/template.htm -> build/bdist.linux-x86_64/egg/grappelli_safe/static/grappelli/tinymce/jscripts/tiny_mce/plugins/template
+copying build/lib/grappelli_safe/static/grappelli/tinymce/jscripts/tiny_mce/plugins/template/blank.htm -> build/bdist.linux-x86_64/egg/grappelli_safe/static/grappelli/tinymce/jscripts/tiny_mce/plugins/template
+copying build/lib/grappelli_safe/static/grappelli/tinymce/jscripts/tiny_mce/plugins/template/editor_plugin.js -> build/bdist.linux-x86_64/egg/grappelli_safe/static/grappelli/tinymce/jscripts/tiny_mce/plugins/template
+creating build/bdist.linux-x86_64/egg/grappelli_safe/static/grappelli/tinymce/jscripts/tiny_mce/plugins/template/css
+copying build/lib/grappelli_safe/static/grappelli/tinymce/jscripts/tiny_mce/plugins/template/css/template.css -> build/bdist.linux-x86_64/egg/grappelli_safe/static/grappelli/tinymce/jscripts/tiny_mce/plugins/template/css
+creating build/bdist.linux-x86_64/egg/grappelli_safe/static/grappelli/tinymce/jscripts/tiny_mce/plugins/template/js
+copying build/lib/grappelli_safe/static/grappelli/tinymce/jscripts/tiny_mce/plugins/template/js/template.js -> build/bdist.linux-x86_64/egg/grappelli_safe/static/grappelli/tinymce/jscripts/tiny_mce/plugins/template/js
+copying build/lib/grappelli_safe/static/grappelli/tinymce/jscripts/tiny_mce/plugins/template/editor_plugin_src.js -> build/bdist.linux-x86_64/egg/grappelli_safe/static/grappelli/tinymce/jscripts/tiny_mce/plugins/template
+creating build/bdist.linux-x86_64/egg/grappelli_safe/static/grappelli/tinymce/jscripts/tiny_mce/plugins/template/langs
+copying build/lib/grappelli_safe/static/grappelli/tinymce/jscripts/tiny_mce/plugins/template/langs/en_dlg.js -> build/bdist.linux-x86_64/egg/grappelli_safe/static/grappelli/tinymce/jscripts/tiny_mce/plugins/template/langs
+creating build/bdist.linux-x86_64/egg/grappelli_safe/static/grappelli/tinymce/jscripts/tiny_mce/plugins/layer
+copying build/lib/grappelli_safe/static/grappelli/tinymce/jscripts/tiny_mce/plugins/layer/editor_plugin.js -> build/bdist.linux-x86_64/egg/grappelli_safe/static/grappelli/tinymce/jscripts/tiny_mce/plugins/layer
+copying build/lib/grappelli_safe/static/grappelli/tinymce/jscripts/tiny_mce/plugins/layer/editor_plugin_src.js -> build/bdist.linux-x86_64/egg/grappelli_safe/static/grappelli/tinymce/jscripts/tiny_mce/plugins/layer
+creating build/bdist.linux-x86_64/egg/grappelli_safe/static/grappelli/tinymce/jscripts/tiny_mce/plugins/emotions
+copying build/lib/grappelli_safe/static/grappelli/tinymce/jscripts/tiny_mce/plugins/emotions/emotions.htm -> build/bdist.linux-x86_64/egg/grappelli_safe/static/grappelli/tinymce/jscripts/tiny_mce/plugins/emotions
+creating build/bdist.linux-x86_64/egg/grappelli_safe/static/grappelli/tinymce/jscripts/tiny_mce/plugins/emotions/img
+copying build/lib/grappelli_safe/static/grappelli/tinymce/jscripts/tiny_mce/plugins/emotions/img/smiley-embarassed.gif -> build/bdist.linux-x86_64/egg/grappelli_safe/static/grappelli/tinymce/jscripts/tiny_mce/plugins/emotions/img
+copying build/lib/grappelli_safe/static/grappelli/tinymce/jscripts/tiny_mce/plugins/emotions/img/smiley-money-mouth.gif -> build/bdist.linux-x86_64/egg/grappelli_safe/static/grappelli/tinymce/jscripts/tiny_mce/plugins/emotions/img
+copying build/lib/grappelli_safe/static/grappelli/tinymce/jscripts/tiny_mce/plugins/emotions/img/smiley-cool.gif -> build/bdist.linux-x86_64/egg/grappelli_safe/static/grappelli/tinymce/jscripts/tiny_mce/plugins/emotions/img
+copying build/lib/grappelli_safe/static/grappelli/tinymce/jscripts/tiny_mce/plugins/emotions/img/smiley-frown.gif -> build/bdist.linux-x86_64/egg/grappelli_safe/static/grappelli/tinymce/jscripts/tiny_mce/plugins/emotions/img
+copying build/lib/grappelli_safe/static/grappelli/tinymce/jscripts/tiny_mce/plugins/emotions/img/smiley-innocent.gif -> build/bdist.linux-x86_64/egg/grappelli_safe/static/grappelli/tinymce/jscripts/tiny_mce/plugins/emotions/img
+copying build/lib/grappelli_safe/static/grappelli/tinymce/jscripts/tiny_mce/plugins/emotions/img/smiley-kiss.gif -> build/bdist.linux-x86_64/egg/grappelli_safe/static/grappelli/tinymce/jscripts/tiny_mce/plugins/emotions/img
+copying build/lib/grappelli_safe/static/grappelli/tinymce/jscripts/tiny_mce/plugins/emotions/img/smiley-tongue-out.gif -> build/bdist.linux-x86_64/egg/grappelli_safe/static/grappelli/tinymce/jscripts/tiny_mce/plugins/emotions/img
+copying build/lib/grappelli_safe/static/grappelli/tinymce/jscripts/tiny_mce/plugins/emotions/img/smiley-wink.gif -> build/bdist.linux-x86_64/egg/grappelli_safe/static/grappelli/tinymce/jscripts/tiny_mce/plugins/emotions/img
+copying build/lib/grappelli_safe/static/grappelli/tinymce/jscripts/tiny_mce/plugins/emotions/img/smiley-undecided.gif -> build/bdist.linux-x86_64/egg/grappelli_safe/static/grappelli/tinymce/jscripts/tiny_mce/plugins/emotions/img
+copying build/lib/grappelli_safe/static/grappelli/tinymce/jscripts/tiny_mce/plugins/emotions/img/smiley-surprised.gif -> build/bdist.linux-x86_64/egg/grappelli_safe/static/grappelli/tinymce/jscripts/tiny_mce/plugins/emotions/img
+copying build/lib/grappelli_safe/static/grappelli/tinymce/jscripts/tiny_mce/plugins/emotions/img/smiley-laughing.gif -> build/bdist.linux-x86_64/egg/grappelli_safe/static/grappelli/tinymce/jscripts/tiny_mce/plugins/emotions/img
+copying build/lib/grappelli_safe/static/grappelli/tinymce/jscripts/tiny_mce/plugins/emotions/img/smiley-foot-in-mouth.gif -> build/bdist.linux-x86_64/egg/grappelli_safe/static/grappelli/tinymce/jscripts/tiny_mce/plugins/emotions/img
+copying build/lib/grappelli_safe/static/grappelli/tinymce/jscripts/tiny_mce/plugins/emotions/img/smiley-sealed.gif -> build/bdist.linux-x86_64/egg/grappelli_safe/static/grappelli/tinymce/jscripts/tiny_mce/plugins/emotions/img
+copying build/lib/grappelli_safe/static/grappelli/tinymce/jscripts/tiny_mce/plugins/emotions/img/smiley-yell.gif -> build/bdist.linux-x86_64/egg/grappelli_safe/static/grappelli/tinymce/jscripts/tiny_mce/plugins/emotions/img
+copying build/lib/grappelli_safe/static/grappelli/tinymce/jscripts/tiny_mce/plugins/emotions/img/smiley-cry.gif -> build/bdist.linux-x86_64/egg/grappelli_safe/static/grappelli/tinymce/jscripts/tiny_mce/plugins/emotions/img
+copying build/lib/grappelli_safe/static/grappelli/tinymce/jscripts/tiny_mce/plugins/emotions/img/smiley-smile.gif -> build/bdist.linux-x86_64/egg/grappelli_safe/static/grappelli/tinymce/jscripts/tiny_mce/plugins/emotions/img
+copying build/lib/grappelli_safe/static/grappelli/tinymce/jscripts/tiny_mce/plugins/emotions/editor_plugin.js -> build/bdist.linux-x86_64/egg/grappelli_safe/static/grappelli/tinymce/jscripts/tiny_mce/plugins/emotions
+creating build/bdist.linux-x86_64/egg/grappelli_safe/static/grappelli/tinymce/jscripts/tiny_mce/plugins/emotions/js
+copying build/lib/grappelli_safe/static/grappelli/tinymce/jscripts/tiny_mce/plugins/emotions/js/emotions.js -> build/bdist.linux-x86_64/egg/grappelli_safe/static/grappelli/tinymce/jscripts/tiny_mce/plugins/emotions/js
+copying build/lib/grappelli_safe/static/grappelli/tinymce/jscripts/tiny_mce/plugins/emotions/editor_plugin_src.js -> build/bdist.linux-x86_64/egg/grappelli_safe/static/grappelli/tinymce/jscripts/tiny_mce/plugins/emotions
+creating build/bdist.linux-x86_64/egg/grappelli_safe/static/grappelli/tinymce/jscripts/tiny_mce/plugins/emotions/langs
+copying build/lib/grappelli_safe/static/grappelli/tinymce/jscripts/tiny_mce/plugins/emotions/langs/en_dlg.js -> build/bdist.linux-x86_64/egg/grappelli_safe/static/grappelli/tinymce/jscripts/tiny_mce/plugins/emotions/langs
+creating build/bdist.linux-x86_64/egg/grappelli_safe/static/grappelli/tinymce/jscripts/tiny_mce/plugins/advlink
+copying build/lib/grappelli_safe/static/grappelli/tinymce/jscripts/tiny_mce/plugins/advlink/editor_plugin.js -> build/bdist.linux-x86_64/egg/grappelli_safe/static/grappelli/tinymce/jscripts/tiny_mce/plugins/advlink
+creating build/bdist.linux-x86_64/egg/grappelli_safe/static/grappelli/tinymce/jscripts/tiny_mce/plugins/advlink/css
+copying build/lib/grappelli_safe/static/grappelli/tinymce/jscripts/tiny_mce/plugins/advlink/css/advlink.css -> build/bdist.linux-x86_64/egg/grappelli_safe/static/grappelli/tinymce/jscripts/tiny_mce/plugins/advlink/css
+creating build/bdist.linux-x86_64/egg/grappelli_safe/static/grappelli/tinymce/jscripts/tiny_mce/plugins/advlink/js
+copying build/lib/grappelli_safe/static/grappelli/tinymce/jscripts/tiny_mce/plugins/advlink/js/advlink.js -> build/bdist.linux-x86_64/egg/grappelli_safe/static/grappelli/tinymce/jscripts/tiny_mce/plugins/advlink/js
+copying build/lib/grappelli_safe/static/grappelli/tinymce/jscripts/tiny_mce/plugins/advlink/link.htm -> build/bdist.linux-x86_64/egg/grappelli_safe/static/grappelli/tinymce/jscripts/tiny_mce/plugins/advlink
+copying build/lib/grappelli_safe/static/grappelli/tinymce/jscripts/tiny_mce/plugins/advlink/editor_plugin_src.js -> build/bdist.linux-x86_64/egg/grappelli_safe/static/grappelli/tinymce/jscripts/tiny_mce/plugins/advlink
+creating build/bdist.linux-x86_64/egg/grappelli_safe/static/grappelli/tinymce/jscripts/tiny_mce/plugins/advlink/langs
+copying build/lib/grappelli_safe/static/grappelli/tinymce/jscripts/tiny_mce/plugins/advlink/langs/en_dlg.js -> build/bdist.linux-x86_64/egg/grappelli_safe/static/grappelli/tinymce/jscripts/tiny_mce/plugins/advlink/langs
+creating build/bdist.linux-x86_64/egg/grappelli_safe/static/grappelli/tinymce/jscripts/tiny_mce/plugins/spellchecker
+creating build/bdist.linux-x86_64/egg/grappelli_safe/static/grappelli/tinymce/jscripts/tiny_mce/plugins/spellchecker/img
+copying build/lib/grappelli_safe/static/grappelli/tinymce/jscripts/tiny_mce/plugins/spellchecker/img/wline.gif -> build/bdist.linux-x86_64/egg/grappelli_safe/static/grappelli/tinymce/jscripts/tiny_mce/plugins/spellchecker/img
+copying build/lib/grappelli_safe/static/grappelli/tinymce/jscripts/tiny_mce/plugins/spellchecker/editor_plugin.js -> build/bdist.linux-x86_64/egg/grappelli_safe/static/grappelli/tinymce/jscripts/tiny_mce/plugins/spellchecker
+creating build/bdist.linux-x86_64/egg/grappelli_safe/static/grappelli/tinymce/jscripts/tiny_mce/plugins/spellchecker/css
+copying build/lib/grappelli_safe/static/grappelli/tinymce/jscripts/tiny_mce/plugins/spellchecker/css/content.css -> build/bdist.linux-x86_64/egg/grappelli_safe/static/grappelli/tinymce/jscripts/tiny_mce/plugins/spellchecker/css
+copying build/lib/grappelli_safe/static/grappelli/tinymce/jscripts/tiny_mce/plugins/spellchecker/editor_plugin_src.js -> build/bdist.linux-x86_64/egg/grappelli_safe/static/grappelli/tinymce/jscripts/tiny_mce/plugins/spellchecker
+creating build/bdist.linux-x86_64/egg/grappelli_safe/static/grappelli/tinymce/jscripts/tiny_mce/plugins/autosave
+copying build/lib/grappelli_safe/static/grappelli/tinymce/jscripts/tiny_mce/plugins/autosave/editor_plugin.js -> build/bdist.linux-x86_64/egg/grappelli_safe/static/grappelli/tinymce/jscripts/tiny_mce/plugins/autosave
+copying build/lib/grappelli_safe/static/grappelli/tinymce/jscripts/tiny_mce/plugins/autosave/editor_plugin_src.js -> build/bdist.linux-x86_64/egg/grappelli_safe/static/grappelli/tinymce/jscripts/tiny_mce/plugins/autosave
+creating build/bdist.linux-x86_64/egg/grappelli_safe/static/grappelli/tinymce/jscripts/tiny_mce/plugins/autosave/langs
+copying build/lib/grappelli_safe/static/grappelli/tinymce/jscripts/tiny_mce/plugins/autosave/langs/en.js -> build/bdist.linux-x86_64/egg/grappelli_safe/static/grappelli/tinymce/jscripts/tiny_mce/plugins/autosave/langs
+copying build/lib/grappelli_safe/static/grappelli/tinymce/jscripts/tiny_mce/tiny_mce.js -> build/bdist.linux-x86_64/egg/grappelli_safe/static/grappelli/tinymce/jscripts/tiny_mce
+copying build/lib/grappelli_safe/static/grappelli/tinymce/jscripts/tiny_mce/tiny_mce_popup.js -> build/bdist.linux-x86_64/egg/grappelli_safe/static/grappelli/tinymce/jscripts/tiny_mce
+creating build/bdist.linux-x86_64/egg/grappelli_safe/static/grappelli/tinymce/jscripts/tiny_mce/langs
+copying build/lib/grappelli_safe/static/grappelli/tinymce/jscripts/tiny_mce/langs/en.js -> build/bdist.linux-x86_64/egg/grappelli_safe/static/grappelli/tinymce/jscripts/tiny_mce/langs
+creating build/bdist.linux-x86_64/egg/grappelli_safe/static/grappelli/img
+creating build/bdist.linux-x86_64/egg/grappelli_safe/static/grappelli/img/admin
+copying build/lib/grappelli_safe/static/grappelli/img/admin/changelist-bg.gif -> build/bdist.linux-x86_64/egg/grappelli_safe/static/grappelli/img/admin
+copying build/lib/grappelli_safe/static/grappelli/img/admin/inline-splitter-bg.gif -> build/bdist.linux-x86_64/egg/grappelli_safe/static/grappelli/img/admin
+copying build/lib/grappelli_safe/static/grappelli/img/admin/icon_addlink.gif -> build/bdist.linux-x86_64/egg/grappelli_safe/static/grappelli/img/admin
+copying build/lib/grappelli_safe/static/grappelli/img/admin/nav-bg-grabber.gif -> build/bdist.linux-x86_64/egg/grappelli_safe/static/grappelli/img/admin
+copying build/lib/grappelli_safe/static/grappelli/img/admin/tooltag-arrowright_over.gif -> build/bdist.linux-x86_64/egg/grappelli_safe/static/grappelli/img/admin
+copying build/lib/grappelli_safe/static/grappelli/img/admin/selector-search.gif -> build/bdist.linux-x86_64/egg/grappelli_safe/static/grappelli/img/admin
+copying build/lib/grappelli_safe/static/grappelli/img/admin/arrow-up.gif -> build/bdist.linux-x86_64/egg/grappelli_safe/static/grappelli/img/admin
+copying build/lib/grappelli_safe/static/grappelli/img/admin/tool-left_over.gif -> build/bdist.linux-x86_64/egg/grappelli_safe/static/grappelli/img/admin
+copying build/lib/grappelli_safe/static/grappelli/img/admin/icon_alert.gif -> build/bdist.linux-x86_64/egg/grappelli_safe/static/grappelli/img/admin
+copying build/lib/grappelli_safe/static/grappelli/img/admin/icon_calendar.gif -> build/bdist.linux-x86_64/egg/grappelli_safe/static/grappelli/img/admin
+copying build/lib/grappelli_safe/static/grappelli/img/admin/icon-unknown.gif -> build/bdist.linux-x86_64/egg/grappelli_safe/static/grappelli/img/admin
+copying build/lib/grappelli_safe/static/grappelli/img/admin/nav-bg.gif -> build/bdist.linux-x86_64/egg/grappelli_safe/static/grappelli/img/admin
+copying build/lib/grappelli_safe/static/grappelli/img/admin/selector-add.gif -> build/bdist.linux-x86_64/egg/grappelli_safe/static/grappelli/img/admin
+copying build/lib/grappelli_safe/static/grappelli/img/admin/tooltag-add.gif -> build/bdist.linux-x86_64/egg/grappelli_safe/static/grappelli/img/admin
+copying build/lib/grappelli_safe/static/grappelli/img/admin/icon-yes.gif -> build/bdist.linux-x86_64/egg/grappelli_safe/static/grappelli/img/admin
+copying build/lib/grappelli_safe/static/grappelli/img/admin/icon_searchbox.png -> build/bdist.linux-x86_64/egg/grappelli_safe/static/grappelli/img/admin
+copying build/lib/grappelli_safe/static/grappelli/img/admin/icon_changelink.gif -> build/bdist.linux-x86_64/egg/grappelli_safe/static/grappelli/img/admin
+copying build/lib/grappelli_safe/static/grappelli/img/admin/chooser-bg.gif -> build/bdist.linux-x86_64/egg/grappelli_safe/static/grappelli/img/admin
+copying build/lib/grappelli_safe/static/grappelli/img/admin/selector-removeall.gif -> build/bdist.linux-x86_64/egg/grappelli_safe/static/grappelli/img/admin
+copying build/lib/grappelli_safe/static/grappelli/img/admin/icon_deletelink.gif -> build/bdist.linux-x86_64/egg/grappelli_safe/static/grappelli/img/admin
+copying build/lib/grappelli_safe/static/grappelli/img/admin/tool-left.gif -> build/bdist.linux-x86_64/egg/grappelli_safe/static/grappelli/img/admin
+copying build/lib/grappelli_safe/static/grappelli/img/admin/tooltag-arrowright.gif -> build/bdist.linux-x86_64/egg/grappelli_safe/static/grappelli/img/admin
+copying build/lib/grappelli_safe/static/grappelli/img/admin/icon-no.gif -> build/bdist.linux-x86_64/egg/grappelli_safe/static/grappelli/img/admin
+copying build/lib/grappelli_safe/static/grappelli/img/admin/default-bg.gif -> build/bdist.linux-x86_64/egg/grappelli_safe/static/grappelli/img/admin
+copying build/lib/grappelli_safe/static/grappelli/img/admin/icon_error.gif -> build/bdist.linux-x86_64/egg/grappelli_safe/static/grappelli/img/admin
+copying build/lib/grappelli_safe/static/grappelli/img/admin/deleted-overlay.gif -> build/bdist.linux-x86_64/egg/grappelli_safe/static/grappelli/img/admin
+copying build/lib/grappelli_safe/static/grappelli/img/admin/icon_success.gif -> build/bdist.linux-x86_64/egg/grappelli_safe/static/grappelli/img/admin
+copying build/lib/grappelli_safe/static/grappelli/img/admin/nav-bg-reverse.gif -> build/bdist.linux-x86_64/egg/grappelli_safe/static/grappelli/img/admin
+copying build/lib/grappelli_safe/static/grappelli/img/admin/tool-right_over.gif -> build/bdist.linux-x86_64/egg/grappelli_safe/static/grappelli/img/admin
+copying build/lib/grappelli_safe/static/grappelli/img/admin/default-bg-reverse.gif -> build/bdist.linux-x86_64/egg/grappelli_safe/static/grappelli/img/admin
+copying build/lib/grappelli_safe/static/grappelli/img/admin/selector-remove.gif -> build/bdist.linux-x86_64/egg/grappelli_safe/static/grappelli/img/admin
+copying build/lib/grappelli_safe/static/grappelli/img/admin/changelist-bg_rtl.gif -> build/bdist.linux-x86_64/egg/grappelli_safe/static/grappelli/img/admin
+copying build/lib/grappelli_safe/static/grappelli/img/admin/inline-restore.png -> build/bdist.linux-x86_64/egg/grappelli_safe/static/grappelli/img/admin
+copying build/lib/grappelli_safe/static/grappelli/img/admin/tooltag-add_over.gif -> build/bdist.linux-x86_64/egg/grappelli_safe/static/grappelli/img/admin
+copying build/lib/grappelli_safe/static/grappelli/img/admin/selector-addall.gif -> build/bdist.linux-x86_64/egg/grappelli_safe/static/grappelli/img/admin
+copying build/lib/grappelli_safe/static/grappelli/img/admin/inline-delete-8bit.png -> build/bdist.linux-x86_64/egg/grappelli_safe/static/grappelli/img/admin
+copying build/lib/grappelli_safe/static/grappelli/img/admin/inline-restore-8bit.png -> build/bdist.linux-x86_64/egg/grappelli_safe/static/grappelli/img/admin
+copying build/lib/grappelli_safe/static/grappelli/img/admin/icon_clock.gif -> build/bdist.linux-x86_64/egg/grappelli_safe/static/grappelli/img/admin
+copying build/lib/grappelli_safe/static/grappelli/img/admin/tool-right.gif -> build/bdist.linux-x86_64/egg/grappelli_safe/static/grappelli/img/admin
+copying build/lib/grappelli_safe/static/grappelli/img/admin/selector_stacked-add.gif -> build/bdist.linux-x86_64/egg/grappelli_safe/static/grappelli/img/admin
+copying build/lib/grappelli_safe/static/grappelli/img/admin/inline-delete.png -> build/bdist.linux-x86_64/egg/grappelli_safe/static/grappelli/img/admin
+copying build/lib/grappelli_safe/static/grappelli/img/admin/selector_stacked-remove.gif -> build/bdist.linux-x86_64/egg/grappelli_safe/static/grappelli/img/admin
+copying build/lib/grappelli_safe/static/grappelli/img/admin/chooser_stacked-bg.gif -> build/bdist.linux-x86_64/egg/grappelli_safe/static/grappelli/img/admin
+copying build/lib/grappelli_safe/static/grappelli/img/admin/arrow-down.gif -> build/bdist.linux-x86_64/egg/grappelli_safe/static/grappelli/img/admin
+copying build/lib/grappelli_safe/static/grappelli/img/icon_calendar.gif -> build/bdist.linux-x86_64/egg/grappelli_safe/static/grappelli/img
+creating build/bdist.linux-x86_64/egg/grappelli_safe/static/grappelli/img/icons
+copying build/lib/grappelli_safe/static/grappelli/img/icons/icon-bookmark_add.png -> build/bdist.linux-x86_64/egg/grappelli_safe/static/grappelli/img/icons
+copying build/lib/grappelli_safe/static/grappelli/img/icons/icon-selector_remove-m2m_vertical-hover.png -> build/bdist.linux-x86_64/egg/grappelli_safe/static/grappelli/img/icons
+copying build/lib/grappelli_safe/static/grappelli/img/icons/icon-selector_add-m2m_horizontal-hover.png -> build/bdist.linux-x86_64/egg/grappelli_safe/static/grappelli/img/icons
+copying build/lib/grappelli_safe/static/grappelli/img/icons/icon_inline-item-tools_closehandler.png -> build/bdist.linux-x86_64/egg/grappelli_safe/static/grappelli/img/icons
+copying build/lib/grappelli_safe/static/grappelli/img/icons/icon-inline_item_tools-openhandler.png -> build/bdist.linux-x86_64/egg/grappelli_safe/static/grappelli/img/icons
+copying build/lib/grappelli_safe/static/grappelli/img/icons/icon-selector_add-m2m_vertical-hover.png -> build/bdist.linux-x86_64/egg/grappelli_safe/static/grappelli/img/icons
+copying build/lib/grappelli_safe/static/grappelli/img/icons/icon_inline-item-tools_addhandler.png -> build/bdist.linux-x86_64/egg/grappelli_safe/static/grappelli/img/icons
+copying build/lib/grappelli_safe/static/grappelli/img/icons/icon-calendarnav_previous.png -> build/bdist.linux-x86_64/egg/grappelli_safe/static/grappelli/img/icons
+copying build/lib/grappelli_safe/static/grappelli/img/icons/icon-selector_remove-m2m_horizontal.png -> build/bdist.linux-x86_64/egg/grappelli_safe/static/grappelli/img/icons
+copying build/lib/grappelli_safe/static/grappelli/img/icons/icon-fb_show.png -> build/bdist.linux-x86_64/egg/grappelli_safe/static/grappelli/img/icons
+copying build/lib/grappelli_safe/static/grappelli/img/icons/icon-addlink-hover.png -> build/bdist.linux-x86_64/egg/grappelli_safe/static/grappelli/img/icons
+copying build/lib/grappelli_safe/static/grappelli/img/icons/icon-menulist_external.png -> build/bdist.linux-x86_64/egg/grappelli_safe/static/grappelli/img/icons
+copying build/lib/grappelli_safe/static/grappelli/img/icons/icon-changelink.png -> build/bdist.linux-x86_64/egg/grappelli_safe/static/grappelli/img/icons
+copying build/lib/grappelli_safe/static/grappelli/img/icons/icon-inline_item_tools-closehandler-hover.png -> build/bdist.linux-x86_64/egg/grappelli_safe/static/grappelli/img/icons
+copying build/lib/grappelli_safe/static/grappelli/img/icons/icon-selector_remove-m2m_vertical.png -> build/bdist.linux-x86_64/egg/grappelli_safe/static/grappelli/img/icons
+copying build/lib/grappelli_safe/static/grappelli/img/icons/icon-no.png -> build/bdist.linux-x86_64/egg/grappelli_safe/static/grappelli/img/icons
+copying build/lib/grappelli_safe/static/grappelli/img/icons/icon-clock.png -> build/bdist.linux-x86_64/egg/grappelli_safe/static/grappelli/img/icons
+copying build/lib/grappelli_safe/static/grappelli/img/icons/icon-related_lookup.png -> build/bdist.linux-x86_64/egg/grappelli_safe/static/grappelli/img/icons
+copying build/lib/grappelli_safe/static/grappelli/img/icons/icon-changelink-hover.png -> build/bdist.linux-x86_64/egg/grappelli_safe/static/grappelli/img/icons
+copying build/lib/grappelli_safe/static/grappelli/img/icons/icon-selector_remove-m2m_horizontal-hover.png -> build/bdist.linux-x86_64/egg/grappelli_safe/static/grappelli/img/icons
+copying build/lib/grappelli_safe/static/grappelli/img/icons/icon-bookmark_manage-hover.png -> build/bdist.linux-x86_64/egg/grappelli_safe/static/grappelli/img/icons
+copying build/lib/grappelli_safe/static/grappelli/img/icons/icon-th-ascending.png -> build/bdist.linux-x86_64/egg/grappelli_safe/static/grappelli/img/icons
+copying build/lib/grappelli_safe/static/grappelli/img/icons/icon_fieldset_collapse-closed.png -> build/bdist.linux-x86_64/egg/grappelli_safe/static/grappelli/img/icons
+copying build/lib/grappelli_safe/static/grappelli/img/icons/icon_fieldset_collapse-open.png -> build/bdist.linux-x86_64/egg/grappelli_safe/static/grappelli/img/icons
+copying build/lib/grappelli_safe/static/grappelli/img/icons/icon-actionlist_deletelink.png -> build/bdist.linux-x86_64/egg/grappelli_safe/static/grappelli/img/icons
+copying build/lib/grappelli_safe/static/grappelli/img/icons/icon-inline_item_tools-openhandler-hover.png -> build/bdist.linux-x86_64/egg/grappelli_safe/static/grappelli/img/icons
+copying build/lib/grappelli_safe/static/grappelli/img/icons/icon-addlink.png -> build/bdist.linux-x86_64/egg/grappelli_safe/static/grappelli/img/icons
+copying build/lib/grappelli_safe/static/grappelli/img/icons/icon-selector_add-m2m_vertical.png -> build/bdist.linux-x86_64/egg/grappelli_safe/static/grappelli/img/icons
+copying build/lib/grappelli_safe/static/grappelli/img/icons/icon-fb_show-hover.png -> build/bdist.linux-x86_64/egg/grappelli_safe/static/grappelli/img/icons
+copying build/lib/grappelli_safe/static/grappelli/img/icons/icon-selector_add-m2m_horizontal.png -> build/bdist.linux-x86_64/egg/grappelli_safe/static/grappelli/img/icons
+copying build/lib/grappelli_safe/static/grappelli/img/icons/icon-inline_item_tools-closehandler.png -> build/bdist.linux-x86_64/egg/grappelli_safe/static/grappelli/img/icons
+copying build/lib/grappelli_safe/static/grappelli/img/icons/icon-inline_item_tools-draghandler-hover.png -> build/bdist.linux-x86_64/egg/grappelli_safe/static/grappelli/img/icons
+copying build/lib/grappelli_safe/static/grappelli/img/icons/icon-actionlist_addlink.png -> build/bdist.linux-x86_64/egg/grappelli_safe/static/grappelli/img/icons
+copying build/lib/grappelli_safe/static/grappelli/img/icons/icon-clock-hover.png -> build/bdist.linux-x86_64/egg/grappelli_safe/static/grappelli/img/icons
+copying build/lib/grappelli_safe/static/grappelli/img/icons/icon-th-descending.png -> build/bdist.linux-x86_64/egg/grappelli_safe/static/grappelli/img/icons
+copying build/lib/grappelli_safe/static/grappelli/img/icons/icon-inline_item_tools-viewsitelink-hover.png -> build/bdist.linux-x86_64/egg/grappelli_safe/static/grappelli/img/icons
+copying build/lib/grappelli_safe/static/grappelli/img/icons/icon-inline_item_tools-addhandler-hover.png -> build/bdist.linux-x86_64/egg/grappelli_safe/static/grappelli/img/icons
+copying build/lib/grappelli_safe/static/grappelli/img/icons/icon-actionlist_addlink-hover.png -> build/bdist.linux-x86_64/egg/grappelli_safe/static/grappelli/img/icons
+copying build/lib/grappelli_safe/static/grappelli/img/icons/icon-searchbox.png -> build/bdist.linux-x86_64/egg/grappelli_safe/static/grappelli/img/icons
+copying build/lib/grappelli_safe/static/grappelli/img/icons/icon-actionlist_changelink-hover.png -> build/bdist.linux-x86_64/egg/grappelli_safe/static/grappelli/img/icons
+copying build/lib/grappelli_safe/static/grappelli/img/icons/icon-bookmark_remove-hover.png -> build/bdist.linux-x86_64/egg/grappelli_safe/static/grappelli/img/icons
+copying build/lib/grappelli_safe/static/grappelli/img/icons/icon-calendar-hover.png -> build/bdist.linux-x86_64/egg/grappelli_safe/static/grappelli/img/icons
+copying build/lib/grappelli_safe/static/grappelli/img/icons/icon-calendarnav_next.png -> build/bdist.linux-x86_64/egg/grappelli_safe/static/grappelli/img/icons
+copying build/lib/grappelli_safe/static/grappelli/img/icons/icon-menulist_internal-hover.png -> build/bdist.linux-x86_64/egg/grappelli_safe/static/grappelli/img/icons
+copying build/lib/grappelli_safe/static/grappelli/img/icons/icon-bookmark_manage.png -> build/bdist.linux-x86_64/egg/grappelli_safe/static/grappelli/img/icons
+copying build/lib/grappelli_safe/static/grappelli/img/icons/icon-actionlist_changelink.png -> build/bdist.linux-x86_64/egg/grappelli_safe/static/grappelli/img/icons
+copying build/lib/grappelli_safe/static/grappelli/img/icons/icon-bookmark_add-inactive.png -> build/bdist.linux-x86_64/egg/grappelli_safe/static/grappelli/img/icons
+copying build/lib/grappelli_safe/static/grappelli/img/icons/icon-actions_changelist.png -> build/bdist.linux-x86_64/egg/grappelli_safe/static/grappelli/img/icons
+copying build/lib/grappelli_safe/static/grappelli/img/icons/icon-add_another-hover.png -> build/bdist.linux-x86_64/egg/grappelli_safe/static/grappelli/img/icons
+copying build/lib/grappelli_safe/static/grappelli/img/icons/icon-yes.png -> build/bdist.linux-x86_64/egg/grappelli_safe/static/grappelli/img/icons
+copying build/lib/grappelli_safe/static/grappelli/img/icons/icon-inline_item_tools-addhandler.png -> build/bdist.linux-x86_64/egg/grappelli_safe/static/grappelli/img/icons
+copying build/lib/grappelli_safe/static/grappelli/img/icons/icon-inline_item_tools-draghandler.png -> build/bdist.linux-x86_64/egg/grappelli_safe/static/grappelli/img/icons
+copying build/lib/grappelli_safe/static/grappelli/img/icons/icon-add_another.png -> build/bdist.linux-x86_64/egg/grappelli_safe/static/grappelli/img/icons
+copying build/lib/grappelli_safe/static/grappelli/img/icons/icon-menulist_internal.png -> build/bdist.linux-x86_64/egg/grappelli_safe/static/grappelli/img/icons
+copying build/lib/grappelli_safe/static/grappelli/img/icons/icon-related_lookup-hover.png -> build/bdist.linux-x86_64/egg/grappelli_safe/static/grappelli/img/icons
+copying build/lib/grappelli_safe/static/grappelli/img/icons/icon-calendar.png -> build/bdist.linux-x86_64/egg/grappelli_safe/static/grappelli/img/icons
+copying build/lib/grappelli_safe/static/grappelli/img/icons/icon-unknown.png -> build/bdist.linux-x86_64/egg/grappelli_safe/static/grappelli/img/icons
+copying build/lib/grappelli_safe/static/grappelli/img/icons/icon-inline_item_tools-deletelink-hover.png -> build/bdist.linux-x86_64/egg/grappelli_safe/static/grappelli/img/icons
+copying build/lib/grappelli_safe/static/grappelli/img/icons/icon-bookmark_remove.png -> build/bdist.linux-x86_64/egg/grappelli_safe/static/grappelli/img/icons
+copying build/lib/grappelli_safe/static/grappelli/img/icons/icon-bookmark_add-hover.png -> build/bdist.linux-x86_64/egg/grappelli_safe/static/grappelli/img/icons
+copying build/lib/grappelli_safe/static/grappelli/img/icons/icon-inline_item_tools-viewsitelink.png -> build/bdist.linux-x86_64/egg/grappelli_safe/static/grappelli/img/icons
+copying build/lib/grappelli_safe/static/grappelli/img/icons/icon_inline-item-tools_openhandler.png -> build/bdist.linux-x86_64/egg/grappelli_safe/static/grappelli/img/icons
+copying build/lib/grappelli_safe/static/grappelli/img/icons/icon-bookmark_remove-inactive.png -> build/bdist.linux-x86_64/egg/grappelli_safe/static/grappelli/img/icons
+copying build/lib/grappelli_safe/static/grappelli/img/icons/icon-inline_item_tools-deletelink.png -> build/bdist.linux-x86_64/egg/grappelli_safe/static/grappelli/img/icons
+copying build/lib/grappelli_safe/static/grappelli/img/icons/icon-menulist_external-hover.png -> build/bdist.linux-x86_64/egg/grappelli_safe/static/grappelli/img/icons
+copying build/lib/grappelli_safe/static/grappelli/img/grappelli-icon.png -> build/bdist.linux-x86_64/egg/grappelli_safe/static/grappelli/img
+copying build/lib/grappelli_safe/static/grappelli/img/icon_clock.gif -> build/bdist.linux-x86_64/egg/grappelli_safe/static/grappelli/img
+creating build/bdist.linux-x86_64/egg/grappelli_safe/static/grappelli/css
+copying build/lib/grappelli_safe/static/grappelli/css/webkit-gradients.css -> build/bdist.linux-x86_64/egg/grappelli_safe/static/grappelli/css
+copying build/lib/grappelli_safe/static/grappelli/css/rtl.css -> build/bdist.linux-x86_64/egg/grappelli_safe/static/grappelli/css
+copying build/lib/grappelli_safe/static/grappelli/css/documentation.css -> build/bdist.linux-x86_64/egg/grappelli_safe/static/grappelli/css
+copying build/lib/grappelli_safe/static/grappelli/css/dashboard.css -> build/bdist.linux-x86_64/egg/grappelli_safe/static/grappelli/css
+copying build/lib/grappelli_safe/static/grappelli/css/typography.css -> build/bdist.linux-x86_64/egg/grappelli_safe/static/grappelli/css
+copying build/lib/grappelli_safe/static/grappelli/css/login.css -> build/bdist.linux-x86_64/egg/grappelli_safe/static/grappelli/css
+copying build/lib/grappelli_safe/static/grappelli/css/reset.css -> build/bdist.linux-x86_64/egg/grappelli_safe/static/grappelli/css
+copying build/lib/grappelli_safe/static/grappelli/css/modules.css -> build/bdist.linux-x86_64/egg/grappelli_safe/static/grappelli/css
+copying build/lib/grappelli_safe/static/grappelli/css/base.css -> build/bdist.linux-x86_64/egg/grappelli_safe/static/grappelli/css
+copying build/lib/grappelli_safe/static/grappelli/css/changelist.css -> build/bdist.linux-x86_64/egg/grappelli_safe/static/grappelli/css
+copying build/lib/grappelli_safe/static/grappelli/css/widgets.css -> build/bdist.linux-x86_64/egg/grappelli_safe/static/grappelli/css
+copying build/lib/grappelli_safe/static/grappelli/css/tables.css -> build/bdist.linux-x86_64/egg/grappelli_safe/static/grappelli/css
+copying build/lib/grappelli_safe/static/grappelli/css/forms.css -> build/bdist.linux-x86_64/egg/grappelli_safe/static/grappelli/css
+creating build/bdist.linux-x86_64/egg/grappelli_safe/static/grappelli/js
+creating build/bdist.linux-x86_64/egg/grappelli_safe/static/grappelli/js/admin
+copying build/lib/grappelli_safe/static/grappelli/js/admin/Inline.js -> build/bdist.linux-x86_64/egg/grappelli_safe/static/grappelli/js/admin
+copying build/lib/grappelli_safe/static/grappelli/js/admin/CollapsedInlineFieldsets.js -> build/bdist.linux-x86_64/egg/grappelli_safe/static/grappelli/js/admin
+copying build/lib/grappelli_safe/static/grappelli/js/admin/Changelist.js -> build/bdist.linux-x86_64/egg/grappelli_safe/static/grappelli/js/admin
+creating build/bdist.linux-x86_64/egg/grappelli_safe/static/grappelli/tinymce_setup
+copying build/lib/grappelli_safe/static/grappelli/tinymce_setup/tinymce_setup.js -> build/bdist.linux-x86_64/egg/grappelli_safe/static/grappelli/tinymce_setup
+copying build/lib/grappelli_safe/__init__.py -> build/bdist.linux-x86_64/egg/grappelli_safe
+creating build/bdist.linux-x86_64/egg/grappelli_safe/locale
+creating build/bdist.linux-x86_64/egg/grappelli_safe/locale/de
+creating build/bdist.linux-x86_64/egg/grappelli_safe/locale/de/LC_MESSAGES
+copying build/lib/grappelli_safe/locale/de/LC_MESSAGES/django.mo -> build/bdist.linux-x86_64/egg/grappelli_safe/locale/de/LC_MESSAGES
+copying build/lib/grappelli_safe/locale/de/LC_MESSAGES/django.po -> build/bdist.linux-x86_64/egg/grappelli_safe/locale/de/LC_MESSAGES
+creating build/bdist.linux-x86_64/egg/grappelli_safe/locale/ar
+creating build/bdist.linux-x86_64/egg/grappelli_safe/locale/ar/LC_MESSAGES
+copying build/lib/grappelli_safe/locale/ar/LC_MESSAGES/django.mo -> build/bdist.linux-x86_64/egg/grappelli_safe/locale/ar/LC_MESSAGES
+copying build/lib/grappelli_safe/locale/ar/LC_MESSAGES/django.po -> build/bdist.linux-x86_64/egg/grappelli_safe/locale/ar/LC_MESSAGES
+creating build/bdist.linux-x86_64/egg/grappelli_safe/locale/pt_BR
+creating build/bdist.linux-x86_64/egg/grappelli_safe/locale/pt_BR/LC_MESSAGES
+copying build/lib/grappelli_safe/locale/pt_BR/LC_MESSAGES/django.mo -> build/bdist.linux-x86_64/egg/grappelli_safe/locale/pt_BR/LC_MESSAGES
+copying build/lib/grappelli_safe/locale/pt_BR/LC_MESSAGES/django.po -> build/bdist.linux-x86_64/egg/grappelli_safe/locale/pt_BR/LC_MESSAGES
+byte-compiling build/bdist.linux-x86_64/egg/grappelli_safe/__init__.py to __init__.pyc
+creating build/bdist.linux-x86_64/egg/EGG-INFO
+copying grappelli_safe.egg-info/PKG-INFO -> build/bdist.linux-x86_64/egg/EGG-INFO
+copying grappelli_safe.egg-info/SOURCES.txt -> build/bdist.linux-x86_64/egg/EGG-INFO
+copying grappelli_safe.egg-info/dependency_links.txt -> build/bdist.linux-x86_64/egg/EGG-INFO
+copying grappelli_safe.egg-info/not-zip-safe -> build/bdist.linux-x86_64/egg/EGG-INFO
+copying grappelli_safe.egg-info/top_level.txt -> build/bdist.linux-x86_64/egg/EGG-INFO
+creating dist
+creating 'dist/grappelli_safe-0.3.13-py2.7.egg' and adding 'build/bdist.linux-x86_64/egg' to it
+removing 'build/bdist.linux-x86_64/egg' (and everything under it)
+Processing grappelli_safe-0.3.13-py2.7.egg
+creating /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/grappelli_safe-0.3.13-py2.7.egg
+Extracting grappelli_safe-0.3.13-py2.7.egg to /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages
+Adding grappelli-safe 0.3.13 to easy-install.pth file
+
+Installed /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/grappelli_safe-0.3.13-py2.7.egg
+Processing dependencies for grappelli-safe==0.3.13
+Finished processing dependencies for grappelli-safe==0.3.13
+
+The following NEW packages will be INSTALLED:
+
+    openssl:    1.0.1k-1     
+    pip:        7.0.3-py27_0 
+    python:     2.7.10-0     
+    readline:   6.2-2        
+    setuptools: 18.0.1-py27_0
+    sqlite:     3.8.4.1-1    
+    system:     5.8-2        
+    tk:         8.5.18-0     
+    zlib:       1.2.8-0      
+
+Linking packages ...
+[                    ]|                                                  |   0%[openssl             ]|                                                  |   0%[readline            ]|#####                                             |  11%[sqlite              ]|###########                                       |  22%[system              ]|################                                  |  33%[tk                  ]|######################                            |  44%[zlib                ]|###########################                       |  55%[python              ]|#################################                 |  66%[setuptools          ]|######################################            |  77%[pip                 ]|############################################      |  88%[      COMPLETE      ]|##################################################| 100%
+Removing old work directory
+Source cache directory is: /home/ubuntu/miniconda/conda-bld/src_cache
+Found source in cache: grappelli_safe-0.3.13.tar.gz
+Extracting download
+Package: grappelli_safe-0.3.13-py_0
+source tree in: /home/ubuntu/miniconda/conda-bld/work/grappelli_safe-0.3.13
+found egg dir: /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/grappelli_safe-0.3.13-py2.7.egg
+number of files: 442
+Fixing permissions
+Fixing permissions
+BUILD END: grappelli_safe-0.3.13-py_0
+TEST START: grappelli_safe-0.3.13-py_0
+Fetching package metadata: ......
+
+WARNING: conda-build appears to be out of date. You have version 1.13.0 but the
+latest version is 1.14.1. Run
+
+conda update -n root conda-build
+
+to get the latest version.
+
+Solving package specifications: .
+The following packages will be downloaded:
+
+    package                    |            build
+    ---------------------------|-----------------
+    grappelli_safe-0.3.13      |             py_0         553 KB
+
+The following NEW packages will be INSTALLED:
+
+    grappelli_safe: 0.3.13-py_0  
+    openssl:        1.0.1k-1     
+    pip:            7.0.3-py27_0 
+    python:         2.7.10-0     
+    readline:       6.2-2        
+    setuptools:     18.0.1-py27_0
+    sqlite:         3.8.4.1-1    
+    system:         5.8-2        
+    tk:             8.5.18-0     
+    zlib:           1.2.8-0      
+
+Fetching packages ...
+grappelli_safe   0% |                              | ETA:  --:--:--   0.00  B/sgrappelli_safe   2% |                               | ETA:  0:00:00  46.53 MB/sgrappelli_safe   5% |#                              | ETA:  0:00:00  58.61 MB/sgrappelli_safe   8% |##                             | ETA:  0:00:00  65.70 MB/sgrappelli_safe  11% |###                            | ETA:  0:00:00  69.57 MB/sgrappelli_safe  14% |####                           | ETA:  0:00:00  72.49 MB/sgrappelli_safe  17% |#####                          | ETA:  0:00:00  74.86 MB/sgrappelli_safe  20% |######                         | ETA:  0:00:00  11.90 MB/sgrappelli_safe  23% |#######                        | ETA:  0:00:00  13.34 MB/sgrappelli_safe  26% |########                       | ETA:  0:00:00  14.71 MB/sgrappelli_safe  28% |########                       | ETA:  0:00:00  16.05 MB/sgrappelli_safe  31% |#########                      | ETA:  0:00:00  17.35 MB/sgrappelli_safe  34% |##########                     | ETA:  0:00:00  18.60 MB/sgrappelli_safe  37% |###########                    | ETA:  0:00:00  19.81 MB/sgrappelli_safe  40% |############                   | ETA:  0:00:00  20.98 MB/sgrappelli_safe  43% |#############                  | ETA:  0:00:00  22.12 MB/sgrappelli_safe  46% |##############                 | ETA:  0:00:00  23.22 MB/sgrappelli_safe  49% |###############                | ETA:  0:00:00  24.29 MB/sgrappelli_safe  52% |################               | ETA:  0:00:00  25.32 MB/sgrappelli_safe  55% |#################              | ETA:  0:00:00  26.33 MB/sgrappelli_safe  57% |#################              | ETA:  0:00:00  27.30 MB/sgrappelli_safe  60% |##################             | ETA:  0:00:00  28.23 MB/sgrappelli_safe  63% |###################            | ETA:  0:00:00  29.14 MB/sgrappelli_safe  66% |####################           | ETA:  0:00:00  30.03 MB/sgrappelli_safe  69% |#####################          | ETA:  0:00:00  30.91 MB/sgrappelli_safe  72% |######################         | ETA:  0:00:00  31.75 MB/sgrappelli_safe  75% |#######################        | ETA:  0:00:00  32.57 MB/sgrappelli_safe  78% |########################       | ETA:  0:00:00  33.36 MB/sgrappelli_safe  81% |#########################      | ETA:  0:00:00  34.13 MB/sgrappelli_safe  83% |##########################     | ETA:  0:00:00  34.89 MB/sgrappelli_safe  86% |##########################     | ETA:  0:00:00  35.61 MB/sgrappelli_safe  89% |###########################    | ETA:  0:00:00  36.30 MB/sgrappelli_safe  92% |############################   | ETA:  0:00:00  36.99 MB/sgrappelli_safe  95% |#############################  | ETA:  0:00:00  37.67 MB/sgrappelli_safe  98% |############################## | ETA:  0:00:00  38.34 MB/sgrappelli_safe 100% |###############################| ETA:  0:00:00  38.52 MB/sgrappelli_safe 100% |###############################| Time: 0:00:00  37.91 MB/s
+Extracting packages ...
+[      COMPLETE      ]|                                                  |   0%[grappelli_safe      ]|                                                  |   0%[grappelli_safe      ]|                                                  |   0%[      COMPLETE      ]|##################################################| 100%
+Linking packages ...
+[      COMPLETE      ]|                                                  |   0%[openssl             ]|                                             /home/ubuntu/miniconda/pkgs/grappelli_safe-0.3.13-py_0/bin/.grappelli_safe-pre-link.sh: line 2: /home/ubuntu/miniconda/envs/_test/bin/python: No such file or directory
+     |   0%[openssl             ]|                                                  |   0%[readline            ]|#####                                             |  10%[sqlite              ]|##########                                        |  20%[system              ]|###############                                   |  30%[tk                  ]|####################                              |  40%[zlib                ]|#########################                         |  50%[grappelli_safe      ]|##############################                    |  60%Error: pre-link failed: grappelli_safe-0.3.13-py_0

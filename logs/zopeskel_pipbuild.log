@@ -1,0 +1,91 @@
+Error: prefix already exists: /home/ubuntu/miniconda/envs/_pipbuild_
+Collecting templer.core==1.0b4
+  Downloading http://localhost/packages/source/t/templer.core/templer.core-1.0b4.zip (131kB)
+setuptools must be installed to install from a source distribution
+Package search: {'_pypi_ordering': False, 'version': '3.0b3', 'name': 'ZopeSkel', 'summary': 'Templates and code generator for quickstarting Python, Zope and Plone projects.'}
+Creating standard recipe for zopeskel-3.0b3
+Converting recipe in /home/ubuntu/pypi-conda-builds/zopeskel
+package = ZopeSkel
+   dependencies = [u'templer.core', u'templer.buildout', u'templer.zope', u'templer.plone[localcommands]']
+Creating standard recipe for templer.core
+Warning, the following versions were found for templer.core
+1.0b4
+1.0b3
+1.0b2
+1.0b1
+Using 1.0b4
+Use --version to specify a different version.
+Using url https://pypi.python.org/packages/source/t/templer.core/templer.core-1.0b4.zip (128 KB) for templer.core.
+Downloading templer.core
+Unpacking templer.core...
+done
+working in /tmp/tmp2bTTlwconda_skeleton_templer.core-1.0b4.zip
+Fetching package metadata: ......
+
+WARNING: conda-build appears to be out of date. You have version 1.13.0 but the
+latest version is 1.14.1. Run
+
+conda update -n root conda-build
+
+to get the latest version.
+
+Solving package specifications: .patching file core.py
+Hunk #1 succeeded at 168 with fuzz 2 (offset 2 lines).
+An unexpected error has occurred, please consider sending the
+following traceback to the conda GitHub issue tracker at:
+
+    https://github.com/conda/conda-build/issues
+
+Include the output of the command 'conda info' in your report.
+
+
+
+Applying patch: '/tmp/tmp2bTTlwconda_skeleton_templer.core-1.0b4.zip/pypi-distutils.patch'
+WARNING: Could not add entry points. They were:
+
+        [paste.paster_create_template]
+        basic_namespace = templer.core:BasicNamespace
+        nested_namespace = templer.core:NestedNamespace
+
+        [templer.templer_structure]
+        egg_docs = templer.core.structures:EggDocsStructure
+        asl = templer.core.structures:ASLStructure
+        bsd = templer.core.structures:BSDStructure
+        efl = templer.core.structures:EFLStructure
+        fdl = templer.core.structures:FDLStructure
+        gpl = templer.core.structures:GPLStructure
+        gpl3 = templer.core.structures:GPL3Structure
+        lgpl = templer.core.structures:LGPLStructure
+        mit = templer.core.structures:MITStructure
+        mpl = templer.core.structures:MPLStructure
+        mpl11 = templer.core.structures:MPL11Structure
+        npl = templer.core.structures:NPLStructure
+        zpl = templer.core.structures:ZPLStructure
+
+        [console_scripts]
+        templer = templer.core.zopeskel_script:run
+        
+Traceback (most recent call last):
+  File "/home/ubuntu/miniconda/bin/conda-skeleton", line 6, in <module>
+    exec(compile(open(__file__).read(), __file__, 'exec'))
+  File "/home/ubuntu/conda-build/bin/conda-skeleton", line 5, in <module>
+    sys.exit(main())
+  File "/home/ubuntu/conda-build/conda_build/main_skeleton.py", line 240, in main
+    args_func(args, p)
+  File "/home/ubuntu/conda-build/conda_build/main_build.py", line 349, in args_func
+    args.func(args, p)
+  File "/home/ubuntu/conda-build/conda_build/main_skeleton.py", line 254, in execute
+    pypi.main(args, parser)
+  File "/home/ubuntu/conda-build/conda_build/pypi.py", line 387, in main
+    get_package_metadata(args, package, d, data)
+  File "/home/ubuntu/conda-build/conda_build/pypi.py", line 623, in get_package_metadata
+    in pkginfo['tests_require']]))
+  File "/home/ubuntu/miniconda/lib/python2.7/site-packages/conda/cli/common.py", line 438, in spec_from_line
+    m = spec_pat.match(strip_comment(line))
+  File "/home/ubuntu/miniconda/lib/python2.7/site-packages/conda/cli/common.py", line 435, in strip_comment
+    return line.split('#')[0].rstrip()
+AttributeError: 'list' object has no attribute 'split'
+
+conda create -n _pipbuild_ --yes python pip
+/home/ubuntu/miniconda/envs/_pipbuild_/bin/pip install templer.core==1.0b4
+Error: Could not pip install templer.core==1.0b4

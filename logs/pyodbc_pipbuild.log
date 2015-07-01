@@ -4,7 +4,7 @@ BUILD START: pyodbc-3.0.10-py_0
 Fetching package metadata: ......
 
 WARNING: conda-build appears to be out of date. You have version 1.13.0 but the
-latest version is 1.14.0. Run
+latest version is 1.14.1. Run
 
 conda update -n root conda-build
 
@@ -13,7 +13,25 @@ to get the latest version.
 Solving package specifications: .+ pip install pyodbc
 Collecting pyodbc
   Downloading http://localhost/packages/source/p/pyodbc/pyodbc-3.0.10.tar.gz (68kB)
-setuptools must be installed to install from a source distribution
+Installing collected packages: pyodbc
+  Running setup.py install for pyodbc
+    Complete output from command /home/ubuntu/miniconda/envs/_build/bin/python -c "import setuptools, tokenize;__file__='/tmp/pip-build-VbvYaz/pyodbc/setup.py';exec(compile(getattr(tokenize, 'open', open)(__file__).read().replace('\r\n', '\n'), __file__, 'exec'))" install --record /tmp/pip-vWSSrh-record/install-record.txt --single-version-externally-managed --compile:
+    running install
+    running build
+    running build_ext
+    building 'pyodbc' extension
+    creating build
+    creating build/temp.linux-x86_64-2.7
+    creating build/temp.linux-x86_64-2.7/tmp
+    creating build/temp.linux-x86_64-2.7/tmp/pip-build-VbvYaz
+    creating build/temp.linux-x86_64-2.7/tmp/pip-build-VbvYaz/pyodbc
+    creating build/temp.linux-x86_64-2.7/tmp/pip-build-VbvYaz/pyodbc/src
+    gcc -pthread -fno-strict-aliasing -g -O2 -DNDEBUG -g -fwrapv -O3 -Wall -Wstrict-prototypes -fPIC -DPYODBC_VERSION=3.0.10 -DPYODBC_UNICODE_WIDTH=4 -DSQL_WCHART_CONVERT=1 -I/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk/usr/include -I/home/ubuntu/miniconda/envs/_build/include/python2.7 -c /tmp/pip-build-VbvYaz/pyodbc/src/pyodbcmodule.cpp -o build/temp.linux-x86_64-2.7/tmp/pip-build-VbvYaz/pyodbc/src/pyodbcmodule.o -Wno-write-strings
+    gcc: error trying to exec 'cc1plus': execvp: No such file or directory
+    error: command 'gcc' failed with exit status 1
+    
+    ----------------------------------------
+Command "/home/ubuntu/miniconda/envs/_build/bin/python -c "import setuptools, tokenize;__file__='/tmp/pip-build-VbvYaz/pyodbc/setup.py';exec(compile(getattr(tokenize, 'open', open)(__file__).read().replace('\r\n', '\n'), __file__, 'exec'))" install --record /tmp/pip-vWSSrh-record/install-record.txt --single-version-externally-managed --compile" failed with error code 1 in /tmp/pip-build-VbvYaz/pyodbc
 
 The following NEW packages will be INSTALLED:
 
@@ -21,7 +39,7 @@ The following NEW packages will be INSTALLED:
     pip:        7.0.3-py27_0 
     python:     2.7.10-0     
     readline:   6.2-2        
-    setuptools: 17.1.1-py27_0
+    setuptools: 18.0.1-py27_0
     sqlite:     3.8.4.1-1    
     system:     5.8-2        
     tk:         8.5.18-0     

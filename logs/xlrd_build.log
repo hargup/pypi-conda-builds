@@ -1,0 +1,138 @@
+Removing old build directory
+Removing old work directory
+BUILD START: xlrd-0.9.3-py_0
+Fetching package metadata: ......
+
+WARNING: conda-build appears to be out of date. You have version 1.13.0 but the
+latest version is 1.14.1. Run
+
+conda update -n root conda-build
+
+to get the latest version.
+
+Solving package specifications: .+ /home/ubuntu/miniconda/envs/_build/bin/python setup.py install
+running install
+running build
+running build_py
+creating build
+creating build/lib
+creating build/lib/xlrd
+copying xlrd/xldate.py -> build/lib/xlrd
+copying xlrd/biffh.py -> build/lib/xlrd
+copying xlrd/info.py -> build/lib/xlrd
+copying xlrd/book.py -> build/lib/xlrd
+copying xlrd/xlsx.py -> build/lib/xlrd
+copying xlrd/formula.py -> build/lib/xlrd
+copying xlrd/compdoc.py -> build/lib/xlrd
+copying xlrd/sheet.py -> build/lib/xlrd
+copying xlrd/__init__.py -> build/lib/xlrd
+copying xlrd/formatting.py -> build/lib/xlrd
+copying xlrd/timemachine.py -> build/lib/xlrd
+copying xlrd/licences.py -> build/lib/xlrd
+running build_scripts
+creating build/scripts-2.7
+copying and adjusting scripts/runxlrd.py -> build/scripts-2.7
+changing mode of build/scripts-2.7/runxlrd.py from 664 to 775
+running install_lib
+creating /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/xlrd
+copying build/lib/xlrd/xldate.py -> /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/xlrd
+copying build/lib/xlrd/biffh.py -> /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/xlrd
+copying build/lib/xlrd/info.py -> /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/xlrd
+copying build/lib/xlrd/book.py -> /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/xlrd
+copying build/lib/xlrd/xlsx.py -> /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/xlrd
+copying build/lib/xlrd/formula.py -> /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/xlrd
+copying build/lib/xlrd/compdoc.py -> /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/xlrd
+copying build/lib/xlrd/sheet.py -> /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/xlrd
+copying build/lib/xlrd/__init__.py -> /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/xlrd
+copying build/lib/xlrd/formatting.py -> /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/xlrd
+copying build/lib/xlrd/timemachine.py -> /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/xlrd
+copying build/lib/xlrd/licences.py -> /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/xlrd
+byte-compiling /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/xlrd/xldate.py to xldate.pyc
+byte-compiling /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/xlrd/biffh.py to biffh.pyc
+byte-compiling /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/xlrd/info.py to info.pyc
+byte-compiling /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/xlrd/book.py to book.pyc
+byte-compiling /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/xlrd/xlsx.py to xlsx.pyc
+byte-compiling /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/xlrd/formula.py to formula.pyc
+byte-compiling /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/xlrd/compdoc.py to compdoc.pyc
+byte-compiling /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/xlrd/sheet.py to sheet.pyc
+byte-compiling /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/xlrd/__init__.py to __init__.pyc
+byte-compiling /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/xlrd/formatting.py to formatting.pyc
+byte-compiling /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/xlrd/timemachine.py to timemachine.pyc
+byte-compiling /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/xlrd/licences.py to licences.pyc
+running install_scripts
+copying build/scripts-2.7/runxlrd.py -> /home/ubuntu/miniconda/envs/_build/bin
+changing mode of /home/ubuntu/miniconda/envs/_build/bin/runxlrd.py to 775
+running install_egg_info
+Writing /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/xlrd-0.9.3-py2.7.egg-info
+
+The following NEW packages will be INSTALLED:
+
+    openssl:    1.0.1k-1     
+    pip:        7.0.3-py27_0 
+    python:     2.7.10-0     
+    readline:   6.2-2        
+    setuptools: 18.0.1-py27_0
+    sqlite:     3.8.4.1-1    
+    system:     5.8-2        
+    tk:         8.5.18-0     
+    zlib:       1.2.8-0      
+
+Linking packages ...
+[                    ]|                                                  |   0%[openssl             ]|                                                  |   0%[readline            ]|#####                                             |  11%[sqlite              ]|###########                                       |  22%[system              ]|################                                  |  33%[tk                  ]|######################                            |  44%[zlib                ]|###########################                       |  55%[python              ]|#################################                 |  66%[setuptools          ]|######################################            |  77%[pip                 ]|############################################      |  88%[      COMPLETE      ]|##################################################| 100%
+Removing old work directory
+Source cache directory is: /home/ubuntu/miniconda/conda-bld/src_cache
+Found source in cache: xlrd-0.9.3.tar.gz
+Extracting download
+Package: xlrd-0.9.3-py_0
+source tree in: /home/ubuntu/miniconda/conda-bld/work/xlrd-0.9.3
+number of files: 26
+Fixing permissions
+Fixing permissions
+BUILD END: xlrd-0.9.3-py_0
+TEST START: xlrd-0.9.3-py_0
+Fetching package metadata: ......
+
+WARNING: conda-build appears to be out of date. You have version 1.13.0 but the
+latest version is 1.14.1. Run
+
+conda update -n root conda-build
+
+to get the latest version.
+
+Solving package specifications: .===== testing package: xlrd-0.9.3-py_0 =====
+import: u'xlrd'
+===== xlrd-0.9.3-py_0 OK =====
+
+The following packages will be downloaded:
+
+    package                    |            build
+    ---------------------------|-----------------
+    xlrd-0.9.3                 |             py_0         164 KB
+
+The following NEW packages will be INSTALLED:
+
+    openssl:    1.0.1k-1     
+    pip:        7.0.3-py27_0 
+    python:     2.7.10-0     
+    readline:   6.2-2        
+    setuptools: 18.0.1-py27_0
+    sqlite:     3.8.4.1-1    
+    system:     5.8-2        
+    tk:         8.5.18-0     
+    xlrd:       0.9.3-py_0   
+    zlib:       1.2.8-0      
+
+Fetching packages ...
+xlrd-0.9.3-py_   0% |                              | ETA:  --:--:--   0.00  B/sxlrd-0.9.3-py_   9% |###                            | ETA:  0:00:00  47.49 MB/sxlrd-0.9.3-py_  19% |######                         | ETA:  0:00:00  59.14 MB/sxlrd-0.9.3-py_  29% |#########                      | ETA:  0:00:00  66.06 MB/sxlrd-0.9.3-py_  39% |############                   | ETA:  0:00:00  69.80 MB/sxlrd-0.9.3-py_  48% |###############                | ETA:  0:00:00  73.14 MB/sxlrd-0.9.3-py_  58% |##################             | ETA:  0:00:00  75.32 MB/sxlrd-0.9.3-py_  68% |#####################          | ETA:  0:00:00  77.13 MB/sxlrd-0.9.3-py_  78% |########################       | ETA:  0:00:00  78.63 MB/sxlrd-0.9.3-py_  88% |###########################    | ETA:  0:00:00  79.93 MB/sxlrd-0.9.3-py_  97% |############################## | ETA:  0:00:00  80.99 MB/sxlrd-0.9.3-py_ 100% |###############################| ETA:  0:00:00  77.49 MB/sxlrd-0.9.3-py_ 100% |###############################| Time: 0:00:00  69.89 MB/s
+Extracting packages ...
+[      COMPLETE      ]|                                                  |   0%[xlrd                ]|                                                  |   0%[xlrd                ]|                                                  |   0%[      COMPLETE      ]|##################################################| 100%
+Linking packages ...
+[      COMPLETE      ]|                                                  |   0%[openssl             ]|                                                  |   0%[openssl             ]|                                                  |   0%[readline            ]|#####                                             |  10%[sqlite              ]|##########                                        |  20%[system              ]|###############                                   |  30%[tk                  ]|####################                              |  40%[zlib                ]|#########################                         |  50%[python              ]|##############################                    |  60%[setuptools          ]|###################################               |  70%[xlrd                ]|########################################          |  80%[pip                 ]|#############################################     |  90%[      COMPLETE      ]|##################################################| 100%
+TEST END: xlrd-0.9.3-py_0
+# If you want to upload this package to binstar.org later, type:
+#
+# $ binstar upload /home/ubuntu/miniconda/conda-bld/noarch/xlrd-0.9.3-py_0.tar.bz2
+#
+# To have conda build upload to binstar automatically, use
+# $ conda config --set binstar_upload yes
+

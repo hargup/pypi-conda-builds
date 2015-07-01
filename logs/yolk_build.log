@@ -1,0 +1,234 @@
+Removing old build directory
+Removing old work directory
+BUILD START: yolk-0.4.3-py_0
+Fetching package metadata: ......
+
+WARNING: conda-build appears to be out of date. You have version 1.13.0 but the
+latest version is 1.14.1. Run
+
+conda update -n root conda-build
+
+to get the latest version.
+
+Solving package specifications: .+ /home/ubuntu/miniconda/envs/_build/bin/python setup.py install
+running install
+running bdist_egg
+running egg_info
+writing requirements to yolk.egg-info/requires.txt
+writing yolk.egg-info/PKG-INFO
+writing top-level names to yolk.egg-info/top_level.txt
+writing dependency_links to yolk.egg-info/dependency_links.txt
+writing entry points to yolk.egg-info/entry_points.txt
+reading manifest file 'yolk.egg-info/SOURCES.txt'
+reading manifest template 'MANIFEST.in'
+warning: no files found matching '*.txt' under directory 'tests'
+warning: no files found matching '*.conf' under directory 'docs'
+warning: no files found matching '*.css_t' under directory 'docs'
+warning: no files found matching 'indexsidebar.html' under directory 'docs'
+warning: no files found matching 'tests/test_cli.py'
+writing manifest file 'yolk.egg-info/SOURCES.txt'
+installing library code to build/bdist.linux-x86_64/egg
+running install_lib
+running build_py
+creating build
+creating build/lib
+creating build/lib/yolk
+copying yolk/yolklib.py -> build/lib/yolk
+copying yolk/utils.py -> build/lib/yolk
+copying yolk/pypi.py -> build/lib/yolk
+copying yolk/cli.py -> build/lib/yolk
+copying yolk/setuptools_support.py -> build/lib/yolk
+copying yolk/__init__.py -> build/lib/yolk
+copying yolk/metadata.py -> build/lib/yolk
+creating build/lib/yolk/plugins
+copying yolk/plugins/__init__.py -> build/lib/yolk/plugins
+copying yolk/plugins/base.py -> build/lib/yolk/plugins
+creating build/bdist.linux-x86_64
+creating build/bdist.linux-x86_64/egg
+creating build/bdist.linux-x86_64/egg/yolk
+copying build/lib/yolk/yolklib.py -> build/bdist.linux-x86_64/egg/yolk
+copying build/lib/yolk/utils.py -> build/bdist.linux-x86_64/egg/yolk
+copying build/lib/yolk/pypi.py -> build/bdist.linux-x86_64/egg/yolk
+copying build/lib/yolk/cli.py -> build/bdist.linux-x86_64/egg/yolk
+copying build/lib/yolk/setuptools_support.py -> build/bdist.linux-x86_64/egg/yolk
+creating build/bdist.linux-x86_64/egg/yolk/plugins
+copying build/lib/yolk/plugins/__init__.py -> build/bdist.linux-x86_64/egg/yolk/plugins
+copying build/lib/yolk/plugins/base.py -> build/bdist.linux-x86_64/egg/yolk/plugins
+copying build/lib/yolk/__init__.py -> build/bdist.linux-x86_64/egg/yolk
+copying build/lib/yolk/metadata.py -> build/bdist.linux-x86_64/egg/yolk
+byte-compiling build/bdist.linux-x86_64/egg/yolk/yolklib.py to yolklib.pyc
+byte-compiling build/bdist.linux-x86_64/egg/yolk/utils.py to utils.pyc
+byte-compiling build/bdist.linux-x86_64/egg/yolk/pypi.py to pypi.pyc
+byte-compiling build/bdist.linux-x86_64/egg/yolk/cli.py to cli.pyc
+byte-compiling build/bdist.linux-x86_64/egg/yolk/setuptools_support.py to setuptools_support.pyc
+byte-compiling build/bdist.linux-x86_64/egg/yolk/plugins/__init__.py to __init__.pyc
+byte-compiling build/bdist.linux-x86_64/egg/yolk/plugins/base.py to base.pyc
+byte-compiling build/bdist.linux-x86_64/egg/yolk/__init__.py to __init__.pyc
+byte-compiling build/bdist.linux-x86_64/egg/yolk/metadata.py to metadata.pyc
+creating build/bdist.linux-x86_64/egg/EGG-INFO
+copying yolk.egg-info/PKG-INFO -> build/bdist.linux-x86_64/egg/EGG-INFO
+copying yolk.egg-info/SOURCES.txt -> build/bdist.linux-x86_64/egg/EGG-INFO
+copying yolk.egg-info/dependency_links.txt -> build/bdist.linux-x86_64/egg/EGG-INFO
+copying yolk.egg-info/entry_points.txt -> build/bdist.linux-x86_64/egg/EGG-INFO
+copying yolk.egg-info/requires.txt -> build/bdist.linux-x86_64/egg/EGG-INFO
+copying yolk.egg-info/top_level.txt -> build/bdist.linux-x86_64/egg/EGG-INFO
+zip_safe flag not set; analyzing archive contents...
+creating dist
+creating 'dist/yolk-0.4.3-py2.7.egg' and adding 'build/bdist.linux-x86_64/egg' to it
+removing 'build/bdist.linux-x86_64/egg' (and everything under it)
+Processing yolk-0.4.3-py2.7.egg
+Copying yolk-0.4.3-py2.7.egg to /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages
+Adding yolk 0.4.3 to easy-install.pth file
+Installing yolk script to /home/ubuntu/miniconda/envs/_build/bin
+
+Installed /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/yolk-0.4.3-py2.7.egg
+Processing dependencies for yolk==0.4.3
+Searching for setuptools==15.2
+Best match: setuptools 15.2
+Adding setuptools 15.2 to easy-install.pth file
+Installing easy_install-3.4 script to /home/ubuntu/miniconda/envs/_build/bin
+Installing easy_install script to /home/ubuntu/miniconda/envs/_build/bin
+
+Using /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages
+Finished processing dependencies for yolk==0.4.3
+
+The following NEW packages will be INSTALLED:
+
+    openssl:    1.0.1k-1     
+    pip:        7.0.3-py27_0 
+    python:     2.7.10-0     
+    readline:   6.2-2        
+    setuptools: 18.0.1-py27_0
+    sqlite:     3.8.4.1-1    
+    system:     5.8-2        
+    tk:         8.5.18-0     
+    zlib:       1.2.8-0      
+
+Linking packages ...
+[                    ]|                                                  |   0%[openssl             ]|                                                  |   0%[readline            ]|#####                                             |  11%[sqlite              ]|###########                                       |  22%[system              ]|################                                  |  33%[tk                  ]|######################                            |  44%[zlib                ]|###########################                       |  55%[python              ]|#################################                 |  66%[setuptools          ]|######################################            |  77%[pip                 ]|############################################      |  88%[      COMPLETE      ]|##################################################| 100%
+Removing old work directory
+Source cache directory is: /home/ubuntu/miniconda/conda-bld/src_cache
+Found source in cache: yolk-0.4.3.tar.gz
+Extracting download
+Package: yolk-0.4.3-py_0
+source tree in: /home/ubuntu/miniconda/conda-bld/work/yolk-0.4.3
+found egg: /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/yolk-0.4.3-py2.7.egg
+number of files: 5
+Fixing permissions
+Fixing permissions
+BUILD END: yolk-0.4.3-py_0
+TEST START: yolk-0.4.3-py_0
+Fetching package metadata: ......
+
+WARNING: conda-build appears to be out of date. You have version 1.13.0 but the
+latest version is 1.14.1. Run
+
+conda update -n root conda-build
+
+to get the latest version.
+
+Solving package specifications: .===== testing package: yolk-0.4.3-py_0 =====
+import: u'yolk'
+import: u'yolk.plugins'
+===== yolk-0.4.3-py_0 OK =====
++ yolk --help
+Usage: yolk [options]
+
+Options:
+  -h, --help            show this help message and exit
+  --version             Show yolk version and exit.
+  --debug               Show debugging information.
+  -q, --quiet           Show less output.
+
+  Query installed Python packages:
+    The following options show information about installed Python
+    packages. Activated packages are normal packages on sys.path that can
+    be imported. Non-activated packages need 'pkg_resources.require()'
+    before they can be imported, such as packages installed with
+    'easy_install --multi-version'. PKG_SPEC can be either a package name
+    or package name and version e.g. Paste==0.9
+
+    -l, --list          List all Python packages installed by distutils or
+                        setuptools. Use PKG_SPEC to narrow results.
+    -a, --activated     List activated packages installed by distutils or
+                        setuptools. Use PKG_SPEC to narrow results.
+    -n, --non-activated
+                        List non-activated packages installed by distutils or
+                        setuptools. Use PKG_SPEC to narrow results.
+    -m, --metadata      Show all metadata for packages installed by setuptools
+                        (use with -l -a or -n)
+    -f FIELDS, --fields=FIELDS
+                        Show specific metadata fields. (use with -m or -M)
+    -d PKG_SPEC, --depends=PKG_SPEC
+                        Show dependencies for a package installed by
+                        setuptools if they are available.
+    --entry-points=MODULE
+                        List entry points for a module. e.g. --entry-points
+                        nose.plugins
+    --entry-map=PACKAGE_NAME
+                        List entry map for a package. e.g. --entry-map yolk
+
+  PyPI (Cheese Shop) options:
+    The following options query the Python Package Index:
+
+    -C HOURS, --changelog=HOURS
+                        Show detailed ChangeLog for PyPI for last n hours.
+    -D PKG_SPEC, --download-links=PKG_SPEC
+                        Show download URL's for package listed on PyPI. Use
+                        with -T to specify egg, source etc.
+    -F PKG_SPEC, --fetch-package=PKG_SPEC
+                        Download package source or egg. You can specify a file
+                        type with -T
+    -H PKG_SPEC, --browse-homepage=PKG_SPEC
+                        Launch web browser at home page for package.
+    -I PYPI_INDEX, --pypi-index=PYPI_INDEX
+                        Specify PyPI mirror for package index.
+    -L HOURS, --latest-releases=HOURS
+                        Show PyPI releases for last n hours.
+    -M PKG_SPEC, --query-metadata=PKG_SPEC
+                        Show metadata for a package listed on PyPI. Use -f to
+                        show particular fields.
+    -S SEARCH_SPEC <AND/OR SEARCH_SPEC>
+                        Search PyPI by spec and optional AND/OR operator.
+    -T FILE_TYPE, --file-type=FILE_TYPE
+                        You may specify 'source', 'egg', 'svn' or 'all' when
+                        using -D.
+    -U, --show-updates  Check PyPI for updates on package(s).
+    -V PKG_SPEC, --versions-available=PKG_SPEC
+                        Show available versions for given package listed on
+                        PyPI.
+
+The following packages will be downloaded:
+
+    package                    |            build
+    ---------------------------|-----------------
+    yolk-0.4.3                 |             py_0         129 KB
+
+The following NEW packages will be INSTALLED:
+
+    nose:       1.3.7-py27_0 
+    openssl:    1.0.1k-1     
+    pip:        7.0.3-py27_0 
+    python:     2.7.10-0     
+    readline:   6.2-2        
+    setuptools: 18.0.1-py27_0
+    sqlite:     3.8.4.1-1    
+    system:     5.8-2        
+    tk:         8.5.18-0     
+    yolk:       0.4.3-py_0   
+    zlib:       1.2.8-0      
+
+Fetching packages ...
+yolk-0.4.3-py_   0% |                              | ETA:  --:--:--   0.00  B/syolk-0.4.3-py_  12% |###                            | ETA:  0:00:00  47.49 MB/syolk-0.4.3-py_  24% |#######                        | ETA:  0:00:00  59.47 MB/syolk-0.4.3-py_  37% |###########                    | ETA:  0:00:00  66.06 MB/syolk-0.4.3-py_  49% |###############                | ETA:  0:00:00  70.23 MB/syolk-0.4.3-py_  62% |###################            | ETA:  0:00:00  72.87 MB/syolk-0.4.3-py_  74% |#######################        | ETA:  0:00:00  75.21 MB/syolk-0.4.3-py_  86% |##########################     | ETA:  0:00:00  76.97 MB/syolk-0.4.3-py_  99% |############################## | ETA:  0:00:00  78.39 MB/syolk-0.4.3-py_ 100% |###############################| Time: 0:00:00  67.57 MB/s
+Extracting packages ...
+[      COMPLETE      ]|                                                  |   0%[yolk                ]|                                                  |   0%[yolk                ]|                                                  |   0%[      COMPLETE      ]|##################################################| 100%
+Linking packages ...
+[      COMPLETE      ]|                                                  |   0%[openssl             ]|                                                  |   0%[openssl             ]|                                                  |   0%[readline            ]|####                                              |   9%[sqlite              ]|#########                                         |  18%[system              ]|#############                                     |  27%[tk                  ]|##################                                |  36%[zlib                ]|######################                            |  45%[nose                ]|###########################                       |  54%[python              ]|###############################                   |  63%[setuptools          ]|####################################              |  72%[pip                 ]|########################################          |  81%[yolk                ]|#############################################     |  90%[      COMPLETE      ]|##################################################| 100%
+TEST END: yolk-0.4.3-py_0
+# If you want to upload this package to binstar.org later, type:
+#
+# $ binstar upload /home/ubuntu/miniconda/conda-bld/noarch/yolk-0.4.3-py_0.tar.bz2
+#
+# To have conda build upload to binstar automatically, use
+# $ conda config --set binstar_upload yes
+

@@ -1,0 +1,128 @@
+Warning, the following versions were found for five.localsitemanager
+2.0.5
+2.0.4
+2.0.3
+2.0.2
+2.0.1
+2.0
+2.0a1
+1.3
+1.2
+1.1
+1.0
+1.0c1
+0.4
+0.3
+0.2
+0.1.2
+0.1.1
+Using 2.0.5
+Use --version to specify a different version.
+Using url https://pypi.python.org/packages/source/f/five.localsitemanager/five.localsitemanager-2.0.5.zip (28 KB) for five.localsitemanager.
+Downloading five.localsitemanager
+Unpacking five.localsitemanager...
+done
+working in /tmp/tmpq3GepLconda_skeleton_five.localsitemanager-2.0.5.zip
+Fetching package metadata: ......
+
+WARNING: conda-build appears to be out of date. You have version 1.13.0 but the
+latest version is 1.14.1. Run
+
+conda update -n root conda-build
+
+to get the latest version.
+
+Solving package specifications: .patching file core.py
+Hunk #1 succeeded at 168 with fuzz 2 (offset 2 lines).
+
+WARNING: conda-build appears to be out of date. You have version 1.13.0 but the
+latest version is 1.14.1. Run
+
+conda update -n root conda-build
+
+to get the latest version.
+
+
+Applying patch: '/tmp/tmpq3GepLconda_skeleton_five.localsitemanager-2.0.5.zip/pypi-distutils.patch'
+zope2 not found, trying Zope2
+Warning, the following versions were found for Zope2
+2.13.22
+2.13.21
+2.13.20
+2.13.19
+2.13.18
+2.13.17
+2.13.16
+2.13.15
+2.13.14
+2.13.13
+2.13.12
+2.13.11
+2.13.10
+2.13.9
+2.13.8
+2.13.7
+2.13.6
+2.13.5
+2.13.4
+2.13.3
+2.13.2
+2.13.1
+2.13.0
+2.13.0c1
+2.13.0b1
+2.13.0a4
+2.13.0a3
+2.13.0a2
+2.13.0a1
+2.12.28
+2.12.27
+2.12.26
+2.12.25
+2.12.24
+2.12.23
+2.12.22
+2.12.21
+2.12.20
+2.12.19
+2.12.18
+2.12.17
+2.12.16
+2.12.15
+2.12.14
+2.12.13
+2.12.12
+2.12.11
+2.12.10
+2.12.9
+2.12.8
+2.12.7
+2.12.6
+2.12.5
+2.12.4
+2.12.3
+2.12.2
+2.12.1
+2.12.0
+2.12.0c1
+2.12.0b4
+2.12.0b3
+2.12.0b2
+2.12.0b1
+2.12.0a4
+2.12.0a3
+2.12.0a2
+2.12.0.a1
+Using 2.13.22
+Use --version to specify a different version.
+Using url https://pypi.python.org/packages/source/Z/Zope2/Zope2-2.13.22.zip (1.3 MB) for Zope2.
+Downloading Zope2
+Using cached download
+Unpacking Zope2...
+done
+working in /tmp/tmp3FGhCNconda_skeleton_Zope2-2.13.22.zip
+Solving package specifications: .patching file core.py
+Hunk #1 succeeded at 168 with fuzz 2 (offset 2 lines).
+
+Applying patch: '/tmp/tmp3FGhCNconda_skeleton_Zope2-2.13.22.zip/pypi-distutils.patch'
+Error: Could not parse: zope.i18n [zcml]

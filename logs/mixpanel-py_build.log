@@ -1,7 +1,15 @@
 Removing old build directory
 Removing old work directory
-BUILD START: mixpanel-py-4.0.3-py27_0
+BUILD START: mixpanel-py-4.0.3-py_0
 Fetching package metadata: ......
+
+WARNING: conda-build appears to be out of date. You have version 1.13.0 but the
+latest version is 1.14.1. Run
+
+conda update -n root conda-build
+
+to get the latest version.
+
 Solving package specifications: .+ /home/ubuntu/miniconda/envs/_build/bin/python setup.py install
 running install
 running bdist_egg
@@ -42,15 +50,15 @@ Finished processing dependencies for mixpanel-py==4.0.3
 
 The following NEW packages will be INSTALLED:
 
-    openssl:    1.0.1k-1    
-    pip:        7.0.3-py27_0
-    python:     2.7.10-0    
-    readline:   6.2-2       
-    setuptools: 17.0-py27_0 
-    sqlite:     3.8.4.1-1   
-    system:     5.8-2       
-    tk:         8.5.18-0    
-    zlib:       1.2.8-0     
+    openssl:    1.0.1k-1     
+    pip:        7.0.3-py27_0 
+    python:     2.7.10-0     
+    readline:   6.2-2        
+    setuptools: 18.0.1-py27_0
+    sqlite:     3.8.4.1-1    
+    system:     5.8-2        
+    tk:         8.5.18-0     
+    zlib:       1.2.8-0      
 
 Linking packages ...
 [                    ]|                                                  |   0%[openssl             ]|                                                  |   0%[readline            ]|#####                                             |  11%[sqlite              ]|###########                                       |  22%[system              ]|################                                  |  33%[tk                  ]|######################                            |  44%[zlib                ]|###########################                       |  55%[python              ]|#################################                 |  66%[setuptools          ]|######################################            |  77%[pip                 ]|############################################      |  88%[      COMPLETE      ]|##################################################| 100%
@@ -58,51 +66,47 @@ Removing old work directory
 Source cache directory is: /home/ubuntu/miniconda/conda-bld/src_cache
 Found source in cache: mixpanel-py-4.0.3.tar.gz
 Extracting download
-Package: mixpanel-py-4.0.3-py27_0
+Package: mixpanel-py-4.0.3-py_0
 source tree in: /home/ubuntu/miniconda/conda-bld/work/mixpanel-py-4.0.3
 found egg: /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/mixpanel_py-4.0.3-py2.7.egg
 number of files: 2
 Fixing permissions
 Fixing permissions
-BUILD END: mixpanel-py-4.0.3-py27_0
-TEST START: mixpanel-py-4.0.3-py27_0
+BUILD END: mixpanel-py-4.0.3-py_0
+TEST START: mixpanel-py-4.0.3-py_0
 Fetching package metadata: ......
-Solving package specifications: ./home/ubuntu/miniconda/conda-bld/test-tmp_dir/run_test.py:25: UserWarning: The official Mixpanel Python library has moved from mixpanel-py to mixpanel. Updates will be published only to <https://pypi.python.org/pypi/mixpanel>.
-  import mixpanel
-===== testing package: mixpanel-py-4.0.3-py27_0 =====
-import: u'mixpanel'
-===== mixpanel-py-4.0.3-py27_0 OK =====
+
+WARNING: conda-build appears to be out of date. You have version 1.13.0 but the
+latest version is 1.14.1. Run
+
+conda update -n root conda-build
+
+to get the latest version.
+
+Solving package specifications: ./home/ubuntu/miniconda/pkgs/mixpanel-py-4.0.3-py_0/bin/.mixpanel-py-pre-link.sh: line 2: /home/ubuntu/miniconda/envs/_test/bin/python: No such file or directory
 
 The following packages will be downloaded:
 
     package                    |            build
     ---------------------------|-----------------
-    mixpanel-py-4.0.3          |           py27_0          15 KB
+    mixpanel-py-4.0.3          |             py_0          16 KB
 
 The following NEW packages will be INSTALLED:
 
-    mixpanel-py: 4.0.3-py27_0
-    openssl:     1.0.1k-1    
-    pip:         7.0.3-py27_0
-    python:      2.7.10-0    
-    readline:    6.2-2       
-    setuptools:  17.0-py27_0 
-    sqlite:      3.8.4.1-1   
-    system:      5.8-2       
-    tk:          8.5.18-0    
-    zlib:        1.2.8-0     
+    mixpanel-py: 4.0.3-py_0   
+    openssl:     1.0.1k-1     
+    pip:         7.0.3-py27_0 
+    python:      2.7.10-0     
+    readline:    6.2-2        
+    setuptools:  18.0.1-py27_0
+    sqlite:      3.8.4.1-1    
+    system:      5.8-2        
+    tk:          8.5.18-0     
+    zlib:        1.2.8-0      
 
 Fetching packages ...
-mixpanel-py-4.   0% |                              | ETA:  --:--:--   0.00  B/smixpanel-py-4. 100% |###############################| ETA:  0:00:00  43.34 MB/smixpanel-py-4. 100% |###############################| Time: 0:00:00  26.11 MB/s
+mixpanel-py-4.   0% |                              | ETA:  --:--:--   0.00  B/smixpanel-py-4.  99% |############################## | ETA:  0:00:00  48.33 MB/smixpanel-py-4. 100% |###############################| Time: 0:00:00  25.53 MB/s
 Extracting packages ...
 [      COMPLETE      ]|                                                  |   0%[mixpanel-py         ]|                                                  |   0%[mixpanel-py         ]|                                                  |   0%[      COMPLETE      ]|##################################################| 100%
 Linking packages ...
-[      COMPLETE      ]|                                                  |   0%[openssl             ]|                                                  |   0%[openssl             ]|                                                  |   0%[readline            ]|#####                                             |  10%[sqlite              ]|##########                                        |  20%[system              ]|###############                                   |  30%[tk                  ]|####################                              |  40%[zlib                ]|#########################                         |  50%[mixpanel-py         ]|##############################                    |  60%[python              ]|###################################               |  70%[setuptools          ]|########################################          |  80%[pip                 ]|#############################################     |  90%[      COMPLETE      ]|##################################################| 100%
-TEST END: mixpanel-py-4.0.3-py27_0
-# If you want to upload this package to binstar.org later, type:
-#
-# $ binstar upload /home/ubuntu/miniconda/conda-bld/linux-64/mixpanel-py-4.0.3-py27_0.tar.bz2
-#
-# To have conda build upload to binstar automatically, use
-# $ conda config --set binstar_upload yes
-
+[      COMPLETE      ]|                                                  |   0%[openssl             ]|                                                  |   0%[openssl             ]|                                                  |   0%[readline            ]|#####                                             |  10%[sqlite              ]|##########                                        |  20%[system              ]|###############                                   |  30%[tk                  ]|####################                              |  40%[zlib                ]|#########################                         |  50%[mixpanel-py         ]|##############################                    |  60%Error: pre-link failed: mixpanel-py-4.0.3-py_0

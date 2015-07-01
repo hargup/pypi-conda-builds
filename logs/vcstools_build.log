@@ -1,0 +1,175 @@
+Removing old build directory
+Removing old work directory
+BUILD START: vcstools-0.1.36-py_0
+Fetching package metadata: ......
+
+WARNING: conda-build appears to be out of date. You have version 1.13.0 but the
+latest version is 1.14.1. Run
+
+conda update -n root conda-build
+
+to get the latest version.
+
+Solving package specifications: .+ /home/ubuntu/miniconda/envs/_build/bin/python setup.py install
+running install
+running bdist_egg
+running egg_info
+writing requirements to src/vcstools.egg-info/requires.txt
+writing src/vcstools.egg-info/PKG-INFO
+writing top-level names to src/vcstools.egg-info/top_level.txt
+writing dependency_links to src/vcstools.egg-info/dependency_links.txt
+reading manifest file 'src/vcstools.egg-info/SOURCES.txt'
+writing manifest file 'src/vcstools.egg-info/SOURCES.txt'
+installing library code to build/bdist.linux-x86_64/egg
+running install_lib
+running build_py
+creating build
+creating build/lib
+creating build/lib/vcstools
+copying src/vcstools/vcs_base.py -> build/lib/vcstools
+copying src/vcstools/bzr.py -> build/lib/vcstools
+copying src/vcstools/hg.py -> build/lib/vcstools
+copying src/vcstools/svn.py -> build/lib/vcstools
+copying src/vcstools/__version__.py -> build/lib/vcstools
+copying src/vcstools/__init__.py -> build/lib/vcstools
+copying src/vcstools/git.py -> build/lib/vcstools
+copying src/vcstools/tar.py -> build/lib/vcstools
+copying src/vcstools/vcs_abstraction.py -> build/lib/vcstools
+copying src/vcstools/common.py -> build/lib/vcstools
+creating build/bdist.linux-x86_64
+creating build/bdist.linux-x86_64/egg
+creating build/bdist.linux-x86_64/egg/vcstools
+copying build/lib/vcstools/vcs_base.py -> build/bdist.linux-x86_64/egg/vcstools
+copying build/lib/vcstools/bzr.py -> build/bdist.linux-x86_64/egg/vcstools
+copying build/lib/vcstools/hg.py -> build/bdist.linux-x86_64/egg/vcstools
+copying build/lib/vcstools/svn.py -> build/bdist.linux-x86_64/egg/vcstools
+copying build/lib/vcstools/__version__.py -> build/bdist.linux-x86_64/egg/vcstools
+copying build/lib/vcstools/__init__.py -> build/bdist.linux-x86_64/egg/vcstools
+copying build/lib/vcstools/git.py -> build/bdist.linux-x86_64/egg/vcstools
+copying build/lib/vcstools/tar.py -> build/bdist.linux-x86_64/egg/vcstools
+copying build/lib/vcstools/vcs_abstraction.py -> build/bdist.linux-x86_64/egg/vcstools
+copying build/lib/vcstools/common.py -> build/bdist.linux-x86_64/egg/vcstools
+byte-compiling build/bdist.linux-x86_64/egg/vcstools/vcs_base.py to vcs_base.pyc
+byte-compiling build/bdist.linux-x86_64/egg/vcstools/bzr.py to bzr.pyc
+byte-compiling build/bdist.linux-x86_64/egg/vcstools/hg.py to hg.pyc
+byte-compiling build/bdist.linux-x86_64/egg/vcstools/svn.py to svn.pyc
+byte-compiling build/bdist.linux-x86_64/egg/vcstools/__version__.py to __version__.pyc
+byte-compiling build/bdist.linux-x86_64/egg/vcstools/__init__.py to __init__.pyc
+byte-compiling build/bdist.linux-x86_64/egg/vcstools/git.py to git.pyc
+byte-compiling build/bdist.linux-x86_64/egg/vcstools/tar.py to tar.pyc
+byte-compiling build/bdist.linux-x86_64/egg/vcstools/vcs_abstraction.py to vcs_abstraction.pyc
+byte-compiling build/bdist.linux-x86_64/egg/vcstools/common.py to common.pyc
+creating build/bdist.linux-x86_64/egg/EGG-INFO
+copying src/vcstools.egg-info/PKG-INFO -> build/bdist.linux-x86_64/egg/EGG-INFO
+copying src/vcstools.egg-info/SOURCES.txt -> build/bdist.linux-x86_64/egg/EGG-INFO
+copying src/vcstools.egg-info/dependency_links.txt -> build/bdist.linux-x86_64/egg/EGG-INFO
+copying src/vcstools.egg-info/requires.txt -> build/bdist.linux-x86_64/egg/EGG-INFO
+copying src/vcstools.egg-info/top_level.txt -> build/bdist.linux-x86_64/egg/EGG-INFO
+zip_safe flag not set; analyzing archive contents...
+creating dist
+creating 'dist/vcstools-0.1.36-py2.7.egg' and adding 'build/bdist.linux-x86_64/egg' to it
+removing 'build/bdist.linux-x86_64/egg' (and everything under it)
+Processing vcstools-0.1.36-py2.7.egg
+Copying vcstools-0.1.36-py2.7.egg to /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages
+Adding vcstools 0.1.36 to easy-install.pth file
+
+Installed /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/vcstools-0.1.36-py2.7.egg
+Processing dependencies for vcstools==0.1.36
+Searching for python-dateutil==2.4.2
+Best match: python-dateutil 2.4.2
+Processing python_dateutil-2.4.2-py2.7.egg
+Adding python-dateutil 2.4.2 to easy-install.pth file
+
+Using /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/python_dateutil-2.4.2-py2.7.egg
+Searching for PyYAML==3.11
+Best match: PyYAML 3.11
+Adding PyYAML 3.11 to easy-install.pth file
+
+Using /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages
+Searching for six==1.9.0
+Best match: six 1.9.0
+Adding six 1.9.0 to easy-install.pth file
+
+Using /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages
+Finished processing dependencies for vcstools==0.1.36
+
+The following NEW packages will be INSTALLED:
+
+    openssl:         1.0.1k-1     
+    pip:             7.0.3-py27_0 
+    python:          2.7.10-0     
+    python-dateutil: 2.4.2-py27_0 
+    pyyaml:          3.11-py27_1  
+    readline:        6.2-2        
+    setuptools:      18.0.1-py27_0
+    six:             1.9.0-py27_0 
+    sqlite:          3.8.4.1-1    
+    system:          5.8-2        
+    tk:              8.5.18-0     
+    yaml:            0.1.6-0      
+    zlib:            1.2.8-0      
+
+Linking packages ...
+[                    ]|                                                  |   0%[openssl             ]|                                                  |   0%[readline            ]|###                                               |   7%[sqlite              ]|#######                                           |  15%[system              ]|###########                                       |  23%[tk                  ]|###############                                   |  30%[yaml                ]|###################                               |  38%[zlib                ]|#######################                           |  46%[python              ]|##########################                        |  53%[pyyaml              ]|##############################                    |  61%[setuptools          ]|##################################                |  69%[six                 ]|######################################            |  76%[pip                 ]|##########################################        |  84%[python-dateutil     ]|##############################################    |  92%[      COMPLETE      ]|##################################################| 100%
+Removing old work directory
+Source cache directory is: /home/ubuntu/miniconda/conda-bld/src_cache
+Found source in cache: vcstools-0.1.36.tar.gz
+Extracting download
+Package: vcstools-0.1.36-py_0
+source tree in: /home/ubuntu/miniconda/conda-bld/work/vcstools-0.1.36
+found egg: /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/vcstools-0.1.36-py2.7.egg
+number of files: 2
+Fixing permissions
+Fixing permissions
+BUILD END: vcstools-0.1.36-py_0
+TEST START: vcstools-0.1.36-py_0
+Fetching package metadata: ......
+
+WARNING: conda-build appears to be out of date. You have version 1.13.0 but the
+latest version is 1.14.1. Run
+
+conda update -n root conda-build
+
+to get the latest version.
+
+Solving package specifications: .===== testing package: vcstools-0.1.36-py_0 =====
+import: u'vcstools'
+===== vcstools-0.1.36-py_0 OK =====
+
+The following packages will be downloaded:
+
+    package                    |            build
+    ---------------------------|-----------------
+    vcstools-0.1.36            |             py_0          74 KB
+
+The following NEW packages will be INSTALLED:
+
+    openssl:         1.0.1k-1     
+    pip:             7.0.3-py27_0 
+    python:          2.7.10-0     
+    python-dateutil: 2.4.2-py27_0 
+    pyyaml:          3.11-py27_1  
+    readline:        6.2-2        
+    setuptools:      18.0.1-py27_0
+    six:             1.9.0-py27_0 
+    sqlite:          3.8.4.1-1    
+    system:          5.8-2        
+    tk:              8.5.18-0     
+    vcstools:        0.1.36-py_0  
+    yaml:            0.1.6-0      
+    zlib:            1.2.8-0      
+
+Fetching packages ...
+vcstools-0.1.3   0% |                              | ETA:  --:--:--   0.00  B/svcstools-0.1.3  21% |######                         | ETA:  0:00:00  47.76 MB/svcstools-0.1.3  43% |#############                  | ETA:  0:00:00  59.34 MB/svcstools-0.1.3  65% |####################           | ETA:  0:00:00  65.78 MB/svcstools-0.1.3  86% |##########################     | ETA:  0:00:00  70.01 MB/svcstools-0.1.3 100% |###############################| ETA:  0:00:00  68.16 MB/svcstools-0.1.3 100% |###############################| Time: 0:00:00  55.98 MB/s
+Extracting packages ...
+[      COMPLETE      ]|                                                  |   0%[vcstools            ]|                                                  |   0%[vcstools            ]|                                                  |   0%[      COMPLETE      ]|##################################################| 100%
+Linking packages ...
+[      COMPLETE      ]|                                                  |   0%[openssl             ]|                                                  |   0%[openssl             ]|                                                  |   0%[readline            ]|###                                               |   7%[sqlite              ]|#######                                           |  14%[system              ]|##########                                        |  21%[tk                  ]|##############                                    |  28%[yaml                ]|#################                                 |  35%[zlib                ]|#####################                             |  42%[python              ]|#########################                         |  50%[pyyaml              ]|############################                      |  57%[setuptools          ]|################################                  |  64%[six                 ]|###################################               |  71%[pip                 ]|#######################################           |  78%[python-dateutil     ]|##########################################        |  85%[vcstools            ]|##############################################    |  92%[      COMPLETE      ]|##################################################| 100%
+TEST END: vcstools-0.1.36-py_0
+# If you want to upload this package to binstar.org later, type:
+#
+# $ binstar upload /home/ubuntu/miniconda/conda-bld/noarch/vcstools-0.1.36-py_0.tar.bz2
+#
+# To have conda build upload to binstar automatically, use
+# $ conda config --set binstar_upload yes
+

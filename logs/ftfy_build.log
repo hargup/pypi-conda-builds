@@ -1,0 +1,159 @@
+Removing old build directory
+Removing old work directory
+BUILD START: ftfy-4.0.0-py_0
+Fetching package metadata: ......
+
+WARNING: conda-build appears to be out of date. You have version 1.13.0 but the
+latest version is 1.14.1. Run
+
+conda update -n root conda-build
+
+to get the latest version.
+
+Solving package specifications: .+ /home/ubuntu/miniconda/envs/_build/bin/python setup.py install
+running install
+running bdist_egg
+running egg_info
+writing ftfy.egg-info/PKG-INFO
+writing top-level names to ftfy.egg-info/top_level.txt
+writing dependency_links to ftfy.egg-info/dependency_links.txt
+writing entry points to ftfy.egg-info/entry_points.txt
+reading manifest file 'ftfy.egg-info/SOURCES.txt'
+writing manifest file 'ftfy.egg-info/SOURCES.txt'
+installing library code to build/bdist.linux-x86_64/egg
+running install_lib
+running build_py
+creating build
+creating build/lib
+creating build/lib/ftfy
+copying ftfy/build_data.py -> build/lib/ftfy
+copying ftfy/fixes.py -> build/lib/ftfy
+copying ftfy/badness.py -> build/lib/ftfy
+copying ftfy/compatibility.py -> build/lib/ftfy
+copying ftfy/cli.py -> build/lib/ftfy
+copying ftfy/chardata.py -> build/lib/ftfy
+copying ftfy/__init__.py -> build/lib/ftfy
+creating build/lib/ftfy/bad_codecs
+copying ftfy/bad_codecs/sloppy.py -> build/lib/ftfy/bad_codecs
+copying ftfy/bad_codecs/utf8_variants.py -> build/lib/ftfy/bad_codecs
+copying ftfy/bad_codecs/__init__.py -> build/lib/ftfy/bad_codecs
+copying ftfy/char_classes.dat -> build/lib/ftfy
+creating build/bdist.linux-x86_64
+creating build/bdist.linux-x86_64/egg
+creating build/bdist.linux-x86_64/egg/ftfy
+copying build/lib/ftfy/build_data.py -> build/bdist.linux-x86_64/egg/ftfy
+copying build/lib/ftfy/fixes.py -> build/bdist.linux-x86_64/egg/ftfy
+copying build/lib/ftfy/badness.py -> build/bdist.linux-x86_64/egg/ftfy
+copying build/lib/ftfy/compatibility.py -> build/bdist.linux-x86_64/egg/ftfy
+copying build/lib/ftfy/cli.py -> build/bdist.linux-x86_64/egg/ftfy
+copying build/lib/ftfy/chardata.py -> build/bdist.linux-x86_64/egg/ftfy
+copying build/lib/ftfy/__init__.py -> build/bdist.linux-x86_64/egg/ftfy
+creating build/bdist.linux-x86_64/egg/ftfy/bad_codecs
+copying build/lib/ftfy/bad_codecs/sloppy.py -> build/bdist.linux-x86_64/egg/ftfy/bad_codecs
+copying build/lib/ftfy/bad_codecs/utf8_variants.py -> build/bdist.linux-x86_64/egg/ftfy/bad_codecs
+copying build/lib/ftfy/bad_codecs/__init__.py -> build/bdist.linux-x86_64/egg/ftfy/bad_codecs
+copying build/lib/ftfy/char_classes.dat -> build/bdist.linux-x86_64/egg/ftfy
+byte-compiling build/bdist.linux-x86_64/egg/ftfy/build_data.py to build_data.pyc
+byte-compiling build/bdist.linux-x86_64/egg/ftfy/fixes.py to fixes.pyc
+byte-compiling build/bdist.linux-x86_64/egg/ftfy/badness.py to badness.pyc
+byte-compiling build/bdist.linux-x86_64/egg/ftfy/compatibility.py to compatibility.pyc
+byte-compiling build/bdist.linux-x86_64/egg/ftfy/cli.py to cli.pyc
+byte-compiling build/bdist.linux-x86_64/egg/ftfy/chardata.py to chardata.pyc
+byte-compiling build/bdist.linux-x86_64/egg/ftfy/__init__.py to __init__.pyc
+byte-compiling build/bdist.linux-x86_64/egg/ftfy/bad_codecs/sloppy.py to sloppy.pyc
+byte-compiling build/bdist.linux-x86_64/egg/ftfy/bad_codecs/utf8_variants.py to utf8_variants.pyc
+byte-compiling build/bdist.linux-x86_64/egg/ftfy/bad_codecs/__init__.py to __init__.pyc
+creating build/bdist.linux-x86_64/egg/EGG-INFO
+copying ftfy.egg-info/PKG-INFO -> build/bdist.linux-x86_64/egg/EGG-INFO
+copying ftfy.egg-info/SOURCES.txt -> build/bdist.linux-x86_64/egg/EGG-INFO
+copying ftfy.egg-info/dependency_links.txt -> build/bdist.linux-x86_64/egg/EGG-INFO
+copying ftfy.egg-info/entry_points.txt -> build/bdist.linux-x86_64/egg/EGG-INFO
+copying ftfy.egg-info/top_level.txt -> build/bdist.linux-x86_64/egg/EGG-INFO
+zip_safe flag not set; analyzing archive contents...
+creating dist
+creating 'dist/ftfy-4.0.0-py2.7.egg' and adding 'build/bdist.linux-x86_64/egg' to it
+removing 'build/bdist.linux-x86_64/egg' (and everything under it)
+Processing ftfy-4.0.0-py2.7.egg
+Copying ftfy-4.0.0-py2.7.egg to /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages
+Adding ftfy 4.0.0 to easy-install.pth file
+Installing ftfy script to /home/ubuntu/miniconda/envs/_build/bin
+
+Installed /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/ftfy-4.0.0-py2.7.egg
+Processing dependencies for ftfy==4.0.0
+Finished processing dependencies for ftfy==4.0.0
+
+    Heads up! You're now running ftfy 4.x on Python 2.x. This is fine, but
+    here's an advance warning that you won't be able to upgrade ftfy
+    forever without upgrading Python.
+
+    The next major version of ftfy, version 5.0, will probably only work
+    on Python 3, making it easier to develop and ensure its consistency.
+
+    It's fine if you're happy with Python 2 and ftfy 4. Save yourself a
+    headache later and be sure to pin a version in your dependencies.
+    Instead of just asking for 'ftfy', you should ask for:
+
+        'ftfy >= 4, < 5'
+
+The following NEW packages will be INSTALLED:
+
+    openssl:    1.0.1k-1     
+    pip:        7.0.3-py27_0 
+    python:     2.7.10-0     
+    readline:   6.2-2        
+    setuptools: 18.0.1-py27_0
+    sqlite:     3.8.4.1-1    
+    system:     5.8-2        
+    tk:         8.5.18-0     
+    zlib:       1.2.8-0      
+
+Linking packages ...
+[                    ]|                                                  |   0%[openssl             ]|                                                  |   0%[readline            ]|#####                                             |  11%[sqlite              ]|###########                                       |  22%[system              ]|################                                  |  33%[tk                  ]|######################                            |  44%[zlib                ]|###########################                       |  55%[python              ]|#################################                 |  66%[setuptools          ]|######################################            |  77%[pip                 ]|############################################      |  88%[      COMPLETE      ]|##################################################| 100%
+Removing old work directory
+Source cache directory is: /home/ubuntu/miniconda/conda-bld/src_cache
+Found source in cache: ftfy-4.0.0.tar.gz
+Extracting download
+Package: ftfy-4.0.0-py_0
+source tree in: /home/ubuntu/miniconda/conda-bld/work/ftfy-4.0.0
+found egg: /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/ftfy-4.0.0-py2.7.egg
+number of files: 3
+Fixing permissions
+Fixing permissions
+BUILD END: ftfy-4.0.0-py_0
+TEST START: ftfy-4.0.0-py_0
+Fetching package metadata: ......
+
+WARNING: conda-build appears to be out of date. You have version 1.13.0 but the
+latest version is 1.14.1. Run
+
+conda update -n root conda-build
+
+to get the latest version.
+
+Solving package specifications: ./home/ubuntu/miniconda/pkgs/ftfy-4.0.0-py_0/bin/.ftfy-pre-link.sh: line 2: /home/ubuntu/miniconda/envs/_test/bin/python: No such file or directory
+
+The following packages will be downloaded:
+
+    package                    |            build
+    ---------------------------|-----------------
+    ftfy-4.0.0                 |             py_0         148 KB
+
+The following NEW packages will be INSTALLED:
+
+    ftfy:       4.0.0-py_0   
+    openssl:    1.0.1k-1     
+    pip:        7.0.3-py27_0 
+    python:     2.7.10-0     
+    readline:   6.2-2        
+    setuptools: 18.0.1-py27_0
+    sqlite:     3.8.4.1-1    
+    system:     5.8-2        
+    tk:         8.5.18-0     
+    zlib:       1.2.8-0      
+
+Fetching packages ...
+ftfy-4.0.0-py_   0% |                              | ETA:  --:--:--   0.00  B/sftfy-4.0.0-py_  10% |###                            | ETA:  0:00:00  46.68 MB/sftfy-4.0.0-py_  21% |######                         | ETA:  0:00:00  58.51 MB/sftfy-4.0.0-py_  32% |##########                     | ETA:  0:00:00  65.45 MB/sftfy-4.0.0-py_  43% |#############                  | ETA:  0:00:00  69.57 MB/sftfy-4.0.0-py_  54% |################               | ETA:  0:00:00  72.75 MB/sftfy-4.0.0-py_  64% |####################           | ETA:  0:00:00  75.10 MB/sftfy-4.0.0-py_  75% |#######################        | ETA:  0:00:00  76.66 MB/sftfy-4.0.0-py_  86% |##########################     | ETA:  0:00:00  78.01 MB/sftfy-4.0.0-py_  97% |############################## | ETA:  0:00:00  78.52 MB/sftfy-4.0.0-py_ 100% |###############################| ETA:  0:00:00  74.95 MB/sftfy-4.0.0-py_ 100% |###############################| Time: 0:00:00  67.22 MB/s
+Extracting packages ...
+[      COMPLETE      ]|                                                  |   0%[ftfy                ]|                                                  |   0%[ftfy                ]|                                                  |   0%[      COMPLETE      ]|##################################################| 100%
+Linking packages ...
+[      COMPLETE      ]|                                                  |   0%[openssl             ]|                                                  |   0%[openssl             ]|                                                  |   0%[readline            ]|#####                                             |  10%[sqlite              ]|##########                                        |  20%[system              ]|###############                                   |  30%[tk                  ]|####################                              |  40%[zlib                ]|#########################                         |  50%[ftfy                ]|##############################                    |  60%Error: pre-link failed: ftfy-4.0.0-py_0

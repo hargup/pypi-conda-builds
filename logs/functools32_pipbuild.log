@@ -1,0 +1,9 @@
+Removing old build directory
+Removing old work directory
+Error: bad character '-' in package/version: 3.2.3-1
+Package search: {'_pypi_ordering': False, 'version': '3.2.3-1', 'name': 'functools32', 'summary': 'Backport of the functools module from Python 3.2.3 for use on 2.7 and PyPy.'}
+Creating standard recipe for functools32-3.2.3-1
+Converting recipe in /home/ubuntu/pypi-conda-builds/functools32
+package = functools32
+   dependencies = []
+Building conda package for functools32

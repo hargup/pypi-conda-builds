@@ -2,6 +2,14 @@ Removing old build directory
 Removing old work directory
 BUILD START: robotframework-2.9a2-py27_0
 Fetching package metadata: ......
+
+WARNING: conda-build appears to be out of date. You have version 1.13.0 but the
+latest version is 1.14.1. Run
+
+conda update -n root conda-build
+
+to get the latest version.
+
 Solving package specifications: .+ /home/ubuntu/miniconda/envs/_build/bin/python setup.py install
 running install
 running build
@@ -755,15 +763,15 @@ Writing /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/robotfram
 
 The following NEW packages will be INSTALLED:
 
-    openssl:    1.0.1k-1    
-    pip:        7.0.3-py27_0
-    python:     2.7.10-0    
-    readline:   6.2-2       
-    setuptools: 17.0-py27_0 
-    sqlite:     3.8.4.1-1   
-    system:     5.8-2       
-    tk:         8.5.18-0    
-    zlib:       1.2.8-0     
+    openssl:    1.0.1k-1     
+    pip:        7.0.3-py27_0 
+    python:     2.7.10-0     
+    readline:   6.2-2        
+    setuptools: 18.0.1-py27_0
+    sqlite:     3.8.4.1-1    
+    system:     5.8-2        
+    tk:         8.5.18-0     
+    zlib:       1.2.8-0      
 
 Linking packages ...
 [                    ]|                                                  |   0%[openssl             ]|                                                  |   0%[readline            ]|#####                                             |  11%[sqlite              ]|###########                                       |  22%[system              ]|################                                  |  33%[tk                  ]|######################                            |  44%[zlib                ]|###########################                       |  55%[python              ]|#################################                 |  66%[setuptools          ]|######################################            |  77%[pip                 ]|############################################      |  88%[      COMPLETE      ]|##################################################| 100%
@@ -781,32 +789,40 @@ Fixing permissions
 BUILD END: robotframework-2.9a2-py27_0
 TEST START: robotframework-2.9a2-py27_0
 Fetching package metadata: ......
+
+WARNING: conda-build appears to be out of date. You have version 1.13.0 but the
+latest version is 1.14.1. Run
+
+conda update -n root conda-build
+
+to get the latest version.
+
 Solving package specifications: .
 The following packages will be downloaded:
 
     package                    |            build
     ---------------------------|-----------------
-    robotframework-2.9a2       |           py27_0         562 KB
+    robotframework-2.9a2       |           py27_0         563 KB
 
 The following NEW packages will be INSTALLED:
 
-    openssl:        1.0.1k-1    
-    pip:            7.0.3-py27_0
-    python:         2.7.10-0    
-    readline:       6.2-2       
-    robotframework: 2.9a2-py27_0
-    setuptools:     17.0-py27_0 
-    sqlite:         3.8.4.1-1   
-    system:         5.8-2       
-    tk:             8.5.18-0    
-    zlib:           1.2.8-0     
+    openssl:        1.0.1k-1     
+    pip:            7.0.3-py27_0 
+    python:         2.7.10-0     
+    readline:       6.2-2        
+    robotframework: 2.9a2-py27_0 
+    setuptools:     18.0.1-py27_0
+    sqlite:         3.8.4.1-1    
+    system:         5.8-2        
+    tk:             8.5.18-0     
+    zlib:           1.2.8-0      
 
 Fetching packages ...
-robotframework   0% |                              | ETA:  --:--:--   0.00  B/srobotframework   2% |                               | ETA:  0:00:00  46.68 MB/srobotframework   5% |#                              | ETA:  0:00:00  58.41 MB/srobotframework   8% |##                             | ETA:  0:00:00  65.36 MB/srobotframework  11% |###                            | ETA:  0:00:00  69.43 MB/srobotframework  14% |####                           | ETA:  0:00:00  72.44 MB/srobotframework  17% |#####                          | ETA:  0:00:00  74.71 MB/srobotframework  19% |######                         | ETA:  0:00:00  76.05 MB/srobotframework  22% |#######                        | ETA:  0:00:00  77.65 MB/srobotframework  25% |#######                        | ETA:  0:00:00  78.94 MB/srobotframework  28% |########                       | ETA:  0:00:00  80.05 MB/srobotframework  31% |#########                      | ETA:  0:00:00  80.97 MB/srobotframework  34% |##########                     | ETA:  0:00:00  81.72 MB/srobotframework  36% |###########                    | ETA:  0:00:00  82.43 MB/srobotframework  39% |############                   | ETA:  0:00:00  82.87 MB/srobotframework  42% |#############                  | ETA:  0:00:00  82.95 MB/srobotframework  45% |##############                 | ETA:  0:00:00  83.30 MB/srobotframework  48% |##############                 | ETA:  0:00:00  83.72 MB/srobotframework  51% |###############                | ETA:  0:00:00  84.12 MB/srobotframework  54% |################               | ETA:  0:00:00  84.48 MB/srobotframework  56% |#################              | ETA:  0:00:00  84.85 MB/srobotframework  59% |##################             | ETA:  0:00:00  85.16 MB/srobotframework  62% |###################            | ETA:  0:00:00  85.31 MB/srobotframework  65% |####################           | ETA:  0:00:00  85.55 MB/srobotframework  68% |#####################          | ETA:  0:00:00  85.82 MB/srobotframework  71% |######################         | ETA:  0:00:00  86.07 MB/srobotframework  73% |######################         | ETA:  0:00:00  86.29 MB/srobotframework  76% |#######################        | ETA:  0:00:00  86.37 MB/srobotframework  79% |########################       | ETA:  0:00:00  86.56 MB/srobotframework  82% |#########################      | ETA:  0:00:00  86.69 MB/srobotframework  85% |##########################     | ETA:  0:00:00  86.77 MB/srobotframework  88% |###########################    | ETA:  0:00:00  86.93 MB/srobotframework  91% |############################   | ETA:  0:00:00  87.09 MB/srobotframework  93% |#############################  | ETA:  0:00:00  87.23 MB/srobotframework  96% |#############################  | ETA:  0:00:00  87.32 MB/srobotframework  99% |############################## | ETA:  0:00:00  87.45 MB/srobotframework 100% |###############################| Time: 0:00:00  84.25 MB/s
+robotframework   0% |                              | ETA:  --:--:--   0.00  B/srobotframework   2% |                               | ETA:  0:00:00  47.62 MB/srobotframework   5% |#                              | ETA:  0:00:00  58.84 MB/srobotframework   8% |##                             | ETA:  0:00:00  65.97 MB/srobotframework  11% |###                            | ETA:  0:00:00  70.55 MB/srobotframework  14% |####                           | ETA:  0:00:00  73.67 MB/srobotframework  17% |#####                          | ETA:  0:00:00  75.98 MB/srobotframework  19% |######                         | ETA:  0:00:00  77.76 MB/srobotframework  22% |#######                        | ETA:  0:00:00  79.30 MB/srobotframework  25% |#######                        | ETA:  0:00:00  80.05 MB/srobotframework  28% |########                       | ETA:  0:00:00  81.08 MB/srobotframework  31% |#########                      | ETA:  0:00:00  81.11 MB/srobotframework  34% |##########                     | ETA:  0:00:00  81.75 MB/srobotframework  36% |###########                    | ETA:  0:00:00  82.40 MB/srobotframework  39% |############                   | ETA:  0:00:00  83.05 MB/srobotframework  42% |#############                  | ETA:  0:00:00  83.59 MB/srobotframework  45% |##############                 | ETA:  0:00:00  83.84 MB/srobotframework  48% |##############                 | ETA:  0:00:00  84.10 MB/srobotframework  51% |###############                | ETA:  0:00:00  84.50 MB/srobotframework  54% |################               | ETA:  0:00:00  84.92 MB/srobotframework  56% |#################              | ETA:  0:00:00  85.24 MB/srobotframework  59% |##################             | ETA:  0:00:00  85.57 MB/srobotframework  62% |###################            | ETA:  0:00:00  85.87 MB/srobotframework  65% |####################           | ETA:  0:00:00  86.08 MB/srobotframework  68% |#####################          | ETA:  0:00:00  86.27 MB/srobotframework  71% |######################         | ETA:  0:00:00  86.40 MB/srobotframework  73% |######################         | ETA:  0:00:00  86.62 MB/srobotframework  76% |#######################        | ETA:  0:00:00  86.79 MB/srobotframework  79% |########################       | ETA:  0:00:00  86.98 MB/srobotframework  82% |#########################      | ETA:  0:00:00  87.17 MB/srobotframework  85% |##########################     | ETA:  0:00:00  87.30 MB/srobotframework  88% |###########################    | ETA:  0:00:00  87.47 MB/srobotframework  91% |############################   | ETA:  0:00:00  87.51 MB/srobotframework  93% |#############################  | ETA:  0:00:00  87.42 MB/srobotframework  96% |#############################  | ETA:  0:00:00  87.49 MB/srobotframework  99% |############################## | ETA:  0:00:00  87.60 MB/srobotframework 100% |###############################| Time: 0:00:00  84.42 MB/s
 Extracting packages ...
 [      COMPLETE      ]|                                                  |   0%[robotframework      ]|                                                  |   0%[robotframework      ]|                                                  |   0%[      COMPLETE      ]|##################################################| 100%
 Linking packages ...
-[      COMPLETE      ]|                                                  |   0%[openssl             ]|                                                  |   0===== testing package: robotframework-2.9a2-py27_0 =====
+[      COMPLETE      ]|                                                  |   0%[openssl             ]|                                             ===== testing package: robotframework-2.9a2-py27_0 =====
 import: u'robot'
 import: u'robot.api'
 import: u'robot.conf'
@@ -825,7 +841,7 @@ import: u'robot.utils'
 import: u'robot.variables'
 import: u'robot.writer'
 ===== robotframework-2.9a2-py27_0 OK =====
-%[openssl             ]|                                                  |   0%[readline            ]|#####                                             |  10%[sqlite              ]|##########                                        |  20%[system              ]|###############                                   |  30%[tk                  ]|####################                              |  40%[zlib                ]|#########################                         |  50%[python              ]|##############################                    |  60%[robotframework      ]|###################################               |  70%[setuptools          ]|########################################          |  80%[pip                 ]|#############################################     |  90%[      COMPLETE      ]|##################################################| 100%
+     |   0%[openssl             ]|                                                  |   0%[readline            ]|#####                                             |  10%[sqlite              ]|##########                                        |  20%[system              ]|###############                                   |  30%[tk                  ]|####################                              |  40%[zlib                ]|#########################                         |  50%[python              ]|##############################                    |  60%[robotframework      ]|###################################               |  70%[setuptools          ]|########################################          |  80%[pip                 ]|#############################################     |  90%[      COMPLETE      ]|##################################################| 100%
 TEST END: robotframework-2.9a2-py27_0
 # If you want to upload this package to binstar.org later, type:
 #

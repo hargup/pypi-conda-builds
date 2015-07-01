@@ -1,0 +1,74 @@
+Removing old build directory
+Removing old work directory
+BUILD START: archive-0.3-py27_0
+Fetching package metadata: ......
+
+WARNING: conda-build appears to be out of date. You have version 1.13.0 but the
+latest version is 1.14.1. Run
+
+conda update -n root conda-build
+
+to get the latest version.
+
+Solving package specifications: .+ pip install archive
+Collecting archive
+  Downloading http://localhost/packages/source/A/Archive/Archive-0.3.tar.gz
+Installing collected packages: archive
+  Running setup.py install for archive
+Successfully installed archive-0.3
+
+The following NEW packages will be INSTALLED:
+
+    openssl:    1.0.1k-1     
+    pip:        7.0.3-py27_0 
+    python:     2.7.10-0     
+    readline:   6.2-2        
+    setuptools: 18.0.1-py27_0
+    sqlite:     3.8.4.1-1    
+    system:     5.8-2        
+    tk:         8.5.18-0     
+    zlib:       1.2.8-0      
+
+Linking packages ...
+[                    ]|                                                  |   0%[openssl             ]|                                                  |   0%[readline            ]|#####                                             |  11%[sqlite              ]|###########                                       |  22%[system              ]|################                                  |  33%[tk                  ]|######################                            |  44%[zlib                ]|###########################                       |  55%[python              ]|#################################                 |  66%[setuptools          ]|######################################            |  77%[pip                 ]|############################################      |  88%[      COMPLETE      ]|##################################################| 100%
+Removing old work directory
+Copying /home/ubuntu/pypi-conda-builds/archive to /home/ubuntu/miniconda/conda-bld/work
+Package: archive-0.3-py27_0
+source tree in: /home/ubuntu/miniconda/conda-bld/work
+number of files: 9
+Fixing permissions
+Fixing permissions
+BUILD END: archive-0.3-py27_0
+# If you want to upload this package to binstar.org later, type:
+#
+# $ binstar upload /home/ubuntu/miniconda/conda-bld/linux-64/archive-0.3-py27_0.tar.bz2
+#
+# To have conda build upload to binstar automatically, use
+# $ conda config --set binstar_upload yes
+
+Error: prefix already exists: /home/ubuntu/miniconda/envs/_pipbuild_
+Collecting git-py==1.0.1
+  Downloading http://localhost/packages/source/g/git-py/git-py-1.0.1.tar.gz
+setuptools must be installed to install from a source distribution
+Package search: {'_pypi_ordering': False, 'version': '0.5.32', 'name': 'infi.recipe.application_packager', 'summary': 'buildout recipe for packaging projects as applications'}
+Creating standard recipe for infi.recipe.application_packager-0.5.32
+Converting recipe in /home/ubuntu/pypi-conda-builds/infi.recipe.application_packager
+package = infi.recipe.application_packager
+   dependencies = [u'archive', u'git-py', u'infi.execute', u'infi.os_info', u'infi.pypi_manager', u'infi.pyutils', u'infi.recipe.buildout_logging', u'infi.recipe.close_application', u'infi.recipe.console_scripts', u'infi.registry', u'infi.winver', u'jinja2', u'pystick', u'setuptools', u'zc.buildout']
+Creating standard recipe for archive
+Converting recipe in /home/ubuntu/pypi-conda-builds/archive
+package = archive
+   dependencies = []
+Building conda package for archive
+Creating standard recipe for git-py
+Warning, the following versions were found for git-py
+2.0.0
+1.0.1
+1.0.0
+Using 2.0.0
+Use --version to specify a different version.
+Error: Could not parse url for git-py: UNKNOWN
+
+conda create -n _pipbuild_ --yes python pip
+/home/ubuntu/miniconda/envs/_pipbuild_/bin/pip install git-py==1.0.1
+Error: Could not pip install git-py==1.0.1

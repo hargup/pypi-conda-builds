@@ -1,12 +1,16 @@
-There was an error importing jinja2.
-Please run `conda install jinja2` to enable jinja template support
 Removing old build directory
 Removing old work directory
-BUILD START: peewee-2.6.0-py27_0
+BUILD START: peewee-2.6.1-py_0
 Fetching package metadata: ......
-Solving package specifications: .There was an error importing jinja2.
-Please run `conda install jinja2` to enable jinja template support
-+ /home/ubuntu/miniconda/envs/_build/bin/python setup.py install
+
+WARNING: conda-build appears to be out of date. You have version 1.13.0 but the
+latest version is 1.14.1. Run
+
+conda update -n root conda-build
+
+to get the latest version.
+
+Solving package specifications: .+ /home/ubuntu/miniconda/envs/_build/bin/python setup.py install
 running install
 running bdist_egg
 running egg_info
@@ -40,6 +44,7 @@ copying playhouse/shortcuts.py -> build/lib/playhouse
 copying playhouse/berkeleydb.py -> build/lib/playhouse
 copying playhouse/kv.py -> build/lib/playhouse
 copying playhouse/apsw_ext.py -> build/lib/playhouse
+copying playhouse/hybrid.py -> build/lib/playhouse
 copying playhouse/__init__.py -> build/lib/playhouse
 copying playhouse/flask_utils.py -> build/lib/playhouse
 copying playhouse/migrate.py -> build/lib/playhouse
@@ -68,6 +73,7 @@ copying build/lib/playhouse/shortcuts.py -> build/bdist.linux-x86_64/egg/playhou
 copying build/lib/playhouse/berkeleydb.py -> build/bdist.linux-x86_64/egg/playhouse
 copying build/lib/playhouse/kv.py -> build/bdist.linux-x86_64/egg/playhouse
 copying build/lib/playhouse/apsw_ext.py -> build/bdist.linux-x86_64/egg/playhouse
+copying build/lib/playhouse/hybrid.py -> build/bdist.linux-x86_64/egg/playhouse
 copying build/lib/playhouse/__init__.py -> build/bdist.linux-x86_64/egg/playhouse
 copying build/lib/playhouse/flask_utils.py -> build/bdist.linux-x86_64/egg/playhouse
 copying build/lib/playhouse/migrate.py -> build/bdist.linux-x86_64/egg/playhouse
@@ -93,6 +99,7 @@ byte-compiling build/bdist.linux-x86_64/egg/playhouse/shortcuts.py to shortcuts.
 byte-compiling build/bdist.linux-x86_64/egg/playhouse/berkeleydb.py to berkeleydb.pyc
 byte-compiling build/bdist.linux-x86_64/egg/playhouse/kv.py to kv.pyc
 byte-compiling build/bdist.linux-x86_64/egg/playhouse/apsw_ext.py to apsw_ext.pyc
+byte-compiling build/bdist.linux-x86_64/egg/playhouse/hybrid.py to hybrid.pyc
 byte-compiling build/bdist.linux-x86_64/egg/playhouse/__init__.py to __init__.pyc
 byte-compiling build/bdist.linux-x86_64/egg/playhouse/flask_utils.py to flask_utils.pyc
 byte-compiling build/bdist.linux-x86_64/egg/playhouse/migrate.py to migrate.pyc
@@ -115,80 +122,76 @@ copying peewee.egg-info/dependency_links.txt -> build/bdist.linux-x86_64/egg/EGG
 copying peewee.egg-info/top_level.txt -> build/bdist.linux-x86_64/egg/EGG-INFO
 zip_safe flag not set; analyzing archive contents...
 creating dist
-creating 'dist/peewee-2.6.0-py2.7.egg' and adding 'build/bdist.linux-x86_64/egg' to it
+creating 'dist/peewee-2.6.1-py2.7.egg' and adding 'build/bdist.linux-x86_64/egg' to it
 removing 'build/bdist.linux-x86_64/egg' (and everything under it)
-Processing peewee-2.6.0-py2.7.egg
-Copying peewee-2.6.0-py2.7.egg to /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages
-Adding peewee 2.6.0 to easy-install.pth file
+Processing peewee-2.6.1-py2.7.egg
+Copying peewee-2.6.1-py2.7.egg to /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages
+Adding peewee 2.6.1 to easy-install.pth file
 Installing pwiz.py script to /home/ubuntu/miniconda/envs/_build/bin
 
-Installed /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/peewee-2.6.0-py2.7.egg
-Processing dependencies for peewee==2.6.0
-Finished processing dependencies for peewee==2.6.0
+Installed /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/peewee-2.6.1-py2.7.egg
+Processing dependencies for peewee==2.6.1
+Finished processing dependencies for peewee==2.6.1
 
 The following NEW packages will be INSTALLED:
 
-    openssl:    1.0.1k-1    
-    pip:        6.1.1-py27_0
-    python:     2.7.9-3     
-    readline:   6.2-2       
-    setuptools: 16.0-py27_0 
-    sqlite:     3.8.4.1-1   
-    system:     5.8-2       
-    tk:         8.5.18-0    
-    zlib:       1.2.8-0     
+    openssl:    1.0.1k-1     
+    pip:        7.0.3-py27_0 
+    python:     2.7.10-0     
+    readline:   6.2-2        
+    setuptools: 18.0.1-py27_0
+    sqlite:     3.8.4.1-1    
+    system:     5.8-2        
+    tk:         8.5.18-0     
+    zlib:       1.2.8-0      
 
 Linking packages ...
 [                    ]|                                                  |   0%[openssl             ]|                                                  |   0%[readline            ]|#####                                             |  11%[sqlite              ]|###########                                       |  22%[system              ]|################                                  |  33%[tk                  ]|######################                            |  44%[zlib                ]|###########################                       |  55%[python              ]|#################################                 |  66%[setuptools          ]|######################################            |  77%[pip                 ]|############################################      |  88%[      COMPLETE      ]|##################################################| 100%
 Removing old work directory
 Source cache directory is: /home/ubuntu/miniconda/conda-bld/src_cache
-Found source in cache: peewee-2.6.0.tar.gz
+Found source in cache: peewee-2.6.1.tar.gz
 Extracting download
-Package: peewee-2.6.0-py27_0
-source tree in: /home/ubuntu/miniconda/conda-bld/work/peewee-2.6.0
-found egg: /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/peewee-2.6.0-py2.7.egg
+Package: peewee-2.6.1-py_0
+source tree in: /home/ubuntu/miniconda/conda-bld/work/peewee-2.6.1
+found egg: /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/peewee-2.6.1-py2.7.egg
 number of files: 3
 Fixing permissions
-Detected hard-coded path in text file bin/pwiz.py
 Fixing permissions
-BUILD END: peewee-2.6.0-py27_0
-TEST START: peewee-2.6.0-py27_0
+BUILD END: peewee-2.6.1-py_0
+TEST START: peewee-2.6.1-py_0
 Fetching package metadata: ......
-Solving package specifications: .===== testing package: peewee-2.6.0-py27_0 =====
-import: u'peewee'
-import: u'playhouse'
-===== peewee-2.6.0-py27_0 OK =====
+
+WARNING: conda-build appears to be out of date. You have version 1.13.0 but the
+latest version is 1.14.1. Run
+
+conda update -n root conda-build
+
+to get the latest version.
+
+Solving package specifications: ./home/ubuntu/miniconda/pkgs/peewee-2.6.1-py_0/bin/.peewee-pre-link.sh: line 2: /home/ubuntu/miniconda/envs/_test/bin/python: No such file or directory
 
 The following packages will be downloaded:
 
     package                    |            build
     ---------------------------|-----------------
-    peewee-2.6.0               |           py27_0         208 KB
+    peewee-2.6.1               |             py_0         297 KB
 
 The following NEW packages will be INSTALLED:
 
-    openssl:    1.0.1k-1    
-    peewee:     2.6.0-py27_0
-    pip:        6.1.1-py27_0
-    python:     2.7.9-3     
-    readline:   6.2-2       
-    setuptools: 16.0-py27_0 
-    sqlite:     3.8.4.1-1   
-    system:     5.8-2       
-    tk:         8.5.18-0    
-    zlib:       1.2.8-0     
+    openssl:    1.0.1k-1     
+    peewee:     2.6.1-py_0   
+    pip:        7.0.3-py27_0 
+    python:     2.7.10-0     
+    readline:   6.2-2        
+    setuptools: 18.0.1-py27_0
+    sqlite:     3.8.4.1-1    
+    system:     5.8-2        
+    tk:         8.5.18-0     
+    zlib:       1.2.8-0      
 
 Fetching packages ...
-peewee-2.6.0-p   0% |                              | ETA:  --:--:--   0.00  B/speewee-2.6.0-p   7% |##                             | ETA:  0:00:00  43.69 MB/speewee-2.6.0-p  15% |####                           | ETA:  0:00:00  56.21 MB/speewee-2.6.0-p  23% |#######                        | ETA:  0:00:00  63.83 MB/speewee-2.6.0-p  30% |#########                      | ETA:  0:00:00  67.99 MB/speewee-2.6.0-p  38% |###########                    | ETA:  0:00:00  71.42 MB/speewee-2.6.0-p  46% |##############                 | ETA:  0:00:00  74.02 MB/speewee-2.6.0-p  53% |################               | ETA:  0:00:00  76.05 MB/speewee-2.6.0-p  61% |###################            | ETA:  0:00:00  77.51 MB/speewee-2.6.0-p  69% |#####################          | ETA:  0:00:00  78.86 MB/speewee-2.6.0-p  77% |#######################        | ETA:  0:00:00  80.00 MB/speewee-2.6.0-p  84% |##########################     | ETA:  0:00:00  80.86 MB/speewee-2.6.0-p  92% |############################   | ETA:  0:00:00  81.58 MB/speewee-2.6.0-p 100% |###############################| ETA:  0:00:00  82.25 MB/speewee-2.6.0-p 100% |###############################| Time: 0:00:00  75.45 MB/s
+peewee-2.6.1-p   0% |                              | ETA:  --:--:--   0.00  B/speewee-2.6.1-p   5% |#                              | ETA:  0:00:00  48.19 MB/speewee-2.6.1-p  10% |###                            | ETA:  0:00:00  60.12 MB/speewee-2.6.1-p  16% |#####                          | ETA:  0:00:00  66.98 MB/speewee-2.6.1-p  21% |######                         | ETA:  0:00:00  71.23 MB/speewee-2.6.1-p  26% |########                       | ETA:  0:00:00  74.13 MB/speewee-2.6.1-p  32% |##########                     | ETA:  0:00:00  10.43 MB/speewee-2.6.1-p  37% |###########                    | ETA:  0:00:00  11.92 MB/speewee-2.6.1-p  43% |#############                  | ETA:  0:00:00  13.36 MB/speewee-2.6.1-p  48% |###############                | ETA:  0:00:00  14.76 MB/speewee-2.6.1-p  53% |################               | ETA:  0:00:00  16.12 MB/speewee-2.6.1-p  59% |##################             | ETA:  0:00:00  17.42 MB/speewee-2.6.1-p  64% |####################           | ETA:  0:00:00  18.68 MB/speewee-2.6.1-p  69% |#####################          | ETA:  0:00:00  19.90 MB/speewee-2.6.1-p  75% |#######################        | ETA:  0:00:00  21.07 MB/speewee-2.6.1-p  80% |#########################      | ETA:  0:00:00  22.20 MB/speewee-2.6.1-p  86% |##########################     | ETA:  0:00:00  23.30 MB/speewee-2.6.1-p  91% |############################   | ETA:  0:00:00  24.33 MB/speewee-2.6.1-p  96% |############################## | ETA:  0:00:00  25.36 MB/speewee-2.6.1-p 100% |###############################| ETA:  0:00:00  25.83 MB/speewee-2.6.1-p 100% |###############################| Time: 0:00:00  25.35 MB/s
 Extracting packages ...
 [      COMPLETE      ]|                                                  |   0%[peewee              ]|                                                  |   0%[peewee              ]|                                                  |   0%[      COMPLETE      ]|##################################################| 100%
 Linking packages ...
-[      COMPLETE      ]|                                                  |   0%[openssl             ]|                                                  |   0%[openssl             ]|                                                  |   0%[readline            ]|#####                                             |  10%[sqlite              ]|##########                                        |  20%[system              ]|###############                                   |  30%[tk                  ]|####################                              |  40%[zlib                ]|#########################                         |  50%[peewee              ]|##############################                    |  60%[python              ]|###################################               |  70%[setuptools          ]|########################################          |  80%[pip                 ]|#############################################     |  90%[      COMPLETE      ]|##################################################| 100%
-TEST END: peewee-2.6.0-py27_0
-# If you want to upload this package to binstar.org later, type:
-#
-# $ binstar upload /home/ubuntu/miniconda/conda-bld/linux-64/peewee-2.6.0-py27_0.tar.bz2
-#
-# To have conda build upload to binstar automatically, use
-# $ conda config --set binstar_upload yes
-
+[      COMPLETE      ]|                                                  |   0%[openssl             ]|                                                  |   0%[openssl             ]|                                                  |   0%[readline            ]|#####                                             |  10%[sqlite              ]|##########                                        |  20%[system              ]|###############                                   |  30%[tk                  ]|####################                              |  40%[zlib                ]|#########################                         |  50%[peewee              ]|##############################                    |  60%Error: pre-link failed: peewee-2.6.1-py_0

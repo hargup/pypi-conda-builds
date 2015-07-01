@@ -1,0 +1,243 @@
+Warning, the following versions were found for zope.app.publication
+4.0.0a1.dev
+3.14.0
+3.13.2
+3.13.1
+3.13.0
+3.12.0
+3.11.1
+3.11.0
+3.10.2
+3.10.1
+3.10.0
+3.9.0
+3.8.1
+3.8.0
+3.7.0
+3.6.0
+3.5.3
+3.5.2
+3.5.1
+3.5.0
+3.4.4
+3.4.3
+3.4.2
+3.4.0a1
+Using 4.0.0a1.dev
+Use --version to specify a different version.
+Using url https://pypi.python.org/packages/source/z/zope.app.publication/zope.app.publication-4.0.0a1.dev.tar.gz (35 KB) for zope.app.publication.
+Downloading zope.app.publication
+Using cached download
+Unpacking zope.app.publication...
+done
+working in /tmp/tmpbIhHtUconda_skeleton_zope.app.publication-4.0.0a1.dev.tar.gz
+Fetching package metadata: ......
+
+WARNING: conda-build appears to be out of date. You have version 1.13.0 but the
+latest version is 1.14.1. Run
+
+conda update -n root conda-build
+
+to get the latest version.
+
+Solving package specifications: .patching file core.py
+Hunk #1 succeeded at 168 with fuzz 2 (offset 2 lines).
+
+WARNING: conda-build appears to be out of date. You have version 1.13.0 but the
+latest version is 1.14.1. Run
+
+conda update -n root conda-build
+
+to get the latest version.
+
+
+The following NEW packages will be INSTALLED:
+
+    numpy:  1.9.2-py27_0
+    pyyaml: 3.11-py27_1 
+    yaml:   0.1.6-0     
+
+Linking packages ...
+[                    ]|                                                  |   0%[yaml                ]|                                                  |   0%[numpy               ]|################                                  |  33%[pyyaml              ]|#################################                 |  66%[      COMPLETE      ]|##################################################| 100%
+Applying patch: '/tmp/tmpbIhHtUconda_skeleton_zope.app.publication-4.0.0a1.dev.tar.gz/pypi-distutils.patch'
+zodb not found, trying ZODB
+Warning, the following versions were found for ZODB
+4.2.0
+4.2.0b1
+4.1.0
+4.0.1
+4.0.0
+4.0.0b3
+4.0.0b2
+4.0.0b1
+4.0.0a4
+4.0.0a3
+4.0.0a2
+4.0.0a1
+Using 4.2.0
+Use --version to specify a different version.
+Using url https://pypi.python.org/packages/source/Z/ZODB/ZODB-4.2.0.tar.gz (399 KB) for ZODB.
+Downloading ZODB
+Using cached download
+Unpacking ZODB...
+done
+working in /tmp/tmp_aZWtUconda_skeleton_ZODB-4.2.0.tar.gz
+Solving package specifications: .patching file core.py
+Hunk #1 succeeded at 168 with fuzz 2 (offset 2 lines).
+
+WARNING: conda-build appears to be out of date. You have version 1.13.0 but the
+latest version is 1.14.1. Run
+
+conda update -n root conda-build
+
+to get the latest version.
+
+
+Applying patch: '/tmp/tmp_aZWtUconda_skeleton_ZODB-4.2.0.tar.gz/pypi-distutils.patch'
+WARNING: Could not add entry points. They were:
+
+      [console_scripts]
+      fsdump = ZODB.FileStorage.fsdump:main
+      fsoids = ZODB.scripts.fsoids:main
+      fsrefs = ZODB.scripts.fsrefs:main
+      fstail = ZODB.scripts.fstail:Main
+      repozo = ZODB.scripts.repozo:main
+      
+Warning, the following versions were found for zodbpickle
+0.6.0
+0.5.2
+0.5.1
+0.5.0
+0.4.4
+0.4.3
+0.4.2
+0.4.1
+0.4
+0.3
+0.2
+0.1.0
+Using 0.6.0
+Use --version to specify a different version.
+Using url https://pypi.python.org/packages/source/z/zodbpickle/zodbpickle-0.6.0.tar.gz (218 KB) for zodbpickle.
+Downloading zodbpickle
+Using cached download
+Unpacking zodbpickle...
+done
+working in /tmp/tmpjmm58Bconda_skeleton_zodbpickle-0.6.0.tar.gz
+Solving package specifications: .patching file core.py
+Hunk #1 succeeded at 168 with fuzz 2 (offset 2 lines).
+
+WARNING: conda-build appears to be out of date. You have version 1.13.0 but the
+latest version is 1.14.1. Run
+
+conda update -n root conda-build
+
+to get the latest version.
+
+
+Applying patch: '/tmp/tmpjmm58Bconda_skeleton_zodbpickle-0.6.0.tar.gz/pypi-distutils.patch'
+Warning, the following versions were found for zdaemon
+4.1.0
+4.0.1
+4.0.0
+4.0.0a1
+3.0.5
+3.0.4
+3.0.3
+3.0.2
+3.0.1
+3.0.0
+2.0.7
+2.0.6
+2.0.5
+2.0.4
+2.0.3
+2.0.2
+2.0.1
+2.0.0
+2.0a6
+2.0a2
+Using 4.1.0
+Use --version to specify a different version.
+Using url https://pypi.python.org/packages/source/z/zdaemon/zdaemon-4.1.0.zip (73 KB) for zdaemon.
+Downloading zdaemon
+Using cached download
+Unpacking zdaemon...
+done
+working in /tmp/tmpNi4vjcconda_skeleton_zdaemon-4.1.0.zip
+Solving package specifications: .patching file core.py
+Hunk #1 succeeded at 168 with fuzz 2 (offset 2 lines).
+
+WARNING: conda-build appears to be out of date. You have version 1.13.0 but the
+latest version is 1.14.1. Run
+
+conda update -n root conda-build
+
+to get the latest version.
+
+
+Applying patch: '/tmp/tmpNi4vjcconda_skeleton_zdaemon-4.1.0.zip/pypi-distutils.patch'
+WARNING: Could not add entry points. They were:
+
+[console_scripts]
+zdaemon = zdaemon.zdctl:main
+
+Warning, the following versions were found for zc.customdoctests
+1.0.1
+1.0.0
+0.1.0
+Using 1.0.1
+Use --version to specify a different version.
+Using url https://pypi.python.org/packages/source/z/zc.customdoctests/zc.customdoctests-1.0.1.zip (15 KB) for zc.customdoctests.
+Downloading zc.customdoctests
+Using cached download
+Unpacking zc.customdoctests...
+done
+working in /tmp/tmpzMt9Hoconda_skeleton_zc.customdoctests-1.0.1.zip
+Solving package specifications: .patching file core.py
+Hunk #1 succeeded at 168 with fuzz 2 (offset 2 lines).
+
+WARNING: conda-build appears to be out of date. You have version 1.13.0 but the
+latest version is 1.14.1. Run
+
+conda update -n root conda-build
+
+to get the latest version.
+
+
+Applying patch: '/tmp/tmpzMt9Hoconda_skeleton_zc.customdoctests-1.0.1.zip/pypi-distutils.patch'
+Warning, the following versions were found for python-spidermonkey
+0.0.10
+0.0.9
+0.0.8
+0.0.7
+0.0.6
+0.0.5
+0.0.4
+0.0.3
+0.0.2
+0.0.1a
+Using 0.0.10
+Use --version to specify a different version.
+Using url https://pypi.python.org/packages/source/p/python-spidermonkey/python-spidermonkey-0.0.10.tar.gz (769 KB) for python-spidermonkey.
+Downloading python-spidermonkey
+Using cached download
+Unpacking python-spidermonkey...
+done
+working in /tmp/tmpJWUu6Qconda_skeleton_python-spidermonkey-0.0.10.tar.gz
+Solving package specifications: .patching file core.py
+Hunk #1 succeeded at 168 with fuzz 2 (offset 2 lines).
+Traceback (most recent call last):
+  File "setup.py", line 186, in <module>
+    **platform_config()
+  File "setup.py", line 143, in platform_config
+    return nspr_config(config=config)
+  File "setup.py", line 87, in nspr_config
+    return pkg_config("nspr", config)
+  File "setup.py", line 59, in pkg_config
+    raise RuntimeError("No package configuration found for: %s" % pkg_name)
+RuntimeError: No package configuration found for: nspr
+
+Applying patch: '/tmp/tmpJWUu6Qconda_skeleton_python-spidermonkey-0.0.10.tar.gz/pypi-distutils.patch'
+$PYTHONPATH = /tmp/tmpJWUu6Qconda_skeleton_python-spidermonkey-0.0.10.tar.gz/python-spidermonkey-0.0.10
+Error: command failed: /home/ubuntu/miniconda/envs/_build/bin/python setup.py install

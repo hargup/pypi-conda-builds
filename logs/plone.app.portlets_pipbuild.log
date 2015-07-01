@@ -1,0 +1,45 @@
+An unexpected error has occurred, please consider sending the
+following traceback to the conda GitHub issue tracker at:
+
+    https://github.com/conda/conda-build/issues
+
+Include the output of the command 'conda info' in your report.
+
+
+Package search: {'_pypi_ordering': False, 'version': '3.0.6', 'name': 'plone.app.portlets', 'summary': 'Plone integration for the basic plone.portlets package'}
+Creating standard recipe for plone.app.portlets-3.0.6
+Converting recipe in /home/ubuntu/pypi-conda-builds/plone.app.portlets
+package = plone.app.portlets
+   dependencies = [u'five.customerize', u'plone.i18n', u'plone.memoize', u'plone.portlets >=1.1', u'plone.app.i18n', u'plone.app.layout >=1.2dev', u'plone.app.vocabularies >=2.1.15.dev0', u'transaction', u'zope.annotation', u'zope.browser', u'zope.component', u'zope.configuration', u'zope.container', u'zope.contentprovider', u'zope.event', u'zope.i18nmessageid', u'zope.interface', u'zope.lifecycleevent', u'zope.publisher', u'zope.schema', u'zope.site', u'zope.traversing', u'products.cmfplone', u'products.cmfcore', u'products.cmfdynamicviewfti', u'products.genericsetup', u'products.pluggableauthservice', u'zodb3', u'acquisition', u'datetime', u'zope2 >=2.12.3', u'feedparser']
+Creating standard recipe for five.customerize
+Converting recipe in /home/ubuntu/pypi-conda-builds/five.customerize
+package = five.customerize
+   dependencies = [u'plone.portlets', u'zope.component', u'zope.componentvocabulary', u'zope.dottedname', u'zope.interface', u'zope.lifecycleevent', u'zope.pagetemplate', u'zope.publisher', u'zope.schema', u'zope.site', u'zope.testing', u'zope.traversing', u'zope.viewlet', u'transaction', u'acquisition', u'zope2']
+Creating standard recipe for plone.portlets
+Converting recipe in /home/ubuntu/pypi-conda-builds/plone.portlets
+package = plone.portlets
+   dependencies = [u'zodb3', u'plone.memoize', u'zope.annotation', u'zope.component', u'zope.container', u'zope.contentprovider', u'zope.interface', u'zope.publisher', u'zope.schema', u'zope.site']
+Creating standard recipe for zodb3
+Converting recipe in /home/ubuntu/pypi-conda-builds/zodb3
+Traceback (most recent call last):
+  File "/home/ubuntu/miniconda/bin/conda-pipbuild", line 6, in <module>
+    exec(compile(open(__file__).read(), __file__, 'exec'))
+  File "/home/ubuntu/conda-build/bin/conda-pipbuild", line 5, in <module>
+    sys.exit(main())
+  File "/home/ubuntu/conda-build/conda_build/main_pipbuild.py", line 80, in main
+    args_func(args, p)
+  File "/home/ubuntu/conda-build/conda_build/main_build.py", line 349, in args_func
+    args.func(args, p)
+  File "/home/ubuntu/conda-build/conda_build/main_pipbuild.py", line 360, in execute
+    build_package(package, version, noarch_python=args.noarch_python)
+  File "/home/ubuntu/conda-build/conda_build/main_pipbuild.py", line 314, in build_package
+    build_package(depend)
+  File "/home/ubuntu/conda-build/conda_build/main_pipbuild.py", line 314, in build_package
+    build_package(depend)
+  File "/home/ubuntu/conda-build/conda_build/main_pipbuild.py", line 314, in build_package
+    build_package(depend)
+  File "/home/ubuntu/conda-build/conda_build/main_pipbuild.py", line 301, in build_package
+    noarch_python=noarch_python)
+  File "/home/ubuntu/conda-build/conda_build/main_pipbuild.py", line 183, in convert_recipe
+    d['homeurl'] = meta['about']['home']
+KeyError: 'home'

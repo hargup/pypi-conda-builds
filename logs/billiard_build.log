@@ -1,7 +1,15 @@
 Removing old build directory
 Removing old work directory
-BUILD START: billiard-3.3.0.20-py27_0
+BUILD START: billiard-3.3.0.20-py_0
 Fetching package metadata: ......
+
+WARNING: conda-build appears to be out of date. You have version 1.13.0 but the
+latest version is 1.14.1. Run
+
+conda update -n root conda-build
+
+to get the latest version.
+
 Solving package specifications: .+ /home/ubuntu/miniconda/envs/_build/bin/python setup.py install
 running install
 running bdist_egg
@@ -156,15 +164,15 @@ Finished processing dependencies for billiard==3.3.0.20
 
 The following NEW packages will be INSTALLED:
 
-    openssl:    1.0.1k-1    
-    pip:        7.0.3-py27_0
-    python:     2.7.10-0    
-    readline:   6.2-2       
-    setuptools: 17.0-py27_0 
-    sqlite:     3.8.4.1-1   
-    system:     5.8-2       
-    tk:         8.5.18-0    
-    zlib:       1.2.8-0     
+    openssl:    1.0.1k-1     
+    pip:        7.0.3-py27_0 
+    python:     2.7.10-0     
+    readline:   6.2-2        
+    setuptools: 18.0.1-py27_0
+    sqlite:     3.8.4.1-1    
+    system:     5.8-2        
+    tk:         8.5.18-0     
+    zlib:       1.2.8-0      
 
 Linking packages ...
 [                    ]|                                                  |   0%[openssl             ]|                                                  |   0%[readline            ]|#####                                             |  11%[sqlite              ]|###########                                       |  22%[system              ]|################                                  |  33%[tk                  ]|######################                            |  44%[zlib                ]|###########################                       |  55%[python              ]|#################################                 |  66%[setuptools          ]|######################################            |  77%[pip                 ]|############################################      |  88%[      COMPLETE      ]|##################################################| 100%
@@ -172,56 +180,11 @@ Removing old work directory
 Source cache directory is: /home/ubuntu/miniconda/conda-bld/src_cache
 Found source in cache: billiard-3.3.0.20.tar.gz
 Extracting download
-Package: billiard-3.3.0.20-py27_0
+Package: billiard-3.3.0.20-py_0
 source tree in: /home/ubuntu/miniconda/conda-bld/work/billiard-3.3.0.20
 found egg dir: /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/billiard-3.3.0.20-py2.7-linux-x86_64.egg
 number of files: 64
 Fixing permissions
 patchelf: file: /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/_billiard.so
     setting rpath to: $ORIGIN/../..
-Ignored hard-coded path in lib/python2.7/site-packages/_billiard.so
-Fixing permissions
-BUILD END: billiard-3.3.0.20-py27_0
-TEST START: billiard-3.3.0.20-py27_0
-Fetching package metadata: ......
-Solving package specifications: .===== testing package: billiard-3.3.0.20-py27_0 =====
-import: u'billiard'
-import: u'billiard.dummy'
-import: u'billiard.py2'
-import: u'billiard.tests'
-import: u'funtests'
-===== billiard-3.3.0.20-py27_0 OK =====
-
-The following packages will be downloaded:
-
-    package                    |            build
-    ---------------------------|-----------------
-    billiard-3.3.0.20          |           py27_0         158 KB
-
-The following NEW packages will be INSTALLED:
-
-    billiard:   3.3.0.20-py27_0
-    openssl:    1.0.1k-1       
-    pip:        7.0.3-py27_0   
-    python:     2.7.10-0       
-    readline:   6.2-2          
-    setuptools: 17.0-py27_0    
-    sqlite:     3.8.4.1-1      
-    system:     5.8-2          
-    tk:         8.5.18-0       
-    zlib:       1.2.8-0        
-
-Fetching packages ...
-billiard-3.3.0   0% |                              | ETA:  --:--:--   0.00  B/sbilliard-3.3.0  10% |###                            | ETA:  0:00:00  46.15 MB/sbilliard-3.3.0  20% |######                         | ETA:  0:00:00  58.31 MB/sbilliard-3.3.0  30% |#########                      | ETA:  0:00:00  64.67 MB/sbilliard-3.3.0  40% |############                   | ETA:  0:00:00  69.13 MB/sbilliard-3.3.0  50% |###############                | ETA:  0:00:00  72.23 MB/sbilliard-3.3.0  60% |##################             | ETA:  0:00:00  74.59 MB/sbilliard-3.3.0  70% |#####################          | ETA:  0:00:00  76.45 MB/sbilliard-3.3.0  80% |#########################      | ETA:  0:00:00  77.84 MB/sbilliard-3.3.0  91% |############################   | ETA:  0:00:00  79.11 MB/sbilliard-3.3.0 100% |###############################| ETA:  0:00:00  79.39 MB/sbilliard-3.3.0 100% |###############################| Time: 0:00:00  60.99 MB/s
-Extracting packages ...
-[      COMPLETE      ]|                                                  |   0%[billiard            ]|                                                  |   0%[billiard            ]|                                                  |   0%[      COMPLETE      ]|##################################################| 100%
-Linking packages ...
-[      COMPLETE      ]|                                                  |   0%[openssl             ]|                                                  |   0%[openssl             ]|                                                  |   0%[readline            ]|#####                                             |  10%[sqlite              ]|##########                                        |  20%[system              ]|###############                                   |  30%[tk                  ]|####################                              |  40%[zlib                ]|#########################                         |  50%[billiard            ]|##############################                    |  60%[python              ]|###################################               |  70%[setuptools          ]|########################################          |  80%[pip                 ]|#############################################     |  90%[      COMPLETE      ]|##################################################| 100%
-TEST END: billiard-3.3.0.20-py27_0
-# If you want to upload this package to binstar.org later, type:
-#
-# $ binstar upload /home/ubuntu/miniconda/conda-bld/linux-64/billiard-3.3.0.20-py27_0.tar.bz2
-#
-# To have conda build upload to binstar automatically, use
-# $ conda config --set binstar_upload yes
-
+[noarch_python] Error: Shared object file found: lib/python2.7/site-packages/_billiard.so

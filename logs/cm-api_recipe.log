@@ -10,19 +10,40 @@ Warning, the following versions were found for cm-api
 Using 10.0.0
 Use --version to specify a different version.
 Using url https://pypi.python.org/packages/source/c/cm-api/cm_api-10.0.0.tar.gz (56 KB) for cm-api.
-Downloading cm-api (use --no-download to skip this step)
+Downloading cm-api
 Using cached download
 Unpacking cm-api...
 done
-working in /tmp/tmpxpLjzsconda_skeleton_cm_api-10.0.0.tar.gz
+working in /tmp/tmpmGZupZconda_skeleton_cm_api-10.0.0.tar.gz
 Fetching package metadata: ......
+
+WARNING: conda-build appears to be out of date. You have version 1.13.0 but the
+latest version is 1.14.1. Run
+
+conda update -n root conda-build
+
+to get the latest version.
+
 Solving package specifications: .patching file core.py
 Hunk #1 succeeded at 168 with fuzz 2 (offset 2 lines).
-Traceback (most recent call last):
-  File "setup.py", line 18, in <module>
-    from setuptools import setup, find_packages
-ImportError: No module named setuptools
 
-Applying patch: '/tmp/tmpxpLjzsconda_skeleton_cm_api-10.0.0.tar.gz/pypi-distutils.patch'
-$PYTHONPATH = /tmp/tmpxpLjzsconda_skeleton_cm_api-10.0.0.tar.gz/cm_api-10.0.0
-Error: command failed: /home/ubuntu/miniconda/envs/_build/bin/python setup.py install
+The following NEW packages will be INSTALLED:
+
+    numpy:      1.9.2-py27_0 
+    openssl:    1.0.1k-1     
+    pip:        7.0.3-py27_0 
+    python:     2.7.10-0     
+    pyyaml:     3.11-py27_1  
+    readline:   6.2-2        
+    setuptools: 18.0.1-py27_0
+    sqlite:     3.8.4.1-1    
+    system:     5.8-2        
+    tk:         8.5.18-0     
+    yaml:       0.1.6-0      
+    zlib:       1.2.8-0      
+
+Linking packages ...
+[                    ]|                                                  |   0%[openssl             ]|                                                  |   0%[readline            ]|####                                              |   8%[sqlite              ]|########                                          |  16%[system              ]|############                                      |  25%[tk                  ]|################                                  |  33%[yaml                ]|####################                              |  41%[zlib                ]|#########################                         |  50%[numpy               ]|#############################                     |  58%[python              ]|#################################                 |  66%[pyyaml              ]|#####################################             |  75%[setuptools          ]|#########################################         |  83%[pip                 ]|#############################################     |  91%[      COMPLETE      ]|##################################################| 100%
+Applying patch: '/tmp/tmpmGZupZconda_skeleton_cm_api-10.0.0.tar.gz/pypi-distutils.patch'
+Writing recipe for cm-api
+Done

@@ -13,19 +13,23 @@ Warning, the following versions were found for zope.deprecation
 Using 4.1.2
 Use --version to specify a different version.
 Using url https://pypi.python.org/packages/source/z/zope.deprecation/zope.deprecation-4.1.2.tar.gz (143 KB) for zope.deprecation.
-Downloading zope.deprecation (use --no-download to skip this step)
+Downloading zope.deprecation
 Using cached download
 Unpacking zope.deprecation...
 done
-working in /tmp/tmpfo3dfOconda_skeleton_zope.deprecation-4.1.2.tar.gz
+working in /tmp/tmpi2inu9conda_skeleton_zope.deprecation-4.1.2.tar.gz
 Fetching package metadata: ......
+
+WARNING: conda-build appears to be out of date. You have version 1.13.0 but the
+latest version is 1.14.1. Run
+
+conda update -n root conda-build
+
+to get the latest version.
+
 Solving package specifications: .patching file core.py
 Hunk #1 succeeded at 168 with fuzz 2 (offset 2 lines).
-Traceback (most recent call last):
-  File "setup.py", line 23, in <module>
-    from setuptools import setup, find_packages
-ImportError: No module named setuptools
 
-Applying patch: '/tmp/tmpfo3dfOconda_skeleton_zope.deprecation-4.1.2.tar.gz/pypi-distutils.patch'
-$PYTHONPATH = /tmp/tmpfo3dfOconda_skeleton_zope.deprecation-4.1.2.tar.gz/zope.deprecation-4.1.2
-Error: command failed: /home/ubuntu/miniconda/envs/_build/bin/python setup.py install
+Applying patch: '/tmp/tmpi2inu9conda_skeleton_zope.deprecation-4.1.2.tar.gz/pypi-distutils.patch'
+Writing recipe for zope.deprecation
+Done

@@ -33,16 +33,32 @@ Warning, the following versions were found for splinter
 Using 0.7.2
 Use --version to specify a different version.
 Using url https://pypi.python.org/packages/source/s/splinter/splinter-0.7.2.tar.gz (19 KB) for splinter.
-Downloading splinter (use --no-download to skip this step)
+Downloading splinter
 Using cached download
 Unpacking splinter...
 done
-working in /tmp/tmpgA7WSuconda_skeleton_splinter-0.7.2.tar.gz
+working in /tmp/tmpbCSQiSconda_skeleton_splinter-0.7.2.tar.gz
 Fetching package metadata: ......
+
+WARNING: conda-build appears to be out of date. You have version 1.13.0 but the
+latest version is 1.14.1. Run
+
+conda update -n root conda-build
+
+to get the latest version.
+
 Solving package specifications: .patching file core.py
 Hunk #1 succeeded at 168 with fuzz 2 (offset 2 lines).
 
-Applying patch: '/tmp/tmpgA7WSuconda_skeleton_splinter-0.7.2.tar.gz/pypi-distutils.patch'
+WARNING: conda-build appears to be out of date. You have version 1.13.0 but the
+latest version is 1.14.1. Run
+
+conda update -n root conda-build
+
+to get the latest version.
+
+
+Applying patch: '/tmp/tmpbCSQiSconda_skeleton_splinter-0.7.2.tar.gz/pypi-distutils.patch'
 Warning, the following versions were found for zope.testbrowser
 4.0.4
 4.0.3
@@ -75,13 +91,13 @@ Warning, the following versions were found for zope.testbrowser
 Using 4.0.4
 Use --version to specify a different version.
 Using url https://pypi.python.org/packages/source/z/zope.testbrowser/zope.testbrowser-4.0.4.zip (100 KB) for zope.testbrowser.
-Downloading zope.testbrowser (use --no-download to skip this step)
+Downloading zope.testbrowser
 Using cached download
 Unpacking zope.testbrowser...
 done
-working in /tmp/tmpfRL4zYconda_skeleton_zope.testbrowser-4.0.4.zip
+working in /tmp/tmpM1Hgsnconda_skeleton_zope.testbrowser-4.0.4.zip
 Solving package specifications: .patching file core.py
 Hunk #1 succeeded at 168 with fuzz 2 (offset 2 lines).
 
-Applying patch: '/tmp/tmpfRL4zYconda_skeleton_zope.testbrowser-4.0.4.zip/pypi-distutils.patch'
+Applying patch: '/tmp/tmpM1Hgsnconda_skeleton_zope.testbrowser-4.0.4.zip/pypi-distutils.patch'
 Error: Could not parse: zope.testbrowser [test,zope-functional-testing]

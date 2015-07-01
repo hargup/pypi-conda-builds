@@ -1,0 +1,11 @@
+Error: prefix already exists: /home/ubuntu/miniconda/envs/_pipbuild_
+Collecting OpenGroupware==0.1.49rc89
+  Could not find a version that satisfies the requirement OpenGroupware==0.1.49rc89 (from versions: )
+No matching distribution found for OpenGroupware==0.1.49rc89
+Package search: {'_pypi_ordering': False, 'version': '0.1.49rc89', 'name': 'OpenGroupware', 'summary': 'OpenGroupware Coils Groupware & Workflow Solution'}
+Creating standard recipe for opengroupware-0.1.49rc89
+Error: Could not parse url for OpenGroupware: UNKNOWN
+
+conda create -n _pipbuild_ --yes python pip
+/home/ubuntu/miniconda/envs/_pipbuild_/bin/pip install OpenGroupware==0.1.49rc89
+Error: Could not pip install OpenGroupware==0.1.49rc89

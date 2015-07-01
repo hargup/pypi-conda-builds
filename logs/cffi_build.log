@@ -1,0 +1,90 @@
+Removing old build directory
+Removing old work directory
+BUILD START: cffi-1.0.1-py27_0
+Fetching package metadata: ......
+
+WARNING: conda-build appears to be out of date. You have version 1.13.0 but the
+latest version is 1.14.1. Run
+
+conda update -n root conda-build
+
+to get the latest version.
+
+Solving package specifications: .+ /home/ubuntu/miniconda/envs/_build/bin/python setup.py install
+running install
+running bdist_egg
+running egg_info
+writing requirements to cffi.egg-info/requires.txt
+writing cffi.egg-info/PKG-INFO
+writing top-level names to cffi.egg-info/top_level.txt
+writing dependency_links to cffi.egg-info/dependency_links.txt
+writing entry points to cffi.egg-info/entry_points.txt
+reading manifest file 'cffi.egg-info/SOURCES.txt'
+reading manifest template 'MANIFEST.in'
+writing manifest file 'cffi.egg-info/SOURCES.txt'
+installing library code to build/bdist.linux-x86_64/egg
+running install_lib
+running build_py
+creating build
+creating build/lib.linux-x86_64-2.7
+creating build/lib.linux-x86_64-2.7/cffi
+copying cffi/verifier.py -> build/lib.linux-x86_64-2.7/cffi
+copying cffi/backend_ctypes.py -> build/lib.linux-x86_64-2.7/cffi
+copying cffi/cffi_opcode.py -> build/lib.linux-x86_64-2.7/cffi
+copying cffi/setuptools_ext.py -> build/lib.linux-x86_64-2.7/cffi
+copying cffi/model.py -> build/lib.linux-x86_64-2.7/cffi
+copying cffi/api.py -> build/lib.linux-x86_64-2.7/cffi
+copying cffi/gc_weakref.py -> build/lib.linux-x86_64-2.7/cffi
+copying cffi/vengine_cpy.py -> build/lib.linux-x86_64-2.7/cffi
+copying cffi/commontypes.py -> build/lib.linux-x86_64-2.7/cffi
+copying cffi/lock.py -> build/lib.linux-x86_64-2.7/cffi
+copying cffi/__init__.py -> build/lib.linux-x86_64-2.7/cffi
+copying cffi/cparser.py -> build/lib.linux-x86_64-2.7/cffi
+copying cffi/recompiler.py -> build/lib.linux-x86_64-2.7/cffi
+copying cffi/ffiplatform.py -> build/lib.linux-x86_64-2.7/cffi
+copying cffi/vengine_gen.py -> build/lib.linux-x86_64-2.7/cffi
+copying cffi/_cffi_include.h -> build/lib.linux-x86_64-2.7/cffi
+copying cffi/parse_c_type.h -> build/lib.linux-x86_64-2.7/cffi
+running build_ext
+building '_cffi_backend' extension
+creating build/temp.linux-x86_64-2.7
+creating build/temp.linux-x86_64-2.7/c
+gcc -pthread -fno-strict-aliasing -g -O2 -DNDEBUG -g -fwrapv -O3 -Wall -Wstrict-prototypes -fPIC -DUSE__THREAD -I/usr/include/ffi -I/usr/include/libffi -I/home/ubuntu/miniconda/envs/_build/include/python2.7 -c c/_cffi_backend.c -o build/temp.linux-x86_64-2.7/c/_cffi_backend.o
+c/_cffi_backend.c:13:17: fatal error: ffi.h: No such file or directory
+ #include <ffi.h>
+                 ^
+compilation terminated.
+error: command 'gcc' failed with exit status 1
+
+The following packages will be downloaded:
+
+    package                    |            build
+    ---------------------------|-----------------
+    pycparser-2.14             |           py27_0         147 KB
+
+The following NEW packages will be INSTALLED:
+
+    openssl:    1.0.1k-1     
+    pip:        7.0.3-py27_0 
+    pycparser:  2.14-py27_0  
+    python:     2.7.10-0     
+    readline:   6.2-2        
+    setuptools: 18.0.1-py27_0
+    sqlite:     3.8.4.1-1    
+    system:     5.8-2        
+    tk:         8.5.18-0     
+    zlib:       1.2.8-0      
+
+Fetching packages ...
+pycparser-2.14   0% |                              | ETA:  --:--:--   0.00  B/spycparser-2.14  10% |###                            | ETA:  0:00:00  19.55 MB/spycparser-2.14  21% |######                         | ETA:  0:00:00  24.92 MB/spycparser-2.14  32% |##########                     | ETA:  0:00:00  30.03 MB/spycparser-2.14  43% |#############                  | ETA:  0:00:00  32.22 MB/spycparser-2.14  54% |################               | ETA:  0:00:00  32.87 MB/spycparser-2.14  65% |####################           | ETA:  0:00:00  32.68 MB/spycparser-2.14  76% |#######################        | ETA:  0:00:00  32.42 MB/spycparser-2.14  86% |##########################     | ETA:  0:00:00  32.20 MB/spycparser-2.14  97% |############################## | ETA:  0:00:00  33.73 MB/spycparser-2.14 100% |###############################| ETA:  0:00:00  32.98 MB/spycparser-2.14 100% |###############################| Time: 0:00:00  31.22 MB/s
+Extracting packages ...
+[                    ]|                                                  |   0%[pycparser           ]|                                                  |   0%[      COMPLETE      ]|##################################################| 100%
+Linking packages ...
+[      COMPLETE      ]|                                                  |   0%[openssl             ]|                                                  |   0%[openssl             ]|                                                  |   0%[readline            ]|#####                                             |  10%[sqlite              ]|##########                                        |  20%[system              ]|###############                                   |  30%[tk                  ]|####################                              |  40%[zlib                ]|#########################                         |  50%[pycparser           ]|##############################                    |  60%[python              ]|###################################               |  70%[setuptools          ]|########################################          |  80%[pip                 ]|#############################################     |  90%[      COMPLETE      ]|##################################################| 100%
+Removing old work directory
+Source cache directory is: /home/ubuntu/miniconda/conda-bld/src_cache
+Found source in cache: cffi-1.0.1.tar.gz
+Extracting download
+Package: cffi-1.0.1-py27_0
+source tree in: /home/ubuntu/miniconda/conda-bld/work/cffi-1.0.1
+Command failed: /bin/bash -x -e /home/ubuntu/pypi-conda-builds/recipes/cffi/build.sh

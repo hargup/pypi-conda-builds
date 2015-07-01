@@ -1,0 +1,73 @@
+package:
+  name: transaction
+  version: "1.4.4"
+
+source:
+  fn: transaction-1.4.4.tar.gz
+  url: https://pypi.python.org/packages/source/t/transaction/transaction-1.4.4.tar.gz
+  md5: a6d6d6fa18e44d1644518bb7d61eac92
+#  patches:
+   # List any patch files here
+   # - fix.patch
+
+build:
+  noarch_python: True
+  # preserve_egg_dir: True
+  # entry_points:
+    # Put any entry points (scripts to be generated automatically) here. The
+    # syntax is module:function.  For example
+    #
+    # - transaction = transaction:main
+    #
+    # Would create an entry point called transaction that calls transaction.main()
+
+
+  # If this is a new build for the same version, increment the build
+  # number. If you do not include this key, it defaults to 0.
+  # number: 1
+
+requirements:
+  build:
+    - python
+    - setuptools
+    - zope.interface
+    - sphinx
+    - repoze.sphinx.autointerface
+    - nose
+    - coverage
+
+  run:
+    - python
+    - zope.interface
+    - sphinx
+    - repoze.sphinx.autointerface
+    - nose
+    - coverage
+
+test:
+  # Python imports
+  imports:
+    - transaction
+    - transaction.tests
+
+  # commands:
+    # You can put test commands to be run here.  Use this to test that the
+    # entry points work.
+
+
+  # You can also put a file called run_test.py in the recipe that will be run
+  # at test time.
+
+  requires:
+    - zope.interface
+    # Put any additional test requirements here.  For example
+    # - nose
+
+about:
+  home: http://www.zope.org/Products/ZODB
+  license: Zope Public License
+  summary: 'Transaction management for Python'
+
+# See
+# http://docs.continuum.io/conda/build.html for
+# more information about meta.yaml

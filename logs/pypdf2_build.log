@@ -2,6 +2,14 @@ Removing old build directory
 Removing old work directory
 BUILD START: pypdf2-1.24-py27_0
 Fetching package metadata: ......
+
+WARNING: conda-build appears to be out of date. You have version 1.13.0 but the
+latest version is 1.14.1. Run
+
+conda update -n root conda-build
+
+to get the latest version.
+
 Solving package specifications: .+ /home/ubuntu/miniconda/envs/_build/bin/python setup.py install
 running install
 running build
@@ -43,15 +51,15 @@ Writing /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/PyPDF2-1.
 
 The following NEW packages will be INSTALLED:
 
-    openssl:    1.0.1k-1    
-    pip:        7.0.3-py27_0
-    python:     2.7.10-0    
-    readline:   6.2-2       
-    setuptools: 17.0-py27_0 
-    sqlite:     3.8.4.1-1   
-    system:     5.8-2       
-    tk:         8.5.18-0    
-    zlib:       1.2.8-0     
+    openssl:    1.0.1k-1     
+    pip:        7.0.3-py27_0 
+    python:     2.7.10-0     
+    readline:   6.2-2        
+    setuptools: 18.0.1-py27_0
+    sqlite:     3.8.4.1-1    
+    system:     5.8-2        
+    tk:         8.5.18-0     
+    zlib:       1.2.8-0      
 
 Linking packages ...
 [                    ]|                                                  |   0%[openssl             ]|                                                  |   0%[readline            ]|#####                                             |  11%[sqlite              ]|###########                                       |  22%[system              ]|################                                  |  33%[tk                  ]|######################                            |  44%[zlib                ]|###########################                       |  55%[python              ]|#################################                 |  66%[setuptools          ]|######################################            |  77%[pip                 ]|############################################      |  88%[      COMPLETE      ]|##################################################| 100%
@@ -67,6 +75,14 @@ Fixing permissions
 BUILD END: pypdf2-1.24-py27_0
 TEST START: pypdf2-1.24-py27_0
 Fetching package metadata: ......
+
+WARNING: conda-build appears to be out of date. You have version 1.13.0 but the
+latest version is 1.14.1. Run
+
+conda update -n root conda-build
+
+to get the latest version.
+
 Solving package specifications: .===== testing package: pypdf2-1.24-py27_0 =====
 import: u'PyPDF2'
 ===== pypdf2-1.24-py27_0 OK =====
@@ -79,19 +95,19 @@ The following packages will be downloaded:
 
 The following NEW packages will be INSTALLED:
 
-    openssl:    1.0.1k-1    
-    pip:        7.0.3-py27_0
-    pypdf2:     1.24-py27_0 
-    python:     2.7.10-0    
-    readline:   6.2-2       
-    setuptools: 17.0-py27_0 
-    sqlite:     3.8.4.1-1   
-    system:     5.8-2       
-    tk:         8.5.18-0    
-    zlib:       1.2.8-0     
+    openssl:    1.0.1k-1     
+    pip:        7.0.3-py27_0 
+    pypdf2:     1.24-py27_0  
+    python:     2.7.10-0     
+    readline:   6.2-2        
+    setuptools: 18.0.1-py27_0
+    sqlite:     3.8.4.1-1    
+    system:     5.8-2        
+    tk:         8.5.18-0     
+    zlib:       1.2.8-0      
 
 Fetching packages ...
-pypdf2-1.24-py   0% |                              | ETA:  --:--:--   0.00  B/spypdf2-1.24-py  18% |#####                          | ETA:  0:00:00  46.94 MB/spypdf2-1.24-py  37% |###########                    | ETA:  0:00:00  58.41 MB/spypdf2-1.24-py  56% |#################              | ETA:  0:00:00  65.45 MB/spypdf2-1.24-py  75% |#######################        | ETA:  0:00:00  69.41 MB/spypdf2-1.24-py  93% |#############################  | ETA:  0:00:00  72.55 MB/spypdf2-1.24-py 100% |###############################| ETA:  0:00:00  67.83 MB/spypdf2-1.24-py 100% |###############################| Time: 0:00:00  57.43 MB/s
+pypdf2-1.24-py   0% |                              | ETA:  --:--:--   0.00  B/spypdf2-1.24-py  18% |#####                          | ETA:  0:00:00  46.56 MB/spypdf2-1.24-py  37% |###########                    | ETA:  0:00:00  57.89 MB/spypdf2-1.24-py  56% |#################              | ETA:  0:00:00  64.67 MB/spypdf2-1.24-py  75% |#######################        | ETA:  0:00:00  69.13 MB/spypdf2-1.24-py  93% |#############################  | ETA:  0:00:00  72.25 MB/spypdf2-1.24-py 100% |###############################| ETA:  0:00:00  67.65 MB/spypdf2-1.24-py 100% |###############################| Time: 0:00:00  56.91 MB/s
 Extracting packages ...
 [      COMPLETE      ]|                                                  |   0%[pypdf2              ]|                                                  |   0%[pypdf2              ]|                                                  |   0%[      COMPLETE      ]|##################################################| 100%
 Linking packages ...

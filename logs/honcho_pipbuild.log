@@ -1,8 +1,5 @@
 Error: prefix already exists: /home/ubuntu/miniconda/envs/_pipbuild_
-Collecting honcho==0.6.6
-  Downloading http://localhost/packages/2.7/h/honcho/honcho-0.6.6-py2.py3-none-any.whl
-Installing collected packages: honcho
-Successfully installed honcho-0.6.6
+Requirement already satisfied (use --upgrade to upgrade): honcho==0.6.6 in /home/ubuntu/miniconda/envs/_pipbuild_/lib/python2.7/site-packages
 Traceback (most recent call last):
   File "__tmpfile__.py", line 1, in <module>
     import pkg_resources;

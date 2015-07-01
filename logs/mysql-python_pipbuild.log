@@ -9,11 +9,11 @@ Downloading MySQL-python
 Using cached download
 Unpacking MySQL-python...
 done
-working in /tmp/tmpRdvhLgconda_skeleton_MySQL-python-1.2.5.zip
+working in /tmp/tmpW0mtGTconda_skeleton_MySQL-python-1.2.5.zip
 Fetching package metadata: ......
 
 WARNING: conda-build appears to be out of date. You have version 1.13.0 but the
-latest version is 1.14.0. Run
+latest version is 1.14.1. Run
 
 conda update -n root conda-build
 
@@ -21,13 +21,18 @@ to get the latest version.
 
 Solving package specifications: .patching file core.py
 Hunk #1 succeeded at 168 with fuzz 2 (offset 2 lines).
+sh: 1: mysql_config: not found
 Traceback (most recent call last):
-  File "setup.py", line 7, in <module>
-    import setuptools
-ImportError: No module named setuptools
+  File "setup.py", line 17, in <module>
+    metadata, options = get_config()
+  File "/tmp/tmpW0mtGTconda_skeleton_MySQL-python-1.2.5.zip/MySQL-python-1.2.5/setup_posix.py", line 43, in get_config
+    libs = mysql_config("libs_r")
+  File "/tmp/tmpW0mtGTconda_skeleton_MySQL-python-1.2.5.zip/MySQL-python-1.2.5/setup_posix.py", line 25, in mysql_config
+    raise EnvironmentError("%s not found" % (mysql_config.path,))
+EnvironmentError: mysql_config not found
 
-Applying patch: '/tmp/tmpRdvhLgconda_skeleton_MySQL-python-1.2.5.zip/pypi-distutils.patch'
-$PYTHONPATH = /tmp/tmpRdvhLgconda_skeleton_MySQL-python-1.2.5.zip/MySQL-python-1.2.5
+Applying patch: '/tmp/tmpW0mtGTconda_skeleton_MySQL-python-1.2.5.zip/pypi-distutils.patch'
+$PYTHONPATH = /tmp/tmpW0mtGTconda_skeleton_MySQL-python-1.2.5.zip/MySQL-python-1.2.5
 Error: command failed: /home/ubuntu/miniconda/envs/_build/bin/python setup.py install
 
 conda create -n _pipbuild_ --yes python pip

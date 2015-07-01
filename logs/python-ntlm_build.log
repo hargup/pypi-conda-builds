@@ -1,0 +1,143 @@
+Removing old build directory
+Removing old work directory
+BUILD START: python-ntlm-1.1.0-py_0
+Fetching package metadata: ......
+
+WARNING: conda-build appears to be out of date. You have version 1.13.0 but the
+latest version is 1.14.1. Run
+
+conda update -n root conda-build
+
+to get the latest version.
+
+Solving package specifications: .+ /home/ubuntu/miniconda/envs/_build/bin/python setup.py install
+running install
+running bdist_egg
+running egg_info
+writing python_ntlm.egg-info/PKG-INFO
+writing top-level names to python_ntlm.egg-info/top_level.txt
+writing dependency_links to python_ntlm.egg-info/dependency_links.txt
+writing entry points to python_ntlm.egg-info/entry_points.txt
+reading manifest file 'python_ntlm.egg-info/SOURCES.txt'
+writing manifest file 'python_ntlm.egg-info/SOURCES.txt'
+installing library code to build/bdist.linux-x86_64/egg
+running install_lib
+running build_py
+creating build
+creating build/lib
+creating build/lib/ntlm
+copying ntlm/ntlm.py -> build/lib/ntlm
+copying ntlm/HTTPNtlmAuthHandler.py -> build/lib/ntlm
+copying ntlm/U32.py -> build/lib/ntlm
+copying ntlm/des.py -> build/lib/ntlm
+copying ntlm/des_c.py -> build/lib/ntlm
+copying ntlm/__init__.py -> build/lib/ntlm
+copying ntlm/des_data.py -> build/lib/ntlm
+creating build/bdist.linux-x86_64
+creating build/bdist.linux-x86_64/egg
+creating build/bdist.linux-x86_64/egg/ntlm
+copying build/lib/ntlm/ntlm.py -> build/bdist.linux-x86_64/egg/ntlm
+copying build/lib/ntlm/HTTPNtlmAuthHandler.py -> build/bdist.linux-x86_64/egg/ntlm
+copying build/lib/ntlm/U32.py -> build/bdist.linux-x86_64/egg/ntlm
+copying build/lib/ntlm/des.py -> build/bdist.linux-x86_64/egg/ntlm
+copying build/lib/ntlm/des_c.py -> build/bdist.linux-x86_64/egg/ntlm
+copying build/lib/ntlm/__init__.py -> build/bdist.linux-x86_64/egg/ntlm
+copying build/lib/ntlm/des_data.py -> build/bdist.linux-x86_64/egg/ntlm
+byte-compiling build/bdist.linux-x86_64/egg/ntlm/ntlm.py to ntlm.pyc
+byte-compiling build/bdist.linux-x86_64/egg/ntlm/HTTPNtlmAuthHandler.py to HTTPNtlmAuthHandler.pyc
+byte-compiling build/bdist.linux-x86_64/egg/ntlm/U32.py to U32.pyc
+byte-compiling build/bdist.linux-x86_64/egg/ntlm/des.py to des.pyc
+byte-compiling build/bdist.linux-x86_64/egg/ntlm/des_c.py to des_c.pyc
+byte-compiling build/bdist.linux-x86_64/egg/ntlm/__init__.py to __init__.pyc
+byte-compiling build/bdist.linux-x86_64/egg/ntlm/des_data.py to des_data.pyc
+creating build/bdist.linux-x86_64/egg/EGG-INFO
+copying python_ntlm.egg-info/PKG-INFO -> build/bdist.linux-x86_64/egg/EGG-INFO
+copying python_ntlm.egg-info/SOURCES.txt -> build/bdist.linux-x86_64/egg/EGG-INFO
+copying python_ntlm.egg-info/dependency_links.txt -> build/bdist.linux-x86_64/egg/EGG-INFO
+copying python_ntlm.egg-info/entry_points.txt -> build/bdist.linux-x86_64/egg/EGG-INFO
+copying python_ntlm.egg-info/not-zip-safe -> build/bdist.linux-x86_64/egg/EGG-INFO
+copying python_ntlm.egg-info/top_level.txt -> build/bdist.linux-x86_64/egg/EGG-INFO
+creating dist
+creating 'dist/python_ntlm-1.1.0-py2.7.egg' and adding 'build/bdist.linux-x86_64/egg' to it
+removing 'build/bdist.linux-x86_64/egg' (and everything under it)
+Processing python_ntlm-1.1.0-py2.7.egg
+creating /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/python_ntlm-1.1.0-py2.7.egg
+Extracting python_ntlm-1.1.0-py2.7.egg to /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages
+Adding python-ntlm 1.1.0 to easy-install.pth file
+Installing ntlm_example_extended script to /home/ubuntu/miniconda/envs/_build/bin
+Installing ntlm_example_simple script to /home/ubuntu/miniconda/envs/_build/bin
+
+Installed /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/python_ntlm-1.1.0-py2.7.egg
+Processing dependencies for python-ntlm==1.1.0
+Finished processing dependencies for python-ntlm==1.1.0
+
+The following NEW packages will be INSTALLED:
+
+    openssl:    1.0.1k-1     
+    pip:        7.0.3-py27_0 
+    python:     2.7.10-0     
+    readline:   6.2-2        
+    setuptools: 18.0.1-py27_0
+    sqlite:     3.8.4.1-1    
+    system:     5.8-2        
+    tk:         8.5.18-0     
+    zlib:       1.2.8-0      
+
+Linking packages ...
+[                    ]|                                                  |   0%[openssl             ]|                                                  |   0%[readline            ]|#####                                             |  11%[sqlite              ]|###########                                       |  22%[system              ]|################                                  |  33%[tk                  ]|######################                            |  44%[zlib                ]|###########################                       |  55%[python              ]|#################################                 |  66%[setuptools          ]|######################################            |  77%[pip                 ]|############################################      |  88%[      COMPLETE      ]|##################################################| 100%
+Removing old work directory
+Source cache directory is: /home/ubuntu/miniconda/conda-bld/src_cache
+Found source in cache: python-ntlm-1.1.0.tar.gz
+Extracting download
+Package: python-ntlm-1.1.0-py_0
+source tree in: /home/ubuntu/miniconda/conda-bld/work/python-ntlm-1.1.0
+found egg dir: /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/python_ntlm-1.1.0-py2.7.egg
+number of files: 17
+Fixing permissions
+Fixing permissions
+BUILD END: python-ntlm-1.1.0-py_0
+TEST START: python-ntlm-1.1.0-py_0
+Fetching package metadata: ......
+
+WARNING: conda-build appears to be out of date. You have version 1.13.0 but the
+latest version is 1.14.1. Run
+
+conda update -n root conda-build
+
+to get the latest version.
+
+Solving package specifications: .===== testing package: python-ntlm-1.1.0-py_0 =====
+import: u'ntlm'
+===== python-ntlm-1.1.0-py_0 OK =====
++ ntlm_example_simple --help
+Traceback (most recent call last):
+  File "/home/ubuntu/miniconda/envs/_test/bin/ntlm_example_simple", line 4, in <module>
+    from ntlm_examples.simple import main
+ImportError: No module named ntlm_examples.simple
+
+The following packages will be downloaded:
+
+    package                    |            build
+    ---------------------------|-----------------
+    python-ntlm-1.1.0          |             py_0          89 KB
+
+The following NEW packages will be INSTALLED:
+
+    openssl:     1.0.1k-1     
+    pip:         7.0.3-py27_0 
+    python:      2.7.10-0     
+    python-ntlm: 1.1.0-py_0   
+    readline:    6.2-2        
+    setuptools:  18.0.1-py27_0
+    sqlite:      3.8.4.1-1    
+    system:      5.8-2        
+    tk:          8.5.18-0     
+    zlib:        1.2.8-0      
+
+Fetching packages ...
+python-ntlm-1.   0% |                              | ETA:  --:--:--   0.00  B/spython-ntlm-1.  17% |#####                          | ETA:  0:00:00  45.15 MB/spython-ntlm-1.  35% |###########                    | ETA:  0:00:00  57.60 MB/spython-ntlm-1.  53% |################               | ETA:  0:00:00  64.85 MB/spython-ntlm-1.  71% |######################         | ETA:  0:00:00  68.91 MB/spython-ntlm-1.  89% |###########################    | ETA:  0:00:00  72.05 MB/spython-ntlm-1. 100% |###############################| ETA:  0:00:00  70.11 MB/spython-ntlm-1. 100% |###############################| Time: 0:00:00  59.33 MB/s
+Extracting packages ...
+[      COMPLETE      ]|                                                  |   0%[python-ntlm         ]|                                                  |   0%[python-ntlm         ]|                                                  |   0%[      COMPLETE      ]|##################################################| 100%
+Linking packages ...
+[      COMPLETE      ]|                                                  |   0%[openssl             ]|                                                  |   0%[openssl             ]|                                                  |   0%[readline            ]|#####                                             |  10%[sqlite              ]|##########                                        |  20%[system              ]|###############                                   |  30%[tk                  ]|####################                              |  40%[zlib                ]|#########################                         |  50%[python              ]|##############################                    |  60%[python-ntlm         ]|###################################               |  70%[setuptools          ]|########################################          |  80%[pip                 ]|#############################################     |  90%[      COMPLETE      ]|##################################################| 100%
+TESTS FAILED: python-ntlm-1.1.0-py_0

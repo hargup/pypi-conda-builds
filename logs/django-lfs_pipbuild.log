@@ -1,0 +1,32 @@
+Error: prefix already exists: /home/ubuntu/miniconda/envs/_pipbuild_
+Exception:
+Traceback (most recent call last):
+  File "/home/ubuntu/miniconda/envs/_pipbuild_/lib/python2.7/site-packages/pip/basecommand.py", line 223, in main
+    status = self.run(options, args)
+  File "/home/ubuntu/miniconda/envs/_pipbuild_/lib/python2.7/site-packages/pip/commands/install.py", line 268, in run
+    wheel_cache
+  File "/home/ubuntu/miniconda/envs/_pipbuild_/lib/python2.7/site-packages/pip/basecommand.py", line 268, in populate_requirement_set
+    wheel_cache=wheel_cache
+  File "/home/ubuntu/miniconda/envs/_pipbuild_/lib/python2.7/site-packages/pip/req/req_install.py", line 207, in from_line
+    wheel_cache=wheel_cache)
+  File "/home/ubuntu/miniconda/envs/_pipbuild_/lib/python2.7/site-packages/pip/req/req_install.py", line 66, in __init__
+    req = pkg_resources.Requirement.parse(req)
+  File "/home/ubuntu/miniconda/envs/_pipbuild_/lib/python2.7/site-packages/pip/_vendor/pkg_resources/__init__.py", line 2960, in parse
+    reqs = list(parse_requirements(s))
+  File "/home/ubuntu/miniconda/envs/_pipbuild_/lib/python2.7/site-packages/pip/_vendor/pkg_resources/__init__.py", line 2904, in parse_requirements
+    "version spec")
+  File "/home/ubuntu/miniconda/envs/_pipbuild_/lib/python2.7/site-packages/pip/_vendor/pkg_resources/__init__.py", line 2869, in scan_list
+    raise ValueError(msg, line, "at", line[p:])
+ValueError: ('Expected version spec in', 'django-compressor====1.4', 'at', '====1.4')
+
+Package search: {'_pypi_ordering': False, 'version': '0.5.2', 'name': 'django-lfs', 'summary': 'LFS - Lightning Fast Shop'}
+Creating standard recipe for django-lfs-0.10.2
+Converting recipe in /home/ubuntu/pypi-conda-builds/django-lfs
+package = django-lfs
+   dependencies = [u'django-compressor ==1.4', u'django-localflavor ==1.1', u'django-paypal ==0.1.2.lfs-2', u'django-pagination ==1.0.7', u'django-portlets ==1.3', u'django-postal ==0.96', u'django-reviews ==1.1', u'lfs-contact ==1.2', u'lfs-order-numbers ==1.1', u'lfs-paypal ==1.3', u'lfs-theme ==0.10.1', u'pillow ==2.8.1']
+Creating standard recipe for django-compressor-==1.4
+Error: Version ==1.4 of django-compressor is not available on PyPI.
+
+conda create -n _pipbuild_ --yes python pip
+/home/ubuntu/miniconda/envs/_pipbuild_/bin/pip install django-compressor====1.4
+Error: Could not pip install django-compressor====1.4

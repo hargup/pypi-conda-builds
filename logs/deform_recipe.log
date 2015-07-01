@@ -1,0 +1,80 @@
+Warning, the following versions were found for deform
+2.0a2
+2.0a1
+0.9.9
+0.9.8
+0.9.7
+0.9.6
+0.9.5
+0.9.4
+0.9.3
+0.9.2
+0.9.1
+0.9
+0.8.1
+0.8
+0.7
+0.6
+0.5
+0.4
+0.3
+0.2
+0.1
+Using 2.0a2
+Use --version to specify a different version.
+Using url https://pypi.python.org/packages/source/d/deform/deform-2.0a2.tar.gz (663 KB) for deform.
+Downloading deform
+Using cached download
+Unpacking deform...
+done
+working in /tmp/tmp49xeAaconda_skeleton_deform-2.0a2.tar.gz
+Fetching package metadata: ......
+
+WARNING: conda-build appears to be out of date. You have version 1.13.0 but the
+latest version is 1.14.1. Run
+
+conda update -n root conda-build
+
+to get the latest version.
+
+Solving package specifications: .patching file core.py
+Hunk #1 succeeded at 168 with fuzz 2 (offset 2 lines).
+
+WARNING: conda-build appears to be out of date. You have version 1.13.0 but the
+latest version is 1.14.1. Run
+
+conda update -n root conda-build
+
+to get the latest version.
+
+
+The following NEW packages will be INSTALLED:
+
+    numpy:  1.9.2-py27_0
+    pyyaml: 3.11-py27_1 
+    yaml:   0.1.6-0     
+
+Linking packages ...
+[                    ]|                                                  |   0%[yaml                ]|                                                  |   0%[numpy               ]|################                                  |  33%[pyyaml              ]|#################################                 |  66%[      COMPLETE      ]|##################################################| 100%
+Applying patch: '/tmp/tmp49xeAaconda_skeleton_deform-2.0a2.tar.gz/pypi-distutils.patch'
+Warning, the following versions were found for peppercorn
+0.5
+0.4
+0.3
+0.2
+0.1
+Using 0.5
+Use --version to specify a different version.
+Using url https://pypi.python.org/packages/source/p/peppercorn/peppercorn-0.5.tar.gz (19 KB) for peppercorn.
+Downloading peppercorn
+Using cached download
+Unpacking peppercorn...
+done
+working in /tmp/tmpw50y78conda_skeleton_peppercorn-0.5.tar.gz
+Solving package specifications: .patching file core.py
+Hunk #1 succeeded at 168 with fuzz 2 (offset 2 lines).
+
+Applying patch: '/tmp/tmpw50y78conda_skeleton_peppercorn-0.5.tar.gz/pypi-distutils.patch'
+Writing recipe for peppercorn
+Writing recipe for deform
+Done

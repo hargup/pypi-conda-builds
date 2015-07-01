@@ -1,0 +1,142 @@
+Removing old build directory
+Removing old work directory
+BUILD START: async-0.6.2-py_0
+Fetching package metadata: ......
+
+WARNING: conda-build appears to be out of date. You have version 1.13.0 but the
+latest version is 1.14.1. Run
+
+conda update -n root conda-build
+
+to get the latest version.
+
+Solving package specifications: .+ /home/ubuntu/miniconda/envs/_build/bin/python setup.py install
+running install
+running bdist_egg
+running egg_info
+writing async.egg-info/PKG-INFO
+writing top-level names to async.egg-info/top_level.txt
+writing dependency_links to async.egg-info/dependency_links.txt
+reading manifest file 'async.egg-info/SOURCES.txt'
+reading manifest template 'MANIFEST.in'
+warning: no files found matching 'VERSION'
+warning: no files found matching 'CHANGES'
+warning: no files found matching 'README.rst'
+warning: no previously-included files matching '.git*' found anywhere in distribution
+warning: no previously-included files matching '*.pyc' found anywhere in distribution
+warning: no previously-included files matching '*.so' found anywhere in distribution
+warning: no previously-included files matching '*.dll' found anywhere in distribution
+warning: no previously-included files matching '*.o' found anywhere in distribution
+writing manifest file 'async.egg-info/SOURCES.txt'
+installing library code to build/bdist.linux-x86_64/egg
+running install_lib
+running build_py
+creating build
+creating build/lib
+creating build/lib/async
+copying async/task.py -> build/lib/async
+copying async/thread.py -> build/lib/async
+copying async/pool.py -> build/lib/async
+copying async/graph.py -> build/lib/async
+copying async/channel.py -> build/lib/async
+copying async/util.py -> build/lib/async
+copying async/__init__.py -> build/lib/async
+creating build/lib/async/test
+copying async/test/task.py -> build/lib/async/test
+copying async/test/test_performance.py -> build/lib/async/test
+copying async/test/test_thread.py -> build/lib/async/test
+copying async/test/test_pool.py -> build/lib/async/test
+copying async/test/test_graph.py -> build/lib/async/test
+copying async/test/lib.py -> build/lib/async/test
+copying async/test/test_channel.py -> build/lib/async/test
+copying async/test/__init__.py -> build/lib/async/test
+copying async/test/test_example.py -> build/lib/async/test
+creating build/bdist.linux-x86_64
+creating build/bdist.linux-x86_64/egg
+creating build/bdist.linux-x86_64/egg/async
+copying build/lib/async/task.py -> build/bdist.linux-x86_64/egg/async
+copying build/lib/async/thread.py -> build/bdist.linux-x86_64/egg/async
+copying build/lib/async/pool.py -> build/bdist.linux-x86_64/egg/async
+copying build/lib/async/graph.py -> build/bdist.linux-x86_64/egg/async
+copying build/lib/async/channel.py -> build/bdist.linux-x86_64/egg/async
+copying build/lib/async/util.py -> build/bdist.linux-x86_64/egg/async
+creating build/bdist.linux-x86_64/egg/async/test
+copying build/lib/async/test/task.py -> build/bdist.linux-x86_64/egg/async/test
+copying build/lib/async/test/test_performance.py -> build/bdist.linux-x86_64/egg/async/test
+copying build/lib/async/test/test_thread.py -> build/bdist.linux-x86_64/egg/async/test
+copying build/lib/async/test/test_pool.py -> build/bdist.linux-x86_64/egg/async/test
+copying build/lib/async/test/test_graph.py -> build/bdist.linux-x86_64/egg/async/test
+copying build/lib/async/test/lib.py -> build/bdist.linux-x86_64/egg/async/test
+copying build/lib/async/test/test_channel.py -> build/bdist.linux-x86_64/egg/async/test
+copying build/lib/async/test/__init__.py -> build/bdist.linux-x86_64/egg/async/test
+copying build/lib/async/test/test_example.py -> build/bdist.linux-x86_64/egg/async/test
+copying build/lib/async/__init__.py -> build/bdist.linux-x86_64/egg/async
+byte-compiling build/bdist.linux-x86_64/egg/async/task.py to task.pyc
+byte-compiling build/bdist.linux-x86_64/egg/async/thread.py to thread.pyc
+byte-compiling build/bdist.linux-x86_64/egg/async/pool.py to pool.pyc
+byte-compiling build/bdist.linux-x86_64/egg/async/graph.py to graph.pyc
+byte-compiling build/bdist.linux-x86_64/egg/async/channel.py to channel.pyc
+byte-compiling build/bdist.linux-x86_64/egg/async/util.py to util.pyc
+byte-compiling build/bdist.linux-x86_64/egg/async/test/task.py to task.pyc
+byte-compiling build/bdist.linux-x86_64/egg/async/test/test_performance.py to test_performance.pyc
+byte-compiling build/bdist.linux-x86_64/egg/async/test/test_thread.py to test_thread.pyc
+byte-compiling build/bdist.linux-x86_64/egg/async/test/test_pool.py to test_pool.pyc
+byte-compiling build/bdist.linux-x86_64/egg/async/test/test_graph.py to test_graph.pyc
+byte-compiling build/bdist.linux-x86_64/egg/async/test/lib.py to lib.pyc
+byte-compiling build/bdist.linux-x86_64/egg/async/test/test_channel.py to test_channel.pyc
+byte-compiling build/bdist.linux-x86_64/egg/async/test/__init__.py to __init__.pyc
+byte-compiling build/bdist.linux-x86_64/egg/async/test/test_example.py to test_example.pyc
+byte-compiling build/bdist.linux-x86_64/egg/async/__init__.py to __init__.pyc
+creating build/bdist.linux-x86_64/egg/EGG-INFO
+copying async.egg-info/PKG-INFO -> build/bdist.linux-x86_64/egg/EGG-INFO
+copying async.egg-info/SOURCES.txt -> build/bdist.linux-x86_64/egg/EGG-INFO
+copying async.egg-info/dependency_links.txt -> build/bdist.linux-x86_64/egg/EGG-INFO
+copying async.egg-info/top_level.txt -> build/bdist.linux-x86_64/egg/EGG-INFO
+copying async.egg-info/zip-safe -> build/bdist.linux-x86_64/egg/EGG-INFO
+creating dist
+creating 'dist/async-0.6.2-py2.7.egg' and adding 'build/bdist.linux-x86_64/egg' to it
+removing 'build/bdist.linux-x86_64/egg' (and everything under it)
+Processing async-0.6.2-py2.7.egg
+Copying async-0.6.2-py2.7.egg to /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages
+Adding async 0.6.2 to easy-install.pth file
+
+Installed /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/async-0.6.2-py2.7.egg
+Processing dependencies for async==0.6.2
+Finished processing dependencies for async==0.6.2
+
+The following NEW packages will be INSTALLED:
+
+    openssl:    1.0.1k-1     
+    pip:        7.0.3-py27_0 
+    python:     2.7.10-0     
+    readline:   6.2-2        
+    setuptools: 18.0.1-py27_0
+    sqlite:     3.8.4.1-1    
+    system:     5.8-2        
+    tk:         8.5.18-0     
+    zlib:       1.2.8-0      
+
+Linking packages ...
+[                    ]|                                                  |   0%[openssl             ]|                                                  |   0%[readline            ]|#####                                             |  11%[sqlite              ]|###########                                       |  22%[system              ]|################                                  |  33%[tk                  ]|######################                            |  44%[zlib                ]|###########################                       |  55%[python              ]|#################################                 |  66%[setuptools          ]|######################################            |  77%[pip                 ]|############################################      |  88%[      COMPLETE      ]|##################################################| 100%
+Removing old work directory
+Source cache directory is: /home/ubuntu/miniconda/conda-bld/src_cache
+Found source in cache: async-0.6.2.tar.gz
+Extracting download
+Package: async-0.6.2-py_0
+source tree in: /home/ubuntu/miniconda/conda-bld/work/async-0.6.2
+found egg: /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/async-0.6.2-py2.7.egg
+number of files: 2
+Fixing permissions
+Fixing permissions
+BUILD END: async-0.6.2-py_0
+TEST START: async-0.6.2-py_0
+Fetching package metadata: ......
+
+WARNING: conda-build appears to be out of date. You have version 1.13.0 but the
+latest version is 1.14.1. Run
+
+conda update -n root conda-build
+
+to get the latest version.
+
+Error: No packages found in current linux-64 channels matching: e

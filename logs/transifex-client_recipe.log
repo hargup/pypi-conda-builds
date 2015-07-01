@@ -1,0 +1,44 @@
+Warning, the following versions were found for transifex-client
+0.11.1.beta
+0.11b3
+0.11.beta
+0.10
+0.9.1
+0.9
+0.8
+0.7.3
+0.7.2
+0.7
+0.6.1
+0.6
+0.5.2
+0.5.1
+0.5
+0.4.1
+0.4
+0.3
+0.2.1
+0.2
+0.1
+Using 0.11.1.beta
+Use --version to specify a different version.
+Using url https://pypi.python.org/packages/source/t/transifex-client/transifex-client-0.11.1.beta.tar.gz (206 KB) for transifex-client.
+Downloading transifex-client
+Unpacking transifex-client...
+done
+working in /tmp/tmpZY_68Vconda_skeleton_transifex-client-0.11.1.beta.tar.gz
+Fetching package metadata: ......
+
+WARNING: conda-build appears to be out of date. You have version 1.13.0 but the
+latest version is 1.14.1. Run
+
+conda update -n root conda-build
+
+to get the latest version.
+
+Solving package specifications: .patching file core.py
+Hunk #1 succeeded at 168 with fuzz 2 (offset 2 lines).
+
+Applying patch: '/tmp/tmpZY_68Vconda_skeleton_transifex-client-0.11.1.beta.tar.gz/pypi-distutils.patch'
+Writing recipe for transifex-client
+Done

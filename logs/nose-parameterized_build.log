@@ -1,0 +1,121 @@
+Removing old build directory
+Removing old work directory
+BUILD START: nose-parameterized-0.4.2-py_0
+Fetching package metadata: ......
+
+WARNING: conda-build appears to be out of date. You have version 1.13.0 but the
+latest version is 1.14.1. Run
+
+conda update -n root conda-build
+
+to get the latest version.
+
+Solving package specifications: .+ /home/ubuntu/miniconda/envs/_build/bin/python setup.py install
+running install
+running bdist_egg
+running egg_info
+writing nose_parameterized.egg-info/PKG-INFO
+writing top-level names to nose_parameterized.egg-info/top_level.txt
+writing dependency_links to nose_parameterized.egg-info/dependency_links.txt
+reading manifest file 'nose_parameterized.egg-info/SOURCES.txt'
+writing manifest file 'nose_parameterized.egg-info/SOURCES.txt'
+installing library code to build/bdist.linux-x86_64/egg
+running install_lib
+running build_py
+creating build
+creating build/lib
+creating build/lib/nose_parameterized
+copying nose_parameterized/parameterized.py -> build/lib/nose_parameterized
+copying nose_parameterized/__init__.py -> build/lib/nose_parameterized
+copying nose_parameterized/test.py -> build/lib/nose_parameterized
+creating build/bdist.linux-x86_64
+creating build/bdist.linux-x86_64/egg
+creating build/bdist.linux-x86_64/egg/nose_parameterized
+copying build/lib/nose_parameterized/parameterized.py -> build/bdist.linux-x86_64/egg/nose_parameterized
+copying build/lib/nose_parameterized/__init__.py -> build/bdist.linux-x86_64/egg/nose_parameterized
+copying build/lib/nose_parameterized/test.py -> build/bdist.linux-x86_64/egg/nose_parameterized
+byte-compiling build/bdist.linux-x86_64/egg/nose_parameterized/parameterized.py to parameterized.pyc
+byte-compiling build/bdist.linux-x86_64/egg/nose_parameterized/__init__.py to __init__.pyc
+byte-compiling build/bdist.linux-x86_64/egg/nose_parameterized/test.py to test.pyc
+creating build/bdist.linux-x86_64/egg/EGG-INFO
+copying nose_parameterized.egg-info/PKG-INFO -> build/bdist.linux-x86_64/egg/EGG-INFO
+copying nose_parameterized.egg-info/SOURCES.txt -> build/bdist.linux-x86_64/egg/EGG-INFO
+copying nose_parameterized.egg-info/dependency_links.txt -> build/bdist.linux-x86_64/egg/EGG-INFO
+copying nose_parameterized.egg-info/top_level.txt -> build/bdist.linux-x86_64/egg/EGG-INFO
+zip_safe flag not set; analyzing archive contents...
+nose_parameterized.test: module MAY be using inspect.stack
+nose_parameterized.parameterized: module MAY be using inspect.stack
+creating dist
+creating 'dist/nose_parameterized-0.4.2-py2.7.egg' and adding 'build/bdist.linux-x86_64/egg' to it
+removing 'build/bdist.linux-x86_64/egg' (and everything under it)
+Processing nose_parameterized-0.4.2-py2.7.egg
+creating /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/nose_parameterized-0.4.2-py2.7.egg
+Extracting nose_parameterized-0.4.2-py2.7.egg to /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages
+Adding nose-parameterized 0.4.2 to easy-install.pth file
+
+Installed /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/nose_parameterized-0.4.2-py2.7.egg
+Processing dependencies for nose-parameterized==0.4.2
+Finished processing dependencies for nose-parameterized==0.4.2
+
+The following NEW packages will be INSTALLED:
+
+    openssl:    1.0.1k-1     
+    pip:        7.0.3-py27_0 
+    python:     2.7.10-0     
+    readline:   6.2-2        
+    setuptools: 18.0.1-py27_0
+    sqlite:     3.8.4.1-1    
+    system:     5.8-2        
+    tk:         8.5.18-0     
+    zlib:       1.2.8-0      
+
+Linking packages ...
+[                    ]|                                                  |   0%[openssl             ]|                                                  |   0%[readline            ]|#####                                             |  11%[sqlite              ]|###########                                       |  22%[system              ]|################                                  |  33%[tk                  ]|######################                            |  44%[zlib                ]|###########################                       |  55%[python              ]|#################################                 |  66%[setuptools          ]|######################################            |  77%[pip                 ]|############################################      |  88%[      COMPLETE      ]|##################################################| 100%
+Removing old work directory
+Source cache directory is: /home/ubuntu/miniconda/conda-bld/src_cache
+Found source in cache: nose-parameterized-0.4.2.tar.gz
+Extracting download
+Package: nose-parameterized-0.4.2-py_0
+source tree in: /home/ubuntu/miniconda/conda-bld/work/nose-parameterized-0.4.2
+found egg dir: /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/nose_parameterized-0.4.2-py2.7.egg
+number of files: 7
+Fixing permissions
+Fixing permissions
+BUILD END: nose-parameterized-0.4.2-py_0
+TEST START: nose-parameterized-0.4.2-py_0
+Fetching package metadata: ......
+
+WARNING: conda-build appears to be out of date. You have version 1.13.0 but the
+latest version is 1.14.1. Run
+
+conda update -n root conda-build
+
+to get the latest version.
+
+Solving package specifications: ./home/ubuntu/miniconda/pkgs/nose-parameterized-0.4.2-py_0/bin/.nose-parameterized-pre-link.sh: line 2: /home/ubuntu/miniconda/envs/_test/bin/python: No such file or directory
+
+The following packages will be downloaded:
+
+    package                    |            build
+    ---------------------------|-----------------
+    nose-parameterized-0.4.2   |             py_0           8 KB
+
+The following NEW packages will be INSTALLED:
+
+    nose-parameterized: 0.4.2-py_0   
+    openssl:            1.0.1k-1     
+    pip:                7.0.3-py27_0 
+    python:             2.7.10-0     
+    readline:           6.2-2        
+    setuptools:         18.0.1-py27_0
+    sqlite:             3.8.4.1-1    
+    system:             5.8-2        
+    tk:                 8.5.18-0     
+    zlib:               1.2.8-0      
+
+Fetching packages ...
+nose-parameter   0% |                              | ETA:  --:--:--   0.00  B/snose-parameter 100% |###############################| ETA:  0:00:00  25.08 MB/snose-parameter 100% |###############################| Time: 0:00:00  14.59 MB/s
+Extracting packages ...
+[      COMPLETE      ]|                                                  |   0%[nose-parameterized  ]|                                                  |   0%[nose-parameterized  ]|                                                  |   0%[      COMPLETE      ]|##################################################| 100%
+Linking packages ...
+[      COMPLETE      ]|                                                  |   0%[openssl             ]|                                                  |   0%[openssl             ]|                                                  |   0%[readline            ]|#####                                             |  10%[sqlite              ]|##########                                        |  20%[system              ]|###############                                   |  30%[tk                  ]|####################                              |  40%[zlib                ]|#########################                         |  50%[nose-parameterized  ]|##############################                    |  60%Error: pre-link failed: nose-parameterized-0.4.2-py_0

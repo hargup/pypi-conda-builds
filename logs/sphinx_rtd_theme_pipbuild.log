@@ -1,39 +1,32 @@
 Error: prefix already exists: /home/ubuntu/miniconda/envs/_pipbuild_
-Collecting sphinx-rtd-theme==0.1.8
-  Downloading http://localhost/packages/py2.py3/s/sphinx_rtd_theme/sphinx_rtd_theme-0.1.8-py2.py3-none-any.whl (418kB)
-Collecting sphinx>=1.3 (from sphinx-rtd-theme==0.1.8)
-  Downloading http://localhost/packages/2.7/S/Sphinx/Sphinx-1.3.1-py2.py3-none-any.whl (1.3MB)
-Collecting snowballstemmer>=1.1 (from sphinx>=1.3->sphinx-rtd-theme==0.1.8)
-  Downloading http://localhost/packages/source/s/snowballstemmer/snowballstemmer-1.2.0.tar.gz (49kB)
-setuptools must be installed to install from a source distribution
+Exception:
+Traceback (most recent call last):
+  File "/home/ubuntu/miniconda/envs/_pipbuild_/lib/python2.7/site-packages/pip/basecommand.py", line 223, in main
+    status = self.run(options, args)
+  File "/home/ubuntu/miniconda/envs/_pipbuild_/lib/python2.7/site-packages/pip/commands/install.py", line 268, in run
+    wheel_cache
+  File "/home/ubuntu/miniconda/envs/_pipbuild_/lib/python2.7/site-packages/pip/basecommand.py", line 268, in populate_requirement_set
+    wheel_cache=wheel_cache
+  File "/home/ubuntu/miniconda/envs/_pipbuild_/lib/python2.7/site-packages/pip/req/req_install.py", line 207, in from_line
+    wheel_cache=wheel_cache)
+  File "/home/ubuntu/miniconda/envs/_pipbuild_/lib/python2.7/site-packages/pip/req/req_install.py", line 66, in __init__
+    req = pkg_resources.Requirement.parse(req)
+  File "/home/ubuntu/miniconda/envs/_pipbuild_/lib/python2.7/site-packages/pip/_vendor/pkg_resources/__init__.py", line 2960, in parse
+    reqs = list(parse_requirements(s))
+  File "/home/ubuntu/miniconda/envs/_pipbuild_/lib/python2.7/site-packages/pip/_vendor/pkg_resources/__init__.py", line 2904, in parse_requirements
+    "version spec")
+  File "/home/ubuntu/miniconda/envs/_pipbuild_/lib/python2.7/site-packages/pip/_vendor/pkg_resources/__init__.py", line 2869, in scan_list
+    raise ValueError(msg, line, "at", line[p:])
+ValueError: ('Expected version spec in', 'sphinx==>=1.3', 'at', '==>=1.3')
+
 Package search: {'_pypi_ordering': False, 'version': '0.1.8', 'name': 'sphinx_rtd_theme', 'summary': 'ReadTheDocs.org theme for Sphinx, 2013 version.'}
 Creating standard recipe for sphinx_rtd_theme-0.1.8
-Using url https://pypi.python.org/packages/source/s/sphinx_rtd_theme/sphinx_rtd_theme-0.1.8.tar.gz (415 KB) for sphinx_rtd_theme.
-Downloading sphinx_rtd_theme
-Using cached download
-Unpacking sphinx_rtd_theme...
-done
-working in /tmp/tmp6YU2Hpconda_skeleton_sphinx_rtd_theme-0.1.8.tar.gz
-Fetching package metadata: ......
-
-WARNING: conda-build appears to be out of date. You have version 1.13.0 but the
-latest version is 1.14.0. Run
-
-conda update -n root conda-build
-
-to get the latest version.
-
-Solving package specifications: .patching file core.py
-Hunk #1 succeeded at 168 with fuzz 2 (offset 2 lines).
-Traceback (most recent call last):
-  File "setup.py", line 7, in <module>
-    from setuptools import setup
-ImportError: No module named setuptools
-
-Applying patch: '/tmp/tmp6YU2Hpconda_skeleton_sphinx_rtd_theme-0.1.8.tar.gz/pypi-distutils.patch'
-$PYTHONPATH = /tmp/tmp6YU2Hpconda_skeleton_sphinx_rtd_theme-0.1.8.tar.gz/sphinx_rtd_theme-0.1.8
-Error: command failed: /home/ubuntu/miniconda/envs/_build/bin/python setup.py install
+Converting recipe in /home/ubuntu/pypi-conda-builds/sphinx_rtd_theme
+package = sphinx_rtd_theme
+   dependencies = [u'sphinx >=1.3']
+Creating standard recipe for sphinx->=1.3
+Error: Version >=1.3 of sphinx is not available on PyPI.
 
 conda create -n _pipbuild_ --yes python pip
-/home/ubuntu/miniconda/envs/_pipbuild_/bin/pip install sphinx_rtd_theme==0.1.8
-Error: Could not pip install sphinx_rtd_theme==0.1.8
+/home/ubuntu/miniconda/envs/_pipbuild_/bin/pip install sphinx==>=1.3
+Error: Could not pip install sphinx==>=1.3

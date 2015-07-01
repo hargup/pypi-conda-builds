@@ -1,0 +1,28 @@
+Warning, the following versions were found for nma-python
+0.2.4
+0.2.3
+0.2.2
+0.2.1
+0.2
+Using 0.2.4
+Use --version to specify a different version.
+Using url https://pypi.python.org/packages/source/n/nma-python/nma-python-0.2.4.tar.gz (4 KB) for nma-python.
+Downloading nma-python
+Unpacking nma-python...
+done
+working in /tmp/tmp1ZGy6qconda_skeleton_nma-python-0.2.4.tar.gz
+Fetching package metadata: ......
+
+WARNING: conda-build appears to be out of date. You have version 1.13.0 but the
+latest version is 1.14.1. Run
+
+conda update -n root conda-build
+
+to get the latest version.
+
+Solving package specifications: .patching file core.py
+Hunk #1 succeeded at 168 with fuzz 2 (offset 2 lines).
+
+Applying patch: '/tmp/tmp1ZGy6qconda_skeleton_nma-python-0.2.4.tar.gz/pypi-distutils.patch'
+Writing recipe for nma-python
+Done

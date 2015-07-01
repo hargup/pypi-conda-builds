@@ -1,0 +1,136 @@
+Removing old build directory
+Removing old work directory
+BUILD START: django-kombu-0.9.4-py_0
+Fetching package metadata: ......
+
+WARNING: conda-build appears to be out of date. You have version 1.13.0 but the
+latest version is 1.14.1. Run
+
+conda update -n root conda-build
+
+to get the latest version.
+
+Solving package specifications: .+ /home/ubuntu/miniconda/envs/_build/bin/python setup.py install
+running install
+running bdist_egg
+running egg_info
+writing django_kombu.egg-info/PKG-INFO
+writing top-level names to django_kombu.egg-info/top_level.txt
+writing dependency_links to django_kombu.egg-info/dependency_links.txt
+reading manifest file 'django_kombu.egg-info/SOURCES.txt'
+reading manifest template 'MANIFEST.in'
+writing manifest file 'django_kombu.egg-info/SOURCES.txt'
+installing library code to build/bdist.linux-x86_64/egg
+running install_lib
+running build_py
+creating build
+creating build/lib
+creating build/lib/djkombu
+copying djkombu/transport.py -> build/lib/djkombu
+copying djkombu/managers.py -> build/lib/djkombu
+copying djkombu/__init__.py -> build/lib/djkombu
+copying djkombu/models.py -> build/lib/djkombu
+creating build/lib/djkombu/management
+copying djkombu/management/__init__.py -> build/lib/djkombu/management
+creating build/lib/djkombu/management/commands
+copying djkombu/management/commands/clean_kombu_messages.py -> build/lib/djkombu/management/commands
+copying djkombu/management/commands/__init__.py -> build/lib/djkombu/management/commands
+creating build/bdist.linux-x86_64
+creating build/bdist.linux-x86_64/egg
+creating build/bdist.linux-x86_64/egg/djkombu
+creating build/bdist.linux-x86_64/egg/djkombu/management
+copying build/lib/djkombu/management/__init__.py -> build/bdist.linux-x86_64/egg/djkombu/management
+creating build/bdist.linux-x86_64/egg/djkombu/management/commands
+copying build/lib/djkombu/management/commands/clean_kombu_messages.py -> build/bdist.linux-x86_64/egg/djkombu/management/commands
+copying build/lib/djkombu/management/commands/__init__.py -> build/bdist.linux-x86_64/egg/djkombu/management/commands
+copying build/lib/djkombu/transport.py -> build/bdist.linux-x86_64/egg/djkombu
+copying build/lib/djkombu/managers.py -> build/bdist.linux-x86_64/egg/djkombu
+copying build/lib/djkombu/__init__.py -> build/bdist.linux-x86_64/egg/djkombu
+copying build/lib/djkombu/models.py -> build/bdist.linux-x86_64/egg/djkombu
+byte-compiling build/bdist.linux-x86_64/egg/djkombu/management/__init__.py to __init__.pyc
+byte-compiling build/bdist.linux-x86_64/egg/djkombu/management/commands/clean_kombu_messages.py to clean_kombu_messages.pyc
+byte-compiling build/bdist.linux-x86_64/egg/djkombu/management/commands/__init__.py to __init__.pyc
+byte-compiling build/bdist.linux-x86_64/egg/djkombu/transport.py to transport.pyc
+byte-compiling build/bdist.linux-x86_64/egg/djkombu/managers.py to managers.pyc
+byte-compiling build/bdist.linux-x86_64/egg/djkombu/__init__.py to __init__.pyc
+byte-compiling build/bdist.linux-x86_64/egg/djkombu/models.py to models.pyc
+creating build/bdist.linux-x86_64/egg/EGG-INFO
+copying django_kombu.egg-info/PKG-INFO -> build/bdist.linux-x86_64/egg/EGG-INFO
+copying django_kombu.egg-info/SOURCES.txt -> build/bdist.linux-x86_64/egg/EGG-INFO
+copying django_kombu.egg-info/dependency_links.txt -> build/bdist.linux-x86_64/egg/EGG-INFO
+copying django_kombu.egg-info/not-zip-safe -> build/bdist.linux-x86_64/egg/EGG-INFO
+copying django_kombu.egg-info/top_level.txt -> build/bdist.linux-x86_64/egg/EGG-INFO
+creating dist
+creating 'dist/django_kombu-0.9.4-py2.7.egg' and adding 'build/bdist.linux-x86_64/egg' to it
+removing 'build/bdist.linux-x86_64/egg' (and everything under it)
+Processing django_kombu-0.9.4-py2.7.egg
+creating /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/django_kombu-0.9.4-py2.7.egg
+Extracting django_kombu-0.9.4-py2.7.egg to /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages
+Adding django-kombu 0.9.4 to easy-install.pth file
+
+Installed /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/django_kombu-0.9.4-py2.7.egg
+Processing dependencies for django-kombu==0.9.4
+Finished processing dependencies for django-kombu==0.9.4
+
+The following NEW packages will be INSTALLED:
+
+    openssl:    1.0.1k-1     
+    pip:        7.0.3-py27_0 
+    python:     2.7.10-0     
+    readline:   6.2-2        
+    setuptools: 18.0.1-py27_0
+    sqlite:     3.8.4.1-1    
+    system:     5.8-2        
+    tk:         8.5.18-0     
+    zlib:       1.2.8-0      
+
+Linking packages ...
+[                    ]|                                                  |   0%[openssl             ]|                                                  |   0%[readline            ]|#####                                             |  11%[sqlite              ]|###########                                       |  22%[system              ]|################                                  |  33%[tk                  ]|######################                            |  44%[zlib                ]|###########################                       |  55%[python              ]|#################################                 |  66%[setuptools          ]|######################################            |  77%[pip                 ]|############################################      |  88%[      COMPLETE      ]|##################################################| 100%
+Removing old work directory
+Source cache directory is: /home/ubuntu/miniconda/conda-bld/src_cache
+Found source in cache: django-kombu-0.9.4.tar.gz
+Extracting download
+Package: django-kombu-0.9.4-py_0
+source tree in: /home/ubuntu/miniconda/conda-bld/work/django-kombu-0.9.4
+found egg dir: /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/django_kombu-0.9.4-py2.7.egg
+number of files: 15
+Fixing permissions
+Fixing permissions
+BUILD END: django-kombu-0.9.4-py_0
+TEST START: django-kombu-0.9.4-py_0
+Fetching package metadata: ......
+
+WARNING: conda-build appears to be out of date. You have version 1.13.0 but the
+latest version is 1.14.1. Run
+
+conda update -n root conda-build
+
+to get the latest version.
+
+Solving package specifications: ./home/ubuntu/miniconda/pkgs/django-kombu-0.9.4-py_0/bin/.django-kombu-pre-link.sh: line 2: /home/ubuntu/miniconda/envs/_test/bin/python: No such file or directory
+
+The following packages will be downloaded:
+
+    package                    |            build
+    ---------------------------|-----------------
+    django-kombu-0.9.4         |             py_0           4 KB
+
+The following NEW packages will be INSTALLED:
+
+    django-kombu: 0.9.4-py_0   
+    openssl:      1.0.1k-1     
+    pip:          7.0.3-py27_0 
+    python:       2.7.10-0     
+    readline:     6.2-2        
+    setuptools:   18.0.1-py27_0
+    sqlite:       3.8.4.1-1    
+    system:       5.8-2        
+    tk:           8.5.18-0     
+    zlib:         1.2.8-0      
+
+Fetching packages ...
+django-kombu-0   0% |                              | ETA:  --:--:--   0.00  B/sdjango-kombu-0 100% |###############################| ETA:  0:00:00  14.15 MB/sdjango-kombu-0 100% |###############################| Time: 0:00:00   8.21 MB/s
+Extracting packages ...
+[      COMPLETE      ]|                                                  |   0%[django-kombu        ]|                                                  |   0%[django-kombu        ]|                                                  |   0%[      COMPLETE      ]|##################################################| 100%
+Linking packages ...
+[      COMPLETE      ]|                                                  |   0%[openssl             ]|                                                  |   0%[openssl             ]|                                                  |   0%[readline            ]|#####                                             |  10%[sqlite              ]|##########                                        |  20%[system              ]|###############                                   |  30%[tk                  ]|####################                              |  40%[zlib                ]|#########################                         |  50%[django-kombu        ]|##############################                    |  60%Error: pre-link failed: django-kombu-0.9.4-py_0

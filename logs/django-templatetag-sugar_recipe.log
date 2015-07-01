@@ -1,0 +1,34 @@
+Warning, the following versions were found for django-templatetag-sugar
+1.0
+0.1
+Using 1.0
+Use --version to specify a different version.
+Using url https://pypi.python.org/packages/source/d/django-templatetag-sugar/django-templatetag-sugar-1.0.tar.gz (3 KB) for django-templatetag-sugar.
+Downloading django-templatetag-sugar
+Using cached download
+Unpacking django-templatetag-sugar...
+done
+working in /tmp/tmpp1Lx4cconda_skeleton_django-templatetag-sugar-1.0.tar.gz
+Fetching package metadata: ......
+
+WARNING: conda-build appears to be out of date. You have version 1.13.0 but the
+latest version is 1.14.1. Run
+
+conda update -n root conda-build
+
+to get the latest version.
+
+Solving package specifications: .patching file core.py
+Hunk #1 succeeded at 168 with fuzz 2 (offset 2 lines).
+
+The following NEW packages will be INSTALLED:
+
+    numpy:  1.9.2-py27_0
+    pyyaml: 3.11-py27_1 
+    yaml:   0.1.6-0     
+
+Linking packages ...
+[                    ]|                                                  |   0%[yaml                ]|                                                  |   0%[numpy               ]|################                                  |  33%[pyyaml              ]|#################################                 |  66%[      COMPLETE      ]|##################################################| 100%
+Applying patch: '/tmp/tmpp1Lx4cconda_skeleton_django-templatetag-sugar-1.0.tar.gz/pypi-distutils.patch'
+Writing recipe for django-templatetag-sugar
+Done

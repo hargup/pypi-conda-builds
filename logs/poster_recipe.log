@@ -11,26 +11,80 @@ Warning, the following versions were found for poster
 Using 0.8.1
 Use --version to specify a different version.
 Using url https://pypi.python.org/packages/source/p/poster/poster-0.8.1.tar.gz (12 KB) for poster.
-Downloading poster (use --no-download to skip this step)
+Downloading poster
 Using cached download
 Unpacking poster...
 done
-working in /tmp/tmpikku6fconda_skeleton_poster-0.8.1.tar.gz
+working in /tmp/tmp9cz9Vtconda_skeleton_poster-0.8.1.tar.gz
 Fetching package metadata: ......
+
+WARNING: conda-build appears to be out of date. You have version 1.13.0 but the
+latest version is 1.14.1. Run
+
+conda update -n root conda-build
+
+to get the latest version.
+
 Solving package specifications: .patching file core.py
 Hunk #1 succeeded at 168 with fuzz 2 (offset 2 lines).
-Traceback (most recent call last):
-  File "setup.py", line 1, in <module>
-    from setuptools import setup, find_packages
-ImportError: No module named setuptools
+
+WARNING: conda-build appears to be out of date. You have version 1.13.0 but the
+latest version is 1.14.1. Run
+
+conda update -n root conda-build
+
+to get the latest version.
+
 
 The following NEW packages will be INSTALLED:
 
     numpy:  1.9.2-py27_0
-    pyyaml: 3.11-py27_0 
+    pyyaml: 3.11-py27_1 
+    yaml:   0.1.6-0     
 
 Linking packages ...
-[                    ]|                                                  |   0%[numpy               ]|                                                  |   0%[pyyaml              ]|#########################                         |  50%[      COMPLETE      ]|##################################################| 100%
-Applying patch: '/tmp/tmpikku6fconda_skeleton_poster-0.8.1.tar.gz/pypi-distutils.patch'
-$PYTHONPATH = /tmp/tmpikku6fconda_skeleton_poster-0.8.1.tar.gz/poster-0.8.1
-Error: command failed: /home/ubuntu/miniconda/envs/_build/bin/python setup.py install
+[                    ]|                                                  |   0%[yaml                ]|                                                  |   0%[numpy               ]|################                                  |  33%[pyyaml              ]|#################################                 |  66%[      COMPLETE      ]|##################################################| 100%
+Applying patch: '/tmp/tmp9cz9Vtconda_skeleton_poster-0.8.1.tar.gz/pypi-distutils.patch'
+Warning, the following versions were found for buildutils
+0.3
+0.1.2
+0.1.1
+0.1.0
+Using 0.3
+Use --version to specify a different version.
+Using url https://pypi.python.org/packages/source/b/buildutils/buildutils-0.3.tar.gz (47 KB) for buildutils.
+Downloading buildutils
+Using cached download
+Unpacking buildutils...
+done
+working in /tmp/tmpeDZtKXconda_skeleton_buildutils-0.3.tar.gz
+Solving package specifications: .patching file core.py
+Hunk #1 succeeded at 168 with fuzz 2 (offset 2 lines).
+
+Applying patch: '/tmp/tmpeDZtKXconda_skeleton_buildutils-0.3.tar.gz/pypi-distutils.patch'
+WARNING: Could not add entry points. They were:
+
+    [distutils.commands]
+    checksum = buildutils.command.checksum:checksum
+    etags = buildutils.command.etags:etags
+    flakes = buildutils.command.flakes:flakes
+    info = buildutils.command.info:info
+    stats = buildutils.command.stats:stats
+    # global?
+    svntag = buildutils.command.svntag:svntag
+    addcommand = buildutils.command.addcommand:addcommand
+    customcommand = buildutils.command.customcommand:customcommand
+    bundle = buildutils.command.bundle:bundle
+    
+    [console_scripts]
+    pbu = buildutils.pysetup:main
+
+    [buildutils.optional_commands]
+    announce = buildutils.announce_command
+    publish = buildutils.publish_command
+    pudge = buildutils.pudge_command
+    pytest = buildutils.pytest_command
+    
+Writing recipe for poster
+Writing recipe for buildutils
+Done

@@ -1,34 +1,32 @@
 Error: prefix already exists: /home/ubuntu/miniconda/envs/_pipbuild_
-Collecting xattr==0.7.8
-  Could not find a version that satisfies the requirement xattr==0.7.8 (from versions: 0.2, 0.3, 0.4, 0.6, 0.6.1, 0.6.2, 0.6.3, 0.6.4, 0.7.0, 0.7.1, 0.7.2, 0.7.3, 0.7.4, 0.7.5)
-No matching distribution found for xattr==0.7.8
+Exception:
+Traceback (most recent call last):
+  File "/home/ubuntu/miniconda/envs/_pipbuild_/lib/python2.7/site-packages/pip/basecommand.py", line 223, in main
+    status = self.run(options, args)
+  File "/home/ubuntu/miniconda/envs/_pipbuild_/lib/python2.7/site-packages/pip/commands/install.py", line 268, in run
+    wheel_cache
+  File "/home/ubuntu/miniconda/envs/_pipbuild_/lib/python2.7/site-packages/pip/basecommand.py", line 268, in populate_requirement_set
+    wheel_cache=wheel_cache
+  File "/home/ubuntu/miniconda/envs/_pipbuild_/lib/python2.7/site-packages/pip/req/req_install.py", line 207, in from_line
+    wheel_cache=wheel_cache)
+  File "/home/ubuntu/miniconda/envs/_pipbuild_/lib/python2.7/site-packages/pip/req/req_install.py", line 66, in __init__
+    req = pkg_resources.Requirement.parse(req)
+  File "/home/ubuntu/miniconda/envs/_pipbuild_/lib/python2.7/site-packages/pip/_vendor/pkg_resources/__init__.py", line 2960, in parse
+    reqs = list(parse_requirements(s))
+  File "/home/ubuntu/miniconda/envs/_pipbuild_/lib/python2.7/site-packages/pip/_vendor/pkg_resources/__init__.py", line 2904, in parse_requirements
+    "version spec")
+  File "/home/ubuntu/miniconda/envs/_pipbuild_/lib/python2.7/site-packages/pip/_vendor/pkg_resources/__init__.py", line 2869, in scan_list
+    raise ValueError(msg, line, "at", line[p:])
+ValueError: ('Expected version spec in', 'cffi==>=0.4', 'at', '==>=0.4')
+
 Package search: {'_pypi_ordering': False, 'version': '0.7.8', 'name': 'xattr', 'summary': 'Python wrapper for extended filesystem attributes'}
 Creating standard recipe for xattr-0.7.8
-Using url https://pypi.python.org/packages/source/x/xattr/xattr-0.7.8.tar.gz (13 KB) for xattr.
-Downloading xattr
-Unpacking xattr...
-done
-working in /tmp/tmpA96C9Lconda_skeleton_xattr-0.7.8.tar.gz
-Fetching package metadata: ......
-
-WARNING: conda-build appears to be out of date. You have version 1.13.0 but the
-latest version is 1.14.0. Run
-
-conda update -n root conda-build
-
-to get the latest version.
-
-Solving package specifications: .patching file core.py
-Hunk #1 succeeded at 168 with fuzz 2 (offset 2 lines).
-Traceback (most recent call last):
-  File "setup.py", line 6, in <module>
-    from setuptools import setup
-ImportError: No module named setuptools
-
-Applying patch: '/tmp/tmpA96C9Lconda_skeleton_xattr-0.7.8.tar.gz/pypi-distutils.patch'
-$PYTHONPATH = /tmp/tmpA96C9Lconda_skeleton_xattr-0.7.8.tar.gz/xattr-0.7.8
-Error: command failed: /home/ubuntu/miniconda/envs/_build/bin/python setup.py install
+Converting recipe in /home/ubuntu/pypi-conda-builds/xattr
+package = xattr
+   dependencies = [u'cffi >=0.4']
+Creating standard recipe for cffi->=0.4
+Error: Version >=0.4 of cffi is not available on PyPI.
 
 conda create -n _pipbuild_ --yes python pip
-/home/ubuntu/miniconda/envs/_pipbuild_/bin/pip install xattr==0.7.8
-Error: Could not pip install xattr==0.7.8
+/home/ubuntu/miniconda/envs/_pipbuild_/bin/pip install cffi==>=0.4
+Error: Could not pip install cffi==>=0.4

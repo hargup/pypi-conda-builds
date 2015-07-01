@@ -1,0 +1,201 @@
+Removing old build directory
+Removing old work directory
+BUILD START: couchdb-1.0-py_0
+Fetching package metadata: ......
+
+WARNING: conda-build appears to be out of date. You have version 1.13.0 but the
+latest version is 1.14.1. Run
+
+conda update -n root conda-build
+
+to get the latest version.
+
+Solving package specifications: .+ /home/ubuntu/miniconda/envs/_build/bin/python setup.py install
+running install
+running bdist_egg
+running egg_info
+writing CouchDB.egg-info/PKG-INFO
+writing top-level names to CouchDB.egg-info/top_level.txt
+writing dependency_links to CouchDB.egg-info/dependency_links.txt
+writing entry points to CouchDB.egg-info/entry_points.txt
+reading manifest file 'CouchDB.egg-info/SOURCES.txt'
+reading manifest template 'MANIFEST.in'
+writing manifest file 'CouchDB.egg-info/SOURCES.txt'
+installing library code to build/bdist.linux-x86_64/egg
+running install_lib
+running build_py
+creating build
+creating build/lib
+creating build/lib/couchdb
+copying couchdb/multipart.py -> build/lib/couchdb
+copying couchdb/json.py -> build/lib/couchdb
+copying couchdb/util3.py -> build/lib/couchdb
+copying couchdb/util.py -> build/lib/couchdb
+copying couchdb/util2.py -> build/lib/couchdb
+copying couchdb/mapping.py -> build/lib/couchdb
+copying couchdb/client.py -> build/lib/couchdb
+copying couchdb/http.py -> build/lib/couchdb
+copying couchdb/__init__.py -> build/lib/couchdb
+copying couchdb/design.py -> build/lib/couchdb
+copying couchdb/view.py -> build/lib/couchdb
+creating build/lib/couchdb/tools
+copying couchdb/tools/load.py -> build/lib/couchdb/tools
+copying couchdb/tools/replicate.py -> build/lib/couchdb/tools
+copying couchdb/tools/__init__.py -> build/lib/couchdb/tools
+copying couchdb/tools/dump.py -> build/lib/couchdb/tools
+creating build/lib/couchdb/tests
+copying couchdb/tests/testutil.py -> build/lib/couchdb/tests
+copying couchdb/tests/tools.py -> build/lib/couchdb/tests
+copying couchdb/tests/__main__.py -> build/lib/couchdb/tests
+copying couchdb/tests/couchhttp.py -> build/lib/couchdb/tests
+copying couchdb/tests/package.py -> build/lib/couchdb/tests
+copying couchdb/tests/multipart.py -> build/lib/couchdb/tests
+copying couchdb/tests/mapping.py -> build/lib/couchdb/tests
+copying couchdb/tests/client.py -> build/lib/couchdb/tests
+copying couchdb/tests/__init__.py -> build/lib/couchdb/tests
+copying couchdb/tests/design.py -> build/lib/couchdb/tests
+copying couchdb/tests/view.py -> build/lib/couchdb/tests
+copying couchdb/tests/couch_tests.py -> build/lib/couchdb/tests
+creating build/bdist.linux-x86_64
+creating build/bdist.linux-x86_64/egg
+creating build/bdist.linux-x86_64/egg/couchdb
+copying build/lib/couchdb/multipart.py -> build/bdist.linux-x86_64/egg/couchdb
+copying build/lib/couchdb/json.py -> build/bdist.linux-x86_64/egg/couchdb
+copying build/lib/couchdb/util3.py -> build/bdist.linux-x86_64/egg/couchdb
+copying build/lib/couchdb/util.py -> build/bdist.linux-x86_64/egg/couchdb
+creating build/bdist.linux-x86_64/egg/couchdb/tests
+copying build/lib/couchdb/tests/testutil.py -> build/bdist.linux-x86_64/egg/couchdb/tests
+copying build/lib/couchdb/tests/tools.py -> build/bdist.linux-x86_64/egg/couchdb/tests
+copying build/lib/couchdb/tests/__main__.py -> build/bdist.linux-x86_64/egg/couchdb/tests
+copying build/lib/couchdb/tests/couchhttp.py -> build/bdist.linux-x86_64/egg/couchdb/tests
+copying build/lib/couchdb/tests/package.py -> build/bdist.linux-x86_64/egg/couchdb/tests
+copying build/lib/couchdb/tests/multipart.py -> build/bdist.linux-x86_64/egg/couchdb/tests
+copying build/lib/couchdb/tests/mapping.py -> build/bdist.linux-x86_64/egg/couchdb/tests
+copying build/lib/couchdb/tests/client.py -> build/bdist.linux-x86_64/egg/couchdb/tests
+copying build/lib/couchdb/tests/__init__.py -> build/bdist.linux-x86_64/egg/couchdb/tests
+copying build/lib/couchdb/tests/design.py -> build/bdist.linux-x86_64/egg/couchdb/tests
+copying build/lib/couchdb/tests/view.py -> build/bdist.linux-x86_64/egg/couchdb/tests
+copying build/lib/couchdb/tests/couch_tests.py -> build/bdist.linux-x86_64/egg/couchdb/tests
+copying build/lib/couchdb/util2.py -> build/bdist.linux-x86_64/egg/couchdb
+copying build/lib/couchdb/mapping.py -> build/bdist.linux-x86_64/egg/couchdb
+copying build/lib/couchdb/client.py -> build/bdist.linux-x86_64/egg/couchdb
+copying build/lib/couchdb/http.py -> build/bdist.linux-x86_64/egg/couchdb
+copying build/lib/couchdb/__init__.py -> build/bdist.linux-x86_64/egg/couchdb
+copying build/lib/couchdb/design.py -> build/bdist.linux-x86_64/egg/couchdb
+creating build/bdist.linux-x86_64/egg/couchdb/tools
+copying build/lib/couchdb/tools/load.py -> build/bdist.linux-x86_64/egg/couchdb/tools
+copying build/lib/couchdb/tools/replicate.py -> build/bdist.linux-x86_64/egg/couchdb/tools
+copying build/lib/couchdb/tools/__init__.py -> build/bdist.linux-x86_64/egg/couchdb/tools
+copying build/lib/couchdb/tools/dump.py -> build/bdist.linux-x86_64/egg/couchdb/tools
+copying build/lib/couchdb/view.py -> build/bdist.linux-x86_64/egg/couchdb
+byte-compiling build/bdist.linux-x86_64/egg/couchdb/multipart.py to multipart.pyc
+byte-compiling build/bdist.linux-x86_64/egg/couchdb/json.py to json.pyc
+byte-compiling build/bdist.linux-x86_64/egg/couchdb/util3.py to util3.pyc
+byte-compiling build/bdist.linux-x86_64/egg/couchdb/util.py to util.pyc
+byte-compiling build/bdist.linux-x86_64/egg/couchdb/tests/testutil.py to testutil.pyc
+byte-compiling build/bdist.linux-x86_64/egg/couchdb/tests/tools.py to tools.pyc
+byte-compiling build/bdist.linux-x86_64/egg/couchdb/tests/__main__.py to __main__.pyc
+byte-compiling build/bdist.linux-x86_64/egg/couchdb/tests/couchhttp.py to couchhttp.pyc
+byte-compiling build/bdist.linux-x86_64/egg/couchdb/tests/package.py to package.pyc
+byte-compiling build/bdist.linux-x86_64/egg/couchdb/tests/multipart.py to multipart.pyc
+byte-compiling build/bdist.linux-x86_64/egg/couchdb/tests/mapping.py to mapping.pyc
+byte-compiling build/bdist.linux-x86_64/egg/couchdb/tests/client.py to client.pyc
+byte-compiling build/bdist.linux-x86_64/egg/couchdb/tests/__init__.py to __init__.pyc
+byte-compiling build/bdist.linux-x86_64/egg/couchdb/tests/design.py to design.pyc
+byte-compiling build/bdist.linux-x86_64/egg/couchdb/tests/view.py to view.pyc
+byte-compiling build/bdist.linux-x86_64/egg/couchdb/tests/couch_tests.py to couch_tests.pyc
+byte-compiling build/bdist.linux-x86_64/egg/couchdb/util2.py to util2.pyc
+byte-compiling build/bdist.linux-x86_64/egg/couchdb/mapping.py to mapping.pyc
+byte-compiling build/bdist.linux-x86_64/egg/couchdb/client.py to client.pyc
+byte-compiling build/bdist.linux-x86_64/egg/couchdb/http.py to http.pyc
+byte-compiling build/bdist.linux-x86_64/egg/couchdb/__init__.py to __init__.pyc
+byte-compiling build/bdist.linux-x86_64/egg/couchdb/design.py to design.pyc
+byte-compiling build/bdist.linux-x86_64/egg/couchdb/tools/load.py to load.pyc
+byte-compiling build/bdist.linux-x86_64/egg/couchdb/tools/replicate.py to replicate.pyc
+byte-compiling build/bdist.linux-x86_64/egg/couchdb/tools/__init__.py to __init__.pyc
+byte-compiling build/bdist.linux-x86_64/egg/couchdb/tools/dump.py to dump.pyc
+byte-compiling build/bdist.linux-x86_64/egg/couchdb/view.py to view.pyc
+creating build/bdist.linux-x86_64/egg/EGG-INFO
+copying CouchDB.egg-info/PKG-INFO -> build/bdist.linux-x86_64/egg/EGG-INFO
+copying CouchDB.egg-info/SOURCES.txt -> build/bdist.linux-x86_64/egg/EGG-INFO
+copying CouchDB.egg-info/dependency_links.txt -> build/bdist.linux-x86_64/egg/EGG-INFO
+copying CouchDB.egg-info/entry_points.txt -> build/bdist.linux-x86_64/egg/EGG-INFO
+copying CouchDB.egg-info/top_level.txt -> build/bdist.linux-x86_64/egg/EGG-INFO
+copying CouchDB.egg-info/zip-safe -> build/bdist.linux-x86_64/egg/EGG-INFO
+creating dist
+creating 'dist/CouchDB-1.0-py2.7.egg' and adding 'build/bdist.linux-x86_64/egg' to it
+removing 'build/bdist.linux-x86_64/egg' (and everything under it)
+Processing CouchDB-1.0-py2.7.egg
+Copying CouchDB-1.0-py2.7.egg to /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages
+Adding CouchDB 1.0 to easy-install.pth file
+Installing couchdb-dump script to /home/ubuntu/miniconda/envs/_build/bin
+Installing couchpy script to /home/ubuntu/miniconda/envs/_build/bin
+Installing couchdb-load script to /home/ubuntu/miniconda/envs/_build/bin
+Installing couchdb-replicate script to /home/ubuntu/miniconda/envs/_build/bin
+
+Installed /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/CouchDB-1.0-py2.7.egg
+Processing dependencies for CouchDB==1.0
+Finished processing dependencies for CouchDB==1.0
+
+The following NEW packages will be INSTALLED:
+
+    openssl:    1.0.1k-1     
+    pip:        7.0.3-py27_0 
+    python:     2.7.10-0     
+    readline:   6.2-2        
+    setuptools: 18.0.1-py27_0
+    sqlite:     3.8.4.1-1    
+    system:     5.8-2        
+    tk:         8.5.18-0     
+    zlib:       1.2.8-0      
+
+Linking packages ...
+[                    ]|                                                  |   0%[openssl             ]|                                                  |   0%[readline            ]|#####                                             |  11%[sqlite              ]|###########                                       |  22%[system              ]|################                                  |  33%[tk                  ]|######################                            |  44%[zlib                ]|###########################                       |  55%[python              ]|#################################                 |  66%[setuptools          ]|######################################            |  77%[pip                 ]|############################################      |  88%[      COMPLETE      ]|##################################################| 100%
+Removing old work directory
+Source cache directory is: /home/ubuntu/miniconda/conda-bld/src_cache
+Found source in cache: CouchDB-1.0.tar.gz
+Extracting download
+Package: couchdb-1.0-py_0
+source tree in: /home/ubuntu/miniconda/conda-bld/work/CouchDB-1.0
+found egg: /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/CouchDB-1.0-py2.7.egg
+number of files: 6
+Fixing permissions
+Fixing permissions
+BUILD END: couchdb-1.0-py_0
+TEST START: couchdb-1.0-py_0
+Fetching package metadata: ......
+
+WARNING: conda-build appears to be out of date. You have version 1.13.0 but the
+latest version is 1.14.1. Run
+
+conda update -n root conda-build
+
+to get the latest version.
+
+Solving package specifications: ./home/ubuntu/miniconda/pkgs/couchdb-1.0-py_0/bin/.couchdb-pre-link.sh: line 2: /home/ubuntu/miniconda/envs/_test/bin/python: No such file or directory
+
+The following packages will be downloaded:
+
+    package                    |            build
+    ---------------------------|-----------------
+    couchdb-1.0                |             py_0         223 KB
+
+The following NEW packages will be INSTALLED:
+
+    couchdb:    1.0-py_0     
+    openssl:    1.0.1k-1     
+    pip:        7.0.3-py27_0 
+    python:     2.7.10-0     
+    readline:   6.2-2        
+    setuptools: 18.0.1-py27_0
+    sqlite:     3.8.4.1-1    
+    system:     5.8-2        
+    tk:         8.5.18-0     
+    zlib:       1.2.8-0      
+
+Fetching packages ...
+couchdb-1.0-py   0% |                              | ETA:  --:--:--   0.00  B/scouchdb-1.0-py   7% |##                             | ETA:  0:00:00  46.81 MB/scouchdb-1.0-py  14% |####                           | ETA:  0:00:00  56.40 MB/scouchdb-1.0-py  21% |######                         | ETA:  0:00:00   5.52 MB/scouchdb-1.0-py  28% |########                       | ETA:  0:00:00   7.20 MB/scouchdb-1.0-py  35% |###########                    | ETA:  0:00:00   8.82 MB/scouchdb-1.0-py  43% |#############                  | ETA:  0:00:00  10.38 MB/scouchdb-1.0-py  50% |###############                | ETA:  0:00:00  11.87 MB/scouchdb-1.0-py  57% |#################              | ETA:  0:00:00  13.32 MB/scouchdb-1.0-py  64% |####################           | ETA:  0:00:00  14.71 MB/scouchdb-1.0-py  71% |######################         | ETA:  0:00:00  16.06 MB/scouchdb-1.0-py  78% |########################       | ETA:  0:00:00  17.36 MB/scouchdb-1.0-py  86% |##########################     | ETA:  0:00:00  18.62 MB/scouchdb-1.0-py  93% |############################   | ETA:  0:00:00  19.83 MB/scouchdb-1.0-py 100% |###############################| ETA:  0:00:00  20.90 MB/scouchdb-1.0-py 100% |###############################| Time: 0:00:00  20.46 MB/s
+Extracting packages ...
+[      COMPLETE      ]|                                                  |   0%[couchdb             ]|                                                  |   0%[couchdb             ]|                                                  |   0%[      COMPLETE      ]|##################################################| 100%
+Linking packages ...
+[      COMPLETE      ]|                                                  |   0%[openssl             ]|                                                  |   0%[openssl             ]|                                                  |   0%[readline            ]|#####                                             |  10%[sqlite              ]|##########                                        |  20%[system              ]|###############                                   |  30%[tk                  ]|####################                              |  40%[zlib                ]|#########################                         |  50%[couchdb             ]|##############################                    |  60%Error: pre-link failed: couchdb-1.0-py_0

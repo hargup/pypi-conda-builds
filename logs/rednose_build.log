@@ -1,0 +1,120 @@
+Removing old build directory
+Removing old work directory
+BUILD START: rednose-0.4.3-py_0
+Fetching package metadata: ......
+
+WARNING: conda-build appears to be out of date. You have version 1.13.0 but the
+latest version is 1.14.1. Run
+
+conda update -n root conda-build
+
+to get the latest version.
+
+Solving package specifications: .................
+Warning: 2 possible package resolutions (only showing differing packages):
+	[u'python-termstyle-0.1.10-py_0.tar.bz2'],
+	[u'python-termstyle-0.1.10-py27_0.tar.bz2'],
++ /home/ubuntu/miniconda/envs/_build/bin/python setup.py install
+running install
+running bdist_egg
+running egg_info
+writing requirements to rednose.egg-info/requires.txt
+writing rednose.egg-info/PKG-INFO
+writing top-level names to rednose.egg-info/top_level.txt
+writing dependency_links to rednose.egg-info/dependency_links.txt
+writing entry points to rednose.egg-info/entry_points.txt
+reading manifest file 'rednose.egg-info/SOURCES.txt'
+writing manifest file 'rednose.egg-info/SOURCES.txt'
+installing library code to build/bdist.linux-x86_64/egg
+running install_lib
+running build_py
+creating build
+creating build/lib
+copying rednose.py -> build/lib
+creating build/bdist.linux-x86_64
+creating build/bdist.linux-x86_64/egg
+copying build/lib/rednose.py -> build/bdist.linux-x86_64/egg
+byte-compiling build/bdist.linux-x86_64/egg/rednose.py to rednose.pyc
+creating build/bdist.linux-x86_64/egg/EGG-INFO
+copying rednose.egg-info/PKG-INFO -> build/bdist.linux-x86_64/egg/EGG-INFO
+copying rednose.egg-info/SOURCES.txt -> build/bdist.linux-x86_64/egg/EGG-INFO
+copying rednose.egg-info/dependency_links.txt -> build/bdist.linux-x86_64/egg/EGG-INFO
+copying rednose.egg-info/entry_points.txt -> build/bdist.linux-x86_64/egg/EGG-INFO
+copying rednose.egg-info/requires.txt -> build/bdist.linux-x86_64/egg/EGG-INFO
+copying rednose.egg-info/top_level.txt -> build/bdist.linux-x86_64/egg/EGG-INFO
+zip_safe flag not set; analyzing archive contents...
+creating dist
+creating 'dist/rednose-0.4.3-py2.7.egg' and adding 'build/bdist.linux-x86_64/egg' to it
+removing 'build/bdist.linux-x86_64/egg' (and everything under it)
+Processing rednose-0.4.3-py2.7.egg
+Copying rednose-0.4.3-py2.7.egg to /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages
+Adding rednose 0.4.3 to easy-install.pth file
+
+Installed /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/rednose-0.4.3-py2.7.egg
+Processing dependencies for rednose==0.4.3
+Searching for colorama==0.3.3
+Best match: colorama 0.3.3
+Processing colorama-0.3.3-py2.7.egg
+Adding colorama 0.3.3 to easy-install.pth file
+
+Using /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/colorama-0.3.3-py2.7.egg
+Searching for python-termstyle==0.1.10
+Best match: python-termstyle 0.1.10
+Adding python-termstyle 0.1.10 to easy-install.pth file
+
+Using /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages
+Searching for setuptools==15.2
+Best match: setuptools 15.2
+Adding setuptools 15.2 to easy-install.pth file
+Installing easy_install-3.4 script to /home/ubuntu/miniconda/envs/_build/bin
+Installing easy_install script to /home/ubuntu/miniconda/envs/_build/bin
+
+Using /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages
+Finished processing dependencies for rednose==0.4.3
+
+The following packages will be downloaded:
+
+    package                    |            build
+    ---------------------------|-----------------
+    python-termstyle-0.1.10    |             py_0           5 KB
+
+The following NEW packages will be INSTALLED:
+
+    colorama:         0.3.3-py27_0 
+    openssl:          1.0.1k-1     
+    pip:              7.0.3-py27_0 
+    python:           2.7.10-0     
+    python-termstyle: 0.1.10-py_0  
+    readline:         6.2-2        
+    setuptools:       18.0.1-py27_0
+    sqlite:           3.8.4.1-1    
+    system:           5.8-2        
+    tk:               8.5.18-0     
+    zlib:             1.2.8-0      
+
+Fetching packages ...
+python-termsty   0% |                              | ETA:  --:--:--   0.00  B/spython-termsty 100% |###############################| ETA:  0:00:00  11.13 MB/spython-termsty 100% |###############################| Time: 0:00:00   7.18 MB/s
+Extracting packages ...
+[                    ]|                                                  |   0%[python-termstyle    ]|                                                  |   0%[      COMPLETE      ]|##################################################| 100%
+Linking packages ...
+[      COMPLETE      ]|                                                  |   0%[openssl             ]|                                                  |   0%[openssl             ]|                                                  |   0%[readline            ]|####                                              |   9%[sqlite              ]|#########                                         |  18%[system              ]|#############                                     |  27%[tk                  ]|##################                                |  36%[zlib                ]|######################                            |  45%[colorama            ]|###########################                       |  54%[python              ]|###############################                   |  63%[python-termstyle    ]|####################################              |  72%[setuptools          ]|########################################          |  81%[pip                 ]|#############################################     |  90%[      COMPLETE      ]|##################################################| 100%
+Removing old work directory
+Source cache directory is: /home/ubuntu/miniconda/conda-bld/src_cache
+Found source in cache: rednose-0.4.3.tar.gz
+Extracting download
+Package: rednose-0.4.3-py_0
+source tree in: /home/ubuntu/miniconda/conda-bld/work/rednose-0.4.3
+found egg: /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/rednose-0.4.3-py2.7.egg
+compiling .pyc files...
+number of files: 5
+Fixing permissions
+Fixing permissions
+BUILD END: rednose-0.4.3-py_0
+Nothing to test for: rednose-0.4.3-py_0
+# If you want to upload this package to binstar.org later, type:
+#
+# $ binstar upload /home/ubuntu/miniconda/conda-bld/noarch/rednose-0.4.3-py_0.tar.bz2
+#
+# To have conda build upload to binstar automatically, use
+# $ conda config --set binstar_upload yes
+

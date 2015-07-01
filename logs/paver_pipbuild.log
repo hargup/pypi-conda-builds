@@ -1,0 +1,201 @@
+Package search: {'_pypi_ordering': False, 'version': '1.2.4', 'name': 'Paver', 'summary': 'Easy build, distribution and deployment scripting'}
+Creating standard recipe for paver-1.2.4
+Using url https://pypi.python.org/packages/source/P/Paver/Paver-1.2.4.tar.gz (321 KB) for Paver.
+Downloading Paver
+Using cached download
+Unpacking Paver...
+done
+working in /tmp/tmphyw5Kdconda_skeleton_Paver-1.2.4.tar.gz
+Fetching package metadata: ......
+
+WARNING: conda-build appears to be out of date. You have version 1.13.0 but the
+latest version is 1.14.1. Run
+
+conda update -n root conda-build
+
+to get the latest version.
+
+Solving package specifications: .patching file core.py
+Hunk #1 succeeded at 168 with fuzz 2 (offset 2 lines).
+running install
+running build
+running build_py
+creating build
+creating build/lib
+creating build/lib/paver
+copying paver/easy.py -> build/lib/paver
+copying paver/path25.py -> build/lib/paver
+copying paver/tasks.py -> build/lib/paver
+copying paver/__main__.py -> build/lib/paver
+copying paver/runtime.py -> build/lib/paver
+copying paver/setuputils.py -> build/lib/paver
+copying paver/path.py -> build/lib/paver
+copying paver/misctasks.py -> build/lib/paver
+copying paver/options.py -> build/lib/paver
+copying paver/shell.py -> build/lib/paver
+copying paver/version.py -> build/lib/paver
+copying paver/virtual.py -> build/lib/paver
+copying paver/bzr.py -> build/lib/paver
+copying paver/defaults.py -> build/lib/paver
+copying paver/release.py -> build/lib/paver
+copying paver/svn.py -> build/lib/paver
+copying paver/ssh.py -> build/lib/paver
+copying paver/__init__.py -> build/lib/paver
+copying paver/command.py -> build/lib/paver
+copying paver/git.py -> build/lib/paver
+copying paver/doctools.py -> build/lib/paver
+creating build/lib/paver/deps
+copying paver/deps/six.py -> build/lib/paver/deps
+copying paver/deps/path2.py -> build/lib/paver/deps
+copying paver/deps/__init__.py -> build/lib/paver/deps
+copying paver/deps/path3.py -> build/lib/paver/deps
+creating build/lib/paver/docs
+copying paver/docs/changelog.html -> build/lib/paver/docs
+copying paver/docs/index.html -> build/lib/paver/docs
+copying paver/docs/ssh.html -> build/lib/paver/docs
+copying paver/docs/paverstdlib.html -> build/lib/paver/docs
+copying paver/docs/features.html -> build/lib/paver/docs
+copying paver/docs/pavement.html -> build/lib/paver/docs
+copying paver/docs/getting_started.html -> build/lib/paver/docs
+copying paver/docs/files.html -> build/lib/paver/docs
+copying paver/docs/virtualenv.html -> build/lib/paver/docs
+copying paver/docs/objects.inv -> build/lib/paver/docs
+copying paver/docs/tips.html -> build/lib/paver/docs
+copying paver/docs/cmdline.html -> build/lib/paver/docs
+copying paver/docs/foreword.html -> build/lib/paver/docs
+copying paver/docs/articles.html -> build/lib/paver/docs
+copying paver/docs/setuptools.html -> build/lib/paver/docs
+copying paver/docs/searchindex.js -> build/lib/paver/docs
+copying paver/docs/doctools.html -> build/lib/paver/docs
+copying paver/docs/search.html -> build/lib/paver/docs
+copying paver/docs/genindex.html -> build/lib/paver/docs
+copying paver/docs/bzr.html -> build/lib/paver/docs
+copying paver/docs/credits.html -> build/lib/paver/docs
+copying paver/docs/svn.html -> build/lib/paver/docs
+copying paver/docs/misctasks.html -> build/lib/paver/docs
+copying paver/docs/py-modindex.html -> build/lib/paver/docs
+creating build/lib/paver/docs/_static
+copying paver/docs/_static/underscore.js -> build/lib/paver/docs/_static
+copying paver/docs/_static/paver_banner.jpg -> build/lib/paver/docs/_static
+copying paver/docs/_static/doctools.js -> build/lib/paver/docs/_static
+copying paver/docs/_static/jquery.js -> build/lib/paver/docs/_static
+copying paver/docs/_static/default.css -> build/lib/paver/docs/_static
+copying paver/docs/_static/plus.png -> build/lib/paver/docs/_static
+copying paver/docs/_static/websupport.js -> build/lib/paver/docs/_static
+copying paver/docs/_static/pygments.css -> build/lib/paver/docs/_static
+copying paver/docs/_static/minus.png -> build/lib/paver/docs/_static
+copying paver/docs/_static/comment-close.png -> build/lib/paver/docs/_static
+copying paver/docs/_static/ajax-loader.gif -> build/lib/paver/docs/_static
+copying paver/docs/_static/sidebar.js -> build/lib/paver/docs/_static
+copying paver/docs/_static/up-pressed.png -> build/lib/paver/docs/_static
+copying paver/docs/_static/basic.css -> build/lib/paver/docs/_static
+copying paver/docs/_static/up.png -> build/lib/paver/docs/_static
+copying paver/docs/_static/comment-bright.png -> build/lib/paver/docs/_static
+copying paver/docs/_static/comment.png -> build/lib/paver/docs/_static
+copying paver/docs/_static/down.png -> build/lib/paver/docs/_static
+copying paver/docs/_static/searchtools.js -> build/lib/paver/docs/_static
+copying paver/docs/_static/down-pressed.png -> build/lib/paver/docs/_static
+copying paver/docs/_static/file.png -> build/lib/paver/docs/_static
+creating build/lib/paver/docs/_images
+copying paver/docs/_images/paver_banner.jpg -> build/lib/paver/docs/_images
+creating build/lib/paver/docs/_sources
+copying paver/docs/_sources/changelog.txt -> build/lib/paver/docs/_sources
+copying paver/docs/_sources/articles.txt -> build/lib/paver/docs/_sources
+copying paver/docs/_sources/ssh.txt -> build/lib/paver/docs/_sources
+copying paver/docs/_sources/paverstdlib.txt -> build/lib/paver/docs/_sources
+copying paver/docs/_sources/pavement.txt -> build/lib/paver/docs/_sources
+copying paver/docs/_sources/credits.txt -> build/lib/paver/docs/_sources
+copying paver/docs/_sources/features.txt -> build/lib/paver/docs/_sources
+copying paver/docs/_sources/bzr.txt -> build/lib/paver/docs/_sources
+copying paver/docs/_sources/svn.txt -> build/lib/paver/docs/_sources
+copying paver/docs/_sources/setuptools.txt -> build/lib/paver/docs/_sources
+copying paver/docs/_sources/cmdline.txt -> build/lib/paver/docs/_sources
+copying paver/docs/_sources/foreword.txt -> build/lib/paver/docs/_sources
+copying paver/docs/_sources/misctasks.txt -> build/lib/paver/docs/_sources
+copying paver/docs/_sources/getting_started.txt -> build/lib/paver/docs/_sources
+copying paver/docs/_sources/tips.txt -> build/lib/paver/docs/_sources
+copying paver/docs/_sources/doctools.txt -> build/lib/paver/docs/_sources
+copying paver/docs/_sources/virtualenv.txt -> build/lib/paver/docs/_sources
+copying paver/docs/_sources/files.txt -> build/lib/paver/docs/_sources
+copying paver/docs/_sources/index.txt -> build/lib/paver/docs/_sources
+running install_lib
+running install_egg_info
+running egg_info
+writing Paver.egg-info/PKG-INFO
+writing top-level names to Paver.egg-info/top_level.txt
+writing dependency_links to Paver.egg-info/dependency_links.txt
+writing entry points to Paver.egg-info/entry_points.txt
+reading manifest file 'Paver.egg-info/SOURCES.txt'
+reading manifest template 'MANIFEST.in'
+writing manifest file 'Paver.egg-info/SOURCES.txt'
+removing '/home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/Paver-1.2.4-py2.7.egg-info' (and everything under it)
+Copying Paver.egg-info to /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/Paver-1.2.4-py2.7.egg-info
+running install_scripts
+Installing paver script to /home/ubuntu/miniconda/envs/_build/bin
+An unexpected error has occurred, please consider sending the
+following traceback to the conda GitHub issue tracker at:
+
+    https://github.com/conda/conda-build/issues
+
+Include the output of the command 'conda info' in your report.
+
+
+
+Applying patch: '/tmp/tmphyw5Kdconda_skeleton_Paver-1.2.4.tar.gz/pypi-distutils.patch'
+Traceback (most recent call last):
+  File "/home/ubuntu/miniconda/bin/conda-skeleton", line 6, in <module>
+    exec(compile(open(__file__).read(), __file__, 'exec'))
+  File "/home/ubuntu/conda-build/bin/conda-skeleton", line 5, in <module>
+    sys.exit(main())
+  File "/home/ubuntu/conda-build/conda_build/main_skeleton.py", line 240, in main
+    args_func(args, p)
+  File "/home/ubuntu/conda-build/conda_build/main_build.py", line 349, in args_func
+    args.func(args, p)
+  File "/home/ubuntu/conda-build/conda_build/main_skeleton.py", line 254, in execute
+    pypi.main(args, parser)
+  File "/home/ubuntu/conda-build/conda_build/pypi.py", line 387, in main
+    get_pacError: prefix already exists: /home/ubuntu/miniconda/envs/_pipbuild_
+Collecting Paver==1.2.4
+  Downloading http://localhost/packages/2.7/P/Paver/Paver-1.2.4-py2.py3-none-any.whl (295kB)
+Installing collected packages: Paver
+Successfully installed Paver-1.2.4
+Traceback (most recent call last):
+  File "__tmpfile__.py", line 1, in <module>
+    import pkg_resources;
+ImportError: No module named pkg_resources
+An unexpected error has occurred, please consider sending the
+following traceback to the conda GitHub issue tracker at:
+
+    https://github.com/conda/conda-build/issues
+
+Include the output of the command 'conda info' in your report.
+
+
+kage_metadata(args, package, d, data)
+  File "/home/ubuntu/conda-build/conda_build/pypi.py", line 485, in get_package_metadata
+    with open(join(tempdir, 'pkginfo.yaml')) as fn:
+IOError: [Errno 2] No such file or directory: '/tmp/tmphyw5Kdconda_skeleton_Paver-1.2.4.tar.gz/pkginfo.yaml'
+
+conda create -n _pipbuild_ --yes python pip
+/home/ubuntu/miniconda/envs/_pipbuild_/bin/pip install Paver==1.2.4
+Getting dependencies...
+Traceback (most recent call last):
+  File "/home/ubuntu/miniconda/bin/conda-pipbuild", line 6, in <module>
+    exec(compile(open(__file__).read(), __file__, 'exec'))
+  File "/home/ubuntu/conda-build/bin/conda-pipbuild", line 5, in <module>
+    sys.exit(main())
+  File "/home/ubuntu/conda-build/conda_build/main_pipbuild.py", line 80, in main
+    args_func(args, p)
+  File "/home/ubuntu/conda-build/conda_build/main_build.py", line 349, in args_func
+    args.func(args, p)
+  File "/home/ubuntu/conda-build/conda_build/main_pipbuild.py", line 360, in execute
+    build_package(package, version, noarch_python=args.noarch_python)
+  File "/home/ubuntu/conda-build/conda_build/main_pipbuild.py", line 304, in build_package
+    noarch_python=noarch_python)
+  File "/home/ubuntu/conda-build/conda_build/main_pipbuild.py", line 240, in make_recipe
+    depends = get_all_dependencies(package, version)
+  File "/home/ubuntu/conda-build/conda_build/main_pipbuild.py", line 219, in get_all_dependencies
+    output = subprocess.check_output(cmd3args)
+  File "/home/ubuntu/miniconda/lib/python2.7/subprocess.py", line 573, in check_output
+    raise CalledProcessError(retcode, cmd, output=output)
+subprocess.CalledProcessError: Command '['/home/ubuntu/miniconda/envs/_pipbuild_/bin/python', '__tmpfile__.py']' returned non-zero exit status 1

@@ -1,12 +1,16 @@
-There was an error importing jinja2.
-Please run `conda install jinja2` to enable jinja template support
 Removing old build directory
 Removing old work directory
-BUILD START: suds-jurko-0.6-py27_0
+BUILD START: suds-jurko-0.6-py_0
 Fetching package metadata: ......
-Solving package specifications: .There was an error importing jinja2.
-Please run `conda install jinja2` to enable jinja template support
-+ /home/ubuntu/miniconda/envs/_build/bin/python setup.py install
+
+WARNING: conda-build appears to be out of date. You have version 1.13.0 but the
+latest version is 1.14.1. Run
+
+conda update -n root conda-build
+
+to get the latest version.
+
+Solving package specifications: .+ /home/ubuntu/miniconda/envs/_build/bin/python setup.py install
 running install
 running bdist_egg
 running egg_info
@@ -278,9 +282,9 @@ byte-compiling build/bdist.linux-x86_64/egg/suds/cache.py to cache.pyc
 byte-compiling build/bdist.linux-x86_64/egg/suds/client.py to client.pyc
 byte-compiling build/bdist.linux-x86_64/egg/suds/__init__.py to __init__.pyc
 byte-compiling build/bdist.linux-x86_64/egg/suds/wsse.py to wsse.pyc
-writing byte-compilation script '/tmp/tmpR3ZzZu.py'
-/home/ubuntu/miniconda/envs/_build/bin/python -O /tmp/tmpR3ZzZu.py
-removing /tmp/tmpR3ZzZu.py
+writing byte-compilation script '/tmp/tmpOZJTod.py'
+/home/ubuntu/miniconda/envs/_build/bin/python -O /tmp/tmpOZJTod.py
+removing /tmp/tmpOZJTod.py
 creating build/bdist.linux-x86_64/egg/EGG-INFO
 copying suds_jurko.egg-info/PKG-INFO -> build/bdist.linux-x86_64/egg/EGG-INFO
 copying suds_jurko.egg-info/SOURCES.txt -> build/bdist.linux-x86_64/egg/EGG-INFO
@@ -300,15 +304,15 @@ Finished processing dependencies for suds-jurko==0.6
 
 The following NEW packages will be INSTALLED:
 
-    openssl:    1.0.1k-1    
-    pip:        6.1.1-py27_0
-    python:     2.7.9-3     
-    readline:   6.2-2       
-    setuptools: 16.0-py27_0 
-    sqlite:     3.8.4.1-1   
-    system:     5.8-2       
-    tk:         8.5.18-0    
-    zlib:       1.2.8-0     
+    openssl:    1.0.1k-1     
+    pip:        7.0.3-py27_0 
+    python:     2.7.10-0     
+    readline:   6.2-2        
+    setuptools: 18.0.1-py27_0
+    sqlite:     3.8.4.1-1    
+    system:     5.8-2        
+    tk:         8.5.18-0     
+    zlib:       1.2.8-0      
 
 Linking packages ...
 [                    ]|                                                  |   0%[openssl             ]|                                                  |   0%[readline            ]|#####                                             |  11%[sqlite              ]|###########                                       |  22%[system              ]|################                                  |  33%[tk                  ]|######################                            |  44%[zlib                ]|###########################                       |  55%[python              ]|#################################                 |  66%[setuptools          ]|######################################            |  77%[pip                 ]|############################################      |  88%[      COMPLETE      ]|##################################################| 100%
@@ -316,41 +320,51 @@ Removing old work directory
 Source cache directory is: /home/ubuntu/miniconda/conda-bld/src_cache
 Found source in cache: suds-jurko-0.6.tar.bz2
 Extracting download
-Package: suds-jurko-0.6-py27_0
+Package: suds-jurko-0.6-py_0
 source tree in: /home/ubuntu/miniconda/conda-bld/work/suds-jurko-0.6
 found egg: /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/suds_jurko-0.6-py2.7.egg
 number of files: 2
 Fixing permissions
 Fixing permissions
-BUILD END: suds-jurko-0.6-py27_0
-TEST START: suds-jurko-0.6-py27_0
+BUILD END: suds-jurko-0.6-py_0
+TEST START: suds-jurko-0.6-py_0
 Fetching package metadata: ......
+
+WARNING: conda-build appears to be out of date. You have version 1.13.0 but the
+latest version is 1.14.1. Run
+
+conda update -n root conda-build
+
+to get the latest version.
+
 Solving package specifications: .
 The following packages will be downloaded:
 
     package                    |            build
     ---------------------------|-----------------
-    suds-jurko-0.6             |           py27_0         570 KB
+    suds-jurko-0.6             |             py_0         572 KB
 
 The following NEW packages will be INSTALLED:
 
-    openssl:    1.0.1k-1    
-    pip:        6.1.1-py27_0
-    python:     2.7.9-3     
-    readline:   6.2-2       
-    setuptools: 16.0-py27_0 
-    sqlite:     3.8.4.1-1   
-    suds-jurko: 0.6-py27_0  
-    system:     5.8-2       
-    tk:         8.5.18-0    
-    zlib:       1.2.8-0     
+    openssl:    1.0.1k-1     
+    pip:        7.0.3-py27_0 
+    py:         1.4.27-py27_0
+    pytest:     2.7.1-py27_0 
+    python:     2.7.10-0     
+    readline:   6.2-2        
+    setuptools: 18.0.1-py27_0
+    sqlite:     3.8.4.1-1    
+    suds-jurko: 0.6-py_0     
+    system:     5.8-2        
+    tk:         8.5.18-0     
+    zlib:       1.2.8-0      
 
 Fetching packages ...
-suds-jurko-0.6   0% |                              | ETA:  --:--:--   0.00  B/ssuds-jurko-0.6   2% |                               | ETA:  0:00:00  46.28 MB/ssuds-jurko-0.6   5% |#                              | ETA:  0:00:00  57.99 MB/ssuds-jurko-0.6   8% |##                             | ETA:  0:00:00  65.01 MB/ssuds-jurko-0.6  11% |###                            | ETA:  0:00:00  68.91 MB/ssuds-jurko-0.6  14% |####                           | ETA:  0:00:00  72.17 MB/ssuds-jurko-0.6  16% |#####                          | ETA:  0:00:00  70.57 MB/ssuds-jurko-0.6  19% |######                         | ETA:  0:00:00  72.76 MB/ssuds-jurko-0.6  22% |######                         | ETA:  0:00:00  74.63 MB/ssuds-jurko-0.6  25% |#######                        | ETA:  0:00:00  76.24 MB/ssuds-jurko-0.6  28% |########                       | ETA:  0:00:00  77.57 MB/ssuds-jurko-0.6  30% |#########                      | ETA:  0:00:00  78.46 MB/ssuds-jurko-0.6  33% |##########                     | ETA:  0:00:00  79.40 MB/ssuds-jurko-0.6  36% |###########                    | ETA:  0:00:00  80.25 MB/ssuds-jurko-0.6  39% |############                   | ETA:  0:00:00  80.93 MB/ssuds-jurko-0.6  42% |#############                  | ETA:  0:00:00  81.65 MB/ssuds-jurko-0.6  44% |#############                  | ETA:  0:00:00  82.25 MB/ssuds-jurko-0.6  47% |##############                 | ETA:  0:00:00  82.77 MB/ssuds-jurko-0.6  50% |###############                | ETA:  0:00:00  82.70 MB/ssuds-jurko-0.6  53% |################               | ETA:  0:00:00  82.94 MB/ssuds-jurko-0.6  56% |#################              | ETA:  0:00:00  83.38 MB/ssuds-jurko-0.6  58% |##################             | ETA:  0:00:00  83.78 MB/ssuds-jurko-0.6  61% |###################            | ETA:  0:00:00  84.08 MB/ssuds-jurko-0.6  64% |####################           | ETA:  0:00:00  84.45 MB/ssuds-jurko-0.6  67% |####################           | ETA:  0:00:00  23.36 MB/ssuds-jurko-0.6  70% |#####################          | ETA:  0:00:00  24.07 MB/ssuds-jurko-0.6  72% |######################         | ETA:  0:00:00  24.78 MB/ssuds-jurko-0.6  75% |#######################        | ETA:  0:00:00  25.47 MB/ssuds-jurko-0.6  78% |########################       | ETA:  0:00:00  26.14 MB/ssuds-jurko-0.6  81% |#########################      | ETA:  0:00:00  26.80 MB/ssuds-jurko-0.6  84% |##########################     | ETA:  0:00:00  27.44 MB/ssuds-jurko-0.6  86% |##########################     | ETA:  0:00:00  28.08 MB/ssuds-jurko-0.6  89% |###########################    | ETA:  0:00:00  28.71 MB/ssuds-jurko-0.6  92% |############################   | ETA:  0:00:00  29.32 MB/ssuds-jurko-0.6  95% |#############################  | ETA:  0:00:00  29.93 MB/ssuds-jurko-0.6  98% |############################## | ETA:  0:00:00  30.52 MB/ssuds-jurko-0.6 100% |###############################| ETA:  0:00:00  30.80 MB/ssuds-jurko-0.6 100% |###############################| Time: 0:00:00  30.43 MB/s
+suds-jurko-0.6   0% |                              | ETA:  --:--:--   0.00  B/ssuds-jurko-0.6   2% |                               | ETA:  0:00:00  46.43 MB/ssuds-jurko-0.6   5% |#                              | ETA:  0:00:00  55.09 MB/ssuds-jurko-0.6   8% |##                             | ETA:  0:00:00  62.55 MB/ssuds-jurko-0.6  11% |###                            | ETA:  0:00:00  67.16 MB/ssuds-jurko-0.6  13% |####                           | ETA:  0:00:00  70.51 MB/ssuds-jurko-0.6  16% |#####                          | ETA:  0:00:00  72.77 MB/ssuds-jurko-0.6  19% |######                         | ETA:  0:00:00  74.76 MB/ssuds-jurko-0.6  22% |######                         | ETA:  0:00:00  76.39 MB/ssuds-jurko-0.6  25% |#######                        | ETA:  0:00:00  77.61 MB/ssuds-jurko-0.6  27% |########                       | ETA:  0:00:00  78.77 MB/ssuds-jurko-0.6  30% |#########                      | ETA:  0:00:00  79.75 MB/ssuds-jurko-0.6  33% |##########                     | ETA:  0:00:00  80.58 MB/ssuds-jurko-0.6  36% |###########                    | ETA:  0:00:00  81.24 MB/ssuds-jurko-0.6  39% |############                   | ETA:  0:00:00  81.86 MB/ssuds-jurko-0.6  41% |#############                  | ETA:  0:00:00  82.42 MB/ssuds-jurko-0.6  44% |#############                  | ETA:  0:00:00  82.86 MB/ssuds-jurko-0.6  47% |##############                 | ETA:  0:00:00  83.30 MB/ssuds-jurko-0.6  50% |###############                | ETA:  0:00:00  83.69 MB/ssuds-jurko-0.6  53% |################               | ETA:  0:00:00  84.07 MB/ssuds-jurko-0.6  55% |#################              | ETA:  0:00:00  84.30 MB/ssuds-jurko-0.6  58% |##################             | ETA:  0:00:00  21.14 MB/ssuds-jurko-0.6  61% |###################            | ETA:  0:00:00  21.87 MB/ssuds-jurko-0.6  64% |###################            | ETA:  0:00:00  22.62 MB/ssuds-jurko-0.6  67% |####################           | ETA:  0:00:00  23.35 MB/ssuds-jurko-0.6  69% |#####################          | ETA:  0:00:00  24.06 MB/ssuds-jurko-0.6  72% |######################         | ETA:  0:00:00  24.76 MB/ssuds-jurko-0.6  75% |#######################        | ETA:  0:00:00  25.45 MB/ssuds-jurko-0.6  78% |########################       | ETA:  0:00:00  26.12 MB/ssuds-jurko-0.6  81% |#########################      | ETA:  0:00:00  26.78 MB/ssuds-jurko-0.6  83% |##########################     | ETA:  0:00:00  27.43 MB/ssuds-jurko-0.6  86% |##########################     | ETA:  0:00:00  28.06 MB/ssuds-jurko-0.6  89% |###########################    | ETA:  0:00:00  28.68 MB/ssuds-jurko-0.6  92% |############################   | ETA:  0:00:00  29.29 MB/ssuds-jurko-0.6  95% |#############################  | ETA:  0:00:00  29.88 MB/ssuds-jurko-0.6  97% |############################## | ETA:  0:00:00  30.46 MB/ssuds-jurko-0.6 100% |###############################| ETA:  0:00:00  30.82 MB/ssuds-jurko-0.6 100% |###############################| Time: 0:00:00  30.42 MB/s
 Extracting packages ...
 [      COMPLETE      ]|                                                  |   0%[suds-jurko          ]|                                                  |   0%[suds-jurko          ]|                                                  |   0%[      COMPLETE      ]|##################################################| 100%
 Linking packages ...
-[      COMPLETE      ]|                                                  |   0%[openssl             ]|               ===== testing package: suds-jurko-0.6-py27_0 =====
+[      COMPLETE      ]|                         ===== testing package: suds-jurko-0.6-py_0 =====
 import: u'suds'
 import: u'suds.bindings'
 import: u'suds.mx'
@@ -360,12 +374,12 @@ import: u'suds.umx'
 import: u'suds.xsd'
 import: u'tests'
 import: u'tests.external'
-===== suds-jurko-0.6-py27_0 OK =====
-                                   |   0%[openssl             ]|                                                  |   0%[readline            ]|#####                                             |  10%[sqlite              ]|##########                                        |  20%[system              ]|###############                                   |  30%[tk                  ]|####################                              |  40%[zlib                ]|#########################                         |  50%[python              ]|##############################                    |  60%[setuptools          ]|###################################               |  70%[suds-jurko          ]|########################################          |  80%[pip                 ]|#############################################     |  90%[      COMPLETE      ]|##################################################| 100%
-TEST END: suds-jurko-0.6-py27_0
+===== suds-jurko-0.6-py_0 OK =====
+                         |   0%[openssl             ]|                                                  |   0%[openssl             ]|                                                  |   0%[readline            ]|####                                              |   8%[sqlite              ]|########                                          |  16%[system              ]|############                                      |  25%[tk                  ]|################                                  |  33%[zlib                ]|####################                              |  41%[py                  ]|#########################                         |  50%[pytest              ]|#############################                     |  58%[python              ]|#################################                 |  66%[setuptools          ]|#####################################             |  75%[suds-jurko          ]|#########################################         |  83%[pip                 ]|#############################################     |  91%[      COMPLETE      ]|##################################################| 100%
+TEST END: suds-jurko-0.6-py_0
 # If you want to upload this package to binstar.org later, type:
 #
-# $ binstar upload /home/ubuntu/miniconda/conda-bld/linux-64/suds-jurko-0.6-py27_0.tar.bz2
+# $ binstar upload /home/ubuntu/miniconda/conda-bld/noarch/suds-jurko-0.6-py_0.tar.bz2
 #
 # To have conda build upload to binstar automatically, use
 # $ conda config --set binstar_upload yes

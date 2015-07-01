@@ -49,8 +49,8 @@ yaml.scanner.ScannerError: mapping values are not allowed here
   in "<unicode string>", line 19, column 36:
       summary: \nLightweight pipelining: using Python functions as pipe ... 
                                        ^
-Package search: {'_pypi_ordering': False, 'version': '0.8.4', 'name': 'joblib', 'summary': 'Lightweight pipelining: using Python functions as pipeline jobs.'}
-Creating standard recipe for joblib-0.8.4
+Package search: {'_pypi_ordering': False, 'version': '0.9.0b2', 'name': 'joblib', 'summary': 'Lightweight pipelining: using Python functions as pipeline jobs.'}
+Creating standard recipe for joblib-0.9.0b2
 Converting recipe in /home/ubuntu/pypi-conda-builds/joblib
 package = joblib
    dependencies = []

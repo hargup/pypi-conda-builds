@@ -1,0 +1,111 @@
+Warning, the following versions were found for mr.developer
+1.33
+1.32
+1.31
+1.30
+1.29
+1.28
+1.27
+1.26
+1.25
+1.24
+1.23
+1.22
+1.21
+1.20
+1.19
+1.18
+1.17
+1.16
+1.15
+1.14
+1.13
+1.12
+1.11
+1.10
+1.9
+1.8
+1.7
+1.6
+1.5
+1.4
+1.3
+1.2
+1.1
+1.0.1
+1.0
+0.15
+0.14
+0.13
+0.12
+0.11
+0.10
+0.9
+0.8
+0.7
+0.6
+0.5
+0.4
+0.3
+0.2
+0.1
+Using 1.33
+Use --version to specify a different version.
+Using url https://pypi.python.org/packages/source/m/mr.developer/mr.developer-1.33.tar.gz (79 KB) for mr.developer.
+Downloading mr.developer
+Using cached download
+Unpacking mr.developer...
+done
+working in /tmp/tmprH5wTsconda_skeleton_mr.developer-1.33.tar.gz
+Fetching package metadata: ......
+
+WARNING: conda-build appears to be out of date. You have version 1.13.0 but the
+latest version is 1.14.1. Run
+
+conda update -n root conda-build
+
+to get the latest version.
+
+Solving package specifications: .patching file core.py
+Hunk #1 succeeded at 168 with fuzz 2 (offset 2 lines).
+
+The following NEW packages will be INSTALLED:
+
+    numpy:  1.9.2-py27_0
+    pyyaml: 3.11-py27_1 
+    yaml:   0.1.6-0     
+
+Linking packages ...
+[                    ]|                                                  |   0%[yaml                ]|                                                  |   0%[numpy               ]|################                                  |  33%[pyyaml              ]|#################################                 |  66%[      COMPLETE      ]|##################################################| 100%
+Applying patch: '/tmp/tmprH5wTsconda_skeleton_mr.developer-1.33.tar.gz/pypi-distutils.patch'
+WARNING: Could not add entry points. They were:
+
+      [console_scripts]
+      develop = mr.developer.develop:develop
+      [zc.buildout.extension]
+      default = mr.developer.extension:extension
+      [mr.developer.workingcopytypes]
+      svn = mr.developer.svn:SVNWorkingCopy
+      git = mr.developer.git:GitWorkingCopy
+      gitsvn = mr.developer.gitsvn:GitSVNWorkingCopy
+      hg = mr.developer.mercurial:MercurialWorkingCopy
+      bzr = mr.developer.bazaar:BazaarWorkingCopy
+      fs = mr.developer.filesystem:FilesystemWorkingCopy
+      cvs = mr.developer.cvs:CVSWorkingCopy
+      darcs = mr.developer.darcs:DarcsWorkingCopy
+      [mr.developer.commands]
+      activate = mr.developer.commands:CmdActivate
+      arguments = mr.developer.commands:CmdArguments
+      checkout = mr.developer.commands:CmdCheckout
+      deactivate = mr.developer.commands:CmdDeactivate
+      help = mr.developer.commands:CmdHelp
+      info = mr.developer.commands:CmdInfo
+      list = mr.developer.commands:CmdList
+      pony = mr.developer.commands:CmdPony
+      purge = mr.developer.commands:CmdPurge
+      rebuild = mr.developer.commands:CmdRebuild
+      reset = mr.developer.commands:CmdReset
+      status = mr.developer.commands:CmdStatus
+      update = mr.developer.commands:CmdUpdate
+      
+Error: Could not find any versions of package mr.developer.addon

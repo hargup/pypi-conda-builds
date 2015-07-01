@@ -47,25 +47,24 @@ Warning, the following versions were found for rpy2
 Using 2.6.0
 Use --version to specify a different version.
 Using url https://pypi.python.org/packages/source/r/rpy2/rpy2-2.6.0.tar.gz (167 KB) for rpy2.
-Downloading rpy2 (use --no-download to skip this step)
+Downloading rpy2
+Using cached download
 Unpacking rpy2...
 done
-working in /tmp/tmpkWFWMNconda_skeleton_rpy2-2.6.0.tar.gz
+working in /tmp/tmpbYEySAconda_skeleton_rpy2-2.6.0.tar.gz
 Fetching package metadata: ......
+
+WARNING: conda-build appears to be out of date. You have version 1.13.0 but the
+latest version is 1.14.1. Run
+
+conda update -n root conda-build
+
+to get the latest version.
+
 Solving package specifications: .patching file core.py
 Hunk #1 succeeded at 168 with fuzz 2 (offset 2 lines).
-Traceback (most recent call last):
-  File "setup.py", line 6, in <module>
-    from setuptools import setup, Extension
-ImportError: No module named setuptools
+Error: Tried to guess R's HOME but no command (R) in the PATH.
 
-The following NEW packages will be INSTALLED:
-
-    numpy:  1.9.2-py27_0
-    pyyaml: 3.11-py27_0 
-
-Linking packages ...
-[                    ]|                                                  |   0%[numpy               ]|                                                  |   0%[pyyaml              ]|#########################                         |  50%[      COMPLETE      ]|##################################################| 100%
-Applying patch: '/tmp/tmpkWFWMNconda_skeleton_rpy2-2.6.0.tar.gz/pypi-distutils.patch'
-$PYTHONPATH = /tmp/tmpkWFWMNconda_skeleton_rpy2-2.6.0.tar.gz/rpy2-2.6.0
+Applying patch: '/tmp/tmpbYEySAconda_skeleton_rpy2-2.6.0.tar.gz/pypi-distutils.patch'
+$PYTHONPATH = /tmp/tmpbYEySAconda_skeleton_rpy2-2.6.0.tar.gz/rpy2-2.6.0
 Error: command failed: /home/ubuntu/miniconda/envs/_build/bin/python setup.py install

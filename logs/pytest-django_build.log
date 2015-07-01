@@ -2,6 +2,14 @@ Removing old build directory
 Removing old work directory
 BUILD START: pytest-django-2.8.0-py_0
 Fetching package metadata: ......
+
+WARNING: conda-build appears to be out of date. You have version 1.13.0 but the
+latest version is 1.14.1. Run
+
+conda update -n root conda-build
+
+to get the latest version.
+
 Solving package specifications: .+ /home/ubuntu/miniconda/envs/_build/bin/python setup.py install
 running install
 running bdist_egg
@@ -92,7 +100,7 @@ The following NEW packages will be INSTALLED:
     pytest:     2.7.1-py27_0 
     python:     2.7.10-0     
     readline:   6.2-2        
-    setuptools: 17.0-py27_0  
+    setuptools: 18.0.1-py27_0
     sqlite:     3.8.4.1-1    
     system:     5.8-2        
     tk:         8.5.18-0     
@@ -113,6 +121,14 @@ Fixing permissions
 BUILD END: pytest-django-2.8.0-py_0
 TEST START: pytest-django-2.8.0-py_0
 Fetching package metadata: ......
+
+WARNING: conda-build appears to be out of date. You have version 1.13.0 but the
+latest version is 1.14.1. Run
+
+conda update -n root conda-build
+
+to get the latest version.
+
 Solving package specifications: .===== testing package: pytest-django-2.8.0-py_0 =====
 import: u'pytest_django'
 ===== pytest-django-2.8.0-py_0 OK =====
@@ -132,14 +148,14 @@ The following NEW packages will be INSTALLED:
     pytest-django: 2.8.0-py_0   
     python:        2.7.10-0     
     readline:      6.2-2        
-    setuptools:    17.0-py27_0  
+    setuptools:    18.0.1-py27_0
     sqlite:        3.8.4.1-1    
     system:        5.8-2        
     tk:            8.5.18-0     
     zlib:          1.2.8-0      
 
 Fetching packages ...
-pytest-django-   0% |                              | ETA:  --:--:--   0.00  B/spytest-django-  14% |####                           | ETA:  0:00:00  47.07 MB/spytest-django-  28% |########                       | ETA:  0:00:00  58.94 MB/spytest-django-  42% |#############                  | ETA:  0:00:00  65.89 MB/spytest-django-  56% |#################              | ETA:  0:00:00  70.09 MB/spytest-django-  71% |######################         | ETA:  0:00:00  72.81 MB/spytest-django-  85% |##########################     | ETA:  0:00:00  74.75 MB/spytest-django-  99% |############################## | ETA:  0:00:00  76.45 MB/spytest-django- 100% |###############################| Time: 0:00:00  65.72 MB/s
+pytest-django-   0% |                              | ETA:  --:--:--   0.00  B/spytest-django-  14% |####                           | ETA:  0:00:00  48.33 MB/spytest-django-  28% |########                       | ETA:  0:00:00  59.57 MB/spytest-django-  42% |#############                  | ETA:  0:00:00  66.42 MB/spytest-django-  56% |#################              | ETA:  0:00:00  70.77 MB/spytest-django-  71% |######################         | ETA:  0:00:00  73.54 MB/spytest-django-  85% |##########################     | ETA:  0:00:00  74.20 MB/spytest-django-  99% |############################## | ETA:  0:00:00  75.80 MB/spytest-django- 100% |###############################| Time: 0:00:00  64.41 MB/s
 Extracting packages ...
 [      COMPLETE      ]|                                                  |   0%[pytest-django       ]|                                                  |   0%[pytest-django       ]|                                                  |   0%[      COMPLETE      ]|##################################################| 100%
 Linking packages ...

@@ -1,0 +1,147 @@
+Removing old build directory
+Removing old work directory
+BUILD START: pyfits-3.3-py_0
+Fetching package metadata: ......
+
+WARNING: conda-build appears to be out of date. You have version 1.13.0 but the
+latest version is 1.14.1. Run
+
+conda update -n root conda-build
+
+to get the latest version.
+
+Solving package specifications: .+ /home/ubuntu/miniconda/envs/_build/bin/python setup.py install
+
+Installed /tmp/easy_install-blnByb/stsci.distutils-0.3.7/.eggs/d2to1-0.2.11-py2.7.egg
+
+Installed /home/ubuntu/miniconda/conda-bld/work/pyfits-3.3/.eggs/stsci.distutils-0.3.7-py2.7.egg
+Searching for d2to1>=0.2.5
+Reading https://pypi.python.org/simple/d2to1/
+Best match: d2to1 0.2.11
+Downloading https://pypi.python.org/packages/source/d/d2to1/d2to1-0.2.11.tar.gz#md5=81addef3dde584ab89b35ada8177c0d0
+Processing d2to1-0.2.11.tar.gz
+Writing /tmp/easy_install-NQ6CtO/d2to1-0.2.11/setup.cfg
+Running d2to1-0.2.11/setup.py -q bdist_egg --dist-dir /tmp/easy_install-NQ6CtO/d2to1-0.2.11/egg-dist-tmp-Nfw6HR
+creating /home/ubuntu/miniconda/conda-bld/work/pyfits-3.3/.eggs/d2to1-0.2.11-py2.7.egg
+Extracting d2to1-0.2.11-py2.7.egg to /home/ubuntu/miniconda/conda-bld/work/pyfits-3.3/.eggs
+
+Installed /home/ubuntu/miniconda/conda-bld/work/pyfits-3.3/.eggs/d2to1-0.2.11-py2.7.egg
+running install
+running bdist_egg
+running egg_info
+writing requirements to lib/pyfits.egg-info/requires.txt
+writing lib/pyfits.egg-info/PKG-INFO
+writing top-level names to lib/pyfits.egg-info/top_level.txt
+writing dependency_links to lib/pyfits.egg-info/dependency_links.txt
+writing entry points to lib/pyfits.egg-info/entry_points.txt
+reading manifest file 'lib/pyfits.egg-info/SOURCES.txt'
+reading manifest template 'MANIFEST.in'
+warning: no files found matching 'distribute_setup.py'
+warning: no previously-included files found matching '*.pyc'
+no previously-included directories found matching 'docs/build'
+writing manifest file 'lib/pyfits.egg-info/SOURCES.txt'
+installing library code to build/bdist.linux-x86_64/egg
+running install_lib
+running build_py
+creating build
+creating build/lib.linux-x86_64-2.7
+creating build/lib.linux-x86_64-2.7/pyfits
+copying lib/pyfits/card.py -> build/lib.linux-x86_64-2.7/pyfits
+copying lib/pyfits/py3compat.py -> build/lib.linux-x86_64-2.7/pyfits
+copying lib/pyfits/diff.py -> build/lib.linux-x86_64-2.7/pyfits
+copying lib/pyfits/column.py -> build/lib.linux-x86_64-2.7/pyfits
+copying lib/pyfits/version.py -> build/lib.linux-x86_64-2.7/pyfits
+copying lib/pyfits/_release.py -> build/lib.linux-x86_64-2.7/pyfits
+copying lib/pyfits/fitsrec.py -> build/lib.linux-x86_64-2.7/pyfits
+copying lib/pyfits/verify.py -> build/lib.linux-x86_64-2.7/pyfits
+copying lib/pyfits/file.py -> build/lib.linux-x86_64-2.7/pyfits
+copying lib/pyfits/util.py -> build/lib.linux-x86_64-2.7/pyfits
+copying lib/pyfits/convenience.py -> build/lib.linux-x86_64-2.7/pyfits
+copying lib/pyfits/__init__.py -> build/lib.linux-x86_64-2.7/pyfits
+copying lib/pyfits/core.py -> build/lib.linux-x86_64-2.7/pyfits
+copying lib/pyfits/header.py -> build/lib.linux-x86_64-2.7/pyfits
+creating build/lib.linux-x86_64-2.7/pyfits/extern
+copying lib/pyfits/extern/six.py -> build/lib.linux-x86_64-2.7/pyfits/extern
+copying lib/pyfits/extern/__init__.py -> build/lib.linux-x86_64-2.7/pyfits/extern
+creating build/lib.linux-x86_64-2.7/pyfits/hdu
+copying lib/pyfits/hdu/table.py -> build/lib.linux-x86_64-2.7/pyfits/hdu
+copying lib/pyfits/hdu/streaming.py -> build/lib.linux-x86_64-2.7/pyfits/hdu
+copying lib/pyfits/hdu/hdulist.py -> build/lib.linux-x86_64-2.7/pyfits/hdu
+copying lib/pyfits/hdu/__init__.py -> build/lib.linux-x86_64-2.7/pyfits/hdu
+copying lib/pyfits/hdu/compressed.py -> build/lib.linux-x86_64-2.7/pyfits/hdu
+copying lib/pyfits/hdu/groups.py -> build/lib.linux-x86_64-2.7/pyfits/hdu
+copying lib/pyfits/hdu/image.py -> build/lib.linux-x86_64-2.7/pyfits/hdu
+copying lib/pyfits/hdu/nonstandard.py -> build/lib.linux-x86_64-2.7/pyfits/hdu
+copying lib/pyfits/hdu/base.py -> build/lib.linux-x86_64-2.7/pyfits/hdu
+creating build/lib.linux-x86_64-2.7/pyfits/scripts
+copying lib/pyfits/scripts/fitscheck.py -> build/lib.linux-x86_64-2.7/pyfits/scripts
+copying lib/pyfits/scripts/__init__.py -> build/lib.linux-x86_64-2.7/pyfits/scripts
+copying lib/pyfits/scripts/fitsdiff.py -> build/lib.linux-x86_64-2.7/pyfits/scripts
+creating build/lib.linux-x86_64-2.7/pyfits/tests
+copying lib/pyfits/tests/test_groups.py -> build/lib.linux-x86_64-2.7/pyfits/tests
+copying lib/pyfits/tests/test_checksum.py -> build/lib.linux-x86_64-2.7/pyfits/tests
+copying lib/pyfits/tests/test_nonstandard.py -> build/lib.linux-x86_64-2.7/pyfits/tests
+copying lib/pyfits/tests/test_header.py -> build/lib.linux-x86_64-2.7/pyfits/tests
+copying lib/pyfits/tests/util.py -> build/lib.linux-x86_64-2.7/pyfits/tests
+copying lib/pyfits/tests/test_util.py -> build/lib.linux-x86_64-2.7/pyfits/tests
+copying lib/pyfits/tests/test_table.py -> build/lib.linux-x86_64-2.7/pyfits/tests
+copying lib/pyfits/tests/test_structured.py -> build/lib.linux-x86_64-2.7/pyfits/tests
+copying lib/pyfits/tests/test_image.py -> build/lib.linux-x86_64-2.7/pyfits/tests
+copying lib/pyfits/tests/test_hdulist.py -> build/lib.linux-x86_64-2.7/pyfits/tests
+copying lib/pyfits/tests/__init__.py -> build/lib.linux-x86_64-2.7/pyfits/tests
+copying lib/pyfits/tests/test_diff.py -> build/lib.linux-x86_64-2.7/pyfits/tests
+copying lib/pyfits/tests/test_uint.py -> build/lib.linux-x86_64-2.7/pyfits/tests
+copying lib/pyfits/tests/test_division.py -> build/lib.linux-x86_64-2.7/pyfits/tests
+copying lib/pyfits/tests/test_core.py -> build/lib.linux-x86_64-2.7/pyfits/tests
+creating build/lib.linux-x86_64-2.7/pyfits/tests/data
+copying lib/pyfits/tests/data/test0.fits -> build/lib.linux-x86_64-2.7/pyfits/tests/data
+copying lib/pyfits/tests/data/checksum.fits -> build/lib.linux-x86_64-2.7/pyfits/tests/data
+copying lib/pyfits/tests/data/stddata.fits -> build/lib.linux-x86_64-2.7/pyfits/tests/data
+copying lib/pyfits/tests/data/arange.fits -> build/lib.linux-x86_64-2.7/pyfits/tests/data
+copying lib/pyfits/tests/data/o4sp040b0_raw.fits -> build/lib.linux-x86_64-2.7/pyfits/tests/data
+copying lib/pyfits/tests/data/comp.fits -> build/lib.linux-x86_64-2.7/pyfits/tests/data
+copying lib/pyfits/tests/data/fixed-1890.fits -> build/lib.linux-x86_64-2.7/pyfits/tests/data
+copying lib/pyfits/tests/data/zerowidth.fits -> build/lib.linux-x86_64-2.7/pyfits/tests/data
+copying lib/pyfits/tests/data/random_groups.fits -> build/lib.linux-x86_64-2.7/pyfits/tests/data
+copying lib/pyfits/tests/data/tb.fits -> build/lib.linux-x86_64-2.7/pyfits/tests/data
+copying lib/pyfits/tests/data/scale.fits -> build/lib.linux-x86_64-2.7/pyfits/tests/data
+copying lib/pyfits/tests/data/ascii.fits -> build/lib.linux-x86_64-2.7/pyfits/tests/data
+copying lib/pyfits/tests/data/table.fits -> build/lib.linux-x86_64-2.7/pyfits/tests/data
+running build_ext
+running pre_hook stsci.distutils.hooks.numpy_extension_hook for command build_ext
+
+
+Numpy is required to build this package.
+Please install Numpy on your system first.
+
+hook stsci.distutils.hooks.numpy_extension_hook raised exception: 1
+
+Traceback (most recent call last):
+  File "/home/ubuntu/miniconda/conda-bld/work/pyfits-3.3/.eggs/d2to1-0.2.11-py2.7.egg/d2to1/util.py", line 504, in run_command_hooks
+    hook_obj(cmd_obj)
+  File "/home/ubuntu/miniconda/conda-bld/work/pyfits-3.3/.eggs/stsci.distutils-0.3.7-py2.7.egg/stsci/distutils/hooks.py", line 413, in numpy_extension_hook
+    sys.exit(1)
+SystemExit: 1
+
+
+The following NEW packages will be INSTALLED:
+
+    openssl:    1.0.1k-1     
+    pip:        7.0.3-py27_0 
+    python:     2.7.10-0     
+    readline:   6.2-2        
+    setuptools: 18.0.1-py27_0
+    sqlite:     3.8.4.1-1    
+    system:     5.8-2        
+    tk:         8.5.18-0     
+    zlib:       1.2.8-0      
+
+Linking packages ...
+[                    ]|                                                  |   0%[openssl             ]|                                                  |   0%[readline            ]|#####                                             |  11%[sqlite              ]|###########                                       |  22%[system              ]|################                                  |  33%[tk                  ]|######################                            |  44%[zlib                ]|###########################                       |  55%[python              ]|#################################                 |  66%[setuptools          ]|######################################            |  77%[pip                 ]|############################################      |  88%[      COMPLETE      ]|##################################################| 100%
+Removing old work directory
+Source cache directory is: /home/ubuntu/miniconda/conda-bld/src_cache
+Found source in cache: pyfits-3.3.tar.gz
+Extracting download
+Package: pyfits-3.3-py_0
+source tree in: /home/ubuntu/miniconda/conda-bld/work/pyfits-3.3
+Command failed: /bin/bash -x -e /home/ubuntu/pypi-conda-builds/recipes/pyfits/build.sh

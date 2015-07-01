@@ -2,6 +2,14 @@ Removing old build directory
 Removing old work directory
 BUILD START: pytest-xdist-1.12-py_0
 Fetching package metadata: ......
+
+WARNING: conda-build appears to be out of date. You have version 1.13.0 but the
+latest version is 1.14.1. Run
+
+conda update -n root conda-build
+
+to get the latest version.
+
 Solving package specifications: .+ /home/ubuntu/miniconda/envs/_build/bin/python setup.py install
 running install
 running bdist_egg
@@ -91,7 +99,7 @@ The following NEW packages will be INSTALLED:
     pytest:     2.7.1-py27_0 
     python:     2.7.10-0     
     readline:   6.2-2        
-    setuptools: 17.0-py27_0  
+    setuptools: 18.0.1-py27_0
     sqlite:     3.8.4.1-1    
     system:     5.8-2        
     tk:         8.5.18-0     
@@ -111,6 +119,14 @@ Fixing permissions
 BUILD END: pytest-xdist-1.12-py_0
 TEST START: pytest-xdist-1.12-py_0
 Fetching package metadata: ......
+
+WARNING: conda-build appears to be out of date. You have version 1.13.0 but the
+latest version is 1.14.1. Run
+
+conda update -n root conda-build
+
+to get the latest version.
+
 Solving package specifications: .===== testing package: pytest-xdist-1.12-py_0 =====
 import: u'xdist'
 ===== pytest-xdist-1.12-py_0 OK =====
@@ -119,7 +135,7 @@ The following packages will be downloaded:
 
     package                    |            build
     ---------------------------|-----------------
-    pytest-xdist-1.12          |             py_0          92 KB
+    pytest-xdist-1.12          |             py_0          93 KB
 
 The following NEW packages will be INSTALLED:
 
@@ -131,14 +147,14 @@ The following NEW packages will be INSTALLED:
     pytest-xdist: 1.12-py_0    
     python:       2.7.10-0     
     readline:     6.2-2        
-    setuptools:   17.0-py27_0  
+    setuptools:   18.0.1-py27_0
     sqlite:       3.8.4.1-1    
     system:       5.8-2        
     tk:           8.5.18-0     
     zlib:         1.2.8-0      
 
 Fetching packages ...
-pytest-xdist-1   0% |                              | ETA:  --:--:--   0.00  B/spytest-xdist-1  17% |#####                          | ETA:  0:00:00  46.81 MB/spytest-xdist-1  34% |##########                     | ETA:  0:00:00  58.63 MB/spytest-xdist-1  51% |################               | ETA:  0:00:00  65.55 MB/spytest-xdist-1  69% |#####################          | ETA:  0:00:00  69.87 MB/spytest-xdist-1  86% |##########################     | ETA:  0:00:00  72.57 MB/spytest-xdist-1 100% |###############################| ETA:  0:00:00  72.19 MB/spytest-xdist-1 100% |###############################| Time: 0:00:00  62.26 MB/s
+pytest-xdist-1   0% |                              | ETA:  --:--:--   0.00  B/spytest-xdist-1  17% |#####                          | ETA:  0:00:00  46.28 MB/spytest-xdist-1  34% |##########                     | ETA:  0:00:00  58.29 MB/spytest-xdist-1  51% |################               | ETA:  0:00:00  64.91 MB/spytest-xdist-1  69% |#####################          | ETA:  0:00:00  68.84 MB/spytest-xdist-1  86% |##########################     | ETA:  0:00:00  71.85 MB/spytest-xdist-1 100% |###############################| ETA:  0:00:00  71.83 MB/spytest-xdist-1 100% |###############################| Time: 0:00:00  61.85 MB/s
 Extracting packages ...
 [      COMPLETE      ]|                                                  |   0%[pytest-xdist        ]|                                                  |   0%[pytest-xdist        ]|                                                  |   0%[      COMPLETE      ]|##################################################| 100%
 Linking packages ...

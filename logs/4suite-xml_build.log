@@ -1,0 +1,889 @@
+Removing old build directory
+Removing old work directory
+BUILD START: 4suite-xml-1.0.2-py_0
+Fetching package metadata: ......
+
+WARNING: conda-build appears to be out of date. You have version 1.13.0 but the
+latest version is 1.14.1. Run
+
+conda update -n root conda-build
+
+to get the latest version.
+
+Solving package specifications: .+ /home/ubuntu/miniconda/envs/_build/bin/python setup.py install
+running install
+running build
+running config
+running build_py
+creating build
+creating build/lib.linux-x86_64-2.7
+creating build/lib.linux-x86_64-2.7/Ft
+copying Ft/__init__.py -> build/lib.linux-x86_64-2.7/Ft
+creating build/lib.linux-x86_64-2.7/Ft/Lib
+copying Ft/Lib/Resolvers.py -> build/lib.linux-x86_64-2.7/Ft/Lib
+copying Ft/Lib/ObjectPrint.py -> build/lib.linux-x86_64-2.7/Ft/Lib
+copying Ft/Lib/ImportUtil.py -> build/lib.linux-x86_64-2.7/Ft/Lib
+copying Ft/Lib/DbUtil.py -> build/lib.linux-x86_64-2.7/Ft/Lib
+copying Ft/Lib/MessageSource.py -> build/lib.linux-x86_64-2.7/Ft/Lib
+copying Ft/Lib/Regex.py -> build/lib.linux-x86_64-2.7/Ft/Lib
+copying Ft/Lib/Time.py -> build/lib.linux-x86_64-2.7/Ft/Lib
+copying Ft/Lib/Terminfo.py -> build/lib.linux-x86_64-2.7/Ft/Lib
+copying Ft/Lib/Terminal.py -> build/lib.linux-x86_64-2.7/Ft/Lib
+copying Ft/Lib/__init__.py -> build/lib.linux-x86_64-2.7/Ft/Lib
+copying Ft/Lib/Iri.py -> build/lib.linux-x86_64-2.7/Ft/Lib
+copying Ft/Lib/Gettext.py -> build/lib.linux-x86_64-2.7/Ft/Lib
+copying Ft/Lib/Uri.py -> build/lib.linux-x86_64-2.7/Ft/Lib
+copying Ft/Lib/ProgressIndicator.py -> build/lib.linux-x86_64-2.7/Ft/Lib
+copying Ft/Lib/Uuid.py -> build/lib.linux-x86_64-2.7/Ft/Lib
+copying Ft/Lib/Random.py -> build/lib.linux-x86_64-2.7/Ft/Lib
+creating build/lib.linux-x86_64-2.7/Ft/Lib/CommandLine
+copying Ft/Lib/CommandLine/CommandLineUtil.py -> build/lib.linux-x86_64-2.7/Ft/Lib/CommandLine
+copying Ft/Lib/CommandLine/Options.py -> build/lib.linux-x86_64-2.7/Ft/Lib/CommandLine
+copying Ft/Lib/CommandLine/FancyGetOpt.py -> build/lib.linux-x86_64-2.7/Ft/Lib/CommandLine
+copying Ft/Lib/CommandLine/Command.py -> build/lib.linux-x86_64-2.7/Ft/Lib/CommandLine
+copying Ft/Lib/CommandLine/CommandLineApp.py -> build/lib.linux-x86_64-2.7/Ft/Lib/CommandLine
+copying Ft/Lib/CommandLine/__init__.py -> build/lib.linux-x86_64-2.7/Ft/Lib/CommandLine
+copying Ft/Lib/CommandLine/Arguments.py -> build/lib.linux-x86_64-2.7/Ft/Lib/CommandLine
+copying Ft/Lib/CommandLine/CommandLineTestUtil.py -> build/lib.linux-x86_64-2.7/Ft/Lib/CommandLine
+creating build/lib.linux-x86_64-2.7/Ft/Lib/DistExt
+copying Ft/Lib/DistExt/BuildScripts.py -> build/lib.linux-x86_64-2.7/Ft/Lib/DistExt
+copying Ft/Lib/DistExt/Config.py -> build/lib.linux-x86_64-2.7/Ft/Lib/DistExt
+copying Ft/Lib/DistExt/InstallSysconf.py -> build/lib.linux-x86_64-2.7/Ft/Lib/DistExt
+copying Ft/Lib/DistExt/InstallLib.py -> build/lib.linux-x86_64-2.7/Ft/Lib/DistExt
+copying Ft/Lib/DistExt/InstallEggInfo.py -> build/lib.linux-x86_64-2.7/Ft/Lib/DistExt
+copying Ft/Lib/DistExt/InstallDevel.py -> build/lib.linux-x86_64-2.7/Ft/Lib/DistExt
+copying Ft/Lib/DistExt/InstallText.py -> build/lib.linux-x86_64-2.7/Ft/Lib/DistExt
+copying Ft/Lib/DistExt/SDist.py -> build/lib.linux-x86_64-2.7/Ft/Lib/DistExt
+copying Ft/Lib/DistExt/InstallScripts.py -> build/lib.linux-x86_64-2.7/Ft/Lib/DistExt
+copying Ft/Lib/DistExt/Build.py -> build/lib.linux-x86_64-2.7/Ft/Lib/DistExt
+copying Ft/Lib/DistExt/GenerateBisonGen.py -> build/lib.linux-x86_64-2.7/Ft/Lib/DistExt
+copying Ft/Lib/DistExt/BuildPy.py -> build/lib.linux-x86_64-2.7/Ft/Lib/DistExt
+copying Ft/Lib/DistExt/Version.py -> build/lib.linux-x86_64-2.7/Ft/Lib/DistExt
+copying Ft/Lib/DistExt/BuildExt.py -> build/lib.linux-x86_64-2.7/Ft/Lib/DistExt
+copying Ft/Lib/DistExt/BuildDocs.py -> build/lib.linux-x86_64-2.7/Ft/Lib/DistExt
+copying Ft/Lib/DistExt/InstallLocalState.py -> build/lib.linux-x86_64-2.7/Ft/Lib/DistExt
+copying Ft/Lib/DistExt/Generate.py -> build/lib.linux-x86_64-2.7/Ft/Lib/DistExt
+copying Ft/Lib/DistExt/Py2Exe.py -> build/lib.linux-x86_64-2.7/Ft/Lib/DistExt
+copying Ft/Lib/DistExt/InstallDocs.py -> build/lib.linux-x86_64-2.7/Ft/Lib/DistExt
+copying Ft/Lib/DistExt/GenerateL10n.py -> build/lib.linux-x86_64-2.7/Ft/Lib/DistExt
+copying Ft/Lib/DistExt/ImageHlp.py -> build/lib.linux-x86_64-2.7/Ft/Lib/DistExt
+copying Ft/Lib/DistExt/BDistInno.py -> build/lib.linux-x86_64-2.7/Ft/Lib/DistExt
+copying Ft/Lib/DistExt/Structures.py -> build/lib.linux-x86_64-2.7/Ft/Lib/DistExt
+copying Ft/Lib/DistExt/InstallHtml.py -> build/lib.linux-x86_64-2.7/Ft/Lib/DistExt
+copying Ft/Lib/DistExt/Dist.py -> build/lib.linux-x86_64-2.7/Ft/Lib/DistExt
+copying Ft/Lib/DistExt/__init__.py -> build/lib.linux-x86_64-2.7/Ft/Lib/DistExt
+copying Ft/Lib/DistExt/Uninstall.py -> build/lib.linux-x86_64-2.7/Ft/Lib/DistExt
+copying Ft/Lib/DistExt/PackageManager.py -> build/lib.linux-x86_64-2.7/Ft/Lib/DistExt
+copying Ft/Lib/DistExt/InstallData.py -> build/lib.linux-x86_64-2.7/Ft/Lib/DistExt
+copying Ft/Lib/DistExt/InstallConfig.py -> build/lib.linux-x86_64-2.7/Ft/Lib/DistExt
+copying Ft/Lib/DistExt/BDistRpm.py -> build/lib.linux-x86_64-2.7/Ft/Lib/DistExt
+copying Ft/Lib/DistExt/ModuleFinder.py -> build/lib.linux-x86_64-2.7/Ft/Lib/DistExt
+copying Ft/Lib/DistExt/BDist.py -> build/lib.linux-x86_64-2.7/Ft/Lib/DistExt
+copying Ft/Lib/DistExt/Install.py -> build/lib.linux-x86_64-2.7/Ft/Lib/DistExt
+copying Ft/Lib/DistExt/BDistEgg.py -> build/lib.linux-x86_64-2.7/Ft/Lib/DistExt
+copying Ft/Lib/DistExt/InstallL10n.py -> build/lib.linux-x86_64-2.7/Ft/Lib/DistExt
+copying Ft/Lib/DistExt/Util.py -> build/lib.linux-x86_64-2.7/Ft/Lib/DistExt
+copying Ft/Lib/DistExt/InstallMisc.py -> build/lib.linux-x86_64-2.7/Ft/Lib/DistExt
+copying Ft/Lib/DistExt/BuildL10n.py -> build/lib.linux-x86_64-2.7/Ft/Lib/DistExt
+creating build/lib.linux-x86_64-2.7/Ft/Lib/DistExt/Formatters
+copying Ft/Lib/DistExt/Formatters/ExtensionFormatter.py -> build/lib.linux-x86_64-2.7/Ft/Lib/DistExt/Formatters
+copying Ft/Lib/DistExt/Formatters/CommandLineFormatter.py -> build/lib.linux-x86_64-2.7/Ft/Lib/DistExt/Formatters
+copying Ft/Lib/DistExt/Formatters/__init__.py -> build/lib.linux-x86_64-2.7/Ft/Lib/DistExt/Formatters
+copying Ft/Lib/DistExt/Formatters/XmlFormatter.py -> build/lib.linux-x86_64-2.7/Ft/Lib/DistExt/Formatters
+copying Ft/Lib/DistExt/Formatters/ApiFormatter.py -> build/lib.linux-x86_64-2.7/Ft/Lib/DistExt/Formatters
+creating build/lib.linux-x86_64-2.7/Ft/Lib/TestSuite
+copying Ft/Lib/TestSuite/TestLoader.py -> build/lib.linux-x86_64-2.7/Ft/Lib/TestSuite
+copying Ft/Lib/TestSuite/TestCoverage.py -> build/lib.linux-x86_64-2.7/Ft/Lib/TestSuite
+copying Ft/Lib/TestSuite/Errors.py -> build/lib.linux-x86_64-2.7/Ft/Lib/TestSuite
+copying Ft/Lib/TestSuite/Tester.py -> build/lib.linux-x86_64-2.7/Ft/Lib/TestSuite
+copying Ft/Lib/TestSuite/TestObject.py -> build/lib.linux-x86_64-2.7/Ft/Lib/TestSuite
+copying Ft/Lib/TestSuite/TestMode.py -> build/lib.linux-x86_64-2.7/Ft/Lib/TestSuite
+copying Ft/Lib/TestSuite/__init__.py -> build/lib.linux-x86_64-2.7/Ft/Lib/TestSuite
+copying Ft/Lib/TestSuite/TestSuite.py -> build/lib.linux-x86_64-2.7/Ft/Lib/TestSuite
+copying Ft/Lib/TestSuite/TestModule.py -> build/lib.linux-x86_64-2.7/Ft/Lib/TestSuite
+copying Ft/Lib/TestSuite/TestFunction.py -> build/lib.linux-x86_64-2.7/Ft/Lib/TestSuite
+creating build/lib.linux-x86_64-2.7/Ft/Xml
+copying Ft/Xml/Domlette.py -> build/lib.linux-x86_64-2.7/Ft/Xml
+copying Ft/Xml/Xvif.py -> build/lib.linux-x86_64-2.7/Ft/Xml
+copying Ft/Xml/_4xml.py -> build/lib.linux-x86_64-2.7/Ft/Xml
+copying Ft/Xml/Sax.py -> build/lib.linux-x86_64-2.7/Ft/Xml
+copying Ft/Xml/MessageSource.py -> build/lib.linux-x86_64-2.7/Ft/Xml
+copying Ft/Xml/Catalog.py -> build/lib.linux-x86_64-2.7/Ft/Xml
+copying Ft/Xml/cDomlette.py -> build/lib.linux-x86_64-2.7/Ft/Xml
+copying Ft/Xml/XInclude.py -> build/lib.linux-x86_64-2.7/Ft/Xml
+copying Ft/Xml/__init__.py -> build/lib.linux-x86_64-2.7/Ft/Xml
+copying Ft/Xml/InputSource.py -> build/lib.linux-x86_64-2.7/Ft/Xml
+copying Ft/Xml/MarkupWriter.py -> build/lib.linux-x86_64-2.7/Ft/Xml
+copying Ft/Xml/XUpdate.py -> build/lib.linux-x86_64-2.7/Ft/Xml
+creating build/lib.linux-x86_64-2.7/Ft/Xml/Lib
+copying Ft/Xml/Lib/HtmlPrinter.py -> build/lib.linux-x86_64-2.7/Ft/Xml/Lib
+copying Ft/Xml/Lib/StripElements.py -> build/lib.linux-x86_64-2.7/Ft/Xml/Lib
+copying Ft/Xml/Lib/HtmlPrettyPrinter.py -> build/lib.linux-x86_64-2.7/Ft/Xml/Lib
+copying Ft/Xml/Lib/XmlPrettyPrinter.py -> build/lib.linux-x86_64-2.7/Ft/Xml/Lib
+copying Ft/Xml/Lib/TreeCompare.py -> build/lib.linux-x86_64-2.7/Ft/Xml/Lib
+copying Ft/Xml/Lib/Print.py -> build/lib.linux-x86_64-2.7/Ft/Xml/Lib
+copying Ft/Xml/Lib/__init__.py -> build/lib.linux-x86_64-2.7/Ft/Xml/Lib
+copying Ft/Xml/Lib/XmlPrinter.py -> build/lib.linux-x86_64-2.7/Ft/Xml/Lib
+copying Ft/Xml/Lib/_4xupdate.py -> build/lib.linux-x86_64-2.7/Ft/Xml/Lib
+creating build/lib.linux-x86_64-2.7/Ft/Xml/XPath
+copying Ft/Xml/XPath/ParsedAbbreviatedRelativeLocationPath.py -> build/lib.linux-x86_64-2.7/Ft/Xml/XPath
+copying Ft/Xml/XPath/MathFunctions.py -> build/lib.linux-x86_64-2.7/Ft/Xml/XPath
+copying Ft/Xml/XPath/ParsedRelativeLocationPath.py -> build/lib.linux-x86_64-2.7/Ft/Xml/XPath
+copying Ft/Xml/XPath/XPathTypes.py -> build/lib.linux-x86_64-2.7/Ft/Xml/XPath
+copying Ft/Xml/XPath/_4xpath.py -> build/lib.linux-x86_64-2.7/Ft/Xml/XPath
+copying Ft/Xml/XPath/ParsedExpr.py -> build/lib.linux-x86_64-2.7/Ft/Xml/XPath
+copying Ft/Xml/XPath/Context.py -> build/lib.linux-x86_64-2.7/Ft/Xml/XPath
+copying Ft/Xml/XPath/ParsedAxisSpecifier.py -> build/lib.linux-x86_64-2.7/Ft/Xml/XPath
+copying Ft/Xml/XPath/ParsedAbbreviatedAbsoluteLocationPath.py -> build/lib.linux-x86_64-2.7/Ft/Xml/XPath
+copying Ft/Xml/XPath/ParsedPredicateList.py -> build/lib.linux-x86_64-2.7/Ft/Xml/XPath
+copying Ft/Xml/XPath/MessageSource.py -> build/lib.linux-x86_64-2.7/Ft/Xml/XPath
+copying Ft/Xml/XPath/Conversions.py -> build/lib.linux-x86_64-2.7/Ft/Xml/XPath
+copying Ft/Xml/XPath/ParsedAbsoluteLocationPath.py -> build/lib.linux-x86_64-2.7/Ft/Xml/XPath
+copying Ft/Xml/XPath/BuiltInExtFunctions.py -> build/lib.linux-x86_64-2.7/Ft/Xml/XPath
+copying Ft/Xml/XPath/ParsedStep.py -> build/lib.linux-x86_64-2.7/Ft/Xml/XPath
+copying Ft/Xml/XPath/__init__.py -> build/lib.linux-x86_64-2.7/Ft/Xml/XPath
+copying Ft/Xml/XPath/ParsedNodeTest.py -> build/lib.linux-x86_64-2.7/Ft/Xml/XPath
+copying Ft/Xml/XPath/Util.py -> build/lib.linux-x86_64-2.7/Ft/Xml/XPath
+copying Ft/Xml/XPath/CoreFunctions.py -> build/lib.linux-x86_64-2.7/Ft/Xml/XPath
+creating build/lib.linux-x86_64-2.7/Ft/Xml/XPointer
+copying Ft/Xml/XPointer/ParsedXPointer.py -> build/lib.linux-x86_64-2.7/Ft/Xml/XPointer
+copying Ft/Xml/XPointer/XPtrContext.py -> build/lib.linux-x86_64-2.7/Ft/Xml/XPointer
+copying Ft/Xml/XPointer/MessageSource.py -> build/lib.linux-x86_64-2.7/Ft/Xml/XPointer
+copying Ft/Xml/XPointer/XPointer.py -> build/lib.linux-x86_64-2.7/Ft/Xml/XPointer
+copying Ft/Xml/XPointer/__init__.py -> build/lib.linux-x86_64-2.7/Ft/Xml/XPointer
+copying Ft/Xml/XPointer/ParsedNodeTest.py -> build/lib.linux-x86_64-2.7/Ft/Xml/XPointer
+copying Ft/Xml/XPointer/XPtrFunctions.py -> build/lib.linux-x86_64-2.7/Ft/Xml/XPointer
+creating build/lib.linux-x86_64-2.7/Ft/Xml/Xslt
+copying Ft/Xml/Xslt/ParamElement.py -> build/lib.linux-x86_64-2.7/Ft/Xml/Xslt
+copying Ft/Xml/Xslt/StringWriter.py -> build/lib.linux-x86_64-2.7/Ft/Xml/Xslt
+copying Ft/Xml/Xslt/XPatterns.py -> build/lib.linux-x86_64-2.7/Ft/Xml/Xslt
+copying Ft/Xml/Xslt/TextSax.py -> build/lib.linux-x86_64-2.7/Ft/Xml/Xslt
+copying Ft/Xml/Xslt/ElementElement.py -> build/lib.linux-x86_64-2.7/Ft/Xml/Xslt
+copying Ft/Xml/Xslt/CopyElement.py -> build/lib.linux-x86_64-2.7/Ft/Xml/Xslt
+copying Ft/Xml/Xslt/ExtendedProcessingElements.py -> build/lib.linux-x86_64-2.7/Ft/Xml/Xslt
+copying Ft/Xml/Xslt/TextElement.py -> build/lib.linux-x86_64-2.7/Ft/Xml/Xslt
+copying Ft/Xml/Xslt/AttributeElement.py -> build/lib.linux-x86_64-2.7/Ft/Xml/Xslt
+copying Ft/Xml/Xslt/SaxWriter.py -> build/lib.linux-x86_64-2.7/Ft/Xml/Xslt
+copying Ft/Xml/Xslt/SortElement.py -> build/lib.linux-x86_64-2.7/Ft/Xml/Xslt
+copying Ft/Xml/Xslt/DomWriter.py -> build/lib.linux-x86_64-2.7/Ft/Xml/Xslt
+copying Ft/Xml/Xslt/WhitespaceElements.py -> build/lib.linux-x86_64-2.7/Ft/Xml/Xslt
+copying Ft/Xml/Xslt/OutputParameters.py -> build/lib.linux-x86_64-2.7/Ft/Xml/Xslt
+copying Ft/Xml/Xslt/WithParamElement.py -> build/lib.linux-x86_64-2.7/Ft/Xml/Xslt
+copying Ft/Xml/Xslt/CopyOfElement.py -> build/lib.linux-x86_64-2.7/Ft/Xml/Xslt
+copying Ft/Xml/Xslt/ProcessingInstructionElement.py -> build/lib.linux-x86_64-2.7/Ft/Xml/Xslt
+copying Ft/Xml/Xslt/OutputHandler.py -> build/lib.linux-x86_64-2.7/Ft/Xml/Xslt
+copying Ft/Xml/Xslt/ContentInfo.py -> build/lib.linux-x86_64-2.7/Ft/Xml/Xslt
+copying Ft/Xml/Xslt/StylesheetReader.py -> build/lib.linux-x86_64-2.7/Ft/Xml/Xslt
+copying Ft/Xml/Xslt/CommentElement.py -> build/lib.linux-x86_64-2.7/Ft/Xml/Xslt
+copying Ft/Xml/Xslt/IfElement.py -> build/lib.linux-x86_64-2.7/Ft/Xml/Xslt
+copying Ft/Xml/Xslt/AttributeValueTemplate.py -> build/lib.linux-x86_64-2.7/Ft/Xml/Xslt
+copying Ft/Xml/Xslt/PlainTextWriter.py -> build/lib.linux-x86_64-2.7/Ft/Xml/Xslt
+copying Ft/Xml/Xslt/LiteralElement.py -> build/lib.linux-x86_64-2.7/Ft/Xml/Xslt
+copying Ft/Xml/Xslt/MessageSource.py -> build/lib.linux-x86_64-2.7/Ft/Xml/Xslt
+copying Ft/Xml/Xslt/XsltFunctions.py -> build/lib.linux-x86_64-2.7/Ft/Xml/Xslt
+copying Ft/Xml/Xslt/OtherXslElement.py -> build/lib.linux-x86_64-2.7/Ft/Xml/Xslt
+copying Ft/Xml/Xslt/MessageElement.py -> build/lib.linux-x86_64-2.7/Ft/Xml/Xslt
+copying Ft/Xml/Xslt/CallTemplateElement.py -> build/lib.linux-x86_64-2.7/Ft/Xml/Xslt
+copying Ft/Xml/Xslt/AttributeSetElement.py -> build/lib.linux-x86_64-2.7/Ft/Xml/Xslt
+copying Ft/Xml/Xslt/TemplateElement.py -> build/lib.linux-x86_64-2.7/Ft/Xml/Xslt
+copying Ft/Xml/Xslt/StylesheetTree.py -> build/lib.linux-x86_64-2.7/Ft/Xml/Xslt
+copying Ft/Xml/Xslt/BuiltInExtElements.py -> build/lib.linux-x86_64-2.7/Ft/Xml/Xslt
+copying Ft/Xml/Xslt/NumberFormatter.py -> build/lib.linux-x86_64-2.7/Ft/Xml/Xslt
+copying Ft/Xml/Xslt/UndefinedElements.py -> build/lib.linux-x86_64-2.7/Ft/Xml/Xslt
+copying Ft/Xml/Xslt/NullWriter.py -> build/lib.linux-x86_64-2.7/Ft/Xml/Xslt
+copying Ft/Xml/Xslt/NumberElement.py -> build/lib.linux-x86_64-2.7/Ft/Xml/Xslt
+copying Ft/Xml/Xslt/BuiltInExtFunctions.py -> build/lib.linux-x86_64-2.7/Ft/Xml/Xslt
+copying Ft/Xml/Xslt/ForEachElement.py -> build/lib.linux-x86_64-2.7/Ft/Xml/Xslt
+copying Ft/Xml/Xslt/VariableElement.py -> build/lib.linux-x86_64-2.7/Ft/Xml/Xslt
+copying Ft/Xml/Xslt/XsltContext.py -> build/lib.linux-x86_64-2.7/Ft/Xml/Xslt
+copying Ft/Xml/Xslt/HtmlWriter.py -> build/lib.linux-x86_64-2.7/Ft/Xml/Xslt
+copying Ft/Xml/Xslt/_4xslt.py -> build/lib.linux-x86_64-2.7/Ft/Xml/Xslt
+copying Ft/Xml/Xslt/__init__.py -> build/lib.linux-x86_64-2.7/Ft/Xml/Xslt
+copying Ft/Xml/Xslt/ApplyTemplatesElement.py -> build/lib.linux-x86_64-2.7/Ft/Xml/Xslt
+copying Ft/Xml/Xslt/XPathExtensions.py -> build/lib.linux-x86_64-2.7/Ft/Xml/Xslt
+copying Ft/Xml/Xslt/Processor.py -> build/lib.linux-x86_64-2.7/Ft/Xml/Xslt
+copying Ft/Xml/Xslt/GenericVariable.py -> build/lib.linux-x86_64-2.7/Ft/Xml/Xslt
+copying Ft/Xml/Xslt/ApplyImportsElement.py -> build/lib.linux-x86_64-2.7/Ft/Xml/Xslt
+copying Ft/Xml/Xslt/Stylesheet.py -> build/lib.linux-x86_64-2.7/Ft/Xml/Xslt
+copying Ft/Xml/Xslt/AttributeInfo.py -> build/lib.linux-x86_64-2.7/Ft/Xml/Xslt
+copying Ft/Xml/Xslt/XmlWriter.py -> build/lib.linux-x86_64-2.7/Ft/Xml/Xslt
+copying Ft/Xml/Xslt/ChooseElement.py -> build/lib.linux-x86_64-2.7/Ft/Xml/Xslt
+copying Ft/Xml/Xslt/RtfWriter.py -> build/lib.linux-x86_64-2.7/Ft/Xml/Xslt
+copying Ft/Xml/Xslt/ValueOfElement.py -> build/lib.linux-x86_64-2.7/Ft/Xml/Xslt
+copying Ft/Xml/Xslt/StylesheetHandler.py -> build/lib.linux-x86_64-2.7/Ft/Xml/Xslt
+copying Ft/Xml/Xslt/Roman.py -> build/lib.linux-x86_64-2.7/Ft/Xml/Xslt
+creating build/lib.linux-x86_64-2.7/Ft/Xml/Xslt/Exslt
+copying Ft/Xml/Xslt/Exslt/Math_.py -> build/lib.linux-x86_64-2.7/Ft/Xml/Xslt/Exslt
+copying Ft/Xml/Xslt/Exslt/Strings.py -> build/lib.linux-x86_64-2.7/Ft/Xml/Xslt/Exslt
+copying Ft/Xml/Xslt/Exslt/DateTime.py -> build/lib.linux-x86_64-2.7/Ft/Xml/Xslt/Exslt
+copying Ft/Xml/Xslt/Exslt/RegularExpressions.py -> build/lib.linux-x86_64-2.7/Ft/Xml/Xslt/Exslt
+copying Ft/Xml/Xslt/Exslt/MessageSource.py -> build/lib.linux-x86_64-2.7/Ft/Xml/Xslt/Exslt
+copying Ft/Xml/Xslt/Exslt/Common.py -> build/lib.linux-x86_64-2.7/Ft/Xml/Xslt/Exslt
+copying Ft/Xml/Xslt/Exslt/Functions.py -> build/lib.linux-x86_64-2.7/Ft/Xml/Xslt/Exslt
+copying Ft/Xml/Xslt/Exslt/Dynamic.py -> build/lib.linux-x86_64-2.7/Ft/Xml/Xslt/Exslt
+copying Ft/Xml/Xslt/Exslt/__init__.py -> build/lib.linux-x86_64-2.7/Ft/Xml/Xslt/Exslt
+copying Ft/Xml/Xslt/Exslt/Sets.py -> build/lib.linux-x86_64-2.7/Ft/Xml/Xslt/Exslt
+creating build/lib.linux-x86_64-2.7/Ft/Xml/Xslt/Debugger
+copying Ft/Xml/Xslt/Debugger/DebugWriter.py -> build/lib.linux-x86_64-2.7/Ft/Xml/Xslt/Debugger
+copying Ft/Xml/Xslt/Debugger/TerminalOutput.py -> build/lib.linux-x86_64-2.7/Ft/Xml/Xslt/Debugger
+copying Ft/Xml/Xslt/Debugger/TerminalInput.py -> build/lib.linux-x86_64-2.7/Ft/Xml/Xslt/Debugger
+copying Ft/Xml/Xslt/Debugger/DebugCommands.py -> build/lib.linux-x86_64-2.7/Ft/Xml/Xslt/Debugger
+copying Ft/Xml/Xslt/Debugger/__init__.py -> build/lib.linux-x86_64-2.7/Ft/Xml/Xslt/Debugger
+copying Ft/Xml/Xslt/Debugger/DebugController.py -> build/lib.linux-x86_64-2.7/Ft/Xml/Xslt/Debugger
+creating build/lib.linux-x86_64-2.7/Ft/Xml/XLink
+copying Ft/Xml/XLink/XLinkElements.py -> build/lib.linux-x86_64-2.7/Ft/Xml/XLink
+copying Ft/Xml/XLink/__init__.py -> build/lib.linux-x86_64-2.7/Ft/Xml/XLink
+copying Ft/Xml/XLink/Processor.py -> build/lib.linux-x86_64-2.7/Ft/Xml/XLink
+creating build/lib.linux-x86_64-2.7/Ft/Xml/ThirdParty
+copying Ft/Xml/ThirdParty/__init__.py -> build/lib.linux-x86_64-2.7/Ft/Xml/ThirdParty
+creating build/lib.linux-x86_64-2.7/Ft/Xml/ThirdParty/Xvif
+copying Ft/Xml/ThirdParty/Xvif/iframe.py -> build/lib.linux-x86_64-2.7/Ft/Xml/ThirdParty/Xvif
+copying Ft/Xml/ThirdParty/Xvif/xmlchargen.py -> build/lib.linux-x86_64-2.7/Ft/Xml/ThirdParty/Xvif
+copying Ft/Xml/ThirdParty/Xvif/sax2dom_chunker.py -> build/lib.linux-x86_64-2.7/Ft/Xml/ThirdParty/Xvif
+copying Ft/Xml/ThirdParty/Xvif/rngCoreTypeLib.py -> build/lib.linux-x86_64-2.7/Ft/Xml/ThirdParty/Xvif
+copying Ft/Xml/ThirdParty/Xvif/Smart_len.py -> build/lib.linux-x86_64-2.7/Ft/Xml/ThirdParty/Xvif
+copying Ft/Xml/ThirdParty/Xvif/iFrameXSLT.py -> build/lib.linux-x86_64-2.7/Ft/Xml/ThirdParty/Xvif
+copying Ft/Xml/ThirdParty/Xvif/wxsTypeLib.py -> build/lib.linux-x86_64-2.7/Ft/Xml/ThirdParty/Xvif
+copying Ft/Xml/ThirdParty/Xvif/FragmentFilter.py -> build/lib.linux-x86_64-2.7/Ft/Xml/ThirdParty/Xvif
+copying Ft/Xml/ThirdParty/Xvif/rng.py -> build/lib.linux-x86_64-2.7/Ft/Xml/ThirdParty/Xvif
+copying Ft/Xml/ThirdParty/Xvif/xmlcomp.py -> build/lib.linux-x86_64-2.7/Ft/Xml/ThirdParty/Xvif
+copying Ft/Xml/ThirdParty/Xvif/iFrameRNG.py -> build/lib.linux-x86_64-2.7/Ft/Xml/ThirdParty/Xvif
+copying Ft/Xml/ThirdParty/Xvif/__init__.py -> build/lib.linux-x86_64-2.7/Ft/Xml/ThirdParty/Xvif
+copying Ft/Xml/ThirdParty/Xvif/iFrameTypes.py -> build/lib.linux-x86_64-2.7/Ft/Xml/ThirdParty/Xvif
+copying Ft/Xml/ThirdParty/Xvif/iFrameRegFrag.py -> build/lib.linux-x86_64-2.7/Ft/Xml/ThirdParty/Xvif
+copying Ft/Xml/ThirdParty/Xvif/TimeLib.py -> build/lib.linux-x86_64-2.7/Ft/Xml/ThirdParty/Xvif
+copying Ft/Xml/ThirdParty/Xvif/characters.py -> build/lib.linux-x86_64-2.7/Ft/Xml/ThirdParty/Xvif
+copying Ft/Lib/DistExt/stubmain.exe -> build/lib.linux-x86_64-2.7/Ft/Lib/DistExt
+running build_ext
+building 'Ft.Lib.number' extension
+creating build/temp.linux-x86_64-2.7
+creating build/temp.linux-x86_64-2.7/Ft
+creating build/temp.linux-x86_64-2.7/Ft/Lib
+creating build/temp.linux-x86_64-2.7/Ft/Lib/src
+gcc -pthread -fno-strict-aliasing -g -O2 -DNDEBUG -g -fwrapv -O3 -Wall -Wstrict-prototypes -fPIC -I/home/ubuntu/miniconda/envs/_build/include/python2.7 -c Ft/Lib/src/number.c -o build/temp.linux-x86_64-2.7/Ft/Lib/src/number.o
+gcc -pthread -shared -L/home/ubuntu/miniconda/envs/_build/lib -Wl,-rpath=/home/ubuntu/miniconda/envs/_build/lib,--no-as-needed -Wl,--version-script,build/temp.linux-x86_64-2.7/Ft/Lib/number.map build/temp.linux-x86_64-2.7/Ft/Lib/src/number.o -L/home/ubuntu/miniconda/envs/_build/lib -lpython2.7 -o build/lib.linux-x86_64-2.7/Ft/Lib/number.so
+building 'Ft.Lib.EscapeQuotesc' extension
+gcc -pthread -fno-strict-aliasing -g -O2 -DNDEBUG -g -fwrapv -O3 -Wall -Wstrict-prototypes -fPIC -I/home/ubuntu/miniconda/envs/_build/include/python2.7 -c Ft/Lib/src/escapequotes.c -o build/temp.linux-x86_64-2.7/Ft/Lib/src/escapequotes.o
+Ft/Lib/src/escapequotes.c: In function ‘initEscapeQuotesc’:
+Ft/Lib/src/escapequotes.c:74:22: warning: variable ‘dict’ set but not used [-Wunused-but-set-variable]
+   PyObject *module, *dict;
+                      ^
+gcc -pthread -shared -L/home/ubuntu/miniconda/envs/_build/lib -Wl,-rpath=/home/ubuntu/miniconda/envs/_build/lib,--no-as-needed -Wl,--version-script,build/temp.linux-x86_64-2.7/Ft/Lib/EscapeQuotesc.map build/temp.linux-x86_64-2.7/Ft/Lib/src/escapequotes.o -L/home/ubuntu/miniconda/envs/_build/lib -lpython2.7 -o build/lib.linux-x86_64-2.7/Ft/Lib/EscapeQuotesc.so
+building 'Ft.Lib.boolean' extension
+gcc -pthread -fno-strict-aliasing -g -O2 -DNDEBUG -g -fwrapv -O3 -Wall -Wstrict-prototypes -fPIC -I/home/ubuntu/miniconda/envs/_build/include/python2.7 -c Ft/Lib/src/boolean.c -o build/temp.linux-x86_64-2.7/Ft/Lib/src/boolean.o
+gcc -pthread -shared -L/home/ubuntu/miniconda/envs/_build/lib -Wl,-rpath=/home/ubuntu/miniconda/envs/_build/lib,--no-as-needed -Wl,--version-script,build/temp.linux-x86_64-2.7/Ft/Lib/boolean.map build/temp.linux-x86_64-2.7/Ft/Lib/src/boolean.o -L/home/ubuntu/miniconda/envs/_build/lib -lpython2.7 -o build/lib.linux-x86_64-2.7/Ft/Lib/boolean.so
+building 'Ft.Lib.Set' extension
+gcc -pthread -fno-strict-aliasing -g -O2 -DNDEBUG -g -fwrapv -O3 -Wall -Wstrict-prototypes -fPIC -I/home/ubuntu/miniconda/envs/_build/include/python2.7 -c Ft/Lib/src/set.c -o build/temp.linux-x86_64-2.7/Ft/Lib/src/set.o
+Ft/Lib/src/set.c: In function ‘initSet’:
+Ft/Lib/src/set.c:237:22: warning: variable ‘dict’ set but not used [-Wunused-but-set-variable]
+   PyObject *module, *dict;
+                      ^
+gcc -pthread -shared -L/home/ubuntu/miniconda/envs/_build/lib -Wl,-rpath=/home/ubuntu/miniconda/envs/_build/lib,--no-as-needed -Wl,--version-script,build/temp.linux-x86_64-2.7/Ft/Lib/Set.map build/temp.linux-x86_64-2.7/Ft/Lib/src/set.o -L/home/ubuntu/miniconda/envs/_build/lib -lpython2.7 -o build/lib.linux-x86_64-2.7/Ft/Lib/Set.so
+building 'Ft.Xml.Lib.routines' extension
+creating build/temp.linux-x86_64-2.7/Ft/Xml
+creating build/temp.linux-x86_64-2.7/Ft/Xml/src
+gcc -pthread -fno-strict-aliasing -g -O2 -DNDEBUG -g -fwrapv -O3 -Wall -Wstrict-prototypes -fPIC -IFt/Xml/src -IFt/Lib/src -I/home/ubuntu/miniconda/envs/_build/include/python2.7 -c Ft/Xml/src/routines.c -o build/temp.linux-x86_64-2.7/Ft/Xml/src/routines.o
+Ft/Xml/src/routines.c: In function ‘initroutines’:
+Ft/Xml/src/routines.c:928:15: warning: variable ‘module’ set but not used [-Wunused-but-set-variable]
+     PyObject *module;
+               ^
+creating build/temp.linux-x86_64-2.7/Ft/Xml/Lib
+gcc -pthread -shared -L/home/ubuntu/miniconda/envs/_build/lib -Wl,-rpath=/home/ubuntu/miniconda/envs/_build/lib,--no-as-needed -Wl,--version-script,build/temp.linux-x86_64-2.7/Ft/Xml/Lib/routines.map build/temp.linux-x86_64-2.7/Ft/Xml/src/routines.o -L/home/ubuntu/miniconda/envs/_build/lib -lpython2.7 -o build/lib.linux-x86_64-2.7/Ft/Xml/Lib/routines.so
+building 'Ft.Xml.Lib.cStreamWriter' extension
+gcc -pthread -fno-strict-aliasing -g -O2 -DNDEBUG -g -fwrapv -O3 -Wall -Wstrict-prototypes -fPIC -I/home/ubuntu/miniconda/envs/_build/include/python2.7 -c Ft/Xml/src/StreamWriter.c -o build/temp.linux-x86_64-2.7/Ft/Xml/src/StreamWriter.o
+Ft/Xml/src/StreamWriter.c: In function ‘writer_print’:
+Ft/Xml/src/StreamWriter.c:605:3: warning: format not a string literal and no format arguments [-Wformat-security]
+   fprintf(fp, PyString_AS_STRING(repr));
+   ^
+Ft/Xml/src/StreamWriter.c: In function ‘entitymap_print’:
+Ft/Xml/src/StreamWriter.c:815:3: warning: format not a string literal and no format arguments [-Wformat-security]
+   fprintf(fp, PyString_AS_STRING(repr));
+   ^
+gcc -pthread -shared -L/home/ubuntu/miniconda/envs/_build/lib -Wl,-rpath=/home/ubuntu/miniconda/envs/_build/lib,--no-as-needed -Wl,--version-script,build/temp.linux-x86_64-2.7/Ft/Xml/Lib/cStreamWriter.map build/temp.linux-x86_64-2.7/Ft/Xml/src/StreamWriter.o -L/home/ubuntu/miniconda/envs/_build/lib -lpython2.7 -o build/lib.linux-x86_64-2.7/Ft/Xml/Lib/cStreamWriter.so
+building 'Ft.Xml.XPath.XPathParserc' extension
+creating build/temp.linux-x86_64-2.7/Ft/Xml/XPath
+gcc -pthread -fno-strict-aliasing -g -O2 -DNDEBUG -g -fwrapv -O3 -Wall -Wstrict-prototypes -fPIC -I/home/ubuntu/miniconda/envs/_build/include/python2.7 -c Ft/Xml/XPath/XPathParser.c -o build/temp.linux-x86_64-2.7/Ft/Xml/XPath/XPathParser.o
+gcc -pthread -shared -L/home/ubuntu/miniconda/envs/_build/lib -Wl,-rpath=/home/ubuntu/miniconda/envs/_build/lib,--no-as-needed -Wl,--version-script,build/temp.linux-x86_64-2.7/Ft/Xml/XPath/XPathParserc.map build/temp.linux-x86_64-2.7/Ft/Xml/XPath/XPathParser.o -L/home/ubuntu/miniconda/envs/_build/lib -lpython2.7 -o build/lib.linux-x86_64-2.7/Ft/Xml/XPath/XPathParserc.so
+building 'Ft.Xml.XPath._conversions' extension
+gcc -pthread -fno-strict-aliasing -g -O2 -DNDEBUG -g -fwrapv -O3 -Wall -Wstrict-prototypes -fPIC -IFt/Xml/src -IFt/Lib/src -I/home/ubuntu/miniconda/envs/_build/include/python2.7 -c Ft/Xml/XPath/_conversions.c -o build/temp.linux-x86_64-2.7/Ft/Xml/XPath/_conversions.o
+gcc -pthread -shared -L/home/ubuntu/miniconda/envs/_build/lib -Wl,-rpath=/home/ubuntu/miniconda/envs/_build/lib,--no-as-needed -Wl,--version-script,build/temp.linux-x86_64-2.7/Ft/Xml/XPath/_conversions.map build/temp.linux-x86_64-2.7/Ft/Xml/XPath/_conversions.o -L/home/ubuntu/miniconda/envs/_build/lib -lpython2.7 -o build/lib.linux-x86_64-2.7/Ft/Xml/XPath/_conversions.so
+building 'Ft.Xml.XPath._comparisons' extension
+gcc -pthread -fno-strict-aliasing -g -O2 -DNDEBUG -g -fwrapv -O3 -Wall -Wstrict-prototypes -fPIC -IFt/Xml/src -IFt/Lib/src -I/home/ubuntu/miniconda/envs/_build/include/python2.7 -c Ft/Xml/XPath/_comparisons.c -o build/temp.linux-x86_64-2.7/Ft/Xml/XPath/_comparisons.o
+gcc -pthread -shared -L/home/ubuntu/miniconda/envs/_build/lib -Wl,-rpath=/home/ubuntu/miniconda/envs/_build/lib,--no-as-needed -Wl,--version-script,build/temp.linux-x86_64-2.7/Ft/Xml/XPath/_comparisons.map build/temp.linux-x86_64-2.7/Ft/Xml/XPath/_comparisons.o -L/home/ubuntu/miniconda/envs/_build/lib -lpython2.7 -o build/lib.linux-x86_64-2.7/Ft/Xml/XPath/_comparisons.so
+building 'Ft.Xml.Lib.XmlString' extension
+gcc -pthread -fno-strict-aliasing -g -O2 -DNDEBUG -g -fwrapv -O3 -Wall -Wstrict-prototypes -fPIC -I/home/ubuntu/miniconda/envs/_build/include/python2.7 -c Ft/Xml/src/xmlstring.c -o build/temp.linux-x86_64-2.7/Ft/Xml/src/xmlstring.o
+gcc -pthread -shared -L/home/ubuntu/miniconda/envs/_build/lib -Wl,-rpath=/home/ubuntu/miniconda/envs/_build/lib,--no-as-needed -Wl,--version-script,build/temp.linux-x86_64-2.7/Ft/Xml/Lib/XmlString.map build/temp.linux-x86_64-2.7/Ft/Xml/src/xmlstring.o -L/home/ubuntu/miniconda/envs/_build/lib -lpython2.7 -o build/lib.linux-x86_64-2.7/Ft/Xml/Lib/XmlString.so
+building 'Ft.Xml.cDomlettec' extension
+creating build/temp.linux-x86_64-2.7/Ft/Xml/src/expat
+creating build/temp.linux-x86_64-2.7/Ft/Xml/src/expat/lib
+gcc -pthread -fno-strict-aliasing -g -O2 -DNDEBUG -g -fwrapv -O3 -Wall -Wstrict-prototypes -fPIC -DHAVE_EXPAT_CONFIG_H -DDomlette_BUILDING_MODULE -IFt/Xml/src -IFt/Xml/src/expat/lib -I/home/ubuntu/miniconda/envs/_build/include/python2.7 -c Ft/Xml/src/expat/lib/xmlparse.c -o build/temp.linux-x86_64-2.7/Ft/Xml/src/expat/lib/xmlparse.o
+gcc -pthread -fno-strict-aliasing -g -O2 -DNDEBUG -g -fwrapv -O3 -Wall -Wstrict-prototypes -fPIC -DHAVE_EXPAT_CONFIG_H -DDomlette_BUILDING_MODULE -IFt/Xml/src -IFt/Xml/src/expat/lib -I/home/ubuntu/miniconda/envs/_build/include/python2.7 -c Ft/Xml/src/expat/lib/xmlrole.c -o build/temp.linux-x86_64-2.7/Ft/Xml/src/expat/lib/xmlrole.o
+gcc -pthread -fno-strict-aliasing -g -O2 -DNDEBUG -g -fwrapv -O3 -Wall -Wstrict-prototypes -fPIC -DHAVE_EXPAT_CONFIG_H -DDomlette_BUILDING_MODULE -IFt/Xml/src -IFt/Xml/src/expat/lib -I/home/ubuntu/miniconda/envs/_build/include/python2.7 -c Ft/Xml/src/expat/lib/xmltok.c -o build/temp.linux-x86_64-2.7/Ft/Xml/src/expat/lib/xmltok.o
+creating build/temp.linux-x86_64-2.7/Ft/Xml/src/domlette
+gcc -pthread -fno-strict-aliasing -g -O2 -DNDEBUG -g -fwrapv -O3 -Wall -Wstrict-prototypes -fPIC -DHAVE_EXPAT_CONFIG_H -DDomlette_BUILDING_MODULE -IFt/Xml/src -IFt/Xml/src/expat/lib -I/home/ubuntu/miniconda/envs/_build/include/python2.7 -c Ft/Xml/src/domlette/domlette.c -o build/temp.linux-x86_64-2.7/Ft/Xml/src/domlette/domlette.o
+gcc -pthread -fno-strict-aliasing -g -O2 -DNDEBUG -g -fwrapv -O3 -Wall -Wstrict-prototypes -fPIC -DHAVE_EXPAT_CONFIG_H -DDomlette_BUILDING_MODULE -IFt/Xml/src -IFt/Xml/src/expat/lib -I/home/ubuntu/miniconda/envs/_build/include/python2.7 -c Ft/Xml/src/domlette/exceptions.c -o build/temp.linux-x86_64-2.7/Ft/Xml/src/domlette/exceptions.o
+gcc -pthread -fno-strict-aliasing -g -O2 -DNDEBUG -g -fwrapv -O3 -Wall -Wstrict-prototypes -fPIC -DHAVE_EXPAT_CONFIG_H -DDomlette_BUILDING_MODULE -IFt/Xml/src -IFt/Xml/src/expat/lib -I/home/ubuntu/miniconda/envs/_build/include/python2.7 -c Ft/Xml/src/domlette/reader.c -o build/temp.linux-x86_64-2.7/Ft/Xml/src/domlette/reader.o
+gcc -pthread -fno-strict-aliasing -g -O2 -DNDEBUG -g -fwrapv -O3 -Wall -Wstrict-prototypes -fPIC -DHAVE_EXPAT_CONFIG_H -DDomlette_BUILDING_MODULE -IFt/Xml/src -IFt/Xml/src/expat/lib -I/home/ubuntu/miniconda/envs/_build/include/python2.7 -c Ft/Xml/src/domlette/nss.c -o build/temp.linux-x86_64-2.7/Ft/Xml/src/domlette/nss.o
+gcc -pthread -fno-strict-aliasing -g -O2 -DNDEBUG -g -fwrapv -O3 -Wall -Wstrict-prototypes -fPIC -DHAVE_EXPAT_CONFIG_H -DDomlette_BUILDING_MODULE -IFt/Xml/src -IFt/Xml/src/expat/lib -I/home/ubuntu/miniconda/envs/_build/include/python2.7 -c Ft/Xml/src/domlette/namednodemap.c -o build/temp.linux-x86_64-2.7/Ft/Xml/src/domlette/namednodemap.o
+gcc -pthread -fno-strict-aliasing -g -O2 -DNDEBUG -g -fwrapv -O3 -Wall -Wstrict-prototypes -fPIC -DHAVE_EXPAT_CONFIG_H -DDomlette_BUILDING_MODULE -IFt/Xml/src -IFt/Xml/src/expat/lib -I/home/ubuntu/miniconda/envs/_build/include/python2.7 -c Ft/Xml/src/domlette/node.c -o build/temp.linux-x86_64-2.7/Ft/Xml/src/domlette/node.o
+gcc -pthread -fno-strict-aliasing -g -O2 -DNDEBUG -g -fwrapv -O3 -Wall -Wstrict-prototypes -fPIC -DHAVE_EXPAT_CONFIG_H -DDomlette_BUILDING_MODULE -IFt/Xml/src -IFt/Xml/src/expat/lib -I/home/ubuntu/miniconda/envs/_build/include/python2.7 -c Ft/Xml/src/domlette/attr.c -o build/temp.linux-x86_64-2.7/Ft/Xml/src/domlette/attr.o
+gcc -pthread -fno-strict-aliasing -g -O2 -DNDEBUG -g -fwrapv -O3 -Wall -Wstrict-prototypes -fPIC -DHAVE_EXPAT_CONFIG_H -DDomlette_BUILDING_MODULE -IFt/Xml/src -IFt/Xml/src/expat/lib -I/home/ubuntu/miniconda/envs/_build/include/python2.7 -c Ft/Xml/src/domlette/element.c -o build/temp.linux-x86_64-2.7/Ft/Xml/src/domlette/element.o
+gcc -pthread -fno-strict-aliasing -g -O2 -DNDEBUG -g -fwrapv -O3 -Wall -Wstrict-prototypes -fPIC -DHAVE_EXPAT_CONFIG_H -DDomlette_BUILDING_MODULE -IFt/Xml/src -IFt/Xml/src/expat/lib -I/home/ubuntu/miniconda/envs/_build/include/python2.7 -c Ft/Xml/src/domlette/processinginstruction.c -o build/temp.linux-x86_64-2.7/Ft/Xml/src/domlette/processinginstruction.o
+gcc -pthread -fno-strict-aliasing -g -O2 -DNDEBUG -g -fwrapv -O3 -Wall -Wstrict-prototypes -fPIC -DHAVE_EXPAT_CONFIG_H -DDomlette_BUILDING_MODULE -IFt/Xml/src -IFt/Xml/src/expat/lib -I/home/ubuntu/miniconda/envs/_build/include/python2.7 -c Ft/Xml/src/domlette/characterdata.c -o build/temp.linux-x86_64-2.7/Ft/Xml/src/domlette/characterdata.o
+gcc -pthread -fno-strict-aliasing -g -O2 -DNDEBUG -g -fwrapv -O3 -Wall -Wstrict-prototypes -fPIC -DHAVE_EXPAT_CONFIG_H -DDomlette_BUILDING_MODULE -IFt/Xml/src -IFt/Xml/src/expat/lib -I/home/ubuntu/miniconda/envs/_build/include/python2.7 -c Ft/Xml/src/domlette/comment.c -o build/temp.linux-x86_64-2.7/Ft/Xml/src/domlette/comment.o
+gcc -pthread -fno-strict-aliasing -g -O2 -DNDEBUG -g -fwrapv -O3 -Wall -Wstrict-prototypes -fPIC -DHAVE_EXPAT_CONFIG_H -DDomlette_BUILDING_MODULE -IFt/Xml/src -IFt/Xml/src/expat/lib -I/home/ubuntu/miniconda/envs/_build/include/python2.7 -c Ft/Xml/src/domlette/text.c -o build/temp.linux-x86_64-2.7/Ft/Xml/src/domlette/text.o
+gcc -pthread -fno-strict-aliasing -g -O2 -DNDEBUG -g -fwrapv -O3 -Wall -Wstrict-prototypes -fPIC -DHAVE_EXPAT_CONFIG_H -DDomlette_BUILDING_MODULE -IFt/Xml/src -IFt/Xml/src/expat/lib -I/home/ubuntu/miniconda/envs/_build/include/python2.7 -c Ft/Xml/src/domlette/document.c -o build/temp.linux-x86_64-2.7/Ft/Xml/src/domlette/document.o
+gcc -pthread -fno-strict-aliasing -g -O2 -DNDEBUG -g -fwrapv -O3 -Wall -Wstrict-prototypes -fPIC -DHAVE_EXPAT_CONFIG_H -DDomlette_BUILDING_MODULE -IFt/Xml/src -IFt/Xml/src/expat/lib -I/home/ubuntu/miniconda/envs/_build/include/python2.7 -c Ft/Xml/src/domlette/documentfragment.c -o build/temp.linux-x86_64-2.7/Ft/Xml/src/domlette/documentfragment.o
+gcc -pthread -fno-strict-aliasing -g -O2 -DNDEBUG -g -fwrapv -O3 -Wall -Wstrict-prototypes -fPIC -DHAVE_EXPAT_CONFIG_H -DDomlette_BUILDING_MODULE -IFt/Xml/src -IFt/Xml/src/expat/lib -I/home/ubuntu/miniconda/envs/_build/include/python2.7 -c Ft/Xml/src/domlette/domimplementation.c -o build/temp.linux-x86_64-2.7/Ft/Xml/src/domlette/domimplementation.o
+gcc -pthread -fno-strict-aliasing -g -O2 -DNDEBUG -g -fwrapv -O3 -Wall -Wstrict-prototypes -fPIC -DHAVE_EXPAT_CONFIG_H -DDomlette_BUILDING_MODULE -IFt/Xml/src -IFt/Xml/src/expat/lib -I/home/ubuntu/miniconda/envs/_build/include/python2.7 -c Ft/Xml/src/domlette/xpathnamespace.c -o build/temp.linux-x86_64-2.7/Ft/Xml/src/domlette/xpathnamespace.o
+gcc -pthread -fno-strict-aliasing -g -O2 -DNDEBUG -g -fwrapv -O3 -Wall -Wstrict-prototypes -fPIC -DHAVE_EXPAT_CONFIG_H -DDomlette_BUILDING_MODULE -IFt/Xml/src -IFt/Xml/src/expat/lib -I/home/ubuntu/miniconda/envs/_build/include/python2.7 -c Ft/Xml/src/domlette/refcounts.c -o build/temp.linux-x86_64-2.7/Ft/Xml/src/domlette/refcounts.o
+gcc -pthread -fno-strict-aliasing -g -O2 -DNDEBUG -g -fwrapv -O3 -Wall -Wstrict-prototypes -fPIC -DHAVE_EXPAT_CONFIG_H -DDomlette_BUILDING_MODULE -IFt/Xml/src -IFt/Xml/src/expat/lib -I/home/ubuntu/miniconda/envs/_build/include/python2.7 -c Ft/Xml/src/domlette/util.c -o build/temp.linux-x86_64-2.7/Ft/Xml/src/domlette/util.o
+gcc -pthread -fno-strict-aliasing -g -O2 -DNDEBUG -g -fwrapv -O3 -Wall -Wstrict-prototypes -fPIC -DHAVE_EXPAT_CONFIG_H -DDomlette_BUILDING_MODULE -IFt/Xml/src -IFt/Xml/src/expat/lib -I/home/ubuntu/miniconda/envs/_build/include/python2.7 -c Ft/Xml/src/domlette/state_machine.c -o build/temp.linux-x86_64-2.7/Ft/Xml/src/domlette/state_machine.o
+gcc -pthread -fno-strict-aliasing -g -O2 -DNDEBUG -g -fwrapv -O3 -Wall -Wstrict-prototypes -fPIC -DHAVE_EXPAT_CONFIG_H -DDomlette_BUILDING_MODULE -IFt/Xml/src -IFt/Xml/src/expat/lib -I/home/ubuntu/miniconda/envs/_build/include/python2.7 -c Ft/Xml/src/domlette/xmlchar.c -o build/temp.linux-x86_64-2.7/Ft/Xml/src/domlette/xmlchar.o
+gcc -pthread -fno-strict-aliasing -g -O2 -DNDEBUG -g -fwrapv -O3 -Wall -Wstrict-prototypes -fPIC -DHAVE_EXPAT_CONFIG_H -DDomlette_BUILDING_MODULE -IFt/Xml/src -IFt/Xml/src/expat/lib -I/home/ubuntu/miniconda/envs/_build/include/python2.7 -c Ft/Xml/src/domlette/content_model.c -o build/temp.linux-x86_64-2.7/Ft/Xml/src/domlette/content_model.o
+gcc -pthread -fno-strict-aliasing -g -O2 -DNDEBUG -g -fwrapv -O3 -Wall -Wstrict-prototypes -fPIC -DHAVE_EXPAT_CONFIG_H -DDomlette_BUILDING_MODULE -IFt/Xml/src -IFt/Xml/src/expat/lib -I/home/ubuntu/miniconda/envs/_build/include/python2.7 -c Ft/Xml/src/domlette/expat_module.c -o build/temp.linux-x86_64-2.7/Ft/Xml/src/domlette/expat_module.o
+gcc -pthread -fno-strict-aliasing -g -O2 -DNDEBUG -g -fwrapv -O3 -Wall -Wstrict-prototypes -fPIC -DHAVE_EXPAT_CONFIG_H -DDomlette_BUILDING_MODULE -IFt/Xml/src -IFt/Xml/src/expat/lib -I/home/ubuntu/miniconda/envs/_build/include/python2.7 -c Ft/Xml/src/domlette/parse_event_handler.c -o build/temp.linux-x86_64-2.7/Ft/Xml/src/domlette/parse_event_handler.o
+gcc -pthread -fno-strict-aliasing -g -O2 -DNDEBUG -g -fwrapv -O3 -Wall -Wstrict-prototypes -fPIC -DHAVE_EXPAT_CONFIG_H -DDomlette_BUILDING_MODULE -IFt/Xml/src -IFt/Xml/src/expat/lib -I/home/ubuntu/miniconda/envs/_build/include/python2.7 -c Ft/Xml/src/domlette/xmlparser.c -o build/temp.linux-x86_64-2.7/Ft/Xml/src/domlette/xmlparser.o
+Ft/Xml/src/domlette/xmlparser.c: In function ‘parser_setEntityResolver’:
+Ft/Xml/src/domlette/xmlparser.c:1844:24: warning: variable ‘temp’ set but not used [-Wunused-but-set-variable]
+   PyObject *resolver, *temp;
+                        ^
+Ft/Xml/src/domlette/xmlparser.c: In function ‘parser_setProperty’:
+Ft/Xml/src/domlette/xmlparser.c:2269:45: warning: comparison between ‘ExpatStatus’ and ‘enum XML_Status’ [-Wenum-compare]
+       if (Expat_ParserSuspend(self->parser) == XML_STATUS_ERROR) {
+                                             ^
+gcc -pthread -shared -L/home/ubuntu/miniconda/envs/_build/lib -Wl,-rpath=/home/ubuntu/miniconda/envs/_build/lib,--no-as-needed -Wl,--version-script,build/temp.linux-x86_64-2.7/Ft/Xml/cDomlettec.map build/temp.linux-x86_64-2.7/Ft/Xml/src/expat/lib/xmlparse.o build/temp.linux-x86_64-2.7/Ft/Xml/src/expat/lib/xmlrole.o build/temp.linux-x86_64-2.7/Ft/Xml/src/expat/lib/xmltok.o build/temp.linux-x86_64-2.7/Ft/Xml/src/domlette/domlette.o build/temp.linux-x86_64-2.7/Ft/Xml/src/domlette/exceptions.o build/temp.linux-x86_64-2.7/Ft/Xml/src/domlette/reader.o build/temp.linux-x86_64-2.7/Ft/Xml/src/domlette/nss.o build/temp.linux-x86_64-2.7/Ft/Xml/src/domlette/namednodemap.o build/temp.linux-x86_64-2.7/Ft/Xml/src/domlette/node.o build/temp.linux-x86_64-2.7/Ft/Xml/src/domlette/attr.o build/temp.linux-x86_64-2.7/Ft/Xml/src/domlette/element.o build/temp.linux-x86_64-2.7/Ft/Xml/src/domlette/processinginstruction.o build/temp.linux-x86_64-2.7/Ft/Xml/src/domlette/characterdata.o build/temp.linux-x86_64-2.7/Ft/Xml/src/domlette/comment.o build/temp.linux-x86_64-2.7/Ft/Xml/src/domlette/text.o build/temp.linux-x86_64-2.7/Ft/Xml/src/domlette/document.o build/temp.linux-x86_64-2.7/Ft/Xml/src/domlette/documentfragment.o build/temp.linux-x86_64-2.7/Ft/Xml/src/domlette/domimplementation.o build/temp.linux-x86_64-2.7/Ft/Xml/src/domlette/xpathnamespace.o build/temp.linux-x86_64-2.7/Ft/Xml/src/domlette/refcounts.o build/temp.linux-x86_64-2.7/Ft/Xml/src/domlette/util.o build/temp.linux-x86_64-2.7/Ft/Xml/src/domlette/state_machine.o build/temp.linux-x86_64-2.7/Ft/Xml/src/domlette/xmlchar.o build/temp.linux-x86_64-2.7/Ft/Xml/src/domlette/content_model.o build/temp.linux-x86_64-2.7/Ft/Xml/src/domlette/expat_module.o build/temp.linux-x86_64-2.7/Ft/Xml/src/domlette/parse_event_handler.o build/temp.linux-x86_64-2.7/Ft/Xml/src/domlette/xmlparser.o -L/home/ubuntu/miniconda/envs/_build/lib -lpython2.7 -o build/lib.linux-x86_64-2.7/Ft/Xml/cDomlettec.so
+building 'Ft.Xml.XPointer.XPtrExprParserc' extension
+creating build/temp.linux-x86_64-2.7/Ft/Xml/XPointer
+gcc -pthread -fno-strict-aliasing -g -O2 -DNDEBUG -g -fwrapv -O3 -Wall -Wstrict-prototypes -fPIC -I/home/ubuntu/miniconda/envs/_build/include/python2.7 -c Ft/Xml/XPointer/XPtrExprParser.c -o build/temp.linux-x86_64-2.7/Ft/Xml/XPointer/XPtrExprParser.o
+gcc -pthread -shared -L/home/ubuntu/miniconda/envs/_build/lib -Wl,-rpath=/home/ubuntu/miniconda/envs/_build/lib,--no-as-needed -Wl,--version-script,build/temp.linux-x86_64-2.7/Ft/Xml/XPointer/XPtrExprParserc.map build/temp.linux-x86_64-2.7/Ft/Xml/XPointer/XPtrExprParser.o -L/home/ubuntu/miniconda/envs/_build/lib -lpython2.7 -o build/lib.linux-x86_64-2.7/Ft/Xml/XPointer/XPtrExprParserc.so
+building 'Ft.Xml.XPointer.XPointerParserc' extension
+gcc -pthread -fno-strict-aliasing -g -O2 -DNDEBUG -g -fwrapv -O3 -Wall -Wstrict-prototypes -fPIC -I/home/ubuntu/miniconda/envs/_build/include/python2.7 -c Ft/Xml/XPointer/XPointerParser.c -o build/temp.linux-x86_64-2.7/Ft/Xml/XPointer/XPointerParser.o
+gcc -pthread -shared -L/home/ubuntu/miniconda/envs/_build/lib -Wl,-rpath=/home/ubuntu/miniconda/envs/_build/lib,--no-as-needed -Wl,--version-script,build/temp.linux-x86_64-2.7/Ft/Xml/XPointer/XPointerParserc.map build/temp.linux-x86_64-2.7/Ft/Xml/XPointer/XPointerParser.o -L/home/ubuntu/miniconda/envs/_build/lib -lpython2.7 -o build/lib.linux-x86_64-2.7/Ft/Xml/XPointer/XPointerParserc.so
+building 'Ft.Xml.Xslt.XPatternParserc' extension
+creating build/temp.linux-x86_64-2.7/Ft/Xml/Xslt
+gcc -pthread -fno-strict-aliasing -g -O2 -DNDEBUG -g -fwrapv -O3 -Wall -Wstrict-prototypes -fPIC -I/home/ubuntu/miniconda/envs/_build/include/python2.7 -c Ft/Xml/Xslt/XPatternParser.c -o build/temp.linux-x86_64-2.7/Ft/Xml/Xslt/XPatternParser.o
+gcc -pthread -shared -L/home/ubuntu/miniconda/envs/_build/lib -Wl,-rpath=/home/ubuntu/miniconda/envs/_build/lib,--no-as-needed -Wl,--version-script,build/temp.linux-x86_64-2.7/Ft/Xml/Xslt/XPatternParserc.map build/temp.linux-x86_64-2.7/Ft/Xml/Xslt/XPatternParser.o -L/home/ubuntu/miniconda/envs/_build/lib -lpython2.7 -o build/lib.linux-x86_64-2.7/Ft/Xml/Xslt/XPatternParserc.so
+building 'Ft.Xml.Xslt.AvtParserc' extension
+gcc -pthread -fno-strict-aliasing -g -O2 -DNDEBUG -g -fwrapv -O3 -Wall -Wstrict-prototypes -fPIC -I/home/ubuntu/miniconda/envs/_build/include/python2.7 -c Ft/Xml/Xslt/AvtParser.c -o build/temp.linux-x86_64-2.7/Ft/Xml/Xslt/AvtParser.o
+gcc -pthread -shared -L/home/ubuntu/miniconda/envs/_build/lib -Wl,-rpath=/home/ubuntu/miniconda/envs/_build/lib,--no-as-needed -Wl,--version-script,build/temp.linux-x86_64-2.7/Ft/Xml/Xslt/AvtParserc.map build/temp.linux-x86_64-2.7/Ft/Xml/Xslt/AvtParser.o -L/home/ubuntu/miniconda/envs/_build/lib -lpython2.7 -o build/lib.linux-x86_64-2.7/Ft/Xml/Xslt/AvtParserc.so
+running build_scripts
+creating build/scripts.linux-x86_64-2.7
+building '4xml' script
+building '4xpath' script
+building '4xslt' script
+building '4xupdate' script
+running build_docs
+documenting Ft.Lib.number -> docs/xml/modules/Ft.Lib.number.xml
+documenting Ft.Lib.EscapeQuotesc -> docs/xml/modules/Ft.Lib.EscapeQuotesc.xml
+documenting Ft.Lib.boolean -> docs/xml/modules/Ft.Lib.boolean.xml
+documenting Ft.Lib.Set -> docs/xml/modules/Ft.Lib.Set.xml
+documenting Ft.Xml.Lib.routines -> docs/xml/modules/Ft.Xml.Lib.routines.xml
+documenting Ft.Xml.Lib.cStreamWriter -> docs/xml/modules/Ft.Xml.Lib.cStreamWriter.xml
+documenting Ft.Xml.XPath.XPathParserc -> docs/xml/modules/Ft.Xml.XPath.XPathParserc.xml
+documenting Ft.Xml.XPath._conversions -> docs/xml/modules/Ft.Xml.XPath._conversions.xml
+documenting Ft.Xml.XPath._comparisons -> docs/xml/modules/Ft.Xml.XPath._comparisons.xml
+documenting Ft.Xml.Lib.XmlString -> docs/xml/modules/Ft.Xml.Lib.XmlString.xml
+documenting Ft.Xml.cDomlettec -> docs/xml/modules/Ft.Xml.cDomlettec.xml
+documenting Ft.Xml.XPointer.XPtrExprParserc -> docs/xml/modules/Ft.Xml.XPointer.XPtrExprParserc.xml
+documenting Ft.Xml.XPointer.XPointerParserc -> docs/xml/modules/Ft.Xml.XPointer.XPointerParserc.xml
+documenting Ft.Xml.Xslt.XPatternParserc -> docs/xml/modules/Ft.Xml.Xslt.XPatternParserc.xml
+documenting Ft.Xml.Xslt.AvtParserc -> docs/xml/modules/Ft.Xml.Xslt.AvtParserc.xml
+running install_lib
+creating /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/Ft
+copying build/lib.linux-x86_64-2.7/Ft/__init__.py -> /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/Ft
+creating /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/Ft/Lib
+copying build/lib.linux-x86_64-2.7/Ft/Lib/Resolvers.py -> /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/Ft/Lib
+copying build/lib.linux-x86_64-2.7/Ft/Lib/ObjectPrint.py -> /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/Ft/Lib
+copying build/lib.linux-x86_64-2.7/Ft/Lib/ImportUtil.py -> /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/Ft/Lib
+copying build/lib.linux-x86_64-2.7/Ft/Lib/DbUtil.py -> /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/Ft/Lib
+copying build/lib.linux-x86_64-2.7/Ft/Lib/MessageSource.py -> /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/Ft/Lib
+copying build/lib.linux-x86_64-2.7/Ft/Lib/Regex.py -> /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/Ft/Lib
+copying build/lib.linux-x86_64-2.7/Ft/Lib/Time.py -> /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/Ft/Lib
+copying build/lib.linux-x86_64-2.7/Ft/Lib/Terminfo.py -> /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/Ft/Lib
+copying build/lib.linux-x86_64-2.7/Ft/Lib/Terminal.py -> /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/Ft/Lib
+copying build/lib.linux-x86_64-2.7/Ft/Lib/__init__.py -> /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/Ft/Lib
+copying build/lib.linux-x86_64-2.7/Ft/Lib/Iri.py -> /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/Ft/Lib
+copying build/lib.linux-x86_64-2.7/Ft/Lib/Gettext.py -> /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/Ft/Lib
+copying build/lib.linux-x86_64-2.7/Ft/Lib/Uri.py -> /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/Ft/Lib
+copying build/lib.linux-x86_64-2.7/Ft/Lib/ProgressIndicator.py -> /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/Ft/Lib
+copying build/lib.linux-x86_64-2.7/Ft/Lib/Uuid.py -> /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/Ft/Lib
+copying build/lib.linux-x86_64-2.7/Ft/Lib/Random.py -> /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/Ft/Lib
+creating /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/Ft/Lib/CommandLine
+copying build/lib.linux-x86_64-2.7/Ft/Lib/CommandLine/CommandLineUtil.py -> /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/Ft/Lib/CommandLine
+copying build/lib.linux-x86_64-2.7/Ft/Lib/CommandLine/Options.py -> /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/Ft/Lib/CommandLine
+copying build/lib.linux-x86_64-2.7/Ft/Lib/CommandLine/FancyGetOpt.py -> /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/Ft/Lib/CommandLine
+copying build/lib.linux-x86_64-2.7/Ft/Lib/CommandLine/Command.py -> /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/Ft/Lib/CommandLine
+copying build/lib.linux-x86_64-2.7/Ft/Lib/CommandLine/CommandLineApp.py -> /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/Ft/Lib/CommandLine
+copying build/lib.linux-x86_64-2.7/Ft/Lib/CommandLine/__init__.py -> /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/Ft/Lib/CommandLine
+copying build/lib.linux-x86_64-2.7/Ft/Lib/CommandLine/Arguments.py -> /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/Ft/Lib/CommandLine
+copying build/lib.linux-x86_64-2.7/Ft/Lib/CommandLine/CommandLineTestUtil.py -> /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/Ft/Lib/CommandLine
+creating /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/Ft/Lib/DistExt
+copying build/lib.linux-x86_64-2.7/Ft/Lib/DistExt/BuildScripts.py -> /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/Ft/Lib/DistExt
+copying build/lib.linux-x86_64-2.7/Ft/Lib/DistExt/Config.py -> /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/Ft/Lib/DistExt
+copying build/lib.linux-x86_64-2.7/Ft/Lib/DistExt/InstallSysconf.py -> /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/Ft/Lib/DistExt
+copying build/lib.linux-x86_64-2.7/Ft/Lib/DistExt/InstallLib.py -> /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/Ft/Lib/DistExt
+copying build/lib.linux-x86_64-2.7/Ft/Lib/DistExt/InstallEggInfo.py -> /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/Ft/Lib/DistExt
+copying build/lib.linux-x86_64-2.7/Ft/Lib/DistExt/InstallDevel.py -> /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/Ft/Lib/DistExt
+copying build/lib.linux-x86_64-2.7/Ft/Lib/DistExt/InstallText.py -> /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/Ft/Lib/DistExt
+copying build/lib.linux-x86_64-2.7/Ft/Lib/DistExt/SDist.py -> /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/Ft/Lib/DistExt
+copying build/lib.linux-x86_64-2.7/Ft/Lib/DistExt/InstallScripts.py -> /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/Ft/Lib/DistExt
+copying build/lib.linux-x86_64-2.7/Ft/Lib/DistExt/Build.py -> /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/Ft/Lib/DistExt
+copying build/lib.linux-x86_64-2.7/Ft/Lib/DistExt/GenerateBisonGen.py -> /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/Ft/Lib/DistExt
+copying build/lib.linux-x86_64-2.7/Ft/Lib/DistExt/BuildPy.py -> /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/Ft/Lib/DistExt
+copying build/lib.linux-x86_64-2.7/Ft/Lib/DistExt/Version.py -> /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/Ft/Lib/DistExt
+copying build/lib.linux-x86_64-2.7/Ft/Lib/DistExt/BuildExt.py -> /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/Ft/Lib/DistExt
+copying build/lib.linux-x86_64-2.7/Ft/Lib/DistExt/BuildDocs.py -> /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/Ft/Lib/DistExt
+copying build/lib.linux-x86_64-2.7/Ft/Lib/DistExt/InstallLocalState.py -> /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/Ft/Lib/DistExt
+copying build/lib.linux-x86_64-2.7/Ft/Lib/DistExt/Generate.py -> /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/Ft/Lib/DistExt
+copying build/lib.linux-x86_64-2.7/Ft/Lib/DistExt/Py2Exe.py -> /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/Ft/Lib/DistExt
+copying build/lib.linux-x86_64-2.7/Ft/Lib/DistExt/InstallDocs.py -> /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/Ft/Lib/DistExt
+copying build/lib.linux-x86_64-2.7/Ft/Lib/DistExt/GenerateL10n.py -> /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/Ft/Lib/DistExt
+copying build/lib.linux-x86_64-2.7/Ft/Lib/DistExt/ImageHlp.py -> /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/Ft/Lib/DistExt
+copying build/lib.linux-x86_64-2.7/Ft/Lib/DistExt/BDistInno.py -> /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/Ft/Lib/DistExt
+copying build/lib.linux-x86_64-2.7/Ft/Lib/DistExt/Structures.py -> /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/Ft/Lib/DistExt
+copying build/lib.linux-x86_64-2.7/Ft/Lib/DistExt/InstallHtml.py -> /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/Ft/Lib/DistExt
+copying build/lib.linux-x86_64-2.7/Ft/Lib/DistExt/Dist.py -> /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/Ft/Lib/DistExt
+copying build/lib.linux-x86_64-2.7/Ft/Lib/DistExt/__init__.py -> /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/Ft/Lib/DistExt
+copying build/lib.linux-x86_64-2.7/Ft/Lib/DistExt/Uninstall.py -> /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/Ft/Lib/DistExt
+copying build/lib.linux-x86_64-2.7/Ft/Lib/DistExt/PackageManager.py -> /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/Ft/Lib/DistExt
+copying build/lib.linux-x86_64-2.7/Ft/Lib/DistExt/InstallData.py -> /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/Ft/Lib/DistExt
+copying build/lib.linux-x86_64-2.7/Ft/Lib/DistExt/InstallConfig.py -> /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/Ft/Lib/DistExt
+copying build/lib.linux-x86_64-2.7/Ft/Lib/DistExt/BDistRpm.py -> /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/Ft/Lib/DistExt
+copying build/lib.linux-x86_64-2.7/Ft/Lib/DistExt/ModuleFinder.py -> /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/Ft/Lib/DistExt
+copying build/lib.linux-x86_64-2.7/Ft/Lib/DistExt/BDist.py -> /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/Ft/Lib/DistExt
+copying build/lib.linux-x86_64-2.7/Ft/Lib/DistExt/Install.py -> /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/Ft/Lib/DistExt
+copying build/lib.linux-x86_64-2.7/Ft/Lib/DistExt/BDistEgg.py -> /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/Ft/Lib/DistExt
+copying build/lib.linux-x86_64-2.7/Ft/Lib/DistExt/InstallL10n.py -> /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/Ft/Lib/DistExt
+copying build/lib.linux-x86_64-2.7/Ft/Lib/DistExt/Util.py -> /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/Ft/Lib/DistExt
+copying build/lib.linux-x86_64-2.7/Ft/Lib/DistExt/InstallMisc.py -> /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/Ft/Lib/DistExt
+copying build/lib.linux-x86_64-2.7/Ft/Lib/DistExt/BuildL10n.py -> /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/Ft/Lib/DistExt
+creating /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/Ft/Lib/DistExt/Formatters
+copying build/lib.linux-x86_64-2.7/Ft/Lib/DistExt/Formatters/ExtensionFormatter.py -> /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/Ft/Lib/DistExt/Formatters
+copying build/lib.linux-x86_64-2.7/Ft/Lib/DistExt/Formatters/CommandLineFormatter.py -> /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/Ft/Lib/DistExt/Formatters
+copying build/lib.linux-x86_64-2.7/Ft/Lib/DistExt/Formatters/__init__.py -> /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/Ft/Lib/DistExt/Formatters
+copying build/lib.linux-x86_64-2.7/Ft/Lib/DistExt/Formatters/XmlFormatter.py -> /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/Ft/Lib/DistExt/Formatters
+copying build/lib.linux-x86_64-2.7/Ft/Lib/DistExt/Formatters/ApiFormatter.py -> /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/Ft/Lib/DistExt/Formatters
+creating /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/Ft/Lib/TestSuite
+copying build/lib.linux-x86_64-2.7/Ft/Lib/TestSuite/TestLoader.py -> /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/Ft/Lib/TestSuite
+copying build/lib.linux-x86_64-2.7/Ft/Lib/TestSuite/TestCoverage.py -> /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/Ft/Lib/TestSuite
+copying build/lib.linux-x86_64-2.7/Ft/Lib/TestSuite/Errors.py -> /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/Ft/Lib/TestSuite
+copying build/lib.linux-x86_64-2.7/Ft/Lib/TestSuite/Tester.py -> /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/Ft/Lib/TestSuite
+copying build/lib.linux-x86_64-2.7/Ft/Lib/TestSuite/TestObject.py -> /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/Ft/Lib/TestSuite
+copying build/lib.linux-x86_64-2.7/Ft/Lib/TestSuite/TestMode.py -> /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/Ft/Lib/TestSuite
+copying build/lib.linux-x86_64-2.7/Ft/Lib/TestSuite/__init__.py -> /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/Ft/Lib/TestSuite
+copying build/lib.linux-x86_64-2.7/Ft/Lib/TestSuite/TestSuite.py -> /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/Ft/Lib/TestSuite
+copying build/lib.linux-x86_64-2.7/Ft/Lib/TestSuite/TestModule.py -> /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/Ft/Lib/TestSuite
+copying build/lib.linux-x86_64-2.7/Ft/Lib/TestSuite/TestFunction.py -> /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/Ft/Lib/TestSuite
+creating /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/Ft/Xml
+copying build/lib.linux-x86_64-2.7/Ft/Xml/Domlette.py -> /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/Ft/Xml
+copying build/lib.linux-x86_64-2.7/Ft/Xml/Xvif.py -> /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/Ft/Xml
+copying build/lib.linux-x86_64-2.7/Ft/Xml/_4xml.py -> /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/Ft/Xml
+copying build/lib.linux-x86_64-2.7/Ft/Xml/Sax.py -> /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/Ft/Xml
+copying build/lib.linux-x86_64-2.7/Ft/Xml/MessageSource.py -> /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/Ft/Xml
+copying build/lib.linux-x86_64-2.7/Ft/Xml/Catalog.py -> /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/Ft/Xml
+copying build/lib.linux-x86_64-2.7/Ft/Xml/cDomlette.py -> /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/Ft/Xml
+copying build/lib.linux-x86_64-2.7/Ft/Xml/XInclude.py -> /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/Ft/Xml
+copying build/lib.linux-x86_64-2.7/Ft/Xml/__init__.py -> /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/Ft/Xml
+copying build/lib.linux-x86_64-2.7/Ft/Xml/InputSource.py -> /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/Ft/Xml
+copying build/lib.linux-x86_64-2.7/Ft/Xml/MarkupWriter.py -> /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/Ft/Xml
+copying build/lib.linux-x86_64-2.7/Ft/Xml/XUpdate.py -> /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/Ft/Xml
+creating /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/Ft/Xml/Lib
+copying build/lib.linux-x86_64-2.7/Ft/Xml/Lib/HtmlPrinter.py -> /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/Ft/Xml/Lib
+copying build/lib.linux-x86_64-2.7/Ft/Xml/Lib/StripElements.py -> /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/Ft/Xml/Lib
+copying build/lib.linux-x86_64-2.7/Ft/Xml/Lib/HtmlPrettyPrinter.py -> /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/Ft/Xml/Lib
+copying build/lib.linux-x86_64-2.7/Ft/Xml/Lib/XmlPrettyPrinter.py -> /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/Ft/Xml/Lib
+copying build/lib.linux-x86_64-2.7/Ft/Xml/Lib/TreeCompare.py -> /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/Ft/Xml/Lib
+copying build/lib.linux-x86_64-2.7/Ft/Xml/Lib/Print.py -> /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/Ft/Xml/Lib
+copying build/lib.linux-x86_64-2.7/Ft/Xml/Lib/__init__.py -> /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/Ft/Xml/Lib
+copying build/lib.linux-x86_64-2.7/Ft/Xml/Lib/XmlPrinter.py -> /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/Ft/Xml/Lib
+copying build/lib.linux-x86_64-2.7/Ft/Xml/Lib/_4xupdate.py -> /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/Ft/Xml/Lib
+creating /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/Ft/Xml/XPath
+copying build/lib.linux-x86_64-2.7/Ft/Xml/XPath/ParsedAbbreviatedRelativeLocationPath.py -> /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/Ft/Xml/XPath
+copying build/lib.linux-x86_64-2.7/Ft/Xml/XPath/MathFunctions.py -> /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/Ft/Xml/XPath
+copying build/lib.linux-x86_64-2.7/Ft/Xml/XPath/ParsedRelativeLocationPath.py -> /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/Ft/Xml/XPath
+copying build/lib.linux-x86_64-2.7/Ft/Xml/XPath/XPathTypes.py -> /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/Ft/Xml/XPath
+copying build/lib.linux-x86_64-2.7/Ft/Xml/XPath/_4xpath.py -> /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/Ft/Xml/XPath
+copying build/lib.linux-x86_64-2.7/Ft/Xml/XPath/ParsedExpr.py -> /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/Ft/Xml/XPath
+copying build/lib.linux-x86_64-2.7/Ft/Xml/XPath/Context.py -> /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/Ft/Xml/XPath
+copying build/lib.linux-x86_64-2.7/Ft/Xml/XPath/ParsedAxisSpecifier.py -> /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/Ft/Xml/XPath
+copying build/lib.linux-x86_64-2.7/Ft/Xml/XPath/ParsedAbbreviatedAbsoluteLocationPath.py -> /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/Ft/Xml/XPath
+copying build/lib.linux-x86_64-2.7/Ft/Xml/XPath/ParsedPredicateList.py -> /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/Ft/Xml/XPath
+copying build/lib.linux-x86_64-2.7/Ft/Xml/XPath/MessageSource.py -> /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/Ft/Xml/XPath
+copying build/lib.linux-x86_64-2.7/Ft/Xml/XPath/Conversions.py -> /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/Ft/Xml/XPath
+copying build/lib.linux-x86_64-2.7/Ft/Xml/XPath/ParsedAbsoluteLocationPath.py -> /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/Ft/Xml/XPath
+copying build/lib.linux-x86_64-2.7/Ft/Xml/XPath/BuiltInExtFunctions.py -> /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/Ft/Xml/XPath
+copying build/lib.linux-x86_64-2.7/Ft/Xml/XPath/ParsedStep.py -> /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/Ft/Xml/XPath
+copying build/lib.linux-x86_64-2.7/Ft/Xml/XPath/__init__.py -> /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/Ft/Xml/XPath
+copying build/lib.linux-x86_64-2.7/Ft/Xml/XPath/ParsedNodeTest.py -> /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/Ft/Xml/XPath
+copying build/lib.linux-x86_64-2.7/Ft/Xml/XPath/Util.py -> /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/Ft/Xml/XPath
+copying build/lib.linux-x86_64-2.7/Ft/Xml/XPath/CoreFunctions.py -> /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/Ft/Xml/XPath
+creating /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/Ft/Xml/XPointer
+copying build/lib.linux-x86_64-2.7/Ft/Xml/XPointer/ParsedXPointer.py -> /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/Ft/Xml/XPointer
+copying build/lib.linux-x86_64-2.7/Ft/Xml/XPointer/XPtrContext.py -> /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/Ft/Xml/XPointer
+copying build/lib.linux-x86_64-2.7/Ft/Xml/XPointer/MessageSource.py -> /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/Ft/Xml/XPointer
+copying build/lib.linux-x86_64-2.7/Ft/Xml/XPointer/XPointer.py -> /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/Ft/Xml/XPointer
+copying build/lib.linux-x86_64-2.7/Ft/Xml/XPointer/__init__.py -> /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/Ft/Xml/XPointer
+copying build/lib.linux-x86_64-2.7/Ft/Xml/XPointer/ParsedNodeTest.py -> /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/Ft/Xml/XPointer
+copying build/lib.linux-x86_64-2.7/Ft/Xml/XPointer/XPtrFunctions.py -> /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/Ft/Xml/XPointer
+creating /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/Ft/Xml/Xslt
+copying build/lib.linux-x86_64-2.7/Ft/Xml/Xslt/ParamElement.py -> /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/Ft/Xml/Xslt
+copying build/lib.linux-x86_64-2.7/Ft/Xml/Xslt/StringWriter.py -> /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/Ft/Xml/Xslt
+copying build/lib.linux-x86_64-2.7/Ft/Xml/Xslt/XPatterns.py -> /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/Ft/Xml/Xslt
+copying build/lib.linux-x86_64-2.7/Ft/Xml/Xslt/TextSax.py -> /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/Ft/Xml/Xslt
+copying build/lib.linux-x86_64-2.7/Ft/Xml/Xslt/ElementElement.py -> /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/Ft/Xml/Xslt
+copying build/lib.linux-x86_64-2.7/Ft/Xml/Xslt/CopyElement.py -> /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/Ft/Xml/Xslt
+copying build/lib.linux-x86_64-2.7/Ft/Xml/Xslt/ExtendedProcessingElements.py -> /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/Ft/Xml/Xslt
+copying build/lib.linux-x86_64-2.7/Ft/Xml/Xslt/TextElement.py -> /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/Ft/Xml/Xslt
+copying build/lib.linux-x86_64-2.7/Ft/Xml/Xslt/AttributeElement.py -> /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/Ft/Xml/Xslt
+copying build/lib.linux-x86_64-2.7/Ft/Xml/Xslt/SaxWriter.py -> /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/Ft/Xml/Xslt
+copying build/lib.linux-x86_64-2.7/Ft/Xml/Xslt/SortElement.py -> /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/Ft/Xml/Xslt
+copying build/lib.linux-x86_64-2.7/Ft/Xml/Xslt/DomWriter.py -> /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/Ft/Xml/Xslt
+copying build/lib.linux-x86_64-2.7/Ft/Xml/Xslt/WhitespaceElements.py -> /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/Ft/Xml/Xslt
+copying build/lib.linux-x86_64-2.7/Ft/Xml/Xslt/OutputParameters.py -> /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/Ft/Xml/Xslt
+copying build/lib.linux-x86_64-2.7/Ft/Xml/Xslt/WithParamElement.py -> /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/Ft/Xml/Xslt
+copying build/lib.linux-x86_64-2.7/Ft/Xml/Xslt/CopyOfElement.py -> /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/Ft/Xml/Xslt
+copying build/lib.linux-x86_64-2.7/Ft/Xml/Xslt/ProcessingInstructionElement.py -> /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/Ft/Xml/Xslt
+copying build/lib.linux-x86_64-2.7/Ft/Xml/Xslt/OutputHandler.py -> /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/Ft/Xml/Xslt
+copying build/lib.linux-x86_64-2.7/Ft/Xml/Xslt/ContentInfo.py -> /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/Ft/Xml/Xslt
+copying build/lib.linux-x86_64-2.7/Ft/Xml/Xslt/StylesheetReader.py -> /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/Ft/Xml/Xslt
+copying build/lib.linux-x86_64-2.7/Ft/Xml/Xslt/CommentElement.py -> /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/Ft/Xml/Xslt
+copying build/lib.linux-x86_64-2.7/Ft/Xml/Xslt/IfElement.py -> /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/Ft/Xml/Xslt
+copying build/lib.linux-x86_64-2.7/Ft/Xml/Xslt/AttributeValueTemplate.py -> /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/Ft/Xml/Xslt
+copying build/lib.linux-x86_64-2.7/Ft/Xml/Xslt/PlainTextWriter.py -> /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/Ft/Xml/Xslt
+copying build/lib.linux-x86_64-2.7/Ft/Xml/Xslt/LiteralElement.py -> /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/Ft/Xml/Xslt
+copying build/lib.linux-x86_64-2.7/Ft/Xml/Xslt/MessageSource.py -> /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/Ft/Xml/Xslt
+copying build/lib.linux-x86_64-2.7/Ft/Xml/Xslt/XsltFunctions.py -> /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/Ft/Xml/Xslt
+copying build/lib.linux-x86_64-2.7/Ft/Xml/Xslt/OtherXslElement.py -> /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/Ft/Xml/Xslt
+copying build/lib.linux-x86_64-2.7/Ft/Xml/Xslt/MessageElement.py -> /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/Ft/Xml/Xslt
+copying build/lib.linux-x86_64-2.7/Ft/Xml/Xslt/CallTemplateElement.py -> /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/Ft/Xml/Xslt
+copying build/lib.linux-x86_64-2.7/Ft/Xml/Xslt/AttributeSetElement.py -> /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/Ft/Xml/Xslt
+copying build/lib.linux-x86_64-2.7/Ft/Xml/Xslt/TemplateElement.py -> /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/Ft/Xml/Xslt
+copying build/lib.linux-x86_64-2.7/Ft/Xml/Xslt/StylesheetTree.py -> /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/Ft/Xml/Xslt
+copying build/lib.linux-x86_64-2.7/Ft/Xml/Xslt/BuiltInExtElements.py -> /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/Ft/Xml/Xslt
+copying build/lib.linux-x86_64-2.7/Ft/Xml/Xslt/NumberFormatter.py -> /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/Ft/Xml/Xslt
+copying build/lib.linux-x86_64-2.7/Ft/Xml/Xslt/UndefinedElements.py -> /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/Ft/Xml/Xslt
+copying build/lib.linux-x86_64-2.7/Ft/Xml/Xslt/NullWriter.py -> /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/Ft/Xml/Xslt
+copying build/lib.linux-x86_64-2.7/Ft/Xml/Xslt/NumberElement.py -> /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/Ft/Xml/Xslt
+copying build/lib.linux-x86_64-2.7/Ft/Xml/Xslt/BuiltInExtFunctions.py -> /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/Ft/Xml/Xslt
+copying build/lib.linux-x86_64-2.7/Ft/Xml/Xslt/ForEachElement.py -> /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/Ft/Xml/Xslt
+copying build/lib.linux-x86_64-2.7/Ft/Xml/Xslt/VariableElement.py -> /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/Ft/Xml/Xslt
+copying build/lib.linux-x86_64-2.7/Ft/Xml/Xslt/XsltContext.py -> /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/Ft/Xml/Xslt
+copying build/lib.linux-x86_64-2.7/Ft/Xml/Xslt/HtmlWriter.py -> /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/Ft/Xml/Xslt
+copying build/lib.linux-x86_64-2.7/Ft/Xml/Xslt/_4xslt.py -> /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/Ft/Xml/Xslt
+copying build/lib.linux-x86_64-2.7/Ft/Xml/Xslt/__init__.py -> /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/Ft/Xml/Xslt
+copying build/lib.linux-x86_64-2.7/Ft/Xml/Xslt/ApplyTemplatesElement.py -> /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/Ft/Xml/Xslt
+copying build/lib.linux-x86_64-2.7/Ft/Xml/Xslt/XPathExtensions.py -> /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/Ft/Xml/Xslt
+copying build/lib.linux-x86_64-2.7/Ft/Xml/Xslt/Processor.py -> /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/Ft/Xml/Xslt
+copying build/lib.linux-x86_64-2.7/Ft/Xml/Xslt/GenericVariable.py -> /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/Ft/Xml/Xslt
+copying build/lib.linux-x86_64-2.7/Ft/Xml/Xslt/ApplyImportsElement.py -> /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/Ft/Xml/Xslt
+copying build/lib.linux-x86_64-2.7/Ft/Xml/Xslt/Stylesheet.py -> /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/Ft/Xml/Xslt
+copying build/lib.linux-x86_64-2.7/Ft/Xml/Xslt/AttributeInfo.py -> /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/Ft/Xml/Xslt
+copying build/lib.linux-x86_64-2.7/Ft/Xml/Xslt/XmlWriter.py -> /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/Ft/Xml/Xslt
+copying build/lib.linux-x86_64-2.7/Ft/Xml/Xslt/ChooseElement.py -> /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/Ft/Xml/Xslt
+copying build/lib.linux-x86_64-2.7/Ft/Xml/Xslt/RtfWriter.py -> /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/Ft/Xml/Xslt
+copying build/lib.linux-x86_64-2.7/Ft/Xml/Xslt/ValueOfElement.py -> /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/Ft/Xml/Xslt
+copying build/lib.linux-x86_64-2.7/Ft/Xml/Xslt/StylesheetHandler.py -> /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/Ft/Xml/Xslt
+copying build/lib.linux-x86_64-2.7/Ft/Xml/Xslt/Roman.py -> /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/Ft/Xml/Xslt
+creating /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/Ft/Xml/Xslt/Exslt
+copying build/lib.linux-x86_64-2.7/Ft/Xml/Xslt/Exslt/Math_.py -> /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/Ft/Xml/Xslt/Exslt
+copying build/lib.linux-x86_64-2.7/Ft/Xml/Xslt/Exslt/Strings.py -> /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/Ft/Xml/Xslt/Exslt
+copying build/lib.linux-x86_64-2.7/Ft/Xml/Xslt/Exslt/DateTime.py -> /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/Ft/Xml/Xslt/Exslt
+copying build/lib.linux-x86_64-2.7/Ft/Xml/Xslt/Exslt/RegularExpressions.py -> /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/Ft/Xml/Xslt/Exslt
+copying build/lib.linux-x86_64-2.7/Ft/Xml/Xslt/Exslt/MessageSource.py -> /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/Ft/Xml/Xslt/Exslt
+copying build/lib.linux-x86_64-2.7/Ft/Xml/Xslt/Exslt/Common.py -> /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/Ft/Xml/Xslt/Exslt
+copying build/lib.linux-x86_64-2.7/Ft/Xml/Xslt/Exslt/Functions.py -> /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/Ft/Xml/Xslt/Exslt
+copying build/lib.linux-x86_64-2.7/Ft/Xml/Xslt/Exslt/Dynamic.py -> /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/Ft/Xml/Xslt/Exslt
+copying build/lib.linux-x86_64-2.7/Ft/Xml/Xslt/Exslt/__init__.py -> /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/Ft/Xml/Xslt/Exslt
+copying build/lib.linux-x86_64-2.7/Ft/Xml/Xslt/Exslt/Sets.py -> /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/Ft/Xml/Xslt/Exslt
+creating /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/Ft/Xml/Xslt/Debugger
+copying build/lib.linux-x86_64-2.7/Ft/Xml/Xslt/Debugger/DebugWriter.py -> /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/Ft/Xml/Xslt/Debugger
+copying build/lib.linux-x86_64-2.7/Ft/Xml/Xslt/Debugger/TerminalOutput.py -> /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/Ft/Xml/Xslt/Debugger
+copying build/lib.linux-x86_64-2.7/Ft/Xml/Xslt/Debugger/TerminalInput.py -> /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/Ft/Xml/Xslt/Debugger
+copying build/lib.linux-x86_64-2.7/Ft/Xml/Xslt/Debugger/DebugCommands.py -> /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/Ft/Xml/Xslt/Debugger
+copying build/lib.linux-x86_64-2.7/Ft/Xml/Xslt/Debugger/__init__.py -> /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/Ft/Xml/Xslt/Debugger
+copying build/lib.linux-x86_64-2.7/Ft/Xml/Xslt/Debugger/DebugController.py -> /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/Ft/Xml/Xslt/Debugger
+creating /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/Ft/Xml/XLink
+copying build/lib.linux-x86_64-2.7/Ft/Xml/XLink/XLinkElements.py -> /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/Ft/Xml/XLink
+copying build/lib.linux-x86_64-2.7/Ft/Xml/XLink/__init__.py -> /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/Ft/Xml/XLink
+copying build/lib.linux-x86_64-2.7/Ft/Xml/XLink/Processor.py -> /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/Ft/Xml/XLink
+creating /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/Ft/Xml/ThirdParty
+copying build/lib.linux-x86_64-2.7/Ft/Xml/ThirdParty/__init__.py -> /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/Ft/Xml/ThirdParty
+creating /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/Ft/Xml/ThirdParty/Xvif
+copying build/lib.linux-x86_64-2.7/Ft/Xml/ThirdParty/Xvif/iframe.py -> /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/Ft/Xml/ThirdParty/Xvif
+copying build/lib.linux-x86_64-2.7/Ft/Xml/ThirdParty/Xvif/xmlchargen.py -> /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/Ft/Xml/ThirdParty/Xvif
+copying build/lib.linux-x86_64-2.7/Ft/Xml/ThirdParty/Xvif/sax2dom_chunker.py -> /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/Ft/Xml/ThirdParty/Xvif
+copying build/lib.linux-x86_64-2.7/Ft/Xml/ThirdParty/Xvif/rngCoreTypeLib.py -> /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/Ft/Xml/ThirdParty/Xvif
+copying build/lib.linux-x86_64-2.7/Ft/Xml/ThirdParty/Xvif/Smart_len.py -> /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/Ft/Xml/ThirdParty/Xvif
+copying build/lib.linux-x86_64-2.7/Ft/Xml/ThirdParty/Xvif/iFrameXSLT.py -> /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/Ft/Xml/ThirdParty/Xvif
+copying build/lib.linux-x86_64-2.7/Ft/Xml/ThirdParty/Xvif/wxsTypeLib.py -> /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/Ft/Xml/ThirdParty/Xvif
+copying build/lib.linux-x86_64-2.7/Ft/Xml/ThirdParty/Xvif/FragmentFilter.py -> /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/Ft/Xml/ThirdParty/Xvif
+copying build/lib.linux-x86_64-2.7/Ft/Xml/ThirdParty/Xvif/rng.py -> /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/Ft/Xml/ThirdParty/Xvif
+copying build/lib.linux-x86_64-2.7/Ft/Xml/ThirdParty/Xvif/xmlcomp.py -> /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/Ft/Xml/ThirdParty/Xvif
+copying build/lib.linux-x86_64-2.7/Ft/Xml/ThirdParty/Xvif/iFrameRNG.py -> /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/Ft/Xml/ThirdParty/Xvif
+copying build/lib.linux-x86_64-2.7/Ft/Xml/ThirdParty/Xvif/__init__.py -> /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/Ft/Xml/ThirdParty/Xvif
+copying build/lib.linux-x86_64-2.7/Ft/Xml/ThirdParty/Xvif/iFrameTypes.py -> /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/Ft/Xml/ThirdParty/Xvif
+copying build/lib.linux-x86_64-2.7/Ft/Xml/ThirdParty/Xvif/iFrameRegFrag.py -> /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/Ft/Xml/ThirdParty/Xvif
+copying build/lib.linux-x86_64-2.7/Ft/Xml/ThirdParty/Xvif/TimeLib.py -> /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/Ft/Xml/ThirdParty/Xvif
+copying build/lib.linux-x86_64-2.7/Ft/Xml/ThirdParty/Xvif/characters.py -> /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/Ft/Xml/ThirdParty/Xvif
+copying build/lib.linux-x86_64-2.7/Ft/Lib/DistExt/stubmain.exe -> /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/Ft/Lib/DistExt
+copying build/lib.linux-x86_64-2.7/Ft/Lib/number.so -> /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/Ft/Lib
+copying build/lib.linux-x86_64-2.7/Ft/Lib/EscapeQuotesc.so -> /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/Ft/Lib
+copying build/lib.linux-x86_64-2.7/Ft/Lib/boolean.so -> /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/Ft/Lib
+copying build/lib.linux-x86_64-2.7/Ft/Lib/Set.so -> /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/Ft/Lib
+copying build/lib.linux-x86_64-2.7/Ft/Xml/Lib/routines.so -> /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/Ft/Xml/Lib
+copying build/lib.linux-x86_64-2.7/Ft/Xml/Lib/cStreamWriter.so -> /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/Ft/Xml/Lib
+copying build/lib.linux-x86_64-2.7/Ft/Xml/XPath/XPathParserc.so -> /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/Ft/Xml/XPath
+copying build/lib.linux-x86_64-2.7/Ft/Xml/XPath/_conversions.so -> /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/Ft/Xml/XPath
+copying build/lib.linux-x86_64-2.7/Ft/Xml/XPath/_comparisons.so -> /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/Ft/Xml/XPath
+copying build/lib.linux-x86_64-2.7/Ft/Xml/Lib/XmlString.so -> /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/Ft/Xml/Lib
+copying build/lib.linux-x86_64-2.7/Ft/Xml/cDomlettec.so -> /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/Ft/Xml
+copying build/lib.linux-x86_64-2.7/Ft/Xml/XPointer/XPtrExprParserc.so -> /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/Ft/Xml/XPointer
+copying build/lib.linux-x86_64-2.7/Ft/Xml/XPointer/XPointerParserc.so -> /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/Ft/Xml/XPointer
+copying build/lib.linux-x86_64-2.7/Ft/Xml/Xslt/XPatternParserc.so -> /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/Ft/Xml/Xslt
+copying build/lib.linux-x86_64-2.7/Ft/Xml/Xslt/AvtParserc.so -> /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/Ft/Xml/Xslt
+byte-compiling /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/Ft/__init__.py to __init__.pyc
+byte-compiling /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/Ft/Lib/Resolvers.py to Resolvers.pyc
+byte-compiling /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/Ft/Lib/ObjectPrint.py to ObjectPrint.pyc
+byte-compiling /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/Ft/Lib/ImportUtil.py to ImportUtil.pyc
+byte-compiling /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/Ft/Lib/DbUtil.py to DbUtil.pyc
+byte-compiling /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/Ft/Lib/MessageSource.py to MessageSource.pyc
+byte-compiling /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/Ft/Lib/Regex.py to Regex.pyc
+byte-compiling /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/Ft/Lib/Time.py to Time.pyc
+byte-compiling /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/Ft/Lib/Terminfo.py to Terminfo.pyc
+byte-compiling /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/Ft/Lib/Terminal.py to Terminal.pyc
+byte-compiling /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/Ft/Lib/__init__.py to __init__.pyc
+byte-compiling /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/Ft/Lib/Iri.py to Iri.pyc
+byte-compiling /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/Ft/Lib/Gettext.py to Gettext.pyc
+byte-compiling /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/Ft/Lib/Uri.py to Uri.pyc
+byte-compiling /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/Ft/Lib/ProgressIndicator.py to ProgressIndicator.pyc
+byte-compiling /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/Ft/Lib/Uuid.py to Uuid.pyc
+byte-compiling /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/Ft/Lib/Random.py to Random.pyc
+byte-compiling /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/Ft/Lib/CommandLine/CommandLineUtil.py to CommandLineUtil.pyc
+byte-compiling /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/Ft/Lib/CommandLine/Options.py to Options.pyc
+byte-compiling /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/Ft/Lib/CommandLine/FancyGetOpt.py to FancyGetOpt.pyc
+byte-compiling /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/Ft/Lib/CommandLine/Command.py to Command.pyc
+byte-compiling /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/Ft/Lib/CommandLine/CommandLineApp.py to CommandLineApp.pyc
+byte-compiling /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/Ft/Lib/CommandLine/__init__.py to __init__.pyc
+byte-compiling /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/Ft/Lib/CommandLine/Arguments.py to Arguments.pyc
+byte-compiling /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/Ft/Lib/CommandLine/CommandLineTestUtil.py to CommandLineTestUtil.pyc
+byte-compiling /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/Ft/Lib/DistExt/BuildScripts.py to BuildScripts.pyc
+byte-compiling /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/Ft/Lib/DistExt/Config.py to Config.pyc
+byte-compiling /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/Ft/Lib/DistExt/InstallSysconf.py to InstallSysconf.pyc
+byte-compiling /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/Ft/Lib/DistExt/InstallLib.py to InstallLib.pyc
+byte-compiling /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/Ft/Lib/DistExt/InstallEggInfo.py to InstallEggInfo.pyc
+byte-compiling /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/Ft/Lib/DistExt/InstallDevel.py to InstallDevel.pyc
+byte-compiling /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/Ft/Lib/DistExt/InstallText.py to InstallText.pyc
+byte-compiling /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/Ft/Lib/DistExt/SDist.py to SDist.pyc
+byte-compiling /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/Ft/Lib/DistExt/InstallScripts.py to InstallScripts.pyc
+byte-compiling /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/Ft/Lib/DistExt/Build.py to Build.pyc
+byte-compiling /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/Ft/Lib/DistExt/GenerateBisonGen.py to GenerateBisonGen.pyc
+byte-compiling /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/Ft/Lib/DistExt/BuildPy.py to BuildPy.pyc
+byte-compiling /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/Ft/Lib/DistExt/Version.py to Version.pyc
+byte-compiling /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/Ft/Lib/DistExt/BuildExt.py to BuildExt.pyc
+byte-compiling /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/Ft/Lib/DistExt/BuildDocs.py to BuildDocs.pyc
+byte-compiling /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/Ft/Lib/DistExt/InstallLocalState.py to InstallLocalState.pyc
+byte-compiling /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/Ft/Lib/DistExt/Generate.py to Generate.pyc
+byte-compiling /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/Ft/Lib/DistExt/Py2Exe.py to Py2Exe.pyc
+byte-compiling /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/Ft/Lib/DistExt/InstallDocs.py to InstallDocs.pyc
+byte-compiling /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/Ft/Lib/DistExt/GenerateL10n.py to GenerateL10n.pyc
+byte-compiling /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/Ft/Lib/DistExt/ImageHlp.py to ImageHlp.pyc
+byte-compiling /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/Ft/Lib/DistExt/BDistInno.py to BDistInno.pyc
+byte-compiling /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/Ft/Lib/DistExt/Structures.py to Structures.pyc
+byte-compiling /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/Ft/Lib/DistExt/InstallHtml.py to InstallHtml.pyc
+byte-compiling /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/Ft/Lib/DistExt/Dist.py to Dist.pyc
+byte-compiling /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/Ft/Lib/DistExt/__init__.py to __init__.pyc
+byte-compiling /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/Ft/Lib/DistExt/Uninstall.py to Uninstall.pyc
+byte-compiling /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/Ft/Lib/DistExt/PackageManager.py to PackageManager.pyc
+byte-compiling /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/Ft/Lib/DistExt/InstallData.py to InstallData.pyc
+byte-compiling /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/Ft/Lib/DistExt/InstallConfig.py to InstallConfig.pyc
+byte-compiling /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/Ft/Lib/DistExt/BDistRpm.py to BDistRpm.pyc
+byte-compiling /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/Ft/Lib/DistExt/ModuleFinder.py to ModuleFinder.pyc
+byte-compiling /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/Ft/Lib/DistExt/BDist.py to BDist.pyc
+byte-compiling /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/Ft/Lib/DistExt/Install.py to Install.pyc
+byte-compiling /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/Ft/Lib/DistExt/BDistEgg.py to BDistEgg.pyc
+byte-compiling /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/Ft/Lib/DistExt/InstallL10n.py to InstallL10n.pyc
+byte-compiling /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/Ft/Lib/DistExt/Util.py to Util.pyc
+byte-compiling /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/Ft/Lib/DistExt/InstallMisc.py to InstallMisc.pyc
+byte-compiling /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/Ft/Lib/DistExt/BuildL10n.py to BuildL10n.pyc
+byte-compiling /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/Ft/Lib/DistExt/Formatters/ExtensionFormatter.py to ExtensionFormatter.pyc
+byte-compiling /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/Ft/Lib/DistExt/Formatters/CommandLineFormatter.py to CommandLineFormatter.pyc
+byte-compiling /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/Ft/Lib/DistExt/Formatters/__init__.py to __init__.pyc
+byte-compiling /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/Ft/Lib/DistExt/Formatters/XmlFormatter.py to XmlFormatter.pyc
+byte-compiling /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/Ft/Lib/DistExt/Formatters/ApiFormatter.py to ApiFormatter.pyc
+byte-compiling /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/Ft/Lib/TestSuite/TestLoader.py to TestLoader.pyc
+byte-compiling /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/Ft/Lib/TestSuite/TestCoverage.py to TestCoverage.pyc
+byte-compiling /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/Ft/Lib/TestSuite/Errors.py to Errors.pyc
+byte-compiling /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/Ft/Lib/TestSuite/Tester.py to Tester.pyc
+byte-compiling /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/Ft/Lib/TestSuite/TestObject.py to TestObject.pyc
+byte-compiling /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/Ft/Lib/TestSuite/TestMode.py to TestMode.pyc
+byte-compiling /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/Ft/Lib/TestSuite/__init__.py to __init__.pyc
+byte-compiling /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/Ft/Lib/TestSuite/TestSuite.py to TestSuite.pyc
+byte-compiling /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/Ft/Lib/TestSuite/TestModule.py to TestModule.pyc
+byte-compiling /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/Ft/Lib/TestSuite/TestFunction.py to TestFunction.pyc
+byte-compiling /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/Ft/Xml/Domlette.py to Domlette.pyc
+byte-compiling /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/Ft/Xml/Xvif.py to Xvif.pyc
+byte-compiling /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/Ft/Xml/_4xml.py to _4xml.pyc
+byte-compiling /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/Ft/Xml/Sax.py to Sax.pyc
+byte-compiling /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/Ft/Xml/MessageSource.py to MessageSource.pyc
+byte-compiling /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/Ft/Xml/Catalog.py to Catalog.pyc
+byte-compiling /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/Ft/Xml/cDomlette.py to cDomlette.pyc
+byte-compiling /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/Ft/Xml/XInclude.py to XInclude.pyc
+byte-compiling /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/Ft/Xml/__init__.py to __init__.pyc
+byte-compiling /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/Ft/Xml/InputSource.py to InputSource.pyc
+byte-compiling /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/Ft/Xml/MarkupWriter.py to MarkupWriter.pyc
+byte-compiling /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/Ft/Xml/XUpdate.py to XUpdate.pyc
+byte-compiling /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/Ft/Xml/Lib/HtmlPrinter.py to HtmlPrinter.pyc
+byte-compiling /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/Ft/Xml/Lib/StripElements.py to StripElements.pyc
+byte-compiling /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/Ft/Xml/Lib/HtmlPrettyPrinter.py to HtmlPrettyPrinter.pyc
+byte-compiling /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/Ft/Xml/Lib/XmlPrettyPrinter.py to XmlPrettyPrinter.pyc
+byte-compiling /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/Ft/Xml/Lib/TreeCompare.py to TreeCompare.pyc
+byte-compiling /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/Ft/Xml/Lib/Print.py to Print.pyc
+byte-compiling /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/Ft/Xml/Lib/__init__.py to __init__.pyc
+byte-compiling /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/Ft/Xml/Lib/XmlPrinter.py to XmlPrinter.pyc
+byte-compiling /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/Ft/Xml/Lib/_4xupdate.py to _4xupdate.pyc
+byte-compiling /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/Ft/Xml/XPath/ParsedAbbreviatedRelativeLocationPath.py to ParsedAbbreviatedRelativeLocationPath.pyc
+byte-compiling /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/Ft/Xml/XPath/MathFunctions.py to MathFunctions.pyc
+byte-compiling /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/Ft/Xml/XPath/ParsedRelativeLocationPath.py to ParsedRelativeLocationPath.pyc
+byte-compiling /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/Ft/Xml/XPath/XPathTypes.py to XPathTypes.pyc
+byte-compiling /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/Ft/Xml/XPath/_4xpath.py to _4xpath.pyc
+byte-compiling /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/Ft/Xml/XPath/ParsedExpr.py to ParsedExpr.pyc
+byte-compiling /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/Ft/Xml/XPath/Context.py to Context.pyc
+byte-compiling /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/Ft/Xml/XPath/ParsedAxisSpecifier.py to ParsedAxisSpecifier.pyc
+byte-compiling /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/Ft/Xml/XPath/ParsedAbbreviatedAbsoluteLocationPath.py to ParsedAbbreviatedAbsoluteLocationPath.pyc
+byte-compiling /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/Ft/Xml/XPath/ParsedPredicateList.py to ParsedPredicateList.pyc
+byte-compiling /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/Ft/Xml/XPath/MessageSource.py to MessageSource.pyc
+byte-compiling /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/Ft/Xml/XPath/Conversions.py to Conversions.pyc
+byte-compiling /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/Ft/Xml/XPath/ParsedAbsoluteLocationPath.py to ParsedAbsoluteLocationPath.pyc
+byte-compiling /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/Ft/Xml/XPath/BuiltInExtFunctions.py to BuiltInExtFunctions.pyc
+byte-compiling /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/Ft/Xml/XPath/ParsedStep.py to ParsedStep.pyc
+byte-compiling /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/Ft/Xml/XPath/__init__.py to __init__.pyc
+byte-compiling /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/Ft/Xml/XPath/ParsedNodeTest.py to ParsedNodeTest.pyc
+byte-compiling /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/Ft/Xml/XPath/Util.py to Util.pyc
+byte-compiling /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/Ft/Xml/XPath/CoreFunctions.py to CoreFunctions.pyc
+byte-compiling /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/Ft/Xml/XPointer/ParsedXPointer.py to ParsedXPointer.pyc
+byte-compiling /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/Ft/Xml/XPointer/XPtrContext.py to XPtrContext.pyc
+byte-compiling /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/Ft/Xml/XPointer/MessageSource.py to MessageSource.pyc
+byte-compiling /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/Ft/Xml/XPointer/XPointer.py to XPointer.pyc
+byte-compiling /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/Ft/Xml/XPointer/__init__.py to __init__.pyc
+byte-compiling /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/Ft/Xml/XPointer/ParsedNodeTest.py to ParsedNodeTest.pyc
+byte-compiling /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/Ft/Xml/XPointer/XPtrFunctions.py to XPtrFunctions.pyc
+byte-compiling /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/Ft/Xml/Xslt/ParamElement.py to ParamElement.pyc
+byte-compiling /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/Ft/Xml/Xslt/StringWriter.py to StringWriter.pyc
+byte-compiling /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/Ft/Xml/Xslt/XPatterns.py to XPatterns.pyc
+byte-compiling /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/Ft/Xml/Xslt/TextSax.py to TextSax.pyc
+byte-compiling /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/Ft/Xml/Xslt/ElementElement.py to ElementElement.pyc
+byte-compiling /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/Ft/Xml/Xslt/CopyElement.py to CopyElement.pyc
+byte-compiling /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/Ft/Xml/Xslt/ExtendedProcessingElements.py to ExtendedProcessingElements.pyc
+byte-compiling /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/Ft/Xml/Xslt/TextElement.py to TextElement.pyc
+byte-compiling /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/Ft/Xml/Xslt/AttributeElement.py to AttributeElement.pyc
+byte-compiling /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/Ft/Xml/Xslt/SaxWriter.py to SaxWriter.pyc
+byte-compiling /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/Ft/Xml/Xslt/SortElement.py to SortElement.pyc
+byte-compiling /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/Ft/Xml/Xslt/DomWriter.py to DomWriter.pyc
+byte-compiling /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/Ft/Xml/Xslt/WhitespaceElements.py to WhitespaceElements.pyc
+byte-compiling /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/Ft/Xml/Xslt/OutputParameters.py to OutputParameters.pyc
+byte-compiling /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/Ft/Xml/Xslt/WithParamElement.py to WithParamElement.pyc
+byte-compiling /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/Ft/Xml/Xslt/CopyOfElement.py to CopyOfElement.pyc
+byte-compiling /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/Ft/Xml/Xslt/ProcessingInstructionElement.py to ProcessingInstructionElement.pyc
+byte-compiling /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/Ft/Xml/Xslt/OutputHandler.py to OutputHandler.pyc
+byte-compiling /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/Ft/Xml/Xslt/ContentInfo.py to ContentInfo.pyc
+byte-compiling /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/Ft/Xml/Xslt/StylesheetReader.py to StylesheetReader.pyc
+byte-compiling /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/Ft/Xml/Xslt/CommentElement.py to CommentElement.pyc
+byte-compiling /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/Ft/Xml/Xslt/IfElement.py to IfElement.pyc
+byte-compiling /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/Ft/Xml/Xslt/AttributeValueTemplate.py to AttributeValueTemplate.pyc
+byte-compiling /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/Ft/Xml/Xslt/PlainTextWriter.py to PlainTextWriter.pyc
+byte-compiling /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/Ft/Xml/Xslt/LiteralElement.py to LiteralElement.pyc
+byte-compiling /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/Ft/Xml/Xslt/MessageSource.py to MessageSource.pyc
+byte-compiling /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/Ft/Xml/Xslt/XsltFunctions.py to XsltFunctions.pyc
+byte-compiling /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/Ft/Xml/Xslt/OtherXslElement.py to OtherXslElement.pyc
+byte-compiling /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/Ft/Xml/Xslt/MessageElement.py to MessageElement.pyc
+byte-compiling /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/Ft/Xml/Xslt/CallTemplateElement.py to CallTemplateElement.pyc
+byte-compiling /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/Ft/Xml/Xslt/AttributeSetElement.py to AttributeSetElement.pyc
+byte-compiling /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/Ft/Xml/Xslt/TemplateElement.py to TemplateElement.pyc
+byte-compiling /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/Ft/Xml/Xslt/StylesheetTree.py to StylesheetTree.pyc
+byte-compiling /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/Ft/Xml/Xslt/BuiltInExtElements.py to BuiltInExtElements.pyc
+byte-compiling /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/Ft/Xml/Xslt/NumberFormatter.py to NumberFormatter.pyc
+byte-compiling /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/Ft/Xml/Xslt/UndefinedElements.py to UndefinedElements.pyc
+byte-compiling /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/Ft/Xml/Xslt/NullWriter.py to NullWriter.pyc
+byte-compiling /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/Ft/Xml/Xslt/NumberElement.py to NumberElement.pyc
+byte-compiling /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/Ft/Xml/Xslt/BuiltInExtFunctions.py to BuiltInExtFunctions.pyc
+byte-compiling /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/Ft/Xml/Xslt/ForEachElement.py to ForEachElement.pyc
+byte-compiling /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/Ft/Xml/Xslt/VariableElement.py to VariableElement.pyc
+byte-compiling /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/Ft/Xml/Xslt/XsltContext.py to XsltContext.pyc
+byte-compiling /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/Ft/Xml/Xslt/HtmlWriter.py to HtmlWriter.pyc
+byte-compiling /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/Ft/Xml/Xslt/_4xslt.py to _4xslt.pyc
+byte-compiling /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/Ft/Xml/Xslt/__init__.py to __init__.pyc
+byte-compiling /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/Ft/Xml/Xslt/ApplyTemplatesElement.py to ApplyTemplatesElement.pyc
+byte-compiling /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/Ft/Xml/Xslt/XPathExtensions.py to XPathExtensions.pyc
+byte-compiling /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/Ft/Xml/Xslt/Processor.py to Processor.pyc
+byte-compiling /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/Ft/Xml/Xslt/GenericVariable.py to GenericVariable.pyc
+byte-compiling /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/Ft/Xml/Xslt/ApplyImportsElement.py to ApplyImportsElement.pyc
+byte-compiling /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/Ft/Xml/Xslt/Stylesheet.py to Stylesheet.pyc
+byte-compiling /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/Ft/Xml/Xslt/AttributeInfo.py to AttributeInfo.pyc
+byte-compiling /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/Ft/Xml/Xslt/XmlWriter.py to XmlWriter.pyc
+byte-compiling /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/Ft/Xml/Xslt/ChooseElement.py to ChooseElement.pyc
+byte-compiling /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/Ft/Xml/Xslt/RtfWriter.py to RtfWriter.pyc
+byte-compiling /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/Ft/Xml/Xslt/ValueOfElement.py to ValueOfElement.pyc
+byte-compiling /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/Ft/Xml/Xslt/StylesheetHandler.py to StylesheetHandler.pyc
+byte-compiling /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/Ft/Xml/Xslt/Roman.py to Roman.pyc
+byte-compiling /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/Ft/Xml/Xslt/Exslt/Math_.py to Math_.pyc
+byte-compiling /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/Ft/Xml/Xslt/Exslt/Strings.py to Strings.pyc
+byte-compiling /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/Ft/Xml/Xslt/Exslt/DateTime.py to DateTime.pyc
+byte-compiling /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/Ft/Xml/Xslt/Exslt/RegularExpressions.py to RegularExpressions.pyc
+byte-compiling /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/Ft/Xml/Xslt/Exslt/MessageSource.py to MessageSource.pyc
+byte-compiling /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/Ft/Xml/Xslt/Exslt/Common.py to Common.pyc
+byte-compiling /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/Ft/Xml/Xslt/Exslt/Functions.py to Functions.pyc
+byte-compiling /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/Ft/Xml/Xslt/Exslt/Dynamic.py to Dynamic.pyc
+byte-compiling /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/Ft/Xml/Xslt/Exslt/__init__.py to __init__.pyc
+byte-compiling /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/Ft/Xml/Xslt/Exslt/Sets.py to Sets.pyc
+byte-compiling /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/Ft/Xml/Xslt/Debugger/DebugWriter.py to DebugWriter.pyc
+byte-compiling /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/Ft/Xml/Xslt/Debugger/TerminalOutput.py to TerminalOutput.pyc
+byte-compiling /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/Ft/Xml/Xslt/Debugger/TerminalInput.py to TerminalInput.pyc
+byte-compiling /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/Ft/Xml/Xslt/Debugger/DebugCommands.py to DebugCommands.pyc
+byte-compiling /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/Ft/Xml/Xslt/Debugger/__init__.py to __init__.pyc
+byte-compiling /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/Ft/Xml/Xslt/Debugger/DebugController.py to DebugController.pyc
+byte-compiling /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/Ft/Xml/XLink/XLinkElements.py to XLinkElements.pyc
+byte-compiling /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/Ft/Xml/XLink/__init__.py to __init__.pyc
+byte-compiling /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/Ft/Xml/XLink/Processor.py to Processor.pyc
+byte-compiling /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/Ft/Xml/ThirdParty/__init__.py to __init__.pyc
+byte-compiling /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/Ft/Xml/ThirdParty/Xvif/iframe.py to iframe.pyc
+byte-compiling /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/Ft/Xml/ThirdParty/Xvif/xmlchargen.py to xmlchargen.pyc
+byte-compiling /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/Ft/Xml/ThirdParty/Xvif/sax2dom_chunker.py to sax2dom_chunker.pyc
+byte-compiling /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/Ft/Xml/ThirdParty/Xvif/rngCoreTypeLib.py to rngCoreTypeLib.pyc
+byte-compiling /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/Ft/Xml/ThirdParty/Xvif/Smart_len.py to Smart_len.pyc
+byte-compiling /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/Ft/Xml/ThirdParty/Xvif/iFrameXSLT.py to iFrameXSLT.pyc
+byte-compiling /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/Ft/Xml/ThirdParty/Xvif/wxsTypeLib.py to wxsTypeLib.pyc
+byte-compiling /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/Ft/Xml/ThirdParty/Xvif/FragmentFilter.py to FragmentFilter.pyc
+byte-compiling /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/Ft/Xml/ThirdParty/Xvif/rng.py to rng.pyc
+byte-compiling /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/Ft/Xml/ThirdParty/Xvif/xmlcomp.py to xmlcomp.pyc
+byte-compiling /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/Ft/Xml/ThirdParty/Xvif/iFrameRNG.py to iFrameRNG.pyc
+byte-compiling /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/Ft/Xml/ThirdParty/Xvif/__init__.py to __init__.pyc
+byte-compiling /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/Ft/Xml/ThirdParty/Xvif/iFrameTypes.py to iFrameTypes.pyc
+byte-compiling /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/Ft/Xml/ThirdParty/Xvif/iFrameRegFrag.py to iFrameRegFrag.pyc
+byte-compiling /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/Ft/Xml/ThirdParty/Xvif/TimeLib.py to TimeLib.pyc
+byte-compiling /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/Ft/Xml/ThirdParty/Xvif/characters.py to characters.pyc
+running install_scripts
+copying build/scripts.linux-x86_64-2.7/4xml -> /usr/local/bin
+error: [Errno 13] Permission denied: '/usr/local/bin/4xml'
+
+The following NEW packages will be INSTALLED:
+
+    openssl:    1.0.1k-1     
+    pip:        7.0.3-py27_0 
+    python:     2.7.10-0     
+    readline:   6.2-2        
+    setuptools: 18.0.1-py27_0
+    sqlite:     3.8.4.1-1    
+    system:     5.8-2        
+    tk:         8.5.18-0     
+    zlib:       1.2.8-0      
+
+Linking packages ...
+[                    ]|                                                  |   0%[openssl             ]|                                                  |   0%[readline            ]|#####                                             |  11%[sqlite              ]|###########                                       |  22%[system              ]|################                                  |  33%[tk                  ]|######################                            |  44%[zlib                ]|###########################                       |  55%[python              ]|#################################                 |  66%[setuptools          ]|######################################            |  77%[pip                 ]|############################################      |  88%[      COMPLETE      ]|##################################################| 100%
+Removing old work directory
+Source cache directory is: /home/ubuntu/miniconda/conda-bld/src_cache
+Found source in cache: 4Suite-XML-1.0.2.tar.bz2
+Extracting download
+Package: 4suite-xml-1.0.2-py_0
+source tree in: /home/ubuntu/miniconda/conda-bld/work/4Suite-XML-1.0.2
+Command failed: /bin/bash -x -e /home/ubuntu/pypi-conda-builds/recipes/4suite-xml/build.sh

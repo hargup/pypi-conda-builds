@@ -1,0 +1,59 @@
+Warning, the following versions were found for scikit-learn
+0.16.1
+0.16.0
+0.16b1
+0.15.2
+0.15.1
+0.15.0
+0.15.0b2
+0.15.0b1
+0.14.1
+0.14
+0.14a1
+0.13.1
+0.13
+0.12.1
+0.12
+0.11
+0.10
+0.9
+Using 0.16.1
+Use --version to specify a different version.
+Using url https://pypi.python.org/packages/source/s/scikit-learn/scikit-learn-0.16.1.tar.gz (6.9 MB) for scikit-learn.
+Downloading scikit-learn
+Using cached download
+Unpacking scikit-learn...
+done
+working in /tmp/tmpLFsYbpconda_skeleton_scikit-learn-0.16.1.tar.gz
+Fetching package metadata: ......
+
+WARNING: conda-build appears to be out of date. You have version 1.13.0 but the
+latest version is 1.14.1. Run
+
+conda update -n root conda-build
+
+to get the latest version.
+
+Solving package specifications: .patching file core.py
+Hunk #1 succeeded at 168 with fuzz 2 (offset 2 lines).
+Partial import of sklearn during the build process.
+Traceback (most recent call last):
+  File "setup.py", line 173, in <module>
+    setup_package()
+  File "setup.py", line 169, in setup_package
+    setup(**metadata)
+  File "/home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/numpy/distutils/core.py", line 130, in setup
+    if dist.help or not _command_line_ok():
+AttributeError: 'NoneType' object has no attribute 'help'
+
+The following NEW packages will be INSTALLED:
+
+    numpy:  1.9.2-py27_0
+    pyyaml: 3.11-py27_1 
+    yaml:   0.1.6-0     
+
+Linking packages ...
+[                    ]|                                                  |   0%[yaml                ]|                                                  |   0%[numpy               ]|################                                  |  33%[pyyaml              ]|#################################                 |  66%[      COMPLETE      ]|##################################################| 100%
+Applying patch: '/tmp/tmpLFsYbpconda_skeleton_scikit-learn-0.16.1.tar.gz/pypi-distutils.patch'
+$PYTHONPATH = /tmp/tmpLFsYbpconda_skeleton_scikit-learn-0.16.1.tar.gz/scikit-learn-0.16.1
+Error: command failed: /home/ubuntu/miniconda/envs/_build/bin/python setup.py install

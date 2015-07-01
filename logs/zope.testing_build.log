@@ -1,0 +1,228 @@
+Removing old build directory
+Removing old work directory
+BUILD START: zope.testing-4.2.0-py27_0
+Fetching package metadata: ......
+
+WARNING: conda-build appears to be out of date. You have version 1.13.0 but the
+latest version is 1.14.1. Run
+
+conda update -n root conda-build
+
+to get the latest version.
+
+Solving package specifications: .+ /home/ubuntu/miniconda/envs/_build/bin/python setup.py install
+running install
+running bdist_egg
+running egg_info
+writing requirements to src/zope.testing.egg-info/requires.txt
+writing src/zope.testing.egg-info/PKG-INFO
+writing namespace_packages to src/zope.testing.egg-info/namespace_packages.txt
+writing top-level names to src/zope.testing.egg-info/top_level.txt
+writing dependency_links to src/zope.testing.egg-info/dependency_links.txt
+reading manifest file 'src/zope.testing.egg-info/SOURCES.txt'
+reading manifest template 'MANIFEST.in'
+writing manifest file 'src/zope.testing.egg-info/SOURCES.txt'
+installing library code to build/bdist.linux-x86_64/egg
+running install_lib
+running build_py
+creating build
+creating build/lib
+creating build/lib/zope
+copying src/zope/__init__.py -> build/lib/zope
+creating build/lib/zope/testing
+copying src/zope/testing/module.py -> build/lib/zope/testing
+copying src/zope/testing/loghandler.py -> build/lib/zope/testing
+copying src/zope/testing/loggingsupport.py -> build/lib/zope/testing
+copying src/zope/testing/renormalizing.py -> build/lib/zope/testing
+copying src/zope/testing/testrunner.py -> build/lib/zope/testing
+copying src/zope/testing/setupstack.py -> build/lib/zope/testing
+copying src/zope/testing/wait.py -> build/lib/zope/testing
+copying src/zope/testing/tests.py -> build/lib/zope/testing
+copying src/zope/testing/__init__.py -> build/lib/zope/testing
+copying src/zope/testing/cleanup.py -> build/lib/zope/testing
+copying src/zope/testing/server.py -> build/lib/zope/testing
+copying src/zope/testing/formparser.py -> build/lib/zope/testing
+copying src/zope/testing/exceptions.py -> build/lib/zope/testing
+copying src/zope/__init__.pyc -> build/lib/zope
+copying src/zope/testing/__init__.pyc -> build/lib/zope/testing
+copying src/zope/testing/formparser.pyc -> build/lib/zope/testing
+copying src/zope/testing/formparser.txt -> build/lib/zope/testing
+copying src/zope/testing/loggingsupport.pyc -> build/lib/zope/testing
+copying src/zope/testing/loggingsupport.txt -> build/lib/zope/testing
+copying src/zope/testing/module.pyc -> build/lib/zope/testing
+copying src/zope/testing/module.txt -> build/lib/zope/testing
+copying src/zope/testing/renormalizing.pyc -> build/lib/zope/testing
+copying src/zope/testing/renormalizing.txt -> build/lib/zope/testing
+copying src/zope/testing/server.pyc -> build/lib/zope/testing
+copying src/zope/testing/setupstack.pyc -> build/lib/zope/testing
+copying src/zope/testing/setupstack.txt -> build/lib/zope/testing
+copying src/zope/testing/tests.pyc -> build/lib/zope/testing
+copying src/zope/testing/wait.pyc -> build/lib/zope/testing
+copying src/zope/testing/wait.txt -> build/lib/zope/testing
+creating build/bdist.linux-x86_64
+creating build/bdist.linux-x86_64/egg
+creating build/bdist.linux-x86_64/egg/zope
+copying build/lib/zope/__init__.pyc -> build/bdist.linux-x86_64/egg/zope
+creating build/bdist.linux-x86_64/egg/zope/testing
+copying build/lib/zope/testing/module.py -> build/bdist.linux-x86_64/egg/zope/testing
+copying build/lib/zope/testing/loghandler.py -> build/bdist.linux-x86_64/egg/zope/testing
+copying build/lib/zope/testing/formparser.pyc -> build/bdist.linux-x86_64/egg/zope/testing
+copying build/lib/zope/testing/loggingsupport.py -> build/bdist.linux-x86_64/egg/zope/testing
+copying build/lib/zope/testing/loggingsupport.pyc -> build/bdist.linux-x86_64/egg/zope/testing
+copying build/lib/zope/testing/module.pyc -> build/bdist.linux-x86_64/egg/zope/testing
+copying build/lib/zope/testing/renormalizing.txt -> build/bdist.linux-x86_64/egg/zope/testing
+copying build/lib/zope/testing/renormalizing.py -> build/bdist.linux-x86_64/egg/zope/testing
+copying build/lib/zope/testing/setupstack.pyc -> build/bdist.linux-x86_64/egg/zope/testing
+copying build/lib/zope/testing/testrunner.py -> build/bdist.linux-x86_64/egg/zope/testing
+copying build/lib/zope/testing/__init__.pyc -> build/bdist.linux-x86_64/egg/zope/testing
+copying build/lib/zope/testing/wait.txt -> build/bdist.linux-x86_64/egg/zope/testing
+copying build/lib/zope/testing/setupstack.py -> build/bdist.linux-x86_64/egg/zope/testing
+copying build/lib/zope/testing/wait.py -> build/bdist.linux-x86_64/egg/zope/testing
+copying build/lib/zope/testing/renormalizing.pyc -> build/bdist.linux-x86_64/egg/zope/testing
+copying build/lib/zope/testing/module.txt -> build/bdist.linux-x86_64/egg/zope/testing
+copying build/lib/zope/testing/tests.py -> build/bdist.linux-x86_64/egg/zope/testing
+copying build/lib/zope/testing/tests.pyc -> build/bdist.linux-x86_64/egg/zope/testing
+copying build/lib/zope/testing/loggingsupport.txt -> build/bdist.linux-x86_64/egg/zope/testing
+copying build/lib/zope/testing/server.pyc -> build/bdist.linux-x86_64/egg/zope/testing
+copying build/lib/zope/testing/__init__.py -> build/bdist.linux-x86_64/egg/zope/testing
+copying build/lib/zope/testing/cleanup.py -> build/bdist.linux-x86_64/egg/zope/testing
+copying build/lib/zope/testing/wait.pyc -> build/bdist.linux-x86_64/egg/zope/testing
+copying build/lib/zope/testing/setupstack.txt -> build/bdist.linux-x86_64/egg/zope/testing
+copying build/lib/zope/testing/server.py -> build/bdist.linux-x86_64/egg/zope/testing
+copying build/lib/zope/testing/formparser.py -> build/bdist.linux-x86_64/egg/zope/testing
+copying build/lib/zope/testing/formparser.txt -> build/bdist.linux-x86_64/egg/zope/testing
+copying build/lib/zope/testing/exceptions.py -> build/bdist.linux-x86_64/egg/zope/testing
+copying build/lib/zope/__init__.py -> build/bdist.linux-x86_64/egg/zope
+byte-compiling build/bdist.linux-x86_64/egg/zope/testing/loghandler.py to loghandler.pyc
+byte-compiling build/bdist.linux-x86_64/egg/zope/testing/renormalizing.py to renormalizing.pyc
+byte-compiling build/bdist.linux-x86_64/egg/zope/testing/testrunner.py to testrunner.pyc
+byte-compiling build/bdist.linux-x86_64/egg/zope/testing/cleanup.py to cleanup.pyc
+byte-compiling build/bdist.linux-x86_64/egg/zope/testing/exceptions.py to exceptions.pyc
+creating build/bdist.linux-x86_64/egg/EGG-INFO
+copying src/zope.testing.egg-info/PKG-INFO -> build/bdist.linux-x86_64/egg/EGG-INFO
+copying src/zope.testing.egg-info/SOURCES.txt -> build/bdist.linux-x86_64/egg/EGG-INFO
+copying src/zope.testing.egg-info/dependency_links.txt -> build/bdist.linux-x86_64/egg/EGG-INFO
+copying src/zope.testing.egg-info/namespace_packages.txt -> build/bdist.linux-x86_64/egg/EGG-INFO
+copying src/zope.testing.egg-info/not-zip-safe -> build/bdist.linux-x86_64/egg/EGG-INFO
+copying src/zope.testing.egg-info/requires.txt -> build/bdist.linux-x86_64/egg/EGG-INFO
+copying src/zope.testing.egg-info/top_level.txt -> build/bdist.linux-x86_64/egg/EGG-INFO
+creating dist
+creating 'dist/zope.testing-4.2.0-py2.7.egg' and adding 'build/bdist.linux-x86_64/egg' to it
+removing 'build/bdist.linux-x86_64/egg' (and everything under it)
+Processing zope.testing-4.2.0-py2.7.egg
+creating /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/zope.testing-4.2.0-py2.7.egg
+Extracting zope.testing-4.2.0-py2.7.egg to /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages
+Adding zope.testing 4.2.0 to easy-install.pth file
+
+Installed /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/zope.testing-4.2.0-py2.7.egg
+Processing dependencies for zope.testing==4.2.0
+Searching for zope.interface==4.1.2
+Best match: zope.interface 4.1.2
+Adding zope.interface 4.1.2 to easy-install.pth file
+
+Using /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages
+Searching for zope.exceptions==4.0.7
+Best match: zope.exceptions 4.0.7
+Adding zope.exceptions 4.0.7 to easy-install.pth file
+
+Using /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages
+Searching for setuptools==15.2
+Best match: setuptools 15.2
+Adding setuptools 15.2 to easy-install.pth file
+Installing easy_install-3.4 script to /home/ubuntu/miniconda/envs/_build/bin
+Installing easy_install script to /home/ubuntu/miniconda/envs/_build/bin
+
+Using /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages
+Finished processing dependencies for zope.testing==4.2.0
+
+The following packages will be downloaded:
+
+    package                    |            build
+    ---------------------------|-----------------
+    zope.exceptions-4.0.7      |             py_0          12 KB
+
+The following NEW packages will be INSTALLED:
+
+    nose:            1.3.7-py27_0 
+    openssl:         1.0.1k-1     
+    pip:             7.0.3-py27_0 
+    python:          2.7.10-0     
+    readline:        6.2-2        
+    setuptools:      18.0.1-py27_0
+    sqlite:          3.8.4.1-1    
+    system:          5.8-2        
+    tk:              8.5.18-0     
+    zlib:            1.2.8-0      
+    zope.exceptions: 4.0.7-py_0   
+    zope.interface:  4.1.2-py27_1 
+
+Fetching packages ...
+zope.exception   0% |                              | ETA:  --:--:--   0.00  B/szope.exception 100% |###############################| ETA:  0:00:00  26.46 MB/szope.exception 100% |###############################| Time: 0:00:00  16.89 MB/s
+Extracting packages ...
+[                    ]|                                                  |   0%[zope.exceptions     ]|                                                  |   0%[      COMPLETE      ]|##################################################| 100%
+Linking packages ...
+[      COMPLETE      ]|                                                  |   0%[openssl             ]|                                                  |   0%[openssl             ]|                                                  |   0%[readline            ]|####                                              |   8%[sqlite              ]|########                                          |  16%[system              ]|############                                      |  25%[tk                  ]|################                                  |  33%[zlib                ]|####################                              |  41%[nose                ]|#########################                         |  50%[python              ]|#############################                     |  58%[setuptools          ]|#################################                 |  66%[zope.interface      ]|#####################################             |  75%[pip                 ]|#########################################         |  83%[zope.exceptions     ]|#############################################     |  91%[      COMPLETE      ]|##################################################| 100%
+Removing old work directory
+Source cache directory is: /home/ubuntu/miniconda/conda-bld/src_cache
+Found source in cache: zope.testing-4.2.0.tar.gz
+Extracting download
+Package: zope.testing-4.2.0-py27_0
+source tree in: /home/ubuntu/miniconda/conda-bld/work/zope.testing-4.2.0
+compiling .pyc files...
+number of files: 51
+Fixing permissions
+Detected hard-coded path in text file bin/easy_install-3.4
+Detected hard-coded path in text file lib/python2.7/site-packages/setuptools.pth
+Fixing permissions
+BUILD END: zope.testing-4.2.0-py27_0
+TEST START: zope.testing-4.2.0-py27_0
+Fetching package metadata: ......
+
+WARNING: conda-build appears to be out of date. You have version 1.13.0 but the
+latest version is 1.14.1. Run
+
+conda update -n root conda-build
+
+to get the latest version.
+
+Solving package specifications: .===== testing package: zope.testing-4.2.0-py27_0 =====
+import: u'zope'
+import: u'zope.testing'
+===== zope.testing-4.2.0-py27_0 OK =====
+
+The following packages will be downloaded:
+
+    package                    |            build
+    ---------------------------|-----------------
+    zope.testing-4.2.0         |           py27_0          40 KB
+
+The following NEW packages will be INSTALLED:
+
+    nose:            1.3.7-py27_0 
+    openssl:         1.0.1k-1     
+    pip:             7.0.3-py27_0 
+    python:          2.7.10-0     
+    readline:        6.2-2        
+    setuptools:      18.0.1-py27_0
+    sqlite:          3.8.4.1-1    
+    system:          5.8-2        
+    tk:              8.5.18-0     
+    zlib:            1.2.8-0      
+    zope.exceptions: 4.0.7-py_0   
+    zope.interface:  4.1.2-py27_1 
+    zope.testing:    4.2.0-py27_0 
+
+Fetching packages ...
+zope.testing-4   0% |                              | ETA:  --:--:--   0.00  B/szope.testing-4  39% |############                   | Time: 0:00:00  60.71 MB/szope.testing-4  79% |########################       | Time: 0:00:00  68.41 MB/szope.testing-4 100% |###############################| Time: 0:00:00  63.26 MB/szope.testing-4 100% |###############################| Time: 0:00:00  52.39 MB/szope.testing-4 100% |###############################| Time: 0:00:00  43.68 MB/s
+Extracting packages ...
+[      COMPLETE      ]|                                                  |   0%[zope.testing        ]|                                                  |   0%[zope.testing        ]|                                                  |   0%[      COMPLETE      ]|##################################################| 100%
+Linking packages ...
+[      COMPLETE      ]|                                                  |   0%[openssl             ]|                                                  |   0%[openssl             ]|                                                  |   0%[readline            ]|###                                               |   7%[sqlite              ]|#######                                           |  15%[system              ]|###########                                       |  23%[tk                  ]|###############                                   |  30%[zlib                ]|###################                               |  38%[nose                ]|#######################                           |  46%[python              ]|##########################                        |  53%[setuptools          ]|##############################                    |  61%[zope.interface      ]|##################################                |  69%[pip                 ]|######################################            |  76%[zope.exceptions     ]|##########################################        |  84%[zope.testing        ]|##############################################    |  92%[      COMPLETE      ]|##################################################| 100%
+TEST END: zope.testing-4.2.0-py27_0
+# If you want to upload this package to binstar.org later, type:
+#
+# $ binstar upload /home/ubuntu/miniconda/conda-bld/linux-64/zope.testing-4.2.0-py27_0.tar.bz2
+#
+# To have conda build upload to binstar automatically, use
+# $ conda config --set binstar_upload yes
+

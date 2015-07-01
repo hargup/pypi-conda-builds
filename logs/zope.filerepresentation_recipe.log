@@ -1,0 +1,33 @@
+Warning, the following versions were found for zope.filerepresentation
+4.1.0
+4.0.2
+4.0.1
+4.0.0
+3.6.1
+3.6.0
+3.5.0
+3.4.0
+3.4dev-r73106
+Using 4.1.0
+Use --version to specify a different version.
+Using url https://pypi.python.org/packages/source/z/zope.filerepresentation/zope.filerepresentation-4.1.0.tar.gz (8 KB) for zope.filerepresentation.
+Downloading zope.filerepresentation
+Using cached download
+Unpacking zope.filerepresentation...
+done
+working in /tmp/tmpmip8jiconda_skeleton_zope.filerepresentation-4.1.0.tar.gz
+Fetching package metadata: ......
+
+WARNING: conda-build appears to be out of date. You have version 1.13.0 but the
+latest version is 1.14.1. Run
+
+conda update -n root conda-build
+
+to get the latest version.
+
+Solving package specifications: .patching file core.py
+Hunk #1 succeeded at 168 with fuzz 2 (offset 2 lines).
+
+Applying patch: '/tmp/tmpmip8jiconda_skeleton_zope.filerepresentation-4.1.0.tar.gz/pypi-distutils.patch'
+Writing recipe for zope.filerepresentation
+Done

@@ -2,6 +2,14 @@ Removing old build directory
 Removing old work directory
 BUILD START: simplejson-3.7.3-py27_0
 Fetching package metadata: ......
+
+WARNING: conda-build appears to be out of date. You have version 1.13.0 but the
+latest version is 1.14.1. Run
+
+conda update -n root conda-build
+
+to get the latest version.
+
 Solving package specifications: .+ /home/ubuntu/miniconda/envs/_build/bin/python setup.py install
 running install
 running bdist_egg
@@ -159,15 +167,15 @@ Finished processing dependencies for simplejson==3.7.3
 
 The following NEW packages will be INSTALLED:
 
-    openssl:    1.0.1k-1    
-    pip:        7.0.3-py27_0
-    python:     2.7.10-0    
-    readline:   6.2-2       
-    setuptools: 17.0-py27_0 
-    sqlite:     3.8.4.1-1   
-    system:     5.8-2       
-    tk:         8.5.18-0    
-    zlib:       1.2.8-0     
+    openssl:    1.0.1k-1     
+    pip:        7.0.3-py27_0 
+    python:     2.7.10-0     
+    readline:   6.2-2        
+    setuptools: 18.0.1-py27_0
+    sqlite:     3.8.4.1-1    
+    system:     5.8-2        
+    tk:         8.5.18-0     
+    zlib:       1.2.8-0      
 
 Linking packages ...
 [                    ]|                                                  |   0%[openssl             ]|                                                  |   0%[readline            ]|#####                                             |  11%[sqlite              ]|###########                                       |  22%[system              ]|################                                  |  33%[tk                  ]|######################                            |  44%[zlib                ]|###########################                       |  55%[python              ]|#################################                 |  66%[setuptools          ]|######################################            |  77%[pip                 ]|############################################      |  88%[      COMPLETE      ]|##################################################| 100%
@@ -187,6 +195,14 @@ Fixing permissions
 BUILD END: simplejson-3.7.3-py27_0
 TEST START: simplejson-3.7.3-py27_0
 Fetching package metadata: ......
+
+WARNING: conda-build appears to be out of date. You have version 1.13.0 but the
+latest version is 1.14.1. Run
+
+conda update -n root conda-build
+
+to get the latest version.
+
 Solving package specifications: .===== testing package: simplejson-3.7.3-py27_0 =====
 import: u'simplejson'
 import: u'simplejson.tests'
@@ -200,19 +216,19 @@ The following packages will be downloaded:
 
 The following NEW packages will be INSTALLED:
 
-    openssl:    1.0.1k-1    
-    pip:        7.0.3-py27_0
-    python:     2.7.10-0    
-    readline:   6.2-2       
-    setuptools: 17.0-py27_0 
-    simplejson: 3.7.3-py27_0
-    sqlite:     3.8.4.1-1   
-    system:     5.8-2       
-    tk:         8.5.18-0    
-    zlib:       1.2.8-0     
+    openssl:    1.0.1k-1     
+    pip:        7.0.3-py27_0 
+    python:     2.7.10-0     
+    readline:   6.2-2        
+    setuptools: 18.0.1-py27_0
+    simplejson: 3.7.3-py27_0 
+    sqlite:     3.8.4.1-1    
+    system:     5.8-2        
+    tk:         8.5.18-0     
+    zlib:       1.2.8-0      
 
 Fetching packages ...
-simplejson-3.7   0% |                              | ETA:  --:--:--   0.00  B/ssimplejson-3.7  12% |###                            | ETA:  0:00:00  46.68 MB/ssimplejson-3.7  25% |#######                        | ETA:  0:00:00  58.09 MB/ssimplejson-3.7  37% |###########                    | ETA:  0:00:00  64.93 MB/ssimplejson-3.7  50% |###############                | ETA:  0:00:00  69.27 MB/ssimplejson-3.7  62% |###################            | ETA:  0:00:00  72.49 MB/ssimplejson-3.7  75% |#######################        | ETA:  0:00:00  74.82 MB/ssimplejson-3.7  87% |###########################    | ETA:  0:00:00  76.35 MB/ssimplejson-3.7 100% |###############################| ETA:  0:00:00  77.50 MB/ssimplejson-3.7 100% |###############################| Time: 0:00:00  67.00 MB/s
+simplejson-3.7   0% |                              | ETA:  --:--:--   0.00  B/ssimplejson-3.7  12% |###                            | ETA:  0:00:00  48.19 MB/ssimplejson-3.7  25% |#######                        | ETA:  0:00:00  59.47 MB/ssimplejson-3.7  37% |###########                    | ETA:  0:00:00  66.42 MB/ssimplejson-3.7  50% |###############                | ETA:  0:00:00  70.16 MB/ssimplejson-3.7  62% |###################            | ETA:  0:00:00  73.07 MB/ssimplejson-3.7  75% |#######################        | ETA:  0:00:00  75.16 MB/ssimplejson-3.7  87% |###########################    | ETA:  0:00:00  76.92 MB/ssimplejson-3.7 100% |###############################| ETA:  0:00:00  78.14 MB/ssimplejson-3.7 100% |###############################| Time: 0:00:00  68.60 MB/s
 Extracting packages ...
 [      COMPLETE      ]|                                                  |   0%[simplejson          ]|                                                  |   0%[simplejson          ]|                                                  |   0%[      COMPLETE      ]|##################################################| 100%
 Linking packages ...

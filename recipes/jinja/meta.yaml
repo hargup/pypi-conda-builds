@@ -1,0 +1,64 @@
+package:
+  name: jinja
+  version: "1.2"
+
+source:
+  fn: Jinja-1.2.tar.gz
+  url: https://pypi.python.org/packages/source/J/Jinja/Jinja-1.2.tar.gz
+  md5: 1235a005ade00b213800ff1e798c0241
+#  patches:
+   # List any patch files here
+   # - fix.patch
+
+build:
+  noarch_python: True
+  # preserve_egg_dir: True
+  # entry_points:
+    # Put any entry points (scripts to be generated automatically) here. The
+    # syntax is module:function.  For example
+    #
+    # - jinja = jinja:main
+    #
+    # Would create an entry point called jinja that calls jinja.main()
+
+
+  # If this is a new build for the same version, increment the build
+  # number. If you do not include this key, it defaults to 0.
+  # number: 1
+
+requirements:
+  build:
+    - python
+    - setuptools
+    - setuptools >=0.6a2
+
+  run:
+    - python
+    - setuptools >=0.6a2
+
+test:
+  # Python imports
+  imports:
+    - jinja
+    - jinja.translators
+
+  # commands:
+    # You can put test commands to be run here.  Use this to test that the
+    # entry points work.
+
+
+  # You can also put a file called run_test.py in the recipe that will be run
+  # at test time.
+
+  # requires:
+    # Put any additional test requirements here.  For example
+    # - nose
+
+about:
+  home: http://jinja.pocoo.org/
+  license: BSD License
+  summary: 'A small but fast and easy to use stand-alone template engine written in pure python.'
+
+# See
+# http://docs.continuum.io/conda/build.html for
+# more information about meta.yaml

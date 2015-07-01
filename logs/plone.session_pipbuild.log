@@ -1,0 +1,39 @@
+An unexpected error has occurred, please consider sending the
+following traceback to the conda GitHub issue tracker at:
+
+    https://github.com/conda/conda-build/issues
+
+Include the output of the command 'conda info' in your report.
+
+
+Package search: {'_pypi_ordering': False, 'version': '3.5.5', 'name': 'plone.session', 'summary': 'Session based authentication for Zope'}
+Creating standard recipe for plone.session-3.5.5
+Converting recipe in /home/ubuntu/pypi-conda-builds/plone.session
+package = plone.session
+   dependencies = [u'plone.keyring', u'plone.protect', u'zope.component', u'zope.interface', u'products.pluggableauthservice', u'zope2']
+Creating standard recipe for plone.keyring
+Converting recipe in /home/ubuntu/pypi-conda-builds/plone.keyring
+package = plone.keyring
+   dependencies = [u'zodb3', u'zope.container', u'zope.interface', u'zope.location']
+Creating standard recipe for zodb3
+Converting recipe in /home/ubuntu/pypi-conda-builds/zodb3
+Traceback (most recent call last):
+  File "/home/ubuntu/miniconda/bin/conda-pipbuild", line 6, in <module>
+    exec(compile(open(__file__).read(), __file__, 'exec'))
+  File "/home/ubuntu/conda-build/bin/conda-pipbuild", line 5, in <module>
+    sys.exit(main())
+  File "/home/ubuntu/conda-build/conda_build/main_pipbuild.py", line 80, in main
+    args_func(args, p)
+  File "/home/ubuntu/conda-build/conda_build/main_build.py", line 349, in args_func
+    args.func(args, p)
+  File "/home/ubuntu/conda-build/conda_build/main_pipbuild.py", line 360, in execute
+    build_package(package, version, noarch_python=args.noarch_python)
+  File "/home/ubuntu/conda-build/conda_build/main_pipbuild.py", line 314, in build_package
+    build_package(depend)
+  File "/home/ubuntu/conda-build/conda_build/main_pipbuild.py", line 314, in build_package
+    build_package(depend)
+  File "/home/ubuntu/conda-build/conda_build/main_pipbuild.py", line 301, in build_package
+    noarch_python=noarch_python)
+  File "/home/ubuntu/conda-build/conda_build/main_pipbuild.py", line 183, in convert_recipe
+    d['homeurl'] = meta['about']['home']
+KeyError: 'home'

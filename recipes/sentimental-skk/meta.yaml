@@ -1,0 +1,72 @@
+package:
+  name: sentimental-skk
+  version: "0.0.146"
+
+source:
+  fn: sentimental-skk-0.0.146.tar.gz
+  url: https://pypi.python.org/packages/source/s/sentimental-skk/sentimental-skk-0.0.146.tar.gz
+  md5: 6fa1062abb4fe133d128856d7605ba26
+#  patches:
+   # List any patch files here
+   # - fix.patch
+
+build:
+  noarch_python: True
+  # preserve_egg_dir: True
+  # entry_points:
+    # Put any entry points (scripts to be generated automatically) here. The
+    # syntax is module:function.  For example
+    #
+    # - sentimental-skk = sentimental-skk:main
+    #
+    # Would create an entry point called sentimental-skk that calls sentimental-skk.main()
+
+
+  # If this is a new build for the same version, increment the build
+  # number. If you do not include this key, it defaults to 0.
+  # number: 1
+
+requirements:
+  build:
+    - python
+    - setuptools
+    - tff
+
+  run:
+    - python
+    - tff
+
+test:
+  # Python imports
+  imports:
+    - sskk
+    - sskk.canossa
+    - sskk.canossa.canossa
+    - sskk.canossa.canossa.termprop
+    - sskk.canossa.canossa.termprop.termprop
+    - sskk.canossa.canossa.termprop.termprop.db
+    - sskk.canossa.canossa.termprop.termprop.db.iterm2
+    - sskk.canossa.canossa.termprop.termprop.db.unicode6_2
+    - sskk.canossa.canossa.tff
+    - sskk.rule
+
+  # commands:
+    # You can put test commands to be run here.  Use this to test that the
+    # entry points work.
+
+
+  # You can also put a file called run_test.py in the recipe that will be run
+  # at test time.
+
+  # requires:
+    # Put any additional test requirements here.  For example
+    # - nose
+
+about:
+  home: https://github.com/saitoha/sentimental-skk
+  license: GNU General Public License (GPL)
+  summary: '\xe4\xb8\x89 \xe4\xb8\x89 ( \xc2\xb4_\xe3\x82\x9d`\xef\xbc\x89\xef\xbc\x9c Japanese Input Method SKK (Simple Kana to Kanji conversion) on your terminal'
+
+# See
+# http://docs.continuum.io/conda/build.html for
+# more information about meta.yaml

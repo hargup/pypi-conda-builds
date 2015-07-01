@@ -1,0 +1,583 @@
+Removing old build directory
+Removing old work directory
+BUILD START: lxml-3.4.4-py27_0
+Fetching package metadata: ......
+
+WARNING: conda-build appears to be out of date. You have version 1.13.0 but the
+latest version is 1.14.1. Run
+
+conda update -n root conda-build
+
+to get the latest version.
+
+Solving package specifications: .+ pip install lxml
+Collecting lxml
+  Downloading http://localhost/packages/source/l/lxml/lxml-3.4.4.tar.gz (3.5MB)
+Installing collected packages: lxml
+  Running setup.py install for lxml
+Successfully installed lxml-3.4.4
+
+The following NEW packages will be INSTALLED:
+
+    openssl:    1.0.1k-1     
+    pip:        7.0.3-py27_0 
+    python:     2.7.10-0     
+    readline:   6.2-2        
+    setuptools: 18.0.1-py27_0
+    sqlite:     3.8.4.1-1    
+    system:     5.8-2        
+    tk:         8.5.18-0     
+    zlib:       1.2.8-0      
+
+Linking packages ...
+[                    ]|                                                  |   0%[openssl             ]|                                                  |   0%[readline            ]|#####                                             |  11%[sqlite              ]|###########                                       |  22%[system              ]|################                                  |  33%[tk                  ]|######################                            |  44%[zlib                ]|###########################                       |  55%[python              ]|#################################                 |  66%[setuptools          ]|######################################            |  77%[pip                 ]|############################################      |  88%[      COMPLETE      ]|##################################################| 100%
+Removing old work directory
+Copying /home/ubuntu/pypi-conda-builds/lxml to /home/ubuntu/miniconda/conda-bld/work
+Package: lxml-3.4.4-py27_0
+source tree in: /home/ubuntu/miniconda/conda-bld/work
+number of files: 85
+Fixing permissions
+patchelf: file: /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/lxml/etree.so
+    setting rpath to: $ORIGIN/../../..
+patchelf: file: /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/lxml/objectify.so
+    setting rpath to: $ORIGIN/../../..
+Ignored hard-coded path in lib/python2.7/site-packages/lxml/etree.so
+Ignored hard-coded path in lib/python2.7/site-packages/lxml/objectify.so
+Fixing permissions
+BUILD END: lxml-3.4.4-py27_0
+# If you want to upload this package to binstar.org later, type:
+#
+# $ binstar upload /home/ubuntu/miniconda/conda-bld/linux-64/lxml-3.4.4-py27_0.tar.bz2
+#
+# To have conda build upload to binstar automatically, use
+# $ conda config --set binstar_upload yes
+
+Removing old build directory
+Removing old work directory
+BUILD START: webob-1.4.1-py27_0
+Fetching package metadata: ......
+
+WARNING: conda-build appears to be out of date. You have version 1.13.0 but the
+latest version is 1.14.1. Run
+
+conda update -n root conda-build
+
+to get the latest version.
+
+Solving package specifications: .+ pip install webob
+Collecting webob
+  Downloading http://localhost/packages/source/W/WebOb/WebOb-1.4.1.tar.gz (671kB)
+Installing collected packages: webob
+  Running setup.py install for webob
+Successfully installed webob-1.4.1
+
+The following NEW packages will be INSTALLED:
+
+    openssl:    1.0.1k-1     
+    pip:        7.0.3-py27_0 
+    python:     2.7.10-0     
+    readline:   6.2-2        
+    setuptools: 18.0.1-py27_0
+    sqlite:     3.8.4.1-1    
+    system:     5.8-2        
+    tk:         8.5.18-0     
+    zlib:       1.2.8-0      
+
+Linking packages ...
+[                    ]|                                                  |   0%[openssl             ]|                                                  |   0%[readline            ]|#####                                             |  11%[sqlite              ]|###########                                       |  22%[system              ]|################                                  |  33%[tk                  ]|######################                            |  44%[zlib                ]|###########################                       |  55%[python              ]|#################################                 |  66%[setuptools          ]|######################################            |  77%[pip                 ]|############################################      |  88%[      COMPLETE      ]|##################################################| 100%
+Removing old work directory
+Copying /home/ubuntu/pypi-conda-builds/webob to /home/ubuntu/miniconda/conda-bld/work
+Package: webob-1.4.1-py27_0
+source tree in: /home/ubuntu/miniconda/conda-bld/work
+number of files: 43
+Fixing permissions
+Fixing permissions
+BUILD END: webob-1.4.1-py27_0
+# If you want to upload this package to binstar.org later, type:
+#
+# $ binstar upload /home/ubuntu/miniconda/conda-bld/linux-64/webob-1.4.1-py27_0.tar.bz2
+#
+# To have conda build upload to binstar automatically, use
+# $ conda config --set binstar_upload yes
+
+Removing old build directory
+Removing old work directory
+BUILD START: six-1.9.0-py27_0
+Fetching package metadata: ......
+
+WARNING: conda-build appears to be out of date. You have version 1.13.0 but the
+latest version is 1.14.1. Run
+
+conda update -n root conda-build
+
+to get the latest version.
+
+Solving package specifications: .+ pip install six
+Collecting six
+  Downloading http://localhost/packages/3.3/s/six/six-1.9.0-py2.py3-none-any.whl
+Installing collected packages: six
+Successfully installed six-1.9.0
+
+The following NEW packages will be INSTALLED:
+
+    openssl:    1.0.1k-1     
+    pip:        7.0.3-py27_0 
+    python:     2.7.10-0     
+    readline:   6.2-2        
+    setuptools: 18.0.1-py27_0
+    sqlite:     3.8.4.1-1    
+    system:     5.8-2        
+    tk:         8.5.18-0     
+    zlib:       1.2.8-0      
+
+Linking packages ...
+[                    ]|                                                  |   0%[openssl             ]|                                                  |   0%[readline            ]|#####                                             |  11%[sqlite              ]|###########                                       |  22%[system              ]|################                                  |  33%[tk                  ]|######################                            |  44%[zlib                ]|###########################                       |  55%[python              ]|#################################                 |  66%[setuptools          ]|######################################            |  77%[pip                 ]|############################################      |  88%[      COMPLETE      ]|##################################################| 100%
+Removing old work directory
+Copying /home/ubuntu/pypi-conda-builds/six to /home/ubuntu/miniconda/conda-bld/work
+Package: six-1.9.0-py27_0
+source tree in: /home/ubuntu/miniconda/conda-bld/work
+number of files: 8
+Fixing permissions
+Fixing permissions
+BUILD END: six-1.9.0-py27_0
+# If you want to upload this package to binstar.org later, type:
+#
+# $ binstar upload /home/ubuntu/miniconda/conda-bld/linux-64/six-1.9.0-py27_0.tar.bz2
+#
+# To have conda build upload to binstar automatically, use
+# $ conda config --set binstar_upload yes
+
+Removing old build directory
+Removing old work directory
+BUILD START: paste-2.0.2-py27_0
+Fetching package metadata: ......
+
+WARNING: conda-build appears to be out of date. You have version 1.13.0 but the
+latest version is 1.14.1. Run
+
+conda update -n root conda-build
+
+to get the latest version.
+
+Solving package specifications: .+ pip install paste
+Collecting paste
+  Downloading http://localhost/packages/2.7/P/Paste/Paste-2.0.2-py2-none-any.whl (610kB)
+Requirement already satisfied (use --upgrade to upgrade): six in /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages (from paste)
+Installing collected packages: paste
+Successfully installed paste-2.0.2
+
+The following NEW packages will be INSTALLED:
+
+    openssl:    1.0.1k-1     
+    pip:        7.0.3-py27_0 
+    python:     2.7.10-0     
+    readline:   6.2-2        
+    setuptools: 18.0.1-py27_0
+    six:        1.9.0-py27_0 
+    sqlite:     3.8.4.1-1    
+    system:     5.8-2        
+    tk:         8.5.18-0     
+    zlib:       1.2.8-0      
+
+Linking packages ...
+[                    ]|                                                  |   0%[openssl             ]|                                                  |   0%[readline            ]|#####                                             |  10%[sqlite              ]|##########                                        |  20%[system              ]|###############                                   |  30%[tk                  ]|####################                              |  40%[zlib                ]|#########################                         |  50%[python              ]|##############################                    |  60%[setuptools          ]|###################################               |  70%[six                 ]|########################################          |  80%[pip                 ]|#############################################     |  90%[      COMPLETE      ]|##################################################| 100%
+Removing old work directory
+Copying /home/ubuntu/pypi-conda-builds/paste to /home/ubuntu/miniconda/conda-bld/work
+Package: paste-2.0.2-py27_0
+source tree in: /home/ubuntu/miniconda/conda-bld/work
+number of files: 180
+Fixing permissions
+Fixing permissions
+BUILD END: paste-2.0.2-py27_0
+# If you want to upload this package to binstar.org later, type:
+#
+# $ binstar upload /home/ubuntu/miniconda/conda-bld/linux-64/paste-2.0.2-py27_0.tar.bz2
+#
+# To have conda build upload to binstar automatically, use
+# $ conda config --set binstar_upload yes
+
+Removing old build directory
+Removing old work directory
+BUILD START: wsgiproxy-0.2.2-py27_0
+Fetching package metadata: ......
+
+WARNING: conda-build appears to be out of date. You have version 1.13.0 but the
+latest version is 1.14.1. Run
+
+conda update -n root conda-build
+
+to get the latest version.
+
+Solving package specifications: .................
+Warning: 2 possible package resolutions (only showing differing packages):
+	[u'paste-2.0.2-py_0.tar.bz2'],
+	[u'paste-2.0.2-py27_0.tar.bz2'],
++ pip install wsgiproxy
+Collecting wsgiproxy
+  Downloading http://localhost/packages/source/W/WSGIProxy/WSGIProxy-0.2.2.tar.gz
+Requirement already satisfied (use --upgrade to upgrade): Paste in /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages (from wsgiproxy)
+Requirement already satisfied (use --upgrade to upgrade): six in /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages (from Paste->wsgiproxy)
+Installing collected packages: wsgiproxy
+  Running setup.py install for wsgiproxy
+Successfully installed wsgiproxy-0.2.2
+
+The following NEW packages will be INSTALLED:
+
+    openssl:    1.0.1k-1     
+    paste:      2.0.2-py_0   
+    pip:        7.0.3-py27_0 
+    python:     2.7.10-0     
+    readline:   6.2-2        
+    setuptools: 18.0.1-py27_0
+    six:        1.9.0-py27_0 
+    sqlite:     3.8.4.1-1    
+    system:     5.8-2        
+    tk:         8.5.18-0     
+    zlib:       1.2.8-0      
+
+Linking packages ...
+[                    ]|                                                  |   0%[openssl             ]|                                                  |   0%[readline            ]|####                                              |   9%[sqlite              ]|#########                                         |  18%[system              ]|#############                                     |  27%[tk                  ]|##################                                |  36%[zlib                ]|######################                            |  45%[python              ]|###########################                       |  54%[setuptools          ]|###############################                   |  63%[six                 ]|####################################              |  72%[paste               ]|########################################          |  81%[pip                 ]|#############################################     |  90%[      COMPLETE      ]|##################################################| 100%
+Removing old work directory
+Copying /home/ubuntu/pypi-conda-builds/wsgiproxy to /home/ubuntu/miniconda/conda-bld/work
+Package: wsgiproxy-0.2.2-py27_0
+source tree in: /home/ubuntu/miniconda/conda-bld/work
+compiling .pyc files...
+number of files: 107
+Fixing permissions
+Fixing permissions
+BUILD END: wsgiproxy-0.2.2-py27_0
+# If you want to upload this package to binstar.org later, type:
+#
+# $ binstar upload /home/ubuntu/miniconda/conda-bld/linux-64/wsgiproxy-0.2.2-py27_0.tar.bz2
+#
+# To have conda build upload to binstar automatically, use
+# $ conda config --set binstar_upload yes
+
+Removing old build directory
+Removing old work directory
+BUILD START: tempita-0.5.3dev-py27_0
+Fetching package metadata: ......
+
+WARNING: conda-build appears to be out of date. You have version 1.13.0 but the
+latest version is 1.14.1. Run
+
+conda update -n root conda-build
+
+to get the latest version.
+
+Solving package specifications: .+ pip install tempita
+Collecting tempita
+  Downloading http://localhost/packages/source/T/Tempita/Tempita-0.5.2.tar.gz
+Installing collected packages: tempita
+  Running setup.py install for tempita
+Successfully installed tempita-0.5.2
+
+The following NEW packages will be INSTALLED:
+
+    openssl:    1.0.1k-1     
+    pip:        7.0.3-py27_0 
+    python:     2.7.10-0     
+    readline:   6.2-2        
+    setuptools: 18.0.1-py27_0
+    sqlite:     3.8.4.1-1    
+    system:     5.8-2        
+    tk:         8.5.18-0     
+    zlib:       1.2.8-0      
+
+Linking packages ...
+[                    ]|                                                  |   0%[openssl             ]|                                                  |   0%[readline            ]|#####                                             |  11%[sqlite              ]|###########                                       |  22%[system              ]|################                                  |  33%[tk                  ]|######################                            |  44%[zlib                ]|###########################                       |  55%[python              ]|#################################                 |  66%[setuptools          ]|######################################            |  77%[pip                 ]|############################################      |  88%[      COMPLETE      ]|##################################################| 100%
+Removing old work directory
+Copying /home/ubuntu/pypi-conda-builds/tempita to /home/ubuntu/miniconda/conda-bld/work
+Package: tempita-0.5.3dev-py27_0
+source tree in: /home/ubuntu/miniconda/conda-bld/work
+number of files: 14
+Fixing permissions
+Fixing permissions
+BUILD END: tempita-0.5.3dev-py27_0
+# If you want to upload this package to binstar.org later, type:
+#
+# $ binstar upload /home/ubuntu/miniconda/conda-bld/linux-64/tempita-0.5.3dev-py27_0.tar.bz2
+#
+# To have conda build upload to binstar automatically, use
+# $ conda config --set binstar_upload yes
+
+Removing old build directory
+Removing old work directory
+BUILD START: pygments-2.0.2-py27_0
+Fetching package metadata: ......
+
+WARNING: conda-build appears to be out of date. You have version 1.13.0 but the
+latest version is 1.14.1. Run
+
+conda update -n root conda-build
+
+to get the latest version.
+
+Solving package specifications: .+ pip install pygments
+Collecting pygments
+  Downloading http://localhost/packages/2.7/P/Pygments/Pygments-2.0.2-py2-none-any.whl (672kB)
+Installing collected packages: pygments
+Successfully installed pygments-2.0.2
+
+The following NEW packages will be INSTALLED:
+
+    openssl:    1.0.1k-1     
+    pip:        7.0.3-py27_0 
+    python:     2.7.10-0     
+    readline:   6.2-2        
+    setuptools: 18.0.1-py27_0
+    sqlite:     3.8.4.1-1    
+    system:     5.8-2        
+    tk:         8.5.18-0     
+    zlib:       1.2.8-0      
+
+Linking packages ...
+[                    ]|                                                  |   0%[openssl             ]|                                                  |   0%[readline            ]|#####                                             |  11%[sqlite              ]|###########                                       |  22%[system              ]|################                                  |  33%[tk                  ]|######################                            |  44%[zlib                ]|###########################                       |  55%[python              ]|#################################                 |  66%[setuptools          ]|######################################            |  77%[pip                 ]|############################################      |  88%[      COMPLETE      ]|##################################################| 100%
+Removing old work directory
+Copying /home/ubuntu/pypi-conda-builds/pygments to /home/ubuntu/miniconda/conda-bld/work
+Package: pygments-2.0.2-py27_0
+source tree in: /home/ubuntu/miniconda/conda-bld/work
+number of files: 324
+Fixing permissions
+Detected hard-coded path in text file bin/pygmentize
+Detected hard-coded path in text file lib/python2.7/site-packages/Pygments-2.0.2.dist-info/RECORD
+Fixing permissions
+BUILD END: pygments-2.0.2-py27_0
+# If you want to upload this package to binstar.org later, type:
+#
+# $ binstar upload /home/ubuntu/miniconda/conda-bld/linux-64/pygments-2.0.2-py27_0.tar.bz2
+#
+# To have conda build upload to binstar automatically, use
+# $ conda config --set binstar_upload yes
+
+Removing old build directory
+Removing old work directory
+BUILD START: webob-1.4.1-py27_0
+Fetching package metadata: ......
+
+WARNING: conda-build appears to be out of date. You have version 1.13.0 but the
+latest version is 1.14.1. Run
+
+conda update -n root conda-build
+
+to get the latest version.
+
+Solving package specifications: .+ pip install webob
+Collecting webob
+  Downloading http://localhost/packages/source/W/WebOb/WebOb-1.4.1.tar.gz (671kB)
+Installing collected packages: webob
+  Running setup.py install for webob
+Successfully installed webob-1.4.1
+
+The following NEW packages will be INSTALLED:
+
+    openssl:    1.0.1k-1     
+    pip:        7.0.3-py27_0 
+    python:     2.7.10-0     
+    readline:   6.2-2        
+    setuptools: 18.0.1-py27_0
+    sqlite:     3.8.4.1-1    
+    system:     5.8-2        
+    tk:         8.5.18-0     
+    zlib:       1.2.8-0      
+
+Linking packages ...
+[                    ]|                                                  |   0%[openssl             ]|                                                  |   0%[readline            ]|#####                                             |  11%[sqlite              ]|###########                                       |  22%[system              ]|################                                  |  33%[tk                  ]|######################                            |  44%[zlib                ]|###########################                       |  55%[python              ]|#################################                 |  66%[setuptools          ]|######################################            |  77%[pip                 ]|############################################      |  88%[      COMPLETE      ]|##################################################| 100%
+Removing old work directory
+Copying /home/ubuntu/pypi-conda-builds/webob to /home/ubuntu/miniconda/conda-bld/work
+Package: webob-1.4.1-py27_0
+source tree in: /home/ubuntu/miniconda/conda-bld/work
+number of files: 43
+Fixing permissions
+Fixing permissions
+BUILD END: webob-1.4.1-py27_0
+# If you want to upload this package to binstar.org later, type:
+#
+# $ binstar upload /home/ubuntu/miniconda/conda-bld/linux-64/webob-1.4.1-py27_0.tar.bz2
+#
+# To have conda build upload to binstar automatically, use
+# $ conda config --set binstar_upload yes
+
+Removing old build directory
+Removing old work directory
+BUILD START: tempita-0.5.3dev-py27_0
+Fetching package metadata: ......
+
+WARNING: conda-build appears to be out of date. You have version 1.13.0 but the
+latest version is 1.14.1. Run
+
+conda update -n root conda-build
+
+to get the latest version.
+
+Solving package specifications: .+ pip install tempita
+Collecting tempita
+  Downloading http://localhost/packages/source/T/Tempita/Tempita-0.5.2.tar.gz
+Installing collected packages: tempita
+  Running setup.py install for tempita
+Successfully installed tempita-0.5.2
+
+The following NEW packages will be INSTALLED:
+
+    openssl:    1.0.1k-1     
+    pip:        7.0.3-py27_0 
+    python:     2.7.10-0     
+    readline:   6.2-2        
+    setuptools: 18.0.1-py27_0
+    sqlite:     3.8.4.1-1    
+    system:     5.8-2        
+    tk:         8.5.18-0     
+    zlib:       1.2.8-0      
+
+Linking packages ...
+[                    ]|                                                  |   0%[openssl             ]|                                                  |   0%[readline            ]|#####                                             |  11%[sqlite              ]|###########                                       |  22%[system              ]|################                                  |  33%[tk                  ]|######################                            |  44%[zlib                ]|###########################                       |  55%[python              ]|#################################                 |  66%[setuptools          ]|######################################            |  77%[pip                 ]|############################################      |  88%[      COMPLETE      ]|##################################################| 100%
+Removing old work directory
+Copying /home/ubuntu/pypi-conda-builds/tempita to /home/ubuntu/miniconda/conda-bld/work
+Package: tempita-0.5.3dev-py27_0
+source tree in: /home/ubuntu/miniconda/conda-bld/work
+number of files: 14
+Fixing permissions
+Fixing permissions
+BUILD END: tempita-0.5.3dev-py27_0
+# If you want to upload this package to binstar.org later, type:
+#
+# $ binstar upload /home/ubuntu/miniconda/conda-bld/linux-64/tempita-0.5.3dev-py27_0.tar.bz2
+#
+# To have conda build upload to binstar automatically, use
+# $ conda config --set binstar_upload yes
+
+Removing old build directory
+Removing old work directory
+BUILD START: pygments-2.0.2-py27_0
+Fetching package metadata: ......
+
+WARNING: conda-build appears to be out of date. You have version 1.13.0 but the
+latest version is 1.14.1. Run
+
+conda update -n root conda-build
+
+to get the latest version.
+
+Solving package specifications: .+ pip install pygments
+Collecting pygments
+  Downloading http://localhost/packages/2.7/P/Pygments/Pygments-2.0.2-py2-none-any.whl (672kB)
+Installing collected packages: pygments
+Successfully installed pygments-2.0.2
+
+The following NEW packages will be INSTALLED:
+
+    openssl:    1.0.1k-1     
+    pip:        7.0.3-py27_0 
+    python:     2.7.10-0     
+    readline:   6.2-2        
+    setuptools: 18.0.1-py27_0
+    sqlite:     3.8.4.1-1    
+    system:     5.8-2        
+    tk:         8.5.18-0     
+    zlib:       1.2.8-0      
+
+Linking packages ...
+[                    ]|                                                  |   0%[openssl             ]|                                                  |   0%[readline            ]|#####                                             |  11%[sqlite              ]|###########                                       |  22%[system              ]|################                                  |  33%[tk                  ]|######################                            |  44%[zlib                ]|###########################                       |  55%[python              ]|#################################                 |  66%[setuptools          ]|######################################            |  77%[pip                 ]|############################################      |  88%[      COMPLETE      ]|##################################################| 100%
+Removing old work directory
+Copying /home/ubuntu/pypi-conda-builds/pygments to /home/ubuntu/miniconda/conda-bld/work
+Package: pygments-2.0.2-py27_0
+source tree in: /home/ubuntu/miniconda/conda-bld/work
+number of files: 324
+Fixing permissions
+Detected hard-coded path in text file bin/pygmentize
+Detected hard-coded path in text file lib/python2.7/site-packages/Pygments-2.0.2.dist-info/RECORD
+Fixing permissions
+BUILD END: pygments-2.0.2-py27_0
+# If you want to upload this package to binstar.org later, type:
+#
+# $ binstar upload /home/ubuntu/miniconda/conda-bld/linux-64/pygments-2.0.2-py27_0.tar.bz2
+#
+# To have conda build upload to binstar automatically, use
+# $ conda config --set binstar_upload yes
+
+Error: prefix already exists: /home/ubuntu/miniconda/envs/_pipbuild_
+Exception:
+Traceback (most recent call last):
+  File "/home/ubuntu/miniconda/envs/_pipbuild_/lib/python2.7/site-packages/pip/basecommand.py", line 223, in main
+    status = self.run(options, args)
+  File "/home/ubuntu/miniconda/envs/_pipbuild_/lib/python2.7/site-packages/pip/commands/install.py", line 268, in run
+    wheel_cache
+  File "/home/ubuntu/miniconda/envs/_pipbuild_/lib/python2.7/site-packages/pip/basecommand.py", line 268, in populate_requirement_set
+    wheel_cache=wheel_cache
+  File "/home/ubuntu/miniconda/envs/_pipbuild_/lib/python2.7/site-packages/pip/req/req_install.py", line 207, in from_line
+    wheel_cache=wheel_cache)
+  File "/home/ubuntu/miniconda/envs/_pipbuild_/lib/python2.7/site-packages/pip/req/req_install.py", line 66, in __init__
+    req = pkg_resources.Requirement.parse(req)
+  File "/home/ubuntu/miniconda/envs/_pipbuild_/lib/python2.7/site-packages/pip/_vendor/pkg_resources/__init__.py", line 2960, in parse
+    reqs = list(parse_requirements(s))
+  File "/home/ubuntu/miniconda/envs/_pipbuild_/lib/python2.7/site-packages/pip/_vendor/pkg_resources/__init__.py", line 2904, in parse_requirements
+    "version spec")
+  File "/home/ubuntu/miniconda/envs/_pipbuild_/lib/python2.7/site-packages/pip/_vendor/pkg_resources/__init__.py", line 2869, in scan_list
+    raise ValueError(msg, line, "at", line[p:])
+ValueError: ('Expected version spec in', 'paste==>=1.7.1', 'at', '==>=1.7.1')
+
+Package search: {'_pypi_ordering': False, 'version': '0.6.1', 'name': 'Deliverance', 'summary': 'Deliverance transforms HTML to theme pages'}
+Creating standard recipe for deliverance-0.6.1
+Converting recipe in /home/ubuntu/pypi-conda-builds/deliverance
+package = Deliverance
+   dependencies = [u'lxml', u'webob', u'wsgiproxy', u'tempita', u'pygments', u'weberror', u'devauth', u'paste', u'pastescript', u'wsgifilter', u'chardet', u'simplejson']
+Creating standard recipe for lxml
+Converting recipe in /home/ubuntu/pypi-conda-builds/lxml
+package = lxml
+   dependencies = []
+Building conda package for lxml
+Creating standard recipe for webob
+Converting recipe in /home/ubuntu/pypi-conda-builds/webob
+package = webob
+   dependencies = []
+Building conda package for webob
+Creating standard recipe for wsgiproxy
+Converting recipe in /home/ubuntu/pypi-conda-builds/wsgiproxy
+package = wsgiproxy
+   dependencies = [u'paste']
+Creating standard recipe for paste
+Converting recipe in /home/ubuntu/pypi-conda-builds/paste
+package = paste
+   dependencies = [u'six']
+Creating standard recipe for six
+Converting recipe in /home/ubuntu/pypi-conda-builds/six
+package = six
+   dependencies = []
+Building conda package for six
+Building conda package for paste
+Building conda package for wsgiproxy
+Creating standard recipe for tempita
+Converting recipe in /home/ubuntu/pypi-conda-builds/tempita
+package = tempita
+   dependencies = []
+Building conda package for tempita
+Creating standard recipe for pygments
+Converting recipe in /home/ubuntu/pypi-conda-builds/pygments
+package = pygments
+   dependencies = []
+Building conda package for pygments
+Creating standard recipe for weberror
+Converting recipe in /home/ubuntu/pypi-conda-builds/weberror
+package = weberror
+   dependencies = [u'webob', u'tempita', u'pygments', u'paste >=1.7.1']
+Creating standard recipe for webob
+Converting recipe in /home/ubuntu/pypi-conda-builds/webob
+package = webob
+   dependencies = []
+Building conda package for webob
+Creating standard recipe for tempita
+Converting recipe in /home/ubuntu/pypi-conda-builds/tempita
+package = tempita
+   dependencies = []
+Building conda package for tempita
+Creating standard recipe for pygments
+Converting recipe in /home/ubuntu/pypi-conda-builds/pygments
+package = pygments
+   dependencies = []
+Building conda package for pygments
+Creating standard recipe for paste->=1.7.1
+Error: Version >=1.7.1 of paste is not available on PyPI.
+
+conda create -n _pipbuild_ --yes python pip
+/home/ubuntu/miniconda/envs/_pipbuild_/bin/pip install paste==>=1.7.1
+Error: Could not pip install paste==>=1.7.1

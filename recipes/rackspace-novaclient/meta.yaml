@@ -1,0 +1,74 @@
+package:
+  name: rackspace-novaclient
+  version: "1.4"
+
+source:
+  fn: rackspace-novaclient-1.4.tar.gz
+  url: https://pypi.python.org/packages/source/r/rackspace-novaclient/rackspace-novaclient-1.4.tar.gz
+  md5: 8cd0c5293511ad68bed3594cd4db276f
+#  patches:
+   # List any patch files here
+   # - fix.patch
+
+build:
+  noarch_python: True
+  # preserve_egg_dir: True
+  # entry_points:
+    # Put any entry points (scripts to be generated automatically) here. The
+    # syntax is module:function.  For example
+    #
+    # - rackspace-novaclient = rackspace-novaclient:main
+    #
+    # Would create an entry point called rackspace-novaclient that calls rackspace-novaclient.main()
+
+
+  # If this is a new build for the same version, increment the build
+  # number. If you do not include this key, it defaults to 0.
+  # number: 1
+
+requirements:
+  build:
+    - python
+    - setuptools
+    - python-novaclient
+    - rackspace-auth-openstack
+    - os_diskconfig_python_novaclient_ext
+    - rax_scheduled_images_python_novaclient_ext
+    - os_networksv2_python_novaclient_ext
+    - os_virtual_interfacesv2_python_novaclient_ext
+    - rax_default_network_flags_python_novaclient_ext
+
+  run:
+    - python
+    - python-novaclient
+    - rackspace-auth-openstack
+    - os_diskconfig_python_novaclient_ext
+    - rax_scheduled_images_python_novaclient_ext
+    - os_networksv2_python_novaclient_ext
+    - os_virtual_interfacesv2_python_novaclient_ext
+    - rax_default_network_flags_python_novaclient_ext
+
+# test:
+  # Python imports
+  # imports:
+
+  # commands:
+    # You can put test commands to be run here.  Use this to test that the
+    # entry points work.
+
+
+  # You can also put a file called run_test.py in the recipe that will be run
+  # at test time.
+
+  # requires:
+    # Put any additional test requirements here.  For example
+    # - nose
+
+about:
+  home: https://github.com/rackerlabs/rackspace-novaclient
+  license: Apache Software License
+  summary: 'Metapackage to install python-novaclient and Rackspace extensions'
+
+# See
+# http://docs.continuum.io/conda/build.html for
+# more information about meta.yaml

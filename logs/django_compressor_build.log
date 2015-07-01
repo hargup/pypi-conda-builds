@@ -2,4 +2,665 @@ Removing old build directory
 Removing old work directory
 BUILD START: django_compressor-1.5-py27_0
 Fetching package metadata: ......
-Error: No packages found in current linux-64 channels matching: django-appconf >=0.4
+
+WARNING: conda-build appears to be out of date. You have version 1.13.0 but the
+latest version is 1.14.1. Run
+
+conda update -n root conda-build
+
+to get the latest version.
+
+Solving package specifications: .+ /home/ubuntu/miniconda/envs/_build/bin/python setup.py install
+running install
+running bdist_egg
+running egg_info
+writing requirements to django_compressor.egg-info/requires.txt
+writing django_compressor.egg-info/PKG-INFO
+writing top-level names to django_compressor.egg-info/top_level.txt
+writing dependency_links to django_compressor.egg-info/dependency_links.txt
+reading manifest file 'django_compressor.egg-info/SOURCES.txt'
+reading manifest template 'MANIFEST.in'
+warning: no files found matching '*.js' under directory 'compressor/tests/media'
+warning: no files found matching '*.css' under directory 'compressor/tests/media'
+warning: no files found matching '*.png' under directory 'compressor/tests/media'
+warning: no files found matching '*.coffee' under directory 'compressor/tests/media'
+writing manifest file 'django_compressor.egg-info/SOURCES.txt'
+installing library code to build/bdist.linux-x86_64/egg
+running install_lib
+running build_py
+creating build
+creating build/lib
+creating build/lib/compressor
+copying compressor/storage.py -> build/lib/compressor
+copying compressor/signals.py -> build/lib/compressor
+copying compressor/js.py -> build/lib/compressor
+copying compressor/conf.py -> build/lib/compressor
+copying compressor/css.py -> build/lib/compressor
+copying compressor/cache.py -> build/lib/compressor
+copying compressor/finders.py -> build/lib/compressor
+copying compressor/__init__.py -> build/lib/compressor
+copying compressor/models.py -> build/lib/compressor
+copying compressor/base.py -> build/lib/compressor
+copying compressor/test_settings.py -> build/lib/compressor
+copying compressor/exceptions.py -> build/lib/compressor
+creating build/lib/compressor/offline
+copying compressor/offline/jinja2.py -> build/lib/compressor/offline
+copying compressor/offline/django.py -> build/lib/compressor/offline
+copying compressor/offline/__init__.py -> build/lib/compressor/offline
+creating build/lib/compressor/management
+copying compressor/management/__init__.py -> build/lib/compressor/management
+creating build/lib/compressor/utils
+copying compressor/utils/stringformat.py -> build/lib/compressor/utils
+copying compressor/utils/__init__.py -> build/lib/compressor/utils
+copying compressor/utils/decorators.py -> build/lib/compressor/utils
+copying compressor/utils/staticfiles.py -> build/lib/compressor/utils
+creating build/lib/compressor/parser
+copying compressor/parser/beautifulsoup.py -> build/lib/compressor/parser
+copying compressor/parser/lxml.py -> build/lib/compressor/parser
+copying compressor/parser/default_htmlparser.py -> build/lib/compressor/parser
+copying compressor/parser/html5lib.py -> build/lib/compressor/parser
+copying compressor/parser/__init__.py -> build/lib/compressor/parser
+copying compressor/parser/base.py -> build/lib/compressor/parser
+creating build/lib/compressor/contrib
+copying compressor/contrib/sekizai.py -> build/lib/compressor/contrib
+copying compressor/contrib/__init__.py -> build/lib/compressor/contrib
+copying compressor/contrib/jinja2ext.py -> build/lib/compressor/contrib
+creating build/lib/compressor/templatetags
+copying compressor/templatetags/__init__.py -> build/lib/compressor/templatetags
+copying compressor/templatetags/compress.py -> build/lib/compressor/templatetags
+creating build/lib/compressor/tests
+copying compressor/tests/precompiler.py -> build/lib/compressor/tests
+copying compressor/tests/test_filters.py -> build/lib/compressor/tests
+copying compressor/tests/test_storages.py -> build/lib/compressor/tests
+copying compressor/tests/test_signals.py -> build/lib/compressor/tests
+copying compressor/tests/test_jinja2ext.py -> build/lib/compressor/tests
+copying compressor/tests/test_templatetags.py -> build/lib/compressor/tests
+copying compressor/tests/test_base.py -> build/lib/compressor/tests
+copying compressor/tests/__init__.py -> build/lib/compressor/tests
+copying compressor/tests/test_offline.py -> build/lib/compressor/tests
+copying compressor/tests/test_parsers.py -> build/lib/compressor/tests
+creating build/lib/compressor/filters
+copying compressor/filters/datauri.py -> build/lib/compressor/filters
+copying compressor/filters/cleancss.py -> build/lib/compressor/filters
+copying compressor/filters/closure.py -> build/lib/compressor/filters
+copying compressor/filters/css_default.py -> build/lib/compressor/filters
+copying compressor/filters/yuglify.py -> build/lib/compressor/filters
+copying compressor/filters/csstidy.py -> build/lib/compressor/filters
+copying compressor/filters/__init__.py -> build/lib/compressor/filters
+copying compressor/filters/template.py -> build/lib/compressor/filters
+copying compressor/filters/yui.py -> build/lib/compressor/filters
+copying compressor/filters/base.py -> build/lib/compressor/filters
+creating build/lib/compressor/management/commands
+copying compressor/management/commands/__init__.py -> build/lib/compressor/management/commands
+copying compressor/management/commands/compress.py -> build/lib/compressor/management/commands
+copying compressor/management/commands/mtime_cache.py -> build/lib/compressor/management/commands
+creating build/lib/compressor/filters/cssmin
+copying compressor/filters/cssmin/rcssmin.py -> build/lib/compressor/filters/cssmin
+copying compressor/filters/cssmin/__init__.py -> build/lib/compressor/filters/cssmin
+copying compressor/filters/cssmin/cssmin.py -> build/lib/compressor/filters/cssmin
+creating build/lib/compressor/filters/jsmin
+copying compressor/filters/jsmin/slimit.py -> build/lib/compressor/filters/jsmin
+copying compressor/filters/jsmin/__init__.py -> build/lib/compressor/filters/jsmin
+copying compressor/filters/jsmin/rjsmin.py -> build/lib/compressor/filters/jsmin
+creating build/lib/compressor/templates
+creating build/lib/compressor/templates/compressor
+copying compressor/templates/compressor/js_inline.html -> build/lib/compressor/templates/compressor
+copying compressor/templates/compressor/css_file.html -> build/lib/compressor/templates/compressor
+copying compressor/templates/compressor/js_file.html -> build/lib/compressor/templates/compressor
+copying compressor/templates/compressor/css_inline.html -> build/lib/compressor/templates/compressor
+creating build/lib/compressor/tests/static
+copying compressor/tests/static/test.txt -> build/lib/compressor/tests/static
+copying compressor/tests/static/test.txt.gz -> build/lib/compressor/tests/static
+creating build/lib/compressor/tests/test_templates_jinja2
+creating build/lib/compressor/tests/test_templates_jinja2/test_jingo
+copying compressor/tests/test_templates_jinja2/test_jingo/test_compressor_offline.html -> build/lib/compressor/tests/test_templates_jinja2/test_jingo
+creating build/lib/compressor/tests/test_templates_jinja2/basic
+copying compressor/tests/test_templates_jinja2/basic/test_compressor_offline.html -> build/lib/compressor/tests/test_templates_jinja2/basic
+creating build/lib/compressor/tests/test_templates_jinja2/test_block_super
+copying compressor/tests/test_templates_jinja2/test_block_super/test_compressor_offline.html -> build/lib/compressor/tests/test_templates_jinja2/test_block_super
+copying compressor/tests/test_templates_jinja2/test_block_super/base.html -> build/lib/compressor/tests/test_templates_jinja2/test_block_super
+creating build/lib/compressor/tests/test_templates_jinja2/test_static_templatetag
+copying compressor/tests/test_templates_jinja2/test_static_templatetag/test_compressor_offline.html -> build/lib/compressor/tests/test_templates_jinja2/test_static_templatetag
+creating build/lib/compressor/tests/test_templates_jinja2/test_with_context
+copying compressor/tests/test_templates_jinja2/test_with_context/test_compressor_offline.html -> build/lib/compressor/tests/test_templates_jinja2/test_with_context
+creating build/lib/compressor/tests/test_templates_jinja2/test_block_super_multiple_cached
+copying compressor/tests/test_templates_jinja2/test_block_super_multiple_cached/test_compressor_offline.html -> build/lib/compressor/tests/test_templates_jinja2/test_block_super_multiple_cached
+copying compressor/tests/test_templates_jinja2/test_block_super_multiple_cached/base2.html -> build/lib/compressor/tests/test_templates_jinja2/test_block_super_multiple_cached
+copying compressor/tests/test_templates_jinja2/test_block_super_multiple_cached/base.html -> build/lib/compressor/tests/test_templates_jinja2/test_block_super_multiple_cached
+creating build/lib/compressor/tests/test_templates_jinja2/test_block_super_multiple
+copying compressor/tests/test_templates_jinja2/test_block_super_multiple/test_compressor_offline.html -> build/lib/compressor/tests/test_templates_jinja2/test_block_super_multiple
+copying compressor/tests/test_templates_jinja2/test_block_super_multiple/base2.html -> build/lib/compressor/tests/test_templates_jinja2/test_block_super_multiple
+copying compressor/tests/test_templates_jinja2/test_block_super_multiple/base.html -> build/lib/compressor/tests/test_templates_jinja2/test_block_super_multiple
+creating build/lib/compressor/tests/test_templates_jinja2/test_inline_non_ascii
+copying compressor/tests/test_templates_jinja2/test_inline_non_ascii/test_compressor_offline.html -> build/lib/compressor/tests/test_templates_jinja2/test_inline_non_ascii
+creating build/lib/compressor/tests/test_templates_jinja2/test_condition
+copying compressor/tests/test_templates_jinja2/test_condition/test_compressor_offline.html -> build/lib/compressor/tests/test_templates_jinja2/test_condition
+creating build/lib/compressor/tests/test_templates_jinja2/test_coffin
+copying compressor/tests/test_templates_jinja2/test_coffin/test_compressor_offline.html -> build/lib/compressor/tests/test_templates_jinja2/test_coffin
+creating build/lib/compressor/tests/test_templates_jinja2/test_block_super_extra
+copying compressor/tests/test_templates_jinja2/test_block_super_extra/test_compressor_offline.html -> build/lib/compressor/tests/test_templates_jinja2/test_block_super_extra
+copying compressor/tests/test_templates_jinja2/test_block_super_extra/base.html -> build/lib/compressor/tests/test_templates_jinja2/test_block_super_extra
+creating build/lib/compressor/tests/test_templates_jinja2/test_templatetag
+copying compressor/tests/test_templates_jinja2/test_templatetag/test_compressor_offline.html -> build/lib/compressor/tests/test_templates_jinja2/test_templatetag
+creating build/lib/compressor/tests/test_templates_jinja2/test_error_handling
+copying compressor/tests/test_templates_jinja2/test_error_handling/test_compressor_offline.html -> build/lib/compressor/tests/test_templates_jinja2/test_error_handling
+copying compressor/tests/test_templates_jinja2/test_error_handling/buggy_extends.html -> build/lib/compressor/tests/test_templates_jinja2/test_error_handling
+copying compressor/tests/test_templates_jinja2/test_error_handling/buggy_template.html -> build/lib/compressor/tests/test_templates_jinja2/test_error_handling
+copying compressor/tests/test_templates_jinja2/test_error_handling/with_coffeescript.html -> build/lib/compressor/tests/test_templates_jinja2/test_error_handling
+copying compressor/tests/test_templates_jinja2/test_error_handling/missing_extends.html -> build/lib/compressor/tests/test_templates_jinja2/test_error_handling
+creating build/lib/compressor/tests/test_templates_jinja2/test_complex
+copying compressor/tests/test_templates_jinja2/test_complex/test_compressor_offline.html -> build/lib/compressor/tests/test_templates_jinja2/test_complex
+creating build/lib/compressor/tests/test_templates
+creating build/lib/compressor/tests/test_templates/test_block_super_base_compressed
+copying compressor/tests/test_templates/test_block_super_base_compressed/test_compressor_offline.html -> build/lib/compressor/tests/test_templates/test_block_super_base_compressed
+copying compressor/tests/test_templates/test_block_super_base_compressed/base2.html -> build/lib/compressor/tests/test_templates/test_block_super_base_compressed
+copying compressor/tests/test_templates/test_block_super_base_compressed/base.html -> build/lib/compressor/tests/test_templates/test_block_super_base_compressed
+creating build/lib/compressor/tests/test_templates/basic
+copying compressor/tests/test_templates/basic/test_compressor_offline.html -> build/lib/compressor/tests/test_templates/basic
+creating build/lib/compressor/tests/test_templates/test_block_super
+copying compressor/tests/test_templates/test_block_super/test_compressor_offline.html -> build/lib/compressor/tests/test_templates/test_block_super
+copying compressor/tests/test_templates/test_block_super/base.html -> build/lib/compressor/tests/test_templates/test_block_super
+creating build/lib/compressor/tests/test_templates/test_static_templatetag
+copying compressor/tests/test_templates/test_static_templatetag/test_compressor_offline.html -> build/lib/compressor/tests/test_templates/test_static_templatetag
+creating build/lib/compressor/tests/test_templates/test_with_context
+copying compressor/tests/test_templates/test_with_context/test_compressor_offline.html -> build/lib/compressor/tests/test_templates/test_with_context
+creating build/lib/compressor/tests/test_templates/test_block_super_multiple_cached
+copying compressor/tests/test_templates/test_block_super_multiple_cached/test_compressor_offline.html -> build/lib/compressor/tests/test_templates/test_block_super_multiple_cached
+copying compressor/tests/test_templates/test_block_super_multiple_cached/base2.html -> build/lib/compressor/tests/test_templates/test_block_super_multiple_cached
+copying compressor/tests/test_templates/test_block_super_multiple_cached/base.html -> build/lib/compressor/tests/test_templates/test_block_super_multiple_cached
+creating build/lib/compressor/tests/test_templates/test_block_super_multiple
+copying compressor/tests/test_templates/test_block_super_multiple/test_compressor_offline.html -> build/lib/compressor/tests/test_templates/test_block_super_multiple
+copying compressor/tests/test_templates/test_block_super_multiple/base2.html -> build/lib/compressor/tests/test_templates/test_block_super_multiple
+copying compressor/tests/test_templates/test_block_super_multiple/base.html -> build/lib/compressor/tests/test_templates/test_block_super_multiple
+creating build/lib/compressor/tests/test_templates/test_duplicate
+copying compressor/tests/test_templates/test_duplicate/test_compressor_offline.html -> build/lib/compressor/tests/test_templates/test_duplicate
+creating build/lib/compressor/tests/test_templates/test_inline_non_ascii
+copying compressor/tests/test_templates/test_inline_non_ascii/test_compressor_offline.html -> build/lib/compressor/tests/test_templates/test_inline_non_ascii
+creating build/lib/compressor/tests/test_templates/test_condition
+copying compressor/tests/test_templates/test_condition/test_compressor_offline.html -> build/lib/compressor/tests/test_templates/test_condition
+creating build/lib/compressor/tests/test_templates/test_block_super_extra
+copying compressor/tests/test_templates/test_block_super_extra/test_compressor_offline.html -> build/lib/compressor/tests/test_templates/test_block_super_extra
+copying compressor/tests/test_templates/test_block_super_extra/base.html -> build/lib/compressor/tests/test_templates/test_block_super_extra
+creating build/lib/compressor/tests/test_templates/test_templatetag
+copying compressor/tests/test_templates/test_templatetag/test_compressor_offline.html -> build/lib/compressor/tests/test_templates/test_templatetag
+creating build/lib/compressor/tests/test_templates/test_error_handling
+copying compressor/tests/test_templates/test_error_handling/test_compressor_offline.html -> build/lib/compressor/tests/test_templates/test_error_handling
+copying compressor/tests/test_templates/test_error_handling/buggy_extends.html -> build/lib/compressor/tests/test_templates/test_error_handling
+copying compressor/tests/test_templates/test_error_handling/buggy_template.html -> build/lib/compressor/tests/test_templates/test_error_handling
+copying compressor/tests/test_templates/test_error_handling/with_coffeescript.html -> build/lib/compressor/tests/test_templates/test_error_handling
+copying compressor/tests/test_templates/test_error_handling/missing_extends.html -> build/lib/compressor/tests/test_templates/test_error_handling
+creating build/lib/compressor/tests/test_templates/test_complex
+copying compressor/tests/test_templates/test_complex/test_compressor_offline.html -> build/lib/compressor/tests/test_templates/test_complex
+creating build/lib/compressor/tests/static/img
+copying compressor/tests/static/img/python.png -> build/lib/compressor/tests/static/img
+copying compressor/tests/static/img/add.png -> build/lib/compressor/tests/static/img
+creating build/lib/compressor/tests/static/css
+copying compressor/tests/static/css/two.css -> build/lib/compressor/tests/static/css
+copying compressor/tests/static/css/one.css -> build/lib/compressor/tests/static/css
+copying compressor/tests/static/css/datauri.css -> build/lib/compressor/tests/static/css
+copying compressor/tests/static/css/utf-8_with-BOM.css -> build/lib/compressor/tests/static/css
+copying compressor/tests/static/css/nonasc.css -> build/lib/compressor/tests/static/css
+copying compressor/tests/static/css/filename with spaces.css -> build/lib/compressor/tests/static/css
+creating build/lib/compressor/tests/static/js
+copying compressor/tests/static/js/one.js -> build/lib/compressor/tests/static/js
+copying compressor/tests/static/js/one.coffee -> build/lib/compressor/tests/static/js
+copying compressor/tests/static/js/two.js -> build/lib/compressor/tests/static/js
+copying compressor/tests/static/js/nonasc-latin1.js -> build/lib/compressor/tests/static/js
+copying compressor/tests/static/js/066cd253eada.js -> build/lib/compressor/tests/static/js
+copying compressor/tests/static/js/three.js -> build/lib/compressor/tests/static/js
+copying compressor/tests/static/js/nonasc.js -> build/lib/compressor/tests/static/js
+creating build/lib/compressor/tests/static/CACHE
+creating build/lib/compressor/tests/static/CACHE/css
+copying compressor/tests/static/CACHE/css/cdd1a7452e1d.css -> build/lib/compressor/tests/static/CACHE/css
+copying compressor/tests/static/CACHE/css/b2cec0f8cb24.css -> build/lib/compressor/tests/static/CACHE/css
+copying compressor/tests/static/CACHE/css/e31030430724.css -> build/lib/compressor/tests/static/CACHE/css
+copying compressor/tests/static/CACHE/css/3e3a397bde7b.css -> build/lib/compressor/tests/static/CACHE/css
+copying compressor/tests/static/CACHE/css/1d4424458f88.css -> build/lib/compressor/tests/static/CACHE/css
+copying compressor/tests/static/CACHE/css/test.5dddc6c2fb5a.css -> build/lib/compressor/tests/static/CACHE/css
+copying compressor/tests/static/CACHE/css/1d4424458f88.css.gz -> build/lib/compressor/tests/static/CACHE/css
+copying compressor/tests/static/CACHE/css/e41ba2cc6982.css -> build/lib/compressor/tests/static/CACHE/css
+copying compressor/tests/static/CACHE/css/78bd7a762e2d.css -> build/lib/compressor/tests/static/CACHE/css
+copying compressor/tests/static/CACHE/css/6a35d4e5e76c.css -> build/lib/compressor/tests/static/CACHE/css
+copying compressor/tests/static/CACHE/css/13c6e6521347.css -> build/lib/compressor/tests/static/CACHE/css
+copying compressor/tests/static/CACHE/css/799f6defe43c.css -> build/lib/compressor/tests/static/CACHE/css
+copying compressor/tests/static/CACHE/css/652d0fbfecf5.css -> build/lib/compressor/tests/static/CACHE/css
+creating build/lib/compressor/tests/static/CACHE/js
+copying compressor/tests/static/CACHE/js/be9e078b5ca7.js -> build/lib/compressor/tests/static/CACHE/js
+copying compressor/tests/static/CACHE/js/2f6ef61c488e.js -> build/lib/compressor/tests/static/CACHE/js
+copying compressor/tests/static/CACHE/js/ced14aec5856.js -> build/lib/compressor/tests/static/CACHE/js
+copying compressor/tests/static/CACHE/js/f8891c416981.js -> build/lib/compressor/tests/static/CACHE/js
+copying compressor/tests/static/CACHE/js/028c3fc42232.js -> build/lib/compressor/tests/static/CACHE/js
+copying compressor/tests/static/CACHE/js/3872c9ae3f42.js -> build/lib/compressor/tests/static/CACHE/js
+copying compressor/tests/static/CACHE/js/00b4baffe335.js -> build/lib/compressor/tests/static/CACHE/js
+copying compressor/tests/static/CACHE/js/one.81a2cd965815.js -> build/lib/compressor/tests/static/CACHE/js
+copying compressor/tests/static/CACHE/js/a27e1d3a619a.js -> build/lib/compressor/tests/static/CACHE/js
+copying compressor/tests/static/CACHE/js/61ec584468eb.js -> build/lib/compressor/tests/static/CACHE/js
+copying compressor/tests/static/CACHE/js/dfa2bb387fa8.js -> build/lib/compressor/tests/static/CACHE/js
+copying compressor/tests/static/CACHE/js/2e9d3f5545a6.js -> build/lib/compressor/tests/static/CACHE/js
+copying compressor/tests/static/CACHE/js/eed1d222933e.js -> build/lib/compressor/tests/static/CACHE/js
+copying compressor/tests/static/CACHE/js/ef6b32a54575.js -> build/lib/compressor/tests/static/CACHE/js
+copying compressor/tests/static/CACHE/js/066cd253eada.js -> build/lib/compressor/tests/static/CACHE/js
+copying compressor/tests/static/CACHE/js/e920d58f166d.js -> build/lib/compressor/tests/static/CACHE/js
+copying compressor/tests/static/CACHE/js/e214fe629b28.js -> build/lib/compressor/tests/static/CACHE/js
+copying compressor/tests/static/CACHE/js/32c8281e3346.js -> build/lib/compressor/tests/static/CACHE/js
+copying compressor/tests/static/CACHE/js/f5e179b8eca4.js -> build/lib/compressor/tests/static/CACHE/js
+copying compressor/tests/static/CACHE/js/cd8870829421.js -> build/lib/compressor/tests/static/CACHE/js
+copying compressor/tests/static/CACHE/js/7c02d201f69d.js -> build/lib/compressor/tests/static/CACHE/js
+copying compressor/tests/static/CACHE/js/one.95cfb869eead.js -> build/lib/compressor/tests/static/CACHE/js
+copying compressor/tests/static/CACHE/js/4e3758d50224.js -> build/lib/compressor/tests/static/CACHE/js
+copying compressor/tests/static/CACHE/js/0e8807bebcee.js -> build/lib/compressor/tests/static/CACHE/js
+copying compressor/tests/static/CACHE/js/5838e2fd66af.js -> build/lib/compressor/tests/static/CACHE/js
+creating build/lib/compressor/tests/static/css/url
+copying compressor/tests/static/css/url/test.css -> build/lib/compressor/tests/static/css/url
+copying compressor/tests/static/css/url/nonasc.css -> build/lib/compressor/tests/static/css/url
+copying compressor/tests/static/css/url/url1.css -> build/lib/compressor/tests/static/css/url
+creating build/lib/compressor/tests/static/custom
+creating build/lib/compressor/tests/static/custom/js
+copying compressor/tests/static/custom/js/066cd253eada.js -> build/lib/compressor/tests/static/custom/js
+creating build/lib/compressor/tests/static/css/url/2
+copying compressor/tests/static/css/url/2/url2.css -> build/lib/compressor/tests/static/css/url/2
+creating build/lib/compressor/tests/static/custom/nested
+creating build/lib/compressor/tests/static/custom/nested/js
+copying compressor/tests/static/custom/nested/js/066cd253eada.js -> build/lib/compressor/tests/static/custom/nested/js
+creating build/bdist.linux-x86_64
+creating build/bdist.linux-x86_64/egg
+creating build/bdist.linux-x86_64/egg/compressor
+copying build/lib/compressor/storage.py -> build/bdist.linux-x86_64/egg/compressor
+copying build/lib/compressor/signals.py -> build/bdist.linux-x86_64/egg/compressor
+creating build/bdist.linux-x86_64/egg/compressor/offline
+copying build/lib/compressor/offline/jinja2.py -> build/bdist.linux-x86_64/egg/compressor/offline
+copying build/lib/compressor/offline/django.py -> build/bdist.linux-x86_64/egg/compressor/offline
+copying build/lib/compressor/offline/__init__.py -> build/bdist.linux-x86_64/egg/compressor/offline
+creating build/bdist.linux-x86_64/egg/compressor/management
+copying build/lib/compressor/management/__init__.py -> build/bdist.linux-x86_64/egg/compressor/management
+creating build/bdist.linux-x86_64/egg/compressor/management/commands
+copying build/lib/compressor/management/commands/__init__.py -> build/bdist.linux-x86_64/egg/compressor/management/commands
+copying build/lib/compressor/management/commands/compress.py -> build/bdist.linux-x86_64/egg/compressor/management/commands
+copying build/lib/compressor/management/commands/mtime_cache.py -> build/bdist.linux-x86_64/egg/compressor/management/commands
+creating build/bdist.linux-x86_64/egg/compressor/utils
+copying build/lib/compressor/utils/stringformat.py -> build/bdist.linux-x86_64/egg/compressor/utils
+copying build/lib/compressor/utils/__init__.py -> build/bdist.linux-x86_64/egg/compressor/utils
+copying build/lib/compressor/utils/decorators.py -> build/bdist.linux-x86_64/egg/compressor/utils
+copying build/lib/compressor/utils/staticfiles.py -> build/bdist.linux-x86_64/egg/compressor/utils
+copying build/lib/compressor/js.py -> build/bdist.linux-x86_64/egg/compressor
+creating build/bdist.linux-x86_64/egg/compressor/parser
+copying build/lib/compressor/parser/beautifulsoup.py -> build/bdist.linux-x86_64/egg/compressor/parser
+copying build/lib/compressor/parser/lxml.py -> build/bdist.linux-x86_64/egg/compressor/parser
+copying build/lib/compressor/parser/default_htmlparser.py -> build/bdist.linux-x86_64/egg/compressor/parser
+copying build/lib/compressor/parser/html5lib.py -> build/bdist.linux-x86_64/egg/compressor/parser
+copying build/lib/compressor/parser/__init__.py -> build/bdist.linux-x86_64/egg/compressor/parser
+copying build/lib/compressor/parser/base.py -> build/bdist.linux-x86_64/egg/compressor/parser
+creating build/bdist.linux-x86_64/egg/compressor/templates
+creating build/bdist.linux-x86_64/egg/compressor/templates/compressor
+copying build/lib/compressor/templates/compressor/js_inline.html -> build/bdist.linux-x86_64/egg/compressor/templates/compressor
+copying build/lib/compressor/templates/compressor/css_file.html -> build/bdist.linux-x86_64/egg/compressor/templates/compressor
+copying build/lib/compressor/templates/compressor/js_file.html -> build/bdist.linux-x86_64/egg/compressor/templates/compressor
+copying build/lib/compressor/templates/compressor/css_inline.html -> build/bdist.linux-x86_64/egg/compressor/templates/compressor
+creating build/bdist.linux-x86_64/egg/compressor/contrib
+copying build/lib/compressor/contrib/sekizai.py -> build/bdist.linux-x86_64/egg/compressor/contrib
+copying build/lib/compressor/contrib/__init__.py -> build/bdist.linux-x86_64/egg/compressor/contrib
+copying build/lib/compressor/contrib/jinja2ext.py -> build/bdist.linux-x86_64/egg/compressor/contrib
+creating build/bdist.linux-x86_64/egg/compressor/templatetags
+copying build/lib/compressor/templatetags/__init__.py -> build/bdist.linux-x86_64/egg/compressor/templatetags
+copying build/lib/compressor/templatetags/compress.py -> build/bdist.linux-x86_64/egg/compressor/templatetags
+copying build/lib/compressor/conf.py -> build/bdist.linux-x86_64/egg/compressor
+copying build/lib/compressor/css.py -> build/bdist.linux-x86_64/egg/compressor
+creating build/bdist.linux-x86_64/egg/compressor/tests
+copying build/lib/compressor/tests/precompiler.py -> build/bdist.linux-x86_64/egg/compressor/tests
+copying build/lib/compressor/tests/test_filters.py -> build/bdist.linux-x86_64/egg/compressor/tests
+copying build/lib/compressor/tests/test_storages.py -> build/bdist.linux-x86_64/egg/compressor/tests
+copying build/lib/compressor/tests/test_signals.py -> build/bdist.linux-x86_64/egg/compressor/tests
+creating build/bdist.linux-x86_64/egg/compressor/tests/test_templates_jinja2
+creating build/bdist.linux-x86_64/egg/compressor/tests/test_templates_jinja2/test_jingo
+copying build/lib/compressor/tests/test_templates_jinja2/test_jingo/test_compressor_offline.html -> build/bdist.linux-x86_64/egg/compressor/tests/test_templates_jinja2/test_jingo
+creating build/bdist.linux-x86_64/egg/compressor/tests/test_templates_jinja2/basic
+copying build/lib/compressor/tests/test_templates_jinja2/basic/test_compressor_offline.html -> build/bdist.linux-x86_64/egg/compressor/tests/test_templates_jinja2/basic
+creating build/bdist.linux-x86_64/egg/compressor/tests/test_templates_jinja2/test_block_super
+copying build/lib/compressor/tests/test_templates_jinja2/test_block_super/test_compressor_offline.html -> build/bdist.linux-x86_64/egg/compressor/tests/test_templates_jinja2/test_block_super
+copying build/lib/compressor/tests/test_templates_jinja2/test_block_super/base.html -> build/bdist.linux-x86_64/egg/compressor/tests/test_templates_jinja2/test_block_super
+creating build/bdist.linux-x86_64/egg/compressor/tests/test_templates_jinja2/test_static_templatetag
+copying build/lib/compressor/tests/test_templates_jinja2/test_static_templatetag/test_compressor_offline.html -> build/bdist.linux-x86_64/egg/compressor/tests/test_templates_jinja2/test_static_templatetag
+creating build/bdist.linux-x86_64/egg/compressor/tests/test_templates_jinja2/test_with_context
+copying build/lib/compressor/tests/test_templates_jinja2/test_with_context/test_compressor_offline.html -> build/bdist.linux-x86_64/egg/compressor/tests/test_templates_jinja2/test_with_context
+creating build/bdist.linux-x86_64/egg/compressor/tests/test_templates_jinja2/test_block_super_multiple_cached
+copying build/lib/compressor/tests/test_templates_jinja2/test_block_super_multiple_cached/test_compressor_offline.html -> build/bdist.linux-x86_64/egg/compressor/tests/test_templates_jinja2/test_block_super_multiple_cached
+copying build/lib/compressor/tests/test_templates_jinja2/test_block_super_multiple_cached/base2.html -> build/bdist.linux-x86_64/egg/compressor/tests/test_templates_jinja2/test_block_super_multiple_cached
+copying build/lib/compressor/tests/test_templates_jinja2/test_block_super_multiple_cached/base.html -> build/bdist.linux-x86_64/egg/compressor/tests/test_templates_jinja2/test_block_super_multiple_cached
+creating build/bdist.linux-x86_64/egg/compressor/tests/test_templates_jinja2/test_block_super_multiple
+copying build/lib/compressor/tests/test_templates_jinja2/test_block_super_multiple/test_compressor_offline.html -> build/bdist.linux-x86_64/egg/compressor/tests/test_templates_jinja2/test_block_super_multiple
+copying build/lib/compressor/tests/test_templates_jinja2/test_block_super_multiple/base2.html -> build/bdist.linux-x86_64/egg/compressor/tests/test_templates_jinja2/test_block_super_multiple
+copying build/lib/compressor/tests/test_templates_jinja2/test_block_super_multiple/base.html -> build/bdist.linux-x86_64/egg/compressor/tests/test_templates_jinja2/test_block_super_multiple
+creating build/bdist.linux-x86_64/egg/compressor/tests/test_templates_jinja2/test_inline_non_ascii
+copying build/lib/compressor/tests/test_templates_jinja2/test_inline_non_ascii/test_compressor_offline.html -> build/bdist.linux-x86_64/egg/compressor/tests/test_templates_jinja2/test_inline_non_ascii
+creating build/bdist.linux-x86_64/egg/compressor/tests/test_templates_jinja2/test_condition
+copying build/lib/compressor/tests/test_templates_jinja2/test_condition/test_compressor_offline.html -> build/bdist.linux-x86_64/egg/compressor/tests/test_templates_jinja2/test_condition
+creating build/bdist.linux-x86_64/egg/compressor/tests/test_templates_jinja2/test_coffin
+copying build/lib/compressor/tests/test_templates_jinja2/test_coffin/test_compressor_offline.html -> build/bdist.linux-x86_64/egg/compressor/tests/test_templates_jinja2/test_coffin
+creating build/bdist.linux-x86_64/egg/compressor/tests/test_templates_jinja2/test_block_super_extra
+copying build/lib/compressor/tests/test_templates_jinja2/test_block_super_extra/test_compressor_offline.html -> build/bdist.linux-x86_64/egg/compressor/tests/test_templates_jinja2/test_block_super_extra
+copying build/lib/compressor/tests/test_templates_jinja2/test_block_super_extra/base.html -> build/bdist.linux-x86_64/egg/compressor/tests/test_templates_jinja2/test_block_super_extra
+creating build/bdist.linux-x86_64/egg/compressor/tests/test_templates_jinja2/test_templatetag
+copying build/lib/compressor/tests/test_templates_jinja2/test_templatetag/test_compressor_offline.html -> build/bdist.linux-x86_64/egg/compressor/tests/test_templates_jinja2/test_templatetag
+creating build/bdist.linux-x86_64/egg/compressor/tests/test_templates_jinja2/test_error_handling
+copying build/lib/compressor/tests/test_templates_jinja2/test_error_handling/test_compressor_offline.html -> build/bdist.linux-x86_64/egg/compressor/tests/test_templates_jinja2/test_error_handling
+copying build/lib/compressor/tests/test_templates_jinja2/test_error_handling/buggy_extends.html -> build/bdist.linux-x86_64/egg/compressor/tests/test_templates_jinja2/test_error_handling
+copying build/lib/compressor/tests/test_templates_jinja2/test_error_handling/buggy_template.html -> build/bdist.linux-x86_64/egg/compressor/tests/test_templates_jinja2/test_error_handling
+copying build/lib/compressor/tests/test_templates_jinja2/test_error_handling/with_coffeescript.html -> build/bdist.linux-x86_64/egg/compressor/tests/test_templates_jinja2/test_error_handling
+copying build/lib/compressor/tests/test_templates_jinja2/test_error_handling/missing_extends.html -> build/bdist.linux-x86_64/egg/compressor/tests/test_templates_jinja2/test_error_handling
+creating build/bdist.linux-x86_64/egg/compressor/tests/test_templates_jinja2/test_complex
+copying build/lib/compressor/tests/test_templates_jinja2/test_complex/test_compressor_offline.html -> build/bdist.linux-x86_64/egg/compressor/tests/test_templates_jinja2/test_complex
+creating build/bdist.linux-x86_64/egg/compressor/tests/test_templates
+creating build/bdist.linux-x86_64/egg/compressor/tests/test_templates/test_block_super_base_compressed
+copying build/lib/compressor/tests/test_templates/test_block_super_base_compressed/test_compressor_offline.html -> build/bdist.linux-x86_64/egg/compressor/tests/test_templates/test_block_super_base_compressed
+copying build/lib/compressor/tests/test_templates/test_block_super_base_compressed/base2.html -> build/bdist.linux-x86_64/egg/compressor/tests/test_templates/test_block_super_base_compressed
+copying build/lib/compressor/tests/test_templates/test_block_super_base_compressed/base.html -> build/bdist.linux-x86_64/egg/compressor/tests/test_templates/test_block_super_base_compressed
+creating build/bdist.linux-x86_64/egg/compressor/tests/test_templates/basic
+copying build/lib/compressor/tests/test_templates/basic/test_compressor_offline.html -> build/bdist.linux-x86_64/egg/compressor/tests/test_templates/basic
+creating build/bdist.linux-x86_64/egg/compressor/tests/test_templates/test_block_super
+copying build/lib/compressor/tests/test_templates/test_block_super/test_compressor_offline.html -> build/bdist.linux-x86_64/egg/compressor/tests/test_templates/test_block_super
+copying build/lib/compressor/tests/test_templates/test_block_super/base.html -> build/bdist.linux-x86_64/egg/compressor/tests/test_templates/test_block_super
+creating build/bdist.linux-x86_64/egg/compressor/tests/test_templates/test_static_templatetag
+copying build/lib/compressor/tests/test_templates/test_static_templatetag/test_compressor_offline.html -> build/bdist.linux-x86_64/egg/compressor/tests/test_templates/test_static_templatetag
+creating build/bdist.linux-x86_64/egg/compressor/tests/test_templates/test_with_context
+copying build/lib/compressor/tests/test_templates/test_with_context/test_compressor_offline.html -> build/bdist.linux-x86_64/egg/compressor/tests/test_templates/test_with_context
+creating build/bdist.linux-x86_64/egg/compressor/tests/test_templates/test_block_super_multiple_cached
+copying build/lib/compressor/tests/test_templates/test_block_super_multiple_cached/test_compressor_offline.html -> build/bdist.linux-x86_64/egg/compressor/tests/test_templates/test_block_super_multiple_cached
+copying build/lib/compressor/tests/test_templates/test_block_super_multiple_cached/base2.html -> build/bdist.linux-x86_64/egg/compressor/tests/test_templates/test_block_super_multiple_cached
+copying build/lib/compressor/tests/test_templates/test_block_super_multiple_cached/base.html -> build/bdist.linux-x86_64/egg/compressor/tests/test_templates/test_block_super_multiple_cached
+creating build/bdist.linux-x86_64/egg/compressor/tests/test_templates/test_block_super_multiple
+copying build/lib/compressor/tests/test_templates/test_block_super_multiple/test_compressor_offline.html -> build/bdist.linux-x86_64/egg/compressor/tests/test_templates/test_block_super_multiple
+copying build/lib/compressor/tests/test_templates/test_block_super_multiple/base2.html -> build/bdist.linux-x86_64/egg/compressor/tests/test_templates/test_block_super_multiple
+copying build/lib/compressor/tests/test_templates/test_block_super_multiple/base.html -> build/bdist.linux-x86_64/egg/compressor/tests/test_templates/test_block_super_multiple
+creating build/bdist.linux-x86_64/egg/compressor/tests/test_templates/test_duplicate
+copying build/lib/compressor/tests/test_templates/test_duplicate/test_compressor_offline.html -> build/bdist.linux-x86_64/egg/compressor/tests/test_templates/test_duplicate
+creating build/bdist.linux-x86_64/egg/compressor/tests/test_templates/test_inline_non_ascii
+copying build/lib/compressor/tests/test_templates/test_inline_non_ascii/test_compressor_offline.html -> build/bdist.linux-x86_64/egg/compressor/tests/test_templates/test_inline_non_ascii
+creating build/bdist.linux-x86_64/egg/compressor/tests/test_templates/test_condition
+copying build/lib/compressor/tests/test_templates/test_condition/test_compressor_offline.html -> build/bdist.linux-x86_64/egg/compressor/tests/test_templates/test_condition
+creating build/bdist.linux-x86_64/egg/compressor/tests/test_templates/test_block_super_extra
+copying build/lib/compressor/tests/test_templates/test_block_super_extra/test_compressor_offline.html -> build/bdist.linux-x86_64/egg/compressor/tests/test_templates/test_block_super_extra
+copying build/lib/compressor/tests/test_templates/test_block_super_extra/base.html -> build/bdist.linux-x86_64/egg/compressor/tests/test_templates/test_block_super_extra
+creating build/bdist.linux-x86_64/egg/compressor/tests/test_templates/test_templatetag
+copying build/lib/compressor/tests/test_templates/test_templatetag/test_compressor_offline.html -> build/bdist.linux-x86_64/egg/compressor/tests/test_templates/test_templatetag
+creating build/bdist.linux-x86_64/egg/compressor/tests/test_templates/test_error_handling
+copying build/lib/compressor/tests/test_templates/test_error_handling/test_compressor_offline.html -> build/bdist.linux-x86_64/egg/compressor/tests/test_templates/test_error_handling
+copying build/lib/compressor/tests/test_templates/test_error_handling/buggy_extends.html -> build/bdist.linux-x86_64/egg/compressor/tests/test_templates/test_error_handling
+copying build/lib/compressor/tests/test_templates/test_error_handling/buggy_template.html -> build/bdist.linux-x86_64/egg/compressor/tests/test_templates/test_error_handling
+copying build/lib/compressor/tests/test_templates/test_error_handling/with_coffeescript.html -> build/bdist.linux-x86_64/egg/compressor/tests/test_templates/test_error_handling
+copying build/lib/compressor/tests/test_templates/test_error_handling/missing_extends.html -> build/bdist.linux-x86_64/egg/compressor/tests/test_templates/test_error_handling
+creating build/bdist.linux-x86_64/egg/compressor/tests/test_templates/test_complex
+copying build/lib/compressor/tests/test_templates/test_complex/test_compressor_offline.html -> build/bdist.linux-x86_64/egg/compressor/tests/test_templates/test_complex
+copying build/lib/compressor/tests/test_jinja2ext.py -> build/bdist.linux-x86_64/egg/compressor/tests
+copying build/lib/compressor/tests/test_templatetags.py -> build/bdist.linux-x86_64/egg/compressor/tests
+copying build/lib/compressor/tests/test_base.py -> build/bdist.linux-x86_64/egg/compressor/tests
+creating build/bdist.linux-x86_64/egg/compressor/tests/static
+creating build/bdist.linux-x86_64/egg/compressor/tests/static/CACHE
+creating build/bdist.linux-x86_64/egg/compressor/tests/static/CACHE/css
+copying build/lib/compressor/tests/static/CACHE/css/cdd1a7452e1d.css -> build/bdist.linux-x86_64/egg/compressor/tests/static/CACHE/css
+copying build/lib/compressor/tests/static/CACHE/css/b2cec0f8cb24.css -> build/bdist.linux-x86_64/egg/compressor/tests/static/CACHE/css
+copying build/lib/compressor/tests/static/CACHE/css/e31030430724.css -> build/bdist.linux-x86_64/egg/compressor/tests/static/CACHE/css
+copying build/lib/compressor/tests/static/CACHE/css/3e3a397bde7b.css -> build/bdist.linux-x86_64/egg/compressor/tests/static/CACHE/css
+copying build/lib/compressor/tests/static/CACHE/css/1d4424458f88.css -> build/bdist.linux-x86_64/egg/compressor/tests/static/CACHE/css
+copying build/lib/compressor/tests/static/CACHE/css/test.5dddc6c2fb5a.css -> build/bdist.linux-x86_64/egg/compressor/tests/static/CACHE/css
+copying build/lib/compressor/tests/static/CACHE/css/1d4424458f88.css.gz -> build/bdist.linux-x86_64/egg/compressor/tests/static/CACHE/css
+copying build/lib/compressor/tests/static/CACHE/css/e41ba2cc6982.css -> build/bdist.linux-x86_64/egg/compressor/tests/static/CACHE/css
+copying build/lib/compressor/tests/static/CACHE/css/78bd7a762e2d.css -> build/bdist.linux-x86_64/egg/compressor/tests/static/CACHE/css
+copying build/lib/compressor/tests/static/CACHE/css/6a35d4e5e76c.css -> build/bdist.linux-x86_64/egg/compressor/tests/static/CACHE/css
+copying build/lib/compressor/tests/static/CACHE/css/13c6e6521347.css -> build/bdist.linux-x86_64/egg/compressor/tests/static/CACHE/css
+copying build/lib/compressor/tests/static/CACHE/css/799f6defe43c.css -> build/bdist.linux-x86_64/egg/compressor/tests/static/CACHE/css
+copying build/lib/compressor/tests/static/CACHE/css/652d0fbfecf5.css -> build/bdist.linux-x86_64/egg/compressor/tests/static/CACHE/css
+creating build/bdist.linux-x86_64/egg/compressor/tests/static/CACHE/js
+copying build/lib/compressor/tests/static/CACHE/js/be9e078b5ca7.js -> build/bdist.linux-x86_64/egg/compressor/tests/static/CACHE/js
+copying build/lib/compressor/tests/static/CACHE/js/2f6ef61c488e.js -> build/bdist.linux-x86_64/egg/compressor/tests/static/CACHE/js
+copying build/lib/compressor/tests/static/CACHE/js/ced14aec5856.js -> build/bdist.linux-x86_64/egg/compressor/tests/static/CACHE/js
+copying build/lib/compressor/tests/static/CACHE/js/f8891c416981.js -> build/bdist.linux-x86_64/egg/compressor/tests/static/CACHE/js
+copying build/lib/compressor/tests/static/CACHE/js/028c3fc42232.js -> build/bdist.linux-x86_64/egg/compressor/tests/static/CACHE/js
+copying build/lib/compressor/tests/static/CACHE/js/3872c9ae3f42.js -> build/bdist.linux-x86_64/egg/compressor/tests/static/CACHE/js
+copying build/lib/compressor/tests/static/CACHE/js/00b4baffe335.js -> build/bdist.linux-x86_64/egg/compressor/tests/static/CACHE/js
+copying build/lib/compressor/tests/static/CACHE/js/one.81a2cd965815.js -> build/bdist.linux-x86_64/egg/compressor/tests/static/CACHE/js
+copying build/lib/compressor/tests/static/CACHE/js/a27e1d3a619a.js -> build/bdist.linux-x86_64/egg/compressor/tests/static/CACHE/js
+copying build/lib/compressor/tests/static/CACHE/js/61ec584468eb.js -> build/bdist.linux-x86_64/egg/compressor/tests/static/CACHE/js
+copying build/lib/compressor/tests/static/CACHE/js/dfa2bb387fa8.js -> build/bdist.linux-x86_64/egg/compressor/tests/static/CACHE/js
+copying build/lib/compressor/tests/static/CACHE/js/2e9d3f5545a6.js -> build/bdist.linux-x86_64/egg/compressor/tests/static/CACHE/js
+copying build/lib/compressor/tests/static/CACHE/js/eed1d222933e.js -> build/bdist.linux-x86_64/egg/compressor/tests/static/CACHE/js
+copying build/lib/compressor/tests/static/CACHE/js/ef6b32a54575.js -> build/bdist.linux-x86_64/egg/compressor/tests/static/CACHE/js
+copying build/lib/compressor/tests/static/CACHE/js/066cd253eada.js -> build/bdist.linux-x86_64/egg/compressor/tests/static/CACHE/js
+copying build/lib/compressor/tests/static/CACHE/js/e920d58f166d.js -> build/bdist.linux-x86_64/egg/compressor/tests/static/CACHE/js
+copying build/lib/compressor/tests/static/CACHE/js/e214fe629b28.js -> build/bdist.linux-x86_64/egg/compressor/tests/static/CACHE/js
+copying build/lib/compressor/tests/static/CACHE/js/32c8281e3346.js -> build/bdist.linux-x86_64/egg/compressor/tests/static/CACHE/js
+copying build/lib/compressor/tests/static/CACHE/js/f5e179b8eca4.js -> build/bdist.linux-x86_64/egg/compressor/tests/static/CACHE/js
+copying build/lib/compressor/tests/static/CACHE/js/cd8870829421.js -> build/bdist.linux-x86_64/egg/compressor/tests/static/CACHE/js
+copying build/lib/compressor/tests/static/CACHE/js/7c02d201f69d.js -> build/bdist.linux-x86_64/egg/compressor/tests/static/CACHE/js
+copying build/lib/compressor/tests/static/CACHE/js/one.95cfb869eead.js -> build/bdist.linux-x86_64/egg/compressor/tests/static/CACHE/js
+copying build/lib/compressor/tests/static/CACHE/js/4e3758d50224.js -> build/bdist.linux-x86_64/egg/compressor/tests/static/CACHE/js
+copying build/lib/compressor/tests/static/CACHE/js/0e8807bebcee.js -> build/bdist.linux-x86_64/egg/compressor/tests/static/CACHE/js
+copying build/lib/compressor/tests/static/CACHE/js/5838e2fd66af.js -> build/bdist.linux-x86_64/egg/compressor/tests/static/CACHE/js
+creating build/bdist.linux-x86_64/egg/compressor/tests/static/img
+copying build/lib/compressor/tests/static/img/python.png -> build/bdist.linux-x86_64/egg/compressor/tests/static/img
+copying build/lib/compressor/tests/static/img/add.png -> build/bdist.linux-x86_64/egg/compressor/tests/static/img
+creating build/bdist.linux-x86_64/egg/compressor/tests/static/css
+copying build/lib/compressor/tests/static/css/two.css -> build/bdist.linux-x86_64/egg/compressor/tests/static/css
+copying build/lib/compressor/tests/static/css/one.css -> build/bdist.linux-x86_64/egg/compressor/tests/static/css
+creating build/bdist.linux-x86_64/egg/compressor/tests/static/css/url
+copying build/lib/compressor/tests/static/css/url/test.css -> build/bdist.linux-x86_64/egg/compressor/tests/static/css/url
+creating build/bdist.linux-x86_64/egg/compressor/tests/static/css/url/2
+copying build/lib/compressor/tests/static/css/url/2/url2.css -> build/bdist.linux-x86_64/egg/compressor/tests/static/css/url/2
+copying build/lib/compressor/tests/static/css/url/nonasc.css -> build/bdist.linux-x86_64/egg/compressor/tests/static/css/url
+copying build/lib/compressor/tests/static/css/url/url1.css -> build/bdist.linux-x86_64/egg/compressor/tests/static/css/url
+copying build/lib/compressor/tests/static/css/datauri.css -> build/bdist.linux-x86_64/egg/compressor/tests/static/css
+copying build/lib/compressor/tests/static/css/utf-8_with-BOM.css -> build/bdist.linux-x86_64/egg/compressor/tests/static/css
+copying build/lib/compressor/tests/static/css/nonasc.css -> build/bdist.linux-x86_64/egg/compressor/tests/static/css
+copying build/lib/compressor/tests/static/css/filename with spaces.css -> build/bdist.linux-x86_64/egg/compressor/tests/static/css
+creating build/bdist.linux-x86_64/egg/compressor/tests/static/js
+copying build/lib/compressor/tests/static/js/one.js -> build/bdist.linux-x86_64/egg/compressor/tests/static/js
+copying build/lib/compressor/tests/static/js/one.coffee -> build/bdist.linux-x86_64/egg/compressor/tests/static/js
+copying build/lib/compressor/tests/static/js/two.js -> build/bdist.linux-x86_64/egg/compressor/tests/static/js
+copying build/lib/compressor/tests/static/js/nonasc-latin1.js -> build/bdist.linux-x86_64/egg/compressor/tests/static/js
+copying build/lib/compressor/tests/static/js/066cd253eada.js -> build/bdist.linux-x86_64/egg/compressor/tests/static/js
+copying build/lib/compressor/tests/static/js/three.js -> build/bdist.linux-x86_64/egg/compressor/tests/static/js
+copying build/lib/compressor/tests/static/js/nonasc.js -> build/bdist.linux-x86_64/egg/compressor/tests/static/js
+copying build/lib/compressor/tests/static/test.txt -> build/bdist.linux-x86_64/egg/compressor/tests/static
+creating build/bdist.linux-x86_64/egg/compressor/tests/static/custom
+creating build/bdist.linux-x86_64/egg/compressor/tests/static/custom/js
+copying build/lib/compressor/tests/static/custom/js/066cd253eada.js -> build/bdist.linux-x86_64/egg/compressor/tests/static/custom/js
+creating build/bdist.linux-x86_64/egg/compressor/tests/static/custom/nested
+creating build/bdist.linux-x86_64/egg/compressor/tests/static/custom/nested/js
+copying build/lib/compressor/tests/static/custom/nested/js/066cd253eada.js -> build/bdist.linux-x86_64/egg/compressor/tests/static/custom/nested/js
+copying build/lib/compressor/tests/static/test.txt.gz -> build/bdist.linux-x86_64/egg/compressor/tests/static
+copying build/lib/compressor/tests/__init__.py -> build/bdist.linux-x86_64/egg/compressor/tests
+copying build/lib/compressor/tests/test_offline.py -> build/bdist.linux-x86_64/egg/compressor/tests
+copying build/lib/compressor/tests/test_parsers.py -> build/bdist.linux-x86_64/egg/compressor/tests
+copying build/lib/compressor/cache.py -> build/bdist.linux-x86_64/egg/compressor
+creating build/bdist.linux-x86_64/egg/compressor/filters
+copying build/lib/compressor/filters/datauri.py -> build/bdist.linux-x86_64/egg/compressor/filters
+copying build/lib/compressor/filters/cleancss.py -> build/bdist.linux-x86_64/egg/compressor/filters
+copying build/lib/compressor/filters/closure.py -> build/bdist.linux-x86_64/egg/compressor/filters
+copying build/lib/compressor/filters/css_default.py -> build/bdist.linux-x86_64/egg/compressor/filters
+copying build/lib/compressor/filters/yuglify.py -> build/bdist.linux-x86_64/egg/compressor/filters
+creating build/bdist.linux-x86_64/egg/compressor/filters/cssmin
+copying build/lib/compressor/filters/cssmin/rcssmin.py -> build/bdist.linux-x86_64/egg/compressor/filters/cssmin
+copying build/lib/compressor/filters/cssmin/__init__.py -> build/bdist.linux-x86_64/egg/compressor/filters/cssmin
+copying build/lib/compressor/filters/cssmin/cssmin.py -> build/bdist.linux-x86_64/egg/compressor/filters/cssmin
+copying build/lib/compressor/filters/csstidy.py -> build/bdist.linux-x86_64/egg/compressor/filters
+creating build/bdist.linux-x86_64/egg/compressor/filters/jsmin
+copying build/lib/compressor/filters/jsmin/slimit.py -> build/bdist.linux-x86_64/egg/compressor/filters/jsmin
+copying build/lib/compressor/filters/jsmin/__init__.py -> build/bdist.linux-x86_64/egg/compressor/filters/jsmin
+copying build/lib/compressor/filters/jsmin/rjsmin.py -> build/bdist.linux-x86_64/egg/compressor/filters/jsmin
+copying build/lib/compressor/filters/__init__.py -> build/bdist.linux-x86_64/egg/compressor/filters
+copying build/lib/compressor/filters/template.py -> build/bdist.linux-x86_64/egg/compressor/filters
+copying build/lib/compressor/filters/yui.py -> build/bdist.linux-x86_64/egg/compressor/filters
+copying build/lib/compressor/filters/base.py -> build/bdist.linux-x86_64/egg/compressor/filters
+copying build/lib/compressor/finders.py -> build/bdist.linux-x86_64/egg/compressor
+copying build/lib/compressor/__init__.py -> build/bdist.linux-x86_64/egg/compressor
+copying build/lib/compressor/models.py -> build/bdist.linux-x86_64/egg/compressor
+copying build/lib/compressor/base.py -> build/bdist.linux-x86_64/egg/compressor
+copying build/lib/compressor/test_settings.py -> build/bdist.linux-x86_64/egg/compressor
+copying build/lib/compressor/exceptions.py -> build/bdist.linux-x86_64/egg/compressor
+byte-compiling build/bdist.linux-x86_64/egg/compressor/storage.py to storage.pyc
+byte-compiling build/bdist.linux-x86_64/egg/compressor/signals.py to signals.pyc
+byte-compiling build/bdist.linux-x86_64/egg/compressor/offline/jinja2.py to jinja2.pyc
+byte-compiling build/bdist.linux-x86_64/egg/compressor/offline/django.py to django.pyc
+byte-compiling build/bdist.linux-x86_64/egg/compressor/offline/__init__.py to __init__.pyc
+byte-compiling build/bdist.linux-x86_64/egg/compressor/management/__init__.py to __init__.pyc
+byte-compiling build/bdist.linux-x86_64/egg/compressor/management/commands/__init__.py to __init__.pyc
+byte-compiling build/bdist.linux-x86_64/egg/compressor/management/commands/compress.py to compress.pyc
+byte-compiling build/bdist.linux-x86_64/egg/compressor/management/commands/mtime_cache.py to mtime_cache.pyc
+byte-compiling build/bdist.linux-x86_64/egg/compressor/utils/stringformat.py to stringformat.pyc
+byte-compiling build/bdist.linux-x86_64/egg/compressor/utils/__init__.py to __init__.pyc
+byte-compiling build/bdist.linux-x86_64/egg/compressor/utils/decorators.py to decorators.pyc
+byte-compiling build/bdist.linux-x86_64/egg/compressor/utils/staticfiles.py to staticfiles.pyc
+byte-compiling build/bdist.linux-x86_64/egg/compressor/js.py to js.pyc
+byte-compiling build/bdist.linux-x86_64/egg/compressor/parser/beautifulsoup.py to beautifulsoup.pyc
+byte-compiling build/bdist.linux-x86_64/egg/compressor/parser/lxml.py to lxml.pyc
+byte-compiling build/bdist.linux-x86_64/egg/compressor/parser/default_htmlparser.py to default_htmlparser.pyc
+byte-compiling build/bdist.linux-x86_64/egg/compressor/parser/html5lib.py to html5lib.pyc
+byte-compiling build/bdist.linux-x86_64/egg/compressor/parser/__init__.py to __init__.pyc
+byte-compiling build/bdist.linux-x86_64/egg/compressor/parser/base.py to base.pyc
+byte-compiling build/bdist.linux-x86_64/egg/compressor/contrib/sekizai.py to sekizai.pyc
+byte-compiling build/bdist.linux-x86_64/egg/compressor/contrib/__init__.py to __init__.pyc
+byte-compiling build/bdist.linux-x86_64/egg/compressor/contrib/jinja2ext.py to jinja2ext.pyc
+byte-compiling build/bdist.linux-x86_64/egg/compressor/templatetags/__init__.py to __init__.pyc
+byte-compiling build/bdist.linux-x86_64/egg/compressor/templatetags/compress.py to compress.pyc
+byte-compiling build/bdist.linux-x86_64/egg/compressor/conf.py to conf.pyc
+byte-compiling build/bdist.linux-x86_64/egg/compressor/css.py to css.pyc
+byte-compiling build/bdist.linux-x86_64/egg/compressor/tests/precompiler.py to precompiler.pyc
+byte-compiling build/bdist.linux-x86_64/egg/compressor/tests/test_filters.py to test_filters.pyc
+byte-compiling build/bdist.linux-x86_64/egg/compressor/tests/test_storages.py to test_storages.pyc
+byte-compiling build/bdist.linux-x86_64/egg/compressor/tests/test_signals.py to test_signals.pyc
+byte-compiling build/bdist.linux-x86_64/egg/compressor/tests/test_jinja2ext.py to test_jinja2ext.pyc
+byte-compiling build/bdist.linux-x86_64/egg/compressor/tests/test_templatetags.py to test_templatetags.pyc
+byte-compiling build/bdist.linux-x86_64/egg/compressor/tests/test_base.py to test_base.pyc
+byte-compiling build/bdist.linux-x86_64/egg/compressor/tests/__init__.py to __init__.pyc
+byte-compiling build/bdist.linux-x86_64/egg/compressor/tests/test_offline.py to test_offline.pyc
+byte-compiling build/bdist.linux-x86_64/egg/compressor/tests/test_parsers.py to test_parsers.pyc
+byte-compiling build/bdist.linux-x86_64/egg/compressor/cache.py to cache.pyc
+byte-compiling build/bdist.linux-x86_64/egg/compressor/filters/datauri.py to datauri.pyc
+byte-compiling build/bdist.linux-x86_64/egg/compressor/filters/cleancss.py to cleancss.pyc
+byte-compiling build/bdist.linux-x86_64/egg/compressor/filters/closure.py to closure.pyc
+byte-compiling build/bdist.linux-x86_64/egg/compressor/filters/css_default.py to css_default.pyc
+byte-compiling build/bdist.linux-x86_64/egg/compressor/filters/yuglify.py to yuglify.pyc
+byte-compiling build/bdist.linux-x86_64/egg/compressor/filters/cssmin/rcssmin.py to rcssmin.pyc
+byte-compiling build/bdist.linux-x86_64/egg/compressor/filters/cssmin/__init__.py to __init__.pyc
+byte-compiling build/bdist.linux-x86_64/egg/compressor/filters/cssmin/cssmin.py to cssmin.pyc
+byte-compiling build/bdist.linux-x86_64/egg/compressor/filters/csstidy.py to csstidy.pyc
+byte-compiling build/bdist.linux-x86_64/egg/compressor/filters/jsmin/slimit.py to slimit.pyc
+byte-compiling build/bdist.linux-x86_64/egg/compressor/filters/jsmin/__init__.py to __init__.pyc
+byte-compiling build/bdist.linux-x86_64/egg/compressor/filters/jsmin/rjsmin.py to rjsmin.pyc
+byte-compiling build/bdist.linux-x86_64/egg/compressor/filters/__init__.py to __init__.pyc
+byte-compiling build/bdist.linux-x86_64/egg/compressor/filters/template.py to template.pyc
+byte-compiling build/bdist.linux-x86_64/egg/compressor/filters/yui.py to yui.pyc
+byte-compiling build/bdist.linux-x86_64/egg/compressor/filters/base.py to base.pyc
+byte-compiling build/bdist.linux-x86_64/egg/compressor/finders.py to finders.pyc
+byte-compiling build/bdist.linux-x86_64/egg/compressor/__init__.py to __init__.pyc
+byte-compiling build/bdist.linux-x86_64/egg/compressor/models.py to models.pyc
+byte-compiling build/bdist.linux-x86_64/egg/compressor/base.py to base.pyc
+byte-compiling build/bdist.linux-x86_64/egg/compressor/test_settings.py to test_settings.pyc
+byte-compiling build/bdist.linux-x86_64/egg/compressor/exceptions.py to exceptions.pyc
+creating build/bdist.linux-x86_64/egg/EGG-INFO
+copying django_compressor.egg-info/PKG-INFO -> build/bdist.linux-x86_64/egg/EGG-INFO
+copying django_compressor.egg-info/SOURCES.txt -> build/bdist.linux-x86_64/egg/EGG-INFO
+copying django_compressor.egg-info/dependency_links.txt -> build/bdist.linux-x86_64/egg/EGG-INFO
+copying django_compressor.egg-info/not-zip-safe -> build/bdist.linux-x86_64/egg/EGG-INFO
+copying django_compressor.egg-info/requires.txt -> build/bdist.linux-x86_64/egg/EGG-INFO
+copying django_compressor.egg-info/top_level.txt -> build/bdist.linux-x86_64/egg/EGG-INFO
+creating dist
+creating 'dist/django_compressor-1.5-py2.7.egg' and adding 'build/bdist.linux-x86_64/egg' to it
+removing 'build/bdist.linux-x86_64/egg' (and everything under it)
+Processing django_compressor-1.5-py2.7.egg
+creating /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/django_compressor-1.5-py2.7.egg
+Extracting django_compressor-1.5-py2.7.egg to /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages
+Adding django-compressor 1.5 to easy-install.pth file
+
+Installed /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/django_compressor-1.5-py2.7.egg
+Processing dependencies for django-compressor==1.5
+Searching for django-appconf==1.0.1
+Best match: django-appconf 1.0.1
+Adding django-appconf 1.0.1 to easy-install.pth file
+
+Using /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages
+Searching for six==1.9.0
+Best match: six 1.9.0
+Adding six 1.9.0 to easy-install.pth file
+
+Using /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages
+Finished processing dependencies for django-compressor==1.5
+
+The following NEW packages will be INSTALLED:
+
+    django-appconf: 1.0.1-py_0   
+    openssl:        1.0.1k-1     
+    pip:            7.0.3-py27_0 
+    python:         2.7.10-0     
+    readline:       6.2-2        
+    setuptools:     18.0.1-py27_0
+    six:            1.9.0-py27_0 
+    sqlite:         3.8.4.1-1    
+    system:         5.8-2        
+    tk:             8.5.18-0     
+    zlib:           1.2.8-0      
+
+Linking packages ...
+[                    ]|                                                  |   0%[openssl             ]|                                                  |   0%[readline            ]|####                                              |   9%[sqlite              ]|#########                                         |  18%[system              ]|#############                                     |  27%[tk                  ]|##################                                |  36%[zlib                ]|######################                            |  45%[python              ]|###########################                       |  54%[setuptools          ]|###############################                   |  63%[six                 ]|####################################              |  72%[django-appconf      ]|########################################          |  81%[pip                 ]|#############################################     |  90%[      COMPLETE      ]|##################################################| 100%
+Removing old work directory
+Source cache directory is: /home/ubuntu/miniconda/conda-bld/src_cache
+Found source in cache: django_compressor-1.5.tar.gz
+Extracting download
+Package: django_compressor-1.5-py27_0
+source tree in: /home/ubuntu/miniconda/conda-bld/work/django_compressor-1.5
+found egg dir: /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/django_compressor-1.5-py2.7.egg
+compiling .pyc files...
+number of files: 239
+Fixing permissions
+Fixing permissions
+BUILD END: django_compressor-1.5-py27_0
+TEST START: django_compressor-1.5-py27_0
+Fetching package metadata: ......
+
+WARNING: conda-build appears to be out of date. You have version 1.13.0 but the
+latest version is 1.14.1. Run
+
+conda update -n root conda-build
+
+to get the latest version.
+
+Solving package specifications: .===== testing package: django_compressor-1.5-py27_0 =====
+import: u'compressor'
+import: u'compressor.contrib'
+import: u'compressor.filters'
+Traceback (most recent call last):
+  File "/home/ubuntu/miniconda/conda-bld/test-tmp_dir/run_test.py", line 31, in <module>
+    import compressor.filters
+  File "/home/ubuntu/miniconda/envs/_test/lib/python2.7/site-packages/compressor/filters/__init__.py", line 2, in <module>
+    from compressor.filters.base import (FilterBase, CallbackOutputFilter,
+  File "/home/ubuntu/miniconda/envs/_test/lib/python2.7/site-packages/compressor/filters/base.py", line 19, in <module>
+    from django.core.exceptions import ImproperlyConfigured
+ImportError: No module named django.core.exceptions
+
+The following packages will be downloaded:
+
+    package                    |            build
+    ---------------------------|-----------------
+    django_compressor-1.5      |           py27_0         117 KB
+
+The following NEW packages will be INSTALLED:
+
+    django-appconf:    1.0.1-py_0   
+    django_compressor: 1.5-py27_0   
+    openssl:           1.0.1k-1     
+    pip:               7.0.3-py27_0 
+    python:            2.7.10-0     
+    readline:          6.2-2        
+    setuptools:        18.0.1-py27_0
+    six:               1.9.0-py27_0 
+    sqlite:            3.8.4.1-1    
+    system:            5.8-2        
+    tk:                8.5.18-0     
+    zlib:              1.2.8-0      
+
+Fetching packages ...
+django_compres   0% |                              | ETA:  --:--:--   0.00  B/sdjango_compres  13% |####                           | ETA:  0:00:00  48.33 MB/sdjango_compres  27% |########                       | ETA:  0:00:00  59.27 MB/sdjango_compres  40% |############                   | ETA:  0:00:00  66.16 MB/sdjango_compres  54% |################               | ETA:  0:00:00  70.32 MB/sdjango_compres  68% |#####################          | ETA:  0:00:00  73.48 MB/sdjango_compres  81% |#########################      | ETA:  0:00:00  75.79 MB/sdjango_compres  95% |#############################  | ETA:  0:00:00  77.50 MB/sdjango_compres 100% |###############################| ETA:  0:00:00  73.45 MB/sdjango_compres 100% |###############################| Time: 0:00:00  64.21 MB/s
+Extracting packages ...
+[      COMPLETE      ]|                                                  |   0%[django_compressor   ]|                                                  |   0%[django_compressor   ]|                                                  |   0%[      COMPLETE      ]|##################################################| 100%
+Linking packages ...
+[      COMPLETE      ]|                                                  |   0%[openssl             ]|                                                  |   0%[openssl             ]|                                                  |   0%[readline            ]|####                                              |   8%[sqlite              ]|########                                          |  16%[system              ]|############                                      |  25%[tk                  ]|################                                  |  33%[zlib                ]|####################                              |  41%[python              ]|#########################                         |  50%[setuptools          ]|#############################                     |  58%[six                 ]|#################################                 |  66%[django-appconf      ]|#####################################             |  75%[pip                 ]|#########################################         |  83%[django_compressor   ]|#############################################     |  91%[      COMPLETE      ]|##################################################| 100%
+TESTS FAILED: django_compressor-1.5-py27_0

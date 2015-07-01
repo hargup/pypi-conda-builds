@@ -2,6 +2,14 @@ Removing old build directory
 Removing old work directory
 BUILD START: django-reversion-1.8.7-py27_0
 Fetching package metadata: ......
+
+WARNING: conda-build appears to be out of date. You have version 1.13.0 but the
+latest version is 1.14.1. Run
+
+conda update -n root conda-build
+
+to get the latest version.
+
 Solving package specifications: .+ /home/ubuntu/miniconda/envs/_build/bin/python setup.py install
 /home/ubuntu/miniconda/envs/_build/lib/python2.7/distutils/dist.py:267: UserWarning: Unknown distribution option: 'zip_safe'
   warnings.warn(msg)
@@ -231,15 +239,15 @@ Writing /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/django_re
 
 The following NEW packages will be INSTALLED:
 
-    openssl:    1.0.1k-1    
-    pip:        7.0.3-py27_0
-    python:     2.7.10-0    
-    readline:   6.2-2       
-    setuptools: 17.0-py27_0 
-    sqlite:     3.8.4.1-1   
-    system:     5.8-2       
-    tk:         8.5.18-0    
-    zlib:       1.2.8-0     
+    openssl:    1.0.1k-1     
+    pip:        7.0.3-py27_0 
+    python:     2.7.10-0     
+    readline:   6.2-2        
+    setuptools: 18.0.1-py27_0
+    sqlite:     3.8.4.1-1    
+    system:     5.8-2        
+    tk:         8.5.18-0     
+    zlib:       1.2.8-0      
 
 Linking packages ...
 [                    ]|                                                  |   0%[openssl             ]|                                                  |   0%[readline            ]|#####                                             |  11%[sqlite              ]|###########                                       |  22%[system              ]|################                                  |  33%[tk                  ]|######################                            |  44%[zlib                ]|###########################                       |  55%[python              ]|#################################                 |  66%[setuptools          ]|######################################            |  77%[pip                 ]|############################################      |  88%[      COMPLETE      ]|##################################################| 100%
@@ -255,6 +263,14 @@ Fixing permissions
 BUILD END: django-reversion-1.8.7-py27_0
 TEST START: django-reversion-1.8.7-py27_0
 Fetching package metadata: ......
+
+WARNING: conda-build appears to be out of date. You have version 1.13.0 but the
+latest version is 1.14.1. Run
+
+conda update -n root conda-build
+
+to get the latest version.
+
 Solving package specifications: .===== testing package: django-reversion-1.8.7-py27_0 =====
 import: u'reversion'
 Traceback (most recent call last):
@@ -274,19 +290,19 @@ The following packages will be downloaded:
 
 The following NEW packages will be INSTALLED:
 
-    django-reversion: 1.8.7-py27_0
-    openssl:          1.0.1k-1    
-    pip:              7.0.3-py27_0
-    python:           2.7.10-0    
-    readline:         6.2-2       
-    setuptools:       17.0-py27_0 
-    sqlite:           3.8.4.1-1   
-    system:           5.8-2       
-    tk:               8.5.18-0    
-    zlib:             1.2.8-0     
+    django-reversion: 1.8.7-py27_0 
+    openssl:          1.0.1k-1     
+    pip:              7.0.3-py27_0 
+    python:           2.7.10-0     
+    readline:         6.2-2        
+    setuptools:       18.0.1-py27_0
+    sqlite:           3.8.4.1-1    
+    system:           5.8-2        
+    tk:               8.5.18-0     
+    zlib:             1.2.8-0      
 
 Fetching packages ...
-django-reversi   0% |                              | ETA:  --:--:--   0.00  B/sdjango-reversi  27% |########                       | ETA:  0:00:00   1.93 MB/sdjango-reversi  54% |################               | ETA:  0:00:00   3.76 MB/sdjango-reversi  81% |#########################      | ETA:  0:00:00   5.51 MB/sdjango-reversi 100% |###############################| ETA:  0:00:00   6.61 MB/sdjango-reversi 100% |###############################| Time: 0:00:00   6.44 MB/s
+django-reversi   0% |                              | ETA:  --:--:--   0.00  B/sdjango-reversi  27% |########                       | ETA:  0:00:00  47.62 MB/sdjango-reversi  54% |################               | ETA:  0:00:00  59.68 MB/sdjango-reversi  81% |#########################      | ETA:  0:00:00  66.78 MB/sdjango-reversi 100% |###############################| ETA:  0:00:00  66.03 MB/sdjango-reversi 100% |###############################| Time: 0:00:00  52.38 MB/s
 Extracting packages ...
 [      COMPLETE      ]|                                                  |   0%[django-reversion    ]|                                                  |   0%[django-reversion    ]|                                                  |   0%[      COMPLETE      ]|##################################################| 100%
 Linking packages ...

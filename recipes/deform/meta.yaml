@@ -1,0 +1,83 @@
+package:
+  name: deform
+  version: "2.0a2"
+
+source:
+  fn: deform-2.0a2.tar.gz
+  url: https://pypi.python.org/packages/source/d/deform/deform-2.0a2.tar.gz
+  md5: 7a90d41f7fbc18002ce74f39bd90a5e4
+#  patches:
+   # List any patch files here
+   # - fix.patch
+
+build:
+  noarch_python: True
+  # preserve_egg_dir: True
+  # entry_points:
+    # Put any entry points (scripts to be generated automatically) here. The
+    # syntax is module:function.  For example
+    #
+    # - deform = deform:main
+    #
+    # Would create an entry point called deform that calls deform.main()
+
+
+  # If this is a new build for the same version, increment the build
+  # number. If you do not include this key, it defaults to 0.
+  # number: 1
+
+requirements:
+  build:
+    - python
+    - setuptools
+    - chameleon >=2.5.1
+    - colander >=1.0a1
+    - peppercorn >=0.3
+    - translationstring >=1.0
+    - zope.deprecation
+    - sphinx
+    - nose
+    - coverage
+    - beautifulsoup4
+
+  run:
+    - python
+    - chameleon >=2.5.1
+    - colander >=1.0a1
+    - peppercorn >=0.3
+    - translationstring >=1.0
+    - zope.deprecation
+    - sphinx
+    - nose
+    - coverage
+    - beautifulsoup4
+
+test:
+  # Python imports
+  imports:
+    - deform
+    - deform.tests
+
+  # commands:
+    # You can put test commands to be run here.  Use this to test that the
+    # entry points work.
+
+
+  # You can also put a file called run_test.py in the recipe that will be run
+  # at test time.
+
+  requires:
+    - beautifulsoup4
+    - coverage
+    - nose
+    # Put any additional test requirements here.  For example
+    # - nose
+
+about:
+  home: http://docs.pylonsproject.org/projects/deform/en/latest/
+  license: BSD-derived (http://www.repoze.org/LICENSE.txt)
+  summary: 'Another form generation library'
+
+# See
+# http://docs.continuum.io/conda/build.html for
+# more information about meta.yaml

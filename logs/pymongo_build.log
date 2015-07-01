@@ -1,7 +1,15 @@
 Removing old build directory
 Removing old work directory
-BUILD START: pymongo-3.0.2-py27_0
+BUILD START: pymongo-3.0.2-py_0
 Fetching package metadata: ......
+
+WARNING: conda-build appears to be out of date. You have version 1.13.0 but the
+latest version is 1.14.1. Run
+
+conda update -n root conda-build
+
+to get the latest version.
+
 Solving package specifications: .+ /home/ubuntu/miniconda/envs/_build/bin/python setup.py install
 running install
 running bdist_egg
@@ -239,15 +247,15 @@ Finished processing dependencies for pymongo==3.0.2
 
 The following NEW packages will be INSTALLED:
 
-    openssl:    1.0.1k-1    
-    pip:        7.0.3-py27_0
-    python:     2.7.10-0    
-    readline:   6.2-2       
-    setuptools: 17.0-py27_0 
-    sqlite:     3.8.4.1-1   
-    system:     5.8-2       
-    tk:         8.5.18-0    
-    zlib:       1.2.8-0     
+    openssl:    1.0.1k-1     
+    pip:        7.0.3-py27_0 
+    python:     2.7.10-0     
+    readline:   6.2-2        
+    setuptools: 18.0.1-py27_0
+    sqlite:     3.8.4.1-1    
+    system:     5.8-2        
+    tk:         8.5.18-0     
+    zlib:       1.2.8-0      
 
 Linking packages ...
 [                    ]|                                                  |   0%[openssl             ]|                                                  |   0%[readline            ]|#####                                             |  11%[sqlite              ]|###########                                       |  22%[system              ]|################                                  |  33%[tk                  ]|######################                            |  44%[zlib                ]|###########################                       |  55%[python              ]|#################################                 |  66%[setuptools          ]|######################################            |  77%[pip                 ]|############################################      |  88%[      COMPLETE      ]|##################################################| 100%
@@ -255,51 +263,47 @@ Removing old work directory
 Source cache directory is: /home/ubuntu/miniconda/conda-bld/src_cache
 Found source in cache: pymongo-3.0.2.tar.gz
 Extracting download
-Package: pymongo-3.0.2-py27_0
+Package: pymongo-3.0.2-py_0
 source tree in: /home/ubuntu/miniconda/conda-bld/work/pymongo-3.0.2
 found egg: /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/pymongo-3.0.2-py2.7-linux-x86_64.egg
 number of files: 2
 Fixing permissions
 Fixing permissions
-BUILD END: pymongo-3.0.2-py27_0
-TEST START: pymongo-3.0.2-py27_0
+BUILD END: pymongo-3.0.2-py_0
+TEST START: pymongo-3.0.2-py_0
 Fetching package metadata: ......
+
+WARNING: conda-build appears to be out of date. You have version 1.13.0 but the
+latest version is 1.14.1. Run
+
+conda update -n root conda-build
+
+to get the latest version.
+
 Solving package specifications: .
 The following packages will be downloaded:
 
     package                    |            build
     ---------------------------|-----------------
-    pymongo-3.0.2              |           py27_0         496 KB
+    pymongo-3.0.2              |             py_0         498 KB
 
 The following NEW packages will be INSTALLED:
 
-    openssl:    1.0.1k-1    
-    pip:        7.0.3-py27_0
-    pymongo:    3.0.2-py27_0
-    python:     2.7.10-0    
-    readline:   6.2-2       
-    setuptools: 17.0-py27_0 
-    sqlite:     3.8.4.1-1   
-    system:     5.8-2       
-    tk:         8.5.18-0    
-    zlib:       1.2.8-0     
+    openssl:    1.0.1k-1     
+    pip:        7.0.3-py27_0 
+    pymongo:    3.0.2-py_0   
+    python:     2.7.10-0     
+    readline:   6.2-2        
+    setuptools: 18.0.1-py27_0
+    sqlite:     3.8.4.1-1    
+    system:     5.8-2        
+    tk:         8.5.18-0     
+    zlib:       1.2.8-0      
 
 Fetching packages ...
-pymongo-3.0.2-   0% |                              | ETA:  --:--:--   0.00  B/spymongo-3.0.2-   3% |#                              | ETA:  0:00:00  45.63 MB/spymongo-3.0.2-   6% |##                             | ETA:  0:00:00  57.39 MB/spymongo-3.0.2-   9% |###                            | ETA:  0:00:00  64.51 MB/spymongo-3.0.2-  12% |####                           | ETA:  0:00:00   7.21 MB/spymongo-3.0.2-  16% |#####                          | ETA:  0:00:00   8.82 MB/spymongo-3.0.2-  19% |######                         | ETA:  0:00:00  10.38 MB/spymongo-3.0.2-  22% |#######                        | ETA:  0:00:00  11.87 MB/spymongo-3.0.2-  25% |########                       | ETA:  0:00:00  13.32 MB/spymongo-3.0.2-  29% |#########                      | ETA:  0:00:00  14.69 MB/spymongo-3.0.2-  32% |##########                     | ETA:  0:00:00  16.02 MB/spymongo-3.0.2-  35% |###########                    | ETA:  0:00:00  17.32 MB/spymongo-3.0.2-  38% |############                   | ETA:  0:00:00  18.57 MB/spymongo-3.0.2-  41% |#############                  | ETA:  0:00:00  19.78 MB/spymongo-3.0.2-  45% |##############                 | ETA:  0:00:00  20.95 MB/spymongo-3.0.2-  48% |###############                | ETA:  0:00:00  22.08 MB/spymongo-3.0.2-  51% |################               | ETA:  0:00:00  23.18 MB/spymongo-3.0.2-  54% |#################              | ETA:  0:00:00  24.24 MB/spymongo-3.0.2-  58% |##################             | ETA:  0:00:00  25.26 MB/spymongo-3.0.2-  61% |###################            | ETA:  0:00:00  26.26 MB/spymongo-3.0.2-  64% |####################           | ETA:  0:00:00  27.24 MB/spymongo-3.0.2-  67% |#####################          | ETA:  0:00:00  28.18 MB/spymongo-3.0.2-  70% |######################         | ETA:  0:00:00  29.08 MB/spymongo-3.0.2-  74% |#######################        | ETA:  0:00:00  29.97 MB/spymongo-3.0.2-  77% |########################       | ETA:  0:00:00  30.84 MB/spymongo-3.0.2-  80% |#########################      | ETA:  0:00:00  31.68 MB/spymongo-3.0.2-  83% |##########################     | ETA:  0:00:00  32.49 MB/spymongo-3.0.2-  87% |###########################    | ETA:  0:00:00  33.28 MB/spymongo-3.0.2-  90% |############################   | ETA:  0:00:00  34.05 MB/spymongo-3.0.2-  93% |#############################  | ETA:  0:00:00  34.81 MB/spymongo-3.0.2-  96% |############################## | ETA:  0:00:00  35.54 MB/spymongo-3.0.2- 100% |###############################| ETA:  0:00:00  36.22 MB/spymongo-3.0.2- 100% |###############################| Time: 0:00:00  35.64 MB/s
+pymongo-3.0.2-   0% |                              | ETA:  --:--:--   0.00  B/spymongo-3.0.2-   3% |                               | ETA:  0:00:00  45.24 MB/spymongo-3.0.2-   6% |#                              | ETA:  0:00:00  57.39 MB/spymongo-3.0.2-   9% |##                             | ETA:  0:00:00  64.24 MB/spymongo-3.0.2-  12% |###                            | ETA:  0:00:00  68.55 MB/spymongo-3.0.2-  16% |####                           | ETA:  0:00:00  71.36 MB/spymongo-3.0.2-  19% |#####                          | ETA:  0:00:00  73.75 MB/spymongo-3.0.2-  22% |######                         | ETA:  0:00:00  75.44 MB/spymongo-3.0.2-  25% |#######                        | ETA:  0:00:00  77.05 MB/spymongo-3.0.2-  28% |########                       | ETA:  0:00:00  78.39 MB/spymongo-3.0.2-  32% |#########                      | ETA:  0:00:00  79.38 MB/spymongo-3.0.2-  35% |##########                     | ETA:  0:00:00  80.27 MB/spymongo-3.0.2-  38% |###########                    | ETA:  0:00:00  81.07 MB/spymongo-3.0.2-  41% |############                   | ETA:  0:00:00  81.61 MB/spymongo-3.0.2-  45% |#############                  | ETA:  0:00:00  82.21 MB/spymongo-3.0.2-  48% |##############                 | ETA:  0:00:00  82.30 MB/spymongo-3.0.2-  51% |###############                | ETA:  0:00:00  82.74 MB/spymongo-3.0.2-  54% |################               | ETA:  0:00:00  83.12 MB/spymongo-3.0.2-  57% |#################              | ETA:  0:00:00  83.45 MB/spymongo-3.0.2-  61% |##################             | ETA:  0:00:00  83.86 MB/spymongo-3.0.2-  64% |###################            | ETA:  0:00:00  84.13 MB/spymongo-3.0.2-  67% |####################           | ETA:  0:00:00  84.43 MB/spymongo-3.0.2-  70% |#####################          | ETA:  0:00:00  84.75 MB/spymongo-3.0.2-  73% |######################         | ETA:  0:00:00  85.04 MB/spymongo-3.0.2-  77% |#######################        | ETA:  0:00:00  85.28 MB/spymongo-3.0.2-  80% |########################       | ETA:  0:00:00  85.44 MB/spymongo-3.0.2-  83% |#########################      | ETA:  0:00:00  85.68 MB/spymongo-3.0.2-  86% |##########################     | ETA:  0:00:00  85.88 MB/spymongo-3.0.2-  90% |###########################    | ETA:  0:00:00  85.99 MB/spymongo-3.0.2-  93% |############################   | ETA:  0:00:00  34.83 MB/spymongo-3.0.2-  96% |#############################  | ETA:  0:00:00  35.56 MB/spymongo-3.0.2-  99% |############################## | ETA:  0:00:00  36.27 MB/spymongo-3.0.2- 100% |###############################| Time: 0:00:00  35.67 MB/s
 Extracting packages ...
 [      COMPLETE      ]|                                                  |   0%[pymongo             ]|                                                  |   0%[pymongo             ]|                                                  |   0%[      COMPLETE      ]|##################################################| 100%
 Linking packages ...
-[      COMPLETE      ]|                                                  |   0%[openssl             ]|                                                  |   0%[openssl             ]|                                                  |   0%[readline            ]|#####                                             |  10%[sqlite              ]|##########                                        |  20%[system              ]|###############                                   |  30%[tk                  ]|###############===== testing package: pymongo-3.0.2-py27_0 =====
-import: u'bson'
-import: u'gridfs'
-import: u'pymongo'
-===== pymongo-3.0.2-py27_0 OK =====
-#####                              |  40%[zlib                ]|#########################                         |  50%[pymongo             ]|##############################                    |  60%[python              ]|###################################               |  70%[setuptools          ]|########################################          |  80%[pip                 ]|#############################################     |  90%[      COMPLETE      ]|##################################################| 100%
-TEST END: pymongo-3.0.2-py27_0
-# If you want to upload this package to binstar.org later, type:
-#
-# $ binstar upload /home/ubuntu/miniconda/conda-bld/linux-64/pymongo-3.0.2-py27_0.tar.bz2
-#
-# To have conda build upload to binstar automatically, use
-# $ conda config --set binstar_upload yes
-
+[      COMPLETE      ]|                                                  |   0%[openssl             ]|                                                  |   0%[openssl             ]|                                                  |   0%[readline            ]|#####                                             |  10%[sqlite              ]|##########                                        |  20%[system              ]|###############                                   |  30%[tk                  ]|#####/home/ubuntu/miniconda/pkgs/pymongo-3.0.2-py_0/bin/.pymongo-pre-link.sh: line 2: /home/ubuntu/miniconda/envs/_test/bin/python: No such file or directory
+###############                              |  40%[zlib                ]|#########################                         |  50%[pymongo             ]|##############################                    |  60%Error: pre-link failed: pymongo-3.0.2-py_0

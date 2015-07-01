@@ -1,0 +1,358 @@
+Removing old build directory
+Removing old work directory
+BUILD START: xhtml2pdf-0.0.6-py_0
+Fetching package metadata: ......
+
+WARNING: conda-build appears to be out of date. You have version 1.13.0 but the
+latest version is 1.14.1. Run
+
+conda update -n root conda-build
+
+to get the latest version.
+
+Solving package specifications: .+ /home/ubuntu/miniconda/envs/_build/bin/python setup.py install
+running install
+running bdist_egg
+running egg_info
+writing requirements to xhtml2pdf.egg-info/requires.txt
+writing xhtml2pdf.egg-info/PKG-INFO
+writing top-level names to xhtml2pdf.egg-info/top_level.txt
+writing dependency_links to xhtml2pdf.egg-info/dependency_links.txt
+writing entry points to xhtml2pdf.egg-info/entry_points.txt
+reading manifest file 'xhtml2pdf.egg-info/SOURCES.txt'
+reading manifest template 'MANIFEST.in'
+writing manifest file 'xhtml2pdf.egg-info/SOURCES.txt'
+installing library code to build/bdist.linux-x86_64/egg
+running install_lib
+running build_py
+creating build
+creating build/lib
+creating build/lib/xhtml2pdf
+copying xhtml2pdf/paragraph.py -> build/lib/xhtml2pdf
+copying xhtml2pdf/turbogears.py -> build/lib/xhtml2pdf
+copying xhtml2pdf/default.py -> build/lib/xhtml2pdf
+copying xhtml2pdf/xhtml2pdf_reportlab.py -> build/lib/xhtml2pdf
+copying xhtml2pdf/tags.py -> build/lib/xhtml2pdf
+copying xhtml2pdf/parser.py -> build/lib/xhtml2pdf
+copying xhtml2pdf/version.py -> build/lib/xhtml2pdf
+copying xhtml2pdf/pisa.py -> build/lib/xhtml2pdf
+copying xhtml2pdf/tables.py -> build/lib/xhtml2pdf
+copying xhtml2pdf/wsgi.py -> build/lib/xhtml2pdf
+copying xhtml2pdf/util.py -> build/lib/xhtml2pdf
+copying xhtml2pdf/context.py -> build/lib/xhtml2pdf
+copying xhtml2pdf/__init__.py -> build/lib/xhtml2pdf
+copying xhtml2pdf/paragraph2.py -> build/lib/xhtml2pdf
+copying xhtml2pdf/document.py -> build/lib/xhtml2pdf
+copying xhtml2pdf/pdf.py -> build/lib/xhtml2pdf
+copying xhtml2pdf/reportlab_paragraph.py -> build/lib/xhtml2pdf
+creating build/lib/xhtml2pdf/w3c
+copying xhtml2pdf/w3c/cssDOMElementInterface.py -> build/lib/xhtml2pdf/w3c
+copying xhtml2pdf/w3c/cssParser.py -> build/lib/xhtml2pdf/w3c
+copying xhtml2pdf/w3c/cssSpecial.py -> build/lib/xhtml2pdf/w3c
+copying xhtml2pdf/w3c/css.py -> build/lib/xhtml2pdf/w3c
+copying xhtml2pdf/w3c/__init__.py -> build/lib/xhtml2pdf/w3c
+creating build/bdist.linux-x86_64
+creating build/bdist.linux-x86_64/egg
+creating build/bdist.linux-x86_64/egg/xhtml2pdf
+copying build/lib/xhtml2pdf/paragraph.py -> build/bdist.linux-x86_64/egg/xhtml2pdf
+creating build/bdist.linux-x86_64/egg/xhtml2pdf/w3c
+copying build/lib/xhtml2pdf/w3c/cssDOMElementInterface.py -> build/bdist.linux-x86_64/egg/xhtml2pdf/w3c
+copying build/lib/xhtml2pdf/w3c/cssParser.py -> build/bdist.linux-x86_64/egg/xhtml2pdf/w3c
+copying build/lib/xhtml2pdf/w3c/cssSpecial.py -> build/bdist.linux-x86_64/egg/xhtml2pdf/w3c
+copying build/lib/xhtml2pdf/w3c/css.py -> build/bdist.linux-x86_64/egg/xhtml2pdf/w3c
+copying build/lib/xhtml2pdf/w3c/__init__.py -> build/bdist.linux-x86_64/egg/xhtml2pdf/w3c
+copying build/lib/xhtml2pdf/turbogears.py -> build/bdist.linux-x86_64/egg/xhtml2pdf
+copying build/lib/xhtml2pdf/default.py -> build/bdist.linux-x86_64/egg/xhtml2pdf
+copying build/lib/xhtml2pdf/xhtml2pdf_reportlab.py -> build/bdist.linux-x86_64/egg/xhtml2pdf
+copying build/lib/xhtml2pdf/tags.py -> build/bdist.linux-x86_64/egg/xhtml2pdf
+copying build/lib/xhtml2pdf/parser.py -> build/bdist.linux-x86_64/egg/xhtml2pdf
+copying build/lib/xhtml2pdf/version.py -> build/bdist.linux-x86_64/egg/xhtml2pdf
+copying build/lib/xhtml2pdf/pisa.py -> build/bdist.linux-x86_64/egg/xhtml2pdf
+copying build/lib/xhtml2pdf/tables.py -> build/bdist.linux-x86_64/egg/xhtml2pdf
+copying build/lib/xhtml2pdf/wsgi.py -> build/bdist.linux-x86_64/egg/xhtml2pdf
+copying build/lib/xhtml2pdf/util.py -> build/bdist.linux-x86_64/egg/xhtml2pdf
+copying build/lib/xhtml2pdf/context.py -> build/bdist.linux-x86_64/egg/xhtml2pdf
+copying build/lib/xhtml2pdf/__init__.py -> build/bdist.linux-x86_64/egg/xhtml2pdf
+copying build/lib/xhtml2pdf/paragraph2.py -> build/bdist.linux-x86_64/egg/xhtml2pdf
+copying build/lib/xhtml2pdf/document.py -> build/bdist.linux-x86_64/egg/xhtml2pdf
+copying build/lib/xhtml2pdf/pdf.py -> build/bdist.linux-x86_64/egg/xhtml2pdf
+copying build/lib/xhtml2pdf/reportlab_paragraph.py -> build/bdist.linux-x86_64/egg/xhtml2pdf
+byte-compiling build/bdist.linux-x86_64/egg/xhtml2pdf/paragraph.py to paragraph.pyc
+byte-compiling build/bdist.linux-x86_64/egg/xhtml2pdf/w3c/cssDOMElementInterface.py to cssDOMElementInterface.pyc
+byte-compiling build/bdist.linux-x86_64/egg/xhtml2pdf/w3c/cssParser.py to cssParser.pyc
+byte-compiling build/bdist.linux-x86_64/egg/xhtml2pdf/w3c/cssSpecial.py to cssSpecial.pyc
+byte-compiling build/bdist.linux-x86_64/egg/xhtml2pdf/w3c/css.py to css.pyc
+byte-compiling build/bdist.linux-x86_64/egg/xhtml2pdf/w3c/__init__.py to __init__.pyc
+byte-compiling build/bdist.linux-x86_64/egg/xhtml2pdf/turbogears.py to turbogears.pyc
+byte-compiling build/bdist.linux-x86_64/egg/xhtml2pdf/default.py to default.pyc
+byte-compiling build/bdist.linux-x86_64/egg/xhtml2pdf/xhtml2pdf_reportlab.py to xhtml2pdf_reportlab.pyc
+byte-compiling build/bdist.linux-x86_64/egg/xhtml2pdf/tags.py to tags.pyc
+byte-compiling build/bdist.linux-x86_64/egg/xhtml2pdf/parser.py to parser.pyc
+byte-compiling build/bdist.linux-x86_64/egg/xhtml2pdf/version.py to version.pyc
+byte-compiling build/bdist.linux-x86_64/egg/xhtml2pdf/pisa.py to pisa.pyc
+byte-compiling build/bdist.linux-x86_64/egg/xhtml2pdf/tables.py to tables.pyc
+byte-compiling build/bdist.linux-x86_64/egg/xhtml2pdf/wsgi.py to wsgi.pyc
+byte-compiling build/bdist.linux-x86_64/egg/xhtml2pdf/util.py to util.pyc
+byte-compiling build/bdist.linux-x86_64/egg/xhtml2pdf/context.py to context.pyc
+byte-compiling build/bdist.linux-x86_64/egg/xhtml2pdf/__init__.py to __init__.pyc
+byte-compiling build/bdist.linux-x86_64/egg/xhtml2pdf/paragraph2.py to paragraph2.pyc
+byte-compiling build/bdist.linux-x86_64/egg/xhtml2pdf/document.py to document.pyc
+byte-compiling build/bdist.linux-x86_64/egg/xhtml2pdf/pdf.py to pdf.pyc
+byte-compiling build/bdist.linux-x86_64/egg/xhtml2pdf/reportlab_paragraph.py to reportlab_paragraph.pyc
+writing byte-compilation script '/tmp/tmpLy9CuQ.py'
+/home/ubuntu/miniconda/envs/_build/bin/python -O /tmp/tmpLy9CuQ.py
+removing /tmp/tmpLy9CuQ.py
+creating build/bdist.linux-x86_64/egg/EGG-INFO
+copying xhtml2pdf.egg-info/PKG-INFO -> build/bdist.linux-x86_64/egg/EGG-INFO
+copying xhtml2pdf.egg-info/SOURCES.txt -> build/bdist.linux-x86_64/egg/EGG-INFO
+copying xhtml2pdf.egg-info/dependency_links.txt -> build/bdist.linux-x86_64/egg/EGG-INFO
+copying xhtml2pdf.egg-info/entry_points.txt -> build/bdist.linux-x86_64/egg/EGG-INFO
+copying xhtml2pdf.egg-info/requires.txt -> build/bdist.linux-x86_64/egg/EGG-INFO
+copying xhtml2pdf.egg-info/top_level.txt -> build/bdist.linux-x86_64/egg/EGG-INFO
+zip_safe flag not set; analyzing archive contents...
+creating dist
+creating 'dist/xhtml2pdf-0.0.6-py2.7.egg' and adding 'build/bdist.linux-x86_64/egg' to it
+removing 'build/bdist.linux-x86_64/egg' (and everything under it)
+Processing xhtml2pdf-0.0.6-py2.7.egg
+Copying xhtml2pdf-0.0.6-py2.7.egg to /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages
+Adding xhtml2pdf 0.0.6 to easy-install.pth file
+Installing pisa script to /home/ubuntu/miniconda/envs/_build/bin
+Installing xhtml2pdf script to /home/ubuntu/miniconda/envs/_build/bin
+
+Installed /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/xhtml2pdf-0.0.6-py2.7.egg
+Processing dependencies for xhtml2pdf==0.0.6
+Searching for reportlab==3.2.0
+Best match: reportlab 3.2.0
+Adding reportlab 3.2.0 to easy-install.pth file
+
+Using /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages
+Searching for Pillow==2.8.2
+Best match: Pillow 2.8.2
+Adding Pillow 2.8.2 to easy-install.pth file
+
+Using /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages
+Searching for PyPDF2==1.24
+Best match: PyPDF2 1.24
+Adding PyPDF2 1.24 to easy-install.pth file
+
+Using /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages
+Searching for html5lib==1.0b6
+Best match: html5lib 1.0b6
+Adding html5lib 1.0b6 to easy-install.pth file
+
+Using /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages
+Finished processing dependencies for xhtml2pdf==0.0.6
+
+The following NEW packages will be INSTALLED:
+
+    freetype:   2.5.2-2      
+    html5lib:   1.0b6-py27_0 
+    jpeg:       8d-0         
+    libpng:     1.6.17-0     
+    libtiff:    4.0.2-1      
+    openssl:    1.0.1k-1     
+    pillow:     2.8.2-py27_0 
+    pip:        7.0.3-py27_0 
+    pypdf2:     1.24-py27_0  
+    python:     2.7.10-0     
+    readline:   6.2-2        
+    reportlab:  3.2.0-py27_0 
+    setuptools: 18.0.1-py27_0
+    six:        1.9.0-py27_0 
+    sqlite:     3.8.4.1-1    
+    system:     5.8-2        
+    tk:         8.5.18-0     
+    zlib:       1.2.8-0      
+
+Linking packages ...
+[                    ]|                                                  |   0%[jpeg                ]|                                                  |   0%[libpng              ]|##                                                |   5%[openssl             ]|#####                                             |  11%[readline            ]|########                                          |  16%[sqlite              ]|###########                                       |  22%[system              ]|#############                                     |  27%[tk                  ]|################                                  |  33%[zlib                ]|###################                               |  38%[freetype            ]|######################                            |  44%[libtiff             ]|#########################                         |  50%[pillow              ]|###########################                       |  55%[pypdf2              ]|##############################                    |  61%[python              ]|#################################                 |  66%[setuptools          ]|####################################              |  72%[six                 ]|######################################            |  77%[html5lib            ]|#########################################         |  83%[pip                 ]|############################################      |  88%[reportlab           ]|###############################################   |  94%[      COMPLETE      ]|##################################################| 100%
+Removing old work directory
+Source cache directory is: /home/ubuntu/miniconda/conda-bld/src_cache
+Found source in cache: xhtml2pdf-0.0.6.tar.gz
+Extracting download
+Package: xhtml2pdf-0.0.6-py_0
+source tree in: /home/ubuntu/miniconda/conda-bld/work/xhtml2pdf-0.0.6
+found egg: /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/xhtml2pdf-0.0.6-py2.7.egg
+number of files: 4
+Fixing permissions
+Fixing permissions
+BUILD END: xhtml2pdf-0.0.6-py_0
+TEST START: xhtml2pdf-0.0.6-py_0
+Fetching package metadata: ......
+
+WARNING: conda-build appears to be out of date. You have version 1.13.0 but the
+latest version is 1.14.1. Run
+
+conda update -n root conda-build
+
+to get the latest version.
+
+Solving package specifications: .
+The following packages will be downloaded:
+
+    package                    |            build
+    ---------------------------|-----------------
+    xhtml2pdf-0.0.6            |             py_0         413 KB
+
+The following NEW packages will be INSTALLED:
+
+    freetype:   2.5.2-2      
+    html5lib:   1.0b6-py27_0 
+    jpeg:       8d-0         
+    libpng:     1.6.17-0     
+    libtiff:    4.0.2-1      
+    openssl:    1.0.1k-1     
+    pillow:     2.8.2-py27_0 
+    pip:        7.0.3-py27_0 
+    pypdf2:     1.24-py27_0  
+    python:     2.7.10-0     
+    readline:   6.2-2        
+    reportlab:  3.2.0-py27_0 
+    setuptools: 18.0.1-py27_0
+    six:        1.9.0-py27_0 
+    sqlite:     3.8.4.1-1    
+    system:     5.8-2        
+    tk:         8.5.18-0     
+    xhtml2pdf:  0.0.6-py_0   
+    zlib:       1.2.8-0      
+
+Fetching packages ...
+xhtml2pdf-0.0.   0% |                              | ETA:  --:--:--   0.00  B/sxhtml2pdf-0.0.   3% |#                              | ETA:  0:00:00  43.00 MB/sxhtml2pdf-0.0.   7% |##                             | ETA:  0:00:00  55.46 MB/sxhtml2pdf-0.0.  11% |###                            | ETA:  0:00:00  62.78 MB/sxhtml2pdf-0.0.  15% |####                           | ETA:  0:00:00  67.01 MB/sxhtml2pdf-0.0.  19% |######                         | ETA:  0:00:00  70.44 MB/sxhtml2pdf-0.0.  23% |#######                        | ETA:  0:00:00  73.09 MB/sxhtml2pdf-0.0.  27% |########                       | ETA:  0:00:00  75.11 MB/sxhtml2pdf-0.0.  31% |#########                      | ETA:  0:00:00  76.53 MB/sxhtml2pdf-0.0.  34% |##########                     | ETA:  0:00:00  77.85 MB/sxhtml2pdf-0.0.  38% |############                   | ETA:  0:00:00  79.08 MB/sxhtml2pdf-0.0.  42% |#############                  | ETA:  0:00:00  79.89 MB/sxhtml2pdf-0.0.  46% |##############                 | ETA:  0:00:00  80.78 MB/sxhtml2pdf-0.0.  50% |###############                | ETA:  0:00:00  81.55 MB/sxhtml2pdf-0.0.  54% |################               | ETA:  0:00:00  82.19 MB/sxhtml2pdf-0.0.  58% |##################             | ETA:  0:00:00  82.67 MB/sxhtml2pdf-0.0.  62% |###################            | ETA:  0:00:00  83.17 MB/sxhtml2pdf-0.0.  65% |####################           | ETA:  0:00:00  83.57 MB/sxhtml2pdf-0.0.  69% |#####################          | ETA:  0:00:00  83.97 MB/sxhtml2pdf-0.0.  73% |######################         | ETA:  0:00:00  84.30 MB/sxhtml2pdf-0.0.  77% |########################       | ETA:  0:00:00  27.27 MB/sxhtml2pdf-0.0.  81% |#########################      | ETA:  0:00:00  28.16 MB/sxhtml2pdf-0.0.  85% |##########################     | ETA:  0:00:00  29.07 MB/sxhtml2pdf-0.0.  89% |###########################    | ETA:  0:00:00  29.96 MB/sxhtml2pdf-0.0.  93% |############################   | ETA:  0:00:00  30.81 MB/sxhtml2pdf-0.0.  96% |############################## | ETA:  0:00:00  31.65 MB/sxhtml2pdf-0.0. 100% |###############################| ETA:  0:00:00  32.24 MB/sxhtml2pdf-0.0. 100% |###############################| Time: 0:00:00  31.68 MB/s
+Extracting packages ...
+[      COMPLETE      ]|                                                  |   0%[xhtml2pdf           ]|                                                  |   0%[xhtml2pdf           ]|                                                  |   0%[      COMPLETE      ]|##################################################| 100%
+Linking packages ...
+[      COMPLETE      ]|                                                  |   0%[jpeg                ]|                                                  |   0%[jpeg                ]|                                                  |   0%[libpng              ]|##                                                |   5%[openssl             ]|#####                                             |  10%[readline            ]|#######                                           |  15%[sqlite              ]|##########                                        |  21%[system              ]|#############                                     |  26===== testing package: xhtml2pdf-0.0.6-py_0 =====
+import: u'xhtml2pdf'
+import: u'xhtml2pdf.w3c'
+===== xhtml2pdf-0.0.6-py_0 OK =====
++ pisa --help
+XHTML2PDF/pisa 3.0.33 (Build 2010-06-16)
+http://www.xhtml2pdf.com
+
+Copyright 2010 Dirk Holtwick, holtwick.it
+
+Licensed under the Apache License, Version 2.0 (the "License");
+you may not use this file except in compliance with the License.
+You may obtain a copy of the License at
+
+    http://www.apache.org/licenses/LICENSE-2.0
+
+Unless required by applicable law or agreed to in writing, software
+distributed under the License is distributed on an "AS IS" BASIS,
+WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+See the License for the specific language governing permissions and
+limitations under the License.
+
+USAGE: pisa [options] SRC [DEST]
+
+SRC
+  Name of a HTML file or a file pattern using * placeholder.
+  If you want to read from stdin use "-" as file name.
+  You may also load an URL over HTTP. Take care of putting
+  the <src> in quotes if it contains characters like "?".
+
+DEST
+  Name of the generated PDF file or "-" if you like
+  to send the result to stdout. Take care that the
+  destination file is not already opened by an other
+  application like the Adobe Reader. If the destination is
+  not writeable a similar name will be calculated automatically.
+
+[options]
+  --base, -b:
+    Specify a base path if input come via STDIN
+  --css, -c:
+    Path to default CSS file
+  --css-dump:
+    Dumps the default CSS definitions to STDOUT
+  --debug, -d:
+    Show debugging informations
+  --encoding:
+    the character encoding of SRC. If left empty (default) this
+    information will be extracted from the HTML header data
+  --help, -h:
+    Show this help text
+  --quiet, -q:
+    Show no messages
+  --start-viewer, -s:
+    Start PDF default viewer on Windows and MacOSX
+    (e.g. AcrobatReader)
+  --version:
+    Show version information
+  --warn, -w:
+    Show warnings
+  --xml, --xhtml, -x:
+    Force parsing in XML Mode
+    (automatically used if file ends with ".xml")
+  --html:
+    Force parsing in HTML Mode (default)
++ xhtml2pdf --help
+XHTML2PDF/pisa 3.0.33 (Build 2010-06-16)
+http://www.xhtml2pdf.com
+
+Copyright 2010 Dirk Holtwick, holtwick.it
+
+Licensed under the Apache License, Version 2.0 (the "License");
+you may not use this file except in compliance with the License.
+You may obtain a copy of the License at
+
+    http://www.apache.org/licenses/LICENSE-2.0
+
+Unless required by applicable law or agreed to in writing, software
+distributed under the License is distributed on an "AS IS" BASIS,
+WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+See the License for the specific language governing permissions and
+limitations under the License.
+
+USAGE: pisa [options] SRC [DEST]
+
+SRC
+  Name of a HTML file or a file pattern using * placeholder.
+  If you want to read from stdin use "-" as file name.
+  You may also load an URL over HTTP. Take care of putting
+  the <src> in quotes if it contains characters like "?".
+
+DEST
+  Name of the generated PDF file or "-" if you like
+  to send the result to stdout. Take care that the
+  destination file is not already opened by an other
+  application like the Adobe Reader. If the destination is
+  not writeable a similar name will be calculated automatically.
+
+[options]
+  --base, -b:
+    Specify a base path if input come via STDIN
+  --css, -c:
+    Path to default CSS file
+  --css-dump:
+    Dumps the default CSS definitions to STDOUT
+  --debug, -d:
+    Show debugging informations
+  --encoding:
+    the character encoding of SRC. If left empty (default) this
+    information will be extracted from the HTML header data
+  --help, -h:
+    Show this help text
+  --quiet, -q:
+    Show no messages
+  --start-viewer, -s:
+    Start PDF default viewer on Windows and MacOSX
+    (e.g. AcrobatReader)
+  --version:
+    Show version information
+  --warn, -w:
+    Show warnings
+  --xml, --xhtml, -x:
+    Force parsing in XML Mode
+    (automatically used if file ends with ".xml")
+  --html:
+    Force parsing in HTML Mode (default)
+%[tk                  ]|###############                                   |  31%[zlib                ]|##################                                |  36%[freetype            ]|#####################                             |  42%[libtiff             ]|#######################                           |  47%[pillow              ]|##########################                        |  52%[pypdf2              ]|############################                      |  57%[python              ]|###############################                   |  63%[setuptools          ]|##################################                |  68%[six                 ]|####################################              |  73%[html5lib            ]|#######################################           |  78%[pip                 ]|##########################################        |  84%[reportlab           ]|############################################      |  89%[xhtml2pdf           ]|###############################################   |  94%[      COMPLETE      ]|##################################################| 100%
+TEST END: xhtml2pdf-0.0.6-py_0
+# If you want to upload this package to binstar.org later, type:
+#
+# $ binstar upload /home/ubuntu/miniconda/conda-bld/noarch/xhtml2pdf-0.0.6-py_0.tar.bz2
+#
+# To have conda build upload to binstar automatically, use
+# $ conda config --set binstar_upload yes
+

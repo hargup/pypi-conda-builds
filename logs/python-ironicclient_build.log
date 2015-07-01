@@ -1,0 +1,244 @@
+Removing old build directory
+Removing old work directory
+BUILD START: python-ironicclient-0.7.0-py_0
+Fetching package metadata: ......
+
+WARNING: conda-build appears to be out of date. You have version 1.13.0 but the
+latest version is 1.14.1. Run
+
+conda update -n root conda-build
+
+to get the latest version.
+
+Solving package specifications: .+ /home/ubuntu/miniconda/envs/_build/bin/python setup.py install
+
+Installed /home/ubuntu/miniconda/conda-bld/work/python-ironicclient-0.7.0/.eggs/pbr-1.2.0-py2.7.egg
+running install
+running build
+running build_py
+creating build
+creating build/lib
+creating build/lib/ironicclient
+creating build/lib/ironicclient/openstack
+creating build/lib/ironicclient/openstack/common
+creating build/lib/ironicclient/openstack/common/apiclient
+copying ironicclient/openstack/common/apiclient/fake_client.py -> build/lib/ironicclient/openstack/common/apiclient
+copying ironicclient/openstack/common/apiclient/utils.py -> build/lib/ironicclient/openstack/common/apiclient
+copying ironicclient/openstack/common/apiclient/client.py -> build/lib/ironicclient/openstack/common/apiclient
+copying ironicclient/openstack/common/apiclient/__init__.py -> build/lib/ironicclient/openstack/common/apiclient
+copying ironicclient/openstack/common/apiclient/auth.py -> build/lib/ironicclient/openstack/common/apiclient
+copying ironicclient/openstack/common/apiclient/base.py -> build/lib/ironicclient/openstack/common/apiclient
+copying ironicclient/openstack/common/apiclient/exceptions.py -> build/lib/ironicclient/openstack/common/apiclient
+creating build/lib/ironicclient/tests
+copying ironicclient/tests/__init__.py -> build/lib/ironicclient/tests
+creating build/lib/ironicclient/tests/unit
+creating build/lib/ironicclient/tests/unit/v1
+copying ironicclient/tests/unit/v1/test_driver.py -> build/lib/ironicclient/tests/unit/v1
+copying ironicclient/tests/unit/v1/test_node.py -> build/lib/ironicclient/tests/unit/v1
+copying ironicclient/tests/unit/v1/test_driver_shell.py -> build/lib/ironicclient/tests/unit/v1
+copying ironicclient/tests/unit/v1/test_resource_fields.py -> build/lib/ironicclient/tests/unit/v1
+copying ironicclient/tests/unit/v1/test_chassis_shell.py -> build/lib/ironicclient/tests/unit/v1
+copying ironicclient/tests/unit/v1/__init__.py -> build/lib/ironicclient/tests/unit/v1
+copying ironicclient/tests/unit/v1/test_node_shell.py -> build/lib/ironicclient/tests/unit/v1
+copying ironicclient/tests/unit/v1/test_chassis.py -> build/lib/ironicclient/tests/unit/v1
+copying ironicclient/tests/unit/v1/test_port.py -> build/lib/ironicclient/tests/unit/v1
+copying ironicclient/tests/unit/v1/test_port_shell.py -> build/lib/ironicclient/tests/unit/v1
+creating build/lib/ironicclient/tests/functional
+copying ironicclient/tests/functional/test_ironicclient.py -> build/lib/ironicclient/tests/functional
+copying ironicclient/tests/functional/__init__.py -> build/lib/ironicclient/tests/functional
+copying ironicclient/openstack/__init__.py -> build/lib/ironicclient/openstack
+copying ironicclient/openstack/common/_i18n.py -> build/lib/ironicclient/openstack/common
+copying ironicclient/openstack/common/cliutils.py -> build/lib/ironicclient/openstack/common
+copying ironicclient/openstack/common/__init__.py -> build/lib/ironicclient/openstack/common
+copying ironicclient/exc.py -> build/lib/ironicclient
+copying ironicclient/shell.py -> build/lib/ironicclient
+copying ironicclient/client.py -> build/lib/ironicclient
+copying ironicclient/__init__.py -> build/lib/ironicclient
+creating build/lib/ironicclient/v1
+copying ironicclient/v1/chassis.py -> build/lib/ironicclient/v1
+copying ironicclient/v1/shell.py -> build/lib/ironicclient/v1
+copying ironicclient/v1/port_shell.py -> build/lib/ironicclient/v1
+copying ironicclient/v1/client.py -> build/lib/ironicclient/v1
+copying ironicclient/v1/port.py -> build/lib/ironicclient/v1
+copying ironicclient/v1/driver_shell.py -> build/lib/ironicclient/v1
+copying ironicclient/v1/__init__.py -> build/lib/ironicclient/v1
+copying ironicclient/v1/chassis_shell.py -> build/lib/ironicclient/v1
+copying ironicclient/v1/node.py -> build/lib/ironicclient/v1
+copying ironicclient/v1/resource_fields.py -> build/lib/ironicclient/v1
+copying ironicclient/v1/node_shell.py -> build/lib/ironicclient/v1
+copying ironicclient/v1/driver.py -> build/lib/ironicclient/v1
+copying ironicclient/tests/unit/utils.py -> build/lib/ironicclient/tests/unit
+copying ironicclient/tests/unit/keystone_client_fixtures.py -> build/lib/ironicclient/tests/unit
+copying ironicclient/tests/unit/test_shell.py -> build/lib/ironicclient/tests/unit
+copying ironicclient/tests/unit/test_client.py -> build/lib/ironicclient/tests/unit
+copying ironicclient/tests/unit/test_http.py -> build/lib/ironicclient/tests/unit
+copying ironicclient/tests/unit/__init__.py -> build/lib/ironicclient/tests/unit
+copying ironicclient/tests/unit/test_import.py -> build/lib/ironicclient/tests/unit
+copying ironicclient/tests/unit/test_utils.py -> build/lib/ironicclient/tests/unit
+creating build/lib/ironicclient/common
+copying ironicclient/common/utils.py -> build/lib/ironicclient/common
+copying ironicclient/common/i18n.py -> build/lib/ironicclient/common
+copying ironicclient/common/http.py -> build/lib/ironicclient/common
+copying ironicclient/common/__init__.py -> build/lib/ironicclient/common
+copying ironicclient/common/base.py -> build/lib/ironicclient/common
+running egg_info
+writing requirements to python_ironicclient.egg-info/requires.txt
+writing python_ironicclient.egg-info/PKG-INFO
+writing top-level names to python_ironicclient.egg-info/top_level.txt
+writing dependency_links to python_ironicclient.egg-info/dependency_links.txt
+writing entry points to python_ironicclient.egg-info/entry_points.txt
+[pbr] Reusing existing SOURCES.txt
+running install_lib
+creating /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/ironicclient
+creating /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/ironicclient/common
+copying build/lib/ironicclient/common/utils.py -> /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/ironicclient/common
+copying build/lib/ironicclient/common/i18n.py -> /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/ironicclient/common
+copying build/lib/ironicclient/common/http.py -> /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/ironicclient/common
+copying build/lib/ironicclient/common/__init__.py -> /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/ironicclient/common
+copying build/lib/ironicclient/common/base.py -> /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/ironicclient/common
+copying build/lib/ironicclient/exc.py -> /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/ironicclient
+creating /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/ironicclient/v1
+copying build/lib/ironicclient/v1/chassis.py -> /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/ironicclient/v1
+copying build/lib/ironicclient/v1/shell.py -> /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/ironicclient/v1
+copying build/lib/ironicclient/v1/port_shell.py -> /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/ironicclient/v1
+copying build/lib/ironicclient/v1/client.py -> /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/ironicclient/v1
+copying build/lib/ironicclient/v1/port.py -> /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/ironicclient/v1
+copying build/lib/ironicclient/v1/driver_shell.py -> /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/ironicclient/v1
+copying build/lib/ironicclient/v1/__init__.py -> /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/ironicclient/v1
+copying build/lib/ironicclient/v1/chassis_shell.py -> /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/ironicclient/v1
+copying build/lib/ironicclient/v1/node.py -> /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/ironicclient/v1
+copying build/lib/ironicclient/v1/resource_fields.py -> /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/ironicclient/v1
+copying build/lib/ironicclient/v1/node_shell.py -> /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/ironicclient/v1
+copying build/lib/ironicclient/v1/driver.py -> /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/ironicclient/v1
+copying build/lib/ironicclient/shell.py -> /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/ironicclient
+creating /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/ironicclient/tests
+creating /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/ironicclient/tests/unit
+copying build/lib/ironicclient/tests/unit/utils.py -> /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/ironicclient/tests/unit
+copying build/lib/ironicclient/tests/unit/keystone_client_fixtures.py -> /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/ironicclient/tests/unit
+creating /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/ironicclient/tests/unit/v1
+copying build/lib/ironicclient/tests/unit/v1/test_driver.py -> /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/ironicclient/tests/unit/v1
+copying build/lib/ironicclient/tests/unit/v1/test_node.py -> /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/ironicclient/tests/unit/v1
+copying build/lib/ironicclient/tests/unit/v1/test_driver_shell.py -> /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/ironicclient/tests/unit/v1
+copying build/lib/ironicclient/tests/unit/v1/test_resource_fields.py -> /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/ironicclient/tests/unit/v1
+copying build/lib/ironicclient/tests/unit/v1/test_chassis_shell.py -> /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/ironicclient/tests/unit/v1
+copying build/lib/ironicclient/tests/unit/v1/__init__.py -> /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/ironicclient/tests/unit/v1
+copying build/lib/ironicclient/tests/unit/v1/test_node_shell.py -> /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/ironicclient/tests/unit/v1
+copying build/lib/ironicclient/tests/unit/v1/test_chassis.py -> /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/ironicclient/tests/unit/v1
+copying build/lib/ironicclient/tests/unit/v1/test_port.py -> /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/ironicclient/tests/unit/v1
+copying build/lib/ironicclient/tests/unit/v1/test_port_shell.py -> /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/ironicclient/tests/unit/v1
+copying build/lib/ironicclient/tests/unit/test_shell.py -> /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/ironicclient/tests/unit
+copying build/lib/ironicclient/tests/unit/test_client.py -> /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/ironicclient/tests/unit
+copying build/lib/ironicclient/tests/unit/test_http.py -> /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/ironicclient/tests/unit
+copying build/lib/ironicclient/tests/unit/__init__.py -> /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/ironicclient/tests/unit
+copying build/lib/ironicclient/tests/unit/test_import.py -> /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/ironicclient/tests/unit
+copying build/lib/ironicclient/tests/unit/test_utils.py -> /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/ironicclient/tests/unit
+creating /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/ironicclient/tests/functional
+copying build/lib/ironicclient/tests/functional/test_ironicclient.py -> /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/ironicclient/tests/functional
+copying build/lib/ironicclient/tests/functional/__init__.py -> /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/ironicclient/tests/functional
+copying build/lib/ironicclient/tests/__init__.py -> /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/ironicclient/tests
+copying build/lib/ironicclient/client.py -> /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/ironicclient
+copying build/lib/ironicclient/__init__.py -> /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/ironicclient
+creating /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/ironicclient/openstack
+creating /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/ironicclient/openstack/common
+copying build/lib/ironicclient/openstack/common/_i18n.py -> /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/ironicclient/openstack/common
+copying build/lib/ironicclient/openstack/common/cliutils.py -> /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/ironicclient/openstack/common
+copying build/lib/ironicclient/openstack/common/__init__.py -> /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/ironicclient/openstack/common
+creating /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/ironicclient/openstack/common/apiclient
+copying build/lib/ironicclient/openstack/common/apiclient/fake_client.py -> /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/ironicclient/openstack/common/apiclient
+copying build/lib/ironicclient/openstack/common/apiclient/utils.py -> /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/ironicclient/openstack/common/apiclient
+copying build/lib/ironicclient/openstack/common/apiclient/client.py -> /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/ironicclient/openstack/common/apiclient
+copying build/lib/ironicclient/openstack/common/apiclient/__init__.py -> /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/ironicclient/openstack/common/apiclient
+copying build/lib/ironicclient/openstack/common/apiclient/auth.py -> /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/ironicclient/openstack/common/apiclient
+copying build/lib/ironicclient/openstack/common/apiclient/base.py -> /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/ironicclient/openstack/common/apiclient
+copying build/lib/ironicclient/openstack/common/apiclient/exceptions.py -> /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/ironicclient/openstack/common/apiclient
+copying build/lib/ironicclient/openstack/__init__.py -> /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/ironicclient/openstack
+byte-compiling /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/ironicclient/common/utils.py to utils.pyc
+byte-compiling /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/ironicclient/common/i18n.py to i18n.pyc
+byte-compiling /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/ironicclient/common/http.py to http.pyc
+byte-compiling /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/ironicclient/common/__init__.py to __init__.pyc
+byte-compiling /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/ironicclient/common/base.py to base.pyc
+byte-compiling /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/ironicclient/exc.py to exc.pyc
+byte-compiling /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/ironicclient/v1/chassis.py to chassis.pyc
+byte-compiling /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/ironicclient/v1/shell.py to shell.pyc
+byte-compiling /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/ironicclient/v1/port_shell.py to port_shell.pyc
+byte-compiling /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/ironicclient/v1/client.py to client.pyc
+byte-compiling /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/ironicclient/v1/port.py to port.pyc
+byte-compiling /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/ironicclient/v1/driver_shell.py to driver_shell.pyc
+byte-compiling /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/ironicclient/v1/__init__.py to __init__.pyc
+byte-compiling /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/ironicclient/v1/chassis_shell.py to chassis_shell.pyc
+byte-compiling /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/ironicclient/v1/node.py to node.pyc
+byte-compiling /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/ironicclient/v1/resource_fields.py to resource_fields.pyc
+byte-compiling /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/ironicclient/v1/node_shell.py to node_shell.pyc
+byte-compiling /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/ironicclient/v1/driver.py to driver.pyc
+byte-compiling /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/ironicclient/shell.py to shell.pyc
+byte-compiling /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/ironicclient/tests/unit/utils.py to utils.pyc
+byte-compiling /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/ironicclient/tests/unit/keystone_client_fixtures.py to keystone_client_fixtures.pyc
+byte-compiling /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/ironicclient/tests/unit/v1/test_driver.py to test_driver.pyc
+byte-compiling /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/ironicclient/tests/unit/v1/test_node.py to test_node.pyc
+byte-compiling /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/ironicclient/tests/unit/v1/test_driver_shell.py to test_driver_shell.pyc
+byte-compiling /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/ironicclient/tests/unit/v1/test_resource_fields.py to test_resource_fields.pyc
+byte-compiling /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/ironicclient/tests/unit/v1/test_chassis_shell.py to test_chassis_shell.pyc
+byte-compiling /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/ironicclient/tests/unit/v1/__init__.py to __init__.pyc
+byte-compiling /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/ironicclient/tests/unit/v1/test_node_shell.py to test_node_shell.pyc
+byte-compiling /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/ironicclient/tests/unit/v1/test_chassis.py to test_chassis.pyc
+byte-compiling /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/ironicclient/tests/unit/v1/test_port.py to test_port.pyc
+byte-compiling /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/ironicclient/tests/unit/v1/test_port_shell.py to test_port_shell.pyc
+byte-compiling /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/ironicclient/tests/unit/test_shell.py to test_shell.pyc
+byte-compiling /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/ironicclient/tests/unit/test_client.py to test_client.pyc
+byte-compiling /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/ironicclient/tests/unit/test_http.py to test_http.pyc
+byte-compiling /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/ironicclient/tests/unit/__init__.py to __init__.pyc
+byte-compiling /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/ironicclient/tests/unit/test_import.py to test_import.pyc
+byte-compiling /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/ironicclient/tests/unit/test_utils.py to test_utils.pyc
+byte-compiling /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/ironicclient/tests/functional/test_ironicclient.py to test_ironicclient.pyc
+byte-compiling /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/ironicclient/tests/functional/__init__.py to __init__.pyc
+byte-compiling /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/ironicclient/tests/__init__.py to __init__.pyc
+byte-compiling /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/ironicclient/client.py to client.pyc
+byte-compiling /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/ironicclient/__init__.py to __init__.pyc
+byte-compiling /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/ironicclient/openstack/common/_i18n.py to _i18n.pyc
+byte-compiling /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/ironicclient/openstack/common/cliutils.py to cliutils.pyc
+byte-compiling /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/ironicclient/openstack/common/__init__.py to __init__.pyc
+byte-compiling /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/ironicclient/openstack/common/apiclient/fake_client.py to fake_client.pyc
+byte-compiling /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/ironicclient/openstack/common/apiclient/utils.py to utils.pyc
+byte-compiling /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/ironicclient/openstack/common/apiclient/client.py to client.pyc
+byte-compiling /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/ironicclient/openstack/common/apiclient/__init__.py to __init__.pyc
+byte-compiling /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/ironicclient/openstack/common/apiclient/auth.py to auth.pyc
+byte-compiling /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/ironicclient/openstack/common/apiclient/base.py to base.pyc
+byte-compiling /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/ironicclient/openstack/common/apiclient/exceptions.py to exceptions.pyc
+byte-compiling /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/ironicclient/openstack/__init__.py to __init__.pyc
+running install_egg_info
+Copying python_ironicclient.egg-info to /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/python_ironicclient-0.7.0-py2.7.egg-info
+running install_scripts
+Installing ironic script to /home/ubuntu/miniconda/envs/_build/bin
+
+The following NEW packages will be INSTALLED:
+
+    openssl:    1.0.1k-1     
+    pip:        7.0.3-py27_0 
+    python:     2.7.10-0     
+    readline:   6.2-2        
+    setuptools: 18.0.1-py27_0
+    sqlite:     3.8.4.1-1    
+    system:     5.8-2        
+    tk:         8.5.18-0     
+    zlib:       1.2.8-0      
+
+Linking packages ...
+[                    ]|                                                  |   0%[openssl             ]|                                                  |   0%[readline            ]|#####                                             |  11%[sqlite              ]|###########                                       |  22%[system              ]|################                                  |  33%[tk                  ]|######################                            |  44%[zlib                ]|###########################                       |  55%[python              ]|#################################                 |  66%[setuptools          ]|######################################            |  77%[pip                 ]|############################################      |  88%[      COMPLETE      ]|##################################################| 100%
+Removing old work directory
+Source cache directory is: /home/ubuntu/miniconda/conda-bld/src_cache
+Found source in cache: python-ironicclient-0.7.0.tar.gz
+Extracting download
+Package: python-ironicclient-0.7.0-py_0
+source tree in: /home/ubuntu/miniconda/conda-bld/work/python-ironicclient-0.7.0
+number of files: 115
+Fixing permissions
+Fixing permissions
+BUILD END: python-ironicclient-0.7.0-py_0
+Nothing to test for: python-ironicclient-0.7.0-py_0
+# If you want to upload this package to binstar.org later, type:
+#
+# $ binstar upload /home/ubuntu/miniconda/conda-bld/noarch/python-ironicclient-0.7.0-py_0.tar.bz2
+#
+# To have conda build upload to binstar automatically, use
+# $ conda config --set binstar_upload yes
+

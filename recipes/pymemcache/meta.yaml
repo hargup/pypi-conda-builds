@@ -1,0 +1,65 @@
+package:
+  name: pymemcache
+  version: "1.2.9"
+
+source:
+  fn: pymemcache-1.2.9.tar.gz
+  url: https://pypi.python.org/packages/source/p/pymemcache/pymemcache-1.2.9.tar.gz
+  md5: 215510250997423a2a57da061b1bd592
+#  patches:
+   # List any patch files here
+   # - fix.patch
+
+build:
+  noarch_python: True
+  # preserve_egg_dir: True
+  # entry_points:
+    # Put any entry points (scripts to be generated automatically) here. The
+    # syntax is module:function.  For example
+    #
+    # - pymemcache = pymemcache:main
+    #
+    # Would create an entry point called pymemcache that calls pymemcache.main()
+
+
+  # If this is a new build for the same version, increment the build
+  # number. If you do not include this key, it defaults to 0.
+  # number: 1
+
+requirements:
+  build:
+    - python
+    - setuptools
+    - six
+
+  run:
+    - python
+    - six
+
+test:
+  # Python imports
+  imports:
+    - pymemcache
+    - pymemcache.test
+
+  # commands:
+    # You can put test commands to be run here.  Use this to test that the
+    # entry points work.
+
+
+  # You can also put a file called run_test.py in the recipe that will be run
+  # at test time.
+
+  requires:
+    - nose >=1.0
+    # Put any additional test requirements here.  For example
+    # - nose
+
+about:
+  home: https://github.com/Pinterest/pymemcache
+  license: Apache Software License
+  summary: 'A comprehensive, fast, pure Python memcached client'
+
+# See
+# http://docs.continuum.io/conda/build.html for
+# more information about meta.yaml

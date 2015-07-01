@@ -1,35 +1,216 @@
-Error: prefix already exists: /home/ubuntu/miniconda/envs/_pipbuild_
-Collecting lettuce==0.2.20
-  Downloading http://localhost/packages/source/l/lettuce/lettuce-0.2.20.tar.gz (54kB)
-setuptools must be installed to install from a source distribution
-Package search: {'_pypi_ordering': False, 'version': '0.2.20', 'name': 'lettuce', 'summary': 'Behaviour Driven Development for python'}
-Creating standard recipe for lettuce-0.2.20
-Using url https://pypi.python.org/packages/source/l/lettuce/lettuce-0.2.20.tar.gz (53 KB) for lettuce.
-Downloading lettuce
-Using cached download
-Unpacking lettuce...
-done
-working in /tmp/tmpID9iDmconda_skeleton_lettuce-0.2.20.tar.gz
+Removing old build directory
+Removing old work directory
+BUILD START: mock-1.0.1-py27_0
 Fetching package metadata: ......
 
 WARNING: conda-build appears to be out of date. You have version 1.13.0 but the
-latest version is 1.14.0. Run
+latest version is 1.14.1. Run
 
 conda update -n root conda-build
 
 to get the latest version.
 
-Solving package specifications: .patching file core.py
-Hunk #1 succeeded at 168 with fuzz 2 (offset 2 lines).
+Solving package specifications: .+ pip install mock
+Collecting mock
+  Downloading http://localhost/packages/source/m/mock/mock-1.0.1.tar.gz (818kB)
+Installing collected packages: mock
+  Running setup.py install for mock
+Successfully installed mock-1.0.1
+
+The following NEW packages will be INSTALLED:
+
+    openssl:    1.0.1k-1     
+    pip:        7.0.3-py27_0 
+    python:     2.7.10-0     
+    readline:   6.2-2        
+    setuptools: 18.0.1-py27_0
+    sqlite:     3.8.4.1-1    
+    system:     5.8-2        
+    tk:         8.5.18-0     
+    zlib:       1.2.8-0      
+
+Linking packages ...
+[                    ]|                                                  |   0%[openssl             ]|                                                  |   0%[readline            ]|#####                                             |  11%[sqlite              ]|###########                                       |  22%[system              ]|################                                  |  33%[tk                  ]|######################                            |  44%[zlib                ]|###########################                       |  55%[python              ]|#################################                 |  66%[setuptools          ]|######################################            |  77%[pip                 ]|############################################      |  88%[      COMPLETE      ]|##################################################| 100%
+Removing old work directory
+Copying /home/ubuntu/pypi-conda-builds/mock to /home/ubuntu/miniconda/conda-bld/work
+Package: mock-1.0.1-py27_0
+source tree in: /home/ubuntu/miniconda/conda-bld/work
+number of files: 7
+Fixing permissions
+Fixing permissions
+BUILD END: mock-1.0.1-py27_0
+# If you want to upload this package to binstar.org later, type:
+#
+# $ binstar upload /home/ubuntu/miniconda/conda-bld/linux-64/mock-1.0.1-py27_0.tar.bz2
+#
+# To have conda build upload to binstar automatically, use
+# $ conda config --set binstar_upload yes
+
+Removing old build directory
+Removing old work directory
+BUILD START: six-1.9.0-py27_0
+Fetching package metadata: ......
+
+WARNING: conda-build appears to be out of date. You have version 1.13.0 but the
+latest version is 1.14.1. Run
+
+conda update -n root conda-build
+
+to get the latest version.
+
+Solving package specifications: .+ pip install six
+Collecting six
+  Downloading http://localhost/packages/3.3/s/six/six-1.9.0-py2.py3-none-any.whl
+Installing collected packages: six
+Successfully installed six-1.9.0
+
+The following NEW packages will be INSTALLED:
+
+    openssl:    1.0.1k-1     
+    pip:        7.0.3-py27_0 
+    python:     2.7.10-0     
+    readline:   6.2-2        
+    setuptools: 18.0.1-py27_0
+    sqlite:     3.8.4.1-1    
+    system:     5.8-2        
+    tk:         8.5.18-0     
+    zlib:       1.2.8-0      
+
+Linking packages ...
+[                    ]|                                                  |   0%[openssl             ]|                                                  |   0%[readline            ]|#####                                             |  11%[sqlite              ]|###########                                       |  22%[system              ]|################                                  |  33%[tk                  ]|######################                            |  44%[zlib                ]|###########################                       |  55%[python              ]|#################################                 |  66%[setuptools          ]|######################################            |  77%[pip                 ]|############################################      |  88%[      COMPLETE      ]|##################################################| 100%
+Removing old work directory
+Copying /home/ubuntu/pypi-conda-builds/six to /home/ubuntu/miniconda/conda-bld/work
+Package: six-1.9.0-py27_0
+source tree in: /home/ubuntu/miniconda/conda-bld/work
+number of files: 8
+Fixing permissions
+Fixing permissions
+BUILD END: six-1.9.0-py27_0
+# If you want to upload this package to binstar.org later, type:
+#
+# $ binstar upload /home/ubuntu/miniconda/conda-bld/linux-64/six-1.9.0-py27_0.tar.bz2
+#
+# To have conda build upload to binstar automatically, use
+# $ conda config --set binstar_upload yes
+
+Removing old build directory
+Removing old work directory
+BUILD START: sure-1.2.12-py27_0
+Fetching package metadata: ......
+
+WARNING: conda-build appears to be out of date. You have version 1.13.0 but the
+latest version is 1.14.1. Run
+
+conda update -n root conda-build
+
+to get the latest version.
+
+Solving package specifications: .+ pip install sure
+Collecting sure
+  Downloading http://localhost/packages/source/s/sure/sure-1.2.12.tar.gz
+Requirement already satisfied (use --upgrade to upgrade): mock in /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/mock-1.0.1-py2.7.egg (from sure)
+Requirement already satisfied (use --upgrade to upgrade): six in /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages (from sure)
+Installing collected packages: sure
+  Running setup.py install for sure
+Successfully installed sure-1.2.12
+
+The following NEW packages will be INSTALLED:
+
+    mock:       1.0.1-py27_0 
+    openssl:    1.0.1k-1     
+    pip:        7.0.3-py27_0 
+    python:     2.7.10-0     
+    readline:   6.2-2        
+    setuptools: 18.0.1-py27_0
+    six:        1.9.0-py27_0 
+    sqlite:     3.8.4.1-1    
+    system:     5.8-2        
+    tk:         8.5.18-0     
+    zlib:       1.2.8-0      
+
+Linking packages ...
+[                    ]|                                                  |   0%[openssl             ]|                                                  |   0%[readline            ]|####                                              |   9%[sqlite              ]|#########                                         |  18%[system              ]|#############                                     |  27%[tk                  ]|##################                                |  36%[zlib                ]|######################                            |  45%[mock                ]|###########################                       |  54%[python              ]|###############################                   |  63%[setuptools          ]|####################################              |  72%[six                 ]|########################################          |  81%[pip                 ]|#############################################     |  90%[      COMPLETE      ]|##################################################| 100%
+Removing old work directory
+Copying /home/ubuntu/pypi-conda-builds/sure to /home/ubuntu/miniconda/conda-bld/work
+Package: sure-1.2.12-py27_0
+source tree in: /home/ubuntu/miniconda/conda-bld/work
+number of files: 24
+Fixing permissions
+Fixing permissions
+BUILD END: sure-1.2.12-py27_0
+# If you want to upload this package to binstar.org later, type:
+#
+# $ binstar upload /home/ubuntu/miniconda/conda-bld/linux-64/sure-1.2.12-py27_0.tar.bz2
+#
+# To have conda build upload to binstar automatically, use
+# $ conda config --set binstar_upload yes
+
+Package search: {'_pypi_ordering': False, 'version': '0.2.20', 'name': 'lettuce', 'summary': 'Behaviour Driven Development for python'}
+Creating standard recipe for lettuce-0.2.20
+Converting recipe in /home/ubuntu/pypi-conda-builds/lettuce
+package = lettuce
+   dependencies = [u'sure', u'fuzzywuzzy', u'python-subunit']
+Creating standard recipe for sure
+Converting recipe in /home/ubuntu/pypi-conda-builds/sure
+package = sure
+   dependencies = [u'mock', u'six']
+Creating standard recipe for mock
+Converting recipe in /home/ubuntu/pypi-conda-builds/mock
+package = mock
+   dependencies = []
+Building conda package for mock
+Creating standard recipe for six
+Converting recipe in /home/ubuntu/pypi-conda-builds/six
+package = six
+   dependencies = []
+Building conda package for six
+Building conda package for sure
+Creating standard recipe for fuzzywuzzy
+Converting recipe in /home/ubuntu/pypi-conda-builds/fuzzywuzzy
 Traceback (most recent call last):
-  File "setup.py", line 20, in <module>
-    from setuptools import setup
-ImportError: No module named setuptools
-
-Applying patch: '/tmp/tmpID9iDmconda_skeleton_lettuce-0.2.20.tar.gz/pypi-distutils.patch'
-$PYTHONPATH = /tmp/tmpID9iDmconda_skeleton_lettuce-0.2.20.tar.gz/lettuce-0.2.20
-Error: command failed: /home/ubuntu/miniconda/envs/_build/bin/python setup.py install
-
-conda create -n _pipbuild_ --yes python pip
-/home/ubuntu/miniconda/envs/_pipbuild_/bin/pip install lettuce==0.2.20
-Error: Could not pip install lettuce==0.2.20
+  File "/home/ubuntu/miniconda/bin/conda-pipbuild", line 6, in <module>
+    exec(compile(open(__file__).read(), __file__, 'exec'))
+  File "/home/ubuntu/conda-build/bin/conda-pipbuild", line 5, in <module>
+    sys.exit(main())
+  File "/home/ubuntu/conda-build/conda_build/main_pipbuild.py", line 80, in main
+    args_func(args, p)
+  File "/home/ubuntu/conda-build/conda_build/main_build.py", line 349, in args_func
+    args.func(args, p)
+  File "/home/ubuntu/conda-build/conda_build/main_pipbuild.py", line 360, in execute
+    build_package(package, version, noarch_python=args.noarch_python)
+  File "/home/ubuntu/conda-build/conda_build/main_pipbuild.py", line 314, in build_package
+    build_package(depend)
+  File "/home/ubuntu/conda-build/conda_build/main_pipbuild.py", line 301, in build_package
+    noarch_python=noarch_python)
+  File "/home/ubuntu/conda-build/conda_build/main_pipbuild.py", line 165, in convert_recipe
+    meta = yaml.load(fid)
+  File "/home/ubuntu/miniconda/lib/python2.7/site-packages/yaml/__init__.py", line 71, in load
+    return loader.get_single_data()
+  File "/home/ubuntu/miniconda/lib/python2.7/site-packages/yaml/constructor.py", line 37, in get_single_data
+    node = self.get_single_node()
+  File "/home/ubuntu/miniconda/lib/python2.7/site-packages/yaml/composer.py", line 36, in get_single_node
+    document = self.compose_document()
+  File "/home/ubuntu/miniconda/lib/python2.7/site-packages/yaml/composer.py", line 55, in compose_document
+    node = self.compose_node(None, None)
+  File "/home/ubuntu/miniconda/lib/python2.7/site-packages/yaml/composer.py", line 84, in compose_node
+    node = self.compose_mapping_node(anchor)
+  File "/home/ubuntu/miniconda/lib/python2.7/site-packages/yaml/composer.py", line 133, in compose_mapping_node
+    item_value = self.compose_node(node, item_key)
+  File "/home/ubuntu/miniconda/lib/python2.7/site-packages/yaml/composer.py", line 84, in compose_node
+    node = self.compose_mapping_node(anchor)
+  File "/home/ubuntu/miniconda/lib/python2.7/site-packages/yaml/composer.py", line 127, in compose_mapping_node
+    while not self.check_event(MappingEndEvent):
+  File "/home/ubuntu/miniconda/lib/python2.7/site-packages/yaml/parser.py", line 98, in check_event
+    self.current_event = self.state()
+  File "/home/ubuntu/miniconda/lib/python2.7/site-packages/yaml/parser.py", line 428, in parse_block_mapping_key
+    if self.check_token(KeyToken):
+  File "/home/ubuntu/miniconda/lib/python2.7/site-packages/yaml/scanner.py", line 115, in check_token
+    while self.need_more_tokens():
+  File "/home/ubuntu/miniconda/lib/python2.7/site-packages/yaml/scanner.py", line 149, in need_more_tokens
+    self.stale_possible_simple_keys()
+  File "/home/ubuntu/miniconda/lib/python2.7/site-packages/yaml/scanner.py", line 289, in stale_possible_simple_keys
+    "could not found expected ':'", self.get_mark())
+yaml.scanner.ScannerError: while scanning a simple key
+  in "/home/ubuntu/pypi-conda-builds/fuzzywuzzy/meta.yaml", line 58, column 1
+could not found expected ':'
+  in "/home/ubuntu/pypi-conda-builds/fuzzywuzzy/meta.yaml", line 59, column 1

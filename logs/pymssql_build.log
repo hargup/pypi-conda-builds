@@ -1,0 +1,64 @@
+Removing old build directory
+Removing old work directory
+BUILD START: pymssql-2.1.1-py_0
+Fetching package metadata: ......
+
+WARNING: conda-build appears to be out of date. You have version 1.13.0 but the
+latest version is 1.14.1. Run
+
+conda update -n root conda-build
+
+to get the latest version.
+
+Solving package specifications: .+ /home/ubuntu/miniconda/envs/_build/bin/python setup.py install
+setup.py: platform.system() => 'Linux'
+setup.py: platform.architecture() => ('64bit', 'ELF')
+setup.py: platform.linux_distribution() => ('debian', 'jessie/sid', '')
+setup.py: platform.libc_ver() => ('glibc', '2.2.5')
+setup.py: Not using bundled FreeTDS
+setup.py: include_dirs = ['/usr/local/include']
+setup.py: library_dirs = ['/usr/local/lib']
+
+Installed /home/ubuntu/miniconda/conda-bld/work/pymssql-2.1.1/.eggs/setuptools_git-1.1-py2.7.egg
+running install
+running bdist_egg
+running egg_info
+writing pymssql.egg-info/PKG-INFO
+writing top-level names to pymssql.egg-info/top_level.txt
+writing dependency_links to pymssql.egg-info/dependency_links.txt
+reading manifest file 'pymssql.egg-info/SOURCES.txt'
+writing manifest file 'pymssql.egg-info/SOURCES.txt'
+installing library code to build/bdist.linux-x86_64/egg
+running install_lib
+running build_ext
+building '_mssql' extension
+creating build
+creating build/temp.linux-x86_64-2.7
+gcc -pthread -fno-strict-aliasing -g -O2 -DNDEBUG -g -fwrapv -O3 -Wall -Wstrict-prototypes -fPIC -I/usr/local/include -I/home/ubuntu/miniconda/envs/_build/include/python2.7 -c _mssql.c -o build/temp.linux-x86_64-2.7/_mssql.o -DMSDBLIB
+_mssql.c:314:22: fatal error: sqlfront.h: No such file or directory
+ #include "sqlfront.h"
+                      ^
+compilation terminated.
+error: command 'gcc' failed with exit status 1
+
+The following NEW packages will be INSTALLED:
+
+    openssl:    1.0.1k-1     
+    pip:        7.0.3-py27_0 
+    python:     2.7.10-0     
+    readline:   6.2-2        
+    setuptools: 18.0.1-py27_0
+    sqlite:     3.8.4.1-1    
+    system:     5.8-2        
+    tk:         8.5.18-0     
+    zlib:       1.2.8-0      
+
+Linking packages ...
+[                    ]|                                                  |   0%[openssl             ]|                                                  |   0%[readline            ]|#####                                             |  11%[sqlite              ]|###########                                       |  22%[system              ]|################                                  |  33%[tk                  ]|######################                            |  44%[zlib                ]|###########################                       |  55%[python              ]|#################################                 |  66%[setuptools          ]|######################################            |  77%[pip                 ]|############################################      |  88%[      COMPLETE      ]|##################################################| 100%
+Removing old work directory
+Source cache directory is: /home/ubuntu/miniconda/conda-bld/src_cache
+Found source in cache: pymssql-2.1.1.tar.gz
+Extracting download
+Package: pymssql-2.1.1-py_0
+source tree in: /home/ubuntu/miniconda/conda-bld/work/pymssql-2.1.1
+Command failed: /bin/bash -x -e /home/ubuntu/pypi-conda-builds/recipes/pymssql/build.sh

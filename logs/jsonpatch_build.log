@@ -2,6 +2,14 @@ Removing old build directory
 Removing old work directory
 BUILD START: jsonpatch-1.11-py27_0
 Fetching package metadata: ......
+
+WARNING: conda-build appears to be out of date. You have version 1.13.0 but the
+latest version is 1.14.1. Run
+
+conda update -n root conda-build
+
+to get the latest version.
+
 Solving package specifications: .+ /home/ubuntu/miniconda/envs/_build/bin/python setup.py install
 warning: pypandoc module not found, could not convert Markdown to RST
 running install
@@ -55,40 +63,36 @@ Installing jsondiff script to /home/ubuntu/miniconda/envs/_build/bin
 
 Installed /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/jsonpatch-1.11-py2.7.egg
 Processing dependencies for jsonpatch==1.11
-Searching for jsonpointer==1.9
+Searching for jsonpointer>=1.9
+Reading https://pypi.python.org/simple/jsonpointer/
 Best match: jsonpointer 1.9
-Processing jsonpointer-1.9-py2.7.egg
+Downloading https://pypi.python.org/packages/source/j/jsonpointer/jsonpointer-1.9.tar.gz#md5=c4d3f28e72ba77062538d1c0864c40a9
+Processing jsonpointer-1.9.tar.gz
+Writing /tmp/easy_install-nd_CKz/jsonpointer-1.9/setup.cfg
+Running jsonpointer-1.9/setup.py -q bdist_egg --dist-dir /tmp/easy_install-nd_CKz/jsonpointer-1.9/egg-dist-tmp-NhNpDQ
+zip_safe flag not set; analyzing archive contents...
+warning: pypandoc module not found, could not convert Markdown to RST
+Moving jsonpointer-1.9-py2.7.egg to /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages
 Adding jsonpointer 1.9 to easy-install.pth file
 Installing jsonpointer script to /home/ubuntu/miniconda/envs/_build/bin
 
-Using /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/jsonpointer-1.9-py2.7.egg
+Installed /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/jsonpointer-1.9-py2.7.egg
 Finished processing dependencies for jsonpatch==1.11
-
-The following packages will be downloaded:
-
-    package                    |            build
-    ---------------------------|-----------------
-    jsonpointer-1.9            |           py27_0          11 KB
 
 The following NEW packages will be INSTALLED:
 
-    jsonpointer: 1.9-py27_0  
-    openssl:     1.0.1k-1    
-    pip:         7.0.3-py27_0
-    python:      2.7.10-0    
-    readline:    6.2-2       
-    setuptools:  17.0-py27_0 
-    sqlite:      3.8.4.1-1   
-    system:      5.8-2       
-    tk:          8.5.18-0    
-    zlib:        1.2.8-0     
+    openssl:    1.0.1k-1     
+    pip:        7.0.3-py27_0 
+    python:     2.7.10-0     
+    readline:   6.2-2        
+    setuptools: 18.0.1-py27_0
+    sqlite:     3.8.4.1-1    
+    system:     5.8-2        
+    tk:         8.5.18-0     
+    zlib:       1.2.8-0      
 
-Fetching packages ...
-jsonpointer-1.   0% |                              | ETA:  --:--:--   0.00  B/sjsonpointer-1. 100% |###############################| ETA:  0:00:00  24.84 MB/sjsonpointer-1. 100% |###############################| Time: 0:00:00  16.59 MB/s
-Extracting packages ...
-[                    ]|                                                  |   0%[jsonpointer         ]|                                                  |   0%[      COMPLETE      ]|##################################################| 100%
 Linking packages ...
-[      COMPLETE      ]|                                                  |   0%[openssl             ]|                                                  |   0%[openssl             ]|                                                  |   0%[readline            ]|#####                                             |  10%[sqlite              ]|##########                                        |  20%[system              ]|###############                                   |  30%[tk                  ]|####################                              |  40%[zlib                ]|#########################                         |  50%[jsonpointer         ]|##############################                    |  60%[python              ]|###################################               |  70%[setuptools          ]|########################################          |  80%[pip                 ]|#############################################     |  90%[      COMPLETE      ]|##################################################| 100%
+[                    ]|                                                  |   0%[openssl             ]|                                                  |   0%[readline            ]|#####                                             |  11%[sqlite              ]|###########                                       |  22%[system              ]|################                                  |  33%[tk                  ]|######################                            |  44%[zlib                ]|###########################                       |  55%[python              ]|#################################                 |  66%[setuptools          ]|######################################            |  77%[pip                 ]|############################################      |  88%[      COMPLETE      ]|##################################################| 100%
 Removing old work directory
 Source cache directory is: /home/ubuntu/miniconda/conda-bld/src_cache
 Found source in cache: jsonpatch-1.11.tar.gz
@@ -96,10 +100,12 @@ Extracting download
 Package: jsonpatch-1.11-py27_0
 source tree in: /home/ubuntu/miniconda/conda-bld/work/jsonpatch-1.11
 found egg: /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/jsonpatch-1.11-py2.7.egg
-number of files: 4
+found egg: /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/jsonpointer-1.9-py2.7.egg
+number of files: 7
 Fixing permissions
 Detected hard-coded path in text file bin/jsondiff
 Detected hard-coded path in text file bin/jsonpatch
+Detected hard-coded path in text file bin/jsonpointer
 Fixing permissions
 BUILD END: jsonpatch-1.11-py27_0
 Nothing to test for: jsonpatch-1.11-py27_0

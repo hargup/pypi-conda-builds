@@ -1,34 +1,148 @@
-Error: prefix already exists: /home/ubuntu/miniconda/envs/_pipbuild_
-Collecting grab==0.6.21
-  Could not find a version that satisfies the requirement grab==0.6.21 (from versions: 0.1.1, 0.1.2, 0.1.3, 0.1.4, 0.1.5, 0.1.6, 0.1.7, 0.2.0, 0.2.1, 0.2.2, 0.2.3, 0.2.4, 0.2.5, 0.2.6, 0.2.7, 0.2.8, 0.2.9, 0.2.10, 0.2.11, 0.2.12, 0.2.15, 0.2.16, 0.2.17, 0.2.18, 0.2.19, 0.2.20, 0.3, 0.3.1, 0.3.2, 0.3.3, 0.3.4, 0.3.6, 0.3.7, 0.3.8, 0.3.9, 0.3.10, 0.3.11, 0.3.12, 0.3.13, 0.3.14, 0.3.15, 0.3.16, 0.3.17, 0.3.18, 0.3.19, 0.3.20, 0.3.21, 0.3.22, 0.3.23, 0.3.24, 0.3.25, 0.3.26, 0.3.27, 0.3.28, 0.3.29, 0.3.30, 0.3.31, 0.3.32, 0.3.33, 0.4.0, 0.4.1, 0.4.2, 0.4.3, 0.4.4, 0.4.5, 0.4.7, 0.4.8, 0.4.9, 0.4.10, 0.4.11, 0.4.12, 0.4.13, 0.5.0, 0.5.1, 0.5.2, 0.5.3, 0.5.4, 0.5.5, 0.6.0, 0.6.1, 0.6.2, 0.6.3, 0.6.4, 0.6.5, 0.6.6, 0.6.7, 0.6.8, 0.6.9, 0.6.10, 0.6.11, 0.6.12, 0.6.13)
-No matching distribution found for grab==0.6.21
-Package search: {'_pypi_ordering': False, 'version': '0.6.21', 'name': 'grab', 'summary': 'Web Scraping Framework'}
-Creating standard recipe for grab-0.6.21
-Using url https://pypi.python.org/packages/source/g/grab/grab-0.6.21.tar.gz (88 KB) for grab.
-Downloading grab
-Unpacking grab...
-done
-working in /tmp/tmpf0bH5Kconda_skeleton_grab-0.6.21.tar.gz
+Removing old build directory
+Removing old work directory
+BUILD START: lxml-3.4.4-py27_0
 Fetching package metadata: ......
 
 WARNING: conda-build appears to be out of date. You have version 1.13.0 but the
-latest version is 1.14.0. Run
+latest version is 1.14.1. Run
 
 conda update -n root conda-build
 
 to get the latest version.
 
-Solving package specifications: .patching file core.py
-Hunk #1 succeeded at 168 with fuzz 2 (offset 2 lines).
+Solving package specifications: .+ pip install lxml
+Collecting lxml
+  Downloading http://localhost/packages/source/l/lxml/lxml-3.4.4.tar.gz (3.5MB)
+Installing collected packages: lxml
+  Running setup.py install for lxml
+Successfully installed lxml-3.4.4
+
+The following NEW packages will be INSTALLED:
+
+    openssl:    1.0.1k-1     
+    pip:        7.0.3-py27_0 
+    python:     2.7.10-0     
+    readline:   6.2-2        
+    setuptools: 18.0.1-py27_0
+    sqlite:     3.8.4.1-1    
+    system:     5.8-2        
+    tk:         8.5.18-0     
+    zlib:       1.2.8-0      
+
+Linking packages ...
+[                    ]|                                                  |   0%[openssl             ]|                                                  |   0%[readline            ]|#####                                             |  11%[sqlite              ]|###########                                       |  22%[system              ]|################                                  |  33%[tk                  ]|######################                            |  44%[zlib                ]|###########################                       |  55%[python              ]|#################################                 |  66%[setuptools          ]|######################################            |  77%[pip                 ]|############################################      |  88%[      COMPLETE      ]|##################################################| 100%
+Removing old work directory
+Copying /home/ubuntu/pypi-conda-builds/lxml to /home/ubuntu/miniconda/conda-bld/work
+Package: lxml-3.4.4-py27_0
+source tree in: /home/ubuntu/miniconda/conda-bld/work
+number of files: 85
+Fixing permissions
+patchelf: file: /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/lxml/etree.so
+    setting rpath to: $ORIGIN/../../..
+patchelf: file: /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/lxml/objectify.so
+    setting rpath to: $ORIGIN/../../..
+Ignored hard-coded path in lib/python2.7/site-packages/lxml/etree.so
+Ignored hard-coded path in lib/python2.7/site-packages/lxml/objectify.so
+Fixing permissions
+BUILD END: lxml-3.4.4-py27_0
+# If you want to upload this package to binstar.org later, type:
+#
+# $ binstar upload /home/ubuntu/miniconda/conda-bld/linux-64/lxml-3.4.4-py27_0.tar.bz2
+#
+# To have conda build upload to binstar automatically, use
+# $ conda config --set binstar_upload yes
+
+Removing old build directory
+Removing old work directory
+BUILD START: pycurl-7.19.5.1-py27_0
+Fetching package metadata: ......
+
+WARNING: conda-build appears to be out of date. You have version 1.13.0 but the
+latest version is 1.14.1. Run
+
+conda update -n root conda-build
+
+to get the latest version.
+
+Solving package specifications: .+ pip install pycurl
+Collecting pycurl
+  Downloading http://localhost/packages/source/p/pycurl/pycurl-7.19.5.1.tar.gz (142kB)
+Installing collected packages: pycurl
+  Running setup.py install for pycurl
+Successfully installed pycurl-7.19.5.1
+
+The following NEW packages will be INSTALLED:
+
+    openssl:    1.0.1k-1     
+    pip:        7.0.3-py27_0 
+    python:     2.7.10-0     
+    readline:   6.2-2        
+    setuptools: 18.0.1-py27_0
+    sqlite:     3.8.4.1-1    
+    system:     5.8-2        
+    tk:         8.5.18-0     
+    zlib:       1.2.8-0      
+
+Linking packages ...
+[                    ]|                                                  |   0%[openssl             ]|                                                  |   0%[readline            ]|#####                                             |  11%[sqlite              ]|###########                                       |  22%[system              ]|################                                  |  33%[tk                  ]|######################                            |  44%[zlib                ]|###########################                       |  55%[python              ]|#################################                 |  66%[setuptools          ]|######################################            |  77%[pip                 ]|############################################      |  88%[      COMPLETE      ]|##################################################| 100%
+Removing old work directory
+Copying /home/ubuntu/pypi-conda-builds/pycurl to /home/ubuntu/miniconda/conda-bld/work
+Package: pycurl-7.19.5.1-py27_0
+source tree in: /home/ubuntu/miniconda/conda-bld/work
+number of files: 31
+Fixing permissions
+patchelf: file: /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/pycurl.so
+    setting rpath to: $ORIGIN/../..
+Ignored hard-coded path in lib/python2.7/site-packages/pycurl.so
+Fixing permissions
+BUILD END: pycurl-7.19.5.1-py27_0
+# If you want to upload this package to binstar.org later, type:
+#
+# $ binstar upload /home/ubuntu/miniconda/conda-bld/linux-64/pycurl-7.19.5.1-py27_0.tar.bz2
+#
+# To have conda build upload to binstar automatically, use
+# $ conda config --set binstar_upload yes
+
+An unexpected error has occurred, please consider sending the
+following traceback to the conda GitHub issue tracker at:
+
+    https://github.com/conda/conda-build/issues
+
+Include the output of the command 'conda info' in your report.
+
+
+Package search: {'_pypi_ordering': False, 'version': '0.6.21', 'name': 'grab', 'summary': 'Web Scraping Framework'}
+Creating standard recipe for grab-0.6.21
+Converting recipe in /home/ubuntu/pypi-conda-builds/grab
+package = grab
+   dependencies = [u'lxml', u'pycurl', u'selection', u'weblib >=0.1.10', u'six']
+Creating standard recipe for lxml
+Converting recipe in /home/ubuntu/pypi-conda-builds/lxml
+package = lxml
+   dependencies = []
+Building conda package for lxml
+Creating standard recipe for pycurl
+Converting recipe in /home/ubuntu/pypi-conda-builds/pycurl
+package = pycurl
+   dependencies = []
+Building conda package for pycurl
+Creating standard recipe for selection
+Converting recipe in /home/ubuntu/pypi-conda-builds/selection
 Traceback (most recent call last):
-  File "setup.py", line 1, in <module>
-    from setuptools import setup, find_packages
-ImportError: No module named setuptools
-
-Applying patch: '/tmp/tmpf0bH5Kconda_skeleton_grab-0.6.21.tar.gz/pypi-distutils.patch'
-$PYTHONPATH = /tmp/tmpf0bH5Kconda_skeleton_grab-0.6.21.tar.gz/grab-0.6.21
-Error: command failed: /home/ubuntu/miniconda/envs/_build/bin/python setup.py install
-
-conda create -n _pipbuild_ --yes python pip
-/home/ubuntu/miniconda/envs/_pipbuild_/bin/pip install grab==0.6.21
-Error: Could not pip install grab==0.6.21
+  File "/home/ubuntu/miniconda/bin/conda-pipbuild", line 6, in <module>
+    exec(compile(open(__file__).read(), __file__, 'exec'))
+  File "/home/ubuntu/conda-build/bin/conda-pipbuild", line 5, in <module>
+    sys.exit(main())
+  File "/home/ubuntu/conda-build/conda_build/main_pipbuild.py", line 80, in main
+    args_func(args, p)
+  File "/home/ubuntu/conda-build/conda_build/main_build.py", line 349, in args_func
+    args.func(args, p)
+  File "/home/ubuntu/conda-build/conda_build/main_pipbuild.py", line 360, in execute
+    build_package(package, version, noarch_python=args.noarch_python)
+  File "/home/ubuntu/conda-build/conda_build/main_pipbuild.py", line 314, in build_package
+    build_package(depend)
+  File "/home/ubuntu/conda-build/conda_build/main_pipbuild.py", line 301, in build_package
+    noarch_python=noarch_python)
+  File "/home/ubuntu/conda-build/conda_build/main_pipbuild.py", line 183, in convert_recipe
+    d['homeurl'] = meta['about']['home']
+KeyError: 'home'

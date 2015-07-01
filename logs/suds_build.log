@@ -2,6 +2,14 @@ Removing old build directory
 Removing old work directory
 BUILD START: suds-0.4-py27_0
 Fetching package metadata: ......
+
+WARNING: conda-build appears to be out of date. You have version 1.13.0 but the
+latest version is 1.14.1. Run
+
+conda update -n root conda-build
+
+to get the latest version.
+
 Solving package specifications: .+ /home/ubuntu/miniconda/envs/_build/bin/python setup.py install
 running install
 running bdist_egg
@@ -197,9 +205,9 @@ byte-compiling build/bdist.linux-x86_64/egg/suds/cache.py to cache.pyc
 byte-compiling build/bdist.linux-x86_64/egg/suds/client.py to client.pyc
 byte-compiling build/bdist.linux-x86_64/egg/suds/__init__.py to __init__.pyc
 byte-compiling build/bdist.linux-x86_64/egg/suds/wsse.py to wsse.pyc
-writing byte-compilation script '/tmp/tmph9I3_f.py'
-/home/ubuntu/miniconda/envs/_build/bin/python -O /tmp/tmph9I3_f.py
-removing /tmp/tmph9I3_f.py
+writing byte-compilation script '/tmp/tmp2nqCiB.py'
+/home/ubuntu/miniconda/envs/_build/bin/python -O /tmp/tmp2nqCiB.py
+removing /tmp/tmp2nqCiB.py
 creating build/bdist.linux-x86_64/egg/EGG-INFO
 copying suds.egg-info/PKG-INFO -> build/bdist.linux-x86_64/egg/EGG-INFO
 copying suds.egg-info/SOURCES.txt -> build/bdist.linux-x86_64/egg/EGG-INFO
@@ -219,15 +227,15 @@ Finished processing dependencies for suds==0.4
 
 The following NEW packages will be INSTALLED:
 
-    openssl:    1.0.1k-1    
-    pip:        7.0.3-py27_0
-    python:     2.7.10-0    
-    readline:   6.2-2       
-    setuptools: 17.0-py27_0 
-    sqlite:     3.8.4.1-1   
-    system:     5.8-2       
-    tk:         8.5.18-0    
-    zlib:       1.2.8-0     
+    openssl:    1.0.1k-1     
+    pip:        7.0.3-py27_0 
+    python:     2.7.10-0     
+    readline:   6.2-2        
+    setuptools: 18.0.1-py27_0
+    sqlite:     3.8.4.1-1    
+    system:     5.8-2        
+    tk:         8.5.18-0     
+    zlib:       1.2.8-0      
 
 Linking packages ...
 [                    ]|                                                  |   0%[openssl             ]|                                                  |   0%[readline            ]|#####                                             |  11%[sqlite              ]|###########                                       |  22%[system              ]|################                                  |  33%[tk                  ]|######################                            |  44%[zlib                ]|###########################                       |  55%[python              ]|#################################                 |  66%[setuptools          ]|######################################            |  77%[pip                 ]|############################################      |  88%[      COMPLETE      ]|##################################################| 100%
@@ -244,6 +252,14 @@ Fixing permissions
 BUILD END: suds-0.4-py27_0
 TEST START: suds-0.4-py27_0
 Fetching package metadata: ......
+
+WARNING: conda-build appears to be out of date. You have version 1.13.0 but the
+latest version is 1.14.1. Run
+
+conda update -n root conda-build
+
+to get the latest version.
+
 Solving package specifications: .===== testing package: suds-0.4-py27_0 =====
 import: u'suds'
 import: u'suds.bindings'
@@ -258,23 +274,23 @@ The following packages will be downloaded:
 
     package                    |            build
     ---------------------------|-----------------
-    suds-0.4                   |           py27_0         341 KB
+    suds-0.4                   |           py27_0         340 KB
 
 The following NEW packages will be INSTALLED:
 
-    openssl:    1.0.1k-1    
-    pip:        7.0.3-py27_0
-    python:     2.7.10-0    
-    readline:   6.2-2       
-    setuptools: 17.0-py27_0 
-    sqlite:     3.8.4.1-1   
-    suds:       0.4-py27_0  
-    system:     5.8-2       
-    tk:         8.5.18-0    
-    zlib:       1.2.8-0     
+    openssl:    1.0.1k-1     
+    pip:        7.0.3-py27_0 
+    python:     2.7.10-0     
+    readline:   6.2-2        
+    setuptools: 18.0.1-py27_0
+    sqlite:     3.8.4.1-1    
+    suds:       0.4-py27_0   
+    system:     5.8-2        
+    tk:         8.5.18-0     
+    zlib:       1.2.8-0      
 
 Fetching packages ...
-suds-0.4-py27_   0% |                              | ETA:  --:--:--   0.00  B/ssuds-0.4-py27_   4% |#                              | ETA:  0:00:00  46.03 MB/ssuds-0.4-py27_   9% |##                             | ETA:  0:00:00  57.60 MB/ssuds-0.4-py27_  14% |####                           | ETA:  0:00:00  64.77 MB/ssuds-0.4-py27_  18% |#####                          | ETA:  0:00:00  69.20 MB/ssuds-0.4-py27_  23% |#######                        | ETA:  0:00:00  72.50 MB/ssuds-0.4-py27_  28% |########                       | ETA:  0:00:00  74.87 MB/ssuds-0.4-py27_  32% |##########                     | ETA:  0:00:00  76.72 MB/ssuds-0.4-py27_  37% |###########                    | ETA:  0:00:00  77.92 MB/ssuds-0.4-py27_  42% |#############                  | ETA:  0:00:00  79.15 MB/ssuds-0.4-py27_  46% |##############                 | ETA:  0:00:00  80.04 MB/ssuds-0.4-py27_  51% |################               | ETA:  0:00:00  17.37 MB/ssuds-0.4-py27_  56% |#################              | ETA:  0:00:00  18.62 MB/ssuds-0.4-py27_  61% |##################             | ETA:  0:00:00  19.83 MB/ssuds-0.4-py27_  65% |####################           | ETA:  0:00:00  21.01 MB/ssuds-0.4-py27_  70% |#####################          | ETA:  0:00:00  22.14 MB/ssuds-0.4-py27_  75% |#######################        | ETA:  0:00:00  23.23 MB/ssuds-0.4-py27_  79% |########################       | ETA:  0:00:00  24.29 MB/ssuds-0.4-py27_  84% |##########################     | ETA:  0:00:00  25.31 MB/ssuds-0.4-py27_  89% |###########################    | ETA:  0:00:00  26.32 MB/ssuds-0.4-py27_  93% |#############################  | ETA:  0:00:00  27.29 MB/ssuds-0.4-py27_  98% |############################## | ETA:  0:00:00  28.23 MB/ssuds-0.4-py27_ 100% |###############################| ETA:  0:00:00  28.27 MB/ssuds-0.4-py27_ 100% |###############################| Time: 0:00:00  27.75 MB/s
+suds-0.4-py27_   0% |                              | ETA:  --:--:--   0.00  B/ssuds-0.4-py27_   4% |#                              | ETA:  0:00:00  43.00 MB/ssuds-0.4-py27_   9% |##                             | ETA:  0:00:00  55.44 MB/ssuds-0.4-py27_  14% |####                           | ETA:  0:00:00  62.53 MB/ssuds-0.4-py27_  18% |#####                          | ETA:  0:00:00  67.08 MB/ssuds-0.4-py27_  23% |#######                        | ETA:  0:00:00  70.55 MB/ssuds-0.4-py27_  28% |########                       | ETA:  0:00:00  73.25 MB/ssuds-0.4-py27_  32% |##########                     | ETA:  0:00:00  75.26 MB/ssuds-0.4-py27_  37% |###########                    | ETA:  0:00:00  76.74 MB/ssuds-0.4-py27_  42% |#############                  | ETA:  0:00:00  78.14 MB/ssuds-0.4-py27_  47% |##############                 | ETA:  0:00:00  16.06 MB/ssuds-0.4-py27_  51% |################               | ETA:  0:00:00  17.34 MB/ssuds-0.4-py27_  56% |#################              | ETA:  0:00:00  18.59 MB/ssuds-0.4-py27_  61% |##################             | ETA:  0:00:00  19.80 MB/ssuds-0.4-py27_  65% |####################           | ETA:  0:00:00  20.97 MB/ssuds-0.4-py27_  70% |#####################          | ETA:  0:00:00  22.10 MB/ssuds-0.4-py27_  75% |#######################        | ETA:  0:00:00  23.21 MB/ssuds-0.4-py27_  79% |########################       | ETA:  0:00:00  24.28 MB/ssuds-0.4-py27_  84% |##########################     | ETA:  0:00:00  25.31 MB/ssuds-0.4-py27_  89% |###########################    | ETA:  0:00:00  26.30 MB/ssuds-0.4-py27_  94% |#############################  | ETA:  0:00:00  27.27 MB/ssuds-0.4-py27_  98% |############################## | ETA:  0:00:00  28.11 MB/ssuds-0.4-py27_ 100% |###############################| ETA:  0:00:00  28.13 MB/ssuds-0.4-py27_ 100% |###############################| Time: 0:00:00  27.62 MB/s
 Extracting packages ...
 [      COMPLETE      ]|                                                  |   0%[suds                ]|                                                  |   0%[suds                ]|                                                  |   0%[      COMPLETE      ]|##################################################| 100%
 Linking packages ...

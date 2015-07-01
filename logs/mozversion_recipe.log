@@ -14,19 +14,40 @@ Warning, the following versions were found for mozversion
 Using 1.2
 Use --version to specify a different version.
 Using url https://pypi.python.org/packages/source/m/mozversion/mozversion-1.2.tar.gz (5 KB) for mozversion.
-Downloading mozversion (use --no-download to skip this step)
+Downloading mozversion
 Using cached download
 Unpacking mozversion...
 done
-working in /tmp/tmpRFPeBaconda_skeleton_mozversion-1.2.tar.gz
+working in /tmp/tmpmuD9gmconda_skeleton_mozversion-1.2.tar.gz
 Fetching package metadata: ......
+
+WARNING: conda-build appears to be out of date. You have version 1.13.0 but the
+latest version is 1.14.1. Run
+
+conda update -n root conda-build
+
+to get the latest version.
+
 Solving package specifications: .patching file core.py
 Hunk #1 succeeded at 168 with fuzz 2 (offset 2 lines).
-Traceback (most recent call last):
-  File "setup.py", line 5, in <module>
-    from setuptools import setup
-ImportError: No module named setuptools
 
-Applying patch: '/tmp/tmpRFPeBaconda_skeleton_mozversion-1.2.tar.gz/pypi-distutils.patch'
-$PYTHONPATH = /tmp/tmpRFPeBaconda_skeleton_mozversion-1.2.tar.gz/mozversion-1.2
-Error: command failed: /home/ubuntu/miniconda/envs/_build/bin/python setup.py install
+The following NEW packages will be INSTALLED:
+
+    numpy:      1.9.2-py27_0 
+    pip:        7.0.3-py27_0 
+    python:     2.7.10-0     
+    pyyaml:     3.11-py27_1  
+    setuptools: 18.0.1-py27_0
+    yaml:       0.1.6-0      
+
+Linking packages ...
+[                    ]|                                                  |   0%[yaml                ]|                                                  |   0%[numpy               ]|########                                          |  16%[python              ]|################                                  |  33%[pyyaml              ]|#########################                         |  50%[setuptools          ]|#################################                 |  66%[pip                 ]|#########################################         |  83%[      COMPLETE      ]|##################################################| 100%
+Applying patch: '/tmp/tmpmuD9gmconda_skeleton_mozversion-1.2.tar.gz/pypi-distutils.patch'
+WARNING: Could not add entry points. They were:
+
+      # -*- Entry points: -*-
+      [console_scripts]
+      mozversion = mozversion:cli
+      
+Writing recipe for mozversion
+Done

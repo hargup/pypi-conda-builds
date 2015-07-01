@@ -1,0 +1,187 @@
+Removing old build directory
+Removing old work directory
+BUILD START: django_polymorphic-0.7.1-py_0
+Fetching package metadata: ......
+
+WARNING: conda-build appears to be out of date. You have version 1.13.0 but the
+latest version is 1.14.1. Run
+
+conda update -n root conda-build
+
+to get the latest version.
+
+Solving package specifications: .+ /home/ubuntu/miniconda/envs/_build/bin/python setup.py install
+running install
+running bdist_egg
+running egg_info
+writing requirements to django_polymorphic.egg-info/requires.txt
+writing django_polymorphic.egg-info/PKG-INFO
+writing top-level names to django_polymorphic.egg-info/top_level.txt
+writing dependency_links to django_polymorphic.egg-info/dependency_links.txt
+reading manifest file 'django_polymorphic.egg-info/SOURCES.txt'
+reading manifest template 'MANIFEST.in'
+warning: no files found matching 'DOCS.rst'
+warning: no files found matching 'CHANGES.rst'
+writing manifest file 'django_polymorphic.egg-info/SOURCES.txt'
+installing library code to build/bdist.linux-x86_64/egg
+running install_lib
+running build_py
+creating build
+creating build/lib
+creating build/lib/polymorphic
+copying polymorphic/tools_for_tests.py -> build/lib/polymorphic
+copying polymorphic/admin.py -> build/lib/polymorphic
+copying polymorphic/showfields.py -> build/lib/polymorphic
+copying polymorphic/polymorphic_model.py -> build/lib/polymorphic
+copying polymorphic/query_translate.py -> build/lib/polymorphic
+copying polymorphic/query.py -> build/lib/polymorphic
+copying polymorphic/tests.py -> build/lib/polymorphic
+copying polymorphic/__version__.py -> build/lib/polymorphic
+copying polymorphic/__init__.py -> build/lib/polymorphic
+copying polymorphic/manager.py -> build/lib/polymorphic
+copying polymorphic/models.py -> build/lib/polymorphic
+copying polymorphic/base.py -> build/lib/polymorphic
+creating build/lib/polymorphic/templatetags
+copying polymorphic/templatetags/polymorphic_admin_tags.py -> build/lib/polymorphic/templatetags
+copying polymorphic/templatetags/__init__.py -> build/lib/polymorphic/templatetags
+creating build/lib/polymorphic/templates
+creating build/lib/polymorphic/templates/admin
+creating build/lib/polymorphic/templates/admin/polymorphic
+copying polymorphic/templates/admin/polymorphic/delete_confirmation.html -> build/lib/polymorphic/templates/admin/polymorphic
+copying polymorphic/templates/admin/polymorphic/add_type_form.html -> build/lib/polymorphic/templates/admin/polymorphic
+copying polymorphic/templates/admin/polymorphic/change_form.html -> build/lib/polymorphic/templates/admin/polymorphic
+creating build/bdist.linux-x86_64
+creating build/bdist.linux-x86_64/egg
+creating build/bdist.linux-x86_64/egg/polymorphic
+copying build/lib/polymorphic/tools_for_tests.py -> build/bdist.linux-x86_64/egg/polymorphic
+copying build/lib/polymorphic/admin.py -> build/bdist.linux-x86_64/egg/polymorphic
+copying build/lib/polymorphic/showfields.py -> build/bdist.linux-x86_64/egg/polymorphic
+copying build/lib/polymorphic/polymorphic_model.py -> build/bdist.linux-x86_64/egg/polymorphic
+creating build/bdist.linux-x86_64/egg/polymorphic/templates
+creating build/bdist.linux-x86_64/egg/polymorphic/templates/admin
+creating build/bdist.linux-x86_64/egg/polymorphic/templates/admin/polymorphic
+copying build/lib/polymorphic/templates/admin/polymorphic/delete_confirmation.html -> build/bdist.linux-x86_64/egg/polymorphic/templates/admin/polymorphic
+copying build/lib/polymorphic/templates/admin/polymorphic/add_type_form.html -> build/bdist.linux-x86_64/egg/polymorphic/templates/admin/polymorphic
+copying build/lib/polymorphic/templates/admin/polymorphic/change_form.html -> build/bdist.linux-x86_64/egg/polymorphic/templates/admin/polymorphic
+creating build/bdist.linux-x86_64/egg/polymorphic/templatetags
+copying build/lib/polymorphic/templatetags/polymorphic_admin_tags.py -> build/bdist.linux-x86_64/egg/polymorphic/templatetags
+copying build/lib/polymorphic/templatetags/__init__.py -> build/bdist.linux-x86_64/egg/polymorphic/templatetags
+copying build/lib/polymorphic/query_translate.py -> build/bdist.linux-x86_64/egg/polymorphic
+copying build/lib/polymorphic/query.py -> build/bdist.linux-x86_64/egg/polymorphic
+copying build/lib/polymorphic/tests.py -> build/bdist.linux-x86_64/egg/polymorphic
+copying build/lib/polymorphic/__version__.py -> build/bdist.linux-x86_64/egg/polymorphic
+copying build/lib/polymorphic/__init__.py -> build/bdist.linux-x86_64/egg/polymorphic
+copying build/lib/polymorphic/manager.py -> build/bdist.linux-x86_64/egg/polymorphic
+copying build/lib/polymorphic/models.py -> build/bdist.linux-x86_64/egg/polymorphic
+copying build/lib/polymorphic/base.py -> build/bdist.linux-x86_64/egg/polymorphic
+byte-compiling build/bdist.linux-x86_64/egg/polymorphic/tools_for_tests.py to tools_for_tests.pyc
+byte-compiling build/bdist.linux-x86_64/egg/polymorphic/admin.py to admin.pyc
+byte-compiling build/bdist.linux-x86_64/egg/polymorphic/showfields.py to showfields.pyc
+byte-compiling build/bdist.linux-x86_64/egg/polymorphic/polymorphic_model.py to polymorphic_model.pyc
+byte-compiling build/bdist.linux-x86_64/egg/polymorphic/templatetags/polymorphic_admin_tags.py to polymorphic_admin_tags.pyc
+byte-compiling build/bdist.linux-x86_64/egg/polymorphic/templatetags/__init__.py to __init__.pyc
+byte-compiling build/bdist.linux-x86_64/egg/polymorphic/query_translate.py to query_translate.pyc
+byte-compiling build/bdist.linux-x86_64/egg/polymorphic/query.py to query.pyc
+byte-compiling build/bdist.linux-x86_64/egg/polymorphic/tests.py to tests.pyc
+byte-compiling build/bdist.linux-x86_64/egg/polymorphic/__version__.py to __version__.pyc
+byte-compiling build/bdist.linux-x86_64/egg/polymorphic/__init__.py to __init__.pyc
+byte-compiling build/bdist.linux-x86_64/egg/polymorphic/manager.py to manager.pyc
+byte-compiling build/bdist.linux-x86_64/egg/polymorphic/models.py to models.pyc
+byte-compiling build/bdist.linux-x86_64/egg/polymorphic/base.py to base.pyc
+creating build/bdist.linux-x86_64/egg/EGG-INFO
+copying django_polymorphic.egg-info/PKG-INFO -> build/bdist.linux-x86_64/egg/EGG-INFO
+copying django_polymorphic.egg-info/SOURCES.txt -> build/bdist.linux-x86_64/egg/EGG-INFO
+copying django_polymorphic.egg-info/dependency_links.txt -> build/bdist.linux-x86_64/egg/EGG-INFO
+copying django_polymorphic.egg-info/pbr.json -> build/bdist.linux-x86_64/egg/EGG-INFO
+copying django_polymorphic.egg-info/requires.txt -> build/bdist.linux-x86_64/egg/EGG-INFO
+copying django_polymorphic.egg-info/top_level.txt -> build/bdist.linux-x86_64/egg/EGG-INFO
+zip_safe flag not set; analyzing archive contents...
+polymorphic.base: module MAY be using inspect.stack
+creating dist
+creating 'dist/django_polymorphic-0.7.1-py2.7.egg' and adding 'build/bdist.linux-x86_64/egg' to it
+removing 'build/bdist.linux-x86_64/egg' (and everything under it)
+Processing django_polymorphic-0.7.1-py2.7.egg
+creating /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/django_polymorphic-0.7.1-py2.7.egg
+Extracting django_polymorphic-0.7.1-py2.7.egg to /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages
+Adding django-polymorphic 0.7.1 to easy-install.pth file
+
+Installed /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/django_polymorphic-0.7.1-py2.7.egg
+Processing dependencies for django-polymorphic==0.7.1
+Searching for setuptools==15.2
+Best match: setuptools 15.2
+Adding setuptools 15.2 to easy-install.pth file
+Installing easy_install-3.4 script to /home/ubuntu/miniconda/envs/_build/bin
+Installing easy_install script to /home/ubuntu/miniconda/envs/_build/bin
+
+Using /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages
+Finished processing dependencies for django-polymorphic==0.7.1
+
+The following NEW packages will be INSTALLED:
+
+    openssl:    1.0.1k-1     
+    pip:        7.0.3-py27_0 
+    python:     2.7.10-0     
+    readline:   6.2-2        
+    setuptools: 18.0.1-py27_0
+    sqlite:     3.8.4.1-1    
+    system:     5.8-2        
+    tk:         8.5.18-0     
+    zlib:       1.2.8-0      
+
+Linking packages ...
+[                    ]|                                                  |   0%[openssl             ]|                                                  |   0%[readline            ]|#####                                             |  11%[sqlite              ]|###########                                       |  22%[system              ]|################                                  |  33%[tk                  ]|######################                            |  44%[zlib                ]|###########################                       |  55%[python              ]|#################################                 |  66%[setuptools          ]|######################################            |  77%[pip                 ]|############################################      |  88%[      COMPLETE      ]|##################################################| 100%
+Removing old work directory
+Source cache directory is: /home/ubuntu/miniconda/conda-bld/src_cache
+Found source in cache: django_polymorphic-0.7.1.tar.gz
+Extracting download
+Package: django_polymorphic-0.7.1-py_0
+source tree in: /home/ubuntu/miniconda/conda-bld/work/django_polymorphic-0.7.1
+number of files: 41
+Fixing permissions
+Fixing permissions
+BUILD END: django_polymorphic-0.7.1-py_0
+TEST START: django_polymorphic-0.7.1-py_0
+Fetching package metadata: ......
+
+WARNING: conda-build appears to be out of date. You have version 1.13.0 but the
+latest version is 1.14.1. Run
+
+conda update -n root conda-build
+
+to get the latest version.
+
+Solving package specifications: .===== testing package: django_polymorphic-0.7.1-py_0 =====
+import: u'polymorphic'
+Traceback (most recent call last):
+  File "/home/ubuntu/miniconda/conda-bld/test-tmp_dir/run_test.py", line 25, in <module>
+    import polymorphic
+  File "/home/ubuntu/miniconda/envs/_test/lib/python2.7/site-packages/django_polymorphic-0.7.1-py2.7.egg/polymorphic/__init__.py", line 10, in <module>
+    import django
+ImportError: No module named django
+
+The following packages will be downloaded:
+
+    package                    |            build
+    ---------------------------|-----------------
+    django_polymorphic-0.7.1   |             py_0         104 KB
+
+The following NEW packages will be INSTALLED:
+
+    django_polymorphic: 0.7.1-py_0   
+    openssl:            1.0.1k-1     
+    pip:                7.0.3-py27_0 
+    python:             2.7.10-0     
+    readline:           6.2-2        
+    setuptools:         18.0.1-py27_0
+    sqlite:             3.8.4.1-1    
+    system:             5.8-2        
+    tk:                 8.5.18-0     
+    zlib:               1.2.8-0      
+
+Fetching packages ...
+django_polymor   0% |                              | ETA:  --:--:--   0.00  B/sdjango_polymor  15% |####                           | ETA:  0:00:00  45.15 MB/sdjango_polymor  30% |#########                      | ETA:  0:00:00  57.19 MB/sdjango_polymor  46% |##############                 | ETA:  0:00:00  64.51 MB/sdjango_polymor  61% |###################            | ETA:  0:00:00  69.06 MB/sdjango_polymor  76% |#######################        | ETA:  0:00:00  72.31 MB/sdjango_polymor  92% |############################   | ETA:  0:00:00  74.76 MB/sdjango_polymor 100% |###############################| ETA:  0:00:00  72.03 MB/sdjango_polymor 100% |###############################| Time: 0:00:00  61.89 MB/s
+Extracting packages ...
+[      COMPLETE      ]|                                                  |   0%[django_polymorphic  ]|                                                  |   0%[django_polymorphic  ]|                                                  |   0%[      COMPLETE      ]|##################################################| 100%
+Linking packages ...
+[      COMPLETE      ]|                                                  |   0%[openssl             ]|                                                  |   0%[openssl             ]|                                                  |   0%[readline            ]|#####                                             |  10%[sqlite              ]|##########                                        |  20%[system              ]|###############                                   |  30%[tk                  ]|####################                              |  40%[zlib                ]|#########################                         |  50%[python              ]|##############################                    |  60%[setuptools          ]|###################################               |  70%[django_polymorphic  ]|########################################          |  80%[pip                 ]|#############################################     |  90%[      COMPLETE      ]|##################################################| 100%
+TESTS FAILED: django_polymorphic-0.7.1-py_0

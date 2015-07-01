@@ -1,0 +1,71 @@
+package:
+  name: ground-soil
+  version: "0.2.5"
+
+source:
+  fn: ground-soil-0.2.5.tar.gz
+  url: https://pypi.python.org/packages/source/g/ground-soil/ground-soil-0.2.5.tar.gz
+  md5: 03c958fd358df3a0a7e2adbe8f928762
+#  patches:
+   # List any patch files here
+   # - fix.patch
+
+build:
+  noarch_python: True
+  # preserve_egg_dir: True
+  # entry_points:
+    # Put any entry points (scripts to be generated automatically) here. The
+    # syntax is module:function.  For example
+    #
+    # - ground-soil = ground-soil:main
+    #
+    # Would create an entry point called ground-soil that calls ground-soil.main()
+
+
+  # If this is a new build for the same version, increment the build
+  # number. If you do not include this key, it defaults to 0.
+  # number: 1
+
+requirements:
+  build:
+    - python
+    - setuptools
+    - fabric >=1.5
+    - jinja2 >=2.6
+    - six >=1.2
+
+  run:
+    - python
+    - fabric >=1.5
+    - jinja2 >=2.6
+    - six >=1.2
+
+test:
+  # Python imports
+  imports:
+    - ground_soil
+    - ground_soil.console
+    - ground_soil.datastucture
+    - ground_soil.fabric
+    - ground_soil.lang
+
+  # commands:
+    # You can put test commands to be run here.  Use this to test that the
+    # entry points work.
+
+
+  # You can also put a file called run_test.py in the recipe that will be run
+  # at test time.
+
+  # requires:
+    # Put any additional test requirements here.  For example
+    # - nose
+
+about:
+  home: https://bitbucket.org/sodastsai/ground-soil/
+  license: Apache Software License
+  summary: 'Django base for common use'
+
+# See
+# http://docs.continuum.io/conda/build.html for
+# more information about meta.yaml

@@ -1,0 +1,158 @@
+Removing old build directory
+Removing old work directory
+BUILD START: django-annoying-0.8.2-py_0
+Fetching package metadata: ......
+
+WARNING: conda-build appears to be out of date. You have version 1.13.0 but the
+latest version is 1.14.1. Run
+
+conda update -n root conda-build
+
+to get the latest version.
+
+Solving package specifications: .+ /home/ubuntu/miniconda/envs/_build/bin/python setup.py install
+running install
+running bdist_egg
+running egg_info
+writing django_annoying.egg-info/PKG-INFO
+writing top-level names to django_annoying.egg-info/top_level.txt
+writing dependency_links to django_annoying.egg-info/dependency_links.txt
+reading manifest file 'django_annoying.egg-info/SOURCES.txt'
+writing manifest file 'django_annoying.egg-info/SOURCES.txt'
+installing library code to build/bdist.linux-x86_64/egg
+running install_lib
+running build_py
+creating build
+creating build/lib
+creating build/lib/annoying
+copying annoying/utils.py -> build/lib/annoying
+copying annoying/fields.py -> build/lib/annoying
+copying annoying/__init__.py -> build/lib/annoying
+copying annoying/decorators.py -> build/lib/annoying
+copying annoying/middlewares.py -> build/lib/annoying
+copying annoying/models.py -> build/lib/annoying
+copying annoying/functions.py -> build/lib/annoying
+copying annoying/exceptions.py -> build/lib/annoying
+creating build/lib/annoying/templatetags
+copying annoying/templatetags/annoying.py -> build/lib/annoying/templatetags
+copying annoying/templatetags/__init__.py -> build/lib/annoying/templatetags
+copying annoying/templatetags/smart_if.py -> build/lib/annoying/templatetags
+creating build/lib/annoying/tests
+copying annoying/tests/views.py -> build/lib/annoying/tests
+copying annoying/tests/urls.py -> build/lib/annoying/tests
+copying annoying/tests/__init__.py -> build/lib/annoying/tests
+copying annoying/tests/decorators.py -> build/lib/annoying/tests
+creating build/bdist.linux-x86_64
+creating build/bdist.linux-x86_64/egg
+creating build/bdist.linux-x86_64/egg/annoying
+copying build/lib/annoying/utils.py -> build/bdist.linux-x86_64/egg/annoying
+copying build/lib/annoying/fields.py -> build/bdist.linux-x86_64/egg/annoying
+creating build/bdist.linux-x86_64/egg/annoying/templatetags
+copying build/lib/annoying/templatetags/annoying.py -> build/bdist.linux-x86_64/egg/annoying/templatetags
+copying build/lib/annoying/templatetags/__init__.py -> build/bdist.linux-x86_64/egg/annoying/templatetags
+copying build/lib/annoying/templatetags/smart_if.py -> build/bdist.linux-x86_64/egg/annoying/templatetags
+creating build/bdist.linux-x86_64/egg/annoying/tests
+copying build/lib/annoying/tests/views.py -> build/bdist.linux-x86_64/egg/annoying/tests
+copying build/lib/annoying/tests/urls.py -> build/bdist.linux-x86_64/egg/annoying/tests
+copying build/lib/annoying/tests/__init__.py -> build/bdist.linux-x86_64/egg/annoying/tests
+copying build/lib/annoying/tests/decorators.py -> build/bdist.linux-x86_64/egg/annoying/tests
+copying build/lib/annoying/__init__.py -> build/bdist.linux-x86_64/egg/annoying
+copying build/lib/annoying/decorators.py -> build/bdist.linux-x86_64/egg/annoying
+copying build/lib/annoying/middlewares.py -> build/bdist.linux-x86_64/egg/annoying
+copying build/lib/annoying/models.py -> build/bdist.linux-x86_64/egg/annoying
+copying build/lib/annoying/functions.py -> build/bdist.linux-x86_64/egg/annoying
+copying build/lib/annoying/exceptions.py -> build/bdist.linux-x86_64/egg/annoying
+byte-compiling build/bdist.linux-x86_64/egg/annoying/utils.py to utils.pyc
+byte-compiling build/bdist.linux-x86_64/egg/annoying/fields.py to fields.pyc
+byte-compiling build/bdist.linux-x86_64/egg/annoying/templatetags/annoying.py to annoying.pyc
+byte-compiling build/bdist.linux-x86_64/egg/annoying/templatetags/__init__.py to __init__.pyc
+byte-compiling build/bdist.linux-x86_64/egg/annoying/templatetags/smart_if.py to smart_if.pyc
+byte-compiling build/bdist.linux-x86_64/egg/annoying/tests/views.py to views.pyc
+byte-compiling build/bdist.linux-x86_64/egg/annoying/tests/urls.py to urls.pyc
+byte-compiling build/bdist.linux-x86_64/egg/annoying/tests/__init__.py to __init__.pyc
+byte-compiling build/bdist.linux-x86_64/egg/annoying/tests/decorators.py to decorators.pyc
+byte-compiling build/bdist.linux-x86_64/egg/annoying/__init__.py to __init__.pyc
+byte-compiling build/bdist.linux-x86_64/egg/annoying/decorators.py to decorators.pyc
+byte-compiling build/bdist.linux-x86_64/egg/annoying/middlewares.py to middlewares.pyc
+byte-compiling build/bdist.linux-x86_64/egg/annoying/models.py to models.pyc
+byte-compiling build/bdist.linux-x86_64/egg/annoying/functions.py to functions.pyc
+byte-compiling build/bdist.linux-x86_64/egg/annoying/exceptions.py to exceptions.pyc
+creating build/bdist.linux-x86_64/egg/EGG-INFO
+copying django_annoying.egg-info/PKG-INFO -> build/bdist.linux-x86_64/egg/EGG-INFO
+copying django_annoying.egg-info/SOURCES.txt -> build/bdist.linux-x86_64/egg/EGG-INFO
+copying django_annoying.egg-info/dependency_links.txt -> build/bdist.linux-x86_64/egg/EGG-INFO
+copying django_annoying.egg-info/top_level.txt -> build/bdist.linux-x86_64/egg/EGG-INFO
+zip_safe flag not set; analyzing archive contents...
+creating dist
+creating 'dist/django_annoying-0.8.2-py2.7.egg' and adding 'build/bdist.linux-x86_64/egg' to it
+removing 'build/bdist.linux-x86_64/egg' (and everything under it)
+Processing django_annoying-0.8.2-py2.7.egg
+Copying django_annoying-0.8.2-py2.7.egg to /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages
+Adding django-annoying 0.8.2 to easy-install.pth file
+
+Installed /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/django_annoying-0.8.2-py2.7.egg
+Processing dependencies for django-annoying==0.8.2
+Finished processing dependencies for django-annoying==0.8.2
+
+The following NEW packages will be INSTALLED:
+
+    openssl:    1.0.1k-1     
+    pip:        7.0.3-py27_0 
+    python:     2.7.10-0     
+    readline:   6.2-2        
+    setuptools: 18.0.1-py27_0
+    sqlite:     3.8.4.1-1    
+    system:     5.8-2        
+    tk:         8.5.18-0     
+    zlib:       1.2.8-0      
+
+Linking packages ...
+[                    ]|                                                  |   0%[openssl             ]|                                                  |   0%[readline            ]|#####                                             |  11%[sqlite              ]|###########                                       |  22%[system              ]|################                                  |  33%[tk                  ]|######################                            |  44%[zlib                ]|###########################                       |  55%[python              ]|#################################                 |  66%[setuptools          ]|######################################            |  77%[pip                 ]|############################################      |  88%[      COMPLETE      ]|##################################################| 100%
+Removing old work directory
+Source cache directory is: /home/ubuntu/miniconda/conda-bld/src_cache
+Found source in cache: django-annoying-0.8.2.tar.gz
+Extracting download
+Package: django-annoying-0.8.2-py_0
+source tree in: /home/ubuntu/miniconda/conda-bld/work/django-annoying-0.8.2
+found egg: /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/django_annoying-0.8.2-py2.7.egg
+number of files: 2
+Fixing permissions
+Fixing permissions
+BUILD END: django-annoying-0.8.2-py_0
+TEST START: django-annoying-0.8.2-py_0
+Fetching package metadata: ......
+
+WARNING: conda-build appears to be out of date. You have version 1.13.0 but the
+latest version is 1.14.1. Run
+
+conda update -n root conda-build
+
+to get the latest version.
+
+Solving package specifications: ./home/ubuntu/miniconda/pkgs/django-annoying-0.8.2-py_0/bin/.django-annoying-pre-link.sh: line 2: /home/ubuntu/miniconda/envs/_test/bin/python: No such file or directory
+
+The following packages will be downloaded:
+
+    package                    |            build
+    ---------------------------|-----------------
+    django-annoying-0.8.2      |             py_0          30 KB
+
+The following NEW packages will be INSTALLED:
+
+    django-annoying: 0.8.2-py_0   
+    openssl:         1.0.1k-1     
+    pip:             7.0.3-py27_0 
+    python:          2.7.10-0     
+    readline:        6.2-2        
+    setuptools:      18.0.1-py27_0
+    sqlite:          3.8.4.1-1    
+    system:          5.8-2        
+    tk:              8.5.18-0     
+    zlib:            1.2.8-0      
+
+Fetching packages ...
+django-annoyin   0% |                              | ETA:  --:--:--   0.00  B/sdjango-annoyin  53% |################               | ETA:  0:00:00  48.33 MB/sdjango-annoyin 100% |###############################| ETA:  0:00:00  56.73 MB/sdjango-annoyin 100% |###############################| Time: 0:00:00  39.07 MB/s
+Extracting packages ...
+[      COMPLETE      ]|                                                  |   0%[django-annoying     ]|                                                  |   0%[django-annoying     ]|                                                  |   0%[      COMPLETE      ]|##################################################| 100%
+Linking packages ...
+[      COMPLETE      ]|                                                  |   0%[openssl             ]|                                                  |   0%[openssl             ]|                                                  |   0%[readline            ]|#####                                             |  10%[sqlite              ]|##########                                        |  20%[system              ]|###############                                   |  30%[tk                  ]|####################                              |  40%[zlib                ]|#########################                         |  50%[django-annoying     ]|##############################                    |  60%Error: pre-link failed: django-annoying-0.8.2-py_0

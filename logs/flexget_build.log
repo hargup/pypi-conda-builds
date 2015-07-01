@@ -2,8 +2,174 @@ Removing old build directory
 Removing old work directory
 BUILD START: flexget-1.2.320-py_0
 Fetching package metadata: ......
+
+WARNING: conda-build appears to be out of date. You have version 1.13.0 but the
+latest version is 1.14.1. Run
+
+conda update -n root conda-build
+
+to get the latest version.
+
 Solving package specifications: .+ /home/ubuntu/miniconda/envs/_build/bin/python setup.py install
 Searching for apscheduler
+Reading https://pypi.python.org/simple/apscheduler/
+Best match: APScheduler 3.0.3
+Downloading https://pypi.python.org/packages/source/A/APScheduler/APScheduler-3.0.3.tar.gz#md5=0f2fcffdf7504a29664f114ea09c33ac
+Processing APScheduler-3.0.3.tar.gz
+Writing /tmp/easy_install-Hoqi8T/APScheduler-3.0.3/setup.cfg
+Running APScheduler-3.0.3/setup.py -q bdist_egg --dist-dir /tmp/easy_install-Hoqi8T/APScheduler-3.0.3/egg-dist-tmp-qNwOxm
+creating /home/ubuntu/miniconda/conda-bld/work/FlexGet-1.2.320/.eggs/APScheduler-3.0.3-py2.7.egg
+Extracting APScheduler-3.0.3-py2.7.egg to /home/ubuntu/miniconda/conda-bld/work/FlexGet-1.2.320/.eggs
+byte-compiling /home/ubuntu/miniconda/conda-bld/work/FlexGet-1.2.320/.eggs/APScheduler-3.0.3-py2.7.egg/apscheduler/job.py to job.pyc
+byte-compiling /home/ubuntu/miniconda/conda-bld/work/FlexGet-1.2.320/.eggs/APScheduler-3.0.3-py2.7.egg/apscheduler/events.py to events.pyc
+byte-compiling /home/ubuntu/miniconda/conda-bld/work/FlexGet-1.2.320/.eggs/APScheduler-3.0.3-py2.7.egg/apscheduler/util.py to util.pyc
+byte-compiling /home/ubuntu/miniconda/conda-bld/work/FlexGet-1.2.320/.eggs/APScheduler-3.0.3-py2.7.egg/apscheduler/__init__.py to __init__.pyc
+byte-compiling /home/ubuntu/miniconda/conda-bld/work/FlexGet-1.2.320/.eggs/APScheduler-3.0.3-py2.7.egg/apscheduler/jobstores/mongodb.py to mongodb.pyc
+byte-compiling /home/ubuntu/miniconda/conda-bld/work/FlexGet-1.2.320/.eggs/APScheduler-3.0.3-py2.7.egg/apscheduler/jobstores/memory.py to memory.pyc
+byte-compiling /home/ubuntu/miniconda/conda-bld/work/FlexGet-1.2.320/.eggs/APScheduler-3.0.3-py2.7.egg/apscheduler/jobstores/__init__.py to __init__.pyc
+byte-compiling /home/ubuntu/miniconda/conda-bld/work/FlexGet-1.2.320/.eggs/APScheduler-3.0.3-py2.7.egg/apscheduler/jobstores/sqlalchemy.py to sqlalchemy.pyc
+byte-compiling /home/ubuntu/miniconda/conda-bld/work/FlexGet-1.2.320/.eggs/APScheduler-3.0.3-py2.7.egg/apscheduler/jobstores/base.py to base.pyc
+byte-compiling /home/ubuntu/miniconda/conda-bld/work/FlexGet-1.2.320/.eggs/APScheduler-3.0.3-py2.7.egg/apscheduler/jobstores/redis.py to redis.pyc
+byte-compiling /home/ubuntu/miniconda/conda-bld/work/FlexGet-1.2.320/.eggs/APScheduler-3.0.3-py2.7.egg/apscheduler/schedulers/qt.py to qt.pyc
+byte-compiling /home/ubuntu/miniconda/conda-bld/work/FlexGet-1.2.320/.eggs/APScheduler-3.0.3-py2.7.egg/apscheduler/schedulers/blocking.py to blocking.pyc
+byte-compiling /home/ubuntu/miniconda/conda-bld/work/FlexGet-1.2.320/.eggs/APScheduler-3.0.3-py2.7.egg/apscheduler/schedulers/tornado.py to tornado.pyc
+byte-compiling /home/ubuntu/miniconda/conda-bld/work/FlexGet-1.2.320/.eggs/APScheduler-3.0.3-py2.7.egg/apscheduler/schedulers/asyncio.py to asyncio.pyc
+byte-compiling /home/ubuntu/miniconda/conda-bld/work/FlexGet-1.2.320/.eggs/APScheduler-3.0.3-py2.7.egg/apscheduler/schedulers/gevent.py to gevent.pyc
+byte-compiling /home/ubuntu/miniconda/conda-bld/work/FlexGet-1.2.320/.eggs/APScheduler-3.0.3-py2.7.egg/apscheduler/schedulers/twisted.py to twisted.pyc
+byte-compiling /home/ubuntu/miniconda/conda-bld/work/FlexGet-1.2.320/.eggs/APScheduler-3.0.3-py2.7.egg/apscheduler/schedulers/background.py to background.pyc
+byte-compiling /home/ubuntu/miniconda/conda-bld/work/FlexGet-1.2.320/.eggs/APScheduler-3.0.3-py2.7.egg/apscheduler/schedulers/__init__.py to __init__.pyc
+byte-compiling /home/ubuntu/miniconda/conda-bld/work/FlexGet-1.2.320/.eggs/APScheduler-3.0.3-py2.7.egg/apscheduler/schedulers/base.py to base.pyc
+byte-compiling /home/ubuntu/miniconda/conda-bld/work/FlexGet-1.2.320/.eggs/APScheduler-3.0.3-py2.7.egg/apscheduler/triggers/date.py to date.pyc
+byte-compiling /home/ubuntu/miniconda/conda-bld/work/FlexGet-1.2.320/.eggs/APScheduler-3.0.3-py2.7.egg/apscheduler/triggers/__init__.py to __init__.pyc
+byte-compiling /home/ubuntu/miniconda/conda-bld/work/FlexGet-1.2.320/.eggs/APScheduler-3.0.3-py2.7.egg/apscheduler/triggers/interval.py to interval.pyc
+byte-compiling /home/ubuntu/miniconda/conda-bld/work/FlexGet-1.2.320/.eggs/APScheduler-3.0.3-py2.7.egg/apscheduler/triggers/base.py to base.pyc
+byte-compiling /home/ubuntu/miniconda/conda-bld/work/FlexGet-1.2.320/.eggs/APScheduler-3.0.3-py2.7.egg/apscheduler/triggers/cron/fields.py to fields.pyc
+byte-compiling /home/ubuntu/miniconda/conda-bld/work/FlexGet-1.2.320/.eggs/APScheduler-3.0.3-py2.7.egg/apscheduler/triggers/cron/__init__.py to __init__.pyc
+byte-compiling /home/ubuntu/miniconda/conda-bld/work/FlexGet-1.2.320/.eggs/APScheduler-3.0.3-py2.7.egg/apscheduler/triggers/cron/expressions.py to expressions.pyc
+byte-compiling /home/ubuntu/miniconda/conda-bld/work/FlexGet-1.2.320/.eggs/APScheduler-3.0.3-py2.7.egg/apscheduler/executors/pool.py to pool.pyc
+byte-compiling /home/ubuntu/miniconda/conda-bld/work/FlexGet-1.2.320/.eggs/APScheduler-3.0.3-py2.7.egg/apscheduler/executors/asyncio.py to asyncio.pyc
+byte-compiling /home/ubuntu/miniconda/conda-bld/work/FlexGet-1.2.320/.eggs/APScheduler-3.0.3-py2.7.egg/apscheduler/executors/gevent.py to gevent.pyc
+byte-compiling /home/ubuntu/miniconda/conda-bld/work/FlexGet-1.2.320/.eggs/APScheduler-3.0.3-py2.7.egg/apscheduler/executors/twisted.py to twisted.pyc
+byte-compiling /home/ubuntu/miniconda/conda-bld/work/FlexGet-1.2.320/.eggs/APScheduler-3.0.3-py2.7.egg/apscheduler/executors/debug.py to debug.pyc
+byte-compiling /home/ubuntu/miniconda/conda-bld/work/FlexGet-1.2.320/.eggs/APScheduler-3.0.3-py2.7.egg/apscheduler/executors/__init__.py to __init__.pyc
+byte-compiling /home/ubuntu/miniconda/conda-bld/work/FlexGet-1.2.320/.eggs/APScheduler-3.0.3-py2.7.egg/apscheduler/executors/base.py to base.pyc
+
+Installed /home/ubuntu/miniconda/conda-bld/work/FlexGet-1.2.320/.eggs/APScheduler-3.0.3-py2.7.egg
+Searching for guessit>=0.9.3
+Reading https://pypi.python.org/simple/guessit/
+Best match: guessit 0.10.3
+Downloading https://pypi.python.org/packages/source/g/guessit/guessit-0.10.3.tar.gz#md5=11e658f9b0473d61d681579c03c196c3
+Processing guessit-0.10.3.tar.gz
+Writing /tmp/easy_install-z441Zo/guessit-0.10.3/setup.cfg
+Running guessit-0.10.3/setup.py -q bdist_egg --dist-dir /tmp/easy_install-z441Zo/guessit-0.10.3/egg-dist-tmp-6j36zq
+zip_safe flag not set; analyzing archive contents...
+guessit.matcher: module MAY be using inspect.stack
+guessit.test.guessittest: module references __file__
+guessit.test.test_hashes: module references __file__
+guessit.test.test_main: module references __file__
+guessit.test.test_language: module references __file__
+creating /home/ubuntu/miniconda/conda-bld/work/FlexGet-1.2.320/.eggs/guessit-0.10.3-py2.7.egg
+Extracting guessit-0.10.3-py2.7.egg to /home/ubuntu/miniconda/conda-bld/work/FlexGet-1.2.320/.eggs
+byte-compiling /home/ubuntu/miniconda/conda-bld/work/FlexGet-1.2.320/.eggs/guessit-0.10.3-py2.7.egg/guessit/__main__.py to __main__.pyc
+byte-compiling /home/ubuntu/miniconda/conda-bld/work/FlexGet-1.2.320/.eggs/guessit-0.10.3-py2.7.egg/guessit/date.py to date.pyc
+byte-compiling /home/ubuntu/miniconda/conda-bld/work/FlexGet-1.2.320/.eggs/guessit-0.10.3-py2.7.egg/guessit/slogging.py to slogging.pyc
+byte-compiling /home/ubuntu/miniconda/conda-bld/work/FlexGet-1.2.320/.eggs/guessit-0.10.3-py2.7.egg/guessit/containers.py to containers.pyc
+byte-compiling /home/ubuntu/miniconda/conda-bld/work/FlexGet-1.2.320/.eggs/guessit-0.10.3-py2.7.egg/guessit/hash_ed2k.py to hash_ed2k.pyc
+byte-compiling /home/ubuntu/miniconda/conda-bld/work/FlexGet-1.2.320/.eggs/guessit-0.10.3-py2.7.egg/guessit/quality.py to quality.pyc
+byte-compiling /home/ubuntu/miniconda/conda-bld/work/FlexGet-1.2.320/.eggs/guessit-0.10.3-py2.7.egg/guessit/language.py to language.pyc
+byte-compiling /home/ubuntu/miniconda/conda-bld/work/FlexGet-1.2.320/.eggs/guessit-0.10.3-py2.7.egg/guessit/options.py to options.pyc
+byte-compiling /home/ubuntu/miniconda/conda-bld/work/FlexGet-1.2.320/.eggs/guessit-0.10.3-py2.7.egg/guessit/guess.py to guess.pyc
+byte-compiling /home/ubuntu/miniconda/conda-bld/work/FlexGet-1.2.320/.eggs/guessit-0.10.3-py2.7.egg/guessit/hash_mpc.py to hash_mpc.pyc
+byte-compiling /home/ubuntu/miniconda/conda-bld/work/FlexGet-1.2.320/.eggs/guessit-0.10.3-py2.7.egg/guessit/matchtree.py to matchtree.pyc
+byte-compiling /home/ubuntu/miniconda/conda-bld/work/FlexGet-1.2.320/.eggs/guessit-0.10.3-py2.7.egg/guessit/matcher.py to matcher.pyc
+byte-compiling /home/ubuntu/miniconda/conda-bld/work/FlexGet-1.2.320/.eggs/guessit-0.10.3-py2.7.egg/guessit/__version__.py to __version__.pyc
+byte-compiling /home/ubuntu/miniconda/conda-bld/work/FlexGet-1.2.320/.eggs/guessit-0.10.3-py2.7.egg/guessit/textutils.py to textutils.pyc
+byte-compiling /home/ubuntu/miniconda/conda-bld/work/FlexGet-1.2.320/.eggs/guessit-0.10.3-py2.7.egg/guessit/__init__.py to __init__.pyc
+byte-compiling /home/ubuntu/miniconda/conda-bld/work/FlexGet-1.2.320/.eggs/guessit-0.10.3-py2.7.egg/guessit/fileutils.py to fileutils.pyc
+byte-compiling /home/ubuntu/miniconda/conda-bld/work/FlexGet-1.2.320/.eggs/guessit-0.10.3-py2.7.egg/guessit/transfo/guess_properties.py to guess_properties.pyc
+byte-compiling /home/ubuntu/miniconda/conda-bld/work/FlexGet-1.2.320/.eggs/guessit-0.10.3-py2.7.egg/guessit/transfo/split_path_components.py to split_path_components.pyc
+byte-compiling /home/ubuntu/miniconda/conda-bld/work/FlexGet-1.2.320/.eggs/guessit-0.10.3-py2.7.egg/guessit/transfo/guess_date.py to guess_date.pyc
+byte-compiling /home/ubuntu/miniconda/conda-bld/work/FlexGet-1.2.320/.eggs/guessit-0.10.3-py2.7.egg/guessit/transfo/guess_language.py to guess_language.pyc
+byte-compiling /home/ubuntu/miniconda/conda-bld/work/FlexGet-1.2.320/.eggs/guessit-0.10.3-py2.7.egg/guessit/transfo/guess_year.py to guess_year.pyc
+byte-compiling /home/ubuntu/miniconda/conda-bld/work/FlexGet-1.2.320/.eggs/guessit-0.10.3-py2.7.egg/guessit/transfo/guess_movie_title_from_position.py to guess_movie_title_from_position.pyc
+byte-compiling /home/ubuntu/miniconda/conda-bld/work/FlexGet-1.2.320/.eggs/guessit-0.10.3-py2.7.egg/guessit/transfo/guess_idnumber.py to guess_idnumber.pyc
+byte-compiling /home/ubuntu/miniconda/conda-bld/work/FlexGet-1.2.320/.eggs/guessit-0.10.3-py2.7.egg/guessit/transfo/split_on_dash.py to split_on_dash.pyc
+byte-compiling /home/ubuntu/miniconda/conda-bld/work/FlexGet-1.2.320/.eggs/guessit-0.10.3-py2.7.egg/guessit/transfo/guess_release_group.py to guess_release_group.pyc
+byte-compiling /home/ubuntu/miniconda/conda-bld/work/FlexGet-1.2.320/.eggs/guessit-0.10.3-py2.7.egg/guessit/transfo/guess_episode_details.py to guess_episode_details.pyc
+byte-compiling /home/ubuntu/miniconda/conda-bld/work/FlexGet-1.2.320/.eggs/guessit-0.10.3-py2.7.egg/guessit/transfo/expected_title.py to expected_title.pyc
+byte-compiling /home/ubuntu/miniconda/conda-bld/work/FlexGet-1.2.320/.eggs/guessit-0.10.3-py2.7.egg/guessit/transfo/split_explicit_groups.py to split_explicit_groups.pyc
+byte-compiling /home/ubuntu/miniconda/conda-bld/work/FlexGet-1.2.320/.eggs/guessit-0.10.3-py2.7.egg/guessit/transfo/guess_bonus_features.py to guess_bonus_features.pyc
+byte-compiling /home/ubuntu/miniconda/conda-bld/work/FlexGet-1.2.320/.eggs/guessit-0.10.3-py2.7.egg/guessit/transfo/guess_episode_info_from_position.py to guess_episode_info_from_position.pyc
+byte-compiling /home/ubuntu/miniconda/conda-bld/work/FlexGet-1.2.320/.eggs/guessit-0.10.3-py2.7.egg/guessit/transfo/expected_series.py to expected_series.pyc
+byte-compiling /home/ubuntu/miniconda/conda-bld/work/FlexGet-1.2.320/.eggs/guessit-0.10.3-py2.7.egg/guessit/transfo/guess_country.py to guess_country.pyc
+byte-compiling /home/ubuntu/miniconda/conda-bld/work/FlexGet-1.2.320/.eggs/guessit-0.10.3-py2.7.egg/guessit/transfo/guess_weak_episodes_rexps.py to guess_weak_episodes_rexps.pyc
+byte-compiling /home/ubuntu/miniconda/conda-bld/work/FlexGet-1.2.320/.eggs/guessit-0.10.3-py2.7.egg/guessit/transfo/__init__.py to __init__.pyc
+byte-compiling /home/ubuntu/miniconda/conda-bld/work/FlexGet-1.2.320/.eggs/guessit-0.10.3-py2.7.egg/guessit/transfo/guess_website.py to guess_website.pyc
+byte-compiling /home/ubuntu/miniconda/conda-bld/work/FlexGet-1.2.320/.eggs/guessit-0.10.3-py2.7.egg/guessit/transfo/guess_episodes_rexps.py to guess_episodes_rexps.pyc
+byte-compiling /home/ubuntu/miniconda/conda-bld/work/FlexGet-1.2.320/.eggs/guessit-0.10.3-py2.7.egg/guessit/transfo/guess_video_rexps.py to guess_video_rexps.pyc
+byte-compiling /home/ubuntu/miniconda/conda-bld/work/FlexGet-1.2.320/.eggs/guessit-0.10.3-py2.7.egg/guessit/transfo/guess_filetype.py to guess_filetype.pyc
+byte-compiling /home/ubuntu/miniconda/conda-bld/work/FlexGet-1.2.320/.eggs/guessit-0.10.3-py2.7.egg/guessit/plugins/transformers.py to transformers.pyc
+byte-compiling /home/ubuntu/miniconda/conda-bld/work/FlexGet-1.2.320/.eggs/guessit-0.10.3-py2.7.egg/guessit/plugins/__init__.py to __init__.pyc
+byte-compiling /home/ubuntu/miniconda/conda-bld/work/FlexGet-1.2.320/.eggs/guessit-0.10.3-py2.7.egg/guessit/test/test_quality.py to test_quality.pyc
+byte-compiling /home/ubuntu/miniconda/conda-bld/work/FlexGet-1.2.320/.eggs/guessit-0.10.3-py2.7.egg/guessit/test/test_main.py to test_main.pyc
+byte-compiling /home/ubuntu/miniconda/conda-bld/work/FlexGet-1.2.320/.eggs/guessit-0.10.3-py2.7.egg/guessit/test/__main__.py to __main__.pyc
+byte-compiling /home/ubuntu/miniconda/conda-bld/work/FlexGet-1.2.320/.eggs/guessit-0.10.3-py2.7.egg/guessit/test/test_doctests.py to test_doctests.pyc
+byte-compiling /home/ubuntu/miniconda/conda-bld/work/FlexGet-1.2.320/.eggs/guessit-0.10.3-py2.7.egg/guessit/test/test_episode.py to test_episode.pyc
+byte-compiling /home/ubuntu/miniconda/conda-bld/work/FlexGet-1.2.320/.eggs/guessit-0.10.3-py2.7.egg/guessit/test/test_matchtree.py to test_matchtree.pyc
+byte-compiling /home/ubuntu/miniconda/conda-bld/work/FlexGet-1.2.320/.eggs/guessit-0.10.3-py2.7.egg/guessit/test/test_api.py to test_api.pyc
+byte-compiling /home/ubuntu/miniconda/conda-bld/work/FlexGet-1.2.320/.eggs/guessit-0.10.3-py2.7.egg/guessit/test/test_autodetect_all.py to test_autodetect_all.pyc
+byte-compiling /home/ubuntu/miniconda/conda-bld/work/FlexGet-1.2.320/.eggs/guessit-0.10.3-py2.7.egg/guessit/test/test_autodetect.py to test_autodetect.pyc
+byte-compiling /home/ubuntu/miniconda/conda-bld/work/FlexGet-1.2.320/.eggs/guessit-0.10.3-py2.7.egg/guessit/test/test_hashes.py to test_hashes.pyc
+byte-compiling /home/ubuntu/miniconda/conda-bld/work/FlexGet-1.2.320/.eggs/guessit-0.10.3-py2.7.egg/guessit/test/test_movie.py to test_movie.pyc
+byte-compiling /home/ubuntu/miniconda/conda-bld/work/FlexGet-1.2.320/.eggs/guessit-0.10.3-py2.7.egg/guessit/test/guessittest.py to guessittest.pyc
+byte-compiling /home/ubuntu/miniconda/conda-bld/work/FlexGet-1.2.320/.eggs/guessit-0.10.3-py2.7.egg/guessit/test/__init__.py to __init__.pyc
+byte-compiling /home/ubuntu/miniconda/conda-bld/work/FlexGet-1.2.320/.eggs/guessit-0.10.3-py2.7.egg/guessit/test/test_language.py to test_language.pyc
+byte-compiling /home/ubuntu/miniconda/conda-bld/work/FlexGet-1.2.320/.eggs/guessit-0.10.3-py2.7.egg/guessit/test/test_utils.py to test_utils.pyc
+byte-compiling /home/ubuntu/miniconda/conda-bld/work/FlexGet-1.2.320/.eggs/guessit-0.10.3-py2.7.egg/guessit/patterns/numeral.py to numeral.pyc
+byte-compiling /home/ubuntu/miniconda/conda-bld/work/FlexGet-1.2.320/.eggs/guessit-0.10.3-py2.7.egg/guessit/patterns/__init__.py to __init__.pyc
+byte-compiling /home/ubuntu/miniconda/conda-bld/work/FlexGet-1.2.320/.eggs/guessit-0.10.3-py2.7.egg/guessit/patterns/extension.py to extension.pyc
+
+Installed /home/ubuntu/miniconda/conda-bld/work/FlexGet-1.2.320/.eggs/guessit-0.10.3-py2.7.egg
+Searching for path.py
+Reading https://pypi.python.org/simple/path.py/
+Best match: path.py 7.3
+Downloading https://pypi.python.org/packages/source/p/path.py/path.py-7.3.zip#md5=9fc7ba8cd4ec90797154d1f5a4380078
+Processing path.py-7.3.zip
+Writing /tmp/easy_install-Scm3us/path.py-7.3/setup.cfg
+Running path.py-7.3/setup.py -q bdist_egg --dist-dir /tmp/easy_install-Scm3us/path.py-7.3/egg-dist-tmp-DA8_CP
+zip_safe flag not set; analyzing archive contents...
+Moving path.py-7.3-py2.7.egg to /home/ubuntu/miniconda/conda-bld/work/FlexGet-1.2.320/.eggs
+
+Installed /home/ubuntu/miniconda/conda-bld/work/FlexGet-1.2.320/.eggs/path.py-7.3-py2.7.egg
+Searching for tmdb3
+Reading https://pypi.python.org/simple/tmdb3/
+Best match: tmdb3 0.7.2
+Downloading https://pypi.python.org/packages/source/t/tmdb3/tmdb3-0.7.2.tar.gz#md5=c712bca4934230a16a8b1a41dcb987cf
+Processing tmdb3-0.7.2.tar.gz
+Writing /tmp/easy_install-S2iBky/tmdb3-0.7.2/setup.cfg
+Running tmdb3-0.7.2/setup.py -q bdist_egg --dist-dir /tmp/easy_install-S2iBky/tmdb3-0.7.2/egg-dist-tmp-zuiMk8
+zip_safe flag not set; analyzing archive contents...
+Moving tmdb3-0.7.2-py2.7.egg to /home/ubuntu/miniconda/conda-bld/work/FlexGet-1.2.320/.eggs
+
+Installed /home/ubuntu/miniconda/conda-bld/work/FlexGet-1.2.320/.eggs/tmdb3-0.7.2-py2.7.egg
+Searching for python-tvrage
+Reading https://pypi.python.org/simple/python-tvrage/
+Best match: python-tvrage 0.4.1
+Downloading https://pypi.python.org/packages/source/p/python-tvrage/python-tvrage-0.4.1.tar.gz#md5=cdfec252158c5047b626861900186dfb
+Processing python-tvrage-0.4.1.tar.gz
+Writing /tmp/easy_install-CJCY18/ckreutzer-python-tvrage-c8e9781/setup.cfg
+Running ckreutzer-python-tvrage-c8e9781/setup.py -q bdist_egg --dist-dir /tmp/easy_install-CJCY18/ckreutzer-python-tvrage-c8e9781/egg-dist-tmp-1584uG
+zip_safe flag not set; analyzing archive contents...
+Moving python_tvrage-0.4.1-py2.7.egg to /home/ubuntu/miniconda/conda-bld/work/FlexGet-1.2.320/.eggs
+
+Installed /home/ubuntu/miniconda/conda-bld/work/FlexGet-1.2.320/.eggs/python_tvrage-0.4.1-py2.7.egg
+Searching for jsonschema>=2.0
+Reading https://pypi.python.org/simple/jsonschema/
+Best match: jsonschema 2.5.1
+Downloading https://pypi.python.org/packages/source/j/jsonschema/jsonschema-2.5.1.zip#md5=e491298485bdefeecb0f1ca3d65e5292
+Processing jsonschema-2.5.1.zip
+Writing /tmp/easy_install-yBkNhU/jsonschema-2.5.1/setup.cfg
+Running jsonschema-2.5.1/setup.py -q bdist_egg --dist-dir /tmp/easy_install-yBkNhU/jsonschema-2.5.1/egg-dist-tmp-XqMpPU
 running install
 running build
 running build_py
@@ -1418,68 +1584,87 @@ Copying FlexGet.egg-info to /home/ubuntu/miniconda/envs/_build/lib/python2.7/sit
 running install_scripts
 Installing flexget script to /home/ubuntu/miniconda/envs/_build/bin
 
+The following packages will be downloaded:
+
+    package                    |            build
+    ---------------------------|-----------------
+    tzlocal-1.2                |             py_0          12 KB
+
 The following NEW packages will be INSTALLED:
 
-    futures:    3.0.2-py27_0 
+    futures:    3.0.3-py27_0 
     openssl:    1.0.1k-1     
     pip:        7.0.3-py27_0 
     python:     2.7.10-0     
     pytz:       2015.4-py27_0
     readline:   6.2-2        
-    setuptools: 17.0-py27_0  
+    setuptools: 18.0.1-py27_0
     six:        1.9.0-py27_0 
     sqlite:     3.8.4.1-1    
     system:     5.8-2        
     tk:         8.5.18-0     
-    tzlocal:    1.1.3-py27_0 
+    tzlocal:    1.2-py_0     
     zlib:       1.2.8-0      
 
+Fetching packages ...
+tzlocal-1.2-py   0% |                              | ETA:  --:--:--   0.00  B/stzlocal-1.2-py 100% |###############################| ETA:  0:00:00  26.41 MB/stzlocal-1.2-py 100% |###############################| Time: 0:00:00 940.43 kB/s
+Extracting packages ...
+[                    ]|                                                  |   0%[tzlocal             ]|                                                  |   0%[      COMPLETE      ]|##################################################| 100%
 Linking packages ...
-[                    ]|                                                  |   0%[openssl             ]|                                                  |   0%[readline            ]|###                                               |   7%[sqlite              ]|#######                                           |  15%[system              ]|###########                                       |  23%[tk                  ]|###############                                   |  30%[zlib                ]|###################                               |  38%[futures             ]|#######################                           |  46%[python              ]|##########################                        |  53%[pytz                ]|##############################                    |  61%[setuptools          ]|##################################                |  69%[six                 ]|######################################            |  76%[pip                 ]|##########################################        |  84%[tzlocal             ]|##############################################    |  92%[      COMPLETE      ]|##################################################| 100%
+[      COMPLETE      ]|                                                  |   0%[openssl             ]|                                                  |   0%[openssl             ]|                                                  |   0%[readline            ]|###                                               |   7%[sqlite              ]|#######                                           |  15%[system              ]|###########                                       |  23%[tk                  ]|###############                                   |  30%[zlib                ]|###################                               |  38%[futures             ]|#######################                           |  46%[python              ]|##########################                        |  53%[pytz                ]|##############################                    |  61%[setuptools          ]|##################################                |  69%[six                 ]|######################################            |  76%[pip                 ]|##########################################        |  84%[tzlocal             ]|##############################################    |  92%[      COMPLETE      ]|##################################################| 100%
 Removing old work directory
 Source cache directory is: /home/ubuntu/miniconda/conda-bld/src_cache
 Found source in cache: FlexGet-1.2.320.tar.gz
 Extracting download
 Package: flexget-1.2.320-py_0
 source tree in: /home/ubuntu/miniconda/conda-bld/work/FlexGet-1.2.320
-number of files: 782
+compiling .pyc files...
+number of files: 788
 Fixing permissions
 Fixing permissions
 BUILD END: flexget-1.2.320-py_0
 TEST START: flexget-1.2.320-py_0
 Fetching package metadata: ......
+
+WARNING: conda-build appears to be out of date. You have version 1.13.0 but the
+latest version is 1.14.1. Run
+
+conda update -n root conda-build
+
+to get the latest version.
+
 Solving package specifications: .
 The following packages will be downloaded:
 
     package                    |            build
     ---------------------------|-----------------
-    flexget-1.2.320            |             py_0         742 KB
+    flexget-1.2.320            |             py_0         741 KB
 
 The following NEW packages will be INSTALLED:
 
     flexget:    1.2.320-py_0 
-    futures:    3.0.2-py27_0 
+    futures:    3.0.3-py27_0 
     openssl:    1.0.1k-1     
     pip:        7.0.3-py27_0 
     python:     2.7.10-0     
     pytz:       2015.4-py27_0
     readline:   6.2-2        
-    setuptools: 17.0-py27_0  
+    setuptools: 18.0.1-py27_0
     six:        1.9.0-py27_0 
     sqlite:     3.8.4.1-1    
     system:     5.8-2        
     tk:         8.5.18-0     
-    tzlocal:    1.1.3-py27_0 
+    tzlocal:    1.2-py_0     
     zlib:       1.2.8-0      
 
 Fetching packages ...
-flexget-1.2.32   0% |                              | ETA:  --:--:--   0.00  B/sflexget-1.2.32   2% |                               | ETA:  0:00:00  47.36 MB/sflexget-1.2.32   4% |#                              | ETA:  0:00:00  58.84 MB/sflexget-1.2.32   6% |##                             | ETA:  0:00:00  65.36 MB/sflexget-1.2.32   8% |##                             | ETA:  0:00:00  69.64 MB/sflexget-1.2.32  10% |###                            | ETA:  0:00:00  72.69 MB/sflexget-1.2.32  12% |####                           | ETA:  0:00:00  74.64 MB/sflexget-1.2.32  15% |####                           | ETA:  0:00:00  76.46 MB/sflexget-1.2.32  17% |#####                          | ETA:  0:00:00  77.92 MB/sflexget-1.2.32  19% |######                         | ETA:  0:00:00  14.75 MB/sflexget-1.2.32  21% |######                         | ETA:  0:00:00  16.09 MB/sflexget-1.2.32  23% |#######                        | ETA:  0:00:00  17.39 MB/sflexget-1.2.32  25% |########                       | ETA:  0:00:00  18.64 MB/sflexget-1.2.32  28% |########                       | ETA:  0:00:00  19.85 MB/sflexget-1.2.32  30% |#########                      | ETA:  0:00:00  21.03 MB/sflexget-1.2.32  32% |##########                     | ETA:  0:00:00  22.13 MB/sflexget-1.2.32  34% |##########                     | ETA:  0:00:00  23.23 MB/sflexget-1.2.32  36% |###########                    | ETA:  0:00:00  24.29 MB/sflexget-1.2.32  38% |############                   | ETA:  0:00:00  25.21 MB/sflexget-1.2.32  40% |############                   | ETA:  0:00:00  26.20 MB/sflexget-1.2.32  43% |#############                  | ETA:  0:00:00  27.17 MB/sflexget-1.2.32  45% |##############                 | ETA:  0:00:00  28.11 MB/sflexget-1.2.32  47% |##############                 | ETA:  0:00:00  29.02 MB/sflexget-1.2.32  49% |###############                | ETA:  0:00:00  29.91 MB/sflexget-1.2.32  51% |################               | ETA:  0:00:00  30.67 MB/sflexget-1.2.32  53% |################               | ETA:  0:00:00  31.50 MB/sflexget-1.2.32  56% |#################              | ETA:  0:00:00  32.31 MB/sflexget-1.2.32  58% |##################             | ETA:  0:00:00  33.10 MB/sflexget-1.2.32  60% |##################             | ETA:  0:00:00  33.88 MB/sflexget-1.2.32  62% |###################            | ETA:  0:00:00  34.62 MB/sflexget-1.2.32  64% |####################           | ETA:  0:00:00  35.36 MB/sflexget-1.2.32  66% |####################           | ETA:  0:00:00  36.07 MB/sflexget-1.2.32  69% |#####################          | ETA:  0:00:00  36.76 MB/sflexget-1.2.32  71% |######################         | ETA:  0:00:00  37.45 MB/sflexget-1.2.32  73% |######################         | ETA:  0:00:00  38.10 MB/sflexget-1.2.32  75% |#######################        | ETA:  0:00:00  38.75 MB/sflexget-1.2.32  77% |########################       | ETA:  0:00:00  39.38 MB/sflexget-1.2.32  79% |########################       | ETA:  0:00:00  39.95 MB/sflexget-1.2.32  81% |#########################      | ETA:  0:00:00  40.56 MB/sflexget-1.2.32  84% |##########################     | ETA:  0:00:00  41.14 MB/sflexget-1.2.32  86% |##########################     | ETA:  0:00:00  41.72 MB/sflexget-1.2.32  88% |###########################    | ETA:  0:00:00  42.29 MB/sflexget-1.2.32  90% |##############===== testing package: flexget-1.2.320-py_0 =====
+flexget-1.2.32   0% |                              | ETA:  --:--:--   0.00  B/sflexget-1.2.32   2% |                               | Time: 0:00:00  62.30 MB/sflexget-1.2.32   4% |#                              | Time: 0:00:00  69.00 MB/sflexget-1.2.32   6% |##                             | Time: 0:00:00  73.47 MB/sflexget-1.2.32   8% |##                             | Time: 0:00:00  76.57 MB/sflexget-1.2.32  10% |###                            | Time: 0:00:00  76.49 MB/sflexget-1.2.32  12% |####                           | Time: 0:00:00  78.21 MB/sflexget-1.2.32  15% |####                           | Time: 0:00:00  79.26 MB/sflexget-1.2.32  17% |#####                          | Time: 0:00:00  80.42 MB/sflexget-1.2.32  19% |######                         | Time: 0:00:00  81.15 MB/sflexget-1.2.32  21% |######                         | Time: 0:00:00  81.80 MB/sflexget-1.2.32  23% |#######                        | Time: 0:00:00  82.56 MB/sflexget-1.2.32  25% |########                       | Time: 0:00:00  83.24 MB/sflexget-1.2.32  28% |########                       | Time: 0:00:00  83.86 MB/sflexget-1.2.32  30% |#########                      | Time: 0:00:00  84.21 MB/sflexget-1.2.32  32% |##########                     | Time: 0:00:00  84.66 MB/sflexget-1.2.32  34% |##########                     | Time: 0:00:00  85.06 MB/sflexget-1.2.32  36% |###########                    | Time: 0:00:00  85.25 MB/sflexget-1.2.32  38% |############                   | Time: 0:00:00  85.48 MB/sflexget-1.2.32  41% |############                   | Time: 0:00:00  85.83 MB/sflexget-1.2.32  43% |#############                  | Time: 0:00:00  86.14 MB/sflexget-1.2.32  45% |##############                 | Time: 0:00:00  28.51 MB/sflexget-1.2.32  47% |##############                 | Time: 0:00:00  29.42 MB/sflexget-1.2.32  49% |###############                | Time: 0:00:00  30.30 MB/sflexget-1.2.32  51% |################               | Time: 0:00:00  31.17 MB/sflexget-1.2.32  53% |################               | Time: 0:00:00  32.01 MB/sflexget-1.2.32  56% |#################              | Time: 0:00:00  32.78 MB/sflexget-1.2.32  58% |##################             | Time: 0:00:00  33.58 MB/sflexget-1.2.32  60% |##################             | Time: 0:00:00  34.35 MB/sflexget-1.2.32  62% |###################            | Time: 0:00:00  35.11 MB/sflexget-1.2.32  64% |####################           | Time: 0:00:00  35.85 MB/sflexget-1.2.32  66% |####################           | Time: 0:00:00  36.56 MB/sflexget-1.2.32  69% |#####################          | Time: 0:00:00  37.27 MB/sflexget-1.2.32  71% |######################         | Time: 0:00:00  37.93 MB/sflexget-1.2.32  73% |######################         | Time: 0:00:00  38.59 MB/sflexget-1.2.32  75% |#######################        | Time: 0:00:00  39.24 MB/sflexget-1.2.32  77% |########################       | Time: 0:00:00  39.88 MB/sflexget-1.2.32  79% |########################       | Time: 0:00:00  40.50 MB/sflexget-1.2.32  82% |#########################      | Time: 0:00:00  41.10 MB/sflexget-1.2.32  84% |##########################     | Time: 0:00:00  41.69 MB/sflexget-1.2.32  86% |##########################     | Time: 0:00:00  42.26 MB/sflexget-1.2.32  88% |###########################    | Time: 0:00:00  42.81 MB/sflexget-1.2.32  90% |##############===== testing package: flexget-1.2.320-py_0 =====
 import: u'apscheduler'
 Traceback (most recent call last):
   File "/home/ubuntu/miniconda/conda-bld/test-tmp_dir/run_test.py", line 25, in <module>
     import apscheduler
 ImportError: No module named apscheduler
-##############   | ETA:  0:00:00  42.83 MB/sflexget-1.2.32  92% |############################   | ETA:  0:00:00  43.34 MB/sflexget-1.2.32  94% |#############################  | ETA:  0:00:00  43.87 MB/sflexget-1.2.32  97% |############################## | ETA:  0:00:00  44.38 MB/sflexget-1.2.32  99% |############################## | ETA:  0:00:00  44.88 MB/sflexget-1.2.32 100% |###############################| Time: 0:00:00  44.43 MB/s
+##############   | Time: 0:00:00  43.36 MB/sflexget-1.2.32  92% |############################   | Time: 0:00:00  43.88 MB/sflexget-1.2.32  94% |#############################  | Time: 0:00:00  44.39 MB/sflexget-1.2.32  97% |############################## | Time: 0:00:00  44.91 MB/sflexget-1.2.32  99% |############################## | Time: 0:00:00  45.41 MB/sflexget-1.2.32 100% |###############################| Time: 0:00:00  45.34 MB/sflexget-1.2.32 100% |###############################| Time: 0:00:00  45.00 MB/sflexget-1.2.32 100% |###############################| Time: 0:00:00  44.49 MB/s
 Extracting packages ...
 [      COMPLETE      ]|                                                  |   0%[flexget             ]|                                                  |   0%[flexget             ]|                                                  |   0%[      COMPLETE      ]|##################################################| 100%
 Linking packages ...

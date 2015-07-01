@@ -1,4 +1,7 @@
 Warning, the following versions were found for arvados_fuse
+0.1.20150625175507
+0.1.20150625175218
+0.1.20150624142414
 0.1.20150511155752
 0.1.20150303170628
 0.1.20150303145708
@@ -378,22 +381,105 @@ Warning, the following versions were found for arvados_fuse
 0.1.1400086950.b093bbd
 0.1.1400008870.e5f3ce6
 0.1.1399671332.2d79630
-Using 0.1.20150511155752
+Using 0.1.20150625175507
 Use --version to specify a different version.
-Using url https://pypi.python.org/packages/source/a/arvados_fuse/arvados_fuse-0.1.20150511155752.tar.gz (13 KB) for arvados_fuse.
-Downloading arvados_fuse (use --no-download to skip this step)
+Using url https://pypi.python.org/packages/source/a/arvados_fuse/arvados_fuse-0.1.20150625175507.tar.gz (17 KB) for arvados_fuse.
+Downloading arvados_fuse
 Using cached download
 Unpacking arvados_fuse...
 done
-working in /tmp/tmpDYB_oQconda_skeleton_arvados_fuse-0.1.20150511155752.tar.gz
+working in /tmp/tmpo5rMtjconda_skeleton_arvados_fuse-0.1.20150625175507.tar.gz
 Fetching package metadata: ......
+
+WARNING: conda-build appears to be out of date. You have version 1.13.0 but the
+latest version is 1.14.1. Run
+
+conda update -n root conda-build
+
+to get the latest version.
+
+Solving package specifications: .patching file core.py
+Hunk #1 succeeded at 168 with fuzz 2 (offset 2 lines).
+
+WARNING: conda-build appears to be out of date. You have version 1.13.0 but the
+latest version is 1.14.1. Run
+
+conda update -n root conda-build
+
+to get the latest version.
+
+
+The following NEW packages will be INSTALLED:
+
+    numpy:  1.9.2-py27_0
+    pyyaml: 3.11-py27_1 
+    yaml:   0.1.6-0     
+
+Linking packages ...
+[                    ]|                                                  |   0%[yaml                ]|                                                  |   0%[numpy               ]|################                                  |  33%[pyyaml              ]|#################################                 |  66%[      COMPLETE      ]|##################################################| 100%
+Applying patch: '/tmp/tmpo5rMtjconda_skeleton_arvados_fuse-0.1.20150625175507.tar.gz/pypi-distutils.patch'
+Warning, the following versions were found for ciso8601
+1.0.1
+1.0
+Using 1.0.1
+Use --version to specify a different version.
+Using url https://pypi.python.org/packages/source/c/ciso8601/ciso8601-1.0.1.tar.gz (4 KB) for ciso8601.
+Downloading ciso8601
+Using cached download
+Unpacking ciso8601...
+done
+working in /tmp/tmpUvxNdcconda_skeleton_ciso8601-1.0.1.tar.gz
+Solving package specifications: .patching file core.py
+Hunk #1 succeeded at 168 with fuzz 2 (offset 2 lines).
+
+WARNING: conda-build appears to be out of date. You have version 1.13.0 but the
+latest version is 1.14.1. Run
+
+conda update -n root conda-build
+
+to get the latest version.
+
+
+Applying patch: '/tmp/tmpUvxNdcconda_skeleton_ciso8601-1.0.1.tar.gz/pypi-distutils.patch'
+Warning, the following versions were found for llfuse
+0.40
+0.39
+0.38
+0.37.1
+0.37
+0.36
+0.35
+0.34
+0.33
+0.32
+0.31
+0.30
+0.29
+Using 0.40
+Use --version to specify a different version.
+Using url https://pypi.python.org/packages/source/l/llfuse/llfuse-0.40.tar.bz2 (443 KB) for llfuse.
+Downloading llfuse
+Using cached download
+Unpacking llfuse...
+done
+working in /tmp/tmp2nXtFLconda_skeleton_llfuse-0.40.tar.bz2
 Solving package specifications: .patching file core.py
 Hunk #1 succeeded at 168 with fuzz 2 (offset 2 lines).
 Traceback (most recent call last):
-  File "setup.py", line 5, in <module>
-    import setuptools.command.egg_info as egg_info_cmd
-ImportError: No module named setuptools.command.egg_info
+  File "setup.py", line 242, in <module>
+    main()
+  File "setup.py", line 48, in main
+    compile_args = pkg_config('fuse', cflags=True, ldflags=False, min_ver='2.8.0')
+  File "setup.py", line 133, in pkg_config
+    if subprocess.call(cmd) != 0:
+  File "/home/ubuntu/miniconda/envs/_build/lib/python2.7/subprocess.py", line 522, in call
+    return Popen(*popenargs, **kwargs).wait()
+  File "/home/ubuntu/miniconda/envs/_build/lib/python2.7/subprocess.py", line 710, in __init__
+    errread, errwrite)
+  File "/home/ubuntu/miniconda/envs/_build/lib/python2.7/subprocess.py", line 1335, in _execute_child
+    raise child_exception
+OSError: [Errno 2] No such file or directory
 
-Applying patch: '/tmp/tmpDYB_oQconda_skeleton_arvados_fuse-0.1.20150511155752.tar.gz/pypi-distutils.patch'
-$PYTHONPATH = /tmp/tmpDYB_oQconda_skeleton_arvados_fuse-0.1.20150511155752.tar.gz/arvados_fuse-0.1.20150511155752
+Applying patch: '/tmp/tmp2nXtFLconda_skeleton_llfuse-0.40.tar.bz2/pypi-distutils.patch'
+$PYTHONPATH = /tmp/tmp2nXtFLconda_skeleton_llfuse-0.40.tar.bz2/llfuse-0.40
 Error: command failed: /home/ubuntu/miniconda/envs/_build/bin/python setup.py install

@@ -1,0 +1,1143 @@
+Removing old build directory
+Removing old work directory
+BUILD START: pyinstaller-2.1-py_0
+Fetching package metadata: ......
+
+WARNING: conda-build appears to be out of date. You have version 1.13.0 but the
+latest version is 1.14.1. Run
+
+conda update -n root conda-build
+
+to get the latest version.
+
+Solving package specifications: .+ /home/ubuntu/miniconda/envs/_build/bin/python setup.py install
+running install
+running bdist_egg
+running egg_info
+creating PyInstaller.egg-info
+writing requirements to PyInstaller.egg-info/requires.txt
+writing PyInstaller.egg-info/PKG-INFO
+writing top-level names to PyInstaller.egg-info/top_level.txt
+writing dependency_links to PyInstaller.egg-info/dependency_links.txt
+writing entry points to PyInstaller.egg-info/entry_points.txt
+writing manifest file 'PyInstaller.egg-info/SOURCES.txt'
+reading manifest file 'PyInstaller.egg-info/SOURCES.txt'
+writing manifest file 'PyInstaller.egg-info/SOURCES.txt'
+installing library code to build/bdist.linux-x86_64/egg
+running install_lib
+running build_py
+creating build
+creating build/lib
+creating build/lib/PyInstaller
+copying PyInstaller/build.py -> build/lib/PyInstaller
+copying PyInstaller/compat.py -> build/lib/PyInstaller
+copying PyInstaller/configure.py -> build/lib/PyInstaller
+copying PyInstaller/log.py -> build/lib/PyInstaller
+copying PyInstaller/main.py -> build/lib/PyInstaller
+copying PyInstaller/__init__.py -> build/lib/PyInstaller
+copying PyInstaller/bindepend.py -> build/lib/PyInstaller
+copying PyInstaller/makespec.py -> build/lib/PyInstaller
+creating build/lib/PyInstaller/depend
+copying PyInstaller/depend/utils.py -> build/lib/PyInstaller/depend
+copying PyInstaller/depend/modules.py -> build/lib/PyInstaller/depend
+copying PyInstaller/depend/imptracker.py -> build/lib/PyInstaller/depend
+copying PyInstaller/depend/dylib.py -> build/lib/PyInstaller/depend
+copying PyInstaller/depend/impdirector.py -> build/lib/PyInstaller/depend
+copying PyInstaller/depend/owner.py -> build/lib/PyInstaller/depend
+copying PyInstaller/depend/__init__.py -> build/lib/PyInstaller/depend
+creating build/lib/PyInstaller/cliutils
+copying PyInstaller/cliutils/build.py -> build/lib/PyInstaller/cliutils
+copying PyInstaller/cliutils/archive_viewer.py -> build/lib/PyInstaller/cliutils
+copying PyInstaller/cliutils/grab_version.py -> build/lib/PyInstaller/cliutils
+copying PyInstaller/cliutils/make_comserver.py -> build/lib/PyInstaller/cliutils
+copying PyInstaller/cliutils/__init__.py -> build/lib/PyInstaller/cliutils
+copying PyInstaller/cliutils/bindepend.py -> build/lib/PyInstaller/cliutils
+copying PyInstaller/cliutils/set_version.py -> build/lib/PyInstaller/cliutils
+copying PyInstaller/cliutils/makespec.py -> build/lib/PyInstaller/cliutils
+creating build/lib/PyInstaller/utils
+copying PyInstaller/utils/versioninfo.py -> build/lib/PyInstaller/utils
+copying PyInstaller/utils/winmanifest.py -> build/lib/PyInstaller/utils
+copying PyInstaller/utils/winutils.py -> build/lib/PyInstaller/utils
+copying PyInstaller/utils/icon.py -> build/lib/PyInstaller/utils
+copying PyInstaller/utils/misc.py -> build/lib/PyInstaller/utils
+copying PyInstaller/utils/__init__.py -> build/lib/PyInstaller/utils
+copying PyInstaller/utils/git.py -> build/lib/PyInstaller/utils
+copying PyInstaller/utils/winresource.py -> build/lib/PyInstaller/utils
+creating build/lib/PyInstaller/fake
+copying PyInstaller/fake/fake-site.py -> build/lib/PyInstaller/fake
+copying PyInstaller/fake/__init__.py -> build/lib/PyInstaller/fake
+creating build/lib/PyInstaller/lib
+copying PyInstaller/lib/__init__.py -> build/lib/PyInstaller/lib
+copying PyInstaller/lib/pefile.py -> build/lib/PyInstaller/lib
+creating build/lib/PyInstaller/hooks
+copying PyInstaller/hooks/hook-pywinauto.tests.py -> build/lib/PyInstaller/hooks
+copying PyInstaller/hooks/hook-PyQt4.QtHelp.py -> build/lib/PyInstaller/hooks
+copying PyInstaller/hooks/hook-enchant.py -> build/lib/PyInstaller/hooks
+copying PyInstaller/hooks/hook-PyQt4.QtGui.py -> build/lib/PyInstaller/hooks
+copying PyInstaller/hooks/hook-django.contrib.sessions.py -> build/lib/PyInstaller/hooks
+copying PyInstaller/hooks/hook-scipy.io.matlab.py -> build/lib/PyInstaller/hooks
+copying PyInstaller/hooks/hook-PyQt4.QtWebKit.py -> build/lib/PyInstaller/hooks
+copying PyInstaller/hooks/hook-enchant.checker.py -> build/lib/PyInstaller/hooks
+copying PyInstaller/hooks/hook-anydbm.py -> build/lib/PyInstaller/hooks
+copying PyInstaller/hooks/hook-docutils.py -> build/lib/PyInstaller/hooks
+copying PyInstaller/hooks/hook-OpenGL_accelerate.py -> build/lib/PyInstaller/hooks
+copying PyInstaller/hooks/hook-django.contrib.py -> build/lib/PyInstaller/hooks
+copying PyInstaller/hooks/hook-PyQt5.QtQuick.py -> build/lib/PyInstaller/hooks
+copying PyInstaller/hooks/shared_PIL_Image.py -> build/lib/PyInstaller/hooks
+copying PyInstaller/hooks/hook-setuptools.py -> build/lib/PyInstaller/hooks
+copying PyInstaller/hooks/hook-IPython.py -> build/lib/PyInstaller/hooks
+copying PyInstaller/hooks/hook-PyQt4.uic.port_v3.py -> build/lib/PyInstaller/hooks
+copying PyInstaller/hooks/hook-xml.dom.ext.py -> build/lib/PyInstaller/hooks
+copying PyInstaller/hooks/hook-pyttsx.py -> build/lib/PyInstaller/hooks
+copying PyInstaller/hooks/hook-PIL.SpiderImagePlugin.py -> build/lib/PyInstaller/hooks
+copying PyInstaller/hooks/hook-dns.rdata.py -> build/lib/PyInstaller/hooks
+copying PyInstaller/hooks/hook-PySide.py -> build/lib/PyInstaller/hooks
+copying PyInstaller/hooks/hook-wx.lib.pubsub.setuparg1.py -> build/lib/PyInstaller/hooks
+copying PyInstaller/hooks/hook-PyQt4.uic.port_v2.py -> build/lib/PyInstaller/hooks
+copying PyInstaller/hooks/hook-zmq.py -> build/lib/PyInstaller/hooks
+copying PyInstaller/hooks/hook-PIL.py -> build/lib/PyInstaller/hooks
+copying PyInstaller/hooks/hook-qt.py -> build/lib/PyInstaller/hooks
+copying PyInstaller/hooks/hook-sqlite3.py -> build/lib/PyInstaller/hooks
+copying PyInstaller/hooks/hook-PyQt4.py -> build/lib/PyInstaller/hooks
+copying PyInstaller/hooks/hook-time.py -> build/lib/PyInstaller/hooks
+copying PyInstaller/hooks/hook-cPickle.py -> build/lib/PyInstaller/hooks
+copying PyInstaller/hooks/hook-gst.py -> build/lib/PyInstaller/hooks
+copying PyInstaller/hooks/hook-PyQt4.QtScript.py -> build/lib/PyInstaller/hooks
+copying PyInstaller/hooks/hook-pyexpat.py -> build/lib/PyInstaller/hooks
+copying PyInstaller/hooks/hook-PyQt5.QtHelp.py -> build/lib/PyInstaller/hooks
+copying PyInstaller/hooks/hook-DateTime.py -> build/lib/PyInstaller/hooks
+copying PyInstaller/hooks/hook-scipy.sparse.csgraph.py -> build/lib/PyInstaller/hooks
+copying PyInstaller/hooks/hook-PyQt5.QtOpenGL.py -> build/lib/PyInstaller/hooks
+copying PyInstaller/hooks/hook-sysconfig.py -> build/lib/PyInstaller/hooks
+copying PyInstaller/hooks/hook-PyQt4.QtNetwork.py -> build/lib/PyInstaller/hooks
+copying PyInstaller/hooks/hook-PyQt4.QtCore.py -> build/lib/PyInstaller/hooks
+copying PyInstaller/hooks/hook-django.core.mail.py -> build/lib/PyInstaller/hooks
+copying PyInstaller/hooks/hook-PyQt4.Qt3Support.py -> build/lib/PyInstaller/hooks
+copying PyInstaller/hooks/hook-win32com.py -> build/lib/PyInstaller/hooks
+copying PyInstaller/hooks/hook-PyQt5.py -> build/lib/PyInstaller/hooks
+copying PyInstaller/hooks/hook-lxml.objectify.py -> build/lib/PyInstaller/hooks
+copying PyInstaller/hooks/hook-xml.sax.py -> build/lib/PyInstaller/hooks
+copying PyInstaller/hooks/hook-bacon.py -> build/lib/PyInstaller/hooks
+copying PyInstaller/hooks/hook-PyQt5.QtXml.py -> build/lib/PyInstaller/hooks
+copying PyInstaller/hooks/hookutils.py -> build/lib/PyInstaller/hooks
+copying PyInstaller/hooks/hook-PyQt4.Qwt5.py -> build/lib/PyInstaller/hooks
+copying PyInstaller/hooks/hook-PyQt5.phonon.py -> build/lib/PyInstaller/hooks
+copying PyInstaller/hooks/hook-raven.py -> build/lib/PyInstaller/hooks
+copying PyInstaller/hooks/hook-vtkpython.py -> build/lib/PyInstaller/hooks
+copying PyInstaller/hooks/hook-_tkinter.py -> build/lib/PyInstaller/hooks
+copying PyInstaller/hooks/hook-encodings.py -> build/lib/PyInstaller/hooks
+copying PyInstaller/hooks/hook-pygments.lexers.py -> build/lib/PyInstaller/hooks
+copying PyInstaller/hooks/hook-codecs.py -> build/lib/PyInstaller/hooks
+copying PyInstaller/hooks/hook-sphinx.py -> build/lib/PyInstaller/hooks
+copying PyInstaller/hooks/hook-django.db.backends.py -> build/lib/PyInstaller/hooks
+copying PyInstaller/hooks/hook-pytz.py -> build/lib/PyInstaller/hooks
+copying PyInstaller/hooks/hook-site.py -> build/lib/PyInstaller/hooks
+copying PyInstaller/hooks/hook-regex.py -> build/lib/PyInstaller/hooks
+copying PyInstaller/hooks/hook-paste.exceptions.reporter.py -> build/lib/PyInstaller/hooks
+copying PyInstaller/hooks/hook-PyQt4.uic.py -> build/lib/PyInstaller/hooks
+copying PyInstaller/hooks/hook-wx.lib.activex.py -> build/lib/PyInstaller/hooks
+copying PyInstaller/hooks/hook-Image.py -> build/lib/PyInstaller/hooks
+copying PyInstaller/hooks/hook-OpenGL.py -> build/lib/PyInstaller/hooks
+copying PyInstaller/hooks/hook-matplotlib.py -> build/lib/PyInstaller/hooks
+copying PyInstaller/hooks/hook-PyQt4.Qt.py -> build/lib/PyInstaller/hooks
+copying PyInstaller/hooks/hook-usb.py -> build/lib/PyInstaller/hooks
+copying PyInstaller/hooks/hook-gadfly.py -> build/lib/PyInstaller/hooks
+copying PyInstaller/hooks/hook-pythoncom.py -> build/lib/PyInstaller/hooks
+copying PyInstaller/hooks/hook-pygments.styles.py -> build/lib/PyInstaller/hooks
+copying PyInstaller/hooks/hook-PyQt5.QtGui.py -> build/lib/PyInstaller/hooks
+copying PyInstaller/hooks/hook-os.py -> build/lib/PyInstaller/hooks
+copying PyInstaller/hooks/hook-django.db.backends.oracle.base.py -> build/lib/PyInstaller/hooks
+copying PyInstaller/hooks/hook-httplib.py -> build/lib/PyInstaller/hooks
+copying PyInstaller/hooks/hook-django.py -> build/lib/PyInstaller/hooks
+copying PyInstaller/hooks/hook-PyQt5.Qt.py -> build/lib/PyInstaller/hooks
+copying PyInstaller/hooks/hook-win32com.client.py -> build/lib/PyInstaller/hooks
+copying PyInstaller/hooks/hook-mako.codegen.py -> build/lib/PyInstaller/hooks
+copying PyInstaller/hooks/hook-PyQt5.QtQml.py -> build/lib/PyInstaller/hooks
+copying PyInstaller/hooks/hook-PyQt4.phonon.py -> build/lib/PyInstaller/hooks
+copying PyInstaller/hooks/hook-xml.etree.cElementTree.py -> build/lib/PyInstaller/hooks
+copying PyInstaller/hooks/hook-email.py -> build/lib/PyInstaller/hooks
+copying PyInstaller/hooks/hook-_sre.py -> build/lib/PyInstaller/hooks
+copying PyInstaller/hooks/hook-PyQt5.QtNetwork.py -> build/lib/PyInstaller/hooks
+copying PyInstaller/hooks/hook-idlelib.py -> build/lib/PyInstaller/hooks
+copying PyInstaller/hooks/shared_PIL_SpiderImagePlugin.py -> build/lib/PyInstaller/hooks
+copying PyInstaller/hooks/hook-PyQt5.QtSvg.py -> build/lib/PyInstaller/hooks
+copying PyInstaller/hooks/hook-PyQt5.QtWidgets.py -> build/lib/PyInstaller/hooks
+copying PyInstaller/hooks/hook-django.core.py -> build/lib/PyInstaller/hooks
+copying PyInstaller/hooks/hook-gst._gst.py -> build/lib/PyInstaller/hooks
+copying PyInstaller/hooks/hook-cElementTree.py -> build/lib/PyInstaller/hooks
+copying PyInstaller/hooks/hook-PyQt4.QtOpenGL.py -> build/lib/PyInstaller/hooks
+copying PyInstaller/hooks/hook-email.message.py -> build/lib/PyInstaller/hooks
+copying PyInstaller/hooks/hook-PyQt5.QtQuickParticles.py -> build/lib/PyInstaller/hooks
+copying PyInstaller/hooks/hook-xml.py -> build/lib/PyInstaller/hooks
+copying PyInstaller/hooks/hook-PyQt4.QtAssistant.py -> build/lib/PyInstaller/hooks
+copying PyInstaller/hooks/hook-xml.dom.html.py -> build/lib/PyInstaller/hooks
+copying PyInstaller/hooks/hook-PyQt5.QtSensors.py -> build/lib/PyInstaller/hooks
+copying PyInstaller/hooks/hook-django.db.backends.mysql.py -> build/lib/PyInstaller/hooks
+copying PyInstaller/hooks/hook-SpiderImagePlugin.py -> build/lib/PyInstaller/hooks
+copying PyInstaller/hooks/__init__.py -> build/lib/PyInstaller/hooks
+copying PyInstaller/hooks/hook-_mysql.py -> build/lib/PyInstaller/hooks
+copying PyInstaller/hooks/hook-jinja2.py -> build/lib/PyInstaller/hooks
+copying PyInstaller/hooks/hook-PyQt5.QtWebKit.py -> build/lib/PyInstaller/hooks
+copying PyInstaller/hooks/hook-h5py.py -> build/lib/PyInstaller/hooks
+copying PyInstaller/hooks/hook-django.core.cache.py -> build/lib/PyInstaller/hooks
+copying PyInstaller/hooks/hook-django.db.backends.mysql.base.py -> build/lib/PyInstaller/hooks
+copying PyInstaller/hooks/hook-xml.dom.html.HTMLDocument.py -> build/lib/PyInstaller/hooks
+copying PyInstaller/hooks/hook-storm.database.py -> build/lib/PyInstaller/hooks
+copying PyInstaller/hooks/hook-pygame.py -> build/lib/PyInstaller/hooks
+copying PyInstaller/hooks/hook-django.db.py -> build/lib/PyInstaller/hooks
+copying PyInstaller/hooks/hook-PyQt4.QtSvg.py -> build/lib/PyInstaller/hooks
+copying PyInstaller/hooks/hook-PyQt4.QtSql.py -> build/lib/PyInstaller/hooks
+copying PyInstaller/hooks/hook-lxml.etree.py -> build/lib/PyInstaller/hooks
+copying PyInstaller/hooks/hook-PIL.Image.py -> build/lib/PyInstaller/hooks
+copying PyInstaller/hooks/hook-pyodbc.py -> build/lib/PyInstaller/hooks
+copying PyInstaller/hooks/hook-babel.py -> build/lib/PyInstaller/hooks
+copying PyInstaller/hooks/hook-PyQt5.QtScript.py -> build/lib/PyInstaller/hooks
+copying PyInstaller/hooks/hook-pywintypes.py -> build/lib/PyInstaller/hooks
+copying PyInstaller/hooks/hook-kinterbasdb.py -> build/lib/PyInstaller/hooks
+copying PyInstaller/hooks/hook-xml.dom.py -> build/lib/PyInstaller/hooks
+copying PyInstaller/hooks/hook-django.core.management.py -> build/lib/PyInstaller/hooks
+copying PyInstaller/hooks/hook-matplotlib.numerix.py -> build/lib/PyInstaller/hooks
+copying PyInstaller/hooks/hook-enchant.checker.wxSpellCheckerDialog.py -> build/lib/PyInstaller/hooks
+copying PyInstaller/hooks/hook-parser.py -> build/lib/PyInstaller/hooks
+copying PyInstaller/hooks/hook-xml.sax.saxexts.py -> build/lib/PyInstaller/hooks
+copying PyInstaller/hooks/hook-wx.lib.pubsub.core.py -> build/lib/PyInstaller/hooks
+copying PyInstaller/hooks/hook-win32ui.py -> build/lib/PyInstaller/hooks
+copying PyInstaller/hooks/hook-PyQt5.QtCore.py -> build/lib/PyInstaller/hooks
+copying PyInstaller/hooks/hook-distutils.py -> build/lib/PyInstaller/hooks
+copying PyInstaller/hooks/hook-PyQt5.uic.port_v3.py -> build/lib/PyInstaller/hooks
+copying PyInstaller/hooks/hook-matplotlib.backends.py -> build/lib/PyInstaller/hooks
+copying PyInstaller/hooks/hook-xml.dom.domreg.py -> build/lib/PyInstaller/hooks
+copying PyInstaller/hooks/hook-DateTime.mxDateTime.py -> build/lib/PyInstaller/hooks
+copying PyInstaller/hooks/hook-tables.py -> build/lib/PyInstaller/hooks
+copying PyInstaller/hooks/hook-cStringIO.py -> build/lib/PyInstaller/hooks
+copying PyInstaller/hooks/hook-sqlalchemy.py -> build/lib/PyInstaller/hooks
+copying PyInstaller/hooks/hook-PyQt4.QtTest.py -> build/lib/PyInstaller/hooks
+copying PyInstaller/hooks/hook-PyQt5.Qwt5.py -> build/lib/PyInstaller/hooks
+copying PyInstaller/hooks/hook-cx_Oracle.py -> build/lib/PyInstaller/hooks
+copying PyInstaller/hooks/hook-gtk.py -> build/lib/PyInstaller/hooks
+copying PyInstaller/hooks/hook-clr.py -> build/lib/PyInstaller/hooks
+copying PyInstaller/hooks/hook-PyQt5.QtSql.py -> build/lib/PyInstaller/hooks
+copying PyInstaller/hooks/hook-PyQt5.QtSerialPort.py -> build/lib/PyInstaller/hooks
+copying PyInstaller/hooks/hook-_elementtree.py -> build/lib/PyInstaller/hooks
+copying PyInstaller/hooks/hook-pydoc.py -> build/lib/PyInstaller/hooks
+copying PyInstaller/hooks/hook-PyQt5.QtTest.py -> build/lib/PyInstaller/hooks
+copying PyInstaller/hooks/hook-psycopg2.py -> build/lib/PyInstaller/hooks
+copying PyInstaller/hooks/hook-PyQt5.uic.port_v2.py -> build/lib/PyInstaller/hooks
+copying PyInstaller/hooks/hook-django.db.backends.oracle.py -> build/lib/PyInstaller/hooks
+copying PyInstaller/hooks/hook-PyQt4.QtXml.py -> build/lib/PyInstaller/hooks
+copying PyInstaller/hooks/hook-PyQt5.uic.py -> build/lib/PyInstaller/hooks
+copying PyInstaller/hooks/hook-pywinauto.py -> build/lib/PyInstaller/hooks
+copying PyInstaller/hooks/hook-xml.dom.ext.reader.py -> build/lib/PyInstaller/hooks
+creating build/lib/PyInstaller/loader
+copying PyInstaller/loader/_pyi_egg_install.py -> build/lib/PyInstaller/loader
+copying PyInstaller/loader/pyi_importers.py -> build/lib/PyInstaller/loader
+copying PyInstaller/loader/pyi_carchive.py -> build/lib/PyInstaller/loader
+copying PyInstaller/loader/pyi_os_path.py -> build/lib/PyInstaller/loader
+copying PyInstaller/loader/pyi_archive.py -> build/lib/PyInstaller/loader
+copying PyInstaller/loader/__init__.py -> build/lib/PyInstaller/loader
+copying PyInstaller/loader/_pyi_bootstrap.py -> build/lib/PyInstaller/loader
+creating build/lib/PyInstaller/lib/junitxml
+copying PyInstaller/lib/junitxml/__init__.py -> build/lib/PyInstaller/lib/junitxml
+creating build/lib/PyInstaller/lib/macholib
+copying PyInstaller/lib/macholib/_cmdline.py -> build/lib/PyInstaller/lib/macholib
+copying PyInstaller/lib/macholib/MachO.py -> build/lib/PyInstaller/lib/macholib
+copying PyInstaller/lib/macholib/__main__.py -> build/lib/PyInstaller/lib/macholib
+copying PyInstaller/lib/macholib/SymbolTable.py -> build/lib/PyInstaller/lib/macholib
+copying PyInstaller/lib/macholib/ptypes.py -> build/lib/PyInstaller/lib/macholib
+copying PyInstaller/lib/macholib/dyld.py -> build/lib/PyInstaller/lib/macholib
+copying PyInstaller/lib/macholib/itergraphreport.py -> build/lib/PyInstaller/lib/macholib
+copying PyInstaller/lib/macholib/MachOStandalone.py -> build/lib/PyInstaller/lib/macholib
+copying PyInstaller/lib/macholib/macho_find.py -> build/lib/PyInstaller/lib/macholib
+copying PyInstaller/lib/macholib/util.py -> build/lib/PyInstaller/lib/macholib
+copying PyInstaller/lib/macholib/dylib.py -> build/lib/PyInstaller/lib/macholib
+copying PyInstaller/lib/macholib/__init__.py -> build/lib/PyInstaller/lib/macholib
+copying PyInstaller/lib/macholib/framework.py -> build/lib/PyInstaller/lib/macholib
+copying PyInstaller/lib/macholib/MachOGraph.py -> build/lib/PyInstaller/lib/macholib
+copying PyInstaller/lib/macholib/macho_dump.py -> build/lib/PyInstaller/lib/macholib
+copying PyInstaller/lib/macholib/macho_standalone.py -> build/lib/PyInstaller/lib/macholib
+copying PyInstaller/lib/macholib/mach_o.py -> build/lib/PyInstaller/lib/macholib
+creating build/lib/PyInstaller/lib/altgraph
+copying PyInstaller/lib/altgraph/Graph.py -> build/lib/PyInstaller/lib/altgraph
+copying PyInstaller/lib/altgraph/GraphStat.py -> build/lib/PyInstaller/lib/altgraph
+copying PyInstaller/lib/altgraph/compat.py -> build/lib/PyInstaller/lib/altgraph
+copying PyInstaller/lib/altgraph/GraphAlgo.py -> build/lib/PyInstaller/lib/altgraph
+copying PyInstaller/lib/altgraph/Dot.py -> build/lib/PyInstaller/lib/altgraph
+copying PyInstaller/lib/altgraph/__init__.py -> build/lib/PyInstaller/lib/altgraph
+copying PyInstaller/lib/altgraph/ObjectGraph.py -> build/lib/PyInstaller/lib/altgraph
+copying PyInstaller/lib/altgraph/GraphUtil.py -> build/lib/PyInstaller/lib/altgraph
+creating build/lib/PyInstaller/lib/unittest2
+copying PyInstaller/lib/unittest2/__main__.py -> build/lib/PyInstaller/lib/unittest2
+copying PyInstaller/lib/unittest2/signals.py -> build/lib/PyInstaller/lib/unittest2
+copying PyInstaller/lib/unittest2/case.py -> build/lib/PyInstaller/lib/unittest2
+copying PyInstaller/lib/unittest2/collector.py -> build/lib/PyInstaller/lib/unittest2
+copying PyInstaller/lib/unittest2/loader.py -> build/lib/PyInstaller/lib/unittest2
+copying PyInstaller/lib/unittest2/suite.py -> build/lib/PyInstaller/lib/unittest2
+copying PyInstaller/lib/unittest2/compatibility.py -> build/lib/PyInstaller/lib/unittest2
+copying PyInstaller/lib/unittest2/util.py -> build/lib/PyInstaller/lib/unittest2
+copying PyInstaller/lib/unittest2/main.py -> build/lib/PyInstaller/lib/unittest2
+copying PyInstaller/lib/unittest2/__init__.py -> build/lib/PyInstaller/lib/unittest2
+copying PyInstaller/lib/unittest2/runner.py -> build/lib/PyInstaller/lib/unittest2
+copying PyInstaller/lib/unittest2/result.py -> build/lib/PyInstaller/lib/unittest2
+creating build/lib/PyInstaller/lib/junitxml/tests
+copying PyInstaller/lib/junitxml/tests/__init__.py -> build/lib/PyInstaller/lib/junitxml/tests
+copying PyInstaller/lib/junitxml/tests/test_junitxml.py -> build/lib/PyInstaller/lib/junitxml/tests
+creating build/lib/PyInstaller/lib/unittest2/test
+copying PyInstaller/lib/unittest2/test/test_runner.py -> build/lib/PyInstaller/lib/unittest2/test
+copying PyInstaller/lib/unittest2/test/test_program.py -> build/lib/PyInstaller/lib/unittest2/test
+copying PyInstaller/lib/unittest2/test/test_unittest2_with.py -> build/lib/PyInstaller/lib/unittest2/test
+copying PyInstaller/lib/unittest2/test/test_result.py -> build/lib/PyInstaller/lib/unittest2/test
+copying PyInstaller/lib/unittest2/test/test_case.py -> build/lib/PyInstaller/lib/unittest2/test
+copying PyInstaller/lib/unittest2/test/test_setups.py -> build/lib/PyInstaller/lib/unittest2/test
+copying PyInstaller/lib/unittest2/test/test_loader.py -> build/lib/PyInstaller/lib/unittest2/test
+copying PyInstaller/lib/unittest2/test/test_break.py -> build/lib/PyInstaller/lib/unittest2/test
+copying PyInstaller/lib/unittest2/test/support.py -> build/lib/PyInstaller/lib/unittest2/test
+copying PyInstaller/lib/unittest2/test/test_functiontestcase.py -> build/lib/PyInstaller/lib/unittest2/test
+copying PyInstaller/lib/unittest2/test/test_discovery.py -> build/lib/PyInstaller/lib/unittest2/test
+copying PyInstaller/lib/unittest2/test/test_new_tests.py -> build/lib/PyInstaller/lib/unittest2/test
+copying PyInstaller/lib/unittest2/test/__init__.py -> build/lib/PyInstaller/lib/unittest2/test
+copying PyInstaller/lib/unittest2/test/dummy.py -> build/lib/PyInstaller/lib/unittest2/test
+copying PyInstaller/lib/unittest2/test/test_suite.py -> build/lib/PyInstaller/lib/unittest2/test
+copying PyInstaller/lib/unittest2/test/test_assertions.py -> build/lib/PyInstaller/lib/unittest2/test
+copying PyInstaller/lib/unittest2/test/test_skipping.py -> build/lib/PyInstaller/lib/unittest2/test
+creating build/lib/PyInstaller/hooks/utils
+copying PyInstaller/hooks/utils/enchant-datafiles-finder.py -> build/lib/PyInstaller/hooks/utils
+copying PyInstaller/hooks/utils/django-import-finder.py -> build/lib/PyInstaller/hooks/utils
+copying PyInstaller/hooks/utils/__init__.py -> build/lib/PyInstaller/hooks/utils
+creating build/lib/PyInstaller/loader/rthooks
+copying PyInstaller/loader/rthooks/pyi_rth_mplconfig.py -> build/lib/PyInstaller/loader/rthooks
+copying PyInstaller/loader/rthooks/pyi_rth_Image.py -> build/lib/PyInstaller/loader/rthooks
+copying PyInstaller/loader/rthooks/pyi_rth_win32comgenpy.py -> build/lib/PyInstaller/loader/rthooks
+copying PyInstaller/loader/rthooks/pyi_rth_qt5plugins.py -> build/lib/PyInstaller/loader/rthooks
+copying PyInstaller/loader/rthooks/pyi_rth_PIL_Image.py -> build/lib/PyInstaller/loader/rthooks
+copying PyInstaller/loader/rthooks/pyi_rth_mpldata.py -> build/lib/PyInstaller/loader/rthooks
+copying PyInstaller/loader/rthooks/pyi_rth_qt4plugins.py -> build/lib/PyInstaller/loader/rthooks
+copying PyInstaller/loader/rthooks/pyi_rth_Tkinter.py -> build/lib/PyInstaller/loader/rthooks
+copying PyInstaller/loader/rthooks/pyi_rth_twisted.py -> build/lib/PyInstaller/loader/rthooks
+copying PyInstaller/loader/rthooks/pyi_rth_usb.py -> build/lib/PyInstaller/loader/rthooks
+copying PyInstaller/loader/rthooks/pyi_rth_django.py -> build/lib/PyInstaller/loader/rthooks
+copying PyInstaller/loader/rthooks/pyi_rth_babel.py -> build/lib/PyInstaller/loader/rthooks
+copying PyInstaller/loader/rthooks/__init__.py -> build/lib/PyInstaller/loader/rthooks
+copying PyInstaller/loader/rthooks/pyi_rth_gstreamer.py -> build/lib/PyInstaller/loader/rthooks
+copying PyInstaller/loader/rthooks/pyi_rth_pkgres.py -> build/lib/PyInstaller/loader/rthooks
+copying PyInstaller/loader/rthooks/pyi_rth_qml.py -> build/lib/PyInstaller/loader/rthooks
+creating build/lib/PyInstaller/bootloader
+creating build/lib/PyInstaller/bootloader/Windows-64bit
+copying PyInstaller/bootloader/Windows-64bit/inprocsrvrw_d.dll -> build/lib/PyInstaller/bootloader/Windows-64bit
+copying PyInstaller/bootloader/Windows-64bit/run.exe -> build/lib/PyInstaller/bootloader/Windows-64bit
+copying PyInstaller/bootloader/Windows-64bit/run_d.exe -> build/lib/PyInstaller/bootloader/Windows-64bit
+copying PyInstaller/bootloader/Windows-64bit/runw_d.exe -> build/lib/PyInstaller/bootloader/Windows-64bit
+copying PyInstaller/bootloader/Windows-64bit/inprocsrvr_d.dll -> build/lib/PyInstaller/bootloader/Windows-64bit
+copying PyInstaller/bootloader/Windows-64bit/runw.exe -> build/lib/PyInstaller/bootloader/Windows-64bit
+copying PyInstaller/bootloader/Windows-64bit/inprocsrvrw.dll -> build/lib/PyInstaller/bootloader/Windows-64bit
+copying PyInstaller/bootloader/Windows-64bit/inprocsrvr.dll -> build/lib/PyInstaller/bootloader/Windows-64bit
+creating build/lib/PyInstaller/bootloader/Darwin-64bit
+copying PyInstaller/bootloader/Darwin-64bit/runw -> build/lib/PyInstaller/bootloader/Darwin-64bit
+copying PyInstaller/bootloader/Darwin-64bit/run -> build/lib/PyInstaller/bootloader/Darwin-64bit
+copying PyInstaller/bootloader/Darwin-64bit/runw_d -> build/lib/PyInstaller/bootloader/Darwin-64bit
+copying PyInstaller/bootloader/Darwin-64bit/run_d -> build/lib/PyInstaller/bootloader/Darwin-64bit
+creating build/lib/PyInstaller/bootloader/Linux-32bit
+copying PyInstaller/bootloader/Linux-32bit/runw -> build/lib/PyInstaller/bootloader/Linux-32bit
+copying PyInstaller/bootloader/Linux-32bit/run -> build/lib/PyInstaller/bootloader/Linux-32bit
+copying PyInstaller/bootloader/Linux-32bit/runw_d -> build/lib/PyInstaller/bootloader/Linux-32bit
+copying PyInstaller/bootloader/Linux-32bit/run_d -> build/lib/PyInstaller/bootloader/Linux-32bit
+creating build/lib/PyInstaller/bootloader/Linux-64bit
+copying PyInstaller/bootloader/Linux-64bit/runw -> build/lib/PyInstaller/bootloader/Linux-64bit
+copying PyInstaller/bootloader/Linux-64bit/run -> build/lib/PyInstaller/bootloader/Linux-64bit
+copying PyInstaller/bootloader/Linux-64bit/runw_d -> build/lib/PyInstaller/bootloader/Linux-64bit
+copying PyInstaller/bootloader/Linux-64bit/run_d -> build/lib/PyInstaller/bootloader/Linux-64bit
+creating build/lib/PyInstaller/bootloader/images
+copying PyInstaller/bootloader/images/icon-console.icns -> build/lib/PyInstaller/bootloader/images
+copying PyInstaller/bootloader/images/icon-windowed.icns -> build/lib/PyInstaller/bootloader/images
+copying PyInstaller/bootloader/images/icon-windowed.svg -> build/lib/PyInstaller/bootloader/images
+copying PyInstaller/bootloader/images/icon-windowed.ico -> build/lib/PyInstaller/bootloader/images
+copying PyInstaller/bootloader/images/icon-console.ico -> build/lib/PyInstaller/bootloader/images
+copying PyInstaller/bootloader/images/icon-console.svg -> build/lib/PyInstaller/bootloader/images
+creating build/lib/PyInstaller/bootloader/Windows-32bit
+copying PyInstaller/bootloader/Windows-32bit/inprocsrvrw_d.dll -> build/lib/PyInstaller/bootloader/Windows-32bit
+copying PyInstaller/bootloader/Windows-32bit/run.exe -> build/lib/PyInstaller/bootloader/Windows-32bit
+copying PyInstaller/bootloader/Windows-32bit/run_d.exe -> build/lib/PyInstaller/bootloader/Windows-32bit
+copying PyInstaller/bootloader/Windows-32bit/runw_d.exe -> build/lib/PyInstaller/bootloader/Windows-32bit
+copying PyInstaller/bootloader/Windows-32bit/inprocsrvr_d.dll -> build/lib/PyInstaller/bootloader/Windows-32bit
+copying PyInstaller/bootloader/Windows-32bit/runw.exe -> build/lib/PyInstaller/bootloader/Windows-32bit
+copying PyInstaller/bootloader/Windows-32bit/inprocsrvrw.dll -> build/lib/PyInstaller/bootloader/Windows-32bit
+copying PyInstaller/bootloader/Windows-32bit/inprocsrvr.dll -> build/lib/PyInstaller/bootloader/Windows-32bit
+creating build/lib/PyInstaller/bootloader/Darwin-32bit
+copying PyInstaller/bootloader/Darwin-32bit/runw -> build/lib/PyInstaller/bootloader/Darwin-32bit
+copying PyInstaller/bootloader/Darwin-32bit/run -> build/lib/PyInstaller/bootloader/Darwin-32bit
+copying PyInstaller/bootloader/Darwin-32bit/runw_d -> build/lib/PyInstaller/bootloader/Darwin-32bit
+copying PyInstaller/bootloader/Darwin-32bit/run_d -> build/lib/PyInstaller/bootloader/Darwin-32bit
+copying PyInstaller/loader/rthooks.dat -> build/lib/PyInstaller/loader
+creating build/bdist.linux-x86_64
+creating build/bdist.linux-x86_64/egg
+creating build/bdist.linux-x86_64/egg/PyInstaller
+copying build/lib/PyInstaller/build.py -> build/bdist.linux-x86_64/egg/PyInstaller
+copying build/lib/PyInstaller/compat.py -> build/bdist.linux-x86_64/egg/PyInstaller
+creating build/bdist.linux-x86_64/egg/PyInstaller/depend
+copying build/lib/PyInstaller/depend/utils.py -> build/bdist.linux-x86_64/egg/PyInstaller/depend
+copying build/lib/PyInstaller/depend/modules.py -> build/bdist.linux-x86_64/egg/PyInstaller/depend
+copying build/lib/PyInstaller/depend/imptracker.py -> build/bdist.linux-x86_64/egg/PyInstaller/depend
+copying build/lib/PyInstaller/depend/dylib.py -> build/bdist.linux-x86_64/egg/PyInstaller/depend
+copying build/lib/PyInstaller/depend/impdirector.py -> build/bdist.linux-x86_64/egg/PyInstaller/depend
+copying build/lib/PyInstaller/depend/owner.py -> build/bdist.linux-x86_64/egg/PyInstaller/depend
+copying build/lib/PyInstaller/depend/__init__.py -> build/bdist.linux-x86_64/egg/PyInstaller/depend
+creating build/bdist.linux-x86_64/egg/PyInstaller/cliutils
+copying build/lib/PyInstaller/cliutils/build.py -> build/bdist.linux-x86_64/egg/PyInstaller/cliutils
+copying build/lib/PyInstaller/cliutils/archive_viewer.py -> build/bdist.linux-x86_64/egg/PyInstaller/cliutils
+copying build/lib/PyInstaller/cliutils/grab_version.py -> build/bdist.linux-x86_64/egg/PyInstaller/cliutils
+copying build/lib/PyInstaller/cliutils/make_comserver.py -> build/bdist.linux-x86_64/egg/PyInstaller/cliutils
+copying build/lib/PyInstaller/cliutils/__init__.py -> build/bdist.linux-x86_64/egg/PyInstaller/cliutils
+copying build/lib/PyInstaller/cliutils/bindepend.py -> build/bdist.linux-x86_64/egg/PyInstaller/cliutils
+copying build/lib/PyInstaller/cliutils/set_version.py -> build/bdist.linux-x86_64/egg/PyInstaller/cliutils
+copying build/lib/PyInstaller/cliutils/makespec.py -> build/bdist.linux-x86_64/egg/PyInstaller/cliutils
+creating build/bdist.linux-x86_64/egg/PyInstaller/utils
+copying build/lib/PyInstaller/utils/versioninfo.py -> build/bdist.linux-x86_64/egg/PyInstaller/utils
+copying build/lib/PyInstaller/utils/winmanifest.py -> build/bdist.linux-x86_64/egg/PyInstaller/utils
+copying build/lib/PyInstaller/utils/winutils.py -> build/bdist.linux-x86_64/egg/PyInstaller/utils
+copying build/lib/PyInstaller/utils/icon.py -> build/bdist.linux-x86_64/egg/PyInstaller/utils
+copying build/lib/PyInstaller/utils/misc.py -> build/bdist.linux-x86_64/egg/PyInstaller/utils
+copying build/lib/PyInstaller/utils/__init__.py -> build/bdist.linux-x86_64/egg/PyInstaller/utils
+copying build/lib/PyInstaller/utils/git.py -> build/bdist.linux-x86_64/egg/PyInstaller/utils
+copying build/lib/PyInstaller/utils/winresource.py -> build/bdist.linux-x86_64/egg/PyInstaller/utils
+copying build/lib/PyInstaller/configure.py -> build/bdist.linux-x86_64/egg/PyInstaller
+creating build/bdist.linux-x86_64/egg/PyInstaller/bootloader
+creating build/bdist.linux-x86_64/egg/PyInstaller/bootloader/Windows-64bit
+copying build/lib/PyInstaller/bootloader/Windows-64bit/inprocsrvrw_d.dll -> build/bdist.linux-x86_64/egg/PyInstaller/bootloader/Windows-64bit
+copying build/lib/PyInstaller/bootloader/Windows-64bit/run.exe -> build/bdist.linux-x86_64/egg/PyInstaller/bootloader/Windows-64bit
+copying build/lib/PyInstaller/bootloader/Windows-64bit/run_d.exe -> build/bdist.linux-x86_64/egg/PyInstaller/bootloader/Windows-64bit
+copying build/lib/PyInstaller/bootloader/Windows-64bit/runw_d.exe -> build/bdist.linux-x86_64/egg/PyInstaller/bootloader/Windows-64bit
+copying build/lib/PyInstaller/bootloader/Windows-64bit/inprocsrvr_d.dll -> build/bdist.linux-x86_64/egg/PyInstaller/bootloader/Windows-64bit
+copying build/lib/PyInstaller/bootloader/Windows-64bit/runw.exe -> build/bdist.linux-x86_64/egg/PyInstaller/bootloader/Windows-64bit
+copying build/lib/PyInstaller/bootloader/Windows-64bit/inprocsrvrw.dll -> build/bdist.linux-x86_64/egg/PyInstaller/bootloader/Windows-64bit
+copying build/lib/PyInstaller/bootloader/Windows-64bit/inprocsrvr.dll -> build/bdist.linux-x86_64/egg/PyInstaller/bootloader/Windows-64bit
+creating build/bdist.linux-x86_64/egg/PyInstaller/bootloader/Darwin-64bit
+copying build/lib/PyInstaller/bootloader/Darwin-64bit/runw -> build/bdist.linux-x86_64/egg/PyInstaller/bootloader/Darwin-64bit
+copying build/lib/PyInstaller/bootloader/Darwin-64bit/run -> build/bdist.linux-x86_64/egg/PyInstaller/bootloader/Darwin-64bit
+copying build/lib/PyInstaller/bootloader/Darwin-64bit/runw_d -> build/bdist.linux-x86_64/egg/PyInstaller/bootloader/Darwin-64bit
+copying build/lib/PyInstaller/bootloader/Darwin-64bit/run_d -> build/bdist.linux-x86_64/egg/PyInstaller/bootloader/Darwin-64bit
+creating build/bdist.linux-x86_64/egg/PyInstaller/bootloader/Linux-32bit
+copying build/lib/PyInstaller/bootloader/Linux-32bit/runw -> build/bdist.linux-x86_64/egg/PyInstaller/bootloader/Linux-32bit
+copying build/lib/PyInstaller/bootloader/Linux-32bit/run -> build/bdist.linux-x86_64/egg/PyInstaller/bootloader/Linux-32bit
+copying build/lib/PyInstaller/bootloader/Linux-32bit/runw_d -> build/bdist.linux-x86_64/egg/PyInstaller/bootloader/Linux-32bit
+copying build/lib/PyInstaller/bootloader/Linux-32bit/run_d -> build/bdist.linux-x86_64/egg/PyInstaller/bootloader/Linux-32bit
+creating build/bdist.linux-x86_64/egg/PyInstaller/bootloader/Linux-64bit
+copying build/lib/PyInstaller/bootloader/Linux-64bit/runw -> build/bdist.linux-x86_64/egg/PyInstaller/bootloader/Linux-64bit
+copying build/lib/PyInstaller/bootloader/Linux-64bit/run -> build/bdist.linux-x86_64/egg/PyInstaller/bootloader/Linux-64bit
+copying build/lib/PyInstaller/bootloader/Linux-64bit/runw_d -> build/bdist.linux-x86_64/egg/PyInstaller/bootloader/Linux-64bit
+copying build/lib/PyInstaller/bootloader/Linux-64bit/run_d -> build/bdist.linux-x86_64/egg/PyInstaller/bootloader/Linux-64bit
+creating build/bdist.linux-x86_64/egg/PyInstaller/bootloader/images
+copying build/lib/PyInstaller/bootloader/images/icon-console.icns -> build/bdist.linux-x86_64/egg/PyInstaller/bootloader/images
+copying build/lib/PyInstaller/bootloader/images/icon-windowed.icns -> build/bdist.linux-x86_64/egg/PyInstaller/bootloader/images
+copying build/lib/PyInstaller/bootloader/images/icon-windowed.svg -> build/bdist.linux-x86_64/egg/PyInstaller/bootloader/images
+copying build/lib/PyInstaller/bootloader/images/icon-windowed.ico -> build/bdist.linux-x86_64/egg/PyInstaller/bootloader/images
+copying build/lib/PyInstaller/bootloader/images/icon-console.ico -> build/bdist.linux-x86_64/egg/PyInstaller/bootloader/images
+copying build/lib/PyInstaller/bootloader/images/icon-console.svg -> build/bdist.linux-x86_64/egg/PyInstaller/bootloader/images
+creating build/bdist.linux-x86_64/egg/PyInstaller/bootloader/Windows-32bit
+copying build/lib/PyInstaller/bootloader/Windows-32bit/inprocsrvrw_d.dll -> build/bdist.linux-x86_64/egg/PyInstaller/bootloader/Windows-32bit
+copying build/lib/PyInstaller/bootloader/Windows-32bit/run.exe -> build/bdist.linux-x86_64/egg/PyInstaller/bootloader/Windows-32bit
+copying build/lib/PyInstaller/bootloader/Windows-32bit/run_d.exe -> build/bdist.linux-x86_64/egg/PyInstaller/bootloader/Windows-32bit
+copying build/lib/PyInstaller/bootloader/Windows-32bit/runw_d.exe -> build/bdist.linux-x86_64/egg/PyInstaller/bootloader/Windows-32bit
+copying build/lib/PyInstaller/bootloader/Windows-32bit/inprocsrvr_d.dll -> build/bdist.linux-x86_64/egg/PyInstaller/bootloader/Windows-32bit
+copying build/lib/PyInstaller/bootloader/Windows-32bit/runw.exe -> build/bdist.linux-x86_64/egg/PyInstaller/bootloader/Windows-32bit
+copying build/lib/PyInstaller/bootloader/Windows-32bit/inprocsrvrw.dll -> build/bdist.linux-x86_64/egg/PyInstaller/bootloader/Windows-32bit
+copying build/lib/PyInstaller/bootloader/Windows-32bit/inprocsrvr.dll -> build/bdist.linux-x86_64/egg/PyInstaller/bootloader/Windows-32bit
+creating build/bdist.linux-x86_64/egg/PyInstaller/bootloader/Darwin-32bit
+copying build/lib/PyInstaller/bootloader/Darwin-32bit/runw -> build/bdist.linux-x86_64/egg/PyInstaller/bootloader/Darwin-32bit
+copying build/lib/PyInstaller/bootloader/Darwin-32bit/run -> build/bdist.linux-x86_64/egg/PyInstaller/bootloader/Darwin-32bit
+copying build/lib/PyInstaller/bootloader/Darwin-32bit/runw_d -> build/bdist.linux-x86_64/egg/PyInstaller/bootloader/Darwin-32bit
+copying build/lib/PyInstaller/bootloader/Darwin-32bit/run_d -> build/bdist.linux-x86_64/egg/PyInstaller/bootloader/Darwin-32bit
+copying build/lib/PyInstaller/log.py -> build/bdist.linux-x86_64/egg/PyInstaller
+copying build/lib/PyInstaller/main.py -> build/bdist.linux-x86_64/egg/PyInstaller
+copying build/lib/PyInstaller/__init__.py -> build/bdist.linux-x86_64/egg/PyInstaller
+copying build/lib/PyInstaller/bindepend.py -> build/bdist.linux-x86_64/egg/PyInstaller
+copying build/lib/PyInstaller/makespec.py -> build/bdist.linux-x86_64/egg/PyInstaller
+creating build/bdist.linux-x86_64/egg/PyInstaller/fake
+copying build/lib/PyInstaller/fake/fake-site.py -> build/bdist.linux-x86_64/egg/PyInstaller/fake
+copying build/lib/PyInstaller/fake/__init__.py -> build/bdist.linux-x86_64/egg/PyInstaller/fake
+creating build/bdist.linux-x86_64/egg/PyInstaller/lib
+creating build/bdist.linux-x86_64/egg/PyInstaller/lib/junitxml
+creating build/bdist.linux-x86_64/egg/PyInstaller/lib/junitxml/tests
+copying build/lib/PyInstaller/lib/junitxml/tests/__init__.py -> build/bdist.linux-x86_64/egg/PyInstaller/lib/junitxml/tests
+copying build/lib/PyInstaller/lib/junitxml/tests/test_junitxml.py -> build/bdist.linux-x86_64/egg/PyInstaller/lib/junitxml/tests
+copying build/lib/PyInstaller/lib/junitxml/__init__.py -> build/bdist.linux-x86_64/egg/PyInstaller/lib/junitxml
+creating build/bdist.linux-x86_64/egg/PyInstaller/lib/macholib
+copying build/lib/PyInstaller/lib/macholib/_cmdline.py -> build/bdist.linux-x86_64/egg/PyInstaller/lib/macholib
+copying build/lib/PyInstaller/lib/macholib/MachO.py -> build/bdist.linux-x86_64/egg/PyInstaller/lib/macholib
+copying build/lib/PyInstaller/lib/macholib/__main__.py -> build/bdist.linux-x86_64/egg/PyInstaller/lib/macholib
+copying build/lib/PyInstaller/lib/macholib/SymbolTable.py -> build/bdist.linux-x86_64/egg/PyInstaller/lib/macholib
+copying build/lib/PyInstaller/lib/macholib/ptypes.py -> build/bdist.linux-x86_64/egg/PyInstaller/lib/macholib
+copying build/lib/PyInstaller/lib/macholib/dyld.py -> build/bdist.linux-x86_64/egg/PyInstaller/lib/macholib
+copying build/lib/PyInstaller/lib/macholib/itergraphreport.py -> build/bdist.linux-x86_64/egg/PyInstaller/lib/macholib
+copying build/lib/PyInstaller/lib/macholib/MachOStandalone.py -> build/bdist.linux-x86_64/egg/PyInstaller/lib/macholib
+copying build/lib/PyInstaller/lib/macholib/macho_find.py -> build/bdist.linux-x86_64/egg/PyInstaller/lib/macholib
+copying build/lib/PyInstaller/lib/macholib/util.py -> build/bdist.linux-x86_64/egg/PyInstaller/lib/macholib
+copying build/lib/PyInstaller/lib/macholib/dylib.py -> build/bdist.linux-x86_64/egg/PyInstaller/lib/macholib
+copying build/lib/PyInstaller/lib/macholib/__init__.py -> build/bdist.linux-x86_64/egg/PyInstaller/lib/macholib
+copying build/lib/PyInstaller/lib/macholib/framework.py -> build/bdist.linux-x86_64/egg/PyInstaller/lib/macholib
+copying build/lib/PyInstaller/lib/macholib/MachOGraph.py -> build/bdist.linux-x86_64/egg/PyInstaller/lib/macholib
+copying build/lib/PyInstaller/lib/macholib/macho_dump.py -> build/bdist.linux-x86_64/egg/PyInstaller/lib/macholib
+copying build/lib/PyInstaller/lib/macholib/macho_standalone.py -> build/bdist.linux-x86_64/egg/PyInstaller/lib/macholib
+copying build/lib/PyInstaller/lib/macholib/mach_o.py -> build/bdist.linux-x86_64/egg/PyInstaller/lib/macholib
+copying build/lib/PyInstaller/lib/__init__.py -> build/bdist.linux-x86_64/egg/PyInstaller/lib
+creating build/bdist.linux-x86_64/egg/PyInstaller/lib/altgraph
+copying build/lib/PyInstaller/lib/altgraph/Graph.py -> build/bdist.linux-x86_64/egg/PyInstaller/lib/altgraph
+copying build/lib/PyInstaller/lib/altgraph/GraphStat.py -> build/bdist.linux-x86_64/egg/PyInstaller/lib/altgraph
+copying build/lib/PyInstaller/lib/altgraph/compat.py -> build/bdist.linux-x86_64/egg/PyInstaller/lib/altgraph
+copying build/lib/PyInstaller/lib/altgraph/GraphAlgo.py -> build/bdist.linux-x86_64/egg/PyInstaller/lib/altgraph
+copying build/lib/PyInstaller/lib/altgraph/Dot.py -> build/bdist.linux-x86_64/egg/PyInstaller/lib/altgraph
+copying build/lib/PyInstaller/lib/altgraph/__init__.py -> build/bdist.linux-x86_64/egg/PyInstaller/lib/altgraph
+copying build/lib/PyInstaller/lib/altgraph/ObjectGraph.py -> build/bdist.linux-x86_64/egg/PyInstaller/lib/altgraph
+copying build/lib/PyInstaller/lib/altgraph/GraphUtil.py -> build/bdist.linux-x86_64/egg/PyInstaller/lib/altgraph
+copying build/lib/PyInstaller/lib/pefile.py -> build/bdist.linux-x86_64/egg/PyInstaller/lib
+creating build/bdist.linux-x86_64/egg/PyInstaller/lib/unittest2
+copying build/lib/PyInstaller/lib/unittest2/__main__.py -> build/bdist.linux-x86_64/egg/PyInstaller/lib/unittest2
+copying build/lib/PyInstaller/lib/unittest2/signals.py -> build/bdist.linux-x86_64/egg/PyInstaller/lib/unittest2
+copying build/lib/PyInstaller/lib/unittest2/case.py -> build/bdist.linux-x86_64/egg/PyInstaller/lib/unittest2
+copying build/lib/PyInstaller/lib/unittest2/collector.py -> build/bdist.linux-x86_64/egg/PyInstaller/lib/unittest2
+copying build/lib/PyInstaller/lib/unittest2/loader.py -> build/bdist.linux-x86_64/egg/PyInstaller/lib/unittest2
+copying build/lib/PyInstaller/lib/unittest2/suite.py -> build/bdist.linux-x86_64/egg/PyInstaller/lib/unittest2
+copying build/lib/PyInstaller/lib/unittest2/compatibility.py -> build/bdist.linux-x86_64/egg/PyInstaller/lib/unittest2
+copying build/lib/PyInstaller/lib/unittest2/util.py -> build/bdist.linux-x86_64/egg/PyInstaller/lib/unittest2
+creating build/bdist.linux-x86_64/egg/PyInstaller/lib/unittest2/test
+copying build/lib/PyInstaller/lib/unittest2/test/test_runner.py -> build/bdist.linux-x86_64/egg/PyInstaller/lib/unittest2/test
+copying build/lib/PyInstaller/lib/unittest2/test/test_program.py -> build/bdist.linux-x86_64/egg/PyInstaller/lib/unittest2/test
+copying build/lib/PyInstaller/lib/unittest2/test/test_unittest2_with.py -> build/bdist.linux-x86_64/egg/PyInstaller/lib/unittest2/test
+copying build/lib/PyInstaller/lib/unittest2/test/test_result.py -> build/bdist.linux-x86_64/egg/PyInstaller/lib/unittest2/test
+copying build/lib/PyInstaller/lib/unittest2/test/test_case.py -> build/bdist.linux-x86_64/egg/PyInstaller/lib/unittest2/test
+copying build/lib/PyInstaller/lib/unittest2/test/test_setups.py -> build/bdist.linux-x86_64/egg/PyInstaller/lib/unittest2/test
+copying build/lib/PyInstaller/lib/unittest2/test/test_loader.py -> build/bdist.linux-x86_64/egg/PyInstaller/lib/unittest2/test
+copying build/lib/PyInstaller/lib/unittest2/test/test_break.py -> build/bdist.linux-x86_64/egg/PyInstaller/lib/unittest2/test
+copying build/lib/PyInstaller/lib/unittest2/test/support.py -> build/bdist.linux-x86_64/egg/PyInstaller/lib/unittest2/test
+copying build/lib/PyInstaller/lib/unittest2/test/test_functiontestcase.py -> build/bdist.linux-x86_64/egg/PyInstaller/lib/unittest2/test
+copying build/lib/PyInstaller/lib/unittest2/test/test_discovery.py -> build/bdist.linux-x86_64/egg/PyInstaller/lib/unittest2/test
+copying build/lib/PyInstaller/lib/unittest2/test/test_new_tests.py -> build/bdist.linux-x86_64/egg/PyInstaller/lib/unittest2/test
+copying build/lib/PyInstaller/lib/unittest2/test/__init__.py -> build/bdist.linux-x86_64/egg/PyInstaller/lib/unittest2/test
+copying build/lib/PyInstaller/lib/unittest2/test/dummy.py -> build/bdist.linux-x86_64/egg/PyInstaller/lib/unittest2/test
+copying build/lib/PyInstaller/lib/unittest2/test/test_suite.py -> build/bdist.linux-x86_64/egg/PyInstaller/lib/unittest2/test
+copying build/lib/PyInstaller/lib/unittest2/test/test_assertions.py -> build/bdist.linux-x86_64/egg/PyInstaller/lib/unittest2/test
+copying build/lib/PyInstaller/lib/unittest2/test/test_skipping.py -> build/bdist.linux-x86_64/egg/PyInstaller/lib/unittest2/test
+copying build/lib/PyInstaller/lib/unittest2/main.py -> build/bdist.linux-x86_64/egg/PyInstaller/lib/unittest2
+copying build/lib/PyInstaller/lib/unittest2/__init__.py -> build/bdist.linux-x86_64/egg/PyInstaller/lib/unittest2
+copying build/lib/PyInstaller/lib/unittest2/runner.py -> build/bdist.linux-x86_64/egg/PyInstaller/lib/unittest2
+copying build/lib/PyInstaller/lib/unittest2/result.py -> build/bdist.linux-x86_64/egg/PyInstaller/lib/unittest2
+creating build/bdist.linux-x86_64/egg/PyInstaller/hooks
+copying build/lib/PyInstaller/hooks/hook-pywinauto.tests.py -> build/bdist.linux-x86_64/egg/PyInstaller/hooks
+copying build/lib/PyInstaller/hooks/hook-PyQt4.QtHelp.py -> build/bdist.linux-x86_64/egg/PyInstaller/hooks
+copying build/lib/PyInstaller/hooks/hook-enchant.py -> build/bdist.linux-x86_64/egg/PyInstaller/hooks
+copying build/lib/PyInstaller/hooks/hook-PyQt4.QtGui.py -> build/bdist.linux-x86_64/egg/PyInstaller/hooks
+copying build/lib/PyInstaller/hooks/hook-django.contrib.sessions.py -> build/bdist.linux-x86_64/egg/PyInstaller/hooks
+copying build/lib/PyInstaller/hooks/hook-scipy.io.matlab.py -> build/bdist.linux-x86_64/egg/PyInstaller/hooks
+copying build/lib/PyInstaller/hooks/hook-PyQt4.QtWebKit.py -> build/bdist.linux-x86_64/egg/PyInstaller/hooks
+copying build/lib/PyInstaller/hooks/hook-enchant.checker.py -> build/bdist.linux-x86_64/egg/PyInstaller/hooks
+copying build/lib/PyInstaller/hooks/hook-anydbm.py -> build/bdist.linux-x86_64/egg/PyInstaller/hooks
+copying build/lib/PyInstaller/hooks/hook-docutils.py -> build/bdist.linux-x86_64/egg/PyInstaller/hooks
+copying build/lib/PyInstaller/hooks/hook-OpenGL_accelerate.py -> build/bdist.linux-x86_64/egg/PyInstaller/hooks
+copying build/lib/PyInstaller/hooks/hook-django.contrib.py -> build/bdist.linux-x86_64/egg/PyInstaller/hooks
+copying build/lib/PyInstaller/hooks/hook-PyQt5.QtQuick.py -> build/bdist.linux-x86_64/egg/PyInstaller/hooks
+copying build/lib/PyInstaller/hooks/shared_PIL_Image.py -> build/bdist.linux-x86_64/egg/PyInstaller/hooks
+copying build/lib/PyInstaller/hooks/hook-setuptools.py -> build/bdist.linux-x86_64/egg/PyInstaller/hooks
+copying build/lib/PyInstaller/hooks/hook-IPython.py -> build/bdist.linux-x86_64/egg/PyInstaller/hooks
+copying build/lib/PyInstaller/hooks/hook-PyQt4.uic.port_v3.py -> build/bdist.linux-x86_64/egg/PyInstaller/hooks
+copying build/lib/PyInstaller/hooks/hook-xml.dom.ext.py -> build/bdist.linux-x86_64/egg/PyInstaller/hooks
+copying build/lib/PyInstaller/hooks/hook-pyttsx.py -> build/bdist.linux-x86_64/egg/PyInstaller/hooks
+copying build/lib/PyInstaller/hooks/hook-PIL.SpiderImagePlugin.py -> build/bdist.linux-x86_64/egg/PyInstaller/hooks
+copying build/lib/PyInstaller/hooks/hook-dns.rdata.py -> build/bdist.linux-x86_64/egg/PyInstaller/hooks
+copying build/lib/PyInstaller/hooks/hook-PySide.py -> build/bdist.linux-x86_64/egg/PyInstaller/hooks
+copying build/lib/PyInstaller/hooks/hook-wx.lib.pubsub.setuparg1.py -> build/bdist.linux-x86_64/egg/PyInstaller/hooks
+copying build/lib/PyInstaller/hooks/hook-PyQt4.uic.port_v2.py -> build/bdist.linux-x86_64/egg/PyInstaller/hooks
+copying build/lib/PyInstaller/hooks/hook-zmq.py -> build/bdist.linux-x86_64/egg/PyInstaller/hooks
+copying build/lib/PyInstaller/hooks/hook-PIL.py -> build/bdist.linux-x86_64/egg/PyInstaller/hooks
+copying build/lib/PyInstaller/hooks/hook-qt.py -> build/bdist.linux-x86_64/egg/PyInstaller/hooks
+copying build/lib/PyInstaller/hooks/hook-sqlite3.py -> build/bdist.linux-x86_64/egg/PyInstaller/hooks
+copying build/lib/PyInstaller/hooks/hook-PyQt4.py -> build/bdist.linux-x86_64/egg/PyInstaller/hooks
+copying build/lib/PyInstaller/hooks/hook-time.py -> build/bdist.linux-x86_64/egg/PyInstaller/hooks
+copying build/lib/PyInstaller/hooks/hook-cPickle.py -> build/bdist.linux-x86_64/egg/PyInstaller/hooks
+copying build/lib/PyInstaller/hooks/hook-gst.py -> build/bdist.linux-x86_64/egg/PyInstaller/hooks
+copying build/lib/PyInstaller/hooks/hook-PyQt4.QtScript.py -> build/bdist.linux-x86_64/egg/PyInstaller/hooks
+copying build/lib/PyInstaller/hooks/hook-pyexpat.py -> build/bdist.linux-x86_64/egg/PyInstaller/hooks
+copying build/lib/PyInstaller/hooks/hook-PyQt5.QtHelp.py -> build/bdist.linux-x86_64/egg/PyInstaller/hooks
+copying build/lib/PyInstaller/hooks/hook-DateTime.py -> build/bdist.linux-x86_64/egg/PyInstaller/hooks
+copying build/lib/PyInstaller/hooks/hook-scipy.sparse.csgraph.py -> build/bdist.linux-x86_64/egg/PyInstaller/hooks
+copying build/lib/PyInstaller/hooks/hook-PyQt5.QtOpenGL.py -> build/bdist.linux-x86_64/egg/PyInstaller/hooks
+copying build/lib/PyInstaller/hooks/hook-sysconfig.py -> build/bdist.linux-x86_64/egg/PyInstaller/hooks
+copying build/lib/PyInstaller/hooks/hook-PyQt4.QtNetwork.py -> build/bdist.linux-x86_64/egg/PyInstaller/hooks
+copying build/lib/PyInstaller/hooks/hook-PyQt4.QtCore.py -> build/bdist.linux-x86_64/egg/PyInstaller/hooks
+copying build/lib/PyInstaller/hooks/hook-django.core.mail.py -> build/bdist.linux-x86_64/egg/PyInstaller/hooks
+copying build/lib/PyInstaller/hooks/hook-PyQt4.Qt3Support.py -> build/bdist.linux-x86_64/egg/PyInstaller/hooks
+copying build/lib/PyInstaller/hooks/hook-win32com.py -> build/bdist.linux-x86_64/egg/PyInstaller/hooks
+copying build/lib/PyInstaller/hooks/hook-PyQt5.py -> build/bdist.linux-x86_64/egg/PyInstaller/hooks
+copying build/lib/PyInstaller/hooks/hook-lxml.objectify.py -> build/bdist.linux-x86_64/egg/PyInstaller/hooks
+copying build/lib/PyInstaller/hooks/hook-xml.sax.py -> build/bdist.linux-x86_64/egg/PyInstaller/hooks
+copying build/lib/PyInstaller/hooks/hook-bacon.py -> build/bdist.linux-x86_64/egg/PyInstaller/hooks
+copying build/lib/PyInstaller/hooks/hook-PyQt5.QtXml.py -> build/bdist.linux-x86_64/egg/PyInstaller/hooks
+copying build/lib/PyInstaller/hooks/hookutils.py -> build/bdist.linux-x86_64/egg/PyInstaller/hooks
+copying build/lib/PyInstaller/hooks/hook-PyQt4.Qwt5.py -> build/bdist.linux-x86_64/egg/PyInstaller/hooks
+copying build/lib/PyInstaller/hooks/hook-PyQt5.phonon.py -> build/bdist.linux-x86_64/egg/PyInstaller/hooks
+creating build/bdist.linux-x86_64/egg/PyInstaller/hooks/utils
+copying build/lib/PyInstaller/hooks/utils/enchant-datafiles-finder.py -> build/bdist.linux-x86_64/egg/PyInstaller/hooks/utils
+copying build/lib/PyInstaller/hooks/utils/django-import-finder.py -> build/bdist.linux-x86_64/egg/PyInstaller/hooks/utils
+copying build/lib/PyInstaller/hooks/utils/__init__.py -> build/bdist.linux-x86_64/egg/PyInstaller/hooks/utils
+copying build/lib/PyInstaller/hooks/hook-raven.py -> build/bdist.linux-x86_64/egg/PyInstaller/hooks
+copying build/lib/PyInstaller/hooks/hook-vtkpython.py -> build/bdist.linux-x86_64/egg/PyInstaller/hooks
+copying build/lib/PyInstaller/hooks/hook-_tkinter.py -> build/bdist.linux-x86_64/egg/PyInstaller/hooks
+copying build/lib/PyInstaller/hooks/hook-encodings.py -> build/bdist.linux-x86_64/egg/PyInstaller/hooks
+copying build/lib/PyInstaller/hooks/hook-pygments.lexers.py -> build/bdist.linux-x86_64/egg/PyInstaller/hooks
+copying build/lib/PyInstaller/hooks/hook-codecs.py -> build/bdist.linux-x86_64/egg/PyInstaller/hooks
+copying build/lib/PyInstaller/hooks/hook-sphinx.py -> build/bdist.linux-x86_64/egg/PyInstaller/hooks
+copying build/lib/PyInstaller/hooks/hook-django.db.backends.py -> build/bdist.linux-x86_64/egg/PyInstaller/hooks
+copying build/lib/PyInstaller/hooks/hook-pytz.py -> build/bdist.linux-x86_64/egg/PyInstaller/hooks
+copying build/lib/PyInstaller/hooks/hook-site.py -> build/bdist.linux-x86_64/egg/PyInstaller/hooks
+copying build/lib/PyInstaller/hooks/hook-regex.py -> build/bdist.linux-x86_64/egg/PyInstaller/hooks
+copying build/lib/PyInstaller/hooks/hook-paste.exceptions.reporter.py -> build/bdist.linux-x86_64/egg/PyInstaller/hooks
+copying build/lib/PyInstaller/hooks/hook-PyQt4.uic.py -> build/bdist.linux-x86_64/egg/PyInstaller/hooks
+copying build/lib/PyInstaller/hooks/hook-wx.lib.activex.py -> build/bdist.linux-x86_64/egg/PyInstaller/hooks
+copying build/lib/PyInstaller/hooks/hook-Image.py -> build/bdist.linux-x86_64/egg/PyInstaller/hooks
+copying build/lib/PyInstaller/hooks/hook-OpenGL.py -> build/bdist.linux-x86_64/egg/PyInstaller/hooks
+copying build/lib/PyInstaller/hooks/hook-matplotlib.py -> build/bdist.linux-x86_64/egg/PyInstaller/hooks
+copying build/lib/PyInstaller/hooks/hook-PyQt4.Qt.py -> build/bdist.linux-x86_64/egg/PyInstaller/hooks
+copying build/lib/PyInstaller/hooks/hook-usb.py -> build/bdist.linux-x86_64/egg/PyInstaller/hooks
+copying build/lib/PyInstaller/hooks/hook-gadfly.py -> build/bdist.linux-x86_64/egg/PyInstaller/hooks
+copying build/lib/PyInstaller/hooks/hook-pythoncom.py -> build/bdist.linux-x86_64/egg/PyInstaller/hooks
+copying build/lib/PyInstaller/hooks/hook-pygments.styles.py -> build/bdist.linux-x86_64/egg/PyInstaller/hooks
+copying build/lib/PyInstaller/hooks/hook-PyQt5.QtGui.py -> build/bdist.linux-x86_64/egg/PyInstaller/hooks
+copying build/lib/PyInstaller/hooks/hook-os.py -> build/bdist.linux-x86_64/egg/PyInstaller/hooks
+copying build/lib/PyInstaller/hooks/hook-django.db.backends.oracle.base.py -> build/bdist.linux-x86_64/egg/PyInstaller/hooks
+copying build/lib/PyInstaller/hooks/hook-httplib.py -> build/bdist.linux-x86_64/egg/PyInstaller/hooks
+copying build/lib/PyInstaller/hooks/hook-django.py -> build/bdist.linux-x86_64/egg/PyInstaller/hooks
+copying build/lib/PyInstaller/hooks/hook-PyQt5.Qt.py -> build/bdist.linux-x86_64/egg/PyInstaller/hooks
+copying build/lib/PyInstaller/hooks/hook-win32com.client.py -> build/bdist.linux-x86_64/egg/PyInstaller/hooks
+copying build/lib/PyInstaller/hooks/hook-mako.codegen.py -> build/bdist.linux-x86_64/egg/PyInstaller/hooks
+copying build/lib/PyInstaller/hooks/hook-PyQt5.QtQml.py -> build/bdist.linux-x86_64/egg/PyInstaller/hooks
+copying build/lib/PyInstaller/hooks/hook-PyQt4.phonon.py -> build/bdist.linux-x86_64/egg/PyInstaller/hooks
+copying build/lib/PyInstaller/hooks/hook-xml.etree.cElementTree.py -> build/bdist.linux-x86_64/egg/PyInstaller/hooks
+copying build/lib/PyInstaller/hooks/hook-email.py -> build/bdist.linux-x86_64/egg/PyInstaller/hooks
+copying build/lib/PyInstaller/hooks/hook-_sre.py -> build/bdist.linux-x86_64/egg/PyInstaller/hooks
+copying build/lib/PyInstaller/hooks/hook-PyQt5.QtNetwork.py -> build/bdist.linux-x86_64/egg/PyInstaller/hooks
+copying build/lib/PyInstaller/hooks/hook-idlelib.py -> build/bdist.linux-x86_64/egg/PyInstaller/hooks
+copying build/lib/PyInstaller/hooks/shared_PIL_SpiderImagePlugin.py -> build/bdist.linux-x86_64/egg/PyInstaller/hooks
+copying build/lib/PyInstaller/hooks/hook-PyQt5.QtSvg.py -> build/bdist.linux-x86_64/egg/PyInstaller/hooks
+copying build/lib/PyInstaller/hooks/hook-PyQt5.QtWidgets.py -> build/bdist.linux-x86_64/egg/PyInstaller/hooks
+copying build/lib/PyInstaller/hooks/hook-django.core.py -> build/bdist.linux-x86_64/egg/PyInstaller/hooks
+copying build/lib/PyInstaller/hooks/hook-gst._gst.py -> build/bdist.linux-x86_64/egg/PyInstaller/hooks
+copying build/lib/PyInstaller/hooks/hook-cElementTree.py -> build/bdist.linux-x86_64/egg/PyInstaller/hooks
+copying build/lib/PyInstaller/hooks/hook-PyQt4.QtOpenGL.py -> build/bdist.linux-x86_64/egg/PyInstaller/hooks
+copying build/lib/PyInstaller/hooks/hook-email.message.py -> build/bdist.linux-x86_64/egg/PyInstaller/hooks
+copying build/lib/PyInstaller/hooks/hook-PyQt5.QtQuickParticles.py -> build/bdist.linux-x86_64/egg/PyInstaller/hooks
+copying build/lib/PyInstaller/hooks/hook-xml.py -> build/bdist.linux-x86_64/egg/PyInstaller/hooks
+copying build/lib/PyInstaller/hooks/hook-PyQt4.QtAssistant.py -> build/bdist.linux-x86_64/egg/PyInstaller/hooks
+copying build/lib/PyInstaller/hooks/hook-xml.dom.html.py -> build/bdist.linux-x86_64/egg/PyInstaller/hooks
+copying build/lib/PyInstaller/hooks/hook-PyQt5.QtSensors.py -> build/bdist.linux-x86_64/egg/PyInstaller/hooks
+copying build/lib/PyInstaller/hooks/hook-django.db.backends.mysql.py -> build/bdist.linux-x86_64/egg/PyInstaller/hooks
+copying build/lib/PyInstaller/hooks/hook-SpiderImagePlugin.py -> build/bdist.linux-x86_64/egg/PyInstaller/hooks
+copying build/lib/PyInstaller/hooks/__init__.py -> build/bdist.linux-x86_64/egg/PyInstaller/hooks
+copying build/lib/PyInstaller/hooks/hook-_mysql.py -> build/bdist.linux-x86_64/egg/PyInstaller/hooks
+copying build/lib/PyInstaller/hooks/hook-jinja2.py -> build/bdist.linux-x86_64/egg/PyInstaller/hooks
+copying build/lib/PyInstaller/hooks/hook-PyQt5.QtWebKit.py -> build/bdist.linux-x86_64/egg/PyInstaller/hooks
+copying build/lib/PyInstaller/hooks/hook-h5py.py -> build/bdist.linux-x86_64/egg/PyInstaller/hooks
+copying build/lib/PyInstaller/hooks/hook-django.core.cache.py -> build/bdist.linux-x86_64/egg/PyInstaller/hooks
+copying build/lib/PyInstaller/hooks/hook-django.db.backends.mysql.base.py -> build/bdist.linux-x86_64/egg/PyInstaller/hooks
+copying build/lib/PyInstaller/hooks/hook-xml.dom.html.HTMLDocument.py -> build/bdist.linux-x86_64/egg/PyInstaller/hooks
+copying build/lib/PyInstaller/hooks/hook-storm.database.py -> build/bdist.linux-x86_64/egg/PyInstaller/hooks
+copying build/lib/PyInstaller/hooks/hook-pygame.py -> build/bdist.linux-x86_64/egg/PyInstaller/hooks
+copying build/lib/PyInstaller/hooks/hook-django.db.py -> build/bdist.linux-x86_64/egg/PyInstaller/hooks
+copying build/lib/PyInstaller/hooks/hook-PyQt4.QtSvg.py -> build/bdist.linux-x86_64/egg/PyInstaller/hooks
+copying build/lib/PyInstaller/hooks/hook-PyQt4.QtSql.py -> build/bdist.linux-x86_64/egg/PyInstaller/hooks
+copying build/lib/PyInstaller/hooks/hook-lxml.etree.py -> build/bdist.linux-x86_64/egg/PyInstaller/hooks
+copying build/lib/PyInstaller/hooks/hook-PIL.Image.py -> build/bdist.linux-x86_64/egg/PyInstaller/hooks
+copying build/lib/PyInstaller/hooks/hook-pyodbc.py -> build/bdist.linux-x86_64/egg/PyInstaller/hooks
+copying build/lib/PyInstaller/hooks/hook-babel.py -> build/bdist.linux-x86_64/egg/PyInstaller/hooks
+copying build/lib/PyInstaller/hooks/hook-PyQt5.QtScript.py -> build/bdist.linux-x86_64/egg/PyInstaller/hooks
+copying build/lib/PyInstaller/hooks/hook-pywintypes.py -> build/bdist.linux-x86_64/egg/PyInstaller/hooks
+copying build/lib/PyInstaller/hooks/hook-kinterbasdb.py -> build/bdist.linux-x86_64/egg/PyInstaller/hooks
+copying build/lib/PyInstaller/hooks/hook-xml.dom.py -> build/bdist.linux-x86_64/egg/PyInstaller/hooks
+copying build/lib/PyInstaller/hooks/hook-django.core.management.py -> build/bdist.linux-x86_64/egg/PyInstaller/hooks
+copying build/lib/PyInstaller/hooks/hook-matplotlib.numerix.py -> build/bdist.linux-x86_64/egg/PyInstaller/hooks
+copying build/lib/PyInstaller/hooks/hook-enchant.checker.wxSpellCheckerDialog.py -> build/bdist.linux-x86_64/egg/PyInstaller/hooks
+copying build/lib/PyInstaller/hooks/hook-parser.py -> build/bdist.linux-x86_64/egg/PyInstaller/hooks
+copying build/lib/PyInstaller/hooks/hook-xml.sax.saxexts.py -> build/bdist.linux-x86_64/egg/PyInstaller/hooks
+copying build/lib/PyInstaller/hooks/hook-wx.lib.pubsub.core.py -> build/bdist.linux-x86_64/egg/PyInstaller/hooks
+copying build/lib/PyInstaller/hooks/hook-win32ui.py -> build/bdist.linux-x86_64/egg/PyInstaller/hooks
+copying build/lib/PyInstaller/hooks/hook-PyQt5.QtCore.py -> build/bdist.linux-x86_64/egg/PyInstaller/hooks
+copying build/lib/PyInstaller/hooks/hook-distutils.py -> build/bdist.linux-x86_64/egg/PyInstaller/hooks
+copying build/lib/PyInstaller/hooks/hook-PyQt5.uic.port_v3.py -> build/bdist.linux-x86_64/egg/PyInstaller/hooks
+copying build/lib/PyInstaller/hooks/hook-matplotlib.backends.py -> build/bdist.linux-x86_64/egg/PyInstaller/hooks
+copying build/lib/PyInstaller/hooks/hook-xml.dom.domreg.py -> build/bdist.linux-x86_64/egg/PyInstaller/hooks
+copying build/lib/PyInstaller/hooks/hook-DateTime.mxDateTime.py -> build/bdist.linux-x86_64/egg/PyInstaller/hooks
+copying build/lib/PyInstaller/hooks/hook-tables.py -> build/bdist.linux-x86_64/egg/PyInstaller/hooks
+copying build/lib/PyInstaller/hooks/hook-cStringIO.py -> build/bdist.linux-x86_64/egg/PyInstaller/hooks
+copying build/lib/PyInstaller/hooks/hook-sqlalchemy.py -> build/bdist.linux-x86_64/egg/PyInstaller/hooks
+copying build/lib/PyInstaller/hooks/hook-PyQt4.QtTest.py -> build/bdist.linux-x86_64/egg/PyInstaller/hooks
+copying build/lib/PyInstaller/hooks/hook-PyQt5.Qwt5.py -> build/bdist.linux-x86_64/egg/PyInstaller/hooks
+copying build/lib/PyInstaller/hooks/hook-cx_Oracle.py -> build/bdist.linux-x86_64/egg/PyInstaller/hooks
+copying build/lib/PyInstaller/hooks/hook-gtk.py -> build/bdist.linux-x86_64/egg/PyInstaller/hooks
+copying build/lib/PyInstaller/hooks/hook-clr.py -> build/bdist.linux-x86_64/egg/PyInstaller/hooks
+copying build/lib/PyInstaller/hooks/hook-PyQt5.QtSql.py -> build/bdist.linux-x86_64/egg/PyInstaller/hooks
+copying build/lib/PyInstaller/hooks/hook-PyQt5.QtSerialPort.py -> build/bdist.linux-x86_64/egg/PyInstaller/hooks
+copying build/lib/PyInstaller/hooks/hook-_elementtree.py -> build/bdist.linux-x86_64/egg/PyInstaller/hooks
+copying build/lib/PyInstaller/hooks/hook-pydoc.py -> build/bdist.linux-x86_64/egg/PyInstaller/hooks
+copying build/lib/PyInstaller/hooks/hook-PyQt5.QtTest.py -> build/bdist.linux-x86_64/egg/PyInstaller/hooks
+copying build/lib/PyInstaller/hooks/hook-psycopg2.py -> build/bdist.linux-x86_64/egg/PyInstaller/hooks
+copying build/lib/PyInstaller/hooks/hook-PyQt5.uic.port_v2.py -> build/bdist.linux-x86_64/egg/PyInstaller/hooks
+copying build/lib/PyInstaller/hooks/hook-django.db.backends.oracle.py -> build/bdist.linux-x86_64/egg/PyInstaller/hooks
+copying build/lib/PyInstaller/hooks/hook-PyQt4.QtXml.py -> build/bdist.linux-x86_64/egg/PyInstaller/hooks
+copying build/lib/PyInstaller/hooks/hook-PyQt5.uic.py -> build/bdist.linux-x86_64/egg/PyInstaller/hooks
+copying build/lib/PyInstaller/hooks/hook-pywinauto.py -> build/bdist.linux-x86_64/egg/PyInstaller/hooks
+copying build/lib/PyInstaller/hooks/hook-xml.dom.ext.reader.py -> build/bdist.linux-x86_64/egg/PyInstaller/hooks
+creating build/bdist.linux-x86_64/egg/PyInstaller/loader
+copying build/lib/PyInstaller/loader/_pyi_egg_install.py -> build/bdist.linux-x86_64/egg/PyInstaller/loader
+copying build/lib/PyInstaller/loader/pyi_importers.py -> build/bdist.linux-x86_64/egg/PyInstaller/loader
+copying build/lib/PyInstaller/loader/pyi_carchive.py -> build/bdist.linux-x86_64/egg/PyInstaller/loader
+copying build/lib/PyInstaller/loader/pyi_os_path.py -> build/bdist.linux-x86_64/egg/PyInstaller/loader
+copying build/lib/PyInstaller/loader/pyi_archive.py -> build/bdist.linux-x86_64/egg/PyInstaller/loader
+creating build/bdist.linux-x86_64/egg/PyInstaller/loader/rthooks
+copying build/lib/PyInstaller/loader/rthooks/pyi_rth_mplconfig.py -> build/bdist.linux-x86_64/egg/PyInstaller/loader/rthooks
+copying build/lib/PyInstaller/loader/rthooks/pyi_rth_Image.py -> build/bdist.linux-x86_64/egg/PyInstaller/loader/rthooks
+copying build/lib/PyInstaller/loader/rthooks/pyi_rth_win32comgenpy.py -> build/bdist.linux-x86_64/egg/PyInstaller/loader/rthooks
+copying build/lib/PyInstaller/loader/rthooks/pyi_rth_qt5plugins.py -> build/bdist.linux-x86_64/egg/PyInstaller/loader/rthooks
+copying build/lib/PyInstaller/loader/rthooks/pyi_rth_PIL_Image.py -> build/bdist.linux-x86_64/egg/PyInstaller/loader/rthooks
+copying build/lib/PyInstaller/loader/rthooks/pyi_rth_mpldata.py -> build/bdist.linux-x86_64/egg/PyInstaller/loader/rthooks
+copying build/lib/PyInstaller/loader/rthooks/pyi_rth_qt4plugins.py -> build/bdist.linux-x86_64/egg/PyInstaller/loader/rthooks
+copying build/lib/PyInstaller/loader/rthooks/pyi_rth_Tkinter.py -> build/bdist.linux-x86_64/egg/PyInstaller/loader/rthooks
+copying build/lib/PyInstaller/loader/rthooks/pyi_rth_twisted.py -> build/bdist.linux-x86_64/egg/PyInstaller/loader/rthooks
+copying build/lib/PyInstaller/loader/rthooks/pyi_rth_usb.py -> build/bdist.linux-x86_64/egg/PyInstaller/loader/rthooks
+copying build/lib/PyInstaller/loader/rthooks/pyi_rth_django.py -> build/bdist.linux-x86_64/egg/PyInstaller/loader/rthooks
+copying build/lib/PyInstaller/loader/rthooks/pyi_rth_babel.py -> build/bdist.linux-x86_64/egg/PyInstaller/loader/rthooks
+copying build/lib/PyInstaller/loader/rthooks/__init__.py -> build/bdist.linux-x86_64/egg/PyInstaller/loader/rthooks
+copying build/lib/PyInstaller/loader/rthooks/pyi_rth_gstreamer.py -> build/bdist.linux-x86_64/egg/PyInstaller/loader/rthooks
+copying build/lib/PyInstaller/loader/rthooks/pyi_rth_pkgres.py -> build/bdist.linux-x86_64/egg/PyInstaller/loader/rthooks
+copying build/lib/PyInstaller/loader/rthooks/pyi_rth_qml.py -> build/bdist.linux-x86_64/egg/PyInstaller/loader/rthooks
+copying build/lib/PyInstaller/loader/rthooks.dat -> build/bdist.linux-x86_64/egg/PyInstaller/loader
+copying build/lib/PyInstaller/loader/__init__.py -> build/bdist.linux-x86_64/egg/PyInstaller/loader
+copying build/lib/PyInstaller/loader/_pyi_bootstrap.py -> build/bdist.linux-x86_64/egg/PyInstaller/loader
+byte-compiling build/bdist.linux-x86_64/egg/PyInstaller/build.py to build.pyc
+byte-compiling build/bdist.linux-x86_64/egg/PyInstaller/compat.py to compat.pyc
+byte-compiling build/bdist.linux-x86_64/egg/PyInstaller/depend/utils.py to utils.pyc
+byte-compiling build/bdist.linux-x86_64/egg/PyInstaller/depend/modules.py to modules.pyc
+byte-compiling build/bdist.linux-x86_64/egg/PyInstaller/depend/imptracker.py to imptracker.pyc
+byte-compiling build/bdist.linux-x86_64/egg/PyInstaller/depend/dylib.py to dylib.pyc
+byte-compiling build/bdist.linux-x86_64/egg/PyInstaller/depend/impdirector.py to impdirector.pyc
+byte-compiling build/bdist.linux-x86_64/egg/PyInstaller/depend/owner.py to owner.pyc
+byte-compiling build/bdist.linux-x86_64/egg/PyInstaller/depend/__init__.py to __init__.pyc
+byte-compiling build/bdist.linux-x86_64/egg/PyInstaller/cliutils/build.py to build.pyc
+byte-compiling build/bdist.linux-x86_64/egg/PyInstaller/cliutils/archive_viewer.py to archive_viewer.pyc
+byte-compiling build/bdist.linux-x86_64/egg/PyInstaller/cliutils/grab_version.py to grab_version.pyc
+byte-compiling build/bdist.linux-x86_64/egg/PyInstaller/cliutils/make_comserver.py to make_comserver.pyc
+byte-compiling build/bdist.linux-x86_64/egg/PyInstaller/cliutils/__init__.py to __init__.pyc
+byte-compiling build/bdist.linux-x86_64/egg/PyInstaller/cliutils/bindepend.py to bindepend.pyc
+byte-compiling build/bdist.linux-x86_64/egg/PyInstaller/cliutils/set_version.py to set_version.pyc
+byte-compiling build/bdist.linux-x86_64/egg/PyInstaller/cliutils/makespec.py to makespec.pyc
+byte-compiling build/bdist.linux-x86_64/egg/PyInstaller/utils/versioninfo.py to versioninfo.pyc
+byte-compiling build/bdist.linux-x86_64/egg/PyInstaller/utils/winmanifest.py to winmanifest.pyc
+byte-compiling build/bdist.linux-x86_64/egg/PyInstaller/utils/winutils.py to winutils.pyc
+byte-compiling build/bdist.linux-x86_64/egg/PyInstaller/utils/icon.py to icon.pyc
+byte-compiling build/bdist.linux-x86_64/egg/PyInstaller/utils/misc.py to misc.pyc
+byte-compiling build/bdist.linux-x86_64/egg/PyInstaller/utils/__init__.py to __init__.pyc
+byte-compiling build/bdist.linux-x86_64/egg/PyInstaller/utils/git.py to git.pyc
+byte-compiling build/bdist.linux-x86_64/egg/PyInstaller/utils/winresource.py to winresource.pyc
+byte-compiling build/bdist.linux-x86_64/egg/PyInstaller/configure.py to configure.pyc
+byte-compiling build/bdist.linux-x86_64/egg/PyInstaller/log.py to log.pyc
+byte-compiling build/bdist.linux-x86_64/egg/PyInstaller/main.py to main.pyc
+byte-compiling build/bdist.linux-x86_64/egg/PyInstaller/__init__.py to __init__.pyc
+byte-compiling build/bdist.linux-x86_64/egg/PyInstaller/bindepend.py to bindepend.pyc
+byte-compiling build/bdist.linux-x86_64/egg/PyInstaller/makespec.py to makespec.pyc
+byte-compiling build/bdist.linux-x86_64/egg/PyInstaller/fake/fake-site.py to fake-site.pyc
+byte-compiling build/bdist.linux-x86_64/egg/PyInstaller/fake/__init__.py to __init__.pyc
+byte-compiling build/bdist.linux-x86_64/egg/PyInstaller/lib/junitxml/tests/__init__.py to __init__.pyc
+byte-compiling build/bdist.linux-x86_64/egg/PyInstaller/lib/junitxml/tests/test_junitxml.py to test_junitxml.pyc
+byte-compiling build/bdist.linux-x86_64/egg/PyInstaller/lib/junitxml/__init__.py to __init__.pyc
+byte-compiling build/bdist.linux-x86_64/egg/PyInstaller/lib/macholib/_cmdline.py to _cmdline.pyc
+byte-compiling build/bdist.linux-x86_64/egg/PyInstaller/lib/macholib/MachO.py to MachO.pyc
+byte-compiling build/bdist.linux-x86_64/egg/PyInstaller/lib/macholib/__main__.py to __main__.pyc
+byte-compiling build/bdist.linux-x86_64/egg/PyInstaller/lib/macholib/SymbolTable.py to SymbolTable.pyc
+byte-compiling build/bdist.linux-x86_64/egg/PyInstaller/lib/macholib/ptypes.py to ptypes.pyc
+byte-compiling build/bdist.linux-x86_64/egg/PyInstaller/lib/macholib/dyld.py to dyld.pyc
+byte-compiling build/bdist.linux-x86_64/egg/PyInstaller/lib/macholib/itergraphreport.py to itergraphreport.pyc
+byte-compiling build/bdist.linux-x86_64/egg/PyInstaller/lib/macholib/MachOStandalone.py to MachOStandalone.pyc
+byte-compiling build/bdist.linux-x86_64/egg/PyInstaller/lib/macholib/macho_find.py to macho_find.pyc
+byte-compiling build/bdist.linux-x86_64/egg/PyInstaller/lib/macholib/util.py to util.pyc
+byte-compiling build/bdist.linux-x86_64/egg/PyInstaller/lib/macholib/dylib.py to dylib.pyc
+byte-compiling build/bdist.linux-x86_64/egg/PyInstaller/lib/macholib/__init__.py to __init__.pyc
+byte-compiling build/bdist.linux-x86_64/egg/PyInstaller/lib/macholib/framework.py to framework.pyc
+byte-compiling build/bdist.linux-x86_64/egg/PyInstaller/lib/macholib/MachOGraph.py to MachOGraph.pyc
+byte-compiling build/bdist.linux-x86_64/egg/PyInstaller/lib/macholib/macho_dump.py to macho_dump.pyc
+byte-compiling build/bdist.linux-x86_64/egg/PyInstaller/lib/macholib/macho_standalone.py to macho_standalone.pyc
+byte-compiling build/bdist.linux-x86_64/egg/PyInstaller/lib/macholib/mach_o.py to mach_o.pyc
+byte-compiling build/bdist.linux-x86_64/egg/PyInstaller/lib/__init__.py to __init__.pyc
+byte-compiling build/bdist.linux-x86_64/egg/PyInstaller/lib/altgraph/Graph.py to Graph.pyc
+byte-compiling build/bdist.linux-x86_64/egg/PyInstaller/lib/altgraph/GraphStat.py to GraphStat.pyc
+byte-compiling build/bdist.linux-x86_64/egg/PyInstaller/lib/altgraph/compat.py to compat.pyc
+byte-compiling build/bdist.linux-x86_64/egg/PyInstaller/lib/altgraph/GraphAlgo.py to GraphAlgo.pyc
+byte-compiling build/bdist.linux-x86_64/egg/PyInstaller/lib/altgraph/Dot.py to Dot.pyc
+byte-compiling build/bdist.linux-x86_64/egg/PyInstaller/lib/altgraph/__init__.py to __init__.pyc
+byte-compiling build/bdist.linux-x86_64/egg/PyInstaller/lib/altgraph/ObjectGraph.py to ObjectGraph.pyc
+byte-compiling build/bdist.linux-x86_64/egg/PyInstaller/lib/altgraph/GraphUtil.py to GraphUtil.pyc
+byte-compiling build/bdist.linux-x86_64/egg/PyInstaller/lib/pefile.py to pefile.pyc
+byte-compiling build/bdist.linux-x86_64/egg/PyInstaller/lib/unittest2/__main__.py to __main__.pyc
+byte-compiling build/bdist.linux-x86_64/egg/PyInstaller/lib/unittest2/signals.py to signals.pyc
+byte-compiling build/bdist.linux-x86_64/egg/PyInstaller/lib/unittest2/case.py to case.pyc
+byte-compiling build/bdist.linux-x86_64/egg/PyInstaller/lib/unittest2/collector.py to collector.pyc
+byte-compiling build/bdist.linux-x86_64/egg/PyInstaller/lib/unittest2/loader.py to loader.pyc
+byte-compiling build/bdist.linux-x86_64/egg/PyInstaller/lib/unittest2/suite.py to suite.pyc
+byte-compiling build/bdist.linux-x86_64/egg/PyInstaller/lib/unittest2/compatibility.py to compatibility.pyc
+byte-compiling build/bdist.linux-x86_64/egg/PyInstaller/lib/unittest2/util.py to util.pyc
+byte-compiling build/bdist.linux-x86_64/egg/PyInstaller/lib/unittest2/test/test_runner.py to test_runner.pyc
+byte-compiling build/bdist.linux-x86_64/egg/PyInstaller/lib/unittest2/test/test_program.py to test_program.pyc
+byte-compiling build/bdist.linux-x86_64/egg/PyInstaller/lib/unittest2/test/test_unittest2_with.py to test_unittest2_with.pyc
+byte-compiling build/bdist.linux-x86_64/egg/PyInstaller/lib/unittest2/test/test_result.py to test_result.pyc
+byte-compiling build/bdist.linux-x86_64/egg/PyInstaller/lib/unittest2/test/test_case.py to test_case.pyc
+byte-compiling build/bdist.linux-x86_64/egg/PyInstaller/lib/unittest2/test/test_setups.py to test_setups.pyc
+byte-compiling build/bdist.linux-x86_64/egg/PyInstaller/lib/unittest2/test/test_loader.py to test_loader.pyc
+byte-compiling build/bdist.linux-x86_64/egg/PyInstaller/lib/unittest2/test/test_break.py to test_break.pyc
+byte-compiling build/bdist.linux-x86_64/egg/PyInstaller/lib/unittest2/test/support.py to support.pyc
+byte-compiling build/bdist.linux-x86_64/egg/PyInstaller/lib/unittest2/test/test_functiontestcase.py to test_functiontestcase.pyc
+byte-compiling build/bdist.linux-x86_64/egg/PyInstaller/lib/unittest2/test/test_discovery.py to test_discovery.pyc
+byte-compiling build/bdist.linux-x86_64/egg/PyInstaller/lib/unittest2/test/test_new_tests.py to test_new_tests.pyc
+byte-compiling build/bdist.linux-x86_64/egg/PyInstaller/lib/unittest2/test/__init__.py to __init__.pyc
+byte-compiling build/bdist.linux-x86_64/egg/PyInstaller/lib/unittest2/test/dummy.py to dummy.pyc
+byte-compiling build/bdist.linux-x86_64/egg/PyInstaller/lib/unittest2/test/test_suite.py to test_suite.pyc
+byte-compiling build/bdist.linux-x86_64/egg/PyInstaller/lib/unittest2/test/test_assertions.py to test_assertions.pyc
+byte-compiling build/bdist.linux-x86_64/egg/PyInstaller/lib/unittest2/test/test_skipping.py to test_skipping.pyc
+byte-compiling build/bdist.linux-x86_64/egg/PyInstaller/lib/unittest2/main.py to main.pyc
+byte-compiling build/bdist.linux-x86_64/egg/PyInstaller/lib/unittest2/__init__.py to __init__.pyc
+byte-compiling build/bdist.linux-x86_64/egg/PyInstaller/lib/unittest2/runner.py to runner.pyc
+byte-compiling build/bdist.linux-x86_64/egg/PyInstaller/lib/unittest2/result.py to result.pyc
+byte-compiling build/bdist.linux-x86_64/egg/PyInstaller/hooks/hook-pywinauto.tests.py to hook-pywinauto.tests.pyc
+byte-compiling build/bdist.linux-x86_64/egg/PyInstaller/hooks/hook-PyQt4.QtHelp.py to hook-PyQt4.QtHelp.pyc
+byte-compiling build/bdist.linux-x86_64/egg/PyInstaller/hooks/hook-enchant.py to hook-enchant.pyc
+byte-compiling build/bdist.linux-x86_64/egg/PyInstaller/hooks/hook-PyQt4.QtGui.py to hook-PyQt4.QtGui.pyc
+byte-compiling build/bdist.linux-x86_64/egg/PyInstaller/hooks/hook-django.contrib.sessions.py to hook-django.contrib.sessions.pyc
+byte-compiling build/bdist.linux-x86_64/egg/PyInstaller/hooks/hook-scipy.io.matlab.py to hook-scipy.io.matlab.pyc
+byte-compiling build/bdist.linux-x86_64/egg/PyInstaller/hooks/hook-PyQt4.QtWebKit.py to hook-PyQt4.QtWebKit.pyc
+byte-compiling build/bdist.linux-x86_64/egg/PyInstaller/hooks/hook-enchant.checker.py to hook-enchant.checker.pyc
+byte-compiling build/bdist.linux-x86_64/egg/PyInstaller/hooks/hook-anydbm.py to hook-anydbm.pyc
+byte-compiling build/bdist.linux-x86_64/egg/PyInstaller/hooks/hook-docutils.py to hook-docutils.pyc
+byte-compiling build/bdist.linux-x86_64/egg/PyInstaller/hooks/hook-OpenGL_accelerate.py to hook-OpenGL_accelerate.pyc
+byte-compiling build/bdist.linux-x86_64/egg/PyInstaller/hooks/hook-django.contrib.py to hook-django.contrib.pyc
+byte-compiling build/bdist.linux-x86_64/egg/PyInstaller/hooks/hook-PyQt5.QtQuick.py to hook-PyQt5.QtQuick.pyc
+byte-compiling build/bdist.linux-x86_64/egg/PyInstaller/hooks/shared_PIL_Image.py to shared_PIL_Image.pyc
+byte-compiling build/bdist.linux-x86_64/egg/PyInstaller/hooks/hook-setuptools.py to hook-setuptools.pyc
+byte-compiling build/bdist.linux-x86_64/egg/PyInstaller/hooks/hook-IPython.py to hook-IPython.pyc
+byte-compiling build/bdist.linux-x86_64/egg/PyInstaller/hooks/hook-PyQt4.uic.port_v3.py to hook-PyQt4.uic.port_v3.pyc
+byte-compiling build/bdist.linux-x86_64/egg/PyInstaller/hooks/hook-xml.dom.ext.py to hook-xml.dom.ext.pyc
+byte-compiling build/bdist.linux-x86_64/egg/PyInstaller/hooks/hook-pyttsx.py to hook-pyttsx.pyc
+byte-compiling build/bdist.linux-x86_64/egg/PyInstaller/hooks/hook-PIL.SpiderImagePlugin.py to hook-PIL.SpiderImagePlugin.pyc
+byte-compiling build/bdist.linux-x86_64/egg/PyInstaller/hooks/hook-dns.rdata.py to hook-dns.rdata.pyc
+byte-compiling build/bdist.linux-x86_64/egg/PyInstaller/hooks/hook-PySide.py to hook-PySide.pyc
+byte-compiling build/bdist.linux-x86_64/egg/PyInstaller/hooks/hook-wx.lib.pubsub.setuparg1.py to hook-wx.lib.pubsub.setuparg1.pyc
+byte-compiling build/bdist.linux-x86_64/egg/PyInstaller/hooks/hook-PyQt4.uic.port_v2.py to hook-PyQt4.uic.port_v2.pyc
+byte-compiling build/bdist.linux-x86_64/egg/PyInstaller/hooks/hook-zmq.py to hook-zmq.pyc
+byte-compiling build/bdist.linux-x86_64/egg/PyInstaller/hooks/hook-PIL.py to hook-PIL.pyc
+byte-compiling build/bdist.linux-x86_64/egg/PyInstaller/hooks/hook-qt.py to hook-qt.pyc
+byte-compiling build/bdist.linux-x86_64/egg/PyInstaller/hooks/hook-sqlite3.py to hook-sqlite3.pyc
+byte-compiling build/bdist.linux-x86_64/egg/PyInstaller/hooks/hook-PyQt4.py to hook-PyQt4.pyc
+byte-compiling build/bdist.linux-x86_64/egg/PyInstaller/hooks/hook-time.py to hook-time.pyc
+byte-compiling build/bdist.linux-x86_64/egg/PyInstaller/hooks/hook-cPickle.py to hook-cPickle.pyc
+byte-compiling build/bdist.linux-x86_64/egg/PyInstaller/hooks/hook-gst.py to hook-gst.pyc
+byte-compiling build/bdist.linux-x86_64/egg/PyInstaller/hooks/hook-PyQt4.QtScript.py to hook-PyQt4.QtScript.pyc
+byte-compiling build/bdist.linux-x86_64/egg/PyInstaller/hooks/hook-pyexpat.py to hook-pyexpat.pyc
+byte-compiling build/bdist.linux-x86_64/egg/PyInstaller/hooks/hook-PyQt5.QtHelp.py to hook-PyQt5.QtHelp.pyc
+byte-compiling build/bdist.linux-x86_64/egg/PyInstaller/hooks/hook-DateTime.py to hook-DateTime.pyc
+byte-compiling build/bdist.linux-x86_64/egg/PyInstaller/hooks/hook-scipy.sparse.csgraph.py to hook-scipy.sparse.csgraph.pyc
+byte-compiling build/bdist.linux-x86_64/egg/PyInstaller/hooks/hook-PyQt5.QtOpenGL.py to hook-PyQt5.QtOpenGL.pyc
+byte-compiling build/bdist.linux-x86_64/egg/PyInstaller/hooks/hook-sysconfig.py to hook-sysconfig.pyc
+byte-compiling build/bdist.linux-x86_64/egg/PyInstaller/hooks/hook-PyQt4.QtNetwork.py to hook-PyQt4.QtNetwork.pyc
+byte-compiling build/bdist.linux-x86_64/egg/PyInstaller/hooks/hook-PyQt4.QtCore.py to hook-PyQt4.QtCore.pyc
+byte-compiling build/bdist.linux-x86_64/egg/PyInstaller/hooks/hook-django.core.mail.py to hook-django.core.mail.pyc
+byte-compiling build/bdist.linux-x86_64/egg/PyInstaller/hooks/hook-PyQt4.Qt3Support.py to hook-PyQt4.Qt3Support.pyc
+byte-compiling build/bdist.linux-x86_64/egg/PyInstaller/hooks/hook-win32com.py to hook-win32com.pyc
+byte-compiling build/bdist.linux-x86_64/egg/PyInstaller/hooks/hook-PyQt5.py to hook-PyQt5.pyc
+byte-compiling build/bdist.linux-x86_64/egg/PyInstaller/hooks/hook-lxml.objectify.py to hook-lxml.objectify.pyc
+byte-compiling build/bdist.linux-x86_64/egg/PyInstaller/hooks/hook-xml.sax.py to hook-xml.sax.pyc
+byte-compiling build/bdist.linux-x86_64/egg/PyInstaller/hooks/hook-bacon.py to hook-bacon.pyc
+byte-compiling build/bdist.linux-x86_64/egg/PyInstaller/hooks/hook-PyQt5.QtXml.py to hook-PyQt5.QtXml.pyc
+byte-compiling build/bdist.linux-x86_64/egg/PyInstaller/hooks/hookutils.py to hookutils.pyc
+byte-compiling build/bdist.linux-x86_64/egg/PyInstaller/hooks/hook-PyQt4.Qwt5.py to hook-PyQt4.Qwt5.pyc
+byte-compiling build/bdist.linux-x86_64/egg/PyInstaller/hooks/hook-PyQt5.phonon.py to hook-PyQt5.phonon.pyc
+byte-compiling build/bdist.linux-x86_64/egg/PyInstaller/hooks/utils/enchant-datafiles-finder.py to enchant-datafiles-finder.pyc
+byte-compiling build/bdist.linux-x86_64/egg/PyInstaller/hooks/utils/django-import-finder.py to django-import-finder.pyc
+byte-compiling build/bdist.linux-x86_64/egg/PyInstaller/hooks/utils/__init__.py to __init__.pyc
+byte-compiling build/bdist.linux-x86_64/egg/PyInstaller/hooks/hook-raven.py to hook-raven.pyc
+byte-compiling build/bdist.linux-x86_64/egg/PyInstaller/hooks/hook-vtkpython.py to hook-vtkpython.pyc
+byte-compiling build/bdist.linux-x86_64/egg/PyInstaller/hooks/hook-_tkinter.py to hook-_tkinter.pyc
+byte-compiling build/bdist.linux-x86_64/egg/PyInstaller/hooks/hook-encodings.py to hook-encodings.pyc
+byte-compiling build/bdist.linux-x86_64/egg/PyInstaller/hooks/hook-pygments.lexers.py to hook-pygments.lexers.pyc
+byte-compiling build/bdist.linux-x86_64/egg/PyInstaller/hooks/hook-codecs.py to hook-codecs.pyc
+byte-compiling build/bdist.linux-x86_64/egg/PyInstaller/hooks/hook-sphinx.py to hook-sphinx.pyc
+byte-compiling build/bdist.linux-x86_64/egg/PyInstaller/hooks/hook-django.db.backends.py to hook-django.db.backends.pyc
+byte-compiling build/bdist.linux-x86_64/egg/PyInstaller/hooks/hook-pytz.py to hook-pytz.pyc
+byte-compiling build/bdist.linux-x86_64/egg/PyInstaller/hooks/hook-site.py to hook-site.pyc
+byte-compiling build/bdist.linux-x86_64/egg/PyInstaller/hooks/hook-regex.py to hook-regex.pyc
+byte-compiling build/bdist.linux-x86_64/egg/PyInstaller/hooks/hook-paste.exceptions.reporter.py to hook-paste.exceptions.reporter.pyc
+byte-compiling build/bdist.linux-x86_64/egg/PyInstaller/hooks/hook-PyQt4.uic.py to hook-PyQt4.uic.pyc
+byte-compiling build/bdist.linux-x86_64/egg/PyInstaller/hooks/hook-wx.lib.activex.py to hook-wx.lib.activex.pyc
+byte-compiling build/bdist.linux-x86_64/egg/PyInstaller/hooks/hook-Image.py to hook-Image.pyc
+byte-compiling build/bdist.linux-x86_64/egg/PyInstaller/hooks/hook-OpenGL.py to hook-OpenGL.pyc
+byte-compiling build/bdist.linux-x86_64/egg/PyInstaller/hooks/hook-matplotlib.py to hook-matplotlib.pyc
+byte-compiling build/bdist.linux-x86_64/egg/PyInstaller/hooks/hook-PyQt4.Qt.py to hook-PyQt4.Qt.pyc
+byte-compiling build/bdist.linux-x86_64/egg/PyInstaller/hooks/hook-usb.py to hook-usb.pyc
+byte-compiling build/bdist.linux-x86_64/egg/PyInstaller/hooks/hook-gadfly.py to hook-gadfly.pyc
+byte-compiling build/bdist.linux-x86_64/egg/PyInstaller/hooks/hook-pythoncom.py to hook-pythoncom.pyc
+byte-compiling build/bdist.linux-x86_64/egg/PyInstaller/hooks/hook-pygments.styles.py to hook-pygments.styles.pyc
+byte-compiling build/bdist.linux-x86_64/egg/PyInstaller/hooks/hook-PyQt5.QtGui.py to hook-PyQt5.QtGui.pyc
+byte-compiling build/bdist.linux-x86_64/egg/PyInstaller/hooks/hook-os.py to hook-os.pyc
+byte-compiling build/bdist.linux-x86_64/egg/PyInstaller/hooks/hook-django.db.backends.oracle.base.py to hook-django.db.backends.oracle.base.pyc
+byte-compiling build/bdist.linux-x86_64/egg/PyInstaller/hooks/hook-httplib.py to hook-httplib.pyc
+byte-compiling build/bdist.linux-x86_64/egg/PyInstaller/hooks/hook-django.py to hook-django.pyc
+byte-compiling build/bdist.linux-x86_64/egg/PyInstaller/hooks/hook-PyQt5.Qt.py to hook-PyQt5.Qt.pyc
+byte-compiling build/bdist.linux-x86_64/egg/PyInstaller/hooks/hook-win32com.client.py to hook-win32com.client.pyc
+byte-compiling build/bdist.linux-x86_64/egg/PyInstaller/hooks/hook-mako.codegen.py to hook-mako.codegen.pyc
+byte-compiling build/bdist.linux-x86_64/egg/PyInstaller/hooks/hook-PyQt5.QtQml.py to hook-PyQt5.QtQml.pyc
+byte-compiling build/bdist.linux-x86_64/egg/PyInstaller/hooks/hook-PyQt4.phonon.py to hook-PyQt4.phonon.pyc
+byte-compiling build/bdist.linux-x86_64/egg/PyInstaller/hooks/hook-xml.etree.cElementTree.py to hook-xml.etree.cElementTree.pyc
+byte-compiling build/bdist.linux-x86_64/egg/PyInstaller/hooks/hook-email.py to hook-email.pyc
+byte-compiling build/bdist.linux-x86_64/egg/PyInstaller/hooks/hook-_sre.py to hook-_sre.pyc
+byte-compiling build/bdist.linux-x86_64/egg/PyInstaller/hooks/hook-PyQt5.QtNetwork.py to hook-PyQt5.QtNetwork.pyc
+byte-compiling build/bdist.linux-x86_64/egg/PyInstaller/hooks/hook-idlelib.py to hook-idlelib.pyc
+byte-compiling build/bdist.linux-x86_64/egg/PyInstaller/hooks/shared_PIL_SpiderImagePlugin.py to shared_PIL_SpiderImagePlugin.pyc
+byte-compiling build/bdist.linux-x86_64/egg/PyInstaller/hooks/hook-PyQt5.QtSvg.py to hook-PyQt5.QtSvg.pyc
+byte-compiling build/bdist.linux-x86_64/egg/PyInstaller/hooks/hook-PyQt5.QtWidgets.py to hook-PyQt5.QtWidgets.pyc
+byte-compiling build/bdist.linux-x86_64/egg/PyInstaller/hooks/hook-django.core.py to hook-django.core.pyc
+byte-compiling build/bdist.linux-x86_64/egg/PyInstaller/hooks/hook-gst._gst.py to hook-gst._gst.pyc
+byte-compiling build/bdist.linux-x86_64/egg/PyInstaller/hooks/hook-cElementTree.py to hook-cElementTree.pyc
+byte-compiling build/bdist.linux-x86_64/egg/PyInstaller/hooks/hook-PyQt4.QtOpenGL.py to hook-PyQt4.QtOpenGL.pyc
+byte-compiling build/bdist.linux-x86_64/egg/PyInstaller/hooks/hook-email.message.py to hook-email.message.pyc
+byte-compiling build/bdist.linux-x86_64/egg/PyInstaller/hooks/hook-PyQt5.QtQuickParticles.py to hook-PyQt5.QtQuickParticles.pyc
+byte-compiling build/bdist.linux-x86_64/egg/PyInstaller/hooks/hook-xml.py to hook-xml.pyc
+byte-compiling build/bdist.linux-x86_64/egg/PyInstaller/hooks/hook-PyQt4.QtAssistant.py to hook-PyQt4.QtAssistant.pyc
+byte-compiling build/bdist.linux-x86_64/egg/PyInstaller/hooks/hook-xml.dom.html.py to hook-xml.dom.html.pyc
+byte-compiling build/bdist.linux-x86_64/egg/PyInstaller/hooks/hook-PyQt5.QtSensors.py to hook-PyQt5.QtSensors.pyc
+byte-compiling build/bdist.linux-x86_64/egg/PyInstaller/hooks/hook-django.db.backends.mysql.py to hook-django.db.backends.mysql.pyc
+byte-compiling build/bdist.linux-x86_64/egg/PyInstaller/hooks/hook-SpiderImagePlugin.py to hook-SpiderImagePlugin.pyc
+byte-compiling build/bdist.linux-x86_64/egg/PyInstaller/hooks/__init__.py to __init__.pyc
+byte-compiling build/bdist.linux-x86_64/egg/PyInstaller/hooks/hook-_mysql.py to hook-_mysql.pyc
+byte-compiling build/bdist.linux-x86_64/egg/PyInstaller/hooks/hook-jinja2.py to hook-jinja2.pyc
+byte-compiling build/bdist.linux-x86_64/egg/PyInstaller/hooks/hook-PyQt5.QtWebKit.py to hook-PyQt5.QtWebKit.pyc
+byte-compiling build/bdist.linux-x86_64/egg/PyInstaller/hooks/hook-h5py.py to hook-h5py.pyc
+byte-compiling build/bdist.linux-x86_64/egg/PyInstaller/hooks/hook-django.core.cache.py to hook-django.core.cache.pyc
+byte-compiling build/bdist.linux-x86_64/egg/PyInstaller/hooks/hook-django.db.backends.mysql.base.py to hook-django.db.backends.mysql.base.pyc
+byte-compiling build/bdist.linux-x86_64/egg/PyInstaller/hooks/hook-xml.dom.html.HTMLDocument.py to hook-xml.dom.html.HTMLDocument.pyc
+byte-compiling build/bdist.linux-x86_64/egg/PyInstaller/hooks/hook-storm.database.py to hook-storm.database.pyc
+byte-compiling build/bdist.linux-x86_64/egg/PyInstaller/hooks/hook-pygame.py to hook-pygame.pyc
+byte-compiling build/bdist.linux-x86_64/egg/PyInstaller/hooks/hook-django.db.py to hook-django.db.pyc
+byte-compiling build/bdist.linux-x86_64/egg/PyInstaller/hooks/hook-PyQt4.QtSvg.py to hook-PyQt4.QtSvg.pyc
+byte-compiling build/bdist.linux-x86_64/egg/PyInstaller/hooks/hook-PyQt4.QtSql.py to hook-PyQt4.QtSql.pyc
+byte-compiling build/bdist.linux-x86_64/egg/PyInstaller/hooks/hook-lxml.etree.py to hook-lxml.etree.pyc
+byte-compiling build/bdist.linux-x86_64/egg/PyInstaller/hooks/hook-PIL.Image.py to hook-PIL.Image.pyc
+byte-compiling build/bdist.linux-x86_64/egg/PyInstaller/hooks/hook-pyodbc.py to hook-pyodbc.pyc
+byte-compiling build/bdist.linux-x86_64/egg/PyInstaller/hooks/hook-babel.py to hook-babel.pyc
+byte-compiling build/bdist.linux-x86_64/egg/PyInstaller/hooks/hook-PyQt5.QtScript.py to hook-PyQt5.QtScript.pyc
+byte-compiling build/bdist.linux-x86_64/egg/PyInstaller/hooks/hook-pywintypes.py to hook-pywintypes.pyc
+byte-compiling build/bdist.linux-x86_64/egg/PyInstaller/hooks/hook-kinterbasdb.py to hook-kinterbasdb.pyc
+byte-compiling build/bdist.linux-x86_64/egg/PyInstaller/hooks/hook-xml.dom.py to hook-xml.dom.pyc
+byte-compiling build/bdist.linux-x86_64/egg/PyInstaller/hooks/hook-django.core.management.py to hook-django.core.management.pyc
+byte-compiling build/bdist.linux-x86_64/egg/PyInstaller/hooks/hook-matplotlib.numerix.py to hook-matplotlib.numerix.pyc
+byte-compiling build/bdist.linux-x86_64/egg/PyInstaller/hooks/hook-enchant.checker.wxSpellCheckerDialog.py to hook-enchant.checker.wxSpellCheckerDialog.pyc
+byte-compiling build/bdist.linux-x86_64/egg/PyInstaller/hooks/hook-parser.py to hook-parser.pyc
+byte-compiling build/bdist.linux-x86_64/egg/PyInstaller/hooks/hook-xml.sax.saxexts.py to hook-xml.sax.saxexts.pyc
+byte-compiling build/bdist.linux-x86_64/egg/PyInstaller/hooks/hook-wx.lib.pubsub.core.py to hook-wx.lib.pubsub.core.pyc
+byte-compiling build/bdist.linux-x86_64/egg/PyInstaller/hooks/hook-win32ui.py to hook-win32ui.pyc
+byte-compiling build/bdist.linux-x86_64/egg/PyInstaller/hooks/hook-PyQt5.QtCore.py to hook-PyQt5.QtCore.pyc
+byte-compiling build/bdist.linux-x86_64/egg/PyInstaller/hooks/hook-distutils.py to hook-distutils.pyc
+byte-compiling build/bdist.linux-x86_64/egg/PyInstaller/hooks/hook-PyQt5.uic.port_v3.py to hook-PyQt5.uic.port_v3.pyc
+byte-compiling build/bdist.linux-x86_64/egg/PyInstaller/hooks/hook-matplotlib.backends.py to hook-matplotlib.backends.pyc
+byte-compiling build/bdist.linux-x86_64/egg/PyInstaller/hooks/hook-xml.dom.domreg.py to hook-xml.dom.domreg.pyc
+byte-compiling build/bdist.linux-x86_64/egg/PyInstaller/hooks/hook-DateTime.mxDateTime.py to hook-DateTime.mxDateTime.pyc
+byte-compiling build/bdist.linux-x86_64/egg/PyInstaller/hooks/hook-tables.py to hook-tables.pyc
+byte-compiling build/bdist.linux-x86_64/egg/PyInstaller/hooks/hook-cStringIO.py to hook-cStringIO.pyc
+byte-compiling build/bdist.linux-x86_64/egg/PyInstaller/hooks/hook-sqlalchemy.py to hook-sqlalchemy.pyc
+byte-compiling build/bdist.linux-x86_64/egg/PyInstaller/hooks/hook-PyQt4.QtTest.py to hook-PyQt4.QtTest.pyc
+byte-compiling build/bdist.linux-x86_64/egg/PyInstaller/hooks/hook-PyQt5.Qwt5.py to hook-PyQt5.Qwt5.pyc
+byte-compiling build/bdist.linux-x86_64/egg/PyInstaller/hooks/hook-cx_Oracle.py to hook-cx_Oracle.pyc
+byte-compiling build/bdist.linux-x86_64/egg/PyInstaller/hooks/hook-gtk.py to hook-gtk.pyc
+byte-compiling build/bdist.linux-x86_64/egg/PyInstaller/hooks/hook-clr.py to hook-clr.pyc
+byte-compiling build/bdist.linux-x86_64/egg/PyInstaller/hooks/hook-PyQt5.QtSql.py to hook-PyQt5.QtSql.pyc
+byte-compiling build/bdist.linux-x86_64/egg/PyInstaller/hooks/hook-PyQt5.QtSerialPort.py to hook-PyQt5.QtSerialPort.pyc
+byte-compiling build/bdist.linux-x86_64/egg/PyInstaller/hooks/hook-_elementtree.py to hook-_elementtree.pyc
+byte-compiling build/bdist.linux-x86_64/egg/PyInstaller/hooks/hook-pydoc.py to hook-pydoc.pyc
+byte-compiling build/bdist.linux-x86_64/egg/PyInstaller/hooks/hook-PyQt5.QtTest.py to hook-PyQt5.QtTest.pyc
+byte-compiling build/bdist.linux-x86_64/egg/PyInstaller/hooks/hook-psycopg2.py to hook-psycopg2.pyc
+byte-compiling build/bdist.linux-x86_64/egg/PyInstaller/hooks/hook-PyQt5.uic.port_v2.py to hook-PyQt5.uic.port_v2.pyc
+byte-compiling build/bdist.linux-x86_64/egg/PyInstaller/hooks/hook-django.db.backends.oracle.py to hook-django.db.backends.oracle.pyc
+byte-compiling build/bdist.linux-x86_64/egg/PyInstaller/hooks/hook-PyQt4.QtXml.py to hook-PyQt4.QtXml.pyc
+byte-compiling build/bdist.linux-x86_64/egg/PyInstaller/hooks/hook-PyQt5.uic.py to hook-PyQt5.uic.pyc
+byte-compiling build/bdist.linux-x86_64/egg/PyInstaller/hooks/hook-pywinauto.py to hook-pywinauto.pyc
+byte-compiling build/bdist.linux-x86_64/egg/PyInstaller/hooks/hook-xml.dom.ext.reader.py to hook-xml.dom.ext.reader.pyc
+byte-compiling build/bdist.linux-x86_64/egg/PyInstaller/loader/_pyi_egg_install.py to _pyi_egg_install.pyc
+byte-compiling build/bdist.linux-x86_64/egg/PyInstaller/loader/pyi_importers.py to pyi_importers.pyc
+byte-compiling build/bdist.linux-x86_64/egg/PyInstaller/loader/pyi_carchive.py to pyi_carchive.pyc
+byte-compiling build/bdist.linux-x86_64/egg/PyInstaller/loader/pyi_os_path.py to pyi_os_path.pyc
+byte-compiling build/bdist.linux-x86_64/egg/PyInstaller/loader/pyi_archive.py to pyi_archive.pyc
+byte-compiling build/bdist.linux-x86_64/egg/PyInstaller/loader/rthooks/pyi_rth_mplconfig.py to pyi_rth_mplconfig.pyc
+byte-compiling build/bdist.linux-x86_64/egg/PyInstaller/loader/rthooks/pyi_rth_Image.py to pyi_rth_Image.pyc
+byte-compiling build/bdist.linux-x86_64/egg/PyInstaller/loader/rthooks/pyi_rth_win32comgenpy.py to pyi_rth_win32comgenpy.pyc
+byte-compiling build/bdist.linux-x86_64/egg/PyInstaller/loader/rthooks/pyi_rth_qt5plugins.py to pyi_rth_qt5plugins.pyc
+byte-compiling build/bdist.linux-x86_64/egg/PyInstaller/loader/rthooks/pyi_rth_PIL_Image.py to pyi_rth_PIL_Image.pyc
+byte-compiling build/bdist.linux-x86_64/egg/PyInstaller/loader/rthooks/pyi_rth_mpldata.py to pyi_rth_mpldata.pyc
+byte-compiling build/bdist.linux-x86_64/egg/PyInstaller/loader/rthooks/pyi_rth_qt4plugins.py to pyi_rth_qt4plugins.pyc
+byte-compiling build/bdist.linux-x86_64/egg/PyInstaller/loader/rthooks/pyi_rth_Tkinter.py to pyi_rth_Tkinter.pyc
+byte-compiling build/bdist.linux-x86_64/egg/PyInstaller/loader/rthooks/pyi_rth_twisted.py to pyi_rth_twisted.pyc
+byte-compiling build/bdist.linux-x86_64/egg/PyInstaller/loader/rthooks/pyi_rth_usb.py to pyi_rth_usb.pyc
+byte-compiling build/bdist.linux-x86_64/egg/PyInstaller/loader/rthooks/pyi_rth_django.py to pyi_rth_django.pyc
+byte-compiling build/bdist.linux-x86_64/egg/PyInstaller/loader/rthooks/pyi_rth_babel.py to pyi_rth_babel.pyc
+byte-compiling build/bdist.linux-x86_64/egg/PyInstaller/loader/rthooks/__init__.py to __init__.pyc
+byte-compiling build/bdist.linux-x86_64/egg/PyInstaller/loader/rthooks/pyi_rth_gstreamer.py to pyi_rth_gstreamer.pyc
+byte-compiling build/bdist.linux-x86_64/egg/PyInstaller/loader/rthooks/pyi_rth_pkgres.py to pyi_rth_pkgres.pyc
+byte-compiling build/bdist.linux-x86_64/egg/PyInstaller/loader/rthooks/pyi_rth_qml.py to pyi_rth_qml.pyc
+byte-compiling build/bdist.linux-x86_64/egg/PyInstaller/loader/__init__.py to __init__.pyc
+byte-compiling build/bdist.linux-x86_64/egg/PyInstaller/loader/_pyi_bootstrap.py to _pyi_bootstrap.pyc
+creating build/bdist.linux-x86_64/egg/EGG-INFO
+copying PyInstaller.egg-info/PKG-INFO -> build/bdist.linux-x86_64/egg/EGG-INFO
+copying PyInstaller.egg-info/SOURCES.txt -> build/bdist.linux-x86_64/egg/EGG-INFO
+copying PyInstaller.egg-info/dependency_links.txt -> build/bdist.linux-x86_64/egg/EGG-INFO
+copying PyInstaller.egg-info/entry_points.txt -> build/bdist.linux-x86_64/egg/EGG-INFO
+copying PyInstaller.egg-info/not-zip-safe -> build/bdist.linux-x86_64/egg/EGG-INFO
+copying PyInstaller.egg-info/requires.txt -> build/bdist.linux-x86_64/egg/EGG-INFO
+copying PyInstaller.egg-info/top_level.txt -> build/bdist.linux-x86_64/egg/EGG-INFO
+writing build/bdist.linux-x86_64/egg/EGG-INFO/native_libs.txt
+creating dist
+creating 'dist/PyInstaller-2.1-py2.7.egg' and adding 'build/bdist.linux-x86_64/egg' to it
+removing 'build/bdist.linux-x86_64/egg' (and everything under it)
+Processing PyInstaller-2.1-py2.7.egg
+creating /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/PyInstaller-2.1-py2.7.egg
+Extracting PyInstaller-2.1-py2.7.egg to /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages
+Adding PyInstaller 2.1 to easy-install.pth file
+Installing pyinstaller script to /home/ubuntu/miniconda/envs/_build/bin
+Installing pyi-grab_version script to /home/ubuntu/miniconda/envs/_build/bin
+Installing pyi-archive_viewer script to /home/ubuntu/miniconda/envs/_build/bin
+Installing pyi-build script to /home/ubuntu/miniconda/envs/_build/bin
+Installing pyi-make_comserver script to /home/ubuntu/miniconda/envs/_build/bin
+Installing pyi-bindepend script to /home/ubuntu/miniconda/envs/_build/bin
+Installing pyi-set_version script to /home/ubuntu/miniconda/envs/_build/bin
+Installing pyi-makespec script to /home/ubuntu/miniconda/envs/_build/bin
+
+Installed /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/PyInstaller-2.1-py2.7.egg
+Processing dependencies for PyInstaller==2.1
+Searching for distribute==0.7.3
+Best match: distribute 0.7.3
+Processing distribute-0.7.3-py2.7.egg
+Adding distribute 0.7.3 to easy-install.pth file
+
+Using /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/distribute-0.7.3-py2.7.egg
+Searching for setuptools==15.2
+Best match: setuptools 15.2
+Adding setuptools 15.2 to easy-install.pth file
+Installing easy_install-3.4 script to /home/ubuntu/miniconda/envs/_build/bin
+Installing easy_install script to /home/ubuntu/miniconda/envs/_build/bin
+
+Using /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages
+Finished processing dependencies for PyInstaller==2.1
+
+The following packages will be downloaded:
+
+    package                    |            build
+    ---------------------------|-----------------
+    distribute-0.7.3           |           py27_0           4 KB
+
+The following NEW packages will be INSTALLED:
+
+    distribute: 0.7.3-py27_0 
+    openssl:    1.0.1k-1     
+    pip:        7.0.3-py27_0 
+    python:     2.7.10-0     
+    readline:   6.2-2        
+    setuptools: 18.0.1-py27_0
+    sqlite:     3.8.4.1-1    
+    system:     5.8-2        
+    tk:         8.5.18-0     
+    zlib:       1.2.8-0      
+
+Fetching packages ...
+distribute-0.7   0% |                              | ETA:  --:--:--   0.00  B/sdistribute-0.7 100% |###############################| ETA:  0:00:00   8.54 MB/sdistribute-0.7 100% |###############################| Time: 0:00:00   5.30 MB/s
+Extracting packages ...
+[                    ]|                                                  |   0%[distribute          ]|                                                  |   0%[      COMPLETE      ]|##################################################| 100%
+Linking packages ...
+[      COMPLETE      ]|                                                  |   0%[openssl             ]|                                                  |   0%[openssl             ]|                                                  |   0%[readline            ]|#####                                             |  10%[sqlite              ]|##########                                        |  20%[system              ]|###############                                   |  30%[tk                  ]|####################                              |  40%[zlib                ]|#########################                         |  50%[python              ]|##############################                    |  60%[setuptools          ]|###################################               |  70%[distribute          ]|########################################          |  80%[pip                 ]|#############################################     |  90%[      COMPLETE      ]|##################################################| 100%
+Removing old work directory
+Source cache directory is: /home/ubuntu/miniconda/conda-bld/src_cache
+Found source in cache: PyInstaller-2.1.tar.gz
+Extracting download
+Package: pyinstaller-2.1-py_0
+source tree in: /home/ubuntu/miniconda/conda-bld/work/PyInstaller-2.1
+found egg dir: /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/PyInstaller-2.1-py2.7.egg
+number of files: 600
+Fixing permissions
+patchelf: file: /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/PyInstaller/bootloader/Linux-32bit/run
+    setting rpath to: $ORIGIN/../../../../..
+patchelf: file: /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/PyInstaller/bootloader/Linux-32bit/run_d
+    setting rpath to: $ORIGIN/../../../../..
+patchelf: file: /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/PyInstaller/bootloader/Linux-32bit/runw
+    setting rpath to: $ORIGIN/../../../../..
+patchelf: file: /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/PyInstaller/bootloader/Linux-32bit/runw_d
+    setting rpath to: $ORIGIN/../../../../..
+patchelf: file: /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/PyInstaller/bootloader/Linux-64bit/run
+    setting rpath to: $ORIGIN/../../../../..
+patchelf: file: /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/PyInstaller/bootloader/Linux-64bit/run_d
+    setting rpath to: $ORIGIN/../../../../..
+patchelf: file: /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/PyInstaller/bootloader/Linux-64bit/runw
+    setting rpath to: $ORIGIN/../../../../..
+patchelf: file: /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/PyInstaller/bootloader/Linux-64bit/runw_d
+    setting rpath to: $ORIGIN/../../../../..
+Fixing permissions
+BUILD END: pyinstaller-2.1-py_0
+TEST START: pyinstaller-2.1-py_0
+Fetching package metadata: ......
+
+WARNING: conda-build appears to be out of date. You have version 1.13.0 but the
+latest version is 1.14.1. Run
+
+conda update -n root conda-build
+
+to get the latest version.
+
+Solving package specifications: .
+The following packages will be downloaded:
+
+    package                    |            build
+    ---------------------------|-----------------
+    pyinstaller-2.1            |             py_0         3.2 MB
+
+The following NEW packages will be INSTALLED:
+
+    distribute:  0.7.3-py27_0 
+    openssl:     1.0.1k-1     
+    pip:         7.0.3-py27_0 
+    pyinstaller: 2.1-py_0     
+    python:      2.7.10-0     
+    readline:    6.2-2        
+    setuptools:  18.0.1-py27_0
+    sqlite:      3.8.4.1-1    
+    system:      5.8-2        
+    tk:          8.5.18-0     
+    zlib:        1.2.8-0      
+
+Fetching packages ...
+pyinstaller-2.   0% |                              | ETA:  --:--:--   0.00  B/spyinstaller-2.   0% |                               | Time: 0:00:00  62.30 MB/spyinstaller-2.   0% |                               | Time: 0:00:00  69.87 MB/spyinstaller-2.   1% |                               | Time: 0:00:00  74.80 MB/spyinstaller-2.   1% |                               | Time: 0:00:00   7.31 MB/spyinstaller-2.   2% |                               | Time: 0:00:00   8.94 MB/spyinstaller-2.   2% |                               | Time: 0:00:00  10.52 MB/spyinstaller-2.   3% |#                              | Time: 0:00:00  12.03 MB/spyinstaller-2.   3% |#                              | Time: 0:00:00  13.49 MB/spyinstaller-2.   4% |#                              | Time: 0:00:00  14.90 MB/spyinstaller-2.   4% |#                              | Time: 0:00:00  16.26 MB/spyinstaller-2.   5% |#                              | Time: 0:00:00  17.57 MB/spyinstaller-2.   5% |#                              | Time: 0:00:00  18.84 MB/spyinstaller-2.   6% |#                              | Time: 0:00:00  20.07 MB/spyinstaller-2.   6% |##                             | Time: 0:00:00  21.25 MB/spyinstaller-2.   7% |##                             | Time: 0:00:00  22.39 MB/spyinstaller-2.   7% |##                             | Time: 0:00:00  23.49 MB/spyinstaller-2.   8% |##                             | Time: 0:00:00  24.56 MB/spyinstaller-2.   8% |##                             | Time: 0:00:00  25.57 MB/spyinstaller-2.   9% |##                             | Time: 0:00:00  26.57 MB/spyinstaller-2.   9% |###                            | Time: 0:00:00  27.55 MB/spyinstaller-2.  10% |###                            | Time: 0:00:00  28.50 MB/spyinstaller-2.  10% |###                            | Time: 0:00:00  29.42 MB/spyinstaller-2.  11% |###                            | Time: 0:00:00  30.31 MB/spyinstaller-2.  11% |###                            | Time: 0:00:00  31.17 MB/spyinstaller-2.  12% |###                            | Time: 0:00:00  32.02 MB/spyinstaller-2.  12% |###                            | Time: 0:00:00  32.85 MB/spyinstaller-2.  13% |####                           | Time: 0:00:00  33.63 MB/spyinstaller-2.  13% |####                           | Time: 0:00:00  34.41 MB/spyinstaller-2.  14% |####                           | Time: 0:00:00  35.17 MB/spyinstaller-2.  14% |####                           | Time: 0:00:00  35.90 MB/spyinstaller-2.  15% |####                           | Time: 0:00:00  36.61 MB/spyinstaller-2.  15% |####                           | Time: 0:00:00  37.31 MB/spyinstaller-2.  16% |####                           | Time: 0:00:00  37.99 MB/spyinstaller-2.  16% |#####                          | Time: 0:00:00  38.66 MB/spyinstaller-2.  16% |#####                          | Time: 0:00:00  39.31 MB/spyinstaller-2.  17% |#####                          | Time: 0:00:00  39.96 MB/spyinstaller-2.  17% |#####                          | Time: 0:00:00  40.57 MB/spyinstaller-2.  18% |#####                          | Time: 0:00:00  41.17 MB/spyinstaller-2.  18% |#####                          | Time: 0:00:00  41.75 MB/spyinstaller-2.  19% |######                         | Time: 0:00:00  42.29 MB/spyinstaller-2.  19% |######                         | Time: 0:00:00  42.85 MB/spyinstaller-2.  20% |######                         | Time: 0:00:00  43.40 MB/spyinstaller-2.  20% |######                         | Time: 0:00:00  43.94 MB/spyinstaller-2.  21% |######                         | Time: 0:00:00  44.44 MB/spyinstaller-2.  21% |######                         | Time: 0:00:00  44.96 MB/spyinstaller-2.  22% |######                         | Time: 0:00:00  45.46 MB/spyinstaller-2.  22% |#######                        | Time: 0:00:00  45.95 MB/spyinstaller-2.  23% |#######                        | Time: 0:00:00  46.43 MB/spyinstaller-2.  23% |#######                        | Time: 0:00:00  31.80 MB/spyinstaller-2.  24% |#######                        | Time: 0:00:00  32.22 MB/spyinstaller-2.  24% |#######                        | Time: 0:00:00  32.64 MB/spyinstaller-2.  25% |#######                        | Time: 0:00:00  33.05 MB/spyinstaller-2.  25% |#######                        | Time: 0:00:00  33.45 MB/spyinstaller-2.  26% |########                       | Time: 0:00:00  33.84 MB/spyinstaller-2.  26% |########                       | Time: 0:00:00  34.23 MB/spyinstaller-2.  27% |########                       | Time: 0:00:00  34.62 MB/spyinstaller-2.  27% |########                       | Time: 0:00:00  35.00 MB/spyinstaller-2.  28% |########                       | Time: 0:00:00  35.38 MB/spyinstaller-2.  28% |########                       | Time: 0:00:00  35.75 MB/spyinstaller-2.  29% |#########                      | Time: 0:00:00  36.12 MB/spyinstaller-2.  29% |#########                      | Time: 0:00:00  36.47 MB/spyinstaller-2.  30% |#########                      | Time: 0:00:00  31.28 MB/spyinstaller-2.  30% |#########                      | Time: 0:00:00  31.61 MB/spyinstaller-2.  31% |#########                      | Time: 0:00:00  31.94 MB/spyinstaller-2.  31% |#########                      | Time: 0:00:00  32.26 MB/spyinstaller-2.  32% |#########                      | Time: 0:00:00  32.58 MB/spyinstaller-2.  32% |##########                     | Time: 0:00:00  32.89 MB/spyinstaller-2.  32% |##########                     | Time: 0:00:00  33.19 MB/spyinstaller-2.  33% |##########                     | Time: 0:00:00  33.50 MB/spyinstaller-2.  33% |##########                     | Time: 0:00:00  33.80 MB/spyinstaller-2.  34% |##########                     | Time: 0:00:00  34.09 MB/spyinstaller-2.  34% |##########                     | Time: 0:00:00  34.39 MB/spyinstaller-2.  35% |##########                     | Time: 0:00:00  34.69 MB/spyinstaller-2.  35% |###########                    | Time: 0:00:00  34.98 MB/spyinstaller-2.  36% |###########                    | Time: 0:00:00  35.27 MB/spyinstaller-2.  36% |###########                    | Time: 0:00:00  35.56 MB/spyinstaller-2.  37% |###########                    | Time: 0:00:00  35.82 MB/spyinstaller-2.  37% |###########                    | Time: 0:00:00  36.11 MB/spyinstaller-2.  38% |###########                    | Time: 0:00:00  36.37 MB/spyinstaller-2.  38% |############                   | Time: 0:00:00  36.63 MB/spyinstaller-2.  39% |############                   | Time: 0:00:00  36.90 MB/spyinstaller-2.  39% |############                   | Time: 0:00:00  37.17 MB/spyinstaller-2.  40% |############                   | Time: 0:00:00  37.44 MB/spyinstaller-2.  40% |############                   | Time: 0:00:00  37.70 MB/spyinstaller-2.  41% |############                   | Time: 0:00:00  37.96 MB/spyinstaller-2.  41% |############                   | Time: 0:00:00  38.23 MB/spyinstaller-2.  42% |#############                  | Time: 0:00:00  38.47 MB/spyinstaller-2.  42% |#############                  | Time: 0:00:00  38.72 MB/spyinstaller-2.  43% |#############                  | Time: 0:00:00  38.96 MB/spyinstaller-2.  43% |#############                  | Time: 0:00:00  39.21 MB/spyinstaller-2.  44% |#############                  | Time: 0:00:00  39.46 MB/spyinstaller-2.  44% |#############                  | Time: 0:00:00  39.70 MB/spyinstaller-2.  45% |#############                  | Time: 0:00:00  39.95 MB/spyinstaller-2.  45% |##############                 | Time: 0:00:00  40.19 MB/spyinstaller-2.  46% |##############                 | Time: 0:00:00  40.42 MB/spyinstaller-2.  46% |##############                 | Time: 0:00:00  40.65 MB/spyinstaller-2.  47% |##############                 | Time: 0:00:00  40.86 MB/spyinstaller-2.  47% |##############                 | Time: 0:00:00  41.08 MB/spyinstaller-2.  48% |##############                 | Time: 0:00:00  41.31 MB/spyinstaller-2.  48% |###############                | Time: 0:00:00  41.52 MB/spyinstaller-2.  48% |###############                | Time: 0:00:00  41.75 MB/spyinstaller-2.  49% |###############                | Time: 0:00:00  41.98 MB/spyinstaller-2.  49% |###############                | Time: 0:00:00  42.20 MB/spyinstaller-2.  50% |###############                | Time: 0:00:00  42.40 MB/spyinstaller-2.  50% |###############                | Time: 0:00:00  42.61 MB/spyinstaller-2.  51% |###############                | Time: 0:00:00  42.82 MB/spyinstaller-2.  51% |################               | Time: 0:00:00  43.02 MB/spyinstaller-2.  52% |################               | Time: 0:00:00  43.23 MB/spyinstaller-2.  52% |################               | Time: 0:00:00  43.43 MB/spyinstaller-2.  53% |################               | Time: 0:00:00  43.63 MB/spyinstaller-2.  53% |################               | Time: 0:00:00  36.59 MB/spyinstaller-2.  54% |################               | Time: 0:00:00  36.78 MB/spyinstaller-2.  54% |################               | Time: 0:00:00  36.98 MB/spyinstaller-2.  55% |#################              | Time: 0:00:00  37.17 MB/spyinstaller-2.  55% |#################              | Time: 0:00:00  37.37 MB/spyinstaller-2.  56% |#################              | Time: 0:00:00  37.54 MB/spyinstaller-2.  56% |#################              | Time: 0:00:00  37.73 MB/spyinstaller-2.  57% |#################              | Time: 0:00:00  37.92 MB/spyinstaller-2.  57% |#################              | Time: 0:00:00  38.11 MB/spyinstaller-2.  58% |##################             | Time: 0:00:00  38.29 MB/spyinstaller-2.  58% |##################             | Time: 0:00:00  38.35 MB/spyinstaller-2.  59% |##################             | Time: 0:00:00  38.53 MB/spyinstaller-2.  59% |##################             | Time: 0:00:00  38.71 MB/spyinstaller-2.  60% |##################             | Time: 0:00:00  38.90 MB/spyinstaller-2.  60% |##################             | Time: 0:00:00  39.07 MB/spyinstaller-2.  61% |##################             | Time: 0:00:00  39.25 MB/spyinstaller-2.  61% |###################            | Time: 0:00:00  39.43 MB/spyinstaller-2.  62% |###################            | Time: 0:00:00  39.61 MB/spyinstaller-2.  62% |###################            | Time: 0:00:00  39.78 MB/spyinstaller-2.  63% |###################            | Time: 0:00:00  39.96 MB/spyinstaller-2.  63% |###################            | Time: 0:00:00  40.13 MB/spyinstaller-2.  64% |###################            | Time: 0:00:00  40.30 MB/spyinstaller-2.  64% |###################            | Time: 0:00:00  40.47 MB/spyinstaller-2.  64% |####################           | Time: 0:00:00  40.64 MB/spyinstaller-2.  65% |####################           | Time: 0:00:00  40.81 MB/spyinstaller-2.  65% |####################           | Time: 0:00:00  40.98 MB/spyinstaller-2.  66% |####################           | Time: 0:00:00  41.15 MB/spyinstaller-2.  66% |####################           | Time: 0:00:00  41.31 MB/spyinstaller-2.  67% |####################           | Time: 0:00:00  41.48 MB/spyinstaller-2.  67% |#####################          | Time: 0:00:00  41.64 MB/spyinstaller-2.  68% |#####################          | Time: 0:00:00  41.80 MB/spyinstaller-2.  68% |#####################          | Time: 0:00:00  41.95 MB/spyinstaller-2.  69% |#####################          | Time: 0:00:00  42.11 MB/spyinstaller-2.  69% |#####################          | Time: 0:00:00  42.27 MB/spyinstaller-2.  70% |#####################          | Time: 0:00:00  42.43 MB/spyinstaller-2.  70% |#####################          | Time: 0:00:00  42.58 MB/spyinstaller-2.  71% |######################         | Time: 0:00:00  42.74 MB/spyinstaller-2.  71% |######################         | Time: 0:00:00  42.89 MB/spyinstaller-2.  72% |######################         | Time: 0:00:00  43.05 MB/spyinstaller-2.  72% |######################         | Time: 0:00:00  43.20 MB/spyinstaller-2.  73% |######################         | Time: 0:00:00  43.35 MB/spyinstaller-2.  73% |######################         | Time: 0:00:00  43.51 MB/spyinstaller-2.  74% |#######################        | Time: 0:00:00  43.66 MB/spyinstaller-2.  74% |#######################        | Time: 0:00:00  38.39 MB/spyinstaller-2.  75% |#######################        | Time: 0:00:00  38.53 MB/spyinstaller-2.  75% |#######################        | Time: 0:00:00  38.68 MB/spyinstaller-2.  76% |#######################        | Time: 0:00:00  38.82 MB/spyinstaller-2.  76% |#######################        | Time: 0:00:00  38.96 MB/spyinstaller-2.  77% |#######################        | Time: 0:00:00  39.10 MB/spyinstaller-2.  77% |########################       | Time: 0:00:00  39.24 MB/spyinstaller-2.  78% |########################       | Time: 0:00:00  39.39 MB/spyinstaller-2.  78% |########################       | Time: 0:00:00  39.52 MB/spyinstaller-2.  79% |########################       | Time: 0:00:00  39.66 MB/spyinstaller-2.  79% |########################       | Time: 0:00:00  39.79 MB/spyinstaller-2.  80% |########################       | Time: 0:00:00  39.93 MB/spyinstaller-2.  80% |########################       | Time: 0:00:00  40.07 MB/spyinstaller-2.  80% |#########################      | Time: 0:00:00  40.20 MB/spyinstaller-2.  81% |#########################      | Time: 0:00:00  40.34 MB/spyinstaller-2.  81% |#########################      | Time: 0:00:00  40.47 MB/spyinstaller-2.  82% |#########################      | Time: 0:00:00  40.61 MB/spyinstaller-2.  82% |#########################      | Time: 0:00:00  40.74 MB/spyinstaller-2.  83% |#########################      | Time: 0:00:00  40.87 MB/spyinstaller-2.  83% |##########################     | Time: 0:00:00  41.00 MB/spyinstaller-2.  84% |##########################     | Time: 0:00:00  41.13 MB/spyinstaller-2.  84% |##########################     | Time: 0:00:00  41.26 MB/spyinstaller-2.  85% |##########################     | Time: 0:00:00  41.39 MB/spyinstaller-2.  85% |##########################     | Time: 0:00:00  41.52 MB/spyinstaller-2.  86% |##########################     | Time: 0:00:00  41.65 MB/spyinstaller-2.  86% |##########################     | Time: 0:00:00  41.78 MB/spyinstaller-2.  87% |###########################    | Time: 0:00:00  41.90 MB/spyinstaller-2.  87% |###########################    | Time: 0:00:00  42.03 MB/spyinstaller-2.  88% |###########################    | Time: 0:00:00  42.15 MB/spyinstaller-2.  88% |###########################    | Time: 0:00:00  42.28 MB/spyinstaller-2.  89% |###########################    | Time: 0:00:00  42.40 MB/spyinstaller-2.  89% |###########################    | Time: 0:00:00  42.53 MB/spyinstaller-2.  90% |###########################    | Time: 0:00:00  42.64 MB/spyinstaller-2.  90% |############################   | Time: 0:00:00  42.77 MB/spyinstaller-2.  91% |############################   | Time: 0:00:00  42.89 MB/spyinstaller-2.  91% |############################   | Time: 0:00:00  42.97 MB/spyinstaller-2.  92% |############################   | Time: 0:00:00  43.09 MB/spyinstaller-2.  92% |############################   | Time: 0:00:00  43.21 MB/spyinstaller-2.  93% |############################   | Time: 0:00:00  43.33 MB/spyinstaller-2.  93% |#############################  | Time: 0:00:00  43.45 MB/spyinstaller-2.  94% |#############################  | Time: 0:00:00  43.57 MB/spyinstaller-2.  94% |#############################  | Time: 0:00:00  43.68 MB/spyinstaller-2.  95% |#############################  | Time: 0:00:00  43.80 MB/spy===== testing package: pyinstaller-2.1-py_0 =====
+import: u'PyInstaller'
+import: u'PyInstaller.cliutils'
+import: u'PyInstaller.depend'
+import: u'PyInstaller.fake'
+import: u'PyInstaller.hooks'
+import: u'PyInstaller.hooks.utils'
+import: u'PyInstaller.lib'
+import: u'PyInstaller.lib.altgraph'
+import: u'PyInstaller.lib.junitxml'
+import: u'PyInstaller.lib.junitxml.tests'
+import: u'PyInstaller.lib.macholib'
+import: u'PyInstaller.lib.unittest2'
+import: u'PyInstaller.lib.unittest2.test'
+import: u'PyInstaller.loader'
+import: u'PyInstaller.loader.rthooks'
+import: u'PyInstaller.utils'
+===== pyinstaller-2.1-py_0 OK =====
+installer-2.  95% |#############################  | Time: 0:00:00  43.92 MB/spyinstaller-2.  96% |#############################  | Time: 0:00:00  44.03 MB/spyinstaller-2.  96% |#############################  | Time: 0:00:00  39.77 MB/spyinstaller-2.  96% |############################## | Time: 0:00:00  39.88 MB/spyinstaller-2.  97% |############################## | Time: 0:00:00  39.99 MB/spyinstaller-2.  97% |############################## | Time: 0:00:00  40.10 MB/spyinstaller-2.  98% |############################## | Time: 0:00:00  40.22 MB/spyinstaller-2.  98% |############################## | Time: 0:00:00  40.33 MB/spyinstaller-2.  99% |############################## | Time: 0:00:00  40.44 MB/spyinstaller-2.  99% |############################## | Time: 0:00:00  40.55 MB/spyinstaller-2. 100% |###############################| Time: 0:00:00  40.52 MB/spyinstaller-2. 100% |###############################| Time: 0:00:00  40.45 MB/spyinstaller-2. 100% |###############################| Time: 0:00:00  40.36 MB/s
+Extracting packages ...
+[      COMPLETE      ]|                                                  |   0%[pyinstaller         ]|                                                  |   0%[pyinstaller         ]|                                                  |   0%[      COMPLETE      ]|##################################################| 100%
+Linking packages ...
+[      COMPLETE      ]|                                                  |   0%[openssl             ]|                                                  |   0%[openssl             ]|                                                  |   0%[readline            ]|####                                              |   9%[sqlite              ]|#########                                         |  18%[system              ]|#############                                     |  27%[tk                  ]|##################                                |  36%[zlib                ]|######################                            |  45%[python              ]|###########################                       |  54%[setuptools          ]|###############################                   |  63%[distribute          ]|####################################              |  72%[pip                 ]|########################################          |  81%[pyinstaller         ]|#############################################     |  90%[      COMPLETE      ]|##################################################| 100%
+TEST END: pyinstaller-2.1-py_0
+# If you want to upload this package to binstar.org later, type:
+#
+# $ binstar upload /home/ubuntu/miniconda/conda-bld/noarch/pyinstaller-2.1-py_0.tar.bz2
+#
+# To have conda build upload to binstar automatically, use
+# $ conda config --set binstar_upload yes
+

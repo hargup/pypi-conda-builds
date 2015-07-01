@@ -1,0 +1,40 @@
+Error: prefix already exists: /home/ubuntu/miniconda/envs/_pipbuild_
+Exception:
+Traceback (most recent call last):
+  File "/home/ubuntu/miniconda/envs/_pipbuild_/lib/python2.7/site-packages/pip/basecommand.py", line 223, in main
+    status = self.run(options, args)
+  File "/home/ubuntu/miniconda/envs/_pipbuild_/lib/python2.7/site-packages/pip/commands/install.py", line 268, in run
+    wheel_cache
+  File "/home/ubuntu/miniconda/envs/_pipbuild_/lib/python2.7/site-packages/pip/basecommand.py", line 268, in populate_requirement_set
+    wheel_cache=wheel_cache
+  File "/home/ubuntu/miniconda/envs/_pipbuild_/lib/python2.7/site-packages/pip/req/req_install.py", line 207, in from_line
+    wheel_cache=wheel_cache)
+  File "/home/ubuntu/miniconda/envs/_pipbuild_/lib/python2.7/site-packages/pip/req/req_install.py", line 66, in __init__
+    req = pkg_resources.Requirement.parse(req)
+  File "/home/ubuntu/miniconda/envs/_pipbuild_/lib/python2.7/site-packages/pip/_vendor/pkg_resources/__init__.py", line 2960, in parse
+    reqs = list(parse_requirements(s))
+  File "/home/ubuntu/miniconda/envs/_pipbuild_/lib/python2.7/site-packages/pip/_vendor/pkg_resources/__init__.py", line 2904, in parse_requirements
+    "version spec")
+  File "/home/ubuntu/miniconda/envs/_pipbuild_/lib/python2.7/site-packages/pip/_vendor/pkg_resources/__init__.py", line 2869, in scan_list
+    raise ValueError(msg, line, "at", line[p:])
+ValueError: ('Expected version spec in', 'extensionclass==>=4.1.1', 'at', '==>=4.1.1')
+
+Package search: {'_pypi_ordering': False, 'version': '3.0.3', 'name': 'plone.app.controlpanel', 'summary': 'Formlib-based controlpanels for Plone.'}
+Creating standard recipe for plone.app.controlpanel-3.0.3
+Converting recipe in /home/ubuntu/pypi-conda-builds/plone.app.controlpanel
+package = plone.app.controlpanel
+   dependencies = [u'products.cmfplone']
+Creating standard recipe for products.cmfplone
+Converting recipe in /home/ubuntu/pypi-conda-builds/products.cmfplone
+package = products.cmfplone
+   dependencies = [u'acquisition', u'datetime', u'extensionclass', u'pillow', u'products.cmfcore', u'products.cmfdifftool', u'products.cmfdynamicviewfti', u'products.cmfeditions', u'products.cmfquickinstallertool', u'products.cmfuid', u'products.dcworkflow', u'products.extendedpathindex', u'products.externaleditor', u'products.genericsetup >=1.4', u'products.mimetypesregistry', u'products.passwordresettool', u'products.placelesstranslationservice', u'products.plonepas', u'products.pluggableauthservice', u'products.pluginregistry', u'products.portaltransforms', u'products.resourceregistries', u'products.contentmigration', u'products.statusmessages', u'zodb3', u'zope2 >2.13.0', u'borg.localrole', u'cssmin', u'five.customerize', u'five.localsitemanager', u'five.pt', u'mockup', u'plone.app.content', u'plone.app.contentlisting', u'plone.app.contentmenu >=1.1.6dev-r22380', u'plone.app.contentrules', u'plone.app.contenttypes', u'plone.app.controlpanel', u'plone.app.customerize', u'plone.app.dexterity', u'plone.app.discussion', u'plone.app.folder', u'plone.app.form', u'plone.app.i18n', u'plone.app.multilingual', u'plone.app.jquerytools', u'plone.app.layout >=1.1.7dev-r23744', u'plone.app.linkintegrity >=1.0.3', u'plone.app.locales', u'plone.app.portlets', u'plone.app.redirector', u'plone.app.registry', u'plone.app.theming', u'plone.app.users', u'plone.app.uuid', u'plone.app.viewletmanager', u'plone.app.vocabularies', u'plone.app.widgets', u'plone.app.workflow', u'plone.batching', u'plone.browserlayer >=1.0rc4', u'plone.contentrules', u'plone.fieldsets', u'plone.i18n', u'plone.indexer', u'plone.intelligenttext', u'plone.locking', u'plone.memoize', u'plone.outputfilters', u'plone.portlet.collection', u'plone.portlet.static', u'plone.portlets', u'plone.protect >=3.0.0a1', u'plone.registry', u'plone.schema', u'plone.session', u'plone.theme', u'plonetheme.barceloneta', u'slimit', u'transaction', u'z3c.autoinclude', u'zope.app.locales >=3.6.0', u'zope.component', u'zope.container', u'zope.deferredimport', u'zope.deprecation', u'zope.dottedname', u'zope.event', u'zope.i18n', u'zope.i18nmessageid', u'zope.interface', u'zope.location', u'zope.pagetemplate', u'zope.publisher', u'zope.site', u'zope.structuredtext', u'zope.tal', u'zope.tales', u'zope.traversing']
+Creating standard recipe for acquisition
+Converting recipe in /home/ubuntu/pypi-conda-builds/acquisition
+package = acquisition
+   dependencies = [u'extensionclass >=4.1.1', u'zope.interface']
+Creating standard recipe for extensionclass->=4.1.1
+Error: Version >=4.1.1 of extensionclass is not available on PyPI.
+
+conda create -n _pipbuild_ --yes python pip
+/home/ubuntu/miniconda/envs/_pipbuild_/bin/pip install extensionclass==>=4.1.1
+Error: Could not pip install extensionclass==>=4.1.1

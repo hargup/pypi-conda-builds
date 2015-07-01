@@ -17,31 +17,7 @@ Include the output of the command 'conda info' in your report.
 
 Package search: {'_pypi_ordering': False, 'version': '1.0.0', 'name': 'linecache2', 'summary': 'Backports of the linecache module'}
 Creating standard recipe for linecache2-1.0.0
-Using url https://pypi.python.org/packages/source/l/linecache2/linecache2-1.0.0.tar.gz (11 KB) for linecache2.
-Downloading linecache2
-Using cached download
-Unpacking linecache2...
-done
-working in /tmp/tmpKoFpRJconda_skeleton_linecache2-1.0.0.tar.gz
-Fetching package metadata: ......
-
-WARNING: conda-build appears to be out of date. You have version 1.13.0 but the
-latest version is 1.14.0. Run
-
-conda update -n root conda-build
-
-to get the latest version.
-
-Solving package specifications: .patching file core.py
-Hunk #1 succeeded at 168 with fuzz 2 (offset 2 lines).
-Traceback (most recent call last):
-  File "setup.py", line 1, in <module>
-    import setuptools
-ImportError: No module named setuptools
-
-Applying patch: '/tmp/tmpKoFpRJconda_skeleton_linecache2-1.0.0.tar.gz/pypi-distutils.patch'
-$PYTHONPATH = /tmp/tmpKoFpRJconda_skeleton_linecache2-1.0.0.tar.gz/linecache2-1.0.0
-Error: command failed: /home/ubuntu/miniconda/envs/_build/bin/python setup.py install
+Error: directory already exists: ./linecache2
 
 conda create -n _pipbuild_ --yes python pip
 /home/ubuntu/miniconda/envs/_pipbuild_/bin/pip install linecache2==1.0.0

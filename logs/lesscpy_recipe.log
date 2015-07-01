@@ -1,0 +1,39 @@
+Warning, the following versions were found for lesscpy
+0.10.2
+0.10.1
+0.10
+0.9j
+0.9i
+0.9h
+0.9g
+0.9
+0.9f
+0.9e
+0.9d
+0.9c
+0.9a
+0.7
+0.6
+Using 0.10.2
+Use --version to specify a different version.
+Using url https://pypi.python.org/packages/source/l/lesscpy/lesscpy-0.10.2.tar.gz (155 KB) for lesscpy.
+Downloading lesscpy
+Using cached download
+Unpacking lesscpy...
+done
+working in /tmp/tmpEdS5f2conda_skeleton_lesscpy-0.10.2.tar.gz
+Fetching package metadata: ......
+
+WARNING: conda-build appears to be out of date. You have version 1.13.0 but the
+latest version is 1.14.1. Run
+
+conda update -n root conda-build
+
+to get the latest version.
+
+Solving package specifications: .patching file core.py
+Hunk #1 succeeded at 168 with fuzz 2 (offset 2 lines).
+
+Applying patch: '/tmp/tmpEdS5f2conda_skeleton_lesscpy-0.10.2.tar.gz/pypi-distutils.patch'
+Writing recipe for lesscpy
+Done

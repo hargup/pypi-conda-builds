@@ -1,35 +1,33 @@
-Error: prefix already exists: /home/ubuntu/miniconda/envs/_pipbuild_
-Collecting testrepository==0.0.20
-  Downloading http://localhost/packages/source/t/testrepository/testrepository-0.0.20.tar.gz (84kB)
-setuptools must be installed to install from a source distribution
+An unexpected error has occurred, please consider sending the
+following traceback to the conda GitHub issue tracker at:
+
+    https://github.com/conda/conda-build/issues
+
+Include the output of the command 'conda info' in your report.
+
+
 Package search: {'_pypi_ordering': False, 'version': '0.0.20', 'name': 'testrepository', 'summary': 'A repository of test results.'}
 Creating standard recipe for testrepository-0.0.20
-Using url https://pypi.python.org/packages/source/t/testrepository/testrepository-0.0.20.tar.gz (83 KB) for testrepository.
-Downloading testrepository
-Using cached download
-Unpacking testrepository...
-done
-working in /tmp/tmpBqllMXconda_skeleton_testrepository-0.0.20.tar.gz
-Fetching package metadata: ......
-
-WARNING: conda-build appears to be out of date. You have version 1.13.0 but the
-latest version is 1.14.0. Run
-
-conda update -n root conda-build
-
-to get the latest version.
-
-Solving package specifications: .patching file core.py
-Hunk #1 succeeded at 168 with fuzz 2 (offset 2 lines).
+Converting recipe in /home/ubuntu/pypi-conda-builds/testrepository
+package = testrepository
+   dependencies = [u'fixtures', u'python-subunit >=0.0.18', u'testtools >=0.9.30']
+Creating standard recipe for fixtures
+Converting recipe in /home/ubuntu/pypi-conda-builds/fixtures
 Traceback (most recent call last):
-  File "setup.py", line 16, in <module>
-    from setuptools import setup
-ImportError: No module named setuptools
-
-Applying patch: '/tmp/tmpBqllMXconda_skeleton_testrepository-0.0.20.tar.gz/pypi-distutils.patch'
-$PYTHONPATH = /tmp/tmpBqllMXconda_skeleton_testrepository-0.0.20.tar.gz/testrepository-0.0.20
-Error: command failed: /home/ubuntu/miniconda/envs/_build/bin/python setup.py install
-
-conda create -n _pipbuild_ --yes python pip
-/home/ubuntu/miniconda/envs/_pipbuild_/bin/pip install testrepository==0.0.20
-Error: Could not pip install testrepository==0.0.20
+  File "/home/ubuntu/miniconda/bin/conda-pipbuild", line 6, in <module>
+    exec(compile(open(__file__).read(), __file__, 'exec'))
+  File "/home/ubuntu/conda-build/bin/conda-pipbuild", line 5, in <module>
+    sys.exit(main())
+  File "/home/ubuntu/conda-build/conda_build/main_pipbuild.py", line 80, in main
+    args_func(args, p)
+  File "/home/ubuntu/conda-build/conda_build/main_build.py", line 349, in args_func
+    args.func(args, p)
+  File "/home/ubuntu/conda-build/conda_build/main_pipbuild.py", line 360, in execute
+    build_package(package, version, noarch_python=args.noarch_python)
+  File "/home/ubuntu/conda-build/conda_build/main_pipbuild.py", line 314, in build_package
+    build_package(depend)
+  File "/home/ubuntu/conda-build/conda_build/main_pipbuild.py", line 301, in build_package
+    noarch_python=noarch_python)
+  File "/home/ubuntu/conda-build/conda_build/main_pipbuild.py", line 183, in convert_recipe
+    d['homeurl'] = meta['about']['home']
+KeyError: 'home'

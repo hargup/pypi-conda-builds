@@ -1,4 +1,5 @@
 Warning, the following versions were found for streamcorpus_pipeline
+0.7.10.dev2
 0.7.10.dev1
 0.7.9
 0.7.8.dev1
@@ -207,21 +208,58 @@ Warning, the following versions were found for streamcorpus_pipeline
 0.3.30.dev7
 0.3.30.dev6
 0.3.30.dev2
-Using 0.7.10.dev1
+Using 0.7.10.dev2
 Use --version to specify a different version.
-Using url https://pypi.python.org/packages/source/s/streamcorpus_pipeline/streamcorpus_pipeline-0.7.10.dev1.tar.gz (9.4 MB) for streamcorpus_pipeline.
-Downloading streamcorpus_pipeline (use --no-download to skip this step)
+Using url https://pypi.python.org/packages/source/s/streamcorpus_pipeline/streamcorpus_pipeline-0.7.10.dev2.tar.gz (9.4 MB) for streamcorpus_pipeline.
+Downloading streamcorpus_pipeline
+Using cached download
 Unpacking streamcorpus_pipeline...
 done
-working in /tmp/tmp_6YgPIconda_skeleton_streamcorpus_pipeline-0.7.10.dev1.tar.gz
+working in /tmp/tmpWmGfNwconda_skeleton_streamcorpus_pipeline-0.7.10.dev2.tar.gz
 Fetching package metadata: ......
+
+WARNING: conda-build appears to be out of date. You have version 1.13.0 but the
+latest version is 1.14.1. Run
+
+conda update -n root conda-build
+
+to get the latest version.
+
 Solving package specifications: .patching file core.py
 Hunk #1 succeeded at 168 with fuzz 2 (offset 2 lines).
-Traceback (most recent call last):
-  File "setup.py", line 11, in <module>
-    from setuptools import setup, find_packages
-ImportError: No module named setuptools
 
-Applying patch: '/tmp/tmp_6YgPIconda_skeleton_streamcorpus_pipeline-0.7.10.dev1.tar.gz/pypi-distutils.patch'
-$PYTHONPATH = /tmp/tmp_6YgPIconda_skeleton_streamcorpus_pipeline-0.7.10.dev1.tar.gz/streamcorpus_pipeline-0.7.10.dev1
-Error: command failed: /home/ubuntu/miniconda/envs/_build/bin/python setup.py install
+WARNING: conda-build appears to be out of date. You have version 1.13.0 but the
+latest version is 1.14.1. Run
+
+conda update -n root conda-build
+
+to get the latest version.
+
+
+The following NEW packages will be INSTALLED:
+
+    numpy:  1.9.2-py27_0
+    pyyaml: 3.11-py27_1 
+    yaml:   0.1.6-0     
+
+Linking packages ...
+[                    ]|                                                  |   0%[yaml                ]|                                                  |   0%[numpy               ]|################                                  |  33%[pyyaml              ]|#################################                 |  66%[      COMPLETE      ]|##################################################| 100%
+Applying patch: '/tmp/tmpWmGfNwconda_skeleton_streamcorpus_pipeline-0.7.10.dev2.tar.gz/pypi-distutils.patch'
+Warning, the following versions were found for mmh3
+2.3.1
+2.3
+2.2
+2.0
+Using 2.3.1
+Use --version to specify a different version.
+Using url https://pypi.python.org/packages/source/m/mmh3/mmh3-2.3.1.tar.gz (6 KB) for mmh3.
+Downloading mmh3
+mmh3-2.3.1.tar   0% |                              | ETA:  --:--:--   0.00  B/smmh3-2.3.1.tar 100% |###############################| ETA:  0:00:00  14.51 MB/smmh3-2.3.1.tar 100% |###############################| Time: 0:00:00   8.62 MB/s
+Unpacking mmh3...
+done
+working in /tmp/tmpRbZwcYconda_skeleton_mmh3-2.3.1.tar.gz
+Solving package specifications: .patching file core.py
+Hunk #1 succeeded at 168 with fuzz 2 (offset 2 lines).
+
+Applying patch: '/tmp/tmpRbZwcYconda_skeleton_mmh3-2.3.1.tar.gz/pypi-distutils.patch'
+Error: Could not find any versions of package many_stop_words

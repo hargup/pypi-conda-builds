@@ -11,19 +11,35 @@ Warning, the following versions were found for webassets
 Using 0.10.1
 Use --version to specify a different version.
 Using url https://pypi.python.org/packages/source/w/webassets/webassets-0.10.1.tar.gz (164 KB) for webassets.
-Downloading webassets (use --no-download to skip this step)
+Downloading webassets
 Using cached download
 Unpacking webassets...
 done
-working in /tmp/tmppxDAhNconda_skeleton_webassets-0.10.1.tar.gz
+working in /tmp/tmp3qF28Oconda_skeleton_webassets-0.10.1.tar.gz
 Fetching package metadata: ......
+
+WARNING: conda-build appears to be out of date. You have version 1.13.0 but the
+latest version is 1.14.1. Run
+
+conda update -n root conda-build
+
+to get the latest version.
+
 Solving package specifications: .patching file core.py
 Hunk #1 succeeded at 168 with fuzz 2 (offset 2 lines).
-Traceback (most recent call last):
-  File "setup.py", line 3, in <module>
-    from setuptools import setup, find_packages
-ImportError: No module named setuptools
 
-Applying patch: '/tmp/tmppxDAhNconda_skeleton_webassets-0.10.1.tar.gz/pypi-distutils.patch'
-$PYTHONPATH = /tmp/tmppxDAhNconda_skeleton_webassets-0.10.1.tar.gz/webassets-0.10.1
-Error: command failed: /home/ubuntu/miniconda/envs/_build/bin/python setup.py install
+The following NEW packages will be INSTALLED:
+
+    numpy:  1.9.2-py27_0
+    pyyaml: 3.11-py27_1 
+    yaml:   0.1.6-0     
+
+Linking packages ...
+[                    ]|                                                  |   0%[yaml                ]|                                                  |   0%[numpy               ]|################                                  |  33%[pyyaml              ]|#################################                 |  66%[      COMPLETE      ]|##################################################| 100%
+Applying patch: '/tmp/tmp3qF28Oconda_skeleton_webassets-0.10.1.tar.gz/pypi-distutils.patch'
+WARNING: Could not add entry points. They were:
+[console_scripts]
+webassets = webassets.script:run
+
+Writing recipe for webassets
+Done

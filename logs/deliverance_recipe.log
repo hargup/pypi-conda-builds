@@ -1,0 +1,195 @@
+deliverance not found, trying Deliverance
+Warning, the following versions were found for Deliverance
+0.6.1
+0.6
+0.5.0
+0.4.2
+0.4.1
+0.4.0
+0.3.1
+0.3.0
+0.3c4
+0.3c3
+0.3c2
+0.3c1
+0.2.1
+0.2
+0.1
+Using 0.6.1
+Use --version to specify a different version.
+Using url https://pypi.python.org/packages/source/D/Deliverance/Deliverance-0.6.1.tar.gz (303 KB) for Deliverance.
+Downloading Deliverance
+Using cached download
+Unpacking Deliverance...
+done
+working in /tmp/tmpw3BzdUconda_skeleton_Deliverance-0.6.1.tar.gz
+Fetching package metadata: ......
+
+WARNING: conda-build appears to be out of date. You have version 1.13.0 but the
+latest version is 1.14.1. Run
+
+conda update -n root conda-build
+
+to get the latest version.
+
+Solving package specifications: .patching file core.py
+Hunk #1 succeeded at 168 with fuzz 2 (offset 2 lines).
+
+WARNING: conda-build appears to be out of date. You have version 1.13.0 but the
+latest version is 1.14.1. Run
+
+conda update -n root conda-build
+
+to get the latest version.
+
+
+The following NEW packages will be INSTALLED:
+
+    numpy:      1.9.2-py27_0 
+    openssl:    1.0.1k-1     
+    pip:        7.0.3-py27_0 
+    python:     2.7.10-0     
+    pyyaml:     3.11-py27_1  
+    readline:   6.2-2        
+    setuptools: 18.0.1-py27_0
+    sqlite:     3.8.4.1-1    
+    system:     5.8-2        
+    tk:         8.5.18-0     
+    yaml:       0.1.6-0      
+    zlib:       1.2.8-0      
+
+Linking packages ...
+[                    ]|                                                  |   0%[openssl             ]|                                                  |   0%[readline            ]|####                                              |   8%[sqlite              ]|########                                          |  16%[system              ]|############                                      |  25%[tk                  ]|################                                  |  33%[yaml                ]|####################                              |  41%[zlib                ]|#########################                         |  50%[numpy               ]|#############################                     |  58%[python              ]|#################################                 |  66%[pyyaml              ]|#####################################             |  75%[setuptools          ]|#########################################         |  83%[pip                 ]|#############################################     |  91%[      COMPLETE      ]|##################################################| 100%
+Applying patch: '/tmp/tmpw3BzdUconda_skeleton_Deliverance-0.6.1.tar.gz/pypi-distutils.patch'
+WARNING: Could not add entry points. They were:
+
+      [console_scripts]
+      deliverance-proxy = deliverance.proxycommand:main
+
+      [paste.paster_create_template]
+      deliverance = deliverance.paster_templates:DeliveranceTemplate
+      deliverance_plone = deliverance.paster_templates:PloneTemplate
+
+      [paste.filter_app_factory]
+      main = deliverance.middleware:make_deliverance_middleware
+
+      [paste.filter_factory]
+      garbagecollect = deliverance.garbagecollect:filter_factory
+      
+wsgifilter not found, trying WSGIFilter
+Warning, the following versions were found for WSGIFilter
+0.2
+0.1dev-r5923
+Using 0.2
+Use --version to specify a different version.
+Using url https://pypi.python.org/packages/source/W/WSGIFilter/WSGIFilter-0.2.tar.gz (23 KB) for WSGIFilter.
+Downloading WSGIFilter
+Using cached download
+Unpacking WSGIFilter...
+done
+working in /tmp/tmpRqlPmsconda_skeleton_WSGIFilter-0.2.tar.gz
+Solving package specifications: .patching file core.py
+Hunk #1 succeeded at 168 with fuzz 2 (offset 2 lines).
+
+WARNING: conda-build appears to be out of date. You have version 1.13.0 but the
+latest version is 1.14.1. Run
+
+conda update -n root conda-build
+
+to get the latest version.
+
+
+Applying patch: '/tmp/tmpRqlPmsconda_skeleton_WSGIFilter-0.2.tar.gz/pypi-distutils.patch'
+WARNING: Could not add entry points. They were:
+
+      [paste.filter_app_factory]
+      debug_headers = wsgifilter.proxyapp:make_debug_headers
+      testing_vars = wsgifilter.examples.testingvars:TestingVars.paste_deploy_middleware
+      
+httpencode not found, trying HTTPEncode
+Warning, the following versions were found for HTTPEncode
+0.1
+0.1dev
+Using 0.1
+Use --version to specify a different version.
+Using url https://pypi.python.org/packages/source/H/HTTPEncode/HTTPEncode-0.1.tar.gz (34 KB) for HTTPEncode.
+Downloading HTTPEncode
+Using cached download
+Unpacking HTTPEncode...
+done
+working in /tmp/tmplxWSs3conda_skeleton_HTTPEncode-0.1.tar.gz
+Solving package specifications: .patching file core.py
+Hunk #1 succeeded at 168 with fuzz 2 (offset 2 lines).
+An unexpected error has occurred, please consider sending the
+following traceback to the conda GitHub issue tracker at:
+
+    https://github.com/conda/conda-build/issues
+
+Include the output of the command 'conda info' in your report.
+
+
+
+Applying patch: '/tmp/tmplxWSs3conda_skeleton_HTTPEncode-0.1.tar.gz/pypi-distutils.patch'
+WARNING: Could not add entry points. They were:
+
+      [httpencode.format]
+      name json = httpencode.json:json [json]
+      application/json to python = httpencode.json:json [json]
+      # I'm not terribly comfortable with this one:
+      application/x-javascript to python = httpencode.json:json [json]
+      text/x-json to python = httpencode.json:json [json]
+
+      application/x-www-form-urlencoded to cgi.FieldStorage = httpencode.form:form
+      multipart/form-data to cgi.FieldStorage = httpencode.form:form
+      name form = httpencode.form:form
+
+      application/x-www-form-urlencoded to python = httpencode.form:pyform
+      multipart/form-data to python = httpencode.form:pyform
+      name pyform = httpencode.form:form
+
+      text/xml to lxml = httpencode.lxmlformat:xml [lxml]
+      application/xml to lxml = httpencode.lxmlformat:xml [lxml]
+      name lxml = httpencode.lxmlformat:xml [lxml]
+
+      text/html to lxml = httpencode.lxmlformat:html [lxml]
+      name lxml_html = httpencode.lxmlformat:html [lxml]
+
+      text/xml to ElementTree = httpencode.etree:xml [etree]
+      application/xml to ElementTree = httpencode.etree:xml [etree]
+      name etree = httpencode.etree:xml [etree]
+
+      text/html to BeautifulSoup = httpencode.bsoupfilter:bsoup [BeautifulSoup]
+      name BeautifulSoup = httpencode.bsoupfilter:bsoup [BeautifulSoup]
+      name bsoup = httpencode.bsoupfilter:bsoup [BeautifulSoup]
+      
+      
+Warning, the following versions were found for elementtree
+1.2.6-20050316
+1.2.3-20041205
+1.2.2-20041205
+1.2.1-20041009
+1.2-20040618
+1.0
+Using 1.2.6-20050316
+Use --version to specify a different version.
+Using url http://effbot.org/downloads#elementtree (0 B) for elementtree.
+Downloading elementtree
+Unpacking elementtree...
+Traceback (most recent call last):
+  File "/home/ubuntu/miniconda/bin/conda-skeleton", line 6, in <module>
+    exec(compile(open(__file__).read(), __file__, 'exec'))
+  File "/home/ubuntu/conda-build/bin/conda-skeleton", line 5, in <module>
+    sys.exit(main())
+  File "/home/ubuntu/conda-build/conda_build/main_skeleton.py", line 240, in main
+    args_func(args, p)
+  File "/home/ubuntu/conda-build/conda_build/main_build.py", line 349, in args_func
+    args.func(args, p)
+  File "/home/ubuntu/conda-build/conda_build/main_skeleton.py", line 254, in execute
+    pypi.main(args, parser)
+  File "/home/ubuntu/conda-build/conda_build/pypi.py", line 387, in main
+    get_package_metadata(args, package, d, data)
+  File "/home/ubuntu/conda-build/conda_build/pypi.py", line 480, in get_package_metadata
+    unpack(join(SRC_CACHE, d['filename']), tempdir)
+  File "/home/ubuntu/conda-build/conda_build/pypi.py", line 702, in unpack
+    raise Exception("not a valid source")
+Exception: not a valid source

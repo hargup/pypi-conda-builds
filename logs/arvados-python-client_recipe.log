@@ -1,4 +1,10 @@
 Warning, the following versions were found for arvados-python-client
+0.1.20150626195246
+0.1.20150626154218
+0.1.20150625175218
+0.1.20150624142414
+0.1.20150623141346
+0.1.20150616221703
 0.1.20150610152458
 0.1.20150609153225
 0.1.20150609144844
@@ -432,22 +438,136 @@ Warning, the following versions were found for arvados-python-client
 0.1.1393278754.75496f5
 0.1.1392763202.8711ee0
 0.1.1392658041.7e41832
-Using 0.1.20150610152458
+Using 0.1.20150626195246
 Use --version to specify a different version.
-Using url https://pypi.python.org/packages/source/a/arvados-python-client/arvados-python-client-0.1.20150610152458.tar.gz (114 KB) for arvados-python-client.
-Downloading arvados-python-client (use --no-download to skip this step)
+Using url https://pypi.python.org/packages/source/a/arvados-python-client/arvados-python-client-0.1.20150626195246.tar.gz (117 KB) for arvados-python-client.
+Downloading arvados-python-client
 Using cached download
 Unpacking arvados-python-client...
 done
-working in /tmp/tmpihzt48conda_skeleton_arvados-python-client-0.1.20150610152458.tar.gz
+working in /tmp/tmpNFfHkvconda_skeleton_arvados-python-client-0.1.20150626195246.tar.gz
 Fetching package metadata: ......
+
+WARNING: conda-build appears to be out of date. You have version 1.13.0 but the
+latest version is 1.14.1. Run
+
+conda update -n root conda-build
+
+to get the latest version.
+
 Solving package specifications: .patching file core.py
 Hunk #1 succeeded at 168 with fuzz 2 (offset 2 lines).
-Traceback (most recent call last):
-  File "setup.py", line 5, in <module>
-    import setuptools.command.egg_info as egg_info_cmd
-ImportError: No module named setuptools.command.egg_info
 
-Applying patch: '/tmp/tmpihzt48conda_skeleton_arvados-python-client-0.1.20150610152458.tar.gz/pypi-distutils.patch'
-$PYTHONPATH = /tmp/tmpihzt48conda_skeleton_arvados-python-client-0.1.20150610152458.tar.gz/arvados-python-client-0.1.20150610152458
-Error: command failed: /home/ubuntu/miniconda/envs/_build/bin/python setup.py install
+WARNING: conda-build appears to be out of date. You have version 1.13.0 but the
+latest version is 1.14.1. Run
+
+conda update -n root conda-build
+
+to get the latest version.
+
+
+The following NEW packages will be INSTALLED:
+
+    numpy:  1.9.2-py27_0
+    pyyaml: 3.11-py27_1 
+    yaml:   0.1.6-0     
+
+Linking packages ...
+[                    ]|                                                  |   0%[yaml                ]|                                                  |   0%[numpy               ]|################                                  |  33%[pyyaml              ]|#################################                 |  66%[      COMPLETE      ]|##################################################| 100%
+Applying patch: '/tmp/tmpNFfHkvconda_skeleton_arvados-python-client-0.1.20150626195246.tar.gz/pypi-distutils.patch'
+Warning, the following versions were found for google-api-python-client
+1.4.1
+1.4.0
+1.3.2
+1.3.1
+1.3
+1.2
+1.1
+1.0
+1.0c3
+1.0c2
+1.0c1
+1.0b9
+1.0beta8
+1.0beta7
+1.0beta6
+1.0beta5
+1.0beta4
+1.0beta3
+1.0beta2
+1.0beta1
+1.0alpha11
+1.0alpha10
+1.0alpha9
+1.0alpha8
+1.0alpha7
+1.0alpha6
+1.0alpha5
+1.0alpha4
+1.0alpha3
+1.0alpha2
+1.0alpha1
+1.0beta5prerelease2
+1.0beta5prerelease
+Using 1.4.1
+Use --version to specify a different version.
+Using url https://pypi.python.org/packages/source/g/google-api-python-client/google-api-python-client-1.4.1.tar.gz (40 KB) for google-api-python-client.
+Downloading google-api-python-client
+Using cached download
+Unpacking google-api-python-client...
+done
+working in /tmp/tmpz_uzQJconda_skeleton_google-api-python-client-1.4.1.tar.gz
+Solving package specifications: .patching file core.py
+Hunk #1 succeeded at 168 with fuzz 2 (offset 2 lines).
+
+WARNING: conda-build appears to be out of date. You have version 1.13.0 but the
+latest version is 1.14.1. Run
+
+conda update -n root conda-build
+
+to get the latest version.
+
+
+Applying patch: '/tmp/tmpz_uzQJconda_skeleton_google-api-python-client-1.4.1.tar.gz/pypi-distutils.patch'
+Warning, the following versions were found for oauth2client
+1.4.11
+1.4.10
+1.4.9
+1.4.8
+1.4.7
+1.4.6
+1.4.5
+1.4.4
+1.4.3
+1.4.2
+1.4.1
+1.4
+1.3.2
+1.3.1
+1.3
+1.2
+1.1
+1.0
+1.0c3
+1.0c2
+1.0c1
+1.0beta8
+1.0beta7
+1.0beta6
+1.0beta4
+1.0beta3
+1.0beta2
+1.0beta5prerelease
+Using 1.4.11
+Use --version to specify a different version.
+Using url https://pypi.python.org/packages/source/o/oauth2client/oauth2client-1.4.11.tar.gz (48 KB) for oauth2client.
+Downloading oauth2client
+Using cached download
+Unpacking oauth2client...
+done
+working in /tmp/tmp9ftvn2conda_skeleton_oauth2client-1.4.11.tar.gz
+Solving package specifications: .patching file core.py
+Hunk #1 succeeded at 168 with fuzz 2 (offset 2 lines).
+
+Applying patch: '/tmp/tmp9ftvn2conda_skeleton_oauth2client-1.4.11.tar.gz/pypi-distutils.patch'
+Error: Could not find any versions of package pyasn1_modules

@@ -1,0 +1,64 @@
+package:
+  name: cube-client
+  version: "0.2.0"
+
+source:
+  fn: cube-client-0.2.0.tar.gz
+  url: https://pypi.python.org/packages/source/c/cube-client/cube-client-0.2.0.tar.gz
+  md5: db789558ee0ee1a6d5eeed1dc5e58196
+#  patches:
+   # List any patch files here
+   # - fix.patch
+
+build:
+  noarch_python: True
+  # preserve_egg_dir: True
+  # entry_points:
+    # Put any entry points (scripts to be generated automatically) here. The
+    # syntax is module:function.  For example
+    #
+    # - cube-client = cube-client:main
+    #
+    # Would create an entry point called cube-client that calls cube-client.main()
+
+
+  # If this is a new build for the same version, increment the build
+  # number. If you do not include this key, it defaults to 0.
+  # number: 1
+
+requirements:
+  build:
+    - python
+    - setuptools
+    - requests
+
+  run:
+    - python
+    - requests
+
+test:
+  # Python imports
+  imports:
+    - cube
+    - cube.tests
+
+  # commands:
+    # You can put test commands to be run here.  Use this to test that the
+    # entry points work.
+
+
+  # You can also put a file called run_test.py in the recipe that will be run
+  # at test time.
+
+  # requires:
+    # Put any additional test requirements here.  For example
+    # - nose
+
+about:
+  home: https://github.com/tsileo/cube-client
+  license: MIT License
+  summary: 'A Python client for Cube: Time Series Data Collection & Analysis'
+
+# See
+# http://docs.continuum.io/conda/build.html for
+# more information about meta.yaml

@@ -1,0 +1,68 @@
+package:
+  name: voodoo
+  version: "1.4.2"
+
+source:
+  fn: Voodoo-1.4.2.tar.gz
+  url: https://pypi.python.org/packages/source/V/Voodoo/Voodoo-1.4.2.tar.gz
+  md5: e8ad91abc3e839918a60da06de6798b1
+#  patches:
+   # List any patch files here
+   # - fix.patch
+
+build:
+  noarch_python: True
+  # preserve_egg_dir: True
+  entry_points:
+    # Put any entry points (scripts to be generated automatically) here. The
+    # syntax is module:function.  For example
+    #
+    # - voodoo = voodoo:main
+    #
+    # Would create an entry point called voodoo that calls voodoo.main()
+
+    - voodoo = voodoo.script:run
+
+  # If this is a new build for the same version, increment the build
+  # number. If you do not include this key, it defaults to 0.
+  # number: 1
+
+requirements:
+  build:
+    - python
+    - setuptools
+    - jinja2 >=2.7
+    - colorama >=0.2.5
+
+  run:
+    - python
+    - jinja2 >=2.7
+    - colorama >=0.2.5
+
+test:
+  # Python imports
+  imports:
+    - tests
+    - voodoo
+
+  commands:
+    # You can put test commands to be run here.  Use this to test that the
+    # entry points work.
+
+    - voodoo --help
+
+  # You can also put a file called run_test.py in the recipe that will be run
+  # at test time.
+
+  # requires:
+    # Put any additional test requirements here.  For example
+    # - nose
+
+about:
+  home: http://github.com/lucuma/voodoo
+  license: MIT License
+  summary: 'Template system for project skeletons'
+
+# See
+# http://docs.continuum.io/conda/build.html for
+# more information about meta.yaml

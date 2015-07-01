@@ -9,11 +9,11 @@ Downloading chromium_compact_language_detector
 Using cached download
 Unpacking chromium_compact_language_detector...
 done
-working in /tmp/tmpdW5Rvnconda_skeleton_chromium_compact_language_detector-0.2.tar.gz
+working in /tmp/tmpObkukzconda_skeleton_chromium_compact_language_detector-0.2.tar.gz
 Fetching package metadata: ......
 
 WARNING: conda-build appears to be out of date. You have version 1.13.0 but the
-latest version is 1.14.0. Run
+latest version is 1.14.1. Run
 
 conda update -n root conda-build
 
@@ -23,8 +23,16 @@ Solving package specifications: .patching file core.py
 Hunk #1 succeeded at 168 with fuzz 2 (offset 2 lines).
 `pkg-config` has not been found but this setup script relies on it.
 
-Applying patch: '/tmp/tmpdW5Rvnconda_skeleton_chromium_compact_language_detector-0.2.tar.gz/pypi-distutils.patch'
-$PYTHONPATH = /tmp/tmpdW5Rvnconda_skeleton_chromium_compact_language_detector-0.2.tar.gz/chromium_compact_language_detector-0.2
+The following NEW packages will be INSTALLED:
+
+    numpy:  1.9.2-py27_0
+    pyyaml: 3.11-py27_1 
+    yaml:   0.1.6-0     
+
+Linking packages ...
+[                    ]|                                                  |   0%[yaml                ]|                                                  |   0%[numpy               ]|################                                  |  33%[pyyaml              ]|#################################                 |  66%[      COMPLETE      ]|##################################################| 100%
+Applying patch: '/tmp/tmpObkukzconda_skeleton_chromium_compact_language_detector-0.2.tar.gz/pypi-distutils.patch'
+$PYTHONPATH = /tmp/tmpObkukzconda_skeleton_chromium_compact_language_detector-0.2.tar.gz/chromium_compact_language_detector-0.2
 Error: command failed: /home/ubuntu/miniconda/envs/_build/bin/python setup.py install
 
 conda create -n _pipbuild_ --yes python pip

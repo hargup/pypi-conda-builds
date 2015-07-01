@@ -1,0 +1,882 @@
+Removing old build directory
+Removing old work directory
+BUILD START: flask-admin-1.1.0-py27_0
+Fetching package metadata: ......
+
+WARNING: conda-build appears to be out of date. You have version 1.13.0 but the
+latest version is 1.14.1. Run
+
+conda update -n root conda-build
+
+to get the latest version.
+
+Solving package specifications: .................
+Warning: 2 possible package resolutions (only showing differing packages):
+	[u'werkzeug-0.10.4-py_0.tar.bz2'],
+	[u'werkzeug-0.10.4-py27_0.tar.bz2'],
++ /home/ubuntu/miniconda/envs/_build/bin/python setup.py install
+running install
+running bdist_egg
+running egg_info
+writing requirements to Flask_Admin.egg-info/requires.txt
+writing Flask_Admin.egg-info/PKG-INFO
+writing top-level names to Flask_Admin.egg-info/top_level.txt
+writing dependency_links to Flask_Admin.egg-info/dependency_links.txt
+reading manifest file 'Flask_Admin.egg-info/SOURCES.txt'
+reading manifest template 'MANIFEST.in'
+warning: no previously-included files matching '*.pyc' found under directory 'flask_admin'
+writing manifest file 'Flask_Admin.egg-info/SOURCES.txt'
+installing library code to build/bdist.linux-x86_64/egg
+running install_lib
+running build_py
+creating build
+creating build/lib
+creating build/lib/examples
+copying examples/__init__.py -> build/lib/examples
+creating build/lib/flask_admin
+copying flask_admin/babel.py -> build/lib/flask_admin
+copying flask_admin/tools.py -> build/lib/flask_admin
+copying flask_admin/menu.py -> build/lib/flask_admin
+copying flask_admin/actions.py -> build/lib/flask_admin
+copying flask_admin/consts.py -> build/lib/flask_admin
+copying flask_admin/_backwards.py -> build/lib/flask_admin
+copying flask_admin/__init__.py -> build/lib/flask_admin
+copying flask_admin/helpers.py -> build/lib/flask_admin
+copying flask_admin/_compat.py -> build/lib/flask_admin
+copying flask_admin/base.py -> build/lib/flask_admin
+creating build/lib/examples/quickstart
+copying examples/quickstart/app3.py -> build/lib/examples/quickstart
+copying examples/quickstart/app2.py -> build/lib/examples/quickstart
+copying examples/quickstart/app.py -> build/lib/examples/quickstart
+copying examples/quickstart/__init__.py -> build/lib/examples/quickstart
+creating build/lib/examples/sqla
+copying examples/sqla/app2.py -> build/lib/examples/sqla
+copying examples/sqla/app.py -> build/lib/examples/sqla
+copying examples/sqla/__init__.py -> build/lib/examples/sqla
+creating build/lib/examples/simple
+copying examples/simple/app.py -> build/lib/examples/simple
+copying examples/simple/__init__.py -> build/lib/examples/simple
+creating build/lib/examples/sqla-custom-filter
+copying examples/sqla-custom-filter/app.py -> build/lib/examples/sqla-custom-filter
+copying examples/sqla-custom-filter/__init__.py -> build/lib/examples/sqla-custom-filter
+creating build/lib/examples/forms
+copying examples/forms/app.py -> build/lib/examples/forms
+copying examples/forms/__init__.py -> build/lib/examples/forms
+creating build/lib/examples/auth
+copying examples/auth/app.py -> build/lib/examples/auth
+copying examples/auth/__init__.py -> build/lib/examples/auth
+creating build/lib/examples/layout-bootstrap3
+copying examples/layout-bootstrap3/app.py -> build/lib/examples/layout-bootstrap3
+copying examples/layout-bootstrap3/__init__.py -> build/lib/examples/layout-bootstrap3
+creating build/lib/examples/layout
+copying examples/layout/app.py -> build/lib/examples/layout
+copying examples/layout/__init__.py -> build/lib/examples/layout
+creating build/lib/flask_admin/translations
+copying flask_admin/translations/__init__.py -> build/lib/flask_admin/translations
+creating build/lib/flask_admin/model
+copying flask_admin/model/filters.py -> build/lib/flask_admin/model
+copying flask_admin/model/widgets.py -> build/lib/flask_admin/model
+copying flask_admin/model/fields.py -> build/lib/flask_admin/model
+copying flask_admin/model/typefmt.py -> build/lib/flask_admin/model
+copying flask_admin/model/__init__.py -> build/lib/flask_admin/model
+copying flask_admin/model/form.py -> build/lib/flask_admin/model
+copying flask_admin/model/helpers.py -> build/lib/flask_admin/model
+copying flask_admin/model/template.py -> build/lib/flask_admin/model
+copying flask_admin/model/ajax.py -> build/lib/flask_admin/model
+copying flask_admin/model/base.py -> build/lib/flask_admin/model
+creating build/lib/flask_admin/contrib
+copying flask_admin/contrib/rediscli.py -> build/lib/flask_admin/contrib
+copying flask_admin/contrib/fileadmin.py -> build/lib/flask_admin/contrib
+copying flask_admin/contrib/__init__.py -> build/lib/flask_admin/contrib
+creating build/lib/flask_admin/form
+copying flask_admin/form/upload.py -> build/lib/flask_admin/form
+copying flask_admin/form/widgets.py -> build/lib/flask_admin/form
+copying flask_admin/form/fields.py -> build/lib/flask_admin/form
+copying flask_admin/form/rules.py -> build/lib/flask_admin/form
+copying flask_admin/form/__init__.py -> build/lib/flask_admin/form
+creating build/lib/flask_admin/tests
+copying flask_admin/tests/test_tools.py -> build/lib/flask_admin/tests
+copying flask_admin/tests/test_model.py -> build/lib/flask_admin/tests
+copying flask_admin/tests/test_base.py -> build/lib/flask_admin/tests
+copying flask_admin/tests/__init__.py -> build/lib/flask_admin/tests
+copying flask_admin/tests/test_form_upload.py -> build/lib/flask_admin/tests
+copying flask_admin/tests/mock.py -> build/lib/flask_admin/tests
+creating build/lib/flask_admin/contrib/peeweemodel
+copying flask_admin/contrib/peeweemodel/__init__.py -> build/lib/flask_admin/contrib/peeweemodel
+creating build/lib/flask_admin/contrib/geoa
+copying flask_admin/contrib/geoa/widgets.py -> build/lib/flask_admin/contrib/geoa
+copying flask_admin/contrib/geoa/fields.py -> build/lib/flask_admin/contrib/geoa
+copying flask_admin/contrib/geoa/typefmt.py -> build/lib/flask_admin/contrib/geoa
+copying flask_admin/contrib/geoa/__init__.py -> build/lib/flask_admin/contrib/geoa
+copying flask_admin/contrib/geoa/form.py -> build/lib/flask_admin/contrib/geoa
+copying flask_admin/contrib/geoa/view.py -> build/lib/flask_admin/contrib/geoa
+creating build/lib/flask_admin/contrib/sqla
+copying flask_admin/contrib/sqla/tools.py -> build/lib/flask_admin/contrib/sqla
+copying flask_admin/contrib/sqla/filters.py -> build/lib/flask_admin/contrib/sqla
+copying flask_admin/contrib/sqla/validators.py -> build/lib/flask_admin/contrib/sqla
+copying flask_admin/contrib/sqla/fields.py -> build/lib/flask_admin/contrib/sqla
+copying flask_admin/contrib/sqla/typefmt.py -> build/lib/flask_admin/contrib/sqla
+copying flask_admin/contrib/sqla/__init__.py -> build/lib/flask_admin/contrib/sqla
+copying flask_admin/contrib/sqla/form.py -> build/lib/flask_admin/contrib/sqla
+copying flask_admin/contrib/sqla/ajax.py -> build/lib/flask_admin/contrib/sqla
+copying flask_admin/contrib/sqla/view.py -> build/lib/flask_admin/contrib/sqla
+creating build/lib/flask_admin/contrib/sqlamodel
+copying flask_admin/contrib/sqlamodel/__init__.py -> build/lib/flask_admin/contrib/sqlamodel
+creating build/lib/flask_admin/contrib/pymongo
+copying flask_admin/contrib/pymongo/tools.py -> build/lib/flask_admin/contrib/pymongo
+copying flask_admin/contrib/pymongo/filters.py -> build/lib/flask_admin/contrib/pymongo
+copying flask_admin/contrib/pymongo/typefmt.py -> build/lib/flask_admin/contrib/pymongo
+copying flask_admin/contrib/pymongo/__init__.py -> build/lib/flask_admin/contrib/pymongo
+copying flask_admin/contrib/pymongo/view.py -> build/lib/flask_admin/contrib/pymongo
+creating build/lib/flask_admin/contrib/peewee
+copying flask_admin/contrib/peewee/tools.py -> build/lib/flask_admin/contrib/peewee
+copying flask_admin/contrib/peewee/filters.py -> build/lib/flask_admin/contrib/peewee
+copying flask_admin/contrib/peewee/__init__.py -> build/lib/flask_admin/contrib/peewee
+copying flask_admin/contrib/peewee/form.py -> build/lib/flask_admin/contrib/peewee
+copying flask_admin/contrib/peewee/ajax.py -> build/lib/flask_admin/contrib/peewee
+copying flask_admin/contrib/peewee/view.py -> build/lib/flask_admin/contrib/peewee
+creating build/lib/flask_admin/contrib/mongoengine
+copying flask_admin/contrib/mongoengine/tools.py -> build/lib/flask_admin/contrib/mongoengine
+copying flask_admin/contrib/mongoengine/filters.py -> build/lib/flask_admin/contrib/mongoengine
+copying flask_admin/contrib/mongoengine/subdoc.py -> build/lib/flask_admin/contrib/mongoengine
+copying flask_admin/contrib/mongoengine/widgets.py -> build/lib/flask_admin/contrib/mongoengine
+copying flask_admin/contrib/mongoengine/fields.py -> build/lib/flask_admin/contrib/mongoengine
+copying flask_admin/contrib/mongoengine/typefmt.py -> build/lib/flask_admin/contrib/mongoengine
+copying flask_admin/contrib/mongoengine/__init__.py -> build/lib/flask_admin/contrib/mongoengine
+copying flask_admin/contrib/mongoengine/form.py -> build/lib/flask_admin/contrib/mongoengine
+copying flask_admin/contrib/mongoengine/helpers.py -> build/lib/flask_admin/contrib/mongoengine
+copying flask_admin/contrib/mongoengine/ajax.py -> build/lib/flask_admin/contrib/mongoengine
+copying flask_admin/contrib/mongoengine/view.py -> build/lib/flask_admin/contrib/mongoengine
+creating build/lib/flask_admin/contrib/appengine
+copying flask_admin/contrib/appengine/__init__.py -> build/lib/flask_admin/contrib/appengine
+copying flask_admin/contrib/appengine/view.py -> build/lib/flask_admin/contrib/appengine
+creating build/lib/flask_admin/tests/peeweemodel
+copying flask_admin/tests/peeweemodel/test_basic.py -> build/lib/flask_admin/tests/peeweemodel
+copying flask_admin/tests/peeweemodel/__init__.py -> build/lib/flask_admin/tests/peeweemodel
+creating build/lib/flask_admin/tests/geoa
+copying flask_admin/tests/geoa/test_basic.py -> build/lib/flask_admin/tests/geoa
+copying flask_admin/tests/geoa/__init__.py -> build/lib/flask_admin/tests/geoa
+creating build/lib/flask_admin/tests/fileadmin
+copying flask_admin/tests/fileadmin/test_fileadmin.py -> build/lib/flask_admin/tests/fileadmin
+copying flask_admin/tests/fileadmin/__init__.py -> build/lib/flask_admin/tests/fileadmin
+creating build/lib/flask_admin/tests/sqla
+copying flask_admin/tests/sqla/test_basic.py -> build/lib/flask_admin/tests/sqla
+copying flask_admin/tests/sqla/test_multi_pk.py -> build/lib/flask_admin/tests/sqla
+copying flask_admin/tests/sqla/__init__.py -> build/lib/flask_admin/tests/sqla
+copying flask_admin/tests/sqla/test_inlineform.py -> build/lib/flask_admin/tests/sqla
+copying flask_admin/tests/sqla/test_form_rules.py -> build/lib/flask_admin/tests/sqla
+creating build/lib/flask_admin/tests/pymongo
+copying flask_admin/tests/pymongo/test_basic.py -> build/lib/flask_admin/tests/pymongo
+copying flask_admin/tests/pymongo/__init__.py -> build/lib/flask_admin/tests/pymongo
+creating build/lib/flask_admin/tests/mongoengine
+copying flask_admin/tests/mongoengine/test_basic.py -> build/lib/flask_admin/tests/mongoengine
+copying flask_admin/tests/mongoengine/__init__.py -> build/lib/flask_admin/tests/mongoengine
+creating build/lib/flask_admin/static
+creating build/lib/flask_admin/static/admin
+creating build/lib/flask_admin/static/admin/css
+creating build/lib/flask_admin/static/admin/css/bootstrap2
+copying flask_admin/static/admin/css/bootstrap2/admin.css -> build/lib/flask_admin/static/admin/css/bootstrap2
+copying flask_admin/static/admin/css/bootstrap2/rediscli.css -> build/lib/flask_admin/static/admin/css/bootstrap2
+creating build/lib/flask_admin/static/admin/css/bootstrap3
+copying flask_admin/static/admin/css/bootstrap3/admin.css -> build/lib/flask_admin/static/admin/css/bootstrap3
+copying flask_admin/static/admin/css/bootstrap3/rediscli.css -> build/lib/flask_admin/static/admin/css/bootstrap3
+creating build/lib/flask_admin/static/admin/js
+copying flask_admin/static/admin/js/actions-1.0.0.js -> build/lib/flask_admin/static/admin/js
+copying flask_admin/static/admin/js/filters-1.0.0.js -> build/lib/flask_admin/static/admin/js
+copying flask_admin/static/admin/js/form-1.0.0.js -> build/lib/flask_admin/static/admin/js
+copying flask_admin/static/admin/js/rediscli-1.0.0.js -> build/lib/flask_admin/static/admin/js
+creating build/lib/flask_admin/static/bootstrap
+creating build/lib/flask_admin/static/bootstrap/bootstrap2
+creating build/lib/flask_admin/static/bootstrap/bootstrap2/css
+copying flask_admin/static/bootstrap/bootstrap2/css/bootstrap-responsive.css -> build/lib/flask_admin/static/bootstrap/bootstrap2/css
+copying flask_admin/static/bootstrap/bootstrap2/css/bootstrap-responsive.min.css -> build/lib/flask_admin/static/bootstrap/bootstrap2/css
+copying flask_admin/static/bootstrap/bootstrap2/css/bootstrap.css -> build/lib/flask_admin/static/bootstrap/bootstrap2/css
+copying flask_admin/static/bootstrap/bootstrap2/css/bootstrap.min.css -> build/lib/flask_admin/static/bootstrap/bootstrap2/css
+creating build/lib/flask_admin/static/bootstrap/bootstrap2/img
+copying flask_admin/static/bootstrap/bootstrap2/img/glyphicons-halflings-white.png -> build/lib/flask_admin/static/bootstrap/bootstrap2/img
+copying flask_admin/static/bootstrap/bootstrap2/img/glyphicons-halflings.png -> build/lib/flask_admin/static/bootstrap/bootstrap2/img
+creating build/lib/flask_admin/static/bootstrap/bootstrap2/js
+copying flask_admin/static/bootstrap/bootstrap2/js/bootstrap.js -> build/lib/flask_admin/static/bootstrap/bootstrap2/js
+copying flask_admin/static/bootstrap/bootstrap2/js/bootstrap.min.js -> build/lib/flask_admin/static/bootstrap/bootstrap2/js
+creating build/lib/flask_admin/static/bootstrap/bootstrap3
+creating build/lib/flask_admin/static/bootstrap/bootstrap3/css
+copying flask_admin/static/bootstrap/bootstrap3/css/bootstrap-theme.css -> build/lib/flask_admin/static/bootstrap/bootstrap3/css
+copying flask_admin/static/bootstrap/bootstrap3/css/bootstrap-theme.css.map -> build/lib/flask_admin/static/bootstrap/bootstrap3/css
+copying flask_admin/static/bootstrap/bootstrap3/css/bootstrap-theme.min.css -> build/lib/flask_admin/static/bootstrap/bootstrap3/css
+copying flask_admin/static/bootstrap/bootstrap3/css/bootstrap.css -> build/lib/flask_admin/static/bootstrap/bootstrap3/css
+copying flask_admin/static/bootstrap/bootstrap3/css/bootstrap.css.map -> build/lib/flask_admin/static/bootstrap/bootstrap3/css
+copying flask_admin/static/bootstrap/bootstrap3/css/bootstrap.min.css -> build/lib/flask_admin/static/bootstrap/bootstrap3/css
+creating build/lib/flask_admin/static/bootstrap/bootstrap3/fonts
+copying flask_admin/static/bootstrap/bootstrap3/fonts/glyphicons-halflings-regular.eot -> build/lib/flask_admin/static/bootstrap/bootstrap3/fonts
+copying flask_admin/static/bootstrap/bootstrap3/fonts/glyphicons-halflings-regular.svg -> build/lib/flask_admin/static/bootstrap/bootstrap3/fonts
+copying flask_admin/static/bootstrap/bootstrap3/fonts/glyphicons-halflings-regular.ttf -> build/lib/flask_admin/static/bootstrap/bootstrap3/fonts
+copying flask_admin/static/bootstrap/bootstrap3/fonts/glyphicons-halflings-regular.woff -> build/lib/flask_admin/static/bootstrap/bootstrap3/fonts
+creating build/lib/flask_admin/static/bootstrap/bootstrap3/js
+copying flask_admin/static/bootstrap/bootstrap3/js/bootstrap.js -> build/lib/flask_admin/static/bootstrap/bootstrap3/js
+copying flask_admin/static/bootstrap/bootstrap3/js/bootstrap.min.js -> build/lib/flask_admin/static/bootstrap/bootstrap3/js
+creating build/lib/flask_admin/static/vendor
+copying flask_admin/static/vendor/jquery-2.1.1.min.js -> build/lib/flask_admin/static/vendor
+copying flask_admin/static/vendor/moment-2.8.4.min.js -> build/lib/flask_admin/static/vendor
+creating build/lib/flask_admin/static/vendor/bootstrap-daterangepicker
+copying flask_admin/static/vendor/bootstrap-daterangepicker/README.md -> build/lib/flask_admin/static/vendor/bootstrap-daterangepicker
+copying flask_admin/static/vendor/bootstrap-daterangepicker/daterangepicker-bs2.css -> build/lib/flask_admin/static/vendor/bootstrap-daterangepicker
+copying flask_admin/static/vendor/bootstrap-daterangepicker/daterangepicker-bs3.css -> build/lib/flask_admin/static/vendor/bootstrap-daterangepicker
+copying flask_admin/static/vendor/bootstrap-daterangepicker/daterangepicker.js -> build/lib/flask_admin/static/vendor/bootstrap-daterangepicker
+creating build/lib/flask_admin/static/vendor/leaflet
+copying flask_admin/static/vendor/leaflet/leaflet.css -> build/lib/flask_admin/static/vendor/leaflet
+copying flask_admin/static/vendor/leaflet/leaflet.draw.css -> build/lib/flask_admin/static/vendor/leaflet
+copying flask_admin/static/vendor/leaflet/leaflet.draw.js -> build/lib/flask_admin/static/vendor/leaflet
+copying flask_admin/static/vendor/leaflet/leaflet.js -> build/lib/flask_admin/static/vendor/leaflet
+creating build/lib/flask_admin/static/vendor/leaflet/images
+copying flask_admin/static/vendor/leaflet/images/layers-2x.png -> build/lib/flask_admin/static/vendor/leaflet/images
+copying flask_admin/static/vendor/leaflet/images/layers.png -> build/lib/flask_admin/static/vendor/leaflet/images
+copying flask_admin/static/vendor/leaflet/images/marker-icon-2x.png -> build/lib/flask_admin/static/vendor/leaflet/images
+copying flask_admin/static/vendor/leaflet/images/marker-icon.png -> build/lib/flask_admin/static/vendor/leaflet/images
+copying flask_admin/static/vendor/leaflet/images/marker-shadow.png -> build/lib/flask_admin/static/vendor/leaflet/images
+copying flask_admin/static/vendor/leaflet/images/spritesheet-2x.png -> build/lib/flask_admin/static/vendor/leaflet/images
+copying flask_admin/static/vendor/leaflet/images/spritesheet.png -> build/lib/flask_admin/static/vendor/leaflet/images
+creating build/lib/flask_admin/static/vendor/select2
+copying flask_admin/static/vendor/select2/LICENSE -> build/lib/flask_admin/static/vendor/select2
+copying flask_admin/static/vendor/select2/select2-bootstrap3.css -> build/lib/flask_admin/static/vendor/select2
+copying flask_admin/static/vendor/select2/select2-spinner.gif -> build/lib/flask_admin/static/vendor/select2
+copying flask_admin/static/vendor/select2/select2.css -> build/lib/flask_admin/static/vendor/select2
+copying flask_admin/static/vendor/select2/select2.min.js -> build/lib/flask_admin/static/vendor/select2
+copying flask_admin/static/vendor/select2/select2.png -> build/lib/flask_admin/static/vendor/select2
+copying flask_admin/static/vendor/select2/select2x2.png -> build/lib/flask_admin/static/vendor/select2
+creating build/lib/flask_admin/static/vendor/x-editable
+creating build/lib/flask_admin/static/vendor/x-editable/css
+copying flask_admin/static/vendor/x-editable/css/bootstrap2-editable-1.5.1.css -> build/lib/flask_admin/static/vendor/x-editable/css
+copying flask_admin/static/vendor/x-editable/css/bootstrap3-editable-1.5.1.css -> build/lib/flask_admin/static/vendor/x-editable/css
+creating build/lib/flask_admin/static/vendor/x-editable/img
+copying flask_admin/static/vendor/x-editable/img/clear.png -> build/lib/flask_admin/static/vendor/x-editable/img
+copying flask_admin/static/vendor/x-editable/img/loading.gif -> build/lib/flask_admin/static/vendor/x-editable/img
+creating build/lib/flask_admin/static/vendor/x-editable/js
+copying flask_admin/static/vendor/x-editable/js/bootstrap2-editable-1.5.1.min.js -> build/lib/flask_admin/static/vendor/x-editable/js
+copying flask_admin/static/vendor/x-editable/js/bootstrap3-editable-1.5.1.min.js -> build/lib/flask_admin/static/vendor/x-editable/js
+creating build/lib/flask_admin/templates
+creating build/lib/flask_admin/templates/bootstrap2
+creating build/lib/flask_admin/templates/bootstrap2/admin
+copying flask_admin/templates/bootstrap2/admin/actions.html -> build/lib/flask_admin/templates/bootstrap2/admin
+copying flask_admin/templates/bootstrap2/admin/base.html -> build/lib/flask_admin/templates/bootstrap2/admin
+copying flask_admin/templates/bootstrap2/admin/index.html -> build/lib/flask_admin/templates/bootstrap2/admin
+copying flask_admin/templates/bootstrap2/admin/layout.html -> build/lib/flask_admin/templates/bootstrap2/admin
+copying flask_admin/templates/bootstrap2/admin/lib.html -> build/lib/flask_admin/templates/bootstrap2/admin
+copying flask_admin/templates/bootstrap2/admin/master.html -> build/lib/flask_admin/templates/bootstrap2/admin
+copying flask_admin/templates/bootstrap2/admin/static.html -> build/lib/flask_admin/templates/bootstrap2/admin
+creating build/lib/flask_admin/templates/bootstrap2/admin/file
+copying flask_admin/templates/bootstrap2/admin/file/edit.html -> build/lib/flask_admin/templates/bootstrap2/admin/file
+copying flask_admin/templates/bootstrap2/admin/file/form.html -> build/lib/flask_admin/templates/bootstrap2/admin/file
+copying flask_admin/templates/bootstrap2/admin/file/list.html -> build/lib/flask_admin/templates/bootstrap2/admin/file
+copying flask_admin/templates/bootstrap2/admin/file/rename.html -> build/lib/flask_admin/templates/bootstrap2/admin/file
+creating build/lib/flask_admin/templates/bootstrap2/admin/model
+copying flask_admin/templates/bootstrap2/admin/model/create.html -> build/lib/flask_admin/templates/bootstrap2/admin/model
+copying flask_admin/templates/bootstrap2/admin/model/edit.html -> build/lib/flask_admin/templates/bootstrap2/admin/model
+copying flask_admin/templates/bootstrap2/admin/model/inline_field_list.html -> build/lib/flask_admin/templates/bootstrap2/admin/model
+copying flask_admin/templates/bootstrap2/admin/model/inline_form.html -> build/lib/flask_admin/templates/bootstrap2/admin/model
+copying flask_admin/templates/bootstrap2/admin/model/inline_list_base.html -> build/lib/flask_admin/templates/bootstrap2/admin/model
+copying flask_admin/templates/bootstrap2/admin/model/layout.html -> build/lib/flask_admin/templates/bootstrap2/admin/model
+copying flask_admin/templates/bootstrap2/admin/model/list.html -> build/lib/flask_admin/templates/bootstrap2/admin/model
+creating build/lib/flask_admin/templates/bootstrap2/admin/rediscli
+copying flask_admin/templates/bootstrap2/admin/rediscli/console.html -> build/lib/flask_admin/templates/bootstrap2/admin/rediscli
+copying flask_admin/templates/bootstrap2/admin/rediscli/response.html -> build/lib/flask_admin/templates/bootstrap2/admin/rediscli
+creating build/lib/flask_admin/templates/bootstrap3
+creating build/lib/flask_admin/templates/bootstrap3/admin
+copying flask_admin/templates/bootstrap3/admin/actions.html -> build/lib/flask_admin/templates/bootstrap3/admin
+copying flask_admin/templates/bootstrap3/admin/base.html -> build/lib/flask_admin/templates/bootstrap3/admin
+copying flask_admin/templates/bootstrap3/admin/index.html -> build/lib/flask_admin/templates/bootstrap3/admin
+copying flask_admin/templates/bootstrap3/admin/layout.html -> build/lib/flask_admin/templates/bootstrap3/admin
+copying flask_admin/templates/bootstrap3/admin/lib.html -> build/lib/flask_admin/templates/bootstrap3/admin
+copying flask_admin/templates/bootstrap3/admin/master.html -> build/lib/flask_admin/templates/bootstrap3/admin
+copying flask_admin/templates/bootstrap3/admin/static.html -> build/lib/flask_admin/templates/bootstrap3/admin
+creating build/lib/flask_admin/templates/bootstrap3/admin/file
+copying flask_admin/templates/bootstrap3/admin/file/edit.html -> build/lib/flask_admin/templates/bootstrap3/admin/file
+copying flask_admin/templates/bootstrap3/admin/file/form.html -> build/lib/flask_admin/templates/bootstrap3/admin/file
+copying flask_admin/templates/bootstrap3/admin/file/list.html -> build/lib/flask_admin/templates/bootstrap3/admin/file
+copying flask_admin/templates/bootstrap3/admin/file/rename.html -> build/lib/flask_admin/templates/bootstrap3/admin/file
+creating build/lib/flask_admin/templates/bootstrap3/admin/model
+copying flask_admin/templates/bootstrap3/admin/model/create.html -> build/lib/flask_admin/templates/bootstrap3/admin/model
+copying flask_admin/templates/bootstrap3/admin/model/edit.html -> build/lib/flask_admin/templates/bootstrap3/admin/model
+copying flask_admin/templates/bootstrap3/admin/model/inline_field_list.html -> build/lib/flask_admin/templates/bootstrap3/admin/model
+copying flask_admin/templates/bootstrap3/admin/model/inline_form.html -> build/lib/flask_admin/templates/bootstrap3/admin/model
+copying flask_admin/templates/bootstrap3/admin/model/inline_list_base.html -> build/lib/flask_admin/templates/bootstrap3/admin/model
+copying flask_admin/templates/bootstrap3/admin/model/layout.html -> build/lib/flask_admin/templates/bootstrap3/admin/model
+copying flask_admin/templates/bootstrap3/admin/model/list.html -> build/lib/flask_admin/templates/bootstrap3/admin/model
+creating build/lib/flask_admin/templates/bootstrap3/admin/rediscli
+copying flask_admin/templates/bootstrap3/admin/rediscli/console.html -> build/lib/flask_admin/templates/bootstrap3/admin/rediscli
+copying flask_admin/templates/bootstrap3/admin/rediscli/response.html -> build/lib/flask_admin/templates/bootstrap3/admin/rediscli
+creating build/lib/flask_admin/translations/ca_ES
+creating build/lib/flask_admin/translations/ca_ES/LC_MESSAGES
+copying flask_admin/translations/ca_ES/LC_MESSAGES/admin.mo -> build/lib/flask_admin/translations/ca_ES/LC_MESSAGES
+copying flask_admin/translations/ca_ES/LC_MESSAGES/admin.po -> build/lib/flask_admin/translations/ca_ES/LC_MESSAGES
+creating build/lib/flask_admin/translations/cs
+creating build/lib/flask_admin/translations/cs/LC_MESSAGES
+copying flask_admin/translations/cs/LC_MESSAGES/admin.mo -> build/lib/flask_admin/translations/cs/LC_MESSAGES
+copying flask_admin/translations/cs/LC_MESSAGES/admin.po -> build/lib/flask_admin/translations/cs/LC_MESSAGES
+creating build/lib/flask_admin/translations/de
+creating build/lib/flask_admin/translations/de/LC_MESSAGES
+copying flask_admin/translations/de/LC_MESSAGES/admin.mo -> build/lib/flask_admin/translations/de/LC_MESSAGES
+copying flask_admin/translations/de/LC_MESSAGES/admin.po -> build/lib/flask_admin/translations/de/LC_MESSAGES
+creating build/lib/flask_admin/translations/es
+creating build/lib/flask_admin/translations/es/LC_MESSAGES
+copying flask_admin/translations/es/LC_MESSAGES/admin.mo -> build/lib/flask_admin/translations/es/LC_MESSAGES
+copying flask_admin/translations/es/LC_MESSAGES/admin.po -> build/lib/flask_admin/translations/es/LC_MESSAGES
+creating build/lib/flask_admin/translations/fa
+creating build/lib/flask_admin/translations/fa/LC_MESSAGES
+copying flask_admin/translations/fa/LC_MESSAGES/admin.mo -> build/lib/flask_admin/translations/fa/LC_MESSAGES
+copying flask_admin/translations/fa/LC_MESSAGES/admin.po -> build/lib/flask_admin/translations/fa/LC_MESSAGES
+creating build/lib/flask_admin/translations/fr
+creating build/lib/flask_admin/translations/fr/LC_MESSAGES
+copying flask_admin/translations/fr/LC_MESSAGES/admin.mo -> build/lib/flask_admin/translations/fr/LC_MESSAGES
+copying flask_admin/translations/fr/LC_MESSAGES/admin.po -> build/lib/flask_admin/translations/fr/LC_MESSAGES
+creating build/lib/flask_admin/translations/pt
+creating build/lib/flask_admin/translations/pt/LC_MESSAGES
+copying flask_admin/translations/pt/LC_MESSAGES/admin.mo -> build/lib/flask_admin/translations/pt/LC_MESSAGES
+copying flask_admin/translations/pt/LC_MESSAGES/admin.po -> build/lib/flask_admin/translations/pt/LC_MESSAGES
+creating build/lib/flask_admin/translations/ru
+creating build/lib/flask_admin/translations/ru/LC_MESSAGES
+copying flask_admin/translations/ru/LC_MESSAGES/admin.mo -> build/lib/flask_admin/translations/ru/LC_MESSAGES
+copying flask_admin/translations/ru/LC_MESSAGES/admin.po -> build/lib/flask_admin/translations/ru/LC_MESSAGES
+creating build/lib/flask_admin/translations/zh_Hans_CN
+creating build/lib/flask_admin/translations/zh_Hans_CN/LC_MESSAGES
+copying flask_admin/translations/zh_Hans_CN/LC_MESSAGES/admin.mo -> build/lib/flask_admin/translations/zh_Hans_CN/LC_MESSAGES
+copying flask_admin/translations/zh_Hans_CN/LC_MESSAGES/admin.po -> build/lib/flask_admin/translations/zh_Hans_CN/LC_MESSAGES
+creating build/lib/flask_admin/translations/zh_Hant_TW
+creating build/lib/flask_admin/translations/zh_Hant_TW/LC_MESSAGES
+copying flask_admin/translations/zh_Hant_TW/LC_MESSAGES/admin.mo -> build/lib/flask_admin/translations/zh_Hant_TW/LC_MESSAGES
+copying flask_admin/translations/zh_Hant_TW/LC_MESSAGES/admin.po -> build/lib/flask_admin/translations/zh_Hant_TW/LC_MESSAGES
+creating build/lib/flask_admin/tests/data
+copying flask_admin/tests/data/copyleft.gif -> build/lib/flask_admin/tests/data
+copying flask_admin/tests/data/copyleft.jpeg -> build/lib/flask_admin/tests/data
+copying flask_admin/tests/data/copyleft.jpg -> build/lib/flask_admin/tests/data
+copying flask_admin/tests/data/copyleft.png -> build/lib/flask_admin/tests/data
+copying flask_admin/tests/data/copyleft.tiff -> build/lib/flask_admin/tests/data
+creating build/lib/flask_admin/tests/templates
+copying flask_admin/tests/templates/method.html -> build/lib/flask_admin/tests/templates
+copying flask_admin/tests/templates/mock.html -> build/lib/flask_admin/tests/templates
+creating build/lib/flask_admin/tests/tmp
+copying flask_admin/tests/tmp/copyleft.jpeg -> build/lib/flask_admin/tests/tmp
+copying flask_admin/tests/tmp/copyleft.jpg -> build/lib/flask_admin/tests/tmp
+creating build/lib/flask_admin/tests/tmp/inner
+copying flask_admin/tests/tmp/inner/test1.txt -> build/lib/flask_admin/tests/tmp/inner
+creating build/lib/flask_admin/tests/fileadmin/files
+copying flask_admin/tests/fileadmin/files/dummy.txt -> build/lib/flask_admin/tests/fileadmin/files
+creating build/lib/flask_admin/tests/sqla/templates
+copying flask_admin/tests/sqla/templates/another_macro.html -> build/lib/flask_admin/tests/sqla/templates
+copying flask_admin/tests/sqla/templates/macro.html -> build/lib/flask_admin/tests/sqla/templates
+creating build/bdist.linux-x86_64
+creating build/bdist.linux-x86_64/egg
+creating build/bdist.linux-x86_64/egg/examples
+creating build/bdist.linux-x86_64/egg/examples/quickstart
+copying build/lib/examples/quickstart/app3.py -> build/bdist.linux-x86_64/egg/examples/quickstart
+copying build/lib/examples/quickstart/app2.py -> build/bdist.linux-x86_64/egg/examples/quickstart
+copying build/lib/examples/quickstart/app.py -> build/bdist.linux-x86_64/egg/examples/quickstart
+copying build/lib/examples/quickstart/__init__.py -> build/bdist.linux-x86_64/egg/examples/quickstart
+creating build/bdist.linux-x86_64/egg/examples/sqla
+copying build/lib/examples/sqla/app2.py -> build/bdist.linux-x86_64/egg/examples/sqla
+copying build/lib/examples/sqla/app.py -> build/bdist.linux-x86_64/egg/examples/sqla
+copying build/lib/examples/sqla/__init__.py -> build/bdist.linux-x86_64/egg/examples/sqla
+creating build/bdist.linux-x86_64/egg/examples/simple
+copying build/lib/examples/simple/app.py -> build/bdist.linux-x86_64/egg/examples/simple
+copying build/lib/examples/simple/__init__.py -> build/bdist.linux-x86_64/egg/examples/simple
+creating build/bdist.linux-x86_64/egg/examples/sqla-custom-filter
+copying build/lib/examples/sqla-custom-filter/app.py -> build/bdist.linux-x86_64/egg/examples/sqla-custom-filter
+copying build/lib/examples/sqla-custom-filter/__init__.py -> build/bdist.linux-x86_64/egg/examples/sqla-custom-filter
+creating build/bdist.linux-x86_64/egg/examples/forms
+copying build/lib/examples/forms/app.py -> build/bdist.linux-x86_64/egg/examples/forms
+copying build/lib/examples/forms/__init__.py -> build/bdist.linux-x86_64/egg/examples/forms
+creating build/bdist.linux-x86_64/egg/examples/auth
+copying build/lib/examples/auth/app.py -> build/bdist.linux-x86_64/egg/examples/auth
+copying build/lib/examples/auth/__init__.py -> build/bdist.linux-x86_64/egg/examples/auth
+copying build/lib/examples/__init__.py -> build/bdist.linux-x86_64/egg/examples
+creating build/bdist.linux-x86_64/egg/examples/layout-bootstrap3
+copying build/lib/examples/layout-bootstrap3/app.py -> build/bdist.linux-x86_64/egg/examples/layout-bootstrap3
+copying build/lib/examples/layout-bootstrap3/__init__.py -> build/bdist.linux-x86_64/egg/examples/layout-bootstrap3
+creating build/bdist.linux-x86_64/egg/examples/layout
+copying build/lib/examples/layout/app.py -> build/bdist.linux-x86_64/egg/examples/layout
+copying build/lib/examples/layout/__init__.py -> build/bdist.linux-x86_64/egg/examples/layout
+creating build/bdist.linux-x86_64/egg/flask_admin
+copying build/lib/flask_admin/babel.py -> build/bdist.linux-x86_64/egg/flask_admin
+creating build/bdist.linux-x86_64/egg/flask_admin/translations
+creating build/bdist.linux-x86_64/egg/flask_admin/translations/de
+creating build/bdist.linux-x86_64/egg/flask_admin/translations/de/LC_MESSAGES
+copying build/lib/flask_admin/translations/de/LC_MESSAGES/admin.po -> build/bdist.linux-x86_64/egg/flask_admin/translations/de/LC_MESSAGES
+copying build/lib/flask_admin/translations/de/LC_MESSAGES/admin.mo -> build/bdist.linux-x86_64/egg/flask_admin/translations/de/LC_MESSAGES
+creating build/bdist.linux-x86_64/egg/flask_admin/translations/cs
+creating build/bdist.linux-x86_64/egg/flask_admin/translations/cs/LC_MESSAGES
+copying build/lib/flask_admin/translations/cs/LC_MESSAGES/admin.po -> build/bdist.linux-x86_64/egg/flask_admin/translations/cs/LC_MESSAGES
+copying build/lib/flask_admin/translations/cs/LC_MESSAGES/admin.mo -> build/bdist.linux-x86_64/egg/flask_admin/translations/cs/LC_MESSAGES
+creating build/bdist.linux-x86_64/egg/flask_admin/translations/es
+creating build/bdist.linux-x86_64/egg/flask_admin/translations/es/LC_MESSAGES
+copying build/lib/flask_admin/translations/es/LC_MESSAGES/admin.po -> build/bdist.linux-x86_64/egg/flask_admin/translations/es/LC_MESSAGES
+copying build/lib/flask_admin/translations/es/LC_MESSAGES/admin.mo -> build/bdist.linux-x86_64/egg/flask_admin/translations/es/LC_MESSAGES
+creating build/bdist.linux-x86_64/egg/flask_admin/translations/pt
+creating build/bdist.linux-x86_64/egg/flask_admin/translations/pt/LC_MESSAGES
+copying build/lib/flask_admin/translations/pt/LC_MESSAGES/admin.po -> build/bdist.linux-x86_64/egg/flask_admin/translations/pt/LC_MESSAGES
+copying build/lib/flask_admin/translations/pt/LC_MESSAGES/admin.mo -> build/bdist.linux-x86_64/egg/flask_admin/translations/pt/LC_MESSAGES
+creating build/bdist.linux-x86_64/egg/flask_admin/translations/fr
+creating build/bdist.linux-x86_64/egg/flask_admin/translations/fr/LC_MESSAGES
+copying build/lib/flask_admin/translations/fr/LC_MESSAGES/admin.po -> build/bdist.linux-x86_64/egg/flask_admin/translations/fr/LC_MESSAGES
+copying build/lib/flask_admin/translations/fr/LC_MESSAGES/admin.mo -> build/bdist.linux-x86_64/egg/flask_admin/translations/fr/LC_MESSAGES
+creating build/bdist.linux-x86_64/egg/flask_admin/translations/fa
+creating build/bdist.linux-x86_64/egg/flask_admin/translations/fa/LC_MESSAGES
+copying build/lib/flask_admin/translations/fa/LC_MESSAGES/admin.po -> build/bdist.linux-x86_64/egg/flask_admin/translations/fa/LC_MESSAGES
+copying build/lib/flask_admin/translations/fa/LC_MESSAGES/admin.mo -> build/bdist.linux-x86_64/egg/flask_admin/translations/fa/LC_MESSAGES
+creating build/bdist.linux-x86_64/egg/flask_admin/translations/zh_Hans_CN
+creating build/bdist.linux-x86_64/egg/flask_admin/translations/zh_Hans_CN/LC_MESSAGES
+copying build/lib/flask_admin/translations/zh_Hans_CN/LC_MESSAGES/admin.po -> build/bdist.linux-x86_64/egg/flask_admin/translations/zh_Hans_CN/LC_MESSAGES
+copying build/lib/flask_admin/translations/zh_Hans_CN/LC_MESSAGES/admin.mo -> build/bdist.linux-x86_64/egg/flask_admin/translations/zh_Hans_CN/LC_MESSAGES
+copying build/lib/flask_admin/translations/__init__.py -> build/bdist.linux-x86_64/egg/flask_admin/translations
+creating build/bdist.linux-x86_64/egg/flask_admin/translations/zh_Hant_TW
+creating build/bdist.linux-x86_64/egg/flask_admin/translations/zh_Hant_TW/LC_MESSAGES
+copying build/lib/flask_admin/translations/zh_Hant_TW/LC_MESSAGES/admin.po -> build/bdist.linux-x86_64/egg/flask_admin/translations/zh_Hant_TW/LC_MESSAGES
+copying build/lib/flask_admin/translations/zh_Hant_TW/LC_MESSAGES/admin.mo -> build/bdist.linux-x86_64/egg/flask_admin/translations/zh_Hant_TW/LC_MESSAGES
+creating build/bdist.linux-x86_64/egg/flask_admin/translations/ca_ES
+creating build/bdist.linux-x86_64/egg/flask_admin/translations/ca_ES/LC_MESSAGES
+copying build/lib/flask_admin/translations/ca_ES/LC_MESSAGES/admin.po -> build/bdist.linux-x86_64/egg/flask_admin/translations/ca_ES/LC_MESSAGES
+copying build/lib/flask_admin/translations/ca_ES/LC_MESSAGES/admin.mo -> build/bdist.linux-x86_64/egg/flask_admin/translations/ca_ES/LC_MESSAGES
+creating build/bdist.linux-x86_64/egg/flask_admin/translations/ru
+creating build/bdist.linux-x86_64/egg/flask_admin/translations/ru/LC_MESSAGES
+copying build/lib/flask_admin/translations/ru/LC_MESSAGES/admin.po -> build/bdist.linux-x86_64/egg/flask_admin/translations/ru/LC_MESSAGES
+copying build/lib/flask_admin/translations/ru/LC_MESSAGES/admin.mo -> build/bdist.linux-x86_64/egg/flask_admin/translations/ru/LC_MESSAGES
+copying build/lib/flask_admin/tools.py -> build/bdist.linux-x86_64/egg/flask_admin
+copying build/lib/flask_admin/menu.py -> build/bdist.linux-x86_64/egg/flask_admin
+creating build/bdist.linux-x86_64/egg/flask_admin/model
+copying build/lib/flask_admin/model/filters.py -> build/bdist.linux-x86_64/egg/flask_admin/model
+copying build/lib/flask_admin/model/widgets.py -> build/bdist.linux-x86_64/egg/flask_admin/model
+copying build/lib/flask_admin/model/fields.py -> build/bdist.linux-x86_64/egg/flask_admin/model
+copying build/lib/flask_admin/model/typefmt.py -> build/bdist.linux-x86_64/egg/flask_admin/model
+copying build/lib/flask_admin/model/__init__.py -> build/bdist.linux-x86_64/egg/flask_admin/model
+copying build/lib/flask_admin/model/form.py -> build/bdist.linux-x86_64/egg/flask_admin/model
+copying build/lib/flask_admin/model/helpers.py -> build/bdist.linux-x86_64/egg/flask_admin/model
+copying build/lib/flask_admin/model/template.py -> build/bdist.linux-x86_64/egg/flask_admin/model
+copying build/lib/flask_admin/model/ajax.py -> build/bdist.linux-x86_64/egg/flask_admin/model
+copying build/lib/flask_admin/model/base.py -> build/bdist.linux-x86_64/egg/flask_admin/model
+copying build/lib/flask_admin/actions.py -> build/bdist.linux-x86_64/egg/flask_admin
+copying build/lib/flask_admin/consts.py -> build/bdist.linux-x86_64/egg/flask_admin
+creating build/bdist.linux-x86_64/egg/flask_admin/templates
+creating build/bdist.linux-x86_64/egg/flask_admin/templates/bootstrap3
+creating build/bdist.linux-x86_64/egg/flask_admin/templates/bootstrap3/admin
+copying build/lib/flask_admin/templates/bootstrap3/admin/index.html -> build/bdist.linux-x86_64/egg/flask_admin/templates/bootstrap3/admin
+copying build/lib/flask_admin/templates/bootstrap3/admin/layout.html -> build/bdist.linux-x86_64/egg/flask_admin/templates/bootstrap3/admin
+creating build/bdist.linux-x86_64/egg/flask_admin/templates/bootstrap3/admin/model
+copying build/lib/flask_admin/templates/bootstrap3/admin/model/list.html -> build/bdist.linux-x86_64/egg/flask_admin/templates/bootstrap3/admin/model
+copying build/lib/flask_admin/templates/bootstrap3/admin/model/layout.html -> build/bdist.linux-x86_64/egg/flask_admin/templates/bootstrap3/admin/model
+copying build/lib/flask_admin/templates/bootstrap3/admin/model/inline_field_list.html -> build/bdist.linux-x86_64/egg/flask_admin/templates/bootstrap3/admin/model
+copying build/lib/flask_admin/templates/bootstrap3/admin/model/edit.html -> build/bdist.linux-x86_64/egg/flask_admin/templates/bootstrap3/admin/model
+copying build/lib/flask_admin/templates/bootstrap3/admin/model/create.html -> build/bdist.linux-x86_64/egg/flask_admin/templates/bootstrap3/admin/model
+copying build/lib/flask_admin/templates/bootstrap3/admin/model/inline_list_base.html -> build/bdist.linux-x86_64/egg/flask_admin/templates/bootstrap3/admin/model
+copying build/lib/flask_admin/templates/bootstrap3/admin/model/inline_form.html -> build/bdist.linux-x86_64/egg/flask_admin/templates/bootstrap3/admin/model
+copying build/lib/flask_admin/templates/bootstrap3/admin/static.html -> build/bdist.linux-x86_64/egg/flask_admin/templates/bootstrap3/admin
+creating build/bdist.linux-x86_64/egg/flask_admin/templates/bootstrap3/admin/file
+copying build/lib/flask_admin/templates/bootstrap3/admin/file/list.html -> build/bdist.linux-x86_64/egg/flask_admin/templates/bootstrap3/admin/file
+copying build/lib/flask_admin/templates/bootstrap3/admin/file/form.html -> build/bdist.linux-x86_64/egg/flask_admin/templates/bootstrap3/admin/file
+copying build/lib/flask_admin/templates/bootstrap3/admin/file/edit.html -> build/bdist.linux-x86_64/egg/flask_admin/templates/bootstrap3/admin/file
+copying build/lib/flask_admin/templates/bootstrap3/admin/file/rename.html -> build/bdist.linux-x86_64/egg/flask_admin/templates/bootstrap3/admin/file
+copying build/lib/flask_admin/templates/bootstrap3/admin/master.html -> build/bdist.linux-x86_64/egg/flask_admin/templates/bootstrap3/admin
+copying build/lib/flask_admin/templates/bootstrap3/admin/actions.html -> build/bdist.linux-x86_64/egg/flask_admin/templates/bootstrap3/admin
+copying build/lib/flask_admin/templates/bootstrap3/admin/base.html -> build/bdist.linux-x86_64/egg/flask_admin/templates/bootstrap3/admin
+creating build/bdist.linux-x86_64/egg/flask_admin/templates/bootstrap3/admin/rediscli
+copying build/lib/flask_admin/templates/bootstrap3/admin/rediscli/console.html -> build/bdist.linux-x86_64/egg/flask_admin/templates/bootstrap3/admin/rediscli
+copying build/lib/flask_admin/templates/bootstrap3/admin/rediscli/response.html -> build/bdist.linux-x86_64/egg/flask_admin/templates/bootstrap3/admin/rediscli
+copying build/lib/flask_admin/templates/bootstrap3/admin/lib.html -> build/bdist.linux-x86_64/egg/flask_admin/templates/bootstrap3/admin
+creating build/bdist.linux-x86_64/egg/flask_admin/templates/bootstrap2
+creating build/bdist.linux-x86_64/egg/flask_admin/templates/bootstrap2/admin
+copying build/lib/flask_admin/templates/bootstrap2/admin/index.html -> build/bdist.linux-x86_64/egg/flask_admin/templates/bootstrap2/admin
+copying build/lib/flask_admin/templates/bootstrap2/admin/layout.html -> build/bdist.linux-x86_64/egg/flask_admin/templates/bootstrap2/admin
+creating build/bdist.linux-x86_64/egg/flask_admin/templates/bootstrap2/admin/model
+copying build/lib/flask_admin/templates/bootstrap2/admin/model/list.html -> build/bdist.linux-x86_64/egg/flask_admin/templates/bootstrap2/admin/model
+copying build/lib/flask_admin/templates/bootstrap2/admin/model/layout.html -> build/bdist.linux-x86_64/egg/flask_admin/templates/bootstrap2/admin/model
+copying build/lib/flask_admin/templates/bootstrap2/admin/model/inline_field_list.html -> build/bdist.linux-x86_64/egg/flask_admin/templates/bootstrap2/admin/model
+copying build/lib/flask_admin/templates/bootstrap2/admin/model/edit.html -> build/bdist.linux-x86_64/egg/flask_admin/templates/bootstrap2/admin/model
+copying build/lib/flask_admin/templates/bootstrap2/admin/model/create.html -> build/bdist.linux-x86_64/egg/flask_admin/templates/bootstrap2/admin/model
+copying build/lib/flask_admin/templates/bootstrap2/admin/model/inline_list_base.html -> build/bdist.linux-x86_64/egg/flask_admin/templates/bootstrap2/admin/model
+copying build/lib/flask_admin/templates/bootstrap2/admin/model/inline_form.html -> build/bdist.linux-x86_64/egg/flask_admin/templates/bootstrap2/admin/model
+copying build/lib/flask_admin/templates/bootstrap2/admin/static.html -> build/bdist.linux-x86_64/egg/flask_admin/templates/bootstrap2/admin
+creating build/bdist.linux-x86_64/egg/flask_admin/templates/bootstrap2/admin/file
+copying build/lib/flask_admin/templates/bootstrap2/admin/file/list.html -> build/bdist.linux-x86_64/egg/flask_admin/templates/bootstrap2/admin/file
+copying build/lib/flask_admin/templates/bootstrap2/admin/file/form.html -> build/bdist.linux-x86_64/egg/flask_admin/templates/bootstrap2/admin/file
+copying build/lib/flask_admin/templates/bootstrap2/admin/file/edit.html -> build/bdist.linux-x86_64/egg/flask_admin/templates/bootstrap2/admin/file
+copying build/lib/flask_admin/templates/bootstrap2/admin/file/rename.html -> build/bdist.linux-x86_64/egg/flask_admin/templates/bootstrap2/admin/file
+copying build/lib/flask_admin/templates/bootstrap2/admin/master.html -> build/bdist.linux-x86_64/egg/flask_admin/templates/bootstrap2/admin
+copying build/lib/flask_admin/templates/bootstrap2/admin/actions.html -> build/bdist.linux-x86_64/egg/flask_admin/templates/bootstrap2/admin
+copying build/lib/flask_admin/templates/bootstrap2/admin/base.html -> build/bdist.linux-x86_64/egg/flask_admin/templates/bootstrap2/admin
+creating build/bdist.linux-x86_64/egg/flask_admin/templates/bootstrap2/admin/rediscli
+copying build/lib/flask_admin/templates/bootstrap2/admin/rediscli/console.html -> build/bdist.linux-x86_64/egg/flask_admin/templates/bootstrap2/admin/rediscli
+copying build/lib/flask_admin/templates/bootstrap2/admin/rediscli/response.html -> build/bdist.linux-x86_64/egg/flask_admin/templates/bootstrap2/admin/rediscli
+copying build/lib/flask_admin/templates/bootstrap2/admin/lib.html -> build/bdist.linux-x86_64/egg/flask_admin/templates/bootstrap2/admin
+creating build/bdist.linux-x86_64/egg/flask_admin/contrib
+creating build/bdist.linux-x86_64/egg/flask_admin/contrib/peeweemodel
+copying build/lib/flask_admin/contrib/peeweemodel/__init__.py -> build/bdist.linux-x86_64/egg/flask_admin/contrib/peeweemodel
+creating build/bdist.linux-x86_64/egg/flask_admin/contrib/geoa
+copying build/lib/flask_admin/contrib/geoa/widgets.py -> build/bdist.linux-x86_64/egg/flask_admin/contrib/geoa
+copying build/lib/flask_admin/contrib/geoa/fields.py -> build/bdist.linux-x86_64/egg/flask_admin/contrib/geoa
+copying build/lib/flask_admin/contrib/geoa/typefmt.py -> build/bdist.linux-x86_64/egg/flask_admin/contrib/geoa
+copying build/lib/flask_admin/contrib/geoa/__init__.py -> build/bdist.linux-x86_64/egg/flask_admin/contrib/geoa
+copying build/lib/flask_admin/contrib/geoa/form.py -> build/bdist.linux-x86_64/egg/flask_admin/contrib/geoa
+copying build/lib/flask_admin/contrib/geoa/view.py -> build/bdist.linux-x86_64/egg/flask_admin/contrib/geoa
+copying build/lib/flask_admin/contrib/rediscli.py -> build/bdist.linux-x86_64/egg/flask_admin/contrib
+creating build/bdist.linux-x86_64/egg/flask_admin/contrib/sqla
+copying build/lib/flask_admin/contrib/sqla/tools.py -> build/bdist.linux-x86_64/egg/flask_admin/contrib/sqla
+copying build/lib/flask_admin/contrib/sqla/filters.py -> build/bdist.linux-x86_64/egg/flask_admin/contrib/sqla
+copying build/lib/flask_admin/contrib/sqla/validators.py -> build/bdist.linux-x86_64/egg/flask_admin/contrib/sqla
+copying build/lib/flask_admin/contrib/sqla/fields.py -> build/bdist.linux-x86_64/egg/flask_admin/contrib/sqla
+copying build/lib/flask_admin/contrib/sqla/typefmt.py -> build/bdist.linux-x86_64/egg/flask_admin/contrib/sqla
+copying build/lib/flask_admin/contrib/sqla/__init__.py -> build/bdist.linux-x86_64/egg/flask_admin/contrib/sqla
+copying build/lib/flask_admin/contrib/sqla/form.py -> build/bdist.linux-x86_64/egg/flask_admin/contrib/sqla
+copying build/lib/flask_admin/contrib/sqla/ajax.py -> build/bdist.linux-x86_64/egg/flask_admin/contrib/sqla
+copying build/lib/flask_admin/contrib/sqla/view.py -> build/bdist.linux-x86_64/egg/flask_admin/contrib/sqla
+creating build/bdist.linux-x86_64/egg/flask_admin/contrib/sqlamodel
+copying build/lib/flask_admin/contrib/sqlamodel/__init__.py -> build/bdist.linux-x86_64/egg/flask_admin/contrib/sqlamodel
+creating build/bdist.linux-x86_64/egg/flask_admin/contrib/pymongo
+copying build/lib/flask_admin/contrib/pymongo/tools.py -> build/bdist.linux-x86_64/egg/flask_admin/contrib/pymongo
+copying build/lib/flask_admin/contrib/pymongo/filters.py -> build/bdist.linux-x86_64/egg/flask_admin/contrib/pymongo
+copying build/lib/flask_admin/contrib/pymongo/typefmt.py -> build/bdist.linux-x86_64/egg/flask_admin/contrib/pymongo
+copying build/lib/flask_admin/contrib/pymongo/__init__.py -> build/bdist.linux-x86_64/egg/flask_admin/contrib/pymongo
+copying build/lib/flask_admin/contrib/pymongo/view.py -> build/bdist.linux-x86_64/egg/flask_admin/contrib/pymongo
+copying build/lib/flask_admin/contrib/fileadmin.py -> build/bdist.linux-x86_64/egg/flask_admin/contrib
+creating build/bdist.linux-x86_64/egg/flask_admin/contrib/peewee
+copying build/lib/flask_admin/contrib/peewee/tools.py -> build/bdist.linux-x86_64/egg/flask_admin/contrib/peewee
+copying build/lib/flask_admin/contrib/peewee/filters.py -> build/bdist.linux-x86_64/egg/flask_admin/contrib/peewee
+copying build/lib/flask_admin/contrib/peewee/__init__.py -> build/bdist.linux-x86_64/egg/flask_admin/contrib/peewee
+copying build/lib/flask_admin/contrib/peewee/form.py -> build/bdist.linux-x86_64/egg/flask_admin/contrib/peewee
+copying build/lib/flask_admin/contrib/peewee/ajax.py -> build/bdist.linux-x86_64/egg/flask_admin/contrib/peewee
+copying build/lib/flask_admin/contrib/peewee/view.py -> build/bdist.linux-x86_64/egg/flask_admin/contrib/peewee
+copying build/lib/flask_admin/contrib/__init__.py -> build/bdist.linux-x86_64/egg/flask_admin/contrib
+creating build/bdist.linux-x86_64/egg/flask_admin/contrib/mongoengine
+copying build/lib/flask_admin/contrib/mongoengine/tools.py -> build/bdist.linux-x86_64/egg/flask_admin/contrib/mongoengine
+copying build/lib/flask_admin/contrib/mongoengine/filters.py -> build/bdist.linux-x86_64/egg/flask_admin/contrib/mongoengine
+copying build/lib/flask_admin/contrib/mongoengine/subdoc.py -> build/bdist.linux-x86_64/egg/flask_admin/contrib/mongoengine
+copying build/lib/flask_admin/contrib/mongoengine/widgets.py -> build/bdist.linux-x86_64/egg/flask_admin/contrib/mongoengine
+copying build/lib/flask_admin/contrib/mongoengine/fields.py -> build/bdist.linux-x86_64/egg/flask_admin/contrib/mongoengine
+copying build/lib/flask_admin/contrib/mongoengine/typefmt.py -> build/bdist.linux-x86_64/egg/flask_admin/contrib/mongoengine
+copying build/lib/flask_admin/contrib/mongoengine/__init__.py -> build/bdist.linux-x86_64/egg/flask_admin/contrib/mongoengine
+copying build/lib/flask_admin/contrib/mongoengine/form.py -> build/bdist.linux-x86_64/egg/flask_admin/contrib/mongoengine
+copying build/lib/flask_admin/contrib/mongoengine/helpers.py -> build/bdist.linux-x86_64/egg/flask_admin/contrib/mongoengine
+copying build/lib/flask_admin/contrib/mongoengine/ajax.py -> build/bdist.linux-x86_64/egg/flask_admin/contrib/mongoengine
+copying build/lib/flask_admin/contrib/mongoengine/view.py -> build/bdist.linux-x86_64/egg/flask_admin/contrib/mongoengine
+creating build/bdist.linux-x86_64/egg/flask_admin/contrib/appengine
+copying build/lib/flask_admin/contrib/appengine/__init__.py -> build/bdist.linux-x86_64/egg/flask_admin/contrib/appengine
+copying build/lib/flask_admin/contrib/appengine/view.py -> build/bdist.linux-x86_64/egg/flask_admin/contrib/appengine
+copying build/lib/flask_admin/_backwards.py -> build/bdist.linux-x86_64/egg/flask_admin
+creating build/bdist.linux-x86_64/egg/flask_admin/form
+copying build/lib/flask_admin/form/upload.py -> build/bdist.linux-x86_64/egg/flask_admin/form
+copying build/lib/flask_admin/form/widgets.py -> build/bdist.linux-x86_64/egg/flask_admin/form
+copying build/lib/flask_admin/form/fields.py -> build/bdist.linux-x86_64/egg/flask_admin/form
+copying build/lib/flask_admin/form/rules.py -> build/bdist.linux-x86_64/egg/flask_admin/form
+copying build/lib/flask_admin/form/__init__.py -> build/bdist.linux-x86_64/egg/flask_admin/form
+creating build/bdist.linux-x86_64/egg/flask_admin/tests
+creating build/bdist.linux-x86_64/egg/flask_admin/tests/peeweemodel
+copying build/lib/flask_admin/tests/peeweemodel/test_basic.py -> build/bdist.linux-x86_64/egg/flask_admin/tests/peeweemodel
+copying build/lib/flask_admin/tests/peeweemodel/__init__.py -> build/bdist.linux-x86_64/egg/flask_admin/tests/peeweemodel
+creating build/bdist.linux-x86_64/egg/flask_admin/tests/geoa
+copying build/lib/flask_admin/tests/geoa/test_basic.py -> build/bdist.linux-x86_64/egg/flask_admin/tests/geoa
+copying build/lib/flask_admin/tests/geoa/__init__.py -> build/bdist.linux-x86_64/egg/flask_admin/tests/geoa
+creating build/bdist.linux-x86_64/egg/flask_admin/tests/fileadmin
+creating build/bdist.linux-x86_64/egg/flask_admin/tests/fileadmin/files
+copying build/lib/flask_admin/tests/fileadmin/files/dummy.txt -> build/bdist.linux-x86_64/egg/flask_admin/tests/fileadmin/files
+copying build/lib/flask_admin/tests/fileadmin/test_fileadmin.py -> build/bdist.linux-x86_64/egg/flask_admin/tests/fileadmin
+copying build/lib/flask_admin/tests/fileadmin/__init__.py -> build/bdist.linux-x86_64/egg/flask_admin/tests/fileadmin
+creating build/bdist.linux-x86_64/egg/flask_admin/tests/sqla
+copying build/lib/flask_admin/tests/sqla/test_basic.py -> build/bdist.linux-x86_64/egg/flask_admin/tests/sqla
+creating build/bdist.linux-x86_64/egg/flask_admin/tests/sqla/templates
+copying build/lib/flask_admin/tests/sqla/templates/macro.html -> build/bdist.linux-x86_64/egg/flask_admin/tests/sqla/templates
+copying build/lib/flask_admin/tests/sqla/templates/another_macro.html -> build/bdist.linux-x86_64/egg/flask_admin/tests/sqla/templates
+copying build/lib/flask_admin/tests/sqla/test_multi_pk.py -> build/bdist.linux-x86_64/egg/flask_admin/tests/sqla
+copying build/lib/flask_admin/tests/sqla/__init__.py -> build/bdist.linux-x86_64/egg/flask_admin/tests/sqla
+copying build/lib/flask_admin/tests/sqla/test_inlineform.py -> build/bdist.linux-x86_64/egg/flask_admin/tests/sqla
+copying build/lib/flask_admin/tests/sqla/test_form_rules.py -> build/bdist.linux-x86_64/egg/flask_admin/tests/sqla
+copying build/lib/flask_admin/tests/test_tools.py -> build/bdist.linux-x86_64/egg/flask_admin/tests
+copying build/lib/flask_admin/tests/test_model.py -> build/bdist.linux-x86_64/egg/flask_admin/tests
+creating build/bdist.linux-x86_64/egg/flask_admin/tests/pymongo
+copying build/lib/flask_admin/tests/pymongo/test_basic.py -> build/bdist.linux-x86_64/egg/flask_admin/tests/pymongo
+copying build/lib/flask_admin/tests/pymongo/__init__.py -> build/bdist.linux-x86_64/egg/flask_admin/tests/pymongo
+creating build/bdist.linux-x86_64/egg/flask_admin/tests/templates
+copying build/lib/flask_admin/tests/templates/method.html -> build/bdist.linux-x86_64/egg/flask_admin/tests/templates
+copying build/lib/flask_admin/tests/templates/mock.html -> build/bdist.linux-x86_64/egg/flask_admin/tests/templates
+creating build/bdist.linux-x86_64/egg/flask_admin/tests/data
+copying build/lib/flask_admin/tests/data/copyleft.jpg -> build/bdist.linux-x86_64/egg/flask_admin/tests/data
+copying build/lib/flask_admin/tests/data/copyleft.gif -> build/bdist.linux-x86_64/egg/flask_admin/tests/data
+copying build/lib/flask_admin/tests/data/copyleft.jpeg -> build/bdist.linux-x86_64/egg/flask_admin/tests/data
+copying build/lib/flask_admin/tests/data/copyleft.png -> build/bdist.linux-x86_64/egg/flask_admin/tests/data
+copying build/lib/flask_admin/tests/data/copyleft.tiff -> build/bdist.linux-x86_64/egg/flask_admin/tests/data
+copying build/lib/flask_admin/tests/test_base.py -> build/bdist.linux-x86_64/egg/flask_admin/tests
+copying build/lib/flask_admin/tests/__init__.py -> build/bdist.linux-x86_64/egg/flask_admin/tests
+creating build/bdist.linux-x86_64/egg/flask_admin/tests/mongoengine
+copying build/lib/flask_admin/tests/mongoengine/test_basic.py -> build/bdist.linux-x86_64/egg/flask_admin/tests/mongoengine
+copying build/lib/flask_admin/tests/mongoengine/__init__.py -> build/bdist.linux-x86_64/egg/flask_admin/tests/mongoengine
+copying build/lib/flask_admin/tests/test_form_upload.py -> build/bdist.linux-x86_64/egg/flask_admin/tests
+copying build/lib/flask_admin/tests/mock.py -> build/bdist.linux-x86_64/egg/flask_admin/tests
+creating build/bdist.linux-x86_64/egg/flask_admin/tests/tmp
+copying build/lib/flask_admin/tests/tmp/copyleft.jpg -> build/bdist.linux-x86_64/egg/flask_admin/tests/tmp
+copying build/lib/flask_admin/tests/tmp/copyleft.jpeg -> build/bdist.linux-x86_64/egg/flask_admin/tests/tmp
+creating build/bdist.linux-x86_64/egg/flask_admin/tests/tmp/inner
+copying build/lib/flask_admin/tests/tmp/inner/test1.txt -> build/bdist.linux-x86_64/egg/flask_admin/tests/tmp/inner
+creating build/bdist.linux-x86_64/egg/flask_admin/static
+creating build/bdist.linux-x86_64/egg/flask_admin/static/admin
+creating build/bdist.linux-x86_64/egg/flask_admin/static/admin/css
+creating build/bdist.linux-x86_64/egg/flask_admin/static/admin/css/bootstrap3
+copying build/lib/flask_admin/static/admin/css/bootstrap3/admin.css -> build/bdist.linux-x86_64/egg/flask_admin/static/admin/css/bootstrap3
+copying build/lib/flask_admin/static/admin/css/bootstrap3/rediscli.css -> build/bdist.linux-x86_64/egg/flask_admin/static/admin/css/bootstrap3
+creating build/bdist.linux-x86_64/egg/flask_admin/static/admin/css/bootstrap2
+copying build/lib/flask_admin/static/admin/css/bootstrap2/admin.css -> build/bdist.linux-x86_64/egg/flask_admin/static/admin/css/bootstrap2
+copying build/lib/flask_admin/static/admin/css/bootstrap2/rediscli.css -> build/bdist.linux-x86_64/egg/flask_admin/static/admin/css/bootstrap2
+creating build/bdist.linux-x86_64/egg/flask_admin/static/admin/js
+copying build/lib/flask_admin/static/admin/js/form-1.0.0.js -> build/bdist.linux-x86_64/egg/flask_admin/static/admin/js
+copying build/lib/flask_admin/static/admin/js/actions-1.0.0.js -> build/bdist.linux-x86_64/egg/flask_admin/static/admin/js
+copying build/lib/flask_admin/static/admin/js/rediscli-1.0.0.js -> build/bdist.linux-x86_64/egg/flask_admin/static/admin/js
+copying build/lib/flask_admin/static/admin/js/filters-1.0.0.js -> build/bdist.linux-x86_64/egg/flask_admin/static/admin/js
+creating build/bdist.linux-x86_64/egg/flask_admin/static/bootstrap
+creating build/bdist.linux-x86_64/egg/flask_admin/static/bootstrap/bootstrap3
+creating build/bdist.linux-x86_64/egg/flask_admin/static/bootstrap/bootstrap3/fonts
+copying build/lib/flask_admin/static/bootstrap/bootstrap3/fonts/glyphicons-halflings-regular.eot -> build/bdist.linux-x86_64/egg/flask_admin/static/bootstrap/bootstrap3/fonts
+copying build/lib/flask_admin/static/bootstrap/bootstrap3/fonts/glyphicons-halflings-regular.svg -> build/bdist.linux-x86_64/egg/flask_admin/static/bootstrap/bootstrap3/fonts
+copying build/lib/flask_admin/static/bootstrap/bootstrap3/fonts/glyphicons-halflings-regular.woff -> build/bdist.linux-x86_64/egg/flask_admin/static/bootstrap/bootstrap3/fonts
+copying build/lib/flask_admin/static/bootstrap/bootstrap3/fonts/glyphicons-halflings-regular.ttf -> build/bdist.linux-x86_64/egg/flask_admin/static/bootstrap/bootstrap3/fonts
+creating build/bdist.linux-x86_64/egg/flask_admin/static/bootstrap/bootstrap3/css
+copying build/lib/flask_admin/static/bootstrap/bootstrap3/css/bootstrap-theme.css.map -> build/bdist.linux-x86_64/egg/flask_admin/static/bootstrap/bootstrap3/css
+copying build/lib/flask_admin/static/bootstrap/bootstrap3/css/bootstrap.css.map -> build/bdist.linux-x86_64/egg/flask_admin/static/bootstrap/bootstrap3/css
+copying build/lib/flask_admin/static/bootstrap/bootstrap3/css/bootstrap.min.css -> build/bdist.linux-x86_64/egg/flask_admin/static/bootstrap/bootstrap3/css
+copying build/lib/flask_admin/static/bootstrap/bootstrap3/css/bootstrap-theme.css -> build/bdist.linux-x86_64/egg/flask_admin/static/bootstrap/bootstrap3/css
+copying build/lib/flask_admin/static/bootstrap/bootstrap3/css/bootstrap-theme.min.css -> build/bdist.linux-x86_64/egg/flask_admin/static/bootstrap/bootstrap3/css
+copying build/lib/flask_admin/static/bootstrap/bootstrap3/css/bootstrap.css -> build/bdist.linux-x86_64/egg/flask_admin/static/bootstrap/bootstrap3/css
+creating build/bdist.linux-x86_64/egg/flask_admin/static/bootstrap/bootstrap3/js
+copying build/lib/flask_admin/static/bootstrap/bootstrap3/js/bootstrap.min.js -> build/bdist.linux-x86_64/egg/flask_admin/static/bootstrap/bootstrap3/js
+copying build/lib/flask_admin/static/bootstrap/bootstrap3/js/bootstrap.js -> build/bdist.linux-x86_64/egg/flask_admin/static/bootstrap/bootstrap3/js
+creating build/bdist.linux-x86_64/egg/flask_admin/static/bootstrap/bootstrap2
+creating build/bdist.linux-x86_64/egg/flask_admin/static/bootstrap/bootstrap2/img
+copying build/lib/flask_admin/static/bootstrap/bootstrap2/img/glyphicons-halflings-white.png -> build/bdist.linux-x86_64/egg/flask_admin/static/bootstrap/bootstrap2/img
+copying build/lib/flask_admin/static/bootstrap/bootstrap2/img/glyphicons-halflings.png -> build/bdist.linux-x86_64/egg/flask_admin/static/bootstrap/bootstrap2/img
+creating build/bdist.linux-x86_64/egg/flask_admin/static/bootstrap/bootstrap2/css
+copying build/lib/flask_admin/static/bootstrap/bootstrap2/css/bootstrap-responsive.css -> build/bdist.linux-x86_64/egg/flask_admin/static/bootstrap/bootstrap2/css
+copying build/lib/flask_admin/static/bootstrap/bootstrap2/css/bootstrap.min.css -> build/bdist.linux-x86_64/egg/flask_admin/static/bootstrap/bootstrap2/css
+copying build/lib/flask_admin/static/bootstrap/bootstrap2/css/bootstrap-responsive.min.css -> build/bdist.linux-x86_64/egg/flask_admin/static/bootstrap/bootstrap2/css
+copying build/lib/flask_admin/static/bootstrap/bootstrap2/css/bootstrap.css -> build/bdist.linux-x86_64/egg/flask_admin/static/bootstrap/bootstrap2/css
+creating build/bdist.linux-x86_64/egg/flask_admin/static/bootstrap/bootstrap2/js
+copying build/lib/flask_admin/static/bootstrap/bootstrap2/js/bootstrap.min.js -> build/bdist.linux-x86_64/egg/flask_admin/static/bootstrap/bootstrap2/js
+copying build/lib/flask_admin/static/bootstrap/bootstrap2/js/bootstrap.js -> build/bdist.linux-x86_64/egg/flask_admin/static/bootstrap/bootstrap2/js
+creating build/bdist.linux-x86_64/egg/flask_admin/static/vendor
+copying build/lib/flask_admin/static/vendor/moment-2.8.4.min.js -> build/bdist.linux-x86_64/egg/flask_admin/static/vendor
+creating build/bdist.linux-x86_64/egg/flask_admin/static/vendor/select2
+copying build/lib/flask_admin/static/vendor/select2/select2-spinner.gif -> build/bdist.linux-x86_64/egg/flask_admin/static/vendor/select2
+copying build/lib/flask_admin/static/vendor/select2/select2.min.js -> build/bdist.linux-x86_64/egg/flask_admin/static/vendor/select2
+copying build/lib/flask_admin/static/vendor/select2/select2.png -> build/bdist.linux-x86_64/egg/flask_admin/static/vendor/select2
+copying build/lib/flask_admin/static/vendor/select2/LICENSE -> build/bdist.linux-x86_64/egg/flask_admin/static/vendor/select2
+copying build/lib/flask_admin/static/vendor/select2/select2x2.png -> build/bdist.linux-x86_64/egg/flask_admin/static/vendor/select2
+copying build/lib/flask_admin/static/vendor/select2/select2-bootstrap3.css -> build/bdist.linux-x86_64/egg/flask_admin/static/vendor/select2
+copying build/lib/flask_admin/static/vendor/select2/select2.css -> build/bdist.linux-x86_64/egg/flask_admin/static/vendor/select2
+creating build/bdist.linux-x86_64/egg/flask_admin/static/vendor/bootstrap-daterangepicker
+copying build/lib/flask_admin/static/vendor/bootstrap-daterangepicker/daterangepicker-bs3.css -> build/bdist.linux-x86_64/egg/flask_admin/static/vendor/bootstrap-daterangepicker
+copying build/lib/flask_admin/static/vendor/bootstrap-daterangepicker/daterangepicker-bs2.css -> build/bdist.linux-x86_64/egg/flask_admin/static/vendor/bootstrap-daterangepicker
+copying build/lib/flask_admin/static/vendor/bootstrap-daterangepicker/daterangepicker.js -> build/bdist.linux-x86_64/egg/flask_admin/static/vendor/bootstrap-daterangepicker
+copying build/lib/flask_admin/static/vendor/bootstrap-daterangepicker/README.md -> build/bdist.linux-x86_64/egg/flask_admin/static/vendor/bootstrap-daterangepicker
+creating build/bdist.linux-x86_64/egg/flask_admin/static/vendor/x-editable
+creating build/bdist.linux-x86_64/egg/flask_admin/static/vendor/x-editable/img
+copying build/lib/flask_admin/static/vendor/x-editable/img/loading.gif -> build/bdist.linux-x86_64/egg/flask_admin/static/vendor/x-editable/img
+copying build/lib/flask_admin/static/vendor/x-editable/img/clear.png -> build/bdist.linux-x86_64/egg/flask_admin/static/vendor/x-editable/img
+creating build/bdist.linux-x86_64/egg/flask_admin/static/vendor/x-editable/css
+copying build/lib/flask_admin/static/vendor/x-editable/css/bootstrap3-editable-1.5.1.css -> build/bdist.linux-x86_64/egg/flask_admin/static/vendor/x-editable/css
+copying build/lib/flask_admin/static/vendor/x-editable/css/bootstrap2-editable-1.5.1.css -> build/bdist.linux-x86_64/egg/flask_admin/static/vendor/x-editable/css
+creating build/bdist.linux-x86_64/egg/flask_admin/static/vendor/x-editable/js
+copying build/lib/flask_admin/static/vendor/x-editable/js/bootstrap3-editable-1.5.1.min.js -> build/bdist.linux-x86_64/egg/flask_admin/static/vendor/x-editable/js
+copying build/lib/flask_admin/static/vendor/x-editable/js/bootstrap2-editable-1.5.1.min.js -> build/bdist.linux-x86_64/egg/flask_admin/static/vendor/x-editable/js
+copying build/lib/flask_admin/static/vendor/jquery-2.1.1.min.js -> build/bdist.linux-x86_64/egg/flask_admin/static/vendor
+creating build/bdist.linux-x86_64/egg/flask_admin/static/vendor/leaflet
+creating build/bdist.linux-x86_64/egg/flask_admin/static/vendor/leaflet/images
+copying build/lib/flask_admin/static/vendor/leaflet/images/layers-2x.png -> build/bdist.linux-x86_64/egg/flask_admin/static/vendor/leaflet/images
+copying build/lib/flask_admin/static/vendor/leaflet/images/spritesheet-2x.png -> build/bdist.linux-x86_64/egg/flask_admin/static/vendor/leaflet/images
+copying build/lib/flask_admin/static/vendor/leaflet/images/layers.png -> build/bdist.linux-x86_64/egg/flask_admin/static/vendor/leaflet/images
+copying build/lib/flask_admin/static/vendor/leaflet/images/marker-shadow.png -> build/bdist.linux-x86_64/egg/flask_admin/static/vendor/leaflet/images
+copying build/lib/flask_admin/static/vendor/leaflet/images/spritesheet.png -> build/bdist.linux-x86_64/egg/flask_admin/static/vendor/leaflet/images
+copying build/lib/flask_admin/static/vendor/leaflet/images/marker-icon.png -> build/bdist.linux-x86_64/egg/flask_admin/static/vendor/leaflet/images
+copying build/lib/flask_admin/static/vendor/leaflet/images/marker-icon-2x.png -> build/bdist.linux-x86_64/egg/flask_admin/static/vendor/leaflet/images
+copying build/lib/flask_admin/static/vendor/leaflet/leaflet.draw.js -> build/bdist.linux-x86_64/egg/flask_admin/static/vendor/leaflet
+copying build/lib/flask_admin/static/vendor/leaflet/leaflet.js -> build/bdist.linux-x86_64/egg/flask_admin/static/vendor/leaflet
+copying build/lib/flask_admin/static/vendor/leaflet/leaflet.css -> build/bdist.linux-x86_64/egg/flask_admin/static/vendor/leaflet
+copying build/lib/flask_admin/static/vendor/leaflet/leaflet.draw.css -> build/bdist.linux-x86_64/egg/flask_admin/static/vendor/leaflet
+copying build/lib/flask_admin/__init__.py -> build/bdist.linux-x86_64/egg/flask_admin
+copying build/lib/flask_admin/helpers.py -> build/bdist.linux-x86_64/egg/flask_admin
+copying build/lib/flask_admin/_compat.py -> build/bdist.linux-x86_64/egg/flask_admin
+copying build/lib/flask_admin/base.py -> build/bdist.linux-x86_64/egg/flask_admin
+byte-compiling build/bdist.linux-x86_64/egg/examples/quickstart/app3.py to app3.pyc
+byte-compiling build/bdist.linux-x86_64/egg/examples/quickstart/app2.py to app2.pyc
+byte-compiling build/bdist.linux-x86_64/egg/examples/quickstart/app.py to app.pyc
+byte-compiling build/bdist.linux-x86_64/egg/examples/quickstart/__init__.py to __init__.pyc
+byte-compiling build/bdist.linux-x86_64/egg/examples/sqla/app2.py to app2.pyc
+byte-compiling build/bdist.linux-x86_64/egg/examples/sqla/app.py to app.pyc
+byte-compiling build/bdist.linux-x86_64/egg/examples/sqla/__init__.py to __init__.pyc
+byte-compiling build/bdist.linux-x86_64/egg/examples/simple/app.py to app.pyc
+byte-compiling build/bdist.linux-x86_64/egg/examples/simple/__init__.py to __init__.pyc
+byte-compiling build/bdist.linux-x86_64/egg/examples/sqla-custom-filter/app.py to app.pyc
+byte-compiling build/bdist.linux-x86_64/egg/examples/sqla-custom-filter/__init__.py to __init__.pyc
+byte-compiling build/bdist.linux-x86_64/egg/examples/forms/app.py to app.pyc
+byte-compiling build/bdist.linux-x86_64/egg/examples/forms/__init__.py to __init__.pyc
+byte-compiling build/bdist.linux-x86_64/egg/examples/auth/app.py to app.pyc
+byte-compiling build/bdist.linux-x86_64/egg/examples/auth/__init__.py to __init__.pyc
+byte-compiling build/bdist.linux-x86_64/egg/examples/__init__.py to __init__.pyc
+byte-compiling build/bdist.linux-x86_64/egg/examples/layout-bootstrap3/app.py to app.pyc
+byte-compiling build/bdist.linux-x86_64/egg/examples/layout-bootstrap3/__init__.py to __init__.pyc
+byte-compiling build/bdist.linux-x86_64/egg/examples/layout/app.py to app.pyc
+byte-compiling build/bdist.linux-x86_64/egg/examples/layout/__init__.py to __init__.pyc
+byte-compiling build/bdist.linux-x86_64/egg/flask_admin/babel.py to babel.pyc
+byte-compiling build/bdist.linux-x86_64/egg/flask_admin/translations/__init__.py to __init__.pyc
+byte-compiling build/bdist.linux-x86_64/egg/flask_admin/tools.py to tools.pyc
+byte-compiling build/bdist.linux-x86_64/egg/flask_admin/menu.py to menu.pyc
+byte-compiling build/bdist.linux-x86_64/egg/flask_admin/model/filters.py to filters.pyc
+byte-compiling build/bdist.linux-x86_64/egg/flask_admin/model/widgets.py to widgets.pyc
+byte-compiling build/bdist.linux-x86_64/egg/flask_admin/model/fields.py to fields.pyc
+byte-compiling build/bdist.linux-x86_64/egg/flask_admin/model/typefmt.py to typefmt.pyc
+byte-compiling build/bdist.linux-x86_64/egg/flask_admin/model/__init__.py to __init__.pyc
+byte-compiling build/bdist.linux-x86_64/egg/flask_admin/model/form.py to form.pyc
+byte-compiling build/bdist.linux-x86_64/egg/flask_admin/model/helpers.py to helpers.pyc
+byte-compiling build/bdist.linux-x86_64/egg/flask_admin/model/template.py to template.pyc
+byte-compiling build/bdist.linux-x86_64/egg/flask_admin/model/ajax.py to ajax.pyc
+byte-compiling build/bdist.linux-x86_64/egg/flask_admin/model/base.py to base.pyc
+byte-compiling build/bdist.linux-x86_64/egg/flask_admin/actions.py to actions.pyc
+byte-compiling build/bdist.linux-x86_64/egg/flask_admin/consts.py to consts.pyc
+byte-compiling build/bdist.linux-x86_64/egg/flask_admin/contrib/peeweemodel/__init__.py to __init__.pyc
+byte-compiling build/bdist.linux-x86_64/egg/flask_admin/contrib/geoa/widgets.py to widgets.pyc
+byte-compiling build/bdist.linux-x86_64/egg/flask_admin/contrib/geoa/fields.py to fields.pyc
+byte-compiling build/bdist.linux-x86_64/egg/flask_admin/contrib/geoa/typefmt.py to typefmt.pyc
+byte-compiling build/bdist.linux-x86_64/egg/flask_admin/contrib/geoa/__init__.py to __init__.pyc
+byte-compiling build/bdist.linux-x86_64/egg/flask_admin/contrib/geoa/form.py to form.pyc
+byte-compiling build/bdist.linux-x86_64/egg/flask_admin/contrib/geoa/view.py to view.pyc
+byte-compiling build/bdist.linux-x86_64/egg/flask_admin/contrib/rediscli.py to rediscli.pyc
+byte-compiling build/bdist.linux-x86_64/egg/flask_admin/contrib/sqla/tools.py to tools.pyc
+byte-compiling build/bdist.linux-x86_64/egg/flask_admin/contrib/sqla/filters.py to filters.pyc
+byte-compiling build/bdist.linux-x86_64/egg/flask_admin/contrib/sqla/validators.py to validators.pyc
+byte-compiling build/bdist.linux-x86_64/egg/flask_admin/contrib/sqla/fields.py to fields.pyc
+byte-compiling build/bdist.linux-x86_64/egg/flask_admin/contrib/sqla/typefmt.py to typefmt.pyc
+byte-compiling build/bdist.linux-x86_64/egg/flask_admin/contrib/sqla/__init__.py to __init__.pyc
+byte-compiling build/bdist.linux-x86_64/egg/flask_admin/contrib/sqla/form.py to form.pyc
+byte-compiling build/bdist.linux-x86_64/egg/flask_admin/contrib/sqla/ajax.py to ajax.pyc
+byte-compiling build/bdist.linux-x86_64/egg/flask_admin/contrib/sqla/view.py to view.pyc
+byte-compiling build/bdist.linux-x86_64/egg/flask_admin/contrib/sqlamodel/__init__.py to __init__.pyc
+byte-compiling build/bdist.linux-x86_64/egg/flask_admin/contrib/pymongo/tools.py to tools.pyc
+byte-compiling build/bdist.linux-x86_64/egg/flask_admin/contrib/pymongo/filters.py to filters.pyc
+byte-compiling build/bdist.linux-x86_64/egg/flask_admin/contrib/pymongo/typefmt.py to typefmt.pyc
+byte-compiling build/bdist.linux-x86_64/egg/flask_admin/contrib/pymongo/__init__.py to __init__.pyc
+byte-compiling build/bdist.linux-x86_64/egg/flask_admin/contrib/pymongo/view.py to view.pyc
+byte-compiling build/bdist.linux-x86_64/egg/flask_admin/contrib/fileadmin.py to fileadmin.pyc
+byte-compiling build/bdist.linux-x86_64/egg/flask_admin/contrib/peewee/tools.py to tools.pyc
+byte-compiling build/bdist.linux-x86_64/egg/flask_admin/contrib/peewee/filters.py to filters.pyc
+byte-compiling build/bdist.linux-x86_64/egg/flask_admin/contrib/peewee/__init__.py to __init__.pyc
+byte-compiling build/bdist.linux-x86_64/egg/flask_admin/contrib/peewee/form.py to form.pyc
+byte-compiling build/bdist.linux-x86_64/egg/flask_admin/contrib/peewee/ajax.py to ajax.pyc
+byte-compiling build/bdist.linux-x86_64/egg/flask_admin/contrib/peewee/view.py to view.pyc
+byte-compiling build/bdist.linux-x86_64/egg/flask_admin/contrib/__init__.py to __init__.pyc
+byte-compiling build/bdist.linux-x86_64/egg/flask_admin/contrib/mongoengine/tools.py to tools.pyc
+byte-compiling build/bdist.linux-x86_64/egg/flask_admin/contrib/mongoengine/filters.py to filters.pyc
+byte-compiling build/bdist.linux-x86_64/egg/flask_admin/contrib/mongoengine/subdoc.py to subdoc.pyc
+byte-compiling build/bdist.linux-x86_64/egg/flask_admin/contrib/mongoengine/widgets.py to widgets.pyc
+byte-compiling build/bdist.linux-x86_64/egg/flask_admin/contrib/mongoengine/fields.py to fields.pyc
+byte-compiling build/bdist.linux-x86_64/egg/flask_admin/contrib/mongoengine/typefmt.py to typefmt.pyc
+byte-compiling build/bdist.linux-x86_64/egg/flask_admin/contrib/mongoengine/__init__.py to __init__.pyc
+byte-compiling build/bdist.linux-x86_64/egg/flask_admin/contrib/mongoengine/form.py to form.pyc
+byte-compiling build/bdist.linux-x86_64/egg/flask_admin/contrib/mongoengine/helpers.py to helpers.pyc
+byte-compiling build/bdist.linux-x86_64/egg/flask_admin/contrib/mongoengine/ajax.py to ajax.pyc
+byte-compiling build/bdist.linux-x86_64/egg/flask_admin/contrib/mongoengine/view.py to view.pyc
+byte-compiling build/bdist.linux-x86_64/egg/flask_admin/contrib/appengine/__init__.py to __init__.pyc
+byte-compiling build/bdist.linux-x86_64/egg/flask_admin/contrib/appengine/view.py to view.pyc
+byte-compiling build/bdist.linux-x86_64/egg/flask_admin/_backwards.py to _backwards.pyc
+byte-compiling build/bdist.linux-x86_64/egg/flask_admin/form/upload.py to upload.pyc
+byte-compiling build/bdist.linux-x86_64/egg/flask_admin/form/widgets.py to widgets.pyc
+byte-compiling build/bdist.linux-x86_64/egg/flask_admin/form/fields.py to fields.pyc
+byte-compiling build/bdist.linux-x86_64/egg/flask_admin/form/rules.py to rules.pyc
+byte-compiling build/bdist.linux-x86_64/egg/flask_admin/form/__init__.py to __init__.pyc
+byte-compiling build/bdist.linux-x86_64/egg/flask_admin/tests/peeweemodel/test_basic.py to test_basic.pyc
+byte-compiling build/bdist.linux-x86_64/egg/flask_admin/tests/peeweemodel/__init__.py to __init__.pyc
+byte-compiling build/bdist.linux-x86_64/egg/flask_admin/tests/geoa/test_basic.py to test_basic.pyc
+byte-compiling build/bdist.linux-x86_64/egg/flask_admin/tests/geoa/__init__.py to __init__.pyc
+byte-compiling build/bdist.linux-x86_64/egg/flask_admin/tests/fileadmin/test_fileadmin.py to test_fileadmin.pyc
+byte-compiling build/bdist.linux-x86_64/egg/flask_admin/tests/fileadmin/__init__.py to __init__.pyc
+byte-compiling build/bdist.linux-x86_64/egg/flask_admin/tests/sqla/test_basic.py to test_basic.pyc
+byte-compiling build/bdist.linux-x86_64/egg/flask_admin/tests/sqla/test_multi_pk.py to test_multi_pk.pyc
+byte-compiling build/bdist.linux-x86_64/egg/flask_admin/tests/sqla/__init__.py to __init__.pyc
+byte-compiling build/bdist.linux-x86_64/egg/flask_admin/tests/sqla/test_inlineform.py to test_inlineform.pyc
+byte-compiling build/bdist.linux-x86_64/egg/flask_admin/tests/sqla/test_form_rules.py to test_form_rules.pyc
+byte-compiling build/bdist.linux-x86_64/egg/flask_admin/tests/test_tools.py to test_tools.pyc
+byte-compiling build/bdist.linux-x86_64/egg/flask_admin/tests/test_model.py to test_model.pyc
+byte-compiling build/bdist.linux-x86_64/egg/flask_admin/tests/pymongo/test_basic.py to test_basic.pyc
+byte-compiling build/bdist.linux-x86_64/egg/flask_admin/tests/pymongo/__init__.py to __init__.pyc
+byte-compiling build/bdist.linux-x86_64/egg/flask_admin/tests/test_base.py to test_base.pyc
+byte-compiling build/bdist.linux-x86_64/egg/flask_admin/tests/__init__.py to __init__.pyc
+byte-compiling build/bdist.linux-x86_64/egg/flask_admin/tests/mongoengine/test_basic.py to test_basic.pyc
+byte-compiling build/bdist.linux-x86_64/egg/flask_admin/tests/mongoengine/__init__.py to __init__.pyc
+byte-compiling build/bdist.linux-x86_64/egg/flask_admin/tests/test_form_upload.py to test_form_upload.pyc
+byte-compiling build/bdist.linux-x86_64/egg/flask_admin/tests/mock.py to mock.pyc
+byte-compiling build/bdist.linux-x86_64/egg/flask_admin/__init__.py to __init__.pyc
+byte-compiling build/bdist.linux-x86_64/egg/flask_admin/helpers.py to helpers.pyc
+byte-compiling build/bdist.linux-x86_64/egg/flask_admin/_compat.py to _compat.pyc
+byte-compiling build/bdist.linux-x86_64/egg/flask_admin/base.py to base.pyc
+creating build/bdist.linux-x86_64/egg/EGG-INFO
+copying Flask_Admin.egg-info/PKG-INFO -> build/bdist.linux-x86_64/egg/EGG-INFO
+copying Flask_Admin.egg-info/SOURCES.txt -> build/bdist.linux-x86_64/egg/EGG-INFO
+copying Flask_Admin.egg-info/dependency_links.txt -> build/bdist.linux-x86_64/egg/EGG-INFO
+copying Flask_Admin.egg-info/not-zip-safe -> build/bdist.linux-x86_64/egg/EGG-INFO
+copying Flask_Admin.egg-info/requires.txt -> build/bdist.linux-x86_64/egg/EGG-INFO
+copying Flask_Admin.egg-info/top_level.txt -> build/bdist.linux-x86_64/egg/EGG-INFO
+creating dist
+creating 'dist/Flask_Admin-1.1.0-py2.7.egg' and adding 'build/bdist.linux-x86_64/egg' to it
+removing 'build/bdist.linux-x86_64/egg' (and everything under it)
+Processing Flask_Admin-1.1.0-py2.7.egg
+creating /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/Flask_Admin-1.1.0-py2.7.egg
+Extracting Flask_Admin-1.1.0-py2.7.egg to /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages
+Adding Flask-Admin 1.1.0 to easy-install.pth file
+
+Installed /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/Flask_Admin-1.1.0-py2.7.egg
+Processing dependencies for Flask-Admin==1.1.0
+Searching for WTForms==2.0.2
+Best match: WTForms 2.0.2
+Adding WTForms 2.0.2 to easy-install.pth file
+
+Using /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages
+Searching for Flask==0.10.1
+Best match: Flask 0.10.1
+Adding Flask 0.10.1 to easy-install.pth file
+
+Using /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages
+Finished processing dependencies for Flask-Admin==1.1.0
+
+The following NEW packages will be INSTALLED:
+
+    flask:        0.10.1-py27_1
+    itsdangerous: 0.24-py27_0  
+    jinja2:       2.7.3-py27_1 
+    markupsafe:   0.23-py27_0  
+    openssl:      1.0.1k-1     
+    pip:          7.0.3-py27_0 
+    python:       2.7.10-0     
+    readline:     6.2-2        
+    setuptools:   18.0.1-py27_0
+    sqlite:       3.8.4.1-1    
+    system:       5.8-2        
+    tk:           8.5.18-0     
+    werkzeug:     0.10.4-py_0  
+    wtforms:      2.0.2-py_0   
+    zlib:         1.2.8-0      
+
+Linking packages ...
+[                    ]|                                                  |   0%[openssl             ]|                                                  |   0%[readline            ]|###                                               |   6%[sqlite              ]|######                                            |  13%[system              ]|##########                                        |  20%[tk                  ]|#############                                     |  26%[zlib                ]|################                                  |  33%[itsdangerous        ]|####################                              |  40%[markupsafe          ]|#######################                           |  46%[python              ]|##########################                        |  53%[setuptools          ]|##############################                    |  60%[werkzeug            ]|#################################                 |  66%[wtforms             ]|####################################              |  73%[jinja2              ]|########################################          |  80%[pip                 ]|###########################################       |  86%[flask               ]|##############################################    |  93%[      COMPLETE      ]|##################################################| 100%
+Removing old work directory
+Source cache directory is: /home/ubuntu/miniconda/conda-bld/src_cache
+Found source in cache: Flask-Admin-1.1.0.tar.gz
+Extracting download
+Package: flask-admin-1.1.0-py27_0
+source tree in: /home/ubuntu/miniconda/conda-bld/work/Flask-Admin-1.1.0
+found egg dir: /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/Flask_Admin-1.1.0-py2.7.egg
+compiling .pyc files...
+number of files: 432
+Fixing permissions
+Fixing permissions
+BUILD END: flask-admin-1.1.0-py27_0
+TEST START: flask-admin-1.1.0-py27_0
+Fetching package metadata: ......
+
+WARNING: conda-build appears to be out of date. You have version 1.13.0 but the
+latest version is 1.14.1. Run
+
+conda update -n root conda-build
+
+to get the latest version.
+
+Error: No packages found in current linux-64 channels matching: flask-babelex

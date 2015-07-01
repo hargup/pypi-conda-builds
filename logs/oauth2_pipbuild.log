@@ -4,7 +4,7 @@ BUILD START: httplib2-0.9.1-py27_0
 Fetching package metadata: ......
 
 WARNING: conda-build appears to be out of date. You have version 1.13.0 but the
-latest version is 1.14.0. Run
+latest version is 1.14.1. Run
 
 conda update -n root conda-build
 
@@ -52,7 +52,7 @@ BUILD START: oauth2-1.5.211-py_0
 Fetching package metadata: ......
 
 WARNING: conda-build appears to be out of date. You have version 1.13.0 but the
-latest version is 1.14.0. Run
+latest version is 1.14.1. Run
 
 conda update -n root conda-build
 
@@ -63,12 +63,6 @@ Warning: 2 possible package resolutions (only showing differing packages):
 	[u'httplib2-0.9.1-py_0.tar.bz2'],
 	[u'httplib2-0.9.1-py27_0.tar.bz2'],
 /home/ubuntu/miniconda/pkgs/httplib2-0.9.1-py_0/bin/.httplib2-pre-link.sh: line 2: /home/ubuntu/miniconda/envs/_build/bin/python: No such file or directory
-
-The following packages will be downloaded:
-
-    package                    |            build
-    ---------------------------|-----------------
-    httplib2-0.9.1             |             py_0          88 KB
 
 The following NEW packages will be INSTALLED:
 
@@ -83,12 +77,8 @@ The following NEW packages will be INSTALLED:
     tk:         8.5.18-0     
     zlib:       1.2.8-0      
 
-Fetching packages ...
-httplib2-0.9.1   0% |                              | ETA:  --:--:--   0.00  B/shttplib2-0.9.1  18% |#####                          | ETA:  0:00:00  35.08 MB/shttplib2-0.9.1  36% |###########                    | ETA:  0:00:00  48.53 MB/shttplib2-0.9.1  54% |################               | ETA:  0:00:00  56.89 MB/shttplib2-0.9.1  72% |######################         | ETA:  0:00:00  62.05 MB/shttplib2-0.9.1  90% |############################   | ETA:  0:00:00  66.00 MB/shttplib2-0.9.1 100% |###############################| ETA:  0:00:00  64.52 MB/shttplib2-0.9.1 100% |###############################| Time: 0:00:00  54.97 MB/s
-Extracting packages ...
-[                    ]|                                                  |   0%[httplib2            ]|                                                  |   0%[      COMPLETE      ]|##################################################| 100%
 Linking packages ...
-[      COMPLETE      ]|                                                  |   0%[openssl             ]|                                                  |   0%[openssl             ]|                                                  |   0%[readline            ]|#####                                             |  10%[sqlite              ]|##########                                        |  20%[system              ]|###############                                   |  30%[tk                  ]|####################                              |  40%[zlib                ]|#########################                         |  50%[httplib2            ]|##############################                    |  60%Error: pre-link failed: httplib2-0.9.1-py_0
+[                    ]|                                                  |   0%[openssl             ]|                                                  |   0%[readline            ]|#####                                             |  10%[sqlite              ]|##########                                        |  20%[system              ]|###############                                   |  30%[tk                  ]|####################                              |  40%[zlib                ]|#########################                         |  50%[httplib2            ]|##############################                    |  60%Error: pre-link failed: httplib2-0.9.1-py_0
 Package search: {'_pypi_ordering': False, 'version': '1.5.211', 'name': 'oauth2', 'summary': 'library for OAuth version 1.0'}
 Creating standard recipe for oauth2-1.5.211
 Converting recipe in /home/ubuntu/pypi-conda-builds/oauth2

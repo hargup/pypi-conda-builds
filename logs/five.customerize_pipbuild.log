@@ -1,0 +1,39 @@
+An unexpected error has occurred, please consider sending the
+following traceback to the conda GitHub issue tracker at:
+
+    https://github.com/conda/conda-build/issues
+
+Include the output of the command 'conda info' in your report.
+
+
+Package search: {'_pypi_ordering': False, 'version': '1.1', 'name': 'five.customerize', 'summary': 'TTW customization of template-based Zope views'}
+Creating standard recipe for five.customerize-1.1
+Converting recipe in /home/ubuntu/pypi-conda-builds/five.customerize
+package = five.customerize
+   dependencies = [u'plone.portlets', u'zope.component', u'zope.componentvocabulary', u'zope.dottedname', u'zope.interface', u'zope.lifecycleevent', u'zope.pagetemplate', u'zope.publisher', u'zope.schema', u'zope.site', u'zope.testing', u'zope.traversing', u'zope.viewlet', u'transaction', u'acquisition', u'zope2']
+Creating standard recipe for plone.portlets
+Converting recipe in /home/ubuntu/pypi-conda-builds/plone.portlets
+package = plone.portlets
+   dependencies = [u'zodb3', u'plone.memoize', u'zope.annotation', u'zope.component', u'zope.container', u'zope.contentprovider', u'zope.interface', u'zope.publisher', u'zope.schema', u'zope.site']
+Creating standard recipe for zodb3
+Converting recipe in /home/ubuntu/pypi-conda-builds/zodb3
+Traceback (most recent call last):
+  File "/home/ubuntu/miniconda/bin/conda-pipbuild", line 6, in <module>
+    exec(compile(open(__file__).read(), __file__, 'exec'))
+  File "/home/ubuntu/conda-build/bin/conda-pipbuild", line 5, in <module>
+    sys.exit(main())
+  File "/home/ubuntu/conda-build/conda_build/main_pipbuild.py", line 80, in main
+    args_func(args, p)
+  File "/home/ubuntu/conda-build/conda_build/main_build.py", line 349, in args_func
+    args.func(args, p)
+  File "/home/ubuntu/conda-build/conda_build/main_pipbuild.py", line 360, in execute
+    build_package(package, version, noarch_python=args.noarch_python)
+  File "/home/ubuntu/conda-build/conda_build/main_pipbuild.py", line 314, in build_package
+    build_package(depend)
+  File "/home/ubuntu/conda-build/conda_build/main_pipbuild.py", line 314, in build_package
+    build_package(depend)
+  File "/home/ubuntu/conda-build/conda_build/main_pipbuild.py", line 301, in build_package
+    noarch_python=noarch_python)
+  File "/home/ubuntu/conda-build/conda_build/main_pipbuild.py", line 183, in convert_recipe
+    d['homeurl'] = meta['about']['home']
+KeyError: 'home'

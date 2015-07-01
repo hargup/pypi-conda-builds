@@ -1,12 +1,16 @@
-There was an error importing jinja2.
-Please run `conda install jinja2` to enable jinja template support
 Removing old build directory
 Removing old work directory
-BUILD START: d2to1-0.2.11-py27_0
+BUILD START: d2to1-0.2.11-py_0
 Fetching package metadata: ......
-Solving package specifications: .There was an error importing jinja2.
-Please run `conda install jinja2` to enable jinja template support
-+ /home/ubuntu/miniconda/envs/_build/bin/python setup.py install
+
+WARNING: conda-build appears to be out of date. You have version 1.13.0 but the
+latest version is 1.14.1. Run
+
+conda update -n root conda-build
+
+to get the latest version.
+
+Solving package specifications: .+ /home/ubuntu/miniconda/envs/_build/bin/python setup.py install
 running install
 running bdist_egg
 running egg_info
@@ -65,27 +69,26 @@ Adding d2to1 0.2.11 to easy-install.pth file
 
 Installed /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/d2to1-0.2.11-py2.7.egg
 Processing dependencies for d2to1==0.2.11
-Searching for setuptools==16.0
-Best match: setuptools 16.0
-Processing setuptools-16.0-py2.7.egg
-Adding setuptools 16.0 to easy-install.pth file
+Searching for setuptools==15.2
+Best match: setuptools 15.2
+Adding setuptools 15.2 to easy-install.pth file
+Installing easy_install-3.4 script to /home/ubuntu/miniconda/envs/_build/bin
 Installing easy_install script to /home/ubuntu/miniconda/envs/_build/bin
-Installing easy_install-2.7 script to /home/ubuntu/miniconda/envs/_build/bin
 
-Using /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/setuptools-16.0-py2.7.egg
+Using /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages
 Finished processing dependencies for d2to1==0.2.11
 
 The following NEW packages will be INSTALLED:
 
-    openssl:    1.0.1k-1    
-    pip:        6.1.1-py27_0
-    python:     2.7.9-3     
-    readline:   6.2-2       
-    setuptools: 16.0-py27_0 
-    sqlite:     3.8.4.1-1   
-    system:     5.8-2       
-    tk:         8.5.18-0    
-    zlib:       1.2.8-0     
+    openssl:    1.0.1k-1     
+    pip:        7.0.3-py27_0 
+    python:     2.7.10-0     
+    readline:   6.2-2        
+    setuptools: 18.0.1-py27_0
+    sqlite:     3.8.4.1-1    
+    system:     5.8-2        
+    tk:         8.5.18-0     
+    zlib:       1.2.8-0      
 
 Linking packages ...
 [                    ]|                                                  |   0%[openssl             ]|                                                  |   0%[readline            ]|#####                                             |  11%[sqlite              ]|###########                                       |  22%[system              ]|################                                  |  33%[tk                  ]|######################                            |  44%[zlib                ]|###########################                       |  55%[python              ]|#################################                 |  66%[setuptools          ]|######################################            |  77%[pip                 ]|############################################      |  88%[      COMPLETE      ]|##################################################| 100%
@@ -93,48 +96,57 @@ Removing old work directory
 Source cache directory is: /home/ubuntu/miniconda/conda-bld/src_cache
 Found source in cache: d2to1-0.2.11.tar.gz
 Extracting download
-Package: d2to1-0.2.11-py27_0
+Package: d2to1-0.2.11-py_0
 source tree in: /home/ubuntu/miniconda/conda-bld/work/d2to1-0.2.11
-number of files: 20
+number of files: 22
 Fixing permissions
 Fixing permissions
-BUILD END: d2to1-0.2.11-py27_0
-TEST START: d2to1-0.2.11-py27_0
+BUILD END: d2to1-0.2.11-py_0
+TEST START: d2to1-0.2.11-py_0
 Fetching package metadata: ......
-Solving package specifications: .===== testing package: d2to1-0.2.11-py27_0 =====
+
+WARNING: conda-build appears to be out of date. You have version 1.13.0 but the
+latest version is 1.14.1. Run
+
+conda update -n root conda-build
+
+to get the latest version.
+
+Solving package specifications: .===== testing package: d2to1-0.2.11-py_0 =====
 import: u'd2to1'
 import: u'd2to1.extern'
-===== d2to1-0.2.11-py27_0 OK =====
+===== d2to1-0.2.11-py_0 OK =====
 
 The following packages will be downloaded:
 
     package                    |            build
     ---------------------------|-----------------
-    d2to1-0.2.11               |           py27_0          29 KB
+    d2to1-0.2.11               |             py_0          92 KB
 
 The following NEW packages will be INSTALLED:
 
-    d2to1:      0.2.11-py27_0
+    d2to1:      0.2.11-py_0  
+    nose:       1.3.7-py27_0 
     openssl:    1.0.1k-1     
-    pip:        6.1.1-py27_0 
-    python:     2.7.9-3      
+    pip:        7.0.3-py27_0 
+    python:     2.7.10-0     
     readline:   6.2-2        
-    setuptools: 16.0-py27_0  
+    setuptools: 18.0.1-py27_0
     sqlite:     3.8.4.1-1    
     system:     5.8-2        
     tk:         8.5.18-0     
     zlib:       1.2.8-0      
 
 Fetching packages ...
-d2to1-0.2.11-p   0% |                              | ETA:  --:--:--   0.00  B/sd2to1-0.2.11-p  55% |#################              | ETA:  0:00:00  45.66 MB/sd2to1-0.2.11-p 100% |###############################| ETA:  0:00:00  52.59 MB/sd2to1-0.2.11-p 100% |###############################| Time: 0:00:00  38.16 MB/s
+d2to1-0.2.11-p   0% |                              | ETA:  --:--:--   0.00  B/sd2to1-0.2.11-p  17% |#####                          | ETA:  0:00:00  47.49 MB/sd2to1-0.2.11-p  34% |##########                     | ETA:  0:00:00  59.27 MB/sd2to1-0.2.11-p  52% |################               | ETA:  0:00:00  65.89 MB/sd2to1-0.2.11-p  69% |#####################          | ETA:  0:00:00  70.18 MB/sd2to1-0.2.11-p  87% |###########################    | ETA:  0:00:00  72.95 MB/sd2to1-0.2.11-p 100% |###############################| ETA:  0:00:00  72.57 MB/sd2to1-0.2.11-p 100% |###############################| Time: 0:00:00  60.71 MB/s
 Extracting packages ...
 [      COMPLETE      ]|                                                  |   0%[d2to1               ]|                                                  |   0%[d2to1               ]|                                                  |   0%[      COMPLETE      ]|##################################################| 100%
 Linking packages ...
-[      COMPLETE      ]|                                                  |   0%[openssl             ]|                                                  |   0%[openssl             ]|                                                  |   0%[readline            ]|#####                                             |  10%[sqlite              ]|##########                                        |  20%[system              ]|###############                                   |  30%[tk                  ]|####################                              |  40%[zlib                ]|#########################                         |  50%[python              ]|##############################                    |  60%[setuptools          ]|###################################               |  70%[d2to1               ]|########################################          |  80%[pip                 ]|#############################################     |  90%[      COMPLETE      ]|##################################################| 100%
-TEST END: d2to1-0.2.11-py27_0
+[      COMPLETE      ]|                                                  |   0%[openssl             ]|                                                  |   0%[openssl             ]|                                                  |   0%[readline            ]|####                                              |   9%[sqlite              ]|#########                                         |  18%[system              ]|#############                                     |  27%[tk                  ]|##################                                |  36%[zlib                ]|######################                            |  45%[nose                ]|###########################                       |  54%[python              ]|###############################                   |  63%[setuptools          ]|####################################              |  72%[d2to1               ]|########################################          |  81%[pip                 ]|#############################################     |  90%[      COMPLETE      ]|##################################################| 100%
+TEST END: d2to1-0.2.11-py_0
 # If you want to upload this package to binstar.org later, type:
 #
-# $ binstar upload /home/ubuntu/miniconda/conda-bld/linux-64/d2to1-0.2.11-py27_0.tar.bz2
+# $ binstar upload /home/ubuntu/miniconda/conda-bld/noarch/d2to1-0.2.11-py_0.tar.bz2
 #
 # To have conda build upload to binstar automatically, use
 # $ conda config --set binstar_upload yes

@@ -1,0 +1,60 @@
+package:
+  name: vnc2flv
+  version: "20100207"
+
+source:
+  fn: vnc2flv-20100207.tar.gz
+  url: https://pypi.python.org/packages/source/v/vnc2flv/vnc2flv-20100207.tar.gz
+  md5: 8492e46496e187b49fe5569b5639804e
+#  patches:
+   # List any patch files here
+   # - fix.patch
+
+build:
+  noarch_python: True
+  # preserve_egg_dir: True
+  # entry_points:
+    # Put any entry points (scripts to be generated automatically) here. The
+    # syntax is module:function.  For example
+    #
+    # - vnc2flv = vnc2flv:main
+    #
+    # Would create an entry point called vnc2flv that calls vnc2flv.main()
+
+
+  # If this is a new build for the same version, increment the build
+  # number. If you do not include this key, it defaults to 0.
+  # number: 1
+
+requirements:
+  build:
+    - python
+
+  run:
+    - python
+
+test:
+  # Python imports
+  imports:
+    - vnc2flv
+
+  # commands:
+    # You can put test commands to be run here.  Use this to test that the
+    # entry points work.
+
+
+  # You can also put a file called run_test.py in the recipe that will be run
+  # at test time.
+
+  # requires:
+    # Put any additional test requirements here.  For example
+    # - nose
+
+about:
+  home: http://www.unixuser.org/~euske/python/vnc2flv/index.html
+  license: MIT License
+  summary: 'Screen recording tool that captures a VNC session and saves as FLV'
+
+# See
+# http://docs.continuum.io/conda/build.html for
+# more information about meta.yaml

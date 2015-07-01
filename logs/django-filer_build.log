@@ -1,0 +1,822 @@
+Removing old build directory
+Removing old work directory
+BUILD START: django-filer-0.9.11-py27_0
+Fetching package metadata: ......
+
+WARNING: conda-build appears to be out of date. You have version 1.13.0 but the
+latest version is 1.14.1. Run
+
+conda update -n root conda-build
+
+to get the latest version.
+
+Solving package specifications: .................
+Warning: 2 possible package resolutions (only showing differing packages):
+	[u'unidecode-0.4.17-py27_0.tar.bz2'],
+	[u'unidecode-0.04.17-py27_0.tar.bz2'],
++ /home/ubuntu/miniconda/envs/_build/bin/python setup.py install
+running install
+running bdist_egg
+running egg_info
+writing requirements to django_filer.egg-info/requires.txt
+writing django_filer.egg-info/PKG-INFO
+writing top-level names to django_filer.egg-info/top_level.txt
+writing dependency_links to django_filer.egg-info/dependency_links.txt
+reading manifest file 'django_filer.egg-info/SOURCES.txt'
+reading manifest template 'MANIFEST.in'
+writing manifest file 'django_filer.egg-info/SOURCES.txt'
+installing library code to build/bdist.linux-x86_64/egg
+running install_lib
+running build_py
+creating build
+creating build/lib
+creating build/lib/filer
+copying filer/apps.py -> build/lib/filer
+copying filer/storage.py -> build/lib/filer
+copying filer/thumbnail_processors.py -> build/lib/filer
+copying filer/views.py -> build/lib/filer
+copying filer/__init__.py -> build/lib/filer
+copying filer/settings.py -> build/lib/filer
+creating build/lib/filer/admin
+copying filer/admin/folderadmin.py -> build/lib/filer/admin
+copying filer/admin/tools.py -> build/lib/filer/admin
+copying filer/admin/fileadmin.py -> build/lib/filer/admin
+copying filer/admin/permissionadmin.py -> build/lib/filer/admin
+copying filer/admin/permissions.py -> build/lib/filer/admin
+copying filer/admin/forms.py -> build/lib/filer/admin
+copying filer/admin/__init__.py -> build/lib/filer/admin
+copying filer/admin/clipboardadmin.py -> build/lib/filer/admin
+copying filer/admin/imageadmin.py -> build/lib/filer/admin
+creating build/lib/filer/management
+copying filer/management/__init__.py -> build/lib/filer/management
+creating build/lib/filer/utils
+copying filer/utils/recursive_dictionary.py -> build/lib/filer/utils
+copying filer/utils/loader.py -> build/lib/filer/utils
+copying filer/utils/zip.py -> build/lib/filer/utils
+copying filer/utils/compatibility.py -> build/lib/filer/utils
+copying filer/utils/filer_easy_thumbnails.py -> build/lib/filer/utils
+copying filer/utils/files.py -> build/lib/filer/utils
+copying filer/utils/__init__.py -> build/lib/filer/utils
+copying filer/utils/generate_filename.py -> build/lib/filer/utils
+copying filer/utils/pil_exif.py -> build/lib/filer/utils
+creating build/lib/filer/templatetags
+copying filer/templatetags/filer_image_tags.py -> build/lib/filer/templatetags
+copying filer/templatetags/filer_admin_tags.py -> build/lib/filer/templatetags
+copying filer/templatetags/__init__.py -> build/lib/filer/templatetags
+copying filer/templatetags/filer_tags.py -> build/lib/filer/templatetags
+copying filer/templatetags/filermedia.py -> build/lib/filer/templatetags
+creating build/lib/filer/south_migrations
+copying filer/south_migrations/0008_polymorphic__del_field_file__file_type_plugin_name.py -> build/lib/filer/south_migrations
+copying filer/south_migrations/0013_remove_null_file_name.py -> build/lib/filer/south_migrations
+copying filer/south_migrations/0007_polymorphic__content_type_data.py -> build/lib/filer/south_migrations
+copying filer/south_migrations/0010_folderpermissions.py -> build/lib/filer/south_migrations
+copying filer/south_migrations/0014_auto__add_field_image_related_url__chg_field_file_name.py -> build/lib/filer/south_migrations
+copying filer/south_migrations/0001_initial.py -> build/lib/filer/south_migrations
+copying filer/south_migrations/0011_auto__del_field_folderpermission_can_add_children__del_field_folderper.py -> build/lib/filer/south_migrations
+copying filer/south_migrations/0002_rename_file_field.py -> build/lib/filer/south_migrations
+copying filer/south_migrations/__init__.py -> build/lib/filer/south_migrations
+copying filer/south_migrations/0009_auto__add_field_folderpermission_can_edit_new__add_field_folderpermiss.py -> build/lib/filer/south_migrations
+copying filer/south_migrations/0005_auto__add_field_file_sha1__chg_field_file_file.py -> build/lib/filer/south_migrations
+copying filer/south_migrations/0004_auto__del_field_file__file__add_field_file_file__add_field_file_is_pub.py -> build/lib/filer/south_migrations
+copying filer/south_migrations/0003_add_description_field.py -> build/lib/filer/south_migrations
+copying filer/south_migrations/0006_polymorphic__add_field_file_polymorphic_ctype.py -> build/lib/filer/south_migrations
+copying filer/south_migrations/0012_renaming_folderpermissions.py -> build/lib/filer/south_migrations
+creating build/lib/filer/tests
+copying filer/tests/admin.py -> build/lib/filer/tests
+copying filer/tests/tools.py -> build/lib/filer/tests
+copying filer/tests/utils.py -> build/lib/filer/tests
+copying filer/tests/server_backends.py -> build/lib/filer/tests
+copying filer/tests/permissions.py -> build/lib/filer/tests
+copying filer/tests/__init__.py -> build/lib/filer/tests
+copying filer/tests/models.py -> build/lib/filer/tests
+copying filer/tests/helpers.py -> build/lib/filer/tests
+copying filer/tests/dump.py -> build/lib/filer/tests
+creating build/lib/filer/test_utils
+copying filer/test_utils/urls.py -> build/lib/filer/test_utils
+copying filer/test_utils/__init__.py -> build/lib/filer/test_utils
+creating build/lib/filer/models
+copying filer/models/mixins.py -> build/lib/filer/models
+copying filer/models/tools.py -> build/lib/filer/models
+copying filer/models/clipboardmodels.py -> build/lib/filer/models
+copying filer/models/imagemodels.py -> build/lib/filer/models
+copying filer/models/virtualitems.py -> build/lib/filer/models
+copying filer/models/foldermodels.py -> build/lib/filer/models
+copying filer/models/abstract.py -> build/lib/filer/models
+copying filer/models/__init__.py -> build/lib/filer/models
+copying filer/models/filemodels.py -> build/lib/filer/models
+creating build/lib/filer/fields
+copying filer/fields/folder.py -> build/lib/filer/fields
+copying filer/fields/file.py -> build/lib/filer/fields
+copying filer/fields/__init__.py -> build/lib/filer/fields
+copying filer/fields/multistorage_file.py -> build/lib/filer/fields
+copying filer/fields/image.py -> build/lib/filer/fields
+creating build/lib/filer/migrations
+copying filer/migrations/0002_auto_20150606_2003.py -> build/lib/filer/migrations
+copying filer/migrations/0001_initial.py -> build/lib/filer/migrations
+copying filer/migrations/__init__.py -> build/lib/filer/migrations
+creating build/lib/filer/server
+copying filer/server/main_server_urls.py -> build/lib/filer/server
+copying filer/server/thumbnails_server_urls.py -> build/lib/filer/server
+copying filer/server/views.py -> build/lib/filer/server
+copying filer/server/urls.py -> build/lib/filer/server
+copying filer/server/__init__.py -> build/lib/filer/server
+creating build/lib/filer/admin/patched
+copying filer/admin/patched/admin_utils.py -> build/lib/filer/admin/patched
+copying filer/admin/patched/__init__.py -> build/lib/filer/admin/patched
+creating build/lib/filer/management/commands
+copying filer/management/commands/import_files.py -> build/lib/filer/management/commands
+copying filer/management/commands/__init__.py -> build/lib/filer/management/commands
+creating build/lib/filer/tests/utils
+copying filer/tests/utils/__init__.py -> build/lib/filer/tests/utils
+creating build/lib/filer/test_utils/custom_image
+copying filer/test_utils/custom_image/__init__.py -> build/lib/filer/test_utils/custom_image
+copying filer/test_utils/custom_image/models.py -> build/lib/filer/test_utils/custom_image
+creating build/lib/filer/test_utils/test_app
+copying filer/test_utils/test_app/admin.py -> build/lib/filer/test_utils/test_app
+copying filer/test_utils/test_app/__init__.py -> build/lib/filer/test_utils/test_app
+copying filer/test_utils/test_app/models.py -> build/lib/filer/test_utils/test_app
+creating build/lib/filer/test_utils/custom_image/south_migrations
+copying filer/test_utils/custom_image/south_migrations/0001_initial.py -> build/lib/filer/test_utils/custom_image/south_migrations
+copying filer/test_utils/custom_image/south_migrations/__init__.py -> build/lib/filer/test_utils/custom_image/south_migrations
+creating build/lib/filer/test_utils/custom_image/migrations
+copying filer/test_utils/custom_image/migrations/0001_initial.py -> build/lib/filer/test_utils/custom_image/migrations
+copying filer/test_utils/custom_image/migrations/__init__.py -> build/lib/filer/test_utils/custom_image/migrations
+creating build/lib/filer/test_utils/test_app/south_migrations
+copying filer/test_utils/test_app/south_migrations/0001_initial.py -> build/lib/filer/test_utils/test_app/south_migrations
+copying filer/test_utils/test_app/south_migrations/__init__.py -> build/lib/filer/test_utils/test_app/south_migrations
+creating build/lib/filer/test_utils/test_app/migrations
+copying filer/test_utils/test_app/migrations/0001_initial.py -> build/lib/filer/test_utils/test_app/migrations
+copying filer/test_utils/test_app/migrations/__init__.py -> build/lib/filer/test_utils/test_app/migrations
+creating build/lib/filer/server/backends
+copying filer/server/backends/default.py -> build/lib/filer/server/backends
+copying filer/server/backends/xsendfile.py -> build/lib/filer/server/backends
+copying filer/server/backends/__init__.py -> build/lib/filer/server/backends
+copying filer/server/backends/nginx.py -> build/lib/filer/server/backends
+copying filer/server/backends/base.py -> build/lib/filer/server/backends
+creating build/lib/filer/locale
+copying filer/locale/README -> build/lib/filer/locale
+creating build/lib/filer/locale/ca
+creating build/lib/filer/locale/ca/LC_MESSAGES
+copying filer/locale/ca/LC_MESSAGES/django.mo -> build/lib/filer/locale/ca/LC_MESSAGES
+copying filer/locale/ca/LC_MESSAGES/django.po -> build/lib/filer/locale/ca/LC_MESSAGES
+creating build/lib/filer/locale/de
+creating build/lib/filer/locale/de/LC_MESSAGES
+copying filer/locale/de/LC_MESSAGES/django.mo -> build/lib/filer/locale/de/LC_MESSAGES
+copying filer/locale/de/LC_MESSAGES/django.po -> build/lib/filer/locale/de/LC_MESSAGES
+creating build/lib/filer/locale/en
+creating build/lib/filer/locale/en/LC_MESSAGES
+copying filer/locale/en/LC_MESSAGES/django.mo -> build/lib/filer/locale/en/LC_MESSAGES
+copying filer/locale/en/LC_MESSAGES/django.po -> build/lib/filer/locale/en/LC_MESSAGES
+creating build/lib/filer/locale/es
+creating build/lib/filer/locale/es/LC_MESSAGES
+copying filer/locale/es/LC_MESSAGES/django.mo -> build/lib/filer/locale/es/LC_MESSAGES
+copying filer/locale/es/LC_MESSAGES/django.po -> build/lib/filer/locale/es/LC_MESSAGES
+creating build/lib/filer/locale/et
+creating build/lib/filer/locale/et/LC_MESSAGES
+copying filer/locale/et/LC_MESSAGES/django.mo -> build/lib/filer/locale/et/LC_MESSAGES
+copying filer/locale/et/LC_MESSAGES/django.po -> build/lib/filer/locale/et/LC_MESSAGES
+creating build/lib/filer/locale/eu
+creating build/lib/filer/locale/eu/LC_MESSAGES
+copying filer/locale/eu/LC_MESSAGES/django.mo -> build/lib/filer/locale/eu/LC_MESSAGES
+copying filer/locale/eu/LC_MESSAGES/django.po -> build/lib/filer/locale/eu/LC_MESSAGES
+creating build/lib/filer/locale/fi
+creating build/lib/filer/locale/fi/LC_MESSAGES
+copying filer/locale/fi/LC_MESSAGES/django.mo -> build/lib/filer/locale/fi/LC_MESSAGES
+copying filer/locale/fi/LC_MESSAGES/django.po -> build/lib/filer/locale/fi/LC_MESSAGES
+creating build/lib/filer/locale/fr
+creating build/lib/filer/locale/fr/LC_MESSAGES
+copying filer/locale/fr/LC_MESSAGES/django.mo -> build/lib/filer/locale/fr/LC_MESSAGES
+copying filer/locale/fr/LC_MESSAGES/django.po -> build/lib/filer/locale/fr/LC_MESSAGES
+creating build/lib/filer/locale/he
+creating build/lib/filer/locale/he/LC_MESSAGES
+copying filer/locale/he/LC_MESSAGES/django.mo -> build/lib/filer/locale/he/LC_MESSAGES
+copying filer/locale/he/LC_MESSAGES/django.po -> build/lib/filer/locale/he/LC_MESSAGES
+creating build/lib/filer/locale/hr
+creating build/lib/filer/locale/hr/LC_MESSAGES
+copying filer/locale/hr/LC_MESSAGES/django.mo -> build/lib/filer/locale/hr/LC_MESSAGES
+copying filer/locale/hr/LC_MESSAGES/django.po -> build/lib/filer/locale/hr/LC_MESSAGES
+creating build/lib/filer/locale/it
+creating build/lib/filer/locale/it/LC_MESSAGES
+copying filer/locale/it/LC_MESSAGES/django.mo -> build/lib/filer/locale/it/LC_MESSAGES
+copying filer/locale/it/LC_MESSAGES/django.po -> build/lib/filer/locale/it/LC_MESSAGES
+creating build/lib/filer/locale/lt
+creating build/lib/filer/locale/lt/LC_MESSAGES
+copying filer/locale/lt/LC_MESSAGES/django.mo -> build/lib/filer/locale/lt/LC_MESSAGES
+copying filer/locale/lt/LC_MESSAGES/django.po -> build/lib/filer/locale/lt/LC_MESSAGES
+creating build/lib/filer/locale/nb
+creating build/lib/filer/locale/nb/LC_MESSAGES
+copying filer/locale/nb/LC_MESSAGES/django.mo -> build/lib/filer/locale/nb/LC_MESSAGES
+copying filer/locale/nb/LC_MESSAGES/django.po -> build/lib/filer/locale/nb/LC_MESSAGES
+creating build/lib/filer/locale/nl_NL
+creating build/lib/filer/locale/nl_NL/LC_MESSAGES
+copying filer/locale/nl_NL/LC_MESSAGES/django.mo -> build/lib/filer/locale/nl_NL/LC_MESSAGES
+copying filer/locale/nl_NL/LC_MESSAGES/django.po -> build/lib/filer/locale/nl_NL/LC_MESSAGES
+creating build/lib/filer/locale/nn
+creating build/lib/filer/locale/nn/LC_MESSAGES
+copying filer/locale/nn/LC_MESSAGES/django.mo -> build/lib/filer/locale/nn/LC_MESSAGES
+copying filer/locale/nn/LC_MESSAGES/django.po -> build/lib/filer/locale/nn/LC_MESSAGES
+creating build/lib/filer/locale/pl
+creating build/lib/filer/locale/pl/LC_MESSAGES
+copying filer/locale/pl/LC_MESSAGES/django.mo -> build/lib/filer/locale/pl/LC_MESSAGES
+copying filer/locale/pl/LC_MESSAGES/django.po -> build/lib/filer/locale/pl/LC_MESSAGES
+creating build/lib/filer/locale/pt_BR
+creating build/lib/filer/locale/pt_BR/LC_MESSAGES
+copying filer/locale/pt_BR/LC_MESSAGES/django.mo -> build/lib/filer/locale/pt_BR/LC_MESSAGES
+copying filer/locale/pt_BR/LC_MESSAGES/django.po -> build/lib/filer/locale/pt_BR/LC_MESSAGES
+creating build/lib/filer/locale/ru
+creating build/lib/filer/locale/ru/LC_MESSAGES
+copying filer/locale/ru/LC_MESSAGES/django.mo -> build/lib/filer/locale/ru/LC_MESSAGES
+copying filer/locale/ru/LC_MESSAGES/django.po -> build/lib/filer/locale/ru/LC_MESSAGES
+creating build/lib/filer/locale/sk
+creating build/lib/filer/locale/sk/LC_MESSAGES
+copying filer/locale/sk/LC_MESSAGES/django.mo -> build/lib/filer/locale/sk/LC_MESSAGES
+copying filer/locale/sk/LC_MESSAGES/django.po -> build/lib/filer/locale/sk/LC_MESSAGES
+creating build/lib/filer/locale/tr
+creating build/lib/filer/locale/tr/LC_MESSAGES
+copying filer/locale/tr/LC_MESSAGES/django.mo -> build/lib/filer/locale/tr/LC_MESSAGES
+copying filer/locale/tr/LC_MESSAGES/django.po -> build/lib/filer/locale/tr/LC_MESSAGES
+creating build/lib/filer/static
+creating build/lib/filer/static/filer
+creating build/lib/filer/static/filer/css
+copying filer/static/filer/css/admin_style.css -> build/lib/filer/static/filer/css
+creating build/lib/filer/static/filer/icons
+copying filer/static/filer/icons/file_128x128.png -> build/lib/filer/static/filer/icons
+copying filer/static/filer/icons/file_16x16.png -> build/lib/filer/static/filer/icons
+copying filer/static/filer/icons/file_32x32.png -> build/lib/filer/static/filer/icons
+copying filer/static/filer/icons/file_48x48.png -> build/lib/filer/static/filer/icons
+copying filer/static/filer/icons/file_64x64.png -> build/lib/filer/static/filer/icons
+copying filer/static/filer/icons/image_128x128.png -> build/lib/filer/static/filer/icons
+copying filer/static/filer/icons/image_256x256.png -> build/lib/filer/static/filer/icons
+copying filer/static/filer/icons/image_32x32.png -> build/lib/filer/static/filer/icons
+copying filer/static/filer/icons/image_48x48.png -> build/lib/filer/static/filer/icons
+copying filer/static/filer/icons/image_64x64.png -> build/lib/filer/static/filer/icons
+copying filer/static/filer/icons/incomplete_metadata_folder_32x32.png -> build/lib/filer/static/filer/icons
+copying filer/static/filer/icons/incomplete_metadata_folder_48x48.png -> build/lib/filer/static/filer/icons
+copying filer/static/filer/icons/incomplete_metadata_folder_64x64.png -> build/lib/filer/static/filer/icons
+copying filer/static/filer/icons/missingfile_32x32.png -> build/lib/filer/static/filer/icons
+copying filer/static/filer/icons/missingfile_48x48.png -> build/lib/filer/static/filer/icons
+copying filer/static/filer/icons/missingfile_512x512.png -> build/lib/filer/static/filer/icons
+copying filer/static/filer/icons/nofile_32x32.png -> build/lib/filer/static/filer/icons
+copying filer/static/filer/icons/nofile_48x48.png -> build/lib/filer/static/filer/icons
+copying filer/static/filer/icons/nofile_512x512.png -> build/lib/filer/static/filer/icons
+copying filer/static/filer/icons/plainfolder.png -> build/lib/filer/static/filer/icons
+copying filer/static/filer/icons/plainfolder_128x128.png -> build/lib/filer/static/filer/icons
+copying filer/static/filer/icons/plainfolder_32x32.png -> build/lib/filer/static/filer/icons
+copying filer/static/filer/icons/plainfolder_48x48.png -> build/lib/filer/static/filer/icons
+copying filer/static/filer/icons/plainfolder_512x512.png -> build/lib/filer/static/filer/icons
+copying filer/static/filer/icons/plainfolder_64x64.png -> build/lib/filer/static/filer/icons
+copying filer/static/filer/icons/unfiled_folder_32x32.png -> build/lib/filer/static/filer/icons
+copying filer/static/filer/icons/unfiled_folder_48x48.png -> build/lib/filer/static/filer/icons
+copying filer/static/filer/icons/unfiled_folder_64x64.png -> build/lib/filer/static/filer/icons
+copying filer/static/filer/icons/video_16x16.png -> build/lib/filer/static/filer/icons
+copying filer/static/filer/icons/video_256x256.png -> build/lib/filer/static/filer/icons
+copying filer/static/filer/icons/video_32x32.png -> build/lib/filer/static/filer/icons
+copying filer/static/filer/icons/video_48x48.png -> build/lib/filer/static/filer/icons
+copying filer/static/filer/icons/xfile_32x32.png -> build/lib/filer/static/filer/icons
+creating build/lib/filer/static/filer/img
+copying filer/static/filer/img/close.gif -> build/lib/filer/static/filer/img
+copying filer/static/filer/img/loading_animation.gif -> build/lib/filer/static/filer/img
+copying filer/static/filer/img/nav-bg.gif -> build/lib/filer/static/filer/img
+copying filer/static/filer/img/select_item-hover.gif -> build/lib/filer/static/filer/img
+copying filer/static/filer/img/select_item.gif -> build/lib/filer/static/filer/img
+copying filer/static/filer/img/upload_button.png -> build/lib/filer/static/filer/img
+creating build/lib/filer/static/filer/js
+copying filer/static/filer/js/fileuploader.js -> build/lib/filer/static/filer/js
+copying filer/static/filer/js/focal_point.js -> build/lib/filer/static/filer/js
+copying filer/static/filer/js/jquery.cookie.js -> build/lib/filer/static/filer/js
+copying filer/static/filer/js/popup_handling.js -> build/lib/filer/static/filer/js
+copying filer/static/filer/js/raphael.js -> build/lib/filer/static/filer/js
+copying filer/static/filer/js/retina.js -> build/lib/filer/static/filer/js
+copying filer/static/filer/js/widget.js -> build/lib/filer/static/filer/js
+creating build/lib/filer/templates
+creating build/lib/filer/templates/admin
+creating build/lib/filer/templates/admin/filer
+copying filer/templates/admin/filer/actions.html -> build/lib/filer/templates/admin/filer
+copying filer/templates/admin/filer/base_site.html -> build/lib/filer/templates/admin/filer
+copying filer/templates/admin/filer/breadcrumbs.html -> build/lib/filer/templates/admin/filer
+copying filer/templates/admin/filer/change_form.html -> build/lib/filer/templates/admin/filer
+copying filer/templates/admin/filer/delete_confirmation.html -> build/lib/filer/templates/admin/filer
+copying filer/templates/admin/filer/delete_selected_files_confirmation.html -> build/lib/filer/templates/admin/filer
+copying filer/templates/admin/filer/dismiss_popup.html -> build/lib/filer/templates/admin/filer
+creating build/lib/filer/templates/admin/filer/folder
+copying filer/templates/admin/filer/folder/change_form.html -> build/lib/filer/templates/admin/filer/folder
+copying filer/templates/admin/filer/folder/choose_copy_destination.html -> build/lib/filer/templates/admin/filer/folder
+copying filer/templates/admin/filer/folder/choose_images_resize_options.html -> build/lib/filer/templates/admin/filer/folder
+copying filer/templates/admin/filer/folder/choose_move_destination.html -> build/lib/filer/templates/admin/filer/folder
+copying filer/templates/admin/filer/folder/choose_rename_format.html -> build/lib/filer/templates/admin/filer/folder
+copying filer/templates/admin/filer/folder/directory_listing.html -> build/lib/filer/templates/admin/filer/folder
+copying filer/templates/admin/filer/folder/directory_table.html -> build/lib/filer/templates/admin/filer/folder
+copying filer/templates/admin/filer/folder/new_folder_form.html -> build/lib/filer/templates/admin/filer/folder
+creating build/lib/filer/templates/admin/filer/image
+copying filer/templates/admin/filer/image/change_form.html -> build/lib/filer/templates/admin/filer/image
+creating build/lib/filer/templates/admin/filer/tools
+copying filer/templates/admin/filer/tools/search_form.html -> build/lib/filer/templates/admin/filer/tools
+copying filer/templates/admin/filer/tools/upload_button_js.html -> build/lib/filer/templates/admin/filer/tools
+creating build/lib/filer/templates/admin/filer/tools/clipboard
+copying filer/templates/admin/filer/tools/clipboard/clipboard.html -> build/lib/filer/templates/admin/filer/tools/clipboard
+copying filer/templates/admin/filer/tools/clipboard/clipboard_item_rows.html -> build/lib/filer/templates/admin/filer/tools/clipboard
+creating build/lib/filer/templates/admin/filer/widgets
+copying filer/templates/admin/filer/widgets/admin_file.html -> build/lib/filer/templates/admin/filer/widgets
+copying filer/templates/admin/filer/widgets/admin_folder.html -> build/lib/filer/templates/admin/filer/widgets
+creating build/bdist.linux-x86_64
+creating build/bdist.linux-x86_64/egg
+creating build/bdist.linux-x86_64/egg/filer
+copying build/lib/filer/apps.py -> build/bdist.linux-x86_64/egg/filer
+copying build/lib/filer/storage.py -> build/bdist.linux-x86_64/egg/filer
+creating build/bdist.linux-x86_64/egg/filer/admin
+copying build/lib/filer/admin/folderadmin.py -> build/bdist.linux-x86_64/egg/filer/admin
+copying build/lib/filer/admin/tools.py -> build/bdist.linux-x86_64/egg/filer/admin
+copying build/lib/filer/admin/fileadmin.py -> build/bdist.linux-x86_64/egg/filer/admin
+copying build/lib/filer/admin/permissionadmin.py -> build/bdist.linux-x86_64/egg/filer/admin
+copying build/lib/filer/admin/permissions.py -> build/bdist.linux-x86_64/egg/filer/admin
+copying build/lib/filer/admin/forms.py -> build/bdist.linux-x86_64/egg/filer/admin
+copying build/lib/filer/admin/__init__.py -> build/bdist.linux-x86_64/egg/filer/admin
+copying build/lib/filer/admin/clipboardadmin.py -> build/bdist.linux-x86_64/egg/filer/admin
+copying build/lib/filer/admin/imageadmin.py -> build/bdist.linux-x86_64/egg/filer/admin
+creating build/bdist.linux-x86_64/egg/filer/admin/patched
+copying build/lib/filer/admin/patched/admin_utils.py -> build/bdist.linux-x86_64/egg/filer/admin/patched
+copying build/lib/filer/admin/patched/__init__.py -> build/bdist.linux-x86_64/egg/filer/admin/patched
+creating build/bdist.linux-x86_64/egg/filer/management
+copying build/lib/filer/management/__init__.py -> build/bdist.linux-x86_64/egg/filer/management
+creating build/bdist.linux-x86_64/egg/filer/management/commands
+copying build/lib/filer/management/commands/import_files.py -> build/bdist.linux-x86_64/egg/filer/management/commands
+copying build/lib/filer/management/commands/__init__.py -> build/bdist.linux-x86_64/egg/filer/management/commands
+creating build/bdist.linux-x86_64/egg/filer/utils
+copying build/lib/filer/utils/recursive_dictionary.py -> build/bdist.linux-x86_64/egg/filer/utils
+copying build/lib/filer/utils/loader.py -> build/bdist.linux-x86_64/egg/filer/utils
+copying build/lib/filer/utils/zip.py -> build/bdist.linux-x86_64/egg/filer/utils
+copying build/lib/filer/utils/compatibility.py -> build/bdist.linux-x86_64/egg/filer/utils
+copying build/lib/filer/utils/filer_easy_thumbnails.py -> build/bdist.linux-x86_64/egg/filer/utils
+copying build/lib/filer/utils/files.py -> build/bdist.linux-x86_64/egg/filer/utils
+copying build/lib/filer/utils/__init__.py -> build/bdist.linux-x86_64/egg/filer/utils
+copying build/lib/filer/utils/generate_filename.py -> build/bdist.linux-x86_64/egg/filer/utils
+copying build/lib/filer/utils/pil_exif.py -> build/bdist.linux-x86_64/egg/filer/utils
+creating build/bdist.linux-x86_64/egg/filer/templates
+creating build/bdist.linux-x86_64/egg/filer/templates/admin
+creating build/bdist.linux-x86_64/egg/filer/templates/admin/filer
+copying build/lib/filer/templates/admin/filer/breadcrumbs.html -> build/bdist.linux-x86_64/egg/filer/templates/admin/filer
+copying build/lib/filer/templates/admin/filer/delete_selected_files_confirmation.html -> build/bdist.linux-x86_64/egg/filer/templates/admin/filer
+creating build/bdist.linux-x86_64/egg/filer/templates/admin/filer/image
+copying build/lib/filer/templates/admin/filer/image/change_form.html -> build/bdist.linux-x86_64/egg/filer/templates/admin/filer/image
+copying build/lib/filer/templates/admin/filer/delete_confirmation.html -> build/bdist.linux-x86_64/egg/filer/templates/admin/filer
+copying build/lib/filer/templates/admin/filer/base_site.html -> build/bdist.linux-x86_64/egg/filer/templates/admin/filer
+copying build/lib/filer/templates/admin/filer/actions.html -> build/bdist.linux-x86_64/egg/filer/templates/admin/filer
+creating build/bdist.linux-x86_64/egg/filer/templates/admin/filer/folder
+copying build/lib/filer/templates/admin/filer/folder/choose_copy_destination.html -> build/bdist.linux-x86_64/egg/filer/templates/admin/filer/folder
+copying build/lib/filer/templates/admin/filer/folder/directory_listing.html -> build/bdist.linux-x86_64/egg/filer/templates/admin/filer/folder
+copying build/lib/filer/templates/admin/filer/folder/choose_rename_format.html -> build/bdist.linux-x86_64/egg/filer/templates/admin/filer/folder
+copying build/lib/filer/templates/admin/filer/folder/directory_table.html -> build/bdist.linux-x86_64/egg/filer/templates/admin/filer/folder
+copying build/lib/filer/templates/admin/filer/folder/choose_images_resize_options.html -> build/bdist.linux-x86_64/egg/filer/templates/admin/filer/folder
+copying build/lib/filer/templates/admin/filer/folder/change_form.html -> build/bdist.linux-x86_64/egg/filer/templates/admin/filer/folder
+copying build/lib/filer/templates/admin/filer/folder/choose_move_destination.html -> build/bdist.linux-x86_64/egg/filer/templates/admin/filer/folder
+copying build/lib/filer/templates/admin/filer/folder/new_folder_form.html -> build/bdist.linux-x86_64/egg/filer/templates/admin/filer/folder
+creating build/bdist.linux-x86_64/egg/filer/templates/admin/filer/widgets
+copying build/lib/filer/templates/admin/filer/widgets/admin_folder.html -> build/bdist.linux-x86_64/egg/filer/templates/admin/filer/widgets
+copying build/lib/filer/templates/admin/filer/widgets/admin_file.html -> build/bdist.linux-x86_64/egg/filer/templates/admin/filer/widgets
+copying build/lib/filer/templates/admin/filer/change_form.html -> build/bdist.linux-x86_64/egg/filer/templates/admin/filer
+creating build/bdist.linux-x86_64/egg/filer/templates/admin/filer/tools
+copying build/lib/filer/templates/admin/filer/tools/search_form.html -> build/bdist.linux-x86_64/egg/filer/templates/admin/filer/tools
+copying build/lib/filer/templates/admin/filer/tools/upload_button_js.html -> build/bdist.linux-x86_64/egg/filer/templates/admin/filer/tools
+creating build/bdist.linux-x86_64/egg/filer/templates/admin/filer/tools/clipboard
+copying build/lib/filer/templates/admin/filer/tools/clipboard/clipboard.html -> build/bdist.linux-x86_64/egg/filer/templates/admin/filer/tools/clipboard
+copying build/lib/filer/templates/admin/filer/tools/clipboard/clipboard_item_rows.html -> build/bdist.linux-x86_64/egg/filer/templates/admin/filer/tools/clipboard
+copying build/lib/filer/templates/admin/filer/dismiss_popup.html -> build/bdist.linux-x86_64/egg/filer/templates/admin/filer
+creating build/bdist.linux-x86_64/egg/filer/templatetags
+copying build/lib/filer/templatetags/filer_image_tags.py -> build/bdist.linux-x86_64/egg/filer/templatetags
+copying build/lib/filer/templatetags/filer_admin_tags.py -> build/bdist.linux-x86_64/egg/filer/templatetags
+copying build/lib/filer/templatetags/__init__.py -> build/bdist.linux-x86_64/egg/filer/templatetags
+copying build/lib/filer/templatetags/filer_tags.py -> build/bdist.linux-x86_64/egg/filer/templatetags
+copying build/lib/filer/templatetags/filermedia.py -> build/bdist.linux-x86_64/egg/filer/templatetags
+copying build/lib/filer/thumbnail_processors.py -> build/bdist.linux-x86_64/egg/filer
+creating build/bdist.linux-x86_64/egg/filer/south_migrations
+copying build/lib/filer/south_migrations/0008_polymorphic__del_field_file__file_type_plugin_name.py -> build/bdist.linux-x86_64/egg/filer/south_migrations
+copying build/lib/filer/south_migrations/0013_remove_null_file_name.py -> build/bdist.linux-x86_64/egg/filer/south_migrations
+copying build/lib/filer/south_migrations/0007_polymorphic__content_type_data.py -> build/bdist.linux-x86_64/egg/filer/south_migrations
+copying build/lib/filer/south_migrations/0010_folderpermissions.py -> build/bdist.linux-x86_64/egg/filer/south_migrations
+copying build/lib/filer/south_migrations/0014_auto__add_field_image_related_url__chg_field_file_name.py -> build/bdist.linux-x86_64/egg/filer/south_migrations
+copying build/lib/filer/south_migrations/0001_initial.py -> build/bdist.linux-x86_64/egg/filer/south_migrations
+copying build/lib/filer/south_migrations/0011_auto__del_field_folderpermission_can_add_children__del_field_folderper.py -> build/bdist.linux-x86_64/egg/filer/south_migrations
+copying build/lib/filer/south_migrations/0002_rename_file_field.py -> build/bdist.linux-x86_64/egg/filer/south_migrations
+copying build/lib/filer/south_migrations/__init__.py -> build/bdist.linux-x86_64/egg/filer/south_migrations
+copying build/lib/filer/south_migrations/0009_auto__add_field_folderpermission_can_edit_new__add_field_folderpermiss.py -> build/bdist.linux-x86_64/egg/filer/south_migrations
+copying build/lib/filer/south_migrations/0005_auto__add_field_file_sha1__chg_field_file_file.py -> build/bdist.linux-x86_64/egg/filer/south_migrations
+copying build/lib/filer/south_migrations/0004_auto__del_field_file__file__add_field_file_file__add_field_file_is_pub.py -> build/bdist.linux-x86_64/egg/filer/south_migrations
+copying build/lib/filer/south_migrations/0003_add_description_field.py -> build/bdist.linux-x86_64/egg/filer/south_migrations
+copying build/lib/filer/south_migrations/0006_polymorphic__add_field_file_polymorphic_ctype.py -> build/bdist.linux-x86_64/egg/filer/south_migrations
+copying build/lib/filer/south_migrations/0012_renaming_folderpermissions.py -> build/bdist.linux-x86_64/egg/filer/south_migrations
+copying build/lib/filer/views.py -> build/bdist.linux-x86_64/egg/filer
+creating build/bdist.linux-x86_64/egg/filer/tests
+copying build/lib/filer/tests/admin.py -> build/bdist.linux-x86_64/egg/filer/tests
+copying build/lib/filer/tests/tools.py -> build/bdist.linux-x86_64/egg/filer/tests
+copying build/lib/filer/tests/utils.py -> build/bdist.linux-x86_64/egg/filer/tests
+creating build/bdist.linux-x86_64/egg/filer/tests/utils
+copying build/lib/filer/tests/utils/__init__.py -> build/bdist.linux-x86_64/egg/filer/tests/utils
+copying build/lib/filer/tests/server_backends.py -> build/bdist.linux-x86_64/egg/filer/tests
+copying build/lib/filer/tests/permissions.py -> build/bdist.linux-x86_64/egg/filer/tests
+copying build/lib/filer/tests/__init__.py -> build/bdist.linux-x86_64/egg/filer/tests
+copying build/lib/filer/tests/models.py -> build/bdist.linux-x86_64/egg/filer/tests
+copying build/lib/filer/tests/helpers.py -> build/bdist.linux-x86_64/egg/filer/tests
+copying build/lib/filer/tests/dump.py -> build/bdist.linux-x86_64/egg/filer/tests
+creating build/bdist.linux-x86_64/egg/filer/test_utils
+creating build/bdist.linux-x86_64/egg/filer/test_utils/custom_image
+creating build/bdist.linux-x86_64/egg/filer/test_utils/custom_image/south_migrations
+copying build/lib/filer/test_utils/custom_image/south_migrations/0001_initial.py -> build/bdist.linux-x86_64/egg/filer/test_utils/custom_image/south_migrations
+copying build/lib/filer/test_utils/custom_image/south_migrations/__init__.py -> build/bdist.linux-x86_64/egg/filer/test_utils/custom_image/south_migrations
+copying build/lib/filer/test_utils/custom_image/__init__.py -> build/bdist.linux-x86_64/egg/filer/test_utils/custom_image
+copying build/lib/filer/test_utils/custom_image/models.py -> build/bdist.linux-x86_64/egg/filer/test_utils/custom_image
+creating build/bdist.linux-x86_64/egg/filer/test_utils/custom_image/migrations
+copying build/lib/filer/test_utils/custom_image/migrations/0001_initial.py -> build/bdist.linux-x86_64/egg/filer/test_utils/custom_image/migrations
+copying build/lib/filer/test_utils/custom_image/migrations/__init__.py -> build/bdist.linux-x86_64/egg/filer/test_utils/custom_image/migrations
+creating build/bdist.linux-x86_64/egg/filer/test_utils/test_app
+copying build/lib/filer/test_utils/test_app/admin.py -> build/bdist.linux-x86_64/egg/filer/test_utils/test_app
+creating build/bdist.linux-x86_64/egg/filer/test_utils/test_app/south_migrations
+copying build/lib/filer/test_utils/test_app/south_migrations/0001_initial.py -> build/bdist.linux-x86_64/egg/filer/test_utils/test_app/south_migrations
+copying build/lib/filer/test_utils/test_app/south_migrations/__init__.py -> build/bdist.linux-x86_64/egg/filer/test_utils/test_app/south_migrations
+copying build/lib/filer/test_utils/test_app/__init__.py -> build/bdist.linux-x86_64/egg/filer/test_utils/test_app
+copying build/lib/filer/test_utils/test_app/models.py -> build/bdist.linux-x86_64/egg/filer/test_utils/test_app
+creating build/bdist.linux-x86_64/egg/filer/test_utils/test_app/migrations
+copying build/lib/filer/test_utils/test_app/migrations/0001_initial.py -> build/bdist.linux-x86_64/egg/filer/test_utils/test_app/migrations
+copying build/lib/filer/test_utils/test_app/migrations/__init__.py -> build/bdist.linux-x86_64/egg/filer/test_utils/test_app/migrations
+copying build/lib/filer/test_utils/urls.py -> build/bdist.linux-x86_64/egg/filer/test_utils
+copying build/lib/filer/test_utils/__init__.py -> build/bdist.linux-x86_64/egg/filer/test_utils
+creating build/bdist.linux-x86_64/egg/filer/models
+copying build/lib/filer/models/mixins.py -> build/bdist.linux-x86_64/egg/filer/models
+copying build/lib/filer/models/tools.py -> build/bdist.linux-x86_64/egg/filer/models
+copying build/lib/filer/models/clipboardmodels.py -> build/bdist.linux-x86_64/egg/filer/models
+copying build/lib/filer/models/imagemodels.py -> build/bdist.linux-x86_64/egg/filer/models
+copying build/lib/filer/models/virtualitems.py -> build/bdist.linux-x86_64/egg/filer/models
+copying build/lib/filer/models/foldermodels.py -> build/bdist.linux-x86_64/egg/filer/models
+copying build/lib/filer/models/abstract.py -> build/bdist.linux-x86_64/egg/filer/models
+copying build/lib/filer/models/__init__.py -> build/bdist.linux-x86_64/egg/filer/models
+copying build/lib/filer/models/filemodels.py -> build/bdist.linux-x86_64/egg/filer/models
+creating build/bdist.linux-x86_64/egg/filer/static
+creating build/bdist.linux-x86_64/egg/filer/static/filer
+creating build/bdist.linux-x86_64/egg/filer/static/filer/img
+copying build/lib/filer/static/filer/img/nav-bg.gif -> build/bdist.linux-x86_64/egg/filer/static/filer/img
+copying build/lib/filer/static/filer/img/loading_animation.gif -> build/bdist.linux-x86_64/egg/filer/static/filer/img
+copying build/lib/filer/static/filer/img/select_item.gif -> build/bdist.linux-x86_64/egg/filer/static/filer/img
+copying build/lib/filer/static/filer/img/select_item-hover.gif -> build/bdist.linux-x86_64/egg/filer/static/filer/img
+copying build/lib/filer/static/filer/img/upload_button.png -> build/bdist.linux-x86_64/egg/filer/static/filer/img
+copying build/lib/filer/static/filer/img/close.gif -> build/bdist.linux-x86_64/egg/filer/static/filer/img
+creating build/bdist.linux-x86_64/egg/filer/static/filer/icons
+copying build/lib/filer/static/filer/icons/image_64x64.png -> build/bdist.linux-x86_64/egg/filer/static/filer/icons
+copying build/lib/filer/static/filer/icons/file_128x128.png -> build/bdist.linux-x86_64/egg/filer/static/filer/icons
+copying build/lib/filer/static/filer/icons/unfiled_folder_64x64.png -> build/bdist.linux-x86_64/egg/filer/static/filer/icons
+copying build/lib/filer/static/filer/icons/video_256x256.png -> build/bdist.linux-x86_64/egg/filer/static/filer/icons
+copying build/lib/filer/static/filer/icons/video_48x48.png -> build/bdist.linux-x86_64/egg/filer/static/filer/icons
+copying build/lib/filer/static/filer/icons/image_128x128.png -> build/bdist.linux-x86_64/egg/filer/static/filer/icons
+copying build/lib/filer/static/filer/icons/video_32x32.png -> build/bdist.linux-x86_64/egg/filer/static/filer/icons
+copying build/lib/filer/static/filer/icons/video_16x16.png -> build/bdist.linux-x86_64/egg/filer/static/filer/icons
+copying build/lib/filer/static/filer/icons/xfile_32x32.png -> build/bdist.linux-x86_64/egg/filer/static/filer/icons
+copying build/lib/filer/static/filer/icons/missingfile_32x32.png -> build/bdist.linux-x86_64/egg/filer/static/filer/icons
+copying build/lib/filer/static/filer/icons/incomplete_metadata_folder_64x64.png -> build/bdist.linux-x86_64/egg/filer/static/filer/icons
+copying build/lib/filer/static/filer/icons/plainfolder_64x64.png -> build/bdist.linux-x86_64/egg/filer/static/filer/icons
+copying build/lib/filer/static/filer/icons/incomplete_metadata_folder_32x32.png -> build/bdist.linux-x86_64/egg/filer/static/filer/icons
+copying build/lib/filer/static/filer/icons/incomplete_metadata_folder_48x48.png -> build/bdist.linux-x86_64/egg/filer/static/filer/icons
+copying build/lib/filer/static/filer/icons/plainfolder_48x48.png -> build/bdist.linux-x86_64/egg/filer/static/filer/icons
+copying build/lib/filer/static/filer/icons/image_256x256.png -> build/bdist.linux-x86_64/egg/filer/static/filer/icons
+copying build/lib/filer/static/filer/icons/file_32x32.png -> build/bdist.linux-x86_64/egg/filer/static/filer/icons
+copying build/lib/filer/static/filer/icons/plainfolder.png -> build/bdist.linux-x86_64/egg/filer/static/filer/icons
+copying build/lib/filer/static/filer/icons/nofile_512x512.png -> build/bdist.linux-x86_64/egg/filer/static/filer/icons
+copying build/lib/filer/static/filer/icons/unfiled_folder_32x32.png -> build/bdist.linux-x86_64/egg/filer/static/filer/icons
+copying build/lib/filer/static/filer/icons/file_16x16.png -> build/bdist.linux-x86_64/egg/filer/static/filer/icons
+copying build/lib/filer/static/filer/icons/image_48x48.png -> build/bdist.linux-x86_64/egg/filer/static/filer/icons
+copying build/lib/filer/static/filer/icons/missingfile_48x48.png -> build/bdist.linux-x86_64/egg/filer/static/filer/icons
+copying build/lib/filer/static/filer/icons/plainfolder_512x512.png -> build/bdist.linux-x86_64/egg/filer/static/filer/icons
+copying build/lib/filer/static/filer/icons/nofile_48x48.png -> build/bdist.linux-x86_64/egg/filer/static/filer/icons
+copying build/lib/filer/static/filer/icons/missingfile_512x512.png -> build/bdist.linux-x86_64/egg/filer/static/filer/icons
+copying build/lib/filer/static/filer/icons/plainfolder_32x32.png -> build/bdist.linux-x86_64/egg/filer/static/filer/icons
+copying build/lib/filer/static/filer/icons/file_48x48.png -> build/bdist.linux-x86_64/egg/filer/static/filer/icons
+copying build/lib/filer/static/filer/icons/nofile_32x32.png -> build/bdist.linux-x86_64/egg/filer/static/filer/icons
+copying build/lib/filer/static/filer/icons/file_64x64.png -> build/bdist.linux-x86_64/egg/filer/static/filer/icons
+copying build/lib/filer/static/filer/icons/image_32x32.png -> build/bdist.linux-x86_64/egg/filer/static/filer/icons
+copying build/lib/filer/static/filer/icons/unfiled_folder_48x48.png -> build/bdist.linux-x86_64/egg/filer/static/filer/icons
+copying build/lib/filer/static/filer/icons/plainfolder_128x128.png -> build/bdist.linux-x86_64/egg/filer/static/filer/icons
+creating build/bdist.linux-x86_64/egg/filer/static/filer/css
+copying build/lib/filer/static/filer/css/admin_style.css -> build/bdist.linux-x86_64/egg/filer/static/filer/css
+creating build/bdist.linux-x86_64/egg/filer/static/filer/js
+copying build/lib/filer/static/filer/js/jquery.cookie.js -> build/bdist.linux-x86_64/egg/filer/static/filer/js
+copying build/lib/filer/static/filer/js/popup_handling.js -> build/bdist.linux-x86_64/egg/filer/static/filer/js
+copying build/lib/filer/static/filer/js/widget.js -> build/bdist.linux-x86_64/egg/filer/static/filer/js
+copying build/lib/filer/static/filer/js/focal_point.js -> build/bdist.linux-x86_64/egg/filer/static/filer/js
+copying build/lib/filer/static/filer/js/fileuploader.js -> build/bdist.linux-x86_64/egg/filer/static/filer/js
+copying build/lib/filer/static/filer/js/raphael.js -> build/bdist.linux-x86_64/egg/filer/static/filer/js
+copying build/lib/filer/static/filer/js/retina.js -> build/bdist.linux-x86_64/egg/filer/static/filer/js
+copying build/lib/filer/__init__.py -> build/bdist.linux-x86_64/egg/filer
+creating build/bdist.linux-x86_64/egg/filer/fields
+copying build/lib/filer/fields/folder.py -> build/bdist.linux-x86_64/egg/filer/fields
+copying build/lib/filer/fields/file.py -> build/bdist.linux-x86_64/egg/filer/fields
+copying build/lib/filer/fields/__init__.py -> build/bdist.linux-x86_64/egg/filer/fields
+copying build/lib/filer/fields/multistorage_file.py -> build/bdist.linux-x86_64/egg/filer/fields
+copying build/lib/filer/fields/image.py -> build/bdist.linux-x86_64/egg/filer/fields
+copying build/lib/filer/settings.py -> build/bdist.linux-x86_64/egg/filer
+creating build/bdist.linux-x86_64/egg/filer/migrations
+copying build/lib/filer/migrations/0002_auto_20150606_2003.py -> build/bdist.linux-x86_64/egg/filer/migrations
+copying build/lib/filer/migrations/0001_initial.py -> build/bdist.linux-x86_64/egg/filer/migrations
+copying build/lib/filer/migrations/__init__.py -> build/bdist.linux-x86_64/egg/filer/migrations
+creating build/bdist.linux-x86_64/egg/filer/server
+copying build/lib/filer/server/main_server_urls.py -> build/bdist.linux-x86_64/egg/filer/server
+copying build/lib/filer/server/thumbnails_server_urls.py -> build/bdist.linux-x86_64/egg/filer/server
+copying build/lib/filer/server/views.py -> build/bdist.linux-x86_64/egg/filer/server
+creating build/bdist.linux-x86_64/egg/filer/server/backends
+copying build/lib/filer/server/backends/default.py -> build/bdist.linux-x86_64/egg/filer/server/backends
+copying build/lib/filer/server/backends/xsendfile.py -> build/bdist.linux-x86_64/egg/filer/server/backends
+copying build/lib/filer/server/backends/__init__.py -> build/bdist.linux-x86_64/egg/filer/server/backends
+copying build/lib/filer/server/backends/nginx.py -> build/bdist.linux-x86_64/egg/filer/server/backends
+copying build/lib/filer/server/backends/base.py -> build/bdist.linux-x86_64/egg/filer/server/backends
+copying build/lib/filer/server/urls.py -> build/bdist.linux-x86_64/egg/filer/server
+copying build/lib/filer/server/__init__.py -> build/bdist.linux-x86_64/egg/filer/server
+creating build/bdist.linux-x86_64/egg/filer/locale
+creating build/bdist.linux-x86_64/egg/filer/locale/de
+creating build/bdist.linux-x86_64/egg/filer/locale/de/LC_MESSAGES
+copying build/lib/filer/locale/de/LC_MESSAGES/django.mo -> build/bdist.linux-x86_64/egg/filer/locale/de/LC_MESSAGES
+copying build/lib/filer/locale/de/LC_MESSAGES/django.po -> build/bdist.linux-x86_64/egg/filer/locale/de/LC_MESSAGES
+creating build/bdist.linux-x86_64/egg/filer/locale/it
+creating build/bdist.linux-x86_64/egg/filer/locale/it/LC_MESSAGES
+copying build/lib/filer/locale/it/LC_MESSAGES/django.mo -> build/bdist.linux-x86_64/egg/filer/locale/it/LC_MESSAGES
+copying build/lib/filer/locale/it/LC_MESSAGES/django.po -> build/bdist.linux-x86_64/egg/filer/locale/it/LC_MESSAGES
+creating build/bdist.linux-x86_64/egg/filer/locale/nl_NL
+creating build/bdist.linux-x86_64/egg/filer/locale/nl_NL/LC_MESSAGES
+copying build/lib/filer/locale/nl_NL/LC_MESSAGES/django.mo -> build/bdist.linux-x86_64/egg/filer/locale/nl_NL/LC_MESSAGES
+copying build/lib/filer/locale/nl_NL/LC_MESSAGES/django.po -> build/bdist.linux-x86_64/egg/filer/locale/nl_NL/LC_MESSAGES
+creating build/bdist.linux-x86_64/egg/filer/locale/fi
+creating build/bdist.linux-x86_64/egg/filer/locale/fi/LC_MESSAGES
+copying build/lib/filer/locale/fi/LC_MESSAGES/django.mo -> build/bdist.linux-x86_64/egg/filer/locale/fi/LC_MESSAGES
+copying build/lib/filer/locale/fi/LC_MESSAGES/django.po -> build/bdist.linux-x86_64/egg/filer/locale/fi/LC_MESSAGES
+creating build/bdist.linux-x86_64/egg/filer/locale/es
+creating build/bdist.linux-x86_64/egg/filer/locale/es/LC_MESSAGES
+copying build/lib/filer/locale/es/LC_MESSAGES/django.mo -> build/bdist.linux-x86_64/egg/filer/locale/es/LC_MESSAGES
+copying build/lib/filer/locale/es/LC_MESSAGES/django.po -> build/bdist.linux-x86_64/egg/filer/locale/es/LC_MESSAGES
+creating build/bdist.linux-x86_64/egg/filer/locale/en
+creating build/bdist.linux-x86_64/egg/filer/locale/en/LC_MESSAGES
+copying build/lib/filer/locale/en/LC_MESSAGES/django.mo -> build/bdist.linux-x86_64/egg/filer/locale/en/LC_MESSAGES
+copying build/lib/filer/locale/en/LC_MESSAGES/django.po -> build/bdist.linux-x86_64/egg/filer/locale/en/LC_MESSAGES
+creating build/bdist.linux-x86_64/egg/filer/locale/hr
+creating build/bdist.linux-x86_64/egg/filer/locale/hr/LC_MESSAGES
+copying build/lib/filer/locale/hr/LC_MESSAGES/django.mo -> build/bdist.linux-x86_64/egg/filer/locale/hr/LC_MESSAGES
+copying build/lib/filer/locale/hr/LC_MESSAGES/django.po -> build/bdist.linux-x86_64/egg/filer/locale/hr/LC_MESSAGES
+creating build/bdist.linux-x86_64/egg/filer/locale/fr
+creating build/bdist.linux-x86_64/egg/filer/locale/fr/LC_MESSAGES
+copying build/lib/filer/locale/fr/LC_MESSAGES/django.mo -> build/bdist.linux-x86_64/egg/filer/locale/fr/LC_MESSAGES
+copying build/lib/filer/locale/fr/LC_MESSAGES/django.po -> build/bdist.linux-x86_64/egg/filer/locale/fr/LC_MESSAGES
+creating build/bdist.linux-x86_64/egg/filer/locale/sk
+creating build/bdist.linux-x86_64/egg/filer/locale/sk/LC_MESSAGES
+copying build/lib/filer/locale/sk/LC_MESSAGES/django.mo -> build/bdist.linux-x86_64/egg/filer/locale/sk/LC_MESSAGES
+copying build/lib/filer/locale/sk/LC_MESSAGES/django.po -> build/bdist.linux-x86_64/egg/filer/locale/sk/LC_MESSAGES
+creating build/bdist.linux-x86_64/egg/filer/locale/eu
+creating build/bdist.linux-x86_64/egg/filer/locale/eu/LC_MESSAGES
+copying build/lib/filer/locale/eu/LC_MESSAGES/django.mo -> build/bdist.linux-x86_64/egg/filer/locale/eu/LC_MESSAGES
+copying build/lib/filer/locale/eu/LC_MESSAGES/django.po -> build/bdist.linux-x86_64/egg/filer/locale/eu/LC_MESSAGES
+creating build/bdist.linux-x86_64/egg/filer/locale/ca
+creating build/bdist.linux-x86_64/egg/filer/locale/ca/LC_MESSAGES
+copying build/lib/filer/locale/ca/LC_MESSAGES/django.mo -> build/bdist.linux-x86_64/egg/filer/locale/ca/LC_MESSAGES
+copying build/lib/filer/locale/ca/LC_MESSAGES/django.po -> build/bdist.linux-x86_64/egg/filer/locale/ca/LC_MESSAGES
+creating build/bdist.linux-x86_64/egg/filer/locale/nn
+creating build/bdist.linux-x86_64/egg/filer/locale/nn/LC_MESSAGES
+copying build/lib/filer/locale/nn/LC_MESSAGES/django.mo -> build/bdist.linux-x86_64/egg/filer/locale/nn/LC_MESSAGES
+copying build/lib/filer/locale/nn/LC_MESSAGES/django.po -> build/bdist.linux-x86_64/egg/filer/locale/nn/LC_MESSAGES
+creating build/bdist.linux-x86_64/egg/filer/locale/lt
+creating build/bdist.linux-x86_64/egg/filer/locale/lt/LC_MESSAGES
+copying build/lib/filer/locale/lt/LC_MESSAGES/django.mo -> build/bdist.linux-x86_64/egg/filer/locale/lt/LC_MESSAGES
+copying build/lib/filer/locale/lt/LC_MESSAGES/django.po -> build/bdist.linux-x86_64/egg/filer/locale/lt/LC_MESSAGES
+creating build/bdist.linux-x86_64/egg/filer/locale/et
+creating build/bdist.linux-x86_64/egg/filer/locale/et/LC_MESSAGES
+copying build/lib/filer/locale/et/LC_MESSAGES/django.mo -> build/bdist.linux-x86_64/egg/filer/locale/et/LC_MESSAGES
+copying build/lib/filer/locale/et/LC_MESSAGES/django.po -> build/bdist.linux-x86_64/egg/filer/locale/et/LC_MESSAGES
+creating build/bdist.linux-x86_64/egg/filer/locale/he
+creating build/bdist.linux-x86_64/egg/filer/locale/he/LC_MESSAGES
+copying build/lib/filer/locale/he/LC_MESSAGES/django.mo -> build/bdist.linux-x86_64/egg/filer/locale/he/LC_MESSAGES
+copying build/lib/filer/locale/he/LC_MESSAGES/django.po -> build/bdist.linux-x86_64/egg/filer/locale/he/LC_MESSAGES
+creating build/bdist.linux-x86_64/egg/filer/locale/tr
+creating build/bdist.linux-x86_64/egg/filer/locale/tr/LC_MESSAGES
+copying build/lib/filer/locale/tr/LC_MESSAGES/django.mo -> build/bdist.linux-x86_64/egg/filer/locale/tr/LC_MESSAGES
+copying build/lib/filer/locale/tr/LC_MESSAGES/django.po -> build/bdist.linux-x86_64/egg/filer/locale/tr/LC_MESSAGES
+creating build/bdist.linux-x86_64/egg/filer/locale/nb
+creating build/bdist.linux-x86_64/egg/filer/locale/nb/LC_MESSAGES
+copying build/lib/filer/locale/nb/LC_MESSAGES/django.mo -> build/bdist.linux-x86_64/egg/filer/locale/nb/LC_MESSAGES
+copying build/lib/filer/locale/nb/LC_MESSAGES/django.po -> build/bdist.linux-x86_64/egg/filer/locale/nb/LC_MESSAGES
+creating build/bdist.linux-x86_64/egg/filer/locale/pt_BR
+creating build/bdist.linux-x86_64/egg/filer/locale/pt_BR/LC_MESSAGES
+copying build/lib/filer/locale/pt_BR/LC_MESSAGES/django.mo -> build/bdist.linux-x86_64/egg/filer/locale/pt_BR/LC_MESSAGES
+copying build/lib/filer/locale/pt_BR/LC_MESSAGES/django.po -> build/bdist.linux-x86_64/egg/filer/locale/pt_BR/LC_MESSAGES
+copying build/lib/filer/locale/README -> build/bdist.linux-x86_64/egg/filer/locale
+creating build/bdist.linux-x86_64/egg/filer/locale/pl
+creating build/bdist.linux-x86_64/egg/filer/locale/pl/LC_MESSAGES
+copying build/lib/filer/locale/pl/LC_MESSAGES/django.mo -> build/bdist.linux-x86_64/egg/filer/locale/pl/LC_MESSAGES
+copying build/lib/filer/locale/pl/LC_MESSAGES/django.po -> build/bdist.linux-x86_64/egg/filer/locale/pl/LC_MESSAGES
+creating build/bdist.linux-x86_64/egg/filer/locale/ru
+creating build/bdist.linux-x86_64/egg/filer/locale/ru/LC_MESSAGES
+copying build/lib/filer/locale/ru/LC_MESSAGES/django.mo -> build/bdist.linux-x86_64/egg/filer/locale/ru/LC_MESSAGES
+copying build/lib/filer/locale/ru/LC_MESSAGES/django.po -> build/bdist.linux-x86_64/egg/filer/locale/ru/LC_MESSAGES
+byte-compiling build/bdist.linux-x86_64/egg/filer/apps.py to apps.pyc
+byte-compiling build/bdist.linux-x86_64/egg/filer/storage.py to storage.pyc
+byte-compiling build/bdist.linux-x86_64/egg/filer/admin/folderadmin.py to folderadmin.pyc
+byte-compiling build/bdist.linux-x86_64/egg/filer/admin/tools.py to tools.pyc
+byte-compiling build/bdist.linux-x86_64/egg/filer/admin/fileadmin.py to fileadmin.pyc
+byte-compiling build/bdist.linux-x86_64/egg/filer/admin/permissionadmin.py to permissionadmin.pyc
+byte-compiling build/bdist.linux-x86_64/egg/filer/admin/permissions.py to permissions.pyc
+byte-compiling build/bdist.linux-x86_64/egg/filer/admin/forms.py to forms.pyc
+byte-compiling build/bdist.linux-x86_64/egg/filer/admin/__init__.py to __init__.pyc
+byte-compiling build/bdist.linux-x86_64/egg/filer/admin/clipboardadmin.py to clipboardadmin.pyc
+byte-compiling build/bdist.linux-x86_64/egg/filer/admin/imageadmin.py to imageadmin.pyc
+byte-compiling build/bdist.linux-x86_64/egg/filer/admin/patched/admin_utils.py to admin_utils.pyc
+byte-compiling build/bdist.linux-x86_64/egg/filer/admin/patched/__init__.py to __init__.pyc
+byte-compiling build/bdist.linux-x86_64/egg/filer/management/__init__.py to __init__.pyc
+byte-compiling build/bdist.linux-x86_64/egg/filer/management/commands/import_files.py to import_files.pyc
+byte-compiling build/bdist.linux-x86_64/egg/filer/management/commands/__init__.py to __init__.pyc
+byte-compiling build/bdist.linux-x86_64/egg/filer/utils/recursive_dictionary.py to recursive_dictionary.pyc
+byte-compiling build/bdist.linux-x86_64/egg/filer/utils/loader.py to loader.pyc
+byte-compiling build/bdist.linux-x86_64/egg/filer/utils/zip.py to zip.pyc
+byte-compiling build/bdist.linux-x86_64/egg/filer/utils/compatibility.py to compatibility.pyc
+byte-compiling build/bdist.linux-x86_64/egg/filer/utils/filer_easy_thumbnails.py to filer_easy_thumbnails.pyc
+byte-compiling build/bdist.linux-x86_64/egg/filer/utils/files.py to files.pyc
+byte-compiling build/bdist.linux-x86_64/egg/filer/utils/__init__.py to __init__.pyc
+byte-compiling build/bdist.linux-x86_64/egg/filer/utils/generate_filename.py to generate_filename.pyc
+byte-compiling build/bdist.linux-x86_64/egg/filer/utils/pil_exif.py to pil_exif.pyc
+byte-compiling build/bdist.linux-x86_64/egg/filer/templatetags/filer_image_tags.py to filer_image_tags.pyc
+byte-compiling build/bdist.linux-x86_64/egg/filer/templatetags/filer_admin_tags.py to filer_admin_tags.pyc
+byte-compiling build/bdist.linux-x86_64/egg/filer/templatetags/__init__.py to __init__.pyc
+byte-compiling build/bdist.linux-x86_64/egg/filer/templatetags/filer_tags.py to filer_tags.pyc
+byte-compiling build/bdist.linux-x86_64/egg/filer/templatetags/filermedia.py to filermedia.pyc
+byte-compiling build/bdist.linux-x86_64/egg/filer/thumbnail_processors.py to thumbnail_processors.pyc
+byte-compiling build/bdist.linux-x86_64/egg/filer/south_migrations/0008_polymorphic__del_field_file__file_type_plugin_name.py to 0008_polymorphic__del_field_file__file_type_plugin_name.pyc
+byte-compiling build/bdist.linux-x86_64/egg/filer/south_migrations/0013_remove_null_file_name.py to 0013_remove_null_file_name.pyc
+byte-compiling build/bdist.linux-x86_64/egg/filer/south_migrations/0007_polymorphic__content_type_data.py to 0007_polymorphic__content_type_data.pyc
+byte-compiling build/bdist.linux-x86_64/egg/filer/south_migrations/0010_folderpermissions.py to 0010_folderpermissions.pyc
+byte-compiling build/bdist.linux-x86_64/egg/filer/south_migrations/0014_auto__add_field_image_related_url__chg_field_file_name.py to 0014_auto__add_field_image_related_url__chg_field_file_name.pyc
+byte-compiling build/bdist.linux-x86_64/egg/filer/south_migrations/0001_initial.py to 0001_initial.pyc
+byte-compiling build/bdist.linux-x86_64/egg/filer/south_migrations/0011_auto__del_field_folderpermission_can_add_children__del_field_folderper.py to 0011_auto__del_field_folderpermission_can_add_children__del_field_folderper.pyc
+byte-compiling build/bdist.linux-x86_64/egg/filer/south_migrations/0002_rename_file_field.py to 0002_rename_file_field.pyc
+byte-compiling build/bdist.linux-x86_64/egg/filer/south_migrations/__init__.py to __init__.pyc
+byte-compiling build/bdist.linux-x86_64/egg/filer/south_migrations/0009_auto__add_field_folderpermission_can_edit_new__add_field_folderpermiss.py to 0009_auto__add_field_folderpermission_can_edit_new__add_field_folderpermiss.pyc
+byte-compiling build/bdist.linux-x86_64/egg/filer/south_migrations/0005_auto__add_field_file_sha1__chg_field_file_file.py to 0005_auto__add_field_file_sha1__chg_field_file_file.pyc
+byte-compiling build/bdist.linux-x86_64/egg/filer/south_migrations/0004_auto__del_field_file__file__add_field_file_file__add_field_file_is_pub.py to 0004_auto__del_field_file__file__add_field_file_file__add_field_file_is_pub.pyc
+byte-compiling build/bdist.linux-x86_64/egg/filer/south_migrations/0003_add_description_field.py to 0003_add_description_field.pyc
+byte-compiling build/bdist.linux-x86_64/egg/filer/south_migrations/0006_polymorphic__add_field_file_polymorphic_ctype.py to 0006_polymorphic__add_field_file_polymorphic_ctype.pyc
+byte-compiling build/bdist.linux-x86_64/egg/filer/south_migrations/0012_renaming_folderpermissions.py to 0012_renaming_folderpermissions.pyc
+byte-compiling build/bdist.linux-x86_64/egg/filer/views.py to views.pyc
+byte-compiling build/bdist.linux-x86_64/egg/filer/tests/admin.py to admin.pyc
+byte-compiling build/bdist.linux-x86_64/egg/filer/tests/tools.py to tools.pyc
+byte-compiling build/bdist.linux-x86_64/egg/filer/tests/utils.py to utils.pyc
+byte-compiling build/bdist.linux-x86_64/egg/filer/tests/utils/__init__.py to __init__.pyc
+byte-compiling build/bdist.linux-x86_64/egg/filer/tests/server_backends.py to server_backends.pyc
+byte-compiling build/bdist.linux-x86_64/egg/filer/tests/permissions.py to permissions.pyc
+byte-compiling build/bdist.linux-x86_64/egg/filer/tests/__init__.py to __init__.pyc
+byte-compiling build/bdist.linux-x86_64/egg/filer/tests/models.py to models.pyc
+byte-compiling build/bdist.linux-x86_64/egg/filer/tests/helpers.py to helpers.pyc
+byte-compiling build/bdist.linux-x86_64/egg/filer/tests/dump.py to dump.pyc
+byte-compiling build/bdist.linux-x86_64/egg/filer/test_utils/custom_image/south_migrations/0001_initial.py to 0001_initial.pyc
+byte-compiling build/bdist.linux-x86_64/egg/filer/test_utils/custom_image/south_migrations/__init__.py to __init__.pyc
+byte-compiling build/bdist.linux-x86_64/egg/filer/test_utils/custom_image/__init__.py to __init__.pyc
+byte-compiling build/bdist.linux-x86_64/egg/filer/test_utils/custom_image/models.py to models.pyc
+byte-compiling build/bdist.linux-x86_64/egg/filer/test_utils/custom_image/migrations/0001_initial.py to 0001_initial.pyc
+byte-compiling build/bdist.linux-x86_64/egg/filer/test_utils/custom_image/migrations/__init__.py to __init__.pyc
+byte-compiling build/bdist.linux-x86_64/egg/filer/test_utils/test_app/admin.py to admin.pyc
+byte-compiling build/bdist.linux-x86_64/egg/filer/test_utils/test_app/south_migrations/0001_initial.py to 0001_initial.pyc
+byte-compiling build/bdist.linux-x86_64/egg/filer/test_utils/test_app/south_migrations/__init__.py to __init__.pyc
+byte-compiling build/bdist.linux-x86_64/egg/filer/test_utils/test_app/__init__.py to __init__.pyc
+byte-compiling build/bdist.linux-x86_64/egg/filer/test_utils/test_app/models.py to models.pyc
+byte-compiling build/bdist.linux-x86_64/egg/filer/test_utils/test_app/migrations/0001_initial.py to 0001_initial.pyc
+byte-compiling build/bdist.linux-x86_64/egg/filer/test_utils/test_app/migrations/__init__.py to __init__.pyc
+byte-compiling build/bdist.linux-x86_64/egg/filer/test_utils/urls.py to urls.pyc
+byte-compiling build/bdist.linux-x86_64/egg/filer/test_utils/__init__.py to __init__.pyc
+byte-compiling build/bdist.linux-x86_64/egg/filer/models/mixins.py to mixins.pyc
+byte-compiling build/bdist.linux-x86_64/egg/filer/models/tools.py to tools.pyc
+byte-compiling build/bdist.linux-x86_64/egg/filer/models/clipboardmodels.py to clipboardmodels.pyc
+byte-compiling build/bdist.linux-x86_64/egg/filer/models/imagemodels.py to imagemodels.pyc
+byte-compiling build/bdist.linux-x86_64/egg/filer/models/virtualitems.py to virtualitems.pyc
+byte-compiling build/bdist.linux-x86_64/egg/filer/models/foldermodels.py to foldermodels.pyc
+byte-compiling build/bdist.linux-x86_64/egg/filer/models/abstract.py to abstract.pyc
+byte-compiling build/bdist.linux-x86_64/egg/filer/models/__init__.py to __init__.pyc
+byte-compiling build/bdist.linux-x86_64/egg/filer/models/filemodels.py to filemodels.pyc
+byte-compiling build/bdist.linux-x86_64/egg/filer/__init__.py to __init__.pyc
+byte-compiling build/bdist.linux-x86_64/egg/filer/fields/folder.py to folder.pyc
+byte-compiling build/bdist.linux-x86_64/egg/filer/fields/file.py to file.pyc
+byte-compiling build/bdist.linux-x86_64/egg/filer/fields/__init__.py to __init__.pyc
+byte-compiling build/bdist.linux-x86_64/egg/filer/fields/multistorage_file.py to multistorage_file.pyc
+byte-compiling build/bdist.linux-x86_64/egg/filer/fields/image.py to image.pyc
+byte-compiling build/bdist.linux-x86_64/egg/filer/settings.py to settings.pyc
+byte-compiling build/bdist.linux-x86_64/egg/filer/migrations/0002_auto_20150606_2003.py to 0002_auto_20150606_2003.pyc
+byte-compiling build/bdist.linux-x86_64/egg/filer/migrations/0001_initial.py to 0001_initial.pyc
+byte-compiling build/bdist.linux-x86_64/egg/filer/migrations/__init__.py to __init__.pyc
+byte-compiling build/bdist.linux-x86_64/egg/filer/server/main_server_urls.py to main_server_urls.pyc
+byte-compiling build/bdist.linux-x86_64/egg/filer/server/thumbnails_server_urls.py to thumbnails_server_urls.pyc
+byte-compiling build/bdist.linux-x86_64/egg/filer/server/views.py to views.pyc
+byte-compiling build/bdist.linux-x86_64/egg/filer/server/backends/default.py to default.pyc
+byte-compiling build/bdist.linux-x86_64/egg/filer/server/backends/xsendfile.py to xsendfile.pyc
+byte-compiling build/bdist.linux-x86_64/egg/filer/server/backends/__init__.py to __init__.pyc
+byte-compiling build/bdist.linux-x86_64/egg/filer/server/backends/nginx.py to nginx.pyc
+byte-compiling build/bdist.linux-x86_64/egg/filer/server/backends/base.py to base.pyc
+byte-compiling build/bdist.linux-x86_64/egg/filer/server/urls.py to urls.pyc
+byte-compiling build/bdist.linux-x86_64/egg/filer/server/__init__.py to __init__.pyc
+creating build/bdist.linux-x86_64/egg/EGG-INFO
+copying django_filer.egg-info/PKG-INFO -> build/bdist.linux-x86_64/egg/EGG-INFO
+copying django_filer.egg-info/SOURCES.txt -> build/bdist.linux-x86_64/egg/EGG-INFO
+copying django_filer.egg-info/dependency_links.txt -> build/bdist.linux-x86_64/egg/EGG-INFO
+copying django_filer.egg-info/not-zip-safe -> build/bdist.linux-x86_64/egg/EGG-INFO
+copying django_filer.egg-info/requires.txt -> build/bdist.linux-x86_64/egg/EGG-INFO
+copying django_filer.egg-info/top_level.txt -> build/bdist.linux-x86_64/egg/EGG-INFO
+creating dist
+creating 'dist/django_filer-0.9.11-py2.7.egg' and adding 'build/bdist.linux-x86_64/egg' to it
+removing 'build/bdist.linux-x86_64/egg' (and everything under it)
+Processing django_filer-0.9.11-py2.7.egg
+creating /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/django_filer-0.9.11-py2.7.egg
+Extracting django_filer-0.9.11-py2.7.egg to /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages
+Adding django-filer 0.9.11 to easy-install.pth file
+
+Installed /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/django_filer-0.9.11-py2.7.egg
+Processing dependencies for django-filer==0.9.11
+Searching for Unidecode==0.4.17
+Best match: Unidecode 0.4.17
+Adding Unidecode 0.4.17 to easy-install.pth file
+
+Using /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages
+Searching for django-polymorphic==0.7.1
+Best match: django-polymorphic 0.7.1
+Adding django-polymorphic 0.7.1 to easy-install.pth file
+
+Using /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages
+Searching for django-mptt==0.7.4
+Best match: django-mptt 0.7.4
+Processing django_mptt-0.7.4-py2.7.egg
+Adding django-mptt 0.7.4 to easy-install.pth file
+
+Using /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/django_mptt-0.7.4-py2.7.egg
+Searching for easy-thumbnails==2.2
+Best match: easy-thumbnails 2.2
+Adding easy-thumbnails 2.2 to easy-install.pth file
+
+Using /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages
+Searching for Django==1.8.2
+Best match: Django 1.8.2
+Adding Django 1.8.2 to easy-install.pth file
+
+Using /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages
+Searching for setuptools==15.2
+Best match: setuptools 15.2
+Adding setuptools 15.2 to easy-install.pth file
+Installing easy_install-3.4 script to /home/ubuntu/miniconda/envs/_build/bin
+Installing easy_install script to /home/ubuntu/miniconda/envs/_build/bin
+
+Using /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages
+Finished processing dependencies for django-filer==0.9.11
+
+The following packages will be downloaded:
+
+    package                    |            build
+    ---------------------------|-----------------
+    django_polymorphic-0.7.1   |             py_0          31 KB
+
+The following NEW packages will be INSTALLED:
+
+    django:             1.8.2-py27_0 
+    django-mptt:        0.7.4-py27_0 
+    django_polymorphic: 0.7.1-py_0   
+    easy-thumbnails:    2.2-py27_0   
+    freetype:           2.5.2-2      
+    jpeg:               8d-0         
+    libpng:             1.6.17-0     
+    libtiff:            4.0.2-1      
+    openssl:            1.0.1k-1     
+    pillow:             2.8.2-py27_0 
+    pip:                7.0.3-py27_0 
+    python:             2.7.10-0     
+    readline:           6.2-2        
+    setuptools:         18.0.1-py27_0
+    sqlite:             3.8.4.1-1    
+    system:             5.8-2        
+    tk:                 8.5.18-0     
+    unidecode:          0.4.17-py27_0
+    zlib:               1.2.8-0      
+
+Fetching packages ...
+django_polymor   0% |                              | ETA:  --:--:--   0.00  B/sdjango_polymor  50% |###############                | ETA:  0:00:00  34.94 MB/sdjango_polymor 100% |###############################| ETA:  0:00:00  47.45 MB/sdjango_polymor 100% |###############################| Time: 0:00:00  34.49 MB/s
+Extracting packages ...
+[                    ]|                                                  |   0%[django_polymorphic  ]|                                                  |   0%[      COMPLETE      ]|##################################################| 100%
+Linking packages ...
+[      COMPLETE      ]|                                                  |   0%[jpeg                ]|                                                  |   0%[jpeg                ]|                                                  |   0%[libpng              ]|##                                                |   5%[openssl             ]|#####                                             |  10%[readline            ]|#######                                           |  15%[sqlite              ]|##########                                        |  21%[system              ]|#############                                     |  26%[tk                  ]|###############                                   |  31%[zlib                ]|##################                                |  36%[freetype            ]|#####################                             |  42%[libtiff             ]|#######################                           |  47%[django              ]|##########################                        |  52%[django-mptt         ]|############################                      |  57%[pillow              ]|###############################                   |  63%[easy-thumbnails     ]|##################################                |  68%[python              ]|####################################              |  73%[setuptools          ]|#######################################           |  78%[unidecode           ]|##########################################        |  84%[django_polymorphic  ]|############################################      |  89%[pip                 ]|###############################################   |  94%[      COMPLETE      ]|##################################################| 100%
+Removing old work directory
+Source cache directory is: /home/ubuntu/miniconda/conda-bld/src_cache
+Found source in cache: django-filer-0.9.11.tar.gz
+Extracting download
+Package: django-filer-0.9.11-py27_0
+source tree in: /home/ubuntu/miniconda/conda-bld/work/django-filer-0.9.11
+found egg dir: /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/django_filer-0.9.11-py2.7.egg
+compiling .pyc files...
+number of files: 329
+Fixing permissions
+Detected hard-coded path in text file bin/easy_install-3.4
+Detected hard-coded path in text file lib/python2.7/site-packages/setuptools.pth
+Fixing permissions
+BUILD END: django-filer-0.9.11-py27_0
+TEST START: django-filer-0.9.11-py27_0
+Fetching package metadata: ......
+
+WARNING: conda-build appears to be out of date. You have version 1.13.0 but the
+latest version is 1.14.1. Run
+
+conda update -n root conda-build
+
+to get the latest version.
+
+Error: No packages found in current linux-64 channels matching: south

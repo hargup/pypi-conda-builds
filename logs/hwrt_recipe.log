@@ -223,18 +223,171 @@ Warning, the following versions were found for hwrt
 Using 0.1.221
 Use --version to specify a different version.
 Using url https://pypi.python.org/packages/source/h/hwrt/hwrt-0.1.221.tar.gz (2.2 MB) for hwrt.
-Downloading hwrt (use --no-download to skip this step)
+Downloading hwrt
+Using cached download
 Unpacking hwrt...
 done
-working in /tmp/tmpZU0gBkconda_skeleton_hwrt-0.1.221.tar.gz
+working in /tmp/tmpkytj57conda_skeleton_hwrt-0.1.221.tar.gz
 Fetching package metadata: ......
+
+WARNING: conda-build appears to be out of date. You have version 1.13.0 but the
+latest version is 1.14.1. Run
+
+conda update -n root conda-build
+
+to get the latest version.
+
 Solving package specifications: .patching file core.py
 Hunk #1 succeeded at 168 with fuzz 2 (offset 2 lines).
-Traceback (most recent call last):
-  File "setup.py", line 1, in <module>
-    from setuptools import find_packages
-ImportError: No module named setuptools
 
-Applying patch: '/tmp/tmpZU0gBkconda_skeleton_hwrt-0.1.221.tar.gz/pypi-distutils.patch'
-$PYTHONPATH = /tmp/tmpZU0gBkconda_skeleton_hwrt-0.1.221.tar.gz/hwrt-0.1.221
+WARNING: conda-build appears to be out of date. You have version 1.13.0 but the
+latest version is 1.14.1. Run
+
+conda update -n root conda-build
+
+to get the latest version.
+
+
+Applying patch: '/tmp/tmpkytj57conda_skeleton_hwrt-0.1.221.tar.gz/pypi-distutils.patch'
+flask-bootstrap not found, trying Flask-Bootstrap
+Warning, the following versions were found for Flask-Bootstrap
+3.3.5.2
+3.3.5.1
+3.3.4.1
+3.3.2.1
+3.3.0.1
+3.2.0.2
+3.2.0.1
+3.1.1.2
+3.1.1.1
+3.1.0.1
+3.0.3.1
+3.0.2.3
+3.0.2.2
+3.0.2.1
+3.0.0.1
+3.0.0.1.dev2
+3.0.0.1.dev1
+2.3.2.2
+2.3.2.1
+2.3.1-1
+2.3.0-2
+2.3.0-1
+2.2.2-1
+2.2.1-1
+2.1.1-1
+2.1.0-1
+2.0.4-3
+2.0.4-2
+Using 3.3.5.2
+Use --version to specify a different version.
+Using url https://pypi.python.org/packages/source/F/Flask-Bootstrap/Flask-Bootstrap-3.3.5.2.tar.gz (438 KB) for Flask-Bootstrap.
+Downloading Flask-Bootstrap
+Using cached download
+Unpacking Flask-Bootstrap...
+done
+working in /tmp/tmpxiDA6econda_skeleton_Flask-Bootstrap-3.3.5.2.tar.gz
+Solving package specifications: .patching file core.py
+Hunk #1 succeeded at 168 with fuzz 2 (offset 2 lines).
+
+WARNING: conda-build appears to be out of date. You have version 1.13.0 but the
+latest version is 1.14.1. Run
+
+conda update -n root conda-build
+
+to get the latest version.
+
+
+Applying patch: '/tmp/tmpxiDA6econda_skeleton_Flask-Bootstrap-3.3.5.2.tar.gz/pypi-distutils.patch'
+Warning, the following versions were found for h5py
+2.5.0
+2.4.0
+2.4.0b1
+2.3.1
+2.3.0
+2.3.0b1
+2.2.1
+2.2.0
+2.1.1
+2.0.0
+1.3.0
+1.2.1
+1.2.0
+1.1.0
+1.0.0
+1.3.0.dev-r634
+Using 2.5.0
+Use --version to specify a different version.
+Using url https://pypi.python.org/packages/source/h/h5py/h5py-2.5.0.tar.gz (668 KB) for h5py.
+Downloading h5py
+Using cached download
+Unpacking h5py...
+done
+working in /tmp/tmpTEVD8_conda_skeleton_h5py-2.5.0.tar.gz
+Solving package specifications: .patching file core.py
+Hunk #1 succeeded at 168 with fuzz 2 (offset 2 lines).
+
+WARNING: conda-build appears to be out of date. You have version 1.13.0 but the
+latest version is 1.14.1. Run
+
+conda update -n root conda-build
+
+to get the latest version.
+
+
+Applying patch: '/tmp/tmpTEVD8_conda_skeleton_h5py-2.5.0.tar.gz/pypi-distutils.patch'
+Warning, the following versions were found for numpy
+1.9.2
+1.9.1
+1.9.0
+1.8.2
+1.8.1
+1.8.0
+1.7.2
+1.7.1
+1.7.0
+1.6.2
+1.6.1
+1.6.0
+1.5.1
+1.5.0
+1.4.1
+1.4.0
+1.3.0
+1.2.1
+1.2.0
+1.1.1
+1.0.4
+1.0.3
+1.0
+1.0rc3
+1.0rc2
+1.0rc1
+1.0b5
+1.0b4
+1.0b1
+0.9.8
+0.9.6
+Using 1.9.2
+Use --version to specify a different version.
+Using url https://pypi.python.org/packages/source/n/numpy/numpy-1.9.2.tar.gz (3.8 MB) for numpy.
+Downloading numpy
+Using cached download
+Unpacking numpy...
+done
+working in /tmp/tmpO_xi8Dconda_skeleton_numpy-1.9.2.tar.gz
+Solving package specifications: .patching file core.py
+Hunk #1 succeeded at 168 with fuzz 2 (offset 2 lines).
+Running from numpy source directory.
+Traceback (most recent call last):
+  File "setup.py", line 251, in <module>
+    setup_package()
+  File "setup.py", line 243, in setup_package
+    setup(**metadata)
+  File "/tmp/tmpO_xi8Dconda_skeleton_numpy-1.9.2.tar.gz/numpy-1.9.2/numpy/distutils/core.py", line 130, in setup
+    if dist.help or not _command_line_ok():
+AttributeError: 'NoneType' object has no attribute 'help'
+
+Applying patch: '/tmp/tmpO_xi8Dconda_skeleton_numpy-1.9.2.tar.gz/pypi-distutils.patch'
+$PYTHONPATH = /tmp/tmpO_xi8Dconda_skeleton_numpy-1.9.2.tar.gz/numpy-1.9.2
 Error: command failed: /home/ubuntu/miniconda/envs/_build/bin/python setup.py install

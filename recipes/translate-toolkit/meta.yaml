@@ -1,0 +1,80 @@
+package:
+  name: translate-toolkit
+  version: "1.13.0"
+
+source:
+  fn: translate-toolkit-1.13.0.tar.bz2
+  url: https://pypi.python.org/packages/source/t/translate-toolkit/translate-toolkit-1.13.0.tar.bz2
+  md5: f9997a0deb3f1767bb20665a47cd2708
+#  patches:
+   # List any patch files here
+   # - fix.patch
+
+build:
+  noarch_python: True
+  # preserve_egg_dir: True
+  # entry_points:
+    # Put any entry points (scripts to be generated automatically) here. The
+    # syntax is module:function.  For example
+    #
+    # - translate-toolkit = translate-toolkit:main
+    #
+    # Would create an entry point called translate-toolkit that calls translate-toolkit.main()
+
+
+  # If this is a new build for the same version, increment the build
+  # number. If you do not include this key, it defaults to 0.
+  # number: 1
+
+requirements:
+  build:
+    - python
+    - setuptools
+    - argparse
+    - six
+    - diff-match-patch
+
+  run:
+    - python
+    - argparse
+    - six
+    - diff-match-patch
+
+test:
+  # Python imports
+  imports:
+    - translate
+    - translate.convert
+    - translate.filters
+    - translate.lang
+    - translate.misc
+    - translate.misc/wsgiserver
+    - translate.search
+    - translate.search/indexing
+    - translate.services
+    - translate.storage
+    - translate.storage/placeables
+    - translate.storage/versioncontrol
+    - translate.storage/xml_extract
+    - translate.tools
+
+  # commands:
+    # You can put test commands to be run here.  Use this to test that the
+    # entry points work.
+
+
+  # You can also put a file called run_test.py in the recipe that will be run
+  # at test time.
+
+  # requires:
+    # Put any additional test requirements here.  For example
+    # - nose
+
+about:
+  home: http://toolkit.translatehouse.org/
+  license: GNU General Public License (GPL)
+  summary: 'Tools and API for translation and localization engineering.'
+
+# See
+# http://docs.continuum.io/conda/build.html for
+# more information about meta.yaml

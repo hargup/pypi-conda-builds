@@ -1,0 +1,37 @@
+Warning, the following versions were found for zope.i18n
+4.0.1
+4.0.0
+4.0.0a4
+4.0.0a3
+3.8.0
+3.7.4
+3.7.3
+3.7.2
+3.7.1
+3.7.0
+3.6.0
+3.5.0
+3.4.0
+3.4.0b4
+3.4dev-r73098
+Using 4.0.1
+Use --version to specify a different version.
+Using url https://pypi.python.org/packages/source/z/zope.i18n/zope.i18n-4.0.1.tar.gz (615 KB) for zope.i18n.
+Downloading zope.i18n
+Unpacking zope.i18n...
+done
+working in /tmp/tmpUSrO3uconda_skeleton_zope.i18n-4.0.1.tar.gz
+Fetching package metadata: ......
+
+WARNING: conda-build appears to be out of date. You have version 1.13.0 but the
+latest version is 1.14.1. Run
+
+conda update -n root conda-build
+
+to get the latest version.
+
+Solving package specifications: .patching file core.py
+Hunk #1 succeeded at 168 with fuzz 2 (offset 2 lines).
+
+Applying patch: '/tmp/tmpUSrO3uconda_skeleton_zope.i18n-4.0.1.tar.gz/pypi-distutils.patch'
+Error: Could not parse: zope.component [zcml]

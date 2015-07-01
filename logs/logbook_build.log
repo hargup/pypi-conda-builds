@@ -1,0 +1,170 @@
+Removing old build directory
+Removing old work directory
+BUILD START: logbook-0.9.1-py27_0
+Fetching package metadata: ......
+
+WARNING: conda-build appears to be out of date. You have version 1.13.0 but the
+latest version is 1.14.1. Run
+
+conda update -n root conda-build
+
+to get the latest version.
+
+Solving package specifications: .+ /home/ubuntu/miniconda/envs/_build/bin/python setup.py install
+running install
+running bdist_egg
+running egg_info
+writing Logbook.egg-info/PKG-INFO
+writing top-level names to Logbook.egg-info/top_level.txt
+writing dependency_links to Logbook.egg-info/dependency_links.txt
+reading manifest file 'Logbook.egg-info/SOURCES.txt'
+reading manifest template 'MANIFEST.in'
+writing manifest file 'Logbook.egg-info/SOURCES.txt'
+installing library code to build/bdist.linux-x86_64/egg
+running install_lib
+running build_py
+creating build
+creating build/lib.linux-x86_64-2.7
+creating build/lib.linux-x86_64-2.7/logbook
+copying logbook/compat.py -> build/lib.linux-x86_64-2.7/logbook
+copying logbook/concurrency.py -> build/lib.linux-x86_64-2.7/logbook
+copying logbook/queues.py -> build/lib.linux-x86_64-2.7/logbook
+copying logbook/notifiers.py -> build/lib.linux-x86_64-2.7/logbook
+copying logbook/more.py -> build/lib.linux-x86_64-2.7/logbook
+copying logbook/_fallback.py -> build/lib.linux-x86_64-2.7/logbook
+copying logbook/_termcolors.py -> build/lib.linux-x86_64-2.7/logbook
+copying logbook/__init__.py -> build/lib.linux-x86_64-2.7/logbook
+copying logbook/helpers.py -> build/lib.linux-x86_64-2.7/logbook
+copying logbook/ticketing.py -> build/lib.linux-x86_64-2.7/logbook
+copying logbook/base.py -> build/lib.linux-x86_64-2.7/logbook
+copying logbook/handlers.py -> build/lib.linux-x86_64-2.7/logbook
+running build_ext
+building 'logbook._speedups' extension
+creating build/temp.linux-x86_64-2.7
+creating build/temp.linux-x86_64-2.7/logbook
+gcc -pthread -fno-strict-aliasing -g -O2 -DNDEBUG -g -fwrapv -O3 -Wall -Wstrict-prototypes -fPIC -I/home/ubuntu/miniconda/envs/_build/include/python2.7 -c logbook/_speedups.c -o build/temp.linux-x86_64-2.7/logbook/_speedups.o
+gcc -pthread -shared -L/home/ubuntu/miniconda/envs/_build/lib -Wl,-rpath=/home/ubuntu/miniconda/envs/_build/lib,--no-as-needed build/temp.linux-x86_64-2.7/logbook/_speedups.o -L/home/ubuntu/miniconda/envs/_build/lib -lpython2.7 -o build/lib.linux-x86_64-2.7/logbook/_speedups.so
+creating build/bdist.linux-x86_64
+creating build/bdist.linux-x86_64/egg
+creating build/bdist.linux-x86_64/egg/logbook
+copying build/lib.linux-x86_64-2.7/logbook/compat.py -> build/bdist.linux-x86_64/egg/logbook
+copying build/lib.linux-x86_64-2.7/logbook/concurrency.py -> build/bdist.linux-x86_64/egg/logbook
+copying build/lib.linux-x86_64-2.7/logbook/queues.py -> build/bdist.linux-x86_64/egg/logbook
+copying build/lib.linux-x86_64-2.7/logbook/notifiers.py -> build/bdist.linux-x86_64/egg/logbook
+copying build/lib.linux-x86_64-2.7/logbook/more.py -> build/bdist.linux-x86_64/egg/logbook
+copying build/lib.linux-x86_64-2.7/logbook/_fallback.py -> build/bdist.linux-x86_64/egg/logbook
+copying build/lib.linux-x86_64-2.7/logbook/_termcolors.py -> build/bdist.linux-x86_64/egg/logbook
+copying build/lib.linux-x86_64-2.7/logbook/__init__.py -> build/bdist.linux-x86_64/egg/logbook
+copying build/lib.linux-x86_64-2.7/logbook/_speedups.so -> build/bdist.linux-x86_64/egg/logbook
+copying build/lib.linux-x86_64-2.7/logbook/helpers.py -> build/bdist.linux-x86_64/egg/logbook
+copying build/lib.linux-x86_64-2.7/logbook/ticketing.py -> build/bdist.linux-x86_64/egg/logbook
+copying build/lib.linux-x86_64-2.7/logbook/base.py -> build/bdist.linux-x86_64/egg/logbook
+copying build/lib.linux-x86_64-2.7/logbook/handlers.py -> build/bdist.linux-x86_64/egg/logbook
+byte-compiling build/bdist.linux-x86_64/egg/logbook/compat.py to compat.pyc
+byte-compiling build/bdist.linux-x86_64/egg/logbook/concurrency.py to concurrency.pyc
+byte-compiling build/bdist.linux-x86_64/egg/logbook/queues.py to queues.pyc
+byte-compiling build/bdist.linux-x86_64/egg/logbook/notifiers.py to notifiers.pyc
+byte-compiling build/bdist.linux-x86_64/egg/logbook/more.py to more.pyc
+byte-compiling build/bdist.linux-x86_64/egg/logbook/_fallback.py to _fallback.pyc
+byte-compiling build/bdist.linux-x86_64/egg/logbook/_termcolors.py to _termcolors.pyc
+byte-compiling build/bdist.linux-x86_64/egg/logbook/__init__.py to __init__.pyc
+byte-compiling build/bdist.linux-x86_64/egg/logbook/helpers.py to helpers.pyc
+byte-compiling build/bdist.linux-x86_64/egg/logbook/ticketing.py to ticketing.pyc
+byte-compiling build/bdist.linux-x86_64/egg/logbook/base.py to base.pyc
+byte-compiling build/bdist.linux-x86_64/egg/logbook/handlers.py to handlers.pyc
+creating stub loader for logbook/_speedups.so
+byte-compiling build/bdist.linux-x86_64/egg/logbook/_speedups.py to _speedups.pyc
+creating build/bdist.linux-x86_64/egg/EGG-INFO
+copying Logbook.egg-info/PKG-INFO -> build/bdist.linux-x86_64/egg/EGG-INFO
+copying Logbook.egg-info/SOURCES.txt -> build/bdist.linux-x86_64/egg/EGG-INFO
+copying Logbook.egg-info/dependency_links.txt -> build/bdist.linux-x86_64/egg/EGG-INFO
+copying Logbook.egg-info/not-zip-safe -> build/bdist.linux-x86_64/egg/EGG-INFO
+copying Logbook.egg-info/top_level.txt -> build/bdist.linux-x86_64/egg/EGG-INFO
+writing build/bdist.linux-x86_64/egg/EGG-INFO/native_libs.txt
+creating dist
+creating 'dist/Logbook-0.9.1-py2.7-linux-x86_64.egg' and adding 'build/bdist.linux-x86_64/egg' to it
+removing 'build/bdist.linux-x86_64/egg' (and everything under it)
+Processing Logbook-0.9.1-py2.7-linux-x86_64.egg
+creating /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/Logbook-0.9.1-py2.7-linux-x86_64.egg
+Extracting Logbook-0.9.1-py2.7-linux-x86_64.egg to /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages
+Adding Logbook 0.9.1 to easy-install.pth file
+
+Installed /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/Logbook-0.9.1-py2.7-linux-x86_64.egg
+Processing dependencies for Logbook==0.9.1
+Finished processing dependencies for Logbook==0.9.1
+
+The following NEW packages will be INSTALLED:
+
+    openssl:    1.0.1k-1     
+    pip:        7.0.3-py27_0 
+    python:     2.7.10-0     
+    readline:   6.2-2        
+    setuptools: 18.0.1-py27_0
+    sqlite:     3.8.4.1-1    
+    system:     5.8-2        
+    tk:         8.5.18-0     
+    zlib:       1.2.8-0      
+
+Linking packages ...
+[                    ]|                                                  |   0%[openssl             ]|                                                  |   0%[readline            ]|#####                                             |  11%[sqlite              ]|###########                                       |  22%[system              ]|################                                  |  33%[tk                  ]|######################                            |  44%[zlib                ]|###########################                       |  55%[python              ]|#################################                 |  66%[setuptools          ]|######################################            |  77%[pip                 ]|############################################      |  88%[      COMPLETE      ]|##################################################| 100%
+Removing old work directory
+Source cache directory is: /home/ubuntu/miniconda/conda-bld/src_cache
+Found source in cache: Logbook-0.9.1.tar.gz
+Extracting download
+Package: logbook-0.9.1-py27_0
+source tree in: /home/ubuntu/miniconda/conda-bld/work/Logbook-0.9.1
+found egg dir: /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/Logbook-0.9.1-py2.7-linux-x86_64.egg
+number of files: 26
+Fixing permissions
+patchelf: file: /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/logbook/_speedups.so
+    setting rpath to: $ORIGIN/../../..
+Ignored hard-coded path in lib/python2.7/site-packages/logbook/_speedups.so
+Fixing permissions
+BUILD END: logbook-0.9.1-py27_0
+TEST START: logbook-0.9.1-py27_0
+Fetching package metadata: ......
+
+WARNING: conda-build appears to be out of date. You have version 1.13.0 but the
+latest version is 1.14.1. Run
+
+conda update -n root conda-build
+
+to get the latest version.
+
+Solving package specifications: .===== testing package: logbook-0.9.1-py27_0 =====
+import: u'logbook'
+===== logbook-0.9.1-py27_0 OK =====
+
+The following packages will be downloaded:
+
+    package                    |            build
+    ---------------------------|-----------------
+    logbook-0.9.1              |           py27_0         208 KB
+
+The following NEW packages will be INSTALLED:
+
+    logbook:    0.9.1-py27_0 
+    openssl:    1.0.1k-1     
+    pip:        7.0.3-py27_0 
+    python:     2.7.10-0     
+    readline:   6.2-2        
+    setuptools: 18.0.1-py27_0
+    sqlite:     3.8.4.1-1    
+    system:     5.8-2        
+    tk:         8.5.18-0     
+    zlib:       1.2.8-0      
+
+Fetching packages ...
+logbook-0.9.1-   0% |                              | ETA:  --:--:--   0.00  B/slogbook-0.9.1-   7% |##                             | ETA:  0:00:00  47.36 MB/slogbook-0.9.1-  15% |####                           | ETA:  0:00:00  59.27 MB/slogbook-0.9.1-  23% |#######                        | ETA:  0:00:00  65.89 MB/slogbook-0.9.1-  30% |#########                      | ETA:  0:00:00  70.39 MB/slogbook-0.9.1-  38% |###########                    | ETA:  0:00:00  73.61 MB/slogbook-0.9.1-  46% |##############                 | ETA:  0:00:00  75.68 MB/slogbook-0.9.1-  53% |################               | ETA:  0:00:00  77.29 MB/slogbook-0.9.1-  61% |###################            | ETA:  0:00:00  78.54 MB/slogbook-0.9.1-  69% |#####################          | ETA:  0:00:00  79.71 MB/slogbook-0.9.1-  76% |#######################        | ETA:  0:00:00  80.75 MB/slogbook-0.9.1-  84% |##########################     | ETA:  0:00:00  81.47 MB/slogbook-0.9.1-  92% |############################   | ETA:  0:00:00  82.27 MB/slogbook-0.9.1-  99% |############################## | ETA:  0:00:00  82.94 MB/slogbook-0.9.1- 100% |###############################| Time: 0:00:00  74.83 MB/s
+Extracting packages ...
+[      COMPLETE      ]|                                                  |   0%[logbook             ]|                                                  |   0%[logbook             ]|                                                  |   0%[      COMPLETE      ]|##################################################| 100%
+Linking packages ...
+[      COMPLETE      ]|                                                  |   0%[openssl             ]|                                                  |   0%[openssl             ]|                                                  |   0%[readline            ]|#####                                             |  10%[sqlite              ]|##########                                        |  20%[system              ]|###############                                   |  30%[tk                  ]|####################                              |  40%[zlib                ]|#########################                         |  50%[logbook             ]|##############################                    |  60%[python              ]|###################################               |  70%[setuptools          ]|########################################          |  80%[pip                 ]|#############################################     |  90%[      COMPLETE      ]|##################################################| 100%
+TEST END: logbook-0.9.1-py27_0
+# If you want to upload this package to binstar.org later, type:
+#
+# $ binstar upload /home/ubuntu/miniconda/conda-bld/linux-64/logbook-0.9.1-py27_0.tar.bz2
+#
+# To have conda build upload to binstar automatically, use
+# $ conda config --set binstar_upload yes
+

@@ -1,0 +1,68 @@
+persistence not found, trying Persistence
+Warning, the following versions were found for Persistence
+3.0a1
+2.13.2
+2.13.1
+2.13.0
+2.12.0
+2.11.1
+2.11.0b1
+Using 3.0a1
+Use --version to specify a different version.
+Using url https://pypi.python.org/packages/source/P/Persistence/Persistence-3.0a1.zip (23 KB) for Persistence.
+Downloading Persistence
+Using cached download
+Unpacking Persistence...
+done
+working in /tmp/tmprCcETIconda_skeleton_Persistence-3.0a1.zip
+Fetching package metadata: ......
+
+WARNING: conda-build appears to be out of date. You have version 1.13.0 but the
+latest version is 1.14.1. Run
+
+conda update -n root conda-build
+
+to get the latest version.
+
+Solving package specifications: .patching file core.py
+Hunk #1 succeeded at 168 with fuzz 2 (offset 2 lines).
+
+WARNING: conda-build appears to be out of date. You have version 1.13.0 but the
+latest version is 1.14.1. Run
+
+conda update -n root conda-build
+
+to get the latest version.
+
+
+Applying patch: '/tmp/tmprCcETIconda_skeleton_Persistence-3.0a1.zip/pypi-distutils.patch'
+Warning, the following versions were found for persistent
+4.1.1
+4.1.0
+4.0.9
+4.0.8
+4.0.7
+4.0.6
+4.0.5
+4.0.4
+4.0.3
+4.0.2
+4.0.1
+4.0.0
+Using 4.1.1
+Use --version to specify a different version.
+Using url https://pypi.python.org/packages/source/p/persistent/persistent-4.1.1.tar.gz (92 KB) for persistent.
+Downloading persistent
+Using cached download
+Unpacking persistent...
+done
+working in /tmp/tmpm4dRJqconda_skeleton_persistent-4.1.1.tar.gz
+Solving package specifications: .patching file core.py
+Hunk #1 succeeded at 168 with fuzz 2 (offset 2 lines).
+
+Applying patch: '/tmp/tmpm4dRJqconda_skeleton_persistent-4.1.1.tar.gz/pypi-distutils.patch'
+WARNING: Could not add entry points. They were:
+      
+Writing recipe for persistent
+Writing recipe for persistence
+Done

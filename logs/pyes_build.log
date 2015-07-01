@@ -1,0 +1,236 @@
+Removing old build directory
+Removing old work directory
+BUILD START: pyes-0.99.5-py_0
+Fetching package metadata: ......
+
+WARNING: conda-build appears to be out of date. You have version 1.13.0 but the
+latest version is 1.14.1. Run
+
+conda update -n root conda-build
+
+to get the latest version.
+
+Solving package specifications: .................
+Warning: 2 possible package resolutions (only showing differing packages):
+	[u'urllib3-1.10.4-py_0.tar.bz2'],
+	[u'urllib3-1.10.4-py27_0.tar.bz2'],
++ /home/ubuntu/miniconda/envs/_build/bin/python setup.py install
+running install
+running bdist_egg
+running egg_info
+writing requirements to pyes.egg-info/requires.txt
+writing pyes.egg-info/PKG-INFO
+writing top-level names to pyes.egg-info/top_level.txt
+writing dependency_links to pyes.egg-info/dependency_links.txt
+writing entry points to pyes.egg-info/entry_points.txt
+reading manifest file 'pyes.egg-info/SOURCES.txt'
+reading manifest template 'MANIFEST.in'
+warning: no files found matching 'pavement.py'
+warning: no files found matching '*' under directory 'bin'
+warning: no files found matching '*' under directory 'examples'
+no previously-included directories found matching 'docs/*'
+no previously-included directories found matching 'tests/*.pyc'
+no previously-included directories found matching 'contrib/*.pyc'
+no previously-included directories found matching 'pyes/*.pyc'
+no previously-included directories found matching 'bin/*.pyc'
+writing manifest file 'pyes.egg-info/SOURCES.txt'
+installing library code to build/bdist.linux-x86_64/egg
+running install_lib
+running build_py
+creating build
+creating build/lib
+creating build/lib/pyes
+copying pyes/connection_http.py -> build/lib/pyes
+copying pyes/rivers.py -> build/lib/pyes
+copying pyes/convert_errors.py -> build/lib/pyes
+copying pyes/fakettypes.py -> build/lib/pyes
+copying pyes/facets.py -> build/lib/pyes
+copying pyes/filters.py -> build/lib/pyes
+copying pyes/queryset.py -> build/lib/pyes
+copying pyes/connection.py -> build/lib/pyes
+copying pyes/scriptfields.py -> build/lib/pyes
+copying pyes/djangoutils.py -> build/lib/pyes
+copying pyes/query.py -> build/lib/pyes
+copying pyes/tests.py -> build/lib/pyes
+copying pyes/highlight.py -> build/lib/pyes
+copying pyes/aggs.py -> build/lib/pyes
+copying pyes/mappings.py -> build/lib/pyes
+copying pyes/sort.py -> build/lib/pyes
+copying pyes/managers.py -> build/lib/pyes
+copying pyes/__init__.py -> build/lib/pyes
+copying pyes/es.py -> build/lib/pyes
+copying pyes/decorators.py -> build/lib/pyes
+copying pyes/models.py -> build/lib/pyes
+copying pyes/helpers.py -> build/lib/pyes
+copying pyes/exceptions.py -> build/lib/pyes
+creating build/lib/pyes/utils
+copying pyes/utils/compat.py -> build/lib/pyes/utils
+copying pyes/utils/encoding.py -> build/lib/pyes/utils
+copying pyes/utils/five.py -> build/lib/pyes/utils
+copying pyes/utils/imports.py -> build/lib/pyes/utils
+copying pyes/utils/__init__.py -> build/lib/pyes/utils
+creating build/lib/pyes/contrib
+copying pyes/contrib/mappings.py -> build/lib/pyes/contrib
+copying pyes/contrib/__init__.py -> build/lib/pyes/contrib
+creating build/lib/pyes/orm
+copying pyes/orm/queryset.py -> build/lib/pyes/orm
+copying pyes/orm/__init__.py -> build/lib/pyes/orm
+copying pyes/orm/exceptions.py -> build/lib/pyes/orm
+creating build/lib/pyes/pyesthrift
+copying pyes/pyesthrift/Rest.py -> build/lib/pyes/pyesthrift
+copying pyes/pyesthrift/ttypes.py -> build/lib/pyes/pyesthrift
+copying pyes/pyesthrift/simple_test.py -> build/lib/pyes/pyesthrift
+copying pyes/pyesthrift/constants.py -> build/lib/pyes/pyesthrift
+copying pyes/pyesthrift/__init__.py -> build/lib/pyes/pyesthrift
+creating build/bdist.linux-x86_64
+creating build/bdist.linux-x86_64/egg
+creating build/bdist.linux-x86_64/egg/pyes
+copying build/lib/pyes/connection_http.py -> build/bdist.linux-x86_64/egg/pyes
+copying build/lib/pyes/rivers.py -> build/bdist.linux-x86_64/egg/pyes
+copying build/lib/pyes/convert_errors.py -> build/bdist.linux-x86_64/egg/pyes
+copying build/lib/pyes/fakettypes.py -> build/bdist.linux-x86_64/egg/pyes
+copying build/lib/pyes/facets.py -> build/bdist.linux-x86_64/egg/pyes
+copying build/lib/pyes/filters.py -> build/bdist.linux-x86_64/egg/pyes
+creating build/bdist.linux-x86_64/egg/pyes/utils
+copying build/lib/pyes/utils/compat.py -> build/bdist.linux-x86_64/egg/pyes/utils
+copying build/lib/pyes/utils/encoding.py -> build/bdist.linux-x86_64/egg/pyes/utils
+copying build/lib/pyes/utils/five.py -> build/bdist.linux-x86_64/egg/pyes/utils
+copying build/lib/pyes/utils/imports.py -> build/bdist.linux-x86_64/egg/pyes/utils
+copying build/lib/pyes/utils/__init__.py -> build/bdist.linux-x86_64/egg/pyes/utils
+copying build/lib/pyes/queryset.py -> build/bdist.linux-x86_64/egg/pyes
+creating build/bdist.linux-x86_64/egg/pyes/contrib
+copying build/lib/pyes/contrib/mappings.py -> build/bdist.linux-x86_64/egg/pyes/contrib
+copying build/lib/pyes/contrib/__init__.py -> build/bdist.linux-x86_64/egg/pyes/contrib
+copying build/lib/pyes/connection.py -> build/bdist.linux-x86_64/egg/pyes
+copying build/lib/pyes/scriptfields.py -> build/bdist.linux-x86_64/egg/pyes
+copying build/lib/pyes/djangoutils.py -> build/bdist.linux-x86_64/egg/pyes
+copying build/lib/pyes/query.py -> build/bdist.linux-x86_64/egg/pyes
+copying build/lib/pyes/tests.py -> build/bdist.linux-x86_64/egg/pyes
+copying build/lib/pyes/highlight.py -> build/bdist.linux-x86_64/egg/pyes
+copying build/lib/pyes/aggs.py -> build/bdist.linux-x86_64/egg/pyes
+copying build/lib/pyes/mappings.py -> build/bdist.linux-x86_64/egg/pyes
+copying build/lib/pyes/sort.py -> build/bdist.linux-x86_64/egg/pyes
+copying build/lib/pyes/managers.py -> build/bdist.linux-x86_64/egg/pyes
+copying build/lib/pyes/__init__.py -> build/bdist.linux-x86_64/egg/pyes
+copying build/lib/pyes/es.py -> build/bdist.linux-x86_64/egg/pyes
+copying build/lib/pyes/decorators.py -> build/bdist.linux-x86_64/egg/pyes
+creating build/bdist.linux-x86_64/egg/pyes/orm
+copying build/lib/pyes/orm/queryset.py -> build/bdist.linux-x86_64/egg/pyes/orm
+copying build/lib/pyes/orm/__init__.py -> build/bdist.linux-x86_64/egg/pyes/orm
+copying build/lib/pyes/orm/exceptions.py -> build/bdist.linux-x86_64/egg/pyes/orm
+copying build/lib/pyes/models.py -> build/bdist.linux-x86_64/egg/pyes
+copying build/lib/pyes/helpers.py -> build/bdist.linux-x86_64/egg/pyes
+creating build/bdist.linux-x86_64/egg/pyes/pyesthrift
+copying build/lib/pyes/pyesthrift/Rest.py -> build/bdist.linux-x86_64/egg/pyes/pyesthrift
+copying build/lib/pyes/pyesthrift/ttypes.py -> build/bdist.linux-x86_64/egg/pyes/pyesthrift
+copying build/lib/pyes/pyesthrift/simple_test.py -> build/bdist.linux-x86_64/egg/pyes/pyesthrift
+copying build/lib/pyes/pyesthrift/constants.py -> build/bdist.linux-x86_64/egg/pyes/pyesthrift
+copying build/lib/pyes/pyesthrift/__init__.py -> build/bdist.linux-x86_64/egg/pyes/pyesthrift
+copying build/lib/pyes/exceptions.py -> build/bdist.linux-x86_64/egg/pyes
+byte-compiling build/bdist.linux-x86_64/egg/pyes/connection_http.py to connection_http.pyc
+byte-compiling build/bdist.linux-x86_64/egg/pyes/rivers.py to rivers.pyc
+byte-compiling build/bdist.linux-x86_64/egg/pyes/convert_errors.py to convert_errors.pyc
+byte-compiling build/bdist.linux-x86_64/egg/pyes/fakettypes.py to fakettypes.pyc
+byte-compiling build/bdist.linux-x86_64/egg/pyes/facets.py to facets.pyc
+byte-compiling build/bdist.linux-x86_64/egg/pyes/filters.py to filters.pyc
+byte-compiling build/bdist.linux-x86_64/egg/pyes/utils/compat.py to compat.pyc
+byte-compiling build/bdist.linux-x86_64/egg/pyes/utils/encoding.py to encoding.pyc
+byte-compiling build/bdist.linux-x86_64/egg/pyes/utils/five.py to five.pyc
+byte-compiling build/bdist.linux-x86_64/egg/pyes/utils/imports.py to imports.pyc
+byte-compiling build/bdist.linux-x86_64/egg/pyes/utils/__init__.py to __init__.pyc
+byte-compiling build/bdist.linux-x86_64/egg/pyes/queryset.py to queryset.pyc
+byte-compiling build/bdist.linux-x86_64/egg/pyes/contrib/mappings.py to mappings.pyc
+byte-compiling build/bdist.linux-x86_64/egg/pyes/contrib/__init__.py to __init__.pyc
+byte-compiling build/bdist.linux-x86_64/egg/pyes/connection.py to connection.pyc
+byte-compiling build/bdist.linux-x86_64/egg/pyes/scriptfields.py to scriptfields.pyc
+byte-compiling build/bdist.linux-x86_64/egg/pyes/djangoutils.py to djangoutils.pyc
+byte-compiling build/bdist.linux-x86_64/egg/pyes/query.py to query.pyc
+byte-compiling build/bdist.linux-x86_64/egg/pyes/tests.py to tests.pyc
+byte-compiling build/bdist.linux-x86_64/egg/pyes/highlight.py to highlight.pyc
+byte-compiling build/bdist.linux-x86_64/egg/pyes/aggs.py to aggs.pyc
+byte-compiling build/bdist.linux-x86_64/egg/pyes/mappings.py to mappings.pyc
+byte-compiling build/bdist.linux-x86_64/egg/pyes/sort.py to sort.pyc
+byte-compiling build/bdist.linux-x86_64/egg/pyes/managers.py to managers.pyc
+byte-compiling build/bdist.linux-x86_64/egg/pyes/__init__.py to __init__.pyc
+byte-compiling build/bdist.linux-x86_64/egg/pyes/es.py to es.pyc
+byte-compiling build/bdist.linux-x86_64/egg/pyes/decorators.py to decorators.pyc
+byte-compiling build/bdist.linux-x86_64/egg/pyes/orm/queryset.py to queryset.pyc
+byte-compiling build/bdist.linux-x86_64/egg/pyes/orm/__init__.py to __init__.pyc
+byte-compiling build/bdist.linux-x86_64/egg/pyes/orm/exceptions.py to exceptions.pyc
+byte-compiling build/bdist.linux-x86_64/egg/pyes/models.py to models.pyc
+byte-compiling build/bdist.linux-x86_64/egg/pyes/helpers.py to helpers.pyc
+byte-compiling build/bdist.linux-x86_64/egg/pyes/pyesthrift/Rest.py to Rest.pyc
+byte-compiling build/bdist.linux-x86_64/egg/pyes/pyesthrift/ttypes.py to ttypes.pyc
+byte-compiling build/bdist.linux-x86_64/egg/pyes/pyesthrift/simple_test.py to simple_test.pyc
+byte-compiling build/bdist.linux-x86_64/egg/pyes/pyesthrift/constants.py to constants.pyc
+byte-compiling build/bdist.linux-x86_64/egg/pyes/pyesthrift/__init__.py to __init__.pyc
+byte-compiling build/bdist.linux-x86_64/egg/pyes/exceptions.py to exceptions.pyc
+creating build/bdist.linux-x86_64/egg/EGG-INFO
+copying pyes.egg-info/PKG-INFO -> build/bdist.linux-x86_64/egg/EGG-INFO
+copying pyes.egg-info/SOURCES.txt -> build/bdist.linux-x86_64/egg/EGG-INFO
+copying pyes.egg-info/dependency_links.txt -> build/bdist.linux-x86_64/egg/EGG-INFO
+copying pyes.egg-info/entry_points.txt -> build/bdist.linux-x86_64/egg/EGG-INFO
+copying pyes.egg-info/not-zip-safe -> build/bdist.linux-x86_64/egg/EGG-INFO
+copying pyes.egg-info/requires.txt -> build/bdist.linux-x86_64/egg/EGG-INFO
+copying pyes.egg-info/top_level.txt -> build/bdist.linux-x86_64/egg/EGG-INFO
+creating dist
+creating 'dist/pyes-0.99.5-py2.7.egg' and adding 'build/bdist.linux-x86_64/egg' to it
+removing 'build/bdist.linux-x86_64/egg' (and everything under it)
+Processing pyes-0.99.5-py2.7.egg
+creating /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/pyes-0.99.5-py2.7.egg
+Extracting pyes-0.99.5-py2.7.egg to /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages
+Adding pyes 0.99.5 to easy-install.pth file
+
+Installed /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/pyes-0.99.5-py2.7.egg
+Processing dependencies for pyes==0.99.5
+Searching for six==1.9.0
+Best match: six 1.9.0
+Adding six 1.9.0 to easy-install.pth file
+
+Using /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages
+Searching for urllib3==1.10.4
+Best match: urllib3 1.10.4
+Adding urllib3 1.10.4 to easy-install.pth file
+
+Using /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages
+Finished processing dependencies for pyes==0.99.5
+
+The following NEW packages will be INSTALLED:
+
+    openssl:    1.0.1k-1     
+    pip:        7.0.3-py27_0 
+    python:     2.7.10-0     
+    readline:   6.2-2        
+    setuptools: 18.0.1-py27_0
+    six:        1.9.0-py27_0 
+    sqlite:     3.8.4.1-1    
+    system:     5.8-2        
+    tk:         8.5.18-0     
+    urllib3:    1.10.4-py_0  
+    zlib:       1.2.8-0      
+
+Linking packages ...
+[                    ]|                                                  |   0%[openssl             ]|                                                  |   0%[readline            ]|####                                              |   9%[sqlite              ]|#########                                         |  18%[system              ]|#############                                     |  27%[tk                  ]|##################                                |  36%[zlib                ]|######################                            |  45%[python              ]|###########################                       |  54%[setuptools          ]|###############################                   |  63%[six                 ]|####################################              |  72%[urllib3             ]|########################################          |  81%[pip                 ]|#############################################     |  90%[      COMPLETE      ]|##################################################| 100%
+Removing old work directory
+Source cache directory is: /home/ubuntu/miniconda/conda-bld/src_cache
+Found source in cache: pyes-0.99.5.tar.gz
+Extracting download
+Package: pyes-0.99.5-py_0
+source tree in: /home/ubuntu/miniconda/conda-bld/work/pyes-0.99.5
+found egg dir: /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/pyes-0.99.5-py2.7.egg
+compiling .pyc files...
+number of files: 103
+Fixing permissions
+Fixing permissions
+BUILD END: pyes-0.99.5-py_0
+TEST START: pyes-0.99.5-py_0
+Fetching package metadata: ......
+
+WARNING: conda-build appears to be out of date. You have version 1.13.0 but the
+latest version is 1.14.1. Run
+
+conda update -n root conda-build
+
+to get the latest version.
+
+Error: No packages found in current linux-64 channels matching: nose-cover3

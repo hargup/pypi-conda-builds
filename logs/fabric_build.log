@@ -2,7 +2,15 @@ Removing old build directory
 Removing old work directory
 BUILD START: fabric-1.10.1-py_0
 Fetching package metadata: ......
-Solving package specifications: .............+ /home/ubuntu/miniconda/envs/_build/bin/python setup.py install
+
+WARNING: conda-build appears to be out of date. You have version 1.13.0 but the
+latest version is 1.14.1. Run
+
+conda update -n root conda-build
+
+to get the latest version.
+
+Solving package specifications: .+ /home/ubuntu/miniconda/envs/_build/bin/python setup.py install
 running install
 running bdist_egg
 running egg_info
@@ -152,28 +160,27 @@ Adding ecdsa 0.13 to easy-install.pth file
 Using /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/ecdsa-0.13-py2.7.egg
 Searching for pycrypto==2.6.1
 Best match: pycrypto 2.6.1
+Processing pycrypto-2.6.1-py2.7-linux-x86_64.egg
 Adding pycrypto 2.6.1 to easy-install.pth file
 
-Using /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages
+Using /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/pycrypto-2.6.1-py2.7-linux-x86_64.egg
 Finished processing dependencies for Fabric==1.10.1
 
 The following NEW packages will be INSTALLED:
 
-    ecdsa:      0.13-py27_0  
     openssl:    1.0.1k-1     
     paramiko:   1.15.2-py27_0
     pip:        7.0.3-py27_0 
-    pycrypto:   2.6.1-py27_0 
     python:     2.7.10-0     
     readline:   6.2-2        
-    setuptools: 17.0-py27_0  
+    setuptools: 18.0.1-py27_0
     sqlite:     3.8.4.1-1    
     system:     5.8-2        
     tk:         8.5.18-0     
     zlib:       1.2.8-0      
 
 Linking packages ...
-[                    ]|                                                  |   0%[openssl             ]|                                                  |   0%[readline            ]|####                                              |   8%[sqlite              ]|########                                          |  16%[system              ]|############                                      |  25%[tk                  ]|################                                  |  33%[zlib                ]|####################                              |  41%[ecdsa               ]|#########################                         |  50%[pycrypto            ]|#############################                     |  58%[paramiko            ]|#################################                 |  66%[python              ]|#####################################             |  75%[setuptools          ]|#########################################         |  83%[pip                 ]|#############################################     |  91%[      COMPLETE      ]|##################################################| 100%
+[                    ]|                                                  |   0%[openssl             ]|                                                  |   0%[readline            ]|#####                                             |  10%[sqlite              ]|##########                                        |  20%[system              ]|###############                                   |  30%[tk                  ]|####################                              |  40%[zlib                ]|#########################                         |  50%[paramiko            ]|##############################                    |  60%[python              ]|###################################               |  70%[setuptools          ]|########################################          |  80%[pip                 ]|#############################################     |  90%[      COMPLETE      ]|##################################################| 100%
 Removing old work directory
 Source cache directory is: /home/ubuntu/miniconda/conda-bld/src_cache
 Found source in cache: Fabric-1.10.1.tar.gz
@@ -187,7 +194,15 @@ Fixing permissions
 BUILD END: fabric-1.10.1-py_0
 TEST START: fabric-1.10.1-py_0
 Fetching package metadata: ......
-Solving package specifications: ............./home/ubuntu/miniconda/pkgs/fabric-1.10.1-py_0/bin/.fabric-pre-link.sh: line 2: /home/ubuntu/miniconda/envs/_test/bin/python: No such file or directory
+
+WARNING: conda-build appears to be out of date. You have version 1.13.0 but the
+latest version is 1.14.1. Run
+
+conda update -n root conda-build
+
+to get the latest version.
+
+Solving package specifications: ./home/ubuntu/miniconda/pkgs/fabric-1.10.1-py_0/bin/.fabric-pre-link.sh: line 2: /home/ubuntu/miniconda/envs/_test/bin/python: No such file or directory
 
 The following packages will be downloaded:
 
@@ -197,23 +212,21 @@ The following packages will be downloaded:
 
 The following NEW packages will be INSTALLED:
 
-    ecdsa:      0.13-py27_0  
     fabric:     1.10.1-py_0  
     openssl:    1.0.1k-1     
     paramiko:   1.15.2-py27_0
     pip:        7.0.3-py27_0 
-    pycrypto:   2.6.1-py27_0 
     python:     2.7.10-0     
     readline:   6.2-2        
-    setuptools: 17.0-py27_0  
+    setuptools: 18.0.1-py27_0
     sqlite:     3.8.4.1-1    
     system:     5.8-2        
     tk:         8.5.18-0     
     zlib:       1.2.8-0      
 
 Fetching packages ...
-fabric-1.10.1-   0% |                              | ETA:  --:--:--   0.00  B/sfabric-1.10.1-  11% |###                            | ETA:  0:00:00   1.93 MB/sfabric-1.10.1-  23% |#######                        | ETA:  0:00:00   3.76 MB/sfabric-1.10.1-  35% |##########                     | ETA:  0:00:00   5.51 MB/sfabric-1.10.1-  46% |##############                 | ETA:  0:00:00   7.20 MB/sfabric-1.10.1-  58% |##################             | ETA:  0:00:00   8.82 MB/sfabric-1.10.1-  70% |#####################          | ETA:  0:00:00  10.38 MB/sfabric-1.10.1-  81% |#########################      | ETA:  0:00:00  11.87 MB/sfabric-1.10.1-  93% |############################   | ETA:  0:00:00  13.31 MB/sfabric-1.10.1- 100% |###############################| ETA:  0:00:00  14.01 MB/sfabric-1.10.1- 100% |###############################| Time: 0:00:00  13.69 MB/s
+fabric-1.10.1-   0% |                              | ETA:  --:--:--   0.00  B/sfabric-1.10.1-  11% |###                            | ETA:  0:00:00  45.39 MB/sfabric-1.10.1-  23% |#######                        | ETA:  0:00:00  57.29 MB/sfabric-1.10.1-  35% |##########                     | ETA:  0:00:00  64.51 MB/sfabric-1.10.1-  46% |##############                 | ETA:  0:00:00  68.12 MB/sfabric-1.10.1-  58% |##################             | ETA:  0:00:00  71.24 MB/sfabric-1.10.1-  70% |#####################          | ETA:  0:00:00  72.07 MB/sfabric-1.10.1-  81% |#########################      | ETA:  0:00:00  73.89 MB/sfabric-1.10.1-  93% |############################   | ETA:  0:00:00  75.41 MB/sfabric-1.10.1- 100% |###############################| ETA:  0:00:00  73.70 MB/sfabric-1.10.1- 100% |###############################| Time: 0:00:00  65.52 MB/s
 Extracting packages ...
 [      COMPLETE      ]|                                                  |   0%[fabric              ]|                                                  |   0%[fabric              ]|                                                  |   0%[      COMPLETE      ]|##################################################| 100%
 Linking packages ...
-[      COMPLETE      ]|                                                  |   0%[openssl             ]|                                                  |   0%[openssl             ]|                                                  |   0%[readline            ]|###                                               |   7%[sqlite              ]|#######                                           |  15%[system              ]|###########                                       |  23%[tk                  ]|###############                                   |  30%[zlib                ]|###################                               |  38%[ecdsa               ]|#######################                           |  46%[pycrypto            ]|##########################                        |  53%[paramiko            ]|##############################                    |  61%[fabric              ]|##################################                |  69%Error: pre-link failed: fabric-1.10.1-py_0
+[      COMPLETE      ]|                                                  |   0%[openssl             ]|                                                  |   0%[openssl             ]|                                                  |   0%[readline            ]|####                                              |   9%[sqlite              ]|#########                                         |  18%[system              ]|#############                                     |  27%[tk                  ]|##################                                |  36%[zlib                ]|######################                            |  45%[paramiko            ]|###########################                       |  54%[fabric              ]|###############################                   |  63%Error: pre-link failed: fabric-1.10.1-py_0

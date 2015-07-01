@@ -8,18 +8,23 @@ Warning, the following versions were found for bcrypt
 Using 2.0.0
 Use --version to specify a different version.
 Using url https://pypi.python.org/packages/source/b/bcrypt/bcrypt-2.0.0.tar.gz (38 KB) for bcrypt.
-Downloading bcrypt (use --no-download to skip this step)
+Downloading bcrypt
+Using cached download
 Unpacking bcrypt...
 done
-working in /tmp/tmpjT9tAUconda_skeleton_bcrypt-2.0.0.tar.gz
+working in /tmp/tmpccU1Pnconda_skeleton_bcrypt-2.0.0.tar.gz
 Fetching package metadata: ......
+
+WARNING: conda-build appears to be out of date. You have version 1.13.0 but the
+latest version is 1.14.1. Run
+
+conda update -n root conda-build
+
+to get the latest version.
+
 Solving package specifications: .patching file core.py
 Hunk #1 succeeded at 168 with fuzz 2 (offset 2 lines).
-Traceback (most recent call last):
-  File "setup.py", line 5, in <module>
-    from setuptools import setup
-ImportError: No module named setuptools
 
-Applying patch: '/tmp/tmpjT9tAUconda_skeleton_bcrypt-2.0.0.tar.gz/pypi-distutils.patch'
-$PYTHONPATH = /tmp/tmpjT9tAUconda_skeleton_bcrypt-2.0.0.tar.gz/bcrypt-2.0.0
-Error: command failed: /home/ubuntu/miniconda/envs/_build/bin/python setup.py install
+Applying patch: '/tmp/tmpccU1Pnconda_skeleton_bcrypt-2.0.0.tar.gz/pypi-distutils.patch'
+Writing recipe for bcrypt
+Done

@@ -47,11 +47,11 @@ Downloading numpy
 Using cached download
 Unpacking numpy...
 done
-working in /tmp/tmpZExjp8conda_skeleton_numpy-1.9.2.tar.gz
+working in /tmp/tmpldJMERconda_skeleton_numpy-1.9.2.tar.gz
 Fetching package metadata: ......
 
 WARNING: conda-build appears to be out of date. You have version 1.13.0 but the
-latest version is 1.14.0. Run
+latest version is 1.14.1. Run
 
 conda update -n root conda-build
 
@@ -65,12 +65,12 @@ Traceback (most recent call last):
     setup_package()
   File "setup.py", line 243, in setup_package
     setup(**metadata)
-  File "/tmp/tmpZExjp8conda_skeleton_numpy-1.9.2.tar.gz/numpy-1.9.2/numpy/distutils/core.py", line 130, in setup
+  File "/tmp/tmpldJMERconda_skeleton_numpy-1.9.2.tar.gz/numpy-1.9.2/numpy/distutils/core.py", line 130, in setup
     if dist.help or not _command_line_ok():
 AttributeError: 'NoneType' object has no attribute 'help'
 
-Applying patch: '/tmp/tmpZExjp8conda_skeleton_numpy-1.9.2.tar.gz/pypi-distutils.patch'
-$PYTHONPATH = /tmp/tmpZExjp8conda_skeleton_numpy-1.9.2.tar.gz/numpy-1.9.2
+Applying patch: '/tmp/tmpldJMERconda_skeleton_numpy-1.9.2.tar.gz/pypi-distutils.patch'
+$PYTHONPATH = /tmp/tmpldJMERconda_skeleton_numpy-1.9.2.tar.gz/numpy-1.9.2
 Error: command failed: /home/ubuntu/miniconda/envs/_build/bin/python setup.py install
 
 conda create -n _pipbuild_ --yes python pip

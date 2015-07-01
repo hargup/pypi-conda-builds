@@ -2,6 +2,14 @@ Removing old build directory
 Removing old work directory
 BUILD START: tldextract-1.6-py_0
 Fetching package metadata: ......
+
+WARNING: conda-build appears to be out of date. You have version 1.13.0 but the
+latest version is 1.14.1. Run
+
+conda update -n root conda-build
+
+to get the latest version.
+
 Solving package specifications: .+ /home/ubuntu/miniconda/envs/_build/bin/python setup.py install
 running install
 running bdist_egg
@@ -60,27 +68,26 @@ Installing tldextract script to /home/ubuntu/miniconda/envs/_build/bin
 
 Installed /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/tldextract-1.6-py2.7.egg
 Processing dependencies for tldextract==1.6
-Searching for setuptools==17.0
-Best match: setuptools 17.0
-Processing setuptools-17.0-py2.7.egg
-Adding setuptools 17.0 to easy-install.pth file
+Searching for setuptools==15.2
+Best match: setuptools 15.2
+Adding setuptools 15.2 to easy-install.pth file
+Installing easy_install-3.4 script to /home/ubuntu/miniconda/envs/_build/bin
 Installing easy_install script to /home/ubuntu/miniconda/envs/_build/bin
-Installing easy_install-2.7 script to /home/ubuntu/miniconda/envs/_build/bin
 
-Using /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/setuptools-17.0-py2.7.egg
+Using /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages
 Finished processing dependencies for tldextract==1.6
 
 The following NEW packages will be INSTALLED:
 
-    openssl:    1.0.1k-1    
-    pip:        7.0.3-py27_0
-    python:     2.7.10-0    
-    readline:   6.2-2       
-    setuptools: 17.0-py27_0 
-    sqlite:     3.8.4.1-1   
-    system:     5.8-2       
-    tk:         8.5.18-0    
-    zlib:       1.2.8-0     
+    openssl:    1.0.1k-1     
+    pip:        7.0.3-py27_0 
+    python:     2.7.10-0     
+    readline:   6.2-2        
+    setuptools: 18.0.1-py27_0
+    sqlite:     3.8.4.1-1    
+    system:     5.8-2        
+    tk:         8.5.18-0     
+    zlib:       1.2.8-0      
 
 Linking packages ...
 [                    ]|                                                  |   0%[openssl             ]|                                                  |   0%[readline            ]|#####                                             |  11%[sqlite              ]|###########                                       |  22%[system              ]|################                                  |  33%[tk                  ]|######################                            |  44%[zlib                ]|###########################                       |  55%[python              ]|#################################                 |  66%[setuptools          ]|######################################            |  77%[pip                 ]|############################################      |  88%[      COMPLETE      ]|##################################################| 100%
@@ -90,12 +97,20 @@ Found source in cache: tldextract-1.6.tar.gz
 Extracting download
 Package: tldextract-1.6-py_0
 source tree in: /home/ubuntu/miniconda/conda-bld/work/tldextract-1.6
-number of files: 18
+number of files: 20
 Fixing permissions
 Fixing permissions
 BUILD END: tldextract-1.6-py_0
 TEST START: tldextract-1.6-py_0
 Fetching package metadata: ......
+
+WARNING: conda-build appears to be out of date. You have version 1.13.0 but the
+latest version is 1.14.1. Run
+
+conda update -n root conda-build
+
+to get the latest version.
+
 Solving package specifications: .===== testing package: tldextract-1.6-py_0 =====
 import: u'tldextract'
 import: u'tldextract.tests'
@@ -120,23 +135,23 @@ The following packages will be downloaded:
 
     package                    |            build
     ---------------------------|-----------------
-    tldextract-1.6             |             py_0         123 KB
+    tldextract-1.6             |             py_0         124 KB
 
 The following NEW packages will be INSTALLED:
 
-    openssl:    1.0.1k-1    
-    pip:        7.0.3-py27_0
-    python:     2.7.10-0    
-    readline:   6.2-2       
-    setuptools: 17.0-py27_0 
-    sqlite:     3.8.4.1-1   
-    system:     5.8-2       
-    tk:         8.5.18-0    
-    tldextract: 1.6-py_0    
-    zlib:       1.2.8-0     
+    openssl:    1.0.1k-1     
+    pip:        7.0.3-py27_0 
+    python:     2.7.10-0     
+    readline:   6.2-2        
+    setuptools: 18.0.1-py27_0
+    sqlite:     3.8.4.1-1    
+    system:     5.8-2        
+    tk:         8.5.18-0     
+    tldextract: 1.6-py_0     
+    zlib:       1.2.8-0      
 
 Fetching packages ...
-tldextract-1.6   0% |                              | ETA:  --:--:--   0.00  B/stldextract-1.6  12% |####                           | ETA:  0:00:00  45.63 MB/stldextract-1.6  25% |########                       | ETA:  0:00:00  57.67 MB/stldextract-1.6  38% |############                   | ETA:  0:00:00  64.16 MB/stldextract-1.6  51% |################               | ETA:  0:00:00  68.48 MB/stldextract-1.6  64% |####################           | ETA:  0:00:00  71.67 MB/stldextract-1.6  77% |########################       | ETA:  0:00:00  74.13 MB/stldextract-1.6  90% |############################   | ETA:  0:00:00  74.86 MB/stldextract-1.6 100% |###############################| ETA:  0:00:00  73.76 MB/stldextract-1.6 100% |###############################| Time: 0:00:00  64.94 MB/s
+tldextract-1.6   0% |                              | ETA:  --:--:--   0.00  B/stldextract-1.6  12% |####                           | ETA:  0:00:00  47.76 MB/stldextract-1.6  25% |########                       | ETA:  0:00:00  59.04 MB/stldextract-1.6  38% |############                   | ETA:  0:00:00  66.06 MB/stldextract-1.6  51% |################               | ETA:  0:00:00  70.18 MB/stldextract-1.6  64% |####################           | ETA:  0:00:00  72.81 MB/stldextract-1.6  77% |########################       | ETA:  0:00:00  75.03 MB/stldextract-1.6  90% |############################   | ETA:  0:00:00  11.94 MB/stldextract-1.6 100% |###############################| ETA:  0:00:00  12.93 MB/stldextract-1.6 100% |###############################| Time: 0:00:00  12.64 MB/s
 Extracting packages ...
 [      COMPLETE      ]|                                                  |   0%[tldextract          ]|                                                  |   0%[tldextract          ]|                                                  |   0%[      COMPLETE      ]|##################################################| 100%
 Linking packages ...

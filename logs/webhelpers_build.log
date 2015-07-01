@@ -1,0 +1,239 @@
+Removing old build directory
+Removing old work directory
+BUILD START: webhelpers-1.3-py_0
+Fetching package metadata: ......
+
+WARNING: conda-build appears to be out of date. You have version 1.13.0 but the
+latest version is 1.14.1. Run
+
+conda update -n root conda-build
+
+to get the latest version.
+
+Solving package specifications: .+ /home/ubuntu/miniconda/envs/_build/bin/python setup.py install
+running install
+running bdist_egg
+running egg_info
+writing requirements to WebHelpers.egg-info/requires.txt
+writing WebHelpers.egg-info/PKG-INFO
+writing top-level names to WebHelpers.egg-info/top_level.txt
+writing dependency_links to WebHelpers.egg-info/dependency_links.txt
+writing entry points to WebHelpers.egg-info/entry_points.txt
+reading manifest file 'WebHelpers.egg-info/SOURCES.txt'
+reading manifest template 'MANIFEST.in'
+no previously-included directories found matching 'docs/_build'
+writing manifest file 'WebHelpers.egg-info/SOURCES.txt'
+installing library code to build/bdist.linux-x86_64/egg
+running install_lib
+running build_py
+creating build
+creating build/lib
+creating build/lib/webhelpers
+copying webhelpers/textile.py -> build/lib/webhelpers
+copying webhelpers/date.py -> build/lib/webhelpers
+copying webhelpers/media.py -> build/lib/webhelpers
+copying webhelpers/paginate.py -> build/lib/webhelpers
+copying webhelpers/containers.py -> build/lib/webhelpers
+copying webhelpers/number.py -> build/lib/webhelpers
+copying webhelpers/util.py -> build/lib/webhelpers
+copying webhelpers/text.py -> build/lib/webhelpers
+copying webhelpers/constants.py -> build/lib/webhelpers
+copying webhelpers/misc.py -> build/lib/webhelpers
+copying webhelpers/__init__.py -> build/lib/webhelpers
+copying webhelpers/mimehelper.py -> build/lib/webhelpers
+copying webhelpers/feedgenerator.py -> build/lib/webhelpers
+copying webhelpers/markdown.py -> build/lib/webhelpers
+creating build/lib/webhelpers/html
+copying webhelpers/html/render.py -> build/lib/webhelpers/html
+copying webhelpers/html/tools.py -> build/lib/webhelpers/html
+copying webhelpers/html/grid_demo.py -> build/lib/webhelpers/html
+copying webhelpers/html/tags.py -> build/lib/webhelpers/html
+copying webhelpers/html/grid.py -> build/lib/webhelpers/html
+copying webhelpers/html/builder.py -> build/lib/webhelpers/html
+copying webhelpers/html/converters.py -> build/lib/webhelpers/html
+copying webhelpers/html/__init__.py -> build/lib/webhelpers/html
+creating build/lib/webhelpers/pylonslib
+copying webhelpers/pylonslib/_jsmin.py -> build/lib/webhelpers/pylonslib
+copying webhelpers/pylonslib/flash.py -> build/lib/webhelpers/pylonslib
+copying webhelpers/pylonslib/grid.py -> build/lib/webhelpers/pylonslib
+copying webhelpers/pylonslib/__init__.py -> build/lib/webhelpers/pylonslib
+copying webhelpers/pylonslib/secure_form.py -> build/lib/webhelpers/pylonslib
+copying webhelpers/pylonslib/minify.py -> build/lib/webhelpers/pylonslib
+creating build/lib/webhelpers/public
+creating build/lib/webhelpers/public/stylesheets
+copying webhelpers/public/stylesheets/grid.css -> build/lib/webhelpers/public/stylesheets
+copying webhelpers/public/stylesheets/webhelpers.css -> build/lib/webhelpers/public/stylesheets
+creating build/bdist.linux-x86_64
+creating build/bdist.linux-x86_64/egg
+creating build/bdist.linux-x86_64/egg/webhelpers
+copying build/lib/webhelpers/textile.py -> build/bdist.linux-x86_64/egg/webhelpers
+copying build/lib/webhelpers/date.py -> build/bdist.linux-x86_64/egg/webhelpers
+copying build/lib/webhelpers/media.py -> build/bdist.linux-x86_64/egg/webhelpers
+copying build/lib/webhelpers/paginate.py -> build/bdist.linux-x86_64/egg/webhelpers
+copying build/lib/webhelpers/containers.py -> build/bdist.linux-x86_64/egg/webhelpers
+copying build/lib/webhelpers/number.py -> build/bdist.linux-x86_64/egg/webhelpers
+copying build/lib/webhelpers/util.py -> build/bdist.linux-x86_64/egg/webhelpers
+creating build/bdist.linux-x86_64/egg/webhelpers/public
+creating build/bdist.linux-x86_64/egg/webhelpers/public/stylesheets
+copying build/lib/webhelpers/public/stylesheets/webhelpers.css -> build/bdist.linux-x86_64/egg/webhelpers/public/stylesheets
+copying build/lib/webhelpers/public/stylesheets/grid.css -> build/bdist.linux-x86_64/egg/webhelpers/public/stylesheets
+copying build/lib/webhelpers/text.py -> build/bdist.linux-x86_64/egg/webhelpers
+copying build/lib/webhelpers/constants.py -> build/bdist.linux-x86_64/egg/webhelpers
+creating build/bdist.linux-x86_64/egg/webhelpers/html
+copying build/lib/webhelpers/html/render.py -> build/bdist.linux-x86_64/egg/webhelpers/html
+copying build/lib/webhelpers/html/tools.py -> build/bdist.linux-x86_64/egg/webhelpers/html
+copying build/lib/webhelpers/html/grid_demo.py -> build/bdist.linux-x86_64/egg/webhelpers/html
+copying build/lib/webhelpers/html/tags.py -> build/bdist.linux-x86_64/egg/webhelpers/html
+copying build/lib/webhelpers/html/grid.py -> build/bdist.linux-x86_64/egg/webhelpers/html
+copying build/lib/webhelpers/html/builder.py -> build/bdist.linux-x86_64/egg/webhelpers/html
+copying build/lib/webhelpers/html/converters.py -> build/bdist.linux-x86_64/egg/webhelpers/html
+copying build/lib/webhelpers/html/__init__.py -> build/bdist.linux-x86_64/egg/webhelpers/html
+copying build/lib/webhelpers/misc.py -> build/bdist.linux-x86_64/egg/webhelpers
+copying build/lib/webhelpers/__init__.py -> build/bdist.linux-x86_64/egg/webhelpers
+creating build/bdist.linux-x86_64/egg/webhelpers/pylonslib
+copying build/lib/webhelpers/pylonslib/_jsmin.py -> build/bdist.linux-x86_64/egg/webhelpers/pylonslib
+copying build/lib/webhelpers/pylonslib/flash.py -> build/bdist.linux-x86_64/egg/webhelpers/pylonslib
+copying build/lib/webhelpers/pylonslib/grid.py -> build/bdist.linux-x86_64/egg/webhelpers/pylonslib
+copying build/lib/webhelpers/pylonslib/__init__.py -> build/bdist.linux-x86_64/egg/webhelpers/pylonslib
+copying build/lib/webhelpers/pylonslib/secure_form.py -> build/bdist.linux-x86_64/egg/webhelpers/pylonslib
+copying build/lib/webhelpers/pylonslib/minify.py -> build/bdist.linux-x86_64/egg/webhelpers/pylonslib
+copying build/lib/webhelpers/mimehelper.py -> build/bdist.linux-x86_64/egg/webhelpers
+copying build/lib/webhelpers/feedgenerator.py -> build/bdist.linux-x86_64/egg/webhelpers
+copying build/lib/webhelpers/markdown.py -> build/bdist.linux-x86_64/egg/webhelpers
+byte-compiling build/bdist.linux-x86_64/egg/webhelpers/textile.py to textile.pyc
+byte-compiling build/bdist.linux-x86_64/egg/webhelpers/date.py to date.pyc
+byte-compiling build/bdist.linux-x86_64/egg/webhelpers/media.py to media.pyc
+byte-compiling build/bdist.linux-x86_64/egg/webhelpers/paginate.py to paginate.pyc
+byte-compiling build/bdist.linux-x86_64/egg/webhelpers/containers.py to containers.pyc
+byte-compiling build/bdist.linux-x86_64/egg/webhelpers/number.py to number.pyc
+byte-compiling build/bdist.linux-x86_64/egg/webhelpers/util.py to util.pyc
+byte-compiling build/bdist.linux-x86_64/egg/webhelpers/text.py to text.pyc
+byte-compiling build/bdist.linux-x86_64/egg/webhelpers/constants.py to constants.pyc
+byte-compiling build/bdist.linux-x86_64/egg/webhelpers/html/render.py to render.pyc
+byte-compiling build/bdist.linux-x86_64/egg/webhelpers/html/tools.py to tools.pyc
+byte-compiling build/bdist.linux-x86_64/egg/webhelpers/html/grid_demo.py to grid_demo.pyc
+byte-compiling build/bdist.linux-x86_64/egg/webhelpers/html/tags.py to tags.pyc
+byte-compiling build/bdist.linux-x86_64/egg/webhelpers/html/grid.py to grid.pyc
+byte-compiling build/bdist.linux-x86_64/egg/webhelpers/html/builder.py to builder.pyc
+byte-compiling build/bdist.linux-x86_64/egg/webhelpers/html/converters.py to converters.pyc
+byte-compiling build/bdist.linux-x86_64/egg/webhelpers/html/__init__.py to __init__.pyc
+byte-compiling build/bdist.linux-x86_64/egg/webhelpers/misc.py to misc.pyc
+byte-compiling build/bdist.linux-x86_64/egg/webhelpers/__init__.py to __init__.pyc
+byte-compiling build/bdist.linux-x86_64/egg/webhelpers/pylonslib/_jsmin.py to _jsmin.pyc
+byte-compiling build/bdist.linux-x86_64/egg/webhelpers/pylonslib/flash.py to flash.pyc
+byte-compiling build/bdist.linux-x86_64/egg/webhelpers/pylonslib/grid.py to grid.pyc
+byte-compiling build/bdist.linux-x86_64/egg/webhelpers/pylonslib/__init__.py to __init__.pyc
+byte-compiling build/bdist.linux-x86_64/egg/webhelpers/pylonslib/secure_form.py to secure_form.pyc
+byte-compiling build/bdist.linux-x86_64/egg/webhelpers/pylonslib/minify.py to minify.pyc
+byte-compiling build/bdist.linux-x86_64/egg/webhelpers/mimehelper.py to mimehelper.pyc
+byte-compiling build/bdist.linux-x86_64/egg/webhelpers/feedgenerator.py to feedgenerator.pyc
+byte-compiling build/bdist.linux-x86_64/egg/webhelpers/markdown.py to markdown.pyc
+creating build/bdist.linux-x86_64/egg/EGG-INFO
+copying WebHelpers.egg-info/PKG-INFO -> build/bdist.linux-x86_64/egg/EGG-INFO
+copying WebHelpers.egg-info/SOURCES.txt -> build/bdist.linux-x86_64/egg/EGG-INFO
+copying WebHelpers.egg-info/dependency_links.txt -> build/bdist.linux-x86_64/egg/EGG-INFO
+copying WebHelpers.egg-info/entry_points.txt -> build/bdist.linux-x86_64/egg/EGG-INFO
+copying WebHelpers.egg-info/not-zip-safe -> build/bdist.linux-x86_64/egg/EGG-INFO
+copying WebHelpers.egg-info/requires.txt -> build/bdist.linux-x86_64/egg/EGG-INFO
+copying WebHelpers.egg-info/top_level.txt -> build/bdist.linux-x86_64/egg/EGG-INFO
+creating dist
+creating 'dist/WebHelpers-1.3-py2.7.egg' and adding 'build/bdist.linux-x86_64/egg' to it
+removing 'build/bdist.linux-x86_64/egg' (and everything under it)
+Processing WebHelpers-1.3-py2.7.egg
+creating /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/WebHelpers-1.3-py2.7.egg
+Extracting WebHelpers-1.3-py2.7.egg to /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages
+Adding WebHelpers 1.3 to easy-install.pth file
+
+Installed /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/WebHelpers-1.3-py2.7.egg
+Processing dependencies for WebHelpers==1.3
+Searching for MarkupSafe==0.23
+Best match: MarkupSafe 0.23
+Adding MarkupSafe 0.23 to easy-install.pth file
+
+Using /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages
+Finished processing dependencies for WebHelpers==1.3
+
+The following NEW packages will be INSTALLED:
+
+    markupsafe: 0.23-py27_0  
+    openssl:    1.0.1k-1     
+    pip:        7.0.3-py27_0 
+    python:     2.7.10-0     
+    readline:   6.2-2        
+    setuptools: 18.0.1-py27_0
+    sqlite:     3.8.4.1-1    
+    system:     5.8-2        
+    tk:         8.5.18-0     
+    zlib:       1.2.8-0      
+
+Linking packages ...
+[                    ]|                                                  |   0%[openssl             ]|                                                  |   0%[readline            ]|#####                                             |  10%[sqlite              ]|##########                                        |  20%[system              ]|###############                                   |  30%[tk                  ]|####################                              |  40%[zlib                ]|#########################                         |  50%[markupsafe          ]|##############################                    |  60%[python              ]|###################################               |  70%[setuptools          ]|########################################          |  80%[pip                 ]|#############################################     |  90%[      COMPLETE      ]|##################################################| 100%
+Removing old work directory
+Source cache directory is: /home/ubuntu/miniconda/conda-bld/src_cache
+Found source in cache: WebHelpers-1.3.tar.gz
+Extracting download
+Package: webhelpers-1.3-py_0
+source tree in: /home/ubuntu/miniconda/conda-bld/work/WebHelpers-1.3
+found egg dir: /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/WebHelpers-1.3-py2.7.egg
+number of files: 59
+Fixing permissions
+Fixing permissions
+BUILD END: webhelpers-1.3-py_0
+TEST START: webhelpers-1.3-py_0
+Fetching package metadata: ......
+
+WARNING: conda-build appears to be out of date. You have version 1.13.0 but the
+latest version is 1.14.1. Run
+
+conda update -n root conda-build
+
+to get the latest version.
+
+Solving package specifications: .........................
+Warning: 2 possible package resolutions (only showing differing packages):
+	[u'webob-1.4.1-py_0.tar.bz2'],
+	[u'webob-1.4.1-py27_0.tar.bz2'],
+===== testing package: webhelpers-1.3-py_0 =====
+import: u'webhelpers'
+import: u'webhelpers.html'
+import: u'webhelpers.pylonslib'
+===== webhelpers-1.3-py_0 OK =====
+
+The following packages will be downloaded:
+
+    package                    |            build
+    ---------------------------|-----------------
+    webhelpers-1.3             |             py_0         113 KB
+
+The following NEW packages will be INSTALLED:
+
+    markupsafe: 0.23-py27_0  
+    nose:       1.3.7-py27_0 
+    openssl:    1.0.1k-1     
+    pip:        7.0.3-py27_0 
+    python:     2.7.10-0     
+    readline:   6.2-2        
+    repoze.lru: 0.6-py_0     
+    routes:     2.1-py27_0   
+    setuptools: 18.0.1-py27_0
+    sqlite:     3.8.4.1-1    
+    system:     5.8-2        
+    tk:         8.5.18-0     
+    webhelpers: 1.3-py_0     
+    webob:      1.4.1-py_0   
+    zlib:       1.2.8-0      
+
+Fetching packages ...
+webhelpers-1.3   0% |                              | ETA:  --:--:--   0.00  B/swebhelpers-1.3  14% |####                           | ETA:  0:00:00  45.78 MB/swebhelpers-1.3  28% |########                       | ETA:  0:00:00  57.10 MB/swebhelpers-1.3  42% |#############                  | ETA:  0:00:00  62.15 MB/swebhelpers-1.3  56% |#################              | ETA:  0:00:00  66.54 MB/swebhelpers-1.3  70% |#####################          | ETA:  0:00:00  69.84 MB/swebhelpers-1.3  84% |##########################     | ETA:  0:00:00  72.45 MB/swebhelpers-1.3  98% |############################## | ETA:  0:00:00  74.38 MB/swebhelpers-1.3 100% |###############################| ETA:  0:00:00  69.16 MB/swebhelpers-1.3 100% |###############################| Time: 0:00:00  60.67 MB/s
+Extracting packages ...
+[      COMPLETE      ]|                                                  |   0%[webhelpers          ]|                                                  |   0%[webhelpers          ]|                                                  |   0%[      COMPLETE      ]|##################################################| 100%
+Linking packages ...
+[      COMPLETE      ]|                                                  |   0%[openssl             ]|                                                  |   0%[openssl             ]|                                                  |   0%[readline            ]|###                                               |   6%[sqlite              ]|######                                            |  13%[system              ]|##########                                        |  20%[tk                  ]|#############                                     |  26%[zlib                ]|################                                  |  33%[markupsafe          ]|####################                              |  40%[nose                ]|#######################                           |  46%[python              ]|##########################                        |  53%[repoze.lru          ]|##############################                    |  60%[setuptools          ]|#################################                 |  66%[webhelpers          ]|####################################              |  73%[webob               ]|########################################          |  80%[pip                 ]|###########################################       |  86%[routes              ]|##############################################    |  93%[      COMPLETE      ]|##################################################| 100%
+TEST END: webhelpers-1.3-py_0
+# If you want to upload this package to binstar.org later, type:
+#
+# $ binstar upload /home/ubuntu/miniconda/conda-bld/noarch/webhelpers-1.3-py_0.tar.bz2
+#
+# To have conda build upload to binstar automatically, use
+# $ conda config --set binstar_upload yes
+

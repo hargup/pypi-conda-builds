@@ -2,6 +2,14 @@ Removing old build directory
 Removing old work directory
 BUILD START: sqlparse-0.1.15-py27_0
 Fetching package metadata: ......
+
+WARNING: conda-build appears to be out of date. You have version 1.13.0 but the
+latest version is 1.14.1. Run
+
+conda update -n root conda-build
+
+to get the latest version.
+
 Solving package specifications: .+ /home/ubuntu/miniconda/envs/_build/bin/python setup.py install
 running install
 running bdist_egg
@@ -94,15 +102,15 @@ Finished processing dependencies for sqlparse==0.1.15
 
 The following NEW packages will be INSTALLED:
 
-    openssl:    1.0.1k-1    
-    pip:        7.0.3-py27_0
-    python:     2.7.10-0    
-    readline:   6.2-2       
-    setuptools: 17.0-py27_0 
-    sqlite:     3.8.4.1-1   
-    system:     5.8-2       
-    tk:         8.5.18-0    
-    zlib:       1.2.8-0     
+    openssl:    1.0.1k-1     
+    pip:        7.0.3-py27_0 
+    python:     2.7.10-0     
+    readline:   6.2-2        
+    setuptools: 18.0.1-py27_0
+    sqlite:     3.8.4.1-1    
+    system:     5.8-2        
+    tk:         8.5.18-0     
+    zlib:       1.2.8-0      
 
 Linking packages ...
 [                    ]|                                                  |   0%[openssl             ]|                                                  |   0%[readline            ]|#####                                             |  11%[sqlite              ]|###########                                       |  22%[system              ]|################                                  |  33%[tk                  ]|######################                            |  44%[zlib                ]|###########################                       |  55%[python              ]|#################################                 |  66%[setuptools          ]|######################################            |  77%[pip                 ]|############################################      |  88%[      COMPLETE      ]|##################################################| 100%
@@ -120,6 +128,14 @@ Fixing permissions
 BUILD END: sqlparse-0.1.15-py27_0
 TEST START: sqlparse-0.1.15-py27_0
 Fetching package metadata: ......
+
+WARNING: conda-build appears to be out of date. You have version 1.13.0 but the
+latest version is 1.14.1. Run
+
+conda update -n root conda-build
+
+to get the latest version.
+
 Solving package specifications: .===== testing package: sqlparse-0.1.15-py27_0 =====
 import: u'sqlparse'
 import: u'sqlparse.engine'
@@ -137,7 +153,7 @@ The following NEW packages will be INSTALLED:
     pip:        7.0.3-py27_0 
     python:     2.7.10-0     
     readline:   6.2-2        
-    setuptools: 17.0-py27_0  
+    setuptools: 18.0.1-py27_0
     sqlite:     3.8.4.1-1    
     sqlparse:   0.1.15-py27_0
     system:     5.8-2        
@@ -145,7 +161,7 @@ The following NEW packages will be INSTALLED:
     zlib:       1.2.8-0      
 
 Fetching packages ...
-sqlparse-0.1.1   0% |                              | ETA:  --:--:--   0.00  B/ssqlparse-0.1.1  21% |######                         | ETA:  0:00:00  45.39 MB/ssqlparse-0.1.1  42% |#############                  | ETA:  0:00:00  54.98 MB/ssqlparse-0.1.1  64% |###################            | ETA:  0:00:00  61.82 MB/ssqlparse-0.1.1  85% |##########################     | ETA:  0:00:00  66.40 MB/ssqlparse-0.1.1 100% |###############################| ETA:  0:00:00  66.13 MB/ssqlparse-0.1.1 100% |###############################| Time: 0:00:00  54.96 MB/s
+sqlparse-0.1.1   0% |                              | ETA:  --:--:--   0.00  B/ssqlparse-0.1.1  21% |######                         | ETA:  0:00:00  46.15 MB/ssqlparse-0.1.1  42% |#############                  | ETA:  0:00:00  57.89 MB/ssqlparse-0.1.1  64% |###################            | ETA:  0:00:00  64.77 MB/ssqlparse-0.1.1  85% |##########################     | ETA:  0:00:00  69.13 MB/ssqlparse-0.1.1 100% |###############################| ETA:  0:00:00   8.21 MB/ssqlparse-0.1.1 100% |###############################| Time: 0:00:00   7.99 MB/s
 Extracting packages ...
 [      COMPLETE      ]|                                                  |   0%[sqlparse            ]|                                                  |   0%[sqlparse            ]|                                                  |   0%[      COMPLETE      ]|##################################################| 100%
 Linking packages ...

@@ -1,34 +1,53 @@
-Error: prefix already exists: /home/ubuntu/miniconda/envs/_pipbuild_
-Collecting django-taggit==0.15.0
-  Could not find a version that satisfies the requirement django-taggit==0.15.0 (from versions: 0.2.0, 0.4.0, 0.6.0, 0.8.0, 0.9.0, 0.9.1, 0.9.2, 0.9.3, 0.10a1, 0.10, 0.11, 0.11.1, 0.11.2, 0.12, 0.12.1, 0.12.2, 0.12.3, 0.13.0, 0.14.0)
-No matching distribution found for django-taggit==0.15.0
-Package search: {'_pypi_ordering': False, 'version': '0.15.0', 'name': 'django-taggit', 'summary': 'django-taggit is a reusable Django application for simple tagging.'}
-Creating standard recipe for django-taggit-0.15.0
-Using url https://pypi.python.org/packages/source/d/django-taggit/django-taggit-0.15.0.tar.gz (49 KB) for django-taggit.
-Downloading django-taggit
-Unpacking django-taggit...
-done
-working in /tmp/tmp7nL0S_conda_skeleton_django-taggit-0.15.0.tar.gz
+Removing old build directory
+Removing old work directory
+BUILD START: django-taggit-0.15.0-py_0
 Fetching package metadata: ......
 
 WARNING: conda-build appears to be out of date. You have version 1.13.0 but the
-latest version is 1.14.0. Run
+latest version is 1.14.1. Run
 
 conda update -n root conda-build
 
 to get the latest version.
 
-Solving package specifications: .patching file core.py
-Hunk #1 succeeded at 168 with fuzz 2 (offset 2 lines).
-Traceback (most recent call last):
-  File "setup.py", line 1, in <module>
-    from setuptools import setup, find_packages
-ImportError: No module named setuptools
+Solving package specifications: .+ pip install django-taggit
+Collecting django-taggit
+  Downloading http://localhost/packages/2.7/d/django-taggit/django_taggit-0.14.0-py2.py3-none-any.whl
+Installing collected packages: django-taggit
+Successfully installed django-taggit-0.14.0
 
-Applying patch: '/tmp/tmp7nL0S_conda_skeleton_django-taggit-0.15.0.tar.gz/pypi-distutils.patch'
-$PYTHONPATH = /tmp/tmp7nL0S_conda_skeleton_django-taggit-0.15.0.tar.gz/django-taggit-0.15.0
-Error: command failed: /home/ubuntu/miniconda/envs/_build/bin/python setup.py install
+The following NEW packages will be INSTALLED:
 
-conda create -n _pipbuild_ --yes python pip
-/home/ubuntu/miniconda/envs/_pipbuild_/bin/pip install django-taggit==0.15.0
-Error: Could not pip install django-taggit==0.15.0
+    openssl:    1.0.1k-1     
+    pip:        7.0.3-py27_0 
+    python:     2.7.10-0     
+    readline:   6.2-2        
+    setuptools: 18.0.1-py27_0
+    sqlite:     3.8.4.1-1    
+    system:     5.8-2        
+    tk:         8.5.18-0     
+    zlib:       1.2.8-0      
+
+Linking packages ...
+[                    ]|                                                  |   0%[openssl             ]|                                                  |   0%[readline            ]|#####                                             |  11%[sqlite              ]|###########                                       |  22%[system              ]|################                                  |  33%[tk                  ]|######################                            |  44%[zlib                ]|###########################                       |  55%[python              ]|#################################                 |  66%[setuptools          ]|######################################            |  77%[pip                 ]|############################################      |  88%[      COMPLETE      ]|##################################################| 100%
+Removing old work directory
+Copying /home/ubuntu/pypi-conda-builds/django-taggit to /home/ubuntu/miniconda/conda-bld/work
+Package: django-taggit-0.15.0-py_0
+source tree in: /home/ubuntu/miniconda/conda-bld/work
+number of files: 52
+Fixing permissions
+Fixing permissions
+BUILD END: django-taggit-0.15.0-py_0
+# If you want to upload this package to binstar.org later, type:
+#
+# $ binstar upload /home/ubuntu/miniconda/conda-bld/noarch/django-taggit-0.15.0-py_0.tar.bz2
+#
+# To have conda build upload to binstar automatically, use
+# $ conda config --set binstar_upload yes
+
+Package search: {'_pypi_ordering': False, 'version': '0.15.0', 'name': 'django-taggit', 'summary': 'django-taggit is a reusable Django application for simple tagging.'}
+Creating standard recipe for django-taggit-0.15.0
+Converting recipe in /home/ubuntu/pypi-conda-builds/django-taggit
+package = django-taggit
+   dependencies = []
+Building conda package for django-taggit

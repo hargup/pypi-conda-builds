@@ -1,0 +1,401 @@
+Removing old build directory
+Removing old work directory
+BUILD START: guppy-0.1.10-py_0
+Fetching package metadata: ......
+
+WARNING: conda-build appears to be out of date. You have version 1.13.0 but the
+latest version is 1.14.1. Run
+
+conda update -n root conda-build
+
+to get the latest version.
+
+Solving package specifications: .+ /home/ubuntu/miniconda/envs/_build/bin/python setup.py install
+running install
+running build
+running build_py
+creating build
+creating build/lib.linux-x86_64-2.7
+creating build/lib.linux-x86_64-2.7/guppy
+copying guppy/__init__.py -> build/lib.linux-x86_64-2.7/guppy
+creating build/lib.linux-x86_64-2.7/guppy/doc
+copying guppy/doc/__init__.py -> build/lib.linux-x86_64-2.7/guppy/doc
+creating build/lib.linux-x86_64-2.7/guppy/etc
+copying guppy/etc/etc.py -> build/lib.linux-x86_64-2.7/guppy/etc
+copying guppy/etc/xterm.py -> build/lib.linux-x86_64-2.7/guppy/etc
+copying guppy/etc/KnuthBendix.py -> build/lib.linux-x86_64-2.7/guppy/etc
+copying guppy/etc/Unpack.py -> build/lib.linux-x86_64-2.7/guppy/etc
+copying guppy/etc/OutputHandling.py -> build/lib.linux-x86_64-2.7/guppy/etc
+copying guppy/etc/Code.py -> build/lib.linux-x86_64-2.7/guppy/etc
+copying guppy/etc/RE_Rect.py -> build/lib.linux-x86_64-2.7/guppy/etc
+copying guppy/etc/FSA.py -> build/lib.linux-x86_64-2.7/guppy/etc
+copying guppy/etc/Help.py -> build/lib.linux-x86_64-2.7/guppy/etc
+copying guppy/etc/KanExtension.py -> build/lib.linux-x86_64-2.7/guppy/etc
+copying guppy/etc/Glue.py -> build/lib.linux-x86_64-2.7/guppy/etc
+copying guppy/etc/textView.py -> build/lib.linux-x86_64-2.7/guppy/etc
+copying guppy/etc/Compat.py -> build/lib.linux-x86_64-2.7/guppy/etc
+copying guppy/etc/cmd.py -> build/lib.linux-x86_64-2.7/guppy/etc
+copying guppy/etc/IterPermute.py -> build/lib.linux-x86_64-2.7/guppy/etc
+copying guppy/etc/__init__.py -> build/lib.linux-x86_64-2.7/guppy/etc
+copying guppy/etc/RE.py -> build/lib.linux-x86_64-2.7/guppy/etc
+copying guppy/etc/Cat.py -> build/lib.linux-x86_64-2.7/guppy/etc
+copying guppy/etc/ExecfileWithModuleInfo.py -> build/lib.linux-x86_64-2.7/guppy/etc
+copying guppy/etc/tkcursors.py -> build/lib.linux-x86_64-2.7/guppy/etc
+creating build/lib.linux-x86_64-2.7/guppy/gsl
+copying guppy/gsl/Main.py -> build/lib.linux-x86_64-2.7/guppy/gsl
+copying guppy/gsl/Filer.py -> build/lib.linux-x86_64-2.7/guppy/gsl
+copying guppy/gsl/XHTML.py -> build/lib.linux-x86_64-2.7/guppy/gsl
+copying guppy/gsl/Html.py -> build/lib.linux-x86_64-2.7/guppy/gsl
+copying guppy/gsl/Gsml.py -> build/lib.linux-x86_64-2.7/guppy/gsl
+copying guppy/gsl/Tester.py -> build/lib.linux-x86_64-2.7/guppy/gsl
+copying guppy/gsl/Help.py -> build/lib.linux-x86_64-2.7/guppy/gsl
+copying guppy/gsl/SpecNodes.py -> build/lib.linux-x86_64-2.7/guppy/gsl
+copying guppy/gsl/Document.py -> build/lib.linux-x86_64-2.7/guppy/gsl
+copying guppy/gsl/__init__.py -> build/lib.linux-x86_64-2.7/guppy/gsl
+copying guppy/gsl/Text.py -> build/lib.linux-x86_64-2.7/guppy/gsl
+copying guppy/gsl/Latex.py -> build/lib.linux-x86_64-2.7/guppy/gsl
+copying guppy/gsl/FileIO.py -> build/lib.linux-x86_64-2.7/guppy/gsl
+copying guppy/gsl/Exceptions.py -> build/lib.linux-x86_64-2.7/guppy/gsl
+copying guppy/gsl/DottedTree.py -> build/lib.linux-x86_64-2.7/guppy/gsl
+creating build/lib.linux-x86_64-2.7/guppy/heapy
+copying guppy/heapy/Use.py -> build/lib.linux-x86_64-2.7/guppy/heapy
+copying guppy/heapy/Part.py -> build/lib.linux-x86_64-2.7/guppy/heapy
+copying guppy/heapy/pbhelp.py -> build/lib.linux-x86_64-2.7/guppy/heapy
+copying guppy/heapy/View.py -> build/lib.linux-x86_64-2.7/guppy/heapy
+copying guppy/heapy/Remote.py -> build/lib.linux-x86_64-2.7/guppy/heapy
+copying guppy/heapy/OutputHandling.py -> build/lib.linux-x86_64-2.7/guppy/heapy
+copying guppy/heapy/Classifiers.py -> build/lib.linux-x86_64-2.7/guppy/heapy
+copying guppy/heapy/Doc.py -> build/lib.linux-x86_64-2.7/guppy/heapy
+copying guppy/heapy/Target.py -> build/lib.linux-x86_64-2.7/guppy/heapy
+copying guppy/heapy/Console.py -> build/lib.linux-x86_64-2.7/guppy/heapy
+copying guppy/heapy/Monitor.py -> build/lib.linux-x86_64-2.7/guppy/heapy
+copying guppy/heapy/UniSet.py -> build/lib.linux-x86_64-2.7/guppy/heapy
+copying guppy/heapy/RemoteConstants.py -> build/lib.linux-x86_64-2.7/guppy/heapy
+copying guppy/heapy/RM.py -> build/lib.linux-x86_64-2.7/guppy/heapy
+copying guppy/heapy/ImpSet.py -> build/lib.linux-x86_64-2.7/guppy/heapy
+copying guppy/heapy/AbstractAlgebra.py -> build/lib.linux-x86_64-2.7/guppy/heapy
+copying guppy/heapy/__init__.py -> build/lib.linux-x86_64-2.7/guppy/heapy
+copying guppy/heapy/Spec.py -> build/lib.linux-x86_64-2.7/guppy/heapy
+copying guppy/heapy/Path.py -> build/lib.linux-x86_64-2.7/guppy/heapy
+copying guppy/heapy/Prof.py -> build/lib.linux-x86_64-2.7/guppy/heapy
+copying guppy/heapy/RefPat.py -> build/lib.linux-x86_64-2.7/guppy/heapy
+creating build/lib.linux-x86_64-2.7/guppy/heapy/test
+copying guppy/heapy/test/test_heapyc.py -> build/lib.linux-x86_64-2.7/guppy/heapy/test
+copying guppy/heapy/test/test_OutputHandling.py -> build/lib.linux-x86_64-2.7/guppy/heapy/test
+copying guppy/heapy/test/test_menuleak.py -> build/lib.linux-x86_64-2.7/guppy/heapy/test
+copying guppy/heapy/test/test_Spec.py -> build/lib.linux-x86_64-2.7/guppy/heapy/test
+copying guppy/heapy/test/test_UniSet.py -> build/lib.linux-x86_64-2.7/guppy/heapy/test
+copying guppy/heapy/test/support.py -> build/lib.linux-x86_64-2.7/guppy/heapy/test
+copying guppy/heapy/test/test_sf.py -> build/lib.linux-x86_64-2.7/guppy/heapy/test
+copying guppy/heapy/test/test_Path.py -> build/lib.linux-x86_64-2.7/guppy/heapy/test
+copying guppy/heapy/test/test_RetaGraph.py -> build/lib.linux-x86_64-2.7/guppy/heapy/test
+copying guppy/heapy/test/test_RefPat.py -> build/lib.linux-x86_64-2.7/guppy/heapy/test
+copying guppy/heapy/test/test_ER.py -> build/lib.linux-x86_64-2.7/guppy/heapy/test
+copying guppy/heapy/test/test_Part.py -> build/lib.linux-x86_64-2.7/guppy/heapy/test
+copying guppy/heapy/test/__init__.py -> build/lib.linux-x86_64-2.7/guppy/heapy/test
+copying guppy/heapy/test/test_dependencies.py -> build/lib.linux-x86_64-2.7/guppy/heapy/test
+copying guppy/heapy/test/test_Classifiers.py -> build/lib.linux-x86_64-2.7/guppy/heapy/test
+copying guppy/heapy/test/test_View.py -> build/lib.linux-x86_64-2.7/guppy/heapy/test
+copying guppy/heapy/test/test_all.py -> build/lib.linux-x86_64-2.7/guppy/heapy/test
+creating build/lib.linux-x86_64-2.7/guppy/sets
+copying guppy/sets/__init__.py -> build/lib.linux-x86_64-2.7/guppy/sets
+copying guppy/sets/test.py -> build/lib.linux-x86_64-2.7/guppy/sets
+copying guppy/doc/heapy_RootState.html -> build/lib.linux-x86_64-2.7/guppy/doc
+copying guppy/doc/index.html -> build/lib.linux-x86_64-2.7/guppy/doc
+copying guppy/doc/guppy.html -> build/lib.linux-x86_64-2.7/guppy/doc
+copying guppy/doc/docexample.html -> build/lib.linux-x86_64-2.7/guppy/doc
+copying guppy/doc/gsl.html -> build/lib.linux-x86_64-2.7/guppy/doc
+copying guppy/doc/ProfileBrowser.html -> build/lib.linux-x86_64-2.7/guppy/doc
+copying guppy/doc/heapy_tutorial.html -> build/lib.linux-x86_64-2.7/guppy/doc
+copying guppy/doc/heapy_Use.html -> build/lib.linux-x86_64-2.7/guppy/doc
+copying guppy/doc/heapy_UniSet.html -> build/lib.linux-x86_64-2.7/guppy/doc
+copying guppy/doc/gslexample.html -> build/lib.linux-x86_64-2.7/guppy/doc
+copying guppy/doc/heapyc.html -> build/lib.linux-x86_64-2.7/guppy/doc
+copying guppy/doc/sets.html -> build/lib.linux-x86_64-2.7/guppy/doc
+copying guppy/doc/pbscreen.jpg -> build/lib.linux-x86_64-2.7/guppy/doc
+running build_ext
+building 'guppy.sets.setsc' extension
+creating build/temp.linux-x86_64-2.7
+creating build/temp.linux-x86_64-2.7/src
+creating build/temp.linux-x86_64-2.7/src/sets
+gcc -pthread -fno-strict-aliasing -g -O2 -DNDEBUG -g -fwrapv -O3 -Wall -Wstrict-prototypes -fPIC -I/home/ubuntu/miniconda/envs/_build/include/python2.7 -c src/sets/sets.c -o build/temp.linux-x86_64-2.7/src/sets/sets.o
+gcc -pthread -fno-strict-aliasing -g -O2 -DNDEBUG -g -fwrapv -O3 -Wall -Wstrict-prototypes -fPIC -I/home/ubuntu/miniconda/envs/_build/include/python2.7 -c src/sets/bitset.c -o build/temp.linux-x86_64-2.7/src/sets/bitset.o
+src/sets/bitset.c: In function ‘mutbitset_findpos_ins’:
+src/sets/bitset.c:1241:14: warning: variable ‘lo’ set but not used [-Wunused-but-set-variable]
+  NyBitField *lo, *hi;
+              ^
+src/sets/bitset.c: In function ‘mutbitset_iop_PyLongObject’:
+src/sets/bitset.c:2021:2: warning: passing argument 1 of ‘_PyLong_Frexp’ from incompatible pointer type [enabled by default]
+  x = _PyLong_Frexp(v, &e);
+  ^
+In file included from /home/ubuntu/miniconda/envs/_build/include/python2.7/Python.h:88:0,
+                 from src/sets/bitset.c:3:
+/home/ubuntu/miniconda/envs/_build/include/python2.7/longobject.h:43:20: note: expected ‘struct PyLongObject *’ but argument is of type ‘struct PyObject *’
+ PyAPI_FUNC(double) _PyLong_Frexp(PyLongObject *a, Py_ssize_t *e);
+                    ^
+src/sets/bitset.c:2021:2: warning: passing argument 2 of ‘_PyLong_Frexp’ from incompatible pointer type [enabled by default]
+  x = _PyLong_Frexp(v, &e);
+  ^
+In file included from /home/ubuntu/miniconda/envs/_build/include/python2.7/Python.h:88:0,
+                 from src/sets/bitset.c:3:
+/home/ubuntu/miniconda/envs/_build/include/python2.7/longobject.h:43:20: note: expected ‘Py_ssize_t *’ but argument is of type ‘int *’
+ PyAPI_FUNC(double) _PyLong_Frexp(PyLongObject *a, Py_ssize_t *e);
+                    ^
+src/sets/bitset.c:2034:2: warning: passing argument 1 of ‘_PyLong_Frexp’ from incompatible pointer type [enabled by default]
+  x = _PyLong_Frexp(v, &e);
+  ^
+In file included from /home/ubuntu/miniconda/envs/_build/include/python2.7/Python.h:88:0,
+                 from src/sets/bitset.c:3:
+/home/ubuntu/miniconda/envs/_build/include/python2.7/longobject.h:43:20: note: expected ‘struct PyLongObject *’ but argument is of type ‘struct PyObject *’
+ PyAPI_FUNC(double) _PyLong_Frexp(PyLongObject *a, Py_ssize_t *e);
+                    ^
+src/sets/bitset.c:2034:2: warning: passing argument 2 of ‘_PyLong_Frexp’ from incompatible pointer type [enabled by default]
+  x = _PyLong_Frexp(v, &e);
+  ^
+In file included from /home/ubuntu/miniconda/envs/_build/include/python2.7/Python.h:88:0,
+                 from src/sets/bitset.c:3:
+/home/ubuntu/miniconda/envs/_build/include/python2.7/longobject.h:43:20: note: expected ‘Py_ssize_t *’ but argument is of type ‘int *’
+ PyAPI_FUNC(double) _PyLong_Frexp(PyLongObject *a, Py_ssize_t *e);
+                    ^
+src/sets/bitset.c: In function ‘NyImmBitSet_Range’:
+src/sets/bitset.c:4546:26: warning: variable ‘fhi’ set but not used [-Wunused-but-set-variable]
+     NyBitField fst, *f, *fhi, fs[NyBits_N];
+                          ^
+src/sets/bitset.c: In function ‘mutbitset_iop_fields’:
+src/sets/bitset.c:1618:6: warning: ‘end_f’ may be used uninitialized in this function [-Wmaybe-uninitialized]
+      for (f = sf_getrange_mut(s, &end_f); f < end_f; f++) {
+      ^
+src/sets/bitset.c: In function ‘mutbitset_iop_fields.constprop.38’:
+src/sets/bitset.c:1618:6: warning: ‘end_f’ may be used uninitialized in this function [-Wmaybe-uninitialized]
+src/sets/bitset.c: In function ‘mutbitset_iop_mutset’:
+src/sets/bitset.c:1813:6: warning: ‘end_f’ may be used uninitialized in this function [-Wmaybe-uninitialized]
+      for (f = sf_getrange_mut(s, &end_f); f < end_f; f++) {
+      ^
+src/sets/bitset.c: In function ‘mutbitset_iop_PyLongObject’:
+src/sets/bitset.c:1694:6: warning: ‘end_f’ may be used uninitialized in this function [-Wmaybe-uninitialized]
+      for (f = sf_getrange_mut(s, &end_f); f < end_f; f++) {
+      ^
+src/sets/bitset.c:1650:21: note: ‘end_f’ was declared here
+     NyBitField *f, *end_f;
+                     ^
+src/sets/bitset.c: In function ‘NyMutBitSet_pop’:
+src/sets/bitset.c:2541:4: warning: ‘end_f’ may be used uninitialized in this function [-Wmaybe-uninitialized]
+    for (f = sf_getrange_mut(s, &end_f); f < end_f; f++) {
+    ^
+src/sets/bitset.c:2517:17: warning: ‘f’ may be used uninitialized in this function [-Wmaybe-uninitialized]
+     NyBitField *f, *end_f;
+                 ^
+gcc -pthread -fno-strict-aliasing -g -O2 -DNDEBUG -g -fwrapv -O3 -Wall -Wstrict-prototypes -fPIC -I/home/ubuntu/miniconda/envs/_build/include/python2.7 -c src/sets/nodeset.c -o build/temp.linux-x86_64-2.7/src/sets/nodeset.o
+gcc -pthread -shared -L/home/ubuntu/miniconda/envs/_build/lib -Wl,-rpath=/home/ubuntu/miniconda/envs/_build/lib,--no-as-needed build/temp.linux-x86_64-2.7/src/sets/sets.o build/temp.linux-x86_64-2.7/src/sets/bitset.o build/temp.linux-x86_64-2.7/src/sets/nodeset.o -L/home/ubuntu/miniconda/envs/_build/lib -lpython2.7 -o build/lib.linux-x86_64-2.7/guppy/sets/setsc.so
+building 'guppy.heapy.heapyc' extension
+creating build/temp.linux-x86_64-2.7/src/heapy
+gcc -pthread -fno-strict-aliasing -g -O2 -DNDEBUG -g -fwrapv -O3 -Wall -Wstrict-prototypes -fPIC -I/home/ubuntu/miniconda/envs/_build/include/python2.7 -c src/heapy/heapyc.c -o build/temp.linux-x86_64-2.7/src/heapy/heapyc.o
+gcc -pthread -fno-strict-aliasing -g -O2 -DNDEBUG -g -fwrapv -O3 -Wall -Wstrict-prototypes -fPIC -I/home/ubuntu/miniconda/envs/_build/include/python2.7 -c src/heapy/stdtypes.c -o build/temp.linux-x86_64-2.7/src/heapy/stdtypes.o
+gcc -pthread -shared -L/home/ubuntu/miniconda/envs/_build/lib -Wl,-rpath=/home/ubuntu/miniconda/envs/_build/lib,--no-as-needed build/temp.linux-x86_64-2.7/src/heapy/heapyc.o build/temp.linux-x86_64-2.7/src/heapy/stdtypes.o -L/home/ubuntu/miniconda/envs/_build/lib -lpython2.7 -o build/lib.linux-x86_64-2.7/guppy/heapy/heapyc.so
+running install_lib
+creating /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/guppy
+creating /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/guppy/doc
+copying build/lib.linux-x86_64-2.7/guppy/doc/pbscreen.jpg -> /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/guppy/doc
+copying build/lib.linux-x86_64-2.7/guppy/doc/heapy_RootState.html -> /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/guppy/doc
+copying build/lib.linux-x86_64-2.7/guppy/doc/index.html -> /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/guppy/doc
+copying build/lib.linux-x86_64-2.7/guppy/doc/guppy.html -> /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/guppy/doc
+copying build/lib.linux-x86_64-2.7/guppy/doc/docexample.html -> /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/guppy/doc
+copying build/lib.linux-x86_64-2.7/guppy/doc/gsl.html -> /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/guppy/doc
+copying build/lib.linux-x86_64-2.7/guppy/doc/ProfileBrowser.html -> /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/guppy/doc
+copying build/lib.linux-x86_64-2.7/guppy/doc/heapy_tutorial.html -> /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/guppy/doc
+copying build/lib.linux-x86_64-2.7/guppy/doc/heapy_Use.html -> /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/guppy/doc
+copying build/lib.linux-x86_64-2.7/guppy/doc/heapy_UniSet.html -> /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/guppy/doc
+copying build/lib.linux-x86_64-2.7/guppy/doc/gslexample.html -> /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/guppy/doc
+copying build/lib.linux-x86_64-2.7/guppy/doc/heapyc.html -> /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/guppy/doc
+copying build/lib.linux-x86_64-2.7/guppy/doc/__init__.py -> /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/guppy/doc
+copying build/lib.linux-x86_64-2.7/guppy/doc/sets.html -> /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/guppy/doc
+creating /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/guppy/sets
+copying build/lib.linux-x86_64-2.7/guppy/sets/__init__.py -> /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/guppy/sets
+copying build/lib.linux-x86_64-2.7/guppy/sets/setsc.so -> /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/guppy/sets
+copying build/lib.linux-x86_64-2.7/guppy/sets/test.py -> /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/guppy/sets
+copying build/lib.linux-x86_64-2.7/guppy/__init__.py -> /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/guppy
+creating /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/guppy/gsl
+copying build/lib.linux-x86_64-2.7/guppy/gsl/Main.py -> /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/guppy/gsl
+copying build/lib.linux-x86_64-2.7/guppy/gsl/Filer.py -> /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/guppy/gsl
+copying build/lib.linux-x86_64-2.7/guppy/gsl/XHTML.py -> /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/guppy/gsl
+copying build/lib.linux-x86_64-2.7/guppy/gsl/Html.py -> /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/guppy/gsl
+copying build/lib.linux-x86_64-2.7/guppy/gsl/Gsml.py -> /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/guppy/gsl
+copying build/lib.linux-x86_64-2.7/guppy/gsl/Tester.py -> /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/guppy/gsl
+copying build/lib.linux-x86_64-2.7/guppy/gsl/Help.py -> /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/guppy/gsl
+copying build/lib.linux-x86_64-2.7/guppy/gsl/SpecNodes.py -> /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/guppy/gsl
+copying build/lib.linux-x86_64-2.7/guppy/gsl/Document.py -> /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/guppy/gsl
+copying build/lib.linux-x86_64-2.7/guppy/gsl/__init__.py -> /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/guppy/gsl
+copying build/lib.linux-x86_64-2.7/guppy/gsl/Text.py -> /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/guppy/gsl
+copying build/lib.linux-x86_64-2.7/guppy/gsl/Latex.py -> /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/guppy/gsl
+copying build/lib.linux-x86_64-2.7/guppy/gsl/FileIO.py -> /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/guppy/gsl
+copying build/lib.linux-x86_64-2.7/guppy/gsl/Exceptions.py -> /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/guppy/gsl
+copying build/lib.linux-x86_64-2.7/guppy/gsl/DottedTree.py -> /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/guppy/gsl
+creating /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/guppy/heapy
+copying build/lib.linux-x86_64-2.7/guppy/heapy/Use.py -> /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/guppy/heapy
+copying build/lib.linux-x86_64-2.7/guppy/heapy/heapyc.so -> /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/guppy/heapy
+copying build/lib.linux-x86_64-2.7/guppy/heapy/Part.py -> /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/guppy/heapy
+copying build/lib.linux-x86_64-2.7/guppy/heapy/pbhelp.py -> /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/guppy/heapy
+copying build/lib.linux-x86_64-2.7/guppy/heapy/View.py -> /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/guppy/heapy
+copying build/lib.linux-x86_64-2.7/guppy/heapy/Remote.py -> /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/guppy/heapy
+copying build/lib.linux-x86_64-2.7/guppy/heapy/OutputHandling.py -> /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/guppy/heapy
+copying build/lib.linux-x86_64-2.7/guppy/heapy/Classifiers.py -> /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/guppy/heapy
+copying build/lib.linux-x86_64-2.7/guppy/heapy/Doc.py -> /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/guppy/heapy
+copying build/lib.linux-x86_64-2.7/guppy/heapy/Target.py -> /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/guppy/heapy
+copying build/lib.linux-x86_64-2.7/guppy/heapy/Console.py -> /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/guppy/heapy
+copying build/lib.linux-x86_64-2.7/guppy/heapy/Monitor.py -> /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/guppy/heapy
+copying build/lib.linux-x86_64-2.7/guppy/heapy/UniSet.py -> /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/guppy/heapy
+copying build/lib.linux-x86_64-2.7/guppy/heapy/RemoteConstants.py -> /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/guppy/heapy
+creating /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/guppy/heapy/test
+copying build/lib.linux-x86_64-2.7/guppy/heapy/test/test_heapyc.py -> /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/guppy/heapy/test
+copying build/lib.linux-x86_64-2.7/guppy/heapy/test/test_OutputHandling.py -> /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/guppy/heapy/test
+copying build/lib.linux-x86_64-2.7/guppy/heapy/test/test_menuleak.py -> /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/guppy/heapy/test
+copying build/lib.linux-x86_64-2.7/guppy/heapy/test/test_Spec.py -> /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/guppy/heapy/test
+copying build/lib.linux-x86_64-2.7/guppy/heapy/test/test_UniSet.py -> /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/guppy/heapy/test
+copying build/lib.linux-x86_64-2.7/guppy/heapy/test/support.py -> /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/guppy/heapy/test
+copying build/lib.linux-x86_64-2.7/guppy/heapy/test/test_sf.py -> /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/guppy/heapy/test
+copying build/lib.linux-x86_64-2.7/guppy/heapy/test/test_Path.py -> /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/guppy/heapy/test
+copying build/lib.linux-x86_64-2.7/guppy/heapy/test/test_RetaGraph.py -> /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/guppy/heapy/test
+copying build/lib.linux-x86_64-2.7/guppy/heapy/test/test_RefPat.py -> /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/guppy/heapy/test
+copying build/lib.linux-x86_64-2.7/guppy/heapy/test/test_ER.py -> /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/guppy/heapy/test
+copying build/lib.linux-x86_64-2.7/guppy/heapy/test/test_Part.py -> /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/guppy/heapy/test
+copying build/lib.linux-x86_64-2.7/guppy/heapy/test/__init__.py -> /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/guppy/heapy/test
+copying build/lib.linux-x86_64-2.7/guppy/heapy/test/test_dependencies.py -> /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/guppy/heapy/test
+copying build/lib.linux-x86_64-2.7/guppy/heapy/test/test_Classifiers.py -> /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/guppy/heapy/test
+copying build/lib.linux-x86_64-2.7/guppy/heapy/test/test_View.py -> /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/guppy/heapy/test
+copying build/lib.linux-x86_64-2.7/guppy/heapy/test/test_all.py -> /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/guppy/heapy/test
+copying build/lib.linux-x86_64-2.7/guppy/heapy/RM.py -> /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/guppy/heapy
+copying build/lib.linux-x86_64-2.7/guppy/heapy/ImpSet.py -> /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/guppy/heapy
+copying build/lib.linux-x86_64-2.7/guppy/heapy/AbstractAlgebra.py -> /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/guppy/heapy
+copying build/lib.linux-x86_64-2.7/guppy/heapy/__init__.py -> /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/guppy/heapy
+copying build/lib.linux-x86_64-2.7/guppy/heapy/Spec.py -> /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/guppy/heapy
+copying build/lib.linux-x86_64-2.7/guppy/heapy/Path.py -> /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/guppy/heapy
+copying build/lib.linux-x86_64-2.7/guppy/heapy/Prof.py -> /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/guppy/heapy
+copying build/lib.linux-x86_64-2.7/guppy/heapy/RefPat.py -> /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/guppy/heapy
+creating /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/guppy/etc
+copying build/lib.linux-x86_64-2.7/guppy/etc/etc.py -> /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/guppy/etc
+copying build/lib.linux-x86_64-2.7/guppy/etc/xterm.py -> /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/guppy/etc
+copying build/lib.linux-x86_64-2.7/guppy/etc/KnuthBendix.py -> /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/guppy/etc
+copying build/lib.linux-x86_64-2.7/guppy/etc/Unpack.py -> /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/guppy/etc
+copying build/lib.linux-x86_64-2.7/guppy/etc/OutputHandling.py -> /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/guppy/etc
+copying build/lib.linux-x86_64-2.7/guppy/etc/Code.py -> /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/guppy/etc
+copying build/lib.linux-x86_64-2.7/guppy/etc/RE_Rect.py -> /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/guppy/etc
+copying build/lib.linux-x86_64-2.7/guppy/etc/FSA.py -> /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/guppy/etc
+copying build/lib.linux-x86_64-2.7/guppy/etc/Help.py -> /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/guppy/etc
+copying build/lib.linux-x86_64-2.7/guppy/etc/KanExtension.py -> /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/guppy/etc
+copying build/lib.linux-x86_64-2.7/guppy/etc/Glue.py -> /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/guppy/etc
+copying build/lib.linux-x86_64-2.7/guppy/etc/textView.py -> /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/guppy/etc
+copying build/lib.linux-x86_64-2.7/guppy/etc/Compat.py -> /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/guppy/etc
+copying build/lib.linux-x86_64-2.7/guppy/etc/cmd.py -> /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/guppy/etc
+copying build/lib.linux-x86_64-2.7/guppy/etc/IterPermute.py -> /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/guppy/etc
+copying build/lib.linux-x86_64-2.7/guppy/etc/__init__.py -> /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/guppy/etc
+copying build/lib.linux-x86_64-2.7/guppy/etc/RE.py -> /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/guppy/etc
+copying build/lib.linux-x86_64-2.7/guppy/etc/Cat.py -> /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/guppy/etc
+copying build/lib.linux-x86_64-2.7/guppy/etc/ExecfileWithModuleInfo.py -> /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/guppy/etc
+copying build/lib.linux-x86_64-2.7/guppy/etc/tkcursors.py -> /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/guppy/etc
+byte-compiling /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/guppy/doc/__init__.py to __init__.pyc
+byte-compiling /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/guppy/sets/__init__.py to __init__.pyc
+byte-compiling /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/guppy/sets/test.py to test.pyc
+byte-compiling /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/guppy/__init__.py to __init__.pyc
+byte-compiling /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/guppy/gsl/Main.py to Main.pyc
+byte-compiling /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/guppy/gsl/Filer.py to Filer.pyc
+byte-compiling /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/guppy/gsl/XHTML.py to XHTML.pyc
+byte-compiling /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/guppy/gsl/Html.py to Html.pyc
+byte-compiling /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/guppy/gsl/Gsml.py to Gsml.pyc
+byte-compiling /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/guppy/gsl/Tester.py to Tester.pyc
+byte-compiling /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/guppy/gsl/Help.py to Help.pyc
+byte-compiling /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/guppy/gsl/SpecNodes.py to SpecNodes.pyc
+byte-compiling /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/guppy/gsl/Document.py to Document.pyc
+byte-compiling /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/guppy/gsl/__init__.py to __init__.pyc
+byte-compiling /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/guppy/gsl/Text.py to Text.pyc
+byte-compiling /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/guppy/gsl/Latex.py to Latex.pyc
+byte-compiling /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/guppy/gsl/FileIO.py to FileIO.pyc
+byte-compiling /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/guppy/gsl/Exceptions.py to Exceptions.pyc
+byte-compiling /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/guppy/gsl/DottedTree.py to DottedTree.pyc
+byte-compiling /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/guppy/heapy/Use.py to Use.pyc
+byte-compiling /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/guppy/heapy/Part.py to Part.pyc
+byte-compiling /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/guppy/heapy/pbhelp.py to pbhelp.pyc
+byte-compiling /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/guppy/heapy/View.py to View.pyc
+byte-compiling /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/guppy/heapy/Remote.py to Remote.pyc
+byte-compiling /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/guppy/heapy/OutputHandling.py to OutputHandling.pyc
+byte-compiling /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/guppy/heapy/Classifiers.py to Classifiers.pyc
+byte-compiling /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/guppy/heapy/Doc.py to Doc.pyc
+byte-compiling /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/guppy/heapy/Target.py to Target.pyc
+byte-compiling /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/guppy/heapy/Console.py to Console.pyc
+byte-compiling /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/guppy/heapy/Monitor.py to Monitor.pyc
+byte-compiling /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/guppy/heapy/UniSet.py to UniSet.pyc
+byte-compiling /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/guppy/heapy/RemoteConstants.py to RemoteConstants.pyc
+byte-compiling /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/guppy/heapy/test/test_heapyc.py to test_heapyc.pyc
+byte-compiling /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/guppy/heapy/test/test_OutputHandling.py to test_OutputHandling.pyc
+byte-compiling /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/guppy/heapy/test/test_menuleak.py to test_menuleak.pyc
+byte-compiling /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/guppy/heapy/test/test_Spec.py to test_Spec.pyc
+byte-compiling /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/guppy/heapy/test/test_UniSet.py to test_UniSet.pyc
+byte-compiling /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/guppy/heapy/test/support.py to support.pyc
+byte-compiling /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/guppy/heapy/test/test_sf.py to test_sf.pyc
+byte-compiling /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/guppy/heapy/test/test_Path.py to test_Path.pyc
+byte-compiling /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/guppy/heapy/test/test_RetaGraph.py to test_RetaGraph.pyc
+byte-compiling /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/guppy/heapy/test/test_RefPat.py to test_RefPat.pyc
+byte-compiling /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/guppy/heapy/test/test_ER.py to test_ER.pyc
+byte-compiling /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/guppy/heapy/test/test_Part.py to test_Part.pyc
+byte-compiling /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/guppy/heapy/test/__init__.py to __init__.pyc
+byte-compiling /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/guppy/heapy/test/test_dependencies.py to test_dependencies.pyc
+byte-compiling /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/guppy/heapy/test/test_Classifiers.py to test_Classifiers.pyc
+byte-compiling /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/guppy/heapy/test/test_View.py to test_View.pyc
+byte-compiling /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/guppy/heapy/test/test_all.py to test_all.pyc
+byte-compiling /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/guppy/heapy/RM.py to RM.pyc
+byte-compiling /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/guppy/heapy/ImpSet.py to ImpSet.pyc
+byte-compiling /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/guppy/heapy/AbstractAlgebra.py to AbstractAlgebra.pyc
+byte-compiling /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/guppy/heapy/__init__.py to __init__.pyc
+byte-compiling /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/guppy/heapy/Spec.py to Spec.pyc
+byte-compiling /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/guppy/heapy/Path.py to Path.pyc
+byte-compiling /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/guppy/heapy/Prof.py to Prof.pyc
+byte-compiling /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/guppy/heapy/RefPat.py to RefPat.pyc
+byte-compiling /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/guppy/etc/etc.py to etc.pyc
+byte-compiling /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/guppy/etc/xterm.py to xterm.pyc
+byte-compiling /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/guppy/etc/KnuthBendix.py to KnuthBendix.pyc
+byte-compiling /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/guppy/etc/Unpack.py to Unpack.pyc
+byte-compiling /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/guppy/etc/OutputHandling.py to OutputHandling.pyc
+byte-compiling /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/guppy/etc/Code.py to Code.pyc
+byte-compiling /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/guppy/etc/RE_Rect.py to RE_Rect.pyc
+byte-compiling /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/guppy/etc/FSA.py to FSA.pyc
+byte-compiling /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/guppy/etc/Help.py to Help.pyc
+byte-compiling /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/guppy/etc/KanExtension.py to KanExtension.pyc
+byte-compiling /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/guppy/etc/Glue.py to Glue.pyc
+byte-compiling /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/guppy/etc/textView.py to textView.pyc
+byte-compiling /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/guppy/etc/Compat.py to Compat.pyc
+byte-compiling /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/guppy/etc/cmd.py to cmd.pyc
+byte-compiling /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/guppy/etc/IterPermute.py to IterPermute.pyc
+byte-compiling /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/guppy/etc/__init__.py to __init__.pyc
+byte-compiling /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/guppy/etc/RE.py to RE.pyc
+byte-compiling /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/guppy/etc/Cat.py to Cat.pyc
+byte-compiling /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/guppy/etc/ExecfileWithModuleInfo.py to ExecfileWithModuleInfo.pyc
+byte-compiling /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/guppy/etc/tkcursors.py to tkcursors.pyc
+running install_egg_info
+Writing /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/guppy-0.1.10-py2.7.egg-info
+
+The following NEW packages will be INSTALLED:
+
+    openssl:    1.0.1k-1     
+    pip:        7.0.3-py27_0 
+    python:     2.7.10-0     
+    readline:   6.2-2        
+    setuptools: 18.0.1-py27_0
+    sqlite:     3.8.4.1-1    
+    system:     5.8-2        
+    tk:         8.5.18-0     
+    zlib:       1.2.8-0      
+
+Linking packages ...
+[                    ]|                                                  |   0%[openssl             ]|                                                  |   0%[readline            ]|#####                                             |  11%[sqlite              ]|###########                                       |  22%[system              ]|################                                  |  33%[tk                  ]|######################                            |  44%[zlib                ]|###########################                       |  55%[python              ]|#################################                 |  66%[setuptools          ]|######################################            |  77%[pip                 ]|############################################      |  88%[      COMPLETE      ]|##################################################| 100%
+Removing old work directory
+Source cache directory is: /home/ubuntu/miniconda/conda-bld/src_cache
+Found source in cache: guppy-0.1.10.tar.gz
+Extracting download
+Package: guppy-0.1.10-py_0
+source tree in: /home/ubuntu/miniconda/conda-bld/work/guppy-0.1.10
+number of files: 170
+Fixing permissions
+patchelf: file: /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/guppy/heapy/heapyc.so
+    setting rpath to: $ORIGIN/../../../..
+patchelf: file: /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/guppy/sets/setsc.so
+    setting rpath to: $ORIGIN/../../../..
+[noarch_python] Error: Shared object file found: lib/python2.7/site-packages/guppy/heapy/heapyc.so

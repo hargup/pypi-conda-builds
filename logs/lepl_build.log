@@ -1,0 +1,676 @@
+Removing old build directory
+Removing old work directory
+BUILD START: lepl-5.1.3-py_0
+Fetching package metadata: ......
+
+WARNING: conda-build appears to be out of date. You have version 1.13.0 but the
+latest version is 1.14.1. Run
+
+conda update -n root conda-build
+
+to get the latest version.
+
+Solving package specifications: .+ /home/ubuntu/miniconda/envs/_build/bin/python setup.py install
+running install
+running bdist_egg
+running egg_info
+writing src/LEPL.egg-info/PKG-INFO
+writing top-level names to src/LEPL.egg-info/top_level.txt
+writing dependency_links to src/LEPL.egg-info/dependency_links.txt
+reading manifest file 'src/LEPL.egg-info/SOURCES.txt'
+writing manifest file 'src/LEPL.egg-info/SOURCES.txt'
+installing library code to build/bdist.linux-x86_64/egg
+running install_lib
+running build_py
+creating build
+creating build/lib
+creating build/lib/lepl
+copying src/lepl/__init__.py -> build/lib/lepl
+creating build/lib/lepl/_test
+copying src/lepl/_test/bug_stalled_parser.py -> build/lib/lepl/_test
+copying src/lepl/_test/wrong_cache_bug.py -> build/lib/lepl/_test
+copying src/lepl/_test/magus.py -> build/lib/lepl/_test
+copying src/lepl/_test/wrong_regexp_bug.py -> build/lib/lepl/_test
+copying src/lepl/_test/__init__.py -> build/lib/lepl/_test
+copying src/lepl/_test/wrong_depth_bug.py -> build/lib/lepl/_test
+copying src/lepl/_test/base.py -> build/lib/lepl/_test
+creating build/lib/lepl/_example
+copying src/lepl/_example/tutorial_1.py -> build/lib/lepl/_example
+copying src/lepl/_example/performance.py -> build/lib/lepl/_example
+copying src/lepl/_example/new_in_4.py -> build/lib/lepl/_example
+copying src/lepl/_example/args.py -> build/lib/lepl/_example
+copying src/lepl/_example/nodes.py -> build/lib/lepl/_example
+copying src/lepl/_example/config.py -> build/lib/lepl/_example
+copying src/lepl/_example/memo.py -> build/lib/lepl/_example
+copying src/lepl/_example/phone_words.py -> build/lib/lepl/_example
+copying src/lepl/_example/phone.py -> build/lib/lepl/_example
+copying src/lepl/_example/matchers.py -> build/lib/lepl/_example
+copying src/lepl/_example/lexer.py -> build/lib/lepl/_example
+copying src/lepl/_example/full_match.py -> build/lib/lepl/_example
+copying src/lepl/_example/spindrome.py -> build/lib/lepl/_example
+copying src/lepl/_example/search.py -> build/lib/lepl/_example
+copying src/lepl/_example/hello.py -> build/lib/lepl/_example
+copying src/lepl/_example/support.py -> build/lib/lepl/_example
+copying src/lepl/_example/operators.py -> build/lib/lepl/_example
+copying src/lepl/_example/expression.py -> build/lib/lepl/_example
+copying src/lepl/_example/xml.py -> build/lib/lepl/_example
+copying src/lepl/_example/columns.py -> build/lib/lepl/_example
+copying src/lepl/_example/__init__.py -> build/lib/lepl/_example
+copying src/lepl/_example/trace.py -> build/lib/lepl/_example
+copying src/lepl/_example/manager.py -> build/lib/lepl/_example
+copying src/lepl/_example/error.py -> build/lib/lepl/_example
+copying src/lepl/_example/tutorial_3.py -> build/lib/lepl/_example
+copying src/lepl/_example/dynamic.py -> build/lib/lepl/_example
+copying src/lepl/_example/tutorial_2.py -> build/lib/lepl/_example
+copying src/lepl/_example/tutorial_4.py -> build/lib/lepl/_example
+copying src/lepl/_example/search_syntax.py -> build/lib/lepl/_example
+copying src/lepl/_example/separators.py -> build/lib/lepl/_example
+copying src/lepl/_example/hiren.py -> build/lib/lepl/_example
+creating build/lib/lepl/apps
+copying src/lepl/apps/json.py -> build/lib/lepl/apps
+copying src/lepl/apps/rfc3696.py -> build/lib/lepl/apps
+copying src/lepl/apps/__init__.py -> build/lib/lepl/apps
+creating build/lib/lepl/apps/_test
+copying src/lepl/apps/_test/json.py -> build/lib/lepl/apps/_test
+copying src/lepl/apps/_test/rfc3696.py -> build/lib/lepl/apps/_test
+copying src/lepl/apps/_test/__init__.py -> build/lib/lepl/apps/_test
+creating build/lib/lepl/bin
+copying src/lepl/bin/bits.py -> build/lib/lepl/bin
+copying src/lepl/bin/literal.py -> build/lib/lepl/bin
+copying src/lepl/bin/matchers.py -> build/lib/lepl/bin
+copying src/lepl/bin/__init__.py -> build/lib/lepl/bin
+copying src/lepl/bin/encode.py -> build/lib/lepl/bin
+creating build/lib/lepl/bin/_test
+copying src/lepl/bin/_test/bits.py -> build/lib/lepl/bin/_test
+copying src/lepl/bin/_test/literal.py -> build/lib/lepl/bin/_test
+copying src/lepl/bin/_test/matchers.py -> build/lib/lepl/bin/_test
+copying src/lepl/bin/_test/__init__.py -> build/lib/lepl/bin/_test
+copying src/lepl/bin/_test/encode.py -> build/lib/lepl/bin/_test
+creating build/lib/lepl/bin/_example
+copying src/lepl/bin/_example/literal.py -> build/lib/lepl/bin/_example
+copying src/lepl/bin/_example/__init__.py -> build/lib/lepl/bin/_example
+creating build/lib/lepl/contrib
+copying src/lepl/contrib/matchers.py -> build/lib/lepl/contrib
+copying src/lepl/contrib/json.py -> build/lib/lepl/contrib
+copying src/lepl/contrib/__init__.py -> build/lib/lepl/contrib
+creating build/lib/lepl/core
+copying src/lepl/core/config.py -> build/lib/lepl/core
+copying src/lepl/core/monitor.py -> build/lib/lepl/core
+copying src/lepl/core/parser.py -> build/lib/lepl/core
+copying src/lepl/core/rewriters.py -> build/lib/lepl/core
+copying src/lepl/core/__init__.py -> build/lib/lepl/core
+copying src/lepl/core/trace.py -> build/lib/lepl/core
+copying src/lepl/core/manager.py -> build/lib/lepl/core
+copying src/lepl/core/dynamic.py -> build/lib/lepl/core
+creating build/lib/lepl/core/_test
+copying src/lepl/core/_test/rewrite_repeat_bug.py -> build/lib/lepl/core/_test
+copying src/lepl/core/_test/clone.py -> build/lib/lepl/core/_test
+copying src/lepl/core/_test/config.py -> build/lib/lepl/core/_test
+copying src/lepl/core/_test/parser.py -> build/lib/lepl/core/_test
+copying src/lepl/core/_test/rewriters.py -> build/lib/lepl/core/_test
+copying src/lepl/core/_test/__init__.py -> build/lib/lepl/core/_test
+copying src/lepl/core/_test/rewrite_delayed_bug.py -> build/lib/lepl/core/_test
+copying src/lepl/core/_test/manager.py -> build/lib/lepl/core/_test
+copying src/lepl/core/_test/dynamic.py -> build/lib/lepl/core/_test
+creating build/lib/lepl/lexer
+copying src/lepl/lexer/stream.py -> build/lib/lepl/lexer
+copying src/lepl/lexer/matchers.py -> build/lib/lepl/lexer
+copying src/lepl/lexer/lexer.py -> build/lib/lepl/lexer
+copying src/lepl/lexer/support.py -> build/lib/lepl/lexer
+copying src/lepl/lexer/operators.py -> build/lib/lepl/lexer
+copying src/lepl/lexer/rewriters.py -> build/lib/lepl/lexer
+copying src/lepl/lexer/__init__.py -> build/lib/lepl/lexer
+creating build/lib/lepl/lexer/_test
+copying src/lepl/lexer/_test/matchers.py -> build/lib/lepl/lexer/_test
+copying src/lepl/lexer/_test/__init__.py -> build/lib/lepl/lexer/_test
+creating build/lib/lepl/lexer/_example
+copying src/lepl/lexer/_example/__init__.py -> build/lib/lepl/lexer/_example
+copying src/lepl/lexer/_example/limitations.py -> build/lib/lepl/lexer/_example
+copying src/lepl/lexer/_example/calculator.py -> build/lib/lepl/lexer/_example
+creating build/lib/lepl/lexer/lines
+copying src/lepl/lexer/lines/matchers.py -> build/lib/lepl/lexer/lines
+copying src/lepl/lexer/lines/lexer.py -> build/lib/lepl/lexer/lines
+copying src/lepl/lexer/lines/monitor.py -> build/lib/lepl/lexer/lines
+copying src/lepl/lexer/lines/__init__.py -> build/lib/lepl/lexer/lines
+creating build/lib/lepl/lexer/lines/_test
+copying src/lepl/lexer/lines/_test/errors.py -> build/lib/lepl/lexer/lines/_test
+copying src/lepl/lexer/lines/_test/stream.py -> build/lib/lepl/lexer/lines/_test
+copying src/lepl/lexer/lines/_test/closed_bug.py -> build/lib/lepl/lexer/lines/_test
+copying src/lepl/lexer/lines/_test/left_bug.py -> build/lib/lepl/lexer/lines/_test
+copying src/lepl/lexer/lines/_test/offside.py -> build/lib/lepl/lexer/lines/_test
+copying src/lepl/lexer/lines/_test/text.py -> build/lib/lepl/lexer/lines/_test
+copying src/lepl/lexer/lines/_test/word_bug.py -> build/lib/lepl/lexer/lines/_test
+copying src/lepl/lexer/lines/_test/__init__.py -> build/lib/lepl/lexer/lines/_test
+copying src/lepl/lexer/lines/_test/pithon.py -> build/lib/lepl/lexer/lines/_test
+copying src/lepl/lexer/lines/_test/indentation.py -> build/lib/lepl/lexer/lines/_test
+creating build/lib/lepl/lexer/lines/_example
+copying src/lepl/lexer/lines/_example/line_aware.py -> build/lib/lepl/lexer/lines/_example
+copying src/lepl/lexer/lines/_example/old_examples.py -> build/lib/lepl/lexer/lines/_example
+copying src/lepl/lexer/lines/_example/__init__.py -> build/lib/lepl/lexer/lines/_example
+creating build/lib/lepl/matchers
+copying src/lepl/matchers/memo.py -> build/lib/lepl/matchers
+copying src/lepl/matchers/combine.py -> build/lib/lepl/matchers
+copying src/lepl/matchers/monitor.py -> build/lib/lepl/matchers
+copying src/lepl/matchers/support.py -> build/lib/lepl/matchers
+copying src/lepl/matchers/operators.py -> build/lib/lepl/matchers
+copying src/lepl/matchers/variables.py -> build/lib/lepl/matchers
+copying src/lepl/matchers/matcher.py -> build/lib/lepl/matchers
+copying src/lepl/matchers/__init__.py -> build/lib/lepl/matchers
+copying src/lepl/matchers/error.py -> build/lib/lepl/matchers
+copying src/lepl/matchers/transform.py -> build/lib/lepl/matchers
+copying src/lepl/matchers/core.py -> build/lib/lepl/matchers
+copying src/lepl/matchers/complex.py -> build/lib/lepl/matchers
+copying src/lepl/matchers/derived.py -> build/lib/lepl/matchers
+creating build/lib/lepl/matchers/_test
+copying src/lepl/matchers/_test/memo.py -> build/lib/lepl/matchers/_test
+copying src/lepl/matchers/_test/combine.py -> build/lib/lepl/matchers/_test
+copying src/lepl/matchers/_test/support.py -> build/lib/lepl/matchers/_test
+copying src/lepl/matchers/_test/operators.py -> build/lib/lepl/matchers/_test
+copying src/lepl/matchers/_test/float_bug.py -> build/lib/lepl/matchers/_test
+copying src/lepl/matchers/_test/variables.py -> build/lib/lepl/matchers/_test
+copying src/lepl/matchers/_test/__init__.py -> build/lib/lepl/matchers/_test
+copying src/lepl/matchers/_test/error.py -> build/lib/lepl/matchers/_test
+copying src/lepl/matchers/_test/transform.py -> build/lib/lepl/matchers/_test
+copying src/lepl/matchers/_test/separators.py -> build/lib/lepl/matchers/_test
+copying src/lepl/matchers/_test/core.py -> build/lib/lepl/matchers/_test
+copying src/lepl/matchers/_test/derived.py -> build/lib/lepl/matchers/_test
+creating build/lib/lepl/regexp
+copying src/lepl/regexp/str.py -> build/lib/lepl/regexp
+copying src/lepl/regexp/matchers.py -> build/lib/lepl/regexp
+copying src/lepl/regexp/unicode.py -> build/lib/lepl/regexp
+copying src/lepl/regexp/binary.py -> build/lib/lepl/regexp
+copying src/lepl/regexp/rewriters.py -> build/lib/lepl/regexp
+copying src/lepl/regexp/__init__.py -> build/lib/lepl/regexp
+copying src/lepl/regexp/interval.py -> build/lib/lepl/regexp
+copying src/lepl/regexp/core.py -> build/lib/lepl/regexp
+creating build/lib/lepl/regexp/_test
+copying src/lepl/regexp/_test/matchers.py -> build/lib/lepl/regexp/_test
+copying src/lepl/regexp/_test/unicode.py -> build/lib/lepl/regexp/_test
+copying src/lepl/regexp/_test/binary.py -> build/lib/lepl/regexp/_test
+copying src/lepl/regexp/_test/rewriters.py -> build/lib/lepl/regexp/_test
+copying src/lepl/regexp/_test/__init__.py -> build/lib/lepl/regexp/_test
+copying src/lepl/regexp/_test/interval.py -> build/lib/lepl/regexp/_test
+copying src/lepl/regexp/_test/random.py -> build/lib/lepl/regexp/_test
+copying src/lepl/regexp/_test/core.py -> build/lib/lepl/regexp/_test
+creating build/lib/lepl/stream
+copying src/lepl/stream/facade.py -> build/lib/lepl/stream
+copying src/lepl/stream/factory.py -> build/lib/lepl/stream
+copying src/lepl/stream/iter.py -> build/lib/lepl/stream
+copying src/lepl/stream/__init__.py -> build/lib/lepl/stream
+copying src/lepl/stream/simple.py -> build/lib/lepl/stream
+copying src/lepl/stream/core.py -> build/lib/lepl/stream
+copying src/lepl/stream/maxdepth.py -> build/lib/lepl/stream
+creating build/lib/lepl/stream/_test
+copying src/lepl/stream/_test/iter.py -> build/lib/lepl/stream/_test
+copying src/lepl/stream/_test/file.py -> build/lib/lepl/stream/_test
+copying src/lepl/stream/_test/__init__.py -> build/lib/lepl/stream/_test
+copying src/lepl/stream/_test/simple.py -> build/lib/lepl/stream/_test
+creating build/lib/lepl/support
+copying src/lepl/support/graph.py -> build/lib/lepl/support
+copying src/lepl/support/list.py -> build/lib/lepl/support
+copying src/lepl/support/lib.py -> build/lib/lepl/support
+copying src/lepl/support/warn.py -> build/lib/lepl/support
+copying src/lepl/support/timer.py -> build/lib/lepl/support
+copying src/lepl/support/context.py -> build/lib/lepl/support
+copying src/lepl/support/__init__.py -> build/lib/lepl/support
+copying src/lepl/support/node.py -> build/lib/lepl/support
+copying src/lepl/support/state.py -> build/lib/lepl/support
+creating build/lib/lepl/support/_test
+copying src/lepl/support/_test/graph.py -> build/lib/lepl/support/_test
+copying src/lepl/support/_test/list.py -> build/lib/lepl/support/_test
+copying src/lepl/support/_test/lib.py -> build/lib/lepl/support/_test
+copying src/lepl/support/_test/timer.py -> build/lib/lepl/support/_test
+copying src/lepl/support/_test/__init__.py -> build/lib/lepl/support/_test
+copying src/lepl/support/_test/node.py -> build/lib/lepl/support/_test
+creating build/bdist.linux-x86_64
+creating build/bdist.linux-x86_64/egg
+creating build/bdist.linux-x86_64/egg/lepl
+creating build/bdist.linux-x86_64/egg/lepl/regexp
+copying build/lib/lepl/regexp/str.py -> build/bdist.linux-x86_64/egg/lepl/regexp
+copying build/lib/lepl/regexp/matchers.py -> build/bdist.linux-x86_64/egg/lepl/regexp
+copying build/lib/lepl/regexp/unicode.py -> build/bdist.linux-x86_64/egg/lepl/regexp
+copying build/lib/lepl/regexp/binary.py -> build/bdist.linux-x86_64/egg/lepl/regexp
+copying build/lib/lepl/regexp/rewriters.py -> build/bdist.linux-x86_64/egg/lepl/regexp
+copying build/lib/lepl/regexp/__init__.py -> build/bdist.linux-x86_64/egg/lepl/regexp
+copying build/lib/lepl/regexp/interval.py -> build/bdist.linux-x86_64/egg/lepl/regexp
+creating build/bdist.linux-x86_64/egg/lepl/regexp/_test
+copying build/lib/lepl/regexp/_test/matchers.py -> build/bdist.linux-x86_64/egg/lepl/regexp/_test
+copying build/lib/lepl/regexp/_test/unicode.py -> build/bdist.linux-x86_64/egg/lepl/regexp/_test
+copying build/lib/lepl/regexp/_test/binary.py -> build/bdist.linux-x86_64/egg/lepl/regexp/_test
+copying build/lib/lepl/regexp/_test/rewriters.py -> build/bdist.linux-x86_64/egg/lepl/regexp/_test
+copying build/lib/lepl/regexp/_test/__init__.py -> build/bdist.linux-x86_64/egg/lepl/regexp/_test
+copying build/lib/lepl/regexp/_test/interval.py -> build/bdist.linux-x86_64/egg/lepl/regexp/_test
+copying build/lib/lepl/regexp/_test/random.py -> build/bdist.linux-x86_64/egg/lepl/regexp/_test
+copying build/lib/lepl/regexp/_test/core.py -> build/bdist.linux-x86_64/egg/lepl/regexp/_test
+copying build/lib/lepl/regexp/core.py -> build/bdist.linux-x86_64/egg/lepl/regexp
+creating build/bdist.linux-x86_64/egg/lepl/_example
+copying build/lib/lepl/_example/tutorial_1.py -> build/bdist.linux-x86_64/egg/lepl/_example
+copying build/lib/lepl/_example/performance.py -> build/bdist.linux-x86_64/egg/lepl/_example
+copying build/lib/lepl/_example/new_in_4.py -> build/bdist.linux-x86_64/egg/lepl/_example
+copying build/lib/lepl/_example/args.py -> build/bdist.linux-x86_64/egg/lepl/_example
+copying build/lib/lepl/_example/nodes.py -> build/bdist.linux-x86_64/egg/lepl/_example
+copying build/lib/lepl/_example/config.py -> build/bdist.linux-x86_64/egg/lepl/_example
+copying build/lib/lepl/_example/memo.py -> build/bdist.linux-x86_64/egg/lepl/_example
+copying build/lib/lepl/_example/phone_words.py -> build/bdist.linux-x86_64/egg/lepl/_example
+copying build/lib/lepl/_example/phone.py -> build/bdist.linux-x86_64/egg/lepl/_example
+copying build/lib/lepl/_example/matchers.py -> build/bdist.linux-x86_64/egg/lepl/_example
+copying build/lib/lepl/_example/lexer.py -> build/bdist.linux-x86_64/egg/lepl/_example
+copying build/lib/lepl/_example/full_match.py -> build/bdist.linux-x86_64/egg/lepl/_example
+copying build/lib/lepl/_example/spindrome.py -> build/bdist.linux-x86_64/egg/lepl/_example
+copying build/lib/lepl/_example/search.py -> build/bdist.linux-x86_64/egg/lepl/_example
+copying build/lib/lepl/_example/hello.py -> build/bdist.linux-x86_64/egg/lepl/_example
+copying build/lib/lepl/_example/support.py -> build/bdist.linux-x86_64/egg/lepl/_example
+copying build/lib/lepl/_example/operators.py -> build/bdist.linux-x86_64/egg/lepl/_example
+copying build/lib/lepl/_example/expression.py -> build/bdist.linux-x86_64/egg/lepl/_example
+copying build/lib/lepl/_example/xml.py -> build/bdist.linux-x86_64/egg/lepl/_example
+copying build/lib/lepl/_example/columns.py -> build/bdist.linux-x86_64/egg/lepl/_example
+copying build/lib/lepl/_example/__init__.py -> build/bdist.linux-x86_64/egg/lepl/_example
+copying build/lib/lepl/_example/trace.py -> build/bdist.linux-x86_64/egg/lepl/_example
+copying build/lib/lepl/_example/manager.py -> build/bdist.linux-x86_64/egg/lepl/_example
+copying build/lib/lepl/_example/error.py -> build/bdist.linux-x86_64/egg/lepl/_example
+copying build/lib/lepl/_example/tutorial_3.py -> build/bdist.linux-x86_64/egg/lepl/_example
+copying build/lib/lepl/_example/dynamic.py -> build/bdist.linux-x86_64/egg/lepl/_example
+copying build/lib/lepl/_example/tutorial_2.py -> build/bdist.linux-x86_64/egg/lepl/_example
+copying build/lib/lepl/_example/tutorial_4.py -> build/bdist.linux-x86_64/egg/lepl/_example
+copying build/lib/lepl/_example/search_syntax.py -> build/bdist.linux-x86_64/egg/lepl/_example
+copying build/lib/lepl/_example/separators.py -> build/bdist.linux-x86_64/egg/lepl/_example
+copying build/lib/lepl/_example/hiren.py -> build/bdist.linux-x86_64/egg/lepl/_example
+creating build/bdist.linux-x86_64/egg/lepl/matchers
+copying build/lib/lepl/matchers/memo.py -> build/bdist.linux-x86_64/egg/lepl/matchers
+copying build/lib/lepl/matchers/combine.py -> build/bdist.linux-x86_64/egg/lepl/matchers
+copying build/lib/lepl/matchers/monitor.py -> build/bdist.linux-x86_64/egg/lepl/matchers
+copying build/lib/lepl/matchers/support.py -> build/bdist.linux-x86_64/egg/lepl/matchers
+copying build/lib/lepl/matchers/operators.py -> build/bdist.linux-x86_64/egg/lepl/matchers
+copying build/lib/lepl/matchers/variables.py -> build/bdist.linux-x86_64/egg/lepl/matchers
+copying build/lib/lepl/matchers/matcher.py -> build/bdist.linux-x86_64/egg/lepl/matchers
+copying build/lib/lepl/matchers/__init__.py -> build/bdist.linux-x86_64/egg/lepl/matchers
+copying build/lib/lepl/matchers/error.py -> build/bdist.linux-x86_64/egg/lepl/matchers
+copying build/lib/lepl/matchers/transform.py -> build/bdist.linux-x86_64/egg/lepl/matchers
+creating build/bdist.linux-x86_64/egg/lepl/matchers/_test
+copying build/lib/lepl/matchers/_test/memo.py -> build/bdist.linux-x86_64/egg/lepl/matchers/_test
+copying build/lib/lepl/matchers/_test/combine.py -> build/bdist.linux-x86_64/egg/lepl/matchers/_test
+copying build/lib/lepl/matchers/_test/support.py -> build/bdist.linux-x86_64/egg/lepl/matchers/_test
+copying build/lib/lepl/matchers/_test/operators.py -> build/bdist.linux-x86_64/egg/lepl/matchers/_test
+copying build/lib/lepl/matchers/_test/float_bug.py -> build/bdist.linux-x86_64/egg/lepl/matchers/_test
+copying build/lib/lepl/matchers/_test/variables.py -> build/bdist.linux-x86_64/egg/lepl/matchers/_test
+copying build/lib/lepl/matchers/_test/__init__.py -> build/bdist.linux-x86_64/egg/lepl/matchers/_test
+copying build/lib/lepl/matchers/_test/error.py -> build/bdist.linux-x86_64/egg/lepl/matchers/_test
+copying build/lib/lepl/matchers/_test/transform.py -> build/bdist.linux-x86_64/egg/lepl/matchers/_test
+copying build/lib/lepl/matchers/_test/separators.py -> build/bdist.linux-x86_64/egg/lepl/matchers/_test
+copying build/lib/lepl/matchers/_test/core.py -> build/bdist.linux-x86_64/egg/lepl/matchers/_test
+copying build/lib/lepl/matchers/_test/derived.py -> build/bdist.linux-x86_64/egg/lepl/matchers/_test
+copying build/lib/lepl/matchers/core.py -> build/bdist.linux-x86_64/egg/lepl/matchers
+copying build/lib/lepl/matchers/complex.py -> build/bdist.linux-x86_64/egg/lepl/matchers
+copying build/lib/lepl/matchers/derived.py -> build/bdist.linux-x86_64/egg/lepl/matchers
+creating build/bdist.linux-x86_64/egg/lepl/apps
+copying build/lib/lepl/apps/json.py -> build/bdist.linux-x86_64/egg/lepl/apps
+copying build/lib/lepl/apps/rfc3696.py -> build/bdist.linux-x86_64/egg/lepl/apps
+copying build/lib/lepl/apps/__init__.py -> build/bdist.linux-x86_64/egg/lepl/apps
+creating build/bdist.linux-x86_64/egg/lepl/apps/_test
+copying build/lib/lepl/apps/_test/json.py -> build/bdist.linux-x86_64/egg/lepl/apps/_test
+copying build/lib/lepl/apps/_test/rfc3696.py -> build/bdist.linux-x86_64/egg/lepl/apps/_test
+copying build/lib/lepl/apps/_test/__init__.py -> build/bdist.linux-x86_64/egg/lepl/apps/_test
+creating build/bdist.linux-x86_64/egg/lepl/contrib
+copying build/lib/lepl/contrib/matchers.py -> build/bdist.linux-x86_64/egg/lepl/contrib
+copying build/lib/lepl/contrib/json.py -> build/bdist.linux-x86_64/egg/lepl/contrib
+copying build/lib/lepl/contrib/__init__.py -> build/bdist.linux-x86_64/egg/lepl/contrib
+creating build/bdist.linux-x86_64/egg/lepl/bin
+copying build/lib/lepl/bin/bits.py -> build/bdist.linux-x86_64/egg/lepl/bin
+copying build/lib/lepl/bin/literal.py -> build/bdist.linux-x86_64/egg/lepl/bin
+creating build/bdist.linux-x86_64/egg/lepl/bin/_example
+copying build/lib/lepl/bin/_example/literal.py -> build/bdist.linux-x86_64/egg/lepl/bin/_example
+copying build/lib/lepl/bin/_example/__init__.py -> build/bdist.linux-x86_64/egg/lepl/bin/_example
+copying build/lib/lepl/bin/matchers.py -> build/bdist.linux-x86_64/egg/lepl/bin
+copying build/lib/lepl/bin/__init__.py -> build/bdist.linux-x86_64/egg/lepl/bin
+creating build/bdist.linux-x86_64/egg/lepl/bin/_test
+copying build/lib/lepl/bin/_test/bits.py -> build/bdist.linux-x86_64/egg/lepl/bin/_test
+copying build/lib/lepl/bin/_test/literal.py -> build/bdist.linux-x86_64/egg/lepl/bin/_test
+copying build/lib/lepl/bin/_test/matchers.py -> build/bdist.linux-x86_64/egg/lepl/bin/_test
+copying build/lib/lepl/bin/_test/__init__.py -> build/bdist.linux-x86_64/egg/lepl/bin/_test
+copying build/lib/lepl/bin/_test/encode.py -> build/bdist.linux-x86_64/egg/lepl/bin/_test
+copying build/lib/lepl/bin/encode.py -> build/bdist.linux-x86_64/egg/lepl/bin
+creating build/bdist.linux-x86_64/egg/lepl/support
+copying build/lib/lepl/support/graph.py -> build/bdist.linux-x86_64/egg/lepl/support
+copying build/lib/lepl/support/list.py -> build/bdist.linux-x86_64/egg/lepl/support
+copying build/lib/lepl/support/lib.py -> build/bdist.linux-x86_64/egg/lepl/support
+copying build/lib/lepl/support/warn.py -> build/bdist.linux-x86_64/egg/lepl/support
+copying build/lib/lepl/support/timer.py -> build/bdist.linux-x86_64/egg/lepl/support
+copying build/lib/lepl/support/context.py -> build/bdist.linux-x86_64/egg/lepl/support
+copying build/lib/lepl/support/__init__.py -> build/bdist.linux-x86_64/egg/lepl/support
+copying build/lib/lepl/support/node.py -> build/bdist.linux-x86_64/egg/lepl/support
+copying build/lib/lepl/support/state.py -> build/bdist.linux-x86_64/egg/lepl/support
+creating build/bdist.linux-x86_64/egg/lepl/support/_test
+copying build/lib/lepl/support/_test/graph.py -> build/bdist.linux-x86_64/egg/lepl/support/_test
+copying build/lib/lepl/support/_test/list.py -> build/bdist.linux-x86_64/egg/lepl/support/_test
+copying build/lib/lepl/support/_test/lib.py -> build/bdist.linux-x86_64/egg/lepl/support/_test
+copying build/lib/lepl/support/_test/timer.py -> build/bdist.linux-x86_64/egg/lepl/support/_test
+copying build/lib/lepl/support/_test/__init__.py -> build/bdist.linux-x86_64/egg/lepl/support/_test
+copying build/lib/lepl/support/_test/node.py -> build/bdist.linux-x86_64/egg/lepl/support/_test
+copying build/lib/lepl/__init__.py -> build/bdist.linux-x86_64/egg/lepl
+creating build/bdist.linux-x86_64/egg/lepl/core
+copying build/lib/lepl/core/config.py -> build/bdist.linux-x86_64/egg/lepl/core
+copying build/lib/lepl/core/monitor.py -> build/bdist.linux-x86_64/egg/lepl/core
+copying build/lib/lepl/core/parser.py -> build/bdist.linux-x86_64/egg/lepl/core
+copying build/lib/lepl/core/rewriters.py -> build/bdist.linux-x86_64/egg/lepl/core
+copying build/lib/lepl/core/__init__.py -> build/bdist.linux-x86_64/egg/lepl/core
+copying build/lib/lepl/core/trace.py -> build/bdist.linux-x86_64/egg/lepl/core
+copying build/lib/lepl/core/manager.py -> build/bdist.linux-x86_64/egg/lepl/core
+creating build/bdist.linux-x86_64/egg/lepl/core/_test
+copying build/lib/lepl/core/_test/rewrite_repeat_bug.py -> build/bdist.linux-x86_64/egg/lepl/core/_test
+copying build/lib/lepl/core/_test/clone.py -> build/bdist.linux-x86_64/egg/lepl/core/_test
+copying build/lib/lepl/core/_test/config.py -> build/bdist.linux-x86_64/egg/lepl/core/_test
+copying build/lib/lepl/core/_test/parser.py -> build/bdist.linux-x86_64/egg/lepl/core/_test
+copying build/lib/lepl/core/_test/rewriters.py -> build/bdist.linux-x86_64/egg/lepl/core/_test
+copying build/lib/lepl/core/_test/__init__.py -> build/bdist.linux-x86_64/egg/lepl/core/_test
+copying build/lib/lepl/core/_test/rewrite_delayed_bug.py -> build/bdist.linux-x86_64/egg/lepl/core/_test
+copying build/lib/lepl/core/_test/manager.py -> build/bdist.linux-x86_64/egg/lepl/core/_test
+copying build/lib/lepl/core/_test/dynamic.py -> build/bdist.linux-x86_64/egg/lepl/core/_test
+copying build/lib/lepl/core/dynamic.py -> build/bdist.linux-x86_64/egg/lepl/core
+creating build/bdist.linux-x86_64/egg/lepl/_test
+copying build/lib/lepl/_test/bug_stalled_parser.py -> build/bdist.linux-x86_64/egg/lepl/_test
+copying build/lib/lepl/_test/wrong_cache_bug.py -> build/bdist.linux-x86_64/egg/lepl/_test
+copying build/lib/lepl/_test/magus.py -> build/bdist.linux-x86_64/egg/lepl/_test
+copying build/lib/lepl/_test/wrong_regexp_bug.py -> build/bdist.linux-x86_64/egg/lepl/_test
+copying build/lib/lepl/_test/__init__.py -> build/bdist.linux-x86_64/egg/lepl/_test
+copying build/lib/lepl/_test/wrong_depth_bug.py -> build/bdist.linux-x86_64/egg/lepl/_test
+copying build/lib/lepl/_test/base.py -> build/bdist.linux-x86_64/egg/lepl/_test
+creating build/bdist.linux-x86_64/egg/lepl/lexer
+creating build/bdist.linux-x86_64/egg/lepl/lexer/_example
+copying build/lib/lepl/lexer/_example/__init__.py -> build/bdist.linux-x86_64/egg/lepl/lexer/_example
+copying build/lib/lepl/lexer/_example/limitations.py -> build/bdist.linux-x86_64/egg/lepl/lexer/_example
+copying build/lib/lepl/lexer/_example/calculator.py -> build/bdist.linux-x86_64/egg/lepl/lexer/_example
+copying build/lib/lepl/lexer/stream.py -> build/bdist.linux-x86_64/egg/lepl/lexer
+copying build/lib/lepl/lexer/matchers.py -> build/bdist.linux-x86_64/egg/lepl/lexer
+copying build/lib/lepl/lexer/lexer.py -> build/bdist.linux-x86_64/egg/lepl/lexer
+copying build/lib/lepl/lexer/support.py -> build/bdist.linux-x86_64/egg/lepl/lexer
+creating build/bdist.linux-x86_64/egg/lepl/lexer/lines
+creating build/bdist.linux-x86_64/egg/lepl/lexer/lines/_example
+copying build/lib/lepl/lexer/lines/_example/line_aware.py -> build/bdist.linux-x86_64/egg/lepl/lexer/lines/_example
+copying build/lib/lepl/lexer/lines/_example/old_examples.py -> build/bdist.linux-x86_64/egg/lepl/lexer/lines/_example
+copying build/lib/lepl/lexer/lines/_example/__init__.py -> build/bdist.linux-x86_64/egg/lepl/lexer/lines/_example
+copying build/lib/lepl/lexer/lines/matchers.py -> build/bdist.linux-x86_64/egg/lepl/lexer/lines
+copying build/lib/lepl/lexer/lines/lexer.py -> build/bdist.linux-x86_64/egg/lepl/lexer/lines
+copying build/lib/lepl/lexer/lines/monitor.py -> build/bdist.linux-x86_64/egg/lepl/lexer/lines
+copying build/lib/lepl/lexer/lines/__init__.py -> build/bdist.linux-x86_64/egg/lepl/lexer/lines
+creating build/bdist.linux-x86_64/egg/lepl/lexer/lines/_test
+copying build/lib/lepl/lexer/lines/_test/errors.py -> build/bdist.linux-x86_64/egg/lepl/lexer/lines/_test
+copying build/lib/lepl/lexer/lines/_test/stream.py -> build/bdist.linux-x86_64/egg/lepl/lexer/lines/_test
+copying build/lib/lepl/lexer/lines/_test/closed_bug.py -> build/bdist.linux-x86_64/egg/lepl/lexer/lines/_test
+copying build/lib/lepl/lexer/lines/_test/left_bug.py -> build/bdist.linux-x86_64/egg/lepl/lexer/lines/_test
+copying build/lib/lepl/lexer/lines/_test/offside.py -> build/bdist.linux-x86_64/egg/lepl/lexer/lines/_test
+copying build/lib/lepl/lexer/lines/_test/text.py -> build/bdist.linux-x86_64/egg/lepl/lexer/lines/_test
+copying build/lib/lepl/lexer/lines/_test/word_bug.py -> build/bdist.linux-x86_64/egg/lepl/lexer/lines/_test
+copying build/lib/lepl/lexer/lines/_test/__init__.py -> build/bdist.linux-x86_64/egg/lepl/lexer/lines/_test
+copying build/lib/lepl/lexer/lines/_test/pithon.py -> build/bdist.linux-x86_64/egg/lepl/lexer/lines/_test
+copying build/lib/lepl/lexer/lines/_test/indentation.py -> build/bdist.linux-x86_64/egg/lepl/lexer/lines/_test
+copying build/lib/lepl/lexer/operators.py -> build/bdist.linux-x86_64/egg/lepl/lexer
+copying build/lib/lepl/lexer/rewriters.py -> build/bdist.linux-x86_64/egg/lepl/lexer
+copying build/lib/lepl/lexer/__init__.py -> build/bdist.linux-x86_64/egg/lepl/lexer
+creating build/bdist.linux-x86_64/egg/lepl/lexer/_test
+copying build/lib/lepl/lexer/_test/matchers.py -> build/bdist.linux-x86_64/egg/lepl/lexer/_test
+copying build/lib/lepl/lexer/_test/__init__.py -> build/bdist.linux-x86_64/egg/lepl/lexer/_test
+creating build/bdist.linux-x86_64/egg/lepl/stream
+copying build/lib/lepl/stream/facade.py -> build/bdist.linux-x86_64/egg/lepl/stream
+copying build/lib/lepl/stream/factory.py -> build/bdist.linux-x86_64/egg/lepl/stream
+copying build/lib/lepl/stream/iter.py -> build/bdist.linux-x86_64/egg/lepl/stream
+copying build/lib/lepl/stream/__init__.py -> build/bdist.linux-x86_64/egg/lepl/stream
+creating build/bdist.linux-x86_64/egg/lepl/stream/_test
+copying build/lib/lepl/stream/_test/iter.py -> build/bdist.linux-x86_64/egg/lepl/stream/_test
+copying build/lib/lepl/stream/_test/file.py -> build/bdist.linux-x86_64/egg/lepl/stream/_test
+copying build/lib/lepl/stream/_test/__init__.py -> build/bdist.linux-x86_64/egg/lepl/stream/_test
+copying build/lib/lepl/stream/_test/simple.py -> build/bdist.linux-x86_64/egg/lepl/stream/_test
+copying build/lib/lepl/stream/simple.py -> build/bdist.linux-x86_64/egg/lepl/stream
+copying build/lib/lepl/stream/core.py -> build/bdist.linux-x86_64/egg/lepl/stream
+copying build/lib/lepl/stream/maxdepth.py -> build/bdist.linux-x86_64/egg/lepl/stream
+byte-compiling build/bdist.linux-x86_64/egg/lepl/regexp/str.py to str.pyc
+byte-compiling build/bdist.linux-x86_64/egg/lepl/regexp/matchers.py to matchers.pyc
+byte-compiling build/bdist.linux-x86_64/egg/lepl/regexp/unicode.py to unicode.pyc
+byte-compiling build/bdist.linux-x86_64/egg/lepl/regexp/binary.py to binary.pyc
+byte-compiling build/bdist.linux-x86_64/egg/lepl/regexp/rewriters.py to rewriters.pyc
+byte-compiling build/bdist.linux-x86_64/egg/lepl/regexp/__init__.py to __init__.pyc
+byte-compiling build/bdist.linux-x86_64/egg/lepl/regexp/interval.py to interval.pyc
+byte-compiling build/bdist.linux-x86_64/egg/lepl/regexp/_test/matchers.py to matchers.pyc
+byte-compiling build/bdist.linux-x86_64/egg/lepl/regexp/_test/unicode.py to unicode.pyc
+byte-compiling build/bdist.linux-x86_64/egg/lepl/regexp/_test/binary.py to binary.pyc
+byte-compiling build/bdist.linux-x86_64/egg/lepl/regexp/_test/rewriters.py to rewriters.pyc
+byte-compiling build/bdist.linux-x86_64/egg/lepl/regexp/_test/__init__.py to __init__.pyc
+byte-compiling build/bdist.linux-x86_64/egg/lepl/regexp/_test/interval.py to interval.pyc
+byte-compiling build/bdist.linux-x86_64/egg/lepl/regexp/_test/random.py to random.pyc
+byte-compiling build/bdist.linux-x86_64/egg/lepl/regexp/_test/core.py to core.pyc
+byte-compiling build/bdist.linux-x86_64/egg/lepl/regexp/core.py to core.pyc
+byte-compiling build/bdist.linux-x86_64/egg/lepl/_example/tutorial_1.py to tutorial_1.pyc
+byte-compiling build/bdist.linux-x86_64/egg/lepl/_example/performance.py to performance.pyc
+byte-compiling build/bdist.linux-x86_64/egg/lepl/_example/new_in_4.py to new_in_4.pyc
+byte-compiling build/bdist.linux-x86_64/egg/lepl/_example/args.py to args.pyc
+byte-compiling build/bdist.linux-x86_64/egg/lepl/_example/nodes.py to nodes.pyc
+byte-compiling build/bdist.linux-x86_64/egg/lepl/_example/config.py to config.pyc
+byte-compiling build/bdist.linux-x86_64/egg/lepl/_example/memo.py to memo.pyc
+byte-compiling build/bdist.linux-x86_64/egg/lepl/_example/phone_words.py to phone_words.pyc
+byte-compiling build/bdist.linux-x86_64/egg/lepl/_example/phone.py to phone.pyc
+byte-compiling build/bdist.linux-x86_64/egg/lepl/_example/matchers.py to matchers.pyc
+byte-compiling build/bdist.linux-x86_64/egg/lepl/_example/lexer.py to lexer.pyc
+byte-compiling build/bdist.linux-x86_64/egg/lepl/_example/full_match.py to full_match.pyc
+byte-compiling build/bdist.linux-x86_64/egg/lepl/_example/spindrome.py to spindrome.pyc
+byte-compiling build/bdist.linux-x86_64/egg/lepl/_example/search.py to search.pyc
+byte-compiling build/bdist.linux-x86_64/egg/lepl/_example/hello.py to hello.pyc
+byte-compiling build/bdist.linux-x86_64/egg/lepl/_example/support.py to support.pyc
+byte-compiling build/bdist.linux-x86_64/egg/lepl/_example/operators.py to operators.pyc
+byte-compiling build/bdist.linux-x86_64/egg/lepl/_example/expression.py to expression.pyc
+byte-compiling build/bdist.linux-x86_64/egg/lepl/_example/xml.py to xml.pyc
+byte-compiling build/bdist.linux-x86_64/egg/lepl/_example/columns.py to columns.pyc
+byte-compiling build/bdist.linux-x86_64/egg/lepl/_example/__init__.py to __init__.pyc
+byte-compiling build/bdist.linux-x86_64/egg/lepl/_example/trace.py to trace.pyc
+byte-compiling build/bdist.linux-x86_64/egg/lepl/_example/manager.py to manager.pyc
+byte-compiling build/bdist.linux-x86_64/egg/lepl/_example/error.py to error.pyc
+byte-compiling build/bdist.linux-x86_64/egg/lepl/_example/tutorial_3.py to tutorial_3.pyc
+byte-compiling build/bdist.linux-x86_64/egg/lepl/_example/dynamic.py to dynamic.pyc
+byte-compiling build/bdist.linux-x86_64/egg/lepl/_example/tutorial_2.py to tutorial_2.pyc
+byte-compiling build/bdist.linux-x86_64/egg/lepl/_example/tutorial_4.py to tutorial_4.pyc
+byte-compiling build/bdist.linux-x86_64/egg/lepl/_example/search_syntax.py to search_syntax.pyc
+byte-compiling build/bdist.linux-x86_64/egg/lepl/_example/separators.py to separators.pyc
+byte-compiling build/bdist.linux-x86_64/egg/lepl/_example/hiren.py to hiren.pyc
+byte-compiling build/bdist.linux-x86_64/egg/lepl/matchers/memo.py to memo.pyc
+byte-compiling build/bdist.linux-x86_64/egg/lepl/matchers/combine.py to combine.pyc
+byte-compiling build/bdist.linux-x86_64/egg/lepl/matchers/monitor.py to monitor.pyc
+byte-compiling build/bdist.linux-x86_64/egg/lepl/matchers/support.py to support.pyc
+byte-compiling build/bdist.linux-x86_64/egg/lepl/matchers/operators.py to operators.pyc
+byte-compiling build/bdist.linux-x86_64/egg/lepl/matchers/variables.py to variables.pyc
+byte-compiling build/bdist.linux-x86_64/egg/lepl/matchers/matcher.py to matcher.pyc
+byte-compiling build/bdist.linux-x86_64/egg/lepl/matchers/__init__.py to __init__.pyc
+byte-compiling build/bdist.linux-x86_64/egg/lepl/matchers/error.py to error.pyc
+byte-compiling build/bdist.linux-x86_64/egg/lepl/matchers/transform.py to transform.pyc
+byte-compiling build/bdist.linux-x86_64/egg/lepl/matchers/_test/memo.py to memo.pyc
+byte-compiling build/bdist.linux-x86_64/egg/lepl/matchers/_test/combine.py to combine.pyc
+byte-compiling build/bdist.linux-x86_64/egg/lepl/matchers/_test/support.py to support.pyc
+byte-compiling build/bdist.linux-x86_64/egg/lepl/matchers/_test/operators.py to operators.pyc
+byte-compiling build/bdist.linux-x86_64/egg/lepl/matchers/_test/float_bug.py to float_bug.pyc
+byte-compiling build/bdist.linux-x86_64/egg/lepl/matchers/_test/variables.py to variables.pyc
+byte-compiling build/bdist.linux-x86_64/egg/lepl/matchers/_test/__init__.py to __init__.pyc
+byte-compiling build/bdist.linux-x86_64/egg/lepl/matchers/_test/error.py to error.pyc
+byte-compiling build/bdist.linux-x86_64/egg/lepl/matchers/_test/transform.py to transform.pyc
+byte-compiling build/bdist.linux-x86_64/egg/lepl/matchers/_test/separators.py to separators.pyc
+byte-compiling build/bdist.linux-x86_64/egg/lepl/matchers/_test/core.py to core.pyc
+byte-compiling build/bdist.linux-x86_64/egg/lepl/matchers/_test/derived.py to derived.pyc
+byte-compiling build/bdist.linux-x86_64/egg/lepl/matchers/core.py to core.pyc
+byte-compiling build/bdist.linux-x86_64/egg/lepl/matchers/complex.py to complex.pyc
+byte-compiling build/bdist.linux-x86_64/egg/lepl/matchers/derived.py to derived.pyc
+byte-compiling build/bdist.linux-x86_64/egg/lepl/apps/json.py to json.pyc
+byte-compiling build/bdist.linux-x86_64/egg/lepl/apps/rfc3696.py to rfc3696.pyc
+byte-compiling build/bdist.linux-x86_64/egg/lepl/apps/__init__.py to __init__.pyc
+byte-compiling build/bdist.linux-x86_64/egg/lepl/apps/_test/json.py to json.pyc
+byte-compiling build/bdist.linux-x86_64/egg/lepl/apps/_test/rfc3696.py to rfc3696.pyc
+byte-compiling build/bdist.linux-x86_64/egg/lepl/apps/_test/__init__.py to __init__.pyc
+byte-compiling build/bdist.linux-x86_64/egg/lepl/contrib/matchers.py to matchers.pyc
+byte-compiling build/bdist.linux-x86_64/egg/lepl/contrib/json.py to json.pyc
+byte-compiling build/bdist.linux-x86_64/egg/lepl/contrib/__init__.py to __init__.pyc
+byte-compiling build/bdist.linux-x86_64/egg/lepl/bin/bits.py to bits.pyc
+byte-compiling build/bdist.linux-x86_64/egg/lepl/bin/literal.py to literal.pyc
+byte-compiling build/bdist.linux-x86_64/egg/lepl/bin/_example/literal.py to literal.pyc
+byte-compiling build/bdist.linux-x86_64/egg/lepl/bin/_example/__init__.py to __init__.pyc
+byte-compiling build/bdist.linux-x86_64/egg/lepl/bin/matchers.py to matchers.pyc
+byte-compiling build/bdist.linux-x86_64/egg/lepl/bin/__init__.py to __init__.pyc
+byte-compiling build/bdist.linux-x86_64/egg/lepl/bin/_test/bits.py to bits.pyc
+byte-compiling build/bdist.linux-x86_64/egg/lepl/bin/_test/literal.py to literal.pyc
+byte-compiling build/bdist.linux-x86_64/egg/lepl/bin/_test/matchers.py to matchers.pyc
+byte-compiling build/bdist.linux-x86_64/egg/lepl/bin/_test/__init__.py to __init__.pyc
+byte-compiling build/bdist.linux-x86_64/egg/lepl/bin/_test/encode.py to encode.pyc
+byte-compiling build/bdist.linux-x86_64/egg/lepl/bin/encode.py to encode.pyc
+byte-compiling build/bdist.linux-x86_64/egg/lepl/support/graph.py to graph.pyc
+byte-compiling build/bdist.linux-x86_64/egg/lepl/support/list.py to list.pyc
+byte-compiling build/bdist.linux-x86_64/egg/lepl/support/lib.py to lib.pyc
+byte-compiling build/bdist.linux-x86_64/egg/lepl/support/warn.py to warn.pyc
+byte-compiling build/bdist.linux-x86_64/egg/lepl/support/timer.py to timer.pyc
+byte-compiling build/bdist.linux-x86_64/egg/lepl/support/context.py to context.pyc
+byte-compiling build/bdist.linux-x86_64/egg/lepl/support/__init__.py to __init__.pyc
+byte-compiling build/bdist.linux-x86_64/egg/lepl/support/node.py to node.pyc
+byte-compiling build/bdist.linux-x86_64/egg/lepl/support/state.py to state.pyc
+byte-compiling build/bdist.linux-x86_64/egg/lepl/support/_test/graph.py to graph.pyc
+byte-compiling build/bdist.linux-x86_64/egg/lepl/support/_test/list.py to list.pyc
+byte-compiling build/bdist.linux-x86_64/egg/lepl/support/_test/lib.py to lib.pyc
+byte-compiling build/bdist.linux-x86_64/egg/lepl/support/_test/timer.py to timer.pyc
+byte-compiling build/bdist.linux-x86_64/egg/lepl/support/_test/__init__.py to __init__.pyc
+byte-compiling build/bdist.linux-x86_64/egg/lepl/support/_test/node.py to node.pyc
+byte-compiling build/bdist.linux-x86_64/egg/lepl/__init__.py to __init__.pyc
+byte-compiling build/bdist.linux-x86_64/egg/lepl/core/config.py to config.pyc
+byte-compiling build/bdist.linux-x86_64/egg/lepl/core/monitor.py to monitor.pyc
+byte-compiling build/bdist.linux-x86_64/egg/lepl/core/parser.py to parser.pyc
+byte-compiling build/bdist.linux-x86_64/egg/lepl/core/rewriters.py to rewriters.pyc
+byte-compiling build/bdist.linux-x86_64/egg/lepl/core/__init__.py to __init__.pyc
+byte-compiling build/bdist.linux-x86_64/egg/lepl/core/trace.py to trace.pyc
+byte-compiling build/bdist.linux-x86_64/egg/lepl/core/manager.py to manager.pyc
+byte-compiling build/bdist.linux-x86_64/egg/lepl/core/_test/rewrite_repeat_bug.py to rewrite_repeat_bug.pyc
+byte-compiling build/bdist.linux-x86_64/egg/lepl/core/_test/clone.py to clone.pyc
+byte-compiling build/bdist.linux-x86_64/egg/lepl/core/_test/config.py to config.pyc
+byte-compiling build/bdist.linux-x86_64/egg/lepl/core/_test/parser.py to parser.pyc
+byte-compiling build/bdist.linux-x86_64/egg/lepl/core/_test/rewriters.py to rewriters.pyc
+byte-compiling build/bdist.linux-x86_64/egg/lepl/core/_test/__init__.py to __init__.pyc
+byte-compiling build/bdist.linux-x86_64/egg/lepl/core/_test/rewrite_delayed_bug.py to rewrite_delayed_bug.pyc
+byte-compiling build/bdist.linux-x86_64/egg/lepl/core/_test/manager.py to manager.pyc
+byte-compiling build/bdist.linux-x86_64/egg/lepl/core/_test/dynamic.py to dynamic.pyc
+byte-compiling build/bdist.linux-x86_64/egg/lepl/core/dynamic.py to dynamic.pyc
+byte-compiling build/bdist.linux-x86_64/egg/lepl/_test/bug_stalled_parser.py to bug_stalled_parser.pyc
+byte-compiling build/bdist.linux-x86_64/egg/lepl/_test/wrong_cache_bug.py to wrong_cache_bug.pyc
+byte-compiling build/bdist.linux-x86_64/egg/lepl/_test/magus.py to magus.pyc
+byte-compiling build/bdist.linux-x86_64/egg/lepl/_test/wrong_regexp_bug.py to wrong_regexp_bug.pyc
+byte-compiling build/bdist.linux-x86_64/egg/lepl/_test/__init__.py to __init__.pyc
+byte-compiling build/bdist.linux-x86_64/egg/lepl/_test/wrong_depth_bug.py to wrong_depth_bug.pyc
+byte-compiling build/bdist.linux-x86_64/egg/lepl/_test/base.py to base.pyc
+byte-compiling build/bdist.linux-x86_64/egg/lepl/lexer/_example/__init__.py to __init__.pyc
+byte-compiling build/bdist.linux-x86_64/egg/lepl/lexer/_example/limitations.py to limitations.pyc
+byte-compiling build/bdist.linux-x86_64/egg/lepl/lexer/_example/calculator.py to calculator.pyc
+byte-compiling build/bdist.linux-x86_64/egg/lepl/lexer/stream.py to stream.pyc
+byte-compiling build/bdist.linux-x86_64/egg/lepl/lexer/matchers.py to matchers.pyc
+byte-compiling build/bdist.linux-x86_64/egg/lepl/lexer/lexer.py to lexer.pyc
+byte-compiling build/bdist.linux-x86_64/egg/lepl/lexer/support.py to support.pyc
+byte-compiling build/bdist.linux-x86_64/egg/lepl/lexer/lines/_example/line_aware.py to line_aware.pyc
+byte-compiling build/bdist.linux-x86_64/egg/lepl/lexer/lines/_example/old_examples.py to old_examples.pyc
+byte-compiling build/bdist.linux-x86_64/egg/lepl/lexer/lines/_example/__init__.py to __init__.pyc
+byte-compiling build/bdist.linux-x86_64/egg/lepl/lexer/lines/matchers.py to matchers.pyc
+byte-compiling build/bdist.linux-x86_64/egg/lepl/lexer/lines/lexer.py to lexer.pyc
+byte-compiling build/bdist.linux-x86_64/egg/lepl/lexer/lines/monitor.py to monitor.pyc
+byte-compiling build/bdist.linux-x86_64/egg/lepl/lexer/lines/__init__.py to __init__.pyc
+byte-compiling build/bdist.linux-x86_64/egg/lepl/lexer/lines/_test/errors.py to errors.pyc
+byte-compiling build/bdist.linux-x86_64/egg/lepl/lexer/lines/_test/stream.py to stream.pyc
+byte-compiling build/bdist.linux-x86_64/egg/lepl/lexer/lines/_test/closed_bug.py to closed_bug.pyc
+byte-compiling build/bdist.linux-x86_64/egg/lepl/lexer/lines/_test/left_bug.py to left_bug.pyc
+byte-compiling build/bdist.linux-x86_64/egg/lepl/lexer/lines/_test/offside.py to offside.pyc
+byte-compiling build/bdist.linux-x86_64/egg/lepl/lexer/lines/_test/text.py to text.pyc
+byte-compiling build/bdist.linux-x86_64/egg/lepl/lexer/lines/_test/word_bug.py to word_bug.pyc
+byte-compiling build/bdist.linux-x86_64/egg/lepl/lexer/lines/_test/__init__.py to __init__.pyc
+byte-compiling build/bdist.linux-x86_64/egg/lepl/lexer/lines/_test/pithon.py to pithon.pyc
+byte-compiling build/bdist.linux-x86_64/egg/lepl/lexer/lines/_test/indentation.py to indentation.pyc
+byte-compiling build/bdist.linux-x86_64/egg/lepl/lexer/operators.py to operators.pyc
+byte-compiling build/bdist.linux-x86_64/egg/lepl/lexer/rewriters.py to rewriters.pyc
+byte-compiling build/bdist.linux-x86_64/egg/lepl/lexer/__init__.py to __init__.pyc
+byte-compiling build/bdist.linux-x86_64/egg/lepl/lexer/_test/matchers.py to matchers.pyc
+byte-compiling build/bdist.linux-x86_64/egg/lepl/lexer/_test/__init__.py to __init__.pyc
+byte-compiling build/bdist.linux-x86_64/egg/lepl/stream/facade.py to facade.pyc
+byte-compiling build/bdist.linux-x86_64/egg/lepl/stream/factory.py to factory.pyc
+byte-compiling build/bdist.linux-x86_64/egg/lepl/stream/iter.py to iter.pyc
+byte-compiling build/bdist.linux-x86_64/egg/lepl/stream/__init__.py to __init__.pyc
+byte-compiling build/bdist.linux-x86_64/egg/lepl/stream/_test/iter.py to iter.pyc
+byte-compiling build/bdist.linux-x86_64/egg/lepl/stream/_test/file.py to file.pyc
+byte-compiling build/bdist.linux-x86_64/egg/lepl/stream/_test/__init__.py to __init__.pyc
+byte-compiling build/bdist.linux-x86_64/egg/lepl/stream/_test/simple.py to simple.pyc
+byte-compiling build/bdist.linux-x86_64/egg/lepl/stream/simple.py to simple.pyc
+byte-compiling build/bdist.linux-x86_64/egg/lepl/stream/core.py to core.pyc
+byte-compiling build/bdist.linux-x86_64/egg/lepl/stream/maxdepth.py to maxdepth.pyc
+creating build/bdist.linux-x86_64/egg/EGG-INFO
+copying src/LEPL.egg-info/PKG-INFO -> build/bdist.linux-x86_64/egg/EGG-INFO
+copying src/LEPL.egg-info/SOURCES.txt -> build/bdist.linux-x86_64/egg/EGG-INFO
+copying src/LEPL.egg-info/dependency_links.txt -> build/bdist.linux-x86_64/egg/EGG-INFO
+copying src/LEPL.egg-info/top_level.txt -> build/bdist.linux-x86_64/egg/EGG-INFO
+zip_safe flag not set; analyzing archive contents...
+creating dist
+creating 'dist/LEPL-5.1.3-py2.7.egg' and adding 'build/bdist.linux-x86_64/egg' to it
+removing 'build/bdist.linux-x86_64/egg' (and everything under it)
+Processing LEPL-5.1.3-py2.7.egg
+Copying LEPL-5.1.3-py2.7.egg to /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages
+Adding LEPL 5.1.3 to easy-install.pth file
+
+Installed /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/LEPL-5.1.3-py2.7.egg
+Processing dependencies for LEPL==5.1.3
+Finished processing dependencies for LEPL==5.1.3
+
+The following NEW packages will be INSTALLED:
+
+    openssl:    1.0.1k-1     
+    pip:        7.0.3-py27_0 
+    python:     2.7.10-0     
+    readline:   6.2-2        
+    setuptools: 18.0.1-py27_0
+    sqlite:     3.8.4.1-1    
+    system:     5.8-2        
+    tk:         8.5.18-0     
+    zlib:       1.2.8-0      
+
+Linking packages ...
+[                    ]|                                                  |   0%[openssl             ]|                                                  |   0%[readline            ]|#####                                             |  11%[sqlite              ]|###########                                       |  22%[system              ]|################                                  |  33%[tk                  ]|######################                            |  44%[zlib                ]|###########################                       |  55%[python              ]|#################################                 |  66%[setuptools          ]|######################################            |  77%[pip                 ]|############################################      |  88%[      COMPLETE      ]|##################################################| 100%
+Removing old work directory
+Source cache directory is: /home/ubuntu/miniconda/conda-bld/src_cache
+Found source in cache: LEPL-5.1.3.tar.gz
+Extracting download
+Package: lepl-5.1.3-py_0
+source tree in: /home/ubuntu/miniconda/conda-bld/work/LEPL-5.1.3
+found egg: /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/LEPL-5.1.3-py2.7.egg
+number of files: 2
+Fixing permissions
+Fixing permissions
+BUILD END: lepl-5.1.3-py_0
+TEST START: lepl-5.1.3-py_0
+Fetching package metadata: ......
+
+WARNING: conda-build appears to be out of date. You have version 1.13.0 but the
+latest version is 1.14.1. Run
+
+conda update -n root conda-build
+
+to get the latest version.
+
+Solving package specifications: .
+The following packages will be downloaded:
+
+    package                    |            build
+    ---------------------------|-----------------
+    lepl-5.1.3                 |             py_0         697 KB
+
+The following NEW packages will be INSTALLED:
+
+    lepl:       5.1.3-py_0   
+    openssl:    1.0.1k-1     
+    pip:        7.0.3-py27_0 
+    python:     2.7.10-0     
+    readline:   6.2-2        
+    setuptools: 18.0.1-py27_0
+    sqlite:     3.8.4.1-1    
+    system:     5.8-2        
+    tk:         8.5.18-0     
+    zlib:       1.2.8-0      
+
+Fetching packages ...
+lepl-5.1.3-py_   0% |                              | ETA:  --:--:--   0.00  B/slepl-5.1.3-py_   2% |                               | ETA:  0:00:00  47.23 MB/slepl-5.1.3-py_   4% |#                              | ETA:  0:00:00  58.94 MB/slepl-5.1.3-py_   6% |##                             | ETA:  0:00:00  65.45 MB/slepl-5.1.3-py_   9% |##                             | ETA:  0:00:00  69.57 MB/slepl-5.1.3-py_  11% |###                            | ETA:  0:00:00  72.83 MB/slepl-5.1.3-py_  13% |####                           | ETA:  0:00:00  75.21 MB/slepl-5.1.3-py_  16% |####                           | ETA:  0:00:00  76.87 MB/slepl-5.1.3-py_  18% |#####                          | ETA:  0:00:00  78.35 MB/slepl-5.1.3-py_  20% |######                         | ETA:  0:00:00  79.58 MB/slepl-5.1.3-py_  22% |#######                        | ETA:  0:00:00  80.39 MB/slepl-5.1.3-py_  25% |#######                        | ETA:  0:00:00  81.22 MB/slepl-5.1.3-py_  27% |########                       | ETA:  0:00:00  81.82 MB/slepl-5.1.3-py_  29% |#########                      | ETA:  0:00:00  82.50 MB/slepl-5.1.3-py_  32% |#########                      | ETA:  0:00:00  83.11 MB/slepl-5.1.3-py_  34% |##########                     | ETA:  0:00:00  83.51 MB/slepl-5.1.3-py_  36% |###########                    | ETA:  0:00:00  83.25 MB/slepl-5.1.3-py_  39% |############                   | ETA:  0:00:00  83.67 MB/slepl-5.1.3-py_  41% |############                   | ETA:  0:00:00  83.92 MB/slepl-5.1.3-py_  43% |#############                  | ETA:  0:00:00  84.20 MB/slepl-5.1.3-py_  45% |##############                 | ETA:  0:00:00  84.56 MB/slepl-5.1.3-py_  48% |##############                 | ETA:  0:00:00  84.89 MB/slepl-5.1.3-py_  50% |###############                | ETA:  0:00:00  29.14 MB/slepl-5.1.3-py_  52% |################               | ETA:  0:00:00  30.02 MB/slepl-5.1.3-py_  55% |#################              | ETA:  0:00:00  30.88 MB/slepl-5.1.3-py_  57% |#################              | ETA:  0:00:00  31.72 MB/slepl-5.1.3-py_  59% |##################             | ETA:  0:00:00  32.54 MB/slepl-5.1.3-py_  61% |###################            | ETA:  0:00:00  33.33 MB/slepl-5.1.3-py_  64% |###################            | ETA:  0:00:00  34.10 MB/slepl-5.1.3-py_  66% |####################           | ETA:  0:00:00  34.85 MB/slepl-5.1.3-py_  68% |#####################          | ETA:  0:00:00  35.58 MB/slepl-5.1.3-py_  71% |######################         | ETA:  0:00:00  36.29 MB/slepl-5.1.3-py_  73% |######################         | ETA:  0:00:00  36.99 MB/slepl-5.1.3-py_  75% |#######################        | ETA:  0:00:00  37.67 MB/slepl-5.1.3-py_  78% |########################       | ETA:  0:00:00  38.18 MB/slepl-5.1.3-py_  80% |########################       | ETA:  0:00:00  38.79 MB/slepl-5.1.3-py_  82% |#########################      | ETA:  0:00:00  39.42 MB/slepl-5.1.3-py_  84% |##########################     | ETA:  0:00:00  39.98 MB/slepl-5.1.3-py_  87% |###########################    | ETA:  0:00:00  40.58 MB/slepl-5.1.3-py_  89% |###########################    | ETA:  0:00:00  41.17 MB/slepl-5.1.3-py_  91% |############################   | ETA:  0:00:00  41.74 MB/slepl-5.1.3-py_  94% |#############################  | ETA:  0:00:00  42.30 MB/slepl-5.1.3-py_  96% |#############################  | ETA:  0:00:00  42.85 MB/slepl-5.1.3-py_  98% |############################## | ETA:  0:00:00  43.37 /home/ubuntu/miniconda/pkgs/lepl-5.1.3-py_0/bin/.lepl-pre-link.sh: line 2: /home/ubuntu/miniconda/envs/_test/bin/python: No such file or directory
+MB/slepl-5.1.3-py_ 100% |###############################| ETA:  0:00:00  43.50 MB/slepl-5.1.3-py_ 100% |###############################| Time: 0:00:00  42.90 MB/s
+Extracting packages ...
+[      COMPLETE      ]|                                                  |   0%[lepl                ]|                                                  |   0%[lepl                ]|                                                  |   0%[      COMPLETE      ]|##################################################| 100%
+Linking packages ...
+[      COMPLETE      ]|                                                  |   0%[openssl             ]|                                                  |   0%[openssl             ]|                                                  |   0%[readline            ]|#####                                             |  10%[sqlite              ]|##########                                        |  20%[system              ]|###############                                   |  30%[tk                  ]|####################                              |  40%[zlib                ]|#########################                         |  50%[lepl                ]|##############################                    |  60%Error: pre-link failed: lepl-5.1.3-py_0

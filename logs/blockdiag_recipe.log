@@ -69,19 +69,118 @@ Warning, the following versions were found for blockdiag
 Using 1.5.2
 Use --version to specify a different version.
 Using url https://pypi.python.org/packages/source/b/blockdiag/blockdiag-1.5.2.tar.gz (2.6 MB) for blockdiag.
-Downloading blockdiag (use --no-download to skip this step)
+Downloading blockdiag
 Using cached download
 Unpacking blockdiag...
 done
-working in /tmp/tmpEqUvUjconda_skeleton_blockdiag-1.5.2.tar.gz
+working in /tmp/tmpE9SEnkconda_skeleton_blockdiag-1.5.2.tar.gz
 Fetching package metadata: ......
+
+WARNING: conda-build appears to be out of date. You have version 1.13.0 but the
+latest version is 1.14.1. Run
+
+conda update -n root conda-build
+
+to get the latest version.
+
 Solving package specifications: .patching file core.py
 Hunk #1 succeeded at 168 with fuzz 2 (offset 2 lines).
-Traceback (most recent call last):
-  File "setup.py", line 3, in <module>
-    from setuptools import setup, find_packages
-ImportError: No module named setuptools
 
-Applying patch: '/tmp/tmpEqUvUjconda_skeleton_blockdiag-1.5.2.tar.gz/pypi-distutils.patch'
-$PYTHONPATH = /tmp/tmpEqUvUjconda_skeleton_blockdiag-1.5.2.tar.gz/blockdiag-1.5.2
-Error: command failed: /home/ubuntu/miniconda/envs/_build/bin/python setup.py install
+WARNING: conda-build appears to be out of date. You have version 1.13.0 but the
+latest version is 1.14.1. Run
+
+conda update -n root conda-build
+
+to get the latest version.
+
+
+Applying patch: '/tmp/tmpE9SEnkconda_skeleton_blockdiag-1.5.2.tar.gz/pypi-distutils.patch'
+WARNING: Could not add entry points. They were:
+
+       [console_scripts]
+       blockdiag = blockdiag.command:main
+
+       [blockdiag_noderenderer]
+       box = blockdiag.noderenderer.box
+       square = blockdiag.noderenderer.square
+       roundedbox = blockdiag.noderenderer.roundedbox
+       diamond = blockdiag.noderenderer.diamond
+       minidiamond = blockdiag.noderenderer.minidiamond
+       mail = blockdiag.noderenderer.mail
+       note = blockdiag.noderenderer.note
+       cloud = blockdiag.noderenderer.cloud
+       circle = blockdiag.noderenderer.circle
+       ellipse = blockdiag.noderenderer.ellipse
+       beginpoint = blockdiag.noderenderer.beginpoint
+       endpoint = blockdiag.noderenderer.endpoint
+       actor = blockdiag.noderenderer.actor
+       flowchart.database = blockdiag.noderenderer.flowchart.database
+       flowchart.input = blockdiag.noderenderer.flowchart.input
+       flowchart.loopin = blockdiag.noderenderer.flowchart.loopin
+       flowchart.loopout = blockdiag.noderenderer.flowchart.loopout
+       flowchart.terminator = blockdiag.noderenderer.flowchart.terminator
+       textbox = blockdiag.noderenderer.textbox
+       dots = blockdiag.noderenderer.dots
+       none = blockdiag.noderenderer.none
+
+       [blockdiag_plugins]
+       attributes = blockdiag.plugins.attributes
+       autoclass = blockdiag.plugins.autoclass
+
+       [blockdiag_imagedrawers]
+       imagedraw_png = blockdiag.imagedraw.png
+       imagedraw_svg = blockdiag.imagedraw.svg
+       imagedraw_pdf = blockdiag.imagedraw.pdf
+    
+Warning, the following versions were found for webcolors
+1.5
+1.4
+1.3.1
+1.3
+1.2
+1.1
+1.0
+0.1
+Using 1.5
+Use --version to specify a different version.
+Using url https://pypi.python.org/packages/source/w/webcolors/webcolors-1.5.tar.gz (29 KB) for webcolors.
+Downloading webcolors
+Using cached download
+Unpacking webcolors...
+done
+working in /tmp/tmpntmggPconda_skeleton_webcolors-1.5.tar.gz
+Solving package specifications: .patching file core.py
+Hunk #1 succeeded at 168 with fuzz 2 (offset 2 lines).
+
+WARNING: conda-build appears to be out of date. You have version 1.13.0 but the
+latest version is 1.14.1. Run
+
+conda update -n root conda-build
+
+to get the latest version.
+
+
+Applying patch: '/tmp/tmpntmggPconda_skeleton_webcolors-1.5.tar.gz/pypi-distutils.patch'
+Warning, the following versions were found for funcparserlib
+0.3.6
+0.3.5
+0.3.4
+0.3.3
+0.3.2
+0.3
+Using 0.3.6
+Use --version to specify a different version.
+Using url https://pypi.python.org/packages/source/f/funcparserlib/funcparserlib-0.3.6.tar.gz (30 KB) for funcparserlib.
+Downloading funcparserlib
+Using cached download
+Unpacking funcparserlib...
+done
+working in /tmp/tmpM62BsPconda_skeleton_funcparserlib-0.3.6.tar.gz
+Solving package specifications: .patching file core.py
+Hunk #1 succeeded at 168 with fuzz 2 (offset 2 lines).
+
+Applying patch: '/tmp/tmpM62BsPconda_skeleton_funcparserlib-0.3.6.tar.gz/pypi-distutils.patch'
+Writing recipe for webcolors
+Writing recipe for funcparserlib
+Writing recipe for blockdiag
+Done

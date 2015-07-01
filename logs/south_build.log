@@ -2,6 +2,14 @@ Removing old build directory
 Removing old work directory
 BUILD START: south-1.0.2-py27_0
 Fetching package metadata: ......
+
+WARNING: conda-build appears to be out of date. You have version 1.13.0 but the
+latest version is 1.14.1. Run
+
+conda update -n root conda-build
+
+to get the latest version.
+
 Solving package specifications: .+ /home/ubuntu/miniconda/envs/_build/bin/python setup.py install
 running install
 running bdist_egg
@@ -455,15 +463,15 @@ Finished processing dependencies for South==1.0.2
 
 The following NEW packages will be INSTALLED:
 
-    openssl:    1.0.1k-1    
-    pip:        7.0.3-py27_0
-    python:     2.7.10-0    
-    readline:   6.2-2       
-    setuptools: 17.0-py27_0 
-    sqlite:     3.8.4.1-1   
-    system:     5.8-2       
-    tk:         8.5.18-0    
-    zlib:       1.2.8-0     
+    openssl:    1.0.1k-1     
+    pip:        7.0.3-py27_0 
+    python:     2.7.10-0     
+    readline:   6.2-2        
+    setuptools: 18.0.1-py27_0
+    sqlite:     3.8.4.1-1    
+    system:     5.8-2        
+    tk:         8.5.18-0     
+    zlib:       1.2.8-0      
 
 Linking packages ...
 [                    ]|                                                  |   0%[openssl             ]|                                                  |   0%[readline            ]|#####                                             |  11%[sqlite              ]|###########                                       |  22%[system              ]|################                                  |  33%[tk                  ]|######################                            |  44%[zlib                ]|###########################                       |  55%[python              ]|#################################                 |  66%[setuptools          ]|######################################            |  77%[pip                 ]|############################################      |  88%[      COMPLETE      ]|##################################################| 100%
@@ -480,6 +488,14 @@ Fixing permissions
 BUILD END: south-1.0.2-py27_0
 TEST START: south-1.0.2-py27_0
 Fetching package metadata: ......
+
+WARNING: conda-build appears to be out of date. You have version 1.13.0 but the
+latest version is 1.14.1. Run
+
+conda update -n root conda-build
+
+to get the latest version.
+
 Solving package specifications: .===== testing package: south-1.0.2-py27_0 =====
 import: u'south'
 import: u'south.creator'
@@ -499,19 +515,19 @@ The following packages will be downloaded:
 
 The following NEW packages will be INSTALLED:
 
-    openssl:    1.0.1k-1    
-    pip:        7.0.3-py27_0
-    python:     2.7.10-0    
-    readline:   6.2-2       
-    setuptools: 17.0-py27_0 
-    south:      1.0.2-py27_0
-    sqlite:     3.8.4.1-1   
-    system:     5.8-2       
-    tk:         8.5.18-0    
-    zlib:       1.2.8-0     
+    openssl:    1.0.1k-1     
+    pip:        7.0.3-py27_0 
+    python:     2.7.10-0     
+    readline:   6.2-2        
+    setuptools: 18.0.1-py27_0
+    south:      1.0.2-py27_0 
+    sqlite:     3.8.4.1-1    
+    system:     5.8-2        
+    tk:         8.5.18-0     
+    zlib:       1.2.8-0      
 
 Fetching packages ...
-south-1.0.2-py   0% |                              | ETA:  --:--:--   0.00  B/ssouth-1.0.2-py  10% |###                            | ETA:  0:00:00  45.39 MB/ssouth-1.0.2-py  20% |######                         | ETA:  0:00:00  57.08 MB/ssouth-1.0.2-py  30% |#########                      | ETA:  0:00:00  64.16 MB/ssouth-1.0.2-py  40% |############                   | ETA:  0:00:00  68.69 MB/ssouth-1.0.2-py  50% |###############                | ETA:  0:00:00  71.79 MB/ssouth-1.0.2-py  60% |##################             | ETA:  0:00:00  73.97 MB/ssouth-1.0.2-py  70% |#####################          | ETA:  0:00:00  74.52 MB/ssouth-1.0.2-py  80% |#########################      | ETA:  0:00:00  76.03 MB/ssouth-1.0.2-py  91% |############################   | ETA:  0:00:00  77.20 MB/ssouth-1.0.2-py 100% |###############################| ETA:  0:00:00  15.84 MB/ssouth-1.0.2-py 100% |###############################| Time: 0:00:00  15.48 MB/s
+south-1.0.2-py   0% |                              | ETA:  --:--:--   0.00  B/ssouth-1.0.2-py  10% |###                            | ETA:  0:00:00   1.93 MB/ssouth-1.0.2-py  20% |######                         | ETA:  0:00:00   3.76 MB/ssouth-1.0.2-py  30% |#########                      | ETA:  0:00:00   5.53 MB/ssouth-1.0.2-py  40% |############                   | ETA:  0:00:00   7.21 MB/ssouth-1.0.2-py  50% |###############                | ETA:  0:00:00   8.84 MB/ssouth-1.0.2-py  60% |##################             | ETA:  0:00:00  10.40 MB/ssouth-1.0.2-py  70% |#####################          | ETA:  0:00:00  11.90 MB/ssouth-1.0.2-py  80% |#########################      | ETA:  0:00:00  13.35 MB/ssouth-1.0.2-py  91% |############################   | ETA:  0:00:00  14.74 MB/ssouth-1.0.2-py 100% |###############################| ETA:  0:00:00  15.90 MB/ssouth-1.0.2-py 100% |###############################| Time: 0:00:00  15.55 MB/s
 Extracting packages ...
 [      COMPLETE      ]|                                                  |   0%[south               ]|                                                  |   0%[south               ]|                                                  |   0%[      COMPLETE      ]|##################################################| 100%
 Linking packages ...

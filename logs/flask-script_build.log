@@ -2,7 +2,19 @@ Removing old build directory
 Removing old work directory
 BUILD START: flask-script-2.0.5-py27_0
 Fetching package metadata: ......
-Solving package specifications: .+ /home/ubuntu/miniconda/envs/_build/bin/python setup.py install
+
+WARNING: conda-build appears to be out of date. You have version 1.13.0 but the
+latest version is 1.14.1. Run
+
+conda update -n root conda-build
+
+to get the latest version.
+
+Solving package specifications: .................
+Warning: 2 possible package resolutions (only showing differing packages):
+	[u'werkzeug-0.10.4-py_0.tar.bz2'],
+	[u'werkzeug-0.10.4-py27_0.tar.bz2'],
++ /home/ubuntu/miniconda/envs/_build/bin/python setup.py install
 running install
 running bdist_egg
 running egg_info
@@ -72,11 +84,11 @@ The following NEW packages will be INSTALLED:
     pip:          7.0.3-py27_0 
     python:       2.7.10-0     
     readline:     6.2-2        
-    setuptools:   17.0-py27_0  
+    setuptools:   18.0.1-py27_0
     sqlite:       3.8.4.1-1    
     system:       5.8-2        
     tk:           8.5.18-0     
-    werkzeug:     0.10.4-py27_0
+    werkzeug:     0.10.4-py_0  
     zlib:         1.2.8-0      
 
 Linking packages ...
@@ -88,13 +100,26 @@ Extracting download
 Package: flask-script-2.0.5-py27_0
 source tree in: /home/ubuntu/miniconda/conda-bld/work/Flask-Script-2.0.5
 found egg dir: /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/Flask_Script-2.0.5-py2.7.egg
-number of files: 9
+compiling .pyc files...
+number of files: 47
 Fixing permissions
 Fixing permissions
 BUILD END: flask-script-2.0.5-py27_0
 TEST START: flask-script-2.0.5-py27_0
 Fetching package metadata: ......
-Solving package specifications: .===== testing package: flask-script-2.0.5-py27_0 =====
+
+WARNING: conda-build appears to be out of date. You have version 1.13.0 but the
+latest version is 1.14.1. Run
+
+conda update -n root conda-build
+
+to get the latest version.
+
+Solving package specifications: .................
+Warning: 2 possible package resolutions (only showing differing packages):
+	[u'werkzeug-0.10.4-py_0.tar.bz2'],
+	[u'werkzeug-0.10.4-py27_0.tar.bz2'],
+===== testing package: flask-script-2.0.5-py27_0 =====
 import: u'flask_script'
 ===== flask-script-2.0.5-py27_0 OK =====
 
@@ -102,7 +127,7 @@ The following packages will be downloaded:
 
     package                    |            build
     ---------------------------|-----------------
-    flask-script-2.0.5         |           py27_0          21 KB
+    flask-script-2.0.5         |           py27_0         201 KB
 
 The following NEW packages will be INSTALLED:
 
@@ -115,15 +140,15 @@ The following NEW packages will be INSTALLED:
     pip:          7.0.3-py27_0 
     python:       2.7.10-0     
     readline:     6.2-2        
-    setuptools:   17.0-py27_0  
+    setuptools:   18.0.1-py27_0
     sqlite:       3.8.4.1-1    
     system:       5.8-2        
     tk:           8.5.18-0     
-    werkzeug:     0.10.4-py27_0
+    werkzeug:     0.10.4-py_0  
     zlib:         1.2.8-0      
 
 Fetching packages ...
-flask-script-2   0% |                              | ETA:  --:--:--   0.00  B/sflask-script-2  76% |#######################        | ETA:  0:00:00  45.51 MB/sflask-script-2 100% |###############################| ETA:  0:00:00  39.54 MB/sflask-script-2 100% |###############################| Time: 0:00:00  27.04 MB/s
+flask-script-2   0% |                              | ETA:  --:--:--   0.00  B/sflask-script-2   7% |##                             | ETA:  0:00:00  45.75 MB/sflask-script-2  15% |####                           | ETA:  0:00:00  57.77 MB/sflask-script-2  23% |#######                        | ETA:  0:00:00  64.32 MB/sflask-script-2  31% |#########                      | ETA:  0:00:00  68.91 MB/sflask-script-2  39% |############                   | ETA:  0:00:00  71.42 MB/sflask-script-2  47% |##############                 | ETA:  0:00:00  73.75 MB/sflask-script-2  55% |#################              | ETA:  0:00:00  75.55 MB/sflask-script-2  63% |###################            | ETA:  0:00:00  76.96 MB/sflask-script-2  71% |######################         | ETA:  0:00:00  78.22 MB/sflask-script-2  79% |########################       | ETA:  0:00:00  79.19 MB/sflask-script-2  87% |###########################    | ETA:  0:00:00  80.09 MB/sflask-script-2  95% |#############################  | ETA:  0:00:00  80.70 MB/sflask-script-2 100% |###############################| ETA:  0:00:00  79.02 MB/sflask-script-2 100% |###############################| Time: 0:00:00  72.54 MB/s
 Extracting packages ...
 [      COMPLETE      ]|                                                  |   0%[flask-script        ]|                                                  |   0%[flask-script        ]|                                                  |   0%[      COMPLETE      ]|##################################################| 100%
 Linking packages ...

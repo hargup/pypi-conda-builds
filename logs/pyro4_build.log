@@ -1,0 +1,352 @@
+Removing old build directory
+Removing old work directory
+BUILD START: pyro4-4.37-py_0
+Fetching package metadata: ......
+
+WARNING: conda-build appears to be out of date. You have version 1.13.0 but the
+latest version is 1.14.1. Run
+
+conda update -n root conda-build
+
+to get the latest version.
+
+Solving package specifications: .+ /home/ubuntu/miniconda/envs/_build/bin/python setup.py install
+Pyro version = 4.37
+running install
+running bdist_egg
+running egg_info
+writing requirements to src/Pyro4.egg-info/requires.txt
+writing src/Pyro4.egg-info/PKG-INFO
+writing top-level names to src/Pyro4.egg-info/top_level.txt
+writing dependency_links to src/Pyro4.egg-info/dependency_links.txt
+writing entry points to src/Pyro4.egg-info/entry_points.txt
+reading manifest file 'src/Pyro4.egg-info/SOURCES.txt'
+reading manifest template 'MANIFEST.in'
+warning: no previously-included files matching '*/.svn/*' found anywhere in distribution
+warning: no previously-included files matching '*/.idea/*' found anywhere in distribution
+warning: no previously-included files matching '*.class' found anywhere in distribution
+warning: no previously-included files matching '*.pyc' found anywhere in distribution
+warning: no previously-included files matching '*.pyo' found anywhere in distribution
+warning: no previously-included files matching '*.coverage' found anywhere in distribution
+warning: no previously-included files matching 'nosetests.xml' found anywhere in distribution
+warning: no previously-included files matching '.git' found anywhere in distribution
+warning: no previously-included files matching '.gitignore' found anywhere in distribution
+warning: no previously-included files matching '.tox' found anywhere in distribution
+warning: no previously-included files matching '__pycache__' found anywhere in distribution
+writing manifest file 'src/Pyro4.egg-info/SOURCES.txt'
+installing library code to build/bdist.linux-x86_64/egg
+running install_lib
+running build_py
+creating build
+creating build/lib
+creating build/lib/Pyro4
+copying src/Pyro4/errors.py -> build/lib/Pyro4
+copying src/Pyro4/futures.py -> build/lib/Pyro4
+copying src/Pyro4/naming.py -> build/lib/Pyro4
+copying src/Pyro4/message.py -> build/lib/Pyro4
+copying src/Pyro4/threadutil.py -> build/lib/Pyro4
+copying src/Pyro4/configuration.py -> build/lib/Pyro4
+copying src/Pyro4/util.py -> build/lib/Pyro4
+copying src/Pyro4/constants.py -> build/lib/Pyro4
+copying src/Pyro4/nsc.py -> build/lib/Pyro4
+copying src/Pyro4/__init__.py -> build/lib/Pyro4
+copying src/Pyro4/core.py -> build/lib/Pyro4
+copying src/Pyro4/naming_storage.py -> build/lib/Pyro4
+copying src/Pyro4/socketutil.py -> build/lib/Pyro4
+creating build/lib/Pyro4/socketserver
+copying src/Pyro4/socketserver/threadpoolserver.py -> build/lib/Pyro4/socketserver
+copying src/Pyro4/socketserver/multiplexserver.py -> build/lib/Pyro4/socketserver
+copying src/Pyro4/socketserver/threadpool.py -> build/lib/Pyro4/socketserver
+copying src/Pyro4/socketserver/__init__.py -> build/lib/Pyro4/socketserver
+creating build/lib/Pyro4/test
+copying src/Pyro4/test/__init__.py -> build/lib/Pyro4/test
+copying src/Pyro4/test/echoserver.py -> build/lib/Pyro4/test
+creating build/lib/Pyro4/utils
+copying src/Pyro4/utils/httpgateway.py -> build/lib/Pyro4/utils
+copying src/Pyro4/utils/flame.py -> build/lib/Pyro4/utils
+copying src/Pyro4/utils/__init__.py -> build/lib/Pyro4/utils
+copying src/Pyro4/utils/flameserver.py -> build/lib/Pyro4/utils
+creating build/bdist.linux-x86_64
+creating build/bdist.linux-x86_64/egg
+creating build/bdist.linux-x86_64/egg/Pyro4
+copying build/lib/Pyro4/errors.py -> build/bdist.linux-x86_64/egg/Pyro4
+creating build/bdist.linux-x86_64/egg/Pyro4/socketserver
+copying build/lib/Pyro4/socketserver/threadpoolserver.py -> build/bdist.linux-x86_64/egg/Pyro4/socketserver
+copying build/lib/Pyro4/socketserver/multiplexserver.py -> build/bdist.linux-x86_64/egg/Pyro4/socketserver
+copying build/lib/Pyro4/socketserver/threadpool.py -> build/bdist.linux-x86_64/egg/Pyro4/socketserver
+copying build/lib/Pyro4/socketserver/__init__.py -> build/bdist.linux-x86_64/egg/Pyro4/socketserver
+copying build/lib/Pyro4/futures.py -> build/bdist.linux-x86_64/egg/Pyro4
+creating build/bdist.linux-x86_64/egg/Pyro4/utils
+copying build/lib/Pyro4/utils/httpgateway.py -> build/bdist.linux-x86_64/egg/Pyro4/utils
+copying build/lib/Pyro4/utils/flame.py -> build/bdist.linux-x86_64/egg/Pyro4/utils
+copying build/lib/Pyro4/utils/__init__.py -> build/bdist.linux-x86_64/egg/Pyro4/utils
+copying build/lib/Pyro4/utils/flameserver.py -> build/bdist.linux-x86_64/egg/Pyro4/utils
+copying build/lib/Pyro4/naming.py -> build/bdist.linux-x86_64/egg/Pyro4
+copying build/lib/Pyro4/message.py -> build/bdist.linux-x86_64/egg/Pyro4
+copying build/lib/Pyro4/threadutil.py -> build/bdist.linux-x86_64/egg/Pyro4
+copying build/lib/Pyro4/configuration.py -> build/bdist.linux-x86_64/egg/Pyro4
+copying build/lib/Pyro4/util.py -> build/bdist.linux-x86_64/egg/Pyro4
+creating build/bdist.linux-x86_64/egg/Pyro4/test
+copying build/lib/Pyro4/test/__init__.py -> build/bdist.linux-x86_64/egg/Pyro4/test
+copying build/lib/Pyro4/test/echoserver.py -> build/bdist.linux-x86_64/egg/Pyro4/test
+copying build/lib/Pyro4/constants.py -> build/bdist.linux-x86_64/egg/Pyro4
+copying build/lib/Pyro4/nsc.py -> build/bdist.linux-x86_64/egg/Pyro4
+copying build/lib/Pyro4/__init__.py -> build/bdist.linux-x86_64/egg/Pyro4
+copying build/lib/Pyro4/core.py -> build/bdist.linux-x86_64/egg/Pyro4
+copying build/lib/Pyro4/naming_storage.py -> build/bdist.linux-x86_64/egg/Pyro4
+copying build/lib/Pyro4/socketutil.py -> build/bdist.linux-x86_64/egg/Pyro4
+byte-compiling build/bdist.linux-x86_64/egg/Pyro4/errors.py to errors.pyc
+byte-compiling build/bdist.linux-x86_64/egg/Pyro4/socketserver/threadpoolserver.py to threadpoolserver.pyc
+byte-compiling build/bdist.linux-x86_64/egg/Pyro4/socketserver/multiplexserver.py to multiplexserver.pyc
+byte-compiling build/bdist.linux-x86_64/egg/Pyro4/socketserver/threadpool.py to threadpool.pyc
+byte-compiling build/bdist.linux-x86_64/egg/Pyro4/socketserver/__init__.py to __init__.pyc
+byte-compiling build/bdist.linux-x86_64/egg/Pyro4/futures.py to futures.pyc
+byte-compiling build/bdist.linux-x86_64/egg/Pyro4/utils/httpgateway.py to httpgateway.pyc
+byte-compiling build/bdist.linux-x86_64/egg/Pyro4/utils/flame.py to flame.pyc
+byte-compiling build/bdist.linux-x86_64/egg/Pyro4/utils/__init__.py to __init__.pyc
+byte-compiling build/bdist.linux-x86_64/egg/Pyro4/utils/flameserver.py to flameserver.pyc
+byte-compiling build/bdist.linux-x86_64/egg/Pyro4/naming.py to naming.pyc
+byte-compiling build/bdist.linux-x86_64/egg/Pyro4/message.py to message.pyc
+byte-compiling build/bdist.linux-x86_64/egg/Pyro4/threadutil.py to threadutil.pyc
+byte-compiling build/bdist.linux-x86_64/egg/Pyro4/configuration.py to configuration.pyc
+byte-compiling build/bdist.linux-x86_64/egg/Pyro4/util.py to util.pyc
+byte-compiling build/bdist.linux-x86_64/egg/Pyro4/test/__init__.py to __init__.pyc
+byte-compiling build/bdist.linux-x86_64/egg/Pyro4/test/echoserver.py to echoserver.pyc
+byte-compiling build/bdist.linux-x86_64/egg/Pyro4/constants.py to constants.pyc
+byte-compiling build/bdist.linux-x86_64/egg/Pyro4/nsc.py to nsc.pyc
+byte-compiling build/bdist.linux-x86_64/egg/Pyro4/__init__.py to __init__.pyc
+byte-compiling build/bdist.linux-x86_64/egg/Pyro4/core.py to core.pyc
+byte-compiling build/bdist.linux-x86_64/egg/Pyro4/naming_storage.py to naming_storage.pyc
+byte-compiling build/bdist.linux-x86_64/egg/Pyro4/socketutil.py to socketutil.pyc
+creating build/bdist.linux-x86_64/egg/EGG-INFO
+copying src/Pyro4.egg-info/PKG-INFO -> build/bdist.linux-x86_64/egg/EGG-INFO
+copying src/Pyro4.egg-info/SOURCES.txt -> build/bdist.linux-x86_64/egg/EGG-INFO
+copying src/Pyro4.egg-info/dependency_links.txt -> build/bdist.linux-x86_64/egg/EGG-INFO
+copying src/Pyro4.egg-info/entry_points.txt -> build/bdist.linux-x86_64/egg/EGG-INFO
+copying src/Pyro4.egg-info/requires.txt -> build/bdist.linux-x86_64/egg/EGG-INFO
+copying src/Pyro4.egg-info/top_level.txt -> build/bdist.linux-x86_64/egg/EGG-INFO
+zip_safe flag not set; analyzing archive contents...
+Pyro4.utils.flame: module MAY be using inspect.getsource
+creating dist
+creating 'dist/Pyro4-4.37-py2.7.egg' and adding 'build/bdist.linux-x86_64/egg' to it
+removing 'build/bdist.linux-x86_64/egg' (and everything under it)
+Processing Pyro4-4.37-py2.7.egg
+creating /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/Pyro4-4.37-py2.7.egg
+Extracting Pyro4-4.37-py2.7.egg to /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages
+Adding Pyro4 4.37 to easy-install.pth file
+Installing pyro4-flameserver script to /home/ubuntu/miniconda/envs/_build/bin
+Installing pyro4-ns script to /home/ubuntu/miniconda/envs/_build/bin
+Installing pyro4-nsc script to /home/ubuntu/miniconda/envs/_build/bin
+Installing pyro4-check-config script to /home/ubuntu/miniconda/envs/_build/bin
+Installing pyro4-test-echoserver script to /home/ubuntu/miniconda/envs/_build/bin
+Installing pyro4-httpgateway script to /home/ubuntu/miniconda/envs/_build/bin
+
+Installed /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/Pyro4-4.37-py2.7.egg
+Processing dependencies for Pyro4==4.37
+Searching for serpent==1.11
+Best match: serpent 1.11
+Processing serpent-1.11-py2.7.egg
+Adding serpent 1.11 to easy-install.pth file
+
+Using /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/serpent-1.11-py2.7.egg
+Finished processing dependencies for Pyro4==4.37
+
+Only the Pyro library has been installed (version 4.37).
+If you want to install the tests, the examples, and/or the manual,
+you have to copy them manually to the desired location.
+
+The following packages will be downloaded:
+
+    package                    |            build
+    ---------------------------|-----------------
+    serpent-1.11               |           py27_0          19 KB
+
+The following NEW packages will be INSTALLED:
+
+    openssl:    1.0.1k-1     
+    pip:        7.0.3-py27_0 
+    python:     2.7.10-0     
+    readline:   6.2-2        
+    serpent:    1.11-py27_0  
+    setuptools: 18.0.1-py27_0
+    sqlite:     3.8.4.1-1    
+    system:     5.8-2        
+    tk:         8.5.18-0     
+    zlib:       1.2.8-0      
+
+Fetching packages ...
+serpent-1.11-p   0% |                              | ETA:  --:--:--   0.00  B/sserpent-1.11-p  86% |##########################     | ETA:  0:00:00  32.57 MB/sserpent-1.11-p 100% |###############################| ETA:  0:00:00  28.18 MB/sserpent-1.11-p 100% |###############################| Time: 0:00:00  20.57 MB/s
+Extracting packages ...
+[                    ]|                                                  |   0%[serpent             ]|                                                  |   0%[      COMPLETE      ]|##################################################| 100%
+Linking packages ...
+[      COMPLETE      ]|                                                  |   0%[openssl             ]|                                                  |   0%[openssl             ]|                                                  |   0%[readline            ]|#####                                             |  10%[sqlite              ]|##########                                        |  20%[system              ]|###############                                   |  30%[tk                  ]|####################                              |  40%[zlib                ]|#########################                         |  50%[python              ]|##############################                    |  60%[serpent             ]|###################################               |  70%[setuptools          ]|########################################          |  80%[pip                 ]|#############################################     |  90%[      COMPLETE      ]|##################################################| 100%
+Removing old work directory
+Source cache directory is: /home/ubuntu/miniconda/conda-bld/src_cache
+Found source in cache: Pyro4-4.37.tar.gz
+Extracting download
+Package: pyro4-4.37-py_0
+source tree in: /home/ubuntu/miniconda/conda-bld/work/Pyro4-4.37
+found egg dir: /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/Pyro4-4.37-py2.7.egg
+number of files: 53
+Fixing permissions
+Fixing permissions
+BUILD END: pyro4-4.37-py_0
+TEST START: pyro4-4.37-py_0
+Fetching package metadata: ......
+
+WARNING: conda-build appears to be out of date. You have version 1.13.0 but the
+latest version is 1.14.1. Run
+
+conda update -n root conda-build
+
+to get the latest version.
+
+Solving package specifications: .===== testing package: pyro4-4.37-py_0 =====
+import: u'Pyro4'
+import: u'Pyro4.socketserver'
+import: u'Pyro4.test'
+import: u'Pyro4.utils'
+===== pyro4-4.37-py_0 OK =====
++ pyro4-ns --help
+Usage: pyro4-ns [options]
+
+Options:
+  -h, --help            show this help message and exit
+  -n HOST, --host=HOST  hostname to bind server on
+  -p PORT, --port=PORT  port to bind server on (0=random)
+  -u UNIXSOCKET, --unixsocket=UNIXSOCKET
+                        Unix domain socket name to bind server on
+  -s STORAGE, --storage=STORAGE
+                        Storage system to use (memory, dbm:file, sql:file)
+  --bchost=BCHOST       hostname to bind broadcast server on (default is "")
+  --bcport=BCPORT       port to bind broadcast server on (0=random)
+  --nathost=NATHOST     external hostname in case of NAT
+  --natport=NATPORT     external port in case of NAT
+  -x, --nobc            don't start a broadcast server
+  -k KEY, --key=KEY     the HMAC key to use
++ pyro4-nsc --help
+Usage: pyro4-nsc [options] command [arguments]
+Command is one of: register remove removematching lookup list listmatching ping
+
+Options:
+  -h, --help            show this help message and exit
+  -n HOST, --host=HOST  hostname of the NS
+  -p PORT, --port=PORT  port of the NS (or bc-port if host isn't specified)
+  -u UNIXSOCKET, --unixsocket=UNIXSOCKET
+                        Unix domain socket name of the NS
+  -k KEY, --key=KEY     the HMAC key to use
+  -v, --verbose         verbose output
++ pyro4-test-echoserver --help
+Usage: pyro4-test-echoserver [options]
+
+Options:
+  -h, --help            show this help message and exit
+  -H HOST, --host=HOST  hostname to bind server on (default=localhost)
+  -p PORT, --port=PORT  port to bind server on
+  -u UNIXSOCKET, --unixsocket=UNIXSOCKET
+                        Unix domain socket name to bind server on
+  -n, --naming          register with nameserver
+  -N, --nameserver      also start a nameserver
+  -v, --verbose         verbose output
+  -q, --quiet           don't output anything
+  -k KEY, --key=KEY     the HMAC key to use
++ pyro4-check-config --help
+Pyro version: 4.37
+Loaded from: /home/ubuntu/miniconda/envs/_test/lib/python2.7/site-packages/Pyro4
+Python version: CPython 2.7.10 (Linux, posix)
+Protocol version: 47
+Currently active configuration settings:
+AUTOPROXY = True
+BROADCAST_ADDRS = <broadcast>, 0.0.0.0
+COMMTIMEOUT = 0.0
+COMPRESSION = False
+DETAILED_TRACEBACK = False
+FLAME_ENABLED = False
+HOST = localhost
+JSON_MODULE = json
+LOGFILE = None
+LOGLEVEL = None
+LOGWIRE = False
+MAX_MESSAGE_SIZE = 0
+METADATA = True
+NATHOST = None
+NATPORT = 0
+NS_BCHOST = None
+NS_BCPORT = 9091
+NS_HOST = localhost
+NS_PORT = 9090
+ONEWAY_THREADED = True
+PICKLE_PROTOCOL_VERSION = 2
+POLLTIMEOUT = 2.0
+PREFER_IP_VERSION = 4
+REQUIRE_EXPOSE = False
+SERIALIZER = serpent
+SERIALIZERS_ACCEPTED = set(['json', 'marshal', 'serpent'])
+SERVERTYPE = thread
+SOCK_NODELAY = False
+SOCK_REUSE = False
+THREADING2 = False
+THREADPOOL_SIZE = 16
+USE_MSG_WAITALL = True
++ pyro4-flameserver --help
+Usage: pyro4-flameserver [options]
+
+Options:
+  -h, --help            show this help message and exit
+  -H HOST, --host=HOST  hostname to bind server on (default=localhost)
+  -p PORT, --port=PORT  port to bind server on
+  -u UNIXSOCKET, --unixsocket=UNIXSOCKET
+                        Unix domain socket name to bind server on
+  -q, --quiet           don't output anything
+  -k KEY, --key=KEY     the HMAC key to use
++ pyro4-httpgateway --help
+Usage: pyro4-httpgateway [options]
+
+Options:
+  -h, --help            show this help message and exit
+  -H HOST, --host=HOST  hostname to bind server on (default=localhost)
+  -p PORT, --port=PORT  port to bind server on (default=8080)
+  -e EXPOSE, --expose=EXPOSE
+                        a regex of object names to expose (default=http\.)
+  -k PYROKEY, --pyrokey=PYROKEY
+                        the HMAC key to use to connect with Pyro
+  -g GATEWAYKEY, --gatewaykey=GATEWAYKEY
+                        the api key to use to connect to the gateway itself
+  -t TIMEOUT, --timeout=TIMEOUT
+                        Pyro timeout value to use (COMMTIMEOUT setting,
+                        default=0.0)
+
+The following packages will be downloaded:
+
+    package                    |            build
+    ---------------------------|-----------------
+    pyro4-4.37                 |             py_0         122 KB
+
+The following NEW packages will be INSTALLED:
+
+    openssl:    1.0.1k-1     
+    pip:        7.0.3-py27_0 
+    pyro4:      4.37-py_0    
+    python:     2.7.10-0     
+    readline:   6.2-2        
+    serpent:    1.11-py27_0  
+    setuptools: 18.0.1-py27_0
+    sqlite:     3.8.4.1-1    
+    system:     5.8-2        
+    tk:         8.5.18-0     
+    zlib:       1.2.8-0      
+
+Fetching packages ...
+pyro4-4.37-py_   0% |                              | ETA:  --:--:--   0.00  B/spyro4-4.37-py_  13% |####                           | Time: 0:00:00  59.14 MB/spyro4-4.37-py_  26% |########                       | Time: 0:00:00  67.41 MB/spyro4-4.37-py_  39% |############                   | Time: 0:00:00  71.43 MB/spyro4-4.37-py_  52% |################               | Time: 0:00:00  74.80 MB/spyro4-4.37-py_  65% |####################           | Time: 0:00:00  76.99 MB/spyro4-4.37-py_  78% |########################       | Time: 0:00:00  78.82 MB/spyro4-4.37-py_  91% |############################   | Time: 0:00:00  80.20 MB/spyro4-4.37-py_ 100% |###############################| Time: 0:00:00  78.29 MB/spyro4-4.37-py_ 100% |###############################| Time: 0:00:00  72.15 MB/spyro4-4.37-py_ 100% |###############################| Time: 0:00:00  65.40 MB/s
+Extracting packages ...
+[      COMPLETE      ]|                                                  |   0%[pyro4               ]|                                                  |   0%[pyro4               ]|                                                  |   0%[      COMPLETE      ]|##################################################| 100%
+Linking packages ...
+[      COMPLETE      ]|                                                  |   0%[openssl             ]|                                                  |   0%[openssl             ]|                                                  |   0%[readline            ]|####                                              |   9%[sqlite              ]|#########                                         |  18%[system              ]|#############                                     |  27%[tk                  ]|##################                                |  36%[zlib                ]|######################                            |  45%[python              ]|###########################                       |  54%[serpent             ]|###############################                   |  63%[setuptools          ]|####################################              |  72%[pip                 ]|########################################          |  81%[pyro4               ]|#############################################     |  90%[      COMPLETE      ]|##################################################| 100%
+TEST END: pyro4-4.37-py_0
+# If you want to upload this package to binstar.org later, type:
+#
+# $ binstar upload /home/ubuntu/miniconda/conda-bld/noarch/pyro4-4.37-py_0.tar.bz2
+#
+# To have conda build upload to binstar automatically, use
+# $ conda config --set binstar_upload yes
+

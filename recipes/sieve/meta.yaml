@@ -1,0 +1,69 @@
+package:
+  name: sieve
+  version: "0.1.9"
+
+source:
+  fn: sieve-0.1.9.tar.gz
+  url: https://pypi.python.org/packages/source/s/sieve/sieve-0.1.9.tar.gz
+  md5: 419b662247ab7c537f8e3da58731586d
+#  patches:
+   # List any patch files here
+   # - fix.patch
+
+build:
+  noarch_python: True
+  # preserve_egg_dir: True
+  # entry_points:
+    # Put any entry points (scripts to be generated automatically) here. The
+    # syntax is module:function.  For example
+    #
+    # - sieve = sieve:main
+    #
+    # Would create an entry point called sieve that calls sieve.main()
+
+
+  # If this is a new build for the same version, increment the build
+  # number. If you do not include this key, it defaults to 0.
+  # number: 1
+
+requirements:
+  build:
+    - python
+    - setuptools
+    - lxml
+    - six
+    - markupsafe
+
+  run:
+    - python
+    - lxml
+    - six
+    - markupsafe
+
+test:
+  # Python imports
+  imports:
+    - sieve
+    - sieve.tests
+
+  # commands:
+    # You can put test commands to be run here.  Use this to test that the
+    # entry points work.
+
+
+  # You can also put a file called run_test.py in the recipe that will be run
+  # at test time.
+
+  requires:
+    - nose
+    # Put any additional test requirements here.  For example
+    # - nose
+
+about:
+  home: http://github.com/ralphbean/sieve
+  license: MIT License
+  summary: 'XML Comparison Utils'
+
+# See
+# http://docs.continuum.io/conda/build.html for
+# more information about meta.yaml

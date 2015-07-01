@@ -1,0 +1,823 @@
+Warning, the following versions were found for jmbo-foundry
+2.0.2
+2.0.1
+2.0.0
+2.0.0a5
+2.0.0a4
+2.0.0a3
+2.0.0a1
+1.3.1
+1.3.0
+1.2.6.1
+1.2.5.1
+1.2.5
+1.2.4
+1.2.3.1
+1.2.2.3
+1.2.1
+1.2
+1.1.23
+1.1.22
+1.1.21
+1.1.20
+1.1.19.3
+1.1.19.2
+1.1.19.1
+1.1.19
+1.1.18.2
+1.1.18.1
+1.1.18
+1.1.17
+1.1.16.1
+1.1.16
+1.1.15
+1.1.14
+1.1.13
+1.1.12
+1.1.11
+1.1.10
+1.1.9
+1.1.8
+1.1.4
+1.1.3
+1.1.2
+1.1.1
+1.1
+1.0.1
+1.0
+0.7.2
+0.6.4
+0.6.3
+0.6.2
+0.6.1
+0.6
+0.5.1
+0.5
+0.4
+0.3.10
+0.3.9
+0.3.8
+0.3.7
+0.3.6
+0.3.5
+0.3.4
+0.3.3
+0.3.2
+0.3.1
+0.3
+0.2.2
+0.2.1
+0.2
+Using 2.0.2
+Use --version to specify a different version.
+Using url https://pypi.python.org/packages/source/j/jmbo-foundry/jmbo-foundry-2.0.2.tar.gz (3.0 MB) for jmbo-foundry.
+Downloading jmbo-foundry
+Unpacking jmbo-foundry...
+done
+working in /tmp/tmp5BAnoOconda_skeleton_jmbo-foundry-2.0.2.tar.gz
+Fetching package metadata: ......
+
+WARNING: conda-build appears to be out of date. You have version 1.13.0 but the
+latest version is 1.14.1. Run
+
+conda update -n root conda-build
+
+to get the latest version.
+
+Solving package specifications: .patching file core.py
+Hunk #1 succeeded at 168 with fuzz 2 (offset 2 lines).
+
+WARNING: conda-build appears to be out of date. You have version 1.13.0 but the
+latest version is 1.14.1. Run
+
+conda update -n root conda-build
+
+to get the latest version.
+
+
+Applying patch: '/tmp/tmp5BAnoOconda_skeleton_jmbo-foundry-2.0.2.tar.gz/pypi-distutils.patch'
+Warning, the following versions were found for jmbo-post
+2.0.0
+2.0.0a2
+2.0.0a1
+0.4
+0.3
+0.1.7
+0.1.6
+0.1.5
+0.1.4
+0.1.3
+0.1.2
+0.1.1
+0.1
+0.0.6
+0.0.3
+Using 2.0.0
+Use --version to specify a different version.
+Using url https://pypi.python.org/packages/source/j/jmbo-post/jmbo-post-2.0.0.tar.gz (8 KB) for jmbo-post.
+Downloading jmbo-post
+jmbo-post-2.0.   0% |                              | ETA:  --:--:--   0.00  B/sjmbo-post-2.0. 100% |###############################| ETA:  0:00:00  16.87 MB/sjmbo-post-2.0. 100% |###############################| Time: 0:00:00  10.93 MB/s
+Unpacking jmbo-post...
+done
+working in /tmp/tmp1Ud8Xdconda_skeleton_jmbo-post-2.0.0.tar.gz
+Solving package specifications: .patching file core.py
+Hunk #1 succeeded at 168 with fuzz 2 (offset 2 lines).
+
+Applying patch: '/tmp/tmp1Ud8Xdconda_skeleton_jmbo-post-2.0.0.tar.gz/pypi-distutils.patch'
+Warning, the following versions were found for jmbo
+2.0.5
+2.0.4
+2.0.3
+2.0.2
+2.0.1
+2.0.0
+2.0.0a2
+2.0.0a1
+2.0.0-a1
+1.2.1
+1.2.0
+1.1.7
+1.1.5
+1.1.4
+1.1.3
+1.1.2
+1.1.1
+1.1
+1.0.14
+1.0.13
+1.0.12
+1.0.11
+1.0.10
+1.0.9
+1.0.8
+1.0.7
+1.0.6
+1.0.5
+1.0.4
+1.0.3
+1.0.2
+1.0.1
+1.0
+0.5.5
+0.5.4
+0.5.3
+0.5.2
+0.5.1
+0.5
+0.4
+0.3.4
+0.3.3
+0.3.2
+0.3.1
+0.3
+0.2.6
+0.2.5
+0.2.4
+0.2.3
+0.2.2
+0.1.20
+0.1.9
+0.1.7
+Using 2.0.5
+Use --version to specify a different version.
+Using url https://pypi.python.org/packages/source/j/jmbo/jmbo-2.0.5.tar.gz (920 KB) for jmbo.
+Downloading jmbo
+jmbo-2.0.5.tar   0% |                              | ETA:  --:--:--   0.00  B/sjmbo-2.0.5.tar   1% |                               | Time: 0:00:00  45.39 MB/sjmbo-2.0.5.tar   3% |#                              | Time: 0:00:00   5.75 MB/sjmbo-2.0.5.tar   5% |#                              | Time: 0:00:00   4.08 MB/sjmbo-2.0.5.tar   6% |##                             | Time: 0:00:00   5.31 MB/sjmbo-2.0.5.tar   8% |##                             | Time: 0:00:00   4.48 MB/sjmbo-2.0.5.tar  10% |###                            | Time: 0:00:00   5.31 MB/sjmbo-2.0.5.tar  12% |###                            | Time: 0:00:00   5.84 MB/sjmbo-2.0.5.tar  13% |####                           | Time: 0:00:00   5.33 MB/sjmbo-2.0.5.tar  15% |####                           | Time: 0:00:00   5.93 MB/sjmbo-2.0.5.tar  17% |#####                          | Time: 0:00:00   6.33 MB/sjmbo-2.0.5.tar  19% |#####                          | Time: 0:00:00   5.88 MB/sjmbo-2.0.5.tar  20% |######                         | Time: 0:00:00   6.34 MB/sjmbo-2.0.5.tar  22% |#######                        | Time: 0:00:00   6.79 MB/sjmbo-2.0.5.tar  24% |#######                        | Time: 0:00:00   7.14 MB/sjmbo-2.0.5.tar  26% |########                       | Time: 0:00:00   7.56 MB/sjmbo-2.0.5.tar  27% |########                       | Time: 0:00:00   7.01 MB/sjmbo-2.0.5.tar  29% |#########                      | Time: 0:00:00   7.37 MB/sjmbo-2.0.5.tar  31% |#########                      | Time: 0:00:00   7.76 MB/sjmbo-2.0.5.tar  33% |##########                     | Time: 0:00:00   8.11 MB/sjmbo-2.0.5.tar  34% |##########                     | Time: 0:00:00   8.47 MB/sjmbo-2.0.5.tar  36% |###########                    | Time: 0:00:00   8.83 MB/sjmbo-2.0.5.tar  38% |###########                    | Time: 0:00:00   8.28 MB/sjmbo-2.0.5.tar  39% |############                   | Time: 0:00:00   8.56 MB/sjmbo-2.0.5.tar  41% |############                   | Time: 0:00:00   8.88 MB/sjmbo-2.0.5.tar  43% |#############                  | Time: 0:00:00   9.18 MB/sjmbo-2.0.5.tar  45% |##############                 | Time: 0:00:00   9.48 MB/sjmbo-2.0.5.tar  46% |##############                 | Time: 0:00:00   9.77 MB/sjmbo-2.0.5.tar  48% |###############                | Time: 0:00:00  10.08 MB/sjmbo-2.0.5.tar  50% |###############                | Time: 0:00:00  10.39 MB/sjmbo-2.0.5.tar  52% |################               | Time: 0:00:00   9.91 MB/sjmbo-2.0.5.tar  53% |################               | Time: 0:00:00  10.15 MB/sjmbo-2.0.5.tar  55% |#################              | Time: 0:00:00  10.40 MB/sjmbo-2.0.5.tar  57% |#################              | Time: 0:00:00  10.65 MB/sjmbo-2.0.5.tar  59% |##################             | Time: 0:00:00  10.89 MB/sjmbo-2.0.5.tar  60% |##################             | Time: 0:00:00  11.14 MB/sjmbo-2.0.5.tar  62% |###################            | Time: 0:00:00  11.39 MB/sjmbo-2.0.5.tar  64% |###################            | Time: 0:00:00  11.65 MB/sjmbo-2.0.5.tar  66% |####################           | Time: 0:00:00  11.92 MB/sjmbo-2.0.5.tar  67% |#####################          | Time: 0:00:00  12.18 MB/sjmbo-2.0.5.tar  69% |#####################          | Time: 0:00:00  11.73 MB/sjmbo-2.0.5.tar  71% |######################         | Time: 0:00:00  11.94 MB/sjmbo-2.0.5.tar  73% |######################         | Time: 0:00:00  12.16 MB/sjmbo-2.0.5.tar  74% |#
+WARNING: conda-build appears to be out of date. You have version 1.13.0 but the
+latest version is 1.14.1. Run
+
+conda update -n root conda-build
+
+to get the latest version.
+
+######################        | Time: 0:00:00  12.35 MB/sjmbo-2.0.5.tar  76% |#######################        | Time: 0:00:00  12.55 MB/sjmbo-2.0.5.tar  78% |########################       | Time: 0:00:00  12.76 MB/sjmbo-2.0.5.tar  79% |########################       | Time: 0:00:00  12.97 MB/sjmbo-2.0.5.tar  81% |#########################      | Time: 0:00:00  13.20 MB/sjmbo-2.0.5.tar  83% |#########################      | Time: 0:00:00  13.42 MB/sjmbo-2.0.5.tar  85% |##########################     | Time: 0:00:00  13.64 MB/sjmbo-2.0.5.tar  86% |##########################     | Time: 0:00:00  13.87 MB/sjmbo-2.0.5.tar  88% |###########################    | Time: 0:00:00  14.10 MB/sjmbo-2.0.5.tar  90% |############################   | Time: 0:00:00  13.64 MB/sjmbo-2.0.5.tar  92% |############################   | Time: 0:00:00  13.81 MB/sjmbo-2.0.5.tar  93% |#############################  | Time: 0:00:00  13.98 MB/sjmbo-2.0.5.tar  95% |#############################  | Time: 0:00:00  14.16 MB/sjmbo-2.0.5.tar  97% |############################## | Time: 0:00:00  14.37 MB/sjmbo-2.0.5.tar  99% |############################## | Time: 0:00:00  14.58 MB/sjmbo-2.0.5.tar 100% |###############################| Time: 0:00:00  14.67 MB/sjmbo-2.0.5.tar 100% |###############################| Time: 0:00:00  14.63 MB/sjmbo-2.0.5.tar 100% |###############################| Time: 0:00:00  14.59 MB/s
+Unpacking jmbo...
+done
+working in /tmp/tmpRvAw2Econda_skeleton_jmbo-2.0.5.tar.gz
+Solving package specifications: .patching file core.py
+Hunk #1 succeeded at 168 with fuzz 2 (offset 2 lines).
+
+WARNING: conda-build appears to be out of date. You have version 1.13.0 but the
+latest version is 1.14.1. Run
+
+conda update -n root conda-build
+
+to get the latest version.
+
+
+Applying patch: '/tmp/tmpRvAw2Econda_skeleton_jmbo-2.0.5.tar.gz/pypi-distutils.patch'
+Warning, the following versions were found for django-photologue
+3.2
+3.1.1
+3.1
+3.0.2
+3.0.1
+3.0
+2.8.3
+2.8.2
+2.8.1
+2.8
+2.7
+2.6.1
+2.6
+2.5
+2.4
+2.3
+2.2
+Using 3.2
+Use --version to specify a different version.
+Using url https://pypi.python.org/packages/source/d/django-photologue/django-photologue-3.2.tar.gz (148 KB) for django-photologue.
+Downloading django-photologue
+django-photolo   0% |                              | ETA:  --:--:--   0.00  B/sdjango-photolo  10% |###                            | Time: 0:00:00  47.79 MB/sdjango-photolo  21% |######                         | Time: 0:00:00   5.60 MB/sdjango-photolo  32% |##########                     | Time: 0:00:00   4.12 MB/sdjango-photolo  43% |#############                  | Time: 0:00:00   5.34 MB/sdjango-photolo  54% |################               | Time: 0:00:00   6.38 MB/sdjango-photolo  64% |####################           | Time: 0:00:00   5.39 MB/sdjango-photolo  75% |#######################        | Time: 0:00:00   6.17 MB/sdjango-photolo  86% |##########################     | Time: 0:00:00   6.85 MB/sdjango-photolo  97% |############################## | Time: 0:00:00   6.09 MB/sdjango-photolo 100% |###############################| Time: 0:00:00   6.21 MB/sdjango-photolo 100% |###############################| Time: 0:00:00   6.17 MB/sdjango-photolo 100% |###############################| Time: 0:00:00   6.13 MB/s
+Unpacking django-photologue...
+done
+working in /tmp/tmp56TXuLconda_skeleton_django-photologue-3.2.tar.gz
+Solving package specifications: .patching file core.py
+Hunk #1 succeeded at 168 with fuzz 2 (offset 2 lines).
+
+WARNING: conda-build appears to be out of date. You have version 1.13.0 but the
+latest version is 1.14.1. Run
+
+conda update -n root conda-build
+
+to get the latest version.
+
+
+Applying patch: '/tmp/tmp56TXuLconda_skeleton_django-photologue-3.2.tar.gz/pypi-distutils.patch'
+Warning, the following versions were found for django-sortedm2m
+1.0.1
+1.0.0
+0.10.0
+0.9.5
+0.9.4
+0.9.3
+0.9.2
+0.9.1
+0.9.0
+0.8.1
+0.8.0
+0.7.0
+0.6.1
+0.6.0
+0.5.0
+0.4.0
+0.3.3
+0.3.2
+0.3.1
+0.3.0
+0.2.5
+0.2.4
+0.2.3
+0.2.2
+0.2.1
+0.2.0
+0.1.1
+0.1.0
+Using 1.0.1
+Use --version to specify a different version.
+Using url https://pypi.python.org/packages/source/d/django-sortedm2m/django-sortedm2m-1.0.1.tar.gz (30 KB) for django-sortedm2m.
+Downloading django-sortedm2m
+django-sortedm   0% |                              | ETA:  --:--:--   0.00  B/sdjango-sortedm  52% |################               | Time: 0:00:00  48.77 MB/sdjango-sortedm 100% |###############################| Time: 0:00:00  55.21 MB/sdjango-sortedm 100% |###############################| Time: 0:00:00  40.75 MB/sdjango-sortedm 100% |###############################| Time: 0:00:00  33.09 MB/s
+Unpacking django-sortedm2m...
+done
+working in /tmp/tmpBsH5K4conda_skeleton_django-sortedm2m-1.0.1.tar.gz
+Solving package specifications: .patching file core.py
+Hunk #1 succeeded at 168 with fuzz 2 (offset 2 lines).
+
+WARNING: conda-build appears to be out of date. You have version 1.13.0 but the
+latest version is 1.14.1. Run
+
+conda update -n root conda-build
+
+to get the latest version.
+
+
+Applying patch: '/tmp/tmpBsH5K4conda_skeleton_django-sortedm2m-1.0.1.tar.gz/pypi-distutils.patch'
+Warning, the following versions were found for django-generate
+0.0.6
+0.0.5
+0.0.4
+0.0.3
+0.0.2
+0.0.1
+Using 0.0.6
+Use --version to specify a different version.
+Using url https://pypi.python.org/packages/source/d/django-generate/django-generate-0.0.6.tar.gz (3.8 MB) for django-generate.
+Downloading django-generate
+Using cached download
+Unpacking django-generate...
+done
+working in /tmp/tmpHlMbIhconda_skeleton_django-generate-0.0.6.tar.gz
+Solving package specifications: .patching file core.py
+Hunk #1 succeeded at 168 with fuzz 2 (offset 2 lines).
+
+WARNING: conda-build appears to be out of date. You have version 1.13.0 but the
+latest version is 1.14.1. Run
+
+conda update -n root conda-build
+
+to get the latest version.
+
+
+Applying patch: '/tmp/tmpHlMbIhconda_skeleton_django-generate-0.0.6.tar.gz/pypi-distutils.patch'
+Warning, the following versions were found for django-celery
+3.1.16
+3.1.15
+3.1.10
+3.1.9
+3.1.1
+3.1.0
+3.0.23
+3.0.21
+3.0.17
+3.0.11
+3.0.10
+3.0.9
+3.0.6
+3.0.4
+3.0.1
+3.0.0
+2.5.5
+2.5.4
+2.5.3
+2.5.2
+2.5.1
+2.5.0
+2.4.2
+2.4.1
+2.4.0
+2.3.3
+2.3.2
+2.3.1
+2.3.0
+2.2.7
+2.2.4
+2.2.3
+2.2.2
+2.2.1
+2.2.0
+2.1.4
+2.1.2
+2.1.1
+2.1.0
+2.0.3
+2.0.2
+2.0.0
+Using 3.1.16
+Use --version to specify a different version.
+Using url https://pypi.python.org/packages/source/d/django-celery/django-celery-3.1.16.tar.gz (76 KB) for django-celery.
+Downloading django-celery
+Using cached download
+Unpacking django-celery...
+done
+working in /tmp/tmp1eUFyzconda_skeleton_django-celery-3.1.16.tar.gz
+Solving package specifications: .patching file core.py
+Hunk #1 succeeded at 168 with fuzz 2 (offset 2 lines).
+
+WARNING: conda-build appears to be out of date. You have version 1.13.0 but the
+latest version is 1.14.1. Run
+
+conda update -n root conda-build
+
+to get the latest version.
+
+
+Applying patch: '/tmp/tmp1eUFyzconda_skeleton_django-celery-3.1.16.tar.gz/pypi-distutils.patch'
+Warning, the following versions were found for celery
+3.1.18
+3.1.17
+3.1.16
+3.1.15
+3.1.14
+3.1.13
+3.1.12
+3.1.11
+3.1.10
+3.1.9
+3.1.8
+3.1.7
+3.1.6
+3.1.5
+3.1.4
+3.1.3
+3.1.2
+3.1.1
+3.1.0
+3.0.25
+3.0.24
+3.0.23
+3.0.22
+3.0.21
+3.0.20
+3.0.19
+3.0.18
+3.0.17
+3.0.16
+3.0.15
+3.0.14
+3.0.13
+3.0.12
+3.0.11
+3.0.10
+3.0.9
+3.0.8
+3.0.7
+3.0.6
+3.0.5
+3.0.4
+3.0.3
+3.0.2
+3.0.1
+3.0.0
+2.5.5
+2.5.3
+2.5.2
+2.5.1
+2.5.0
+2.4.7
+2.4.6
+2.4.5
+2.4.4
+2.4.3
+2.4.2
+2.4.1
+2.4.0
+2.3.5
+2.3.4
+2.3.3
+2.3.2
+2.3.1
+2.3.0
+2.2.10
+2.2.9
+2.2.8
+2.2.7
+2.2.6
+2.2.5
+2.2.4
+2.2.3
+2.2.2
+2.2.1
+2.2.0
+2.1.4
+2.1.3
+2.1.2
+2.1.1
+2.1.0
+2.0.3
+2.0.2
+2.0.1
+2.0.0
+1.0.6
+1.0.5
+1.0.4
+1.0.3
+1.0.2
+1.0.1
+1.0.0
+0.8.4
+0.8.3
+0.8.2
+0.8.1
+0.8.0
+0.6.0
+0.4.1
+0.4.0
+0.3.20
+0.3.7
+0.3.0
+0.2.0
+0.1.15
+0.1.14
+0.1.13
+0.1.12
+0.1.11
+0.1.10
+0.1.8
+0.1.7
+0.1.6
+0.1.4
+0.1.2
+Using 3.1.18
+Use --version to specify a different version.
+Using url https://pypi.python.org/packages/source/c/celery/celery-3.1.18.tar.gz (1.2 MB) for celery.
+Downloading celery
+Using cached download
+Unpacking celery...
+done
+working in /tmp/tmpXO_VCHconda_skeleton_celery-3.1.18.tar.gz
+Solving package specifications: .patching file core.py
+Hunk #1 succeeded at 168 with fuzz 2 (offset 2 lines).
+- Trying to upgrade 'task' in 'celery.app'
+- upgrade task: no old version found.
+
+WARNING: conda-build appears to be out of date. You have version 1.13.0 but the
+latest version is 1.14.1. Run
+
+conda update -n root conda-build
+
+to get the latest version.
+
+
+Applying patch: '/tmp/tmpXO_VCHconda_skeleton_celery-3.1.18.tar.gz/pypi-distutils.patch'
+couchdb not found, trying CouchDB
+Warning, the following versions were found for CouchDB
+1.0
+0.10
+0.9
+0.8
+0.7
+0.6.1
+0.6
+0.5
+0.4
+0.3
+0.2
+0.1
+Using 1.0
+Use --version to specify a different version.
+Using url https://pypi.python.org/packages/source/C/CouchDB/CouchDB-1.0.tar.gz (55 KB) for CouchDB.
+Downloading CouchDB
+Using cached download
+Unpacking CouchDB...
+done
+working in /tmp/tmpQdfVDhconda_skeleton_CouchDB-1.0.tar.gz
+Solving package specifications: .patching file core.py
+Hunk #1 succeeded at 168 with fuzz 2 (offset 2 lines).
+
+WARNING: conda-build appears to be out of date. You have version 1.13.0 but the
+latest version is 1.14.1. Run
+
+conda update -n root conda-build
+
+to get the latest version.
+
+
+Applying patch: '/tmp/tmpQdfVDhconda_skeleton_CouchDB-1.0.tar.gz/pypi-distutils.patch'
+Warning, the following versions were found for pycassa
+1.11.1
+1.11.0
+1.10.0
+1.9.1
+1.9.0
+1.8.0-4
+1.8.0-3
+1.8.0-2
+1.8.0-1
+1.8.0
+1.7.2
+1.7.1-2
+1.7.1
+1.7.0
+1.6.0
+1.5.1
+1.5.0
+1.4.0
+1.3.0
+1.2.1-3
+1.2.1-2
+1.2.1
+1.2.0
+1.1.1
+1.1.0
+1.0.8
+1.0.7
+1.0.6
+1.0.5
+1.0.4
+1.0.3
+1.0.2
+1.0.1
+1.0.0
+0.5.4
+0.3.0
+Using 1.11.1
+Use --version to specify a different version.
+Using url https://pypi.python.org/packages/source/p/pycassa/pycassa-1.11.1.tar.gz (80 KB) for pycassa.
+Downloading pycassa
+Using cached download
+Unpacking pycassa...
+done
+working in /tmp/tmpcsttJMconda_skeleton_pycassa-1.11.1.tar.gz
+Solving package specifications: .patching file core.py
+Hunk #1 succeeded at 168 with fuzz 2 (offset 2 lines).
+
+WARNING: conda-build appears to be out of date. You have version 1.13.0 but the
+latest version is 1.14.1. Run
+
+conda update -n root conda-build
+
+to get the latest version.
+
+
+Applying patch: '/tmp/tmpcsttJMconda_skeleton_pycassa-1.11.1.tar.gz/pypi-distutils.patch'
+Warning, the following versions were found for threadpool
+1.2.7
+1.2.6
+1.2.5
+Using 1.2.7
+Use --version to specify a different version.
+Using url https://pypi.python.org/packages/source/t/threadpool/threadpool-1.2.7.tar.bz2 (33 KB) for threadpool.
+Downloading threadpool
+Using cached download
+Unpacking threadpool...
+done
+working in /tmp/tmpuh1MHEconda_skeleton_threadpool-1.2.7.tar.bz2
+Solving package specifications: .patching file core.py
+Hunk #1 succeeded at 168 with fuzz 2 (offset 2 lines).
+
+WARNING: conda-build appears to be out of date. You have version 1.13.0 but the
+latest version is 1.14.1. Run
+
+conda update -n root conda-build
+
+to get the latest version.
+
+
+Applying patch: '/tmp/tmpuh1MHEconda_skeleton_threadpool-1.2.7.tar.bz2/pypi-distutils.patch'
+Warning, the following versions were found for softlayer_messaging
+1.0.3
+1.0.2
+1.0.1
+1.0.0
+Using 1.0.3
+Use --version to specify a different version.
+Using url https://pypi.python.org/packages/source/s/softlayer_messaging/softlayer_messaging-1.0.3.tar.gz (5 KB) for softlayer_messaging.
+Downloading softlayer_messaging
+Using cached download
+Unpacking softlayer_messaging...
+done
+working in /tmp/tmpBffxNVconda_skeleton_softlayer_messaging-1.0.3.tar.gz
+Solving package specifications: .patching file core.py
+Hunk #1 succeeded at 168 with fuzz 2 (offset 2 lines).
+
+WARNING: conda-build appears to be out of date. You have version 1.13.0 but the
+latest version is 1.14.1. Run
+
+conda update -n root conda-build
+
+to get the latest version.
+
+
+Applying patch: '/tmp/tmpBffxNVconda_skeleton_softlayer_messaging-1.0.3.tar.gz/pypi-distutils.patch'
+Warning, the following versions were found for kombu
+3.0.26
+3.0.25
+3.0.24
+3.0.23
+3.0.22
+3.0.21
+3.0.20
+3.0.19
+3.0.18
+3.0.17-20140602
+3.0.17
+3.0.16
+3.0.15
+3.0.14
+3.0.13
+3.0.12
+3.0.11
+3.0.10
+3.0.9
+3.0.8
+3.0.7
+3.0.6
+3.0.5
+3.0.4
+3.0.3
+3.0.2
+3.0.1
+3.0.0
+2.5.16
+2.5.15
+2.5.14
+2.5.13
+2.5.12
+2.5.11
+2.5.10
+2.5.9
+2.5.8
+2.5.7
+2.5.6
+2.5.5
+2.5.4
+2.5.3
+2.5.2
+2.5.1
+2.5.0
+2.4.10
+2.4.9
+2.4.8
+2.4.7
+2.4.6
+2.4.5
+2.4.4
+2.4.3
+2.4.2
+2.4.1
+2.4.0
+2.3.2
+2.3.1
+2.3.0
+2.2.6
+2.2.5
+2.2.4
+2.2.3
+2.2.2
+2.2.1
+2.2.0
+2.1.8
+2.1.7
+2.1.6
+2.1.5
+2.1.4
+2.1.3
+2.1.2
+2.1.1
+2.1.0
+2.0.0
+1.5.1
+1.5.0
+1.4.3
+1.4.2
+1.4.1
+1.4.0
+1.3.5
+1.3.4
+1.3.3
+1.3.2
+1.3.1
+1.3.0
+1.2.1
+1.2.0
+1.1.6
+1.1.5
+1.1.4
+1.1.3
+1.1.2
+1.1.1
+1.1.0
+1.0.7
+1.0.6
+1.0.5
+1.0.4
+1.0.3
+1.0.2
+1.0.1
+1.0.0
+1.0.0rc4
+1.0.0rc3
+1.0.0rc2
+1.0.0rc1
+1.0.0b4
+1.0.0b3
+1.0.0b2
+1.0.0b1
+0.9.7
+0.9.6
+0.9.5
+0.9.4
+0.9.2
+0.9.1
+0.9.0
+0.2.0
+0.1.0
+Using 3.0.26
+Use --version to specify a different version.
+Using url https://pypi.python.org/packages/source/k/kombu/kombu-3.0.26.tar.gz (367 KB) for kombu.
+Downloading kombu
+Using cached download
+Unpacking kombu...
+done
+working in /tmp/tmp0udNbuconda_skeleton_kombu-3.0.26.tar.gz
+Solving package specifications: .patching file core.py
+Hunk #1 succeeded at 168 with fuzz 2 (offset 2 lines).
+
+WARNING: conda-build appears to be out of date. You have version 1.13.0 but the
+latest version is 1.14.1. Run
+
+conda update -n root conda-build
+
+to get the latest version.
+
+
+Applying patch: '/tmp/tmp0udNbuconda_skeleton_kombu-3.0.26.tar.gz/pypi-distutils.patch'
+Using url https://pypi.python.org/packages/source/q/qpid-tools/qpid-tools-0.26.tar.gz (38 KB) for qpid-tools.
+Downloading qpid-tools
+Using cached download
+Unpacking qpid-tools...
+done
+working in /tmp/tmpSOP6SVconda_skeleton_qpid-tools-0.26.tar.gz
+Solving package specifications: .patching file core.py
+Hunk #1 succeeded at 168 with fuzz 2 (offset 2 lines).
+
+Applying patch: '/tmp/tmpSOP6SVconda_skeleton_qpid-tools-0.26.tar.gz/pypi-distutils.patch'
+Warning, the following versions were found for qpid-python
+0.26.2
+0.26.1
+0.26
+0.20
+Using 0.26.2
+Use --version to specify a different version.
+Error: Could not parse url for qpid-python: UNKNOWN

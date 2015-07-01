@@ -12,19 +12,23 @@ Warning, the following versions were found for dropbox
 Using 2.2.0
 Use --version to specify a different version.
 Using url https://pypi.python.org/packages/source/d/dropbox/dropbox-2.2.0.zip (675 KB) for dropbox.
-Downloading dropbox (use --no-download to skip this step)
+Downloading dropbox
 Using cached download
 Unpacking dropbox...
 done
-working in /tmp/tmpbVbz13conda_skeleton_dropbox-2.2.0.zip
+working in /tmp/tmpQBNkibconda_skeleton_dropbox-2.2.0.zip
 Fetching package metadata: ......
+
+WARNING: conda-build appears to be out of date. You have version 1.13.0 but the
+latest version is 1.14.1. Run
+
+conda update -n root conda-build
+
+to get the latest version.
+
 Solving package specifications: .patching file core.py
 Hunk #1 succeeded at 168 with fuzz 2 (offset 2 lines).
-Traceback (most recent call last):
-  File "setup.py", line 8, in <module>
-    from setuptools import setup, find_packages
-ImportError: No module named setuptools
 
-Applying patch: '/tmp/tmpbVbz13conda_skeleton_dropbox-2.2.0.zip/pypi-distutils.patch'
-$PYTHONPATH = /tmp/tmpbVbz13conda_skeleton_dropbox-2.2.0.zip/dropbox-2.2.0
-Error: command failed: /home/ubuntu/miniconda/envs/_build/bin/python setup.py install
+Applying patch: '/tmp/tmpQBNkibconda_skeleton_dropbox-2.2.0.zip/pypi-distutils.patch'
+Writing recipe for dropbox
+Done

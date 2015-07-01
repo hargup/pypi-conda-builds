@@ -1,0 +1,35 @@
+Warning, the following versions were found for python-quantumclient
+2.2.4.3
+2.2.4.2
+2.2.4.1
+2.2.3
+2.2.2
+2.2.1
+2.2.0
+2.1.2
+2.1
+2.0
+0.1.1
+0.1.0.1
+Using 2.2.4.3
+Use --version to specify a different version.
+Using url https://pypi.python.org/packages/source/p/python-quantumclient/python-quantumclient-2.2.4.3.tar.gz (41 KB) for python-quantumclient.
+Downloading python-quantumclient
+Unpacking python-quantumclient...
+done
+working in /tmp/tmpsqvawzconda_skeleton_python-quantumclient-2.2.4.3.tar.gz
+Fetching package metadata: ......
+
+WARNING: conda-build appears to be out of date. You have version 1.13.0 but the
+latest version is 1.14.1. Run
+
+conda update -n root conda-build
+
+to get the latest version.
+
+Solving package specifications: .patching file core.py
+Hunk #1 succeeded at 168 with fuzz 2 (offset 2 lines).
+
+Applying patch: '/tmp/tmpsqvawzconda_skeleton_python-quantumclient-2.2.4.3.tar.gz/pypi-distutils.patch'
+Writing recipe for python-quantumclient
+Done

@@ -1,0 +1,417 @@
+Removing old build directory
+Removing old work directory
+BUILD START: netius-1.5.5-py_0
+Fetching package metadata: ......
+
+WARNING: conda-build appears to be out of date. You have version 1.13.0 but the
+latest version is 1.14.1. Run
+
+conda update -n root conda-build
+
+to get the latest version.
+
+Solving package specifications: .+ /home/ubuntu/miniconda/envs/_build/bin/python setup.py install
+running install
+running bdist_egg
+running egg_info
+writing src/netius.egg-info/PKG-INFO
+writing top-level names to src/netius.egg-info/top_level.txt
+writing dependency_links to src/netius.egg-info/dependency_links.txt
+reading manifest file 'src/netius.egg-info/SOURCES.txt'
+reading manifest template 'MANIFEST.in'
+writing manifest file 'src/netius.egg-info/SOURCES.txt'
+installing library code to build/bdist.linux-x86_64/egg
+running install_lib
+running build_py
+creating build
+creating build/lib
+creating build/lib/netius
+copying src/netius/__init__.py -> build/lib/netius
+creating build/lib/netius/adapters
+copying src/netius/adapters/fs.py -> build/lib/netius/adapters
+copying src/netius/adapters/memory.py -> build/lib/netius/adapters
+copying src/netius/adapters/mongo.py -> build/lib/netius/adapters
+copying src/netius/adapters/null.py -> build/lib/netius/adapters
+copying src/netius/adapters/__init__.py -> build/lib/netius/adapters
+copying src/netius/adapters/base.py -> build/lib/netius/adapters
+creating build/lib/netius/auth
+copying src/netius/auth/passwd.py -> build/lib/netius/auth
+copying src/netius/auth/memory.py -> build/lib/netius/auth
+copying src/netius/auth/__init__.py -> build/lib/netius/auth
+copying src/netius/auth/dummy.py -> build/lib/netius/auth
+copying src/netius/auth/base.py -> build/lib/netius/auth
+creating build/lib/netius/base
+copying src/netius/base/legacy.py -> build/lib/netius/base
+copying src/netius/base/errors.py -> build/lib/netius/base
+copying src/netius/base/poll.py -> build/lib/netius/base
+copying src/netius/base/config.py -> build/lib/netius/base
+copying src/netius/base/observer.py -> build/lib/netius/base
+copying src/netius/base/log.py -> build/lib/netius/base
+copying src/netius/base/client.py -> build/lib/netius/base
+copying src/netius/base/__init__.py -> build/lib/netius/base
+copying src/netius/base/conn.py -> build/lib/netius/base
+copying src/netius/base/common.py -> build/lib/netius/base
+copying src/netius/base/request.py -> build/lib/netius/base
+copying src/netius/base/server.py -> build/lib/netius/base
+copying src/netius/base/container.py -> build/lib/netius/base
+creating build/lib/netius/clients
+copying src/netius/clients/apn.py -> build/lib/netius/clients
+copying src/netius/clients/dns.py -> build/lib/netius/clients
+copying src/netius/clients/ssdp.py -> build/lib/netius/clients
+copying src/netius/clients/mjpg.py -> build/lib/netius/clients
+copying src/netius/clients/torrent.py -> build/lib/netius/clients
+copying src/netius/clients/smtp.py -> build/lib/netius/clients
+copying src/netius/clients/raw.py -> build/lib/netius/clients
+copying src/netius/clients/http.py -> build/lib/netius/clients
+copying src/netius/clients/__init__.py -> build/lib/netius/clients
+copying src/netius/clients/dht.py -> build/lib/netius/clients
+copying src/netius/clients/ws.py -> build/lib/netius/clients
+creating build/lib/netius/common
+copying src/netius/common/mime.py -> build/lib/netius/common
+copying src/netius/common/dkim.py -> build/lib/netius/common
+copying src/netius/common/ftp.py -> build/lib/netius/common
+copying src/netius/common/structures.py -> build/lib/netius/common
+copying src/netius/common/dhcp.py -> build/lib/netius/common
+copying src/netius/common/parser.py -> build/lib/netius/common
+copying src/netius/common/torrent.py -> build/lib/netius/common
+copying src/netius/common/smtp.py -> build/lib/netius/common
+copying src/netius/common/util.py -> build/lib/netius/common
+copying src/netius/common/asn.py -> build/lib/netius/common
+copying src/netius/common/http.py -> build/lib/netius/common
+copying src/netius/common/__init__.py -> build/lib/netius/common
+copying src/netius/common/rsa.py -> build/lib/netius/common
+copying src/netius/common/calc.py -> build/lib/netius/common
+copying src/netius/common/ws.py -> build/lib/netius/common
+copying src/netius/common/socks.py -> build/lib/netius/common
+copying src/netius/common/pop.py -> build/lib/netius/common
+creating build/lib/netius/examples
+copying src/netius/examples/http.py -> build/lib/netius/examples
+copying src/netius/examples/__init__.py -> build/lib/netius/examples
+copying src/netius/examples/upnp.py -> build/lib/netius/examples
+creating build/lib/netius/extra
+copying src/netius/extra/dhcp_s.py -> build/lib/netius/extra
+copying src/netius/extra/smtp_r.py -> build/lib/netius/extra
+copying src/netius/extra/hello.py -> build/lib/netius/extra
+copying src/netius/extra/file.py -> build/lib/netius/extra
+copying src/netius/extra/proxy_f.py -> build/lib/netius/extra
+copying src/netius/extra/filea.py -> build/lib/netius/extra
+copying src/netius/extra/__init__.py -> build/lib/netius/extra
+copying src/netius/extra/desktop.py -> build/lib/netius/extra
+copying src/netius/extra/proxy_r.py -> build/lib/netius/extra
+creating build/lib/netius/pool
+copying src/netius/pool/file.py -> build/lib/netius/pool
+copying src/netius/pool/__init__.py -> build/lib/netius/pool
+copying src/netius/pool/common.py -> build/lib/netius/pool
+creating build/lib/netius/servers
+copying src/netius/servers/ftp.py -> build/lib/netius/servers
+copying src/netius/servers/dhcp.py -> build/lib/netius/servers
+copying src/netius/servers/mjpg.py -> build/lib/netius/servers
+copying src/netius/servers/proxy.py -> build/lib/netius/servers
+copying src/netius/servers/torrent.py -> build/lib/netius/servers
+copying src/netius/servers/echo.py -> build/lib/netius/servers
+copying src/netius/servers/smtp.py -> build/lib/netius/servers
+copying src/netius/servers/wsgi.py -> build/lib/netius/servers
+copying src/netius/servers/http.py -> build/lib/netius/servers
+copying src/netius/servers/__init__.py -> build/lib/netius/servers
+copying src/netius/servers/ws.py -> build/lib/netius/servers
+copying src/netius/servers/socks.py -> build/lib/netius/servers
+copying src/netius/servers/pop.py -> build/lib/netius/servers
+creating build/lib/netius/sh
+copying src/netius/sh/dkim.py -> build/lib/netius/sh
+copying src/netius/sh/smtp.py -> build/lib/netius/sh
+copying src/netius/sh/__init__.py -> build/lib/netius/sh
+copying src/netius/sh/rsa.py -> build/lib/netius/sh
+copying src/netius/sh/auth.py -> build/lib/netius/sh
+copying src/netius/sh/base.py -> build/lib/netius/sh
+creating build/lib/netius/test
+copying src/netius/test/__init__.py -> build/lib/netius/test
+creating build/lib/netius/base/extras
+copying src/netius/base/extras/net.pub -> build/lib/netius/base/extras
+copying src/netius/base/extras/net.csr -> build/lib/netius/base/extras
+copying src/netius/base/extras/net.cer -> build/lib/netius/base/extras
+copying src/netius/base/extras/net.key -> build/lib/netius/base/extras
+creating build/lib/netius/extra/extras
+copying src/netius/extra/extras/htpasswd -> build/lib/netius/extra/extras
+creating build/lib/netius/servers/extras
+copying src/netius/servers/extras/boy_1.jpg -> build/lib/netius/servers/extras
+copying src/netius/servers/extras/boy_0.jpg -> build/lib/netius/servers/extras
+creating build/bdist.linux-x86_64
+creating build/bdist.linux-x86_64/egg
+creating build/bdist.linux-x86_64/egg/netius
+creating build/bdist.linux-x86_64/egg/netius/common
+copying build/lib/netius/common/mime.py -> build/bdist.linux-x86_64/egg/netius/common
+copying build/lib/netius/common/dkim.py -> build/bdist.linux-x86_64/egg/netius/common
+copying build/lib/netius/common/ftp.py -> build/bdist.linux-x86_64/egg/netius/common
+copying build/lib/netius/common/structures.py -> build/bdist.linux-x86_64/egg/netius/common
+copying build/lib/netius/common/dhcp.py -> build/bdist.linux-x86_64/egg/netius/common
+copying build/lib/netius/common/parser.py -> build/bdist.linux-x86_64/egg/netius/common
+copying build/lib/netius/common/torrent.py -> build/bdist.linux-x86_64/egg/netius/common
+copying build/lib/netius/common/smtp.py -> build/bdist.linux-x86_64/egg/netius/common
+copying build/lib/netius/common/util.py -> build/bdist.linux-x86_64/egg/netius/common
+copying build/lib/netius/common/asn.py -> build/bdist.linux-x86_64/egg/netius/common
+copying build/lib/netius/common/http.py -> build/bdist.linux-x86_64/egg/netius/common
+copying build/lib/netius/common/__init__.py -> build/bdist.linux-x86_64/egg/netius/common
+copying build/lib/netius/common/rsa.py -> build/bdist.linux-x86_64/egg/netius/common
+copying build/lib/netius/common/calc.py -> build/bdist.linux-x86_64/egg/netius/common
+copying build/lib/netius/common/ws.py -> build/bdist.linux-x86_64/egg/netius/common
+copying build/lib/netius/common/socks.py -> build/bdist.linux-x86_64/egg/netius/common
+copying build/lib/netius/common/pop.py -> build/bdist.linux-x86_64/egg/netius/common
+creating build/bdist.linux-x86_64/egg/netius/servers
+creating build/bdist.linux-x86_64/egg/netius/servers/extras
+copying build/lib/netius/servers/extras/boy_1.jpg -> build/bdist.linux-x86_64/egg/netius/servers/extras
+copying build/lib/netius/servers/extras/boy_0.jpg -> build/bdist.linux-x86_64/egg/netius/servers/extras
+copying build/lib/netius/servers/ftp.py -> build/bdist.linux-x86_64/egg/netius/servers
+copying build/lib/netius/servers/dhcp.py -> build/bdist.linux-x86_64/egg/netius/servers
+copying build/lib/netius/servers/mjpg.py -> build/bdist.linux-x86_64/egg/netius/servers
+copying build/lib/netius/servers/proxy.py -> build/bdist.linux-x86_64/egg/netius/servers
+copying build/lib/netius/servers/torrent.py -> build/bdist.linux-x86_64/egg/netius/servers
+copying build/lib/netius/servers/echo.py -> build/bdist.linux-x86_64/egg/netius/servers
+copying build/lib/netius/servers/smtp.py -> build/bdist.linux-x86_64/egg/netius/servers
+copying build/lib/netius/servers/wsgi.py -> build/bdist.linux-x86_64/egg/netius/servers
+copying build/lib/netius/servers/http.py -> build/bdist.linux-x86_64/egg/netius/servers
+copying build/lib/netius/servers/__init__.py -> build/bdist.linux-x86_64/egg/netius/servers
+copying build/lib/netius/servers/ws.py -> build/bdist.linux-x86_64/egg/netius/servers
+copying build/lib/netius/servers/socks.py -> build/bdist.linux-x86_64/egg/netius/servers
+copying build/lib/netius/servers/pop.py -> build/bdist.linux-x86_64/egg/netius/servers
+creating build/bdist.linux-x86_64/egg/netius/examples
+copying build/lib/netius/examples/http.py -> build/bdist.linux-x86_64/egg/netius/examples
+copying build/lib/netius/examples/__init__.py -> build/bdist.linux-x86_64/egg/netius/examples
+copying build/lib/netius/examples/upnp.py -> build/bdist.linux-x86_64/egg/netius/examples
+creating build/bdist.linux-x86_64/egg/netius/clients
+copying build/lib/netius/clients/apn.py -> build/bdist.linux-x86_64/egg/netius/clients
+copying build/lib/netius/clients/dns.py -> build/bdist.linux-x86_64/egg/netius/clients
+copying build/lib/netius/clients/ssdp.py -> build/bdist.linux-x86_64/egg/netius/clients
+copying build/lib/netius/clients/mjpg.py -> build/bdist.linux-x86_64/egg/netius/clients
+copying build/lib/netius/clients/torrent.py -> build/bdist.linux-x86_64/egg/netius/clients
+copying build/lib/netius/clients/smtp.py -> build/bdist.linux-x86_64/egg/netius/clients
+copying build/lib/netius/clients/raw.py -> build/bdist.linux-x86_64/egg/netius/clients
+copying build/lib/netius/clients/http.py -> build/bdist.linux-x86_64/egg/netius/clients
+copying build/lib/netius/clients/__init__.py -> build/bdist.linux-x86_64/egg/netius/clients
+copying build/lib/netius/clients/dht.py -> build/bdist.linux-x86_64/egg/netius/clients
+copying build/lib/netius/clients/ws.py -> build/bdist.linux-x86_64/egg/netius/clients
+creating build/bdist.linux-x86_64/egg/netius/sh
+copying build/lib/netius/sh/dkim.py -> build/bdist.linux-x86_64/egg/netius/sh
+copying build/lib/netius/sh/smtp.py -> build/bdist.linux-x86_64/egg/netius/sh
+copying build/lib/netius/sh/__init__.py -> build/bdist.linux-x86_64/egg/netius/sh
+copying build/lib/netius/sh/rsa.py -> build/bdist.linux-x86_64/egg/netius/sh
+copying build/lib/netius/sh/auth.py -> build/bdist.linux-x86_64/egg/netius/sh
+copying build/lib/netius/sh/base.py -> build/bdist.linux-x86_64/egg/netius/sh
+creating build/bdist.linux-x86_64/egg/netius/adapters
+copying build/lib/netius/adapters/fs.py -> build/bdist.linux-x86_64/egg/netius/adapters
+copying build/lib/netius/adapters/memory.py -> build/bdist.linux-x86_64/egg/netius/adapters
+copying build/lib/netius/adapters/mongo.py -> build/bdist.linux-x86_64/egg/netius/adapters
+copying build/lib/netius/adapters/null.py -> build/bdist.linux-x86_64/egg/netius/adapters
+copying build/lib/netius/adapters/__init__.py -> build/bdist.linux-x86_64/egg/netius/adapters
+copying build/lib/netius/adapters/base.py -> build/bdist.linux-x86_64/egg/netius/adapters
+creating build/bdist.linux-x86_64/egg/netius/pool
+copying build/lib/netius/pool/file.py -> build/bdist.linux-x86_64/egg/netius/pool
+copying build/lib/netius/pool/__init__.py -> build/bdist.linux-x86_64/egg/netius/pool
+copying build/lib/netius/pool/common.py -> build/bdist.linux-x86_64/egg/netius/pool
+creating build/bdist.linux-x86_64/egg/netius/test
+copying build/lib/netius/test/__init__.py -> build/bdist.linux-x86_64/egg/netius/test
+creating build/bdist.linux-x86_64/egg/netius/auth
+copying build/lib/netius/auth/passwd.py -> build/bdist.linux-x86_64/egg/netius/auth
+copying build/lib/netius/auth/memory.py -> build/bdist.linux-x86_64/egg/netius/auth
+copying build/lib/netius/auth/__init__.py -> build/bdist.linux-x86_64/egg/netius/auth
+copying build/lib/netius/auth/dummy.py -> build/bdist.linux-x86_64/egg/netius/auth
+copying build/lib/netius/auth/base.py -> build/bdist.linux-x86_64/egg/netius/auth
+copying build/lib/netius/__init__.py -> build/bdist.linux-x86_64/egg/netius
+creating build/bdist.linux-x86_64/egg/netius/extra
+creating build/bdist.linux-x86_64/egg/netius/extra/extras
+copying build/lib/netius/extra/extras/htpasswd -> build/bdist.linux-x86_64/egg/netius/extra/extras
+copying build/lib/netius/extra/dhcp_s.py -> build/bdist.linux-x86_64/egg/netius/extra
+copying build/lib/netius/extra/smtp_r.py -> build/bdist.linux-x86_64/egg/netius/extra
+copying build/lib/netius/extra/hello.py -> build/bdist.linux-x86_64/egg/netius/extra
+copying build/lib/netius/extra/file.py -> build/bdist.linux-x86_64/egg/netius/extra
+copying build/lib/netius/extra/proxy_f.py -> build/bdist.linux-x86_64/egg/netius/extra
+copying build/lib/netius/extra/filea.py -> build/bdist.linux-x86_64/egg/netius/extra
+copying build/lib/netius/extra/__init__.py -> build/bdist.linux-x86_64/egg/netius/extra
+copying build/lib/netius/extra/desktop.py -> build/bdist.linux-x86_64/egg/netius/extra
+copying build/lib/netius/extra/proxy_r.py -> build/bdist.linux-x86_64/egg/netius/extra
+creating build/bdist.linux-x86_64/egg/netius/base
+copying build/lib/netius/base/legacy.py -> build/bdist.linux-x86_64/egg/netius/base
+creating build/bdist.linux-x86_64/egg/netius/base/extras
+copying build/lib/netius/base/extras/net.pub -> build/bdist.linux-x86_64/egg/netius/base/extras
+copying build/lib/netius/base/extras/net.csr -> build/bdist.linux-x86_64/egg/netius/base/extras
+copying build/lib/netius/base/extras/net.cer -> build/bdist.linux-x86_64/egg/netius/base/extras
+copying build/lib/netius/base/extras/net.key -> build/bdist.linux-x86_64/egg/netius/base/extras
+copying build/lib/netius/base/errors.py -> build/bdist.linux-x86_64/egg/netius/base
+copying build/lib/netius/base/poll.py -> build/bdist.linux-x86_64/egg/netius/base
+copying build/lib/netius/base/config.py -> build/bdist.linux-x86_64/egg/netius/base
+copying build/lib/netius/base/observer.py -> build/bdist.linux-x86_64/egg/netius/base
+copying build/lib/netius/base/log.py -> build/bdist.linux-x86_64/egg/netius/base
+copying build/lib/netius/base/client.py -> build/bdist.linux-x86_64/egg/netius/base
+copying build/lib/netius/base/__init__.py -> build/bdist.linux-x86_64/egg/netius/base
+copying build/lib/netius/base/conn.py -> build/bdist.linux-x86_64/egg/netius/base
+copying build/lib/netius/base/common.py -> build/bdist.linux-x86_64/egg/netius/base
+copying build/lib/netius/base/request.py -> build/bdist.linux-x86_64/egg/netius/base
+copying build/lib/netius/base/server.py -> build/bdist.linux-x86_64/egg/netius/base
+copying build/lib/netius/base/container.py -> build/bdist.linux-x86_64/egg/netius/base
+byte-compiling build/bdist.linux-x86_64/egg/netius/common/mime.py to mime.pyc
+byte-compiling build/bdist.linux-x86_64/egg/netius/common/dkim.py to dkim.pyc
+byte-compiling build/bdist.linux-x86_64/egg/netius/common/ftp.py to ftp.pyc
+byte-compiling build/bdist.linux-x86_64/egg/netius/common/structures.py to structures.pyc
+byte-compiling build/bdist.linux-x86_64/egg/netius/common/dhcp.py to dhcp.pyc
+byte-compiling build/bdist.linux-x86_64/egg/netius/common/parser.py to parser.pyc
+byte-compiling build/bdist.linux-x86_64/egg/netius/common/torrent.py to torrent.pyc
+byte-compiling build/bdist.linux-x86_64/egg/netius/common/smtp.py to smtp.pyc
+byte-compiling build/bdist.linux-x86_64/egg/netius/common/util.py to util.pyc
+byte-compiling build/bdist.linux-x86_64/egg/netius/common/asn.py to asn.pyc
+byte-compiling build/bdist.linux-x86_64/egg/netius/common/http.py to http.pyc
+byte-compiling build/bdist.linux-x86_64/egg/netius/common/__init__.py to __init__.pyc
+byte-compiling build/bdist.linux-x86_64/egg/netius/common/rsa.py to rsa.pyc
+byte-compiling build/bdist.linux-x86_64/egg/netius/common/calc.py to calc.pyc
+byte-compiling build/bdist.linux-x86_64/egg/netius/common/ws.py to ws.pyc
+byte-compiling build/bdist.linux-x86_64/egg/netius/common/socks.py to socks.pyc
+byte-compiling build/bdist.linux-x86_64/egg/netius/common/pop.py to pop.pyc
+byte-compiling build/bdist.linux-x86_64/egg/netius/servers/ftp.py to ftp.pyc
+byte-compiling build/bdist.linux-x86_64/egg/netius/servers/dhcp.py to dhcp.pyc
+byte-compiling build/bdist.linux-x86_64/egg/netius/servers/mjpg.py to mjpg.pyc
+byte-compiling build/bdist.linux-x86_64/egg/netius/servers/proxy.py to proxy.pyc
+byte-compiling build/bdist.linux-x86_64/egg/netius/servers/torrent.py to torrent.pyc
+byte-compiling build/bdist.linux-x86_64/egg/netius/servers/echo.py to echo.pyc
+byte-compiling build/bdist.linux-x86_64/egg/netius/servers/smtp.py to smtp.pyc
+byte-compiling build/bdist.linux-x86_64/egg/netius/servers/wsgi.py to wsgi.pyc
+byte-compiling build/bdist.linux-x86_64/egg/netius/servers/http.py to http.pyc
+byte-compiling build/bdist.linux-x86_64/egg/netius/servers/__init__.py to __init__.pyc
+byte-compiling build/bdist.linux-x86_64/egg/netius/servers/ws.py to ws.pyc
+byte-compiling build/bdist.linux-x86_64/egg/netius/servers/socks.py to socks.pyc
+byte-compiling build/bdist.linux-x86_64/egg/netius/servers/pop.py to pop.pyc
+byte-compiling build/bdist.linux-x86_64/egg/netius/examples/http.py to http.pyc
+byte-compiling build/bdist.linux-x86_64/egg/netius/examples/__init__.py to __init__.pyc
+byte-compiling build/bdist.linux-x86_64/egg/netius/examples/upnp.py to upnp.pyc
+byte-compiling build/bdist.linux-x86_64/egg/netius/clients/apn.py to apn.pyc
+byte-compiling build/bdist.linux-x86_64/egg/netius/clients/dns.py to dns.pyc
+byte-compiling build/bdist.linux-x86_64/egg/netius/clients/ssdp.py to ssdp.pyc
+byte-compiling build/bdist.linux-x86_64/egg/netius/clients/mjpg.py to mjpg.pyc
+byte-compiling build/bdist.linux-x86_64/egg/netius/clients/torrent.py to torrent.pyc
+byte-compiling build/bdist.linux-x86_64/egg/netius/clients/smtp.py to smtp.pyc
+byte-compiling build/bdist.linux-x86_64/egg/netius/clients/raw.py to raw.pyc
+byte-compiling build/bdist.linux-x86_64/egg/netius/clients/http.py to http.pyc
+byte-compiling build/bdist.linux-x86_64/egg/netius/clients/__init__.py to __init__.pyc
+byte-compiling build/bdist.linux-x86_64/egg/netius/clients/dht.py to dht.pyc
+byte-compiling build/bdist.linux-x86_64/egg/netius/clients/ws.py to ws.pyc
+byte-compiling build/bdist.linux-x86_64/egg/netius/sh/dkim.py to dkim.pyc
+byte-compiling build/bdist.linux-x86_64/egg/netius/sh/smtp.py to smtp.pyc
+byte-compiling build/bdist.linux-x86_64/egg/netius/sh/__init__.py to __init__.pyc
+byte-compiling build/bdist.linux-x86_64/egg/netius/sh/rsa.py to rsa.pyc
+byte-compiling build/bdist.linux-x86_64/egg/netius/sh/auth.py to auth.pyc
+byte-compiling build/bdist.linux-x86_64/egg/netius/sh/base.py to base.pyc
+byte-compiling build/bdist.linux-x86_64/egg/netius/adapters/fs.py to fs.pyc
+byte-compiling build/bdist.linux-x86_64/egg/netius/adapters/memory.py to memory.pyc
+byte-compiling build/bdist.linux-x86_64/egg/netius/adapters/mongo.py to mongo.pyc
+byte-compiling build/bdist.linux-x86_64/egg/netius/adapters/null.py to null.pyc
+byte-compiling build/bdist.linux-x86_64/egg/netius/adapters/__init__.py to __init__.pyc
+byte-compiling build/bdist.linux-x86_64/egg/netius/adapters/base.py to base.pyc
+byte-compiling build/bdist.linux-x86_64/egg/netius/pool/file.py to file.pyc
+byte-compiling build/bdist.linux-x86_64/egg/netius/pool/__init__.py to __init__.pyc
+byte-compiling build/bdist.linux-x86_64/egg/netius/pool/common.py to common.pyc
+byte-compiling build/bdist.linux-x86_64/egg/netius/test/__init__.py to __init__.pyc
+byte-compiling build/bdist.linux-x86_64/egg/netius/auth/passwd.py to passwd.pyc
+byte-compiling build/bdist.linux-x86_64/egg/netius/auth/memory.py to memory.pyc
+byte-compiling build/bdist.linux-x86_64/egg/netius/auth/__init__.py to __init__.pyc
+byte-compiling build/bdist.linux-x86_64/egg/netius/auth/dummy.py to dummy.pyc
+byte-compiling build/bdist.linux-x86_64/egg/netius/auth/base.py to base.pyc
+byte-compiling build/bdist.linux-x86_64/egg/netius/__init__.py to __init__.pyc
+byte-compiling build/bdist.linux-x86_64/egg/netius/extra/dhcp_s.py to dhcp_s.pyc
+byte-compiling build/bdist.linux-x86_64/egg/netius/extra/smtp_r.py to smtp_r.pyc
+byte-compiling build/bdist.linux-x86_64/egg/netius/extra/hello.py to hello.pyc
+byte-compiling build/bdist.linux-x86_64/egg/netius/extra/file.py to file.pyc
+byte-compiling build/bdist.linux-x86_64/egg/netius/extra/proxy_f.py to proxy_f.pyc
+byte-compiling build/bdist.linux-x86_64/egg/netius/extra/filea.py to filea.pyc
+byte-compiling build/bdist.linux-x86_64/egg/netius/extra/__init__.py to __init__.pyc
+byte-compiling build/bdist.linux-x86_64/egg/netius/extra/desktop.py to desktop.pyc
+byte-compiling build/bdist.linux-x86_64/egg/netius/extra/proxy_r.py to proxy_r.pyc
+byte-compiling build/bdist.linux-x86_64/egg/netius/base/legacy.py to legacy.pyc
+byte-compiling build/bdist.linux-x86_64/egg/netius/base/errors.py to errors.pyc
+byte-compiling build/bdist.linux-x86_64/egg/netius/base/poll.py to poll.pyc
+byte-compiling build/bdist.linux-x86_64/egg/netius/base/config.py to config.pyc
+byte-compiling build/bdist.linux-x86_64/egg/netius/base/observer.py to observer.pyc
+byte-compiling build/bdist.linux-x86_64/egg/netius/base/log.py to log.pyc
+byte-compiling build/bdist.linux-x86_64/egg/netius/base/client.py to client.pyc
+byte-compiling build/bdist.linux-x86_64/egg/netius/base/__init__.py to __init__.pyc
+byte-compiling build/bdist.linux-x86_64/egg/netius/base/conn.py to conn.pyc
+byte-compiling build/bdist.linux-x86_64/egg/netius/base/common.py to common.pyc
+byte-compiling build/bdist.linux-x86_64/egg/netius/base/request.py to request.pyc
+byte-compiling build/bdist.linux-x86_64/egg/netius/base/server.py to server.pyc
+byte-compiling build/bdist.linux-x86_64/egg/netius/base/container.py to container.pyc
+creating build/bdist.linux-x86_64/egg/EGG-INFO
+copying src/netius.egg-info/PKG-INFO -> build/bdist.linux-x86_64/egg/EGG-INFO
+copying src/netius.egg-info/SOURCES.txt -> build/bdist.linux-x86_64/egg/EGG-INFO
+copying src/netius.egg-info/dependency_links.txt -> build/bdist.linux-x86_64/egg/EGG-INFO
+copying src/netius.egg-info/not-zip-safe -> build/bdist.linux-x86_64/egg/EGG-INFO
+copying src/netius.egg-info/top_level.txt -> build/bdist.linux-x86_64/egg/EGG-INFO
+creating dist
+creating 'dist/netius-1.5.5-py2.7.egg' and adding 'build/bdist.linux-x86_64/egg' to it
+removing 'build/bdist.linux-x86_64/egg' (and everything under it)
+Processing netius-1.5.5-py2.7.egg
+creating /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/netius-1.5.5-py2.7.egg
+Extracting netius-1.5.5-py2.7.egg to /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages
+Adding netius 1.5.5 to easy-install.pth file
+
+Installed /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/netius-1.5.5-py2.7.egg
+Processing dependencies for netius==1.5.5
+Finished processing dependencies for netius==1.5.5
+
+The following NEW packages will be INSTALLED:
+
+    openssl:    1.0.1k-1     
+    pip:        7.0.3-py27_0 
+    python:     2.7.10-0     
+    readline:   6.2-2        
+    setuptools: 18.0.1-py27_0
+    sqlite:     3.8.4.1-1    
+    system:     5.8-2        
+    tk:         8.5.18-0     
+    zlib:       1.2.8-0      
+
+Linking packages ...
+[                    ]|                                                  |   0%[openssl             ]|                                                  |   0%[readline            ]|#####                                             |  11%[sqlite              ]|###########                                       |  22%[system              ]|################                                  |  33%[tk                  ]|######################                            |  44%[zlib                ]|###########################                       |  55%[python              ]|#################################                 |  66%[setuptools          ]|######################################            |  77%[pip                 ]|############################################      |  88%[      COMPLETE      ]|##################################################| 100%
+Removing old work directory
+Source cache directory is: /home/ubuntu/miniconda/conda-bld/src_cache
+Found source in cache: netius-1.5.5.zip
+Extracting download
+Package: netius-1.5.5-py_0
+source tree in: /home/ubuntu/miniconda/conda-bld/work/netius-1.5.5
+found egg dir: /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/netius-1.5.5-py2.7.egg
+number of files: 184
+Fixing permissions
+Fixing permissions
+BUILD END: netius-1.5.5-py_0
+TEST START: netius-1.5.5-py_0
+Fetching package metadata: ......
+
+WARNING: conda-build appears to be out of date. You have version 1.13.0 but the
+latest version is 1.14.1. Run
+
+conda update -n root conda-build
+
+to get the latest version.
+
+Solving package specifications: ./home/ubuntu/miniconda/pkgs/netius-1.5.5-py_0/bin/.netius-pre-link.sh: line 2: /home/ubuntu/miniconda/envs/_test/bin/python: No such file or directory
+
+The following packages will be downloaded:
+
+    package                    |            build
+    ---------------------------|-----------------
+    netius-1.5.5               |             py_0         126 KB
+
+The following NEW packages will be INSTALLED:
+
+    netius:     1.5.5-py_0   
+    openssl:    1.0.1k-1     
+    pip:        7.0.3-py27_0 
+    python:     2.7.10-0     
+    readline:   6.2-2        
+    setuptools: 18.0.1-py27_0
+    sqlite:     3.8.4.1-1    
+    system:     5.8-2        
+    tk:         8.5.18-0     
+    zlib:       1.2.8-0      
+
+Fetching packages ...
+netius-1.5.5-p   0% |                              | ETA:  --:--:--   0.00  B/snetius-1.5.5-p  12% |###                            | ETA:  0:00:00  47.76 MB/snetius-1.5.5-p  25% |#######                        | ETA:  0:00:00  59.47 MB/snetius-1.5.5-p  38% |###########                    | ETA:  0:00:00  63.51 MB/snetius-1.5.5-p  50% |###############                | ETA:  0:00:00  67.90 MB/snetius-1.5.5-p  63% |###################            | ETA:  0:00:00  71.23 MB/snetius-1.5.5-p  76% |#######################        | ETA:  0:00:00  73.75 MB/snetius-1.5.5-p  89% |###########################    | ETA:  0:00:00  75.55 MB/snetius-1.5.5-p 100% |###############################| ETA:  0:00:00  75.77 MB/snetius-1.5.5-p 100% |###############################| Time: 0:00:00   9.12 MB/s
+Extracting packages ...
+[      COMPLETE      ]|                                                  |   0%[netius              ]|                                                  |   0%[netius              ]|                                                  |   0%[      COMPLETE      ]|##################################################| 100%
+Linking packages ...
+[      COMPLETE      ]|                                                  |   0%[openssl             ]|                                                  |   0%[openssl             ]|                                                  |   0%[readline            ]|#####                                             |  10%[sqlite              ]|##########                                        |  20%[system              ]|###############                                   |  30%[tk                  ]|####################                              |  40%[zlib                ]|#########################                         |  50%[netius              ]|##############################                    |  60%Error: pre-link failed: netius-1.5.5-py_0

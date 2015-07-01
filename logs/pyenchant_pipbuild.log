@@ -22,11 +22,11 @@ Downloading pyenchant
 Using cached download
 Unpacking pyenchant...
 done
-working in /tmp/tmpVZFtzOconda_skeleton_pyenchant-1.6.6.tar.gz
+working in /tmp/tmpxLPjtMconda_skeleton_pyenchant-1.6.6.tar.gz
 Fetching package metadata: ......
 
 WARNING: conda-build appears to be out of date. You have version 1.13.0 but the
-latest version is 1.14.0. Run
+latest version is 1.14.1. Run
 
 conda update -n root conda-build
 
@@ -34,32 +34,17 @@ to get the latest version.
 
 Solving package specifications: .patching file core.py
 Hunk #1 succeeded at 168 with fuzz 2 (offset 2 lines).
-Downloading https://pypi.python.org/packages/source/s/setuptools/setuptools-1.1.7.tar.gz
 Traceback (most recent call last):
-  File "setup.py", line 12, in <module>
-    ez_setup.use_setuptools()
-  File "/tmp/tmpVZFtzOconda_skeleton_pyenchant-1.6.6.tar.gz/pyenchant-1.6.6/ez_setup.py", line 132, in use_setuptools
-    return _do_download(version, download_base, to_dir, download_delay)
-  File "/tmp/tmpVZFtzOconda_skeleton_pyenchant-1.6.6.tar.gz/pyenchant-1.6.6/ez_setup.py", line 110, in _do_download
-    to_dir, download_delay)
-  File "/tmp/tmpVZFtzOconda_skeleton_pyenchant-1.6.6.tar.gz/pyenchant-1.6.6/ez_setup.py", line 278, in download_setuptools
-    downloader(url, saveto)
-  File "/tmp/tmpVZFtzOconda_skeleton_pyenchant-1.6.6.tar.gz/pyenchant-1.6.6/ez_setup.py", line 185, in download_file_curl
-    subprocess.check_call(cmd)
-  File "/home/ubuntu/miniconda/envs/_build/lib/python2.7/subprocess.py", line 540, in check_call
-    raise CalledProcessError(retcode, cmd)
-subprocess.CalledProcessError: Command '['curl', 'https://pypi.python.org/packages/source/s/setuptools/setuptools-1.1.7.tar.gz', '--silent', '--output', '/tmp/tmpVZFtzOconda_skeleton_pyenchant-1.6.6.tar.gz/pyenchant-1.6.6/setuptools-1.1.7.tar.gz']' returned non-zero exit status 77
+  File "setup.py", line 210, in <module>
+    import enchant
+  File "/tmp/tmpxLPjtMconda_skeleton_pyenchant-1.6.6.tar.gz/pyenchant-1.6.6/enchant/__init__.py", line 92, in <module>
+    from enchant import _enchant as _e
+  File "/tmp/tmpxLPjtMconda_skeleton_pyenchant-1.6.6.tar.gz/pyenchant-1.6.6/enchant/_enchant.py", line 143, in <module>
+    raise ImportError(msg)
+ImportError: The 'enchant' C library was not found. Please install it via your OS package manager, or use a pre-built binary wheel from PyPI.
 
-The following NEW packages will be INSTALLED:
-
-    numpy:  1.9.2-py27_0
-    pyyaml: 3.11-py27_1 
-    yaml:   0.1.6-0     
-
-Linking packages ...
-[                    ]|                                                  |   0%[yaml                ]|                                                  |   0%[numpy               ]|################                                  |  33%[pyyaml              ]|#################################                 |  66%[      COMPLETE      ]|##################################################| 100%
-Applying patch: '/tmp/tmpVZFtzOconda_skeleton_pyenchant-1.6.6.tar.gz/pypi-distutils.patch'
-$PYTHONPATH = /tmp/tmpVZFtzOconda_skeleton_pyenchant-1.6.6.tar.gz/pyenchant-1.6.6
+Applying patch: '/tmp/tmpxLPjtMconda_skeleton_pyenchant-1.6.6.tar.gz/pypi-distutils.patch'
+$PYTHONPATH = /tmp/tmpxLPjtMconda_skeleton_pyenchant-1.6.6.tar.gz/pyenchant-1.6.6
 Error: command failed: /home/ubuntu/miniconda/envs/_build/bin/python setup.py install
 
 conda create -n _pipbuild_ --yes python pip

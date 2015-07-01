@@ -1,0 +1,63 @@
+package:
+  name: static
+  version: "1.1.1"
+
+source:
+  fn: static-1.1.1.tar.gz
+  url: https://pypi.python.org/packages/source/s/static/static-1.1.1.tar.gz
+  md5: 75c738ed25cc69a71299b93369ee4e40
+#  patches:
+   # List any patch files here
+   # - fix.patch
+
+build:
+  noarch_python: True
+  # preserve_egg_dir: True
+  # entry_points:
+    # Put any entry points (scripts to be generated automatically) here. The
+    # syntax is module:function.  For example
+    #
+    # - static = static:main
+    #
+    # Would create an entry point called static that calls static.main()
+
+
+  # If this is a new build for the same version, increment the build
+  # number. If you do not include this key, it defaults to 0.
+  # number: 1
+
+requirements:
+  build:
+    - python
+    - setuptools
+    - pystache
+
+  run:
+    - python
+    - pystache
+
+test:
+  # Python imports
+  imports:
+    - static
+
+  # commands:
+    # You can put test commands to be run here.  Use this to test that the
+    # entry points work.
+
+
+  # You can also put a file called run_test.py in the recipe that will be run
+  # at test time.
+
+  # requires:
+    # Put any additional test requirements here.  For example
+    # - nose
+
+about:
+  home: http://github.com/lukearno/static
+  license: MIT License
+  summary: 'Serve static or templated content via WSGI or stand-alone.'
+
+# See
+# http://docs.continuum.io/conda/build.html for
+# more information about meta.yaml

@@ -1,0 +1,252 @@
+turbogears not found, trying TurboGears
+Warning, the following versions were found for TurboGears
+1.5.1
+1.5
+1.1.3
+1.1.2
+1.1.1
+1.1
+1.0.10
+1.0.9
+1.0.8
+1.0.7
+1.0.6
+1.0.5
+1.0.4.4
+1.0.4.3
+1.0.4.2
+1.0.4.1
+1.0.4
+1.0.3.3
+1.0.3.2
+1.0.3
+1.0.2.2
+1.0.2.1
+1.0.2
+1.0.1
+0.8.9
+0.8.8
+0.5.0
+Using 1.5.1
+Use --version to specify a different version.
+Using url https://pypi.python.org/packages/source/T/TurboGears/TurboGears-1.5.1.tar.gz (1.1 MB) for TurboGears.
+Downloading TurboGears
+Using cached download
+Unpacking TurboGears...
+done
+working in /tmp/tmpSY0qnaconda_skeleton_TurboGears-1.5.1.tar.gz
+Fetching package metadata: ......
+
+WARNING: conda-build appears to be out of date. You have version 1.13.0 but the
+latest version is 1.14.1. Run
+
+conda update -n root conda-build
+
+to get the latest version.
+
+Solving package specifications: .patching file core.py
+Hunk #1 succeeded at 168 with fuzz 2 (offset 2 lines).
+
+The following NEW packages will be INSTALLED:
+
+    numpy:      1.9.2-py27_0 
+    openssl:    1.0.1k-1     
+    pip:        7.0.3-py27_0 
+    python:     2.7.10-0     
+    pyyaml:     3.11-py27_1  
+    readline:   6.2-2        
+    setuptools: 18.0.1-py27_0
+    sqlite:     3.8.4.1-1    
+    system:     5.8-2        
+    tk:         8.5.18-0     
+    yaml:       0.1.6-0      
+    zlib:       1.2.8-0      
+
+Linking packages ...
+[                    ]|                                                  |   0%[openssl             ]|                                                  |   0%[readline            ]|####                                              |   8%[sqlite              ]|########                                          |  16%[system              ]|############                                      |  25%[tk                  ]|################                                  |  33%[yaml                ]|####################                              |  41%[zlib                ]|#########################                         |  50%[numpy               ]|#############################                     |  58%[python              ]|#################################                 |  66%[pyyaml              ]|#####################################             |  75%[setuptools          ]|#########################################         |  83%[pip                 ]|#############################################     |  91%[      COMPLETE      ]|##################################################| 100%
+Applying patch: '/tmp/tmpSY0qnaconda_skeleton_TurboGears-1.5.1.tar.gz/pypi-distutils.patch'
+WARNING: Could not add entry points. They were:
+
+    [console_scripts]
+    tg-admin = turbogears.command:main
+
+    [distutils.commands]
+    docs = turbogears.docgen:GenSite
+
+    [paste.paster_create_template]
+    tgbase = turbogears.command.quickstart:BaseTemplate
+    turbogears = turbogears.command.quickstart:TurbogearsTemplate
+    tgbig = turbogears.command.quickstart:TGBig
+    tgwidget = turbogears.command.quickstart:TGWidgetTemplate
+
+    [turbogears.command]
+    quickstart = turbogears.command.quickstart:quickstart
+    sql = turbogears.command.base:SQL
+    shell = turbogears.command.base:Shell
+    toolbox = turbogears.command.base:ToolboxCommand
+    update = turbogears.command.quickstart:update
+    i18n = turbogears.command.i18n:InternationalizationTool
+    info = turbogears.command.info:InfoCommand
+    kid2genshi = turbogears.command.kid2genshi:Kid2Genshi
+
+    [turbogears.identity.provider]
+    sqlobject = turbogears.identity.soprovider:SqlObjectIdentityProvider
+    sqlalchemy= turbogears.identity.saprovider:SqlAlchemyIdentityProvider
+
+    [turbogears.extensions]
+    identity = turbogears.identity.visitor
+    visit = turbogears.visit
+
+    [turbogears.visit.manager]
+    sqlobject = turbogears.visit.sovisit:SqlObjectVisitManager
+    sqlalchemy = turbogears.visit.savisit:SqlAlchemyVisitManager
+
+    [turbogears.toolboxcommand]
+    widgets = turbogears.toolbox.base:WidgetBrowser
+    shell = turbogears.toolbox.shell:WebConsole
+    admi18n = turbogears.toolbox.admi18n:Internationalization
+    designer = turbogears.toolbox.designer:Designer
+    info = turbogears.toolbox.base:Info
+    catwalk = turbogears.toolbox.catwalk:CatWalk
+
+    
+Warning, the following versions were found for tw.forms
+0.9.9
+0.9.8
+0.9.7.2
+0.9.7
+0.9.6
+0.9.3
+0.9.2
+0.9.1
+0.9
+0.8.1.2
+0.8.1.1
+0.8.1
+0.8
+0.3.1
+0.3
+0.2dev-r74
+Using 0.9.9
+Use --version to specify a different version.
+Using url https://pypi.python.org/packages/source/t/tw.forms/tw.forms-0.9.9.tar.gz (70 KB) for tw.forms.
+Downloading tw.forms
+tw.forms-0.9.9   0% |                              | ETA:  --:--:--   0.00  B/stw.forms-0.9.9  22% |#######                        | ETA:  0:00:00  32.25 MB/stw.forms-0.9.9  45% |##############                 | ETA:  0:00:00  42.94 MB/stw.forms-0.9.9  68% |#####################          | ETA:  0:00:00  38.40 MB/stw.forms-0.9.9  91% |############################   | ETA:  0:00:00  43.92 MB/stw.forms-0.9.9 100% |###############################|
+WARNING: conda-build appears to be out of date. You have version 1.13.0 but the
+latest version is 1.14.1. Run
+
+conda update -n root conda-build
+
+to get the latest version.
+
+ ETA:  0:00:00  42.44 MB/stw.forms-0.9.9 100% |###############################| Time: 0:00:00  36.63 MB/s
+Unpacking tw.forms...
+done
+working in /tmp/tmpm6um_kconda_skeleton_tw.forms-0.9.9.tar.gz
+Solving package specifications: .patching file core.py
+Hunk #1 succeeded at 168 with fuzz 2 (offset 2 lines).
+
+WARNING: conda-build appears to be out of date. You have version 1.13.0 but the
+latest version is 1.14.1. Run
+
+conda update -n root conda-build
+
+to get the latest version.
+
+
+Applying patch: '/tmp/tmpm6um_kconda_skeleton_tw.forms-0.9.9.tar.gz/pypi-distutils.patch'
+WARNING: Could not add entry points. They were:
+
+    [toscawidgets.widgets]
+    widgets = tw.forms
+    samples = tw.forms.samples
+    
+toscawidgets not found, trying ToscaWidgets
+Warning, the following versions were found for ToscaWidgets
+0.9.12
+0.9.11
+0.9.10
+0.9.9
+0.9.8
+0.9.7.2
+0.9.7.1
+0.9.6
+0.9.4
+0.9.3
+0.9.2
+Using 0.9.12
+Use --version to specify a different version.
+Using url https://pypi.python.org/packages/source/T/ToscaWidgets/ToscaWidgets-0.9.12.tar.gz (58 KB) for ToscaWidgets.
+Downloading ToscaWidgets
+ToscaWidgets-0   0% |                              | ETA:  --:--:--   0.00  B/sToscaWidgets-0  27% |########                       | Time: 0:00:00  46.15 MB/sToscaWidgets-0  54% |#################              | Time: 0:00:00  54.09 MB/sToscaWidgets-0  82% |#########################      | Time: 0:00:00  50.31 MB/sToscaWidgets-0 100% |###############################| Time: 0:00:00  50.56 MB/sToscaWidgets-0 100% |###############################| Time: 0:00:00  44.96 MB/sToscaWidgets-0 100% |###############################| Time: 0:00:00  39.53 MB/s
+Unpacking ToscaWidgets...
+done
+working in /tmp/tmp4kOovMconda_skeleton_ToscaWidgets-0.9.12.tar.gz
+Solving package specifications: .patching file core.py
+Hunk #1 succeeded at 168 with fuzz 2 (offset 2 lines).
+
+WARNING: conda-build appears to be out of date. You have version 1.13.0 but the
+latest version is 1.14.1. Run
+
+conda update -n root conda-build
+
+to get the latest version.
+
+
+Applying patch: '/tmp/tmp4kOovMconda_skeleton_ToscaWidgets-0.9.12.tar.gz/pypi-distutils.patch'
+WARNING: Could not add entry points. They were:
+
+    [distutils.commands]
+    archive_tw_resources = tw.core.command:archive_tw_resources
+    aggregate_tw_resources = tw.core.command:aggregate_tw_resources
+
+    [python.templating.engines]
+    toscawidgets = tw.core.engine_plugin:ToscaWidgetsTemplatePlugin
+
+    [toscawidgets.host_frameworks]
+    wsgi = tw.mods.wsgi:WSGIHostFramework
+    pylons = tw.mods.pylonshf:PylonsHostFramework
+    turbogears = tw.mods.tg:Turbogears
+
+    [toscawidgets.widgets]
+    widgets = tw.api
+    resources = tw.api
+
+    [paste.paster_create_template]
+    toscawidgets=tw.paste_template:ToscaWidgetsTemplate
+
+    [turbogears.extensions]
+    toscawidgets=tw.mods.tg
+
+    [paste.filter_app_factory]
+    middleware = tw.api:make_middleware
+    
+turbokid not found, trying TurboKid
+Warning, the following versions were found for TurboKid
+1.0.5
+1.0.4
+1.0.3
+1.0.2
+1.0.1
+0.9.9
+0.9.2
+0.9.1
+0.9.0
+Using 1.0.5
+Use --version to specify a different version.
+Using url https://pypi.python.org/packages/source/T/TurboKid/TurboKid-1.0.5.tar.gz (7 KB) for TurboKid.
+Downloading TurboKid
+TurboKid-1.0.5   0% |                              | ETA:  --:--:--   0.00  B/sTurboKid-1.0.5 100% |###############################| Time: 0:00:00  23.72 MB/sTurboKid-1.0.5 100% |###############################| Time: 0:00:00  15.12 MB/sTurboKid-1.0.5 100% |###############################| Time: 0:00:00  10.82 MB/s
+Unpacking TurboKid...
+done
+working in /tmp/tmpg0JRg1conda_skeleton_TurboKid-1.0.5.tar.gz
+Solving package specifications: .patching file core.py
+Hunk #1 succeeded at 168 with fuzz 2 (offset 2 lines).
+
+Applying patch: '/tmp/tmpg0JRg1conda_skeleton_TurboKid-1.0.5.tar.gz/pypi-distutils.patch'
+WARNING: Could not add entry points. They were:
+
+    [python.templating.engines]
+    kid = turbokid.kidsupport:KidSupport
+    
+Error: Could not find any versions of package widgetbrowser

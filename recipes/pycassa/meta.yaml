@@ -1,0 +1,67 @@
+package:
+  name: pycassa
+  version: "1.11.1"
+
+source:
+  fn: pycassa-1.11.1.tar.gz
+  url: https://pypi.python.org/packages/source/p/pycassa/pycassa-1.11.1.tar.gz
+  md5: 4dc8f98a5ba4840d1e4901f70a383506
+#  patches:
+   # List any patch files here
+   # - fix.patch
+
+build:
+  noarch_python: True
+  # preserve_egg_dir: True
+  # entry_points:
+    # Put any entry points (scripts to be generated automatically) here. The
+    # syntax is module:function.  For example
+    #
+    # - pycassa = pycassa:main
+    #
+    # Would create an entry point called pycassa that calls pycassa.main()
+
+
+  # If this is a new build for the same version, increment the build
+  # number. If you do not include this key, it defaults to 0.
+  # number: 1
+
+requirements:
+  build:
+    - python
+    - setuptools
+    - thrift
+
+  run:
+    - python
+    - thrift
+
+test:
+  # Python imports
+  imports:
+    - pycassa
+    - pycassa.cassandra
+    - pycassa.contrib
+    - pycassa.logging
+
+  # commands:
+    # You can put test commands to be run here.  Use this to test that the
+    # entry points work.
+
+
+  # You can also put a file called run_test.py in the recipe that will be run
+  # at test time.
+
+  requires:
+    - nose
+    # Put any additional test requirements here.  For example
+    # - nose
+
+about:
+  home: http://github.com/pycassa/pycassa
+  license: MIT License
+  summary: 'Python client library for Apache Cassandra'
+
+# See
+# http://docs.continuum.io/conda/build.html for
+# more information about meta.yaml

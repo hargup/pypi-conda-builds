@@ -1,0 +1,30 @@
+Error: prefix already exists: /home/ubuntu/miniconda/envs/_pipbuild_
+Collecting Zope2==2.13.22
+  Downloading http://localhost/packages/source/Z/Zope2/Zope2-2.13.22.zip (1.4MB)
+setuptools must be installed to install from a source distribution
+Package search: {'_pypi_ordering': False, 'version': '2.13.23', 'name': 'Zope2', 'summary': 'Zope2 application server / web framework'}
+Creating standard recipe for zope2-2.13.22
+Using url https://pypi.python.org/packages/source/Z/Zope2/Zope2-2.13.22.zip (1.3 MB) for Zope2.
+Downloading Zope2
+Using cached download
+Unpacking Zope2...
+done
+working in /tmp/tmpULM2Q7conda_skeleton_Zope2-2.13.22.zip
+Fetching package metadata: ......
+
+WARNING: conda-build appears to be out of date. You have version 1.13.0 but the
+latest version is 1.14.1. Run
+
+conda update -n root conda-build
+
+to get the latest version.
+
+Solving package specifications: .patching file core.py
+Hunk #1 succeeded at 168 with fuzz 2 (offset 2 lines).
+
+Applying patch: '/tmp/tmpULM2Q7conda_skeleton_Zope2-2.13.22.zip/pypi-distutils.patch'
+Error: Could not parse: zope.i18n [zcml]
+
+conda create -n _pipbuild_ --yes python pip
+/home/ubuntu/miniconda/envs/_pipbuild_/bin/pip install Zope2==2.13.22
+Error: Could not pip install Zope2==2.13.22

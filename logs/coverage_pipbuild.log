@@ -1,34 +1,48 @@
-Error: prefix already exists: /home/ubuntu/miniconda/envs/_pipbuild_
-Collecting coverage==4.0a6
-  Could not find a version that satisfies the requirement coverage==4.0a6 (from versions: 3.0b3, 3.0, 3.0.1, 3.1b1, 3.1, 3.2b1, 3.2b2, 3.2b3, 3.2b4, 3.2, 3.3, 3.3.1, 3.4b1, 3.4b2, 3.4, 3.5b1, 3.5, 3.5.1b1, 3.5.1, 3.5.2b1, 3.5.2, 3.5.3, 3.6b1, 3.6b2, 3.6b3, 3.6, 3.7, 3.7.1, 4.0a1, 4.0a2, 4.0a3, 4.0a4, 4.0a5)
-No matching distribution found for coverage==4.0a6
-Package search: {'_pypi_ordering': False, 'version': '3.7.1', 'name': 'coverage', 'summary': 'Code coverage measurement for Python'}
-Creating standard recipe for coverage-4.0a6
-Using url https://pypi.python.org/packages/source/c/coverage/coverage-4.0a6.tar.gz (288 KB) for coverage.
-Downloading coverage
-Unpacking coverage...
-done
-working in /tmp/tmp1alVwCconda_skeleton_coverage-4.0a6.tar.gz
+Removing old build directory
+Removing old work directory
+BUILD START: coverage-4.0a6-py_0
 Fetching package metadata: ......
 
 WARNING: conda-build appears to be out of date. You have version 1.13.0 but the
-latest version is 1.14.0. Run
+latest version is 1.14.1. Run
 
 conda update -n root conda-build
 
 to get the latest version.
 
-Solving package specifications: .patching file core.py
-Hunk #1 succeeded at 168 with fuzz 2 (offset 2 lines).
-Traceback (most recent call last):
-  File "setup.py", line 49, in <module>
-    from setuptools import setup
-ImportError: No module named setuptools
+Solving package specifications: .+ pip install coverage
+Collecting coverage
+  Downloading http://localhost/packages/source/c/coverage/coverage-3.7.1.tar.gz (284kB)
+Installing collected packages: coverage
+  Running setup.py install for coverage
+Successfully installed coverage-3.7.1
 
-Applying patch: '/tmp/tmp1alVwCconda_skeleton_coverage-4.0a6.tar.gz/pypi-distutils.patch'
-$PYTHONPATH = /tmp/tmp1alVwCconda_skeleton_coverage-4.0a6.tar.gz/coverage-4.0a6
-Error: command failed: /home/ubuntu/miniconda/envs/_build/bin/python setup.py install
+The following NEW packages will be INSTALLED:
 
-conda create -n _pipbuild_ --yes python pip
-/home/ubuntu/miniconda/envs/_pipbuild_/bin/pip install coverage==4.0a6
-Error: Could not pip install coverage==4.0a6
+    openssl:    1.0.1k-1     
+    pip:        7.0.3-py27_0 
+    python:     2.7.10-0     
+    readline:   6.2-2        
+    setuptools: 18.0.1-py27_0
+    sqlite:     3.8.4.1-1    
+    system:     5.8-2        
+    tk:         8.5.18-0     
+    zlib:       1.2.8-0      
+
+Linking packages ...
+[                    ]|                                                  |   0%[openssl             ]|                                                  |   0%[readline            ]|#####                                             |  11%[sqlite              ]|###########                                       |  22%[system              ]|################                                  |  33%[tk                  ]|######################                            |  44%[zlib                ]|###########################                       |  55%[python              ]|#################################                 |  66%[setuptools          ]|######################################            |  77%[pip                 ]|############################################      |  88%[      COMPLETE      ]|##################################################| 100%
+Removing old work directory
+Copying /home/ubuntu/pypi-conda-builds/coverage to /home/ubuntu/miniconda/conda-bld/work
+Package: coverage-4.0a6-py_0
+source tree in: /home/ubuntu/miniconda/conda-bld/work
+number of files: 69
+Fixing permissions
+patchelf: file: /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/coverage/tracer.so
+    setting rpath to: $ORIGIN/../../..
+[noarch_python] Error: Shared object file found: lib/python2.7/site-packages/coverage/tracer.so
+Package search: {'_pypi_ordering': False, 'version': '3.7.1', 'name': 'coverage', 'summary': 'Code coverage measurement for Python'}
+Creating standard recipe for coverage-4.0a6
+Converting recipe in /home/ubuntu/pypi-conda-builds/coverage
+package = coverage
+   dependencies = []
+Building conda package for coverage

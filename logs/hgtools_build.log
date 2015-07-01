@@ -2,6 +2,14 @@ Removing old build directory
 Removing old work directory
 BUILD START: hgtools-6.3-py_0
 Fetching package metadata: ......
+
+WARNING: conda-build appears to be out of date. You have version 1.13.0 but the
+latest version is 1.14.1. Run
+
+conda update -n root conda-build
+
+to get the latest version.
+
 Solving package specifications: .+ /home/ubuntu/miniconda/envs/_build/bin/python setup.py install
 running install
 running bdist_egg
@@ -96,15 +104,15 @@ Finished processing dependencies for hgtools==6.3
 
 The following NEW packages will be INSTALLED:
 
-    openssl:    1.0.1k-1    
-    pip:        7.0.3-py27_0
-    python:     2.7.10-0    
-    readline:   6.2-2       
-    setuptools: 17.0-py27_0 
-    sqlite:     3.8.4.1-1   
-    system:     5.8-2       
-    tk:         8.5.18-0    
-    zlib:       1.2.8-0     
+    openssl:    1.0.1k-1     
+    pip:        7.0.3-py27_0 
+    python:     2.7.10-0     
+    readline:   6.2-2        
+    setuptools: 18.0.1-py27_0
+    sqlite:     3.8.4.1-1    
+    system:     5.8-2        
+    tk:         8.5.18-0     
+    zlib:       1.2.8-0      
 
 Linking packages ...
 [                    ]|                                                  |   0%[openssl             ]|                                                  |   0%[readline            ]|#####                                             |  11%[sqlite              ]|###########                                       |  22%[system              ]|################                                  |  33%[tk                  ]|######################                            |  44%[zlib                ]|###########################                       |  55%[python              ]|#################################                 |  66%[setuptools          ]|######################################            |  77%[pip                 ]|############################################      |  88%[      COMPLETE      ]|##################################################| 100%
@@ -121,6 +129,14 @@ Fixing permissions
 BUILD END: hgtools-6.3-py_0
 TEST START: hgtools-6.3-py_0
 Fetching package metadata: ......
+
+WARNING: conda-build appears to be out of date. You have version 1.13.0 but the
+latest version is 1.14.1. Run
+
+conda update -n root conda-build
+
+to get the latest version.
+
 Solving package specifications: .===== testing package: hgtools-6.3-py_0 =====
 import: u'hgtools'
 import: u'hgtools.managers'
@@ -135,23 +151,25 @@ The following packages will be downloaded:
 
 The following NEW packages will be INSTALLED:
 
-    hgtools:    6.3-py_0    
-    openssl:    1.0.1k-1    
-    pip:        7.0.3-py27_0
-    python:     2.7.10-0    
-    readline:   6.2-2       
-    setuptools: 17.0-py27_0 
-    sqlite:     3.8.4.1-1   
-    system:     5.8-2       
-    tk:         8.5.18-0    
-    zlib:       1.2.8-0     
+    hgtools:    6.3-py_0     
+    openssl:    1.0.1k-1     
+    pip:        7.0.3-py27_0 
+    py:         1.4.27-py27_0
+    pytest:     2.7.1-py27_0 
+    python:     2.7.10-0     
+    readline:   6.2-2        
+    setuptools: 18.0.1-py27_0
+    sqlite:     3.8.4.1-1    
+    system:     5.8-2        
+    tk:         8.5.18-0     
+    zlib:       1.2.8-0      
 
 Fetching packages ...
-hgtools-6.3-py   0% |                              | ETA:  --:--:--   0.00  B/shgtools-6.3-py  34% |##########                     | ETA:  0:00:00  46.28 MB/shgtools-6.3-py  69% |#####################          | ETA:  0:00:00  58.09 MB/shgtools-6.3-py 100% |###############################| ETA:  0:00:00  62.81 MB/shgtools-6.3-py 100% |###############################| Time: 0:00:00  47.29 MB/s
+hgtools-6.3-py   0% |                              | ETA:  --:--:--   0.00  B/shgtools-6.3-py  34% |##########                     | ETA:  0:00:00  45.90 MB/shgtools-6.3-py  69% |#####################          | ETA:  0:00:00  58.09 MB/shgtools-6.3-py 100% |###############################| ETA:  0:00:00  63.16 MB/shgtools-6.3-py 100% |###############################| Time: 0:00:00  47.62 MB/s
 Extracting packages ...
 [      COMPLETE      ]|                                                  |   0%[hgtools             ]|                                                  |   0%[hgtools             ]|                                                  |   0%[      COMPLETE      ]|##################################################| 100%
 Linking packages ...
-[      COMPLETE      ]|                                                  |   0%[openssl             ]|                                                  |   0%[openssl             ]|                                                  |   0%[readline            ]|#####                                             |  10%[sqlite              ]|##########                                        |  20%[system              ]|###############                                   |  30%[tk                  ]|####################                              |  40%[zlib                ]|#########################                         |  50%[python              ]|##############################                    |  60%[setuptools          ]|###################################               |  70%[hgtools             ]|########################################          |  80%[pip                 ]|#############################################     |  90%[      COMPLETE      ]|##################################################| 100%
+[      COMPLETE      ]|                                                  |   0%[openssl             ]|                                                  |   0%[openssl             ]|                                                  |   0%[readline            ]|####                                              |   8%[sqlite              ]|########                                          |  16%[system              ]|############                                      |  25%[tk                  ]|################                                  |  33%[zlib                ]|####################                              |  41%[py                  ]|#########################                         |  50%[pytest              ]|#############################                     |  58%[python              ]|#################################                 |  66%[setuptools          ]|#####################################             |  75%[hgtools             ]|#########################################         |  83%[pip                 ]|#############################################     |  91%[      COMPLETE      ]|##################################################| 100%
 TEST END: hgtools-6.3-py_0
 # If you want to upload this package to binstar.org later, type:
 #

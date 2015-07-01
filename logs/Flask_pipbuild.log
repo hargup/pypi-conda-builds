@@ -1,35 +1,32 @@
 Error: prefix already exists: /home/ubuntu/miniconda/envs/_pipbuild_
-Collecting Flask==0.10.1
-  Downloading http://localhost/packages/source/F/Flask/Flask-0.10.1.tar.gz (544kB)
-setuptools must be installed to install from a source distribution
+Exception:
+Traceback (most recent call last):
+  File "/home/ubuntu/miniconda/envs/_pipbuild_/lib/python2.7/site-packages/pip/basecommand.py", line 223, in main
+    status = self.run(options, args)
+  File "/home/ubuntu/miniconda/envs/_pipbuild_/lib/python2.7/site-packages/pip/commands/install.py", line 268, in run
+    wheel_cache
+  File "/home/ubuntu/miniconda/envs/_pipbuild_/lib/python2.7/site-packages/pip/basecommand.py", line 268, in populate_requirement_set
+    wheel_cache=wheel_cache
+  File "/home/ubuntu/miniconda/envs/_pipbuild_/lib/python2.7/site-packages/pip/req/req_install.py", line 207, in from_line
+    wheel_cache=wheel_cache)
+  File "/home/ubuntu/miniconda/envs/_pipbuild_/lib/python2.7/site-packages/pip/req/req_install.py", line 66, in __init__
+    req = pkg_resources.Requirement.parse(req)
+  File "/home/ubuntu/miniconda/envs/_pipbuild_/lib/python2.7/site-packages/pip/_vendor/pkg_resources/__init__.py", line 2960, in parse
+    reqs = list(parse_requirements(s))
+  File "/home/ubuntu/miniconda/envs/_pipbuild_/lib/python2.7/site-packages/pip/_vendor/pkg_resources/__init__.py", line 2904, in parse_requirements
+    "version spec")
+  File "/home/ubuntu/miniconda/envs/_pipbuild_/lib/python2.7/site-packages/pip/_vendor/pkg_resources/__init__.py", line 2869, in scan_list
+    raise ValueError(msg, line, "at", line[p:])
+ValueError: ('Expected version spec in', 'werkzeug==>=0.7', 'at', '==>=0.7')
+
 Package search: {'_pypi_ordering': False, 'version': '0.10.1', 'name': 'Flask', 'summary': 'A microframework based on Werkzeug, Jinja2 and good intentions'}
 Creating standard recipe for flask-0.10.1
-Using url https://pypi.python.org/packages/source/F/Flask/Flask-0.10.1.tar.gz (531 KB) for Flask.
-Downloading Flask
-Using cached download
-Unpacking Flask...
-done
-working in /tmp/tmpOmHfMDconda_skeleton_Flask-0.10.1.tar.gz
-Fetching package metadata: ......
-
-WARNING: conda-build appears to be out of date. You have version 1.13.0 but the
-latest version is 1.14.0. Run
-
-conda update -n root conda-build
-
-to get the latest version.
-
-Solving package specifications: .patching file core.py
-Hunk #1 succeeded at 168 with fuzz 2 (offset 2 lines).
-Traceback (most recent call last):
-  File "setup.py", line 42, in <module>
-    from setuptools import Command, setup
-ImportError: No module named setuptools
-
-Applying patch: '/tmp/tmpOmHfMDconda_skeleton_Flask-0.10.1.tar.gz/pypi-distutils.patch'
-$PYTHONPATH = /tmp/tmpOmHfMDconda_skeleton_Flask-0.10.1.tar.gz/Flask-0.10.1
-Error: command failed: /home/ubuntu/miniconda/envs/_build/bin/python setup.py install
+Converting recipe in /home/ubuntu/pypi-conda-builds/flask
+package = Flask
+   dependencies = [u'werkzeug >=0.7', u'jinja2 >=2.4', u'itsdangerous >=0.21']
+Creating standard recipe for werkzeug->=0.7
+Error: Version >=0.7 of werkzeug is not available on PyPI.
 
 conda create -n _pipbuild_ --yes python pip
-/home/ubuntu/miniconda/envs/_pipbuild_/bin/pip install Flask==0.10.1
-Error: Could not pip install Flask==0.10.1
+/home/ubuntu/miniconda/envs/_pipbuild_/bin/pip install werkzeug==>=0.7
+Error: Could not pip install werkzeug==>=0.7

@@ -1,12 +1,16 @@
-There was an error importing jinja2.
-Please run `conda install jinja2` to enable jinja template support
 Removing old build directory
 Removing old work directory
-BUILD START: pytest-cache-1.0-py27_0
+BUILD START: pytest-cache-1.0-py_0
 Fetching package metadata: ......
-Solving package specifications: .There was an error importing jinja2.
-Please run `conda install jinja2` to enable jinja template support
-+ /home/ubuntu/miniconda/envs/_build/bin/python setup.py install
+
+WARNING: conda-build appears to be out of date. You have version 1.13.0 but the
+latest version is 1.14.1. Run
+
+conda update -n root conda-build
+
+to get the latest version.
+
+Solving package specifications: .+ /home/ubuntu/miniconda/envs/_build/bin/python setup.py install
 running install
 running bdist_egg
 running egg_info
@@ -45,42 +49,35 @@ Adding pytest-cache 1.0 to easy-install.pth file
 
 Installed /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/pytest_cache-1.0-py2.7.egg
 Processing dependencies for pytest-cache==1.0
-Searching for execnet>=1.1.dev1
-Traceback (most recent call last):
-  File "setup.py", line 24, in <module>
-    'Programming Language :: Python :: 3'],
-  File "/home/ubuntu/miniconda/envs/_build/lib/python2.7/distutils/core.py", line 151, in setup
-    dist.run_commands()
-  File "/home/ubuntu/miniconda/envs/_build/lib/python2.7/distutils/dist.py", line 953, in run_commands
-    self.run_command(cmd)
-  File "/home/ubuntu/miniconda/envs/_build/lib/python2.7/distutils/dist.py", line 972, in run_command
-    cmd_obj.run()
-  File "/home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/setuptools-16.0-py2.7.egg/setuptools/command/install.py", line 67, in run
-  File "/home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/setuptools-16.0-py2.7.egg/setuptools/command/install.py", line 117, in do_egg_install
-  File "/home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/setuptools-16.0-py2.7.egg/setuptools/command/easy_install.py", line 380, in run
-  File "/home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/setuptools-16.0-py2.7.egg/setuptools/command/easy_install.py", line 610, in easy_install
-  File "/home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/setuptools-16.0-py2.7.egg/setuptools/command/easy_install.py", line 661, in install_item
-  File "/home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/setuptools-16.0-py2.7.egg/setuptools/command/easy_install.py", line 709, in process_distribution
-  File "/home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/setuptools-16.0-py2.7.egg/pkg_resources/__init__.py", line 830, in resolve
-  File "/home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/setuptools-16.0-py2.7.egg/pkg_resources/__init__.py", line 1075, in best_match
-  File "/home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/setuptools-16.0-py2.7.egg/pkg_resources/__init__.py", line 1087, in obtain
-  File "/home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/setuptools-16.0-py2.7.egg/setuptools/command/easy_install.py", line 617, in easy_install
-  File "/home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/setuptools-16.0-py2.7.egg/setuptools/package_index.py", line 594, in fetch_distribution
-  File "/home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/setuptools-16.0-py2.7.egg/setuptools/package_index.py", line 431, in find_packages
-  File "/home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/setuptools-16.0-py2.7.egg/setuptools/package_index.py", line 765, in scan_url
-  File "/home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/setuptools-16.0-py2.7.egg/setuptools/package_index.py", line 283, in process_url
-RuntimeError: Setuptools downloading is disabled in conda build. Be sure to add all dependencies in the meta.yaml  url=https://pypi.python.org/simple/execnet/r
+Searching for execnet==1.3.0
+Best match: execnet 1.3.0
+Adding execnet 1.3.0 to easy-install.pth file
+
+Using /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages
+Searching for pytest==2.7.1
+Best match: pytest 2.7.1
+Adding pytest 2.7.1 to easy-install.pth file
+Installing py.test-2.7 script to /home/ubuntu/miniconda/envs/_build/bin
+Installing py.test script to /home/ubuntu/miniconda/envs/_build/bin
+
+Using /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages
+Searching for py==1.4.27
+Best match: py 1.4.27
+Adding py 1.4.27 to easy-install.pth file
+
+Using /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages
+Finished processing dependencies for pytest-cache==1.0
 
 The following NEW packages will be INSTALLED:
 
-    execnet:    1.3.0-py27_0 
+    execnet:    1.3.0-py27_1 
     openssl:    1.0.1k-1     
-    pip:        6.1.1-py27_0 
+    pip:        7.0.3-py27_0 
     py:         1.4.27-py27_0
     pytest:     2.7.1-py27_0 
-    python:     2.7.9-3      
+    python:     2.7.10-0     
     readline:   6.2-2        
-    setuptools: 16.0-py27_0  
+    setuptools: 18.0.1-py27_0
     sqlite:     3.8.4.1-1    
     system:     5.8-2        
     tk:         8.5.18-0     
@@ -92,6 +89,18 @@ Removing old work directory
 Source cache directory is: /home/ubuntu/miniconda/conda-bld/src_cache
 Found source in cache: pytest-cache-1.0.tar.gz
 Extracting download
-Package: pytest-cache-1.0-py27_0
+Package: pytest-cache-1.0-py_0
 source tree in: /home/ubuntu/miniconda/conda-bld/work/pytest-cache-1.0
-Command failed: /bin/bash -x -e /home/ubuntu/pypi-conda-builds/recipes/pytest-cache/build.sh
+found egg: /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/pytest_cache-1.0-py2.7.egg
+number of files: 3
+Fixing permissions
+Fixing permissions
+BUILD END: pytest-cache-1.0-py_0
+Nothing to test for: pytest-cache-1.0-py_0
+# If you want to upload this package to binstar.org later, type:
+#
+# $ binstar upload /home/ubuntu/miniconda/conda-bld/noarch/pytest-cache-1.0-py_0.tar.bz2
+#
+# To have conda build upload to binstar automatically, use
+# $ conda config --set binstar_upload yes
+

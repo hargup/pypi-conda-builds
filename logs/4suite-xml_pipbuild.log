@@ -1,0 +1,55 @@
+Removing old build directory
+Removing old work directory
+BUILD START: 4suite-xml-1.0.2-py_0
+Fetching package metadata: ......
+
+WARNING: conda-build appears to be out of date. You have version 1.13.0 but the
+latest version is 1.14.1. Run
+
+conda update -n root conda-build
+
+to get the latest version.
+
+Solving package specifications: .+ pip install 4Suite-XML
+Collecting 4Suite-XML
+  Downloading http://localhost/packages/source/4/4Suite-XML/4Suite-XML-1.0.2.tar.bz2 (1.3MB)
+Installing collected packages: 4Suite-XML
+  Running setup.py install for 4Suite-XML
+    Complete output from command /home/ubuntu/miniconda/envs/_build/bin/python -c "import setuptools, tokenize;__file__='/tmp/pip-build-BFhga7/4Suite-XML/setup.py';exec(compile(getattr(tokenize, 'open', open)(__file__).read().replace('\r\n', '\n'), __file__, 'exec'))" install --record /tmp/pip-hFMKVS-record/install-record.txt --single-version-externally-managed --compile:
+    Usage:
+      -c [global_opts] cmd1 [cmd1_opts] [cmd2 [cmd2_opts] ...]
+      -c --help [cmd1 cmd2 ...]
+      -c cmd --help
+      -c --help-commands
+      -c --help-packages
+    
+    error: option --single-version-externally-managed not recognized
+    
+    ----------------------------------------
+Command "/home/ubuntu/miniconda/envs/_build/bin/python -c "import setuptools, tokenize;__file__='/tmp/pip-build-BFhga7/4Suite-XML/setup.py';exec(compile(getattr(tokenize, 'open', open)(__file__).read().replace('\r\n', '\n'), __file__, 'exec'))" install --record /tmp/pip-hFMKVS-record/install-record.txt --single-version-externally-managed --compile" failed with error code 1 in /tmp/pip-build-BFhga7/4Suite-XML
+
+The following NEW packages will be INSTALLED:
+
+    openssl:    1.0.1k-1     
+    pip:        7.0.3-py27_0 
+    python:     2.7.10-0     
+    readline:   6.2-2        
+    setuptools: 18.0.1-py27_0
+    sqlite:     3.8.4.1-1    
+    system:     5.8-2        
+    tk:         8.5.18-0     
+    zlib:       1.2.8-0      
+
+Linking packages ...
+[                    ]|                                                  |   0%[openssl             ]|                                                  |   0%[readline            ]|#####                                             |  11%[sqlite              ]|###########                                       |  22%[system              ]|################                                  |  33%[tk                  ]|######################                            |  44%[zlib                ]|###########################                       |  55%[python              ]|#################################                 |  66%[setuptools          ]|######################################            |  77%[pip                 ]|############################################      |  88%[      COMPLETE      ]|##################################################| 100%
+Removing old work directory
+Copying /home/ubuntu/pypi-conda-builds/4suite-xml to /home/ubuntu/miniconda/conda-bld/work
+Package: 4suite-xml-1.0.2-py_0
+source tree in: /home/ubuntu/miniconda/conda-bld/work
+Command failed: /bin/bash -x -e /home/ubuntu/pypi-conda-builds/4suite-xml/build.sh
+Package search: {'_pypi_ordering': False, 'version': '1.0.2', 'name': '4Suite-XML', 'summary': 'An open-source platform for XML processing'}
+Creating standard recipe for 4suite-xml-1.0.2
+Converting recipe in /home/ubuntu/pypi-conda-builds/4suite-xml
+package = 4Suite-XML
+   dependencies = []
+Building conda package for 4suite-xml

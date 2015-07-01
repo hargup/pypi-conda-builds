@@ -42,19 +42,23 @@ Warning, the following versions were found for django-tables2
 Using 1.0.4
 Use --version to specify a different version.
 Using url https://pypi.python.org/packages/source/d/django-tables2/django-tables2-1.0.4.tar.gz (56 KB) for django-tables2.
-Downloading django-tables2 (use --no-download to skip this step)
+Downloading django-tables2
 Using cached download
 Unpacking django-tables2...
 done
-working in /tmp/tmpHQpDvnconda_skeleton_django-tables2-1.0.4.tar.gz
+working in /tmp/tmpwf3ZrBconda_skeleton_django-tables2-1.0.4.tar.gz
 Fetching package metadata: ......
+
+WARNING: conda-build appears to be out of date. You have version 1.13.0 but the
+latest version is 1.14.1. Run
+
+conda update -n root conda-build
+
+to get the latest version.
+
 Solving package specifications: .patching file core.py
 Hunk #1 succeeded at 168 with fuzz 2 (offset 2 lines).
-Traceback (most recent call last):
-  File "setup.py", line 3, in <module>
-    from setuptools import setup, find_packages
-ImportError: No module named setuptools
 
-Applying patch: '/tmp/tmpHQpDvnconda_skeleton_django-tables2-1.0.4.tar.gz/pypi-distutils.patch'
-$PYTHONPATH = /tmp/tmpHQpDvnconda_skeleton_django-tables2-1.0.4.tar.gz/django-tables2-1.0.4
-Error: command failed: /home/ubuntu/miniconda/envs/_build/bin/python setup.py install
+Applying patch: '/tmp/tmpwf3ZrBconda_skeleton_django-tables2-1.0.4.tar.gz/pypi-distutils.patch'
+Writing recipe for django-tables2
+Done

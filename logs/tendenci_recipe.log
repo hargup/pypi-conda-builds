@@ -1,4 +1,7 @@
 Warning, the following versions were found for tendenci
+5.1.481
+5.1.480
+5.1.479
 5.1.478
 5.1.477
 5.1.476
@@ -460,21 +463,309 @@ Warning, the following versions were found for tendenci
 5.1.2
 5.1.1
 5.1.0
-Using 5.1.478
+Using 5.1.481
 Use --version to specify a different version.
-Using url https://pypi.python.org/packages/source/t/tendenci/tendenci-5.1.478.tar.gz (31.2 MB) for tendenci.
-Downloading tendenci (use --no-download to skip this step)
+Using url https://pypi.python.org/packages/source/t/tendenci/tendenci-5.1.481.tar.gz (31.2 MB) for tendenci.
+Downloading tendenci
+Using cached download
 Unpacking tendenci...
 done
-working in /tmp/tmpOIrV9zconda_skeleton_tendenci-5.1.478.tar.gz
+working in /tmp/tmpXDXCapconda_skeleton_tendenci-5.1.481.tar.gz
 Fetching package metadata: ......
+
+WARNING: conda-build appears to be out of date. You have version 1.13.0 but the
+latest version is 1.14.1. Run
+
+conda update -n root conda-build
+
+to get the latest version.
+
 Solving package specifications: .patching file core.py
 Hunk #1 succeeded at 168 with fuzz 2 (offset 2 lines).
-Traceback (most recent call last):
-  File "setup.py", line 7, in <module>
-    from setuptools import setup, find_packages
-ImportError: No module named setuptools
 
-Applying patch: '/tmp/tmpOIrV9zconda_skeleton_tendenci-5.1.478.tar.gz/pypi-distutils.patch'
-$PYTHONPATH = /tmp/tmpOIrV9zconda_skeleton_tendenci-5.1.478.tar.gz/tendenci-5.1.478
-Error: command failed: /home/ubuntu/miniconda/envs/_build/bin/python setup.py install
+WARNING: conda-build appears to be out of date. You have version 1.13.0 but the
+latest version is 1.14.1. Run
+
+conda update -n root conda-build
+
+to get the latest version.
+
+
+The following NEW packages will be INSTALLED:
+
+    numpy:      1.9.2-py27_0 
+    openssl:    1.0.1k-1     
+    pip:        7.0.3-py27_0 
+    python:     2.7.10-0     
+    pyyaml:     3.11-py27_1  
+    readline:   6.2-2        
+    setuptools: 18.0.1-py27_0
+    sqlite:     3.8.4.1-1    
+    system:     5.8-2        
+    tk:         8.5.18-0     
+    yaml:       0.1.6-0      
+    zlib:       1.2.8-0      
+
+Linking packages ...
+[                    ]|                                                  |   0%[openssl             ]|                                                  |   0%[readline            ]|####                                              |   8%[sqlite              ]|########                                          |  16%[system              ]|############                                      |  25%[tk                  ]|################                                  |  33%[yaml                ]|####################                              |  41%[zlib                ]|#########################                         |  50%[numpy               ]|#############################                     |  58%[python              ]|#################################                 |  66%[pyyaml              ]|#####################################             |  75%[setuptools          ]|#########################################         |  83%[pip                 ]|#############################################     |  91%[      COMPLETE      ]|##################################################| 100%
+Applying patch: '/tmp/tmpXDXCapconda_skeleton_tendenci-5.1.481.tar.gz/pypi-distutils.patch'
+WARNING: Could not add entry points. They were:
+
+            [console_scripts]
+            create-tendenci-project=tendenci.bin.create_tendenci_project:create_project
+            update-tendenci-project=tendenci.bin.update_tendenci_project:update_project
+        
+Warning, the following versions were found for static
+1.1.1
+1.1.0
+1.0.2
+1.0.1
+1.0.0
+0.4
+0.3.6
+0.3.5
+0.3.4
+0.3.3
+0.3.2
+0.3.1
+0.3
+0.2
+0.1
+Using 1.1.1
+Use --version to specify a different version.
+Using url https://pypi.python.org/packages/source/s/static/static-1.1.1.tar.gz (6 KB) for static.
+Downloading static
+Using cached download
+Unpacking static...
+done
+working in /tmp/tmpMArsmyconda_skeleton_static-1.1.1.tar.gz
+Solving package specifications: .patching file core.py
+Hunk #1 succeeded at 168 with fuzz 2 (offset 2 lines).
+
+WARNING: conda-build appears to be out of date. You have version 1.13.0 but the
+latest version is 1.14.1. Run
+
+conda update -n root conda-build
+
+to get the latest version.
+
+
+Applying patch: '/tmp/tmpMArsmyconda_skeleton_static-1.1.1.tar.gz/pypi-distutils.patch'
+WARNING: Could not add entry points. They were:
+[console_scripts]
+static = static.cli:run
+
+Warning, the following versions were found for simple-salesforce
+0.67.2
+0.67.0
+0.66.2
+0.66.1
+0.66.0
+0.65.1
+0.65.0
+0.63.0
+0.62.0
+0.51
+0.6
+0.5
+0.4
+0.3
+0.2
+0.1
+Using 0.67.2
+Use --version to specify a different version.
+Using url https://pypi.python.org/packages/source/s/simple-salesforce/simple-salesforce-0.67.2.tar.gz (16 KB) for simple-salesforce.
+Downloading simple-salesforce
+Using cached download
+Unpacking simple-salesforce...
+done
+working in /tmp/tmpLWl0b6conda_skeleton_simple-salesforce-0.67.2.tar.gz
+Solving package specifications: .patching file core.py
+Hunk #1 succeeded at 168 with fuzz 2 (offset 2 lines).
+
+WARNING: conda-build appears to be out of date. You have version 1.13.0 but the
+latest version is 1.14.1. Run
+
+conda update -n root conda-build
+
+to get the latest version.
+
+
+Applying patch: '/tmp/tmpLWl0b6conda_skeleton_simple-salesforce-0.67.2.tar.gz/pypi-distutils.patch'
+Warning, the following versions were found for django-s3-folder-storage
+0.2
+0.1
+Using 0.2
+Use --version to specify a different version.
+Using url https://pypi.python.org/packages/source/d/django-s3-folder-storage/django-s3-folder-storage-0.2.tar.gz (5 KB) for django-s3-folder-storage.
+Downloading django-s3-folder-storage
+Using cached download
+Unpacking django-s3-folder-storage...
+done
+working in /tmp/tmpDMonEfconda_skeleton_django-s3-folder-storage-0.2.tar.gz
+Solving package specifications: .patching file core.py
+Hunk #1 succeeded at 168 with fuzz 2 (offset 2 lines).
+
+WARNING: conda-build appears to be out of date. You have version 1.13.0 but the
+latest version is 1.14.1. Run
+
+conda update -n root conda-build
+
+to get the latest version.
+
+
+Applying patch: '/tmp/tmpDMonEfconda_skeleton_django-s3-folder-storage-0.2.tar.gz/pypi-distutils.patch'
+Warning, the following versions were found for dj-database-url
+0.3.0
+0.2.2
+0.2.1
+0.2.0
+0.1.4
+0.1.3
+0.1.2
+0
+Using 0.3.0
+Use --version to specify a different version.
+Using url https://pypi.python.org/packages/source/d/dj-database-url/dj-database-url-0.3.0.tar.gz (3 KB) for dj-database-url.
+Downloading dj-database-url
+Using cached download
+Unpacking dj-database-url...
+done
+working in /tmp/tmprIIIo8conda_skeleton_dj-database-url-0.3.0.tar.gz
+Solving package specifications: .patching file core.py
+Hunk #1 succeeded at 168 with fuzz 2 (offset 2 lines).
+
+WARNING: conda-build appears to be out of date. You have version 1.13.0 but the
+latest version is 1.14.1. Run
+
+conda update -n root conda-build
+
+to get the latest version.
+
+
+Applying patch: '/tmp/tmprIIIo8conda_skeleton_dj-database-url-0.3.0.tar.gz/pypi-distutils.patch'
+Warning, the following versions were found for johnny-cache
+1.6.1a
+1.6a
+1.4
+0.3.3
+0.3.2.1
+0.3.2
+0.3.1
+0.3.0
+0.2.1
+0.2
+0.1.1
+0.1
+Using 1.6.1a
+Use --version to specify a different version.
+Using url https://pypi.python.org/packages/source/j/johnny-cache/johnny-cache-1.6.1a.tar.gz (14 KB) for johnny-cache.
+Downloading johnny-cache
+Using cached download
+Unpacking johnny-cache...
+done
+working in /tmp/tmpTD07keconda_skeleton_johnny-cache-1.6.1a.tar.gz
+Solving package specifications: .patching file core.py
+Hunk #1 succeeded at 168 with fuzz 2 (offset 2 lines).
+
+WARNING: conda-build appears to be out of date. You have version 1.13.0 but the
+latest version is 1.14.1. Run
+
+conda update -n root conda-build
+
+to get the latest version.
+
+
+Applying patch: '/tmp/tmpTD07keconda_skeleton_johnny-cache-1.6.1a.tar.gz/pypi-distutils.patch'
+geraldo not found, trying Geraldo
+Warning, the following versions were found for Geraldo
+0.4.17
+0.4.16
+0.4.15
+0.4.14
+0.4.13-stable
+0.4.12-stable
+0.4.10-stable
+0.4.9-stable
+0.4.6-stable
+0.4.5-stable
+0.4.4-stable
+0.4.3-stable
+0.4.2-stable
+0.4.1-stable
+0.4-final
+0.3.9-stable
+0.3.9-beta
+0.3.7-stable
+0.3.7-alpha-4
+0.3.7-alpha-2
+0.3.7-alpha
+0.3.6-stable-2
+0.3.6-stable
+0.3.5-stable
+0.3.5-alpha-3
+0.3.5-alpha-2
+0.3.4-stable
+0.3.4-final
+0.3.4-alpha
+0.3.3-alpha-2
+0.3.2-alpha-4
+0.3.2-alpha-3
+0.3.0-final
+0.3.0-alpha-9
+0.3.0-alpha-6
+0.3.0-alpha-5
+0.3.0-alpha-4
+0.3.0-alpha-3
+0.3.0-alpha-2
+0.3.0-alpha
+0.2.2-stable
+0.2.1-stable
+0.2-stable
+0.2-alpha(5)
+Using 0.4.17
+Use --version to specify a different version.
+Using url https://pypi.python.org/packages/source/G/Geraldo/Geraldo-0.4.17.tar.gz (37 KB) for Geraldo.
+Downloading Geraldo
+Using cached download
+Unpacking Geraldo...
+done
+working in /tmp/tmppcVRfaconda_skeleton_Geraldo-0.4.17.tar.gz
+Solving package specifications: .patching file core.py
+Hunk #1 succeeded at 168 with fuzz 2 (offset 2 lines).
+
+WARNING: conda-build appears to be out of date. You have version 1.13.0 but the
+latest version is 1.14.1. Run
+
+conda update -n root conda-build
+
+to get the latest version.
+
+
+Applying patch: '/tmp/tmppcVRfaconda_skeleton_Geraldo-0.4.17.tar.gz/pypi-distutils.patch'
+Warning, the following versions were found for django-timezones
+0.2
+0.1.4
+0.1.3
+0.1.2
+0.1.1
+0.1.0
+Using 0.2
+Use --version to specify a different version.
+Using url https://pypi.python.org/packages/source/d/django-timezones/django-timezones-0.2.tar.gz (4 KB) for django-timezones.
+Downloading django-timezones
+Using cached download
+Unpacking django-timezones...
+done
+working in /tmp/tmpcD_fJGconda_skeleton_django-timezones-0.2.tar.gz
+Solving package specifications: .patching file core.py
+Hunk #1 succeeded at 168 with fuzz 2 (offset 2 lines).
+
+Applying patch: '/tmp/tmpcD_fJGconda_skeleton_django-timezones-0.2.tar.gz/pypi-distutils.patch'
+Warning, the following versions were found for mimeparse
+0.1.4
+0.1.3
+0.1.2
+Using 0.1.4
+Use --version to specify a different version.
+Error: Could not parse url for mimeparse: UNKNOWN

@@ -1,0 +1,11 @@
+Error: prefix already exists: /home/ubuntu/miniconda/envs/_pipbuild_
+Collecting ZODB3==3.11.0
+  Downloading http://localhost/packages/source/Z/ZODB3/ZODB3-3.11.0.tar.gz (55kB)
+setuptools must be installed to install from a source distribution
+Package search: {'_pypi_ordering': False, 'version': '3.10.5', 'name': 'ZODB3', 'summary': 'Zope Object Database: object database and persistence'}
+Creating standard recipe for zodb3-3.11.0
+Error: directory already exists: ./zodb3
+
+conda create -n _pipbuild_ --yes python pip
+/home/ubuntu/miniconda/envs/_pipbuild_/bin/pip install ZODB3==3.11.0
+Error: Could not pip install ZODB3==3.11.0

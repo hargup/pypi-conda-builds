@@ -1,0 +1,151 @@
+Removing old build directory
+Removing old work directory
+BUILD START: rauth-0.7.1-py_0
+Fetching package metadata: ......
+
+WARNING: conda-build appears to be out of date. You have version 1.13.0 but the
+latest version is 1.14.1. Run
+
+conda update -n root conda-build
+
+to get the latest version.
+
+Solving package specifications: .+ /home/ubuntu/miniconda/envs/_build/bin/python setup.py install
+running install
+running bdist_egg
+running egg_info
+writing requirements to rauth.egg-info/requires.txt
+writing rauth.egg-info/PKG-INFO
+writing top-level names to rauth.egg-info/top_level.txt
+writing dependency_links to rauth.egg-info/dependency_links.txt
+reading manifest file 'rauth.egg-info/SOURCES.txt'
+reading manifest template 'MANIFEST.in'
+writing manifest file 'rauth.egg-info/SOURCES.txt'
+installing library code to build/bdist.linux-x86_64/egg
+running install_lib
+running build_py
+creating build
+creating build/lib
+creating build/lib/rauth
+copying rauth/utils.py -> build/lib/rauth
+copying rauth/compat.py -> build/lib/rauth
+copying rauth/oauth.py -> build/lib/rauth
+copying rauth/__about__.py -> build/lib/rauth
+copying rauth/session.py -> build/lib/rauth
+copying rauth/service.py -> build/lib/rauth
+copying rauth/__init__.py -> build/lib/rauth
+creating build/bdist.linux-x86_64
+creating build/bdist.linux-x86_64/egg
+creating build/bdist.linux-x86_64/egg/rauth
+copying build/lib/rauth/utils.py -> build/bdist.linux-x86_64/egg/rauth
+copying build/lib/rauth/compat.py -> build/bdist.linux-x86_64/egg/rauth
+copying build/lib/rauth/oauth.py -> build/bdist.linux-x86_64/egg/rauth
+copying build/lib/rauth/__about__.py -> build/bdist.linux-x86_64/egg/rauth
+copying build/lib/rauth/session.py -> build/bdist.linux-x86_64/egg/rauth
+copying build/lib/rauth/service.py -> build/bdist.linux-x86_64/egg/rauth
+copying build/lib/rauth/__init__.py -> build/bdist.linux-x86_64/egg/rauth
+byte-compiling build/bdist.linux-x86_64/egg/rauth/utils.py to utils.pyc
+byte-compiling build/bdist.linux-x86_64/egg/rauth/compat.py to compat.pyc
+byte-compiling build/bdist.linux-x86_64/egg/rauth/oauth.py to oauth.pyc
+byte-compiling build/bdist.linux-x86_64/egg/rauth/__about__.py to __about__.pyc
+byte-compiling build/bdist.linux-x86_64/egg/rauth/session.py to session.pyc
+byte-compiling build/bdist.linux-x86_64/egg/rauth/service.py to service.pyc
+byte-compiling build/bdist.linux-x86_64/egg/rauth/__init__.py to __init__.pyc
+creating build/bdist.linux-x86_64/egg/EGG-INFO
+copying rauth.egg-info/PKG-INFO -> build/bdist.linux-x86_64/egg/EGG-INFO
+copying rauth.egg-info/SOURCES.txt -> build/bdist.linux-x86_64/egg/EGG-INFO
+copying rauth.egg-info/dependency_links.txt -> build/bdist.linux-x86_64/egg/EGG-INFO
+copying rauth.egg-info/not-zip-safe -> build/bdist.linux-x86_64/egg/EGG-INFO
+copying rauth.egg-info/requires.txt -> build/bdist.linux-x86_64/egg/EGG-INFO
+copying rauth.egg-info/top_level.txt -> build/bdist.linux-x86_64/egg/EGG-INFO
+creating dist
+creating 'dist/rauth-0.7.1-py2.7.egg' and adding 'build/bdist.linux-x86_64/egg' to it
+removing 'build/bdist.linux-x86_64/egg' (and everything under it)
+Processing rauth-0.7.1-py2.7.egg
+creating /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/rauth-0.7.1-py2.7.egg
+Extracting rauth-0.7.1-py2.7.egg to /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages
+Adding rauth 0.7.1 to easy-install.pth file
+
+Installed /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/rauth-0.7.1-py2.7.egg
+Processing dependencies for rauth==0.7.1
+Searching for requests==2.7.0
+Best match: requests 2.7.0
+Adding requests 2.7.0 to easy-install.pth file
+
+Using /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages
+Finished processing dependencies for rauth==0.7.1
+
+The following NEW packages will be INSTALLED:
+
+    openssl:    1.0.1k-1     
+    pip:        7.0.3-py27_0 
+    python:     2.7.10-0     
+    readline:   6.2-2        
+    requests:   2.7.0-py27_0 
+    setuptools: 18.0.1-py27_0
+    sqlite:     3.8.4.1-1    
+    system:     5.8-2        
+    tk:         8.5.18-0     
+    zlib:       1.2.8-0      
+
+Linking packages ...
+[                    ]|                                                  |   0%[openssl             ]|                                                  |   0%[readline            ]|#####                                             |  10%[sqlite              ]|##########                                        |  20%[system              ]|###############                                   |  30%[tk                  ]|####################                              |  40%[zlib                ]|#########################                         |  50%[python              ]|##############################                    |  60%[requests            ]|###################################               |  70%[setuptools          ]|########################################          |  80%[pip                 ]|#############################################     |  90%[      COMPLETE      ]|##################################################| 100%
+Removing old work directory
+Source cache directory is: /home/ubuntu/miniconda/conda-bld/src_cache
+Found source in cache: rauth-0.7.1.tar.gz
+Extracting download
+Package: rauth-0.7.1-py_0
+source tree in: /home/ubuntu/miniconda/conda-bld/work/rauth-0.7.1
+found egg dir: /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/rauth-0.7.1-py2.7.egg
+number of files: 15
+Fixing permissions
+Fixing permissions
+BUILD END: rauth-0.7.1-py_0
+TEST START: rauth-0.7.1-py_0
+Fetching package metadata: ......
+
+WARNING: conda-build appears to be out of date. You have version 1.13.0 but the
+latest version is 1.14.1. Run
+
+conda update -n root conda-build
+
+to get the latest version.
+
+Solving package specifications: .===== testing package: rauth-0.7.1-py_0 =====
+import: u'rauth'
+===== rauth-0.7.1-py_0 OK =====
+
+The following packages will be downloaded:
+
+    package                    |            build
+    ---------------------------|-----------------
+    rauth-0.7.1                |             py_0          12 KB
+
+The following NEW packages will be INSTALLED:
+
+    openssl:    1.0.1k-1     
+    pip:        7.0.3-py27_0 
+    python:     2.7.10-0     
+    rauth:      0.7.1-py_0   
+    readline:   6.2-2        
+    requests:   2.7.0-py27_0 
+    setuptools: 18.0.1-py27_0
+    sqlite:     3.8.4.1-1    
+    system:     5.8-2        
+    tk:         8.5.18-0     
+    zlib:       1.2.8-0      
+
+Fetching packages ...
+rauth-0.7.1-py   0% |                              | ETA:  --:--:--   0.00  B/srauth-0.7.1-py 100% |###############################| ETA:  0:00:00  37.02 MB/srauth-0.7.1-py 100% |###############################| Time: 0:00:00  20.95 MB/s
+Extracting packages ...
+[      COMPLETE      ]|                                                  |   0%[rauth               ]|                                                  |   0%[rauth               ]|                                                  |   0%[      COMPLETE      ]|##################################################| 100%
+Linking packages ...
+[      COMPLETE      ]|                                                  |   0%[openssl             ]|                                                  |   0%[openssl             ]|                                                  |   0%[readline            ]|####                                              |   9%[sqlite              ]|#########                                         |  18%[system              ]|#############                                     |  27%[tk                  ]|##################                                |  36%[zlib                ]|######################                            |  45%[python              ]|###########################                       |  54%[requests            ]|###############################                   |  63%[setuptools          ]|####################################              |  72%[pip                 ]|########################################          |  81%[rauth               ]|#############################################     |  90%[      COMPLETE      ]|##################################################| 100%
+TEST END: rauth-0.7.1-py_0
+# If you want to upload this package to binstar.org later, type:
+#
+# $ binstar upload /home/ubuntu/miniconda/conda-bld/noarch/rauth-0.7.1-py_0.tar.bz2
+#
+# To have conda build upload to binstar automatically, use
+# $ conda config --set binstar_upload yes
+

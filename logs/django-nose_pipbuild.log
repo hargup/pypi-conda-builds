@@ -19,8 +19,8 @@ Traceback (most recent call last):
     raise ValueError(msg, line, "at", line[p:])
 ValueError: ('Expected version spec in', 'nose==>=1.2.1', 'at', '==>=1.2.1')
 
-Package search: {'_pypi_ordering': False, 'version': '1.4', 'name': 'django-nose', 'summary': 'Makes your Django tests simple and snappy'}
-Creating standard recipe for django-nose-1.4
+Package search: {'_pypi_ordering': False, 'version': '1.4.1', 'name': 'django-nose', 'summary': 'Makes your Django tests simple and snappy'}
+Creating standard recipe for django-nose-1.4.1
 Converting recipe in /home/ubuntu/pypi-conda-builds/django-nose
 package = django-nose
    dependencies = [u'nose >=1.2.1', u'django >=1.4']

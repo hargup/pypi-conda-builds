@@ -1,0 +1,337 @@
+Warning, the following versions were found for pmxbot
+1111.0.2
+1111.0.1
+1111.0
+1110.7.1
+1110.7
+1110.6
+1110.5
+1110.4.1
+1110.4
+1110.3.1
+1110.3
+1110.2
+1110.1.1
+1110.1
+1110.0
+1109.3
+1109.2
+1109.0
+1108.4.1
+1108.4
+1108.3.1
+1108.3
+1108.2
+1108.1
+1108.0
+1107.4
+1107.2
+1107.1
+1107.0
+1106.4.1
+1106.4
+1106.3
+1106.2
+1106.1.4
+1106.1.3
+1106.1.2
+1106.1.1
+1106.1
+1106.0
+1105.7
+1105.6
+1105.5
+1105.4.2
+1105.4.1
+1105.4
+1105.3.1
+1105.3
+1105.2.2
+1105.2.1
+1105.1.1
+1105.0.1
+1105.0
+1104.4.3
+1104.4.2
+1104.4.1
+1104.4
+1104.3.1
+1104.3
+1104.2
+1104.1
+1104.0
+1103.7.1dev
+1103.7
+1103.6.5
+1103.6.4
+1103.6.3
+1103.6.2
+1103.6.1
+1103.6
+1103.5.1
+1103.4.5
+1103.4.4
+1103.4.3
+1103.4.2
+1103.4.1
+1103.4
+1103.3.2
+1103.3.1
+1103.3
+1103.2
+1103.1.10
+1103.1.9
+1103.1.8
+1103.1.7
+1103.1.6
+1103.1.5
+1103.1.4
+1103.1.3
+1103.1.2
+1103.1.1
+1103.1
+1103.0.4
+1103.0.3
+1103.0.2
+1103.0
+1102.0
+1101.9.2
+1101.9.1
+1101.8.2
+1101.8.1
+1101.8
+1101.7.4
+1101.7.3
+1101.7.1
+1101.7
+1101.6
+1101.6b1
+1101.5
+1101.4
+1101.3
+1101.3b1
+1101.2
+1101.1.4
+1101.1.2
+1101.1.1
+1101.1
+1101.0.1
+1101.0
+1100.8.5
+1100.8.1
+1100.6
+1100.5.8
+1100.5.7
+1100.5.6
+1100.5.5
+1100.5.4
+1100.5.3
+1100.5.2
+1100.5.1
+1100.5
+1100.3
+1100.2
+1100.1.1dev
+1100.1
+1100.0
+1100b7
+1100b4
+1100b3
+1100b2
+1100b1
+1005
+1005b2
+1005b1
+1004.4
+1004.3
+1004.2
+1004
+1004-beta16
+1004-beta15
+1004-beta14
+1004-beta13
+1004-beta12
+1004-beta11
+1004-beta10
+1004-beta8
+1004-beta7
+1004-beta6
+1004-beta5
+1004-beta4
+1004-beta3
+1004-beta2
+1004-beta1
+1003-beta5
+1003-beta4
+1003-beta3
+1003-beta2
+1003-beta1
+1002
+1002-beta3
+1002-beta2
+1002-beta
+1001
+1000
+Using 1111.0.2
+Use --version to specify a different version.
+Using url https://pypi.python.org/packages/source/p/pmxbot/pmxbot-1111.0.2.tar.gz (188 KB) for pmxbot.
+Downloading pmxbot
+Unpacking pmxbot...
+done
+working in /tmp/tmpJdMYT6conda_skeleton_pmxbot-1111.0.2.tar.gz
+Fetching package metadata: ......
+
+WARNING: conda-build appears to be out of date. You have version 1.13.0 but the
+latest version is 1.14.1. Run
+
+conda update -n root conda-build
+
+to get the latest version.
+
+Solving package specifications: .patching file core.py
+Hunk #1 succeeded at 168 with fuzz 2 (offset 2 lines).
+
+WARNING: conda-build appears to be out of date. You have version 1.13.0 but the
+latest version is 1.14.1. Run
+
+conda update -n root conda-build
+
+to get the latest version.
+
+
+Applying patch: '/tmp/tmpJdMYT6conda_skeleton_pmxbot-1111.0.2.tar.gz/pypi-distutils.patch'
+Warning, the following versions were found for jaraco.functools
+1.3
+1.2
+1.1
+1.0
+Using 1.3
+Use --version to specify a different version.
+Using url https://pypi.python.org/packages/source/j/jaraco.functools/jaraco.functools-1.3.zip (7 KB) for jaraco.functools.
+Downloading jaraco.functools
+Using cached download
+Unpacking jaraco.functools...
+done
+working in /tmp/tmp_Bs3u7conda_skeleton_jaraco.functools-1.3.zip
+Solving package specifications: .patching file core.py
+Hunk #1 succeeded at 168 with fuzz 2 (offset 2 lines).
+
+WARNING: conda-build appears to be out of date. You have version 1.13.0 but the
+latest version is 1.14.1. Run
+
+conda update -n root conda-build
+
+to get the latest version.
+
+
+Applying patch: '/tmp/tmp_Bs3u7conda_skeleton_jaraco.functools-1.3.zip/pypi-distutils.patch'
+Warning, the following versions were found for jaraco.classes
+1.2
+1.1
+1.0
+Using 1.2
+Use --version to specify a different version.
+Using url https://pypi.python.org/packages/source/j/jaraco.classes/jaraco.classes-1.2.zip (7 KB) for jaraco.classes.
+Downloading jaraco.classes
+Using cached download
+Unpacking jaraco.classes...
+done
+working in /tmp/tmpSK9DTyconda_skeleton_jaraco.classes-1.2.zip
+Solving package specifications: .patching file core.py
+Hunk #1 succeeded at 168 with fuzz 2 (offset 2 lines).
+
+WARNING: conda-build appears to be out of date. You have version 1.13.0 but the
+latest version is 1.14.1. Run
+
+conda update -n root conda-build
+
+to get the latest version.
+
+
+Applying patch: '/tmp/tmpSK9DTyconda_skeleton_jaraco.classes-1.2.zip/pypi-distutils.patch'
+Warning, the following versions were found for jaraco.context
+1.3
+1.2
+1.1
+1.0
+Using 1.3
+Use --version to specify a different version.
+Using url https://pypi.python.org/packages/source/j/jaraco.context/jaraco.context-1.3.zip (6 KB) for jaraco.context.
+Downloading jaraco.context
+Using cached download
+Unpacking jaraco.context...
+done
+working in /tmp/tmpXFqMWEconda_skeleton_jaraco.context-1.3.zip
+Solving package specifications: .patching file core.py
+Hunk #1 succeeded at 168 with fuzz 2 (offset 2 lines).
+
+WARNING: conda-build appears to be out of date. You have version 1.13.0 but the
+latest version is 1.14.1. Run
+
+conda update -n root conda-build
+
+to get the latest version.
+
+
+Applying patch: '/tmp/tmpXFqMWEconda_skeleton_jaraco.context-1.3.zip/pypi-distutils.patch'
+Warning, the following versions were found for yg.lockfile
+2.0
+1.1.2
+1.1.1
+1.0
+Using 2.0
+Use --version to specify a different version.
+Using url https://pypi.python.org/packages/source/y/yg.lockfile/yg.lockfile-2.0.zip (8 KB) for yg.lockfile.
+Downloading yg.lockfile
+yg.lockfile-2.   0% |                              | ETA:  --:--:--   0.00  B/syg.lockfile-2. 100% |###############################| ETA:  0:00:00   2.09 MB/syg.lockfile-2. 100% |###############################| Time: 0:00:00   1.95 MB/s
+Unpacking yg.lockfile...
+done
+working in /tmp/tmpb0mNC6conda_skeleton_yg.lockfile-2.0.zip
+Solving package specifications: .patching file core.py
+Hunk #1 succeeded at 168 with fuzz 2 (offset 2 lines).
+
+WARNING: conda-build appears to be out of date. You have version 1.13.0 but the
+latest version is 1.14.1. Run
+
+conda update -n root conda-build
+
+to get the latest version.
+
+
+Applying patch: '/tmp/tmpb0mNC6conda_skeleton_yg.lockfile-2.0.zip/pypi-distutils.patch'
+Using url https://pypi.python.org/packages/source/j/jaraco.apt/jaraco.apt-1.0.zip (4 KB) for jaraco.apt.
+Downloading jaraco.apt
+Using cached download
+Unpacking jaraco.apt...
+done
+working in /tmp/tmppFiQPMconda_skeleton_jaraco.apt-1.0.zip
+Solving package specifications: .patching file core.py
+Hunk #1 succeeded at 168 with fuzz 2 (offset 2 lines).
+
+WARNING: conda-build appears to be out of date. You have version 1.13.0 but the
+latest version is 1.14.1. Run
+
+conda update -n root conda-build
+
+to get the latest version.
+
+
+Applying patch: '/tmp/tmppFiQPMconda_skeleton_jaraco.apt-1.0.zip/pypi-distutils.patch'
+Warning, the following versions were found for jaraco.itertools
+1.3
+1.2
+1.1
+1.0
+Using 1.3
+Use --version to specify a different version.
+Using url https://pypi.python.org/packages/source/j/jaraco.itertools/jaraco.itertools-1.3.zip (12 KB) for jaraco.itertools.
+Downloading jaraco.itertools
+Using cached download
+Unpacking jaraco.itertools...
+done
+working in /tmp/tmpp0sb16conda_skeleton_jaraco.itertools-1.3.zip
+Solving package specifications: .patching file core.py
+Hunk #1 succeeded at 168 with fuzz 2 (offset 2 lines).
+
+Applying patch: '/tmp/tmpp0sb16conda_skeleton_jaraco.itertools-1.3.zip/pypi-distutils.patch'
+Error: Could not find any versions of package more_itertools

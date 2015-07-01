@@ -2,140 +2,52 @@ Removing old build directory
 Removing old work directory
 BUILD START: service_identity-14.0.0-py27_0
 Fetching package metadata: ......
-Solving package specifications: .+ /home/ubuntu/miniconda/envs/_build/bin/python setup.py install
-/home/ubuntu/miniconda/envs/_build/lib/python2.7/distutils/dist.py:267: UserWarning: Unknown distribution option: 'extra_requires'
-  warnings.warn(msg)
-running install
-running bdist_egg
-running egg_info
-writing requirements to service_identity.egg-info/requires.txt
-writing service_identity.egg-info/PKG-INFO
-writing top-level names to service_identity.egg-info/top_level.txt
-writing dependency_links to service_identity.egg-info/dependency_links.txt
-reading manifest file 'service_identity.egg-info/SOURCES.txt'
-reading manifest template 'MANIFEST.in'
-writing manifest file 'service_identity.egg-info/SOURCES.txt'
-installing library code to build/bdist.linux-x86_64/egg
-running install_lib
-running build_py
-creating build
-creating build/lib
-creating build/lib/service_identity
-copying service_identity/pyopenssl.py -> build/lib/service_identity
-copying service_identity/__init__.py -> build/lib/service_identity
-copying service_identity/_common.py -> build/lib/service_identity
-copying service_identity/_compat.py -> build/lib/service_identity
-copying service_identity/exceptions.py -> build/lib/service_identity
-creating build/bdist.linux-x86_64
-creating build/bdist.linux-x86_64/egg
-creating build/bdist.linux-x86_64/egg/service_identity
-copying build/lib/service_identity/pyopenssl.py -> build/bdist.linux-x86_64/egg/service_identity
-copying build/lib/service_identity/__init__.py -> build/bdist.linux-x86_64/egg/service_identity
-copying build/lib/service_identity/_common.py -> build/bdist.linux-x86_64/egg/service_identity
-copying build/lib/service_identity/_compat.py -> build/bdist.linux-x86_64/egg/service_identity
-copying build/lib/service_identity/exceptions.py -> build/bdist.linux-x86_64/egg/service_identity
-byte-compiling build/bdist.linux-x86_64/egg/service_identity/pyopenssl.py to pyopenssl.pyc
-byte-compiling build/bdist.linux-x86_64/egg/service_identity/__init__.py to __init__.pyc
-byte-compiling build/bdist.linux-x86_64/egg/service_identity/_common.py to _common.pyc
-byte-compiling build/bdist.linux-x86_64/egg/service_identity/_compat.py to _compat.pyc
-byte-compiling build/bdist.linux-x86_64/egg/service_identity/exceptions.py to exceptions.pyc
-creating build/bdist.linux-x86_64/egg/EGG-INFO
-copying service_identity.egg-info/PKG-INFO -> build/bdist.linux-x86_64/egg/EGG-INFO
-copying service_identity.egg-info/SOURCES.txt -> build/bdist.linux-x86_64/egg/EGG-INFO
-copying service_identity.egg-info/dependency_links.txt -> build/bdist.linux-x86_64/egg/EGG-INFO
-copying service_identity.egg-info/requires.txt -> build/bdist.linux-x86_64/egg/EGG-INFO
-copying service_identity.egg-info/top_level.txt -> build/bdist.linux-x86_64/egg/EGG-INFO
-zip_safe flag not set; analyzing archive contents...
-creating dist
-creating 'dist/service_identity-14.0.0-py2.7.egg' and adding 'build/bdist.linux-x86_64/egg' to it
-removing 'build/bdist.linux-x86_64/egg' (and everything under it)
-Processing service_identity-14.0.0-py2.7.egg
-Copying service_identity-14.0.0-py2.7.egg to /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages
-Adding service-identity 14.0.0 to easy-install.pth file
 
-Installed /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/service_identity-14.0.0-py2.7.egg
-Processing dependencies for service-identity==14.0.0
-Searching for pyOpenSSL==0.15.1
-Best match: pyOpenSSL 0.15.1
-Adding pyOpenSSL 0.15.1 to easy-install.pth file
+WARNING: conda-build appears to be out of date. You have version 1.13.0 but the
+latest version is 1.14.1. Run
 
-Using /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages
-Searching for pyasn1-modules==0.0.5
-Best match: pyasn1-modules 0.0.5
-Processing pyasn1_modules-0.0.5-py2.7.egg
-Adding pyasn1-modules 0.0.5 to easy-install.pth file
+conda update -n root conda-build
 
-Using /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/pyasn1_modules-0.0.5-py2.7.egg
-Searching for pyasn1==0.1.7
-Best match: pyasn1 0.1.7
-Processing pyasn1-0.1.7-py2.7.egg
-Adding pyasn1 0.1.7 to easy-install.pth file
+to get the latest version.
 
-Using /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/pyasn1-0.1.7-py2.7.egg
-Searching for characteristic==14.3.0
-Best match: characteristic 14.3.0
-Processing characteristic-14.3.0-py2.7.egg
-Adding characteristic 14.3.0 to easy-install.pth file
-
-Using /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/characteristic-14.3.0-py2.7.egg
-Searching for six==1.9.0
-Best match: six 1.9.0
-Adding six 1.9.0 to easy-install.pth file
-
-Using /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages
-Searching for cryptography==0.8.2
-Best match: cryptography 0.8.2
-Processing cryptography-0.8.2-py2.7-linux-x86_64.egg
-Adding cryptography 0.8.2 to easy-install.pth file
-
-Using /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/cryptography-0.8.2-py2.7-linux-x86_64.egg
-Searching for cffi==1.1.0
-Best match: cffi 1.1.0
-Adding cffi 1.1.0 to easy-install.pth file
-
-Using /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages
-Searching for enum34==1.0.4
-Best match: enum34 1.0.4
-Adding enum34 1.0.4 to easy-install.pth file
-
-Using /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages
-Searching for setuptools==17.0
-Best match: setuptools 17.0
-Processing setuptools-17.0-py2.7.egg
-Adding setuptools 17.0 to easy-install.pth file
-Installing easy_install script to /home/ubuntu/miniconda/envs/_build/bin
-Installing easy_install-2.7 script to /home/ubuntu/miniconda/envs/_build/bin
-
-Using /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/setuptools-17.0-py2.7.egg
-Searching for pycparser==2.13
-Best match: pycparser 2.13
-Adding pycparser 2.13 to easy-install.pth file
-
-Using /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages
-Finished processing dependencies for service-identity==14.0.0
+Solving package specifications: .................
+Warning: 8 possible package resolutions (only showing differing packages):
+	[u'characteristic-14.3.0-py_0.tar.bz2', u'idna-2.0-py_0.tar.bz2', u'ipaddress-1.0.7-py_0.tar.bz2'],
+	[u'characteristic-14.3.0-py_0.tar.bz2', u'idna-2.0-py_0.tar.bz2', u'ipaddress-1.0.7-py27_0.tar.bz2'],
+	[u'characteristic-14.3.0-py_0.tar.bz2', u'idna-2.0-py27_0.tar.bz2', u'ipaddress-1.0.7-py27_0.tar.bz2'],
+	[u'characteristic-14.3.0-py_0.tar.bz2', u'idna-2.0-py27_0.tar.bz2', u'ipaddress-1.0.7-py_0.tar.bz2'],
+	[u'characteristic-14.3.0-py27_0.tar.bz2', u'idna-2.0-py27_0.tar.bz2', u'ipaddress-1.0.7-py_0.tar.bz2'],
+	[u'characteristic-14.3.0-py27_0.tar.bz2', u'idna-2.0-py27_0.tar.bz2', u'ipaddress-1.0.7-py27_0.tar.bz2'],
+	[u'characteristic-14.3.0-py27_0.tar.bz2', u'idna-2.0-py_0.tar.bz2', u'ipaddress-1.0.7-py27_0.tar.bz2'],
+	[u'characteristic-14.3.0-py27_0.tar.bz2', u'idna-2.0-py_0.tar.bz2', u'ipaddress-1.0.7-py_0.tar.bz2'],
 
 The following packages will be downloaded:
 
     package                    |            build
     ---------------------------|-----------------
-    characteristic-14.3.0      |           py27_0          31 KB
+    cryptography-0.9.1         |           py27_0         760 KB
+    pyopenssl-0.15.1           |           py27_1         916 KB
+    ------------------------------------------------------------
+                                           Total:         1.6 MB
 
 The following NEW packages will be INSTALLED:
 
     cffi:           1.1.0-py27_0 
-    characteristic: 14.3.0-py27_0
-    cryptography:   0.8.2-py27_0 
+    characteristic: 14.3.0-py_0  
+    cryptography:   0.9.1-py27_0 
     enum34:         1.0.4-py27_0 
+    idna:           2.0-py_0     
+    ipaddress:      1.0.7-py_0   
     libffi:         3.0.13-0     
     openssl:        1.0.1k-1     
     pip:            7.0.3-py27_0 
     pyasn1:         0.1.7-py27_0 
     pyasn1-modules: 0.0.5-py27_0 
-    pycparser:      2.13-py27_0  
-    pyopenssl:      0.15.1-py27_0
+    pycparser:      2.14-py27_0  
+    pyopenssl:      0.15.1-py27_1
     python:         2.7.10-0     
     readline:       6.2-2        
-    setuptools:     17.0-py27_0  
+    setuptools:     18.0.1-py27_0
     six:            1.9.0-py27_0 
     sqlite:         3.8.4.1-1    
     system:         5.8-2        
@@ -143,68 +55,10 @@ The following NEW packages will be INSTALLED:
     zlib:           1.2.8-0      
 
 Fetching packages ...
-characteristic   0% |                              | ETA:  --:--:--   0.00  B/scharacteristic  51% |###############                | ETA:  0:00:00  34.34 MB/scharacteristic 100% |###############################| ETA:  0:00:00  45.97 MB/scharacteristic 100% |###############################| Time: 0:00:00  33.97 MB/s
+cryptography-0   0% |                              | ETA:  --:--:--   0.00  B/scryptography-0   2% |                               | ETA:  0:00:00  22.48 MB/scryptography-0   4% |#                              | ETA:  0:00:00  29.65 MB/scryptography-0   6% |#                              | ETA:  0:00:00  32.86 MB/scryptography-0   8% |##                             | ETA:  0:00:00  34.84 MB/scryptography-0  10% |###                            | ETA:  0:00:00  35.60 MB/scryptography-0  12% |###                            | ETA:  0:00:00  32.46 MB/scryptography-0  14% |####                           | ETA:  0:00:00  33.20 MB/scryptography-0  16% |#####                          | ETA:  0:00:00  33.98 MB/scryptography-0  18% |#####                          | ETA:  0:00:00  34.87 MB/scryptography-0  21% |######                         | ETA:  0:00:00  34.64 MB/scryptography-0  23% |#######                        | ETA:  0:00:00  35.42 MB/scryptography-0  25% |#######                        | ETA:  0:00:00  14.39 MB/scryptography-0  27% |########                       | ETA:  0:00:00  15.30 MB/scryptography-0  29% |#########                      | ETA:  0:00:00  16.17 MB/scryptography-0  31% |#########                      | ETA:  0:00:00  16.73 MB/scryptography-0  33% |##########                     | ETA:  0:00:00  17.34 MB/scryptography-0  35% |###########                    | ETA:  0:00:00  17.92 MB/scryptography-0  37% |###########                    | ETA:  0:00:00  18.57 MB/scryptography-0  40% |############                   | ETA:  0:00:00  19.07 MB/scryptography-0  42% |#############                  | ETA:  0:00:00  19.60 MB/scryptography-0  44% |#############                  | ETA:  0:00:00  20.02 MB/scryptography-0  46% |##############                 | ETA:  0:00:00  20.44 MB/scryptography-0  48% |###############                | ETA:  0:00:00  20.82 MB/scryptography-0  50% |###############                | ETA:  0:00:00  21.21 MB/scryptography-0  52% |################               | ETA:  0:00:00  21.74 MB/scryptography-0  54% |################               | ETA:  0:00:00  22.13 MB/scryptography-0  56% |#################              | ETA:  0:00:00  22.51 MB/scryptography-0  58% |##################             | ETA:  0:00:00  22.91 MB/scryptography-0  61% |##################             | ETA:  0:00:00  23.28 MB/scryptography-0  63% |###################            | ETA:  0:00:00  23.60 MB/scryptography-0  65% |####################           | ETA:  0:00:00  23.92 MB/scryptography-0  67% |####################           | ETA:  0:00:00  17.60 MB/scryptography-0  69% |#####################          | ETA:  0:00:00  17.98 MB/scryptography-0  71% |######################         | ETA:  0:00:00  18.38 MB/scryptography-0  73% |######################         | ETA:  0:00:00  18.71 MB/scryptography-0  75% |#######################        | ETA:  0:00:00  19.00 MB/scryptography-0  77% |########################       | ETA:  0:00:00  19.26 MB/scryptography-0  80% |########################       | ETA:  0:00:00  19.54 MB/scryptography-0  82% |#########################      | ETA:  0:00:00  19.90 MB/scryptography-0  84% |##########################     | ETA:  0:00:00  20.25 MB/scryptography-0  86% |##########################     | ETA:  0:00:00  20.60 MB/scryptography-0  88% |###########################    | ETA:  0:00:00  20.94 MB/scryptography-0  90% |############################   | ETA:  0:00:00  21.28 MB/scryptography-0  92% |############################   | ETA:  0:00:00  21.61 MB/scryptography-0  94% |#############################  | ETA:  0:00:00  21.93 MB/scryptography-0  96% |############################## | ETA:  0:00:00  22.25 MB/scryptography-0  98% |############################## | ETA:  0:00:00  22.57 MB/scryptography-0 100% |###############################| ETA:  0:00:00  22.67 MB/scryptography-0 100% |###############################| Time: 0:00:00  22.51 MB/s
+pyopenssl-0.15   0% |                              | ETA:  --:--:--   0.00  B/spyopenssl-0.15   1% |                               | Time: 0:00:00  20.20 MB/spyopenssl-0.15   3% |#                              | Time: 0:00:00  26.15 MB/spyopenssl-0.15   5% |#                              | Time: 0:00:00  27.04 MB/spyopenssl-0.15   6% |##                             | Time: 0:00:00  30.19 MB/spyopenssl-0.15   8% |##                             | Time: 0:00:00  30.91 MB/spyopenssl-0.15  10% |###                            | Time: 0:00:00  31.99 MB/spyopenssl-0.15  12% |###                            | Time: 0:00:00  33.48 MB/spyopenssl-0.15  13% |####                           | Time: 0:00:00  35.61 MB/spyopenssl-0.15  15% |####                           | Time: 0:00:00  34.42 MB/spyopenssl-0.15  17% |#####                          | Time: 0:00:00  35.33 MB/spyopenssl-0.15  19% |#####                          | Time: 0:00:00  36.07 MB/spyopenssl-0.15  20% |######                         | Time: 0:00:00  35.76 MB/spyopenssl-0.15  22% |#######                        | Time: 0:00:00  35.87 MB/spyopenssl-0.15  24% |#######                        | Time: 0:00:00  36.08 MB/spyopenssl-0.15  26% |########                       | Time: 0:00:00  36.15 MB/spyopenssl-0.15  27% |########                       | Time: 0:00:00  35.73 MB/spyopenssl-0.15  29% |#########                      | Time: 0:00:00  17.28 MB/spyopenssl-0.15  31% |#########                      | Time: 0:00:00  17.86 MB/spyopenssl-0.15  33% |##########                     | Time: 0:00:00  18.43 MB/spyopenssl-0.15  34% |##########                     | Time: 0:00:00  18.89 MB/spyopenssl-0.15  36% |###########                    | Time: 0:00:00  19.21 MB/spyopenssl-0.15  38% |###########                    | Time: 0:00:00  19.62 MB/spyopenssl-0.15  40% |############                   | Time: 0:00:00  19.92 MB/spyopenssl-0.15  41% |############                   | Time: 0:00:00  20.33 MB/spyopenssl-0.15  43% |#############                  | Time: 0:00:00  20.64 MB/spyopenssl-0.15  45% |##############                 | Time: 0:00:00  21.02 MB/spyopenssl-0.15  47% |##############                 | Time: 0:00:00  21.50 MB/spyopenssl-0.15  48% |###############                | Time: 0:00:00  22.02 MB/spyopenssl-0.15  50% |###############                | Time: 0:00:00  22.54 MB/spyopenssl-0.15  52% |################               | Time: 0:00:00  23.01 MB/spyopenssl-0.15  54% |################               | Time: 0:00:00  23.50 MB/spyopenssl-0.15  55% |#################              | Time: 0:00:00  24.00 MB/spyopenssl-0.15  57% |#################              | Time: 0:00:00  24.42 MB/spyopenssl-0.15  59% |##################             | Time: 0:00:00  24.89 MB/spyopenssl-0.15  61% |##################             | Time: 0:00:00  25.34 MB/spyopenssl-0.15  62% |###################            | Time: 0:00:00  25.78 MB/spyopenssl-0.15  64% |####################/home/ubuntu/miniconda/pkgs/characteristic-14.3.0-py_0/bin/.characteristic-pre-link.sh: line 2: /home/ubuntu/miniconda/envs/_build/bin/python: No such file or directory
+           | Time: 0:00:00  26.20 MB/spyopenssl-0.15  66% |####################           | Time: 0:00:00  26.58 MB/spyopenssl-0.15  68% |#####################          | Time: 0:00:00  26.99 MB/spyopenssl-0.15  69% |#####################          | Time: 0:00:00  27.40 MB/spyopenssl-0.15  71% |######################         | Time: 0:00:00  27.78 MB/spyopenssl-0.15  73% |######################         | Time: 0:00:00  28.15 MB/spyopenssl-0.15  75% |#######################        | Time: 0:00:00  28.49 MB/spyopenssl-0.15  76% |#######################        | Time: 0:00:00  28.86 MB/spyopenssl-0.15  78% |########################       | Time: 0:00:00  29.25 MB/spyopenssl-0.15  80% |########################       | Time: 0:00:00  29.61 MB/spyopenssl-0.15  82% |#########################      | Time: 0:00:00  29.96 MB/spyopenssl-0.15  83% |#########################      | Time: 0:00:00  30.31 MB/spyopenssl-0.15  85% |##########################     | Time: 0:00:00  30.60 MB/spyopenssl-0.15  87% |###########################    | Time: 0:00:00  30.93 MB/spyopenssl-0.15  89% |###########################    | Time: 0:00:00  31.26 MB/spyopenssl-0.15  90% |############################   | Time: 0:00:00  31.58 MB/spyopenssl-0.15  92% |############################   | Time: 0:00:00  31.88 MB/spyopenssl-0.15  94% |#############################  | Time: 0:00:00  32.19 MB/spyopenssl-0.15  96% |#############################  | Time: 0:00:00  32.50 MB/spyopenssl-0.15  97% |############################## | Time: 0:00:00  32.79 MB/spyopenssl-0.15  99% |############################## | Time: 0:00:00  23.13 MB/spyopenssl-0.15 100% |###############################| Time: 0:00:00  23.11 MB/spyopenssl-0.15 100% |###############################| Time: 0:00:00  23.03 MB/spyopenssl-0.15 100% |###############################| Time: 0:00:00  22.93 MB/s
 Extracting packages ...
-[                    ]|                                                  |   0%[characteristic      ]|                                                  |   0%[      COMPLETE      ]|##################################################| 100%
+[                    ]|                                                  |   0%[cryptography        ]|                                                  |   0%[pyopenssl           ]|#########################                         |  50%[      COMPLETE      ]|##################################################| 100%
 Linking packages ...
-[      COMPLETE      ]|                                                  |   0%[libffi              ]|                                                  |   0%[libffi              ]|                                                  |   0%[openssl             ]|##                                                |   5%[readline            ]|#####                                             |  10%[sqlite              ]|#######                                           |  15%[system              ]|##########                                        |  21%[tk                  ]|#############                                     |  26%[zlib                ]|###############                                   |  31%[characteristic      ]|##################                                |  36%[enum34              ]|#####################                             |  42%[pyasn1              ]|#######################                           |  47%[pyasn1-modules      ]|##########################                        |  52%[pycparser           ]|############################                      |  57%[cffi                ]|###############################                   |  63%[python              ]|##################################                |  68%[setuptools          ]|####################################              |  73%[six                 ]|#######################################           |  78%[cryptography        ]|##########################################        |  84%[pip                 ]|############################################      |  89%[pyopenssl           ]|###############################################   |  94%[      COMPLETE      ]|##################################################| 100%
-Removing old work directory
-Source cache directory is: /home/ubuntu/miniconda/conda-bld/src_cache
-Found source in cache: service_identity-14.0.0.tar.gz
-Extracting download
-Package: service_identity-14.0.0-py27_0
-source tree in: /home/ubuntu/miniconda/conda-bld/work/service_identity-14.0.0
-found egg: /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/service_identity-14.0.0-py2.7.egg
-number of files: 2
-Fixing permissions
-Fixing permissions
-BUILD END: service_identity-14.0.0-py27_0
-TEST START: service_identity-14.0.0-py27_0
-Fetching package metadata: ......
-Solving package specifications: .===== testing package: service_identity-14.0.0-py27_0 =====
-import: u'service_identity'
-===== service_identity-14.0.0-py27_0 OK =====
-
-The following packages will be downloaded:
-
-    package                    |            build
-    ---------------------------|-----------------
-    service_identity-14.0.0    |           py27_0          17 KB
-
-The following NEW packages will be INSTALLED:
-
-    cffi:             1.1.0-py27_0 
-    characteristic:   14.3.0-py27_0
-    cryptography:     0.8.2-py27_0 
-    enum34:           1.0.4-py27_0 
-    libffi:           3.0.13-0     
-    openssl:          1.0.1k-1     
-    pip:              7.0.3-py27_0 
-    pyasn1:           0.1.7-py27_0 
-    pyasn1-modules:   0.0.5-py27_0 
-    pycparser:        2.13-py27_0  
-    pyopenssl:        0.15.1-py27_0
-    python:           2.7.10-0     
-    readline:         6.2-2        
-    service_identity: 14.0.0-py27_0
-    setuptools:       17.0-py27_0  
-    six:              1.9.0-py27_0 
-    sqlite:           3.8.4.1-1    
-    system:           5.8-2        
-    tk:               8.5.18-0     
-    zlib:             1.2.8-0      
-
-Fetching packages ...
-service_identi   0% |                              | ETA:  --:--:--   0.00  B/sservice_identi  93% |#############################  | Time: 0:00:00  62.08 MB/sservice_identi 100% |###############################| Time: 0:00:00  41.07 MB/sservice_identi 100% |###############################| Time: 0:00:00  31.05 MB/sservice_identi 100% |###############################| Time: 0:00:00  21.98 MB/s
-Extracting packages ...
-[      COMPLETE      ]|                                                  |   0%[service_identity    ]|                                                  |   0%[service_identity    ]|                                                  |   0%[      COMPLETE      ]|##################################################| 100%
-Linking packages ...
-[      COMPLETE      ]|                                                  |   0%[libffi              ]|                                                  |   0%[libffi              ]|                                                  |   0%[openssl             ]|##                                                |   5%[readline            ]|#####                                             |  10%[sqlite              ]|#######                                           |  15%[system              ]|##########                                        |  20%[tk                  ]|############                                      |  25%[zlib                ]|###############                                   |  30%[characteristic      ]|#################                                 |  35%[enum34              ]|####################                              |  40%[pyasn1              ]|######################                            |  45%[pyasn1-modules      ]|#########################                         |  50%[pycparser           ]|###########################                       |  55%[cffi                ]|##############################                    |  60%[python              ]|################################                  |  65%[setuptools          ]|###################################               |  70%[six                 ]|#####################################             |  75%[cryptography        ]|########################################          |  80%[pip                 ]|##########################################        |  85%[pyopenssl           ]|#############################################     |  90%[service_identity    ]|###############################################   |  95%[      COMPLETE      ]|##################################################| 100%
-TEST END: service_identity-14.0.0-py27_0
-# If you want to upload this package to binstar.org later, type:
-#
-# $ binstar upload /home/ubuntu/miniconda/conda-bld/linux-64/service_identity-14.0.0-py27_0.tar.bz2
-#
-# To have conda build upload to binstar automatically, use
-# $ conda config --set binstar_upload yes
-
+[      COMPLETE      ]|                                                  |   0%[libffi              ]|                                                  |   0%[libffi              ]|                                                  |   0%[openssl             ]|##                                                |   4%[readline            ]|####                                              |   9%[sqlite              ]|#######                                           |  14%[system              ]|#########                                         |  19%[tk                  ]|###########                                       |  23%[zlib                ]|##############                                    |  28%[characteristic      ]|################                                  |  33%Error: pre-link failed: characteristic-14.3.0-py_0

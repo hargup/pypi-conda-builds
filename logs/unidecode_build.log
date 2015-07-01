@@ -2,6 +2,14 @@ Removing old build directory
 Removing old work directory
 BUILD START: unidecode-0.04.17-py27_0
 Fetching package metadata: ......
+
+WARNING: conda-build appears to be out of date. You have version 1.13.0 but the
+latest version is 1.14.1. Run
+
+conda update -n root conda-build
+
+to get the latest version.
+
 Solving package specifications: .+ /home/ubuntu/miniconda/envs/_build/bin/python setup.py install
 running install
 running build
@@ -583,15 +591,15 @@ Writing /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/Unidecode
 
 The following NEW packages will be INSTALLED:
 
-    openssl:    1.0.1k-1    
-    pip:        7.0.3-py27_0
-    python:     2.7.10-0    
-    readline:   6.2-2       
-    setuptools: 17.0-py27_0 
-    sqlite:     3.8.4.1-1   
-    system:     5.8-2       
-    tk:         8.5.18-0    
-    zlib:       1.2.8-0     
+    openssl:    1.0.1k-1     
+    pip:        7.0.3-py27_0 
+    python:     2.7.10-0     
+    readline:   6.2-2        
+    setuptools: 18.0.1-py27_0
+    sqlite:     3.8.4.1-1    
+    system:     5.8-2        
+    tk:         8.5.18-0     
+    zlib:       1.2.8-0      
 
 Linking packages ...
 [                    ]|                                                  |   0%[openssl             ]|                                                  |   0%[readline            ]|#####                                             |  11%[sqlite              ]|###########                                       |  22%[system              ]|################                                  |  33%[tk                  ]|######################                            |  44%[zlib                ]|###########################                       |  55%[python              ]|#################################                 |  66%[setuptools          ]|######################################            |  77%[pip                 ]|############################################      |  88%[      COMPLETE      ]|##################################################| 100%
@@ -607,6 +615,14 @@ Fixing permissions
 BUILD END: unidecode-0.04.17-py27_0
 TEST START: unidecode-0.04.17-py27_0
 Fetching package metadata: ......
+
+WARNING: conda-build appears to be out of date. You have version 1.13.0 but the
+latest version is 1.14.1. Run
+
+conda update -n root conda-build
+
+to get the latest version.
+
 Solving package specifications: .===== testing package: unidecode-0.04.17-py27_0 =====
 import: u'unidecode'
 ===== unidecode-0.04.17-py27_0 OK =====
@@ -623,7 +639,7 @@ The following NEW packages will be INSTALLED:
     pip:        7.0.3-py27_0  
     python:     2.7.10-0      
     readline:   6.2-2         
-    setuptools: 17.0-py27_0   
+    setuptools: 18.0.1-py27_0 
     sqlite:     3.8.4.1-1     
     system:     5.8-2         
     tk:         8.5.18-0      
@@ -631,7 +647,7 @@ The following NEW packages will be INSTALLED:
     zlib:       1.2.8-0       
 
 Fetching packages ...
-unidecode-0.04   0% |                              | ETA:  --:--:--   0.00  B/sunidecode-0.04   7% |##                             | ETA:  0:00:00  46.94 MB/sunidecode-0.04  14% |####                           | ETA:  0:00:00  58.84 MB/sunidecode-0.04  22% |######                         | ETA:  0:00:00  63.93 MB/sunidecode-0.04  29% |#########                      | ETA:  0:00:00  68.06 MB/sunidecode-0.04  37% |###########                    | ETA:  0:00:00  71.42 MB/sunidecode-0.04  44% |#############                  | ETA:  0:00:00  73.92 MB/sunidecode-0.04  51% |################               | ETA:  0:00:00  75.75 MB/sunidecode-0.04  59% |##################             | ETA:  0:00:00  76.88 MB/sunidecode-0.04  66% |####################           | ETA:  0:00:00  78.02 MB/sunidecode-0.04  74% |#######################        | ETA:  0:00:00  79.19 MB/sunidecode-0.04  81% |#########################      | ETA:  0:00:00  80.17 MB/sunidecode-0.04  89% |###########################    | ETA:  0:00:00  81.05 MB/sunidecode-0.04  96% |#############################  | ETA:  0:00:00  81.82 MB/sunidecode-0.04 100% |###############################| ETA:  0:00:00  80.05 MB/sunidecode-0.04 100% |###############################| Time: 0:00:00  73.96 MB/s
+unidecode-0.04   0% |                              | ETA:  --:--:--   0.00  B/sunidecode-0.04   7% |##                             | ETA:  0:00:00  46.94 MB/sunidecode-0.04  14% |####                           | ETA:  0:00:00  58.81 MB/sunidecode-0.04  22% |######                         | ETA:  0:00:00  65.70 MB/sunidecode-0.04  29% |#########                      | ETA:  0:00:00  70.23 MB/sunidecode-0.04  37% |###########                    | ETA:  0:00:00  73.53 MB/sunidecode-0.04  44% |#############                  | ETA:  0:00:00  75.79 MB/sunidecode-0.04  51% |################               | ETA:  0:00:00  77.34 MB/sunidecode-0.04  59% |##################             | ETA:  0:00:00  78.82 MB/sunidecode-0.04  66% |####################           | ETA:  0:00:00  79.62 MB/sunidecode-0.04  74% |#######################        | ETA:  0:00:00  80.63 MB/sunidecode-0.04  81% |#########################      | ETA:  0:00:00  81.51 MB/sunidecode-0.04  89% |###########################    | ETA:  0:00:00  82.33 MB/sunidecode-0.04  96% |#############################  | ETA:  0:00:00  82.81 MB/sunidecode-0.04 100% |###############################| ETA:  0:00:00  80.83 MB/sunidecode-0.04 100% |###############################| Time: 0:00:00  74.60 MB/s
 Extracting packages ...
 [      COMPLETE      ]|                                                  |   0%[unidecode           ]|                                                  |   0%[unidecode           ]|                                                  |   0%[      COMPLETE      ]|##################################################| 100%
 Linking packages ...

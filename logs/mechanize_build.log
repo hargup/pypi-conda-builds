@@ -2,6 +2,14 @@ Removing old build directory
 Removing old work directory
 BUILD START: mechanize-0.2.5-py27_0
 Fetching package metadata: ......
+
+WARNING: conda-build appears to be out of date. You have version 1.13.0 but the
+latest version is 1.14.1. Run
+
+conda update -n root conda-build
+
+to get the latest version.
+
 Solving package specifications: .+ /home/ubuntu/miniconda/envs/_build/bin/python setup.py install
 running install
 running bdist_egg
@@ -127,15 +135,15 @@ Finished processing dependencies for mechanize==0.2.5
 
 The following NEW packages will be INSTALLED:
 
-    openssl:    1.0.1k-1    
-    pip:        7.0.3-py27_0
-    python:     2.7.10-0    
-    readline:   6.2-2       
-    setuptools: 17.0-py27_0 
-    sqlite:     3.8.4.1-1   
-    system:     5.8-2       
-    tk:         8.5.18-0    
-    zlib:       1.2.8-0     
+    openssl:    1.0.1k-1     
+    pip:        7.0.3-py27_0 
+    python:     2.7.10-0     
+    readline:   6.2-2        
+    setuptools: 18.0.1-py27_0
+    sqlite:     3.8.4.1-1    
+    system:     5.8-2        
+    tk:         8.5.18-0     
+    zlib:       1.2.8-0      
 
 Linking packages ...
 [                    ]|                                                  |   0%[openssl             ]|                                                  |   0%[readline            ]|#####                                             |  11%[sqlite              ]|###########                                       |  22%[system              ]|################                                  |  33%[tk                  ]|######################                            |  44%[zlib                ]|###########################                       |  55%[python              ]|#################################                 |  66%[setuptools          ]|######################################            |  77%[pip                 ]|############################################      |  88%[      COMPLETE      ]|##################################################| 100%
@@ -152,6 +160,14 @@ Fixing permissions
 BUILD END: mechanize-0.2.5-py27_0
 TEST START: mechanize-0.2.5-py27_0
 Fetching package metadata: ......
+
+WARNING: conda-build appears to be out of date. You have version 1.13.0 but the
+latest version is 1.14.1. Run
+
+conda update -n root conda-build
+
+to get the latest version.
+
 Solving package specifications: .===== testing package: mechanize-0.2.5-py27_0 =====
 import: u'mechanize'
 ===== mechanize-0.2.5-py27_0 OK =====
@@ -164,19 +180,19 @@ The following packages will be downloaded:
 
 The following NEW packages will be INSTALLED:
 
-    mechanize:  0.2.5-py27_0
-    openssl:    1.0.1k-1    
-    pip:        7.0.3-py27_0
-    python:     2.7.10-0    
-    readline:   6.2-2       
-    setuptools: 17.0-py27_0 
-    sqlite:     3.8.4.1-1   
-    system:     5.8-2       
-    tk:         8.5.18-0    
-    zlib:       1.2.8-0     
+    mechanize:  0.2.5-py27_0 
+    openssl:    1.0.1k-1     
+    pip:        7.0.3-py27_0 
+    python:     2.7.10-0     
+    readline:   6.2-2        
+    setuptools: 18.0.1-py27_0
+    sqlite:     3.8.4.1-1    
+    system:     5.8-2        
+    tk:         8.5.18-0     
+    zlib:       1.2.8-0      
 
 Fetching packages ...
-mechanize-0.2.   0% |                              | ETA:  --:--:--   0.00  B/smechanize-0.2.   4% |#                              | ETA:  0:00:00  45.39 MB/smechanize-0.2.   9% |###                            | ETA:  0:00:00  56.89 MB/smechanize-0.2.  14% |####                           | ETA:  0:00:00  63.51 MB/smechanize-0.2.  19% |######                         | ETA:  0:00:00  67.92 MB/smechanize-0.2.  24% |#######                        | ETA:  0:00:00  70.82 MB/smechanize-0.2.  29% |#########                      | ETA:  0:00:00  73.31 MB/smechanize-0.2.  34% |##########                     | ETA:  0:00:00  75.30 MB/smechanize-0.2.  39% |############                   | ETA:  0:00:00  76.88 MB/smechanize-0.2.  44% |#############                  | ETA:  0:00:00  78.02 MB/smechanize-0.2.  49% |###############                | ETA:  0:00:00  79.12 MB/smechanize-0.2.  54% |################               | ETA:  0:00:00  80.00 MB/smechanize-0.2.  59% |##################             | ETA:  0:00:00  80.74 MB/smechanize-0.2.  64% |###################            | ETA:  0:00:00  81.39 MB/smechanize-0.2.  69% |#####################          | ETA:  0:00:00  81.98 MB/smechanize-0.2.  74% |#######################        | ETA:  0:00:00  82.56 MB/smechanize-0.2.  79% |########################       | ETA:  0:00:00  82.99 MB/smechanize-0.2.  84% |##########################     | ETA:  0:00:00  83.34 MB/smechanize-0.2.  89% |###########################    | ETA:  0:00:00  83.26 MB/smechanize-0.2.  94% |#############################  | ETA:  0:00:00  83.69 MB/smechanize-0.2.  98% |############################## | ETA:  0:00:00  83.96 MB/smechanize-0.2. 100% |###############################| ETA:  0:00:00  81.97 MB/smechanize-0.2. 100% |###############################| Time: 0:00:00  77.56 MB/s
+mechanize-0.2.   0% |                              | ETA:  --:--:--   0.00  B/smechanize-0.2.   4% |#                              | ETA:  0:00:00  47.20 MB/smechanize-0.2.   9% |###                            | ETA:  0:00:00  59.04 MB/smechanize-0.2.  14% |####                           | ETA:  0:00:00  66.06 MB/smechanize-0.2.  19% |######                         | ETA:  0:00:00  69.94 MB/smechanize-0.2.  24% |#######                        | ETA:  0:00:00  72.87 MB/smechanize-0.2.  29% |#########                      | ETA:  0:00:00  75.21 MB/smechanize-0.2.  34% |##########                     | ETA:  0:00:00  76.82 MB/smechanize-0.2.  39% |############                   | ETA:  0:00:00  76.87 MB/smechanize-0.2.  44% |#############                  | ETA:  0:00:00  78.06 MB/smechanize-0.2.  49% |###############                | ETA:  0:00:00  79.11 MB/smechanize-0.2.  54% |################               | ETA:  0:00:00  80.06 MB/smechanize-0.2.  59% |##################             | ETA:  0:00:00  80.74 MB/smechanize-0.2.  64% |###################            | ETA:  0:00:00  81.48 MB/smechanize-0.2.  69% |#####################          | ETA:  0:00:00  82.10 MB/smechanize-0.2.  74% |#######################        | ETA:  0:00:00  82.50 MB/smechanize-0.2.  79% |########################       | ETA:  0:00:00  82.96 MB/smechanize-0.2.  84% |##########################     | ETA:  0:00:00  83.42 MB/smechanize-0.2.  89% |###########################    | ETA:  0:00:00  83.80 MB/smechanize-0.2.  94% |#############################  | ETA:  0:00:00  84.08 MB/smechanize-0.2.  98% |############################## | ETA:  0:00:00  84.41 MB/smechanize-0.2. 100% |###############################| ETA:  0:00:00  82.40 MB/smechanize-0.2. 100% |###############################| Time: 0:00:00  77.86 MB/s
 Extracting packages ...
 [      COMPLETE      ]|                                                  |   0%[mechanize           ]|                                                  |   0%[mechanize           ]|                                                  |   0%[      COMPLETE      ]|##################################################| 100%
 Linking packages ...

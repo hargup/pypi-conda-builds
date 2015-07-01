@@ -1,0 +1,170 @@
+Removing old build directory
+Removing old work directory
+BUILD START: acquisition-4.2.2-py27_0
+Fetching package metadata: ......
+
+WARNING: conda-build appears to be out of date. You have version 1.13.0 but the
+latest version is 1.14.1. Run
+
+conda update -n root conda-build
+
+to get the latest version.
+
+Solving package specifications: .+ /home/ubuntu/miniconda/envs/_build/bin/python setup.py install
+running install
+running bdist_egg
+running egg_info
+writing requirements to src/Acquisition.egg-info/requires.txt
+writing src/Acquisition.egg-info/PKG-INFO
+writing top-level names to src/Acquisition.egg-info/top_level.txt
+writing dependency_links to src/Acquisition.egg-info/dependency_links.txt
+reading manifest file 'src/Acquisition.egg-info/SOURCES.txt'
+reading manifest template 'MANIFEST.in'
+warning: no previously-included files matching '*.dll' found anywhere in distribution
+warning: no previously-included files matching '*.pyc' found anywhere in distribution
+warning: no previously-included files matching '*.pyo' found anywhere in distribution
+warning: no previously-included files matching '*.so' found anywhere in distribution
+writing manifest file 'src/Acquisition.egg-info/SOURCES.txt'
+installing library code to build/bdist.linux-x86_64/egg
+running install_lib
+running build_py
+creating build
+creating build/lib.linux-x86_64-2.7
+creating build/lib.linux-x86_64-2.7/Acquisition
+copying src/Acquisition/interfaces.py -> build/lib.linux-x86_64-2.7/Acquisition
+copying src/Acquisition/tests.py -> build/lib.linux-x86_64-2.7/Acquisition
+copying src/Acquisition/__init__.py -> build/lib.linux-x86_64-2.7/Acquisition
+copying src/Acquisition/Acquisition.h -> build/lib.linux-x86_64-2.7/Acquisition
+copying src/Acquisition/_Acquisition.c -> build/lib.linux-x86_64-2.7/Acquisition
+running build_ext
+building 'Acquisition._Acquisition' extension
+creating build/temp.linux-x86_64-2.7
+creating build/temp.linux-x86_64-2.7/src
+creating build/temp.linux-x86_64-2.7/src/Acquisition
+gcc -pthread -fno-strict-aliasing -g -O2 -DNDEBUG -g -fwrapv -O3 -Wall -Wstrict-prototypes -fPIC -Iinclude -Isrc -I/home/ubuntu/miniconda/envs/_build/include/python2.7 -c src/Acquisition/_Acquisition.c -o build/temp.linux-x86_64-2.7/src/Acquisition/_Acquisition.o
+gcc -pthread -shared -L/home/ubuntu/miniconda/envs/_build/lib -Wl,-rpath=/home/ubuntu/miniconda/envs/_build/lib,--no-as-needed build/temp.linux-x86_64-2.7/src/Acquisition/_Acquisition.o -L/home/ubuntu/miniconda/envs/_build/lib -lpython2.7 -o build/lib.linux-x86_64-2.7/Acquisition/_Acquisition.so
+creating build/bdist.linux-x86_64
+creating build/bdist.linux-x86_64/egg
+creating build/bdist.linux-x86_64/egg/Acquisition
+copying build/lib.linux-x86_64-2.7/Acquisition/Acquisition.h -> build/bdist.linux-x86_64/egg/Acquisition
+copying build/lib.linux-x86_64-2.7/Acquisition/_Acquisition.so -> build/bdist.linux-x86_64/egg/Acquisition
+copying build/lib.linux-x86_64-2.7/Acquisition/interfaces.py -> build/bdist.linux-x86_64/egg/Acquisition
+copying build/lib.linux-x86_64-2.7/Acquisition/tests.py -> build/bdist.linux-x86_64/egg/Acquisition
+copying build/lib.linux-x86_64-2.7/Acquisition/__init__.py -> build/bdist.linux-x86_64/egg/Acquisition
+copying build/lib.linux-x86_64-2.7/Acquisition/_Acquisition.c -> build/bdist.linux-x86_64/egg/Acquisition
+byte-compiling build/bdist.linux-x86_64/egg/Acquisition/interfaces.py to interfaces.pyc
+byte-compiling build/bdist.linux-x86_64/egg/Acquisition/tests.py to tests.pyc
+byte-compiling build/bdist.linux-x86_64/egg/Acquisition/__init__.py to __init__.pyc
+creating stub loader for Acquisition/_Acquisition.so
+byte-compiling build/bdist.linux-x86_64/egg/Acquisition/_Acquisition.py to _Acquisition.pyc
+creating build/bdist.linux-x86_64/egg/EGG-INFO
+copying src/Acquisition.egg-info/PKG-INFO -> build/bdist.linux-x86_64/egg/EGG-INFO
+copying src/Acquisition.egg-info/SOURCES.txt -> build/bdist.linux-x86_64/egg/EGG-INFO
+copying src/Acquisition.egg-info/dependency_links.txt -> build/bdist.linux-x86_64/egg/EGG-INFO
+copying src/Acquisition.egg-info/not-zip-safe -> build/bdist.linux-x86_64/egg/EGG-INFO
+copying src/Acquisition.egg-info/requires.txt -> build/bdist.linux-x86_64/egg/EGG-INFO
+copying src/Acquisition.egg-info/top_level.txt -> build/bdist.linux-x86_64/egg/EGG-INFO
+writing build/bdist.linux-x86_64/egg/EGG-INFO/native_libs.txt
+creating dist
+creating 'dist/Acquisition-4.2.2-py2.7-linux-x86_64.egg' and adding 'build/bdist.linux-x86_64/egg' to it
+removing 'build/bdist.linux-x86_64/egg' (and everything under it)
+Processing Acquisition-4.2.2-py2.7-linux-x86_64.egg
+creating /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/Acquisition-4.2.2-py2.7-linux-x86_64.egg
+Extracting Acquisition-4.2.2-py2.7-linux-x86_64.egg to /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages
+Adding Acquisition 4.2.2 to easy-install.pth file
+
+Installed /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/Acquisition-4.2.2-py2.7-linux-x86_64.egg
+Processing dependencies for Acquisition==4.2.2
+Searching for zope.interface==4.1.2
+Best match: zope.interface 4.1.2
+Adding zope.interface 4.1.2 to easy-install.pth file
+
+Using /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages
+Searching for ExtensionClass==4.1.2
+Best match: ExtensionClass 4.1.2
+Adding ExtensionClass 4.1.2 to easy-install.pth file
+
+Using /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages
+Finished processing dependencies for Acquisition==4.2.2
+
+The following NEW packages will be INSTALLED:
+
+    extensionclass: 4.1.2-py27_0 
+    nose:           1.3.7-py27_0 
+    openssl:        1.0.1k-1     
+    pip:            7.0.3-py27_0 
+    python:         2.7.10-0     
+    readline:       6.2-2        
+    setuptools:     18.0.1-py27_0
+    sqlite:         3.8.4.1-1    
+    system:         5.8-2        
+    tk:             8.5.18-0     
+    zlib:           1.2.8-0      
+    zope.interface: 4.1.2-py27_1 
+
+Linking packages ...
+[                    ]|                                                  |   0%[openssl             ]|                                                  |   0%[readline            ]|####                                              |   8%[sqlite              ]|########                                          |  16%[system              ]|############                                      |  25%[tk                  ]|################                                  |  33%[zlib                ]|####################                              |  41%[extensionclass      ]|#########################                         |  50%[nose                ]|#############################                     |  58%[python              ]|#################################                 |  66%[setuptools          ]|#####################################             |  75%[zope.interface      ]|#########################################         |  83%[pip                 ]|#############################################     |  91%[      COMPLETE      ]|##################################################| 100%
+Removing old work directory
+Source cache directory is: /home/ubuntu/miniconda/conda-bld/src_cache
+Found source in cache: Acquisition-4.2.2.tar.gz
+Extracting download
+Package: acquisition-4.2.2-py27_0
+source tree in: /home/ubuntu/miniconda/conda-bld/work/Acquisition-4.2.2
+found egg dir: /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/Acquisition-4.2.2-py2.7-linux-x86_64.egg
+number of files: 10
+Fixing permissions
+patchelf: file: /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/Acquisition/_Acquisition.so
+    setting rpath to: $ORIGIN/../../..
+Ignored hard-coded path in lib/python2.7/site-packages/Acquisition/_Acquisition.so
+Fixing permissions
+BUILD END: acquisition-4.2.2-py27_0
+TEST START: acquisition-4.2.2-py27_0
+Fetching package metadata: ......
+
+WARNING: conda-build appears to be out of date. You have version 1.13.0 but the
+latest version is 1.14.1. Run
+
+conda update -n root conda-build
+
+to get the latest version.
+
+Solving package specifications: .===== testing package: acquisition-4.2.2-py27_0 =====
+import: u'Acquisition'
+===== acquisition-4.2.2-py27_0 OK =====
+
+The following packages will be downloaded:
+
+    package                    |            build
+    ---------------------------|-----------------
+    acquisition-4.2.2          |           py27_0         121 KB
+
+The following NEW packages will be INSTALLED:
+
+    acquisition:    4.2.2-py27_0 
+    extensionclass: 4.1.2-py27_0 
+    nose:           1.3.7-py27_0 
+    openssl:        1.0.1k-1     
+    pip:            7.0.3-py27_0 
+    python:         2.7.10-0     
+    readline:       6.2-2        
+    setuptools:     18.0.1-py27_0
+    sqlite:         3.8.4.1-1    
+    system:         5.8-2        
+    tk:             8.5.18-0     
+    zlib:           1.2.8-0      
+    zope.interface: 4.1.2-py27_1 
+
+Fetching packages ...
+acquisition-4.   0% |                              | ETA:  --:--:--   0.00  B/sacquisition-4.  13% |####                           | ETA:  0:00:00  47.23 MB/sacquisition-4.  26% |########                       | ETA:  0:00:00  56.03 MB/sacquisition-4.  39% |############                   | ETA:  0:00:00  63.26 MB/sacquisition-4.  52% |################               | ETA:  0:00:00  67.70 MB/sacquisition-4.  66% |####################           | ETA:  0:00:00  70.99 MB/sacquisition-4.  79% |########################       | ETA:  0:00:00  73.47 MB/sacquisition-4.  92% |############################   | ETA:  0:00:00  75.26 MB/sacquisition-4. 100% |###############################| ETA:  0:00:00  73.28 MB/sacquisition-4. 100% |###############################| Time: 0:00:00  64.30 MB/s
+Extracting packages ...
+[      COMPLETE      ]|                                                  |   0%[acquisition         ]|                                                  |   0%[acquisition         ]|                                                  |   0%[      COMPLETE      ]|##################################################| 100%
+Linking packages ...
+[      COMPLETE      ]|                                                  |   0%[openssl             ]|                                                  |   0%[openssl             ]|                                                  |   0%[readline            ]|###                                               |   7%[sqlite              ]|#######                                           |  15%[system              ]|###########                                       |  23%[tk                  ]|###############                                   |  30%[zlib                ]|###################                               |  38%[extensionclass      ]|#######################                           |  46%[nose                ]|##########################                        |  53%[python              ]|##############################                    |  61%[setuptools          ]|##################################                |  69%[zope.interface      ]|######################################            |  76%[acquisition         ]|##########################################        |  84%[pip                 ]|##############################################    |  92%[      COMPLETE      ]|##################################################| 100%
+TEST END: acquisition-4.2.2-py27_0
+# If you want to upload this package to binstar.org later, type:
+#
+# $ binstar upload /home/ubuntu/miniconda/conda-bld/linux-64/acquisition-4.2.2-py27_0.tar.bz2
+#
+# To have conda build upload to binstar automatically, use
+# $ conda config --set binstar_upload yes
+

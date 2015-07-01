@@ -2,6 +2,14 @@ Removing old build directory
 Removing old work directory
 BUILD START: cherrypy-3.7.0-py27_0
 Fetching package metadata: ......
+
+WARNING: conda-build appears to be out of date. You have version 1.13.0 but the
+latest version is 1.14.1. Run
+
+conda update -n root conda-build
+
+to get the latest version.
+
 Solving package specifications: .+ /home/ubuntu/miniconda/envs/_build/bin/python setup.py install
 running install
 running bdist_egg
@@ -452,15 +460,15 @@ Finished processing dependencies for CherryPy==3.7.0
 
 The following NEW packages will be INSTALLED:
 
-    openssl:    1.0.1k-1    
-    pip:        7.0.3-py27_0
-    python:     2.7.10-0    
-    readline:   6.2-2       
-    setuptools: 17.0-py27_0 
-    sqlite:     3.8.4.1-1   
-    system:     5.8-2       
-    tk:         8.5.18-0    
-    zlib:       1.2.8-0     
+    openssl:    1.0.1k-1     
+    pip:        7.0.3-py27_0 
+    python:     2.7.10-0     
+    readline:   6.2-2        
+    setuptools: 18.0.1-py27_0
+    sqlite:     3.8.4.1-1    
+    system:     5.8-2        
+    tk:         8.5.18-0     
+    zlib:       1.2.8-0      
 
 Linking packages ...
 [                    ]|                                                  |   0%[openssl             ]|                                                  |   0%[readline            ]|#####                                             |  11%[sqlite              ]|###########                                       |  22%[system              ]|################                                  |  33%[tk                  ]|######################                            |  44%[zlib                ]|###########################                       |  55%[python              ]|#################################                 |  66%[setuptools          ]|######################################            |  77%[pip                 ]|############################################      |  88%[      COMPLETE      ]|##################################################| 100%
@@ -478,32 +486,40 @@ Fixing permissions
 BUILD END: cherrypy-3.7.0-py27_0
 TEST START: cherrypy-3.7.0-py27_0
 Fetching package metadata: ......
+
+WARNING: conda-build appears to be out of date. You have version 1.13.0 but the
+latest version is 1.14.1. Run
+
+conda update -n root conda-build
+
+to get the latest version.
+
 Solving package specifications: .
 The following packages will be downloaded:
 
     package                    |            build
     ---------------------------|-----------------
-    cherrypy-3.7.0             |           py27_0         594 KB
+    cherrypy-3.7.0             |           py27_0         595 KB
 
 The following NEW packages will be INSTALLED:
 
-    cherrypy:   3.7.0-py27_0
-    openssl:    1.0.1k-1    
-    pip:        7.0.3-py27_0
-    python:     2.7.10-0    
-    readline:   6.2-2       
-    setuptools: 17.0-py27_0 
-    sqlite:     3.8.4.1-1   
-    system:     5.8-2       
-    tk:         8.5.18-0    
-    zlib:       1.2.8-0     
+    cherrypy:   3.7.0-py27_0 
+    openssl:    1.0.1k-1     
+    pip:        7.0.3-py27_0 
+    python:     2.7.10-0     
+    readline:   6.2-2        
+    setuptools: 18.0.1-py27_0
+    sqlite:     3.8.4.1-1    
+    system:     5.8-2        
+    tk:         8.5.18-0     
+    zlib:       1.2.8-0      
 
 Fetching packages ...
-cherrypy-3.7.0   0% |                              | ETA:  --:--:--   0.00  B/scherrypy-3.7.0   2% |                               | ETA:  0:00:00  47.76 MB/scherrypy-3.7.0   5% |#                              | ETA:  0:00:00  59.04 MB/scherrypy-3.7.0   8% |##                             | ETA:  0:00:00  65.97 MB/scherrypy-3.7.0  10% |###                            | ETA:  0:00:00  70.46 MB/scherrypy-3.7.0  13% |####                           | ETA:  0:00:00  73.40 MB/scherrypy-3.7.0  16% |#####                          | ETA:  0:00:00  75.56 MB/scherrypy-3.7.0  18% |#####                          | ETA:  0:00:00  77.23 MB/scherrypy-3.7.0  21% |######                         | ETA:  0:00:00  77.65 MB/scherrypy-3.7.0  24% |#######                        | ETA:  0:00:00  78.65 MB/scherrypy-3.7.0  26% |########                       | ETA:  0:00:00  79.68 MB/scherrypy-3.7.0  29% |#########                      | ETA:  0:00:00  80.64 MB/scherrypy-3.7.0  32% |##########                     | ETA:  0:00:00  81.45 MB/scherrypy-3.7.0  34% |##########                     | ETA:  0:00:00  81.98 MB/scherrypy-3.7.0  37% |###########                    | ETA:  0:00:00  82.54 MB/scherrypy-3.7.0  40% |############                   | ETA:  0:00:00  83.14 MB/scherrypy-3.7.0  43% |#############                  | ETA:  0:00:00  83.62 MB/scherrypy-3.7.0  45% |##############                 | ETA:  0:00:00  83.89 MB/scherrypy-3.7.0  48% |###############                | ETA:  0:00:00  84.19 MB/scherrypy-3.7.0  51% |###############                | ETA:  0:00:00  84.59 MB/scherrypy-3.7.0  53% |################               | ETA:  0:00:00  84.93 MB/scherrypy-3.7.0  56% |#################              | ETA:  0:00:00  85.10 MB/scherrypy-3.7.0  59% |##################             | ETA:  0:00:00  85.39 MB/scherrypy-3.7.0  61% |###################            | ETA:  0:00:00  85.66 MB/scherrypy-3.7.0  64% |####################           | ETA:  0:00:00  85.84 MB/scherrypy-3.7.0  67% |####################           | ETA:  0:00:00  86.08 MB/scherrypy-3.7.0  69% |#####################          | ETA:  0:00:00  86.30 MB/scherrypy-3.7.0  72% |######################         | ETA:  0:00:00  86.50 MB/scherrypy-3.7.0  75% |#######################        | ETA:  0:00:00  86.61 MB/scherrypy-3.7.0  78% |########################       | ETA:  0:00:00  26.89 MB/scherrypy-3.7.0  80% |#########################      | ETA:  0:00:00  27.52 MB/scherrypy-3.7.0  83% |#########################      | ETA:  0:00:00  28.15 MB/scherrypy-3.7.0  86% |##########################     | ETA:  0:00:00  28.78 MB/scherrypy-3.7.0  88% |###########################    | ETA:  0:00:00  29.38 MB/scherrypy-3.7.0  91% |############################   | ETA:  0:00:00  29.98 MB/scherrypy-3.7.0  94% |#############################  | ETA:  0:00:00  30.57 MB/scherrypy-3.7.0  96% |############################## | ETA:  0:00:00  31.15 MB/scherrypy-3.7.0  99% |############################## | ETA:  0:00:00  31.71 MB/scherrypy-3.7.0 100% |###############################| Time: 0:00:00  31.38 MB/s
+cherrypy-3.7.0   0% |                              | ETA:  --:--:--   0.00  B/scherrypy-3.7.0   2% |                               | ETA:  0:00:00  47.62 MB/scherrypy-3.7.0   5% |#                              | ETA:  0:00:00  59.34 MB/scherrypy-3.7.0   8% |##                             | ETA:  0:00:00  66.33 MB/scherrypy-3.7.0  10% |###                            | ETA:  0:00:00  70.32 MB/scherrypy-3.7.0  13% |####                           | ETA:  0:00:00  73.20 MB/scherrypy-3.7.0  16% |#####                          | ETA:  0:00:00  74.24 MB/scherrypy-3.7.0  18% |#####                          | ETA:  0:00:00  75.90 MB/scherrypy-3.7.0  21% |######                         | ETA:  0:00:00  77.51 MB/scherrypy-3.7.0  24% |#######                        | ETA:  0:00:00  78.81 MB/scherrypy-3.7.0  26% |########                       | ETA:  0:00:00  79.92 MB/scherrypy-3.7.0  29% |#########                      | ETA:  0:00:00  80.71 MB/scherrypy-3.7.0  32% |##########                     | ETA:  0:00:00  81.24 MB/scherrypy-3.7.0  34% |##########                     | ETA:  0:00:00  81.98 MB/scherrypy-3.7.0  37% |###########                    | ETA:  0:00:00  82.57 MB/scherrypy-3.7.0  40% |############                   | ETA:  0:00:00  83.20 MB/scherrypy-3.7.0  43% |#############                  | ETA:  0:00:00  83.70 MB/scherrypy-3.7.0  45% |##############                 | ETA:  0:00:00  84.17 MB/scherrypy-3.7.0  48% |###############                | ETA:  0:00:00  84.57 MB/scherrypy-3.7.0  51% |###############                | ETA:  0:00:00  84.84 MB/scherrypy-3.7.0  53% |################               | ETA:  0:00:00  85.13 MB/scherrypy-3.7.0  56% |#################              | ETA:  0:00:00  85.44 MB/scherrypy-3.7.0  59% |##################             | ETA:  0:00:00  29.21 MB/scherrypy-3.7.0  61% |###################            | ETA:  0:00:00  30.10 MB/scherrypy-3.7.0  64% |####################           | ETA:  0:00:00  30.96 MB/scherrypy-3.7.0  67% |####################           | ETA:  0:00:00  31.81 MB/scherrypy-3.7.0  69% |#####################          | ETA:  0:00:00  32.63 MB/scherrypy-3.7.0  72% |######################         | ETA:  0:00:00  33.43 MB/scherrypy-3.7.0  75% |#######################        | ETA:  0:00:00  34.15 MB/scherrypy-3.7.0  78% |########################       | ETA:  0:00:00  34.90 MB/scherrypy-3.7.0  80% |#########################      | ETA:  0:00:00  35.64 MB/scherrypy-3.7.0  83% |#########################      | ETA:  0:00:00  36.36 MB/scherrypy-3.7.0  86% |##########################     | ETA:  0:00:00  37.06 MB/scherrypy-3.7.0  88% |###########################    | ETA:  0:00:00  37.75 MB/scherrypy-3.7.0  91% |############################   | ETA:  0:00:00  38.42 MB/scherrypy-3.7.0  94% |#############################  | ETA:  0:00:00  39.06 MB/scherrypy-3.7.0  96% |############################## | ETA:  0:00:00  39.69 MB/scherrypy-3.7.0  99% |############################## | ETA:  0:00:00  40.30 MB/scherrypy-3.7.0 100% |###############################| Time: 0:00:00  39.74 MB/s
 Extracting packages ...
 [      COMPLETE      ]|                                                  |   0%[cherrypy            ]|                                                  |   0%[cherrypy            ]|                                                  |   0%[      COMPLETE      ]|##################################################| 100%
 Linking packages ...
-[      COMPLETE      ]|               ===== testing package: cherrypy-3.7.0-py27_0 =====
+[      COMPLETE      ]|     ===== testing package: cherrypy-3.7.0-py27_0 =====
 import: u'cherrypy'
 import: u'cherrypy.lib'
 import: u'cherrypy.process'
@@ -512,7 +528,7 @@ import: u'cherrypy.test'
 import: u'cherrypy.tutorial'
 import: u'cherrypy.wsgiserver'
 ===== cherrypy-3.7.0-py27_0 OK =====
-                                   |   0%[openssl             ]|                                                  |   0%[openssl             ]|                                                  |   0%[readline            ]|#####                                             |  10%[sqlite              ]|##########                                        |  20%[system              ]|###############                                   |  30%[tk                  ]|####################                              |  40%[zlib                ]|#########################                         |  50%[cherrypy            ]|##############################                    |  60%[python              ]|###################################               |  70%[setuptools          ]|########################################          |  80%[pip                 ]|#############################################     |  90%[      COMPLETE      ]|##################################################| 100%
+                                             |   0%[openssl             ]|                                                  |   0%[openssl             ]|                                                  |   0%[readline            ]|#####                                             |  10%[sqlite              ]|##########                                        |  20%[system              ]|###############                                   |  30%[tk                  ]|####################                              |  40%[zlib                ]|#########################                         |  50%[cherrypy            ]|##############################                    |  60%[python              ]|###################################               |  70%[setuptools          ]|########################################          |  80%[pip                 ]|#############################################     |  90%[      COMPLETE      ]|##################################################| 100%
 TEST END: cherrypy-3.7.0-py27_0
 # If you want to upload this package to binstar.org later, type:
 #

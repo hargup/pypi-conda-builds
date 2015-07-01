@@ -1,8 +1,10 @@
 Warning, the following versions were found for django-cms
+3.1.1
 3.1.0
 3.1.0rc2
 3.1.0rc1
 3.1.0.b1
+3.0.14
 3.0.13
 3.0.12
 3.0.11
@@ -38,22 +40,26 @@ Warning, the following versions were found for django-cms
 2.1.1
 2.0.2
 2.0.1
-Using 3.1.0
+Using 3.1.1
 Use --version to specify a different version.
-Using url https://pypi.python.org/packages/source/d/django-cms/django-cms-3.1.0.tar.gz (3.8 MB) for django-cms.
-Downloading django-cms (use --no-download to skip this step)
+Using url https://pypi.python.org/packages/source/d/django-cms/django-cms-3.1.1.tar.gz (8.5 MB) for django-cms.
+Downloading django-cms
 Using cached download
 Unpacking django-cms...
 done
-working in /tmp/tmp2ZiNV1conda_skeleton_django-cms-3.1.0.tar.gz
+working in /tmp/tmpSdT53Tconda_skeleton_django-cms-3.1.1.tar.gz
 Fetching package metadata: ......
+
+WARNING: conda-build appears to be out of date. You have version 1.13.0 but the
+latest version is 1.14.1. Run
+
+conda update -n root conda-build
+
+to get the latest version.
+
 Solving package specifications: .patching file core.py
 Hunk #1 succeeded at 168 with fuzz 2 (offset 2 lines).
-Traceback (most recent call last):
-  File "setup.py", line 1, in <module>
-    from setuptools import setup, find_packages
-ImportError: No module named setuptools
 
-Applying patch: '/tmp/tmp2ZiNV1conda_skeleton_django-cms-3.1.0.tar.gz/pypi-distutils.patch'
-$PYTHONPATH = /tmp/tmp2ZiNV1conda_skeleton_django-cms-3.1.0.tar.gz/django-cms-3.1.0
-Error: command failed: /home/ubuntu/miniconda/envs/_build/bin/python setup.py install
+Applying patch: '/tmp/tmpSdT53Tconda_skeleton_django-cms-3.1.1.tar.gz/pypi-distutils.patch'
+Writing recipe for django-cms
+Done

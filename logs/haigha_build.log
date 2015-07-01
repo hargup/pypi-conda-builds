@@ -1,0 +1,203 @@
+Removing old build directory
+Removing old work directory
+BUILD START: haigha-0.8.0-py_0
+Fetching package metadata: ......
+
+WARNING: conda-build appears to be out of date. You have version 1.13.0 but the
+latest version is 1.14.1. Run
+
+conda update -n root conda-build
+
+to get the latest version.
+
+Solving package specifications: .+ /home/ubuntu/miniconda/envs/_build/bin/python setup.py install
+running install
+running bdist_egg
+running egg_info
+writing haigha.egg-info/PKG-INFO
+writing top-level names to haigha.egg-info/top_level.txt
+writing dependency_links to haigha.egg-info/dependency_links.txt
+reading manifest file 'haigha.egg-info/SOURCES.txt'
+reading manifest template 'MANIFEST.in'
+no previously-included directories found matching '*.pyc'
+writing manifest file 'haigha.egg-info/SOURCES.txt'
+installing library code to build/bdist.linux-x86_64/egg
+running install_lib
+running build_py
+creating build
+creating build/lib
+creating build/lib/haigha
+copying haigha/channel.py -> build/lib/haigha
+copying haigha/reader.py -> build/lib/haigha
+copying haigha/channel_pool.py -> build/lib/haigha
+copying haigha/message.py -> build/lib/haigha
+copying haigha/connection.py -> build/lib/haigha
+copying haigha/__init__.py -> build/lib/haigha
+copying haigha/writer.py -> build/lib/haigha
+copying haigha/exceptions.py -> build/lib/haigha
+creating build/lib/haigha/frames
+copying haigha/frames/content_frame.py -> build/lib/haigha/frames
+copying haigha/frames/frame.py -> build/lib/haigha/frames
+copying haigha/frames/header_frame.py -> build/lib/haigha/frames
+copying haigha/frames/method_frame.py -> build/lib/haigha/frames
+copying haigha/frames/__init__.py -> build/lib/haigha/frames
+copying haigha/frames/heartbeat_frame.py -> build/lib/haigha/frames
+creating build/lib/haigha/classes
+copying haigha/classes/exchange_class.py -> build/lib/haigha/classes
+copying haigha/classes/transaction_class.py -> build/lib/haigha/classes
+copying haigha/classes/basic_class.py -> build/lib/haigha/classes
+copying haigha/classes/queue_class.py -> build/lib/haigha/classes
+copying haigha/classes/protocol_class.py -> build/lib/haigha/classes
+copying haigha/classes/__init__.py -> build/lib/haigha/classes
+copying haigha/classes/channel_class.py -> build/lib/haigha/classes
+creating build/lib/haigha/transports
+copying haigha/transports/event_transport.py -> build/lib/haigha/transports
+copying haigha/transports/socket_transport.py -> build/lib/haigha/transports
+copying haigha/transports/transport.py -> build/lib/haigha/transports
+copying haigha/transports/__init__.py -> build/lib/haigha/transports
+copying haigha/transports/gevent_transport.py -> build/lib/haigha/transports
+creating build/lib/haigha/connections
+copying haigha/connections/rabbit_connection.py -> build/lib/haigha/connections
+copying haigha/connections/__init__.py -> build/lib/haigha/connections
+creating build/bdist.linux-x86_64
+creating build/bdist.linux-x86_64/egg
+creating build/bdist.linux-x86_64/egg/haigha
+creating build/bdist.linux-x86_64/egg/haigha/frames
+copying build/lib/haigha/frames/content_frame.py -> build/bdist.linux-x86_64/egg/haigha/frames
+copying build/lib/haigha/frames/frame.py -> build/bdist.linux-x86_64/egg/haigha/frames
+copying build/lib/haigha/frames/header_frame.py -> build/bdist.linux-x86_64/egg/haigha/frames
+copying build/lib/haigha/frames/method_frame.py -> build/bdist.linux-x86_64/egg/haigha/frames
+copying build/lib/haigha/frames/__init__.py -> build/bdist.linux-x86_64/egg/haigha/frames
+copying build/lib/haigha/frames/heartbeat_frame.py -> build/bdist.linux-x86_64/egg/haigha/frames
+copying build/lib/haigha/channel.py -> build/bdist.linux-x86_64/egg/haigha
+copying build/lib/haigha/reader.py -> build/bdist.linux-x86_64/egg/haigha
+copying build/lib/haigha/channel_pool.py -> build/bdist.linux-x86_64/egg/haigha
+copying build/lib/haigha/message.py -> build/bdist.linux-x86_64/egg/haigha
+copying build/lib/haigha/connection.py -> build/bdist.linux-x86_64/egg/haigha
+creating build/bdist.linux-x86_64/egg/haigha/connections
+copying build/lib/haigha/connections/rabbit_connection.py -> build/bdist.linux-x86_64/egg/haigha/connections
+copying build/lib/haigha/connections/__init__.py -> build/bdist.linux-x86_64/egg/haigha/connections
+creating build/bdist.linux-x86_64/egg/haigha/classes
+copying build/lib/haigha/classes/exchange_class.py -> build/bdist.linux-x86_64/egg/haigha/classes
+copying build/lib/haigha/classes/transaction_class.py -> build/bdist.linux-x86_64/egg/haigha/classes
+copying build/lib/haigha/classes/basic_class.py -> build/bdist.linux-x86_64/egg/haigha/classes
+copying build/lib/haigha/classes/queue_class.py -> build/bdist.linux-x86_64/egg/haigha/classes
+copying build/lib/haigha/classes/protocol_class.py -> build/bdist.linux-x86_64/egg/haigha/classes
+copying build/lib/haigha/classes/__init__.py -> build/bdist.linux-x86_64/egg/haigha/classes
+copying build/lib/haigha/classes/channel_class.py -> build/bdist.linux-x86_64/egg/haigha/classes
+copying build/lib/haigha/__init__.py -> build/bdist.linux-x86_64/egg/haigha
+creating build/bdist.linux-x86_64/egg/haigha/transports
+copying build/lib/haigha/transports/event_transport.py -> build/bdist.linux-x86_64/egg/haigha/transports
+copying build/lib/haigha/transports/socket_transport.py -> build/bdist.linux-x86_64/egg/haigha/transports
+copying build/lib/haigha/transports/transport.py -> build/bdist.linux-x86_64/egg/haigha/transports
+copying build/lib/haigha/transports/__init__.py -> build/bdist.linux-x86_64/egg/haigha/transports
+copying build/lib/haigha/transports/gevent_transport.py -> build/bdist.linux-x86_64/egg/haigha/transports
+copying build/lib/haigha/writer.py -> build/bdist.linux-x86_64/egg/haigha
+copying build/lib/haigha/exceptions.py -> build/bdist.linux-x86_64/egg/haigha
+byte-compiling build/bdist.linux-x86_64/egg/haigha/frames/content_frame.py to content_frame.pyc
+byte-compiling build/bdist.linux-x86_64/egg/haigha/frames/frame.py to frame.pyc
+byte-compiling build/bdist.linux-x86_64/egg/haigha/frames/header_frame.py to header_frame.pyc
+byte-compiling build/bdist.linux-x86_64/egg/haigha/frames/method_frame.py to method_frame.pyc
+byte-compiling build/bdist.linux-x86_64/egg/haigha/frames/__init__.py to __init__.pyc
+byte-compiling build/bdist.linux-x86_64/egg/haigha/frames/heartbeat_frame.py to heartbeat_frame.pyc
+byte-compiling build/bdist.linux-x86_64/egg/haigha/channel.py to channel.pyc
+byte-compiling build/bdist.linux-x86_64/egg/haigha/reader.py to reader.pyc
+byte-compiling build/bdist.linux-x86_64/egg/haigha/channel_pool.py to channel_pool.pyc
+byte-compiling build/bdist.linux-x86_64/egg/haigha/message.py to message.pyc
+byte-compiling build/bdist.linux-x86_64/egg/haigha/connection.py to connection.pyc
+byte-compiling build/bdist.linux-x86_64/egg/haigha/connections/rabbit_connection.py to rabbit_connection.pyc
+byte-compiling build/bdist.linux-x86_64/egg/haigha/connections/__init__.py to __init__.pyc
+byte-compiling build/bdist.linux-x86_64/egg/haigha/classes/exchange_class.py to exchange_class.pyc
+byte-compiling build/bdist.linux-x86_64/egg/haigha/classes/transaction_class.py to transaction_class.pyc
+byte-compiling build/bdist.linux-x86_64/egg/haigha/classes/basic_class.py to basic_class.pyc
+byte-compiling build/bdist.linux-x86_64/egg/haigha/classes/queue_class.py to queue_class.pyc
+byte-compiling build/bdist.linux-x86_64/egg/haigha/classes/protocol_class.py to protocol_class.pyc
+byte-compiling build/bdist.linux-x86_64/egg/haigha/classes/__init__.py to __init__.pyc
+byte-compiling build/bdist.linux-x86_64/egg/haigha/classes/channel_class.py to channel_class.pyc
+byte-compiling build/bdist.linux-x86_64/egg/haigha/__init__.py to __init__.pyc
+byte-compiling build/bdist.linux-x86_64/egg/haigha/transports/event_transport.py to event_transport.pyc
+byte-compiling build/bdist.linux-x86_64/egg/haigha/transports/socket_transport.py to socket_transport.pyc
+byte-compiling build/bdist.linux-x86_64/egg/haigha/transports/transport.py to transport.pyc
+byte-compiling build/bdist.linux-x86_64/egg/haigha/transports/__init__.py to __init__.pyc
+byte-compiling build/bdist.linux-x86_64/egg/haigha/transports/gevent_transport.py to gevent_transport.pyc
+byte-compiling build/bdist.linux-x86_64/egg/haigha/writer.py to writer.pyc
+byte-compiling build/bdist.linux-x86_64/egg/haigha/exceptions.py to exceptions.pyc
+creating build/bdist.linux-x86_64/egg/EGG-INFO
+copying haigha.egg-info/PKG-INFO -> build/bdist.linux-x86_64/egg/EGG-INFO
+copying haigha.egg-info/SOURCES.txt -> build/bdist.linux-x86_64/egg/EGG-INFO
+copying haigha.egg-info/dependency_links.txt -> build/bdist.linux-x86_64/egg/EGG-INFO
+copying haigha.egg-info/top_level.txt -> build/bdist.linux-x86_64/egg/EGG-INFO
+zip_safe flag not set; analyzing archive contents...
+creating dist
+creating 'dist/haigha-0.8.0-py2.7.egg' and adding 'build/bdist.linux-x86_64/egg' to it
+removing 'build/bdist.linux-x86_64/egg' (and everything under it)
+Processing haigha-0.8.0-py2.7.egg
+Copying haigha-0.8.0-py2.7.egg to /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages
+Adding haigha 0.8.0 to easy-install.pth file
+
+Installed /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/haigha-0.8.0-py2.7.egg
+Processing dependencies for haigha==0.8.0
+Finished processing dependencies for haigha==0.8.0
+
+The following NEW packages will be INSTALLED:
+
+    openssl:    1.0.1k-1     
+    pip:        7.0.3-py27_0 
+    python:     2.7.10-0     
+    readline:   6.2-2        
+    setuptools: 18.0.1-py27_0
+    sqlite:     3.8.4.1-1    
+    system:     5.8-2        
+    tk:         8.5.18-0     
+    zlib:       1.2.8-0      
+
+Linking packages ...
+[                    ]|                                                  |   0%[openssl             ]|                                                  |   0%[readline            ]|#####                                             |  11%[sqlite              ]|###########                                       |  22%[system              ]|################                                  |  33%[tk                  ]|######################                            |  44%[zlib                ]|###########################                       |  55%[python              ]|#################################                 |  66%[setuptools          ]|######################################            |  77%[pip                 ]|############################################      |  88%[      COMPLETE      ]|##################################################| 100%
+Removing old work directory
+Source cache directory is: /home/ubuntu/miniconda/conda-bld/src_cache
+Found source in cache: haigha-0.8.0.tar.gz
+Extracting download
+Package: haigha-0.8.0-py_0
+source tree in: /home/ubuntu/miniconda/conda-bld/work/haigha-0.8.0
+found egg: /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/haigha-0.8.0-py2.7.egg
+number of files: 2
+Fixing permissions
+Fixing permissions
+BUILD END: haigha-0.8.0-py_0
+TEST START: haigha-0.8.0-py_0
+Fetching package metadata: ......
+
+WARNING: conda-build appears to be out of date. You have version 1.13.0 but the
+latest version is 1.14.1. Run
+
+conda update -n root conda-build
+
+to get the latest version.
+
+Solving package specifications: ./home/ubuntu/miniconda/pkgs/haigha-0.8.0-py_0/bin/.haigha-pre-link.sh: line 2: /home/ubuntu/miniconda/envs/_test/bin/python: No such file or directory
+
+The following packages will be downloaded:
+
+    package                    |            build
+    ---------------------------|-----------------
+    haigha-0.8.0               |             py_0         105 KB
+
+The following NEW packages will be INSTALLED:
+
+    haigha:     0.8.0-py_0   
+    openssl:    1.0.1k-1     
+    pip:        7.0.3-py27_0 
+    python:     2.7.10-0     
+    readline:   6.2-2        
+    setuptools: 18.0.1-py27_0
+    sqlite:     3.8.4.1-1    
+    system:     5.8-2        
+    tk:         8.5.18-0     
+    zlib:       1.2.8-0      
+
+Fetching packages ...
+haigha-0.8.0-p   0% |                              | ETA:  --:--:--   0.00  B/shaigha-0.8.0-p  15% |####                           | ETA:  0:00:00  47.36 MB/shaigha-0.8.0-p  30% |#########                      | ETA:  0:00:00  59.47 MB/shaigha-0.8.0-p  45% |##############                 | ETA:  0:00:00  66.33 MB/shaigha-0.8.0-p  60% |##################             | ETA:  0:00:00  70.55 MB/shaigha-0.8.0-p  75% |#######################        | ETA:  0:00:00   8.84 MB/shaigha-0.8.0-p  91% |############################   | ETA:  0:00:00  10.40 MB/shaigha-0.8.0-p 100% |###############################| ETA:  0:00:00  11.23 MB/shaigha-0.8.0-p 100% |###############################| Time: 0:00:00  10.96 MB/s
+Extracting packages ...
+[      COMPLETE      ]|                                                  |   0%[haigha              ]|                                                  |   0%[haigha              ]|                                                  |   0%[      COMPLETE      ]|##################################################| 100%
+Linking packages ...
+[      COMPLETE      ]|                                                  |   0%[openssl             ]|                                                  |   0%[openssl             ]|                                                  |   0%[readline            ]|#####                                             |  10%[sqlite              ]|##########                                        |  20%[system              ]|###############                                   |  30%[tk                  ]|####################                              |  40%[zlib                ]|#########################                         |  50%[haigha              ]|##############################                    |  60%Error: pre-link failed: haigha-0.8.0-py_0

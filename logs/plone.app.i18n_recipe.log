@@ -1,0 +1,93 @@
+Warning, the following versions were found for plone.app.i18n
+3.0.0
+2.0.3
+2.0.2
+2.0.1
+2.0
+2.0b1
+1.0.8
+1.0.7
+1.0.6
+1.0.5
+1.0.4
+1.0.3
+1.0.2
+1.0.1
+1.0
+1.0rc1
+1.0b3
+1.0b2
+1.0b1
+Using 3.0.0
+Use --version to specify a different version.
+Using url https://pypi.python.org/packages/source/p/plone.app.i18n/plone.app.i18n-3.0.0.zip (27 KB) for plone.app.i18n.
+Downloading plone.app.i18n
+Using cached download
+Unpacking plone.app.i18n...
+done
+working in /tmp/tmpb0bZgiconda_skeleton_plone.app.i18n-3.0.0.zip
+Fetching package metadata: ......
+
+WARNING: conda-build appears to be out of date. You have version 1.13.0 but the
+latest version is 1.14.1. Run
+
+conda update -n root conda-build
+
+to get the latest version.
+
+Solving package specifications: .patching file core.py
+Hunk #1 succeeded at 168 with fuzz 2 (offset 2 lines).
+
+WARNING: conda-build appears to be out of date. You have version 1.13.0 but the
+latest version is 1.14.1. Run
+
+conda update -n root conda-build
+
+to get the latest version.
+
+
+The following NEW packages will be INSTALLED:
+
+    numpy:  1.9.2-py27_0
+    pyyaml: 3.11-py27_1 
+    yaml:   0.1.6-0     
+
+Linking packages ...
+[                    ]|                                                  |   0%[yaml                ]|                                                  |   0%[numpy               ]|################                                  |  33%[pyyaml              ]|#################################                 |  66%[      COMPLETE      ]|##################################################| 100%
+Applying patch: '/tmp/tmpb0bZgiconda_skeleton_plone.app.i18n-3.0.0.zip/pypi-distutils.patch'
+Warning, the following versions were found for plone.app.testing
+5.0b4
+5.0b3
+5.0b2
+5.0b1
+5.0a2
+5.0a1
+4.2.5
+4.2.4
+4.2.3
+4.2.2
+4.2.1
+4.2
+4.0.2
+4.0.1
+4.0
+4.0a6
+4.0a5
+4.0a4
+4.0a3
+3.0a1
+1.0a2
+1.0a1
+Using 5.0b4
+Use --version to specify a different version.
+Using url https://pypi.python.org/packages/source/p/plone.app.testing/plone.app.testing-5.0b4.tar.gz (80 KB) for plone.app.testing.
+Downloading plone.app.testing
+Using cached download
+Unpacking plone.app.testing...
+done
+working in /tmp/tmpXpthrgconda_skeleton_plone.app.testing-5.0b4.tar.gz
+Solving package specifications: .patching file core.py
+Hunk #1 succeeded at 168 with fuzz 2 (offset 2 lines).
+
+Applying patch: '/tmp/tmpXpthrgconda_skeleton_plone.app.testing-5.0b4.tar.gz/pypi-distutils.patch'
+Error: Could not parse: plone.testing [zca,security,zodb,z2]

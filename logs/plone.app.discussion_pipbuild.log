@@ -1,0 +1,94 @@
+Removing old build directory
+Removing old work directory
+BUILD START: collective.monkeypatcher-1.1.1-py27_0
+Fetching package metadata: ......
+
+WARNING: conda-build appears to be out of date. You have version 1.13.0 but the
+latest version is 1.14.1. Run
+
+conda update -n root conda-build
+
+to get the latest version.
+
+Solving package specifications: .+ pip install collective.monkeypatcher
+Collecting collective.monkeypatcher
+  Downloading http://localhost/packages/source/c/collective.monkeypatcher/collective.monkeypatcher-1.1.1.zip
+Requirement already satisfied (use --upgrade to upgrade): setuptools in /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages (from collective.monkeypatcher)
+Installing collected packages: collective.monkeypatcher
+  Running setup.py install for collective.monkeypatcher
+Successfully installed collective.monkeypatcher-1.1.1
+
+The following NEW packages will be INSTALLED:
+
+    openssl:    1.0.1k-1     
+    pip:        7.0.3-py27_0 
+    python:     2.7.10-0     
+    readline:   6.2-2        
+    setuptools: 18.0.1-py27_0
+    sqlite:     3.8.4.1-1    
+    system:     5.8-2        
+    tk:         8.5.18-0     
+    zlib:       1.2.8-0      
+
+Linking packages ...
+[                    ]|                                                  |   0%[openssl             ]|                                                  |   0%[readline            ]|#####                                             |  11%[sqlite              ]|###########                                       |  22%[system              ]|################                                  |  33%[tk                  ]|######################                            |  44%[zlib                ]|###########################                       |  55%[python              ]|#################################                 |  66%[setuptools          ]|######################################            |  77%[pip                 ]|############################################      |  88%[      COMPLETE      ]|##################################################| 100%
+Removing old work directory
+Copying /home/ubuntu/pypi-conda-builds/collective.monkeypatcher to /home/ubuntu/miniconda/conda-bld/work
+Package: collective.monkeypatcher-1.1.1-py27_0
+source tree in: /home/ubuntu/miniconda/conda-bld/work
+number of files: 26
+Fixing permissions
+Fixing permissions
+BUILD END: collective.monkeypatcher-1.1.1-py27_0
+# If you want to upload this package to binstar.org later, type:
+#
+# $ binstar upload /home/ubuntu/miniconda/conda-bld/linux-64/collective.monkeypatcher-1.1.1-py27_0.tar.bz2
+#
+# To have conda build upload to binstar automatically, use
+# $ conda config --set binstar_upload yes
+
+Error: prefix already exists: /home/ubuntu/miniconda/envs/_pipbuild_
+Exception:
+Traceback (most recent call last):
+  File "/home/ubuntu/miniconda/envs/_pipbuild_/lib/python2.7/site-packages/pip/basecommand.py", line 223, in main
+    status = self.run(options, args)
+  File "/home/ubuntu/miniconda/envs/_pipbuild_/lib/python2.7/site-packages/pip/commands/install.py", line 268, in run
+    wheel_cache
+  File "/home/ubuntu/miniconda/envs/_pipbuild_/lib/python2.7/site-packages/pip/basecommand.py", line 268, in populate_requirement_set
+    wheel_cache=wheel_cache
+  File "/home/ubuntu/miniconda/envs/_pipbuild_/lib/python2.7/site-packages/pip/req/req_install.py", line 207, in from_line
+    wheel_cache=wheel_cache)
+  File "/home/ubuntu/miniconda/envs/_pipbuild_/lib/python2.7/site-packages/pip/req/req_install.py", line 66, in __init__
+    req = pkg_resources.Requirement.parse(req)
+  File "/home/ubuntu/miniconda/envs/_pipbuild_/lib/python2.7/site-packages/pip/_vendor/pkg_resources/__init__.py", line 2960, in parse
+    reqs = list(parse_requirements(s))
+  File "/home/ubuntu/miniconda/envs/_pipbuild_/lib/python2.7/site-packages/pip/_vendor/pkg_resources/__init__.py", line 2904, in parse_requirements
+    "version spec")
+  File "/home/ubuntu/miniconda/envs/_pipbuild_/lib/python2.7/site-packages/pip/_vendor/pkg_resources/__init__.py", line 2869, in scan_list
+    raise ValueError(msg, line, "at", line[p:])
+ValueError: ('Expected version spec in', 'extensionclass==>=4.1.1', 'at', '==>=4.1.1')
+
+Package search: {'_pypi_ordering': False, 'version': '1.1.4', 'name': 'plone.app.discussion', 'summary': 'Enhanced discussion support for Plone'}
+Creating standard recipe for plone.app.discussion-2.4.3
+Converting recipe in /home/ubuntu/pypi-conda-builds/plone.app.discussion
+package = plone.app.discussion
+   dependencies = [u'collective.monkeypatcher', u'plone.app.layout', u'plone.app.registry', u'plone.app.uuid', u'plone.app.z3cform', u'plone.indexer', u'plone.registry', u'plone.z3cform', u'products.cmfplone', u'zodb3', u'zope.interface', u'zope.component', u'zope.annotation', u'zope.event', u'zope.container', u'zope.lifecycleevent', u'zope.site', u'z3c.form >=2.3.3']
+Creating standard recipe for collective.monkeypatcher
+Converting recipe in /home/ubuntu/pypi-conda-builds/collective.monkeypatcher
+package = collective.monkeypatcher
+   dependencies = []
+Building conda package for collective.monkeypatcher
+Creating standard recipe for plone.app.layout
+Converting recipe in /home/ubuntu/pypi-conda-builds/plone.app.layout
+package = plone.app.layout
+   dependencies = [u'acquisition', u'datetime', u'plone.app.content', u'plone.app.portlets', u'plone.app.viewletmanager >=1.2', u'plone.i18n', u'plone.memoize', u'plone.portlets', u'plone.registry', u'products.cmfcore', u'products.cmfdynamicviewfti', u'products.cmfeditions >=1.2.2', u'products.cmfplone >=4.3', u'zope.component', u'zope.deprecation', u'zope.dottedname', u'zope.i18n', u'zope.interface', u'zope.publisher', u'zope.schema', u'zope.viewlet', u'zope2']
+Creating standard recipe for acquisition
+Converting recipe in /home/ubuntu/pypi-conda-builds/acquisition
+package = acquisition
+   dependencies = [u'extensionclass >=4.1.1', u'zope.interface']
+Creating standard recipe for extensionclass->=4.1.1
+Error: Version >=4.1.1 of extensionclass is not available on PyPI.
+
+conda create -n _pipbuild_ --yes python pip
+/home/ubuntu/miniconda/envs/_pipbuild_/bin/pip install extensionclass==>=4.1.1
+Error: Could not pip install extensionclass==>=4.1.1

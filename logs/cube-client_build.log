@@ -1,0 +1,166 @@
+Removing old build directory
+Removing old work directory
+BUILD START: cube-client-0.2.0-py_0
+Fetching package metadata: ......
+
+WARNING: conda-build appears to be out of date. You have version 1.13.0 but the
+latest version is 1.14.1. Run
+
+conda update -n root conda-build
+
+to get the latest version.
+
+Solving package specifications: .+ /home/ubuntu/miniconda/envs/_build/bin/python setup.py install
+running install
+running bdist_egg
+running egg_info
+writing requirements to cube_client.egg-info/requires.txt
+writing cube_client.egg-info/PKG-INFO
+writing top-level names to cube_client.egg-info/top_level.txt
+writing dependency_links to cube_client.egg-info/dependency_links.txt
+reading manifest file 'cube_client.egg-info/SOURCES.txt'
+reading manifest template 'MANIFEST.in'
+writing manifest file 'cube_client.egg-info/SOURCES.txt'
+installing library code to build/bdist.linux-x86_64/egg
+running install_lib
+running build_py
+creating build
+creating build/lib
+creating build/lib/cube
+copying cube/event.py -> build/lib/cube
+copying cube/filters.py -> build/lib/cube
+copying cube/expression.py -> build/lib/cube
+copying cube/time_utils.py -> build/lib/cube
+copying cube/__init__.py -> build/lib/cube
+creating build/lib/cube/tests
+copying cube/tests/test_filters.py -> build/lib/cube/tests
+copying cube/tests/test_event_expression.py -> build/lib/cube/tests
+copying cube/tests/test_metric_expression.py -> build/lib/cube/tests
+copying cube/tests/__init__.py -> build/lib/cube/tests
+copying cube/tests/test_compound_metric_expression.py -> build/lib/cube/tests
+copying cube/tests/test_time_utils.py -> build/lib/cube/tests
+creating build/bdist.linux-x86_64
+creating build/bdist.linux-x86_64/egg
+creating build/bdist.linux-x86_64/egg/cube
+copying build/lib/cube/event.py -> build/bdist.linux-x86_64/egg/cube
+copying build/lib/cube/filters.py -> build/bdist.linux-x86_64/egg/cube
+copying build/lib/cube/expression.py -> build/bdist.linux-x86_64/egg/cube
+creating build/bdist.linux-x86_64/egg/cube/tests
+copying build/lib/cube/tests/test_filters.py -> build/bdist.linux-x86_64/egg/cube/tests
+copying build/lib/cube/tests/test_event_expression.py -> build/bdist.linux-x86_64/egg/cube/tests
+copying build/lib/cube/tests/test_metric_expression.py -> build/bdist.linux-x86_64/egg/cube/tests
+copying build/lib/cube/tests/__init__.py -> build/bdist.linux-x86_64/egg/cube/tests
+copying build/lib/cube/tests/test_compound_metric_expression.py -> build/bdist.linux-x86_64/egg/cube/tests
+copying build/lib/cube/tests/test_time_utils.py -> build/bdist.linux-x86_64/egg/cube/tests
+copying build/lib/cube/time_utils.py -> build/bdist.linux-x86_64/egg/cube
+copying build/lib/cube/__init__.py -> build/bdist.linux-x86_64/egg/cube
+byte-compiling build/bdist.linux-x86_64/egg/cube/event.py to event.pyc
+byte-compiling build/bdist.linux-x86_64/egg/cube/filters.py to filters.pyc
+byte-compiling build/bdist.linux-x86_64/egg/cube/expression.py to expression.pyc
+byte-compiling build/bdist.linux-x86_64/egg/cube/tests/test_filters.py to test_filters.pyc
+byte-compiling build/bdist.linux-x86_64/egg/cube/tests/test_event_expression.py to test_event_expression.pyc
+byte-compiling build/bdist.linux-x86_64/egg/cube/tests/test_metric_expression.py to test_metric_expression.pyc
+byte-compiling build/bdist.linux-x86_64/egg/cube/tests/__init__.py to __init__.pyc
+byte-compiling build/bdist.linux-x86_64/egg/cube/tests/test_compound_metric_expression.py to test_compound_metric_expression.pyc
+byte-compiling build/bdist.linux-x86_64/egg/cube/tests/test_time_utils.py to test_time_utils.pyc
+byte-compiling build/bdist.linux-x86_64/egg/cube/time_utils.py to time_utils.pyc
+byte-compiling build/bdist.linux-x86_64/egg/cube/__init__.py to __init__.pyc
+creating build/bdist.linux-x86_64/egg/EGG-INFO
+copying cube_client.egg-info/PKG-INFO -> build/bdist.linux-x86_64/egg/EGG-INFO
+copying cube_client.egg-info/SOURCES.txt -> build/bdist.linux-x86_64/egg/EGG-INFO
+copying cube_client.egg-info/dependency_links.txt -> build/bdist.linux-x86_64/egg/EGG-INFO
+copying cube_client.egg-info/not-zip-safe -> build/bdist.linux-x86_64/egg/EGG-INFO
+copying cube_client.egg-info/requires.txt -> build/bdist.linux-x86_64/egg/EGG-INFO
+copying cube_client.egg-info/top_level.txt -> build/bdist.linux-x86_64/egg/EGG-INFO
+creating dist
+creating 'dist/cube_client-0.2.0-py2.7.egg' and adding 'build/bdist.linux-x86_64/egg' to it
+removing 'build/bdist.linux-x86_64/egg' (and everything under it)
+Processing cube_client-0.2.0-py2.7.egg
+creating /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/cube_client-0.2.0-py2.7.egg
+Extracting cube_client-0.2.0-py2.7.egg to /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages
+Adding cube-client 0.2.0 to easy-install.pth file
+
+Installed /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/cube_client-0.2.0-py2.7.egg
+Processing dependencies for cube-client==0.2.0
+Searching for requests==2.7.0
+Best match: requests 2.7.0
+Adding requests 2.7.0 to easy-install.pth file
+
+Using /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages
+Finished processing dependencies for cube-client==0.2.0
+
+The following NEW packages will be INSTALLED:
+
+    openssl:    1.0.1k-1     
+    pip:        7.0.3-py27_0 
+    python:     2.7.10-0     
+    readline:   6.2-2        
+    requests:   2.7.0-py27_0 
+    setuptools: 18.0.1-py27_0
+    sqlite:     3.8.4.1-1    
+    system:     5.8-2        
+    tk:         8.5.18-0     
+    zlib:       1.2.8-0      
+
+Linking packages ...
+[                    ]|                                                  |   0%[openssl             ]|                                                  |   0%[readline            ]|#####                                             |  10%[sqlite              ]|##########                                        |  20%[system              ]|###############                                   |  30%[tk                  ]|####################                              |  40%[zlib                ]|#########################                         |  50%[python              ]|##############################                    |  60%[requests            ]|###################################               |  70%[setuptools          ]|########################################          |  80%[pip                 ]|#############################################     |  90%[      COMPLETE      ]|##################################################| 100%
+Removing old work directory
+Source cache directory is: /home/ubuntu/miniconda/conda-bld/src_cache
+Found source in cache: cube-client-0.2.0.tar.gz
+Extracting download
+Package: cube-client-0.2.0-py_0
+source tree in: /home/ubuntu/miniconda/conda-bld/work/cube-client-0.2.0
+found egg dir: /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/cube_client-0.2.0-py2.7.egg
+number of files: 23
+Fixing permissions
+Fixing permissions
+BUILD END: cube-client-0.2.0-py_0
+TEST START: cube-client-0.2.0-py_0
+Fetching package metadata: ......
+
+WARNING: conda-build appears to be out of date. You have version 1.13.0 but the
+latest version is 1.14.1. Run
+
+conda update -n root conda-build
+
+to get the latest version.
+
+Solving package specifications: .===== testing package: cube-client-0.2.0-py_0 =====
+import: u'cube'
+import: u'cube.tests'
+===== cube-client-0.2.0-py_0 OK =====
+
+The following packages will be downloaded:
+
+    package                    |            build
+    ---------------------------|-----------------
+    cube-client-0.2.0          |             py_0           9 KB
+
+The following NEW packages will be INSTALLED:
+
+    cube-client: 0.2.0-py_0   
+    openssl:     1.0.1k-1     
+    pip:         7.0.3-py27_0 
+    python:      2.7.10-0     
+    readline:    6.2-2        
+    requests:    2.7.0-py27_0 
+    setuptools:  18.0.1-py27_0
+    sqlite:      3.8.4.1-1    
+    system:      5.8-2        
+    tk:          8.5.18-0     
+    zlib:        1.2.8-0      
+
+Fetching packages ...
+cube-client-0.   0% |                              | ETA:  --:--:--   0.00  B/scube-client-0. 100% |###############################| ETA:  0:00:00  29.14 MB/scube-client-0. 100% |###############################| Time: 0:00:00  16.36 MB/s
+Extracting packages ...
+[      COMPLETE      ]|                                                  |   0%[cube-client         ]|                                                  |   0%[cube-client         ]|                                                  |   0%[      COMPLETE      ]|##################################################| 100%
+Linking packages ...
+[      COMPLETE      ]|                                                  |   0%[openssl             ]|                                                  |   0%[openssl             ]|                                                  |   0%[readline            ]|####                                              |   9%[sqlite              ]|#########                                         |  18%[system              ]|#############                                     |  27%[tk                  ]|##################                                |  36%[zlib                ]|######################                            |  45%[python              ]|###########################                       |  54%[requests            ]|###############################                   |  63%[setuptools          ]|####################################              |  72%[cube-client         ]|########################################          |  81%[pip                 ]|#############################################     |  90%[      COMPLETE      ]|##################################################| 100%
+TEST END: cube-client-0.2.0-py_0
+# If you want to upload this package to binstar.org later, type:
+#
+# $ binstar upload /home/ubuntu/miniconda/conda-bld/noarch/cube-client-0.2.0-py_0.tar.bz2
+#
+# To have conda build upload to binstar automatically, use
+# $ conda config --set binstar_upload yes
+

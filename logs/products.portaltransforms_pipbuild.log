@@ -1,0 +1,201 @@
+Removing old build directory
+Removing old work directory
+BUILD START: plone.intelligenttext-2.0.3-py27_0
+Fetching package metadata: ......
+
+WARNING: conda-build appears to be out of date. You have version 1.13.0 but the
+latest version is 1.14.1. Run
+
+conda update -n root conda-build
+
+to get the latest version.
+
+Solving package specifications: .+ pip install plone.intelligenttext
+Collecting plone.intelligenttext
+  Downloading http://localhost/packages/source/p/plone.intelligenttext/plone.intelligenttext-2.0.3.tar.gz
+Requirement already satisfied (use --upgrade to upgrade): setuptools in /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages (from plone.intelligenttext)
+Installing collected packages: plone.intelligenttext
+  Running setup.py install for plone.intelligenttext
+Successfully installed plone.intelligenttext-2.0.3
+
+The following NEW packages will be INSTALLED:
+
+    openssl:    1.0.1k-1     
+    pip:        7.0.3-py27_0 
+    python:     2.7.10-0     
+    readline:   6.2-2        
+    setuptools: 18.0.1-py27_0
+    sqlite:     3.8.4.1-1    
+    system:     5.8-2        
+    tk:         8.5.18-0     
+    zlib:       1.2.8-0      
+
+Linking packages ...
+[                    ]|                                                  |   0%[openssl             ]|                                                  |   0%[readline            ]|#####                                             |  11%[sqlite              ]|###########                                       |  22%[system              ]|################                                  |  33%[tk                  ]|######################                            |  44%[zlib                ]|###########################                       |  55%[python              ]|#################################                 |  66%[setuptools          ]|######################################            |  77%[pip                 ]|############################################      |  88%[      COMPLETE      ]|##################################################| 100%
+Removing old work directory
+Copying /home/ubuntu/pypi-conda-builds/plone.intelligenttext to /home/ubuntu/miniconda/conda-bld/work
+Package: plone.intelligenttext-2.0.3-py27_0
+source tree in: /home/ubuntu/miniconda/conda-bld/work
+number of files: 16
+Fixing permissions
+Fixing permissions
+BUILD END: plone.intelligenttext-2.0.3-py27_0
+# If you want to upload this package to binstar.org later, type:
+#
+# $ binstar upload /home/ubuntu/miniconda/conda-bld/linux-64/plone.intelligenttext-2.0.3-py27_0.tar.bz2
+#
+# To have conda build upload to binstar automatically, use
+# $ conda config --set binstar_upload yes
+
+Removing old build directory
+Removing old work directory
+BUILD START: zope.interface-4.1.2-py27_0
+Fetching package metadata: ......
+
+WARNING: conda-build appears to be out of date. You have version 1.13.0 but the
+latest version is 1.14.1. Run
+
+conda update -n root conda-build
+
+to get the latest version.
+
+Solving package specifications: .+ pip install zope.interface
+Collecting zope.interface
+  Downloading http://localhost/packages/source/z/zope.interface/zope.interface-4.1.2.tar.gz (919kB)
+Requirement already satisfied (use --upgrade to upgrade): setuptools in /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages (from zope.interface)
+Installing collected packages: zope.interface
+  Running setup.py install for zope.interface
+Successfully installed zope.interface-4.1.2
+
+The following NEW packages will be INSTALLED:
+
+    openssl:    1.0.1k-1     
+    pip:        7.0.3-py27_0 
+    python:     2.7.10-0     
+    readline:   6.2-2        
+    setuptools: 18.0.1-py27_0
+    sqlite:     3.8.4.1-1    
+    system:     5.8-2        
+    tk:         8.5.18-0     
+    zlib:       1.2.8-0      
+
+Linking packages ...
+[                    ]|                                                  |   0%[openssl             ]|                                                  |   0%[readline            ]|#####                                             |  11%[sqlite              ]|###########                                       |  22%[system              ]|################                                  |  33%[tk                  ]|######################                            |  44%[zlib                ]|###########################                       |  55%[python              ]|#################################                 |  66%[setuptools          ]|######################################            |  77%[pip                 ]|############################################      |  88%[      COMPLETE      ]|##################################################| 100%
+Removing old work directory
+Copying /home/ubuntu/pypi-conda-builds/zope.interface to /home/ubuntu/miniconda/conda-bld/work
+Package: zope.interface-4.1.2-py27_0
+source tree in: /home/ubuntu/miniconda/conda-bld/work
+number of files: 99
+Fixing permissions
+patchelf: file: /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/zope/interface/_zope_interface_coptimizations.so
+    setting rpath to: $ORIGIN/../../../..
+Ignored hard-coded path in lib/python2.7/site-packages/zope/interface/_zope_interface_coptimizations.so
+Fixing permissions
+BUILD END: zope.interface-4.1.2-py27_0
+# If you want to upload this package to binstar.org later, type:
+#
+# $ binstar upload /home/ubuntu/miniconda/conda-bld/linux-64/zope.interface-4.1.2-py27_0.tar.bz2
+#
+# To have conda build upload to binstar automatically, use
+# $ conda config --set binstar_upload yes
+
+Removing old build directory
+Removing old work directory
+BUILD START: zope.structuredtext-4.1.0-py27_0
+Fetching package metadata: ......
+
+WARNING: conda-build appears to be out of date. You have version 1.13.0 but the
+latest version is 1.14.1. Run
+
+conda update -n root conda-build
+
+to get the latest version.
+
+Solving package specifications: .+ pip install zope.structuredtext
+Collecting zope.structuredtext
+  Downloading http://localhost/packages/source/z/zope.structuredtext/zope.structuredtext-4.1.0.tar.gz (55kB)
+Requirement already satisfied (use --upgrade to upgrade): setuptools in /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages (from zope.structuredtext)
+Installing collected packages: zope.structuredtext
+  Running setup.py install for zope.structuredtext
+Successfully installed zope.structuredtext-4.1.0
+
+The following NEW packages will be INSTALLED:
+
+    openssl:    1.0.1k-1     
+    pip:        7.0.3-py27_0 
+    python:     2.7.10-0     
+    readline:   6.2-2        
+    setuptools: 18.0.1-py27_0
+    sqlite:     3.8.4.1-1    
+    system:     5.8-2        
+    tk:         8.5.18-0     
+    zlib:       1.2.8-0      
+
+Linking packages ...
+[                    ]|                                                  |   0%[openssl             ]|                                                  |   0%[readline            ]|#####                                             |  11%[sqlite              ]|###########                                       |  22%[system              ]|################                                  |  33%[tk                  ]|######################                            |  44%[zlib                ]|###########################                       |  55%[python              ]|#################################                 |  66%[setuptools          ]|######################################            |  77%[pip                 ]|############################################      |  88%[      COMPLETE      ]|##################################################| 100%
+Removing old work directory
+Copying /home/ubuntu/pypi-conda-builds/zope.structuredtext to /home/ubuntu/miniconda/conda-bld/work
+Package: zope.structuredtext-4.1.0-py27_0
+source tree in: /home/ubuntu/miniconda/conda-bld/work
+number of files: 43
+Fixing permissions
+Fixing permissions
+BUILD END: zope.structuredtext-4.1.0-py27_0
+# If you want to upload this package to binstar.org later, type:
+#
+# $ binstar upload /home/ubuntu/miniconda/conda-bld/linux-64/zope.structuredtext-4.1.0-py27_0.tar.bz2
+#
+# To have conda build upload to binstar automatically, use
+# $ conda config --set binstar_upload yes
+
+Error: prefix already exists: /home/ubuntu/miniconda/envs/_pipbuild_
+Exception:
+Traceback (most recent call last):
+  File "/home/ubuntu/miniconda/envs/_pipbuild_/lib/python2.7/site-packages/pip/basecommand.py", line 223, in main
+    status = self.run(options, args)
+  File "/home/ubuntu/miniconda/envs/_pipbuild_/lib/python2.7/site-packages/pip/commands/install.py", line 268, in run
+    wheel_cache
+  File "/home/ubuntu/miniconda/envs/_pipbuild_/lib/python2.7/site-packages/pip/basecommand.py", line 268, in populate_requirement_set
+    wheel_cache=wheel_cache
+  File "/home/ubuntu/miniconda/envs/_pipbuild_/lib/python2.7/site-packages/pip/req/req_install.py", line 207, in from_line
+    wheel_cache=wheel_cache)
+  File "/home/ubuntu/miniconda/envs/_pipbuild_/lib/python2.7/site-packages/pip/req/req_install.py", line 66, in __init__
+    req = pkg_resources.Requirement.parse(req)
+  File "/home/ubuntu/miniconda/envs/_pipbuild_/lib/python2.7/site-packages/pip/_vendor/pkg_resources/__init__.py", line 2960, in parse
+    reqs = list(parse_requirements(s))
+  File "/home/ubuntu/miniconda/envs/_pipbuild_/lib/python2.7/site-packages/pip/_vendor/pkg_resources/__init__.py", line 2904, in parse_requirements
+    "version spec")
+  File "/home/ubuntu/miniconda/envs/_pipbuild_/lib/python2.7/site-packages/pip/_vendor/pkg_resources/__init__.py", line 2869, in scan_list
+    raise ValueError(msg, line, "at", line[p:])
+ValueError: ('Expected version spec in', 'zope2==>=2.13.12', 'at', '==>=2.13.12')
+
+Package search: {'_pypi_ordering': False, 'version': '2.1.7', 'name': 'Products.PortalTransforms', 'summary': 'MIME based content transformations'}
+Creating standard recipe for products.portaltransforms-2.1.7
+Converting recipe in /home/ubuntu/pypi-conda-builds/products.portaltransforms
+package = Products.PortalTransforms
+   dependencies = [u'plone.intelligenttext', u'zope.interface', u'zope.structuredtext', u'products.cmfcore', u'products.mimetypesregistry', u'acquisition', u'zodb3', u'zope2', u'markdown >=1.7']
+Creating standard recipe for plone.intelligenttext
+Converting recipe in /home/ubuntu/pypi-conda-builds/plone.intelligenttext
+package = plone.intelligenttext
+   dependencies = []
+Building conda package for plone.intelligenttext
+Creating standard recipe for zope.interface
+Converting recipe in /home/ubuntu/pypi-conda-builds/zope.interface
+package = zope.interface
+   dependencies = []
+Building conda package for zope.interface
+Creating standard recipe for zope.structuredtext
+Converting recipe in /home/ubuntu/pypi-conda-builds/zope.structuredtext
+package = zope.structuredtext
+   dependencies = []
+Building conda package for zope.structuredtext
+Creating standard recipe for products.cmfcore
+Converting recipe in /home/ubuntu/pypi-conda-builds/products.cmfcore
+package = products.cmfcore
+   dependencies = [u'zope2 >=2.13.12', u'five.globalrequest', u'five.localsitemanager', u'products.btreefolder2', u'products.genericsetup', u'products.mailhost', u'products.pythonscripts', u'products.zsqlmethods']
+Creating standard recipe for zope2->=2.13.12
+Error: Version >=2.13.12 of zope2 is not available on PyPI.
+
+conda create -n _pipbuild_ --yes python pip
+/home/ubuntu/miniconda/envs/_pipbuild_/bin/pip install zope2==>=2.13.12
+Error: Could not pip install zope2==>=2.13.12

@@ -2,6 +2,14 @@ Removing old build directory
 Removing old work directory
 BUILD START: mako-1.0.1-py_0
 Fetching package metadata: ......
+
+WARNING: conda-build appears to be out of date. You have version 1.13.0 but the
+latest version is 1.14.1. Run
+
+conda update -n root conda-build
+
+to get the latest version.
+
 Solving package specifications: .+ /home/ubuntu/miniconda/envs/_build/bin/python setup.py install
 running install
 running bdist_egg
@@ -136,16 +144,16 @@ Finished processing dependencies for Mako==1.0.1
 
 The following NEW packages will be INSTALLED:
 
-    markupsafe: 0.23-py27_0 
-    openssl:    1.0.1k-1    
-    pip:        7.0.3-py27_0
-    python:     2.7.10-0    
-    readline:   6.2-2       
-    setuptools: 17.0-py27_0 
-    sqlite:     3.8.4.1-1   
-    system:     5.8-2       
-    tk:         8.5.18-0    
-    zlib:       1.2.8-0     
+    markupsafe: 0.23-py27_0  
+    openssl:    1.0.1k-1     
+    pip:        7.0.3-py27_0 
+    python:     2.7.10-0     
+    readline:   6.2-2        
+    setuptools: 18.0.1-py27_0
+    sqlite:     3.8.4.1-1    
+    system:     5.8-2        
+    tk:         8.5.18-0     
+    zlib:       1.2.8-0      
 
 Linking packages ...
 [                    ]|                                                  |   0%[openssl             ]|                                                  |   0%[readline            ]|#####                                             |  10%[sqlite              ]|##########                                        |  20%[system              ]|###############                                   |  30%[tk                  ]|####################                              |  40%[zlib                ]|#########################                         |  50%[markupsafe          ]|##############################                    |  60%[python              ]|###################################               |  70%[setuptools          ]|########################################          |  80%[pip                 ]|#############################################     |  90%[      COMPLETE      ]|##################################################| 100%
@@ -161,6 +169,14 @@ Fixing permissions
 BUILD END: mako-1.0.1-py_0
 TEST START: mako-1.0.1-py_0
 Fetching package metadata: ......
+
+WARNING: conda-build appears to be out of date. You have version 1.13.0 but the
+latest version is 1.14.1. Run
+
+conda update -n root conda-build
+
+to get the latest version.
+
 Solving package specifications: .===== testing package: mako-1.0.1-py_0 =====
 import: u'mako'
 import: u'mako.ext'
@@ -190,20 +206,20 @@ The following packages will be downloaded:
 
 The following NEW packages will be INSTALLED:
 
-    mako:       1.0.1-py_0  
-    markupsafe: 0.23-py27_0 
-    openssl:    1.0.1k-1    
-    pip:        7.0.3-py27_0
-    python:     2.7.10-0    
-    readline:   6.2-2       
-    setuptools: 17.0-py27_0 
-    sqlite:     3.8.4.1-1   
-    system:     5.8-2       
-    tk:         8.5.18-0    
-    zlib:       1.2.8-0     
+    mako:       1.0.1-py_0   
+    markupsafe: 0.23-py27_0  
+    openssl:    1.0.1k-1     
+    pip:        7.0.3-py27_0 
+    python:     2.7.10-0     
+    readline:   6.2-2        
+    setuptools: 18.0.1-py27_0
+    sqlite:     3.8.4.1-1    
+    system:     5.8-2        
+    tk:         8.5.18-0     
+    zlib:       1.2.8-0      
 
 Fetching packages ...
-mako-1.0.1-py_   0% |                              | ETA:  --:--:--   0.00  B/smako-1.0.1-py_  12% |###                            | ETA:  0:00:00  44.77 MB/smako-1.0.1-py_  24% |#######                        | ETA:  0:00:00  56.79 MB/smako-1.0.1-py_  37% |###########                    | ETA:  0:00:00  63.67 MB/smako-1.0.1-py_  49% |###############                | ETA:  0:00:00  68.06 MB/smako-1.0.1-py_  62% |###################            | ETA:  0:00:00  70.87 MB/smako-1.0.1-py_  74% |#######################        | ETA:  0:00:00  73.26 MB/smako-1.0.1-py_  87% |###########################    | ETA:  0:00:00  75.16 MB/smako-1.0.1-py_  99% |############################## | ETA:  0:00:00  76.79 MB/smako-1.0.1-py_ 100% |###############################| Time: 0:00:00  65.96 MB/s
+mako-1.0.1-py_   0% |                              | ETA:  --:--:--   0.00  B/smako-1.0.1-py_  12% |###                            | ETA:  0:00:00  47.62 MB/smako-1.0.1-py_  25% |#######                        | ETA:  0:00:00  58.81 MB/smako-1.0.1-py_  37% |###########                    | ETA:  0:00:00  65.61 MB/smako-1.0.1-py_  50% |###############                | ETA:  0:00:00  69.57 MB/smako-1.0.1-py_  62% |###################            | ETA:  0:00:00  72.49 MB/smako-1.0.1-py_  75% |#######################        | ETA:  0:00:00  74.64 MB/smako-1.0.1-py_  87% |###########################    | ETA:  0:00:00  76.45 MB/smako-1.0.1-py_ 100% |###############################| ETA:  0:00:00  76.73 MB/smako-1.0.1-py_ 100% |###############################| Time: 0:00:00  67.20 MB/s
 Extracting packages ...
 [      COMPLETE      ]|                                                  |   0%[mako                ]|                                                  |   0%[mako                ]|                                                  |   0%[      COMPLETE      ]|##################################################| 100%
 Linking packages ...

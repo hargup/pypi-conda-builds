@@ -1,0 +1,71 @@
+Warning, the following versions were found for ftfy
+4.0.0
+3.4.0
+3.3.0
+3.2.0
+3.1.3
+3.1.2
+3.1.1
+3.1.0
+3.0.5
+3.0.4
+3.0.3
+3.0.2
+3.0.1
+3.0
+2.0.2
+2.0.1
+2.0
+1.0
+Using 4.0.0
+Use --version to specify a different version.
+Using url https://pypi.python.org/packages/source/f/ftfy/ftfy-4.0.0.tar.gz (30 KB) for ftfy.
+Downloading ftfy
+Unpacking ftfy...
+done
+working in /tmp/tmpTQyNRhconda_skeleton_ftfy-4.0.0.tar.gz
+Fetching package metadata: ......
+
+WARNING: conda-build appears to be out of date. You have version 1.13.0 but the
+latest version is 1.14.1. Run
+
+conda update -n root conda-build
+
+to get the latest version.
+
+Solving package specifications: .patching file core.py
+Hunk #1 succeeded at 168 with fuzz 2 (offset 2 lines).
+
+    Heads up! You're now running ftfy 4.x on Python 2.x. This is fine, but
+    here's an advance warning that you won't be able to upgrade ftfy
+    forever without upgrading Python.
+
+    The next major version of ftfy, version 5.0, will probably only work
+    on Python 3, making it easier to develop and ensure its consistency.
+
+    It's fine if you're happy with Python 2 and ftfy 4. Save yourself a
+    headache later and be sure to pin a version in your dependencies.
+    Instead of just asking for 'ftfy', you should ask for:
+
+        'ftfy >= 4, < 5'
+
+The following NEW packages will be INSTALLED:
+
+    numpy:      1.9.2-py27_0 
+    openssl:    1.0.1k-1     
+    pip:        7.0.3-py27_0 
+    python:     2.7.10-0     
+    pyyaml:     3.11-py27_1  
+    readline:   6.2-2        
+    setuptools: 18.0.1-py27_0
+    sqlite:     3.8.4.1-1    
+    system:     5.8-2        
+    tk:         8.5.18-0     
+    yaml:       0.1.6-0      
+    zlib:       1.2.8-0      
+
+Linking packages ...
+[                    ]|                                                  |   0%[openssl             ]|                                                  |   0%[readline            ]|####                                              |   8%[sqlite              ]|########                                          |  16%[system              ]|############                                      |  25%[tk                  ]|################                                  |  33%[yaml                ]|####################                              |  41%[zlib                ]|#########################                         |  50%[numpy               ]|#############################                     |  58%[python              ]|#################################                 |  66%[pyyaml              ]|#####################################             |  75%[setuptools          ]|#########################################         |  83%[pip                 ]|#############################################     |  91%[      COMPLETE      ]|##################################################| 100%
+Applying patch: '/tmp/tmpTQyNRhconda_skeleton_ftfy-4.0.0.tar.gz/pypi-distutils.patch'
+Writing recipe for ftfy
+Done

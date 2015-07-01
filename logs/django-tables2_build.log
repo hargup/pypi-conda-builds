@@ -1,0 +1,334 @@
+Removing old build directory
+Removing old work directory
+BUILD START: django-tables2-1.0.4-py_0
+Fetching package metadata: ......
+
+WARNING: conda-build appears to be out of date. You have version 1.13.0 but the
+latest version is 1.14.1. Run
+
+conda update -n root conda-build
+
+to get the latest version.
+
+Solving package specifications: .+ /home/ubuntu/miniconda/envs/_build/bin/python setup.py install
+running install
+running bdist_egg
+running egg_info
+writing requirements to django_tables2.egg-info/requires.txt
+writing django_tables2.egg-info/PKG-INFO
+writing top-level names to django_tables2.egg-info/top_level.txt
+writing dependency_links to django_tables2.egg-info/dependency_links.txt
+reading manifest file 'django_tables2.egg-info/SOURCES.txt'
+reading manifest template 'MANIFEST.in'
+warning: no files found matching 'README.rst'
+writing manifest file 'django_tables2.egg-info/SOURCES.txt'
+installing library code to build/bdist.linux-x86_64/egg
+running install_lib
+running build_py
+creating build
+creating build/lib
+creating build/lib/django_tables2
+copying django_tables2/utils.py -> build/lib/django_tables2
+copying django_tables2/config.py -> build/lib/django_tables2
+copying django_tables2/views.py -> build/lib/django_tables2
+copying django_tables2/tables.py -> build/lib/django_tables2
+copying django_tables2/rows.py -> build/lib/django_tables2
+copying django_tables2/__init__.py -> build/lib/django_tables2
+copying django_tables2/models.py -> build/lib/django_tables2
+creating build/lib/django_tables2/columns
+copying django_tables2/columns/timecolumn.py -> build/lib/django_tables2/columns
+copying django_tables2/columns/linkcolumn.py -> build/lib/django_tables2/columns
+copying django_tables2/columns/urlcolumn.py -> build/lib/django_tables2/columns
+copying django_tables2/columns/booleancolumn.py -> build/lib/django_tables2/columns
+copying django_tables2/columns/datecolumn.py -> build/lib/django_tables2/columns
+copying django_tables2/columns/datetimecolumn.py -> build/lib/django_tables2/columns
+copying django_tables2/columns/filecolumn.py -> build/lib/django_tables2/columns
+copying django_tables2/columns/__init__.py -> build/lib/django_tables2/columns
+copying django_tables2/columns/emailcolumn.py -> build/lib/django_tables2/columns
+copying django_tables2/columns/checkboxcolumn.py -> build/lib/django_tables2/columns
+copying django_tables2/columns/templatecolumn.py -> build/lib/django_tables2/columns
+copying django_tables2/columns/base.py -> build/lib/django_tables2/columns
+creating build/lib/django_tables2/templatetags
+copying django_tables2/templatetags/__init__.py -> build/lib/django_tables2/templatetags
+copying django_tables2/templatetags/django_tables2.py -> build/lib/django_tables2/templatetags
+creating build/lib/django_tables2/locale
+creating build/lib/django_tables2/locale/de
+creating build/lib/django_tables2/locale/de/LC_MESSAGES
+copying django_tables2/locale/de/LC_MESSAGES/django.mo -> build/lib/django_tables2/locale/de/LC_MESSAGES
+copying django_tables2/locale/de/LC_MESSAGES/django.po -> build/lib/django_tables2/locale/de/LC_MESSAGES
+creating build/lib/django_tables2/locale/el
+creating build/lib/django_tables2/locale/el/LC_MESSAGES
+copying django_tables2/locale/el/LC_MESSAGES/django.mo -> build/lib/django_tables2/locale/el/LC_MESSAGES
+copying django_tables2/locale/el/LC_MESSAGES/django.po -> build/lib/django_tables2/locale/el/LC_MESSAGES
+creating build/lib/django_tables2/locale/en
+creating build/lib/django_tables2/locale/en/LC_MESSAGES
+copying django_tables2/locale/en/LC_MESSAGES/django.mo -> build/lib/django_tables2/locale/en/LC_MESSAGES
+copying django_tables2/locale/en/LC_MESSAGES/django.po -> build/lib/django_tables2/locale/en/LC_MESSAGES
+creating build/lib/django_tables2/locale/es
+creating build/lib/django_tables2/locale/es/LC_MESSAGES
+copying django_tables2/locale/es/LC_MESSAGES/django.mo -> build/lib/django_tables2/locale/es/LC_MESSAGES
+copying django_tables2/locale/es/LC_MESSAGES/django.po -> build/lib/django_tables2/locale/es/LC_MESSAGES
+creating build/lib/django_tables2/locale/fr
+creating build/lib/django_tables2/locale/fr/LC_MESSAGES
+copying django_tables2/locale/fr/LC_MESSAGES/django.mo -> build/lib/django_tables2/locale/fr/LC_MESSAGES
+copying django_tables2/locale/fr/LC_MESSAGES/django.po -> build/lib/django_tables2/locale/fr/LC_MESSAGES
+creating build/lib/django_tables2/locale/pl
+creating build/lib/django_tables2/locale/pl/LC_MESSAGES
+copying django_tables2/locale/pl/LC_MESSAGES/django.mo -> build/lib/django_tables2/locale/pl/LC_MESSAGES
+copying django_tables2/locale/pl/LC_MESSAGES/django.po -> build/lib/django_tables2/locale/pl/LC_MESSAGES
+creating build/lib/django_tables2/locale/pt_BR
+creating build/lib/django_tables2/locale/pt_BR/LC_MESSAGES
+copying django_tables2/locale/pt_BR/LC_MESSAGES/django.mo -> build/lib/django_tables2/locale/pt_BR/LC_MESSAGES
+copying django_tables2/locale/pt_BR/LC_MESSAGES/django.po -> build/lib/django_tables2/locale/pt_BR/LC_MESSAGES
+creating build/lib/django_tables2/locale/pt_PT
+creating build/lib/django_tables2/locale/pt_PT/LC_MESSAGES
+copying django_tables2/locale/pt_PT/LC_MESSAGES/django.mo -> build/lib/django_tables2/locale/pt_PT/LC_MESSAGES
+copying django_tables2/locale/pt_PT/LC_MESSAGES/django.po -> build/lib/django_tables2/locale/pt_PT/LC_MESSAGES
+creating build/lib/django_tables2/locale/ru
+creating build/lib/django_tables2/locale/ru/LC_MESSAGES
+copying django_tables2/locale/ru/LC_MESSAGES/django.mo -> build/lib/django_tables2/locale/ru/LC_MESSAGES
+copying django_tables2/locale/ru/LC_MESSAGES/django.po -> build/lib/django_tables2/locale/ru/LC_MESSAGES
+creating build/lib/django_tables2/locale/sv
+creating build/lib/django_tables2/locale/sv/LC_MESSAGES
+copying django_tables2/locale/sv/LC_MESSAGES/django.mo -> build/lib/django_tables2/locale/sv/LC_MESSAGES
+copying django_tables2/locale/sv/LC_MESSAGES/django.po -> build/lib/django_tables2/locale/sv/LC_MESSAGES
+creating build/lib/django_tables2/locale/uk
+creating build/lib/django_tables2/locale/uk/LC_MESSAGES
+copying django_tables2/locale/uk/LC_MESSAGES/django.mo -> build/lib/django_tables2/locale/uk/LC_MESSAGES
+copying django_tables2/locale/uk/LC_MESSAGES/django.po -> build/lib/django_tables2/locale/uk/LC_MESSAGES
+creating build/lib/django_tables2/static
+creating build/lib/django_tables2/static/django_tables2
+creating build/lib/django_tables2/static/django_tables2/themes
+creating build/lib/django_tables2/static/django_tables2/themes/paleblue
+creating build/lib/django_tables2/static/django_tables2/themes/paleblue/css
+copying django_tables2/static/django_tables2/themes/paleblue/css/screen.css -> build/lib/django_tables2/static/django_tables2/themes/paleblue/css
+creating build/lib/django_tables2/static/django_tables2/themes/paleblue/img
+copying django_tables2/static/django_tables2/themes/paleblue/img/arrow-active-down.png -> build/lib/django_tables2/static/django_tables2/themes/paleblue/img
+copying django_tables2/static/django_tables2/themes/paleblue/img/arrow-active-up.png -> build/lib/django_tables2/static/django_tables2/themes/paleblue/img
+copying django_tables2/static/django_tables2/themes/paleblue/img/arrow-inactive-down.png -> build/lib/django_tables2/static/django_tables2/themes/paleblue/img
+copying django_tables2/static/django_tables2/themes/paleblue/img/arrow-inactive-up.png -> build/lib/django_tables2/static/django_tables2/themes/paleblue/img
+copying django_tables2/static/django_tables2/themes/paleblue/img/false.gif -> build/lib/django_tables2/static/django_tables2/themes/paleblue/img
+copying django_tables2/static/django_tables2/themes/paleblue/img/header-bg.png -> build/lib/django_tables2/static/django_tables2/themes/paleblue/img
+copying django_tables2/static/django_tables2/themes/paleblue/img/missing.png -> build/lib/django_tables2/static/django_tables2/themes/paleblue/img
+copying django_tables2/static/django_tables2/themes/paleblue/img/pagination-bg.gif -> build/lib/django_tables2/static/django_tables2/themes/paleblue/img
+copying django_tables2/static/django_tables2/themes/paleblue/img/true.gif -> build/lib/django_tables2/static/django_tables2/themes/paleblue/img
+creating build/lib/django_tables2/templates
+creating build/lib/django_tables2/templates/django_tables2
+copying django_tables2/templates/django_tables2/table.html -> build/lib/django_tables2/templates/django_tables2
+creating build/bdist.linux-x86_64
+creating build/bdist.linux-x86_64/egg
+creating build/bdist.linux-x86_64/egg/django_tables2
+creating build/bdist.linux-x86_64/egg/django_tables2/columns
+copying build/lib/django_tables2/columns/timecolumn.py -> build/bdist.linux-x86_64/egg/django_tables2/columns
+copying build/lib/django_tables2/columns/linkcolumn.py -> build/bdist.linux-x86_64/egg/django_tables2/columns
+copying build/lib/django_tables2/columns/urlcolumn.py -> build/bdist.linux-x86_64/egg/django_tables2/columns
+copying build/lib/django_tables2/columns/booleancolumn.py -> build/bdist.linux-x86_64/egg/django_tables2/columns
+copying build/lib/django_tables2/columns/datecolumn.py -> build/bdist.linux-x86_64/egg/django_tables2/columns
+copying build/lib/django_tables2/columns/datetimecolumn.py -> build/bdist.linux-x86_64/egg/django_tables2/columns
+copying build/lib/django_tables2/columns/filecolumn.py -> build/bdist.linux-x86_64/egg/django_tables2/columns
+copying build/lib/django_tables2/columns/__init__.py -> build/bdist.linux-x86_64/egg/django_tables2/columns
+copying build/lib/django_tables2/columns/emailcolumn.py -> build/bdist.linux-x86_64/egg/django_tables2/columns
+copying build/lib/django_tables2/columns/checkboxcolumn.py -> build/bdist.linux-x86_64/egg/django_tables2/columns
+copying build/lib/django_tables2/columns/templatecolumn.py -> build/bdist.linux-x86_64/egg/django_tables2/columns
+copying build/lib/django_tables2/columns/base.py -> build/bdist.linux-x86_64/egg/django_tables2/columns
+copying build/lib/django_tables2/utils.py -> build/bdist.linux-x86_64/egg/django_tables2
+copying build/lib/django_tables2/config.py -> build/bdist.linux-x86_64/egg/django_tables2
+creating build/bdist.linux-x86_64/egg/django_tables2/templates
+creating build/bdist.linux-x86_64/egg/django_tables2/templates/django_tables2
+copying build/lib/django_tables2/templates/django_tables2/table.html -> build/bdist.linux-x86_64/egg/django_tables2/templates/django_tables2
+creating build/bdist.linux-x86_64/egg/django_tables2/templatetags
+copying build/lib/django_tables2/templatetags/__init__.py -> build/bdist.linux-x86_64/egg/django_tables2/templatetags
+copying build/lib/django_tables2/templatetags/django_tables2.py -> build/bdist.linux-x86_64/egg/django_tables2/templatetags
+copying build/lib/django_tables2/views.py -> build/bdist.linux-x86_64/egg/django_tables2
+copying build/lib/django_tables2/tables.py -> build/bdist.linux-x86_64/egg/django_tables2
+copying build/lib/django_tables2/rows.py -> build/bdist.linux-x86_64/egg/django_tables2
+creating build/bdist.linux-x86_64/egg/django_tables2/static
+creating build/bdist.linux-x86_64/egg/django_tables2/static/django_tables2
+creating build/bdist.linux-x86_64/egg/django_tables2/static/django_tables2/themes
+creating build/bdist.linux-x86_64/egg/django_tables2/static/django_tables2/themes/paleblue
+creating build/bdist.linux-x86_64/egg/django_tables2/static/django_tables2/themes/paleblue/img
+copying build/lib/django_tables2/static/django_tables2/themes/paleblue/img/header-bg.png -> build/bdist.linux-x86_64/egg/django_tables2/static/django_tables2/themes/paleblue/img
+copying build/lib/django_tables2/static/django_tables2/themes/paleblue/img/missing.png -> build/bdist.linux-x86_64/egg/django_tables2/static/django_tables2/themes/paleblue/img
+copying build/lib/django_tables2/static/django_tables2/themes/paleblue/img/arrow-active-up.png -> build/bdist.linux-x86_64/egg/django_tables2/static/django_tables2/themes/paleblue/img
+copying build/lib/django_tables2/static/django_tables2/themes/paleblue/img/arrow-inactive-up.png -> build/bdist.linux-x86_64/egg/django_tables2/static/django_tables2/themes/paleblue/img
+copying build/lib/django_tables2/static/django_tables2/themes/paleblue/img/false.gif -> build/bdist.linux-x86_64/egg/django_tables2/static/django_tables2/themes/paleblue/img
+copying build/lib/django_tables2/static/django_tables2/themes/paleblue/img/arrow-inactive-down.png -> build/bdist.linux-x86_64/egg/django_tables2/static/django_tables2/themes/paleblue/img
+copying build/lib/django_tables2/static/django_tables2/themes/paleblue/img/pagination-bg.gif -> build/bdist.linux-x86_64/egg/django_tables2/static/django_tables2/themes/paleblue/img
+copying build/lib/django_tables2/static/django_tables2/themes/paleblue/img/arrow-active-down.png -> build/bdist.linux-x86_64/egg/django_tables2/static/django_tables2/themes/paleblue/img
+copying build/lib/django_tables2/static/django_tables2/themes/paleblue/img/true.gif -> build/bdist.linux-x86_64/egg/django_tables2/static/django_tables2/themes/paleblue/img
+creating build/bdist.linux-x86_64/egg/django_tables2/static/django_tables2/themes/paleblue/css
+copying build/lib/django_tables2/static/django_tables2/themes/paleblue/css/screen.css -> build/bdist.linux-x86_64/egg/django_tables2/static/django_tables2/themes/paleblue/css
+copying build/lib/django_tables2/__init__.py -> build/bdist.linux-x86_64/egg/django_tables2
+copying build/lib/django_tables2/models.py -> build/bdist.linux-x86_64/egg/django_tables2
+creating build/bdist.linux-x86_64/egg/django_tables2/locale
+creating build/bdist.linux-x86_64/egg/django_tables2/locale/de
+creating build/bdist.linux-x86_64/egg/django_tables2/locale/de/LC_MESSAGES
+copying build/lib/django_tables2/locale/de/LC_MESSAGES/django.mo -> build/bdist.linux-x86_64/egg/django_tables2/locale/de/LC_MESSAGES
+copying build/lib/django_tables2/locale/de/LC_MESSAGES/django.po -> build/bdist.linux-x86_64/egg/django_tables2/locale/de/LC_MESSAGES
+creating build/bdist.linux-x86_64/egg/django_tables2/locale/sv
+creating build/bdist.linux-x86_64/egg/django_tables2/locale/sv/LC_MESSAGES
+copying build/lib/django_tables2/locale/sv/LC_MESSAGES/django.mo -> build/bdist.linux-x86_64/egg/django_tables2/locale/sv/LC_MESSAGES
+copying build/lib/django_tables2/locale/sv/LC_MESSAGES/django.po -> build/bdist.linux-x86_64/egg/django_tables2/locale/sv/LC_MESSAGES
+creating build/bdist.linux-x86_64/egg/django_tables2/locale/es
+creating build/bdist.linux-x86_64/egg/django_tables2/locale/es/LC_MESSAGES
+copying build/lib/django_tables2/locale/es/LC_MESSAGES/django.mo -> build/bdist.linux-x86_64/egg/django_tables2/locale/es/LC_MESSAGES
+copying build/lib/django_tables2/locale/es/LC_MESSAGES/django.po -> build/bdist.linux-x86_64/egg/django_tables2/locale/es/LC_MESSAGES
+creating build/bdist.linux-x86_64/egg/django_tables2/locale/pt_PT
+creating build/bdist.linux-x86_64/egg/django_tables2/locale/pt_PT/LC_MESSAGES
+copying build/lib/django_tables2/locale/pt_PT/LC_MESSAGES/django.mo -> build/bdist.linux-x86_64/egg/django_tables2/locale/pt_PT/LC_MESSAGES
+copying build/lib/django_tables2/locale/pt_PT/LC_MESSAGES/django.po -> build/bdist.linux-x86_64/egg/django_tables2/locale/pt_PT/LC_MESSAGES
+creating build/bdist.linux-x86_64/egg/django_tables2/locale/en
+creating build/bdist.linux-x86_64/egg/django_tables2/locale/en/LC_MESSAGES
+copying build/lib/django_tables2/locale/en/LC_MESSAGES/django.mo -> build/bdist.linux-x86_64/egg/django_tables2/locale/en/LC_MESSAGES
+copying build/lib/django_tables2/locale/en/LC_MESSAGES/django.po -> build/bdist.linux-x86_64/egg/django_tables2/locale/en/LC_MESSAGES
+creating build/bdist.linux-x86_64/egg/django_tables2/locale/fr
+creating build/bdist.linux-x86_64/egg/django_tables2/locale/fr/LC_MESSAGES
+copying build/lib/django_tables2/locale/fr/LC_MESSAGES/django.mo -> build/bdist.linux-x86_64/egg/django_tables2/locale/fr/LC_MESSAGES
+copying build/lib/django_tables2/locale/fr/LC_MESSAGES/django.po -> build/bdist.linux-x86_64/egg/django_tables2/locale/fr/LC_MESSAGES
+creating build/bdist.linux-x86_64/egg/django_tables2/locale/el
+creating build/bdist.linux-x86_64/egg/django_tables2/locale/el/LC_MESSAGES
+copying build/lib/django_tables2/locale/el/LC_MESSAGES/django.mo -> build/bdist.linux-x86_64/egg/django_tables2/locale/el/LC_MESSAGES
+copying build/lib/django_tables2/locale/el/LC_MESSAGES/django.po -> build/bdist.linux-x86_64/egg/django_tables2/locale/el/LC_MESSAGES
+creating build/bdist.linux-x86_64/egg/django_tables2/locale/uk
+creating build/bdist.linux-x86_64/egg/django_tables2/locale/uk/LC_MESSAGES
+copying build/lib/django_tables2/locale/uk/LC_MESSAGES/django.mo -> build/bdist.linux-x86_64/egg/django_tables2/locale/uk/LC_MESSAGES
+copying build/lib/django_tables2/locale/uk/LC_MESSAGES/django.po -> build/bdist.linux-x86_64/egg/django_tables2/locale/uk/LC_MESSAGES
+creating build/bdist.linux-x86_64/egg/django_tables2/locale/pt_BR
+creating build/bdist.linux-x86_64/egg/django_tables2/locale/pt_BR/LC_MESSAGES
+copying build/lib/django_tables2/locale/pt_BR/LC_MESSAGES/django.mo -> build/bdist.linux-x86_64/egg/django_tables2/locale/pt_BR/LC_MESSAGES
+copying build/lib/django_tables2/locale/pt_BR/LC_MESSAGES/django.po -> build/bdist.linux-x86_64/egg/django_tables2/locale/pt_BR/LC_MESSAGES
+creating build/bdist.linux-x86_64/egg/django_tables2/locale/pl
+creating build/bdist.linux-x86_64/egg/django_tables2/locale/pl/LC_MESSAGES
+copying build/lib/django_tables2/locale/pl/LC_MESSAGES/django.mo -> build/bdist.linux-x86_64/egg/django_tables2/locale/pl/LC_MESSAGES
+copying build/lib/django_tables2/locale/pl/LC_MESSAGES/django.po -> build/bdist.linux-x86_64/egg/django_tables2/locale/pl/LC_MESSAGES
+creating build/bdist.linux-x86_64/egg/django_tables2/locale/ru
+creating build/bdist.linux-x86_64/egg/django_tables2/locale/ru/LC_MESSAGES
+copying build/lib/django_tables2/locale/ru/LC_MESSAGES/django.mo -> build/bdist.linux-x86_64/egg/django_tables2/locale/ru/LC_MESSAGES
+copying build/lib/django_tables2/locale/ru/LC_MESSAGES/django.po -> build/bdist.linux-x86_64/egg/django_tables2/locale/ru/LC_MESSAGES
+byte-compiling build/bdist.linux-x86_64/egg/django_tables2/columns/timecolumn.py to timecolumn.pyc
+byte-compiling build/bdist.linux-x86_64/egg/django_tables2/columns/linkcolumn.py to linkcolumn.pyc
+byte-compiling build/bdist.linux-x86_64/egg/django_tables2/columns/urlcolumn.py to urlcolumn.pyc
+byte-compiling build/bdist.linux-x86_64/egg/django_tables2/columns/booleancolumn.py to booleancolumn.pyc
+byte-compiling build/bdist.linux-x86_64/egg/django_tables2/columns/datecolumn.py to datecolumn.pyc
+byte-compiling build/bdist.linux-x86_64/egg/django_tables2/columns/datetimecolumn.py to datetimecolumn.pyc
+byte-compiling build/bdist.linux-x86_64/egg/django_tables2/columns/filecolumn.py to filecolumn.pyc
+byte-compiling build/bdist.linux-x86_64/egg/django_tables2/columns/__init__.py to __init__.pyc
+byte-compiling build/bdist.linux-x86_64/egg/django_tables2/columns/emailcolumn.py to emailcolumn.pyc
+byte-compiling build/bdist.linux-x86_64/egg/django_tables2/columns/checkboxcolumn.py to checkboxcolumn.pyc
+byte-compiling build/bdist.linux-x86_64/egg/django_tables2/columns/templatecolumn.py to templatecolumn.pyc
+byte-compiling build/bdist.linux-x86_64/egg/django_tables2/columns/base.py to base.pyc
+byte-compiling build/bdist.linux-x86_64/egg/django_tables2/utils.py to utils.pyc
+byte-compiling build/bdist.linux-x86_64/egg/django_tables2/config.py to config.pyc
+byte-compiling build/bdist.linux-x86_64/egg/django_tables2/templatetags/__init__.py to __init__.pyc
+byte-compiling build/bdist.linux-x86_64/egg/django_tables2/templatetags/django_tables2.py to django_tables2.pyc
+byte-compiling build/bdist.linux-x86_64/egg/django_tables2/views.py to views.pyc
+byte-compiling build/bdist.linux-x86_64/egg/django_tables2/tables.py to tables.pyc
+byte-compiling build/bdist.linux-x86_64/egg/django_tables2/rows.py to rows.pyc
+byte-compiling build/bdist.linux-x86_64/egg/django_tables2/__init__.py to __init__.pyc
+byte-compiling build/bdist.linux-x86_64/egg/django_tables2/models.py to models.pyc
+creating build/bdist.linux-x86_64/egg/EGG-INFO
+copying django_tables2.egg-info/PKG-INFO -> build/bdist.linux-x86_64/egg/EGG-INFO
+copying django_tables2.egg-info/SOURCES.txt -> build/bdist.linux-x86_64/egg/EGG-INFO
+copying django_tables2.egg-info/dependency_links.txt -> build/bdist.linux-x86_64/egg/EGG-INFO
+copying django_tables2.egg-info/requires.txt -> build/bdist.linux-x86_64/egg/EGG-INFO
+copying django_tables2.egg-info/top_level.txt -> build/bdist.linux-x86_64/egg/EGG-INFO
+zip_safe flag not set; analyzing archive contents...
+creating dist
+creating 'dist/django_tables2-1.0.4-py2.7.egg' and adding 'build/bdist.linux-x86_64/egg' to it
+removing 'build/bdist.linux-x86_64/egg' (and everything under it)
+Processing django_tables2-1.0.4-py2.7.egg
+Copying django_tables2-1.0.4-py2.7.egg to /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages
+Adding django-tables2 1.0.4 to easy-install.pth file
+
+Installed /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/django_tables2-1.0.4-py2.7.egg
+Processing dependencies for django-tables2==1.0.4
+Searching for six==1.9.0
+Best match: six 1.9.0
+Adding six 1.9.0 to easy-install.pth file
+
+Using /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages
+Searching for Django==1.8.2
+Best match: Django 1.8.2
+Adding Django 1.8.2 to easy-install.pth file
+
+Using /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages
+Finished processing dependencies for django-tables2==1.0.4
+
+The following NEW packages will be INSTALLED:
+
+    django:     1.8.2-py27_0 
+    openssl:    1.0.1k-1     
+    pip:        7.0.3-py27_0 
+    python:     2.7.10-0     
+    readline:   6.2-2        
+    setuptools: 18.0.1-py27_0
+    six:        1.9.0-py27_0 
+    sqlite:     3.8.4.1-1    
+    system:     5.8-2        
+    tk:         8.5.18-0     
+    zlib:       1.2.8-0      
+
+Linking packages ...
+[                    ]|                                                  |   0%[openssl             ]|                                                  |   0%[readline            ]|####                                              |   9%[sqlite              ]|#########                                         |  18%[system              ]|#############                                     |  27%[tk                  ]|##################                                |  36%[zlib                ]|######################                            |  45%[django              ]|###########################                       |  54%[python              ]|###############################                   |  63%[setuptools          ]|####################################              |  72%[six                 ]|########################################          |  81%[pip                 ]|#############################################     |  90%[      COMPLETE      ]|##################################################| 100%
+Removing old work directory
+Source cache directory is: /home/ubuntu/miniconda/conda-bld/src_cache
+Found source in cache: django-tables2-1.0.4.tar.gz
+Extracting download
+Package: django-tables2-1.0.4-py_0
+source tree in: /home/ubuntu/miniconda/conda-bld/work/django-tables2-1.0.4
+found egg: /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/django_tables2-1.0.4-py2.7.egg
+number of files: 2
+Fixing permissions
+Fixing permissions
+BUILD END: django-tables2-1.0.4-py_0
+TEST START: django-tables2-1.0.4-py_0
+Fetching package metadata: ......
+
+WARNING: conda-build appears to be out of date. You have version 1.13.0 but the
+latest version is 1.14.1. Run
+
+conda update -n root conda-build
+
+to get the latest version.
+
+Solving package specifications: .===== testing package: django-tables2-1.0.4-py_0 =====
+import: u'django_tables2'
+import: u'django_tables2.columns'
+import: u'django_tables2.templatetags'
+===== django-tables2-1.0.4-py_0 OK =====
+
+The following packages will be downloaded:
+
+    package                    |            build
+    ---------------------------|-----------------
+    django-tables2-1.0.4       |             py_0         104 KB
+
+The following NEW packages will be INSTALLED:
+
+    django:         1.8.2-py27_0 
+    django-tables2: 1.0.4-py_0   
+    openssl:        1.0.1k-1     
+    pip:            7.0.3-py27_0 
+    python:         2.7.10-0     
+    readline:       6.2-2        
+    setuptools:     18.0.1-py27_0
+    six:            1.9.0-py27_0 
+    sqlite:         3.8.4.1-1    
+    system:         5.8-2        
+    tk:             8.5.18-0     
+    zlib:           1.2.8-0      
+
+Fetching packages ...
+django-tables2   0% |                              | ETA:  --:--:--   0.00  B/sdjango-tables2  15% |####                           | ETA:  0:00:00   1.93 MB/sdjango-tables2  30% |#########                      | ETA:  0:00:00   3.77 MB/sdjango-tables2  46% |##############                 | ETA:  0:00:00   5.53 MB/sdjango-tables2  61% |###################            | ETA:  0:00:00   7.22 MB/sdjango-tables2  76% |#######################        | ETA:  0:00:00   8.84 MB/sdjango-tables2  92% |############################   | ETA:  0:00:00  10.40 MB/sdjango-tables2 100% |###############################| ETA:  0:00:00  11.07 MB/sdjango-tables2 100% |###############################| Time: 0:00:00  10.81 MB/s
+Extracting packages ...
+[      COMPLETE      ]|                                                  |   0%[django-tables2      ]|                                                  |   0%[django-tables2      ]|                                                  |   0%[      COMPLETE      ]|##################################################| 100%
+Linking packages ...
+[      COMPLETE      ]|                                                  |   0%[openssl             ]|                                                  |   0%[openssl             ]|                                                  |   0%[readline            ]|####                                              |   8%[sqlite              ]|########                                          |  16%[system              ]|############                                      |  25%[tk                  ]|################                                  |  33%[zlib                ]|####################                              |  41%[django              ]|#########################                         |  50%[python              ]|#############################                     |  58%[setuptools          ]|#################################                 |  66%[six                 ]|#####################################             |  75%[django-tables2      ]|#########################################         |  83%[pip                 ]|#############################################     |  91%[      COMPLETE      ]|##################################################| 100%
+TEST END: django-tables2-1.0.4-py_0
+# If you want to upload this package to binstar.org later, type:
+#
+# $ binstar upload /home/ubuntu/miniconda/conda-bld/noarch/django-tables2-1.0.4-py_0.tar.bz2
+#
+# To have conda build upload to binstar automatically, use
+# $ conda config --set binstar_upload yes
+

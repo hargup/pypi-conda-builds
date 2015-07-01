@@ -1,0 +1,717 @@
+Removing old build directory
+Removing old work directory
+BUILD START: nose-1.3.6-py27_0
+Fetching package metadata: ......
+
+WARNING: conda-build appears to be out of date. You have version 1.13.0 but the
+latest version is 1.14.1. Run
+
+conda update -n root conda-build
+
+to get the latest version.
+
+Solving package specifications: .+ /home/ubuntu/miniconda/envs/_build/bin/python setup.py install
+running install
+running bdist_egg
+running egg_info
+writing nose.egg-info/PKG-INFO
+writing top-level names to nose.egg-info/top_level.txt
+writing dependency_links to nose.egg-info/dependency_links.txt
+writing entry points to nose.egg-info/entry_points.txt
+reading manifest file 'nose.egg-info/SOURCES.txt'
+reading manifest template 'MANIFEST.in'
+no previously-included directories found matching 'doc/.build'
+writing manifest file 'nose.egg-info/SOURCES.txt'
+installing library code to build/bdist.linux-x86_64/egg
+running install_lib
+running build_py
+creating build
+creating build/lib
+creating build/lib/nose
+copying nose/twistedtools.py -> build/lib/nose
+copying nose/__main__.py -> build/lib/nose
+copying nose/config.py -> build/lib/nose
+copying nose/case.py -> build/lib/nose
+copying nose/exc.py -> build/lib/nose
+copying nose/loader.py -> build/lib/nose
+copying nose/suite.py -> build/lib/nose
+copying nose/commands.py -> build/lib/nose
+copying nose/pyversion.py -> build/lib/nose
+copying nose/proxy.py -> build/lib/nose
+copying nose/selector.py -> build/lib/nose
+copying nose/inspector.py -> build/lib/nose
+copying nose/util.py -> build/lib/nose
+copying nose/importer.py -> build/lib/nose
+copying nose/__init__.py -> build/lib/nose
+copying nose/failure.py -> build/lib/nose
+copying nose/result.py -> build/lib/nose
+copying nose/core.py -> build/lib/nose
+creating build/lib/nose/sphinx
+copying nose/sphinx/pluginopts.py -> build/lib/nose/sphinx
+copying nose/sphinx/__init__.py -> build/lib/nose/sphinx
+creating build/lib/nose/plugins
+copying nose/plugins/logcapture.py -> build/lib/nose/plugins
+copying nose/plugins/errorclass.py -> build/lib/nose/plugins
+copying nose/plugins/multiprocess.py -> build/lib/nose/plugins
+copying nose/plugins/attrib.py -> build/lib/nose/plugins
+copying nose/plugins/deprecated.py -> build/lib/nose/plugins
+copying nose/plugins/cover.py -> build/lib/nose/plugins
+copying nose/plugins/xunit.py -> build/lib/nose/plugins
+copying nose/plugins/debug.py -> build/lib/nose/plugins
+copying nose/plugins/plugintest.py -> build/lib/nose/plugins
+copying nose/plugins/capture.py -> build/lib/nose/plugins
+copying nose/plugins/testid.py -> build/lib/nose/plugins
+copying nose/plugins/isolate.py -> build/lib/nose/plugins
+copying nose/plugins/prof.py -> build/lib/nose/plugins
+copying nose/plugins/doctests.py -> build/lib/nose/plugins
+copying nose/plugins/failuredetail.py -> build/lib/nose/plugins
+copying nose/plugins/__init__.py -> build/lib/nose/plugins
+copying nose/plugins/manager.py -> build/lib/nose/plugins
+copying nose/plugins/skip.py -> build/lib/nose/plugins
+copying nose/plugins/collect.py -> build/lib/nose/plugins
+copying nose/plugins/allmodules.py -> build/lib/nose/plugins
+copying nose/plugins/builtin.py -> build/lib/nose/plugins
+copying nose/plugins/base.py -> build/lib/nose/plugins
+creating build/lib/nose/ext
+copying nose/ext/dtcompat.py -> build/lib/nose/ext
+copying nose/ext/__init__.py -> build/lib/nose/ext
+creating build/lib/nose/tools
+copying nose/tools/nontrivial.py -> build/lib/nose/tools
+copying nose/tools/trivial.py -> build/lib/nose/tools
+copying nose/tools/__init__.py -> build/lib/nose/tools
+copying nose/usage.txt -> build/lib/nose
+creating build/bdist.linux-x86_64
+creating build/bdist.linux-x86_64/egg
+creating build/bdist.linux-x86_64/egg/nose
+copying build/lib/nose/twistedtools.py -> build/bdist.linux-x86_64/egg/nose
+copying build/lib/nose/__main__.py -> build/bdist.linux-x86_64/egg/nose
+copying build/lib/nose/config.py -> build/bdist.linux-x86_64/egg/nose
+copying build/lib/nose/case.py -> build/bdist.linux-x86_64/egg/nose
+copying build/lib/nose/exc.py -> build/bdist.linux-x86_64/egg/nose
+copying build/lib/nose/loader.py -> build/bdist.linux-x86_64/egg/nose
+copying build/lib/nose/suite.py -> build/bdist.linux-x86_64/egg/nose
+copying build/lib/nose/commands.py -> build/bdist.linux-x86_64/egg/nose
+copying build/lib/nose/pyversion.py -> build/bdist.linux-x86_64/egg/nose
+copying build/lib/nose/proxy.py -> build/bdist.linux-x86_64/egg/nose
+creating build/bdist.linux-x86_64/egg/nose/sphinx
+copying build/lib/nose/sphinx/pluginopts.py -> build/bdist.linux-x86_64/egg/nose/sphinx
+copying build/lib/nose/sphinx/__init__.py -> build/bdist.linux-x86_64/egg/nose/sphinx
+copying build/lib/nose/selector.py -> build/bdist.linux-x86_64/egg/nose
+creating build/bdist.linux-x86_64/egg/nose/plugins
+copying build/lib/nose/plugins/logcapture.py -> build/bdist.linux-x86_64/egg/nose/plugins
+copying build/lib/nose/plugins/errorclass.py -> build/bdist.linux-x86_64/egg/nose/plugins
+copying build/lib/nose/plugins/multiprocess.py -> build/bdist.linux-x86_64/egg/nose/plugins
+copying build/lib/nose/plugins/attrib.py -> build/bdist.linux-x86_64/egg/nose/plugins
+copying build/lib/nose/plugins/deprecated.py -> build/bdist.linux-x86_64/egg/nose/plugins
+copying build/lib/nose/plugins/cover.py -> build/bdist.linux-x86_64/egg/nose/plugins
+copying build/lib/nose/plugins/xunit.py -> build/bdist.linux-x86_64/egg/nose/plugins
+copying build/lib/nose/plugins/debug.py -> build/bdist.linux-x86_64/egg/nose/plugins
+copying build/lib/nose/plugins/plugintest.py -> build/bdist.linux-x86_64/egg/nose/plugins
+copying build/lib/nose/plugins/capture.py -> build/bdist.linux-x86_64/egg/nose/plugins
+copying build/lib/nose/plugins/testid.py -> build/bdist.linux-x86_64/egg/nose/plugins
+copying build/lib/nose/plugins/isolate.py -> build/bdist.linux-x86_64/egg/nose/plugins
+copying build/lib/nose/plugins/prof.py -> build/bdist.linux-x86_64/egg/nose/plugins
+copying build/lib/nose/plugins/doctests.py -> build/bdist.linux-x86_64/egg/nose/plugins
+copying build/lib/nose/plugins/failuredetail.py -> build/bdist.linux-x86_64/egg/nose/plugins
+copying build/lib/nose/plugins/__init__.py -> build/bdist.linux-x86_64/egg/nose/plugins
+copying build/lib/nose/plugins/manager.py -> build/bdist.linux-x86_64/egg/nose/plugins
+copying build/lib/nose/plugins/skip.py -> build/bdist.linux-x86_64/egg/nose/plugins
+copying build/lib/nose/plugins/collect.py -> build/bdist.linux-x86_64/egg/nose/plugins
+copying build/lib/nose/plugins/allmodules.py -> build/bdist.linux-x86_64/egg/nose/plugins
+copying build/lib/nose/plugins/builtin.py -> build/bdist.linux-x86_64/egg/nose/plugins
+copying build/lib/nose/plugins/base.py -> build/bdist.linux-x86_64/egg/nose/plugins
+copying build/lib/nose/inspector.py -> build/bdist.linux-x86_64/egg/nose
+copying build/lib/nose/util.py -> build/bdist.linux-x86_64/egg/nose
+copying build/lib/nose/importer.py -> build/bdist.linux-x86_64/egg/nose
+copying build/lib/nose/__init__.py -> build/bdist.linux-x86_64/egg/nose
+copying build/lib/nose/failure.py -> build/bdist.linux-x86_64/egg/nose
+creating build/bdist.linux-x86_64/egg/nose/ext
+copying build/lib/nose/ext/dtcompat.py -> build/bdist.linux-x86_64/egg/nose/ext
+copying build/lib/nose/ext/__init__.py -> build/bdist.linux-x86_64/egg/nose/ext
+copying build/lib/nose/result.py -> build/bdist.linux-x86_64/egg/nose
+creating build/bdist.linux-x86_64/egg/nose/tools
+copying build/lib/nose/tools/nontrivial.py -> build/bdist.linux-x86_64/egg/nose/tools
+copying build/lib/nose/tools/trivial.py -> build/bdist.linux-x86_64/egg/nose/tools
+copying build/lib/nose/tools/__init__.py -> build/bdist.linux-x86_64/egg/nose/tools
+copying build/lib/nose/usage.txt -> build/bdist.linux-x86_64/egg/nose
+copying build/lib/nose/core.py -> build/bdist.linux-x86_64/egg/nose
+byte-compiling build/bdist.linux-x86_64/egg/nose/twistedtools.py to twistedtools.pyc
+byte-compiling build/bdist.linux-x86_64/egg/nose/__main__.py to __main__.pyc
+byte-compiling build/bdist.linux-x86_64/egg/nose/config.py to config.pyc
+byte-compiling build/bdist.linux-x86_64/egg/nose/case.py to case.pyc
+byte-compiling build/bdist.linux-x86_64/egg/nose/exc.py to exc.pyc
+byte-compiling build/bdist.linux-x86_64/egg/nose/loader.py to loader.pyc
+byte-compiling build/bdist.linux-x86_64/egg/nose/suite.py to suite.pyc
+byte-compiling build/bdist.linux-x86_64/egg/nose/commands.py to commands.pyc
+byte-compiling build/bdist.linux-x86_64/egg/nose/pyversion.py to pyversion.pyc
+byte-compiling build/bdist.linux-x86_64/egg/nose/proxy.py to proxy.pyc
+byte-compiling build/bdist.linux-x86_64/egg/nose/sphinx/pluginopts.py to pluginopts.pyc
+byte-compiling build/bdist.linux-x86_64/egg/nose/sphinx/__init__.py to __init__.pyc
+byte-compiling build/bdist.linux-x86_64/egg/nose/selector.py to selector.pyc
+byte-compiling build/bdist.linux-x86_64/egg/nose/plugins/logcapture.py to logcapture.pyc
+byte-compiling build/bdist.linux-x86_64/egg/nose/plugins/errorclass.py to errorclass.pyc
+byte-compiling build/bdist.linux-x86_64/egg/nose/plugins/multiprocess.py to multiprocess.pyc
+byte-compiling build/bdist.linux-x86_64/egg/nose/plugins/attrib.py to attrib.pyc
+byte-compiling build/bdist.linux-x86_64/egg/nose/plugins/deprecated.py to deprecated.pyc
+byte-compiling build/bdist.linux-x86_64/egg/nose/plugins/cover.py to cover.pyc
+byte-compiling build/bdist.linux-x86_64/egg/nose/plugins/xunit.py to xunit.pyc
+byte-compiling build/bdist.linux-x86_64/egg/nose/plugins/debug.py to debug.pyc
+byte-compiling build/bdist.linux-x86_64/egg/nose/plugins/plugintest.py to plugintest.pyc
+byte-compiling build/bdist.linux-x86_64/egg/nose/plugins/capture.py to capture.pyc
+byte-compiling build/bdist.linux-x86_64/egg/nose/plugins/testid.py to testid.pyc
+byte-compiling build/bdist.linux-x86_64/egg/nose/plugins/isolate.py to isolate.pyc
+byte-compiling build/bdist.linux-x86_64/egg/nose/plugins/prof.py to prof.pyc
+byte-compiling build/bdist.linux-x86_64/egg/nose/plugins/doctests.py to doctests.pyc
+byte-compiling build/bdist.linux-x86_64/egg/nose/plugins/failuredetail.py to failuredetail.pyc
+byte-compiling build/bdist.linux-x86_64/egg/nose/plugins/__init__.py to __init__.pyc
+byte-compiling build/bdist.linux-x86_64/egg/nose/plugins/manager.py to manager.pyc
+byte-compiling build/bdist.linux-x86_64/egg/nose/plugins/skip.py to skip.pyc
+byte-compiling build/bdist.linux-x86_64/egg/nose/plugins/collect.py to collect.pyc
+byte-compiling build/bdist.linux-x86_64/egg/nose/plugins/allmodules.py to allmodules.pyc
+byte-compiling build/bdist.linux-x86_64/egg/nose/plugins/builtin.py to builtin.pyc
+byte-compiling build/bdist.linux-x86_64/egg/nose/plugins/base.py to base.pyc
+byte-compiling build/bdist.linux-x86_64/egg/nose/inspector.py to inspector.pyc
+byte-compiling build/bdist.linux-x86_64/egg/nose/util.py to util.pyc
+byte-compiling build/bdist.linux-x86_64/egg/nose/importer.py to importer.pyc
+byte-compiling build/bdist.linux-x86_64/egg/nose/__init__.py to __init__.pyc
+byte-compiling build/bdist.linux-x86_64/egg/nose/failure.py to failure.pyc
+byte-compiling build/bdist.linux-x86_64/egg/nose/ext/dtcompat.py to dtcompat.pyc
+byte-compiling build/bdist.linux-x86_64/egg/nose/ext/__init__.py to __init__.pyc
+byte-compiling build/bdist.linux-x86_64/egg/nose/result.py to result.pyc
+byte-compiling build/bdist.linux-x86_64/egg/nose/tools/nontrivial.py to nontrivial.pyc
+byte-compiling build/bdist.linux-x86_64/egg/nose/tools/trivial.py to trivial.pyc
+byte-compiling build/bdist.linux-x86_64/egg/nose/tools/__init__.py to __init__.pyc
+byte-compiling build/bdist.linux-x86_64/egg/nose/core.py to core.pyc
+installing package data to build/bdist.linux-x86_64/egg
+running install_data
+creating build/bdist.linux-x86_64/egg/man
+creating build/bdist.linux-x86_64/egg/man/man1
+copying nosetests.1 -> build/bdist.linux-x86_64/egg/man/man1
+creating build/bdist.linux-x86_64/egg/EGG-INFO
+copying nose.egg-info/PKG-INFO -> build/bdist.linux-x86_64/egg/EGG-INFO
+copying nose.egg-info/SOURCES.txt -> build/bdist.linux-x86_64/egg/EGG-INFO
+copying nose.egg-info/dependency_links.txt -> build/bdist.linux-x86_64/egg/EGG-INFO
+copying nose.egg-info/entry_points.txt -> build/bdist.linux-x86_64/egg/EGG-INFO
+copying nose.egg-info/not-zip-safe -> build/bdist.linux-x86_64/egg/EGG-INFO
+copying nose.egg-info/top_level.txt -> build/bdist.linux-x86_64/egg/EGG-INFO
+creating dist
+creating 'dist/nose-1.3.6-py2.7.egg' and adding 'build/bdist.linux-x86_64/egg' to it
+removing 'build/bdist.linux-x86_64/egg' (and everything under it)
+Processing nose-1.3.6-py2.7.egg
+creating /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/nose-1.3.6-py2.7.egg
+Extracting nose-1.3.6-py2.7.egg to /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages
+Adding nose 1.3.6 to easy-install.pth file
+Installing nosetests script to /home/ubuntu/miniconda/envs/_build/bin
+Installing nosetests-2.7 script to /home/ubuntu/miniconda/envs/_build/bin
+
+Installed /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/nose-1.3.6-py2.7.egg
+Processing dependencies for nose==1.3.6
+Finished processing dependencies for nose==1.3.6
+
+The following NEW packages will be INSTALLED:
+
+    openssl:    1.0.1k-1     
+    pip:        7.0.3-py27_0 
+    python:     2.7.10-0     
+    readline:   6.2-2        
+    setuptools: 18.0.1-py27_0
+    sqlite:     3.8.4.1-1    
+    system:     5.8-2        
+    tk:         8.5.18-0     
+    zlib:       1.2.8-0      
+
+Linking packages ...
+[                    ]|                                                  |   0%[openssl             ]|                                                  |   0%[readline            ]|#####                                             |  11%[sqlite              ]|###########                                       |  22%[system              ]|################                                  |  33%[tk                  ]|######################                            |  44%[zlib                ]|###########################                       |  55%[python              ]|#################################                 |  66%[setuptools          ]|######################################            |  77%[pip                 ]|############################################      |  88%[      COMPLETE      ]|##################################################| 100%
+Removing old work directory
+Source cache directory is: /home/ubuntu/miniconda/conda-bld/src_cache
+Found source in cache: nose-1.3.6.tar.gz
+Extracting download
+Package: nose-1.3.6-py27_0
+source tree in: /home/ubuntu/miniconda/conda-bld/work/nose-1.3.6
+number of files: 105
+Fixing permissions
+Detected hard-coded path in text file bin/nosetests
+Detected hard-coded path in text file bin/nosetests-2.7
+Fixing permissions
+BUILD END: nose-1.3.6-py27_0
+TEST START: nose-1.3.6-py27_0
+Fetching package metadata: ......
+
+WARNING: conda-build appears to be out of date. You have version 1.13.0 but the
+latest version is 1.14.1. Run
+
+conda update -n root conda-build
+
+to get the latest version.
+
+Solving package specifications: .===== testing package: nose-1.3.6-py27_0 =====
+import: u'nose'
+import: u'nose.ext'
+import: u'nose.plugins'
+import: u'nose.sphinx'
+import: u'nose.tools'
+===== nose-1.3.6-py27_0 OK =====
++ nosetests --help
+Usage: nosetests [options]
+
+Options:
+  -h, --help            show this help message and exit
+  -V, --version         Output nose version and exit
+  -p, --plugins         Output list of available plugins and exit. Combine
+                        with higher verbosity for greater detail
+  -v, --verbose         Be more verbose. [NOSE_VERBOSE]
+  --verbosity=VERBOSITY
+                        Set verbosity; --verbosity=2 is the same as -v
+  -q, --quiet           Be less verbose
+  -c FILES, --config=FILES
+                        Load configuration from config file(s). May be
+                        specified multiple times; in that case, all config
+                        files will be loaded and combined
+  -w WHERE, --where=WHERE
+                        Look for tests in this directory. May be specified
+                        multiple times. The first directory passed will be
+                        used as the working directory, in place of the current
+                        working directory, which is the default. Others will
+                        be added to the list of tests to execute. [NOSE_WHERE]
+  --py3where=PY3WHERE   Look for tests in this directory under Python 3.x.
+                        Functions the same as 'where', but only applies if
+                        running under Python 3.x or above.  Note that, if
+                        present under 3.x, this option completely replaces any
+                        directories specified with 'where', so the 'where'
+                        option becomes ineffective. [NOSE_PY3WHERE]
+  -m REGEX, --match=REGEX, --testmatch=REGEX
+                        Files, directories, function names, and class names
+                        that match this regular expression are considered
+                        tests.  Default: (?:^|[\b_\./-])[Tt]est
+                        [NOSE_TESTMATCH]
+  --tests=NAMES         Run these tests (comma-separated list). This argument
+                        is useful mainly from configuration files; on the
+                        command line, just pass the tests to run as additional
+                        arguments with no switch.
+  -l DEBUG, --debug=DEBUG
+                        Activate debug logging for one or more systems.
+                        Available debug loggers: nose, nose.importer,
+                        nose.inspector, nose.plugins, nose.result and
+                        nose.selector. Separate multiple names with a comma.
+  --debug-log=FILE      Log debug messages to this file (default: sys.stderr)
+  --logging-config=FILE, --log-config=FILE
+                        Load logging config from this file -- bypasses all
+                        other logging config settings.
+  -I REGEX, --ignore-files=REGEX
+                        Completely ignore any file that matches this regular
+                        expression. Takes precedence over any other settings
+                        or plugins. Specifying this option will replace the
+                        default setting. Specify this option multiple times to
+                        add more regular expressions [NOSE_IGNORE_FILES]
+  -e REGEX, --exclude=REGEX
+                        Don't run tests that match regular expression
+                        [NOSE_EXCLUDE]
+  -i REGEX, --include=REGEX
+                        This regular expression will be applied to files,
+                        directories, function names, and class names for a
+                        chance to include additional tests that do not match
+                        TESTMATCH.  Specify this option multiple times to add
+                        more regular expressions [NOSE_INCLUDE]
+  -x, --stop            Stop running tests after the first error or failure
+  -P, --no-path-adjustment
+                        Don't make any changes to sys.path when loading tests
+                        [NOSE_NOPATH]
+  --exe                 Look for tests in python modules that are executable.
+                        Normal behavior is to exclude executable modules,
+                        since they may not be import-safe [NOSE_INCLUDE_EXE]
+  --noexe               DO NOT look for tests in python modules that are
+                        executable. (The default on the windows platform is to
+                        do so.)
+  --traverse-namespace  Traverse through all path entries of a namespace
+                        package
+  --first-package-wins, --first-pkg-wins, --1st-pkg-wins
+                        nose's importer will normally evict a package from
+                        sys.modules if it sees a package with the same name in
+                        a different location. Set this option to disable that
+                        behavior.
+  --no-byte-compile     Prevent nose from byte-compiling the source into .pyc
+                        files while nose is scanning for and running tests.
+  -a ATTR, --attr=ATTR  Run only tests that have attributes specified by ATTR
+                        [NOSE_ATTR]
+  -A EXPR, --eval-attr=EXPR
+                        Run only tests for whose attributes the Python
+                        expression EXPR evaluates to True [NOSE_EVAL_ATTR]
+  -s, --nocapture       Don't capture stdout (any stdout output will be
+                        printed immediately) [NOSE_NOCAPTURE]
+  --nologcapture        Disable logging capture plugin. Logging configuration
+                        will be left intact. [NOSE_NOLOGCAPTURE]
+  --logging-format=FORMAT
+                        Specify custom format to print statements. Uses the
+                        same format as used by standard logging handlers.
+                        [NOSE_LOGFORMAT]
+  --logging-datefmt=FORMAT
+                        Specify custom date/time format to print statements.
+                        Uses the same format as used by standard logging
+                        handlers. [NOSE_LOGDATEFMT]
+  --logging-filter=FILTER
+                        Specify which statements to filter in/out. By default,
+                        everything is captured. If the output is too verbose,
+                        use this option to filter out needless output.
+                        Example: filter=foo will capture statements issued
+                        ONLY to  foo or foo.what.ever.sub but not foobar or
+                        other logger. Specify multiple loggers with comma:
+                        filter=foo,bar,baz. If any logger name is prefixed
+                        with a minus, eg filter=-foo, it will be excluded
+                        rather than included. Default: exclude logging
+                        messages from nose itself (-nose). [NOSE_LOGFILTER]
+  --logging-clear-handlers
+                        Clear all other logging handlers
+  --logging-level=LOGCAPTURE_LEVEL
+                        Set the log level to capture
+  --with-coverage       Enable plugin Coverage:  Activate a coverage report
+                        using Ned Batchelder's coverage module.
+                        [NOSE_WITH_COVERAGE]
+  --cover-package=PACKAGE
+                        Restrict coverage output to selected packages
+                        [NOSE_COVER_PACKAGE]
+  --cover-erase         Erase previously collected coverage statistics before
+                        run
+  --cover-tests         Include test modules in coverage report
+                        [NOSE_COVER_TESTS]
+  --cover-min-percentage=COVER_MIN_PERCENTAGE
+                        Minimum percentage of coverage for tests to pass
+                        [NOSE_COVER_MIN_PERCENTAGE]
+  --cover-inclusive     Include all python files under working directory in
+                        coverage report.  Useful for discovering holes in test
+                        coverage if not all files are imported by the test
+                        suite. [NOSE_COVER_INCLUSIVE]
+  --cover-html          Produce HTML coverage information
+  --cover-html-dir=DIR  Produce HTML coverage information in dir
+  --cover-branches      Include branch coverage in coverage report
+                        [NOSE_COVER_BRANCHES]
+  --cover-xml           Produce XML coverage information
+  --cover-xml-file=FILE
+                        Produce XML coverage information in file
+  --pdb                 Drop into debugger on failures or errors
+  --pdb-failures        Drop into debugger on failures
+  --pdb-errors          Drop into debugger on errors
+  --no-deprecated       Disable special handling of DeprecatedTest exceptions.
+  --with-doctest        Enable plugin Doctest:  Activate doctest plugin to
+                        find and run doctests in non-test modules.
+                        [NOSE_WITH_DOCTEST]
+  --doctest-tests       Also look for doctests in test modules. Note that
+                        classes, methods and functions should have either
+                        doctests or non-doctest tests, not both.
+                        [NOSE_DOCTEST_TESTS]
+  --doctest-extension=EXT
+                        Also look for doctests in files with this extension
+                        [NOSE_DOCTEST_EXTENSION]
+  --doctest-result-variable=VAR
+                        Change the variable name set to the result of the last
+                        interpreter command from the default '_'. Can be used
+                        to avoid conflicts with the _() function used for text
+                        translation. [NOSE_DOCTEST_RESULT_VAR]
+  --doctest-fixtures=SUFFIX
+                        Find fixtures for a doctest file in module with this
+                        name appended to the base name of the doctest file
+  --doctest-options=OPTIONS
+                        Specify options to pass to doctest. Eg.
+                        '+ELLIPSIS,+NORMALIZE_WHITESPACE'
+  --with-isolation      Enable plugin IsolationPlugin:  Activate the isolation
+                        plugin to isolate changes to external modules to a
+                        single test module or package. The isolation plugin
+                        resets the contents of sys.modules after each test
+                        module or package runs to its state before the test.
+                        PLEASE NOTE that this plugin should not be used with
+                        the coverage plugin, or in any other case where module
+                        reloading may produce undesirable side-effects.
+                        [NOSE_WITH_ISOLATION]
+  -d, --detailed-errors, --failure-detail
+                        Add detail to error output by attempting to evaluate
+                        failed asserts [NOSE_DETAILED_ERRORS]
+  --with-profile        Enable plugin Profile:  Use this plugin to run tests
+                        using the hotshot profiler.   [NOSE_WITH_PROFILE]
+  --profile-sort=SORT   Set sort order for profiler output
+  --profile-stats-file=FILE
+                        Profiler stats file; default is a new temp file on
+                        each run
+  --profile-restrict=RESTRICT
+                        Restrict profiler output. See help for pstats.Stats
+                        for details
+  --no-skip             Disable special handling of SkipTest exceptions.
+  --with-id             Enable plugin TestId:  Activate to add a test id (like
+                        #1) to each test name output. Activate with --failed
+                        to rerun failing tests only.  [NOSE_WITH_ID]
+  --id-file=FILE        Store test ids found in test runs in this file.
+                        Default is the file .noseids in the working directory.
+  --failed              Run the tests that failed in the last test run.
+  --processes=NUM       Spread test run among this many processes. Set a
+                        number equal to the number of processors or cores in
+                        your machine for best results. Pass a negative number
+                        to have the number of processes automatically set to
+                        the number of cores. Passing 0 means to disable
+                        parallel testing. Default is 0 unless NOSE_PROCESSES
+                        is set. [NOSE_PROCESSES]
+  --process-timeout=SECONDS
+                        Set timeout for return of results from each test
+                        runner process. Default is 10. [NOSE_PROCESS_TIMEOUT]
+  --process-restartworker
+                        If set, will restart each worker process once their
+                        tests are done, this helps control memory leaks from
+                        killing the system. [NOSE_PROCESS_RESTARTWORKER]
+  --with-xunit          Enable plugin Xunit: This plugin provides test results
+                        in the standard XUnit XML format. [NOSE_WITH_XUNIT]
+  --xunit-file=FILE     Path to xml file to store the xunit report in. Default
+                        is nosetests.xml in the working directory
+                        [NOSE_XUNIT_FILE]
+  --xunit-testsuite-name=PACKAGE
+                        Name of the testsuite in the xunit xml, generated by
+                        plugin. Default test suite name is nosetests.
+  --all-modules         Enable plugin AllModules: Collect tests from all
+                        python modules.  [NOSE_ALL_MODULES]
+  --collect-only        Enable collect-only:  Collect and output test names
+                        only, don't run any tests.  [COLLECT_ONLY]
++ nosetests-2.7 --help
+Usage: nosetests-2.7 [options]
+
+Options:
+  -h, --help            show this help message and exit
+  -V, --version         Output nose version and exit
+  -p, --plugins         Output list of available plugins and exit. Combine
+                        with higher verbosity for greater detail
+  -v, --verbose         Be more verbose. [NOSE_VERBOSE]
+  --verbosity=VERBOSITY
+                        Set verbosity; --verbosity=2 is the same as -v
+  -q, --quiet           Be less verbose
+  -c FILES, --config=FILES
+                        Load configuration from config file(s). May be
+                        specified multiple times; in that case, all config
+                        files will be loaded and combined
+  -w WHERE, --where=WHERE
+                        Look for tests in this directory. May be specified
+                        multiple times. The first directory passed will be
+                        used as the working directory, in place of the current
+                        working directory, which is the default. Others will
+                        be added to the list of tests to execute. [NOSE_WHERE]
+  --py3where=PY3WHERE   Look for tests in this directory under Python 3.x.
+                        Functions the same as 'where', but only applies if
+                        running under Python 3.x or above.  Note that, if
+                        present under 3.x, this option completely replaces any
+                        directories specified with 'where', so the 'where'
+                        option becomes ineffective. [NOSE_PY3WHERE]
+  -m REGEX, --match=REGEX, --testmatch=REGEX
+                        Files, directories, function names, and class names
+                        that match this regular expression are considered
+                        tests.  Default: (?:^|[\b_\./-])[Tt]est
+                        [NOSE_TESTMATCH]
+  --tests=NAMES         Run these tests (comma-separated list). This argument
+                        is useful mainly from configuration files; on the
+                        command line, just pass the tests to run as additional
+                        arguments with no switch.
+  -l DEBUG, --debug=DEBUG
+                        Activate debug logging for one or more systems.
+                        Available debug loggers: nose, nose.importer,
+                        nose.inspector, nose.plugins, nose.result and
+                        nose.selector. Separate multiple names with a comma.
+  --debug-log=FILE      Log debug messages to this file (default: sys.stderr)
+  --logging-config=FILE, --log-config=FILE
+                        Load logging config from this file -- bypasses all
+                        other logging config settings.
+  -I REGEX, --ignore-files=REGEX
+                        Completely ignore any file that matches this regular
+                        expression. Takes precedence over any other settings
+                        or plugins. Specifying this option will replace the
+                        default setting. Specify this option multiple times to
+                        add more regular expressions [NOSE_IGNORE_FILES]
+  -e REGEX, --exclude=REGEX
+                        Don't run tests that match regular expression
+                        [NOSE_EXCLUDE]
+  -i REGEX, --include=REGEX
+                        This regular expression will be applied to files,
+                        directories, function names, and class names for a
+                        chance to include additional tests that do not match
+                        TESTMATCH.  Specify this option multiple times to add
+                        more regular expressions [NOSE_INCLUDE]
+  -x, --stop            Stop running tests after the first error or failure
+  -P, --no-path-adjustment
+                        Don't make any changes to sys.path when loading tests
+                        [NOSE_NOPATH]
+  --exe                 Look for tests in python modules that are executable.
+                        Normal behavior is to exclude executable modules,
+                        since they may not be import-safe [NOSE_INCLUDE_EXE]
+  --noexe               DO NOT look for tests in python modules that are
+                        executable. (The default on the windows platform is to
+                        do so.)
+  --traverse-namespace  Traverse through all path entries of a namespace
+                        package
+  --first-package-wins, --first-pkg-wins, --1st-pkg-wins
+                        nose's importer will normally evict a package from
+                        sys.modules if it sees a package with the same name in
+                        a different location. Set this option to disable that
+                        behavior.
+  --no-byte-compile     Prevent nose from byte-compiling the source into .pyc
+                        files while nose is scanning for and running tests.
+  -a ATTR, --attr=ATTR  Run only tests that have attributes specified by ATTR
+                        [NOSE_ATTR]
+  -A EXPR, --eval-attr=EXPR
+                        Run only tests for whose attributes the Python
+                        expression EXPR evaluates to True [NOSE_EVAL_ATTR]
+  -s, --nocapture       Don't capture stdout (any stdout output will be
+                        printed immediately) [NOSE_NOCAPTURE]
+  --nologcapture        Disable logging capture plugin. Logging configuration
+                        will be left intact. [NOSE_NOLOGCAPTURE]
+  --logging-format=FORMAT
+                        Specify custom format to print statements. Uses the
+                        same format as used by standard logging handlers.
+                        [NOSE_LOGFORMAT]
+  --logging-datefmt=FORMAT
+                        Specify custom date/time format to print statements.
+                        Uses the same format as used by standard logging
+                        handlers. [NOSE_LOGDATEFMT]
+  --logging-filter=FILTER
+                        Specify which statements to filter in/out. By default,
+                        everything is captured. If the output is too verbose,
+                        use this option to filter out needless output.
+                        Example: filter=foo will capture statements issued
+                        ONLY to  foo or foo.what.ever.sub but not foobar or
+                        other logger. Specify multiple loggers with comma:
+                        filter=foo,bar,baz. If any logger name is prefixed
+                        with a minus, eg filter=-foo, it will be excluded
+                        rather than included. Default: exclude logging
+                        messages from nose itself (-nose). [NOSE_LOGFILTER]
+  --logging-clear-handlers
+                        Clear all other logging handlers
+  --logging-level=LOGCAPTURE_LEVEL
+                        Set the log level to capture
+  --with-coverage       Enable plugin Coverage:  Activate a coverage report
+                        using Ned Batchelder's coverage module.
+                        [NOSE_WITH_COVERAGE]
+  --cover-package=PACKAGE
+                        Restrict coverage output to selected packages
+                        [NOSE_COVER_PACKAGE]
+  --cover-erase         Erase previously collected coverage statistics before
+                        run
+  --cover-tests         Include test modules in coverage report
+                        [NOSE_COVER_TESTS]
+  --cover-min-percentage=COVER_MIN_PERCENTAGE
+                        Minimum percentage of coverage for tests to pass
+                        [NOSE_COVER_MIN_PERCENTAGE]
+  --cover-inclusive     Include all python files under working directory in
+                        coverage report.  Useful for discovering holes in test
+                        coverage if not all files are imported by the test
+                        suite. [NOSE_COVER_INCLUSIVE]
+  --cover-html          Produce HTML coverage information
+  --cover-html-dir=DIR  Produce HTML coverage information in dir
+  --cover-branches      Include branch coverage in coverage report
+                        [NOSE_COVER_BRANCHES]
+  --cover-xml           Produce XML coverage information
+  --cover-xml-file=FILE
+                        Produce XML coverage information in file
+  --pdb                 Drop into debugger on failures or errors
+  --pdb-failures        Drop into debugger on failures
+  --pdb-errors          Drop into debugger on errors
+  --no-deprecated       Disable special handling of DeprecatedTest exceptions.
+  --with-doctest        Enable plugin Doctest:  Activate doctest plugin to
+                        find and run doctests in non-test modules.
+                        [NOSE_WITH_DOCTEST]
+  --doctest-tests       Also look for doctests in test modules. Note that
+                        classes, methods and functions should have either
+                        doctests or non-doctest tests, not both.
+                        [NOSE_DOCTEST_TESTS]
+  --doctest-extension=EXT
+                        Also look for doctests in files with this extension
+                        [NOSE_DOCTEST_EXTENSION]
+  --doctest-result-variable=VAR
+                        Change the variable name set to the result of the last
+                        interpreter command from the default '_'. Can be used
+                        to avoid conflicts with the _() function used for text
+                        translation. [NOSE_DOCTEST_RESULT_VAR]
+  --doctest-fixtures=SUFFIX
+                        Find fixtures for a doctest file in module with this
+                        name appended to the base name of the doctest file
+  --doctest-options=OPTIONS
+                        Specify options to pass to doctest. Eg.
+                        '+ELLIPSIS,+NORMALIZE_WHITESPACE'
+  --with-isolation      Enable plugin IsolationPlugin:  Activate the isolation
+                        plugin to isolate changes to external modules to a
+                        single test module or package. The isolation plugin
+                        resets the contents of sys.modules after each test
+                        module or package runs to its state before the test.
+                        PLEASE NOTE that this plugin should not be used with
+                        the coverage plugin, or in any other case where module
+                        reloading may produce undesirable side-effects.
+                        [NOSE_WITH_ISOLATION]
+  -d, --detailed-errors, --failure-detail
+                        Add detail to error output by attempting to evaluate
+                        failed asserts [NOSE_DETAILED_ERRORS]
+  --with-profile        Enable plugin Profile:  Use this plugin to run tests
+                        using the hotshot profiler.   [NOSE_WITH_PROFILE]
+  --profile-sort=SORT   Set sort order for profiler output
+  --profile-stats-file=FILE
+                        Profiler stats file; default is a new temp file on
+                        each run
+  --profile-restrict=RESTRICT
+                        Restrict profiler output. See help for pstats.Stats
+                        for details
+  --no-skip             Disable special handling of SkipTest exceptions.
+  --with-id             Enable plugin TestId:  Activate to add a test id (like
+                        #1) to each test name output. Activate with --failed
+                        to rerun failing tests only.  [NOSE_WITH_ID]
+  --id-file=FILE        Store test ids found in test runs in this file.
+                        Default is the file .noseids in the working directory.
+  --failed              Run the tests that failed in the last test run.
+  --processes=NUM       Spread test run among this many processes. Set a
+                        number equal to the number of processors or cores in
+                        your machine for best results. Pass a negative number
+                        to have the number of processes automatically set to
+                        the number of cores. Passing 0 means to disable
+                        parallel testing. Default is 0 unless NOSE_PROCESSES
+                        is set. [NOSE_PROCESSES]
+  --process-timeout=SECONDS
+                        Set timeout for return of results from each test
+                        runner process. Default is 10. [NOSE_PROCESS_TIMEOUT]
+  --process-restartworker
+                        If set, will restart each worker process once their
+                        tests are done, this helps control memory leaks from
+                        killing the system. [NOSE_PROCESS_RESTARTWORKER]
+  --with-xunit          Enable plugin Xunit: This plugin provides test results
+                        in the standard XUnit XML format. [NOSE_WITH_XUNIT]
+  --xunit-file=FILE     Path to xml file to store the xunit report in. Default
+                        is nosetests.xml in the working directory
+                        [NOSE_XUNIT_FILE]
+  --xunit-testsuite-name=PACKAGE
+                        Name of the testsuite in the xunit xml, generated by
+                        plugin. Default test suite name is nosetests.
+  --all-modules         Enable plugin AllModules: Collect tests from all
+                        python modules.  [NOSE_ALL_MODULES]
+  --collect-only        Enable collect-only:  Collect and output test names
+                        only, don't run any tests.  [COLLECT_ONLY]
+
+The following packages will be downloaded:
+
+    package                    |            build
+    ---------------------------|-----------------
+    nose-1.3.6                 |           py27_0         199 KB
+
+The following NEW packages will be INSTALLED:
+
+    nose:       1.3.6-py27_0 
+    openssl:    1.0.1k-1     
+    pip:        7.0.3-py27_0 
+    python:     2.7.10-0     
+    readline:   6.2-2        
+    setuptools: 18.0.1-py27_0
+    sqlite:     3.8.4.1-1    
+    system:     5.8-2        
+    tk:         8.5.18-0     
+    zlib:       1.2.8-0      
+
+Fetching packages ...
+nose-1.3.6-py2   0% |                              | ETA:  --:--:--   0.00  B/snose-1.3.6-py2   8% |##                             | ETA:  0:00:00  47.33 MB/snose-1.3.6-py2  16% |####                           | ETA:  0:00:00  58.71 MB/snose-1.3.6-py2  24% |#######                        | ETA:  0:00:00  65.34 MB/snose-1.3.6-py2  32% |#########                      | ETA:  0:00:00  69.64 MB/snose-1.3.6-py2  40% |############                   | ETA:  0:00:00  72.81 MB/snose-1.3.6-py2  48% |##############                 | ETA:  0:00:00  75.09 MB/snose-1.3.6-py2  56% |#################              | ETA:  0:00:00  76.61 MB/snose-1.3.6-py2  64% |###################            | ETA:  0:00:00  78.11 MB/snose-1.3.6-py2  72% |######################         | ETA:  0:00:00  79.36 MB/snose-1.3.6-py2  80% |########################       | ETA:  0:00:00  80.43 MB/snose-1.3.6-py2  88% |###########################    | ETA:  0:00:00  81.14 MB/snose-1.3.6-py2  96% |#############################  | ETA:  0:00:00  81.91 MB/snose-1.3.6-py2 100% |###############################| ETA:  0:00:00  79.14 MB/snose-1.3.6-py2 100% |###############################| Time: 0:00:00  72.55 MB/s
+Extracting packages ...
+[      COMPLETE      ]|                                                  |   0%[nose                ]|                                                  |   0%[nose                ]|                                                  |   0%[      COMPLETE      ]|##################################################| 100%
+Linking packages ...
+[      COMPLETE      ]|                                                  |   0%[openssl             ]|                                                  |   0%[openssl             ]|                                                  |   0%[readline            ]|#####                                             |  10%[sqlite              ]|##########                                        |  20%[system              ]|###############                                   |  30%[tk                  ]|####################                              |  40%[zlib                ]|#########################                         |  50%[python              ]|##############################                    |  60%[setuptools          ]|###################################               |  70%[nose                ]|########################################          |  80%[pip                 ]|#############################################     |  90%[      COMPLETE      ]|##################################################| 100%
+TEST END: nose-1.3.6-py27_0
+# If you want to upload this package to binstar.org later, type:
+#
+# $ binstar upload /home/ubuntu/miniconda/conda-bld/linux-64/nose-1.3.6-py27_0.tar.bz2
+#
+# To have conda build upload to binstar automatically, use
+# $ conda config --set binstar_upload yes
+

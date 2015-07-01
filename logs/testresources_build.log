@@ -1,7 +1,15 @@
 Removing old build directory
 Removing old work directory
-BUILD START: testresources-0.2.7-py27_0
+BUILD START: testresources-0.2.7-py_0
 Fetching package metadata: ......
+
+WARNING: conda-build appears to be out of date. You have version 1.13.0 but the
+latest version is 1.14.1. Run
+
+conda update -n root conda-build
+
+to get the latest version.
+
 Solving package specifications: .+ /home/ubuntu/miniconda/envs/_build/bin/python setup.py install
 running install
 running bdist_egg
@@ -68,15 +76,15 @@ Finished processing dependencies for testresources==0.2.7
 
 The following NEW packages will be INSTALLED:
 
-    openssl:    1.0.1k-1    
-    pip:        7.0.3-py27_0
-    python:     2.7.10-0    
-    readline:   6.2-2       
-    setuptools: 17.0-py27_0 
-    sqlite:     3.8.4.1-1   
-    system:     5.8-2       
-    tk:         8.5.18-0    
-    zlib:       1.2.8-0     
+    openssl:    1.0.1k-1     
+    pip:        7.0.3-py27_0 
+    python:     2.7.10-0     
+    readline:   6.2-2        
+    setuptools: 18.0.1-py27_0
+    sqlite:     3.8.4.1-1    
+    system:     5.8-2        
+    tk:         8.5.18-0     
+    zlib:       1.2.8-0      
 
 Linking packages ...
 [                    ]|                                                  |   0%[openssl             ]|                                                  |   0%[readline            ]|#####                                             |  11%[sqlite              ]|###########                                       |  22%[system              ]|################                                  |  33%[tk                  ]|######################                            |  44%[zlib                ]|###########################                       |  55%[python              ]|#################################                 |  66%[setuptools          ]|######################################            |  77%[pip                 ]|############################################      |  88%[      COMPLETE      ]|##################################################| 100%
@@ -84,49 +92,57 @@ Removing old work directory
 Source cache directory is: /home/ubuntu/miniconda/conda-bld/src_cache
 Found source in cache: testresources-0.2.7.tar.gz
 Extracting download
-Package: testresources-0.2.7-py27_0
+Package: testresources-0.2.7-py_0
 source tree in: /home/ubuntu/miniconda/conda-bld/work/testresources-0.2.7
 found egg dir: /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/testresources-0.2.7-py2.7.egg
 number of files: 17
 Fixing permissions
 Fixing permissions
-BUILD END: testresources-0.2.7-py27_0
-TEST START: testresources-0.2.7-py27_0
+BUILD END: testresources-0.2.7-py_0
+TEST START: testresources-0.2.7-py_0
 Fetching package metadata: ......
-Solving package specifications: .===== testing package: testresources-0.2.7-py27_0 =====
+
+WARNING: conda-build appears to be out of date. You have version 1.13.0 but the
+latest version is 1.14.1. Run
+
+conda update -n root conda-build
+
+to get the latest version.
+
+Solving package specifications: .===== testing package: testresources-0.2.7-py_0 =====
 import: u'testresources'
 import: u'testresources.tests'
-===== testresources-0.2.7-py27_0 OK =====
+===== testresources-0.2.7-py_0 OK =====
 
 The following packages will be downloaded:
 
     package                    |            build
     ---------------------------|-----------------
-    testresources-0.2.7        |           py27_0          39 KB
+    testresources-0.2.7        |             py_0          20 KB
 
 The following NEW packages will be INSTALLED:
 
-    openssl:       1.0.1k-1    
-    pip:           7.0.3-py27_0
-    python:        2.7.10-0    
-    readline:      6.2-2       
-    setuptools:    17.0-py27_0 
-    sqlite:        3.8.4.1-1   
-    system:        5.8-2       
-    testresources: 0.2.7-py27_0
-    tk:            8.5.18-0    
-    zlib:          1.2.8-0     
+    openssl:       1.0.1k-1     
+    pip:           7.0.3-py27_0 
+    python:        2.7.10-0     
+    readline:      6.2-2        
+    setuptools:    18.0.1-py27_0
+    sqlite:        3.8.4.1-1    
+    system:        5.8-2        
+    testresources: 0.2.7-py_0   
+    tk:            8.5.18-0     
+    zlib:          1.2.8-0      
 
 Fetching packages ...
-testresources-   0% |                              | ETA:  --:--:--   0.00  B/stestresources-  41% |############                   | ETA:  0:00:00  46.68 MB/stestresources-  82% |#########################      | ETA:  0:00:00  58.63 MB/stestresources- 100% |###############################| ETA:  0:00:00  54.76 MB/stestresources- 100% |###############################| Time: 0:00:00  42.36 MB/s
+testresources-   0% |                              | ETA:  --:--:--   0.00  B/stestresources-  80% |########################       | ETA:  0:00:00  47.20 MB/stestresources- 100% |###############################| ETA:  0:00:00  39.74 MB/stestresources- 100% |###############################| Time: 0:00:00  26.99 MB/s
 Extracting packages ...
 [      COMPLETE      ]|                                                  |   0%[testresources       ]|                                                  |   0%[testresources       ]|                                                  |   0%[      COMPLETE      ]|##################################################| 100%
 Linking packages ...
 [      COMPLETE      ]|                                                  |   0%[openssl             ]|                                                  |   0%[openssl             ]|                                                  |   0%[readline            ]|#####                                             |  10%[sqlite              ]|##########                                        |  20%[system              ]|###############                                   |  30%[tk                  ]|####################                              |  40%[zlib                ]|#########################                         |  50%[python              ]|##############################                    |  60%[setuptools          ]|###################################               |  70%[testresources       ]|########################################          |  80%[pip                 ]|#############################################     |  90%[      COMPLETE      ]|##################################################| 100%
-TEST END: testresources-0.2.7-py27_0
+TEST END: testresources-0.2.7-py_0
 # If you want to upload this package to binstar.org later, type:
 #
-# $ binstar upload /home/ubuntu/miniconda/conda-bld/linux-64/testresources-0.2.7-py27_0.tar.bz2
+# $ binstar upload /home/ubuntu/miniconda/conda-bld/noarch/testresources-0.2.7-py_0.tar.bz2
 #
 # To have conda build upload to binstar automatically, use
 # $ conda config --set binstar_upload yes

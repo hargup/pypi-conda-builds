@@ -1,0 +1,188 @@
+Removing old build directory
+Removing old work directory
+BUILD START: splunk-sdk-1.3.1-py_0
+Fetching package metadata: ......
+
+WARNING: conda-build appears to be out of date. You have version 1.13.0 but the
+latest version is 1.14.1. Run
+
+conda update -n root conda-build
+
+to get the latest version.
+
+Solving package specifications: .+ /home/ubuntu/miniconda/envs/_build/bin/python setup.py install
+running install
+running build
+running build_py
+creating build
+creating build/lib
+creating build/lib/splunklib
+copying splunklib/results.py -> build/lib/splunklib
+copying splunklib/binding.py -> build/lib/splunklib
+copying splunklib/data.py -> build/lib/splunklib
+copying splunklib/client.py -> build/lib/splunklib
+copying splunklib/__init__.py -> build/lib/splunklib
+copying splunklib/ordereddict.py -> build/lib/splunklib
+creating build/lib/splunklib/modularinput
+copying splunklib/modularinput/event.py -> build/lib/splunklib/modularinput
+copying splunklib/modularinput/utils.py -> build/lib/splunklib/modularinput
+copying splunklib/modularinput/script.py -> build/lib/splunklib/modularinput
+copying splunklib/modularinput/scheme.py -> build/lib/splunklib/modularinput
+copying splunklib/modularinput/__init__.py -> build/lib/splunklib/modularinput
+copying splunklib/modularinput/validation_definition.py -> build/lib/splunklib/modularinput
+copying splunklib/modularinput/argument.py -> build/lib/splunklib/modularinput
+copying splunklib/modularinput/input_definition.py -> build/lib/splunklib/modularinput
+copying splunklib/modularinput/event_writer.py -> build/lib/splunklib/modularinput
+creating build/lib/splunklib/searchcommands
+copying splunklib/searchcommands/generating_command.py -> build/lib/splunklib/searchcommands
+copying splunklib/searchcommands/streaming_command.py -> build/lib/splunklib/searchcommands
+copying splunklib/searchcommands/search_command.py -> build/lib/splunklib/searchcommands
+copying splunklib/searchcommands/validators.py -> build/lib/splunklib/searchcommands
+copying splunklib/searchcommands/__init__.py -> build/lib/splunklib/searchcommands
+copying splunklib/searchcommands/decorators.py -> build/lib/splunklib/searchcommands
+copying splunklib/searchcommands/search_command_internals.py -> build/lib/splunklib/searchcommands
+copying splunklib/searchcommands/reporting_command.py -> build/lib/splunklib/searchcommands
+copying splunklib/searchcommands/logging.py -> build/lib/splunklib/searchcommands
+creating build/lib/splunklib/searchcommands/splunk_csv
+copying splunklib/searchcommands/splunk_csv/dict_reader.py -> build/lib/splunklib/searchcommands/splunk_csv
+copying splunklib/searchcommands/splunk_csv/dict_writer.py -> build/lib/splunklib/searchcommands/splunk_csv
+copying splunklib/searchcommands/splunk_csv/__init__.py -> build/lib/splunklib/searchcommands/splunk_csv
+copying splunklib/searchcommands/splunk_csv/dialect.py -> build/lib/splunklib/searchcommands/splunk_csv
+running install_lib
+creating /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/splunklib
+copying build/lib/splunklib/results.py -> /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/splunklib
+creating /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/splunklib/modularinput
+copying build/lib/splunklib/modularinput/event.py -> /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/splunklib/modularinput
+copying build/lib/splunklib/modularinput/utils.py -> /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/splunklib/modularinput
+copying build/lib/splunklib/modularinput/script.py -> /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/splunklib/modularinput
+copying build/lib/splunklib/modularinput/scheme.py -> /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/splunklib/modularinput
+copying build/lib/splunklib/modularinput/__init__.py -> /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/splunklib/modularinput
+copying build/lib/splunklib/modularinput/validation_definition.py -> /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/splunklib/modularinput
+copying build/lib/splunklib/modularinput/argument.py -> /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/splunklib/modularinput
+copying build/lib/splunklib/modularinput/input_definition.py -> /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/splunklib/modularinput
+copying build/lib/splunklib/modularinput/event_writer.py -> /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/splunklib/modularinput
+copying build/lib/splunklib/binding.py -> /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/splunklib
+copying build/lib/splunklib/data.py -> /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/splunklib
+copying build/lib/splunklib/client.py -> /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/splunklib
+copying build/lib/splunklib/__init__.py -> /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/splunklib
+copying build/lib/splunklib/ordereddict.py -> /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/splunklib
+creating /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/splunklib/searchcommands
+copying build/lib/splunklib/searchcommands/generating_command.py -> /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/splunklib/searchcommands
+copying build/lib/splunklib/searchcommands/streaming_command.py -> /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/splunklib/searchcommands
+creating /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/splunklib/searchcommands/splunk_csv
+copying build/lib/splunklib/searchcommands/splunk_csv/dict_reader.py -> /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/splunklib/searchcommands/splunk_csv
+copying build/lib/splunklib/searchcommands/splunk_csv/dict_writer.py -> /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/splunklib/searchcommands/splunk_csv
+copying build/lib/splunklib/searchcommands/splunk_csv/__init__.py -> /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/splunklib/searchcommands/splunk_csv
+copying build/lib/splunklib/searchcommands/splunk_csv/dialect.py -> /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/splunklib/searchcommands/splunk_csv
+copying build/lib/splunklib/searchcommands/search_command.py -> /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/splunklib/searchcommands
+copying build/lib/splunklib/searchcommands/validators.py -> /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/splunklib/searchcommands
+copying build/lib/splunklib/searchcommands/__init__.py -> /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/splunklib/searchcommands
+copying build/lib/splunklib/searchcommands/decorators.py -> /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/splunklib/searchcommands
+copying build/lib/splunklib/searchcommands/search_command_internals.py -> /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/splunklib/searchcommands
+copying build/lib/splunklib/searchcommands/reporting_command.py -> /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/splunklib/searchcommands
+copying build/lib/splunklib/searchcommands/logging.py -> /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/splunklib/searchcommands
+byte-compiling /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/splunklib/results.py to results.pyc
+byte-compiling /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/splunklib/modularinput/event.py to event.pyc
+byte-compiling /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/splunklib/modularinput/utils.py to utils.pyc
+byte-compiling /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/splunklib/modularinput/script.py to script.pyc
+byte-compiling /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/splunklib/modularinput/scheme.py to scheme.pyc
+byte-compiling /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/splunklib/modularinput/__init__.py to __init__.pyc
+byte-compiling /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/splunklib/modularinput/validation_definition.py to validation_definition.pyc
+byte-compiling /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/splunklib/modularinput/argument.py to argument.pyc
+byte-compiling /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/splunklib/modularinput/input_definition.py to input_definition.pyc
+byte-compiling /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/splunklib/modularinput/event_writer.py to event_writer.pyc
+byte-compiling /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/splunklib/binding.py to binding.pyc
+byte-compiling /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/splunklib/data.py to data.pyc
+byte-compiling /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/splunklib/client.py to client.pyc
+byte-compiling /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/splunklib/__init__.py to __init__.pyc
+byte-compiling /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/splunklib/ordereddict.py to ordereddict.pyc
+byte-compiling /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/splunklib/searchcommands/generating_command.py to generating_command.pyc
+byte-compiling /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/splunklib/searchcommands/streaming_command.py to streaming_command.pyc
+byte-compiling /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/splunklib/searchcommands/splunk_csv/dict_reader.py to dict_reader.pyc
+byte-compiling /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/splunklib/searchcommands/splunk_csv/dict_writer.py to dict_writer.pyc
+byte-compiling /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/splunklib/searchcommands/splunk_csv/__init__.py to __init__.pyc
+byte-compiling /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/splunklib/searchcommands/splunk_csv/dialect.py to dialect.pyc
+byte-compiling /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/splunklib/searchcommands/search_command.py to search_command.pyc
+byte-compiling /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/splunklib/searchcommands/validators.py to validators.pyc
+byte-compiling /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/splunklib/searchcommands/__init__.py to __init__.pyc
+byte-compiling /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/splunklib/searchcommands/decorators.py to decorators.pyc
+byte-compiling /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/splunklib/searchcommands/search_command_internals.py to search_command_internals.pyc
+byte-compiling /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/splunklib/searchcommands/reporting_command.py to reporting_command.pyc
+byte-compiling /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/splunklib/searchcommands/logging.py to logging.pyc
+running install_egg_info
+Writing /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/splunk_sdk-1.3.1-py2.7.egg-info
+
+The following NEW packages will be INSTALLED:
+
+    openssl:    1.0.1k-1     
+    pip:        7.0.3-py27_0 
+    python:     2.7.10-0     
+    readline:   6.2-2        
+    setuptools: 18.0.1-py27_0
+    sqlite:     3.8.4.1-1    
+    system:     5.8-2        
+    tk:         8.5.18-0     
+    zlib:       1.2.8-0      
+
+Linking packages ...
+[                    ]|                                                  |   0%[openssl             ]|                                                  |   0%[readline            ]|#####                                             |  11%[sqlite              ]|###########                                       |  22%[system              ]|################                                  |  33%[tk                  ]|######################                            |  44%[zlib                ]|###########################                       |  55%[python              ]|#################################                 |  66%[setuptools          ]|######################################            |  77%[pip                 ]|############################################      |  88%[      COMPLETE      ]|##################################################| 100%
+Removing old work directory
+Source cache directory is: /home/ubuntu/miniconda/conda-bld/src_cache
+Found source in cache: splunk-sdk-1.3.1.tar.gz
+Extracting download
+Package: splunk-sdk-1.3.1-py_0
+source tree in: /home/ubuntu/miniconda/conda-bld/work/splunk-sdk-1.3.1
+number of files: 57
+Fixing permissions
+Fixing permissions
+BUILD END: splunk-sdk-1.3.1-py_0
+TEST START: splunk-sdk-1.3.1-py_0
+Fetching package metadata: ......
+
+WARNING: conda-build appears to be out of date. You have version 1.13.0 but the
+latest version is 1.14.1. Run
+
+conda update -n root conda-build
+
+to get the latest version.
+
+Solving package specifications: .===== testing package: splunk-sdk-1.3.1-py_0 =====
+import: u'splunklib'
+import: u'splunklib.modularinput'
+import: u'splunklib.searchcommands'
+import: u'splunklib.searchcommands.splunk_csv'
+===== splunk-sdk-1.3.1-py_0 OK =====
+
+The following packages will be downloaded:
+
+    package                    |            build
+    ---------------------------|-----------------
+    splunk-sdk-1.3.1           |             py_0          61 KB
+
+The following NEW packages will be INSTALLED:
+
+    openssl:    1.0.1k-1     
+    pip:        7.0.3-py27_0 
+    python:     2.7.10-0     
+    readline:   6.2-2        
+    setuptools: 18.0.1-py27_0
+    splunk-sdk: 1.3.1-py_0   
+    sqlite:     3.8.4.1-1    
+    system:     5.8-2        
+    tk:         8.5.18-0     
+    zlib:       1.2.8-0      
+
+Fetching packages ...
+splunk-sdk-1.3   0% |                              | ETA:  --:--:--   0.00  B/ssplunk-sdk-1.3  26% |########                       | ETA:  0:00:00  48.46 MB/ssplunk-sdk-1.3  52% |################               | ETA:  0:00:00  60.12 MB/ssplunk-sdk-1.3  78% |########################       | ETA:  0:00:00  67.07 MB/ssplunk-sdk-1.3 100% |###############################| ETA:  0:00:00  66.62 MB/ssplunk-sdk-1.3 100% |###############################| Time: 0:00:00  53.14 MB/s
+Extracting packages ...
+[      COMPLETE      ]|                                                  |   0%[splunk-sdk          ]|                                                  |   0%[splunk-sdk          ]|                                                  |   0%[      COMPLETE      ]|##################################################| 100%
+Linking packages ...
+[      COMPLETE      ]|                                                  |   0%[openssl             ]|                                                  |   0%[openssl             ]|                                                  |   0%[readline            ]|#####                                             |  10%[sqlite              ]|##########                                        |  20%[system              ]|###############                                   |  30%[tk                  ]|####################                              |  40%[zlib                ]|#########################                         |  50%[python              ]|##############################                    |  60%[setuptools          ]|###################################               |  70%[splunk-sdk          ]|########################################          |  80%[pip                 ]|#############################################     |  90%[      COMPLETE      ]|##################################################| 100%
+TEST END: splunk-sdk-1.3.1-py_0
+# If you want to upload this package to binstar.org later, type:
+#
+# $ binstar upload /home/ubuntu/miniconda/conda-bld/noarch/splunk-sdk-1.3.1-py_0.tar.bz2
+#
+# To have conda build upload to binstar automatically, use
+# $ conda config --set binstar_upload yes
+

@@ -2,6 +2,14 @@ Removing old build directory
 Removing old work directory
 BUILD START: flake8-2.4.1-py_0
 Fetching package metadata: ......
+
+WARNING: conda-build appears to be out of date. You have version 1.13.0 but the
+latest version is 1.14.1. Run
+
+conda update -n root conda-build
+
+to get the latest version.
+
 Solving package specifications: .+ /home/ubuntu/miniconda/envs/_build/bin/python setup.py install
 running install
 running bdist_egg
@@ -99,12 +107,12 @@ Installing flake8 script to /home/ubuntu/miniconda/envs/_build/bin
 
 Installed /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/flake8-2.4.1-py2.7.egg
 Processing dependencies for flake8==2.4.1
-Searching for mccabe==0.3
-Best match: mccabe 0.3
-Processing mccabe-0.3-py2.7.egg
-Adding mccabe 0.3 to easy-install.pth file
+Searching for mccabe==0.3.1
+Best match: mccabe 0.3.1
+Processing mccabe-0.3.1-py2.7.egg
+Adding mccabe 0.3.1 to easy-install.pth file
 
-Using /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/mccabe-0.3-py2.7.egg
+Using /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/mccabe-0.3.1-py2.7.egg
 Searching for pep8==1.5.7
 Best match: pep8 1.5.7
 Adding pep8 1.5.7 to easy-install.pth file
@@ -117,35 +125,54 @@ Adding pyflakes 0.8.1 to easy-install.pth file
 Using /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages
 Finished processing dependencies for flake8==2.4.1
 
+The following packages will be downloaded:
+
+    package                    |            build
+    ---------------------------|-----------------
+    mccabe-0.3.1               |             py_0           7 KB
+
 The following NEW packages will be INSTALLED:
 
-    mccabe:     0.3-py27_1  
-    openssl:    1.0.1k-1    
-    pep8:       1.5.7-py27_0
-    pip:        7.0.3-py27_0
-    pyflakes:   0.8.1-py27_0
-    python:     2.7.10-0    
-    readline:   6.2-2       
-    setuptools: 17.0-py27_0 
-    sqlite:     3.8.4.1-1   
-    system:     5.8-2       
-    tk:         8.5.18-0    
-    zlib:       1.2.8-0     
+    mccabe:     0.3.1-py_0   
+    openssl:    1.0.1k-1     
+    pep8:       1.5.7-py27_0 
+    pip:        7.0.3-py27_0 
+    pyflakes:   0.8.1-py27_0 
+    python:     2.7.10-0     
+    readline:   6.2-2        
+    setuptools: 18.0.1-py27_0
+    sqlite:     3.8.4.1-1    
+    system:     5.8-2        
+    tk:         8.5.18-0     
+    zlib:       1.2.8-0      
 
+Fetching packages ...
+mccabe-0.3.1-p   0% |                              | ETA:  --:--:--   0.00  B/smccabe-0.3.1-p 100% |###############################| ETA:  0:00:00  15.31 MB/smccabe-0.3.1-p 100% |###############################| Time: 0:00:00   9.48 MB/s
+Extracting packages ...
+[                    ]|                                                  |   0%[mccabe              ]|                                                  |   0%[      COMPLETE      ]|##################################################| 100%
 Linking packages ...
-[                    ]|                                                  |   0%[openssl             ]|                                                  |   0%[readline            ]|####                                              |   8%[sqlite              ]|########                                          |  16%[system              ]|############                                      |  25%[tk                  ]|################                                  |  33%[zlib                ]|####################                              |  41%[mccabe              ]|#########################                         |  50%[pep8                ]|#############################                     |  58%[pyflakes            ]|#################################                 |  66%[python              ]|#####################################             |  75%[setuptools          ]|#########################################         |  83%[pip                 ]|#############################################     |  91%[      COMPLETE      ]|##################################################| 100%
+[      COMPLETE      ]|                                                  |   0%[openssl             ]|                                                  |   0%[openssl             ]|                                                  |   0%[readline            ]|####                                              |   8%[sqlite              ]|########                                          |  16%[system              ]|############                                      |  25%[tk                  ]|################                                  |  33%[zlib                ]|####################                              |  41%[pep8                ]|#########################                         |  50%[pyflakes            ]|#############################                     |  58%[python              ]|#################################                 |  66%[setuptools          ]|#####################################             |  75%[mccabe              ]|#########################################         |  83%[pip                 ]|#############################################     |  91%[      COMPLETE      ]|##################################################| 100%
 Removing old work directory
 Source cache directory is: /home/ubuntu/miniconda/conda-bld/src_cache
 Found source in cache: flake8-2.4.1.tar.gz
 Extracting download
 Package: flake8-2.4.1-py_0
 source tree in: /home/ubuntu/miniconda/conda-bld/work/flake8-2.4.1
-number of files: 44
+compiling .pyc files...
+number of files: 45
 Fixing permissions
 Fixing permissions
 BUILD END: flake8-2.4.1-py_0
 TEST START: flake8-2.4.1-py_0
 Fetching package metadata: ......
+
+WARNING: conda-build appears to be out of date. You have version 1.13.0 but the
+latest version is 1.14.1. Run
+
+conda update -n root conda-build
+
+to get the latest version.
+
 Solving package specifications: .===== testing package: flake8-2.4.1-py_0 =====
 import: u'flake8'
 import: u'flake8.tests'
@@ -211,26 +238,28 @@ The following packages will be downloaded:
 
 The following NEW packages will be INSTALLED:
 
-    flake8:     2.4.1-py_0  
-    mccabe:     0.3-py27_1  
-    openssl:    1.0.1k-1    
-    pep8:       1.5.7-py27_0
-    pip:        7.0.3-py27_0
-    pyflakes:   0.8.1-py27_0
-    python:     2.7.10-0    
-    readline:   6.2-2       
-    setuptools: 17.0-py27_0 
-    sqlite:     3.8.4.1-1   
-    system:     5.8-2       
-    tk:         8.5.18-0    
-    zlib:       1.2.8-0     
+    flake8:     2.4.1-py_0   
+    mccabe:     0.3.1-py_0   
+    mock:       1.0.1-py27_0 
+    nose:       1.3.7-py27_0 
+    openssl:    1.0.1k-1     
+    pep8:       1.5.7-py27_0 
+    pip:        7.0.3-py27_0 
+    pyflakes:   0.8.1-py27_0 
+    python:     2.7.10-0     
+    readline:   6.2-2        
+    setuptools: 18.0.1-py27_0
+    sqlite:     3.8.4.1-1    
+    system:     5.8-2        
+    tk:         8.5.18-0     
+    zlib:       1.2.8-0      
 
 Fetching packages ...
-flake8-2.4.1-p   0% |                              | ETA:  --:--:--   0.00  B/sflake8-2.4.1-p  17% |#####                          | ETA:  0:00:00  47.76 MB/sflake8-2.4.1-p  34% |##########                     | ETA:  0:00:00  59.47 MB/sflake8-2.4.1-p  51% |###############                | ETA:  0:00:00  66.16 MB/sflake8-2.4.1-p  68% |#####################          | ETA:  0:00:00  70.09 MB/sflake8-2.4.1-p  85% |##########################     | ETA:  0:00:00  72.63 MB/sflake8-2.4.1-p 100% |###############################| ETA:  0:00:00  73.07 MB/sflake8-2.4.1-p 100% |###############################| Time: 0:00:00  63.16 MB/s
+flake8-2.4.1-p   0% |                              | ETA:  --:--:--   0.00  B/sflake8-2.4.1-p  17% |#####                          | Time: 0:00:00  62.76 MB/sflake8-2.4.1-p  34% |##########                     | Time: 0:00:00  69.70 MB/sflake8-2.4.1-p  51% |###############                | Time: 0:00:00  74.45 MB/sflake8-2.4.1-p  68% |#####################          | Time: 0:00:00  77.65 MB/sflake8-2.4.1-p  85% |##########################     | Time: 0:00:00  79.52 MB/sflake8-2.4.1-p 100% |###############################| Time: 0:00:00  79.13 MB/sflake8-2.4.1-p 100% |###############################| Time: 0:00:00  71.27 MB/sflake8-2.4.1-p 100% |###############################| Time: 0:00:00  64.31 MB/s
 Extracting packages ...
 [      COMPLETE      ]|                                                  |   0%[flake8              ]|                                                  |   0%[flake8              ]|                                                  |   0%[      COMPLETE      ]|##################################################| 100%
 Linking packages ...
-[      COMPLETE      ]|                                                  |   0%[openssl             ]|                                                  |   0%[openssl             ]|                                                  |   0%[readline            ]|###                                               |   7%[sqlite              ]|#######                                           |  15%[system              ]|###########                                       |  23%[tk                  ]|###############                                   |  30%[zlib                ]|###################                               |  38%[mccabe              ]|#######################                           |  46%[pep8                ]|##########################                        |  53%[pyflakes            ]|##############################                    |  61%[python              ]|##################################                |  69%[setuptools          ]|######################################            |  76%[flake8              ]|##########################################        |  84%[pip                 ]|##############################################    |  92%[      COMPLETE      ]|##################################################| 100%
+[      COMPLETE      ]|                                                  |   0%[openssl             ]|                                                  |   0%[openssl             ]|                                                  |   0%[readline            ]|###                                               |   6%[sqlite              ]|######                                            |  13%[system              ]|##########                                        |  20%[tk                  ]|#############                                     |  26%[zlib                ]|################                                  |  33%[mock                ]|####################                              |  40%[nose                ]|#######################                           |  46%[pep8                ]|##########################                        |  53%[pyflakes            ]|##############################                    |  60%[python              ]|#################################                 |  66%[setuptools          ]|####################################              |  73%[mccabe              ]|########################################          |  80%[pip                 ]|###########################################       |  86%[flake8              ]|##############################################    |  93%[      COMPLETE      ]|##################################################| 100%
 TEST END: flake8-2.4.1-py_0
 # If you want to upload this package to binstar.org later, type:
 #

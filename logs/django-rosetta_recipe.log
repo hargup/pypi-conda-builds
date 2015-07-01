@@ -1,0 +1,67 @@
+Warning, the following versions were found for django-rosetta
+0.7.6
+0.7.5
+0.7.4
+0.7.3
+0.7.2
+0.7.1
+0.7.0
+0.6.8
+0.6.6
+0.6.5
+0.6.3
+0.6.2
+0.6.1
+0.6.0
+Using 0.7.6
+Use --version to specify a different version.
+Using url https://pypi.python.org/packages/source/d/django-rosetta/django-rosetta-0.7.6.tar.gz (55 KB) for django-rosetta.
+Downloading django-rosetta
+Using cached download
+Unpacking django-rosetta...
+done
+working in /tmp/tmp4UIE4Econda_skeleton_django-rosetta-0.7.6.tar.gz
+Fetching package metadata: ......
+
+WARNING: conda-build appears to be out of date. You have version 1.13.0 but the
+latest version is 1.14.1. Run
+
+conda update -n root conda-build
+
+to get the latest version.
+
+Solving package specifications: .patching file core.py
+Hunk #1 succeeded at 168 with fuzz 2 (offset 2 lines).
+
+WARNING: conda-build appears to be out of date. You have version 1.13.0 but the
+latest version is 1.14.1. Run
+
+conda update -n root conda-build
+
+to get the latest version.
+
+
+Applying patch: '/tmp/tmp4UIE4Econda_skeleton_django-rosetta-0.7.6.tar.gz/pypi-distutils.patch'
+Warning, the following versions were found for microsofttranslator
+0.7
+0.6
+0.5
+0.4
+0.3
+0.2
+0.1
+Using 0.7
+Use --version to specify a different version.
+Using url https://pypi.python.org/packages/source/m/microsofttranslator/microsofttranslator-0.7.tar.gz (7 KB) for microsofttranslator.
+Downloading microsofttranslator
+Using cached download
+Unpacking microsofttranslator...
+done
+working in /tmp/tmpki0GFmconda_skeleton_microsofttranslator-0.7.tar.gz
+Solving package specifications: .patching file core.py
+Hunk #1 succeeded at 168 with fuzz 2 (offset 2 lines).
+
+Applying patch: '/tmp/tmpki0GFmconda_skeleton_microsofttranslator-0.7.tar.gz/pypi-distutils.patch'
+Writing recipe for django-rosetta
+Writing recipe for microsofttranslator
+Done

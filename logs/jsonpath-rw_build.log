@@ -2,6 +2,14 @@ Removing old build directory
 Removing old work directory
 BUILD START: jsonpath-rw-1.4.0-py_0
 Fetching package metadata: ......
+
+WARNING: conda-build appears to be out of date. You have version 1.13.0 but the
+latest version is 1.14.1. Run
+
+conda update -n root conda-build
+
+to get the latest version.
+
 Solving package specifications: .+ /home/ubuntu/miniconda/envs/_build/bin/python setup.py install
 running install
 running bdist_egg
@@ -81,18 +89,18 @@ Finished processing dependencies for jsonpath-rw==1.4.0
 
 The following NEW packages will be INSTALLED:
 
-    decorator:  3.4.2-py27_0
-    openssl:    1.0.1k-1    
-    pip:        7.0.3-py27_0
-    ply:        3.6-py27_0  
-    python:     2.7.10-0    
-    readline:   6.2-2       
-    setuptools: 17.0-py27_0 
-    six:        1.9.0-py27_0
-    sqlite:     3.8.4.1-1   
-    system:     5.8-2       
-    tk:         8.5.18-0    
-    zlib:       1.2.8-0     
+    decorator:  3.4.2-py27_0 
+    openssl:    1.0.1k-1     
+    pip:        7.0.3-py27_0 
+    ply:        3.6-py27_0   
+    python:     2.7.10-0     
+    readline:   6.2-2        
+    setuptools: 18.0.1-py27_0
+    six:        1.9.0-py27_0 
+    sqlite:     3.8.4.1-1    
+    system:     5.8-2        
+    tk:         8.5.18-0     
+    zlib:       1.2.8-0      
 
 Linking packages ...
 [                    ]|                                                  |   0%[openssl             ]|                                                  |   0%[readline            ]|####                                              |   8%[sqlite              ]|########                                          |  16%[system              ]|############                                      |  25%[tk                  ]|################                                  |  33%[zlib                ]|####################                              |  41%[decorator           ]|#########################                         |  50%[ply                 ]|#############################                     |  58%[python              ]|#################################                 |  66%[setuptools          ]|#####################################             |  75%[six                 ]|#########################################         |  83%[pip                 ]|#############################################     |  91%[      COMPLETE      ]|##################################################| 100%
@@ -109,6 +117,14 @@ Fixing permissions
 BUILD END: jsonpath-rw-1.4.0-py_0
 TEST START: jsonpath-rw-1.4.0-py_0
 Fetching package metadata: ......
+
+WARNING: conda-build appears to be out of date. You have version 1.13.0 but the
+latest version is 1.14.1. Run
+
+conda update -n root conda-build
+
+to get the latest version.
+
 Solving package specifications: .===== testing package: jsonpath-rw-1.4.0-py_0 =====
 import: u'jsonpath_rw'
 import: u'jsonpath_rw.bin'
@@ -151,22 +167,22 @@ The following packages will be downloaded:
 
 The following NEW packages will be INSTALLED:
 
-    decorator:   3.4.2-py27_0
-    jsonpath-rw: 1.4.0-py_0  
-    openssl:     1.0.1k-1    
-    pip:         7.0.3-py27_0
-    ply:         3.6-py27_0  
-    python:      2.7.10-0    
-    readline:    6.2-2       
-    setuptools:  17.0-py27_0 
-    six:         1.9.0-py27_0
-    sqlite:      3.8.4.1-1   
-    system:      5.8-2       
-    tk:          8.5.18-0    
-    zlib:        1.2.8-0     
+    decorator:   3.4.2-py27_0 
+    jsonpath-rw: 1.4.0-py_0   
+    openssl:     1.0.1k-1     
+    pip:         7.0.3-py27_0 
+    ply:         3.6-py27_0   
+    python:      2.7.10-0     
+    readline:    6.2-2        
+    setuptools:  18.0.1-py27_0
+    six:         1.9.0-py27_0 
+    sqlite:      3.8.4.1-1    
+    system:      5.8-2        
+    tk:          8.5.18-0     
+    zlib:        1.2.8-0      
 
 Fetching packages ...
-jsonpath-rw-1.   0% |                              | ETA:  --:--:--   0.00  B/sjsonpath-rw-1.  19% |#####                          | ETA:  0:00:00  45.00 MB/sjsonpath-rw-1.  38% |###########                    | ETA:  0:00:00  56.89 MB/sjsonpath-rw-1.  57% |#################              | ETA:  0:00:00  63.91 MB/sjsonpath-rw-1.  76% |#######################        | ETA:  0:00:00  68.26 MB/sjsonpath-rw-1.  95% |#############################  | ETA:  0:00:00  70.99 MB/sjsonpath-rw-1. 100% |###############################| ETA:  0:00:00  65.99 MB/sjsonpath-rw-1. 100% |###############################| Time: 0:00:00  56.77 MB/s
+jsonpath-rw-1.   0% |                              | ETA:  --:--:--   0.00  B/sjsonpath-rw-1.  19% |#####                          | ETA:  0:00:00  46.81 MB/sjsonpath-rw-1.  38% |###########                    | ETA:  0:00:00  57.99 MB/sjsonpath-rw-1.  57% |#################              | ETA:  0:00:00  65.10 MB/sjsonpath-rw-1.  76% |#######################        | ETA:  0:00:00  69.41 MB/sjsonpath-rw-1.  95% |#############################  | ETA:  0:00:00  72.63 MB/sjsonpath-rw-1. 100% |###############################| ETA:  0:00:00  67.26 MB/sjsonpath-rw-1. 100% |###############################| Time: 0:00:00  56.81 MB/s
 Extracting packages ...
 [      COMPLETE      ]|                                                  |   0%[jsonpath-rw         ]|                                                  |   0%[jsonpath-rw         ]|                                                  |   0%[      COMPLETE      ]|##################################################| 100%
 Linking packages ...

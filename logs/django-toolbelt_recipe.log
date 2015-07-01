@@ -4,19 +4,51 @@ Warning, the following versions were found for django-toolbelt
 Using 0.0.1
 Use --version to specify a different version.
 Using url https://pypi.python.org/packages/source/d/django-toolbelt/django-toolbelt-0.0.1.tar.gz (2 KB) for django-toolbelt.
-Downloading django-toolbelt (use --no-download to skip this step)
+Downloading django-toolbelt
 Using cached download
 Unpacking django-toolbelt...
 done
-working in /tmp/tmpvMO3Hbconda_skeleton_django-toolbelt-0.0.1.tar.gz
+working in /tmp/tmpra3m2cconda_skeleton_django-toolbelt-0.0.1.tar.gz
 Fetching package metadata: ......
+
+WARNING: conda-build appears to be out of date. You have version 1.13.0 but the
+latest version is 1.14.1. Run
+
+conda update -n root conda-build
+
+to get the latest version.
+
 Solving package specifications: .patching file core.py
 Hunk #1 succeeded at 168 with fuzz 2 (offset 2 lines).
-Traceback (most recent call last):
-  File "setup.py", line 16, in <module>
-    from setuptools import setup
-ImportError: No module named setuptools
 
-Applying patch: '/tmp/tmpvMO3Hbconda_skeleton_django-toolbelt-0.0.1.tar.gz/pypi-distutils.patch'
-$PYTHONPATH = /tmp/tmpvMO3Hbconda_skeleton_django-toolbelt-0.0.1.tar.gz/django-toolbelt-0.0.1
-Error: command failed: /home/ubuntu/miniconda/envs/_build/bin/python setup.py install
+WARNING: conda-build appears to be out of date. You have version 1.13.0 but the
+latest version is 1.14.1. Run
+
+conda update -n root conda-build
+
+to get the latest version.
+
+
+Applying patch: '/tmp/tmpra3m2cconda_skeleton_django-toolbelt-0.0.1.tar.gz/pypi-distutils.patch'
+Warning, the following versions were found for dj-static
+0.0.6
+0.0.5
+0.0.4
+0.0.3
+0.0.2
+0.0.1
+Using 0.0.6
+Use --version to specify a different version.
+Using url https://pypi.python.org/packages/source/d/dj-static/dj-static-0.0.6.tar.gz (3 KB) for dj-static.
+Downloading dj-static
+Using cached download
+Unpacking dj-static...
+done
+working in /tmp/tmpKYLg9Xconda_skeleton_dj-static-0.0.6.tar.gz
+Solving package specifications: .patching file core.py
+Hunk #1 succeeded at 168 with fuzz 2 (offset 2 lines).
+
+Applying patch: '/tmp/tmpKYLg9Xconda_skeleton_dj-static-0.0.6.tar.gz/pypi-distutils.patch'
+Writing recipe for django-toolbelt
+Writing recipe for dj-static
+Done

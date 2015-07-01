@@ -2,6 +2,14 @@ Removing old build directory
 Removing old work directory
 BUILD START: geoip2-2.1.0-py27_0
 Fetching package metadata: ......
+
+WARNING: conda-build appears to be out of date. You have version 1.13.0 but the
+latest version is 1.14.1. Run
+
+conda update -n root conda-build
+
+to get the latest version.
+
 Solving package specifications: .+ /home/ubuntu/miniconda/envs/_build/bin/python setup.py install
 /home/ubuntu/miniconda/envs/_build/lib/python2.7/distutils/dist.py:267: UserWarning: Unknown distribution option: 'bugtrack_url'
   warnings.warn(msg)
@@ -81,6 +89,12 @@ Adding requests 2.7.0 to easy-install.pth file
 Using /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages
 Finished processing dependencies for geoip2==2.1.0
 
+The following packages will be downloaded:
+
+    package                    |            build
+    ---------------------------|-----------------
+    ipaddr-2.1.11              |           py27_0          23 KB
+
 The following NEW packages will be INSTALLED:
 
     ipaddr:     2.1.11-py27_0
@@ -90,14 +104,18 @@ The following NEW packages will be INSTALLED:
     python:     2.7.10-0     
     readline:   6.2-2        
     requests:   2.7.0-py27_0 
-    setuptools: 17.0-py27_0  
+    setuptools: 18.0.1-py27_0
     sqlite:     3.8.4.1-1    
     system:     5.8-2        
     tk:         8.5.18-0     
     zlib:       1.2.8-0      
 
+Fetching packages ...
+ipaddr-2.1.11-   0% |                              | ETA:  --:--:--   0.00  B/sipaddr-2.1.11-  70% |#####################          | ETA:  0:00:00  35.01 MB/sipaddr-2.1.11- 100% |###############################| ETA:  0:00:00  35.77 MB/sipaddr-2.1.11- 100% |###############################| Time: 0:00:00  27.07 MB/s
+Extracting packages ...
+[                    ]|                                                  |   0%[ipaddr              ]|                                                  |   0%[      COMPLETE      ]|##################################################| 100%
 Linking packages ...
-[                    ]|                                                  |   0%[openssl             ]|                                                  |   0%[readline            ]|####                                              |   8%[sqlite              ]|########                                          |  16%[system              ]|############                                      |  25%[tk                  ]|################                                  |  33%[zlib                ]|####################                              |  41%[ipaddr              ]|#########################                         |  50%[maxminddb           ]|#############################                     |  58%[python              ]|#################################                 |  66%[requests            ]|#####################################             |  75%[setuptools          ]|#########################################         |  83%[pip                 ]|#############################################     |  91%[      COMPLETE      ]|##################################################| 100%
+[      COMPLETE      ]|                                                  |   0%[openssl             ]|                                                  |   0%[openssl             ]|                                                  |   0%[readline            ]|####                                              |   8%[sqlite              ]|########                                          |  16%[system              ]|############                                      |  25%[tk                  ]|################                                  |  33%[zlib                ]|####################                              |  41%[ipaddr              ]|#########################                         |  50%[maxminddb           ]|#############################                     |  58%[python              ]|#################################                 |  66%[requests            ]|#####################################             |  75%[setuptools          ]|#########################################         |  83%[pip                 ]|#############################################     |  91%[      COMPLETE      ]|##################################################| 100%
 Removing old work directory
 Source cache directory is: /home/ubuntu/miniconda/conda-bld/src_cache
 Found source in cache: geoip2-2.1.0.tar.gz
@@ -111,6 +129,14 @@ Fixing permissions
 BUILD END: geoip2-2.1.0-py27_0
 TEST START: geoip2-2.1.0-py27_0
 Fetching package metadata: ......
+
+WARNING: conda-build appears to be out of date. You have version 1.13.0 but the
+latest version is 1.14.1. Run
+
+conda update -n root conda-build
+
+to get the latest version.
+
 Solving package specifications: .===== testing package: geoip2-2.1.0-py27_0 =====
 import: u'geoip2'
 ===== geoip2-2.1.0-py27_0 OK =====
@@ -124,6 +150,7 @@ The following packages will be downloaded:
 The following NEW packages will be INSTALLED:
 
     geoip2:     2.1.0-py27_0 
+    httpretty:  0.8.10-py27_0
     ipaddr:     2.1.11-py27_0
     maxminddb:  1.2.0-py27_0 
     openssl:    1.0.1k-1     
@@ -131,18 +158,18 @@ The following NEW packages will be INSTALLED:
     python:     2.7.10-0     
     readline:   6.2-2        
     requests:   2.7.0-py27_0 
-    setuptools: 17.0-py27_0  
+    setuptools: 18.0.1-py27_0
     sqlite:     3.8.4.1-1    
     system:     5.8-2        
     tk:         8.5.18-0     
     zlib:       1.2.8-0      
 
 Fetching packages ...
-geoip2-2.1.0-p   0% |                              | ETA:  --:--:--   0.00  B/sgeoip2-2.1.0-p  82% |#########################      | ETA:  0:00:00  46.56 MB/sgeoip2-2.1.0-p 100% |###############################| ETA:  0:00:00  38.36 MB/sgeoip2-2.1.0-p 100% |###############################| Time: 0:00:00  25.94 MB/s
+geoip2-2.1.0-p   0% |                              | ETA:  --:--:--   0.00  B/sgeoip2-2.1.0-p  82% |#########################      | Time: 0:00:00  58.34 MB/sgeoip2-2.1.0-p 100% |###############################| Time: 0:00:00  44.47 MB/sgeoip2-2.1.0-p 100% |###############################| Time: 0:00:00  34.07 MB/sgeoip2-2.1.0-p 100% |###############################| Time: 0:00:00  25.68 MB/s
 Extracting packages ...
 [      COMPLETE      ]|                                                  |   0%[geoip2              ]|                                                  |   0%[geoip2              ]|                                                  |   0%[      COMPLETE      ]|##################################################| 100%
 Linking packages ...
-[      COMPLETE      ]|                                                  |   0%[openssl             ]|                                                  |   0%[openssl             ]|                                                  |   0%[readline            ]|###                                               |   7%[sqlite              ]|#######                                           |  15%[system              ]|###########                                       |  23%[tk                  ]|###############                                   |  30%[zlib                ]|###################                               |  38%[ipaddr              ]|#######################                           |  46%[maxminddb           ]|##########################                        |  53%[python              ]|##############################                    |  61%[requests            ]|##################################                |  69%[setuptools          ]|######################################            |  76%[geoip2              ]|##########################################        |  84%[pip                 ]|##############################################    |  92%[      COMPLETE      ]|##################################################| 100%
+[      COMPLETE      ]|                                                  |   0%[openssl             ]|                                                  |   0%[openssl             ]|                                                  |   0%[readline            ]|###                                               |   7%[sqlite              ]|#######                                           |  14%[system              ]|##########                                        |  21%[tk                  ]|##############                                    |  28%[zlib                ]|#################                                 |  35%[httpretty           ]|#####################                             |  42%[ipaddr              ]|#########################                         |  50%[maxminddb           ]|############################                      |  57%[python              ]|################################                  |  64%[requests            ]|###################################               |  71%[setuptools          ]|#######################################           |  78%[geoip2              ]|##########################################        |  85%[pip                 ]|##############################################    |  92%[      COMPLETE      ]|##################################################| 100%
 TEST END: geoip2-2.1.0-py27_0
 # If you want to upload this package to binstar.org later, type:
 #

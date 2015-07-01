@@ -1,0 +1,140 @@
+Removing old build directory
+Removing old work directory
+BUILD START: django-pagination-1.0.7-py_0
+Fetching package metadata: ......
+
+WARNING: conda-build appears to be out of date. You have version 1.13.0 but the
+latest version is 1.14.1. Run
+
+conda update -n root conda-build
+
+to get the latest version.
+
+Solving package specifications: .+ /home/ubuntu/miniconda/envs/_build/bin/python setup.py install
+running install
+running bdist_egg
+running egg_info
+writing django_pagination.egg-info/PKG-INFO
+writing top-level names to django_pagination.egg-info/top_level.txt
+writing dependency_links to django_pagination.egg-info/dependency_links.txt
+reading manifest file 'django_pagination.egg-info/SOURCES.txt'
+reading manifest template 'MANIFEST.in'
+writing manifest file 'django_pagination.egg-info/SOURCES.txt'
+installing library code to build/bdist.linux-x86_64/egg
+running install_lib
+running build_py
+creating build
+creating build/lib
+creating build/lib/pagination
+copying pagination/paginator.py -> build/lib/pagination
+copying pagination/tests.py -> build/lib/pagination
+copying pagination/__init__.py -> build/lib/pagination
+copying pagination/models.py -> build/lib/pagination
+copying pagination/middleware.py -> build/lib/pagination
+creating build/lib/pagination/templatetags
+copying pagination/templatetags/pagination_tags.py -> build/lib/pagination/templatetags
+copying pagination/templatetags/__init__.py -> build/lib/pagination/templatetags
+creating build/lib/pagination/templates
+creating build/lib/pagination/templates/pagination
+copying pagination/templates/pagination/pagination.html -> build/lib/pagination/templates/pagination
+creating build/bdist.linux-x86_64
+creating build/bdist.linux-x86_64/egg
+creating build/bdist.linux-x86_64/egg/pagination
+copying build/lib/pagination/paginator.py -> build/bdist.linux-x86_64/egg/pagination
+creating build/bdist.linux-x86_64/egg/pagination/templates
+creating build/bdist.linux-x86_64/egg/pagination/templates/pagination
+copying build/lib/pagination/templates/pagination/pagination.html -> build/bdist.linux-x86_64/egg/pagination/templates/pagination
+creating build/bdist.linux-x86_64/egg/pagination/templatetags
+copying build/lib/pagination/templatetags/pagination_tags.py -> build/bdist.linux-x86_64/egg/pagination/templatetags
+copying build/lib/pagination/templatetags/__init__.py -> build/bdist.linux-x86_64/egg/pagination/templatetags
+copying build/lib/pagination/tests.py -> build/bdist.linux-x86_64/egg/pagination
+copying build/lib/pagination/__init__.py -> build/bdist.linux-x86_64/egg/pagination
+copying build/lib/pagination/models.py -> build/bdist.linux-x86_64/egg/pagination
+copying build/lib/pagination/middleware.py -> build/bdist.linux-x86_64/egg/pagination
+byte-compiling build/bdist.linux-x86_64/egg/pagination/paginator.py to paginator.pyc
+byte-compiling build/bdist.linux-x86_64/egg/pagination/templatetags/pagination_tags.py to pagination_tags.pyc
+byte-compiling build/bdist.linux-x86_64/egg/pagination/templatetags/__init__.py to __init__.pyc
+byte-compiling build/bdist.linux-x86_64/egg/pagination/tests.py to tests.pyc
+byte-compiling build/bdist.linux-x86_64/egg/pagination/__init__.py to __init__.pyc
+byte-compiling build/bdist.linux-x86_64/egg/pagination/models.py to models.pyc
+byte-compiling build/bdist.linux-x86_64/egg/pagination/middleware.py to middleware.pyc
+creating build/bdist.linux-x86_64/egg/EGG-INFO
+copying django_pagination.egg-info/PKG-INFO -> build/bdist.linux-x86_64/egg/EGG-INFO
+copying django_pagination.egg-info/SOURCES.txt -> build/bdist.linux-x86_64/egg/EGG-INFO
+copying django_pagination.egg-info/dependency_links.txt -> build/bdist.linux-x86_64/egg/EGG-INFO
+copying django_pagination.egg-info/not-zip-safe -> build/bdist.linux-x86_64/egg/EGG-INFO
+copying django_pagination.egg-info/top_level.txt -> build/bdist.linux-x86_64/egg/EGG-INFO
+creating dist
+creating 'dist/django_pagination-1.0.7-py2.7.egg' and adding 'build/bdist.linux-x86_64/egg' to it
+removing 'build/bdist.linux-x86_64/egg' (and everything under it)
+Processing django_pagination-1.0.7-py2.7.egg
+creating /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/django_pagination-1.0.7-py2.7.egg
+Extracting django_pagination-1.0.7-py2.7.egg to /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages
+Adding django-pagination 1.0.7 to easy-install.pth file
+
+Installed /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/django_pagination-1.0.7-py2.7.egg
+Processing dependencies for django-pagination==1.0.7
+Finished processing dependencies for django-pagination==1.0.7
+
+The following NEW packages will be INSTALLED:
+
+    openssl:    1.0.1k-1     
+    pip:        7.0.3-py27_0 
+    python:     2.7.10-0     
+    readline:   6.2-2        
+    setuptools: 18.0.1-py27_0
+    sqlite:     3.8.4.1-1    
+    system:     5.8-2        
+    tk:         8.5.18-0     
+    zlib:       1.2.8-0      
+
+Linking packages ...
+[                    ]|                                                  |   0%[openssl             ]|                                                  |   0%[readline            ]|#####                                             |  11%[sqlite              ]|###########                                       |  22%[system              ]|################                                  |  33%[tk                  ]|######################                            |  44%[zlib                ]|###########################                       |  55%[python              ]|#################################                 |  66%[setuptools          ]|######################################            |  77%[pip                 ]|############################################      |  88%[      COMPLETE      ]|##################################################| 100%
+Removing old work directory
+Source cache directory is: /home/ubuntu/miniconda/conda-bld/src_cache
+Found source in cache: django-pagination-1.0.7.tar.gz
+Extracting download
+Package: django-pagination-1.0.7-py_0
+source tree in: /home/ubuntu/miniconda/conda-bld/work/django-pagination-1.0.7
+found egg dir: /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/django_pagination-1.0.7-py2.7.egg
+number of files: 16
+Fixing permissions
+Fixing permissions
+BUILD END: django-pagination-1.0.7-py_0
+TEST START: django-pagination-1.0.7-py_0
+Fetching package metadata: ......
+
+WARNING: conda-build appears to be out of date. You have version 1.13.0 but the
+latest version is 1.14.1. Run
+
+conda update -n root conda-build
+
+to get the latest version.
+
+Solving package specifications: ./home/ubuntu/miniconda/pkgs/django-pagination-1.0.7-py_0/bin/.django-pagination-pre-link.sh: line 2: /home/ubuntu/miniconda/envs/_test/bin/python: No such file or directory
+
+The following packages will be downloaded:
+
+    package                    |            build
+    ---------------------------|-----------------
+    django-pagination-1.0.7    |             py_0           8 KB
+
+The following NEW packages will be INSTALLED:
+
+    django-pagination: 1.0.7-py_0   
+    openssl:           1.0.1k-1     
+    pip:               7.0.3-py27_0 
+    python:            2.7.10-0     
+    readline:          6.2-2        
+    setuptools:        18.0.1-py27_0
+    sqlite:            3.8.4.1-1    
+    system:            5.8-2        
+    tk:                8.5.18-0     
+    zlib:              1.2.8-0      
+
+Fetching packages ...
+django-paginat   0% |                              | ETA:  --:--:--   0.00  B/sdjango-paginat 100% |###############################| ETA:  0:00:00  25.26 MB/sdjango-paginat 100% |###############################| Time: 0:00:00  14.01 MB/s
+Extracting packages ...
+[      COMPLETE      ]|                                                  |   0%[django-pagination   ]|                                                  |   0%[django-pagination   ]|                                                  |   0%[      COMPLETE      ]|##################################################| 100%
+Linking packages ...
+[      COMPLETE      ]|                                                  |   0%[openssl             ]|                                                  |   0%[openssl             ]|                                                  |   0%[readline            ]|#####                                             |  10%[sqlite              ]|##########                                        |  20%[system              ]|###############                                   |  30%[tk                  ]|####################                              |  40%[zlib                ]|#########################                         |  50%[django-pagination   ]|##############################                    |  60%Error: pre-link failed: django-pagination-1.0.7-py_0

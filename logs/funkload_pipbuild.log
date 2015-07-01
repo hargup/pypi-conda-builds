@@ -1,0 +1,35 @@
+Error: prefix already exists: /home/ubuntu/miniconda/envs/_pipbuild_
+Collecting funkload==1.17.1
+  Downloading http://localhost/packages/source/f/funkload/funkload-1.17.1.tar.gz (107kB)
+setuptools must be installed to install from a source distribution
+Package search: {'_pypi_ordering': False, 'version': '1.17.1', 'name': 'funkload', 'summary': 'Functional and load web tester.'}
+Creating standard recipe for funkload-1.17.1
+Using url https://pypi.python.org/packages/source/f/funkload/funkload-1.17.1.tar.gz (105 KB) for funkload.
+Downloading funkload
+Using cached download
+Unpacking funkload...
+done
+working in /tmp/tmpjjDinUconda_skeleton_funkload-1.17.1.tar.gz
+Fetching package metadata: ......
+
+WARNING: conda-build appears to be out of date. You have version 1.13.0 but the
+latest version is 1.14.1. Run
+
+conda update -n root conda-build
+
+to get the latest version.
+
+Solving package specifications: .patching file core.py
+Hunk #1 succeeded at 168 with fuzz 2 (offset 2 lines).
+Traceback (most recent call last):
+  File "setup.py", line 24, in <module>
+    import ez_setup
+ImportError: No module named ez_setup
+
+Applying patch: '/tmp/tmpjjDinUconda_skeleton_funkload-1.17.1.tar.gz/pypi-distutils.patch'
+$PYTHONPATH = /tmp/tmpjjDinUconda_skeleton_funkload-1.17.1.tar.gz/funkload-1.17.1
+Error: command failed: /home/ubuntu/miniconda/envs/_build/bin/python setup.py install
+
+conda create -n _pipbuild_ --yes python pip
+/home/ubuntu/miniconda/envs/_pipbuild_/bin/pip install funkload==1.17.1
+Error: Could not pip install funkload==1.17.1

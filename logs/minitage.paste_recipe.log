@@ -255,19 +255,62 @@ Warning, the following versions were found for minitage.paste
 Using 1.4.6
 Use --version to specify a different version.
 Using url https://pypi.python.org/packages/source/m/minitage.paste/minitage.paste-1.4.6.zip (658 KB) for minitage.paste.
-Downloading minitage.paste (use --no-download to skip this step)
+Downloading minitage.paste
 Using cached download
 Unpacking minitage.paste...
 done
-working in /tmp/tmpSmP5qhconda_skeleton_minitage.paste-1.4.6.zip
+working in /tmp/tmpHYUUmDconda_skeleton_minitage.paste-1.4.6.zip
 Fetching package metadata: ......
+
+WARNING: conda-build appears to be out of date. You have version 1.13.0 but the
+latest version is 1.14.1. Run
+
+conda update -n root conda-build
+
+to get the latest version.
+
 Solving package specifications: .patching file core.py
 Hunk #1 succeeded at 168 with fuzz 2 (offset 2 lines).
-Traceback (most recent call last):
-  File "setup.py", line 2, in <module>
-    from setuptools import setup, find_packages
-ImportError: No module named setuptools
 
-Applying patch: '/tmp/tmpSmP5qhconda_skeleton_minitage.paste-1.4.6.zip/pypi-distutils.patch'
-$PYTHONPATH = /tmp/tmpSmP5qhconda_skeleton_minitage.paste-1.4.6.zip/minitage.paste-1.4.6
-Error: command failed: /home/ubuntu/miniconda/envs/_build/bin/python setup.py install
+WARNING: conda-build appears to be out of date. You have version 1.13.0 but the
+latest version is 1.14.1. Run
+
+conda update -n root conda-build
+
+to get the latest version.
+
+
+The following NEW packages will be INSTALLED:
+
+    numpy:  1.9.2-py27_0
+    pyyaml: 3.11-py27_1 
+    yaml:   0.1.6-0     
+
+Linking packages ...
+[                    ]|                                                  |   0%[yaml                ]|                                                  |   0%[numpy               ]|################                                  |  33%[pyyaml              ]|#################################                 |  66%[      COMPLETE      ]|##################################################| 100%
+Applying patch: '/tmp/tmpHYUUmDconda_skeleton_minitage.paste-1.4.6.zip/pypi-distutils.patch'
+Warning, the following versions were found for iniparse
+0.4
+0.3.2
+0.3.1
+0.3.0
+0.2.4
+0.2.3
+0.2.2
+0.2.1
+0.2
+Using 0.4
+Use --version to specify a different version.
+Using url https://pypi.python.org/packages/source/i/iniparse/iniparse-0.4.tar.gz (31 KB) for iniparse.
+Downloading iniparse
+Using cached download
+Unpacking iniparse...
+done
+working in /tmp/tmpoBSFfjconda_skeleton_iniparse-0.4.tar.gz
+Solving package specifications: .patching file core.py
+Hunk #1 succeeded at 168 with fuzz 2 (offset 2 lines).
+
+Applying patch: '/tmp/tmpoBSFfjconda_skeleton_iniparse-0.4.tar.gz/pypi-distutils.patch'
+Writing recipe for minitage.paste
+Writing recipe for iniparse
+Done

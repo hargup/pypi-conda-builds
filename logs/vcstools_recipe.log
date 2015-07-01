@@ -1,0 +1,57 @@
+Warning, the following versions were found for vcstools
+0.1.36
+0.1.35
+0.1.33
+0.1.32
+0.1.30
+0.1.29
+0.1.27
+0.1.26
+0.1.25
+0.1.24
+0.1.22
+0.1.20
+0.1.18
+0.1.17
+0.1.16
+0.1.15
+0.1.14
+0.1.13
+0.1.12
+0.1.11
+0.1.10
+0.1.9
+0.1.8
+0.1.7
+0.1.6
+0.1.5
+0.1.4
+0.1.3
+0.1.2
+0.1.0
+0.0.3
+0.0.2
+0.0.1
+Using 0.1.36
+Use --version to specify a different version.
+Using url https://pypi.python.org/packages/source/v/vcstools/vcstools-0.1.36.tar.gz (39 KB) for vcstools.
+Downloading vcstools
+Using cached download
+Unpacking vcstools...
+done
+working in /tmp/tmpoN24jsconda_skeleton_vcstools-0.1.36.tar.gz
+Fetching package metadata: ......
+
+WARNING: conda-build appears to be out of date. You have version 1.13.0 but the
+latest version is 1.14.1. Run
+
+conda update -n root conda-build
+
+to get the latest version.
+
+Solving package specifications: .patching file core.py
+Hunk #1 succeeded at 168 with fuzz 2 (offset 2 lines).
+
+Applying patch: '/tmp/tmpoN24jsconda_skeleton_vcstools-0.1.36.tar.gz/pypi-distutils.patch'
+Writing recipe for vcstools
+Done

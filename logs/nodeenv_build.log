@@ -1,0 +1,121 @@
+Removing old build directory
+Removing old work directory
+BUILD START: nodeenv-0.13.2-py_0
+Fetching package metadata: ......
+
+WARNING: conda-build appears to be out of date. You have version 1.13.0 but the
+latest version is 1.14.1. Run
+
+conda update -n root conda-build
+
+to get the latest version.
+
+Solving package specifications: .+ /home/ubuntu/miniconda/envs/_build/bin/python setup.py install
+running install
+running bdist_egg
+running egg_info
+writing nodeenv.egg-info/PKG-INFO
+writing top-level names to nodeenv.egg-info/top_level.txt
+writing dependency_links to nodeenv.egg-info/dependency_links.txt
+writing entry points to nodeenv.egg-info/entry_points.txt
+reading manifest file 'nodeenv.egg-info/SOURCES.txt'
+reading manifest template 'MANIFEST.in'
+warning: no directories found matching 'debian'
+no previously-included directories found matching 'debian/nodeenv'
+no previously-included directories found matching 'debian/sdist'
+warning: no previously-included files matching '*.log' found under directory 'debian'
+warning: no previously-included files matching '*.substvars' found under directory 'debian'
+warning: no previously-included files matching 'files' found under directory 'debian'
+writing manifest file 'nodeenv.egg-info/SOURCES.txt'
+installing library code to build/bdist.linux-x86_64/egg
+running install_lib
+running build_py
+creating build
+creating build/lib
+copying nodeenv.py -> build/lib
+creating build/bdist.linux-x86_64
+creating build/bdist.linux-x86_64/egg
+copying build/lib/nodeenv.py -> build/bdist.linux-x86_64/egg
+byte-compiling build/bdist.linux-x86_64/egg/nodeenv.py to nodeenv.pyc
+creating build/bdist.linux-x86_64/egg/EGG-INFO
+copying nodeenv.egg-info/PKG-INFO -> build/bdist.linux-x86_64/egg/EGG-INFO
+copying nodeenv.egg-info/SOURCES.txt -> build/bdist.linux-x86_64/egg/EGG-INFO
+copying nodeenv.egg-info/dependency_links.txt -> build/bdist.linux-x86_64/egg/EGG-INFO
+copying nodeenv.egg-info/entry_points.txt -> build/bdist.linux-x86_64/egg/EGG-INFO
+copying nodeenv.egg-info/not-zip-safe -> build/bdist.linux-x86_64/egg/EGG-INFO
+copying nodeenv.egg-info/top_level.txt -> build/bdist.linux-x86_64/egg/EGG-INFO
+creating dist
+creating 'dist/nodeenv-0.13.2-py2.7.egg' and adding 'build/bdist.linux-x86_64/egg' to it
+removing 'build/bdist.linux-x86_64/egg' (and everything under it)
+Processing nodeenv-0.13.2-py2.7.egg
+creating /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/nodeenv-0.13.2-py2.7.egg
+Extracting nodeenv-0.13.2-py2.7.egg to /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages
+Adding nodeenv 0.13.2 to easy-install.pth file
+Installing nodeenv script to /home/ubuntu/miniconda/envs/_build/bin
+
+Installed /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/nodeenv-0.13.2-py2.7.egg
+Processing dependencies for nodeenv==0.13.2
+Finished processing dependencies for nodeenv==0.13.2
+
+The following NEW packages will be INSTALLED:
+
+    openssl:    1.0.1k-1     
+    pip:        7.0.3-py27_0 
+    python:     2.7.10-0     
+    readline:   6.2-2        
+    setuptools: 18.0.1-py27_0
+    sqlite:     3.8.4.1-1    
+    system:     5.8-2        
+    tk:         8.5.18-0     
+    zlib:       1.2.8-0      
+
+Linking packages ...
+[                    ]|                                                  |   0%[openssl             ]|                                                  |   0%[readline            ]|#####                                             |  11%[sqlite              ]|###########                                       |  22%[system              ]|################                                  |  33%[tk                  ]|######################                            |  44%[zlib                ]|###########################                       |  55%[python              ]|#################################                 |  66%[setuptools          ]|######################################            |  77%[pip                 ]|############################################      |  88%[      COMPLETE      ]|##################################################| 100%
+Removing old work directory
+Source cache directory is: /home/ubuntu/miniconda/conda-bld/src_cache
+Found source in cache: nodeenv-0.13.2.tar.gz
+Extracting download
+Package: nodeenv-0.13.2-py_0
+source tree in: /home/ubuntu/miniconda/conda-bld/work/nodeenv-0.13.2
+found egg dir: /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/nodeenv-0.13.2-py2.7.egg
+number of files: 4
+Fixing permissions
+Fixing permissions
+BUILD END: nodeenv-0.13.2-py_0
+TEST START: nodeenv-0.13.2-py_0
+Fetching package metadata: ......
+
+WARNING: conda-build appears to be out of date. You have version 1.13.0 but the
+latest version is 1.14.1. Run
+
+conda update -n root conda-build
+
+to get the latest version.
+
+Solving package specifications: ./home/ubuntu/miniconda/pkgs/nodeenv-0.13.2-py_0/bin/.nodeenv-pre-link.sh: line 2: /home/ubuntu/miniconda/envs/_test/bin/python: No such file or directory
+
+The following packages will be downloaded:
+
+    package                    |            build
+    ---------------------------|-----------------
+    nodeenv-0.13.2             |             py_0          84 KB
+
+The following NEW packages will be INSTALLED:
+
+    nodeenv:    0.13.2-py_0  
+    openssl:    1.0.1k-1     
+    pip:        7.0.3-py27_0 
+    python:     2.7.10-0     
+    readline:   6.2-2        
+    setuptools: 18.0.1-py27_0
+    sqlite:     3.8.4.1-1    
+    system:     5.8-2        
+    tk:         8.5.18-0     
+    zlib:       1.2.8-0      
+
+Fetching packages ...
+nodeenv-0.13.2   0% |                              | ETA:  --:--:--   0.00  B/snodeenv-0.13.2  19% |#####                          | ETA:  0:00:00  46.15 MB/snodeenv-0.13.2  38% |###########                    | ETA:  0:00:00  58.29 MB/snodeenv-0.13.2  57% |#################              | ETA:  0:00:00  65.18 MB/snodeenv-0.13.2  76% |#######################        | ETA:  0:00:00  69.48 MB/snodeenv-0.13.2  95% |#############################  | ETA:  0:00:00  72.23 MB/snodeenv-0.13.2 100% |###############################| ETA:  0:00:00  66.70 MB/snodeenv-0.13.2 100% |###############################| Time: 0:00:00  57.36 MB/s
+Extracting packages ...
+[      COMPLETE      ]|                                                  |   0%[nodeenv             ]|                                                  |   0%[nodeenv             ]|                                                  |   0%[      COMPLETE      ]|##################################################| 100%
+Linking packages ...
+[      COMPLETE      ]|                                                  |   0%[openssl             ]|                                                  |   0%[openssl             ]|                                                  |   0%[readline            ]|#####                                             |  10%[sqlite              ]|##########                                        |  20%[system              ]|###############                                   |  30%[tk                  ]|####################                              |  40%[zlib                ]|#########################                         |  50%[nodeenv             ]|##############################                    |  60%Error: pre-link failed: nodeenv-0.13.2-py_0

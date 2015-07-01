@@ -1,0 +1,384 @@
+Removing old build directory
+Removing old work directory
+BUILD START: pythonbrew-1.3.6-py_0
+Fetching package metadata: ......
+
+WARNING: conda-build appears to be out of date. You have version 1.13.0 but the
+latest version is 1.14.1. Run
+
+conda update -n root conda-build
+
+to get the latest version.
+
+Solving package specifications: .+ /home/ubuntu/miniconda/envs/_build/bin/python setup.py install
+running install
+running bdist_egg
+running egg_info
+writing pythonbrew.egg-info/PKG-INFO
+writing top-level names to pythonbrew.egg-info/top_level.txt
+writing dependency_links to pythonbrew.egg-info/dependency_links.txt
+writing entry points to pythonbrew.egg-info/entry_points.txt
+reading manifest file 'pythonbrew.egg-info/SOURCES.txt'
+reading manifest template 'MANIFEST.in'
+writing manifest file 'pythonbrew.egg-info/SOURCES.txt'
+installing library code to build/bdist.linux-x86_64/egg
+running install_lib
+running build_py
+creating build
+creating build/lib
+creating build/lib/tests
+copying tests/__init__.py -> build/lib/tests
+copying tests/test_pythonbrew.py -> build/lib/tests
+creating build/lib/pythonbrew
+copying pythonbrew/basecommand.py -> build/lib/pythonbrew
+copying pythonbrew/define.py -> build/lib/pythonbrew
+copying pythonbrew/baseparser.py -> build/lib/pythonbrew
+copying pythonbrew/downloader.py -> build/lib/pythonbrew
+copying pythonbrew/curl.py -> build/lib/pythonbrew
+copying pythonbrew/util.py -> build/lib/pythonbrew
+copying pythonbrew/log.py -> build/lib/pythonbrew
+copying pythonbrew/__init__.py -> build/lib/pythonbrew
+copying pythonbrew/exceptions.py -> build/lib/pythonbrew
+creating build/lib/pythonbrew/installer
+copying pythonbrew/installer/pythonbrewinstaller.py -> build/lib/pythonbrew/installer
+copying pythonbrew/installer/__init__.py -> build/lib/pythonbrew/installer
+copying pythonbrew/installer/pythoninstaller.py -> build/lib/pythonbrew/installer
+creating build/lib/pythonbrew/commands
+copying pythonbrew/commands/use.py -> build/lib/pythonbrew/commands
+copying pythonbrew/commands/off.py -> build/lib/pythonbrew/commands
+copying pythonbrew/commands/list.py -> build/lib/pythonbrew/commands
+copying pythonbrew/commands/install.py -> build/lib/pythonbrew/commands
+copying pythonbrew/commands/version.py -> build/lib/pythonbrew/commands
+copying pythonbrew/commands/venv.py -> build/lib/pythonbrew/commands
+copying pythonbrew/commands/symlink.py -> build/lib/pythonbrew/commands
+copying pythonbrew/commands/update.py -> build/lib/pythonbrew/commands
+copying pythonbrew/commands/help.py -> build/lib/pythonbrew/commands
+copying pythonbrew/commands/__init__.py -> build/lib/pythonbrew/commands
+copying pythonbrew/commands/cleanup.py -> build/lib/pythonbrew/commands
+copying pythonbrew/commands/uninstall.py -> build/lib/pythonbrew/commands
+copying pythonbrew/commands/buildout.py -> build/lib/pythonbrew/commands
+copying pythonbrew/commands/switch.py -> build/lib/pythonbrew/commands
+copying pythonbrew/commands/py.py -> build/lib/pythonbrew/commands
+creating build/lib/pythonbrew/etc
+copying pythonbrew/etc/bashrc -> build/lib/pythonbrew/etc
+copying pythonbrew/etc/config.cfg -> build/lib/pythonbrew/etc
+copying pythonbrew/etc/pythonbrew.fish -> build/lib/pythonbrew/etc
+creating build/lib/pythonbrew/patches
+creating build/lib/pythonbrew/patches/all
+creating build/lib/pythonbrew/patches/all/common
+copying pythonbrew/patches/all/common/patch-setup.py.diff -> build/lib/pythonbrew/patches/all/common
+creating build/lib/pythonbrew/patches/all/python24
+copying pythonbrew/patches/all/python24/patch-setup.py.diff -> build/lib/pythonbrew/patches/all/python24
+creating build/lib/pythonbrew/patches/all/python25
+copying pythonbrew/patches/all/python25/patch-setup.py.diff -> build/lib/pythonbrew/patches/all/python25
+creating build/lib/pythonbrew/patches/all/python26
+copying pythonbrew/patches/all/python26/patch-Makefile.pre.in-for-2.6.2-and-earlier.diff -> build/lib/pythonbrew/patches/all/python26
+copying pythonbrew/patches/all/python26/patch-_ssl.c-for-ubuntu-oneiric-and-later.diff -> build/lib/pythonbrew/patches/all/python26
+copying pythonbrew/patches/all/python26/patch-setup.py-for-2.6.5-and-earlier.diff -> build/lib/pythonbrew/patches/all/python26
+creating build/lib/pythonbrew/patches/all/python27
+copying pythonbrew/patches/all/python27/patch-Modules-_sqlite-connection.c.diff -> build/lib/pythonbrew/patches/all/python27
+copying pythonbrew/patches/all/python27/patch-Modules-_sqlite-for-2.7.4.diff -> build/lib/pythonbrew/patches/all/python27
+creating build/lib/pythonbrew/patches/all/python30
+copying pythonbrew/patches/all/python30/patch-setup.py.diff -> build/lib/pythonbrew/patches/all/python30
+creating build/lib/pythonbrew/patches/all/python32
+copying pythonbrew/patches/all/python32/patch-setup.py.diff -> build/lib/pythonbrew/patches/all/python32
+creating build/lib/pythonbrew/patches/macosx
+creating build/lib/pythonbrew/patches/macosx/python24
+copying pythonbrew/patches/macosx/python24/patch-Include-pyport.h -> build/lib/pythonbrew/patches/macosx/python24
+copying pythonbrew/patches/macosx/python24/patch-Lib-cgi.py.diff -> build/lib/pythonbrew/patches/macosx/python24
+copying pythonbrew/patches/macosx/python24/patch-Lib-site.py.diff -> build/lib/pythonbrew/patches/macosx/python24
+copying pythonbrew/patches/macosx/python24/patch-Mac-OSX-IDLE-Makefile.in -> build/lib/pythonbrew/patches/macosx/python24
+copying pythonbrew/patches/macosx/python24/patch-Mac-OSX-Makefile.in -> build/lib/pythonbrew/patches/macosx/python24
+copying pythonbrew/patches/macosx/python24/patch-Mac-OSX-PythonLauncher-Makefile.in -> build/lib/pythonbrew/patches/macosx/python24
+copying pythonbrew/patches/macosx/python24/patch-Makefile.pre.in -> build/lib/pythonbrew/patches/macosx/python24
+copying pythonbrew/patches/macosx/python24/patch-configure -> build/lib/pythonbrew/patches/macosx/python24
+copying pythonbrew/patches/macosx/python24/patch-configure-arch_only.diff -> build/lib/pythonbrew/patches/macosx/python24
+copying pythonbrew/patches/macosx/python24/patch-configure-badcflags.diff -> build/lib/pythonbrew/patches/macosx/python24
+copying pythonbrew/patches/macosx/python24/patch-gestaltmodule.c.diff -> build/lib/pythonbrew/patches/macosx/python24
+copying pythonbrew/patches/macosx/python24/patch-macosmodule.diff -> build/lib/pythonbrew/patches/macosx/python24
+copying pythonbrew/patches/macosx/python24/patch-mactoolboxglue.diff -> build/lib/pythonbrew/patches/macosx/python24
+copying pythonbrew/patches/macosx/python24/patch-pymactoolbox.diff -> build/lib/pythonbrew/patches/macosx/python24
+copying pythonbrew/patches/macosx/python24/patch-setup.py.diff -> build/lib/pythonbrew/patches/macosx/python24
+creating build/lib/pythonbrew/patches/macosx/python25
+copying pythonbrew/patches/macosx/python25/_localemodule.c.ed -> build/lib/pythonbrew/patches/macosx/python25
+copying pythonbrew/patches/macosx/python25/locale.py.ed -> build/lib/pythonbrew/patches/macosx/python25
+copying pythonbrew/patches/macosx/python25/patch-64bit.diff -> build/lib/pythonbrew/patches/macosx/python25
+copying pythonbrew/patches/macosx/python25/patch-Lib-cgi.py.diff -> build/lib/pythonbrew/patches/macosx/python25
+copying pythonbrew/patches/macosx/python25/patch-Lib-distutils-dist.py.diff -> build/lib/pythonbrew/patches/macosx/python25
+copying pythonbrew/patches/macosx/python25/patch-Makefile.pre.in.diff -> build/lib/pythonbrew/patches/macosx/python25
+copying pythonbrew/patches/macosx/python25/patch-configure-arch_only.diff -> build/lib/pythonbrew/patches/macosx/python25
+copying pythonbrew/patches/macosx/python25/patch-configure-badcflags.diff -> build/lib/pythonbrew/patches/macosx/python25
+copying pythonbrew/patches/macosx/python25/patch-configure-no-posix-c-source.diff -> build/lib/pythonbrew/patches/macosx/python25
+copying pythonbrew/patches/macosx/python25/patch-gestaltmodule.c.diff -> build/lib/pythonbrew/patches/macosx/python25
+copying pythonbrew/patches/macosx/python25/patch-pyconfig.h.in.diff -> build/lib/pythonbrew/patches/macosx/python25
+copying pythonbrew/patches/macosx/python25/patch-setup.py.diff -> build/lib/pythonbrew/patches/macosx/python25
+creating build/lib/pythonbrew/patches/macosx/python26
+copying pythonbrew/patches/macosx/python26/_localemodule.c.ed -> build/lib/pythonbrew/patches/macosx/python26
+copying pythonbrew/patches/macosx/python26/locale.py.ed -> build/lib/pythonbrew/patches/macosx/python26
+copying pythonbrew/patches/macosx/python26/patch-Lib-cgi.py.diff -> build/lib/pythonbrew/patches/macosx/python26
+copying pythonbrew/patches/macosx/python26/patch-Lib-ctypes-macholib-dyld.py.diff -> build/lib/pythonbrew/patches/macosx/python26
+copying pythonbrew/patches/macosx/python26/patch-Lib-distutils-dist.py.diff -> build/lib/pythonbrew/patches/macosx/python26
+copying pythonbrew/patches/macosx/python26/patch-Mac-IDLE-Makefile.in.diff -> build/lib/pythonbrew/patches/macosx/python26
+copying pythonbrew/patches/macosx/python26/patch-Mac-Makefile.in.diff -> build/lib/pythonbrew/patches/macosx/python26
+copying pythonbrew/patches/macosx/python26/patch-Mac-PythonLauncher-Makefile.in.diff -> build/lib/pythonbrew/patches/macosx/python26
+copying pythonbrew/patches/macosx/python26/patch-Mac-Tools-Doc-setup.py.diff -> build/lib/pythonbrew/patches/macosx/python26
+copying pythonbrew/patches/macosx/python26/patch-setup.py-db46.diff -> build/lib/pythonbrew/patches/macosx/python26
+copying pythonbrew/patches/macosx/python26/patch-setup_no_tkinter.py.diff -> build/lib/pythonbrew/patches/macosx/python26
+creating build/lib/pythonbrew/patches/macosx/python27
+copying pythonbrew/patches/macosx/python27/patch-Modules-posixmodule.diff -> build/lib/pythonbrew/patches/macosx/python27
+creating build/bdist.linux-x86_64
+creating build/bdist.linux-x86_64/egg
+creating build/bdist.linux-x86_64/egg/tests
+copying build/lib/tests/__init__.py -> build/bdist.linux-x86_64/egg/tests
+copying build/lib/tests/test_pythonbrew.py -> build/bdist.linux-x86_64/egg/tests
+creating build/bdist.linux-x86_64/egg/pythonbrew
+copying build/lib/pythonbrew/basecommand.py -> build/bdist.linux-x86_64/egg/pythonbrew
+copying build/lib/pythonbrew/define.py -> build/bdist.linux-x86_64/egg/pythonbrew
+copying build/lib/pythonbrew/baseparser.py -> build/bdist.linux-x86_64/egg/pythonbrew
+creating build/bdist.linux-x86_64/egg/pythonbrew/installer
+copying build/lib/pythonbrew/installer/pythonbrewinstaller.py -> build/bdist.linux-x86_64/egg/pythonbrew/installer
+copying build/lib/pythonbrew/installer/__init__.py -> build/bdist.linux-x86_64/egg/pythonbrew/installer
+copying build/lib/pythonbrew/installer/pythoninstaller.py -> build/bdist.linux-x86_64/egg/pythonbrew/installer
+copying build/lib/pythonbrew/downloader.py -> build/bdist.linux-x86_64/egg/pythonbrew
+copying build/lib/pythonbrew/curl.py -> build/bdist.linux-x86_64/egg/pythonbrew
+copying build/lib/pythonbrew/util.py -> build/bdist.linux-x86_64/egg/pythonbrew
+copying build/lib/pythonbrew/log.py -> build/bdist.linux-x86_64/egg/pythonbrew
+copying build/lib/pythonbrew/__init__.py -> build/bdist.linux-x86_64/egg/pythonbrew
+creating build/bdist.linux-x86_64/egg/pythonbrew/commands
+copying build/lib/pythonbrew/commands/use.py -> build/bdist.linux-x86_64/egg/pythonbrew/commands
+copying build/lib/pythonbrew/commands/off.py -> build/bdist.linux-x86_64/egg/pythonbrew/commands
+copying build/lib/pythonbrew/commands/list.py -> build/bdist.linux-x86_64/egg/pythonbrew/commands
+copying build/lib/pythonbrew/commands/install.py -> build/bdist.linux-x86_64/egg/pythonbrew/commands
+copying build/lib/pythonbrew/commands/version.py -> build/bdist.linux-x86_64/egg/pythonbrew/commands
+copying build/lib/pythonbrew/commands/venv.py -> build/bdist.linux-x86_64/egg/pythonbrew/commands
+copying build/lib/pythonbrew/commands/symlink.py -> build/bdist.linux-x86_64/egg/pythonbrew/commands
+copying build/lib/pythonbrew/commands/update.py -> build/bdist.linux-x86_64/egg/pythonbrew/commands
+copying build/lib/pythonbrew/commands/help.py -> build/bdist.linux-x86_64/egg/pythonbrew/commands
+copying build/lib/pythonbrew/commands/__init__.py -> build/bdist.linux-x86_64/egg/pythonbrew/commands
+copying build/lib/pythonbrew/commands/cleanup.py -> build/bdist.linux-x86_64/egg/pythonbrew/commands
+copying build/lib/pythonbrew/commands/uninstall.py -> build/bdist.linux-x86_64/egg/pythonbrew/commands
+copying build/lib/pythonbrew/commands/buildout.py -> build/bdist.linux-x86_64/egg/pythonbrew/commands
+copying build/lib/pythonbrew/commands/switch.py -> build/bdist.linux-x86_64/egg/pythonbrew/commands
+copying build/lib/pythonbrew/commands/py.py -> build/bdist.linux-x86_64/egg/pythonbrew/commands
+creating build/bdist.linux-x86_64/egg/pythonbrew/patches
+creating build/bdist.linux-x86_64/egg/pythonbrew/patches/all
+creating build/bdist.linux-x86_64/egg/pythonbrew/patches/all/common
+copying build/lib/pythonbrew/patches/all/common/patch-setup.py.diff -> build/bdist.linux-x86_64/egg/pythonbrew/patches/all/common
+creating build/bdist.linux-x86_64/egg/pythonbrew/patches/all/python32
+copying build/lib/pythonbrew/patches/all/python32/patch-setup.py.diff -> build/bdist.linux-x86_64/egg/pythonbrew/patches/all/python32
+creating build/bdist.linux-x86_64/egg/pythonbrew/patches/all/python30
+copying build/lib/pythonbrew/patches/all/python30/patch-setup.py.diff -> build/bdist.linux-x86_64/egg/pythonbrew/patches/all/python30
+creating build/bdist.linux-x86_64/egg/pythonbrew/patches/all/python27
+copying build/lib/pythonbrew/patches/all/python27/patch-Modules-_sqlite-for-2.7.4.diff -> build/bdist.linux-x86_64/egg/pythonbrew/patches/all/python27
+copying build/lib/pythonbrew/patches/all/python27/patch-Modules-_sqlite-connection.c.diff -> build/bdist.linux-x86_64/egg/pythonbrew/patches/all/python27
+creating build/bdist.linux-x86_64/egg/pythonbrew/patches/all/python26
+copying build/lib/pythonbrew/patches/all/python26/patch-setup.py-for-2.6.5-and-earlier.diff -> build/bdist.linux-x86_64/egg/pythonbrew/patches/all/python26
+copying build/lib/pythonbrew/patches/all/python26/patch-Makefile.pre.in-for-2.6.2-and-earlier.diff -> build/bdist.linux-x86_64/egg/pythonbrew/patches/all/python26
+copying build/lib/pythonbrew/patches/all/python26/patch-_ssl.c-for-ubuntu-oneiric-and-later.diff -> build/bdist.linux-x86_64/egg/pythonbrew/patches/all/python26
+creating build/bdist.linux-x86_64/egg/pythonbrew/patches/all/python24
+copying build/lib/pythonbrew/patches/all/python24/patch-setup.py.diff -> build/bdist.linux-x86_64/egg/pythonbrew/patches/all/python24
+creating build/bdist.linux-x86_64/egg/pythonbrew/patches/all/python25
+copying build/lib/pythonbrew/patches/all/python25/patch-setup.py.diff -> build/bdist.linux-x86_64/egg/pythonbrew/patches/all/python25
+creating build/bdist.linux-x86_64/egg/pythonbrew/patches/macosx
+creating build/bdist.linux-x86_64/egg/pythonbrew/patches/macosx/python27
+copying build/lib/pythonbrew/patches/macosx/python27/patch-Modules-posixmodule.diff -> build/bdist.linux-x86_64/egg/pythonbrew/patches/macosx/python27
+creating build/bdist.linux-x86_64/egg/pythonbrew/patches/macosx/python26
+copying build/lib/pythonbrew/patches/macosx/python26/patch-setup_no_tkinter.py.diff -> build/bdist.linux-x86_64/egg/pythonbrew/patches/macosx/python26
+copying build/lib/pythonbrew/patches/macosx/python26/patch-Mac-Makefile.in.diff -> build/bdist.linux-x86_64/egg/pythonbrew/patches/macosx/python26
+copying build/lib/pythonbrew/patches/macosx/python26/patch-setup.py-db46.diff -> build/bdist.linux-x86_64/egg/pythonbrew/patches/macosx/python26
+copying build/lib/pythonbrew/patches/macosx/python26/_localemodule.c.ed -> build/bdist.linux-x86_64/egg/pythonbrew/patches/macosx/python26
+copying build/lib/pythonbrew/patches/macosx/python26/patch-Lib-distutils-dist.py.diff -> build/bdist.linux-x86_64/egg/pythonbrew/patches/macosx/python26
+copying build/lib/pythonbrew/patches/macosx/python26/locale.py.ed -> build/bdist.linux-x86_64/egg/pythonbrew/patches/macosx/python26
+copying build/lib/pythonbrew/patches/macosx/python26/patch-Mac-IDLE-Makefile.in.diff -> build/bdist.linux-x86_64/egg/pythonbrew/patches/macosx/python26
+copying build/lib/pythonbrew/patches/macosx/python26/patch-Mac-Tools-Doc-setup.py.diff -> build/bdist.linux-x86_64/egg/pythonbrew/patches/macosx/python26
+copying build/lib/pythonbrew/patches/macosx/python26/patch-Lib-ctypes-macholib-dyld.py.diff -> build/bdist.linux-x86_64/egg/pythonbrew/patches/macosx/python26
+copying build/lib/pythonbrew/patches/macosx/python26/patch-Mac-PythonLauncher-Makefile.in.diff -> build/bdist.linux-x86_64/egg/pythonbrew/patches/macosx/python26
+copying build/lib/pythonbrew/patches/macosx/python26/patch-Lib-cgi.py.diff -> build/bdist.linux-x86_64/egg/pythonbrew/patches/macosx/python26
+creating build/bdist.linux-x86_64/egg/pythonbrew/patches/macosx/python24
+copying build/lib/pythonbrew/patches/macosx/python24/patch-gestaltmodule.c.diff -> build/bdist.linux-x86_64/egg/pythonbrew/patches/macosx/python24
+copying build/lib/pythonbrew/patches/macosx/python24/patch-Mac-OSX-Makefile.in -> build/bdist.linux-x86_64/egg/pythonbrew/patches/macosx/python24
+copying build/lib/pythonbrew/patches/macosx/python24/patch-Include-pyport.h -> build/bdist.linux-x86_64/egg/pythonbrew/patches/macosx/python24
+copying build/lib/pythonbrew/patches/macosx/python24/patch-configure-arch_only.diff -> build/bdist.linux-x86_64/egg/pythonbrew/patches/macosx/python24
+copying build/lib/pythonbrew/patches/macosx/python24/patch-Mac-OSX-PythonLauncher-Makefile.in -> build/bdist.linux-x86_64/egg/pythonbrew/patches/macosx/python24
+copying build/lib/pythonbrew/patches/macosx/python24/patch-Mac-OSX-IDLE-Makefile.in -> build/bdist.linux-x86_64/egg/pythonbrew/patches/macosx/python24
+copying build/lib/pythonbrew/patches/macosx/python24/patch-pymactoolbox.diff -> build/bdist.linux-x86_64/egg/pythonbrew/patches/macosx/python24
+copying build/lib/pythonbrew/patches/macosx/python24/patch-mactoolboxglue.diff -> build/bdist.linux-x86_64/egg/pythonbrew/patches/macosx/python24
+copying build/lib/pythonbrew/patches/macosx/python24/patch-configure -> build/bdist.linux-x86_64/egg/pythonbrew/patches/macosx/python24
+copying build/lib/pythonbrew/patches/macosx/python24/patch-macosmodule.diff -> build/bdist.linux-x86_64/egg/pythonbrew/patches/macosx/python24
+copying build/lib/pythonbrew/patches/macosx/python24/patch-Makefile.pre.in -> build/bdist.linux-x86_64/egg/pythonbrew/patches/macosx/python24
+copying build/lib/pythonbrew/patches/macosx/python24/patch-setup.py.diff -> build/bdist.linux-x86_64/egg/pythonbrew/patches/macosx/python24
+copying build/lib/pythonbrew/patches/macosx/python24/patch-configure-badcflags.diff -> build/bdist.linux-x86_64/egg/pythonbrew/patches/macosx/python24
+copying build/lib/pythonbrew/patches/macosx/python24/patch-Lib-site.py.diff -> build/bdist.linux-x86_64/egg/pythonbrew/patches/macosx/python24
+copying build/lib/pythonbrew/patches/macosx/python24/patch-Lib-cgi.py.diff -> build/bdist.linux-x86_64/egg/pythonbrew/patches/macosx/python24
+creating build/bdist.linux-x86_64/egg/pythonbrew/patches/macosx/python25
+copying build/lib/pythonbrew/patches/macosx/python25/patch-gestaltmodule.c.diff -> build/bdist.linux-x86_64/egg/pythonbrew/patches/macosx/python25
+copying build/lib/pythonbrew/patches/macosx/python25/patch-Makefile.pre.in.diff -> build/bdist.linux-x86_64/egg/pythonbrew/patches/macosx/python25
+copying build/lib/pythonbrew/patches/macosx/python25/patch-pyconfig.h.in.diff -> build/bdist.linux-x86_64/egg/pythonbrew/patches/macosx/python25
+copying build/lib/pythonbrew/patches/macosx/python25/patch-configure-arch_only.diff -> build/bdist.linux-x86_64/egg/pythonbrew/patches/macosx/python25
+copying build/lib/pythonbrew/patches/macosx/python25/patch-configure-no-posix-c-source.diff -> build/bdist.linux-x86_64/egg/pythonbrew/patches/macosx/python25
+copying build/lib/pythonbrew/patches/macosx/python25/_localemodule.c.ed -> build/bdist.linux-x86_64/egg/pythonbrew/patches/macosx/python25
+copying build/lib/pythonbrew/patches/macosx/python25/patch-64bit.diff -> build/bdist.linux-x86_64/egg/pythonbrew/patches/macosx/python25
+copying build/lib/pythonbrew/patches/macosx/python25/patch-Lib-distutils-dist.py.diff -> build/bdist.linux-x86_64/egg/pythonbrew/patches/macosx/python25
+copying build/lib/pythonbrew/patches/macosx/python25/locale.py.ed -> build/bdist.linux-x86_64/egg/pythonbrew/patches/macosx/python25
+copying build/lib/pythonbrew/patches/macosx/python25/patch-setup.py.diff -> build/bdist.linux-x86_64/egg/pythonbrew/patches/macosx/python25
+copying build/lib/pythonbrew/patches/macosx/python25/patch-configure-badcflags.diff -> build/bdist.linux-x86_64/egg/pythonbrew/patches/macosx/python25
+copying build/lib/pythonbrew/patches/macosx/python25/patch-Lib-cgi.py.diff -> build/bdist.linux-x86_64/egg/pythonbrew/patches/macosx/python25
+creating build/bdist.linux-x86_64/egg/pythonbrew/etc
+copying build/lib/pythonbrew/etc/bashrc -> build/bdist.linux-x86_64/egg/pythonbrew/etc
+copying build/lib/pythonbrew/etc/pythonbrew.fish -> build/bdist.linux-x86_64/egg/pythonbrew/etc
+copying build/lib/pythonbrew/etc/config.cfg -> build/bdist.linux-x86_64/egg/pythonbrew/etc
+copying build/lib/pythonbrew/exceptions.py -> build/bdist.linux-x86_64/egg/pythonbrew
+byte-compiling build/bdist.linux-x86_64/egg/tests/__init__.py to __init__.pyc
+byte-compiling build/bdist.linux-x86_64/egg/tests/test_pythonbrew.py to test_pythonbrew.pyc
+byte-compiling build/bdist.linux-x86_64/egg/pythonbrew/basecommand.py to basecommand.pyc
+byte-compiling build/bdist.linux-x86_64/egg/pythonbrew/define.py to define.pyc
+byte-compiling build/bdist.linux-x86_64/egg/pythonbrew/baseparser.py to baseparser.pyc
+byte-compiling build/bdist.linux-x86_64/egg/pythonbrew/installer/pythonbrewinstaller.py to pythonbrewinstaller.pyc
+byte-compiling build/bdist.linux-x86_64/egg/pythonbrew/installer/__init__.py to __init__.pyc
+byte-compiling build/bdist.linux-x86_64/egg/pythonbrew/installer/pythoninstaller.py to pythoninstaller.pyc
+byte-compiling build/bdist.linux-x86_64/egg/pythonbrew/downloader.py to downloader.pyc
+byte-compiling build/bdist.linux-x86_64/egg/pythonbrew/curl.py to curl.pyc
+byte-compiling build/bdist.linux-x86_64/egg/pythonbrew/util.py to util.pyc
+byte-compiling build/bdist.linux-x86_64/egg/pythonbrew/log.py to log.pyc
+byte-compiling build/bdist.linux-x86_64/egg/pythonbrew/__init__.py to __init__.pyc
+byte-compiling build/bdist.linux-x86_64/egg/pythonbrew/commands/use.py to use.pyc
+byte-compiling build/bdist.linux-x86_64/egg/pythonbrew/commands/off.py to off.pyc
+byte-compiling build/bdist.linux-x86_64/egg/pythonbrew/commands/list.py to list.pyc
+byte-compiling build/bdist.linux-x86_64/egg/pythonbrew/commands/install.py to install.pyc
+byte-compiling build/bdist.linux-x86_64/egg/pythonbrew/commands/version.py to version.pyc
+byte-compiling build/bdist.linux-x86_64/egg/pythonbrew/commands/venv.py to venv.pyc
+byte-compiling build/bdist.linux-x86_64/egg/pythonbrew/commands/symlink.py to symlink.pyc
+byte-compiling build/bdist.linux-x86_64/egg/pythonbrew/commands/update.py to update.pyc
+byte-compiling build/bdist.linux-x86_64/egg/pythonbrew/commands/help.py to help.pyc
+byte-compiling build/bdist.linux-x86_64/egg/pythonbrew/commands/__init__.py to __init__.pyc
+byte-compiling build/bdist.linux-x86_64/egg/pythonbrew/commands/cleanup.py to cleanup.pyc
+byte-compiling build/bdist.linux-x86_64/egg/pythonbrew/commands/uninstall.py to uninstall.pyc
+byte-compiling build/bdist.linux-x86_64/egg/pythonbrew/commands/buildout.py to buildout.pyc
+byte-compiling build/bdist.linux-x86_64/egg/pythonbrew/commands/switch.py to switch.pyc
+byte-compiling build/bdist.linux-x86_64/egg/pythonbrew/commands/py.py to py.pyc
+byte-compiling build/bdist.linux-x86_64/egg/pythonbrew/exceptions.py to exceptions.pyc
+creating build/bdist.linux-x86_64/egg/EGG-INFO
+copying pythonbrew.egg-info/PKG-INFO -> build/bdist.linux-x86_64/egg/EGG-INFO
+copying pythonbrew.egg-info/SOURCES.txt -> build/bdist.linux-x86_64/egg/EGG-INFO
+copying pythonbrew.egg-info/dependency_links.txt -> build/bdist.linux-x86_64/egg/EGG-INFO
+copying pythonbrew.egg-info/entry_points.txt -> build/bdist.linux-x86_64/egg/EGG-INFO
+copying pythonbrew.egg-info/not-zip-safe -> build/bdist.linux-x86_64/egg/EGG-INFO
+copying pythonbrew.egg-info/top_level.txt -> build/bdist.linux-x86_64/egg/EGG-INFO
+creating dist
+creating 'dist/pythonbrew-1.3.6-py2.7.egg' and adding 'build/bdist.linux-x86_64/egg' to it
+removing 'build/bdist.linux-x86_64/egg' (and everything under it)
+Processing pythonbrew-1.3.6-py2.7.egg
+creating /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/pythonbrew-1.3.6-py2.7.egg
+Extracting pythonbrew-1.3.6-py2.7.egg to /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages
+Adding pythonbrew 1.3.6 to easy-install.pth file
+Installing pythonbrew_install script to /home/ubuntu/miniconda/envs/_build/bin
+Installing pythonbrew_systemwide script to /home/ubuntu/miniconda/envs/_build/bin
+
+Installed /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/pythonbrew-1.3.6-py2.7.egg
+Processing dependencies for pythonbrew==1.3.6
+Finished processing dependencies for pythonbrew==1.3.6
+
+The following NEW packages will be INSTALLED:
+
+    openssl:    1.0.1k-1     
+    pip:        7.0.3-py27_0 
+    python:     2.7.10-0     
+    readline:   6.2-2        
+    setuptools: 18.0.1-py27_0
+    sqlite:     3.8.4.1-1    
+    system:     5.8-2        
+    tk:         8.5.18-0     
+    zlib:       1.2.8-0      
+
+Linking packages ...
+[                    ]|                                                  |   0%[openssl             ]|                                                  |   0%[readline            ]|#####                                             |  11%[sqlite              ]|###########                                       |  22%[system              ]|################                                  |  33%[tk                  ]|######################                            |  44%[zlib                ]|###########################                       |  55%[python              ]|#################################                 |  66%[setuptools          ]|######################################            |  77%[pip                 ]|############################################      |  88%[      COMPLETE      ]|##################################################| 100%
+Removing old work directory
+Source cache directory is: /home/ubuntu/miniconda/conda-bld/src_cache
+Found source in cache: pythonbrew-1.3.6.tar.gz
+Extracting download
+Package: pythonbrew-1.3.6-py_0
+source tree in: /home/ubuntu/miniconda/conda-bld/work/pythonbrew-1.3.6
+found egg dir: /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/pythonbrew-1.3.6-py2.7.egg
+number of files: 113
+Fixing permissions
+Fixing permissions
+BUILD END: pythonbrew-1.3.6-py_0
+TEST START: pythonbrew-1.3.6-py_0
+Fetching package metadata: ......
+
+WARNING: conda-build appears to be out of date. You have version 1.13.0 but the
+latest version is 1.14.1. Run
+
+conda update -n root conda-build
+
+to get the latest version.
+
+Solving package specifications: .===== testing package: pythonbrew-1.3.6-py_0 =====
+import: u'pythonbrew'
+import: u'pythonbrew.commands'
+import: u'pythonbrew.installer'
+import: u'tests'
+===== pythonbrew-1.3.6-py_0 OK =====
++ pythonbrew_install --help
+
+Well-done! Congratulations!
+
+The pythonbrew is installed as:
+    
+  /home/ubuntu/.pythonbrew
+
+Please add the following line to the end of your ~/.bashrc
+
+  [[ -s "$HOME/.pythonbrew/etc/bashrc" ]] && source "$HOME/.pythonbrew/etc/bashrc"
+
+After that, exit this shell, start a new one, and install some fresh
+pythons:
+
+  pythonbrew install 2.7.2
+  pythonbrew install 3.2
+
+For further instructions, run:
+
+  pythonbrew help
+
+The default help messages will popup and tell you what to do!
+
+Enjoy pythonbrew at /home/ubuntu/.pythonbrew!!
+
++ pythonbrew_systemwide --help
+Traceback (most recent call last):
+  File "/home/ubuntu/miniconda/envs/_test/bin/pythonbrew_systemwide", line 6, in <module>
+    sys.exit(systemwide_pythonbrew())
+  File "/home/ubuntu/miniconda/envs/_test/lib/python2.7/site-packages/pythonbrew/installer/__init__.py", line 42, in systemwide_pythonbrew
+    PythonbrewInstaller.systemwide_install()
+  File "/home/ubuntu/miniconda/envs/_test/lib/python2.7/site-packages/pythonbrew/installer/pythonbrewinstaller.py", line 84, in systemwide_install
+    fp = open('/etc/profile.d/pythonbrew.sh', 'w')
+IOError: [Errno 13] Permission denied: '/etc/profile.d/pythonbrew.sh'
+
+The following packages will be downloaded:
+
+    package                    |            build
+    ---------------------------|-----------------
+    pythonbrew-1.3.6           |             py_0         114 KB
+
+The following NEW packages will be INSTALLED:
+
+    nose:       1.3.7-py27_0 
+    openssl:    1.0.1k-1     
+    pip:        7.0.3-py27_0 
+    python:     2.7.10-0     
+    pythonbrew: 1.3.6-py_0   
+    readline:   6.2-2        
+    setuptools: 18.0.1-py27_0
+    sqlite:     3.8.4.1-1    
+    system:     5.8-2        
+    tk:         8.5.18-0     
+    zlib:       1.2.8-0      
+
+Fetching packages ...
+pythonbrew-1.3   0% |                              | ETA:  --:--:--   0.00  B/spythonbrew-1.3  14% |####                           | ETA:  0:00:00  46.81 MB/spythonbrew-1.3  28% |########                       | ETA:  0:00:00  58.84 MB/spythonbrew-1.3  42% |#############                  | ETA:  0:00:00  65.45 MB/spythonbrew-1.3  56% |#################              | ETA:  0:00:00  69.27 MB/spythonbrew-1.3  70% |#####################          | ETA:  0:00:00  72.43 MB/spythonbrew-1.3  84% |##########################     | ETA:  0:00:00  74.70 MB/spythonbrew-1.3  98% |############################## | ETA:  0:00:00  76.40 MB/spythonbrew-1.3 100% |###############################| ETA:  0:00:00  71.24 MB/spythonbrew-1.3 100% |###############################| Time: 0:00:00  62.42 MB/s
+Extracting packages ...
+[      COMPLETE      ]|                                                  |   0%[pythonbrew          ]|                                                  |   0%[pythonbrew          ]|                                                  |   0%[      COMPLETE      ]|##################################################| 100%
+Linking packages ...
+[      COMPLETE      ]|                                                  |   0%[openssl             ]|                                                  |   0%[openssl             ]|                                                  |   0%[readline            ]|####                                              |   9%[sqlite              ]|#########                                         |  18%[system              ]|#############                                     |  27%[tk                  ]|##################                                |  36%[zlib                ]|######################                            |  45%[nose                ]|###########################                       |  54%[python              ]|###############################                   |  63%[pythonbrew          ]|####################################              |  72%[setuptools          ]|########################################          |  81%[pip                 ]|#############################################     |  90%[      COMPLETE      ]|##################################################| 100%
+TESTS FAILED: pythonbrew-1.3.6-py_0

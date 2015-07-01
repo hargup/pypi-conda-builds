@@ -1,554 +1,529 @@
-3to2: {build_successful: true, pipbuild_successful: true}
-APScheduler: {pipbuild_successful: true}
-Babel: {pipbuild_successful: true}
-Beaker: {pipbuild_successful: true}
-BeautifulSoup: {pipbuild_successful: true}
-Chameleon: {pipbuild_successful: true}
-CherryPy: {pipbuild_successful: true}
-Cython: {pipbuild_successful: true}
-DeepCL: {pipbuild_successful: false}
-Django: {pipbuild_successful: true}
-Fabric: {pipbuild_successful: true}
-Flask: {pipbuild_successful: true}
-Flask-Login: {pipbuild_successful: true}
-Flask-Mail: {pipbuild_successful: true}
-Flask-Migrate: {pipbuild_successful: false}
-Flask-Principal: {pipbuild_successful: true}
-Flask-RESTful: {pipbuild_successful: false}
-Flask-SQLAlchemy: {pipbuild_successful: true}
-Flask-Script: {pipbuild_successful: true}
-Flask-WTF: {pipbuild_successful: true}
-FlexGet: {pipbuild_successful: false}
-GitPython: {pipbuild_successful: false}
-INITools: {pipbuild_successful: true}
-IPy: {pipbuild_successful: true}
-Jinja2: {pipbuild_successful: true}
-M2Crypto: {pipbuild_successful: true}
-Mako: {pipbuild_successful: true}
-Markdown: {pipbuild_successful: true}
-MarkupSafe: {pipbuild_successful: true}
-MySQL-python: {pipbuild_successful: false}
-Paste: {pipbuild_successful: true}
-PasteDeploy: {pipbuild_successful: true}
-Pattern: {pipbuild_successful: true}
-Pillow: {pipbuild_successful: true}
-Pint: {pipbuild_successful: true}
-PrettyTable: {pipbuild_successful: true}
-PyJWT: {pipbuild_successful: true}
-PyMySQL: {pipbuild_successful: true}
-PyPDF2: {pipbuild_successful: true}
-PyYAML: {pipbuild_successful: true}
-Pygments: {pipbuild_successful: true}
-Radicale: {pipbuild_successful: true}
-Routes: {pipbuild_successful: true}
-Rtree: {pipbuild_successful: false}
-SQLAlchemy: {pipbuild_successful: true}
-SQLAlchemy-Utils: {pipbuild_successful: true}
-SQLObject: {pipbuild_successful: false}
-Scrapy: {pipbuild_successful: true}
-Shapely: {pipbuild_successful: true}
-South: {pipbuild_successful: true}
-Sphinx: {pipbuild_successful: true}
-Tempita: {pipbuild_successful: true}
-Twisted: {pipbuild_successful: true}
-Unidecode: {pipbuild_successful: true}
-WSME: {pipbuild_successful: false}
-WTForms: {pipbuild_successful: true}
-Wand: {pipbuild_successful: true}
-WebOb: {pipbuild_successful: true}
-WebTest: {pipbuild_successful: false}
-Werkzeug: {pipbuild_successful: true}
-Whoosh: {pipbuild_successful: true}
-XStatic: {pipbuild_successful: true}
-XStatic-Angular: {pipbuild_successful: true}
-XStatic-Angular-lrdragndrop: {pipbuild_successful: true}
-XStatic-Bootstrap-Datepicker: {pipbuild_successful: true}
-XStatic-Bootstrap-SCSS: {pipbuild_successful: true}
-XStatic-D3: {pipbuild_successful: true}
-XStatic-Font-Awesome: {pipbuild_successful: true}
-XStatic-Hogan: {pipbuild_successful: true}
-XStatic-JQuery-Migrate: {pipbuild_successful: true}
-XStatic-JQuery.TableSorter: {pipbuild_successful: true}
-XStatic-JQuery.quicksearch: {pipbuild_successful: true}
-XStatic-JSEncrypt: {pipbuild_successful: true}
-XStatic-Jasmine: {pipbuild_successful: true}
-XStatic-Magic-Search: {pipbuild_successful: true}
-XStatic-QUnit: {pipbuild_successful: true}
-XStatic-Rickshaw: {pipbuild_successful: true}
-XStatic-Spin: {pipbuild_successful: true}
-XStatic-jQuery: {pipbuild_successful: true}
-XStatic-jquery-ui: {pipbuild_successful: true}
-XlsxWriter: {pipbuild_successful: true}
-aioeventlet: {build_successful: true, pipbuild_successful: false}
+4suite-xml: {pipbuild_successful: true}
+accesscontrol: {pipbuild_successful: false}
+adrest: {pipbuild_successful: false}
+aiohttp: {pipbuild_successful: true}
+ajenti: {pipbuild_successful: false}
 alabaster: {pipbuild_successful: true}
-alembic: {pipbuild_successful: true}
+altgraph: {pipbuild_successful: true}
 amqp: {pipbuild_successful: true}
-amqplib: {build_successful: true, pipbuild_successful: true}
-analytics-python: {build_successful: false}
-aniso8601: {build_successful: true, pipbuild_successful: true}
-ansible: {pipbuild_successful: true}
-ansicolors: {build_successful: true, pipbuild_successful: true}
-anyjson: {build_successful: true, pipbuild_successful: true}
 apache-libcloud: {pipbuild_successful: true}
-argh: {build_successful: true, pipbuild_successful: true}
-argparse: {pipbuild_successful: true}
-arrow: {build_successful: false, pipbuild_successful: true}
+appier: {pipbuild_successful: true}
+archetypes.kss: {pipbuild_successful: false}
+archetypes.referencebrowserwidget: {pipbuild_successful: false}
 arvados-python-client: {pipbuild_successful: false}
+arvados_fuse: {pipbuild_successful: false}
+askbot: {pipbuild_successful: false}
 aspen: {pipbuild_successful: false}
-astroid: {pipbuild_successful: true}
+astroid: {pipbuild_successful: false}
+async: {pipbuild_successful: true}
+autobahn: {pipbuild_successful: false}
+autopep8: {pipbuild_successful: false}
 avro: {pipbuild_successful: true}
 awscli: {pipbuild_successful: false}
-azure: {build_successful: false, pipbuild_successful: true}
-backports.ssl_match_hostname: {build_successful: true, pipbuild_successful: true}
-bcdoc: {pipbuild_successful: true}
-beanstalkc: {build_successful: true}
+awspider: {pipbuild_successful: false}
+azure: {pipbuild_successful: false}
+b1python: {pipbuild_successful: false}
+bbfreeze: {pipbuild_successful: false}
+bcrypt: {pipbuild_successful: false}
+beaker: {pipbuild_successful: true}
+beanstalk-stack: {pipbuild_successful: false}
+beaver: {pipbuild_successful: false}
 behave: {pipbuild_successful: false}
-bernhard: {build_successful: false}
+bellatrix: {pipbuild_successful: false}
+bigjob: {pipbuild_successful: false}
 billiard: {pipbuild_successful: true}
-bleach: {build_successful: false, pipbuild_successful: true}
 blessings: {pipbuild_successful: true}
-blinker: {build_successful: true, pipbuild_successful: true}
 blist: {pipbuild_successful: true}
-boto_rsync: {build_successful: false}
+borg.localrole: {pipbuild_successful: false}
 botocore: {pipbuild_successful: false}
-bottle: {build_successful: true, pipbuild_successful: true}
-braintree: {build_successful: false}
-bu-cascade: {build_successful: true, pipbuild_successful: true}
-bunch: {build_successful: true}
-bz2file: {build_successful: true}
-cache_requests: {pipbuild_successful: true}
-cached-property: {build_successful: true}
-carbon: {pipbuild_successful: true}
-cassandra-driver: {pipbuild_successful: true}
+btrees: {pipbuild_successful: true}
+buildout-versions: {pipbuild_successful: false}
+carbon: {pipbuild_successful: false}
+catkin_pkg: {pipbuild_successful: false}
+cchardet: {pipbuild_successful: true}
 celery: {pipbuild_successful: false}
-cement: {build_successful: true}
-characteristic: {pipbuild_successful: true}
 chardet: {pipbuild_successful: true}
-click: {build_successful: true, pipbuild_successful: true}
-cliff: {pipbuild_successful: false}
+chromium_compact_language_detector: {pipbuild_successful: false}
+clay: {pipbuild_successful: false}
+cli53: {pipbuild_successful: true}
 cliff-tablib: {pipbuild_successful: false}
-cligj: {build_successful: false}
+clihelper: {pipbuild_successful: false}
+clint: {pipbuild_successful: true}
+cloud: {pipbuild_successful: true}
 cm-api: {pipbuild_successful: true}
-cmd2: {build_successful: false, pipbuild_successful: true}
-commandr: {build_successful: true}
-conf_d: {build_successful: true}
+coinor.dippy: {pipbuild_successful: false}
+colander: {pipbuild_successful: true}
+collective.plonetruegallery: {pipbuild_successful: false}
+collective.recipe.template: {pipbuild_successful: false}
+colorlog: {pipbuild_successful: true}
 configparser: {pipbuild_successful: true}
-contextlib2: {build_successful: true}
-cov-core: {build_successful: false, pipbuild_successful: true}
+couchbase: {pipbuild_successful: true}
+couchdb: {pipbuild_successful: true}
 coverage: {pipbuild_successful: true}
-coveralls: {pipbuild_successful: true}
-cpp-coveralls: {build_successful: true}
-cql: {build_successful: true}
-crcmod: {build_successful: true}
-croniter: {build_successful: false, pipbuild_successful: true}
-cssselect: {build_successful: true, pipbuild_successful: true}
+coveralls: {pipbuild_successful: false}
+cssmin: {pipbuild_successful: true}
 cssutils: {pipbuild_successful: true}
-cx_Oracle: {pipbuild_successful: false}
-daemonize: {build_successful: true}
-debtcollector: {pipbuild_successful: false}
-defusedxml: {build_successful: true}
-demjson: {build_successful: true, pipbuild_successful: true}
+ctrax: {pipbuild_successful: false}
+cubicweb: {pipbuild_successful: false}
+cx_oracle: {pipbuild_successful: false}
+dap: {pipbuild_successful: true}
+dateutils: {pipbuild_successful: false}
+dbf: {pipbuild_successful: true}
+decoratortools: {pipbuild_successful: true}
+deform: {pipbuild_successful: false}
+deliverance: {pipbuild_successful: false}
 diamond: {pipbuild_successful: true}
-dicttoxml: {build_successful: true}
-diff-match-patch: {build_successful: true}
 discover: {pipbuild_successful: true}
-distribute: {build_successful: false, pipbuild_successful: true}
-dj-database-url: {pipbuild_successful: true}
+django: {pipbuild_successful: false}
+django-allauth: {pipbuild_successful: false}
+django-annoying: {pipbuild_successful: true}
 django-appconf: {pipbuild_successful: true}
-django-bootstrap3: {build_successful: true}
-django-braces: {pipbuild_successful: true}
+django-auth-ldap: {pipbuild_successful: false}
+django-autocomplete-light: {pipbuild_successful: false}
+django-autoslug: {pipbuild_successful: true}
+django-bootstrap-form: {pipbuild_successful: false}
+django-bootstrap-toolkit: {pipbuild_successful: true}
+django-buckeye-corpus: {pipbuild_successful: false}
 django-celery: {pipbuild_successful: false}
-django-classy-tags: {build_successful: false, pipbuild_successful: true}
-django-cors-headers: {build_successful: true, pipbuild_successful: true}
+django-ckeditor: {pipbuild_successful: true}
+django-cms: {pipbuild_successful: false}
 django-crispy-forms: {pipbuild_successful: true}
-django-db-signals: {build_successful: false}
-django-debug-toolbar: {pipbuild_successful: true}
-django-extensions: {pipbuild_successful: true}
+django-debug-toolbar: {pipbuild_successful: false}
+django-devserver: {pipbuild_successful: true}
+django-discover-runner: {pipbuild_successful: true}
+django-extensions: {pipbuild_successful: false}
+django-facebook: {pipbuild_successful: false}
+django-filer: {pipbuild_successful: false}
 django-filter: {pipbuild_successful: true}
+django-grappelli: {pipbuild_successful: true}
+django-guardian: {pipbuild_successful: true}
 django-haystack: {pipbuild_successful: true}
-django-jenkins: {build_successful: false}
-django-model-utils: {build_successful: false, pipbuild_successful: true}
-django-mptt: {pipbuild_successful: true}
-django-nose: {pipbuild_successful: true}
-django-pipeline: {pipbuild_successful: true}
+django-imagekit: {pipbuild_successful: false}
+django-indexer: {pipbuild_successful: true}
+django-jsonfield: {pipbuild_successful: true}
+django-kombu: {pipbuild_successful: true}
+django-lfs: {pipbuild_successful: false}
+django-libs: {pipbuild_successful: false}
+django-localflavor: {pipbuild_successful: true}
+django-nose: {pipbuild_successful: false}
+django-oscar: {pipbuild_successful: false}
+django-page-cms: {pipbuild_successful: false}
+django-pagination: {pipbuild_successful: true}
+django-paging: {pipbuild_successful: false}
+django-picklefield: {pipbuild_successful: true}
+django-pipeline: {pipbuild_successful: false}
+django-ptree: {pipbuild_successful: false}
 django-pyscss: {pipbuild_successful: false}
 django-redis: {pipbuild_successful: false}
-django-redis-sessions: {build_successful: false}
+django-redis-cache: {pipbuild_successful: false}
+django-registration: {pipbuild_successful: true}
+django-rest-swagger: {pipbuild_successful: false}
 django-reversion: {pipbuild_successful: true}
+django-rosetta: {pipbuild_successful: false}
+django-sekizai: {pipbuild_successful: false}
+django-sentry: {pipbuild_successful: false}
+django-ses: {pipbuild_successful: false}
+django-social-auth: {pipbuild_successful: false}
 django-storages: {pipbuild_successful: true}
-django-suit: {build_successful: true}
+django-swstags: {pipbuild_successful: true}
+django-tagging: {pipbuild_successful: true}
 django-taggit: {pipbuild_successful: true}
-django-treebeard: {build_successful: false}
-django-widget-tweaks: {build_successful: true}
+django-tastypie: {pipbuild_successful: false}
+django-templatetag-sugar: {pipbuild_successful: true}
+django-tinymce: {pipbuild_successful: true}
+django-toolbelt: {pipbuild_successful: true}
+django-uuidfield: {pipbuild_successful: true}
+django-waffle: {pipbuild_successful: true}
+django-webtest: {pipbuild_successful: false}
+django_backstage: {pipbuild_successful: false}
 django_compressor: {pipbuild_successful: false}
-django_openstack_auth: {pipbuild_successful: false}
+django_polymorphic: {pipbuild_successful: true}
+djangocms-admin-style: {pipbuild_successful: true}
 djangorestframework: {pipbuild_successful: true}
-dnspython: {build_successful: true, pipbuild_successful: true}
 docker-py: {pipbuild_successful: false}
-docopt: {pipbuild_successful: true}
-dogpile.cache: {build_successful: false, pipbuild_successful: false}
 dogpile.core: {pipbuild_successful: true}
-dogstatsd-python: {build_successful: true}
-dpkt-fix: {build_successful: true}
-easy-thumbnails: {build_successful: false}
-ecdsa: {build_successful: true, pipbuild_successful: true}
-eggtestinfo: {build_successful: true}
+dotcloud: {pipbuild_successful: false}
+dropbox: {pipbuild_successful: false}
+editra: {pipbuild_successful: false}
 elasticsearch: {pipbuild_successful: false}
-elasticsearch-dsl: {build_successful: false, pipbuild_successful: false}
-eventlet: {pipbuild_successful: true}
+envoy: {pipbuild_successful: true}
+eventlet: {pipbuild_successful: false}
 execnet: {pipbuild_successful: true}
 extras: {pipbuild_successful: true}
-facebook-sdk: {build_successful: true}
+fabric: {pipbuild_successful: false}
 factory_boy: {pipbuild_successful: true}
-fake-factory: {build_successful: true}
-feedparser: {build_successful: true, pipbuild_successful: true}
-filechunkio: {build_successful: true, pipbuild_successful: true}
-fixtures: {pipbuild_successful: false}
-flake8: {pipbuild_successful: true}
+fastavro: {pipbuild_successful: true}
+feincms: {pipbuild_successful: false}
+filebrowser_safe: {pipbuild_successful: true}
+filecache: {pipbuild_successful: true}
+five.customerize: {pipbuild_successful: false}
+five.localsitemanager: {pipbuild_successful: false}
+flake8: {pipbuild_successful: false}
+flask-admin: {pipbuild_successful: false}
+flask-appbuilder: {pipbuild_successful: false}
+flask-migrate: {pipbuild_successful: false}
+flask-restful: {pipbuild_successful: false}
+flask-testing: {pipbuild_successful: false}
+flexget: {pipbuild_successful: false}
+flower: {pipbuild_successful: false}
 flufl.enum: {pipbuild_successful: true}
-freezegun: {pipbuild_successful: true}
+flup: {pipbuild_successful: true}
+formencode: {pipbuild_successful: true}
+ftfy: {pipbuild_successful: true}
+functools32: {pipbuild_successful: true}
+funkload: {pipbuild_successful: false}
 future: {pipbuild_successful: true}
-gdata: {build_successful: true, pipbuild_successful: true}
-geoip2: {build_successful: false, pipbuild_successful: false}
-ghp-import: {build_successful: true}
-gitdb: {build_successful: false, pipbuild_successful: false}
-glance_store: {pipbuild_successful: false}
-glob2: {build_successful: true, pipbuild_successful: true}
+fuzzywuzzy: {pipbuild_successful: false}
+gdal: {pipbuild_successful: true}
+gensim: {pipbuild_successful: false}
+geobasesdev: {pipbuild_successful: false}
+geopy: {pipbuild_successful: true}
+gitpython: {pipbuild_successful: false}
 gnureadline: {pipbuild_successful: true}
 google-api-python-client: {pipbuild_successful: false}
-google-apputils: {build_successful: false, pipbuild_successful: true}
-googlefinance: {build_successful: true, pipbuild_successful: true}
+google-apputils: {pipbuild_successful: false}
+grab: {pipbuild_successful: false}
 graphite-web: {pipbuild_successful: true}
-gspread: {build_successful: true}
-guess_language-spirit: {pipbuild_successful: true}
+grappelli_safe: {pipbuild_successful: true}
 gunicorn: {pipbuild_successful: true}
-hacking: {pipbuild_successful: false}
-happybase: {build_successful: false}
-helper: {build_successful: true, pipbuild_successful: true}
-hgtools: {pipbuild_successful: true}
-hiredis: {build_successful: true, pipbuild_successful: true}
-html2text: {build_successful: true}
-html5lib: {build_successful: true, pipbuild_successful: true}
-http-parser: {build_successful: true}
-httplib2: {build_successful: true, pipbuild_successful: true}
-httpretty: {pipbuild_successful: true}
-icalendar: {build_successful: false}
+guppy: {pipbuild_successful: true}
+haigha: {pipbuild_successful: true}
+hexagonit.recipe.download: {pipbuild_successful: false}
+holmes: {pipbuild_successful: false}
+honcho: {pipbuild_successful: false}
+htseq: {pipbuild_successful: true}
+httpagentparser: {pipbuild_successful: true}
+httpie: {pipbuild_successful: false}
+httpretty: {pipbuild_successful: false}
+hwrt: {pipbuild_successful: false}
+ibm_db: {pipbuild_successful: true}
 idna: {pipbuild_successful: true}
-importlib: {build_successful: true, pipbuild_successful: true}
-infinity: {pipbuild_successful: true}
-inflect: {build_successful: true}
+improviser: {pipbuild_successful: true}
+infi.recipe.application_packager: {pipbuild_successful: false}
+informixdb: {pipbuild_successful: true}
 invoke: {pipbuild_successful: true}
-iowait: {build_successful: true}
-ipaddr: {build_successful: true, pipbuild_successful: true}
-ipaddress: {build_successful: true, pipbuild_successful: true}
-ipdb: {pipbuild_successful: true}
+ipdb: {pipbuild_successful: false}
 iptools: {pipbuild_successful: true}
-iso8601: {build_successful: true, pipbuild_successful: true}
-isodate: {build_successful: true, pipbuild_successful: true}
-jellyfish: {build_successful: true}
-jenkinsapi: {pipbuild_successful: true}
-jmespath: {build_successful: true, pipbuild_successful: true}
-jsmin: {build_successful: true}
-jsonfield: {build_successful: false, pipbuild_successful: true}
-jsonlib: {build_successful: true}
-jsonpatch: {build_successful: true, pipbuild_successful: false}
-jsonpath-rw: {pipbuild_successful: true}
-jsonpickle: {build_successful: true}
-jsonpointer: {pipbuild_successful: true}
-junitxml: {build_successful: true, pipbuild_successful: true}
+irc: {pipbuild_successful: false}
+isort: {pipbuild_successful: false}
+jenkinsapi: {pipbuild_successful: false}
+jinja: {pipbuild_successful: true}
+jlddk: {pipbuild_successful: false}
+jmbo-foundry: {pipbuild_successful: false}
+joblib: {pipbuild_successful: true}
+jsonmapperhgmmpfork: {pipbuild_successful: false}
+jsonrpclib: {pipbuild_successful: true}
 kafka-python: {pipbuild_successful: true}
-kairos: {build_successful: false, pipbuild_successful: false}
 kazoo: {pipbuild_successful: true}
 keyring: {pipbuild_successful: true}
-keystonemiddleware: {pipbuild_successful: false}
+kivy: {pipbuild_successful: false}
 kombu: {pipbuild_successful: false}
-leaderboard: {build_successful: true, pipbuild_successful: true}
-librabbitmq: {build_successful: false}
-librato-metrics: {build_successful: true}
-libvirt-python: {pipbuild_successful: true}
-linecache2: {pipbuild_successful: true}
-livereload: {build_successful: true}
-lizepy: {build_successful: true, pipbuild_successful: true}
+kotti: {pipbuild_successful: false}
+kss.core: {pipbuild_successful: false}
+langid: {pipbuild_successful: false}
+lepl: {pipbuild_successful: true}
+lettuce: {pipbuild_successful: false}
+librabbitmq: {pipbuild_successful: false}
+linecache2: {pipbuild_successful: false}
+ll-orasql: {pipbuild_successful: false}
 ll-xist: {pipbuild_successful: false}
-lockfile: {pipbuild_successful: true}
-logilab-common: {pipbuild_successful: true}
-logstash_formatter: {build_successful: true}
-logutils: {build_successful: true, pipbuild_successful: true}
-mando: {build_successful: true}
+logilab-astng: {pipbuild_successful: false}
+logilab-common: {pipbuild_successful: false}
+loremipsum: {pipbuild_successful: true}
+luigi: {pipbuild_successful: false}
+m2crypto: {pipbuild_successful: true}
+makesite: {pipbuild_successful: false}
+mandrill: {pipbuild_successful: false}
 manifestparser: {pipbuild_successful: true}
 marionette-transport: {pipbuild_successful: true}
 marionette_client: {pipbuild_successful: false}
 marionette_driver: {pipbuild_successful: false}
-markdown2: {build_successful: true}
-master: {pipbuild_successful: false}
-maxminddb: {build_successful: true, pipbuild_successful: true}
-mccabe: {pipbuild_successful: true}
-mechanize: {build_successful: true, pipbuild_successful: true}
 meld3: {pipbuild_successful: true}
+mercurial: {pipbuild_successful: true}
+mezzanine: {pipbuild_successful: false}
+mimeparse: {pipbuild_successful: false}
+minitage.core: {pipbuild_successful: false}
+minitage.paste: {pipbuild_successful: false}
 mixpanel-py: {pipbuild_successful: true}
-mkdocs: {pipbuild_successful: false}
-mongoengine: {pipbuild_successful: true}
-mosquitto: {build_successful: true}
-moto: {build_successful: false, pipbuild_successful: false}
-mox: {build_successful: true, pipbuild_successful: true}
-mox3: {pipbuild_successful: false}
+model_mommy: {pipbuild_successful: false}
+mongoengine: {pipbuild_successful: false}
 mozcrash: {pipbuild_successful: false}
 mozdevice: {pipbuild_successful: false}
 mozfile: {pipbuild_successful: true}
-mozhttpd: {pipbuild_successful: false}
 mozinfo: {pipbuild_successful: false}
 mozlog: {pipbuild_successful: false}
 moznetwork: {pipbuild_successful: false}
-mozprocess: {pipbuild_successful: false}
 mozprofile: {pipbuild_successful: false}
 mozrunner: {pipbuild_successful: false}
-moztest: {build_successful: false, pipbuild_successful: false}
+mozsystemmonitor: {pipbuild_successful: false}
 mozversion: {pipbuild_successful: false}
-mrjob: {build_successful: true, pipbuild_successful: false}
-msgpack-python: {build_successful: true, pipbuild_successful: true}
+mr.developer: {pipbuild_successful: false}
 multiprocessing: {pipbuild_successful: true}
-named_constants: {build_successful: true}
-nameparser: {build_successful: true}
-ndg-httpsclient: {build_successful: false, pipbuild_successful: true}
-netaddr: {build_successful: true, pipbuild_successful: true}
-netifaces: {pipbuild_successful: true}
+munerator: {pipbuild_successful: false}
+mysql-python: {pipbuild_successful: false}
+ndg-httpsclient: {pipbuild_successful: false}
+netius: {pipbuild_successful: true}
 newrelic: {pipbuild_successful: true}
 newrelic_plugin_agent: {pipbuild_successful: false}
-nosexcover: {build_successful: false, pipbuild_successful: true}
-numpydoc: {pipbuild_successful: true}
+nma-python: {pipbuild_successful: true}
+nodeenv: {pipbuild_successful: true}
+nose-parameterized: {pipbuild_successful: true}
+oauth: {pipbuild_successful: true}
 oauth2: {pipbuild_successful: true}
 oauth2client: {pipbuild_successful: false}
 oauthlib: {pipbuild_successful: true}
-ordereddict: {build_successful: true, pipbuild_successful: true}
-os-client-config: {pipbuild_successful: false}
-oslo.concurrency: {pipbuild_successful: false}
-oslo.config: {pipbuild_successful: false}
-oslo.context: {pipbuild_successful: false}
-oslo.db: {pipbuild_successful: false}
-oslo.i18n: {pipbuild_successful: false}
-oslo.log: {pipbuild_successful: false}
-oslo.messaging: {pipbuild_successful: false}
-oslo.middleware: {pipbuild_successful: false}
+odict: {pipbuild_successful: true}
+oerplib: {pipbuild_successful: true}
+openexr: {pipbuild_successful: true}
+opengroupware: {pipbuild_successful: false}
+os_diskconfig_python_novaclient_ext: {pipbuild_successful: false}
 oslo.policy: {pipbuild_successful: false}
-oslo.rootwrap: {pipbuild_successful: false}
-oslo.serialization: {pipbuild_successful: false}
-oslo.utils: {pipbuild_successful: false}
-oslo.versionedobjects: {pipbuild_successful: false}
-oslo.vmware: {pipbuild_successful: false}
-oslosphinx: {pipbuild_successful: false}
-oslotest: {pipbuild_successful: false}
-osprofiler: {pipbuild_successful: true}
-paramiko: {pipbuild_successful: true}
-parse: {build_successful: true, pipbuild_successful: true}
 parse_type: {pipbuild_successful: false}
-passlib: {pipbuild_successful: true}
-path.py: {build_successful: true, pipbuild_successful: true}
-pathlib: {build_successful: true, pipbuild_successful: true}
-pathtools: {build_successful: true, pipbuild_successful: true}
-pbkdf2: {build_successful: true}
+passlib: {pipbuild_successful: false}
+paste: {pipbuild_successful: true}
+pastedeploy: {pipbuild_successful: true}
+pastescript: {pipbuild_successful: false}
+paver: {pipbuild_successful: false}
 pbr: {pipbuild_successful: true}
-pdfminer: {build_successful: true}
 pecan: {pipbuild_successful: false}
-pexpect: {build_successful: true, pipbuild_successful: true}
-pexpect-u: {build_successful: true}
-pg8000: {build_successful: true}
-phonenumbers: {build_successful: true, pipbuild_successful: true}
-pies2overrides: {build_successful: true}
+peewee: {pipbuild_successful: true}
+persistence: {pipbuild_successful: false}
+persistent: {pipbuild_successful: true}
 pika: {pipbuild_successful: true}
-pip-accel: {build_successful: false}
-polib: {build_successful: true}
-posix_ipc: {build_successful: true, pipbuild_successful: true}
-progressbar: {build_successful: true, pipbuild_successful: true}
-protobuf: {build_successful: true, pipbuild_successful: true}
+pisa: {pipbuild_successful: true}
+plone: {pipbuild_successful: false}
+plone.app.content: {pipbuild_successful: false}
+plone.app.contentmenu: {pipbuild_successful: false}
+plone.app.contentrules: {pipbuild_successful: false}
+plone.app.controlpanel: {pipbuild_successful: false}
+plone.app.customerize: {pipbuild_successful: false}
+plone.app.discussion: {pipbuild_successful: false}
+plone.app.form: {pipbuild_successful: false}
+plone.app.i18n: {pipbuild_successful: true}
+plone.app.iterate: {pipbuild_successful: false}
+plone.app.jquerytools: {pipbuild_successful: false}
+plone.app.kss: {pipbuild_successful: false}
+plone.app.layout: {pipbuild_successful: false}
+plone.app.linkintegrity: {pipbuild_successful: false}
+plone.app.openid: {pipbuild_successful: false}
+plone.app.portlets: {pipbuild_successful: false}
+plone.app.redirector: {pipbuild_successful: false}
+plone.app.upgrade: {pipbuild_successful: false}
+plone.app.viewletmanager: {pipbuild_successful: false}
+plone.app.vocabularies: {pipbuild_successful: false}
+plone.app.workflow: {pipbuild_successful: false}
+plone.app.z3cform: {pipbuild_successful: false}
+plone.browserlayer: {pipbuild_successful: false}
+plone.contentrules: {pipbuild_successful: false}
+plone.fieldsets: {pipbuild_successful: false}
+plone.i18n: {pipbuild_successful: false}
+plone.locking: {pipbuild_successful: false}
+plone.memoize: {pipbuild_successful: false}
+plone.openid: {pipbuild_successful: false}
+plone.portlet.collection: {pipbuild_successful: false}
+plone.portlet.static: {pipbuild_successful: false}
+plone.portlets: {pipbuild_successful: false}
+plone.recipe.zope2instance: {pipbuild_successful: false}
+plone.session: {pipbuild_successful: false}
+plone.theme: {pipbuild_successful: false}
+plonetheme.arnolfini: {pipbuild_successful: false}
+pmxbot: {pipbuild_successful: false}
+poster: {pipbuild_successful: true}
+products.archetypes: {pipbuild_successful: false}
+products.atcontenttypes: {pipbuild_successful: false}
+products.cmfeditions: {pipbuild_successful: false}
+products.cmfplone: {pipbuild_successful: false}
+products.cmfquickinstallertool: {pipbuild_successful: false}
+products.genericsetup: {pipbuild_successful: false}
+products.passwordresettool: {pipbuild_successful: false}
+products.placelesstranslationservice: {pipbuild_successful: false}
+products.ploneformgen: {pipbuild_successful: false}
+products.plonelanguagetool: {pipbuild_successful: true}
+products.plonepas: {pipbuild_successful: false}
+products.portaltransforms: {pipbuild_successful: false}
+products.resourceregistries: {pipbuild_successful: false}
+products.tinymce: {pipbuild_successful: false}
+prody: {pipbuild_successful: true}
+psycogreen: {pipbuild_successful: true}
 psycopg2: {pipbuild_successful: true}
-publicsuffix: {build_successful: false}
-py-bcrypt: {build_successful: true, pipbuild_successful: true}
-pyOpenSSL: {pipbuild_successful: true}
-pyScss: {pipbuild_successful: false}
-pyaml: {build_successful: true, pipbuild_successful: true}
-pyasn1-modules: {build_successful: true, pipbuild_successful: true}
-pycadf: {pipbuild_successful: false}
-pycountry: {build_successful: true, pipbuild_successful: true}
-pygeoip: {build_successful: true, pipbuild_successful: true}
-pyinotify: {build_successful: true}
-pylibftdi: {build_successful: true}
+pudb: {pipbuild_successful: false}
+puke: {pipbuild_successful: false}
+pupynere: {pipbuild_successful: false}
+py2app: {pipbuild_successful: false}
+py2neo: {pipbuild_successful: true}
+pyamf: {pipbuild_successful: true}
+pychef: {pipbuild_successful: true}
+pyck: {pipbuild_successful: false}
+pycups: {pipbuild_successful: true}
+pyenchant: {pipbuild_successful: false}
+pyephem: {pipbuild_successful: true}
+pyes: {pipbuild_successful: false}
+pyfits: {pipbuild_successful: false}
+pygraphviz: {pipbuild_successful: false}
+pygtail: {pipbuild_successful: true}
+pyhammer: {pipbuild_successful: true}
+pyjwt: {pipbuild_successful: true}
 pylibmc: {pipbuild_successful: true}
-pylint: {pipbuild_successful: true}
+pylint: {pipbuild_successful: false}
+pylons: {pipbuild_successful: false}
+pymatgen: {pipbuild_successful: false}
 pymongo: {pipbuild_successful: true}
+pymssql: {pipbuild_successful: true}
+pymysql: {pipbuild_successful: true}
+pyobjc-core: {pipbuild_successful: false}
 pyodbc: {pipbuild_successful: true}
-pypiserver: {build_successful: true}
-pyproj: {build_successful: true}
-pypyodbc: {build_successful: true, pipbuild_successful: true}
-pyquery: {build_successful: false}
-pyramid: {pipbuild_successful: true}
-pysaml2: {pipbuild_successful: true}
-pyserial: {build_successful: true, pipbuild_successful: true}
-pysnmp: {pipbuild_successful: true}
-pysolr: {build_successful: false}
+pyopengl: {pipbuild_successful: true}
+pyquery: {pipbuild_successful: false}
+pyrabbit: {pipbuild_successful: true}
+pyramid: {pipbuild_successful: false}
+pyramid_beaker: {pipbuild_successful: false}
+pyramid_debugtoolbar: {pipbuild_successful: false}
+pyramid_jinja2: {pipbuild_successful: false}
+pyramid_mako: {pipbuild_successful: false}
+pyramid_tm: {pipbuild_successful: false}
+pyrax: {pipbuild_successful: false}
+pyreadline: {pipbuild_successful: true}
+pysaml2: {pipbuild_successful: false}
+pyside: {pipbuild_successful: true}
+pysqlite: {pipbuild_successful: true}
 pystache: {pipbuild_successful: true}
-pytest-cov: {build_successful: false, pipbuild_successful: false}
-pytest-django: {pipbuild_successful: true}
-pytest-pep8: {build_successful: false}
-pytest-pythonpath: {build_successful: false, pipbuild_successful: true}
-pytest-timeout: {build_successful: false}
-pytest-xdist: {pipbuild_successful: true}
-python-Levenshtein: {pipbuild_successful: true}
-python-barbicanclient: {pipbuild_successful: false}
-python-cdb: {build_successful: true, pipbuild_successful: true}
-python-ceilometerclient: {pipbuild_successful: false}
-python-cinderclient: {pipbuild_successful: false}
-python-cjson: {build_successful: true, pipbuild_successful: true}
-python-coveralls: {pipbuild_successful: true}
-python-daemon: {pipbuild_successful: true}
-python-gflags: {pipbuild_successful: true}
-python-glanceclient: {pipbuild_successful: false}
-python-gnupg: {build_successful: true}
-python-heatclient: {pipbuild_successful: false}
-python-hglib: {build_successful: true, pipbuild_successful: true}
+pyteomics: {pipbuild_successful: false}
+python-daemon: {pipbuild_successful: false}
+python-geohash: {pipbuild_successful: true}
 python-instagram: {pipbuild_successful: true}
-python-keystoneclient: {pipbuild_successful: false}
 python-ldap: {pipbuild_successful: true}
-python-logstash: {build_successful: true}
-python-magic: {pipbuild_successful: true}
-python-memcached: {pipbuild_successful: true}
-python-mimeparse: {build_successful: true, pipbuild_successful: true}
-python-neutronclient: {pipbuild_successful: false}
-python-novaclient: {pipbuild_successful: false}
-python-openid: {build_successful: true, pipbuild_successful: true}
-python-openstackclient: {pipbuild_successful: false}
-python-saharaclient: {pipbuild_successful: false}
-python-simple-hipchat: {build_successful: true}
-python-slugify: {build_successful: false}
+python-levenshtein: {pipbuild_successful: true}
+python-ntlm: {pipbuild_successful: true}
+python-quantumclient: {pipbuild_successful: false}
 python-social-auth: {pipbuild_successful: false}
-python-statsd: {build_successful: true}
-python-stdnum: {build_successful: true}
 python-subunit: {pipbuild_successful: false}
-python-swiftclient: {pipbuild_successful: true}
-python-troveclient: {pipbuild_successful: false}
-pytun: {build_successful: true}
-pyusb: {build_successful: true}
-pyutmp: {build_successful: true}
-qds_sdk: {pipbuild_successful: false}
-qrcode: {pipbuild_successful: true}
+python-swiftclient: {pipbuild_successful: false}
+python-twitter: {pipbuild_successful: false}
+pythonbrew: {pipbuild_successful: true}
+rackspace-auth-openstack: {pipbuild_successful: false}
+rackspace-novaclient: {pipbuild_successful: false}
+radish-bdd: {pipbuild_successful: false}
 raven: {pipbuild_successful: true}
-regex: {build_successful: true, pipbuild_successful: true}
-reportlab: {build_successful: false, pipbuild_successful: true}
+rax_scheduled_images_python_novaclient_ext: {pipbuild_successful: false}
+rdflib: {pipbuild_successful: false}
 repoze.lru: {pipbuild_successful: true}
 repoze.who: {pipbuild_successful: true}
-requests-file: {build_successful: false}
 requests-oauthlib: {pipbuild_successful: false}
 responses: {pipbuild_successful: false}
-restkit: {build_successful: false}
-retry_decorator: {build_successful: true}
-retrying: {build_successful: false, pipbuild_successful: true}
-rfc3986: {build_successful: true, pipbuild_successful: true}
-rfc3987: {build_successful: true}
-robotframework: {build_successful: true, pipbuild_successful: true}
-robotframework-selenium2library: {build_successful: false}
-robotframework-sshlibrary: {build_successful: false}
-rodeo: {build_successful: false}
-rsa: {pipbuild_successful: true}
+rightscale: {pipbuild_successful: true}
+robotframework-ride: {pipbuild_successful: true}
+rosinstall: {pipbuild_successful: false}
+rpy2: {pipbuild_successful: false}
+rq: {pipbuild_successful: false}
+rsb-python: {pipbuild_successful: false}
+rtree: {pipbuild_successful: false}
 rtslib-fb: {pipbuild_successful: true}
-s3cmd: {pipbuild_successful: true}
-salt: {build_successful: false}
-scandir: {build_successful: true}
-scp: {build_successful: false}
+scapy: {pipbuild_successful: true}
+scrapy: {pipbuild_successful: false}
 selenium: {pipbuild_successful: true}
-semantic_version: {build_successful: true, pipbuild_successful: true}
-serpent: {build_successful: false}
-service_identity: {build_successful: false, pipbuild_successful: false}
-setproctitle: {build_successful: true, pipbuild_successful: true}
-setuptools-git: {pipbuild_successful: true}
-setuptools_hg: {build_successful: true}
-setuptools_scm: {build_successful: true}
-setuptools_subversion: {pipbuild_successful: true}
-sh: {build_successful: true, pipbuild_successful: true}
-shadowsocks: {build_successful: true}
-shortuuid: {build_successful: true, pipbuild_successful: true}
-simplegeneric: {build_successful: true, pipbuild_successful: true}
-simplejson: {build_successful: true, pipbuild_successful: true}
-singledispatch: {build_successful: true, pipbuild_successful: true}
-smmap: {pipbuild_successful: true}
-snowballstemmer: {build_successful: true, pipbuild_successful: true}
+sentry: {pipbuild_successful: false}
+service_identity: {pipbuild_successful: false}
+shapely: {pipbuild_successful: true}
+shove: {pipbuild_successful: false}
+simserver: {pipbuild_successful: false}
+slapos.cookbook: {pipbuild_successful: false}
+slpkg: {pipbuild_successful: false}
+slumber: {pipbuild_successful: true}
+snakebite: {pipbuild_successful: false}
 sorl-thumbnail: {pipbuild_successful: true}
-speaklater: {build_successful: true}
-sphinx_rtd_theme: {pipbuild_successful: true}
-sphinxcontrib-httpdomain: {build_successful: false, pipbuild_successful: true}
-sqlalchemy-migrate: {pipbuild_successful: true}
-sqlparse: {build_successful: true, pipbuild_successful: true}
+south: {pipbuild_successful: true}
+sparqlwrapper: {pipbuild_successful: false}
+sphinx_rtd_theme: {pipbuild_successful: false}
+sphinxcontrib-httpdomain: {pipbuild_successful: false}
+sphinxcontrib-napoleon: {pipbuild_successful: false}
+splinter: {pipbuild_successful: false}
+sprox: {pipbuild_successful: false}
+sqlalchemy-utils: {pipbuild_successful: false}
+sqlobject: {pipbuild_successful: false}
 ssl: {pipbuild_successful: false}
-statsd: {build_successful: true, pipbuild_successful: true}
-stevedore: {pipbuild_successful: false}
-stripe: {build_successful: false, pipbuild_successful: true}
-stuf: {build_successful: false}
-subprocess32: {build_successful: true, pipbuild_successful: true}
-suds: {build_successful: true, pipbuild_successful: true}
-supervisor: {pipbuild_successful: true}
+static: {pipbuild_successful: true}
+strangecase: {pipbuild_successful: false}
+streamcorpus_pipeline: {pipbuild_successful: false}
+stuf: {pipbuild_successful: false}
+supervisor: {pipbuild_successful: false}
+surf: {pipbuild_successful: false}
 tablib: {pipbuild_successful: true}
-tabulate: {build_successful: true, pipbuild_successful: true}
-taskflow: {pipbuild_successful: false}
-teamcity-messages: {build_successful: true, pipbuild_successful: true}
-tempest-lib: {pipbuild_successful: false}
-termcolor: {build_successful: true, pipbuild_successful: true}
+tendenci: {pipbuild_successful: false}
 testfixtures: {pipbuild_successful: true}
 testrepository: {pipbuild_successful: false}
-testresources: {pipbuild_successful: true}
-testscenarios: {pipbuild_successful: false}
-testtools: {pipbuild_successful: false}
-textblob: {build_successful: false}
-texttable: {build_successful: true, pipbuild_successful: true}
-thrift: {build_successful: true, pipbuild_successful: true}
-timeout-decorator: {build_successful: true}
-tldextract: {pipbuild_successful: true}
-tlslite: {build_successful: true}
+tiddlyweb: {pipbuild_successful: false}
+tiddlywebplugins.tiddlyspace: {pipbuild_successful: false}
 tox: {pipbuild_successful: false}
-traceback2: {pipbuild_successful: false}
-trachet: {build_successful: true}
-translationstring: {pipbuild_successful: true}
-treeherder-client: {build_successful: true, pipbuild_successful: true}
-trisdb-py: {build_successful: true, pipbuild_successful: true}
-trollius: {build_successful: true, pipbuild_successful: true}
-twiceredis: {pipbuild_successful: true}
+trac: {pipbuild_successful: false}
+transaction: {pipbuild_successful: true}
+translate-toolkit: {pipbuild_successful: true}
+treeherder-client: {pipbuild_successful: true}
+trytond: {pipbuild_successful: false}
+turbogears: {pipbuild_successful: false}
+tweepy: {pipbuild_successful: false}
 twilio: {pipbuild_successful: false}
-twitter.common.collections: {build_successful: false}
-twitter.common.lang: {build_successful: true}
-tzlocal: {pipbuild_successful: true}
-uWSGI: {pipbuild_successful: true}
-ua-parser: {build_successful: true, pipbuild_successful: true}
+twisted: {pipbuild_successful: false}
+twython: {pipbuild_successful: false}
 ucloudclient: {pipbuild_successful: false}
-unittest-xml-reporting: {pipbuild_successful: true}
+unittest-xml-reporting: {pipbuild_successful: false}
 unittest2: {pipbuild_successful: false}
-uritemplate: {build_successful: false, pipbuild_successful: false}
-urllib3: {build_successful: true, pipbuild_successful: true}
-urwid: {build_successful: true}
-user-agents: {build_successful: false, pipbuild_successful: true}
-uuid: {build_successful: true}
-validators: {build_successful: false}
+upy: {pipbuild_successful: false}
 venusian: {pipbuild_successful: true}
-versiontools: {pipbuild_successful: true}
-virtualenv: {build_successful: true, pipbuild_successful: true}
-virtualenv-clone: {build_successful: true, pipbuild_successful: true}
 virtualenvwrapper: {pipbuild_successful: false}
-voluptuous: {build_successful: false}
-w3lib: {build_successful: false, pipbuild_successful: true}
-waitress: {build_successful: true, pipbuild_successful: true}
+vnc2flv: {pipbuild_successful: true}
+vobject: {pipbuild_successful: false}
+waitress: {pipbuild_successful: true}
+wand: {pipbuild_successful: true}
 warlock: {pipbuild_successful: false}
 watchdog: {pipbuild_successful: false}
-web.py: {build_successful: true}
-webapp2: {build_successful: true}
-webassets: {pipbuild_successful: true}
-websocket-client: {pipbuild_successful: true}
-websockify: {pipbuild_successful: true}
+weberror: {pipbuild_successful: false}
+webob: {pipbuild_successful: true}
+websockify: {pipbuild_successful: false}
+webtest: {pipbuild_successful: false}
 wheel: {pipbuild_successful: true}
-wheezy.core: {build_successful: true}
-whisper: {build_successful: true}
-wincertstore: {build_successful: true, pipbuild_successful: true}
-wrapt: {build_successful: true, pipbuild_successful: true}
-ws4py: {build_successful: true}
-xattr: {pipbuild_successful: true}
-xmltodict: {pipbuild_successful: true}
-youtube_dl: {build_successful: false, pipbuild_successful: true}
-zc.buildout: {pipbuild_successful: true}
-zope.component: {pipbuild_successful: true}
+wsgi_intercept: {pipbuild_successful: true}
+xattr: {pipbuild_successful: false}
+xlutils: {pipbuild_successful: false}
+xstatic-jquery-ui: {pipbuild_successful: false}
+you-get: {pipbuild_successful: false}
+z3c.form: {pipbuild_successful: false}
+z3c.recipe.scripts: {pipbuild_successful: false}
+zake: {pipbuild_successful: false}
+zc.buildout: {pipbuild_successful: false}
+zc.lockfile: {pipbuild_successful: true}
+zc.recipe.egg: {pipbuild_successful: false}
+zc.recipe.testrunner: {pipbuild_successful: false}
+zconfig: {pipbuild_successful: true}
+zdaemon: {pipbuild_successful: true}
+zodb3: {pipbuild_successful: false}
+zope.app.container: {pipbuild_successful: false}
+zope.app.form: {pipbuild_successful: false}
+zope.app.publication: {pipbuild_successful: false}
+zope.component: {pipbuild_successful: false}
+zope.configuration: {pipbuild_successful: false}
+zope.container: {pipbuild_successful: false}
 zope.deprecation: {pipbuild_successful: true}
+zope.dottedname: {pipbuild_successful: true}
+zope.event: {pipbuild_successful: true}
+zope.exceptions: {pipbuild_successful: true}
+zope.filerepresentation: {pipbuild_successful: false}
+zope.formlib: {pipbuild_successful: false}
+zope.i18n: {pipbuild_successful: false}
+zope.i18nmessageid: {pipbuild_successful: true}
+zope.index: {pipbuild_successful: true}
 zope.interface: {pipbuild_successful: true}
+zope.lifecycleevent: {pipbuild_successful: true}
+zope.location: {pipbuild_successful: false}
+zope.pagetemplate: {pipbuild_successful: false}
+zope.proxy: {pipbuild_successful: true}
+zope.publisher: {pipbuild_successful: false}
+zope.schema: {pipbuild_successful: false}
+zope.security: {pipbuild_successful: false}
+zope.sqlalchemy: {pipbuild_successful: false}
+zope.tal: {pipbuild_successful: true}
+zope.tales: {pipbuild_successful: true}
+zope.testbrowser: {pipbuild_successful: false}
+zope.traversing: {pipbuild_successful: false}
+zope2: {pipbuild_successful: false}
+zopeskel: {pipbuild_successful: false}
+ztfy.skin: {pipbuild_successful: false}

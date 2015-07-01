@@ -2,8 +2,17 @@ Removing old build directory
 Removing old work directory
 BUILD START: youtube_dl-2015.05.20-py_0
 Fetching package metadata: ......
+
+WARNING: conda-build appears to be out of date. You have version 1.13.0 but the
+latest version is 1.14.1. Run
+
+conda update -n root conda-build
+
+to get the latest version.
+
 Solving package specifications: .+ /home/ubuntu/miniconda/envs/_build/bin/python setup.py install
-/home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/setuptools-17.0-py2.7.egg/setuptools/dist.py:285: UserWarning: Normalizing '2015.05.20' to '2015.5.20'
+/home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/setuptools/dist.py:282: UserWarning: Normalizing '2015.05.20' to '2015.5.20'
+  normalized_version,
 running install
 running bdist_egg
 running egg_info
@@ -1654,7 +1663,8 @@ copying youtube_dl.egg-info/entry_points.txt -> build/bdist.linux-x86_64/egg/EGG
 copying youtube_dl.egg-info/top_level.txt -> build/bdist.linux-x86_64/egg/EGG-INFO
 zip_safe flag not set; analyzing archive contents...
 youtube_dl.__main__: module references __file__
-/home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/setuptools-17.0-py2.7.egg/setuptools/command/bdist_egg.py:394: UnicodeWarning: Unicode equal comparison failed to convert both arguments to Unicode - interpreting them as being unequal
+/home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/setuptools/command/bdist_egg.py:394: UnicodeWarning: Unicode equal comparison failed to convert both arguments to Unicode - interpreting them as being unequal
+  symbols = dict.fromkeys(iter_symbols(code))
 youtube_dl.YoutubeDL: module references __file__
 creating dist
 creating 'dist/youtube_dl-2015.5.20-py2.7.egg' and adding 'build/bdist.linux-x86_64/egg' to it
@@ -1671,15 +1681,15 @@ Finished processing dependencies for youtube-dl==2015.5.20
 
 The following NEW packages will be INSTALLED:
 
-    openssl:    1.0.1k-1    
-    pip:        7.0.3-py27_0
-    python:     2.7.10-0    
-    readline:   6.2-2       
-    setuptools: 17.0-py27_0 
-    sqlite:     3.8.4.1-1   
-    system:     5.8-2       
-    tk:         8.5.18-0    
-    zlib:       1.2.8-0     
+    openssl:    1.0.1k-1     
+    pip:        7.0.3-py27_0 
+    python:     2.7.10-0     
+    readline:   6.2-2        
+    setuptools: 18.0.1-py27_0
+    sqlite:     3.8.4.1-1    
+    system:     5.8-2        
+    tk:         8.5.18-0     
+    zlib:       1.2.8-0      
 
 Linking packages ...
 [                    ]|                                                  |   0%[openssl             ]|                                                  |   0%[readline            ]|#####                                             |  11%[sqlite              ]|###########                                       |  22%[system              ]|################                                  |  33%[tk                  ]|######################                            |  44%[zlib                ]|###########################                       |  55%[python              ]|#################################                 |  66%[setuptools          ]|######################################            |  77%[pip                 ]|############################################      |  88%[      COMPLETE      ]|##################################################| 100%
@@ -1696,12 +1706,20 @@ Fixing permissions
 BUILD END: youtube_dl-2015.05.20-py_0
 TEST START: youtube_dl-2015.05.20-py_0
 Fetching package metadata: ......
+
+WARNING: conda-build appears to be out of date. You have version 1.13.0 but the
+latest version is 1.14.1. Run
+
+conda update -n root conda-build
+
+to get the latest version.
+
 Solving package specifications: .
 The following packages will be downloaded:
 
     package                    |            build
     ---------------------------|-----------------
-    youtube_dl-2015.05.20      |             py_0         538 KB
+    youtube_dl-2015.05.20      |             py_0         539 KB
 
 The following NEW packages will be INSTALLED:
 
@@ -1709,7 +1727,7 @@ The following NEW packages will be INSTALLED:
     pip:        7.0.3-py27_0   
     python:     2.7.10-0       
     readline:   6.2-2          
-    setuptools: 17.0-py27_0    
+    setuptools: 18.0.1-py27_0  
     sqlite:     3.8.4.1-1      
     system:     5.8-2          
     tk:         8.5.18-0       
@@ -1717,7 +1735,7 @@ The following NEW packages will be INSTALLED:
     zlib:       1.2.8-0        
 
 Fetching packages ...
-youtube_dl-201   0% |                              | ETA:  --:--:--   0.00  B/syoutube_dl-201   2% |                               | ETA:  0:00:00  47.62 MB/syoutube_dl-201   5% |#                              | ETA:  0:00:00  59.24 MB/syoutube_dl-201   8% |##                             | ETA:  0:00:00  66.06 MB/syoutube_dl-201  11% |###                            | ETA:  0:00:00  69.85 MB/syoutube_dl-201  14% |####                           | ETA:  0:00:00  72.95 MB/syoutube_dl-201  17% |#####                          | ETA:  0:00:00  74.93 MB/syoutube_dl-201  20% |######                         | ETA:  0:00:00  76.66 MB/syoutube_dl-201  23% |#######                        | ETA:  0:00:00  76.87 MB/syoutube_dl-201  26% |########                       | ETA:  0:00:00  78.14 MB/syoutube_dl-201  29% |#########                      | ETA:  0:00:00  79.26 MB/syoutube_dl-201  32% |##########                     | ETA:  0:00:00  80.02 MB/syoutube_dl-201  35% |###########                    | ETA:  0:00:00  80.84 MB/syoutube_dl-201  38% |###########                    | ETA:  0:00:00  81.54 MB/syoutube_dl-201  41% |############                   | ETA:  0:00:00  81.95 MB/syoutube_dl-201  44% |#############                  | ETA:  0:00:00  82.50 MB/syoutube_dl-201  47% |##############                 | ETA:  0:00:00  82.98 MB/syoutube_dl-201  50% |###############                | ETA:  0:00:00  83.31 MB/syoutube_dl-201  53% |################               | ETA:  0:00:00  83.71 MB/syoutube_dl-201  56% |#################              | ETA:  0:00:00  83.91 MB/syoutube_dl-201  59% |##################             | ETA:  0:00:00  84.22 MB/syoutube_dl-201  62% |###################            | ETA:  0:00:00  84.43 MB/syoutube_dl-201  65% |####################           | ETA:  0:00:00  84.71 MB/syoutube_dl-201  68% |#####################          | ETA:  0:00:00  85.00 MB/syoutube_dl-201  71% |######################         | ETA:  0:00:00  85.24 MB/syoutube_dl-201  74% |#######################        | ETA:  0:00:00  85.44 MB/syoutube_dl-201  77% |#######################        | ETA:  0:00:00  85.61 MB/syoutube_dl-201  80% |########################       | ETA:  0:00:00  85.76 MB/syoutube_dl-201  83% |#########################      | ETA:  0:00:00  85.96 MB/syoutube_dl-201  86% |##########################     | ETA:  0:00:00  85.81 MB/syoutube_dl-201  89% |###########################    | ETA:  0:00:00  85.93 MB/syoutube_dl-201  92% |############################   | ETA:  0:00:00  86.10 MB/syoutube_dl-201  95% |#############################  | ETA:  0:00:00  86.26 MB/syoutube_dl-201  98% |############################## | ETA:  0:00:00  86.42 MB/syoutube_dl-201 100% |###############################| ETA:  0:00:00  85.79 MB/syoutube_dl-201 100% |###############################| Time: 0:00:00  82.86 MB/s
+youtube_dl-201   0% |                              | ETA:  --:--:--   0.00  B/syoutube_dl-201   2% |                               | ETA:  0:00:00   1.93 MB/syoutube_dl-201   5% |#                              | ETA:  0:00:00   3.77 MB/syoutube_dl-201   8% |##                             | ETA:  0:00:00   5.52 MB/syoutube_dl-201  11% |###                            | ETA:  0:00:00   7.21 MB/syoutube_dl-201  14% |####                           | ETA:  0:00:00   8.83 MB/syoutube_dl-201  17% |#####                          | ETA:  0:00:00  10.39 MB/syoutube_dl-201  20% |######                         | ETA:  0:00:00  11.88 MB/syoutube_dl-201  23% |#######                        | ETA:  0:00:00  13.33 MB/syoutube_dl-201  26% |########                       | ETA:  0:00:00  14.72 MB/syoutube_dl-201  29% |#########                      | ETA:  0:00:00  16.07 MB/syoutube_dl-201  32% |##########                     | ETA:  0:00:00  17.37 MB/syoutube_dl-201  35% |###########                    | ETA:  0:00:00  18.62 MB/syoutube_dl-201  38% |###########                    | ETA:  0:00:00  19.84 MB/syoutube_dl-201  41% |############                   | ETA:  0:00:00  21.01 MB/syoutube_dl-201  44% |#############                  | ETA:  0:00:00  22.15 MB/syoutube_dl-201  47% |##############                 | ETA:  0:00:00  23.25 MB/syoutube_dl-201  50% |###############                | ETA:  0:00:00  24.32 MB/syoutube_dl-201  53% |################               | ETA:  0:00:00  25.36 MB/syoutube_dl-201  56% |#################              | ETA:  0:00:00  26.36 MB/syoutube_dl-201  59% |##################             | ETA:  0:00:00  27.33 MB/syoutube_dl-201  62% |###################            | ETA:  0:00:00  28.28 MB/syoutube_dl-201  65% |####################           | ETA:  0:00:00  29.20 MB/syoutube_dl-201  68% |#####################          | ETA:  0:00:00  30.08 MB/syoutube_dl-201  71% |######################         | ETA:  0:00:00  30.94 MB/syoutube_dl-201  74% |#######################        | ETA:  0:00:00  31.74 MB/syoutube_dl-201  77% |#######################        | ETA:  0:00:00  32.56 MB/syoutube_dl-201  80% |########################       | ETA:  0:00:00  33.35 MB/syoutube_dl-201  83% |#########################      | ETA:  0:00:00  34.13 MB/syoutube_dl-201  86% |##########################     | ETA:  0:00:00  34.89 MB/syoutube_dl-201  89% |###########################    | ETA:  0:00:00  35.62 MB/syoutube_dl-201  92% |############################   | ETA:  0:00:00  36.33 MB/syoutube_dl-201  95% |#############################  | ETA:  0:00:00  37.03 MB/syoutube_dl-201  98% |############################## | ETA:  0:00:00  37.71 MB/syoutube_dl-201 100% |###############################| ETA:  0:00:00  38.04 MB/syoutube_dl-201 100% |###############################| Time: 0:00:00  37.46 MB/s
 Extracting packages ...
 [      COMPLETE      ]|                                                  |   0%[youtube_dl          ]|                                                  |   0%[youtube_dl          ]|                                                  |   0%[      COMPLETE      ]|##################################################| 100%
 Linking packages ...

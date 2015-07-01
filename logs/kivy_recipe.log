@@ -1,0 +1,64 @@
+kivy not found, trying Kivy
+Warning, the following versions were found for Kivy
+1.9.0
+1.8.0
+1.7.2
+1.7.1
+1.7.0
+1.6.0
+1.5.1
+1.5.0
+1.4.1
+1.4.0
+1.3.0
+1.2.0
+1.1.1
+1.1.0
+1.0.9
+1.0.8
+1.0.7
+1.0.6
+1.0.5
+1.0.4-beta
+1.0.3-alpha
+1.0.2-alpha
+1.0.1-alpha
+Using 1.9.0
+Use --version to specify a different version.
+Using url https://pypi.python.org/packages/source/K/Kivy/Kivy-1.9.0.tar.gz (15.4 MB) for Kivy.
+Downloading Kivy
+Using cached download
+Unpacking Kivy...
+done
+working in /tmp/tmpBf1nW_conda_skeleton_Kivy-1.9.0.tar.gz
+Fetching package metadata: ......
+
+WARNING: conda-build appears to be out of date. You have version 1.13.0 but the
+latest version is 1.14.1. Run
+
+conda update -n root conda-build
+
+to get the latest version.
+
+Solving package specifications: .patching file core.py
+Hunk #1 succeeded at 168 with fuzz 2 (offset 2 lines).
+
+Cython is missing, its required for compiling kivy !
+
+
+Traceback (most recent call last):
+  File "setup.py", line 173, in <module>
+    from Cython.Distutils import build_ext
+ImportError: No module named Cython.Distutils
+
+The following NEW packages will be INSTALLED:
+
+    numpy:  1.9.2-py27_0
+    pyyaml: 3.11-py27_1 
+    yaml:   0.1.6-0     
+
+Linking packages ...
+[                    ]|                                                  |   0%[yaml                ]|                                                  |   0%[numpy               ]|################                                  |  33%[pyyaml              ]|#################################                 |  66%[      COMPLETE      ]|##################################################| 100%
+Applying patch: '/tmp/tmpBf1nW_conda_skeleton_Kivy-1.9.0.tar.gz/pypi-distutils.patch'
+$PYTHONPATH = /tmp/tmpBf1nW_conda_skeleton_Kivy-1.9.0.tar.gz/Kivy-1.9.0
+Error: command failed: /home/ubuntu/miniconda/envs/_build/bin/python setup.py install

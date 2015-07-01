@@ -1,0 +1,82 @@
+Removing old build directory
+Removing old work directory
+BUILD START: prody-1.6.1-py27_0
+Fetching package metadata: ......
+
+WARNING: conda-build appears to be out of date. You have version 1.13.0 but the
+latest version is 1.14.1. Run
+
+conda update -n root conda-build
+
+to get the latest version.
+
+Solving package specifications: .+ /home/ubuntu/miniconda/envs/_build/bin/python setup.py install
+numpy is not installed, you can find it at: http://numpy.scipy.org
+
+The following NEW packages will be INSTALLED:
+
+    openssl:    1.0.1k-1     
+    pip:        7.0.3-py27_0 
+    python:     2.7.10-0     
+    readline:   6.2-2        
+    setuptools: 18.0.1-py27_0
+    sqlite:     3.8.4.1-1    
+    system:     5.8-2        
+    tk:         8.5.18-0     
+    zlib:       1.2.8-0      
+
+Linking packages ...
+[                    ]|                                                  |   0%[openssl             ]|                                                  |   0%[readline            ]|#####                                             |  11%[sqlite              ]|###########                                       |  22%[system              ]|################                                  |  33%[tk                  ]|######################                            |  44%[zlib                ]|###########################                       |  55%[python              ]|#################################                 |  66%[setuptools          ]|######################################            |  77%[pip                 ]|############################################      |  88%[      COMPLETE      ]|##################################################| 100%
+Removing old work directory
+Source cache directory is: /home/ubuntu/miniconda/conda-bld/src_cache
+Found source in cache: ProDy-1.6.1b.tar.gz
+Extracting download
+Package: prody-1.6.1-py27_0
+source tree in: /home/ubuntu/miniconda/conda-bld/work/ProDy-1.6.1
+number of files: 0
+Fixing permissions
+Fixing permissions
+BUILD END: prody-1.6.1-py27_0
+TEST START: prody-1.6.1-py27_0
+Fetching package metadata: ......
+
+WARNING: conda-build appears to be out of date. You have version 1.13.0 but the
+latest version is 1.14.1. Run
+
+conda update -n root conda-build
+
+to get the latest version.
+
+Solving package specifications: .===== testing package: prody-1.6.1-py27_0 =====
+import: u'prody'
+Traceback (most recent call last):
+  File "/home/ubuntu/miniconda/conda-bld/test-tmp_dir/run_test.py", line 25, in <module>
+    import prody
+ImportError: No module named prody
+
+The following packages will be downloaded:
+
+    package                    |            build
+    ---------------------------|-----------------
+    prody-1.6.1                |           py27_0           2 KB
+
+The following NEW packages will be INSTALLED:
+
+    openssl:    1.0.1k-1     
+    pip:        7.0.3-py27_0 
+    prody:      1.6.1-py27_0 
+    python:     2.7.10-0     
+    readline:   6.2-2        
+    setuptools: 18.0.1-py27_0
+    sqlite:     3.8.4.1-1    
+    system:     5.8-2        
+    tk:         8.5.18-0     
+    zlib:       1.2.8-0      
+
+Fetching packages ...
+prody-1.6.1-py   0% |                              | ETA:  --:--:--   0.00  B/sprody-1.6.1-py 100% |###############################| ETA:  0:00:00   5.98 MB/sprody-1.6.1-py 100% |###############################| Time: 0:00:00   3.16 MB/s
+Extracting packages ...
+[      COMPLETE      ]|                                                  |   0%[prody               ]|                                                  |   0%[prody               ]|                                                  |   0%[      COMPLETE      ]|##################################################| 100%
+Linking packages ...
+[      COMPLETE      ]|                                                  |   0%[openssl             ]|                                                  |   0%[openssl             ]|                                                  |   0%[readline            ]|#####                                             |  10%[sqlite              ]|##########                                        |  20%[system              ]|###############                                   |  30%[tk                  ]|####################                              |  40%[zlib                ]|#########################                         |  50%[prody               ]|##############################                    |  60%[python              ]|###################################               |  70%[setuptools          ]|########################################          |  80%[pip                 ]|#############################################     |  90%[      COMPLETE      ]|##################################################| 100%
+TESTS FAILED: prody-1.6.1-py27_0

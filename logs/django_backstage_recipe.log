@@ -200,14 +200,30 @@ Warning, the following versions were found for django_backstage
 Using 0.0.427
 Use --version to specify a different version.
 Using url https://pypi.python.org/packages/source/d/django_backstage/django_backstage-0.0.427.tar.gz (79 KB) for django_backstage.
-Downloading django_backstage (use --no-download to skip this step)
+Downloading django_backstage
 Using cached download
 Unpacking django_backstage...
 done
-working in /tmp/tmpJJR8IZconda_skeleton_django_backstage-0.0.427.tar.gz
+working in /tmp/tmpD8FVjMconda_skeleton_django_backstage-0.0.427.tar.gz
 Fetching package metadata: ......
+
+WARNING: conda-build appears to be out of date. You have version 1.13.0 but the
+latest version is 1.14.1. Run
+
+conda update -n root conda-build
+
+to get the latest version.
+
 Solving package specifications: .patching file core.py
 Hunk #1 succeeded at 168 with fuzz 2 (offset 2 lines).
 
-Applying patch: '/tmp/tmpJJR8IZconda_skeleton_django_backstage-0.0.427.tar.gz/pypi-distutils.patch'
+The following NEW packages will be INSTALLED:
+
+    numpy:  1.9.2-py27_0
+    pyyaml: 3.11-py27_1 
+    yaml:   0.1.6-0     
+
+Linking packages ...
+[                    ]|                                                  |   0%[yaml                ]|                                                  |   0%[numpy               ]|################                                  |  33%[pyyaml              ]|#################################                 |  66%[      COMPLETE      ]|##################################################| 100%
+Applying patch: '/tmp/tmpD8FVjMconda_skeleton_django_backstage-0.0.427.tar.gz/pypi-distutils.patch'
 Error: Could not find any versions of package setuptools_git

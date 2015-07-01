@@ -1,0 +1,21 @@
+Using url https://pypi.python.org/packages/source/e/ez_setup/ez_setup-0.9.tar.gz (6 KB) for ez_setup.
+Downloading ez_setup
+Using cached download
+Unpacking ez_setup...
+done
+working in /tmp/tmpkNpneGconda_skeleton_ez_setup-0.9.tar.gz
+Fetching package metadata: ......
+
+WARNING: conda-build appears to be out of date. You have version 1.13.0 but the
+latest version is 1.14.1. Run
+
+conda update -n root conda-build
+
+to get the latest version.
+
+Solving package specifications: .patching file core.py
+Hunk #1 succeeded at 168 with fuzz 2 (offset 2 lines).
+
+Applying patch: '/tmp/tmpkNpneGconda_skeleton_ez_setup-0.9.tar.gz/pypi-distutils.patch'
+Writing recipe for ez_setup
+Done

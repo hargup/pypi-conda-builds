@@ -2,6 +2,14 @@ Removing old build directory
 Removing old work directory
 BUILD START: cssutils-1.0-py_0
 Fetching package metadata: ......
+
+WARNING: conda-build appears to be out of date. You have version 1.13.0 but the
+latest version is 1.14.1. Run
+
+conda update -n root conda-build
+
+to get the latest version.
+
 Solving package specifications: .+ /home/ubuntu/miniconda/envs/_build/bin/python setup.py install
 running install
 running bdist_egg
@@ -350,15 +358,15 @@ Finished processing dependencies for cssutils==1.0
 
 The following NEW packages will be INSTALLED:
 
-    openssl:    1.0.1k-1    
-    pip:        7.0.3-py27_0
-    python:     2.7.10-0    
-    readline:   6.2-2       
-    setuptools: 17.0-py27_0 
-    sqlite:     3.8.4.1-1   
-    system:     5.8-2       
-    tk:         8.5.18-0    
-    zlib:       1.2.8-0     
+    openssl:    1.0.1k-1     
+    pip:        7.0.3-py27_0 
+    python:     2.7.10-0     
+    readline:   6.2-2        
+    setuptools: 18.0.1-py27_0
+    sqlite:     3.8.4.1-1    
+    system:     5.8-2        
+    tk:         8.5.18-0     
+    zlib:       1.2.8-0      
 
 Linking packages ...
 [                    ]|                                                  |   0%[openssl             ]|                                                  |   0%[readline            ]|#####                                             |  11%[sqlite              ]|###########                                       |  22%[system              ]|################                                  |  33%[tk                  ]|######################                            |  44%[zlib                ]|###########################                       |  55%[python              ]|#################################                 |  66%[setuptools          ]|######################################            |  77%[pip                 ]|############################################      |  88%[      COMPLETE      ]|##################################################| 100%
@@ -375,30 +383,12 @@ Fixing permissions
 BUILD END: cssutils-1.0-py_0
 TEST START: cssutils-1.0-py_0
 Fetching package metadata: ......
-Solving package specifications: ./home/ubuntu/miniconda/pkgs/cssutils-1.0-py_0/bin/.cssutils-pre-link.sh: line 2: /home/ubuntu/miniconda/envs/_test/bin/python: No such file or directory
 
-The following packages will be downloaded:
+WARNING: conda-build appears to be out of date. You have version 1.13.0 but the
+latest version is 1.14.1. Run
 
-    package                    |            build
-    ---------------------------|-----------------
-    cssutils-1.0               |             py_0         262 KB
+conda update -n root conda-build
 
-The following NEW packages will be INSTALLED:
+to get the latest version.
 
-    cssutils:   1.0-py_0    
-    openssl:    1.0.1k-1    
-    pip:        7.0.3-py27_0
-    python:     2.7.10-0    
-    readline:   6.2-2       
-    setuptools: 17.0-py27_0 
-    sqlite:     3.8.4.1-1   
-    system:     5.8-2       
-    tk:         8.5.18-0    
-    zlib:       1.2.8-0     
-
-Fetching packages ...
-cssutils-1.0-p   0% |                              | ETA:  --:--:--   0.00  B/scssutils-1.0-p   6% |#                              | ETA:  0:00:00  47.20 MB/scssutils-1.0-p  12% |###                            | ETA:  0:00:00  58.41 MB/scssutils-1.0-p  18% |#####                          | ETA:  0:00:00  65.45 MB/scssutils-1.0-p  24% |#######                        | ETA:  0:00:00  69.71 MB/scssutils-1.0-p  30% |#########                      | ETA:  0:00:00  72.55 MB/scssutils-1.0-p  36% |###########                    | ETA:  0:00:00  74.87 MB/scssutils-1.0-p  42% |#############                  | ETA:  0:00:00  76.56 MB/scssutils-1.0-p  48% |###############                | ETA:  0:00:00  77.97 MB/scssutils-1.0-p  55% |#################              | ETA:  0:00:00  79.06 MB/scssutils-1.0-p  61% |##################             | ETA:  0:00:00  80.11 MB/scssutils-1.0-p  67% |####################           | ETA:  0:00:00  80.86 MB/scssutils-1.0-p  73% |######################         | ETA:  0:00:00  81.48 MB/scssutils-1.0-p  79% |########################       | ETA:  0:00:00  82.14 MB/scssutils-1.0-p  85% |##########################     | ETA:  0:00:00  82.69 MB/scssutils-1.0-p  91% |############################   | ETA:  0:00:00  83.20 MB/scssutils-1.0-p  97% |############################## | ETA:  0:00:00  83.01 MB/scssutils-1.0-p 100% |###############################| ETA:  0:00:00  80.97 MB/scssutils-1.0-p 100% |###############################| Time: 0:00:00  75.69 MB/s
-Extracting packages ...
-[      COMPLETE      ]|                                                  |   0%[cssutils            ]|                                                  |   0%[cssutils            ]|                                                  |   0%[      COMPLETE      ]|##################################################| 100%
-Linking packages ...
-[      COMPLETE      ]|                                                  |   0%[openssl             ]|                                                  |   0%[openssl             ]|                                                  |   0%[readline            ]|#####                                             |  10%[sqlite              ]|##########                                        |  20%[system              ]|###############                                   |  30%[tk                  ]|####################                              |  40%[zlib                ]|#########################                         |  50%[cssutils            ]|##############################                    |  60%Error: pre-link failed: cssutils-1.0-py_0
+Error: No packages found in current linux-64 channels matching: c

@@ -39,16 +39,32 @@ Warning, the following versions were found for Twisted
 Using 15.2.1
 Use --version to specify a different version.
 Using url https://pypi.python.org/packages/source/T/Twisted/Twisted-15.2.1.tar.bz2 (4.4 MB) for Twisted.
-Downloading Twisted (use --no-download to skip this step)
+Downloading Twisted
 Using cached download
 Unpacking Twisted...
 done
-working in /tmp/tmpUTtgqrconda_skeleton_Twisted-15.2.1.tar.bz2
+working in /tmp/tmpgOjhnsconda_skeleton_Twisted-15.2.1.tar.bz2
 Fetching package metadata: ......
+
+WARNING: conda-build appears to be out of date. You have version 1.13.0 but the
+latest version is 1.14.1. Run
+
+conda update -n root conda-build
+
+to get the latest version.
+
 Solving package specifications: .patching file core.py
 Hunk #1 succeeded at 168 with fuzz 2 (offset 2 lines).
 
-Applying patch: '/tmp/tmpUTtgqrconda_skeleton_Twisted-15.2.1.tar.bz2/pypi-distutils.patch'
+WARNING: conda-build appears to be out of date. You have version 1.13.0 but the
+latest version is 1.14.1. Run
+
+conda update -n root conda-build
+
+to get the latest version.
+
+
+Applying patch: '/tmp/tmpgOjhnsconda_skeleton_Twisted-15.2.1.tar.bz2/pypi-distutils.patch'
 soappy not found, trying SOAPpy
 Warning, the following versions were found for SOAPpy
 0.12.22
@@ -63,31 +79,23 @@ Warning, the following versions were found for SOAPpy
 Using 0.12.22
 Use --version to specify a different version.
 Using url https://pypi.python.org/packages/source/S/SOAPpy/SOAPpy-0.12.22.zip (169 KB) for SOAPpy.
-Downloading SOAPpy (use --no-download to skip this step)
+Downloading SOAPpy
 Using cached download
 Unpacking SOAPpy...
 done
-working in /tmp/tmp38zSSvconda_skeleton_SOAPpy-0.12.22.zip
+working in /tmp/tmp6MpOECconda_skeleton_SOAPpy-0.12.22.zip
 Solving package specifications: .patching file core.py
 Hunk #1 succeeded at 168 with fuzz 2 (offset 2 lines).
 
-Applying patch: '/tmp/tmp38zSSvconda_skeleton_SOAPpy-0.12.22.zip/pypi-distutils.patch'
-Warning, the following versions were found for defusedxml
-0.4.1
-0.4
-0.3
-Using 0.4.1
-Use --version to specify a different version.
-Using url https://pypi.python.org/packages/source/d/defusedxml/defusedxml-0.4.1.tar.gz (48 KB) for defusedxml.
-Downloading defusedxml (use --no-download to skip this step)
-Using cached download
-Unpacking defusedxml...
-done
-working in /tmp/tmpJCQ2P6conda_skeleton_defusedxml-0.4.1.tar.gz
-Solving package specifications: .patching file core.py
-Hunk #1 succeeded at 168 with fuzz 2 (offset 2 lines).
+WARNING: conda-build appears to be out of date. You have version 1.13.0 but the
+latest version is 1.14.1. Run
 
-Applying patch: '/tmp/tmpJCQ2P6conda_skeleton_defusedxml-0.4.1.tar.gz/pypi-distutils.patch'
+conda update -n root conda-build
+
+to get the latest version.
+
+
+Applying patch: '/tmp/tmp6MpOECconda_skeleton_SOAPpy-0.12.22.zip/pypi-distutils.patch'
 Warning, the following versions were found for wstools
 0.4.3
 0.4.2
@@ -99,15 +107,23 @@ Warning, the following versions were found for wstools
 Using 0.4.3
 Use --version to specify a different version.
 Using url https://pypi.python.org/packages/source/w/wstools/wstools-0.4.3.tar.gz (145 KB) for wstools.
-Downloading wstools (use --no-download to skip this step)
+Downloading wstools
 Using cached download
 Unpacking wstools...
 done
-working in /tmp/tmpIrxHSIconda_skeleton_wstools-0.4.3.tar.gz
+working in /tmp/tmpx_EUsBconda_skeleton_wstools-0.4.3.tar.gz
 Solving package specifications: .patching file core.py
 Hunk #1 succeeded at 168 with fuzz 2 (offset 2 lines).
 
-Applying patch: '/tmp/tmpIrxHSIconda_skeleton_wstools-0.4.3.tar.gz/pypi-distutils.patch'
+WARNING: conda-build appears to be out of date. You have version 1.13.0 but the
+latest version is 1.14.1. Run
+
+conda update -n root conda-build
+
+to get the latest version.
+
+
+Applying patch: '/tmp/tmpx_EUsBconda_skeleton_wstools-0.4.3.tar.gz/pypi-distutils.patch'
 soappy not found, trying SOAPpy
 Warning, the following versions were found for SOAPpy
 0.12.22
@@ -122,15 +138,23 @@ Warning, the following versions were found for SOAPpy
 Using 0.12.22
 Use --version to specify a different version.
 Using url https://pypi.python.org/packages/source/S/SOAPpy/SOAPpy-0.12.22.zip (169 KB) for SOAPpy.
-Downloading SOAPpy (use --no-download to skip this step)
+Downloading SOAPpy
 Using cached download
 Unpacking SOAPpy...
 done
-working in /tmp/tmpUZiFKPconda_skeleton_SOAPpy-0.12.22.zip
+working in /tmp/tmpUBya7Xconda_skeleton_SOAPpy-0.12.22.zip
 Solving package specifications: .patching file core.py
 Hunk #1 succeeded at 168 with fuzz 2 (offset 2 lines).
 
-Applying patch: '/tmp/tmpUZiFKPconda_skeleton_SOAPpy-0.12.22.zip/pypi-distutils.patch'
+WARNING: conda-build appears to be out of date. You have version 1.13.0 but the
+latest version is 1.14.1. Run
+
+conda update -n root conda-build
+
+to get the latest version.
+
+
+Applying patch: '/tmp/tmpUBya7Xconda_skeleton_SOAPpy-0.12.22.zip/pypi-distutils.patch'
 Warning, the following versions were found for gmpy
 1.17
 1.16
@@ -141,21 +165,62 @@ Warning, the following versions were found for gmpy
 Using 1.17
 Use --version to specify a different version.
 Using url https://pypi.python.org/packages/source/g/gmpy/gmpy-1.17.zip (144 KB) for gmpy.
-Downloading gmpy (use --no-download to skip this step)
+Downloading gmpy
 Using cached download
 Unpacking gmpy...
 done
-working in /tmp/tmp_NrkSgconda_skeleton_gmpy-1.17.zip
+working in /tmp/tmpsSmQp9conda_skeleton_gmpy-1.17.zip
 Solving package specifications: .patching file core.py
 Hunk #1 succeeded at 168 with fuzz 2 (offset 2 lines).
 
-Applying patch: '/tmp/tmp_NrkSgconda_skeleton_gmpy-1.17.zip/pypi-distutils.patch'
+WARNING: conda-build appears to be out of date. You have version 1.13.0 but the
+latest version is 1.14.1. Run
+
+conda update -n root conda-build
+
+to get the latest version.
+
+
+Applying patch: '/tmp/tmpsSmQp9conda_skeleton_gmpy-1.17.zip/pypi-distutils.patch'
+Warning, the following versions were found for idna
+2.0
+1.1
+1.0
+0.9
+0.8
+0.7
+0.6
+0.5
+0.4
+0.3
+0.2
+0.1
+Using 2.0
+Use --version to specify a different version.
+Using url https://pypi.python.org/packages/source/i/idna/idna-2.0.tar.gz (132 KB) for idna.
+Downloading idna
+Using cached download
+Unpacking idna...
+done
+working in /tmp/tmpBDKipKconda_skeleton_idna-2.0.tar.gz
+Solving package specifications: .patching file core.py
+Hunk #1 succeeded at 168 with fuzz 2 (offset 2 lines).
+
+WARNING: conda-build appears to be out of date. You have version 1.13.0 but the
+latest version is 1.14.1. Run
+
+conda update -n root conda-build
+
+to get the latest version.
+
+
+Applying patch: '/tmp/tmpBDKipKconda_skeleton_idna-2.0.tar.gz/pypi-distutils.patch'
 Using url https://pypi.python.org/packages/source/p/pypiwin32/pypiwin32-219.zip (4.6 MB) for pypiwin32.
-Downloading pypiwin32 (use --no-download to skip this step)
+Downloading pypiwin32
 Using cached download
 Unpacking pypiwin32...
 done
-working in /tmp/tmpvufeMDconda_skeleton_pypiwin32-219.zip
+working in /tmp/tmpkyBh2gconda_skeleton_pypiwin32-219.zip
 Solving package specifications: .patching file core.py
 Hunk #1 succeeded at 168 with fuzz 2 (offset 2 lines).
 Traceback (most recent call last):
@@ -163,6 +228,6 @@ Traceback (most recent call last):
     import _winreg
 ImportError: No module named _winreg
 
-Applying patch: '/tmp/tmpvufeMDconda_skeleton_pypiwin32-219.zip/pypi-distutils.patch'
-$PYTHONPATH = /tmp/tmpvufeMDconda_skeleton_pypiwin32-219.zip/pypiwin32-219
+Applying patch: '/tmp/tmpkyBh2gconda_skeleton_pypiwin32-219.zip/pypi-distutils.patch'
+$PYTHONPATH = /tmp/tmpkyBh2gconda_skeleton_pypiwin32-219.zip/pypiwin32-219
 Error: command failed: /home/ubuntu/miniconda/envs/_build/bin/python setup.py install

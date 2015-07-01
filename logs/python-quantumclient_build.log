@@ -1,0 +1,161 @@
+Removing old build directory
+Removing old work directory
+BUILD START: python-quantumclient-2.2.4.3-py_0
+Fetching package metadata: ......
+
+WARNING: conda-build appears to be out of date. You have version 1.13.0 but the
+latest version is 1.14.1. Run
+
+conda update -n root conda-build
+
+to get the latest version.
+
+Solving package specifications: .+ /home/ubuntu/miniconda/envs/_build/bin/python setup.py install
+
+Installed /home/ubuntu/miniconda/conda-bld/work/python-quantumclient-2.2.4.3/.eggs/pbr-0.11.0-py2.7.egg
+running install
+Collecting pbr<1.0,>=0.5.21
+  Downloading http://localhost/packages/py2.py3/p/pbr/pbr-0.11.0-py2.py3-none-any.whl (78kB)
+Collecting python-neutronclient<3,>=2.3.0
+  Downloading http://localhost/packages/py2.py3/p/python-neutronclient/python_neutronclient-2.5.0-py2.py3-none-any.whl (214kB)
+Requirement already satisfied (use --upgrade to upgrade): pip in /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages (from pbr<1.0,>=0.5.21)
+Collecting oslo.serialization>=1.4.0 (from python-neutronclient<3,>=2.3.0)
+  Downloading http://localhost/packages/py2.py3/o/oslo.serialization/oslo.serialization-1.5.0-py2.py3-none-any.whl
+Collecting cliff>=1.10.0 (from python-neutronclient<3,>=2.3.0)
+  Downloading http://localhost/packages/py2/c/cliff/cliff-1.12.0-py2-none-any.whl
+Collecting six>=1.9.0 (from python-neutronclient<3,>=2.3.0)
+  Downloading http://localhost/packages/3.3/s/six/six-1.9.0-py2.py3-none-any.whl
+Collecting argparse (from python-neutronclient<3,>=2.3.0)
+  Downloading http://localhost/packages/2.7/a/argparse/argparse-1.3.0-py2.py3-none-any.whl
+Collecting Babel>=1.3 (from python-neutronclient<3,>=2.3.0)
+  Downloading http://localhost/packages/source/B/Babel/Babel-1.3.tar.gz (3.4MB)
+Collecting netaddr>=0.7.12 (from python-neutronclient<3,>=2.3.0)
+  Downloading http://localhost/packages/any/n/netaddr/netaddr-0.7.14-py2.py3-none-any.whl (1.5MB)
+Collecting requests!=2.4.0,>=2.2.0 (from python-neutronclient<3,>=2.3.0)
+  Downloading http://localhost/packages/2.7/r/requests/requests-2.7.0-py2.py3-none-any.whl (470kB)
+Collecting iso8601>=0.1.9 (from python-neutronclient<3,>=2.3.0)
+  Downloading http://localhost/packages/source/i/iso8601/iso8601-0.1.10.tar.gz
+Collecting python-keystoneclient>=1.1.0 (from python-neutronclient<3,>=2.3.0)
+  Downloading http://localhost/packages/py2.py3/p/python-keystoneclient/python_keystoneclient-1.4.0-py2.py3-none-any.whl (410kB)
+Collecting oslo.i18n>=1.5.0 (from python-neutronclient<3,>=2.3.0)
+  Downloading http://localhost/packages/py2.py3/o/oslo.i18n/oslo.i18n-1.6.0-py2.py3-none-any.whl
+Collecting oslo.utils>=1.4.0 (from python-neutronclient<3,>=2.3.0)
+  Downloading http://localhost/packages/py2.py3/o/oslo.utils/oslo.utils-1.5.0-py2.py3-none-any.whl (56kB)
+Collecting simplejson>=2.2.0 (from python-neutronclient<3,>=2.3.0)
+  Downloading http://localhost/packages/source/s/simplejson/simplejson-3.6.5.tar.gz (73kB)
+Collecting msgpack-python>=0.4.0 (from oslo.serialization>=1.4.0->python-neutronclient<3,>=2.3.0)
+  Downloading http://localhost/packages/source/m/msgpack-python/msgpack-python-0.4.6.tar.gz (116kB)
+Collecting pytz>=2013.6 (from oslo.serialization>=1.4.0->python-neutronclient<3,>=2.3.0)
+  Downloading http://localhost/packages/py2.py3/p/pytz/pytz-2015.4-py2.py3-none-any.whl (475kB)
+Collecting cmd2>=0.6.7 (from cliff>=1.10.0->python-neutronclient<3,>=2.3.0)
+  Downloading http://localhost/packages/source/c/cmd2/cmd2-0.6.8.tar.gz
+Collecting stevedore>=1.3.0 (from cliff>=1.10.0->python-neutronclient<3,>=2.3.0)
+  Downloading http://localhost/packages/py2.py3/s/stevedore/stevedore-1.4.0-py2.py3-none-any.whl
+Collecting pyparsing>=2.0.1 (from cliff>=1.10.0->python-neutronclient<3,>=2.3.0)
+  Downloading http://localhost/packages/2.6/p/pyparsing/pyparsing-2.0.3-py2.py3-none-any.whl
+Collecting PrettyTable<0.8,>=0.7 (from cliff>=1.10.0->python-neutronclient<3,>=2.3.0)
+  Downloading http://localhost/packages/source/P/PrettyTable/prettytable-0.7.2.tar.bz2
+Collecting oslo.config>=1.9.3 (from python-keystoneclient>=1.1.0->python-neutronclient<3,>=2.3.0)
+  Downloading http://localhost/packages/py2.py3/o/oslo.config/oslo.config-1.11.0-py2.py3-none-any.whl (67kB)
+Collecting netifaces>=0.10.4 (from oslo.utils>=1.4.0->python-neutronclient<3,>=2.3.0)
+  Downloading http://localhost/packages/source/n/netifaces/netifaces-0.10.4.tar.gz
+Installing collected packages: pbr, msgpack-python, iso8601, six, pytz, Babel, oslo.i18n, netifaces, netaddr, oslo.utils, oslo.serialization, pyparsing, cmd2, argparse, stevedore, PrettyTable, cliff, requests, oslo.config, python-keystoneclient, simplejson, python-neutronclient
+  Running setup.py install for msgpack-python
+  Running setup.py install for iso8601
+  Running setup.py install for Babel
+  Running setup.py install for netifaces
+  Running setup.py install for cmd2
+  Running setup.py install for PrettyTable
+  Running setup.py install for simplejson
+Successfully installed Babel-1.3 PrettyTable-0.7.2 argparse-1.3.0 cliff-1.12.0 cmd2-0.6.8 iso8601-0.1.10 msgpack-python-0.4.6 netaddr-0.7.14 netifaces-0.10.4 oslo.config-1.11.0 oslo.i18n-1.6.0 oslo.serialization-1.5.0 oslo.utils-1.5.0 pbr-0.11.0 pyparsing-2.0.3 python-keystoneclient-1.4.0 python-neutronclient-2.5.0 pytz-2015.4 requests-2.7.0 simplejson-3.6.5 six-1.9.0 stevedore-1.4.0
+running build
+running build_py
+creating build
+creating build/lib
+creating build/lib/quantumclient
+creating build/lib/quantumclient/quantum
+copying quantumclient/quantum/__init__.py -> build/lib/quantumclient/quantum
+creating build/lib/quantumclient/common
+copying quantumclient/common/utils.py -> build/lib/quantumclient/common
+copying quantumclient/common/__init__.py -> build/lib/quantumclient/common
+copying quantumclient/common/exceptions.py -> build/lib/quantumclient/common
+creating build/lib/quantumclient/quantum/v2_0
+copying quantumclient/quantum/v2_0/port.py -> build/lib/quantumclient/quantum/v2_0
+copying quantumclient/quantum/v2_0/__init__.py -> build/lib/quantumclient/quantum/v2_0
+creating build/lib/quantumclient/v2_0
+copying quantumclient/v2_0/client.py -> build/lib/quantumclient/v2_0
+copying quantumclient/v2_0/__init__.py -> build/lib/quantumclient/v2_0
+copying quantumclient/shell.py -> build/lib/quantumclient
+copying quantumclient/version.py -> build/lib/quantumclient
+copying quantumclient/client.py -> build/lib/quantumclient
+copying quantumclient/__init__.py -> build/lib/quantumclient
+running egg_info
+writing requirements to python_quantumclient.egg-info/requires.txt
+writing python_quantumclient.egg-info/PKG-INFO
+writing top-level names to python_quantumclient.egg-info/top_level.txt
+writing dependency_links to python_quantumclient.egg-info/dependency_links.txt
+writing entry points to python_quantumclient.egg-info/entry_points.txt
+[pbr] Reusing existing SOURCES.txt
+running install_lib
+creating /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/quantumclient
+creating /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/quantumclient/common
+copying build/lib/quantumclient/common/utils.py -> /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/quantumclient/common
+copying build/lib/quantumclient/common/__init__.py -> /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/quantumclient/common
+copying build/lib/quantumclient/common/exceptions.py -> /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/quantumclient/common
+creating /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/quantumclient/quantum
+creating /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/quantumclient/quantum/v2_0
+copying build/lib/quantumclient/quantum/v2_0/port.py -> /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/quantumclient/quantum/v2_0
+copying build/lib/quantumclient/quantum/v2_0/__init__.py -> /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/quantumclient/quantum/v2_0
+copying build/lib/quantumclient/quantum/__init__.py -> /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/quantumclient/quantum
+copying build/lib/quantumclient/shell.py -> /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/quantumclient
+copying build/lib/quantumclient/version.py -> /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/quantumclient
+copying build/lib/quantumclient/client.py -> /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/quantumclient
+creating /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/quantumclient/v2_0
+copying build/lib/quantumclient/v2_0/client.py -> /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/quantumclient/v2_0
+copying build/lib/quantumclient/v2_0/__init__.py -> /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/quantumclient/v2_0
+copying build/lib/quantumclient/__init__.py -> /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/quantumclient
+byte-compiling /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/quantumclient/common/utils.py to utils.pyc
+byte-compiling /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/quantumclient/common/__init__.py to __init__.pyc
+byte-compiling /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/quantumclient/common/exceptions.py to exceptions.pyc
+byte-compiling /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/quantumclient/quantum/v2_0/port.py to port.pyc
+byte-compiling /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/quantumclient/quantum/v2_0/__init__.py to __init__.pyc
+byte-compiling /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/quantumclient/quantum/__init__.py to __init__.pyc
+byte-compiling /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/quantumclient/shell.py to shell.pyc
+byte-compiling /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/quantumclient/version.py to version.pyc
+byte-compiling /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/quantumclient/client.py to client.pyc
+byte-compiling /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/quantumclient/v2_0/client.py to client.pyc
+byte-compiling /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/quantumclient/v2_0/__init__.py to __init__.pyc
+byte-compiling /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/quantumclient/__init__.py to __init__.pyc
+running install_egg_info
+Copying python_quantumclient.egg-info to /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/python_quantumclient-2.2.4.3-py2.7.egg-info
+running install_scripts
+Installing quantum script to /home/ubuntu/miniconda/envs/_build/bin
+
+The following NEW packages will be INSTALLED:
+
+    openssl:    1.0.1k-1     
+    pip:        7.0.3-py27_0 
+    python:     2.7.10-0     
+    readline:   6.2-2        
+    setuptools: 18.0.1-py27_0
+    sqlite:     3.8.4.1-1    
+    system:     5.8-2        
+    tk:         8.5.18-0     
+    zlib:       1.2.8-0      
+
+Linking packages ...
+[                    ]|                                                  |   0%[openssl             ]|                                                  |   0%[readline            ]|#####                                             |  11%[sqlite              ]|###########                                       |  22%[system              ]|################                                  |  33%[tk                  ]|######################                            |  44%[zlib                ]|###########################                       |  55%[python              ]|#################################                 |  66%[setuptools          ]|######################################            |  77%[pip                 ]|############################################      |  88%[      COMPLETE      ]|##################################################| 100%
+Removing old work directory
+Source cache directory is: /home/ubuntu/miniconda/conda-bld/src_cache
+Found source in cache: python-quantumclient-2.2.4.3.tar.gz
+Extracting download
+Package: python-quantumclient-2.2.4.3-py_0
+source tree in: /home/ubuntu/miniconda/conda-bld/work/python-quantumclient-2.2.4.3
+number of files: 2831
+Fixing permissions
+updating shebang: bin/netaddr
+patchelf: file: /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/netifaces.so
+    setting rpath to: $ORIGIN/../..
+patchelf: file: /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/simplejson/_speedups.so
+    setting rpath to: $ORIGIN/../../..
+[noarch_python] Error: Shared object file found: lib/python2.7/site-packages/netifaces.so

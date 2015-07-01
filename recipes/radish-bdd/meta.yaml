@@ -1,0 +1,66 @@
+package:
+  name: radish-bdd
+  version: "0.01.32"
+
+source:
+  fn: radish-bdd-0.01.32.tar.gz
+  url: https://pypi.python.org/packages/source/r/radish-bdd/radish-bdd-0.01.32.tar.gz
+  md5: 72c1dbb14b14638628882400e1fcc147
+#  patches:
+   # List any patch files here
+   # - fix.patch
+
+build:
+  noarch_python: True
+  # preserve_egg_dir: True
+  entry_points:
+    # Put any entry points (scripts to be generated automatically) here. The
+    # syntax is module:function.  For example
+    #
+    # - radish-bdd = radish-bdd:main
+    #
+    # Would create an entry point called radish-bdd that calls radish-bdd.main()
+
+    - radish = radish.main:main
+
+  # If this is a new build for the same version, increment the build
+  # number. If you do not include this key, it defaults to 0.
+  # number: 1
+
+requirements:
+  build:
+    - python
+    - setuptools
+    - docopt ==0.6.1
+
+  run:
+    - python
+    - docopt ==0.6.1
+
+test:
+  # Python imports
+  imports:
+    - radish
+    - radish.singleton
+
+  commands:
+    # You can put test commands to be run here.  Use this to test that the
+    # entry points work.
+
+    - radish --help
+
+  # You can also put a file called run_test.py in the recipe that will be run
+  # at test time.
+
+  # requires:
+    # Put any additional test requirements here.  For example
+    # - nose
+
+about:
+  home: http://github.com/timofurrer/radish
+  license: GNU General Public License v3 (GPLv3)
+  summary: 'Behaviour-Driven-Development tool for python'
+
+# See
+# http://docs.continuum.io/conda/build.html for
+# more information about meta.yaml

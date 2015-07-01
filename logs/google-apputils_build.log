@@ -2,7 +2,19 @@ Removing old build directory
 Removing old work directory
 BUILD START: google-apputils-0.4.2-py_0
 Fetching package metadata: ......
-Solving package specifications: .+ /home/ubuntu/miniconda/envs/_build/bin/python setup.py install
+
+WARNING: conda-build appears to be out of date. You have version 1.13.0 but the
+latest version is 1.14.1. Run
+
+conda update -n root conda-build
+
+to get the latest version.
+
+Solving package specifications: .................
+Warning: 2 possible package resolutions (only showing differing packages):
+	[u'python-gflags-2.0-py_0.tar.bz2'],
+	[u'python-gflags-2.0-py27_0.tar.bz2'],
++ /home/ubuntu/miniconda/envs/_build/bin/python setup.py install
 running install
 running bdist_egg
 running egg_info
@@ -120,7 +132,7 @@ The following packages will be downloaded:
 
     package                    |            build
     ---------------------------|-----------------
-    python-gflags-2.0          |           py27_0          74 KB
+    python-gflags-2.0          |             py_0          76 KB
 
 The following NEW packages will be INSTALLED:
 
@@ -128,10 +140,10 @@ The following NEW packages will be INSTALLED:
     pip:             7.0.3-py27_0 
     python:          2.7.10-0     
     python-dateutil: 2.4.2-py27_0 
-    python-gflags:   2.0-py27_0   
+    python-gflags:   2.0-py_0     
     pytz:            2015.4-py27_0
     readline:        6.2-2        
-    setuptools:      17.0-py27_0  
+    setuptools:      18.0.1-py27_0
     six:             1.9.0-py27_0 
     sqlite:          3.8.4.1-1    
     system:          5.8-2        
@@ -139,7 +151,7 @@ The following NEW packages will be INSTALLED:
     zlib:            1.2.8-0      
 
 Fetching packages ...
-python-gflags-   0% |                              | ETA:  --:--:--   0.00  B/spython-gflags-  21% |######                         | ETA:  0:00:00  34.57 MB/spython-gflags-  43% |#############                  | ETA:  0:00:00  47.36 MB/spython-gflags-  64% |####################           | ETA:  0:00:00  55.60 MB/spython-gflags-  86% |##########################     | ETA:  0:00:00  61.19 MB/spython-gflags- 100% |###############################| ETA:  0:00:00  61.25 MB/spython-gflags- 100% |###############################| Time: 0:00:00  52.46 MB/s
+python-gflags-   0% |                              | ETA:  --:--:--   0.00  B/spython-gflags-  21% |######                         | ETA:  0:00:00  35.01 MB/spython-gflags-  42% |#############                  | ETA:  0:00:00  47.97 MB/spython-gflags-  63% |###################            | ETA:  0:00:00  55.34 MB/spython-gflags-  84% |##########################     | ETA:  0:00:00  60.79 MB/spython-gflags- 100% |###############################| ETA:  0:00:00  62.07 MB/spython-gflags- 100% |###############################| Time: 0:00:00  52.22 MB/s
 Extracting packages ...
 [                    ]|                                                  |   0%[python-gflags       ]|                                                  |   0%[      COMPLETE      ]|##################################################| 100%
 Linking packages ...
@@ -156,20 +168,35 @@ Fixing permissions
 BUILD END: google-apputils-0.4.2-py_0
 TEST START: google-apputils-0.4.2-py_0
 Fetching package metadata: ......
-Solving package specifications: .===== testing package: google-apputils-0.4.2-py_0 =====
-import: u'google'
-import: u'google.apputils'
-===== google-apputils-0.4.2-py_0 OK =====
+
+WARNING: conda-build appears to be out of date. You have version 1.13.0 but the
+latest version is 1.14.1. Run
+
+conda update -n root conda-build
+
+to get the latest version.
+
+Solving package specifications: .................
+Warning: 4 possible package resolutions (only showing differing packages):
+	[u'mox-0.5.3-py_0.tar.bz2', u'python-gflags-2.0-py27_0.tar.bz2'],
+	[u'mox-0.5.3-py_0.tar.bz2', u'python-gflags-2.0-py_0.tar.bz2'],
+	[u'mox-0.5.3-py27_0.tar.bz2', u'python-gflags-2.0-py_0.tar.bz2'],
+	[u'mox-0.5.3-py27_0.tar.bz2', u'python-gflags-2.0-py27_0.tar.bz2'],
+/home/ubuntu/miniconda/pkgs/mox-0.5.3-py_0/bin/.mox-pre-link.sh: line 2: /home/ubuntu/miniconda/envs/_test/bin/python: No such file or directory
 
 The following packages will be downloaded:
 
     package                    |            build
     ---------------------------|-----------------
+    mox-0.5.3                  |             py_0          16 KB
     google-apputils-0.4.2      |             py_0          43 KB
+    ------------------------------------------------------------
+                                           Total:          59 KB
 
 The following NEW packages will be INSTALLED:
 
     google-apputils: 0.4.2-py_0   
+    mox:             0.5.3-py_0   
     openssl:         1.0.1k-1     
     pip:             7.0.3-py27_0 
     python:          2.7.10-0     
@@ -177,7 +204,7 @@ The following NEW packages will be INSTALLED:
     python-gflags:   2.0-py27_0   
     pytz:            2015.4-py27_0
     readline:        6.2-2        
-    setuptools:      17.0-py27_0  
+    setuptools:      18.0.1-py27_0
     six:             1.9.0-py27_0 
     sqlite:          3.8.4.1-1    
     system:          5.8-2        
@@ -185,16 +212,9 @@ The following NEW packages will be INSTALLED:
     zlib:            1.2.8-0      
 
 Fetching packages ...
-google-apputil   0% |                              | ETA:  --:--:--   0.00  B/sgoogle-apputil  37% |###########                    | Time: 0:00:00  60.23 MB/sgoogle-apputil  75% |#######################        | Time: 0:00:00  67.84 MB/sgoogle-apputil 100% |###############################| Time: 0:00:00  65.89 MB/sgoogle-apputil 100% |###############################| Time: 0:00:00  54.68 MB/sgoogle-apputil 100% |###############################| Time: 0:00:00  43.65 MB/s
+mox-0.5.3-py_0   0% |                              | ETA:  --:--:--   0.00  B/smox-0.5.3-py_0 100% |###############################| Time: 0:00:00  58.75 MB/smox-0.5.3-py_0 100% |###############################| Time: 0:00:00  38.07 MB/smox-0.5.3-py_0 100% |###############################| Time: 0:00:00  26.63 MB/s
+google-apputil   0% |                              | ETA:  --:--:--   0.00  B/sgoogle-apputil  37% |###########                    | Time: 0:00:00  72.49 MB/sgoogle-apputil  74% |#######################        | Time: 0:00:00  76.40 MB/sgoogle-apputil 100% |###############################| Time: 0:00:00  69.51 MB/sgoogle-apputil 100% |###############################| Time: 0:00:00  56.81 MB/sgoogle-apputil 100% |###############################| Time: 0:00:00  46.30 MB/s
 Extracting packages ...
-[      COMPLETE      ]|                                                  |   0%[google-apputils     ]|                                                  |   0%[google-apputils     ]|                                                  |   0%[      COMPLETE      ]|##################################################| 100%
+[      COMPLETE      ]|                                                  |   0%[mox                 ]|                                                  |   0%[mox                 ]|                                                  |   0%[google-apputils     ]|#########################                         |  50%[      COMPLETE      ]|##################################################| 100%
 Linking packages ...
-[      COMPLETE      ]|                                                  |   0%[openssl             ]|                                                  |   0%[openssl             ]|                                                  |   0%[readline            ]|###                                               |   7%[sqlite              ]|#######                                           |  14%[system              ]|##########                                        |  21%[tk                  ]|##############                                    |  28%[zlib                ]|#################                                 |  35%[python              ]|#####################                             |  42%[python-gflags       ]|#########################                         |  50%[pytz                ]|############################                      |  57%[setuptools          ]|################################                  |  64%[six                 ]|###################################               |  71%[pip                 ]|#######################################           |  78%[python-dateutil     ]|##########################################        |  85%[google-apputils     ]|##############################################    |  92%[      COMPLETE      ]|##################################################| 100%
-TEST END: google-apputils-0.4.2-py_0
-# If you want to upload this package to binstar.org later, type:
-#
-# $ binstar upload /home/ubuntu/miniconda/conda-bld/noarch/google-apputils-0.4.2-py_0.tar.bz2
-#
-# To have conda build upload to binstar automatically, use
-# $ conda config --set binstar_upload yes
-
+[      COMPLETE      ]|                                                  |   0%[openssl             ]|                                                  |   0%[openssl             ]|                                                  |   0%[readline            ]|###                                               |   6%[sqlite              ]|######                                            |  13%[system              ]|##########                                        |  20%[tk                  ]|#############                                     |  26%[zlib                ]|################                                  |  33%[mox                 ]|####################                              |  40%Error: pre-link failed: mox-0.5.3-py_0

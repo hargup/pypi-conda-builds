@@ -9,19 +9,29 @@ Warning, the following versions were found for mozhttpd
 Using 0.7
 Use --version to specify a different version.
 Using url https://pypi.python.org/packages/source/m/mozhttpd/mozhttpd-0.7.tar.gz (6 KB) for mozhttpd.
-Downloading mozhttpd (use --no-download to skip this step)
+Downloading mozhttpd
 Using cached download
 Unpacking mozhttpd...
 done
-working in /tmp/tmpjxPhR8conda_skeleton_mozhttpd-0.7.tar.gz
+working in /tmp/tmpv9ieJyconda_skeleton_mozhttpd-0.7.tar.gz
 Fetching package metadata: ......
+
+WARNING: conda-build appears to be out of date. You have version 1.13.0 but the
+latest version is 1.14.1. Run
+
+conda update -n root conda-build
+
+to get the latest version.
+
 Solving package specifications: .patching file core.py
 Hunk #1 succeeded at 168 with fuzz 2 (offset 2 lines).
-Traceback (most recent call last):
-  File "setup.py", line 5, in <module>
-    from setuptools import setup
-ImportError: No module named setuptools
 
-Applying patch: '/tmp/tmpjxPhR8conda_skeleton_mozhttpd-0.7.tar.gz/pypi-distutils.patch'
-$PYTHONPATH = /tmp/tmpjxPhR8conda_skeleton_mozhttpd-0.7.tar.gz/mozhttpd-0.7
-Error: command failed: /home/ubuntu/miniconda/envs/_build/bin/python setup.py install
+Applying patch: '/tmp/tmpv9ieJyconda_skeleton_mozhttpd-0.7.tar.gz/pypi-distutils.patch'
+WARNING: Could not add entry points. They were:
+
+      # -*- Entry points: -*-
+      [console_scripts]
+      mozhttpd = mozhttpd:main
+      
+Writing recipe for mozhttpd
+Done

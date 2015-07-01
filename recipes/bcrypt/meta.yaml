@@ -1,0 +1,68 @@
+package:
+  name: bcrypt
+  version: "2.0.0"
+
+source:
+  fn: bcrypt-2.0.0.tar.gz
+  url: https://pypi.python.org/packages/source/b/bcrypt/bcrypt-2.0.0.tar.gz
+  md5: e7fb17be46904cdb2ae6a062859ee58c
+#  patches:
+   # List any patch files here
+   # - fix.patch
+
+build:
+  noarch_python: True
+  # preserve_egg_dir: True
+  # entry_points:
+    # Put any entry points (scripts to be generated automatically) here. The
+    # syntax is module:function.  For example
+    #
+    # - bcrypt = bcrypt:main
+    #
+    # Would create an entry point called bcrypt that calls bcrypt.main()
+
+
+  # If this is a new build for the same version, increment the build
+  # number. If you do not include this key, it defaults to 0.
+  # number: 1
+
+requirements:
+  build:
+    - python
+    - setuptools
+    - cffi >=1.1
+    - six >=1.4.1
+    - pytest
+
+  run:
+    - python
+    - cffi >=1.1
+    - six >=1.4.1
+    - pytest
+
+test:
+  # Python imports
+  imports:
+    - bcrypt
+
+  # commands:
+    # You can put test commands to be run here.  Use this to test that the
+    # entry points work.
+
+
+  # You can also put a file called run_test.py in the recipe that will be run
+  # at test time.
+
+  requires:
+    - pytest
+    # Put any additional test requirements here.  For example
+    # - nose
+
+about:
+  home: https://github.com/pyca/bcrypt/
+  license: Apache License, Version 2.0
+  summary: 'Modern password hashing for your software and your servers'
+
+# See
+# http://docs.continuum.io/conda/build.html for
+# more information about meta.yaml

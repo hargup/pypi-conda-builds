@@ -1,0 +1,208 @@
+Removing old build directory
+Removing old work directory
+BUILD START: slimit-0.8.1-py_0
+Fetching package metadata: ......
+
+WARNING: conda-build appears to be out of date. You have version 1.13.0 but the
+latest version is 1.14.1. Run
+
+conda update -n root conda-build
+
+to get the latest version.
+
+Solving package specifications: .+ /home/ubuntu/miniconda/envs/_build/bin/python setup.py install
+running install
+running bdist_egg
+running egg_info
+writing requirements to src/slimit.egg-info/requires.txt
+writing src/slimit.egg-info/PKG-INFO
+writing top-level names to src/slimit.egg-info/top_level.txt
+writing dependency_links to src/slimit.egg-info/dependency_links.txt
+writing entry points to src/slimit.egg-info/entry_points.txt
+reading manifest file 'src/slimit.egg-info/SOURCES.txt'
+reading manifest template 'MANIFEST.in'
+writing manifest file 'src/slimit.egg-info/SOURCES.txt'
+installing library code to build/bdist.linux-x86_64/egg
+running install_lib
+running build_py
+creating build
+creating build/lib
+creating build/lib/slimit
+copying src/slimit/scope.py -> build/lib/slimit
+copying src/slimit/lexer.py -> build/lib/slimit
+copying src/slimit/unicode_chars.py -> build/lib/slimit
+copying src/slimit/minifier.py -> build/lib/slimit
+copying src/slimit/mangler.py -> build/lib/slimit
+copying src/slimit/parser.py -> build/lib/slimit
+copying src/slimit/ast.py -> build/lib/slimit
+copying src/slimit/__init__.py -> build/lib/slimit
+copying src/slimit/yacctab.py -> build/lib/slimit
+copying src/slimit/lextab.py -> build/lib/slimit
+creating build/lib/slimit/visitors
+copying src/slimit/visitors/nodevisitor.py -> build/lib/slimit/visitors
+copying src/slimit/visitors/scopevisitor.py -> build/lib/slimit/visitors
+copying src/slimit/visitors/ecmavisitor.py -> build/lib/slimit/visitors
+copying src/slimit/visitors/__init__.py -> build/lib/slimit/visitors
+copying src/slimit/visitors/minvisitor.py -> build/lib/slimit/visitors
+creating build/lib/slimit/tests
+copying src/slimit/tests/test_cmd.py -> build/lib/slimit/tests
+copying src/slimit/tests/test_ecmavisitor.py -> build/lib/slimit/tests
+copying src/slimit/tests/test_nodevisitor.py -> build/lib/slimit/tests
+copying src/slimit/tests/test_parser.py -> build/lib/slimit/tests
+copying src/slimit/tests/test_lexer.py -> build/lib/slimit/tests
+copying src/slimit/tests/__init__.py -> build/lib/slimit/tests
+copying src/slimit/tests/test_minifier.py -> build/lib/slimit/tests
+copying src/slimit/tests/test_mangler.py -> build/lib/slimit/tests
+creating build/bdist.linux-x86_64
+creating build/bdist.linux-x86_64/egg
+creating build/bdist.linux-x86_64/egg/slimit
+creating build/bdist.linux-x86_64/egg/slimit/visitors
+copying build/lib/slimit/visitors/nodevisitor.py -> build/bdist.linux-x86_64/egg/slimit/visitors
+copying build/lib/slimit/visitors/scopevisitor.py -> build/bdist.linux-x86_64/egg/slimit/visitors
+copying build/lib/slimit/visitors/ecmavisitor.py -> build/bdist.linux-x86_64/egg/slimit/visitors
+copying build/lib/slimit/visitors/__init__.py -> build/bdist.linux-x86_64/egg/slimit/visitors
+copying build/lib/slimit/visitors/minvisitor.py -> build/bdist.linux-x86_64/egg/slimit/visitors
+copying build/lib/slimit/scope.py -> build/bdist.linux-x86_64/egg/slimit
+copying build/lib/slimit/lexer.py -> build/bdist.linux-x86_64/egg/slimit
+copying build/lib/slimit/unicode_chars.py -> build/bdist.linux-x86_64/egg/slimit
+copying build/lib/slimit/minifier.py -> build/bdist.linux-x86_64/egg/slimit
+copying build/lib/slimit/mangler.py -> build/bdist.linux-x86_64/egg/slimit
+copying build/lib/slimit/parser.py -> build/bdist.linux-x86_64/egg/slimit
+creating build/bdist.linux-x86_64/egg/slimit/tests
+copying build/lib/slimit/tests/test_cmd.py -> build/bdist.linux-x86_64/egg/slimit/tests
+copying build/lib/slimit/tests/test_ecmavisitor.py -> build/bdist.linux-x86_64/egg/slimit/tests
+copying build/lib/slimit/tests/test_nodevisitor.py -> build/bdist.linux-x86_64/egg/slimit/tests
+copying build/lib/slimit/tests/test_parser.py -> build/bdist.linux-x86_64/egg/slimit/tests
+copying build/lib/slimit/tests/test_lexer.py -> build/bdist.linux-x86_64/egg/slimit/tests
+copying build/lib/slimit/tests/__init__.py -> build/bdist.linux-x86_64/egg/slimit/tests
+copying build/lib/slimit/tests/test_minifier.py -> build/bdist.linux-x86_64/egg/slimit/tests
+copying build/lib/slimit/tests/test_mangler.py -> build/bdist.linux-x86_64/egg/slimit/tests
+copying build/lib/slimit/ast.py -> build/bdist.linux-x86_64/egg/slimit
+copying build/lib/slimit/__init__.py -> build/bdist.linux-x86_64/egg/slimit
+copying build/lib/slimit/yacctab.py -> build/bdist.linux-x86_64/egg/slimit
+copying build/lib/slimit/lextab.py -> build/bdist.linux-x86_64/egg/slimit
+byte-compiling build/bdist.linux-x86_64/egg/slimit/visitors/nodevisitor.py to nodevisitor.pyc
+byte-compiling build/bdist.linux-x86_64/egg/slimit/visitors/scopevisitor.py to scopevisitor.pyc
+byte-compiling build/bdist.linux-x86_64/egg/slimit/visitors/ecmavisitor.py to ecmavisitor.pyc
+byte-compiling build/bdist.linux-x86_64/egg/slimit/visitors/__init__.py to __init__.pyc
+byte-compiling build/bdist.linux-x86_64/egg/slimit/visitors/minvisitor.py to minvisitor.pyc
+byte-compiling build/bdist.linux-x86_64/egg/slimit/scope.py to scope.pyc
+byte-compiling build/bdist.linux-x86_64/egg/slimit/lexer.py to lexer.pyc
+byte-compiling build/bdist.linux-x86_64/egg/slimit/unicode_chars.py to unicode_chars.pyc
+byte-compiling build/bdist.linux-x86_64/egg/slimit/minifier.py to minifier.pyc
+byte-compiling build/bdist.linux-x86_64/egg/slimit/mangler.py to mangler.pyc
+byte-compiling build/bdist.linux-x86_64/egg/slimit/parser.py to parser.pyc
+byte-compiling build/bdist.linux-x86_64/egg/slimit/tests/test_cmd.py to test_cmd.pyc
+byte-compiling build/bdist.linux-x86_64/egg/slimit/tests/test_ecmavisitor.py to test_ecmavisitor.pyc
+byte-compiling build/bdist.linux-x86_64/egg/slimit/tests/test_nodevisitor.py to test_nodevisitor.pyc
+byte-compiling build/bdist.linux-x86_64/egg/slimit/tests/test_parser.py to test_parser.pyc
+byte-compiling build/bdist.linux-x86_64/egg/slimit/tests/test_lexer.py to test_lexer.pyc
+byte-compiling build/bdist.linux-x86_64/egg/slimit/tests/__init__.py to __init__.pyc
+byte-compiling build/bdist.linux-x86_64/egg/slimit/tests/test_minifier.py to test_minifier.pyc
+byte-compiling build/bdist.linux-x86_64/egg/slimit/tests/test_mangler.py to test_mangler.pyc
+byte-compiling build/bdist.linux-x86_64/egg/slimit/ast.py to ast.pyc
+byte-compiling build/bdist.linux-x86_64/egg/slimit/__init__.py to __init__.pyc
+byte-compiling build/bdist.linux-x86_64/egg/slimit/yacctab.py to yacctab.pyc
+byte-compiling build/bdist.linux-x86_64/egg/slimit/lextab.py to lextab.pyc
+creating build/bdist.linux-x86_64/egg/EGG-INFO
+copying src/slimit.egg-info/PKG-INFO -> build/bdist.linux-x86_64/egg/EGG-INFO
+copying src/slimit.egg-info/SOURCES.txt -> build/bdist.linux-x86_64/egg/EGG-INFO
+copying src/slimit.egg-info/dependency_links.txt -> build/bdist.linux-x86_64/egg/EGG-INFO
+copying src/slimit.egg-info/entry_points.txt -> build/bdist.linux-x86_64/egg/EGG-INFO
+copying src/slimit.egg-info/not-zip-safe -> build/bdist.linux-x86_64/egg/EGG-INFO
+copying src/slimit.egg-info/requires.txt -> build/bdist.linux-x86_64/egg/EGG-INFO
+copying src/slimit.egg-info/top_level.txt -> build/bdist.linux-x86_64/egg/EGG-INFO
+creating dist
+creating 'dist/slimit-0.8.1-py2.7.egg' and adding 'build/bdist.linux-x86_64/egg' to it
+removing 'build/bdist.linux-x86_64/egg' (and everything under it)
+Processing slimit-0.8.1-py2.7.egg
+creating /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/slimit-0.8.1-py2.7.egg
+Extracting slimit-0.8.1-py2.7.egg to /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages
+Adding slimit 0.8.1 to easy-install.pth file
+Installing slimit script to /home/ubuntu/miniconda/envs/_build/bin
+
+Installed /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/slimit-0.8.1-py2.7.egg
+Processing dependencies for slimit==0.8.1
+Searching for ply==3.6
+Best match: ply 3.6
+Adding ply 3.6 to easy-install.pth file
+
+Using /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages
+Finished processing dependencies for slimit==0.8.1
+
+The following NEW packages will be INSTALLED:
+
+    openssl:    1.0.1k-1     
+    pip:        7.0.3-py27_0 
+    ply:        3.6-py27_0   
+    python:     2.7.10-0     
+    readline:   6.2-2        
+    setuptools: 18.0.1-py27_0
+    sqlite:     3.8.4.1-1    
+    system:     5.8-2        
+    tk:         8.5.18-0     
+    zlib:       1.2.8-0      
+
+Linking packages ...
+[                    ]|                                                  |   0%[openssl             ]|                                                  |   0%[readline            ]|#####                                             |  10%[sqlite              ]|##########                                        |  20%[system              ]|###############                                   |  30%[tk                  ]|####################                              |  40%[zlib                ]|#########################                         |  50%[ply                 ]|##############################                    |  60%[python              ]|###################################               |  70%[setuptools          ]|########################################          |  80%[pip                 ]|#############################################     |  90%[      COMPLETE      ]|##################################################| 100%
+Removing old work directory
+Source cache directory is: /home/ubuntu/miniconda/conda-bld/src_cache
+Found source in cache: slimit-0.8.1.zip
+Extracting download
+Package: slimit-0.8.1-py_0
+source tree in: /home/ubuntu/miniconda/conda-bld/work/slimit-0.8.1
+found egg dir: /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/slimit-0.8.1-py2.7.egg
+number of files: 48
+Fixing permissions
+Fixing permissions
+BUILD END: slimit-0.8.1-py_0
+TEST START: slimit-0.8.1-py_0
+Fetching package metadata: ......
+
+WARNING: conda-build appears to be out of date. You have version 1.13.0 but the
+latest version is 1.14.1. Run
+
+conda update -n root conda-build
+
+to get the latest version.
+
+Solving package specifications: .===== testing package: slimit-0.8.1-py_0 =====
+import: u'slimit'
+import: u'slimit.tests'
+import: u'slimit.visitors'
+===== slimit-0.8.1-py_0 OK =====
+
+The following packages will be downloaded:
+
+    package                    |            build
+    ---------------------------|-----------------
+    slimit-0.8.1               |             py_0         128 KB
+
+The following NEW packages will be INSTALLED:
+
+    openssl:    1.0.1k-1     
+    pip:        7.0.3-py27_0 
+    ply:        3.6-py27_0   
+    python:     2.7.10-0     
+    readline:   6.2-2        
+    setuptools: 18.0.1-py27_0
+    slimit:     0.8.1-py_0   
+    sqlite:     3.8.4.1-1    
+    system:     5.8-2        
+    tk:         8.5.18-0     
+    zlib:       1.2.8-0      
+
+Fetching packages ...
+slimit-0.8.1-p   0% |                              | ETA:  --:--:--   0.00  B/sslimit-0.8.1-p  12% |###                            | ETA:  0:00:00  46.81 MB/sslimit-0.8.1-p  24% |#######                        | ETA:  0:00:00  58.51 MB/sslimit-0.8.1-p  37% |###########                    | ETA:  0:00:00  65.10 MB/sslimit-0.8.1-p  49% |###############                | ETA:  0:00:00  68.98 MB/sslimit-0.8.1-p  62% |###################            | ETA:  0:00:00  72.05 MB/sslimit-0.8.1-p  74% |#######################        | ETA:  0:00:00  74.47 MB/sslimit-0.8.1-p  87% |###########################    | ETA:  0:00:00  76.40 MB/sslimit-0.8.1-p  99% |############################## | ETA:  0:00:00  77.69 MB/sslimit-0.8.1-p 100% |###############################| Time: 0:00:00  66.68 MB/s
+Extracting packages ...
+[      COMPLETE      ]|                                                  |   0%[slimit              ]|                                                  |   0%[slimit              ]|                                                  |   0%[      COMPLETE      ]|##################################################| 100%
+Linking packages ...
+[      COMPLETE      ]|                                                  |   0%[openssl             ]|                                                  |   0%[openssl             ]|                                                  |   0%[readline            ]|####                                              |   9%[sqlite              ]|#########                                         |  18%[system              ]|#############                                     |  27%[tk                  ]|##################                                |  36%[zlib                ]|######################                            |  45%[ply                 ]|###########################                       |  54%[python              ]|###############################                   |  63%[setuptools          ]|####################################              |  72%[slimit              ]|########################################          |  81%[pip                 ]|#############################################     |  90%[      COMPLETE      ]|##################################################| 100%
+TEST END: slimit-0.8.1-py_0
+# If you want to upload this package to binstar.org later, type:
+#
+# $ binstar upload /home/ubuntu/miniconda/conda-bld/noarch/slimit-0.8.1-py_0.tar.bz2
+#
+# To have conda build upload to binstar automatically, use
+# $ conda config --set binstar_upload yes
+

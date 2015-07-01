@@ -1,0 +1,242 @@
+Removing old build directory
+Removing old work directory
+BUILD START: rpyc-3.3.0-py_0
+Fetching package metadata: ......
+
+WARNING: conda-build appears to be out of date. You have version 1.13.0 but the
+latest version is 1.14.1. Run
+
+conda update -n root conda-build
+
+to get the latest version.
+
+Solving package specifications: .+ /home/ubuntu/miniconda/envs/_build/bin/python setup.py install
+running install
+running bdist_egg
+running egg_info
+writing requirements to rpyc.egg-info/requires.txt
+writing rpyc.egg-info/PKG-INFO
+writing top-level names to rpyc.egg-info/top_level.txt
+writing dependency_links to rpyc.egg-info/dependency_links.txt
+reading manifest file 'rpyc.egg-info/SOURCES.txt'
+reading manifest template 'MANIFEST.in'
+writing manifest file 'rpyc.egg-info/SOURCES.txt'
+installing library code to build/bdist.linux-x86_64/egg
+running install_lib
+running build_py
+creating build
+creating build/lib
+creating build/lib/rpyc
+copying rpyc/version.py -> build/lib/rpyc
+copying rpyc/__init__.py -> build/lib/rpyc
+creating build/lib/rpyc/core
+copying rpyc/core/stream.py -> build/lib/rpyc/core
+copying rpyc/core/channel.py -> build/lib/rpyc/core
+copying rpyc/core/consts.py -> build/lib/rpyc/core
+copying rpyc/core/netref.py -> build/lib/rpyc/core
+copying rpyc/core/vinegar.py -> build/lib/rpyc/core
+copying rpyc/core/async.py -> build/lib/rpyc/core
+copying rpyc/core/service.py -> build/lib/rpyc/core
+copying rpyc/core/reactor.py -> build/lib/rpyc/core
+copying rpyc/core/__init__.py -> build/lib/rpyc/core
+copying rpyc/core/protocol.py -> build/lib/rpyc/core
+copying rpyc/core/brine.py -> build/lib/rpyc/core
+creating build/lib/rpyc/lib
+copying rpyc/lib/compat.py -> build/lib/rpyc/lib
+copying rpyc/lib/colls.py -> build/lib/rpyc/lib
+copying rpyc/lib/__init__.py -> build/lib/rpyc/lib
+creating build/lib/rpyc/experimental
+copying rpyc/experimental/splitbrain.py -> build/lib/rpyc/experimental
+copying rpyc/experimental/__init__.py -> build/lib/rpyc/experimental
+copying rpyc/experimental/retunnel.py -> build/lib/rpyc/experimental
+creating build/lib/rpyc/utils
+copying rpyc/utils/authenticators.py -> build/lib/rpyc/utils
+copying rpyc/utils/registry.py -> build/lib/rpyc/utils
+copying rpyc/utils/factory.py -> build/lib/rpyc/utils
+copying rpyc/utils/teleportation.py -> build/lib/rpyc/utils
+copying rpyc/utils/__init__.py -> build/lib/rpyc/utils
+copying rpyc/utils/helpers.py -> build/lib/rpyc/utils
+copying rpyc/utils/classic.py -> build/lib/rpyc/utils
+copying rpyc/utils/zerodeploy.py -> build/lib/rpyc/utils
+copying rpyc/utils/server.py -> build/lib/rpyc/utils
+creating build/bdist.linux-x86_64
+creating build/bdist.linux-x86_64/egg
+creating build/bdist.linux-x86_64/egg/rpyc
+creating build/bdist.linux-x86_64/egg/rpyc/utils
+copying build/lib/rpyc/utils/authenticators.py -> build/bdist.linux-x86_64/egg/rpyc/utils
+copying build/lib/rpyc/utils/registry.py -> build/bdist.linux-x86_64/egg/rpyc/utils
+copying build/lib/rpyc/utils/factory.py -> build/bdist.linux-x86_64/egg/rpyc/utils
+copying build/lib/rpyc/utils/teleportation.py -> build/bdist.linux-x86_64/egg/rpyc/utils
+copying build/lib/rpyc/utils/__init__.py -> build/bdist.linux-x86_64/egg/rpyc/utils
+copying build/lib/rpyc/utils/helpers.py -> build/bdist.linux-x86_64/egg/rpyc/utils
+copying build/lib/rpyc/utils/classic.py -> build/bdist.linux-x86_64/egg/rpyc/utils
+copying build/lib/rpyc/utils/zerodeploy.py -> build/bdist.linux-x86_64/egg/rpyc/utils
+copying build/lib/rpyc/utils/server.py -> build/bdist.linux-x86_64/egg/rpyc/utils
+copying build/lib/rpyc/version.py -> build/bdist.linux-x86_64/egg/rpyc
+copying build/lib/rpyc/__init__.py -> build/bdist.linux-x86_64/egg/rpyc
+creating build/bdist.linux-x86_64/egg/rpyc/core
+copying build/lib/rpyc/core/stream.py -> build/bdist.linux-x86_64/egg/rpyc/core
+copying build/lib/rpyc/core/channel.py -> build/bdist.linux-x86_64/egg/rpyc/core
+copying build/lib/rpyc/core/consts.py -> build/bdist.linux-x86_64/egg/rpyc/core
+copying build/lib/rpyc/core/netref.py -> build/bdist.linux-x86_64/egg/rpyc/core
+copying build/lib/rpyc/core/vinegar.py -> build/bdist.linux-x86_64/egg/rpyc/core
+copying build/lib/rpyc/core/async.py -> build/bdist.linux-x86_64/egg/rpyc/core
+copying build/lib/rpyc/core/service.py -> build/bdist.linux-x86_64/egg/rpyc/core
+copying build/lib/rpyc/core/reactor.py -> build/bdist.linux-x86_64/egg/rpyc/core
+copying build/lib/rpyc/core/__init__.py -> build/bdist.linux-x86_64/egg/rpyc/core
+copying build/lib/rpyc/core/protocol.py -> build/bdist.linux-x86_64/egg/rpyc/core
+copying build/lib/rpyc/core/brine.py -> build/bdist.linux-x86_64/egg/rpyc/core
+creating build/bdist.linux-x86_64/egg/rpyc/experimental
+copying build/lib/rpyc/experimental/splitbrain.py -> build/bdist.linux-x86_64/egg/rpyc/experimental
+copying build/lib/rpyc/experimental/__init__.py -> build/bdist.linux-x86_64/egg/rpyc/experimental
+copying build/lib/rpyc/experimental/retunnel.py -> build/bdist.linux-x86_64/egg/rpyc/experimental
+creating build/bdist.linux-x86_64/egg/rpyc/lib
+copying build/lib/rpyc/lib/compat.py -> build/bdist.linux-x86_64/egg/rpyc/lib
+copying build/lib/rpyc/lib/colls.py -> build/bdist.linux-x86_64/egg/rpyc/lib
+copying build/lib/rpyc/lib/__init__.py -> build/bdist.linux-x86_64/egg/rpyc/lib
+byte-compiling build/bdist.linux-x86_64/egg/rpyc/utils/authenticators.py to authenticators.pyc
+byte-compiling build/bdist.linux-x86_64/egg/rpyc/utils/registry.py to registry.pyc
+byte-compiling build/bdist.linux-x86_64/egg/rpyc/utils/factory.py to factory.pyc
+byte-compiling build/bdist.linux-x86_64/egg/rpyc/utils/teleportation.py to teleportation.pyc
+byte-compiling build/bdist.linux-x86_64/egg/rpyc/utils/__init__.py to __init__.pyc
+byte-compiling build/bdist.linux-x86_64/egg/rpyc/utils/helpers.py to helpers.pyc
+byte-compiling build/bdist.linux-x86_64/egg/rpyc/utils/classic.py to classic.pyc
+byte-compiling build/bdist.linux-x86_64/egg/rpyc/utils/zerodeploy.py to zerodeploy.pyc
+byte-compiling build/bdist.linux-x86_64/egg/rpyc/utils/server.py to server.pyc
+byte-compiling build/bdist.linux-x86_64/egg/rpyc/version.py to version.pyc
+byte-compiling build/bdist.linux-x86_64/egg/rpyc/__init__.py to __init__.pyc
+byte-compiling build/bdist.linux-x86_64/egg/rpyc/core/stream.py to stream.pyc
+byte-compiling build/bdist.linux-x86_64/egg/rpyc/core/channel.py to channel.pyc
+byte-compiling build/bdist.linux-x86_64/egg/rpyc/core/consts.py to consts.pyc
+byte-compiling build/bdist.linux-x86_64/egg/rpyc/core/netref.py to netref.pyc
+byte-compiling build/bdist.linux-x86_64/egg/rpyc/core/vinegar.py to vinegar.pyc
+byte-compiling build/bdist.linux-x86_64/egg/rpyc/core/async.py to async.pyc
+byte-compiling build/bdist.linux-x86_64/egg/rpyc/core/service.py to service.pyc
+byte-compiling build/bdist.linux-x86_64/egg/rpyc/core/reactor.py to reactor.pyc
+byte-compiling build/bdist.linux-x86_64/egg/rpyc/core/__init__.py to __init__.pyc
+byte-compiling build/bdist.linux-x86_64/egg/rpyc/core/protocol.py to protocol.pyc
+byte-compiling build/bdist.linux-x86_64/egg/rpyc/core/brine.py to brine.pyc
+byte-compiling build/bdist.linux-x86_64/egg/rpyc/experimental/splitbrain.py to splitbrain.pyc
+byte-compiling build/bdist.linux-x86_64/egg/rpyc/experimental/__init__.py to __init__.pyc
+byte-compiling build/bdist.linux-x86_64/egg/rpyc/experimental/retunnel.py to retunnel.pyc
+byte-compiling build/bdist.linux-x86_64/egg/rpyc/lib/compat.py to compat.pyc
+byte-compiling build/bdist.linux-x86_64/egg/rpyc/lib/colls.py to colls.pyc
+byte-compiling build/bdist.linux-x86_64/egg/rpyc/lib/__init__.py to __init__.pyc
+creating build/bdist.linux-x86_64/egg/EGG-INFO
+installing scripts to build/bdist.linux-x86_64/egg/EGG-INFO/scripts
+running install_scripts
+running build_scripts
+creating build/scripts-2.7
+copying and adjusting bin/rpyc_classic.py -> build/scripts-2.7
+copying and adjusting bin/rpyc_registry.py -> build/scripts-2.7
+changing mode of build/scripts-2.7/rpyc_classic.py from 664 to 775
+changing mode of build/scripts-2.7/rpyc_registry.py from 664 to 775
+creating build/bdist.linux-x86_64/egg/EGG-INFO/scripts
+copying build/scripts-2.7/rpyc_classic.py -> build/bdist.linux-x86_64/egg/EGG-INFO/scripts
+copying build/scripts-2.7/rpyc_registry.py -> build/bdist.linux-x86_64/egg/EGG-INFO/scripts
+changing mode of build/bdist.linux-x86_64/egg/EGG-INFO/scripts/rpyc_classic.py to 775
+changing mode of build/bdist.linux-x86_64/egg/EGG-INFO/scripts/rpyc_registry.py to 775
+copying rpyc.egg-info/PKG-INFO -> build/bdist.linux-x86_64/egg/EGG-INFO
+copying rpyc.egg-info/SOURCES.txt -> build/bdist.linux-x86_64/egg/EGG-INFO
+copying rpyc.egg-info/dependency_links.txt -> build/bdist.linux-x86_64/egg/EGG-INFO
+copying rpyc.egg-info/not-zip-safe -> build/bdist.linux-x86_64/egg/EGG-INFO
+copying rpyc.egg-info/requires.txt -> build/bdist.linux-x86_64/egg/EGG-INFO
+copying rpyc.egg-info/top_level.txt -> build/bdist.linux-x86_64/egg/EGG-INFO
+creating dist
+creating 'dist/rpyc-3.3.0-py2.7.egg' and adding 'build/bdist.linux-x86_64/egg' to it
+removing 'build/bdist.linux-x86_64/egg' (and everything under it)
+Processing rpyc-3.3.0-py2.7.egg
+creating /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/rpyc-3.3.0-py2.7.egg
+Extracting rpyc-3.3.0-py2.7.egg to /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages
+Adding rpyc 3.3.0 to easy-install.pth file
+Installing rpyc_classic.py script to /home/ubuntu/miniconda/envs/_build/bin
+Installing rpyc_registry.py script to /home/ubuntu/miniconda/envs/_build/bin
+
+Installed /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/rpyc-3.3.0-py2.7.egg
+Processing dependencies for rpyc==3.3.0
+Searching for plumbum==1.4.2
+Best match: plumbum 1.4.2
+Adding plumbum 1.4.2 to easy-install.pth file
+
+Using /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages
+Finished processing dependencies for rpyc==3.3.0
+
+The following NEW packages will be INSTALLED:
+
+    openssl:    1.0.1k-1     
+    pip:        7.0.3-py27_0 
+    plumbum:    1.4.2-py27_0 
+    python:     2.7.10-0     
+    readline:   6.2-2        
+    setuptools: 18.0.1-py27_0
+    sqlite:     3.8.4.1-1    
+    system:     5.8-2        
+    tk:         8.5.18-0     
+    zlib:       1.2.8-0      
+
+Linking packages ...
+[                    ]|                                                  |   0%[openssl             ]|                                                  |   0%[readline            ]|#####                                             |  10%[sqlite              ]|##########                                        |  20%[system              ]|###############                                   |  30%[tk                  ]|####################                              |  40%[zlib                ]|#########################                         |  50%[plumbum             ]|##############################                    |  60%[python              ]|###################################               |  70%[setuptools          ]|########################################          |  80%[pip                 ]|#############################################     |  90%[      COMPLETE      ]|##################################################| 100%
+Removing old work directory
+Source cache directory is: /home/ubuntu/miniconda/conda-bld/src_cache
+Found source in cache: rpyc-3.3.0.tar.gz
+Extracting download
+Package: rpyc-3.3.0-py_0
+source tree in: /home/ubuntu/miniconda/conda-bld/work/rpyc-3.3.0
+found egg dir: /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/rpyc-3.3.0-py2.7.egg
+number of files: 59
+Fixing permissions
+Fixing permissions
+BUILD END: rpyc-3.3.0-py_0
+TEST START: rpyc-3.3.0-py_0
+Fetching package metadata: ......
+
+WARNING: conda-build appears to be out of date. You have version 1.13.0 but the
+latest version is 1.14.1. Run
+
+conda update -n root conda-build
+
+to get the latest version.
+
+Solving package specifications: .===== testing package: rpyc-3.3.0-py_0 =====
+import: u'rpyc'
+import: u'rpyc.core'
+import: u'rpyc.experimental'
+import: u'rpyc.lib'
+import: u'rpyc.utils'
+===== rpyc-3.3.0-py_0 OK =====
+
+The following packages will be downloaded:
+
+    package                    |            build
+    ---------------------------|-----------------
+    rpyc-3.3.0                 |             py_0         116 KB
+
+The following NEW packages will be INSTALLED:
+
+    nose:       1.3.7-py27_0 
+    openssl:    1.0.1k-1     
+    pip:        7.0.3-py27_0 
+    plumbum:    1.4.2-py27_0 
+    python:     2.7.10-0     
+    readline:   6.2-2        
+    rpyc:       3.3.0-py_0   
+    setuptools: 18.0.1-py27_0
+    sqlite:     3.8.4.1-1    
+    system:     5.8-2        
+    tk:         8.5.18-0     
+    zlib:       1.2.8-0      
+
+Fetching packages ...
+rpyc-3.3.0-py_   0% |                              | ETA:  --:--:--   0.00  B/srpyc-3.3.0-py_  13% |####                           | ETA:  0:00:00  47.23 MB/srpyc-3.3.0-py_  27% |########                       | ETA:  0:00:00  58.94 MB/srpyc-3.3.0-py_  41% |############                   | ETA:  0:00:00  65.53 MB/srpyc-3.3.0-py_  55% |#################              | ETA:  0:00:00  69.87 MB/srpyc-3.3.0-py_  68% |#####################          | ETA:  0:00:00  72.89 MB/srpyc-3.3.0-py_  82% |#########################      | ETA:  0:00:00  74.75 MB/srpyc-3.3.0-py_  96% |#############################  | ETA:  0:00:00  76.40 MB/srpyc-3.3.0-py_ 100% |###############################| ETA:  0:00:00  72.02 MB/srpyc-3.3.0-py_ 100% |###############################| Time: 0:00:00  62.52 MB/s
+Extracting packages ...
+[      COMPLETE      ]|                                                  |   0%[rpyc                ]|                                                  |   0%[rpyc                ]|                                                  |   0%[      COMPLETE      ]|##################################################| 100%
+Linking packages ...
+[      COMPLETE      ]|                                                  |   0%[openssl             ]|                                                  |   0%[openssl             ]|                                                  |   0%[readline            ]|####                                              |   8%[sqlite              ]|########                                          |  16%[system              ]|############                                      |  25%[tk                  ]|################                                  |  33%[zlib                ]|####################                              |  41%[nose                ]|#########################                         |  50%[plumbum             ]|#############################                     |  58%[python              ]|#################################                 |  66%[rpyc                ]|#####################################             |  75%[setuptools          ]|#########################################         |  83%[pip                 ]|#############################################     |  91%[      COMPLETE      ]|##################################################| 100%
+TEST END: rpyc-3.3.0-py_0
+# If you want to upload this package to binstar.org later, type:
+#
+# $ binstar upload /home/ubuntu/miniconda/conda-bld/noarch/rpyc-3.3.0-py_0.tar.bz2
+#
+# To have conda build upload to binstar automatically, use
+# $ conda config --set binstar_upload yes
+

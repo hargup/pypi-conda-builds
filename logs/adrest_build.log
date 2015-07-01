@@ -1,0 +1,503 @@
+Removing old build directory
+Removing old work directory
+BUILD START: adrest-3.3.2-py_0
+Fetching package metadata: ......
+
+WARNING: conda-build appears to be out of date. You have version 1.13.0 but the
+latest version is 1.14.1. Run
+
+conda update -n root conda-build
+
+to get the latest version.
+
+Solving package specifications: .+ /home/ubuntu/miniconda/envs/_build/bin/python setup.py install
+running install
+running bdist_egg
+running egg_info
+writing requirements to adrest.egg-info/requires.txt
+writing adrest.egg-info/PKG-INFO
+writing top-level names to adrest.egg-info/top_level.txt
+writing dependency_links to adrest.egg-info/dependency_links.txt
+reading manifest file 'adrest.egg-info/SOURCES.txt'
+reading manifest template 'MANIFEST.in'
+warning: no previously-included files found matching '*.pyc'
+warning: no previously-included files found matching '*.orig'
+writing manifest file 'adrest.egg-info/SOURCES.txt'
+installing library code to build/bdist.linux-x86_64/egg
+running install_lib
+running build_py
+creating build
+creating build/lib
+creating build/lib/example
+copying example/manage.py -> build/lib/example
+copying example/wsgi.py -> build/lib/example
+copying example/__init__.py -> build/lib/example
+creating build/lib/tests
+copying tests/__init__.py -> build/lib/tests
+copying tests/test_adrest.py -> build/lib/tests
+creating build/lib/adrest
+copying adrest/admin.py -> build/lib/adrest
+copying adrest/signals.py -> build/lib/adrest
+copying adrest/api.py -> build/lib/adrest
+copying adrest/templatetags.py -> build/lib/adrest
+copying adrest/views.py -> build/lib/adrest
+copying adrest/forms.py -> build/lib/adrest
+copying adrest/__init__.py -> build/lib/adrest
+copying adrest/settings.py -> build/lib/adrest
+copying adrest/models.py -> build/lib/adrest
+creating build/lib/example/api
+copying example/api/api.py -> build/lib/example/api
+copying example/api/__init__.py -> build/lib/example/api
+copying example/api/rpc.py -> build/lib/example/api
+copying example/api/models.py -> build/lib/example/api
+creating build/lib/example/main
+copying example/main/admin.py -> build/lib/example/main
+copying example/main/views.py -> build/lib/example/main
+copying example/main/urls.py -> build/lib/example/main
+copying example/main/__init__.py -> build/lib/example/main
+copying example/main/models.py -> build/lib/example/main
+creating build/lib/example/settings
+copying example/settings/__init__.py -> build/lib/example/settings
+copying example/settings/production.py -> build/lib/example/settings
+copying example/settings/core.py -> build/lib/example/settings
+copying example/settings/development.py -> build/lib/example/settings
+copying example/settings/test.py -> build/lib/example/settings
+creating build/lib/example/main/utils
+copying example/main/utils/views.py -> build/lib/example/main/utils
+copying example/main/utils/cache.py -> build/lib/example/main/utils
+copying example/main/utils/files.py -> build/lib/example/main/utils
+copying example/main/utils/__init__.py -> build/lib/example/main/utils
+copying example/main/utils/models.py -> build/lib/example/main/utils
+creating build/lib/example/main/tests
+copying example/main/tests/__init__.py -> build/lib/example/main/tests
+copying example/main/tests/base.py -> build/lib/example/main/tests
+creating build/lib/tests/rpc
+copying tests/rpc/api.py -> build/lib/tests/rpc
+copying tests/rpc/tests.py -> build/lib/tests/rpc
+copying tests/rpc/__init__.py -> build/lib/tests/rpc
+copying tests/rpc/dummy.py -> build/lib/tests/rpc
+copying tests/rpc/models.py -> build/lib/tests/rpc
+creating build/lib/tests/main
+copying tests/main/api.py -> build/lib/tests/main
+copying tests/main/tests.py -> build/lib/tests/main
+copying tests/main/resources.py -> build/lib/tests/main
+copying tests/main/__init__.py -> build/lib/tests/main
+copying tests/main/models.py -> build/lib/tests/main
+creating build/lib/tests/core
+copying tests/core/api.py -> build/lib/tests/core
+copying tests/core/urls.py -> build/lib/tests/core
+copying tests/core/__init__.py -> build/lib/tests/core
+copying tests/core/models.py -> build/lib/tests/core
+creating build/lib/tests/core/tests
+copying tests/core/tests/admin.py -> build/lib/tests/core/tests
+copying tests/core/tests/utils.py -> build/lib/tests/core/tests
+copying tests/core/tests/resource.py -> build/lib/tests/core/tests
+copying tests/core/tests/api.py -> build/lib/tests/core/tests
+copying tests/core/tests/emitter.py -> build/lib/tests/core/tests
+copying tests/core/tests/__init__.py -> build/lib/tests/core/tests
+copying tests/core/tests/rpc.py -> build/lib/tests/core/tests
+copying tests/core/tests/serializer.py -> build/lib/tests/core/tests
+copying tests/core/tests/handler.py -> build/lib/tests/core/tests
+copying tests/core/tests/dynamic.py -> build/lib/tests/core/tests
+copying tests/core/tests/auth.py -> build/lib/tests/core/tests
+copying tests/core/tests/test.py -> build/lib/tests/core/tests
+creating build/lib/adrest/resources
+copying adrest/resources/ga.py -> build/lib/adrest/resources
+copying adrest/resources/map.py -> build/lib/adrest/resources
+copying adrest/resources/__init__.py -> build/lib/adrest/resources
+copying adrest/resources/rpc.py -> build/lib/adrest/resources
+creating build/lib/adrest/utils
+copying adrest/utils/meta.py -> build/lib/adrest/utils
+copying adrest/utils/paginator.py -> build/lib/adrest/utils
+copying adrest/utils/tools.py -> build/lib/adrest/utils
+copying adrest/utils/response.py -> build/lib/adrest/utils
+copying adrest/utils/status.py -> build/lib/adrest/utils
+copying adrest/utils/parser.py -> build/lib/adrest/utils
+copying adrest/utils/emitter.py -> build/lib/adrest/utils
+copying adrest/utils/mail.py -> build/lib/adrest/utils
+copying adrest/utils/__init__.py -> build/lib/adrest/utils
+copying adrest/utils/serializer.py -> build/lib/adrest/utils
+copying adrest/utils/auth.py -> build/lib/adrest/utils
+copying adrest/utils/throttle.py -> build/lib/adrest/utils
+copying adrest/utils/exceptions.py -> build/lib/adrest/utils
+creating build/lib/adrest/mixin
+copying adrest/mixin/parser.py -> build/lib/adrest/mixin
+copying adrest/mixin/emitter.py -> build/lib/adrest/mixin
+copying adrest/mixin/__init__.py -> build/lib/adrest/mixin
+copying adrest/mixin/handler.py -> build/lib/adrest/mixin
+copying adrest/mixin/dynamic.py -> build/lib/adrest/mixin
+copying adrest/mixin/auth.py -> build/lib/adrest/mixin
+copying adrest/mixin/throttle.py -> build/lib/adrest/mixin
+creating build/lib/adrest/tests
+copying adrest/tests/utils.py -> build/lib/adrest/tests
+copying adrest/tests/client.py -> build/lib/adrest/tests
+copying adrest/tests/__init__.py -> build/lib/adrest/tests
+creating build/lib/adrest/templates
+creating build/lib/adrest/templates/api
+copying adrest/templates/api/paginator.json -> build/lib/adrest/templates/api
+copying adrest/templates/api/paginator.xml -> build/lib/adrest/templates/api
+copying adrest/templates/api/error.html -> build/lib/adrest/templates/api
+copying adrest/templates/api/updated.json -> build/lib/adrest/templates/api
+copying adrest/templates/api/map.html -> build/lib/adrest/templates/api
+copying adrest/templates/api/error.xml -> build/lib/adrest/templates/api
+copying adrest/templates/api/updated.xml -> build/lib/adrest/templates/api
+copying adrest/templates/api/error.json -> build/lib/adrest/templates/api
+creating build/bdist.linux-x86_64
+creating build/bdist.linux-x86_64/egg
+creating build/bdist.linux-x86_64/egg/example
+copying build/lib/example/manage.py -> build/bdist.linux-x86_64/egg/example
+creating build/bdist.linux-x86_64/egg/example/api
+copying build/lib/example/api/api.py -> build/bdist.linux-x86_64/egg/example/api
+copying build/lib/example/api/__init__.py -> build/bdist.linux-x86_64/egg/example/api
+copying build/lib/example/api/rpc.py -> build/bdist.linux-x86_64/egg/example/api
+copying build/lib/example/api/models.py -> build/bdist.linux-x86_64/egg/example/api
+copying build/lib/example/wsgi.py -> build/bdist.linux-x86_64/egg/example
+creating build/bdist.linux-x86_64/egg/example/main
+copying build/lib/example/main/admin.py -> build/bdist.linux-x86_64/egg/example/main
+creating build/bdist.linux-x86_64/egg/example/main/utils
+copying build/lib/example/main/utils/views.py -> build/bdist.linux-x86_64/egg/example/main/utils
+copying build/lib/example/main/utils/cache.py -> build/bdist.linux-x86_64/egg/example/main/utils
+copying build/lib/example/main/utils/files.py -> build/bdist.linux-x86_64/egg/example/main/utils
+copying build/lib/example/main/utils/__init__.py -> build/bdist.linux-x86_64/egg/example/main/utils
+copying build/lib/example/main/utils/models.py -> build/bdist.linux-x86_64/egg/example/main/utils
+copying build/lib/example/main/views.py -> build/bdist.linux-x86_64/egg/example/main
+creating build/bdist.linux-x86_64/egg/example/main/tests
+copying build/lib/example/main/tests/__init__.py -> build/bdist.linux-x86_64/egg/example/main/tests
+copying build/lib/example/main/tests/base.py -> build/bdist.linux-x86_64/egg/example/main/tests
+copying build/lib/example/main/urls.py -> build/bdist.linux-x86_64/egg/example/main
+copying build/lib/example/main/__init__.py -> build/bdist.linux-x86_64/egg/example/main
+copying build/lib/example/main/models.py -> build/bdist.linux-x86_64/egg/example/main
+creating build/bdist.linux-x86_64/egg/example/settings
+copying build/lib/example/settings/__init__.py -> build/bdist.linux-x86_64/egg/example/settings
+copying build/lib/example/settings/production.py -> build/bdist.linux-x86_64/egg/example/settings
+copying build/lib/example/settings/core.py -> build/bdist.linux-x86_64/egg/example/settings
+copying build/lib/example/settings/development.py -> build/bdist.linux-x86_64/egg/example/settings
+copying build/lib/example/settings/test.py -> build/bdist.linux-x86_64/egg/example/settings
+copying build/lib/example/__init__.py -> build/bdist.linux-x86_64/egg/example
+creating build/bdist.linux-x86_64/egg/tests
+creating build/bdist.linux-x86_64/egg/tests/rpc
+copying build/lib/tests/rpc/api.py -> build/bdist.linux-x86_64/egg/tests/rpc
+copying build/lib/tests/rpc/tests.py -> build/bdist.linux-x86_64/egg/tests/rpc
+copying build/lib/tests/rpc/__init__.py -> build/bdist.linux-x86_64/egg/tests/rpc
+copying build/lib/tests/rpc/dummy.py -> build/bdist.linux-x86_64/egg/tests/rpc
+copying build/lib/tests/rpc/models.py -> build/bdist.linux-x86_64/egg/tests/rpc
+creating build/bdist.linux-x86_64/egg/tests/main
+copying build/lib/tests/main/api.py -> build/bdist.linux-x86_64/egg/tests/main
+copying build/lib/tests/main/tests.py -> build/bdist.linux-x86_64/egg/tests/main
+copying build/lib/tests/main/resources.py -> build/bdist.linux-x86_64/egg/tests/main
+copying build/lib/tests/main/__init__.py -> build/bdist.linux-x86_64/egg/tests/main
+copying build/lib/tests/main/models.py -> build/bdist.linux-x86_64/egg/tests/main
+copying build/lib/tests/__init__.py -> build/bdist.linux-x86_64/egg/tests
+creating build/bdist.linux-x86_64/egg/tests/core
+copying build/lib/tests/core/api.py -> build/bdist.linux-x86_64/egg/tests/core
+creating build/bdist.linux-x86_64/egg/tests/core/tests
+copying build/lib/tests/core/tests/admin.py -> build/bdist.linux-x86_64/egg/tests/core/tests
+copying build/lib/tests/core/tests/utils.py -> build/bdist.linux-x86_64/egg/tests/core/tests
+copying build/lib/tests/core/tests/resource.py -> build/bdist.linux-x86_64/egg/tests/core/tests
+copying build/lib/tests/core/tests/api.py -> build/bdist.linux-x86_64/egg/tests/core/tests
+copying build/lib/tests/core/tests/emitter.py -> build/bdist.linux-x86_64/egg/tests/core/tests
+copying build/lib/tests/core/tests/__init__.py -> build/bdist.linux-x86_64/egg/tests/core/tests
+copying build/lib/tests/core/tests/rpc.py -> build/bdist.linux-x86_64/egg/tests/core/tests
+copying build/lib/tests/core/tests/serializer.py -> build/bdist.linux-x86_64/egg/tests/core/tests
+copying build/lib/tests/core/tests/handler.py -> build/bdist.linux-x86_64/egg/tests/core/tests
+copying build/lib/tests/core/tests/dynamic.py -> build/bdist.linux-x86_64/egg/tests/core/tests
+copying build/lib/tests/core/tests/auth.py -> build/bdist.linux-x86_64/egg/tests/core/tests
+copying build/lib/tests/core/tests/test.py -> build/bdist.linux-x86_64/egg/tests/core/tests
+copying build/lib/tests/core/urls.py -> build/bdist.linux-x86_64/egg/tests/core
+copying build/lib/tests/core/__init__.py -> build/bdist.linux-x86_64/egg/tests/core
+copying build/lib/tests/core/models.py -> build/bdist.linux-x86_64/egg/tests/core
+copying build/lib/tests/test_adrest.py -> build/bdist.linux-x86_64/egg/tests
+creating build/bdist.linux-x86_64/egg/adrest
+creating build/bdist.linux-x86_64/egg/adrest/resources
+copying build/lib/adrest/resources/ga.py -> build/bdist.linux-x86_64/egg/adrest/resources
+copying build/lib/adrest/resources/map.py -> build/bdist.linux-x86_64/egg/adrest/resources
+copying build/lib/adrest/resources/__init__.py -> build/bdist.linux-x86_64/egg/adrest/resources
+copying build/lib/adrest/resources/rpc.py -> build/bdist.linux-x86_64/egg/adrest/resources
+copying build/lib/adrest/admin.py -> build/bdist.linux-x86_64/egg/adrest
+copying build/lib/adrest/signals.py -> build/bdist.linux-x86_64/egg/adrest
+copying build/lib/adrest/api.py -> build/bdist.linux-x86_64/egg/adrest
+copying build/lib/adrest/templatetags.py -> build/bdist.linux-x86_64/egg/adrest
+creating build/bdist.linux-x86_64/egg/adrest/utils
+copying build/lib/adrest/utils/meta.py -> build/bdist.linux-x86_64/egg/adrest/utils
+copying build/lib/adrest/utils/paginator.py -> build/bdist.linux-x86_64/egg/adrest/utils
+copying build/lib/adrest/utils/tools.py -> build/bdist.linux-x86_64/egg/adrest/utils
+copying build/lib/adrest/utils/response.py -> build/bdist.linux-x86_64/egg/adrest/utils
+copying build/lib/adrest/utils/status.py -> build/bdist.linux-x86_64/egg/adrest/utils
+copying build/lib/adrest/utils/parser.py -> build/bdist.linux-x86_64/egg/adrest/utils
+copying build/lib/adrest/utils/emitter.py -> build/bdist.linux-x86_64/egg/adrest/utils
+copying build/lib/adrest/utils/mail.py -> build/bdist.linux-x86_64/egg/adrest/utils
+copying build/lib/adrest/utils/__init__.py -> build/bdist.linux-x86_64/egg/adrest/utils
+copying build/lib/adrest/utils/serializer.py -> build/bdist.linux-x86_64/egg/adrest/utils
+copying build/lib/adrest/utils/auth.py -> build/bdist.linux-x86_64/egg/adrest/utils
+copying build/lib/adrest/utils/throttle.py -> build/bdist.linux-x86_64/egg/adrest/utils
+copying build/lib/adrest/utils/exceptions.py -> build/bdist.linux-x86_64/egg/adrest/utils
+creating build/bdist.linux-x86_64/egg/adrest/templates
+creating build/bdist.linux-x86_64/egg/adrest/templates/api
+copying build/lib/adrest/templates/api/paginator.json -> build/bdist.linux-x86_64/egg/adrest/templates/api
+copying build/lib/adrest/templates/api/paginator.xml -> build/bdist.linux-x86_64/egg/adrest/templates/api
+copying build/lib/adrest/templates/api/error.html -> build/bdist.linux-x86_64/egg/adrest/templates/api
+copying build/lib/adrest/templates/api/updated.json -> build/bdist.linux-x86_64/egg/adrest/templates/api
+copying build/lib/adrest/templates/api/map.html -> build/bdist.linux-x86_64/egg/adrest/templates/api
+copying build/lib/adrest/templates/api/error.xml -> build/bdist.linux-x86_64/egg/adrest/templates/api
+copying build/lib/adrest/templates/api/updated.xml -> build/bdist.linux-x86_64/egg/adrest/templates/api
+copying build/lib/adrest/templates/api/error.json -> build/bdist.linux-x86_64/egg/adrest/templates/api
+creating build/bdist.linux-x86_64/egg/adrest/mixin
+copying build/lib/adrest/mixin/parser.py -> build/bdist.linux-x86_64/egg/adrest/mixin
+copying build/lib/adrest/mixin/emitter.py -> build/bdist.linux-x86_64/egg/adrest/mixin
+copying build/lib/adrest/mixin/__init__.py -> build/bdist.linux-x86_64/egg/adrest/mixin
+copying build/lib/adrest/mixin/handler.py -> build/bdist.linux-x86_64/egg/adrest/mixin
+copying build/lib/adrest/mixin/dynamic.py -> build/bdist.linux-x86_64/egg/adrest/mixin
+copying build/lib/adrest/mixin/auth.py -> build/bdist.linux-x86_64/egg/adrest/mixin
+copying build/lib/adrest/mixin/throttle.py -> build/bdist.linux-x86_64/egg/adrest/mixin
+copying build/lib/adrest/views.py -> build/bdist.linux-x86_64/egg/adrest
+creating build/bdist.linux-x86_64/egg/adrest/tests
+copying build/lib/adrest/tests/utils.py -> build/bdist.linux-x86_64/egg/adrest/tests
+copying build/lib/adrest/tests/client.py -> build/bdist.linux-x86_64/egg/adrest/tests
+copying build/lib/adrest/tests/__init__.py -> build/bdist.linux-x86_64/egg/adrest/tests
+copying build/lib/adrest/forms.py -> build/bdist.linux-x86_64/egg/adrest
+copying build/lib/adrest/__init__.py -> build/bdist.linux-x86_64/egg/adrest
+copying build/lib/adrest/settings.py -> build/bdist.linux-x86_64/egg/adrest
+copying build/lib/adrest/models.py -> build/bdist.linux-x86_64/egg/adrest
+byte-compiling build/bdist.linux-x86_64/egg/example/manage.py to manage.pyc
+byte-compiling build/bdist.linux-x86_64/egg/example/api/api.py to api.pyc
+byte-compiling build/bdist.linux-x86_64/egg/example/api/__init__.py to __init__.pyc
+byte-compiling build/bdist.linux-x86_64/egg/example/api/rpc.py to rpc.pyc
+byte-compiling build/bdist.linux-x86_64/egg/example/api/models.py to models.pyc
+byte-compiling build/bdist.linux-x86_64/egg/example/wsgi.py to wsgi.pyc
+byte-compiling build/bdist.linux-x86_64/egg/example/main/admin.py to admin.pyc
+byte-compiling build/bdist.linux-x86_64/egg/example/main/utils/views.py to views.pyc
+byte-compiling build/bdist.linux-x86_64/egg/example/main/utils/cache.py to cache.pyc
+byte-compiling build/bdist.linux-x86_64/egg/example/main/utils/files.py to files.pyc
+byte-compiling build/bdist.linux-x86_64/egg/example/main/utils/__init__.py to __init__.pyc
+byte-compiling build/bdist.linux-x86_64/egg/example/main/utils/models.py to models.pyc
+byte-compiling build/bdist.linux-x86_64/egg/example/main/views.py to views.pyc
+byte-compiling build/bdist.linux-x86_64/egg/example/main/tests/__init__.py to __init__.pyc
+byte-compiling build/bdist.linux-x86_64/egg/example/main/tests/base.py to base.pyc
+byte-compiling build/bdist.linux-x86_64/egg/example/main/urls.py to urls.pyc
+byte-compiling build/bdist.linux-x86_64/egg/example/main/__init__.py to __init__.pyc
+byte-compiling build/bdist.linux-x86_64/egg/example/main/models.py to models.pyc
+byte-compiling build/bdist.linux-x86_64/egg/example/settings/__init__.py to __init__.pyc
+byte-compiling build/bdist.linux-x86_64/egg/example/settings/production.py to production.pyc
+byte-compiling build/bdist.linux-x86_64/egg/example/settings/core.py to core.pyc
+byte-compiling build/bdist.linux-x86_64/egg/example/settings/development.py to development.pyc
+byte-compiling build/bdist.linux-x86_64/egg/example/settings/test.py to test.pyc
+byte-compiling build/bdist.linux-x86_64/egg/example/__init__.py to __init__.pyc
+byte-compiling build/bdist.linux-x86_64/egg/tests/rpc/api.py to api.pyc
+byte-compiling build/bdist.linux-x86_64/egg/tests/rpc/tests.py to tests.pyc
+byte-compiling build/bdist.linux-x86_64/egg/tests/rpc/__init__.py to __init__.pyc
+byte-compiling build/bdist.linux-x86_64/egg/tests/rpc/dummy.py to dummy.pyc
+byte-compiling build/bdist.linux-x86_64/egg/tests/rpc/models.py to models.pyc
+byte-compiling build/bdist.linux-x86_64/egg/tests/main/api.py to api.pyc
+byte-compiling build/bdist.linux-x86_64/egg/tests/main/tests.py to tests.pyc
+byte-compiling build/bdist.linux-x86_64/egg/tests/main/resources.py to resources.pyc
+byte-compiling build/bdist.linux-x86_64/egg/tests/main/__init__.py to __init__.pyc
+byte-compiling build/bdist.linux-x86_64/egg/tests/main/models.py to models.pyc
+byte-compiling build/bdist.linux-x86_64/egg/tests/__init__.py to __init__.pyc
+byte-compiling build/bdist.linux-x86_64/egg/tests/core/api.py to api.pyc
+byte-compiling build/bdist.linux-x86_64/egg/tests/core/tests/admin.py to admin.pyc
+byte-compiling build/bdist.linux-x86_64/egg/tests/core/tests/utils.py to utils.pyc
+byte-compiling build/bdist.linux-x86_64/egg/tests/core/tests/resource.py to resource.pyc
+byte-compiling build/bdist.linux-x86_64/egg/tests/core/tests/api.py to api.pyc
+byte-compiling build/bdist.linux-x86_64/egg/tests/core/tests/emitter.py to emitter.pyc
+byte-compiling build/bdist.linux-x86_64/egg/tests/core/tests/__init__.py to __init__.pyc
+byte-compiling build/bdist.linux-x86_64/egg/tests/core/tests/rpc.py to rpc.pyc
+byte-compiling build/bdist.linux-x86_64/egg/tests/core/tests/serializer.py to serializer.pyc
+byte-compiling build/bdist.linux-x86_64/egg/tests/core/tests/handler.py to handler.pyc
+byte-compiling build/bdist.linux-x86_64/egg/tests/core/tests/dynamic.py to dynamic.pyc
+byte-compiling build/bdist.linux-x86_64/egg/tests/core/tests/auth.py to auth.pyc
+byte-compiling build/bdist.linux-x86_64/egg/tests/core/tests/test.py to test.pyc
+byte-compiling build/bdist.linux-x86_64/egg/tests/core/urls.py to urls.pyc
+byte-compiling build/bdist.linux-x86_64/egg/tests/core/__init__.py to __init__.pyc
+byte-compiling build/bdist.linux-x86_64/egg/tests/core/models.py to models.pyc
+byte-compiling build/bdist.linux-x86_64/egg/tests/test_adrest.py to test_adrest.pyc
+byte-compiling build/bdist.linux-x86_64/egg/adrest/resources/ga.py to ga.pyc
+byte-compiling build/bdist.linux-x86_64/egg/adrest/resources/map.py to map.pyc
+byte-compiling build/bdist.linux-x86_64/egg/adrest/resources/__init__.py to __init__.pyc
+byte-compiling build/bdist.linux-x86_64/egg/adrest/resources/rpc.py to rpc.pyc
+byte-compiling build/bdist.linux-x86_64/egg/adrest/admin.py to admin.pyc
+byte-compiling build/bdist.linux-x86_64/egg/adrest/signals.py to signals.pyc
+byte-compiling build/bdist.linux-x86_64/egg/adrest/api.py to api.pyc
+byte-compiling build/bdist.linux-x86_64/egg/adrest/templatetags.py to templatetags.pyc
+byte-compiling build/bdist.linux-x86_64/egg/adrest/utils/meta.py to meta.pyc
+byte-compiling build/bdist.linux-x86_64/egg/adrest/utils/paginator.py to paginator.pyc
+byte-compiling build/bdist.linux-x86_64/egg/adrest/utils/tools.py to tools.pyc
+byte-compiling build/bdist.linux-x86_64/egg/adrest/utils/response.py to response.pyc
+byte-compiling build/bdist.linux-x86_64/egg/adrest/utils/status.py to status.pyc
+byte-compiling build/bdist.linux-x86_64/egg/adrest/utils/parser.py to parser.pyc
+byte-compiling build/bdist.linux-x86_64/egg/adrest/utils/emitter.py to emitter.pyc
+byte-compiling build/bdist.linux-x86_64/egg/adrest/utils/mail.py to mail.pyc
+byte-compiling build/bdist.linux-x86_64/egg/adrest/utils/__init__.py to __init__.pyc
+byte-compiling build/bdist.linux-x86_64/egg/adrest/utils/serializer.py to serializer.pyc
+byte-compiling build/bdist.linux-x86_64/egg/adrest/utils/auth.py to auth.pyc
+byte-compiling build/bdist.linux-x86_64/egg/adrest/utils/throttle.py to throttle.pyc
+byte-compiling build/bdist.linux-x86_64/egg/adrest/utils/exceptions.py to exceptions.pyc
+byte-compiling build/bdist.linux-x86_64/egg/adrest/mixin/parser.py to parser.pyc
+byte-compiling build/bdist.linux-x86_64/egg/adrest/mixin/emitter.py to emitter.pyc
+byte-compiling build/bdist.linux-x86_64/egg/adrest/mixin/__init__.py to __init__.pyc
+byte-compiling build/bdist.linux-x86_64/egg/adrest/mixin/handler.py to handler.pyc
+byte-compiling build/bdist.linux-x86_64/egg/adrest/mixin/dynamic.py to dynamic.pyc
+byte-compiling build/bdist.linux-x86_64/egg/adrest/mixin/auth.py to auth.pyc
+byte-compiling build/bdist.linux-x86_64/egg/adrest/mixin/throttle.py to throttle.pyc
+byte-compiling build/bdist.linux-x86_64/egg/adrest/views.py to views.pyc
+byte-compiling build/bdist.linux-x86_64/egg/adrest/tests/utils.py to utils.pyc
+byte-compiling build/bdist.linux-x86_64/egg/adrest/tests/client.py to client.pyc
+byte-compiling build/bdist.linux-x86_64/egg/adrest/tests/__init__.py to __init__.pyc
+byte-compiling build/bdist.linux-x86_64/egg/adrest/forms.py to forms.pyc
+byte-compiling build/bdist.linux-x86_64/egg/adrest/__init__.py to __init__.pyc
+byte-compiling build/bdist.linux-x86_64/egg/adrest/settings.py to settings.pyc
+byte-compiling build/bdist.linux-x86_64/egg/adrest/models.py to models.pyc
+creating build/bdist.linux-x86_64/egg/EGG-INFO
+copying adrest.egg-info/PKG-INFO -> build/bdist.linux-x86_64/egg/EGG-INFO
+copying adrest.egg-info/SOURCES.txt -> build/bdist.linux-x86_64/egg/EGG-INFO
+copying adrest.egg-info/dependency_links.txt -> build/bdist.linux-x86_64/egg/EGG-INFO
+copying adrest.egg-info/requires.txt -> build/bdist.linux-x86_64/egg/EGG-INFO
+copying adrest.egg-info/top_level.txt -> build/bdist.linux-x86_64/egg/EGG-INFO
+zip_safe flag not set; analyzing archive contents...
+example.settings.production: module references __file__
+example.settings.core: module references __file__
+adrest.templatetags: module references __path__
+creating dist
+creating 'dist/adrest-3.3.2-py2.7.egg' and adding 'build/bdist.linux-x86_64/egg' to it
+removing 'build/bdist.linux-x86_64/egg' (and everything under it)
+Processing adrest-3.3.2-py2.7.egg
+creating /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/adrest-3.3.2-py2.7.egg
+Extracting adrest-3.3.2-py2.7.egg to /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages
+Adding adrest 3.3.2 to easy-install.pth file
+
+Installed /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/adrest-3.3.2-py2.7.egg
+Processing dependencies for adrest==3.3.2
+Searching for python-mimeparse==0.1.4
+Best match: python-mimeparse 0.1.4
+Adding python-mimeparse 0.1.4 to easy-install.pth file
+
+Using /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages
+Searching for Django==1.8.2
+Best match: Django 1.8.2
+Adding Django 1.8.2 to easy-install.pth file
+
+Using /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages
+Finished processing dependencies for adrest==3.3.2
+
+The following packages will be downloaded:
+
+    package                    |            build
+    ---------------------------|-----------------
+    python-mimeparse-0.1.4     |           py27_0           6 KB
+
+The following NEW packages will be INSTALLED:
+
+    django:           1.8.2-py27_0 
+    openssl:          1.0.1k-1     
+    pip:              7.0.3-py27_0 
+    python:           2.7.10-0     
+    python-mimeparse: 0.1.4-py27_0 
+    readline:         6.2-2        
+    setuptools:       18.0.1-py27_0
+    sqlite:           3.8.4.1-1    
+    system:           5.8-2        
+    tk:               8.5.18-0     
+    zlib:             1.2.8-0      
+
+Fetching packages ...
+python-mimepar   0% |                              | ETA:  --:--:--   0.00  B/spython-mimepar 100% |###############################| ETA:  0:00:00  12.69 MB/spython-mimepar 100% |###############################| Time: 0:00:00   8.06 MB/s
+Extracting packages ...
+[                    ]|                                                  |   0%[python-mimeparse    ]|                                                  |   0%[      COMPLETE      ]|##################################################| 100%
+Linking packages ...
+[      COMPLETE      ]|                                                  |   0%[openssl             ]|                                                  |   0%[openssl             ]|                                                  |   0%[readline            ]|####                                              |   9%[sqlite              ]|#########                                         |  18%[system              ]|#############                                     |  27%[tk                  ]|##################                                |  36%[zlib                ]|######################                            |  45%[django              ]|###########################                       |  54%[python              ]|###############################                   |  63%[python-mimeparse    ]|####################################              |  72%[setuptools          ]|########################################          |  81%[pip                 ]|#############################################     |  90%[      COMPLETE      ]|##################################################| 100%
+Removing old work directory
+Source cache directory is: /home/ubuntu/miniconda/conda-bld/src_cache
+Found source in cache: adrest-3.3.2.tar.gz
+Extracting download
+Package: adrest-3.3.2-py_0
+source tree in: /home/ubuntu/miniconda/conda-bld/work/adrest-3.3.2
+found egg dir: /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/adrest-3.3.2-py2.7.egg
+number of files: 185
+Fixing permissions
+Fixing permissions
+BUILD END: adrest-3.3.2-py_0
+TEST START: adrest-3.3.2-py_0
+Fetching package metadata: ......
+
+WARNING: conda-build appears to be out of date. You have version 1.13.0 but the
+latest version is 1.14.1. Run
+
+conda update -n root conda-build
+
+to get the latest version.
+
+Solving package specifications: .===== testing package: adrest-3.3.2-py_0 =====
+import: u'adrest'
+import: u'adrest.mixin'
+import: u'adrest.resources'
+import: u'adrest.tests'
+import: u'adrest.utils'
+import: u'example'
+import: u'example.api'
+import: u'example.main'
+import: u'example.main.tests'
+import: u'example.main.utils'
+import: u'example.settings'
+import: u'tests'
+import: u'tests.core'
+import: u'tests.core.tests'
+Traceback (most recent call last):
+  File "/home/ubuntu/miniconda/conda-bld/test-tmp_dir/run_test.py", line 64, in <module>
+    import tests.core.tests
+  File "/home/ubuntu/miniconda/envs/_test/lib/python2.7/site-packages/tests/core/tests/__init__.py", line 5, in <module>
+    from .auth import *
+  File "/home/ubuntu/miniconda/envs/_test/lib/python2.7/site-packages/tests/core/tests/auth.py", line 5, in <module>
+    from ..api import api as API
+  File "/home/ubuntu/miniconda/envs/_test/lib/python2.7/site-packages/tests/core/api.py", line 10, in <module>
+    class PirateResource(ResourceView):
+  File "/home/ubuntu/miniconda/envs/_test/lib/python2.7/site-packages/adrest/views.py", line 35, in __new__
+    cls = super(ResourceMetaClass, mcs).__new__(mcs, name, bases, params)
+  File "/home/ubuntu/miniconda/envs/_test/lib/python2.7/site-packages/adrest/mixin/handler.py", line 61, in __new__
+    cls = super(HandlerMeta, mcs).__new__(mcs, name, bases, params)
+  File "/home/ubuntu/miniconda/envs/_test/lib/python2.7/site-packages/adrest/mixin/dynamic.py", line 50, in __new__
+    cls = super(DynamicMixinMeta, mcs).__new__(mcs, name, bases, params)
+  File "/home/ubuntu/miniconda/envs/_test/lib/python2.7/site-packages/adrest/mixin/throttle.py", line 15, in __new__
+    cls = super(ThrottleMeta, mcs).__new__(mcs, name, bases, params)
+  File "/home/ubuntu/miniconda/envs/_test/lib/python2.7/site-packages/adrest/mixin/emitter.py", line 120, in __new__
+    cls = super(EmitterMeta, mcs).__new__(mcs, name, bases, params)
+  File "/home/ubuntu/miniconda/envs/_test/lib/python2.7/site-packages/adrest/mixin/parser.py", line 14, in __new__
+    cls = super(ParserMeta, mcs).__new__(mcs, name, bases, params)
+  File "/home/ubuntu/miniconda/envs/_test/lib/python2.7/site-packages/adrest/mixin/auth.py", line 19, in __new__
+    cls = super(AuthMeta, mcs).__new__(mcs, name, bases, params)
+  File "/home/ubuntu/miniconda/envs/_test/lib/python2.7/site-packages/adrest/utils/meta.py", line 73, in __new__
+    cls._meta.model = get_model(*cls._meta.model.split("."))
+  File "/home/ubuntu/miniconda/envs/_test/lib/python2.7/site-packages/django/db/models/__init__.py", line 56, in alias
+    return getattr(loading, function_name)(*args, **kwargs)
+  File "/home/ubuntu/miniconda/envs/_test/lib/python2.7/site-packages/django/apps/registry.py", line 199, in get_model
+    self.check_models_ready()
+  File "/home/ubuntu/miniconda/envs/_test/lib/python2.7/site-packages/django/apps/registry.py", line 131, in check_models_ready
+    raise AppRegistryNotReady("Models aren't loaded yet.")
+django.core.exceptions.AppRegistryNotReady: Models aren't loaded yet.
+
+The following packages will be downloaded:
+
+    package                    |            build
+    ---------------------------|-----------------
+    adrest-3.3.2               |             py_0          38 KB
+
+The following NEW packages will be INSTALLED:
+
+    adrest:           3.3.2-py_0   
+    django:           1.8.2-py27_0 
+    openssl:          1.0.1k-1     
+    pip:              7.0.3-py27_0 
+    python:           2.7.10-0     
+    python-mimeparse: 0.1.4-py27_0 
+    readline:         6.2-2        
+    setuptools:       18.0.1-py27_0
+    sqlite:           3.8.4.1-1    
+    system:           5.8-2        
+    tk:               8.5.18-0     
+    zlib:             1.2.8-0      
+
+Fetching packages ...
+adrest-3.3.2-p   0% |                              | ETA:  --:--:--   0.00  B/sadrest-3.3.2-p  42% |#############                  | Time: 0:00:00  59.39 MB/sadrest-3.3.2-p  85% |##########################     | Time: 0:00:00  68.14 MB/sadrest-3.3.2-p 100% |###############################| Time: 0:00:00  59.66 MB/sadrest-3.3.2-p 100% |###############################| Time: 0:00:00  49.20 MB/sadrest-3.3.2-p 100% |###############################| Time: 0:00:00  41.00 MB/s
+Extracting packages ...
+[      COMPLETE      ]|                                                  |   0%[adrest              ]|                                                  |   0%[adrest              ]|                                                  |   0%[      COMPLETE      ]|##################################################| 100%
+Linking packages ...
+[      COMPLETE      ]|                                                  |   0%[openssl             ]|                                                  |   0%[openssl             ]|                                                  |   0%[readline            ]|####                                              |   8%[sqlite              ]|########                                          |  16%[system              ]|############                                      |  25%[tk                  ]|################                                  |  33%[zlib                ]|####################                              |  41%[django              ]|#########################                         |  50%[python              ]|#############################                     |  58%[python-mimeparse    ]|#################################                 |  66%[setuptools          ]|#####################################             |  75%[adrest              ]|#########################################         |  83%[pip                 ]|#############################################     |  91%[      COMPLETE      ]|##################################################| 100%
+TESTS FAILED: adrest-3.3.2-py_0

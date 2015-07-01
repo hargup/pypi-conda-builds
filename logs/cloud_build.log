@@ -1,0 +1,294 @@
+Removing old build directory
+Removing old work directory
+BUILD START: cloud-2.8.5-py_0
+Fetching package metadata: ......
+
+WARNING: conda-build appears to be out of date. You have version 1.13.0 but the
+latest version is 1.14.1. Run
+
+conda update -n root conda-build
+
+to get the latest version.
+
+Solving package specifications: .+ /home/ubuntu/miniconda/envs/_build/bin/python setup.py install
+running install
+running bdist_egg
+running egg_info
+writing requirements to cloud.egg-info/requires.txt
+writing cloud.egg-info/PKG-INFO
+writing top-level names to cloud.egg-info/top_level.txt
+writing dependency_links to cloud.egg-info/dependency_links.txt
+writing entry points to cloud.egg-info/entry_points.txt
+reading manifest file 'cloud.egg-info/SOURCES.txt'
+reading manifest template 'MANIFEST.in'
+warning: no directories found matching 'bash_completion.egg'
+no previously-included directories found matching 'dist/*'
+no previously-included directories found matching 'deb_pkg/*'
+no previously-included directories found matching 'rpm_pkg/*'
+no previously-included directories found matching 'exe_pkg/*'
+warning: no previously-included files matching '*~' found anywhere in distribution
+writing manifest file 'cloud.egg-info/SOURCES.txt'
+installing library code to build/bdist.linux-x86_64/egg
+running install_lib
+running build_py
+creating build
+creating build/lib
+creating build/lib/cloud
+copying src/realtime.py -> build/lib/cloud
+copying src/bucket.py -> build/lib/cloud
+copying src/pool_interface.py -> build/lib/cloud
+copying src/queue.py -> build/lib/cloud
+copying src/versioninfo.py -> build/lib/cloud
+copying src/cron.py -> build/lib/cloud
+copying src/cloud.py -> build/lib/cloud
+copying src/wait_for.py -> build/lib/cloud
+copying src/cloudinterface.py -> build/lib/cloud
+copying src/volume.py -> build/lib/cloud
+copying src/rest.py -> build/lib/cloud
+copying src/shell.py -> build/lib/cloud
+copying src/account.py -> build/lib/cloud
+copying src/environment.py -> build/lib/cloud
+copying src/_server_bucket.py -> build/lib/cloud
+copying src/mp.py -> build/lib/cloud
+copying src/files.py -> build/lib/cloud
+copying src/__init__.py -> build/lib/cloud
+copying src/cloudlog.py -> build/lib/cloud
+copying src/cloudconfig.py -> build/lib/cloud
+creating build/lib/cloud/cli
+copying src/cli/util.py -> build/lib/cloud/cli
+copying src/cli/setup_machine.py -> build/lib/cloud/cli
+copying src/cli/main.py -> build/lib/cloud/cli
+copying src/cli/argparse.py -> build/lib/cloud/cli
+copying src/cli/__init__.py -> build/lib/cloud/cli
+copying src/cli/argparsers.py -> build/lib/cloud/cli
+copying src/cli/functions.py -> build/lib/cloud/cli
+creating build/lib/cloud/serialization
+copying src/serialization/pickledebug.py -> build/lib/cloud/serialization
+copying src/serialization/serializationhandlers.py -> build/lib/cloud/serialization
+copying src/serialization/__init__.py -> build/lib/cloud/serialization
+copying src/serialization/report.py -> build/lib/cloud/serialization
+copying src/serialization/xmlhandlers.py -> build/lib/cloud/serialization
+copying src/serialization/cloudpickle.py -> build/lib/cloud/serialization
+creating build/lib/cloud/transport
+copying src/transport/codedependency.py -> build/lib/cloud/transport
+copying src/transport/network.py -> build/lib/cloud/transport
+copying src/transport/adapter.py -> build/lib/cloud/transport
+copying src/transport/local.py -> build/lib/cloud/transport
+copying src/transport/queue_attachment.py -> build/lib/cloud/transport
+copying src/transport/connection.py -> build/lib/cloud/transport
+copying src/transport/__init__.py -> build/lib/cloud/transport
+copying src/transport/simulator.py -> build/lib/cloud/transport
+creating build/lib/cloud/util
+copying src/util/cronexpr.py -> build/lib/cloud/util
+copying src/util/writeconfig.py -> build/lib/cloud/util
+copying src/util/gzip_stream.py -> build/lib/cloud/util
+copying src/util/cache.py -> build/lib/cloud/util
+copying src/util/credentials.py -> build/lib/cloud/util
+copying src/util/__init__.py -> build/lib/cloud/util
+copying src/util/configmanager.py -> build/lib/cloud/util
+copying src/util/common.py -> build/lib/cloud/util
+copying src/util/template.py -> build/lib/cloud/util
+copying src/util/urllib2_file.py -> build/lib/cloud/util
+copying src/util/xrange_helper.py -> build/lib/cloud/util
+copying src/util/zip_packer.py -> build/lib/cloud/util
+creating build/lib/cloud/util/cloghandler
+copying src/util/cloghandler/cloghandler.py -> build/lib/cloud/util/cloghandler
+copying src/util/cloghandler/__init__.py -> build/lib/cloud/util/cloghandler
+copying src/util/cloghandler/portalocker.py -> build/lib/cloud/util/cloghandler
+creating build/lib/cloud/shortcuts
+copying src/shortcuts/ssh.py -> build/lib/cloud/shortcuts
+copying src/shortcuts/__init__.py -> build/lib/cloud/shortcuts
+creating build/bdist.linux-x86_64
+creating build/bdist.linux-x86_64/egg
+creating build/bdist.linux-x86_64/egg/cloud
+copying build/lib/cloud/realtime.py -> build/bdist.linux-x86_64/egg/cloud
+copying build/lib/cloud/bucket.py -> build/bdist.linux-x86_64/egg/cloud
+creating build/bdist.linux-x86_64/egg/cloud/serialization
+copying build/lib/cloud/serialization/pickledebug.py -> build/bdist.linux-x86_64/egg/cloud/serialization
+copying build/lib/cloud/serialization/serializationhandlers.py -> build/bdist.linux-x86_64/egg/cloud/serialization
+copying build/lib/cloud/serialization/__init__.py -> build/bdist.linux-x86_64/egg/cloud/serialization
+copying build/lib/cloud/serialization/report.py -> build/bdist.linux-x86_64/egg/cloud/serialization
+copying build/lib/cloud/serialization/xmlhandlers.py -> build/bdist.linux-x86_64/egg/cloud/serialization
+copying build/lib/cloud/serialization/cloudpickle.py -> build/bdist.linux-x86_64/egg/cloud/serialization
+copying build/lib/cloud/pool_interface.py -> build/bdist.linux-x86_64/egg/cloud
+copying build/lib/cloud/queue.py -> build/bdist.linux-x86_64/egg/cloud
+creating build/bdist.linux-x86_64/egg/cloud/util
+copying build/lib/cloud/util/cronexpr.py -> build/bdist.linux-x86_64/egg/cloud/util
+copying build/lib/cloud/util/writeconfig.py -> build/bdist.linux-x86_64/egg/cloud/util
+creating build/bdist.linux-x86_64/egg/cloud/util/cloghandler
+copying build/lib/cloud/util/cloghandler/cloghandler.py -> build/bdist.linux-x86_64/egg/cloud/util/cloghandler
+copying build/lib/cloud/util/cloghandler/__init__.py -> build/bdist.linux-x86_64/egg/cloud/util/cloghandler
+copying build/lib/cloud/util/cloghandler/portalocker.py -> build/bdist.linux-x86_64/egg/cloud/util/cloghandler
+copying build/lib/cloud/util/gzip_stream.py -> build/bdist.linux-x86_64/egg/cloud/util
+copying build/lib/cloud/util/cache.py -> build/bdist.linux-x86_64/egg/cloud/util
+copying build/lib/cloud/util/credentials.py -> build/bdist.linux-x86_64/egg/cloud/util
+copying build/lib/cloud/util/__init__.py -> build/bdist.linux-x86_64/egg/cloud/util
+copying build/lib/cloud/util/configmanager.py -> build/bdist.linux-x86_64/egg/cloud/util
+copying build/lib/cloud/util/common.py -> build/bdist.linux-x86_64/egg/cloud/util
+copying build/lib/cloud/util/template.py -> build/bdist.linux-x86_64/egg/cloud/util
+copying build/lib/cloud/util/urllib2_file.py -> build/bdist.linux-x86_64/egg/cloud/util
+copying build/lib/cloud/util/xrange_helper.py -> build/bdist.linux-x86_64/egg/cloud/util
+copying build/lib/cloud/util/zip_packer.py -> build/bdist.linux-x86_64/egg/cloud/util
+copying build/lib/cloud/versioninfo.py -> build/bdist.linux-x86_64/egg/cloud
+copying build/lib/cloud/cron.py -> build/bdist.linux-x86_64/egg/cloud
+copying build/lib/cloud/cloud.py -> build/bdist.linux-x86_64/egg/cloud
+copying build/lib/cloud/wait_for.py -> build/bdist.linux-x86_64/egg/cloud
+copying build/lib/cloud/cloudinterface.py -> build/bdist.linux-x86_64/egg/cloud
+creating build/bdist.linux-x86_64/egg/cloud/transport
+copying build/lib/cloud/transport/codedependency.py -> build/bdist.linux-x86_64/egg/cloud/transport
+copying build/lib/cloud/transport/network.py -> build/bdist.linux-x86_64/egg/cloud/transport
+copying build/lib/cloud/transport/adapter.py -> build/bdist.linux-x86_64/egg/cloud/transport
+copying build/lib/cloud/transport/local.py -> build/bdist.linux-x86_64/egg/cloud/transport
+copying build/lib/cloud/transport/queue_attachment.py -> build/bdist.linux-x86_64/egg/cloud/transport
+copying build/lib/cloud/transport/connection.py -> build/bdist.linux-x86_64/egg/cloud/transport
+copying build/lib/cloud/transport/__init__.py -> build/bdist.linux-x86_64/egg/cloud/transport
+copying build/lib/cloud/transport/simulator.py -> build/bdist.linux-x86_64/egg/cloud/transport
+copying build/lib/cloud/volume.py -> build/bdist.linux-x86_64/egg/cloud
+copying build/lib/cloud/rest.py -> build/bdist.linux-x86_64/egg/cloud
+copying build/lib/cloud/shell.py -> build/bdist.linux-x86_64/egg/cloud
+copying build/lib/cloud/account.py -> build/bdist.linux-x86_64/egg/cloud
+copying build/lib/cloud/environment.py -> build/bdist.linux-x86_64/egg/cloud
+copying build/lib/cloud/_server_bucket.py -> build/bdist.linux-x86_64/egg/cloud
+copying build/lib/cloud/mp.py -> build/bdist.linux-x86_64/egg/cloud
+copying build/lib/cloud/files.py -> build/bdist.linux-x86_64/egg/cloud
+copying build/lib/cloud/__init__.py -> build/bdist.linux-x86_64/egg/cloud
+creating build/bdist.linux-x86_64/egg/cloud/shortcuts
+copying build/lib/cloud/shortcuts/ssh.py -> build/bdist.linux-x86_64/egg/cloud/shortcuts
+copying build/lib/cloud/shortcuts/__init__.py -> build/bdist.linux-x86_64/egg/cloud/shortcuts
+copying build/lib/cloud/cloudlog.py -> build/bdist.linux-x86_64/egg/cloud
+creating build/bdist.linux-x86_64/egg/cloud/cli
+copying build/lib/cloud/cli/util.py -> build/bdist.linux-x86_64/egg/cloud/cli
+copying build/lib/cloud/cli/setup_machine.py -> build/bdist.linux-x86_64/egg/cloud/cli
+copying build/lib/cloud/cli/main.py -> build/bdist.linux-x86_64/egg/cloud/cli
+copying build/lib/cloud/cli/argparse.py -> build/bdist.linux-x86_64/egg/cloud/cli
+copying build/lib/cloud/cli/__init__.py -> build/bdist.linux-x86_64/egg/cloud/cli
+copying build/lib/cloud/cli/argparsers.py -> build/bdist.linux-x86_64/egg/cloud/cli
+copying build/lib/cloud/cli/functions.py -> build/bdist.linux-x86_64/egg/cloud/cli
+copying build/lib/cloud/cloudconfig.py -> build/bdist.linux-x86_64/egg/cloud
+byte-compiling build/bdist.linux-x86_64/egg/cloud/realtime.py to realtime.pyc
+byte-compiling build/bdist.linux-x86_64/egg/cloud/bucket.py to bucket.pyc
+byte-compiling build/bdist.linux-x86_64/egg/cloud/serialization/pickledebug.py to pickledebug.pyc
+byte-compiling build/bdist.linux-x86_64/egg/cloud/serialization/serializationhandlers.py to serializationhandlers.pyc
+byte-compiling build/bdist.linux-x86_64/egg/cloud/serialization/__init__.py to __init__.pyc
+byte-compiling build/bdist.linux-x86_64/egg/cloud/serialization/report.py to report.pyc
+byte-compiling build/bdist.linux-x86_64/egg/cloud/serialization/xmlhandlers.py to xmlhandlers.pyc
+byte-compiling build/bdist.linux-x86_64/egg/cloud/serialization/cloudpickle.py to cloudpickle.pyc
+byte-compiling build/bdist.linux-x86_64/egg/cloud/pool_interface.py to pool_interface.pyc
+byte-compiling build/bdist.linux-x86_64/egg/cloud/queue.py to queue.pyc
+byte-compiling build/bdist.linux-x86_64/egg/cloud/util/cronexpr.py to cronexpr.pyc
+byte-compiling build/bdist.linux-x86_64/egg/cloud/util/writeconfig.py to writeconfig.pyc
+byte-compiling build/bdist.linux-x86_64/egg/cloud/util/cloghandler/cloghandler.py to cloghandler.pyc
+byte-compiling build/bdist.linux-x86_64/egg/cloud/util/cloghandler/__init__.py to __init__.pyc
+byte-compiling build/bdist.linux-x86_64/egg/cloud/util/cloghandler/portalocker.py to portalocker.pyc
+byte-compiling build/bdist.linux-x86_64/egg/cloud/util/gzip_stream.py to gzip_stream.pyc
+byte-compiling build/bdist.linux-x86_64/egg/cloud/util/cache.py to cache.pyc
+byte-compiling build/bdist.linux-x86_64/egg/cloud/util/credentials.py to credentials.pyc
+byte-compiling build/bdist.linux-x86_64/egg/cloud/util/__init__.py to __init__.pyc
+byte-compiling build/bdist.linux-x86_64/egg/cloud/util/configmanager.py to configmanager.pyc
+byte-compiling build/bdist.linux-x86_64/egg/cloud/util/common.py to common.pyc
+byte-compiling build/bdist.linux-x86_64/egg/cloud/util/template.py to template.pyc
+byte-compiling build/bdist.linux-x86_64/egg/cloud/util/urllib2_file.py to urllib2_file.pyc
+byte-compiling build/bdist.linux-x86_64/egg/cloud/util/xrange_helper.py to xrange_helper.pyc
+byte-compiling build/bdist.linux-x86_64/egg/cloud/util/zip_packer.py to zip_packer.pyc
+byte-compiling build/bdist.linux-x86_64/egg/cloud/versioninfo.py to versioninfo.pyc
+byte-compiling build/bdist.linux-x86_64/egg/cloud/cron.py to cron.pyc
+byte-compiling build/bdist.linux-x86_64/egg/cloud/cloud.py to cloud.pyc
+byte-compiling build/bdist.linux-x86_64/egg/cloud/wait_for.py to wait_for.pyc
+byte-compiling build/bdist.linux-x86_64/egg/cloud/cloudinterface.py to cloudinterface.pyc
+byte-compiling build/bdist.linux-x86_64/egg/cloud/transport/codedependency.py to codedependency.pyc
+byte-compiling build/bdist.linux-x86_64/egg/cloud/transport/network.py to network.pyc
+byte-compiling build/bdist.linux-x86_64/egg/cloud/transport/adapter.py to adapter.pyc
+byte-compiling build/bdist.linux-x86_64/egg/cloud/transport/local.py to local.pyc
+byte-compiling build/bdist.linux-x86_64/egg/cloud/transport/queue_attachment.py to queue_attachment.pyc
+byte-compiling build/bdist.linux-x86_64/egg/cloud/transport/connection.py to connection.pyc
+byte-compiling build/bdist.linux-x86_64/egg/cloud/transport/__init__.py to __init__.pyc
+byte-compiling build/bdist.linux-x86_64/egg/cloud/transport/simulator.py to simulator.pyc
+byte-compiling build/bdist.linux-x86_64/egg/cloud/volume.py to volume.pyc
+byte-compiling build/bdist.linux-x86_64/egg/cloud/rest.py to rest.pyc
+byte-compiling build/bdist.linux-x86_64/egg/cloud/shell.py to shell.pyc
+byte-compiling build/bdist.linux-x86_64/egg/cloud/account.py to account.pyc
+byte-compiling build/bdist.linux-x86_64/egg/cloud/environment.py to environment.pyc
+byte-compiling build/bdist.linux-x86_64/egg/cloud/_server_bucket.py to _server_bucket.pyc
+byte-compiling build/bdist.linux-x86_64/egg/cloud/mp.py to mp.pyc
+byte-compiling build/bdist.linux-x86_64/egg/cloud/files.py to files.pyc
+byte-compiling build/bdist.linux-x86_64/egg/cloud/__init__.py to __init__.pyc
+byte-compiling build/bdist.linux-x86_64/egg/cloud/shortcuts/ssh.py to ssh.pyc
+byte-compiling build/bdist.linux-x86_64/egg/cloud/shortcuts/__init__.py to __init__.pyc
+byte-compiling build/bdist.linux-x86_64/egg/cloud/cloudlog.py to cloudlog.pyc
+byte-compiling build/bdist.linux-x86_64/egg/cloud/cli/util.py to util.pyc
+byte-compiling build/bdist.linux-x86_64/egg/cloud/cli/setup_machine.py to setup_machine.pyc
+byte-compiling build/bdist.linux-x86_64/egg/cloud/cli/main.py to main.pyc
+byte-compiling build/bdist.linux-x86_64/egg/cloud/cli/argparse.py to argparse.pyc
+byte-compiling build/bdist.linux-x86_64/egg/cloud/cli/__init__.py to __init__.pyc
+byte-compiling build/bdist.linux-x86_64/egg/cloud/cli/argparsers.py to argparsers.pyc
+byte-compiling build/bdist.linux-x86_64/egg/cloud/cli/functions.py to functions.pyc
+byte-compiling build/bdist.linux-x86_64/egg/cloud/cloudconfig.py to cloudconfig.pyc
+creating build/bdist.linux-x86_64/egg/EGG-INFO
+copying cloud.egg-info/PKG-INFO -> build/bdist.linux-x86_64/egg/EGG-INFO
+copying cloud.egg-info/SOURCES.txt -> build/bdist.linux-x86_64/egg/EGG-INFO
+copying cloud.egg-info/dependency_links.txt -> build/bdist.linux-x86_64/egg/EGG-INFO
+copying cloud.egg-info/entry_points.txt -> build/bdist.linux-x86_64/egg/EGG-INFO
+copying cloud.egg-info/requires.txt -> build/bdist.linux-x86_64/egg/EGG-INFO
+copying cloud.egg-info/top_level.txt -> build/bdist.linux-x86_64/egg/EGG-INFO
+zip_safe flag not set; analyzing archive contents...
+cloud.__init__: module references __path__
+cloud.serialization.cloudpickle: module references __file__
+cloud.util.configmanager: module references __path__
+cloud.transport.adapter: module references __file__
+cloud.transport.codedependency: module references __file__
+cloud.transport.codedependency: module references __path__
+creating dist
+creating 'dist/cloud-2.8.5-py2.7.egg' and adding 'build/bdist.linux-x86_64/egg' to it
+removing 'build/bdist.linux-x86_64/egg' (and everything under it)
+Processing cloud-2.8.5-py2.7.egg
+creating /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/cloud-2.8.5-py2.7.egg
+Extracting cloud-2.8.5-py2.7.egg to /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages
+Adding cloud 2.8.5 to easy-install.pth file
+Installing picloud script to /home/ubuntu/miniconda/envs/_build/bin
+
+Installed /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/cloud-2.8.5-py2.7.egg
+Processing dependencies for cloud==2.8.5
+Searching for setuptools==15.2
+Best match: setuptools 15.2
+Adding setuptools 15.2 to easy-install.pth file
+Installing easy_install-3.4 script to /home/ubuntu/miniconda/envs/_build/bin
+Installing easy_install script to /home/ubuntu/miniconda/envs/_build/bin
+
+Using /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages
+Finished processing dependencies for cloud==2.8.5
+copying bash_completion.d/picloud -> /etc/bash_completion.d/
+Warning: Could not install bash completion scripts to [Errno 13] Permission denied: '/etc/bash_completion.d/picloud'
+copying doc/picloud.1 -> /home/ubuntu/miniconda/envs/_build/share/man/man1/
+
+********************************************************
+********************************************************
+***                                                  ***
+***  Please run "picloud setup" to complete install  ***
+***                                                  ***
+********************************************************
+********************************************************
+
+
+The following NEW packages will be INSTALLED:
+
+    openssl:    1.0.1k-1     
+    pip:        7.0.3-py27_0 
+    python:     2.7.10-0     
+    readline:   6.2-2        
+    setuptools: 18.0.1-py27_0
+    sqlite:     3.8.4.1-1    
+    system:     5.8-2        
+    tk:         8.5.18-0     
+    zlib:       1.2.8-0      
+
+Linking packages ...
+[                    ]|                                                  |   0%[openssl             ]|                                                  |   0%[readline            ]|#####                                             |  11%[sqlite              ]|###########                                       |  22%[system              ]|################                                  |  33%[tk                  ]|######################                            |  44%[zlib                ]|###########################                       |  55%[python              ]|#################################                 |  66%[setuptools          ]|######################################            |  77%[pip                 ]|############################################      |  88%[      COMPLETE      ]|##################################################| 100%
+Removing old work directory
+Source cache directory is: /home/ubuntu/miniconda/conda-bld/src_cache
+Found source in cache: cloud-2.8.5.tar.gz
+Extracting download
+Package: cloud-2.8.5-py_0
+source tree in: /home/ubuntu/miniconda/conda-bld/work/cloud-2.8.5
+number of files: 128
+Fixing permissions
+[noarch_python] Error: Don't know how to handle file: share/man/man1/picloud.1

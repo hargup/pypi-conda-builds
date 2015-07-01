@@ -1,0 +1,79 @@
+package:
+  name: ming
+  version: "0.5.2"
+
+source:
+  fn: Ming-0.5.2.tar.gz
+  url: https://pypi.python.org/packages/source/M/Ming/Ming-0.5.2.tar.gz
+  md5: df18f59f4da7ce311d2bbd26b730518d
+#  patches:
+   # List any patch files here
+   # - fix.patch
+
+build:
+  noarch_python: True
+  # preserve_egg_dir: True
+  # entry_points:
+    # Put any entry points (scripts to be generated automatically) here. The
+    # syntax is module:function.  For example
+    #
+    # - ming = ming:main
+    #
+    # Would create an entry point called ming that calls ming.main()
+
+
+  # If this is a new build for the same version, increment the build
+  # number. If you do not include this key, it defaults to 0.
+  # number: 1
+
+requirements:
+  build:
+    - python
+    - setuptools
+    - formencode >=1.2.1
+    - pymongo >=2.4,<3.0
+    - pytz
+    - six >=1.6.1
+
+  run:
+    - python
+    - formencode >=1.2.1
+    - pymongo >=2.4,<3.0
+    - pytz
+    - six >=1.6.1
+
+test:
+  # Python imports
+  imports:
+    - ming
+    - ming.distutils_commands
+    - ming.odm
+    - ming.orm
+    - ming.tests
+    - ming.tests.odm
+
+  # commands:
+    # You can put test commands to be run here.  Use this to test that the
+    # entry points work.
+
+
+  # You can also put a file called run_test.py in the recipe that will be run
+  # at test time.
+
+  requires:
+    - mock >=0.8.0
+    - nose
+    - pytz
+    - webob
+    - webtest
+    # Put any additional test requirements here.  For example
+    # - nose
+
+about:
+  home: http://merciless.sourceforge.net
+  license: MIT License
+  summary: 'Bringing order to Mongo since 2009'
+
+# See
+# http://docs.continuum.io/conda/build.html for
+# more information about meta.yaml

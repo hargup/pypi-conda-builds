@@ -1,0 +1,41 @@
+Warning, the following versions were found for zope.browser
+2.1.0
+2.0.2
+2.0.1
+2.0.0
+1.3
+1.2
+1.1
+1.0
+0.5.0
+Using 2.1.0
+Use --version to specify a different version.
+Using url https://pypi.python.org/packages/source/z/zope.browser/zope.browser-2.1.0.tar.gz (8 KB) for zope.browser.
+Downloading zope.browser
+Using cached download
+Unpacking zope.browser...
+done
+working in /tmp/tmpAhomLvconda_skeleton_zope.browser-2.1.0.tar.gz
+Fetching package metadata: ......
+
+WARNING: conda-build appears to be out of date. You have version 1.13.0 but the
+latest version is 1.14.1. Run
+
+conda update -n root conda-build
+
+to get the latest version.
+
+Solving package specifications: .patching file core.py
+Hunk #1 succeeded at 168 with fuzz 2 (offset 2 lines).
+
+The following NEW packages will be INSTALLED:
+
+    numpy:  1.9.2-py27_0
+    pyyaml: 3.11-py27_1 
+    yaml:   0.1.6-0     
+
+Linking packages ...
+[                    ]|                                                  |   0%[yaml                ]|                                                  |   0%[numpy               ]|################                                  |  33%[pyyaml              ]|#################################                 |  66%[      COMPLETE      ]|##################################################| 100%
+Applying patch: '/tmp/tmpAhomLvconda_skeleton_zope.browser-2.1.0.tar.gz/pypi-distutils.patch'
+Writing recipe for zope.browser
+Done

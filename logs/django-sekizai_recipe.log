@@ -17,18 +17,23 @@ Warning, the following versions were found for django-sekizai
 Using 0.8.2
 Use --version to specify a different version.
 Using url https://pypi.python.org/packages/source/d/django-sekizai/django-sekizai-0.8.2.tar.gz (163 KB) for django-sekizai.
-Downloading django-sekizai (use --no-download to skip this step)
+Downloading django-sekizai
+Using cached download
 Unpacking django-sekizai...
 done
-working in /tmp/tmpNUvIRCconda_skeleton_django-sekizai-0.8.2.tar.gz
+working in /tmp/tmpwWnkY4conda_skeleton_django-sekizai-0.8.2.tar.gz
 Fetching package metadata: ......
+
+WARNING: conda-build appears to be out of date. You have version 1.13.0 but the
+latest version is 1.14.1. Run
+
+conda update -n root conda-build
+
+to get the latest version.
+
 Solving package specifications: .patching file core.py
 Hunk #1 succeeded at 168 with fuzz 2 (offset 2 lines).
-Traceback (most recent call last):
-  File "setup.py", line 1, in <module>
-    from setuptools import setup, find_packages
-ImportError: No module named setuptools
 
-Applying patch: '/tmp/tmpNUvIRCconda_skeleton_django-sekizai-0.8.2.tar.gz/pypi-distutils.patch'
-$PYTHONPATH = /tmp/tmpNUvIRCconda_skeleton_django-sekizai-0.8.2.tar.gz/django-sekizai-0.8.2
-Error: command failed: /home/ubuntu/miniconda/envs/_build/bin/python setup.py install
+Applying patch: '/tmp/tmpwWnkY4conda_skeleton_django-sekizai-0.8.2.tar.gz/pypi-distutils.patch'
+Writing recipe for django-sekizai
+Done

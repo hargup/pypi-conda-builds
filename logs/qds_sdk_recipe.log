@@ -1,4 +1,5 @@
 Warning, the following versions were found for qds_sdk
+1.6.1
 1.6.0
 1.5.1
 1.5.0
@@ -38,22 +39,34 @@ Warning, the following versions were found for qds_sdk
 1.0.5-beta
 1.0.3-beta
 1.0.2-beta
-Using 1.6.0
+Using 1.6.1
 Use --version to specify a different version.
-Using url https://pypi.python.org/packages/source/q/qds_sdk/qds_sdk-1.6.0.tar.gz (32 KB) for qds_sdk.
-Downloading qds_sdk (use --no-download to skip this step)
+Using url https://pypi.python.org/packages/source/q/qds_sdk/qds_sdk-1.6.1.tar.gz (33 KB) for qds_sdk.
+Downloading qds_sdk
 Using cached download
 Unpacking qds_sdk...
 done
-working in /tmp/tmpmYwL5dconda_skeleton_qds_sdk-1.6.0.tar.gz
+working in /tmp/tmpuqgEanconda_skeleton_qds_sdk-1.6.1.tar.gz
 Fetching package metadata: ......
+
+WARNING: conda-build appears to be out of date. You have version 1.13.0 but the
+latest version is 1.14.1. Run
+
+conda update -n root conda-build
+
+to get the latest version.
+
 Solving package specifications: .patching file core.py
 Hunk #1 succeeded at 168 with fuzz 2 (offset 2 lines).
-Traceback (most recent call last):
-  File "setup.py", line 3, in <module>
-    from setuptools import setup
-ImportError: No module named setuptools
 
-Applying patch: '/tmp/tmpmYwL5dconda_skeleton_qds_sdk-1.6.0.tar.gz/pypi-distutils.patch'
-$PYTHONPATH = /tmp/tmpmYwL5dconda_skeleton_qds_sdk-1.6.0.tar.gz/qds_sdk-1.6.0
-Error: command failed: /home/ubuntu/miniconda/envs/_build/bin/python setup.py install
+The following NEW packages will be INSTALLED:
+
+    numpy:  1.9.2-py27_0
+    pyyaml: 3.11-py27_1 
+    yaml:   0.1.6-0     
+
+Linking packages ...
+[                    ]|                                                  |   0%[yaml                ]|                                                  |   0%[numpy               ]|################                                  |  33%[pyyaml              ]|#################################                 |  66%[      COMPLETE      ]|##################################################| 100%
+Applying patch: '/tmp/tmpuqgEanconda_skeleton_qds_sdk-1.6.1.tar.gz/pypi-distutils.patch'
+Writing recipe for qds_sdk
+Done

@@ -1,37 +1,32 @@
 Error: prefix already exists: /home/ubuntu/miniconda/envs/_pipbuild_
-Collecting coveralls==1.0a2
-  Downloading http://localhost/packages/2.7/c/coveralls/coveralls-1.0a2-py2.py3-none-any.whl
-Collecting docopt>=0.6.1 (from coveralls==1.0a2)
-  Downloading http://localhost/packages/source/d/docopt/docopt-0.6.2.tar.gz
-setuptools must be installed to install from a source distribution
+Exception:
+Traceback (most recent call last):
+  File "/home/ubuntu/miniconda/envs/_pipbuild_/lib/python2.7/site-packages/pip/basecommand.py", line 223, in main
+    status = self.run(options, args)
+  File "/home/ubuntu/miniconda/envs/_pipbuild_/lib/python2.7/site-packages/pip/commands/install.py", line 268, in run
+    wheel_cache
+  File "/home/ubuntu/miniconda/envs/_pipbuild_/lib/python2.7/site-packages/pip/basecommand.py", line 268, in populate_requirement_set
+    wheel_cache=wheel_cache
+  File "/home/ubuntu/miniconda/envs/_pipbuild_/lib/python2.7/site-packages/pip/req/req_install.py", line 207, in from_line
+    wheel_cache=wheel_cache)
+  File "/home/ubuntu/miniconda/envs/_pipbuild_/lib/python2.7/site-packages/pip/req/req_install.py", line 66, in __init__
+    req = pkg_resources.Requirement.parse(req)
+  File "/home/ubuntu/miniconda/envs/_pipbuild_/lib/python2.7/site-packages/pip/_vendor/pkg_resources/__init__.py", line 2960, in parse
+    reqs = list(parse_requirements(s))
+  File "/home/ubuntu/miniconda/envs/_pipbuild_/lib/python2.7/site-packages/pip/_vendor/pkg_resources/__init__.py", line 2904, in parse_requirements
+    "version spec")
+  File "/home/ubuntu/miniconda/envs/_pipbuild_/lib/python2.7/site-packages/pip/_vendor/pkg_resources/__init__.py", line 2869, in scan_list
+    raise ValueError(msg, line, "at", line[p:])
+ValueError: ('Expected version spec in', 'docopt==>=0.6.1', 'at', '==>=0.6.1')
+
 Package search: {'_pypi_ordering': False, 'version': '1.0a2', 'name': 'coveralls', 'summary': 'Show coverage stats online via coveralls.io'}
 Creating standard recipe for coveralls-1.0a2
-Using url https://pypi.python.org/packages/source/c/coveralls/coveralls-1.0a2.tar.gz (10 KB) for coveralls.
-Downloading coveralls
-Using cached download
-Unpacking coveralls...
-done
-working in /tmp/tmpbPcuX9conda_skeleton_coveralls-1.0a2.tar.gz
-Fetching package metadata: ......
-
-WARNING: conda-build appears to be out of date. You have version 1.13.0 but the
-latest version is 1.14.0. Run
-
-conda update -n root conda-build
-
-to get the latest version.
-
-Solving package specifications: .patching file core.py
-Hunk #1 succeeded at 168 with fuzz 2 (offset 2 lines).
-Traceback (most recent call last):
-  File "setup.py", line 2, in <module>
-    from setuptools.command.test import test as TestCommand
-ImportError: No module named setuptools.command.test
-
-Applying patch: '/tmp/tmpbPcuX9conda_skeleton_coveralls-1.0a2.tar.gz/pypi-distutils.patch'
-$PYTHONPATH = /tmp/tmpbPcuX9conda_skeleton_coveralls-1.0a2.tar.gz/coveralls-1.0a2
-Error: command failed: /home/ubuntu/miniconda/envs/_build/bin/python setup.py install
+Converting recipe in /home/ubuntu/pypi-conda-builds/coveralls
+package = coveralls
+   dependencies = [u'docopt >=0.6.1', u'coverage >=3.6', u'requests >=1.0.0']
+Creating standard recipe for docopt->=0.6.1
+Error: Version >=0.6.1 of docopt is not available on PyPI.
 
 conda create -n _pipbuild_ --yes python pip
-/home/ubuntu/miniconda/envs/_pipbuild_/bin/pip install coveralls==1.0a2
-Error: Could not pip install coveralls==1.0a2
+/home/ubuntu/miniconda/envs/_pipbuild_/bin/pip install docopt==>=0.6.1
+Error: Could not pip install docopt==>=0.6.1

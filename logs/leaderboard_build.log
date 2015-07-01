@@ -2,6 +2,14 @@ Removing old build directory
 Removing old work directory
 BUILD START: leaderboard-3.3.0-py27_0
 Fetching package metadata: ......
+
+WARNING: conda-build appears to be out of date. You have version 1.13.0 but the
+latest version is 1.14.1. Run
+
+conda update -n root conda-build
+
+to get the latest version.
+
 Solving package specifications: .+ /home/ubuntu/miniconda/envs/_build/bin/python setup.py install
 running install
 running bdist_egg
@@ -67,7 +75,7 @@ The following NEW packages will be INSTALLED:
     python:     2.7.10-0     
     readline:   6.2-2        
     redis:      2.10.3-py27_0
-    setuptools: 17.0-py27_0  
+    setuptools: 18.0.1-py27_0
     sqlite:     3.8.4.1-1    
     system:     5.8-2        
     tk:         8.5.18-0     
@@ -88,6 +96,14 @@ Fixing permissions
 BUILD END: leaderboard-3.3.0-py27_0
 TEST START: leaderboard-3.3.0-py27_0
 Fetching package metadata: ......
+
+WARNING: conda-build appears to be out of date. You have version 1.13.0 but the
+latest version is 1.14.1. Run
+
+conda update -n root conda-build
+
+to get the latest version.
+
 Solving package specifications: .===== testing package: leaderboard-3.3.0-py27_0 =====
 import: u'leaderboard'
 ===== leaderboard-3.3.0-py27_0 OK =====
@@ -96,7 +112,7 @@ The following packages will be downloaded:
 
     package                    |            build
     ---------------------------|-----------------
-    leaderboard-3.3.0          |           py27_0          31 KB
+    leaderboard-3.3.0          |           py27_0          30 KB
 
 The following NEW packages will be INSTALLED:
 
@@ -106,14 +122,14 @@ The following NEW packages will be INSTALLED:
     python:      2.7.10-0     
     readline:    6.2-2        
     redis:       2.10.3-py27_0
-    setuptools:  17.0-py27_0  
+    setuptools:  18.0.1-py27_0
     sqlite:      3.8.4.1-1    
     system:      5.8-2        
     tk:          8.5.18-0     
     zlib:        1.2.8-0      
 
 Fetching packages ...
-leaderboard-3.   0% |                              | ETA:  --:--:--   0.00  B/sleaderboard-3.  52% |################               | ETA:  0:00:00  46.28 MB/sleaderboard-3. 100% |###############################| ETA:  0:00:00  56.12 MB/sleaderboard-3. 100% |###############################| Time: 0:00:00  40.60 MB/s
+leaderboard-3.   0% |                              | ETA:  --:--:--   0.00  B/sleaderboard-3.  52% |################               | ETA:  0:00:00  47.92 MB/sleaderboard-3. 100% |###############################| ETA:  0:00:00  57.20 MB/sleaderboard-3. 100% |###############################| Time: 0:00:00  39.24 MB/s
 Extracting packages ...
 [      COMPLETE      ]|                                                  |   0%[leaderboard         ]|                                                  |   0%[leaderboard         ]|                                                  |   0%[      COMPLETE      ]|##################################################| 100%
 Linking packages ...

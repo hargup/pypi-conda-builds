@@ -1,0 +1,229 @@
+Removing old build directory
+Removing old work directory
+BUILD START: pyreadline-2.0-py_0
+Fetching package metadata: ......
+
+WARNING: conda-build appears to be out of date. You have version 1.13.0 but the
+latest version is 1.14.1. Run
+
+conda update -n root conda-build
+
+to get the latest version.
+
+Solving package specifications: .+ /home/ubuntu/miniconda/envs/_build/bin/python setup.py install
+running install
+running build
+running build_py
+creating build
+creating build/lib
+copying readline.py -> build/lib
+creating build/lib/pyreadline
+copying pyreadline/logserver.py -> build/lib/pyreadline
+copying pyreadline/rlmain.py -> build/lib/pyreadline
+copying pyreadline/unicode_helper.py -> build/lib/pyreadline
+copying pyreadline/release.py -> build/lib/pyreadline
+copying pyreadline/py3k_compat.py -> build/lib/pyreadline
+copying pyreadline/__init__.py -> build/lib/pyreadline
+copying pyreadline/error.py -> build/lib/pyreadline
+copying pyreadline/get_doc.py -> build/lib/pyreadline
+copying pyreadline/logger.py -> build/lib/pyreadline
+creating build/lib/pyreadline/clipboard
+copying pyreadline/clipboard/win32_clipboard.py -> build/lib/pyreadline/clipboard
+copying pyreadline/clipboard/no_clipboard.py -> build/lib/pyreadline/clipboard
+copying pyreadline/clipboard/ironpython_clipboard.py -> build/lib/pyreadline/clipboard
+copying pyreadline/clipboard/__init__.py -> build/lib/pyreadline/clipboard
+package init file 'pyreadline/configuration/__init__.py' not found (or not a regular file)
+creating build/lib/pyreadline/configuration
+copying pyreadline/configuration/startup.py -> build/lib/pyreadline/configuration
+creating build/lib/pyreadline/console
+copying pyreadline/console/event.py -> build/lib/pyreadline/console
+copying pyreadline/console/ansi.py -> build/lib/pyreadline/console
+copying pyreadline/console/console_attributes.py -> build/lib/pyreadline/console
+copying pyreadline/console/console.py -> build/lib/pyreadline/console
+copying pyreadline/console/ironpython_console.py -> build/lib/pyreadline/console
+copying pyreadline/console/consolebase.py -> build/lib/pyreadline/console
+copying pyreadline/console/__init__.py -> build/lib/pyreadline/console
+creating build/lib/pyreadline/keysyms
+copying pyreadline/keysyms/keysyms.py -> build/lib/pyreadline/keysyms
+copying pyreadline/keysyms/winconstants.py -> build/lib/pyreadline/keysyms
+copying pyreadline/keysyms/__init__.py -> build/lib/pyreadline/keysyms
+copying pyreadline/keysyms/common.py -> build/lib/pyreadline/keysyms
+copying pyreadline/keysyms/ironpython_keysyms.py -> build/lib/pyreadline/keysyms
+creating build/lib/pyreadline/lineeditor
+copying pyreadline/lineeditor/lineobj.py -> build/lib/pyreadline/lineeditor
+copying pyreadline/lineeditor/history.py -> build/lib/pyreadline/lineeditor
+copying pyreadline/lineeditor/__init__.py -> build/lib/pyreadline/lineeditor
+copying pyreadline/lineeditor/wordmatcher.py -> build/lib/pyreadline/lineeditor
+creating build/lib/pyreadline/modes
+copying pyreadline/modes/basemode.py -> build/lib/pyreadline/modes
+copying pyreadline/modes/vi.py -> build/lib/pyreadline/modes
+copying pyreadline/modes/__init__.py -> build/lib/pyreadline/modes
+copying pyreadline/modes/notemacs.py -> build/lib/pyreadline/modes
+copying pyreadline/modes/emacs.py -> build/lib/pyreadline/modes
+creating build/lib/pyreadline/test
+copying pyreadline/test/test_emacs.py -> build/lib/pyreadline/test
+copying pyreadline/test/test_vi.py -> build/lib/pyreadline/test
+copying pyreadline/test/test_history.py -> build/lib/pyreadline/test
+copying pyreadline/test/test_lineeditor.py -> build/lib/pyreadline/test
+copying pyreadline/test/__init__.py -> build/lib/pyreadline/test
+copying pyreadline/test/common.py -> build/lib/pyreadline/test
+copying pyreadline/configuration/pyreadlineconfig.ini -> build/lib/pyreadline/configuration
+package init file 'pyreadline/configuration/__init__.py' not found (or not a regular file)
+running install_lib
+creating /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/pyreadline
+copying build/lib/pyreadline/logserver.py -> /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/pyreadline
+copying build/lib/pyreadline/rlmain.py -> /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/pyreadline
+copying build/lib/pyreadline/unicode_helper.py -> /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/pyreadline
+copying build/lib/pyreadline/release.py -> /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/pyreadline
+creating /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/pyreadline/test
+copying build/lib/pyreadline/test/test_emacs.py -> /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/pyreadline/test
+copying build/lib/pyreadline/test/test_vi.py -> /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/pyreadline/test
+copying build/lib/pyreadline/test/test_history.py -> /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/pyreadline/test
+copying build/lib/pyreadline/test/test_lineeditor.py -> /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/pyreadline/test
+copying build/lib/pyreadline/test/__init__.py -> /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/pyreadline/test
+copying build/lib/pyreadline/test/common.py -> /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/pyreadline/test
+copying build/lib/pyreadline/py3k_compat.py -> /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/pyreadline
+creating /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/pyreadline/console
+copying build/lib/pyreadline/console/event.py -> /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/pyreadline/console
+copying build/lib/pyreadline/console/ansi.py -> /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/pyreadline/console
+copying build/lib/pyreadline/console/console_attributes.py -> /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/pyreadline/console
+copying build/lib/pyreadline/console/console.py -> /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/pyreadline/console
+copying build/lib/pyreadline/console/ironpython_console.py -> /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/pyreadline/console
+copying build/lib/pyreadline/console/consolebase.py -> /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/pyreadline/console
+copying build/lib/pyreadline/console/__init__.py -> /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/pyreadline/console
+copying build/lib/pyreadline/__init__.py -> /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/pyreadline
+creating /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/pyreadline/configuration
+copying build/lib/pyreadline/configuration/pyreadlineconfig.ini -> /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/pyreadline/configuration
+copying build/lib/pyreadline/configuration/startup.py -> /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/pyreadline/configuration
+creating /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/pyreadline/keysyms
+copying build/lib/pyreadline/keysyms/keysyms.py -> /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/pyreadline/keysyms
+copying build/lib/pyreadline/keysyms/winconstants.py -> /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/pyreadline/keysyms
+copying build/lib/pyreadline/keysyms/__init__.py -> /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/pyreadline/keysyms
+copying build/lib/pyreadline/keysyms/common.py -> /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/pyreadline/keysyms
+copying build/lib/pyreadline/keysyms/ironpython_keysyms.py -> /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/pyreadline/keysyms
+copying build/lib/pyreadline/error.py -> /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/pyreadline
+creating /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/pyreadline/clipboard
+copying build/lib/pyreadline/clipboard/win32_clipboard.py -> /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/pyreadline/clipboard
+copying build/lib/pyreadline/clipboard/no_clipboard.py -> /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/pyreadline/clipboard
+copying build/lib/pyreadline/clipboard/ironpython_clipboard.py -> /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/pyreadline/clipboard
+copying build/lib/pyreadline/clipboard/__init__.py -> /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/pyreadline/clipboard
+copying build/lib/pyreadline/get_doc.py -> /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/pyreadline
+copying build/lib/pyreadline/logger.py -> /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/pyreadline
+creating /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/pyreadline/lineeditor
+copying build/lib/pyreadline/lineeditor/lineobj.py -> /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/pyreadline/lineeditor
+copying build/lib/pyreadline/lineeditor/history.py -> /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/pyreadline/lineeditor
+copying build/lib/pyreadline/lineeditor/__init__.py -> /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/pyreadline/lineeditor
+copying build/lib/pyreadline/lineeditor/wordmatcher.py -> /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/pyreadline/lineeditor
+creating /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/pyreadline/modes
+copying build/lib/pyreadline/modes/basemode.py -> /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/pyreadline/modes
+copying build/lib/pyreadline/modes/vi.py -> /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/pyreadline/modes
+copying build/lib/pyreadline/modes/__init__.py -> /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/pyreadline/modes
+copying build/lib/pyreadline/modes/notemacs.py -> /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/pyreadline/modes
+copying build/lib/pyreadline/modes/emacs.py -> /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/pyreadline/modes
+copying build/lib/readline.py -> /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages
+byte-compiling /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/pyreadline/logserver.py to logserver.pyc
+byte-compiling /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/pyreadline/rlmain.py to rlmain.pyc
+byte-compiling /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/pyreadline/unicode_helper.py to unicode_helper.pyc
+byte-compiling /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/pyreadline/release.py to release.pyc
+byte-compiling /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/pyreadline/test/test_emacs.py to test_emacs.pyc
+byte-compiling /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/pyreadline/test/test_vi.py to test_vi.pyc
+byte-compiling /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/pyreadline/test/test_history.py to test_history.pyc
+byte-compiling /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/pyreadline/test/test_lineeditor.py to test_lineeditor.pyc
+byte-compiling /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/pyreadline/test/__init__.py to __init__.pyc
+byte-compiling /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/pyreadline/test/common.py to common.pyc
+byte-compiling /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/pyreadline/py3k_compat.py to py3k_compat.pyc
+byte-compiling /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/pyreadline/console/event.py to event.pyc
+byte-compiling /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/pyreadline/console/ansi.py to ansi.pyc
+byte-compiling /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/pyreadline/console/console_attributes.py to console_attributes.pyc
+byte-compiling /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/pyreadline/console/console.py to console.pyc
+byte-compiling /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/pyreadline/console/ironpython_console.py to ironpython_console.pyc
+byte-compiling /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/pyreadline/console/consolebase.py to consolebase.pyc
+byte-compiling /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/pyreadline/console/__init__.py to __init__.pyc
+byte-compiling /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/pyreadline/__init__.py to __init__.pyc
+byte-compiling /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/pyreadline/configuration/startup.py to startup.pyc
+byte-compiling /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/pyreadline/keysyms/keysyms.py to keysyms.pyc
+byte-compiling /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/pyreadline/keysyms/winconstants.py to winconstants.pyc
+byte-compiling /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/pyreadline/keysyms/__init__.py to __init__.pyc
+byte-compiling /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/pyreadline/keysyms/common.py to common.pyc
+byte-compiling /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/pyreadline/keysyms/ironpython_keysyms.py to ironpython_keysyms.pyc
+byte-compiling /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/pyreadline/error.py to error.pyc
+byte-compiling /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/pyreadline/clipboard/win32_clipboard.py to win32_clipboard.pyc
+byte-compiling /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/pyreadline/clipboard/no_clipboard.py to no_clipboard.pyc
+byte-compiling /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/pyreadline/clipboard/ironpython_clipboard.py to ironpython_clipboard.pyc
+byte-compiling /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/pyreadline/clipboard/__init__.py to __init__.pyc
+byte-compiling /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/pyreadline/get_doc.py to get_doc.pyc
+byte-compiling /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/pyreadline/logger.py to logger.pyc
+byte-compiling /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/pyreadline/lineeditor/lineobj.py to lineobj.pyc
+byte-compiling /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/pyreadline/lineeditor/history.py to history.pyc
+byte-compiling /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/pyreadline/lineeditor/__init__.py to __init__.pyc
+byte-compiling /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/pyreadline/lineeditor/wordmatcher.py to wordmatcher.pyc
+byte-compiling /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/pyreadline/modes/basemode.py to basemode.pyc
+byte-compiling /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/pyreadline/modes/vi.py to vi.pyc
+byte-compiling /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/pyreadline/modes/__init__.py to __init__.pyc
+byte-compiling /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/pyreadline/modes/notemacs.py to notemacs.pyc
+byte-compiling /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/pyreadline/modes/emacs.py to emacs.pyc
+byte-compiling /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/readline.py to readline.pyc
+running install_egg_info
+Writing /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/pyreadline-2.0-py2.7.egg-info
+
+The following NEW packages will be INSTALLED:
+
+    openssl:    1.0.1k-1     
+    pip:        7.0.3-py27_0 
+    python:     2.7.10-0     
+    readline:   6.2-2        
+    setuptools: 18.0.1-py27_0
+    sqlite:     3.8.4.1-1    
+    system:     5.8-2        
+    tk:         8.5.18-0     
+    zlib:       1.2.8-0      
+
+Linking packages ...
+[                    ]|                                                  |   0%[openssl             ]|                                                  |   0%[readline            ]|#####                                             |  11%[sqlite              ]|###########                                       |  22%[system              ]|################                                  |  33%[tk                  ]|######################                            |  44%[zlib                ]|###########################                       |  55%[python              ]|#################################                 |  66%[setuptools          ]|######################################            |  77%[pip                 ]|############################################      |  88%[      COMPLETE      ]|##################################################| 100%
+Removing old work directory
+Source cache directory is: /home/ubuntu/miniconda/conda-bld/src_cache
+Found source in cache: pyreadline-2.0.zip
+Extracting download
+Package: pyreadline-2.0-py_0
+source tree in: /home/ubuntu/miniconda/conda-bld/work/pyreadline-2.0
+number of files: 86
+Fixing permissions
+Fixing permissions
+BUILD END: pyreadline-2.0-py_0
+TEST START: pyreadline-2.0-py_0
+Fetching package metadata: ......
+
+WARNING: conda-build appears to be out of date. You have version 1.13.0 but the
+latest version is 1.14.1. Run
+
+conda update -n root conda-build
+
+to get the latest version.
+
+Solving package specifications: ./home/ubuntu/miniconda/pkgs/pyreadline-2.0-py_0/bin/.pyreadline-pre-link.sh: line 2: /home/ubuntu/miniconda/envs/_test/bin/python: No such file or directory
+
+The following packages will be downloaded:
+
+    package                    |            build
+    ---------------------------|-----------------
+    pyreadline-2.0             |             py_0          58 KB
+
+The following NEW packages will be INSTALLED:
+
+    openssl:    1.0.1k-1     
+    pip:        7.0.3-py27_0 
+    pyreadline: 2.0-py_0     
+    python:     2.7.10-0     
+    readline:   6.2-2        
+    setuptools: 18.0.1-py27_0
+    sqlite:     3.8.4.1-1    
+    system:     5.8-2        
+    tk:         8.5.18-0     
+    zlib:       1.2.8-0      
+
+Fetching packages ...
+pyreadline-2.0   0% |                              | ETA:  --:--:--   0.00  B/spyreadline-2.0  27% |########                       | ETA:  0:00:00  48.77 MB/spyreadline-2.0  55% |#################              | ETA:  0:00:00  60.36 MB/spyreadline-2.0  82% |#########################      | ETA:  0:00:00  67.07 MB/spyreadline-2.0 100% |###############################| ETA:  0:00:00  65.64 MB/spyreadline-2.0 100% |###############################| Time: 0:00:00  51.89 MB/s
+Extracting packages ...
+[      COMPLETE      ]|                                                  |   0%[pyreadline          ]|                                                  |   0%[pyreadline          ]|                                                  |   0%[      COMPLETE      ]|##################################################| 100%
+Linking packages ...
+[      COMPLETE      ]|                                                  |   0%[openssl             ]|                                                  |   0%[openssl             ]|                                                  |   0%[readline            ]|#####                                             |  10%[sqlite              ]|##########                                        |  20%[system              ]|###############                                   |  30%[tk                  ]|####################                              |  40%[zlib                ]|#########################                         |  50%[pyreadline          ]|##############################                    |  60%Error: pre-link failed: pyreadline-2.0-py_0

@@ -1,0 +1,759 @@
+Warning, the following versions were found for infi.recipe.application_packager
+0.5.32
+0.5.31
+0.5.30
+0.5.29
+0.5.28
+0.5.27
+0.5.26
+0.5.25
+0.5.24
+0.5.23
+0.5.22
+0.5.21
+0.5.20
+0.5.19
+0.5.18
+0.5.16
+0.5.15
+0.5.11
+0.5.10
+0.5.9
+0.5.8
+0.5.7
+0.5.6
+0.5.5
+0.5.4
+0.5.3
+0.5.2
+0.5.1
+0.5
+0.4.7
+0.4.6
+0.4.5
+0.4.4
+0.4.3
+0.4.2
+0.4.1
+0.4
+0.3.34
+0.3.33
+0.3.32
+0.3.31
+0.3.30
+0.3.29
+0.3.28
+0.3.27
+0.3.26
+0.3.25
+0.3.24
+0.3.23
+0.3.22
+0.3.20
+0.3.19
+0.3.18
+0.3.17
+0.3.16
+0.3.15
+0.3.14
+0.3.13
+0.3.12
+0.3.11
+0.3.10
+0.3.9
+0.3.8
+0.3.7
+0.3.6
+0.3.5
+0.3.4
+0.3.3
+0.3.2
+0.3.1
+0.3
+0.2.5
+0.2.4
+0.2.3
+0.2.2
+0.2.1
+0.2
+0.1.18
+0.1.17
+0.1.16
+0.1.15
+0.1.14
+0.2.5-develop-36-g8b3bbb6
+0.2.5-develop-32-g0fbf6b0
+Using 0.5.32
+Use --version to specify a different version.
+Using url https://pypi.python.org/packages/source/i/infi.recipe.application_packager/infi.recipe.application_packager-0.5.32.tar.gz (831 KB) for infi.recipe.application_packager.
+Downloading infi.recipe.application_packager
+Using cached download
+Unpacking infi.recipe.application_packager...
+done
+working in /tmp/tmpTbn2SRconda_skeleton_infi.recipe.application_packager-0.5.32.tar.gz
+Fetching package metadata: ......
+
+WARNING: conda-build appears to be out of date. You have version 1.13.0 but the
+latest version is 1.14.1. Run
+
+conda update -n root conda-build
+
+to get the latest version.
+
+Solving package specifications: .patching file core.py
+Hunk #1 succeeded at 168 with fuzz 2 (offset 2 lines).
+
+WARNING: conda-build appears to be out of date. You have version 1.13.0 but the
+latest version is 1.14.1. Run
+
+conda update -n root conda-build
+
+to get the latest version.
+
+
+The following NEW packages will be INSTALLED:
+
+    numpy:  1.9.2-py27_0
+    pyyaml: 3.11-py27_1 
+    yaml:   0.1.6-0     
+
+Linking packages ...
+[                    ]|                                                  |   0%[yaml                ]|                                                  |   0%[numpy               ]|################                                  |  33%[pyyaml              ]|#################################                 |  66%[      COMPLETE      ]|##################################################| 100%
+Applying patch: '/tmp/tmpTbn2SRconda_skeleton_infi.recipe.application_packager-0.5.32.tar.gz/pypi-distutils.patch'
+Warning, the following versions were found for pystick
+0.1.3
+0.1.2
+0.1.1
+0.1
+Using 0.1.3
+Use --version to specify a different version.
+Using url https://pypi.python.org/packages/source/p/pystick/pystick-0.1.3.tar.gz (448 KB) for pystick.
+Downloading pystick
+Using cached download
+Unpacking pystick...
+done
+working in /tmp/tmpit06Trconda_skeleton_pystick-0.1.3.tar.gz
+Solving package specifications: .patching file core.py
+Hunk #1 succeeded at 168 with fuzz 2 (offset 2 lines).
+
+WARNING: conda-build appears to be out of date. You have version 1.13.0 but the
+latest version is 1.14.1. Run
+
+conda update -n root conda-build
+
+to get the latest version.
+
+
+Applying patch: '/tmp/tmpit06Trconda_skeleton_pystick-0.1.3.tar.gz/pypi-distutils.patch'
+Warning, the following versions were found for infi.winver
+0.2.6
+0.2.5
+0.2.4
+0.2.3
+0.2.2
+0.2.1
+0.2
+0.1.4
+0.1.3
+0.1.2
+Using 0.2.6
+Use --version to specify a different version.
+Using url https://pypi.python.org/packages/source/i/infi.winver/infi.winver-0.2.6.tar.gz (6 KB) for infi.winver.
+Downloading infi.winver
+Using cached download
+Unpacking infi.winver...
+done
+working in /tmp/tmphQq0eOconda_skeleton_infi.winver-0.2.6.tar.gz
+Solving package specifications: .patching file core.py
+Hunk #1 succeeded at 168 with fuzz 2 (offset 2 lines).
+
+WARNING: conda-build appears to be out of date. You have version 1.13.0 but the
+latest version is 1.14.1. Run
+
+conda update -n root conda-build
+
+to get the latest version.
+
+
+Applying patch: '/tmp/tmphQq0eOconda_skeleton_infi.winver-0.2.6.tar.gz/pypi-distutils.patch'
+Warning, the following versions were found for infi.registry
+0.1.17
+0.1.16
+0.1.15
+0.1.14
+0.1.13
+0.1.12
+0.1.11
+0.1.10
+0.1.9
+0.1.8
+0.1.1
+0.1
+Using 0.1.17
+Use --version to specify a different version.
+Using url https://pypi.python.org/packages/source/i/infi.registry/infi.registry-0.1.17.tar.gz (16 KB) for infi.registry.
+Downloading infi.registry
+Using cached download
+Unpacking infi.registry...
+done
+working in /tmp/tmpPRWEWJconda_skeleton_infi.registry-0.1.17.tar.gz
+Solving package specifications: .patching file core.py
+Hunk #1 succeeded at 168 with fuzz 2 (offset 2 lines).
+
+WARNING: conda-build appears to be out of date. You have version 1.13.0 but the
+latest version is 1.14.1. Run
+
+conda update -n root conda-build
+
+to get the latest version.
+
+
+Applying patch: '/tmp/tmpPRWEWJconda_skeleton_infi.registry-0.1.17.tar.gz/pypi-distutils.patch'
+Warning, the following versions were found for munch
+2.0.2
+2.0.1
+2.0.0
+Using 2.0.2
+Use --version to specify a different version.
+Using url https://pypi.python.org/packages/source/m/munch/munch-2.0.2.tar.gz (7 KB) for munch.
+Downloading munch
+munch-2.0.2.ta   0% |                              | ETA:  --:--:--   0.00  B/smunch-2.0.2.ta 100% |###############################| ETA:  0:00:00  18.09 MB/smunch-2.0.2.ta 100% |###############################| Time: 0:00:00  10.42 MB/s
+Unpacking munch...
+done
+working in /tmp/tmp98_2lnconda_skeleton_munch-2.0.2.tar.gz
+Solving package specifications: .patching file core.py
+Hunk #1 succeeded at 168 with fuzz 2 (offset 2 lines).
+
+WARNING: conda-build appears to be out of date. You have version 1.13.0 but the
+latest version is 1.14.1. Run
+
+conda update -n root conda-build
+
+to get the latest version.
+
+
+Applying patch: '/tmp/tmp98_2lnconda_skeleton_munch-2.0.2.tar.gz/pypi-distutils.patch'
+Warning, the following versions were found for infi.instruct
+0.6.26
+0.6.25
+0.6.24
+0.6.23
+0.6.22
+0.6.21
+0.6.20
+0.6.19
+0.6.18
+0.6.17
+0.6.16
+0.6.15
+0.6.14
+0.6.13
+0.6.11
+0.6.2
+0.6.1
+0.6.0
+0.5.9
+0.5.5
+0.5.9-11-gab5c928
+Using 0.6.26
+Use --version to specify a different version.
+Using url https://pypi.python.org/packages/source/i/infi.instruct/infi.instruct-0.6.26.tar.gz (34 KB) for infi.instruct.
+Downloading infi.instruct
+Using cached download
+Unpacking infi.instruct...
+done
+working in /tmp/tmpg4sxw_conda_skeleton_infi.instruct-0.6.26.tar.gz
+Solving package specifications: .patching file core.py
+Hunk #1 succeeded at 168 with fuzz 2 (offset 2 lines).
+
+WARNING: conda-build appears to be out of date. You have version 1.13.0 but the
+latest version is 1.14.1. Run
+
+conda update -n root conda-build
+
+to get the latest version.
+
+
+Applying patch: '/tmp/tmpg4sxw_conda_skeleton_infi.instruct-0.6.26.tar.gz/pypi-distutils.patch'
+Warning, the following versions were found for infi.pyutils
+1.0.8
+1.0.7
+1.0.5
+1.0.4
+1.0.3
+1.0.2
+1.0.1
+0.0.30
+0.0.29
+0.0.27
+0.0.26
+0.0.25
+0.0.24
+0.0.23
+0.0.22
+0.0.21
+0.0.20
+0.0.19
+0.0.18
+0.0.17
+0.0.16
+0.0.15
+0.0.14
+0.0.13
+0.0.12
+0.0.11
+0.0.10
+0.0.9
+0.0.8
+0.0.7
+0.0.6
+0.0.5
+0.0.4
+0.0.3
+0.0.2
+0.0.1
+Using 1.0.8
+Use --version to specify a different version.
+Using url https://pypi.python.org/packages/source/i/infi.pyutils/infi.pyutils-1.0.8.tar.gz (38 KB) for infi.pyutils.
+Downloading infi.pyutils
+Using cached download
+Unpacking infi.pyutils...
+done
+working in /tmp/tmpO0wGTsconda_skeleton_infi.pyutils-1.0.8.tar.gz
+Solving package specifications: .patching file core.py
+Hunk #1 succeeded at 168 with fuzz 2 (offset 2 lines).
+
+WARNING: conda-build appears to be out of date. You have version 1.13.0 but the
+latest version is 1.14.1. Run
+
+conda update -n root conda-build
+
+to get the latest version.
+
+
+Applying patch: '/tmp/tmpO0wGTsconda_skeleton_infi.pyutils-1.0.8.tar.gz/pypi-distutils.patch'
+Warning, the following versions were found for emport
+1.0.1
+1.0.0
+0.0.1
+Using 1.0.1
+Use --version to specify a different version.
+Using url https://pypi.python.org/packages/source/e/emport/emport-1.0.1.tar.gz (7 KB) for emport.
+Downloading emport
+emport-1.0.1.t   0% |                              | ETA:  --:--:--   0.00  B/semport-1.0.1.t 100% |###############################| Time: 0:00:00  23.65 MB/semport-1.0.1.t 100% |###############################| Time: 0:00:00  14.85 MB/semport-1.0.1.t 100% |###############################| Time: 0:00:00  10.33 MB/s
+Unpacking emport...
+done
+working in /tmp/tmpTVJVjsconda_skeleton_emport-1.0.1.tar.gz
+Solving package specifications: .patching file core.py
+Hunk #1 succeeded at 168 with fuzz 2 (offset 2 lines).
+
+WARNING: conda-build appears to be out of date. You have version 1.13.0 but the
+latest version is 1.14.1. Run
+
+conda update -n root conda-build
+
+to get the latest version.
+
+
+Applying patch: '/tmp/tmpTVJVjsconda_skeleton_emport-1.0.1.tar.gz/pypi-distutils.patch'
+Warning, the following versions were found for infi.exceptools
+0.2.10
+0.2.9
+0.2.8
+0.2.7
+0.2.6
+0.2.5
+0.2.4
+0.2.3
+0.2.2
+0.2.1
+0.1.6
+0.1.5
+0.1.1
+Using 0.2.10
+Use --version to specify a different version.
+Using url https://pypi.python.org/packages/source/i/infi.exceptools/infi.exceptools-0.2.10.tar.gz (4 KB) for infi.exceptools.
+Downloading infi.exceptools
+Using cached download
+Unpacking infi.exceptools...
+done
+working in /tmp/tmpRIg3j3conda_skeleton_infi.exceptools-0.2.10.tar.gz
+Solving package specifications: .patching file core.py
+Hunk #1 succeeded at 168 with fuzz 2 (offset 2 lines).
+
+WARNING: conda-build appears to be out of date. You have version 1.13.0 but the
+latest version is 1.14.1. Run
+
+conda update -n root conda-build
+
+to get the latest version.
+
+
+Applying patch: '/tmp/tmpRIg3j3conda_skeleton_infi.exceptools-0.2.10.tar.gz/pypi-distutils.patch'
+Warning, the following versions were found for infi.cwrap
+0.2.9
+0.2.8
+0.2.7
+0.2.6
+0.2.5
+0.2.4
+0.2.3
+Using 0.2.9
+Use --version to specify a different version.
+Using url https://pypi.python.org/packages/source/i/infi.cwrap/infi.cwrap-0.2.9.tar.gz (3 KB) for infi.cwrap.
+Downloading infi.cwrap
+Using cached download
+Unpacking infi.cwrap...
+done
+working in /tmp/tmpnE3vTLconda_skeleton_infi.cwrap-0.2.9.tar.gz
+Solving package specifications: .patching file core.py
+Hunk #1 succeeded at 168 with fuzz 2 (offset 2 lines).
+
+WARNING: conda-build appears to be out of date. You have version 1.13.0 but the
+latest version is 1.14.1. Run
+
+conda update -n root conda-build
+
+to get the latest version.
+
+
+Applying patch: '/tmp/tmpnE3vTLconda_skeleton_infi.cwrap-0.2.9.tar.gz/pypi-distutils.patch'
+Warning, the following versions were found for infi.registry
+0.1.17
+0.1.16
+0.1.15
+0.1.14
+0.1.13
+0.1.12
+0.1.11
+0.1.10
+0.1.9
+0.1.8
+0.1.1
+0.1
+Using 0.1.17
+Use --version to specify a different version.
+Using url https://pypi.python.org/packages/source/i/infi.registry/infi.registry-0.1.17.tar.gz (16 KB) for infi.registry.
+Downloading infi.registry
+Using cached download
+Unpacking infi.registry...
+done
+working in /tmp/tmpY4f9GDconda_skeleton_infi.registry-0.1.17.tar.gz
+Solving package specifications: .patching file core.py
+Hunk #1 succeeded at 168 with fuzz 2 (offset 2 lines).
+
+Applying patch: '/tmp/tmpY4f9GDconda_skeleton_infi.registry-0.1.17.tar.gz/pypi-distutils.patch'
+Warning, the following versions were found for infi.recipe.console_scripts
+0.3.16
+0.3.15
+0.3.14
+0.3.13
+0.3.12
+0.3.11
+0.3.10
+0.3.9
+0.3.8
+0.3.7
+0.3.6
+0.3.5
+0.3.4
+0.3.3
+0.3.2
+0.3.1
+0.2.4
+0.2.3
+0.2.2
+0.2
+0.1.2
+Using 0.3.16
+Use --version to specify a different version.
+Using url https://pypi.python.org/packages/source/i/infi.recipe.console_scripts/infi.recipe.console_scripts-0.3.16.tar.gz (1.2 MB) for infi.recipe.console_scripts.
+Downloading infi.recipe.console_scripts
+infi.recipe.co   0% |                              | ETA:  --:--:--   0.00  B/sinfi.recipe.co   1% |                               | Time: 0:00:00  49.37 MB/sinfi.recipe.co   2% |                               | Time: 0:00:00   5.68 MB/sinfi.recipe.co   3% |#                              | Time: 0:00:00   4.08 MB/sinfi.recipe.co   5% |#                              | Time: 0:00:00   5.33 MB/sinfi.recipe.co   6% |#                              | Time: 0:00:00   4.47 MB/sinfi.recipe.co   7% |##                             | Time: 0:00:00   5.28 MB/sinfi.recipe.co   8% |##                             | Time: 0:00:00   6.09 MB/sinfi.recipe.co  10% |###                            | Time: 0:00:00   5.34 MB/sinfi.recipe.co  11% |###                            | Time: 0:00:00   5.93 MB/sinfi.recipe.co  12% |###                            | Time: 0:00:00   6.52 MB/sinfi.recipe.co  14% |####                           | Time: 0:00:00   7.09 MB/sinfi.recipe.co  15% |####                           | Time: 0:00:00   6.41 MB/sinfi.recipe.co  16% |#####                          | Time: 0:00:00   6.81 MB/sinfi.recipe.co  17% |#####                          | Time: 0:00:00   7.25 MB/sinfi.recipe.co  19% |#####                          | Time: 0:00:00   7.70 MB/sinfi.recipe.co  20% |######                         | Time: 0:00:00   8.16 MB/sinfi.recipe.co  21% |######                         | Time: 0:00:00   7.54 MB/sinfi.recipe.co  22% |#######                        | Time: 0:00:00   7.87 MB/sinfi.recipe.co  24% |#######                        | Time: 0:00:00   8.14 MB/sinfi.recipe.co  25% |#######                        | Time: 0:00:00   8.51 MB/sinfi.recipe.co  26% |########                       | Time: 0:00:00   8.89 MB/sinfi.recipe.co  28% |########                       | Time: 0:00:00   8.35 MB/sinfi.recipe.co  29% |#########                      | Time: 0:00:00   8.65 MB/sinfi.recipe.co  30% |#########                      | Time: 0:00:00   8.89 MB/sinfi.recipe.co  31% |#########                      | Time: 0:00:00   9.17 MB/sinfi.recipe.co  33% |##########                     | Time: 0:00:00   9.47 MB/sinfi.recipe.co  34% |##########                     | Time: 0:00:00   9.78 MB/sinfi.recipe.co  35% |###########                    | Time: 0:00:00  10.10 MB/sinfi.recipe.co  36% |###########                    | Time: 0:00:00   9.59 MB/sinfi.recipe.co  38% |###########                    | Time: 0:00:00   9.86 MB/sinfi.recipe.co  39% |############                   | Time: 0:00:00  10.14 MB/sinfi.recipe.co  40% |############                   | Time: 0:00:00  10.39 MB/sinfi.recipe.co  42% |#############                  | Time: 0:00:00  10.63 MB/sinfi.recipe.co  43% |#############                  | Time: 0:00:00  10.90 MB/sinfi.recipe.co  44% |#############                  | Time: 0:00:00  11.13 MB/sinfi.recipe.co  45% |##############                 | Time: 0:00:00  11.40 MB/sinfi.recipe.co  47% |##############                 | Time: 0:00:00  11.67 MB/sinfi.recipe.co  48% |##############                 | Time: 0:00:00  11.16 MB/sinfi.recipe.co  49% |###############                | Time: 0:00:00  11.39 MB/sinfi.recipe.co  50% |###############                | Time: 0:00:00  11.62 MB/sinfi.recipe.co  52% |################               | Time: 0:00:00  11.85 MB/sinfi.recipe.co  53% |################               | Time: 0:00:00  12.10 MB/sinfi.recipe.co  54% |################               | Time: 0:00:00  12.28 MB/sinfi.recip
+WARNING: conda-build appears to be out of date. You have version 1.13.0 but the
+latest version is 1.14.1. Run
+
+conda update -n root conda-build
+
+to get the latest version.
+
+e.co  56% |#################              | Time: 0:00:00  12.48 MB/sinfi.recipe.co  57% |#################              | Time: 0:00:00  12.70 MB/sinfi.recipe.co  58% |##################             | Time: 0:00:00  12.93 MB/sinfi.recipe.co  59% |##################             | Time: 0:00:00  13.16 MB/sinfi.recipe.co  61% |##################             | Time: 0:00:00  13.39 MB/sinfi.recipe.co  62% |###################            | Time: 0:00:00  12.92 MB/sinfi.recipe.co  63% |###################            | Time: 0:00:00  13.12 MB/sinfi.recipe.co  64% |####################           | Time: 0:00:00  13.30 MB/sinfi.recipe.co  66% |####################           | Time: 0:00:00  13.50 MB/sinfi.recipe.co  67% |####################           | Time: 0:00:00  13.69 MB/sinfi.recipe.co  68% |#####################          | Time: 0:00:00  13.89 MB/sinfi.recipe.co  70% |#####################          | Time: 0:00:00  14.07 MB/sinfi.recipe.co  71% |######################         | Time: 0:00:00  14.24 MB/sinfi.recipe.co  72% |######################         | Time: 0:00:00  14.41 MB/sinfi.recipe.co  73% |######################         | Time: 0:00:00  14.61 MB/sinfi.recipe.co  75% |#######################        | Time: 0:00:00  14.82 MB/sinfi.recipe.co  76% |#######################        | Time: 0:00:00  14.40 MB/sinfi.recipe.co  77% |########################       | Time: 0:00:00  14.59 MB/sinfi.recipe.co  78% |########################       | Time: 0:00:00  14.75 MB/sinfi.recipe.co  80% |########################       | Time: 0:00:00  14.93 MB/sinfi.recipe.co  81% |#########################      | Time: 0:00:00  15.09 MB/sinfi.recipe.co  82% |#########################      | Time: 0:00:00  15.26 MB/sinfi.recipe.co  84% |##########################     | Time: 0:00:00  15.41 MB/sinfi.recipe.co  85% |##########################     | Time: 0:00:00  15.59 MB/sinfi.recipe.co  86% |##########################     | Time: 0:00:00  15.76 MB/sinfi.recipe.co  87% |###########################    | Time: 0:00:00  15.92 MB/sinfi.recipe.co  89% |###########################    | Time: 0:00:00  16.06 MB/sinfi.recipe.co  90% |############################   | Time: 0:00:00  16.23 MB/sinfi.recipe.co  91% |############################   | Time: 0:00:00  16.41 MB/sinfi.recipe.co  92% |############################   | Time: 0:00:00  16.59 MB/sinfi.recipe.co  94% |#############################  | Time: 0:00:00  16.19 MB/sinfi.recipe.co  95% |#############################  | Time: 0:00:00  16.33 MB/sinfi.recipe.co  96% |#############################  | Time: 0:00:00  16.48 MB/sinfi.recipe.co  98% |############################## | Time: 0:00:00  16.65 MB/sinfi.recipe.co  99% |############################## | Time: 0:00:00  16.82 MB/sinfi.recipe.co 100% |###############################| Time: 0:00:00  16.90 MB/sinfi.recipe.co 100% |###############################| Time: 0:00:00  16.87 MB/sinfi.recipe.co 100% |###############################| Time: 0:00:00  16.83 MB/s
+Unpacking infi.recipe.console_scripts...
+done
+working in /tmp/tmpCal2kFconda_skeleton_infi.recipe.console_scripts-0.3.16.tar.gz
+Solving package specifications: .patching file core.py
+Hunk #1 succeeded at 168 with fuzz 2 (offset 2 lines).
+
+WARNING: conda-build appears to be out of date. You have version 1.13.0 but the
+latest version is 1.14.1. Run
+
+conda update -n root conda-build
+
+to get the latest version.
+
+
+Applying patch: '/tmp/tmpCal2kFconda_skeleton_infi.recipe.console_scripts-0.3.16.tar.gz/pypi-distutils.patch'
+Warning, the following versions were found for infi.recipe.close_application
+0.0.15
+0.0.14
+0.0.13
+0.0.12
+0.0.11
+0.0.10
+0.0.9
+0.0.8
+0.0.7
+Using 0.0.15
+Use --version to specify a different version.
+Using url https://pypi.python.org/packages/source/i/infi.recipe.close_application/infi.recipe.close_application-0.0.15.tar.gz (3 KB) for infi.recipe.close_application.
+Downloading infi.recipe.close_application
+Using cached download
+Unpacking infi.recipe.close_application...
+done
+working in /tmp/tmp6CIlP0conda_skeleton_infi.recipe.close_application-0.0.15.tar.gz
+Solving package specifications: .patching file core.py
+Hunk #1 succeeded at 168 with fuzz 2 (offset 2 lines).
+
+WARNING: conda-build appears to be out of date. You have version 1.13.0 but the
+latest version is 1.14.1. Run
+
+conda update -n root conda-build
+
+to get the latest version.
+
+
+Applying patch: '/tmp/tmp6CIlP0conda_skeleton_infi.recipe.close_application-0.0.15.tar.gz/pypi-distutils.patch'
+Warning, the following versions were found for infi.recipe.buildout_logging
+0.1.3
+0.1.2
+0.1.1
+0.1
+Using 0.1.3
+Use --version to specify a different version.
+Using url https://pypi.python.org/packages/source/i/infi.recipe.buildout_logging/infi.recipe.buildout_logging-0.1.3.tar.gz (3 KB) for infi.recipe.buildout_logging.
+Downloading infi.recipe.buildout_logging
+Using cached download
+Unpacking infi.recipe.buildout_logging...
+done
+working in /tmp/tmptP0aYRconda_skeleton_infi.recipe.buildout_logging-0.1.3.tar.gz
+Solving package specifications: .patching file core.py
+Hunk #1 succeeded at 168 with fuzz 2 (offset 2 lines).
+
+WARNING: conda-build appears to be out of date. You have version 1.13.0 but the
+latest version is 1.14.1. Run
+
+conda update -n root conda-build
+
+to get the latest version.
+
+
+Applying patch: '/tmp/tmptP0aYRconda_skeleton_infi.recipe.buildout_logging-0.1.3.tar.gz/pypi-distutils.patch'
+Warning, the following versions were found for infi.pyutils
+1.0.8
+1.0.7
+1.0.5
+1.0.4
+1.0.3
+1.0.2
+1.0.1
+0.0.30
+0.0.29
+0.0.27
+0.0.26
+0.0.25
+0.0.24
+0.0.23
+0.0.22
+0.0.21
+0.0.20
+0.0.19
+0.0.18
+0.0.17
+0.0.16
+0.0.15
+0.0.14
+0.0.13
+0.0.12
+0.0.11
+0.0.10
+0.0.9
+0.0.8
+0.0.7
+0.0.6
+0.0.5
+0.0.4
+0.0.3
+0.0.2
+0.0.1
+Using 1.0.8
+Use --version to specify a different version.
+Using url https://pypi.python.org/packages/source/i/infi.pyutils/infi.pyutils-1.0.8.tar.gz (38 KB) for infi.pyutils.
+Downloading infi.pyutils
+Using cached download
+Unpacking infi.pyutils...
+done
+working in /tmp/tmp4bv1Tdconda_skeleton_infi.pyutils-1.0.8.tar.gz
+Solving package specifications: .patching file core.py
+Hunk #1 succeeded at 168 with fuzz 2 (offset 2 lines).
+
+WARNING: conda-build appears to be out of date. You have version 1.13.0 but the
+latest version is 1.14.1. Run
+
+conda update -n root conda-build
+
+to get the latest version.
+
+
+Applying patch: '/tmp/tmp4bv1Tdconda_skeleton_infi.pyutils-1.0.8.tar.gz/pypi-distutils.patch'
+Warning, the following versions were found for infi.pypi_manager
+0.4.27
+0.4.26
+0.4.25
+0.4.24
+0.4.23
+0.4.22
+0.4.21
+0.4.20
+0.4.19
+0.4.18
+0.4.17
+0.4.16
+0.4.15
+0.4.14
+0.4.13
+0.4.12
+0.4.11
+0.4.10
+0.4.9
+0.4.8
+0.4.7
+0.4.6
+0.4.5
+0.4.4
+0.4.3
+0.4.2
+0.4.1
+0.4
+0.3
+0.4.11.post2.g89deb64
+0.4.11.post1.gd2e0b2a
+0.2-develop-5-gd261532
+Using 0.4.27
+Use --version to specify a different version.
+Using url https://pypi.python.org/packages/source/i/infi.pypi_manager/infi.pypi_manager-0.4.27.tar.gz (11 KB) for infi.pypi_manager.
+Downloading infi.pypi_manager
+Using cached download
+Unpacking infi.pypi_manager...
+done
+working in /tmp/tmpdv2zlzconda_skeleton_infi.pypi_manager-0.4.27.tar.gz
+Solving package specifications: .patching file core.py
+Hunk #1 succeeded at 168 with fuzz 2 (offset 2 lines).
+
+WARNING: conda-build appears to be out of date. You have version 1.13.0 but the
+latest version is 1.14.1. Run
+
+conda update -n root conda-build
+
+to get the latest version.
+
+
+Applying patch: '/tmp/tmpdv2zlzconda_skeleton_infi.pypi_manager-0.4.27.tar.gz/pypi-distutils.patch'
+Warning, the following versions were found for infi.execute
+0.1.2
+0.1.1
+0.1
+0.0.19
+0.0.18
+0.0.17
+0.0.16
+0.0.15
+0.0.14
+0.0.13
+0.0.12
+0.0.11
+0.0.10
+0.0.9
+0.0.8
+0.0.7
+0.0.6
+0.0.5
+0.0.4
+0.0.3
+0.0.2
+0.0.1
+Using 0.1.2
+Use --version to specify a different version.
+Using url https://pypi.python.org/packages/source/i/infi.execute/infi.execute-0.1.2.tar.gz (7 KB) for infi.execute.
+Downloading infi.execute
+Using cached download
+Unpacking infi.execute...
+done
+working in /tmp/tmpBjzTDXconda_skeleton_infi.execute-0.1.2.tar.gz
+Solving package specifications: .patching file core.py
+Hunk #1 succeeded at 168 with fuzz 2 (offset 2 lines).
+
+WARNING: conda-build appears to be out of date. You have version 1.13.0 but the
+latest version is 1.14.1. Run
+
+conda update -n root conda-build
+
+to get the latest version.
+
+
+Applying patch: '/tmp/tmpBjzTDXconda_skeleton_infi.execute-0.1.2.tar.gz/pypi-distutils.patch'
+Warning, the following versions were found for infi.monotonic_time
+0.1.5
+0.1.4
+0.1.3
+0.1.2
+0.1.1
+0.1
+Using 0.1.5
+Use --version to specify a different version.
+Using url https://pypi.python.org/packages/source/i/infi.monotonic_time/infi.monotonic_time-0.1.5.tar.gz (3 KB) for infi.monotonic_time.
+Downloading infi.monotonic_time
+Using cached download
+Unpacking infi.monotonic_time...
+done
+working in /tmp/tmpgWnQOUconda_skeleton_infi.monotonic_time-0.1.5.tar.gz
+Solving package specifications: .patching file core.py
+Hunk #1 succeeded at 168 with fuzz 2 (offset 2 lines).
+
+WARNING: conda-build appears to be out of date. You have version 1.13.0 but the
+latest version is 1.14.1. Run
+
+conda update -n root conda-build
+
+to get the latest version.
+
+
+Applying patch: '/tmp/tmpgWnQOUconda_skeleton_infi.monotonic_time-0.1.5.tar.gz/pypi-distutils.patch'
+Warning, the following versions were found for infi.os_info
+0.1.6
+0.1.5
+0.1.4
+0.1.3
+0.1.2
+0.1.1
+0.1
+0.0.2
+0.0.1
+Using 0.1.6
+Use --version to specify a different version.
+Using url https://pypi.python.org/packages/source/i/infi.os_info/infi.os_info-0.1.6.tar.gz (4 KB) for infi.os_info.
+Downloading infi.os_info
+Using cached download
+Unpacking infi.os_info...
+done
+working in /tmp/tmpu7diA9conda_skeleton_infi.os_info-0.1.6.tar.gz
+Solving package specifications: .patching file core.py
+Hunk #1 succeeded at 168 with fuzz 2 (offset 2 lines).
+
+Applying patch: '/tmp/tmpu7diA9conda_skeleton_infi.os_info-0.1.6.tar.gz/pypi-distutils.patch'
+Warning, the following versions were found for git-py
+2.0.0
+1.0.1
+1.0.0
+Using 2.0.0
+Use --version to specify a different version.
+Error: Could not parse url for git-py: UNKNOWN

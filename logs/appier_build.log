@@ -1,0 +1,247 @@
+Removing old build directory
+Removing old work directory
+BUILD START: appier-0.9.30-py_0
+Fetching package metadata: ......
+
+WARNING: conda-build appears to be out of date. You have version 1.13.0 but the
+latest version is 1.14.1. Run
+
+conda update -n root conda-build
+
+to get the latest version.
+
+Solving package specifications: .+ /home/ubuntu/miniconda/envs/_build/bin/python setup.py install
+running install
+running bdist_egg
+running egg_info
+writing src/appier.egg-info/PKG-INFO
+writing top-level names to src/appier.egg-info/top_level.txt
+writing dependency_links to src/appier.egg-info/dependency_links.txt
+reading manifest file 'src/appier.egg-info/SOURCES.txt'
+reading manifest template 'MANIFEST.in'
+writing manifest file 'src/appier.egg-info/SOURCES.txt'
+installing library code to build/bdist.linux-x86_64/egg
+running install_lib
+running build_py
+creating build
+creating build/lib
+creating build/lib/appier
+copying src/appier/legacy.py -> build/lib/appier
+copying src/appier/meta.py -> build/lib/appier
+copying src/appier/part.py -> build/lib/appier
+copying src/appier/model.py -> build/lib/appier
+copying src/appier/config.py -> build/lib/appier
+copying src/appier/api.py -> build/lib/appier
+copying src/appier/structures.py -> build/lib/appier
+copying src/appier/observer.py -> build/lib/appier
+copying src/appier/serialize.py -> build/lib/appier
+copying src/appier/typesf.py -> build/lib/appier
+copying src/appier/controller.py -> build/lib/appier
+copying src/appier/async.py -> build/lib/appier
+copying src/appier/mongo.py -> build/lib/appier
+copying src/appier/smtp.py -> build/lib/appier
+copying src/appier/export.py -> build/lib/appier
+copying src/appier/util.py -> build/lib/appier
+copying src/appier/session.py -> build/lib/appier
+copying src/appier/cache.py -> build/lib/appier
+copying src/appier/log.py -> build/lib/appier
+copying src/appier/validation.py -> build/lib/appier
+copying src/appier/http.py -> build/lib/appier
+copying src/appier/__init__.py -> build/lib/appier
+copying src/appier/settings.py -> build/lib/appier
+copying src/appier/defines.py -> build/lib/appier
+copying src/appier/compress.py -> build/lib/appier
+copying src/appier/scheduler.py -> build/lib/appier
+copying src/appier/common.py -> build/lib/appier
+copying src/appier/redisdb.py -> build/lib/appier
+copying src/appier/request.py -> build/lib/appier
+copying src/appier/base.py -> build/lib/appier
+copying src/appier/exceptions.py -> build/lib/appier
+creating build/lib/appier/test
+copying src/appier/test/structures.py -> build/lib/appier/test
+copying src/appier/test/smtp.py -> build/lib/appier/test
+copying src/appier/test/util.py -> build/lib/appier/test
+copying src/appier/test/session.py -> build/lib/appier/test
+copying src/appier/test/cache.py -> build/lib/appier/test
+copying src/appier/test/__init__.py -> build/lib/appier/test
+copying src/appier/test/request.py -> build/lib/appier/test
+creating build/lib/appier/res
+creating build/lib/appier/res/static
+creating build/lib/appier/res/static/css
+copying src/appier/res/static/css/base.css -> build/lib/appier/res/static/css
+creating build/lib/appier/res/static/images
+copying src/appier/res/static/images/favicon.ico -> build/lib/appier/res/static/images
+creating build/lib/appier/res/templates
+copying src/appier/res/templates/holder.html.tpl -> build/lib/appier/res/templates
+copying src/appier/res/templates/error.html.tpl -> build/lib/appier/res/templates
+copying src/appier/res/templates/layout.html.tpl -> build/lib/appier/res/templates
+creating build/bdist.linux-x86_64
+creating build/bdist.linux-x86_64/egg
+creating build/bdist.linux-x86_64/egg/appier
+copying build/lib/appier/legacy.py -> build/bdist.linux-x86_64/egg/appier
+copying build/lib/appier/meta.py -> build/bdist.linux-x86_64/egg/appier
+copying build/lib/appier/part.py -> build/bdist.linux-x86_64/egg/appier
+copying build/lib/appier/model.py -> build/bdist.linux-x86_64/egg/appier
+copying build/lib/appier/config.py -> build/bdist.linux-x86_64/egg/appier
+copying build/lib/appier/api.py -> build/bdist.linux-x86_64/egg/appier
+copying build/lib/appier/structures.py -> build/bdist.linux-x86_64/egg/appier
+copying build/lib/appier/observer.py -> build/bdist.linux-x86_64/egg/appier
+copying build/lib/appier/serialize.py -> build/bdist.linux-x86_64/egg/appier
+copying build/lib/appier/typesf.py -> build/bdist.linux-x86_64/egg/appier
+copying build/lib/appier/controller.py -> build/bdist.linux-x86_64/egg/appier
+copying build/lib/appier/async.py -> build/bdist.linux-x86_64/egg/appier
+copying build/lib/appier/mongo.py -> build/bdist.linux-x86_64/egg/appier
+copying build/lib/appier/smtp.py -> build/bdist.linux-x86_64/egg/appier
+copying build/lib/appier/export.py -> build/bdist.linux-x86_64/egg/appier
+copying build/lib/appier/util.py -> build/bdist.linux-x86_64/egg/appier
+copying build/lib/appier/session.py -> build/bdist.linux-x86_64/egg/appier
+creating build/bdist.linux-x86_64/egg/appier/test
+copying build/lib/appier/test/structures.py -> build/bdist.linux-x86_64/egg/appier/test
+copying build/lib/appier/test/smtp.py -> build/bdist.linux-x86_64/egg/appier/test
+copying build/lib/appier/test/util.py -> build/bdist.linux-x86_64/egg/appier/test
+copying build/lib/appier/test/session.py -> build/bdist.linux-x86_64/egg/appier/test
+copying build/lib/appier/test/cache.py -> build/bdist.linux-x86_64/egg/appier/test
+copying build/lib/appier/test/__init__.py -> build/bdist.linux-x86_64/egg/appier/test
+copying build/lib/appier/test/request.py -> build/bdist.linux-x86_64/egg/appier/test
+copying build/lib/appier/cache.py -> build/bdist.linux-x86_64/egg/appier
+copying build/lib/appier/log.py -> build/bdist.linux-x86_64/egg/appier
+creating build/bdist.linux-x86_64/egg/appier/res
+creating build/bdist.linux-x86_64/egg/appier/res/templates
+copying build/lib/appier/res/templates/holder.html.tpl -> build/bdist.linux-x86_64/egg/appier/res/templates
+copying build/lib/appier/res/templates/error.html.tpl -> build/bdist.linux-x86_64/egg/appier/res/templates
+copying build/lib/appier/res/templates/layout.html.tpl -> build/bdist.linux-x86_64/egg/appier/res/templates
+creating build/bdist.linux-x86_64/egg/appier/res/static
+creating build/bdist.linux-x86_64/egg/appier/res/static/images
+copying build/lib/appier/res/static/images/favicon.ico -> build/bdist.linux-x86_64/egg/appier/res/static/images
+creating build/bdist.linux-x86_64/egg/appier/res/static/css
+copying build/lib/appier/res/static/css/base.css -> build/bdist.linux-x86_64/egg/appier/res/static/css
+copying build/lib/appier/validation.py -> build/bdist.linux-x86_64/egg/appier
+copying build/lib/appier/http.py -> build/bdist.linux-x86_64/egg/appier
+copying build/lib/appier/__init__.py -> build/bdist.linux-x86_64/egg/appier
+copying build/lib/appier/settings.py -> build/bdist.linux-x86_64/egg/appier
+copying build/lib/appier/defines.py -> build/bdist.linux-x86_64/egg/appier
+copying build/lib/appier/compress.py -> build/bdist.linux-x86_64/egg/appier
+copying build/lib/appier/scheduler.py -> build/bdist.linux-x86_64/egg/appier
+copying build/lib/appier/common.py -> build/bdist.linux-x86_64/egg/appier
+copying build/lib/appier/redisdb.py -> build/bdist.linux-x86_64/egg/appier
+copying build/lib/appier/request.py -> build/bdist.linux-x86_64/egg/appier
+copying build/lib/appier/base.py -> build/bdist.linux-x86_64/egg/appier
+copying build/lib/appier/exceptions.py -> build/bdist.linux-x86_64/egg/appier
+byte-compiling build/bdist.linux-x86_64/egg/appier/legacy.py to legacy.pyc
+byte-compiling build/bdist.linux-x86_64/egg/appier/meta.py to meta.pyc
+byte-compiling build/bdist.linux-x86_64/egg/appier/part.py to part.pyc
+byte-compiling build/bdist.linux-x86_64/egg/appier/model.py to model.pyc
+byte-compiling build/bdist.linux-x86_64/egg/appier/config.py to config.pyc
+byte-compiling build/bdist.linux-x86_64/egg/appier/api.py to api.pyc
+byte-compiling build/bdist.linux-x86_64/egg/appier/structures.py to structures.pyc
+byte-compiling build/bdist.linux-x86_64/egg/appier/observer.py to observer.pyc
+byte-compiling build/bdist.linux-x86_64/egg/appier/serialize.py to serialize.pyc
+byte-compiling build/bdist.linux-x86_64/egg/appier/typesf.py to typesf.pyc
+byte-compiling build/bdist.linux-x86_64/egg/appier/controller.py to controller.pyc
+byte-compiling build/bdist.linux-x86_64/egg/appier/async.py to async.pyc
+byte-compiling build/bdist.linux-x86_64/egg/appier/mongo.py to mongo.pyc
+byte-compiling build/bdist.linux-x86_64/egg/appier/smtp.py to smtp.pyc
+byte-compiling build/bdist.linux-x86_64/egg/appier/export.py to export.pyc
+byte-compiling build/bdist.linux-x86_64/egg/appier/util.py to util.pyc
+byte-compiling build/bdist.linux-x86_64/egg/appier/session.py to session.pyc
+byte-compiling build/bdist.linux-x86_64/egg/appier/test/structures.py to structures.pyc
+byte-compiling build/bdist.linux-x86_64/egg/appier/test/smtp.py to smtp.pyc
+byte-compiling build/bdist.linux-x86_64/egg/appier/test/util.py to util.pyc
+byte-compiling build/bdist.linux-x86_64/egg/appier/test/session.py to session.pyc
+byte-compiling build/bdist.linux-x86_64/egg/appier/test/cache.py to cache.pyc
+byte-compiling build/bdist.linux-x86_64/egg/appier/test/__init__.py to __init__.pyc
+byte-compiling build/bdist.linux-x86_64/egg/appier/test/request.py to request.pyc
+byte-compiling build/bdist.linux-x86_64/egg/appier/cache.py to cache.pyc
+byte-compiling build/bdist.linux-x86_64/egg/appier/log.py to log.pyc
+byte-compiling build/bdist.linux-x86_64/egg/appier/validation.py to validation.pyc
+byte-compiling build/bdist.linux-x86_64/egg/appier/http.py to http.pyc
+byte-compiling build/bdist.linux-x86_64/egg/appier/__init__.py to __init__.pyc
+byte-compiling build/bdist.linux-x86_64/egg/appier/settings.py to settings.pyc
+byte-compiling build/bdist.linux-x86_64/egg/appier/defines.py to defines.pyc
+byte-compiling build/bdist.linux-x86_64/egg/appier/compress.py to compress.pyc
+byte-compiling build/bdist.linux-x86_64/egg/appier/scheduler.py to scheduler.pyc
+byte-compiling build/bdist.linux-x86_64/egg/appier/common.py to common.pyc
+byte-compiling build/bdist.linux-x86_64/egg/appier/redisdb.py to redisdb.pyc
+byte-compiling build/bdist.linux-x86_64/egg/appier/request.py to request.pyc
+byte-compiling build/bdist.linux-x86_64/egg/appier/base.py to base.pyc
+byte-compiling build/bdist.linux-x86_64/egg/appier/exceptions.py to exceptions.pyc
+creating build/bdist.linux-x86_64/egg/EGG-INFO
+copying src/appier.egg-info/PKG-INFO -> build/bdist.linux-x86_64/egg/EGG-INFO
+copying src/appier.egg-info/SOURCES.txt -> build/bdist.linux-x86_64/egg/EGG-INFO
+copying src/appier.egg-info/dependency_links.txt -> build/bdist.linux-x86_64/egg/EGG-INFO
+copying src/appier.egg-info/not-zip-safe -> build/bdist.linux-x86_64/egg/EGG-INFO
+copying src/appier.egg-info/top_level.txt -> build/bdist.linux-x86_64/egg/EGG-INFO
+creating dist
+creating 'dist/appier-0.9.30-py2.7.egg' and adding 'build/bdist.linux-x86_64/egg' to it
+removing 'build/bdist.linux-x86_64/egg' (and everything under it)
+Processing appier-0.9.30-py2.7.egg
+creating /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/appier-0.9.30-py2.7.egg
+Extracting appier-0.9.30-py2.7.egg to /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages
+Adding appier 0.9.30 to easy-install.pth file
+
+Installed /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/appier-0.9.30-py2.7.egg
+Processing dependencies for appier==0.9.30
+Finished processing dependencies for appier==0.9.30
+
+The following NEW packages will be INSTALLED:
+
+    openssl:    1.0.1k-1     
+    pip:        7.0.3-py27_0 
+    python:     2.7.10-0     
+    readline:   6.2-2        
+    setuptools: 18.0.1-py27_0
+    sqlite:     3.8.4.1-1    
+    system:     5.8-2        
+    tk:         8.5.18-0     
+    zlib:       1.2.8-0      
+
+Linking packages ...
+[                    ]|                                                  |   0%[openssl             ]|                                                  |   0%[readline            ]|#####                                             |  11%[sqlite              ]|###########                                       |  22%[system              ]|################                                  |  33%[tk                  ]|######################                            |  44%[zlib                ]|###########################                       |  55%[python              ]|#################################                 |  66%[setuptools          ]|######################################            |  77%[pip                 ]|############################################      |  88%[      COMPLETE      ]|##################################################| 100%
+Removing old work directory
+Source cache directory is: /home/ubuntu/miniconda/conda-bld/src_cache
+Found source in cache: appier-0.9.30.zip
+Extracting download
+Package: appier-0.9.30-py_0
+source tree in: /home/ubuntu/miniconda/conda-bld/work/appier-0.9.30
+found egg dir: /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/appier-0.9.30-py2.7.egg
+number of files: 82
+Fixing permissions
+Fixing permissions
+BUILD END: appier-0.9.30-py_0
+TEST START: appier-0.9.30-py_0
+Fetching package metadata: ......
+
+WARNING: conda-build appears to be out of date. You have version 1.13.0 but the
+latest version is 1.14.1. Run
+
+conda update -n root conda-build
+
+to get the latest version.
+
+Solving package specifications: ./home/ubuntu/miniconda/pkgs/appier-0.9.30-py_0/bin/.appier-pre-link.sh: line 2: /home/ubuntu/miniconda/envs/_test/bin/python: No such file or directory
+
+The following packages will be downloaded:
+
+    package                    |            build
+    ---------------------------|-----------------
+    appier-0.9.30              |             py_0          76 KB
+
+The following NEW packages will be INSTALLED:
+
+    appier:     0.9.30-py_0  
+    openssl:    1.0.1k-1     
+    pip:        7.0.3-py27_0 
+    python:     2.7.10-0     
+    readline:   6.2-2        
+    setuptools: 18.0.1-py27_0
+    sqlite:     3.8.4.1-1    
+    system:     5.8-2        
+    tk:         8.5.18-0     
+    zlib:       1.2.8-0      
+
+Fetching packages ...
+appier-0.9.30-   0% |                              | ETA:  --:--:--   0.00  B/sappier-0.9.30-  21% |######                         | ETA:  0:00:00  47.49 MB/sappier-0.9.30-  42% |#############                  | ETA:  0:00:00  59.37 MB/sappier-0.9.30-  63% |###################            | ETA:  0:00:00  64.59 MB/sappier-0.9.30-  84% |##########################     | ETA:  0:00:00  68.84 MB/sappier-0.9.30- 100% |###############################| ETA:  0:00:00  68.92 MB/sappier-0.9.30- 100% |###############################| Time: 0:00:00  56.86 MB/s
+Extracting packages ...
+[      COMPLETE      ]|                                                  |   0%[appier              ]|                                                  |   0%[appier              ]|                                                  |   0%[      COMPLETE      ]|##################################################| 100%
+Linking packages ...
+[      COMPLETE      ]|                                                  |   0%[openssl             ]|                                                  |   0%[openssl             ]|                                                  |   0%[readline            ]|#####                                             |  10%[sqlite              ]|##########                                        |  20%[system              ]|###############                                   |  30%[tk                  ]|####################                              |  40%[zlib                ]|#########################                         |  50%[appier              ]|##############################                    |  60%Error: pre-link failed: appier-0.9.30-py_0

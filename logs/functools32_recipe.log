@@ -1,0 +1,26 @@
+Warning, the following versions were found for functools32
+3.2.3-1
+3.2.3
+Using 3.2.3-1
+Use --version to specify a different version.
+Using url https://pypi.python.org/packages/source/f/functools32/functools32-3.2.3-1.tar.gz (30 KB) for functools32.
+Downloading functools32
+Using cached download
+Unpacking functools32...
+done
+working in /tmp/tmpAvtyqwconda_skeleton_functools32-3.2.3-1.tar.gz
+Fetching package metadata: ......
+
+WARNING: conda-build appears to be out of date. You have version 1.13.0 but the
+latest version is 1.14.1. Run
+
+conda update -n root conda-build
+
+to get the latest version.
+
+Solving package specifications: .patching file core.py
+Hunk #1 succeeded at 168 with fuzz 2 (offset 2 lines).
+
+Applying patch: '/tmp/tmpAvtyqwconda_skeleton_functools32-3.2.3-1.tar.gz/pypi-distutils.patch'
+Writing recipe for functools32
+Done

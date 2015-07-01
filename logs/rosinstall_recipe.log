@@ -1,0 +1,185 @@
+Warning, the following versions were found for rosinstall
+0.7.5
+0.7.4
+0.7.3
+0.7.2
+0.7.1
+0.7.0
+0.6.30
+0.6.29
+0.6.28
+0.6.27
+0.6.26
+0.6.25
+0.6.24
+0.6.23
+0.6.22
+0.6.21
+0.6.20
+0.6.19
+0.6.18
+0.6.17
+0.6.16
+0.6.15
+0.6.14
+0.6.13
+0.6.12
+0.6.11
+0.6.10
+0.6.9
+0.6.8
+0.6.6
+0.6.5
+0.6.4
+0.6.3
+0.6.2
+0.6.1
+0.6.0
+0.5.30
+0.5.29
+0.5.28
+0.5.27
+0.5.26
+0.5.25
+0.5.24
+0.5.23
+0.5.22
+0.5.20
+0.5.19
+0.5.18
+0.5.17
+0.5.16
+0.5.15
+0.5.14
+0.5.12
+0.5.10
+0.5.9
+0.5.8
+0.5.7
+0.5.6
+0.5.5
+0.5.4
+0.5.3
+0.5.2
+0.5.0
+0.04
+Using 0.7.5
+Use --version to specify a different version.
+Using url https://pypi.python.org/packages/source/r/rosinstall/rosinstall-0.7.5.tar.gz (25 KB) for rosinstall.
+Downloading rosinstall
+Using cached download
+Unpacking rosinstall...
+done
+working in /tmp/tmpIv5jw5conda_skeleton_rosinstall-0.7.5.tar.gz
+Fetching package metadata: ......
+
+WARNING: conda-build appears to be out of date. You have version 1.13.0 but the
+latest version is 1.14.1. Run
+
+conda update -n root conda-build
+
+to get the latest version.
+
+Solving package specifications: .patching file core.py
+Hunk #1 succeeded at 168 with fuzz 2 (offset 2 lines).
+
+WARNING: conda-build appears to be out of date. You have version 1.13.0 but the
+latest version is 1.14.1. Run
+
+conda update -n root conda-build
+
+to get the latest version.
+
+
+The following NEW packages will be INSTALLED:
+
+    numpy:  1.9.2-py27_0
+    pyyaml: 3.11-py27_1 
+    yaml:   0.1.6-0     
+
+Linking packages ...
+[                    ]|                                                  |   0%[yaml                ]|                                                  |   0%[numpy               ]|################                                  |  33%[pyyaml              ]|#################################                 |  66%[      COMPLETE      ]|##################################################| 100%
+Applying patch: '/tmp/tmpIv5jw5conda_skeleton_rosinstall-0.7.5.tar.gz/pypi-distutils.patch'
+Warning, the following versions were found for wstool
+0.1.6
+0.1.5
+0.1.4
+0.1.3
+0.1.1
+0.1.0
+0.0.4
+0.0.3
+0.0.2
+0.0.1
+Using 0.1.6
+Use --version to specify a different version.
+Using url https://pypi.python.org/packages/source/w/wstool/wstool-0.1.6.tar.gz (36 KB) for wstool.
+Downloading wstool
+Using cached download
+Unpacking wstool...
+done
+working in /tmp/tmp2yVWQ5conda_skeleton_wstool-0.1.6.tar.gz
+Solving package specifications: .patching file core.py
+Hunk #1 succeeded at 168 with fuzz 2 (offset 2 lines).
+
+WARNING: conda-build appears to be out of date. You have version 1.13.0 but the
+latest version is 1.14.1. Run
+
+conda update -n root conda-build
+
+to get the latest version.
+
+
+Applying patch: '/tmp/tmp2yVWQ5conda_skeleton_wstool-0.1.6.tar.gz/pypi-distutils.patch'
+Warning, the following versions were found for rosdistro
+0.4.2
+0.4.1
+0.4.0
+0.3.6
+0.3.5
+0.3.4
+0.3.3
+0.3.2
+0.3.1
+0.3.0
+0.2.20
+0.2.19
+0.2.18
+0.2.17
+0.2.16
+0.2.15
+0.2.14
+0.2.13
+0.2.12
+0.2.11
+0.2.9
+0.2.8
+0.2.7
+0.2.6
+0.2.5
+0.2.4
+0.2.3
+0.2.2
+0.2.1
+0.1.19
+0.1.18
+0.1.17
+0.1.16
+0.1.15
+0.1.6
+Using 0.4.2
+Use --version to specify a different version.
+Using url https://pypi.python.org/packages/source/r/rosdistro/rosdistro-0.4.2.tar.gz (32 KB) for rosdistro.
+Downloading rosdistro
+Using cached download
+Unpacking rosdistro...
+done
+working in /tmp/tmpVCeoKGconda_skeleton_rosdistro-0.4.2.tar.gz
+Solving package specifications: .patching file core.py
+Hunk #1 succeeded at 168 with fuzz 2 (offset 2 lines).
+
+Applying patch: '/tmp/tmpVCeoKGconda_skeleton_rosdistro-0.4.2.tar.gz/pypi-distutils.patch'
+Writing recipe for rosdistro
+Writing recipe for wstool
+Writing recipe for rosinstall
+Done

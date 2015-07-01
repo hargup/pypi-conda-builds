@@ -1,0 +1,38 @@
+concurrentloghandler not found, trying ConcurrentLogHandler
+Warning, the following versions were found for ConcurrentLogHandler
+0.9.1
+0.9.0
+0.8.7
+0.8.6
+0.8.5
+0.8.4
+0.8.3
+0.8.2
+0.8.1
+0.8.0
+0.7.4
+0.7.3
+0.7.2
+Using 0.9.1
+Use --version to specify a different version.
+Using url https://pypi.python.org/packages/source/C/ConcurrentLogHandler/ConcurrentLogHandler-0.9.1.tar.gz (25 KB) for ConcurrentLogHandler.
+Downloading ConcurrentLogHandler
+Using cached download
+Unpacking ConcurrentLogHandler...
+done
+working in /tmp/tmpncGG5zconda_skeleton_ConcurrentLogHandler-0.9.1.tar.gz
+Fetching package metadata: ......
+
+WARNING: conda-build appears to be out of date. You have version 1.13.0 but the
+latest version is 1.14.1. Run
+
+conda update -n root conda-build
+
+to get the latest version.
+
+Solving package specifications: .patching file core.py
+Hunk #1 succeeded at 168 with fuzz 2 (offset 2 lines).
+
+Applying patch: '/tmp/tmpncGG5zconda_skeleton_ConcurrentLogHandler-0.9.1.tar.gz/pypi-distutils.patch'
+Writing recipe for concurrentloghandler
+Done

@@ -1,0 +1,75 @@
+package:
+  name: django-facebook
+  version: "6.0.3"
+
+source:
+  fn: django-facebook-6.0.3.tar.gz
+  url: https://pypi.python.org/packages/source/d/django-facebook/django-facebook-6.0.3.tar.gz
+  md5: 350885982c33f954bb766842813a1a59
+#  patches:
+   # List any patch files here
+   # - fix.patch
+
+build:
+  noarch_python: True
+  # preserve_egg_dir: True
+  # entry_points:
+    # Put any entry points (scripts to be generated automatically) here. The
+    # syntax is module:function.  For example
+    #
+    # - django-facebook = django-facebook:main
+    #
+    # Would create an entry point called django-facebook that calls django-facebook.main()
+
+
+  # If this is a new build for the same version, increment the build
+  # number. If you do not include this key, it defaults to 0.
+  # number: 1
+
+requirements:
+  build:
+    - python
+    - setuptools
+    - unidecode
+
+  run:
+    - python
+    - unidecode
+
+test:
+  # Python imports
+  imports:
+    - django_facebook
+    - django_facebook.management
+    - django_facebook.management.commands
+    - django_facebook.south_migrations
+    - django_facebook.templatetags
+    - django_facebook.test_utils
+    - open_facebook
+
+  # commands:
+    # You can put test commands to be run here.  Use this to test that the
+    # entry points work.
+
+
+  # You can also put a file called run_test.py in the recipe that will be run
+  # at test time.
+
+  requires:
+    - django
+    - mock
+    - pil
+    - pytest
+    - pytest-django
+    - python-memcached
+    # Put any additional test requirements here.  For example
+    # - nose
+
+about:
+  home: http://github.com/tschellenbach/Django-facebook
+  license: BSD License
+  summary: 'Facebook open graph API client in python. Enables django applications to register users using facebook.\nFixes issues with the official but unsupported Facebook python-sdk. Enables mobile facebook authentication.\nCanvas page authentication for facebook applications. FQL access via the server side api.\n'
+
+# See
+# http://docs.continuum.io/conda/build.html for
+# more information about meta.yaml

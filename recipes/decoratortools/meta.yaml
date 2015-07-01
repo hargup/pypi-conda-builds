@@ -1,0 +1,62 @@
+package:
+  name: decoratortools
+  version: "1.8"
+
+source:
+  fn: DecoratorTools-1.8.zip
+  url: https://pypi.python.org/packages/source/D/DecoratorTools/DecoratorTools-1.8.zip
+  md5: f161004115c3d04ed976c230c8a91d87
+#  patches:
+   # List any patch files here
+   # - fix.patch
+
+build:
+  noarch_python: True
+  # preserve_egg_dir: True
+  # entry_points:
+    # Put any entry points (scripts to be generated automatically) here. The
+    # syntax is module:function.  For example
+    #
+    # - decoratortools = decoratortools:main
+    #
+    # Would create an entry point called decoratortools that calls decoratortools.main()
+
+
+  # If this is a new build for the same version, increment the build
+  # number. If you do not include this key, it defaults to 0.
+  # number: 1
+
+requirements:
+  build:
+    - python
+    - setuptools
+
+  run:
+    - python
+
+test:
+  # Python imports
+  imports:
+    - peak
+    - peak.util
+
+  # commands:
+    # You can put test commands to be run here.  Use this to test that the
+    # entry points work.
+
+
+  # You can also put a file called run_test.py in the recipe that will be run
+  # at test time.
+
+  # requires:
+    # Put any additional test requirements here.  For example
+    # - nose
+
+about:
+  home: http://cheeseshop.python.org/pypi/DecoratorTools
+  license: PSF or ZPL
+  summary: 'Class, function, and metaclass decorators -- even in Python 2.3 (now with source debugging for generated code)!'
+
+# See
+# http://docs.continuum.io/conda/build.html for
+# more information about meta.yaml

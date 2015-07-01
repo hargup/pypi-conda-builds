@@ -19,37 +19,48 @@ Warning, the following versions were found for pyenchant
 Using 1.6.6
 Use --version to specify a different version.
 Using url https://pypi.python.org/packages/source/p/pyenchant/pyenchant-1.6.6.tar.gz (63 KB) for pyenchant.
-Downloading pyenchant (use --no-download to skip this step)
+Downloading pyenchant
 Using cached download
 Unpacking pyenchant...
 done
-working in /tmp/tmpyWpKrXconda_skeleton_pyenchant-1.6.6.tar.gz
+working in /tmp/tmp582aH0conda_skeleton_pyenchant-1.6.6.tar.gz
 Fetching package metadata: ......
+
+WARNING: conda-build appears to be out of date. You have version 1.13.0 but the
+latest version is 1.14.1. Run
+
+conda update -n root conda-build
+
+to get the latest version.
+
 Solving package specifications: .patching file core.py
 Hunk #1 succeeded at 168 with fuzz 2 (offset 2 lines).
-Downloading https://pypi.python.org/packages/source/s/setuptools/setuptools-1.1.7.tar.gz
 Traceback (most recent call last):
-  File "setup.py", line 12, in <module>
-    ez_setup.use_setuptools()
-  File "/tmp/tmpyWpKrXconda_skeleton_pyenchant-1.6.6.tar.gz/pyenchant-1.6.6/ez_setup.py", line 132, in use_setuptools
-    return _do_download(version, download_base, to_dir, download_delay)
-  File "/tmp/tmpyWpKrXconda_skeleton_pyenchant-1.6.6.tar.gz/pyenchant-1.6.6/ez_setup.py", line 110, in _do_download
-    to_dir, download_delay)
-  File "/tmp/tmpyWpKrXconda_skeleton_pyenchant-1.6.6.tar.gz/pyenchant-1.6.6/ez_setup.py", line 278, in download_setuptools
-    downloader(url, saveto)
-  File "/tmp/tmpyWpKrXconda_skeleton_pyenchant-1.6.6.tar.gz/pyenchant-1.6.6/ez_setup.py", line 185, in download_file_curl
-    subprocess.check_call(cmd)
-  File "/home/ubuntu/miniconda/envs/_build/lib/python2.7/subprocess.py", line 540, in check_call
-    raise CalledProcessError(retcode, cmd)
-subprocess.CalledProcessError: Command '['curl', 'https://pypi.python.org/packages/source/s/setuptools/setuptools-1.1.7.tar.gz', '--silent', '--output', '/tmp/tmpyWpKrXconda_skeleton_pyenchant-1.6.6.tar.gz/pyenchant-1.6.6/setuptools-1.1.7.tar.gz']' returned non-zero exit status 77
+  File "setup.py", line 210, in <module>
+    import enchant
+  File "/tmp/tmp582aH0conda_skeleton_pyenchant-1.6.6.tar.gz/pyenchant-1.6.6/enchant/__init__.py", line 92, in <module>
+    from enchant import _enchant as _e
+  File "/tmp/tmp582aH0conda_skeleton_pyenchant-1.6.6.tar.gz/pyenchant-1.6.6/enchant/_enchant.py", line 143, in <module>
+    raise ImportError(msg)
+ImportError: The 'enchant' C library was not found. Please install it via your OS package manager, or use a pre-built binary wheel from PyPI.
 
 The following NEW packages will be INSTALLED:
 
-    numpy:  1.9.2-py27_0
-    pyyaml: 3.11-py27_0 
+    numpy:      1.9.2-py27_0 
+    openssl:    1.0.1k-1     
+    pip:        7.0.3-py27_0 
+    python:     2.7.10-0     
+    pyyaml:     3.11-py27_1  
+    readline:   6.2-2        
+    setuptools: 18.0.1-py27_0
+    sqlite:     3.8.4.1-1    
+    system:     5.8-2        
+    tk:         8.5.18-0     
+    yaml:       0.1.6-0      
+    zlib:       1.2.8-0      
 
 Linking packages ...
-[                    ]|                                                  |   0%[numpy               ]|                                                  |   0%[pyyaml              ]|#########################                         |  50%[      COMPLETE      ]|##################################################| 100%
-Applying patch: '/tmp/tmpyWpKrXconda_skeleton_pyenchant-1.6.6.tar.gz/pypi-distutils.patch'
-$PYTHONPATH = /tmp/tmpyWpKrXconda_skeleton_pyenchant-1.6.6.tar.gz/pyenchant-1.6.6
+[                    ]|                                                  |   0%[openssl             ]|                                                  |   0%[readline            ]|####                                              |   8%[sqlite              ]|########                                          |  16%[system              ]|############                                      |  25%[tk                  ]|################                                  |  33%[yaml                ]|####################                              |  41%[zlib                ]|#########################                         |  50%[numpy               ]|#############################                     |  58%[python              ]|#################################                 |  66%[pyyaml              ]|#####################################             |  75%[setuptools          ]|#########################################         |  83%[pip                 ]|#############################################     |  91%[      COMPLETE      ]|##################################################| 100%
+Applying patch: '/tmp/tmp582aH0conda_skeleton_pyenchant-1.6.6.tar.gz/pypi-distutils.patch'
+$PYTHONPATH = /tmp/tmp582aH0conda_skeleton_pyenchant-1.6.6.tar.gz/pyenchant-1.6.6
 Error: command failed: /home/ubuntu/miniconda/envs/_build/bin/python setup.py install

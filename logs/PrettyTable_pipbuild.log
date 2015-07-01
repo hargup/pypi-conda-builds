@@ -1,35 +1,54 @@
-Error: prefix already exists: /home/ubuntu/miniconda/envs/_pipbuild_
-Collecting PrettyTable==0.7.2
-  Downloading http://localhost/packages/source/P/PrettyTable/prettytable-0.7.2.tar.bz2
-setuptools must be installed to install from a source distribution
-Package search: {'_pypi_ordering': False, 'version': '0.7.2', 'name': 'PrettyTable', 'summary': 'A simple Python library for easily displaying tabular data in a visually appealing ASCII table format.'}
-Creating standard recipe for prettytable-0.7.2
-Using url https://pypi.python.org/packages/source/P/PrettyTable/prettytable-0.7.2.tar.bz2 (21 KB) for PrettyTable.
-Downloading PrettyTable
-Using cached download
-Unpacking PrettyTable...
-done
-working in /tmp/tmpfWBhTuconda_skeleton_prettytable-0.7.2.tar.bz2
+Removing old build directory
+Removing old work directory
+BUILD START: prettytable-0.7.2-py_0
 Fetching package metadata: ......
 
 WARNING: conda-build appears to be out of date. You have version 1.13.0 but the
-latest version is 1.14.0. Run
+latest version is 1.14.1. Run
 
 conda update -n root conda-build
 
 to get the latest version.
 
-Solving package specifications: .patching file core.py
-Hunk #1 succeeded at 168 with fuzz 2 (offset 2 lines).
-Traceback (most recent call last):
-  File "setup.py", line 2, in <module>
-    from setuptools import setup
-ImportError: No module named setuptools
+Solving package specifications: .+ pip install PrettyTable
+Collecting PrettyTable
+  Downloading http://localhost/packages/source/P/PrettyTable/prettytable-0.7.2.tar.bz2
+Installing collected packages: PrettyTable
+  Running setup.py install for PrettyTable
+Successfully installed PrettyTable-0.7.2
 
-Applying patch: '/tmp/tmpfWBhTuconda_skeleton_prettytable-0.7.2.tar.bz2/pypi-distutils.patch'
-$PYTHONPATH = /tmp/tmpfWBhTuconda_skeleton_prettytable-0.7.2.tar.bz2/prettytable-0.7.2
-Error: command failed: /home/ubuntu/miniconda/envs/_build/bin/python setup.py install
+The following NEW packages will be INSTALLED:
 
-conda create -n _pipbuild_ --yes python pip
-/home/ubuntu/miniconda/envs/_pipbuild_/bin/pip install PrettyTable==0.7.2
-Error: Could not pip install PrettyTable==0.7.2
+    openssl:    1.0.1k-1     
+    pip:        7.0.3-py27_0 
+    python:     2.7.10-0     
+    readline:   6.2-2        
+    setuptools: 18.0.1-py27_0
+    sqlite:     3.8.4.1-1    
+    system:     5.8-2        
+    tk:         8.5.18-0     
+    zlib:       1.2.8-0      
+
+Linking packages ...
+[                    ]|                                                  |   0%[openssl             ]|                                                  |   0%[readline            ]|#####                                             |  11%[sqlite              ]|###########                                       |  22%[system              ]|################                                  |  33%[tk                  ]|######################                            |  44%[zlib                ]|###########################                       |  55%[python              ]|#################################                 |  66%[setuptools          ]|######################################            |  77%[pip                 ]|############################################      |  88%[      COMPLETE      ]|##################################################| 100%
+Removing old work directory
+Copying /home/ubuntu/pypi-conda-builds/prettytable to /home/ubuntu/miniconda/conda-bld/work
+Package: prettytable-0.7.2-py_0
+source tree in: /home/ubuntu/miniconda/conda-bld/work
+number of files: 7
+Fixing permissions
+Fixing permissions
+BUILD END: prettytable-0.7.2-py_0
+# If you want to upload this package to binstar.org later, type:
+#
+# $ binstar upload /home/ubuntu/miniconda/conda-bld/noarch/prettytable-0.7.2-py_0.tar.bz2
+#
+# To have conda build upload to binstar automatically, use
+# $ conda config --set binstar_upload yes
+
+Package search: {'_pypi_ordering': False, 'version': '0.7.2', 'name': 'PrettyTable', 'summary': 'A simple Python library for easily displaying tabular data in a visually appealing ASCII table format.'}
+Creating standard recipe for prettytable-0.7.2
+Converting recipe in /home/ubuntu/pypi-conda-builds/prettytable
+package = PrettyTable
+   dependencies = []
+Building conda package for prettytable

@@ -1,4 +1,7 @@
 Warning, the following versions were found for nose-parameterized
+0.4.2
+0.4.1
+0.4.0
 0.3.5
 0.3.4
 0.3.3
@@ -7,22 +10,26 @@ Warning, the following versions were found for nose-parameterized
 0.3
 0.2
 0.1
-Using 0.3.5
+Using 0.4.2
 Use --version to specify a different version.
-Using url https://pypi.python.org/packages/source/n/nose-parameterized/nose-parameterized-0.3.5.tar.gz (6 KB) for nose-parameterized.
-Downloading nose-parameterized (use --no-download to skip this step)
+Using url https://pypi.python.org/packages/source/n/nose-parameterized/nose-parameterized-0.4.2.tar.gz (8 KB) for nose-parameterized.
+Downloading nose-parameterized
 Using cached download
 Unpacking nose-parameterized...
 done
-working in /tmp/tmpeb1kVZconda_skeleton_nose-parameterized-0.3.5.tar.gz
+working in /tmp/tmp_hkNEQconda_skeleton_nose-parameterized-0.4.2.tar.gz
 Fetching package metadata: ......
+
+WARNING: conda-build appears to be out of date. You have version 1.13.0 but the
+latest version is 1.14.1. Run
+
+conda update -n root conda-build
+
+to get the latest version.
+
 Solving package specifications: .patching file core.py
 Hunk #1 succeeded at 168 with fuzz 2 (offset 2 lines).
-Traceback (most recent call last):
-  File "setup.py", line 6, in <module>
-    from setuptools import setup, find_packages
-ImportError: No module named setuptools
 
-Applying patch: '/tmp/tmpeb1kVZconda_skeleton_nose-parameterized-0.3.5.tar.gz/pypi-distutils.patch'
-$PYTHONPATH = /tmp/tmpeb1kVZconda_skeleton_nose-parameterized-0.3.5.tar.gz/nose-parameterized-0.3.5
-Error: command failed: /home/ubuntu/miniconda/envs/_build/bin/python setup.py install
+Applying patch: '/tmp/tmp_hkNEQconda_skeleton_nose-parameterized-0.4.2.tar.gz/pypi-distutils.patch'
+Writing recipe for nose-parameterized
+Done

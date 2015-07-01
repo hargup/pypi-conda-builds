@@ -1,0 +1,36 @@
+Error: prefix already exists: /home/ubuntu/miniconda/envs/_pipbuild_
+Exception:
+Traceback (most recent call last):
+  File "/home/ubuntu/miniconda/envs/_pipbuild_/lib/python2.7/site-packages/pip/basecommand.py", line 223, in main
+    status = self.run(options, args)
+  File "/home/ubuntu/miniconda/envs/_pipbuild_/lib/python2.7/site-packages/pip/commands/install.py", line 268, in run
+    wheel_cache
+  File "/home/ubuntu/miniconda/envs/_pipbuild_/lib/python2.7/site-packages/pip/basecommand.py", line 268, in populate_requirement_set
+    wheel_cache=wheel_cache
+  File "/home/ubuntu/miniconda/envs/_pipbuild_/lib/python2.7/site-packages/pip/req/req_install.py", line 207, in from_line
+    wheel_cache=wheel_cache)
+  File "/home/ubuntu/miniconda/envs/_pipbuild_/lib/python2.7/site-packages/pip/req/req_install.py", line 66, in __init__
+    req = pkg_resources.Requirement.parse(req)
+  File "/home/ubuntu/miniconda/envs/_pipbuild_/lib/python2.7/site-packages/pip/_vendor/pkg_resources/__init__.py", line 2960, in parse
+    reqs = list(parse_requirements(s))
+  File "/home/ubuntu/miniconda/envs/_pipbuild_/lib/python2.7/site-packages/pip/_vendor/pkg_resources/__init__.py", line 2904, in parse_requirements
+    "version spec")
+  File "/home/ubuntu/miniconda/envs/_pipbuild_/lib/python2.7/site-packages/pip/_vendor/pkg_resources/__init__.py", line 2869, in scan_list
+    raise ValueError(msg, line, "at", line[p:])
+ValueError: ('Expected version spec in', 'zope2==>=2.13.12', 'at', '==>=2.13.12')
+
+Package search: {'_pypi_ordering': False, 'version': '5.0.2', 'name': 'Products.PlonePAS', 'summary': 'PlonePAS modifies the PluggableAuthService for use by Plone.'}
+Creating standard recipe for products.plonepas-5.0.2
+Converting recipe in /home/ubuntu/pypi-conda-builds/products.plonepas
+package = Products.PlonePAS
+   dependencies = [u'products.cmfcore', u'products.genericsetup', u'products.pluggableauthservice', u'zope2 >=2.13.22', u'plone.i18n', u'plone.memoize', u'plone.session', u'zope.deprecation', u'plone.protect']
+Creating standard recipe for products.cmfcore
+Converting recipe in /home/ubuntu/pypi-conda-builds/products.cmfcore
+package = products.cmfcore
+   dependencies = [u'zope2 >=2.13.12', u'five.globalrequest', u'five.localsitemanager', u'products.btreefolder2', u'products.genericsetup', u'products.mailhost', u'products.pythonscripts', u'products.zsqlmethods']
+Creating standard recipe for zope2->=2.13.12
+Error: Version >=2.13.12 of zope2 is not available on PyPI.
+
+conda create -n _pipbuild_ --yes python pip
+/home/ubuntu/miniconda/envs/_pipbuild_/bin/pip install zope2==>=2.13.12
+Error: Could not pip install zope2==>=2.13.12

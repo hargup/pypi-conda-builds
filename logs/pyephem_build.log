@@ -1,0 +1,414 @@
+Removing old build directory
+Removing old work directory
+BUILD START: pyephem-3.7.5.3-py_0
+Fetching package metadata: ......
+
+WARNING: conda-build appears to be out of date. You have version 1.13.0 but the
+latest version is 1.14.1. Run
+
+conda update -n root conda-build
+
+to get the latest version.
+
+Solving package specifications: .+ /home/ubuntu/miniconda/envs/_build/bin/python setup.py install
+running install
+running build
+running build_py
+creating build
+creating build/lib.linux-x86_64-2.7
+creating build/lib.linux-x86_64-2.7/ephem
+copying ephem/cities.py -> build/lib.linux-x86_64-2.7/ephem
+copying ephem/stars.py -> build/lib.linux-x86_64-2.7/ephem
+copying ephem/__init__.py -> build/lib.linux-x86_64-2.7/ephem
+creating build/lib.linux-x86_64-2.7/ephem/tests
+copying ephem/tests/test_bodies.py -> build/lib.linux-x86_64-2.7/ephem/tests
+copying ephem/tests/test_usno.py -> build/lib.linux-x86_64-2.7/ephem/tests
+copying ephem/tests/test_satellite.py -> build/lib.linux-x86_64-2.7/ephem/tests
+copying ephem/tests/test_rst.py -> build/lib.linux-x86_64-2.7/ephem/tests
+copying ephem/tests/test_locales.py -> build/lib.linux-x86_64-2.7/ephem/tests
+copying ephem/tests/test_github_issues.py -> build/lib.linux-x86_64-2.7/ephem/tests
+copying ephem/tests/test_dates.py -> build/lib.linux-x86_64-2.7/ephem/tests
+copying ephem/tests/test_launchpad_236872.py -> build/lib.linux-x86_64-2.7/ephem/tests
+copying ephem/tests/test_cities.py -> build/lib.linux-x86_64-2.7/ephem/tests
+copying ephem/tests/test_constants.py -> build/lib.linux-x86_64-2.7/ephem/tests
+copying ephem/tests/test_jpl.py -> build/lib.linux-x86_64-2.7/ephem/tests
+copying ephem/tests/test_observers.py -> build/lib.linux-x86_64-2.7/ephem/tests
+copying ephem/tests/test_angles.py -> build/lib.linux-x86_64-2.7/ephem/tests
+copying ephem/tests/test_usno_equinoxes.py -> build/lib.linux-x86_64-2.7/ephem/tests
+copying ephem/tests/test_stars.py -> build/lib.linux-x86_64-2.7/ephem/tests
+copying ephem/tests/test_launchpad_244811.py -> build/lib.linux-x86_64-2.7/ephem/tests
+copying ephem/tests/__init__.py -> build/lib.linux-x86_64-2.7/ephem/tests
+creating build/lib.linux-x86_64-2.7/ephem/doc
+copying ephem/doc/quick.rst -> build/lib.linux-x86_64-2.7/ephem/doc
+copying ephem/doc/date.rst -> build/lib.linux-x86_64-2.7/ephem/doc
+copying ephem/doc/index.rst -> build/lib.linux-x86_64-2.7/ephem/doc
+copying ephem/doc/radec.rst -> build/lib.linux-x86_64-2.7/ephem/doc
+copying ephem/doc/angle.rst -> build/lib.linux-x86_64-2.7/ephem/doc
+copying ephem/doc/newton.rst -> build/lib.linux-x86_64-2.7/ephem/doc
+copying ephem/doc/catalogs.rst -> build/lib.linux-x86_64-2.7/ephem/doc
+copying ephem/doc/reference.rst -> build/lib.linux-x86_64-2.7/ephem/doc
+copying ephem/doc/rise-set.rst -> build/lib.linux-x86_64-2.7/ephem/doc
+copying ephem/doc/examples.rst -> build/lib.linux-x86_64-2.7/ephem/doc
+copying ephem/doc/coordinates.rst -> build/lib.linux-x86_64-2.7/ephem/doc
+copying ephem/doc/faq.rst -> build/lib.linux-x86_64-2.7/ephem/doc
+copying ephem/doc/CHANGELOG.rst -> build/lib.linux-x86_64-2.7/ephem/doc
+copying ephem/doc/tutorial.rst -> build/lib.linux-x86_64-2.7/ephem/doc
+creating build/lib.linux-x86_64-2.7/ephem/tests/jpl
+copying ephem/tests/jpl/phobos.txt -> build/lib.linux-x86_64-2.7/ephem/tests/jpl
+copying ephem/tests/jpl/oberon.txt -> build/lib.linux-x86_64-2.7/ephem/tests/jpl
+copying ephem/tests/jpl/uranus.txt -> build/lib.linux-x86_64-2.7/ephem/tests/jpl
+copying ephem/tests/jpl/mars.txt -> build/lib.linux-x86_64-2.7/ephem/tests/jpl
+copying ephem/tests/jpl/jupiter.txt -> build/lib.linux-x86_64-2.7/ephem/tests/jpl
+copying ephem/tests/jpl/saturn.txt -> build/lib.linux-x86_64-2.7/ephem/tests/jpl
+copying ephem/tests/jpl/hyperion.txt -> build/lib.linux-x86_64-2.7/ephem/tests/jpl
+copying ephem/tests/jpl/europa.txt -> build/lib.linux-x86_64-2.7/ephem/tests/jpl
+copying ephem/tests/jpl/neptune.txt -> build/lib.linux-x86_64-2.7/ephem/tests/jpl
+creating build/lib.linux-x86_64-2.7/ephem/tests/usno
+copying ephem/tests/usno/risettran_rigel.txt -> build/lib.linux-x86_64-2.7/ephem/tests/usno
+copying ephem/tests/usno/appgeo_jupiter.txt -> build/lib.linux-x86_64-2.7/ephem/tests/usno
+copying ephem/tests/usno/apptopo_deneb.txt -> build/lib.linux-x86_64-2.7/ephem/tests/usno
+copying ephem/tests/usno/moon_phases.txt -> build/lib.linux-x86_64-2.7/ephem/tests/usno
+copying ephem/tests/usno/risettran_moon.txt -> build/lib.linux-x86_64-2.7/ephem/tests/usno
+copying ephem/tests/usno/appgeo_deneb.txt -> build/lib.linux-x86_64-2.7/ephem/tests/usno
+copying ephem/tests/usno/appgeo_sun.txt -> build/lib.linux-x86_64-2.7/ephem/tests/usno
+copying ephem/tests/usno/apptopo_moon.txt -> build/lib.linux-x86_64-2.7/ephem/tests/usno
+copying ephem/tests/usno/astrom_mercury.txt -> build/lib.linux-x86_64-2.7/ephem/tests/usno
+copying ephem/tests/usno/riset_moon.txt -> build/lib.linux-x86_64-2.7/ephem/tests/usno
+copying ephem/tests/usno/astrom_antares.txt -> build/lib.linux-x86_64-2.7/ephem/tests/usno
+copying ephem/tests/usno/apptopo_sun.txt -> build/lib.linux-x86_64-2.7/ephem/tests/usno
+copying ephem/tests/usno/riset_sun.txt -> build/lib.linux-x86_64-2.7/ephem/tests/usno
+copying ephem/tests/usno/astrom_neptune.txt -> build/lib.linux-x86_64-2.7/ephem/tests/usno
+copying ephem/tests/usno/appgeo_moon.txt -> build/lib.linux-x86_64-2.7/ephem/tests/usno
+running build_ext
+building 'ephem._libastro' extension
+creating build/temp.linux-x86_64-2.7
+creating build/temp.linux-x86_64-2.7/extensions
+creating build/temp.linux-x86_64-2.7/libastro-3.7.5
+creating build/temp.linux-x86_64-2.7/extensions/data
+gcc -pthread -fno-strict-aliasing -g -O2 -DNDEBUG -g -fwrapv -O3 -Wall -Wstrict-prototypes -fPIC -Ilibastro-3.7.5 -I/home/ubuntu/miniconda/envs/_build/include/python2.7 -c extensions/_libastro.c -o build/temp.linux-x86_64-2.7/extensions/_libastro.o
+extensions/_libastro.c:9:0: warning: "PyUnicode_FromFormat" redefined [enabled by default]
+ #define PyUnicode_FromFormat PyString_FromFormat
+ ^
+In file included from /home/ubuntu/miniconda/envs/_build/include/python2.7/Python.h:85:0,
+                 from extensions/_libastro.c:3:
+/home/ubuntu/miniconda/envs/_build/include/python2.7/unicodeobject.h:277:0: note: this is the location of the previous definition
+ # define PyUnicode_FromFormat PyUnicodeUCS4_FromFormat
+ ^
+extensions/_libastro.c:10:0: warning: "PyUnicode_FromString" redefined [enabled by default]
+ #define PyUnicode_FromString PyString_FromString
+ ^
+In file included from /home/ubuntu/miniconda/envs/_build/include/python2.7/Python.h:85:0,
+                 from extensions/_libastro.c:3:
+/home/ubuntu/miniconda/envs/_build/include/python2.7/unicodeobject.h:281:0: note: this is the location of the previous definition
+ # define PyUnicode_FromString PyUnicodeUCS4_FromString
+ ^
+extensions/_libastro.c:11:0: warning: "PyUnicode_FromStringAndSize" redefined [enabled by default]
+ #define PyUnicode_FromStringAndSize PyString_FromStringAndSize
+ ^
+In file included from /home/ubuntu/miniconda/envs/_build/include/python2.7/Python.h:85:0,
+                 from extensions/_libastro.c:3:
+/home/ubuntu/miniconda/envs/_build/include/python2.7/unicodeobject.h:282:0: note: this is the location of the previous definition
+ # define PyUnicode_FromStringAndSize PyUnicodeUCS4_FromStringAndSize
+ ^
+extensions/_libastro.c:14:0: warning: "PyVarObject_HEAD_INIT" redefined [enabled by default]
+ #define PyVarObject_HEAD_INIT(p, b) PyObject_HEAD_INIT(p) 0,
+ ^
+In file included from /home/ubuntu/miniconda/envs/_build/include/python2.7/Python.h:80:0,
+                 from extensions/_libastro.c:3:
+/home/ubuntu/miniconda/envs/_build/include/python2.7/object.h:87:0: note: this is the location of the previous definition
+ #define PyVarObject_HEAD_INIT(type, size)       \
+ ^
+extensions/_libastro.c: In function ‘parse_mjd_from_string’:
+extensions/_libastro.c:413:9: warning: format ‘%s’ expects argument of type ‘char *’, but argument 2 has type ‘struct PyObject *’ [-Wformat=]
+         " optionally followed by hours:minutes:seconds", repr);
+         ^
+extensions/_libastro.c: In function ‘parse_angle’:
+extensions/_libastro.c:642:29: warning: unknown conversion type character ‘r’ in format [-Wformat=]
+                             "have the format [number[:number[:number]]]", s);
+                             ^
+extensions/_libastro.c:642:29: warning: too many arguments for format [-Wformat-extra-args]
+extensions/_libastro.c: In function ‘to_angle’:
+extensions/_libastro.c:687:28: warning: unknown conversion type character ‘r’ in format [-Wformat=]
+                            "have the format [number[:number[:number]]]", s);
+                            ^
+extensions/_libastro.c:687:28: warning: too many arguments for format [-Wformat-extra-args]
+extensions/_libastro.c: At top level:
+extensions/_libastro.c:728:18: warning: ‘getf_rd’ defined but not used [-Wunused-function]
+ static PyObject* getf_rd(PyObject *self, void *v)
+                  ^
+extensions/_libastro.c:733:12: warning: ‘setf_rd’ defined but not used [-Wunused-function]
+ static int setf_rd(PyObject *self, PyObject *value, void *v)
+            ^
+extensions/_libastro.c:757:18: warning: ‘getf_mjd’ defined but not used [-Wunused-function]
+ static PyObject* getf_mjd(PyObject *self, void *v)
+                  ^
+extensions/_libastro.c:762:12: warning: ‘setf_mjd’ defined but not used [-Wunused-function]
+ static int setf_mjd(PyObject *self, PyObject *value, void *v)
+            ^
+gcc -pthread -fno-strict-aliasing -g -O2 -DNDEBUG -g -fwrapv -O3 -Wall -Wstrict-prototypes -fPIC -Ilibastro-3.7.5 -I/home/ubuntu/miniconda/envs/_build/include/python2.7 -c extensions/dtoa.c -o build/temp.linux-x86_64-2.7/extensions/dtoa.o
+extensions/dtoa.c:3649:1: warning: ‘dtoa’ defined but not used [-Wunused-function]
+ dtoa
+ ^
+extensions/dtoa.c: In function ‘ascii_strtod’:
+extensions/dtoa.c:3378:8: warning: ‘rv0.L[1]’ may be used uninitialized in this function [-Wmaybe-uninitialized]
+     if (word0(&rv0) == Big0 && word1(&rv0) == Big1)
+        ^
+gcc -pthread -fno-strict-aliasing -g -O2 -DNDEBUG -g -fwrapv -O3 -Wall -Wstrict-prototypes -fPIC -Ilibastro-3.7.5 -I/home/ubuntu/miniconda/envs/_build/include/python2.7 -c libastro-3.7.5/sun.c -o build/temp.linux-x86_64-2.7/libastro-3.7.5/sun.o
+gcc -pthread -fno-strict-aliasing -g -O2 -DNDEBUG -g -fwrapv -O3 -Wall -Wstrict-prototypes -fPIC -Ilibastro-3.7.5 -I/home/ubuntu/miniconda/envs/_build/include/python2.7 -c libastro-3.7.5/obliq.c -o build/temp.linux-x86_64-2.7/libastro-3.7.5/obliq.o
+gcc -pthread -fno-strict-aliasing -g -O2 -DNDEBUG -g -fwrapv -O3 -Wall -Wstrict-prototypes -fPIC -Ilibastro-3.7.5 -I/home/ubuntu/miniconda/envs/_build/include/python2.7 -c libastro-3.7.5/sphcart.c -o build/temp.linux-x86_64-2.7/libastro-3.7.5/sphcart.o
+gcc -pthread -fno-strict-aliasing -g -O2 -DNDEBUG -g -fwrapv -O3 -Wall -Wstrict-prototypes -fPIC -Ilibastro-3.7.5 -I/home/ubuntu/miniconda/envs/_build/include/python2.7 -c libastro-3.7.5/deltat.c -o build/temp.linux-x86_64-2.7/libastro-3.7.5/deltat.o
+gcc -pthread -fno-strict-aliasing -g -O2 -DNDEBUG -g -fwrapv -O3 -Wall -Wstrict-prototypes -fPIC -Ilibastro-3.7.5 -I/home/ubuntu/miniconda/envs/_build/include/python2.7 -c libastro-3.7.5/actan.c -o build/temp.linux-x86_64-2.7/libastro-3.7.5/actan.o
+gcc -pthread -fno-strict-aliasing -g -O2 -DNDEBUG -g -fwrapv -O3 -Wall -Wstrict-prototypes -fPIC -Ilibastro-3.7.5 -I/home/ubuntu/miniconda/envs/_build/include/python2.7 -c libastro-3.7.5/comet.c -o build/temp.linux-x86_64-2.7/libastro-3.7.5/comet.o
+gcc -pthread -fno-strict-aliasing -g -O2 -DNDEBUG -g -fwrapv -O3 -Wall -Wstrict-prototypes -fPIC -Ilibastro-3.7.5 -I/home/ubuntu/miniconda/envs/_build/include/python2.7 -c libastro-3.7.5/vsop87.c -o build/temp.linux-x86_64-2.7/libastro-3.7.5/vsop87.o
+gcc -pthread -fno-strict-aliasing -g -O2 -DNDEBUG -g -fwrapv -O3 -Wall -Wstrict-prototypes -fPIC -Ilibastro-3.7.5 -I/home/ubuntu/miniconda/envs/_build/include/python2.7 -c libastro-3.7.5/chap95.c -o build/temp.linux-x86_64-2.7/libastro-3.7.5/chap95.o
+gcc -pthread -fno-strict-aliasing -g -O2 -DNDEBUG -g -fwrapv -O3 -Wall -Wstrict-prototypes -fPIC -Ilibastro-3.7.5 -I/home/ubuntu/miniconda/envs/_build/include/python2.7 -c libastro-3.7.5/constel.c -o build/temp.linux-x86_64-2.7/libastro-3.7.5/constel.o
+gcc -pthread -fno-strict-aliasing -g -O2 -DNDEBUG -g -fwrapv -O3 -Wall -Wstrict-prototypes -fPIC -Ilibastro-3.7.5 -I/home/ubuntu/miniconda/envs/_build/include/python2.7 -c libastro-3.7.5/moonnf.c -o build/temp.linux-x86_64-2.7/libastro-3.7.5/moonnf.o
+gcc -pthread -fno-strict-aliasing -g -O2 -DNDEBUG -g -fwrapv -O3 -Wall -Wstrict-prototypes -fPIC -Ilibastro-3.7.5 -I/home/ubuntu/miniconda/envs/_build/include/python2.7 -c libastro-3.7.5/riset_cir.c -o build/temp.linux-x86_64-2.7/libastro-3.7.5/riset_cir.o
+gcc -pthread -fno-strict-aliasing -g -O2 -DNDEBUG -g -fwrapv -O3 -Wall -Wstrict-prototypes -fPIC -Ilibastro-3.7.5 -I/home/ubuntu/miniconda/envs/_build/include/python2.7 -c libastro-3.7.5/refract.c -o build/temp.linux-x86_64-2.7/libastro-3.7.5/refract.o
+gcc -pthread -fno-strict-aliasing -g -O2 -DNDEBUG -g -fwrapv -O3 -Wall -Wstrict-prototypes -fPIC -Ilibastro-3.7.5 -I/home/ubuntu/miniconda/envs/_build/include/python2.7 -c libastro-3.7.5/formats.c -o build/temp.linux-x86_64-2.7/libastro-3.7.5/formats.o
+gcc -pthread -fno-strict-aliasing -g -O2 -DNDEBUG -g -fwrapv -O3 -Wall -Wstrict-prototypes -fPIC -Ilibastro-3.7.5 -I/home/ubuntu/miniconda/envs/_build/include/python2.7 -c libastro-3.7.5/bdl.c -o build/temp.linux-x86_64-2.7/libastro-3.7.5/bdl.o
+gcc -pthread -fno-strict-aliasing -g -O2 -DNDEBUG -g -fwrapv -O3 -Wall -Wstrict-prototypes -fPIC -Ilibastro-3.7.5 -I/home/ubuntu/miniconda/envs/_build/include/python2.7 -c libastro-3.7.5/parallactic.c -o build/temp.linux-x86_64-2.7/libastro-3.7.5/parallactic.o
+gcc -pthread -fno-strict-aliasing -g -O2 -DNDEBUG -g -fwrapv -O3 -Wall -Wstrict-prototypes -fPIC -Ilibastro-3.7.5 -I/home/ubuntu/miniconda/envs/_build/include/python2.7 -c libastro-3.7.5/reduce.c -o build/temp.linux-x86_64-2.7/libastro-3.7.5/reduce.o
+gcc -pthread -fno-strict-aliasing -g -O2 -DNDEBUG -g -fwrapv -O3 -Wall -Wstrict-prototypes -fPIC -Ilibastro-3.7.5 -I/home/ubuntu/miniconda/envs/_build/include/python2.7 -c libastro-3.7.5/twobody.c -o build/temp.linux-x86_64-2.7/libastro-3.7.5/twobody.o
+gcc -pthread -fno-strict-aliasing -g -O2 -DNDEBUG -g -fwrapv -O3 -Wall -Wstrict-prototypes -fPIC -Ilibastro-3.7.5 -I/home/ubuntu/miniconda/envs/_build/include/python2.7 -c libastro-3.7.5/aa_hadec.c -o build/temp.linux-x86_64-2.7/libastro-3.7.5/aa_hadec.o
+gcc -pthread -fno-strict-aliasing -g -O2 -DNDEBUG -g -fwrapv -O3 -Wall -Wstrict-prototypes -fPIC -Ilibastro-3.7.5 -I/home/ubuntu/miniconda/envs/_build/include/python2.7 -c libastro-3.7.5/satmoon.c -o build/temp.linux-x86_64-2.7/libastro-3.7.5/satmoon.o
+gcc -pthread -fno-strict-aliasing -g -O2 -DNDEBUG -g -fwrapv -O3 -Wall -Wstrict-prototypes -fPIC -Ilibastro-3.7.5 -I/home/ubuntu/miniconda/envs/_build/include/python2.7 -c libastro-3.7.5/earthsat.c -o build/temp.linux-x86_64-2.7/libastro-3.7.5/earthsat.o
+gcc -pthread -fno-strict-aliasing -g -O2 -DNDEBUG -g -fwrapv -O3 -Wall -Wstrict-prototypes -fPIC -Ilibastro-3.7.5 -I/home/ubuntu/miniconda/envs/_build/include/python2.7 -c libastro-3.7.5/mooncolong.c -o build/temp.linux-x86_64-2.7/libastro-3.7.5/mooncolong.o
+gcc -pthread -fno-strict-aliasing -g -O2 -DNDEBUG -g -fwrapv -O3 -Wall -Wstrict-prototypes -fPIC -Ilibastro-3.7.5 -I/home/ubuntu/miniconda/envs/_build/include/python2.7 -c libastro-3.7.5/precess.c -o build/temp.linux-x86_64-2.7/libastro-3.7.5/precess.o
+gcc -pthread -fno-strict-aliasing -g -O2 -DNDEBUG -g -fwrapv -O3 -Wall -Wstrict-prototypes -fPIC -Ilibastro-3.7.5 -I/home/ubuntu/miniconda/envs/_build/include/python2.7 -c libastro-3.7.5/aberration.c -o build/temp.linux-x86_64-2.7/libastro-3.7.5/aberration.o
+gcc -pthread -fno-strict-aliasing -g -O2 -DNDEBUG -g -fwrapv -O3 -Wall -Wstrict-prototypes -fPIC -Ilibastro-3.7.5 -I/home/ubuntu/miniconda/envs/_build/include/python2.7 -c libastro-3.7.5/moon.c -o build/temp.linux-x86_64-2.7/libastro-3.7.5/moon.o
+gcc -pthread -fno-strict-aliasing -g -O2 -DNDEBUG -g -fwrapv -O3 -Wall -Wstrict-prototypes -fPIC -Ilibastro-3.7.5 -I/home/ubuntu/miniconda/envs/_build/include/python2.7 -c libastro-3.7.5/sgp4.c -o build/temp.linux-x86_64-2.7/libastro-3.7.5/sgp4.o
+In file included from libastro-3.7.5/sgp4.c:6:0:
+libastro-3.7.5/satspec.h:16:1: warning: function declaration isn’t a prototype [-Wstrict-prototypes]
+ double current_jd();
+ ^
+gcc -pthread -fno-strict-aliasing -g -O2 -DNDEBUG -g -fwrapv -O3 -Wall -Wstrict-prototypes -fPIC -Ilibastro-3.7.5 -I/home/ubuntu/miniconda/envs/_build/include/python2.7 -c libastro-3.7.5/parallax.c -o build/temp.linux-x86_64-2.7/libastro-3.7.5/parallax.o
+gcc -pthread -fno-strict-aliasing -g -O2 -DNDEBUG -g -fwrapv -O3 -Wall -Wstrict-prototypes -fPIC -Ilibastro-3.7.5 -I/home/ubuntu/miniconda/envs/_build/include/python2.7 -c libastro-3.7.5/atlas.c -o build/temp.linux-x86_64-2.7/libastro-3.7.5/atlas.o
+gcc -pthread -fno-strict-aliasing -g -O2 -DNDEBUG -g -fwrapv -O3 -Wall -Wstrict-prototypes -fPIC -Ilibastro-3.7.5 -I/home/ubuntu/miniconda/envs/_build/include/python2.7 -c libastro-3.7.5/riset.c -o build/temp.linux-x86_64-2.7/libastro-3.7.5/riset.o
+gcc -pthread -fno-strict-aliasing -g -O2 -DNDEBUG -g -fwrapv -O3 -Wall -Wstrict-prototypes -fPIC -Ilibastro-3.7.5 -I/home/ubuntu/miniconda/envs/_build/include/python2.7 -c libastro-3.7.5/rings.c -o build/temp.linux-x86_64-2.7/libastro-3.7.5/rings.o
+gcc -pthread -fno-strict-aliasing -g -O2 -DNDEBUG -g -fwrapv -O3 -Wall -Wstrict-prototypes -fPIC -Ilibastro-3.7.5 -I/home/ubuntu/miniconda/envs/_build/include/python2.7 -c libastro-3.7.5/jupmoon.c -o build/temp.linux-x86_64-2.7/libastro-3.7.5/jupmoon.o
+gcc -pthread -fno-strict-aliasing -g -O2 -DNDEBUG -g -fwrapv -O3 -Wall -Wstrict-prototypes -fPIC -Ilibastro-3.7.5 -I/home/ubuntu/miniconda/envs/_build/include/python2.7 -c libastro-3.7.5/airmass.c -o build/temp.linux-x86_64-2.7/libastro-3.7.5/airmass.o
+gcc -pthread -fno-strict-aliasing -g -O2 -DNDEBUG -g -fwrapv -O3 -Wall -Wstrict-prototypes -fPIC -Ilibastro-3.7.5 -I/home/ubuntu/miniconda/envs/_build/include/python2.7 -c libastro-3.7.5/eq_ecl.c -o build/temp.linux-x86_64-2.7/libastro-3.7.5/eq_ecl.o
+gcc -pthread -fno-strict-aliasing -g -O2 -DNDEBUG -g -fwrapv -O3 -Wall -Wstrict-prototypes -fPIC -Ilibastro-3.7.5 -I/home/ubuntu/miniconda/envs/_build/include/python2.7 -c libastro-3.7.5/deep.c -o build/temp.linux-x86_64-2.7/libastro-3.7.5/deep.o
+In file included from libastro-3.7.5/deep.c:5:0:
+libastro-3.7.5/satspec.h:16:1: warning: function declaration isn’t a prototype [-Wstrict-prototypes]
+ double current_jd();
+ ^
+libastro-3.7.5/deep.c: In function ‘dpinit’:
+libastro-3.7.5/deep.c:165:51: warning: variable ‘ZMO’ set but not used [-Wunused-but-set-variable]
+  ZCOSG, ZCOSGL, ZCOSH, ZCOSHL, ZCOSI, ZCOSIL, ZE, ZMO, ZN, ZSING,
+                                                   ^
+gcc -pthread -fno-strict-aliasing -g -O2 -DNDEBUG -g -fwrapv -O3 -Wall -Wstrict-prototypes -fPIC -Ilibastro-3.7.5 -I/home/ubuntu/miniconda/envs/_build/include/python2.7 -c libastro-3.7.5/plshadow.c -o build/temp.linux-x86_64-2.7/libastro-3.7.5/plshadow.o
+gcc -pthread -fno-strict-aliasing -g -O2 -DNDEBUG -g -fwrapv -O3 -Wall -Wstrict-prototypes -fPIC -Ilibastro-3.7.5 -I/home/ubuntu/miniconda/envs/_build/include/python2.7 -c libastro-3.7.5/vsop87_data.c -o build/temp.linux-x86_64-2.7/libastro-3.7.5/vsop87_data.o
+gcc -pthread -fno-strict-aliasing -g -O2 -DNDEBUG -g -fwrapv -O3 -Wall -Wstrict-prototypes -fPIC -Ilibastro-3.7.5 -I/home/ubuntu/miniconda/envs/_build/include/python2.7 -c libastro-3.7.5/thetag.c -o build/temp.linux-x86_64-2.7/libastro-3.7.5/thetag.o
+gcc -pthread -fno-strict-aliasing -g -O2 -DNDEBUG -g -fwrapv -O3 -Wall -Wstrict-prototypes -fPIC -Ilibastro-3.7.5 -I/home/ubuntu/miniconda/envs/_build/include/python2.7 -c libastro-3.7.5/misc.c -o build/temp.linux-x86_64-2.7/libastro-3.7.5/misc.o
+gcc -pthread -fno-strict-aliasing -g -O2 -DNDEBUG -g -fwrapv -O3 -Wall -Wstrict-prototypes -fPIC -Ilibastro-3.7.5 -I/home/ubuntu/miniconda/envs/_build/include/python2.7 -c libastro-3.7.5/libration.c -o build/temp.linux-x86_64-2.7/libastro-3.7.5/libration.o
+gcc -pthread -fno-strict-aliasing -g -O2 -DNDEBUG -g -fwrapv -O3 -Wall -Wstrict-prototypes -fPIC -Ilibastro-3.7.5 -I/home/ubuntu/miniconda/envs/_build/include/python2.7 -c libastro-3.7.5/plmoon.c -o build/temp.linux-x86_64-2.7/libastro-3.7.5/plmoon.o
+libastro-3.7.5/plmoon.c: In function ‘plmoon_cir’:
+libastro-3.7.5/plmoon.c:126:2: warning: case value ‘11’ not in enumerated type ‘PLCode’ [-Wswitch]
+  case DEIMOS:
+  ^
+libastro-3.7.5/plmoon.c:141:2: warning: case value ‘12’ not in enumerated type ‘PLCode’ [-Wswitch]
+  case IO:
+  ^
+libastro-3.7.5/plmoon.c:142:2: warning: case value ‘13’ not in enumerated type ‘PLCode’ [-Wswitch]
+  case EUROPA:
+  ^
+libastro-3.7.5/plmoon.c:143:2: warning: case value ‘14’ not in enumerated type ‘PLCode’ [-Wswitch]
+  case GANYMEDE:
+  ^
+libastro-3.7.5/plmoon.c:144:2: warning: case value ‘15’ not in enumerated type ‘PLCode’ [-Wswitch]
+  case CALLISTO:
+  ^
+libastro-3.7.5/plmoon.c:161:2: warning: case value ‘16’ not in enumerated type ‘PLCode’ [-Wswitch]
+  case MIMAS:
+  ^
+libastro-3.7.5/plmoon.c:162:2: warning: case value ‘17’ not in enumerated type ‘PLCode’ [-Wswitch]
+  case ENCELADUS:
+  ^
+libastro-3.7.5/plmoon.c:163:2: warning: case value ‘18’ not in enumerated type ‘PLCode’ [-Wswitch]
+  case TETHYS:
+  ^
+libastro-3.7.5/plmoon.c:164:2: warning: case value ‘19’ not in enumerated type ‘PLCode’ [-Wswitch]
+  case DIONE:
+  ^
+libastro-3.7.5/plmoon.c:165:2: warning: case value ‘20’ not in enumerated type ‘PLCode’ [-Wswitch]
+  case RHEA:
+  ^
+libastro-3.7.5/plmoon.c:166:2: warning: case value ‘21’ not in enumerated type ‘PLCode’ [-Wswitch]
+  case TITAN:
+  ^
+libastro-3.7.5/plmoon.c:167:2: warning: case value ‘22’ not in enumerated type ‘PLCode’ [-Wswitch]
+  case HYPERION:
+  ^
+libastro-3.7.5/plmoon.c:168:2: warning: case value ‘23’ not in enumerated type ‘PLCode’ [-Wswitch]
+  case IAPETUS:
+  ^
+libastro-3.7.5/plmoon.c:185:2: warning: case value ‘24’ not in enumerated type ‘PLCode’ [-Wswitch]
+  case ARIEL:
+  ^
+libastro-3.7.5/plmoon.c:186:2: warning: case value ‘25’ not in enumerated type ‘PLCode’ [-Wswitch]
+  case UMBRIEL:
+  ^
+libastro-3.7.5/plmoon.c:187:2: warning: case value ‘26’ not in enumerated type ‘PLCode’ [-Wswitch]
+  case TITANIA:
+  ^
+libastro-3.7.5/plmoon.c:188:2: warning: case value ‘27’ not in enumerated type ‘PLCode’ [-Wswitch]
+  case OBERON:
+  ^
+libastro-3.7.5/plmoon.c:189:2: warning: case value ‘28’ not in enumerated type ‘PLCode’ [-Wswitch]
+  case MIRANDA:
+  ^
+gcc -pthread -fno-strict-aliasing -g -O2 -DNDEBUG -g -fwrapv -O3 -Wall -Wstrict-prototypes -fPIC -Ilibastro-3.7.5 -I/home/ubuntu/miniconda/envs/_build/include/python2.7 -c libastro-3.7.5/plans.c -o build/temp.linux-x86_64-2.7/libastro-3.7.5/plans.o
+gcc -pthread -fno-strict-aliasing -g -O2 -DNDEBUG -g -fwrapv -O3 -Wall -Wstrict-prototypes -fPIC -Ilibastro-3.7.5 -I/home/ubuntu/miniconda/envs/_build/include/python2.7 -c libastro-3.7.5/helio.c -o build/temp.linux-x86_64-2.7/libastro-3.7.5/helio.o
+gcc -pthread -fno-strict-aliasing -g -O2 -DNDEBUG -g -fwrapv -O3 -Wall -Wstrict-prototypes -fPIC -Ilibastro-3.7.5 -I/home/ubuntu/miniconda/envs/_build/include/python2.7 -c libastro-3.7.5/magdecl.c -o build/temp.linux-x86_64-2.7/libastro-3.7.5/magdecl.o
+libastro-3.7.5/magdecl.c: In function ‘E0000’:
+libastro-3.7.5/magdecl.c:150:12: warning: ignoring return value of ‘fgets’, declared with attribute warn_unused_result [-Wunused-result]
+       fgets(c_str, 80, wmmdat);
+            ^
+libastro-3.7.5/magdecl.c:153:12: warning: ignoring return value of ‘fgets’, declared with attribute warn_unused_result [-Wunused-result]
+       fgets(c_str, 80, wmmdat);
+            ^
+gcc -pthread -fno-strict-aliasing -g -O2 -DNDEBUG -g -fwrapv -O3 -Wall -Wstrict-prototypes -fPIC -Ilibastro-3.7.5 -I/home/ubuntu/miniconda/envs/_build/include/python2.7 -c libastro-3.7.5/sdp4.c -o build/temp.linux-x86_64-2.7/libastro-3.7.5/sdp4.o
+In file included from libastro-3.7.5/sdp4.c:7:0:
+libastro-3.7.5/satspec.h:16:1: warning: function declaration isn’t a prototype [-Wstrict-prototypes]
+ double current_jd();
+ ^
+gcc -pthread -fno-strict-aliasing -g -O2 -DNDEBUG -g -fwrapv -O3 -Wall -Wstrict-prototypes -fPIC -Ilibastro-3.7.5 -I/home/ubuntu/miniconda/envs/_build/include/python2.7 -c libastro-3.7.5/eq_gal.c -o build/temp.linux-x86_64-2.7/libastro-3.7.5/eq_gal.o
+gcc -pthread -fno-strict-aliasing -g -O2 -DNDEBUG -g -fwrapv -O3 -Wall -Wstrict-prototypes -fPIC -Ilibastro-3.7.5 -I/home/ubuntu/miniconda/envs/_build/include/python2.7 -c libastro-3.7.5/circum.c -o build/temp.linux-x86_64-2.7/libastro-3.7.5/circum.o
+libastro-3.7.5/circum.c: In function ‘obj_hyperbolic’:
+libastro-3.7.5/circum.c:427:9: warning: variable ‘a’ set but not used [-Wunused-but-set-variable]
+  double a;  /* mean distance */
+         ^
+gcc -pthread -fno-strict-aliasing -g -O2 -DNDEBUG -g -fwrapv -O3 -Wall -Wstrict-prototypes -fPIC -Ilibastro-3.7.5 -I/home/ubuntu/miniconda/envs/_build/include/python2.7 -c libastro-3.7.5/auxil.c -o build/temp.linux-x86_64-2.7/libastro-3.7.5/auxil.o
+gcc -pthread -fno-strict-aliasing -g -O2 -DNDEBUG -g -fwrapv -O3 -Wall -Wstrict-prototypes -fPIC -Ilibastro-3.7.5 -I/home/ubuntu/miniconda/envs/_build/include/python2.7 -c libastro-3.7.5/nutation.c -o build/temp.linux-x86_64-2.7/libastro-3.7.5/nutation.o
+gcc -pthread -fno-strict-aliasing -g -O2 -DNDEBUG -g -fwrapv -O3 -Wall -Wstrict-prototypes -fPIC -Ilibastro-3.7.5 -I/home/ubuntu/miniconda/envs/_build/include/python2.7 -c libastro-3.7.5/dbfmt.c -o build/temp.linux-x86_64-2.7/libastro-3.7.5/dbfmt.o
+gcc -pthread -fno-strict-aliasing -g -O2 -DNDEBUG -g -fwrapv -O3 -Wall -Wstrict-prototypes -fPIC -Ilibastro-3.7.5 -I/home/ubuntu/miniconda/envs/_build/include/python2.7 -c libastro-3.7.5/ap_as.c -o build/temp.linux-x86_64-2.7/libastro-3.7.5/ap_as.o
+gcc -pthread -fno-strict-aliasing -g -O2 -DNDEBUG -g -fwrapv -O3 -Wall -Wstrict-prototypes -fPIC -Ilibastro-3.7.5 -I/home/ubuntu/miniconda/envs/_build/include/python2.7 -c libastro-3.7.5/mjd.c -o build/temp.linux-x86_64-2.7/libastro-3.7.5/mjd.o
+gcc -pthread -fno-strict-aliasing -g -O2 -DNDEBUG -g -fwrapv -O3 -Wall -Wstrict-prototypes -fPIC -Ilibastro-3.7.5 -I/home/ubuntu/miniconda/envs/_build/include/python2.7 -c libastro-3.7.5/marsmoon.c -o build/temp.linux-x86_64-2.7/libastro-3.7.5/marsmoon.o
+gcc -pthread -fno-strict-aliasing -g -O2 -DNDEBUG -g -fwrapv -O3 -Wall -Wstrict-prototypes -fPIC -Ilibastro-3.7.5 -I/home/ubuntu/miniconda/envs/_build/include/python2.7 -c libastro-3.7.5/umoon.c -o build/temp.linux-x86_64-2.7/libastro-3.7.5/umoon.o
+gcc -pthread -fno-strict-aliasing -g -O2 -DNDEBUG -g -fwrapv -O3 -Wall -Wstrict-prototypes -fPIC -Ilibastro-3.7.5 -I/home/ubuntu/miniconda/envs/_build/include/python2.7 -c libastro-3.7.5/utc_gst.c -o build/temp.linux-x86_64-2.7/libastro-3.7.5/utc_gst.o
+gcc -pthread -fno-strict-aliasing -g -O2 -DNDEBUG -g -fwrapv -O3 -Wall -Wstrict-prototypes -fPIC -Ilibastro-3.7.5 -I/home/ubuntu/miniconda/envs/_build/include/python2.7 -c libastro-3.7.5/chap95_data.c -o build/temp.linux-x86_64-2.7/libastro-3.7.5/chap95_data.o
+gcc -pthread -fno-strict-aliasing -g -O2 -DNDEBUG -g -fwrapv -O3 -Wall -Wstrict-prototypes -fPIC -Ilibastro-3.7.5 -I/home/ubuntu/miniconda/envs/_build/include/python2.7 -c libastro-3.7.5/anomaly.c -o build/temp.linux-x86_64-2.7/libastro-3.7.5/anomaly.o
+gcc -pthread -fno-strict-aliasing -g -O2 -DNDEBUG -g -fwrapv -O3 -Wall -Wstrict-prototypes -fPIC -Ilibastro-3.7.5 -I/home/ubuntu/miniconda/envs/_build/include/python2.7 -c extensions/data/jupiter.9910.c -o build/temp.linux-x86_64-2.7/extensions/data/jupiter.9910.o
+gcc -pthread -fno-strict-aliasing -g -O2 -DNDEBUG -g -fwrapv -O3 -Wall -Wstrict-prototypes -fPIC -Ilibastro-3.7.5 -I/home/ubuntu/miniconda/envs/_build/include/python2.7 -c extensions/data/jupiter.1020.c -o build/temp.linux-x86_64-2.7/extensions/data/jupiter.1020.o
+gcc -pthread -fno-strict-aliasing -g -O2 -DNDEBUG -g -fwrapv -O3 -Wall -Wstrict-prototypes -fPIC -Ilibastro-3.7.5 -I/home/ubuntu/miniconda/envs/_build/include/python2.7 -c extensions/data/uranus.9910.c -o build/temp.linux-x86_64-2.7/extensions/data/uranus.9910.o
+gcc -pthread -fno-strict-aliasing -g -O2 -DNDEBUG -g -fwrapv -O3 -Wall -Wstrict-prototypes -fPIC -Ilibastro-3.7.5 -I/home/ubuntu/miniconda/envs/_build/include/python2.7 -c extensions/data/uranus.1020.c -o build/temp.linux-x86_64-2.7/extensions/data/uranus.1020.o
+gcc -pthread -fno-strict-aliasing -g -O2 -DNDEBUG -g -fwrapv -O3 -Wall -Wstrict-prototypes -fPIC -Ilibastro-3.7.5 -I/home/ubuntu/miniconda/envs/_build/include/python2.7 -c extensions/data/saturne.9910.c -o build/temp.linux-x86_64-2.7/extensions/data/saturne.9910.o
+gcc -pthread -fno-strict-aliasing -g -O2 -DNDEBUG -g -fwrapv -O3 -Wall -Wstrict-prototypes -fPIC -Ilibastro-3.7.5 -I/home/ubuntu/miniconda/envs/_build/include/python2.7 -c extensions/data/saturne.1020.c -o build/temp.linux-x86_64-2.7/extensions/data/saturne.1020.o
+gcc -pthread -fno-strict-aliasing -g -O2 -DNDEBUG -g -fwrapv -O3 -Wall -Wstrict-prototypes -fPIC -Ilibastro-3.7.5 -I/home/ubuntu/miniconda/envs/_build/include/python2.7 -c extensions/data/mars.9910.c -o build/temp.linux-x86_64-2.7/extensions/data/mars.9910.o
+gcc -pthread -fno-strict-aliasing -g -O2 -DNDEBUG -g -fwrapv -O3 -Wall -Wstrict-prototypes -fPIC -Ilibastro-3.7.5 -I/home/ubuntu/miniconda/envs/_build/include/python2.7 -c extensions/data/mars.1020.c -o build/temp.linux-x86_64-2.7/extensions/data/mars.1020.o
+gcc -pthread -shared -L/home/ubuntu/miniconda/envs/_build/lib -Wl,-rpath=/home/ubuntu/miniconda/envs/_build/lib,--no-as-needed build/temp.linux-x86_64-2.7/extensions/_libastro.o build/temp.linux-x86_64-2.7/extensions/dtoa.o build/temp.linux-x86_64-2.7/libastro-3.7.5/sun.o build/temp.linux-x86_64-2.7/libastro-3.7.5/obliq.o build/temp.linux-x86_64-2.7/libastro-3.7.5/sphcart.o build/temp.linux-x86_64-2.7/libastro-3.7.5/deltat.o build/temp.linux-x86_64-2.7/libastro-3.7.5/actan.o build/temp.linux-x86_64-2.7/libastro-3.7.5/comet.o build/temp.linux-x86_64-2.7/libastro-3.7.5/vsop87.o build/temp.linux-x86_64-2.7/libastro-3.7.5/chap95.o build/temp.linux-x86_64-2.7/libastro-3.7.5/constel.o build/temp.linux-x86_64-2.7/libastro-3.7.5/moonnf.o build/temp.linux-x86_64-2.7/libastro-3.7.5/riset_cir.o build/temp.linux-x86_64-2.7/libastro-3.7.5/refract.o build/temp.linux-x86_64-2.7/libastro-3.7.5/formats.o build/temp.linux-x86_64-2.7/libastro-3.7.5/bdl.o build/temp.linux-x86_64-2.7/libastro-3.7.5/parallactic.o build/temp.linux-x86_64-2.7/libastro-3.7.5/reduce.o build/temp.linux-x86_64-2.7/libastro-3.7.5/twobody.o build/temp.linux-x86_64-2.7/libastro-3.7.5/aa_hadec.o build/temp.linux-x86_64-2.7/libastro-3.7.5/satmoon.o build/temp.linux-x86_64-2.7/libastro-3.7.5/earthsat.o build/temp.linux-x86_64-2.7/libastro-3.7.5/mooncolong.o build/temp.linux-x86_64-2.7/libastro-3.7.5/precess.o build/temp.linux-x86_64-2.7/libastro-3.7.5/aberration.o build/temp.linux-x86_64-2.7/libastro-3.7.5/moon.o build/temp.linux-x86_64-2.7/libastro-3.7.5/sgp4.o build/temp.linux-x86_64-2.7/libastro-3.7.5/parallax.o build/temp.linux-x86_64-2.7/libastro-3.7.5/atlas.o build/temp.linux-x86_64-2.7/libastro-3.7.5/riset.o build/temp.linux-x86_64-2.7/libastro-3.7.5/rings.o build/temp.linux-x86_64-2.7/libastro-3.7.5/jupmoon.o build/temp.linux-x86_64-2.7/libastro-3.7.5/airmass.o build/temp.linux-x86_64-2.7/libastro-3.7.5/eq_ecl.o build/temp.linux-x86_64-2.7/libastro-3.7.5/deep.o build/temp.linux-x86_64-2.7/libastro-3.7.5/plshadow.o build/temp.linux-x86_64-2.7/libastro-3.7.5/vsop87_data.o build/temp.linux-x86_64-2.7/libastro-3.7.5/thetag.o build/temp.linux-x86_64-2.7/libastro-3.7.5/misc.o build/temp.linux-x86_64-2.7/libastro-3.7.5/libration.o build/temp.linux-x86_64-2.7/libastro-3.7.5/plmoon.o build/temp.linux-x86_64-2.7/libastro-3.7.5/plans.o build/temp.linux-x86_64-2.7/libastro-3.7.5/helio.o build/temp.linux-x86_64-2.7/libastro-3.7.5/magdecl.o build/temp.linux-x86_64-2.7/libastro-3.7.5/sdp4.o build/temp.linux-x86_64-2.7/libastro-3.7.5/eq_gal.o build/temp.linux-x86_64-2.7/libastro-3.7.5/circum.o build/temp.linux-x86_64-2.7/libastro-3.7.5/auxil.o build/temp.linux-x86_64-2.7/libastro-3.7.5/nutation.o build/temp.linux-x86_64-2.7/libastro-3.7.5/dbfmt.o build/temp.linux-x86_64-2.7/libastro-3.7.5/ap_as.o build/temp.linux-x86_64-2.7/libastro-3.7.5/mjd.o build/temp.linux-x86_64-2.7/libastro-3.7.5/marsmoon.o build/temp.linux-x86_64-2.7/libastro-3.7.5/umoon.o build/temp.linux-x86_64-2.7/libastro-3.7.5/utc_gst.o build/temp.linux-x86_64-2.7/libastro-3.7.5/chap95_data.o build/temp.linux-x86_64-2.7/libastro-3.7.5/anomaly.o build/temp.linux-x86_64-2.7/extensions/data/jupiter.9910.o build/temp.linux-x86_64-2.7/extensions/data/jupiter.1020.o build/temp.linux-x86_64-2.7/extensions/data/uranus.9910.o build/temp.linux-x86_64-2.7/extensions/data/uranus.1020.o build/temp.linux-x86_64-2.7/extensions/data/saturne.9910.o build/temp.linux-x86_64-2.7/extensions/data/saturne.1020.o build/temp.linux-x86_64-2.7/extensions/data/mars.9910.o build/temp.linux-x86_64-2.7/extensions/data/mars.1020.o -L/home/ubuntu/miniconda/envs/_build/lib -lpython2.7 -o build/lib.linux-x86_64-2.7/ephem/_libastro.so
+running install_lib
+creating /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/ephem
+creating /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/ephem/doc
+copying build/lib.linux-x86_64-2.7/ephem/doc/quick.rst -> /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/ephem/doc
+copying build/lib.linux-x86_64-2.7/ephem/doc/date.rst -> /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/ephem/doc
+copying build/lib.linux-x86_64-2.7/ephem/doc/index.rst -> /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/ephem/doc
+copying build/lib.linux-x86_64-2.7/ephem/doc/radec.rst -> /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/ephem/doc
+copying build/lib.linux-x86_64-2.7/ephem/doc/angle.rst -> /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/ephem/doc
+copying build/lib.linux-x86_64-2.7/ephem/doc/newton.rst -> /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/ephem/doc
+copying build/lib.linux-x86_64-2.7/ephem/doc/catalogs.rst -> /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/ephem/doc
+copying build/lib.linux-x86_64-2.7/ephem/doc/reference.rst -> /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/ephem/doc
+copying build/lib.linux-x86_64-2.7/ephem/doc/rise-set.rst -> /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/ephem/doc
+copying build/lib.linux-x86_64-2.7/ephem/doc/examples.rst -> /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/ephem/doc
+copying build/lib.linux-x86_64-2.7/ephem/doc/coordinates.rst -> /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/ephem/doc
+copying build/lib.linux-x86_64-2.7/ephem/doc/faq.rst -> /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/ephem/doc
+copying build/lib.linux-x86_64-2.7/ephem/doc/CHANGELOG.rst -> /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/ephem/doc
+copying build/lib.linux-x86_64-2.7/ephem/doc/tutorial.rst -> /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/ephem/doc
+copying build/lib.linux-x86_64-2.7/ephem/cities.py -> /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/ephem
+copying build/lib.linux-x86_64-2.7/ephem/stars.py -> /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/ephem
+copying build/lib.linux-x86_64-2.7/ephem/_libastro.so -> /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/ephem
+creating /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/ephem/tests
+copying build/lib.linux-x86_64-2.7/ephem/tests/test_bodies.py -> /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/ephem/tests
+copying build/lib.linux-x86_64-2.7/ephem/tests/test_usno.py -> /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/ephem/tests
+copying build/lib.linux-x86_64-2.7/ephem/tests/test_satellite.py -> /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/ephem/tests
+creating /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/ephem/tests/jpl
+copying build/lib.linux-x86_64-2.7/ephem/tests/jpl/phobos.txt -> /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/ephem/tests/jpl
+copying build/lib.linux-x86_64-2.7/ephem/tests/jpl/oberon.txt -> /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/ephem/tests/jpl
+copying build/lib.linux-x86_64-2.7/ephem/tests/jpl/uranus.txt -> /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/ephem/tests/jpl
+copying build/lib.linux-x86_64-2.7/ephem/tests/jpl/mars.txt -> /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/ephem/tests/jpl
+copying build/lib.linux-x86_64-2.7/ephem/tests/jpl/jupiter.txt -> /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/ephem/tests/jpl
+copying build/lib.linux-x86_64-2.7/ephem/tests/jpl/saturn.txt -> /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/ephem/tests/jpl
+copying build/lib.linux-x86_64-2.7/ephem/tests/jpl/hyperion.txt -> /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/ephem/tests/jpl
+copying build/lib.linux-x86_64-2.7/ephem/tests/jpl/europa.txt -> /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/ephem/tests/jpl
+copying build/lib.linux-x86_64-2.7/ephem/tests/jpl/neptune.txt -> /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/ephem/tests/jpl
+copying build/lib.linux-x86_64-2.7/ephem/tests/test_rst.py -> /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/ephem/tests
+creating /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/ephem/tests/usno
+copying build/lib.linux-x86_64-2.7/ephem/tests/usno/risettran_rigel.txt -> /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/ephem/tests/usno
+copying build/lib.linux-x86_64-2.7/ephem/tests/usno/appgeo_jupiter.txt -> /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/ephem/tests/usno
+copying build/lib.linux-x86_64-2.7/ephem/tests/usno/apptopo_deneb.txt -> /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/ephem/tests/usno
+copying build/lib.linux-x86_64-2.7/ephem/tests/usno/moon_phases.txt -> /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/ephem/tests/usno
+copying build/lib.linux-x86_64-2.7/ephem/tests/usno/risettran_moon.txt -> /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/ephem/tests/usno
+copying build/lib.linux-x86_64-2.7/ephem/tests/usno/appgeo_deneb.txt -> /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/ephem/tests/usno
+copying build/lib.linux-x86_64-2.7/ephem/tests/usno/appgeo_sun.txt -> /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/ephem/tests/usno
+copying build/lib.linux-x86_64-2.7/ephem/tests/usno/apptopo_moon.txt -> /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/ephem/tests/usno
+copying build/lib.linux-x86_64-2.7/ephem/tests/usno/astrom_mercury.txt -> /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/ephem/tests/usno
+copying build/lib.linux-x86_64-2.7/ephem/tests/usno/riset_moon.txt -> /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/ephem/tests/usno
+copying build/lib.linux-x86_64-2.7/ephem/tests/usno/astrom_antares.txt -> /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/ephem/tests/usno
+copying build/lib.linux-x86_64-2.7/ephem/tests/usno/apptopo_sun.txt -> /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/ephem/tests/usno
+copying build/lib.linux-x86_64-2.7/ephem/tests/usno/riset_sun.txt -> /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/ephem/tests/usno
+copying build/lib.linux-x86_64-2.7/ephem/tests/usno/astrom_neptune.txt -> /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/ephem/tests/usno
+copying build/lib.linux-x86_64-2.7/ephem/tests/usno/appgeo_moon.txt -> /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/ephem/tests/usno
+copying build/lib.linux-x86_64-2.7/ephem/tests/test_locales.py -> /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/ephem/tests
+copying build/lib.linux-x86_64-2.7/ephem/tests/test_github_issues.py -> /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/ephem/tests
+copying build/lib.linux-x86_64-2.7/ephem/tests/test_dates.py -> /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/ephem/tests
+copying build/lib.linux-x86_64-2.7/ephem/tests/test_launchpad_236872.py -> /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/ephem/tests
+copying build/lib.linux-x86_64-2.7/ephem/tests/test_cities.py -> /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/ephem/tests
+copying build/lib.linux-x86_64-2.7/ephem/tests/test_constants.py -> /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/ephem/tests
+copying build/lib.linux-x86_64-2.7/ephem/tests/test_jpl.py -> /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/ephem/tests
+copying build/lib.linux-x86_64-2.7/ephem/tests/test_observers.py -> /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/ephem/tests
+copying build/lib.linux-x86_64-2.7/ephem/tests/test_angles.py -> /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/ephem/tests
+copying build/lib.linux-x86_64-2.7/ephem/tests/test_usno_equinoxes.py -> /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/ephem/tests
+copying build/lib.linux-x86_64-2.7/ephem/tests/test_stars.py -> /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/ephem/tests
+copying build/lib.linux-x86_64-2.7/ephem/tests/test_launchpad_244811.py -> /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/ephem/tests
+copying build/lib.linux-x86_64-2.7/ephem/tests/__init__.py -> /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/ephem/tests
+copying build/lib.linux-x86_64-2.7/ephem/__init__.py -> /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/ephem
+byte-compiling /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/ephem/cities.py to cities.pyc
+byte-compiling /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/ephem/stars.py to stars.pyc
+byte-compiling /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/ephem/tests/test_bodies.py to test_bodies.pyc
+byte-compiling /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/ephem/tests/test_usno.py to test_usno.pyc
+byte-compiling /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/ephem/tests/test_satellite.py to test_satellite.pyc
+byte-compiling /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/ephem/tests/test_rst.py to test_rst.pyc
+byte-compiling /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/ephem/tests/test_locales.py to test_locales.pyc
+byte-compiling /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/ephem/tests/test_github_issues.py to test_github_issues.pyc
+byte-compiling /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/ephem/tests/test_dates.py to test_dates.pyc
+byte-compiling /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/ephem/tests/test_launchpad_236872.py to test_launchpad_236872.pyc
+byte-compiling /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/ephem/tests/test_cities.py to test_cities.pyc
+byte-compiling /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/ephem/tests/test_constants.py to test_constants.pyc
+byte-compiling /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/ephem/tests/test_jpl.py to test_jpl.pyc
+byte-compiling /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/ephem/tests/test_observers.py to test_observers.pyc
+byte-compiling /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/ephem/tests/test_angles.py to test_angles.pyc
+byte-compiling /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/ephem/tests/test_usno_equinoxes.py to test_usno_equinoxes.pyc
+byte-compiling /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/ephem/tests/test_stars.py to test_stars.pyc
+byte-compiling /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/ephem/tests/test_launchpad_244811.py to test_launchpad_244811.pyc
+byte-compiling /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/ephem/tests/__init__.py to __init__.pyc
+byte-compiling /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/ephem/__init__.py to __init__.pyc
+running install_egg_info
+Writing /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/pyephem-3.7.5.3-py2.7.egg-info
+
+The following NEW packages will be INSTALLED:
+
+    openssl:    1.0.1k-1     
+    pip:        7.0.3-py27_0 
+    python:     2.7.10-0     
+    readline:   6.2-2        
+    setuptools: 18.0.1-py27_0
+    sqlite:     3.8.4.1-1    
+    system:     5.8-2        
+    tk:         8.5.18-0     
+    zlib:       1.2.8-0      
+
+Linking packages ...
+[                    ]|                                                  |   0%[openssl             ]|                                                  |   0%[readline            ]|#####                                             |  11%[sqlite              ]|###########                                       |  22%[system              ]|################                                  |  33%[tk                  ]|######################                            |  44%[zlib                ]|###########################                       |  55%[python              ]|#################################                 |  66%[setuptools          ]|######################################            |  77%[pip                 ]|############################################      |  88%[      COMPLETE      ]|##################################################| 100%
+Removing old work directory
+Source cache directory is: /home/ubuntu/miniconda/conda-bld/src_cache
+Found source in cache: pyephem-3.7.5.3.tar.gz
+Extracting download
+Package: pyephem-3.7.5.3-py_0
+source tree in: /home/ubuntu/miniconda/conda-bld/work/pyephem-3.7.5.3
+number of files: 80
+Fixing permissions
+patchelf: file: /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/ephem/_libastro.so
+    setting rpath to: $ORIGIN/../../..
+[noarch_python] Error: Shared object file found: lib/python2.7/site-packages/ephem/_libastro.so

@@ -34,23 +34,56 @@ Warning, the following versions were found for pyramid_jinja2
 Using 2.5
 Use --version to specify a different version.
 Using url https://pypi.python.org/packages/source/p/pyramid_jinja2/pyramid_jinja2-2.5.tar.gz (62 KB) for pyramid_jinja2.
-Downloading pyramid_jinja2 (use --no-download to skip this step)
+Downloading pyramid_jinja2
 Using cached download
 Unpacking pyramid_jinja2...
 done
-working in /tmp/tmpUhTs_tconda_skeleton_pyramid_jinja2-2.5.tar.gz
+working in /tmp/tmpJRLlfLconda_skeleton_pyramid_jinja2-2.5.tar.gz
 Fetching package metadata: ......
+
+WARNING: conda-build appears to be out of date. You have version 1.13.0 but the
+latest version is 1.14.1. Run
+
+conda update -n root conda-build
+
+to get the latest version.
+
 Solving package specifications: .patching file core.py
 Hunk #1 succeeded at 168 with fuzz 2 (offset 2 lines).
 
+WARNING: conda-build appears to be out of date. You have version 1.13.0 but the
+latest version is 1.14.1. Run
+
+conda update -n root conda-build
+
+to get the latest version.
+
+
 The following NEW packages will be INSTALLED:
 
-    numpy:  1.9.2-py27_0
-    pyyaml: 3.11-py27_0 
+    numpy:      1.9.2-py27_0 
+    openssl:    1.0.1k-1     
+    pip:        7.0.3-py27_0 
+    python:     2.7.10-0     
+    pyyaml:     3.11-py27_1  
+    readline:   6.2-2        
+    setuptools: 18.0.1-py27_0
+    sqlite:     3.8.4.1-1    
+    system:     5.8-2        
+    tk:         8.5.18-0     
+    yaml:       0.1.6-0      
+    zlib:       1.2.8-0      
 
 Linking packages ...
-[                    ]|                                                  |   0%[numpy               ]|                                                  |   0%[pyyaml              ]|#########################                         |  50%[      COMPLETE      ]|##################################################| 100%
-Applying patch: '/tmp/tmpUhTs_tconda_skeleton_pyramid_jinja2-2.5.tar.gz/pypi-distutils.patch'
+[                    ]|                                                  |   0%[openssl             ]|                                                  |   0%[readline            ]|####                                              |   8%[sqlite              ]|########                                          |  16%[system              ]|############                                      |  25%[tk                  ]|################                                  |  33%[yaml                ]|####################                              |  41%[zlib                ]|#########################                         |  50%[numpy               ]|#############################                     |  58%[python              ]|#################################                 |  66%[pyyaml              ]|#####################################             |  75%[setuptools          ]|#########################################         |  83%[pip                 ]|#############################################     |  91%[      COMPLETE      ]|##################################################| 100%
+Applying patch: '/tmp/tmpJRLlfLconda_skeleton_pyramid_jinja2-2.5.tar.gz/pypi-distutils.patch'
+WARNING: Could not add entry points. They were:
+
+        [paste.paster_create_template]
+        pyramid_jinja2_starter=pyramid_jinja2.scaffolds:Jinja2ProjectTemplate
+        [pyramid.scaffold]
+        pyramid_jinja2_starter=pyramid_jinja2.scaffolds:Jinja2ProjectTemplate
+      
 Warning, the following versions were found for pylons-sphinx-themes
 0.3.1
 0.3
@@ -61,15 +94,23 @@ Warning, the following versions were found for pylons-sphinx-themes
 Using 0.3.1
 Use --version to specify a different version.
 Using url https://pypi.python.org/packages/source/p/pylons-sphinx-themes/pylons-sphinx-themes-0.3.1.tar.gz (132 KB) for pylons-sphinx-themes.
-Downloading pylons-sphinx-themes (use --no-download to skip this step)
+Downloading pylons-sphinx-themes
 Using cached download
 Unpacking pylons-sphinx-themes...
 done
-working in /tmp/tmpve75XAconda_skeleton_pylons-sphinx-themes-0.3.1.tar.gz
+working in /tmp/tmpavA1Y7conda_skeleton_pylons-sphinx-themes-0.3.1.tar.gz
 Solving package specifications: .patching file core.py
 Hunk #1 succeeded at 168 with fuzz 2 (offset 2 lines).
 
-Applying patch: '/tmp/tmpve75XAconda_skeleton_pylons-sphinx-themes-0.3.1.tar.gz/pypi-distutils.patch'
+WARNING: conda-build appears to be out of date. You have version 1.13.0 but the
+latest version is 1.14.1. Run
+
+conda update -n root conda-build
+
+to get the latest version.
+
+
+Applying patch: '/tmp/tmpavA1Y7conda_skeleton_pylons-sphinx-themes-0.3.1.tar.gz/pypi-distutils.patch'
 Warning, the following versions were found for pyramid
 1.6a1
 1.5.7
@@ -167,15 +208,41 @@ Warning, the following versions were found for pyramid
 Using 1.6a1
 Use --version to specify a different version.
 Using url https://pypi.python.org/packages/source/p/pyramid/pyramid-1.6a1.tar.gz (2.6 MB) for pyramid.
-Downloading pyramid (use --no-download to skip this step)
+Downloading pyramid
 Using cached download
 Unpacking pyramid...
 done
-working in /tmp/tmpQ2g2lrconda_skeleton_pyramid-1.6a1.tar.gz
+working in /tmp/tmpbxNdZcconda_skeleton_pyramid-1.6a1.tar.gz
 Solving package specifications: .patching file core.py
 Hunk #1 succeeded at 168 with fuzz 2 (offset 2 lines).
 
-Applying patch: '/tmp/tmpQ2g2lrconda_skeleton_pyramid-1.6a1.tar.gz/pypi-distutils.patch'
+WARNING: conda-build appears to be out of date. You have version 1.13.0 but the
+latest version is 1.14.1. Run
+
+conda update -n root conda-build
+
+to get the latest version.
+
+
+Applying patch: '/tmp/tmpbxNdZcconda_skeleton_pyramid-1.6a1.tar.gz/pypi-distutils.patch'
+WARNING: Could not add entry points. They were:
+        [pyramid.scaffold]
+        starter=pyramid.scaffolds:StarterProjectTemplate
+        zodb=pyramid.scaffolds:ZODBProjectTemplate
+        alchemy=pyramid.scaffolds:AlchemyProjectTemplate
+        [console_scripts]
+        pcreate = pyramid.scripts.pcreate:main
+        pserve = pyramid.scripts.pserve:main
+        pshell = pyramid.scripts.pshell:main
+        proutes = pyramid.scripts.proutes:main
+        pviews = pyramid.scripts.pviews:main
+        ptweens = pyramid.scripts.ptweens:main
+        prequest = pyramid.scripts.prequest:main
+        pdistreport = pyramid.scripts.pdistreport:main
+        [paste.server_runner]
+        wsgiref = pyramid.scripts.pserve:wsgiref_server_runner
+        cherrypy = pyramid.scripts.pserve:cherrypy_server_runner
+      
 Warning, the following versions were found for zope.component
 4.2.2
 4.2.1
@@ -208,13 +275,13 @@ Warning, the following versions were found for zope.component
 Using 4.2.2
 Use --version to specify a different version.
 Using url https://pypi.python.org/packages/source/z/zope.component/zope.component-4.2.2.tar.gz (534 KB) for zope.component.
-Downloading zope.component (use --no-download to skip this step)
+Downloading zope.component
 Using cached download
 Unpacking zope.component...
 done
-working in /tmp/tmpXcgWNFconda_skeleton_zope.component-4.2.2.tar.gz
+working in /tmp/tmpVgx315conda_skeleton_zope.component-4.2.2.tar.gz
 Solving package specifications: .patching file core.py
 Hunk #1 succeeded at 168 with fuzz 2 (offset 2 lines).
 
-Applying patch: '/tmp/tmpXcgWNFconda_skeleton_zope.component-4.2.2.tar.gz/pypi-distutils.patch'
+Applying patch: '/tmp/tmpVgx315conda_skeleton_zope.component-4.2.2.tar.gz/pypi-distutils.patch'
 Error: Could not find any versions of package zope.component[zcml]

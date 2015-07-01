@@ -1,0 +1,71 @@
+Removing old build directory
+Removing old work directory
+BUILD START: python-jenkins-0.4.7-py_0
+Fetching package metadata: ......
+
+WARNING: conda-build appears to be out of date. You have version 1.13.0 but the
+latest version is 1.14.1. Run
+
+conda update -n root conda-build
+
+to get the latest version.
+
+Solving package specifications: .+ /home/ubuntu/miniconda/envs/_build/bin/python setup.py install
+
+Installed /home/ubuntu/miniconda/conda-bld/work/python-jenkins-0.4.7/.eggs/pbr-1.2.0-py2.7.egg
+running install
+running build
+running build_py
+creating build
+creating build/lib
+creating build/lib/jenkins
+copying jenkins/version.py -> build/lib/jenkins
+copying jenkins/__init__.py -> build/lib/jenkins
+running egg_info
+writing requirements to python_jenkins.egg-info/requires.txt
+writing python_jenkins.egg-info/PKG-INFO
+writing top-level names to python_jenkins.egg-info/top_level.txt
+writing dependency_links to python_jenkins.egg-info/dependency_links.txt
+[pbr] Reusing existing SOURCES.txt
+running install_lib
+creating /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/jenkins
+copying build/lib/jenkins/version.py -> /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/jenkins
+copying build/lib/jenkins/__init__.py -> /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/jenkins
+byte-compiling /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/jenkins/version.py to version.pyc
+byte-compiling /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/jenkins/__init__.py to __init__.pyc
+running install_egg_info
+Copying python_jenkins.egg-info to /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/python_jenkins-0.4.7-py2.7.egg-info
+running install_scripts
+
+The following NEW packages will be INSTALLED:
+
+    openssl:    1.0.1k-1     
+    pip:        7.0.3-py27_0 
+    python:     2.7.10-0     
+    readline:   6.2-2        
+    setuptools: 18.0.1-py27_0
+    sqlite:     3.8.4.1-1    
+    system:     5.8-2        
+    tk:         8.5.18-0     
+    zlib:       1.2.8-0      
+
+Linking packages ...
+[                    ]|                                                  |   0%[openssl             ]|                                                  |   0%[readline            ]|#####                                             |  11%[sqlite              ]|###########                                       |  22%[system              ]|################                                  |  33%[tk                  ]|######################                            |  44%[zlib                ]|###########################                       |  55%[python              ]|#################################                 |  66%[setuptools          ]|######################################            |  77%[pip                 ]|############################################      |  88%[      COMPLETE      ]|##################################################| 100%
+Removing old work directory
+Source cache directory is: /home/ubuntu/miniconda/conda-bld/src_cache
+Found source in cache: python-jenkins-0.4.7.tar.gz
+Extracting download
+Package: python-jenkins-0.4.7-py_0
+source tree in: /home/ubuntu/miniconda/conda-bld/work/python-jenkins-0.4.7
+number of files: 11
+Fixing permissions
+Fixing permissions
+BUILD END: python-jenkins-0.4.7-py_0
+Nothing to test for: python-jenkins-0.4.7-py_0
+# If you want to upload this package to binstar.org later, type:
+#
+# $ binstar upload /home/ubuntu/miniconda/conda-bld/noarch/python-jenkins-0.4.7-py_0.tar.bz2
+#
+# To have conda build upload to binstar automatically, use
+# $ conda config --set binstar_upload yes
+

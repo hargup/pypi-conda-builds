@@ -9,11 +9,11 @@ Downloading pygraphviz
 Using cached download
 Unpacking pygraphviz...
 done
-working in /tmp/tmpG0IXMiconda_skeleton_pygraphviz-1.3rc2.tar.gz
+working in /tmp/tmpW3kkN1conda_skeleton_pygraphviz-1.3rc2.tar.gz
 Fetching package metadata: ......
 
 WARNING: conda-build appears to be out of date. You have version 1.13.0 but the
-latest version is 1.14.0. Run
+latest version is 1.14.1. Run
 
 conda update -n root conda-build
 
@@ -53,8 +53,8 @@ Traceback (most recent call last):
     raise OSError("Error locating graphviz.")
 OSError: Error locating graphviz.
 
-Applying patch: '/tmp/tmpG0IXMiconda_skeleton_pygraphviz-1.3rc2.tar.gz/pypi-distutils.patch'
-$PYTHONPATH = /tmp/tmpG0IXMiconda_skeleton_pygraphviz-1.3rc2.tar.gz/pygraphviz-1.3rc2
+Applying patch: '/tmp/tmpW3kkN1conda_skeleton_pygraphviz-1.3rc2.tar.gz/pypi-distutils.patch'
+$PYTHONPATH = /tmp/tmpW3kkN1conda_skeleton_pygraphviz-1.3rc2.tar.gz/pygraphviz-1.3rc2
 Error: command failed: /home/ubuntu/miniconda/envs/_build/bin/python setup.py install
 
 conda create -n _pipbuild_ --yes python pip

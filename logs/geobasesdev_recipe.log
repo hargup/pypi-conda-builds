@@ -1,0 +1,83 @@
+geobasesdev not found, trying GeoBasesDev
+Warning, the following versions were found for GeoBasesDev
+6.0.0a27
+6.0.0a26
+6.0.0a25
+6.0.0a24
+6.0.0a23
+6.0.0a22
+6.0.0a18
+6.0.0a17
+6.0.0a16
+6.0.0a15
+6.0.0a14
+6.0.0a13
+6.0.0a12
+6.0.0a11
+6.0.0a10
+6.0.0a9
+6.0.0a8
+6.0.0a7
+6.0.0a6
+6.0.0a5
+6.0.0a4
+6.0.0a2
+6.0.0a1
+5.0.0
+5.0.0c5
+5.0.0c4
+5.0.0c3
+5.0.0c2
+5.0.0c1
+5.0.0b6
+5.0.0b4
+5.0.0b3
+5.0.0b2
+5.0.0a21
+5.0.0a20
+5.0.0a18
+5.0.0a17
+5.0.0a16
+5.0.0a15
+5.0.0a13
+5.0.0a12
+5.0.0a11
+5.0.0a10
+5.0.0a9
+5.0.0a8
+5.0.0a6
+5.0.0a5
+5.0.0a4
+5.0.0a3
+5.0.0a2
+5.0.0a
+Using 6.0.0a27
+Use --version to specify a different version.
+Using url https://pypi.python.org/packages/source/G/GeoBasesDev/GeoBasesDev-6.0.0a27.tar.gz (12.8 MB) for GeoBasesDev.
+Downloading GeoBasesDev
+Unpacking GeoBasesDev...
+done
+working in /tmp/tmpJ4Wo9Aconda_skeleton_GeoBasesDev-6.0.0a27.tar.gz
+Fetching package metadata: ......
+
+WARNING: conda-build appears to be out of date. You have version 1.13.0 but the
+latest version is 1.14.1. Run
+
+conda update -n root conda-build
+
+to get the latest version.
+
+Solving package specifications: .patching file core.py
+Hunk #1 succeeded at 168 with fuzz 2 (offset 2 lines).
+/!\ Installing without "['OpenTrepWrapper>=0.6']"
+
+The following NEW packages will be INSTALLED:
+
+    numpy:  1.9.2-py27_0
+    pyyaml: 3.11-py27_1 
+    yaml:   0.1.6-0     
+
+Linking packages ...
+[                    ]|                                                  |   0%[yaml                ]|                                                  |   0%[numpy               ]|################                                  |  33%[pyyaml              ]|#################################                 |  66%[      COMPLETE      ]|##################################################| 100%
+Applying patch: '/tmp/tmpJ4Wo9Aconda_skeleton_GeoBasesDev-6.0.0a27.tar.gz/pypi-distutils.patch'
+Error: Could not find any versions of package opentrepwrapper

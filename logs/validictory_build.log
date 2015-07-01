@@ -1,0 +1,160 @@
+Removing old build directory
+Removing old work directory
+BUILD START: validictory-1.0.0-py_0
+Fetching package metadata: ......
+
+WARNING: conda-build appears to be out of date. You have version 1.13.0 but the
+latest version is 1.14.1. Run
+
+conda update -n root conda-build
+
+to get the latest version.
+
+Solving package specifications: .+ /home/ubuntu/miniconda/envs/_build/bin/python setup.py install
+running install
+running bdist_egg
+running egg_info
+writing validictory.egg-info/PKG-INFO
+writing top-level names to validictory.egg-info/top_level.txt
+writing dependency_links to validictory.egg-info/dependency_links.txt
+reading manifest file 'validictory.egg-info/SOURCES.txt'
+reading manifest template 'MANIFEST.in'
+warning: no files found matching 'CHANGELOG.txt'
+writing manifest file 'validictory.egg-info/SOURCES.txt'
+installing library code to build/bdist.linux-x86_64/egg
+running install_lib
+running build_py
+creating build
+creating build/lib
+creating build/lib/validictory
+copying validictory/__init__.py -> build/lib/validictory
+copying validictory/validator.py -> build/lib/validictory
+creating build/lib/validictory/tests
+copying validictory/tests/test_fail_fast.py -> build/lib/validictory/tests
+copying validictory/tests/test_type.py -> build/lib/validictory/tests
+copying validictory/tests/test_properties.py -> build/lib/validictory/tests
+copying validictory/tests/test_apply_default.py -> build/lib/validictory/tests
+copying validictory/tests/test_disallow_unknown_properties.py -> build/lib/validictory/tests
+copying validictory/tests/test_values.py -> build/lib/validictory/tests
+copying validictory/tests/test_items.py -> build/lib/validictory/tests
+copying validictory/tests/__init__.py -> build/lib/validictory/tests
+copying validictory/tests/test_other.py -> build/lib/validictory/tests
+copying validictory/tests/test_schema_schema.py -> build/lib/validictory/tests
+creating build/bdist.linux-x86_64
+creating build/bdist.linux-x86_64/egg
+creating build/bdist.linux-x86_64/egg/validictory
+creating build/bdist.linux-x86_64/egg/validictory/tests
+copying build/lib/validictory/tests/test_fail_fast.py -> build/bdist.linux-x86_64/egg/validictory/tests
+copying build/lib/validictory/tests/test_type.py -> build/bdist.linux-x86_64/egg/validictory/tests
+copying build/lib/validictory/tests/test_properties.py -> build/bdist.linux-x86_64/egg/validictory/tests
+copying build/lib/validictory/tests/test_apply_default.py -> build/bdist.linux-x86_64/egg/validictory/tests
+copying build/lib/validictory/tests/test_disallow_unknown_properties.py -> build/bdist.linux-x86_64/egg/validictory/tests
+copying build/lib/validictory/tests/test_values.py -> build/bdist.linux-x86_64/egg/validictory/tests
+copying build/lib/validictory/tests/test_items.py -> build/bdist.linux-x86_64/egg/validictory/tests
+copying build/lib/validictory/tests/__init__.py -> build/bdist.linux-x86_64/egg/validictory/tests
+copying build/lib/validictory/tests/test_other.py -> build/bdist.linux-x86_64/egg/validictory/tests
+copying build/lib/validictory/tests/test_schema_schema.py -> build/bdist.linux-x86_64/egg/validictory/tests
+copying build/lib/validictory/__init__.py -> build/bdist.linux-x86_64/egg/validictory
+copying build/lib/validictory/validator.py -> build/bdist.linux-x86_64/egg/validictory
+byte-compiling build/bdist.linux-x86_64/egg/validictory/tests/test_fail_fast.py to test_fail_fast.pyc
+byte-compiling build/bdist.linux-x86_64/egg/validictory/tests/test_type.py to test_type.pyc
+byte-compiling build/bdist.linux-x86_64/egg/validictory/tests/test_properties.py to test_properties.pyc
+byte-compiling build/bdist.linux-x86_64/egg/validictory/tests/test_apply_default.py to test_apply_default.pyc
+byte-compiling build/bdist.linux-x86_64/egg/validictory/tests/test_disallow_unknown_properties.py to test_disallow_unknown_properties.pyc
+byte-compiling build/bdist.linux-x86_64/egg/validictory/tests/test_values.py to test_values.pyc
+byte-compiling build/bdist.linux-x86_64/egg/validictory/tests/test_items.py to test_items.pyc
+byte-compiling build/bdist.linux-x86_64/egg/validictory/tests/__init__.py to __init__.pyc
+byte-compiling build/bdist.linux-x86_64/egg/validictory/tests/test_other.py to test_other.pyc
+byte-compiling build/bdist.linux-x86_64/egg/validictory/tests/test_schema_schema.py to test_schema_schema.pyc
+byte-compiling build/bdist.linux-x86_64/egg/validictory/__init__.py to __init__.pyc
+byte-compiling build/bdist.linux-x86_64/egg/validictory/validator.py to validator.pyc
+creating build/bdist.linux-x86_64/egg/EGG-INFO
+copying validictory.egg-info/PKG-INFO -> build/bdist.linux-x86_64/egg/EGG-INFO
+copying validictory.egg-info/SOURCES.txt -> build/bdist.linux-x86_64/egg/EGG-INFO
+copying validictory.egg-info/dependency_links.txt -> build/bdist.linux-x86_64/egg/EGG-INFO
+copying validictory.egg-info/top_level.txt -> build/bdist.linux-x86_64/egg/EGG-INFO
+zip_safe flag not set; analyzing archive contents...
+creating dist
+creating 'dist/validictory-1.0.0-py2.7.egg' and adding 'build/bdist.linux-x86_64/egg' to it
+removing 'build/bdist.linux-x86_64/egg' (and everything under it)
+Processing validictory-1.0.0-py2.7.egg
+Copying validictory-1.0.0-py2.7.egg to /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages
+Adding validictory 1.0.0 to easy-install.pth file
+
+Installed /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/validictory-1.0.0-py2.7.egg
+Processing dependencies for validictory==1.0.0
+Finished processing dependencies for validictory==1.0.0
+
+The following NEW packages will be INSTALLED:
+
+    openssl:    1.0.1k-1     
+    pip:        7.0.3-py27_0 
+    python:     2.7.10-0     
+    readline:   6.2-2        
+    setuptools: 18.0.1-py27_0
+    sqlite:     3.8.4.1-1    
+    system:     5.8-2        
+    tk:         8.5.18-0     
+    zlib:       1.2.8-0      
+
+Linking packages ...
+[                    ]|                                                  |   0%[openssl             ]|                                                  |   0%[readline            ]|#####                                             |  11%[sqlite              ]|###########                                       |  22%[system              ]|################                                  |  33%[tk                  ]|######################                            |  44%[zlib                ]|###########################                       |  55%[python              ]|#################################                 |  66%[setuptools          ]|######################################            |  77%[pip                 ]|############################################      |  88%[      COMPLETE      ]|##################################################| 100%
+Removing old work directory
+Source cache directory is: /home/ubuntu/miniconda/conda-bld/src_cache
+Found source in cache: validictory-1.0.0.tar.gz
+Extracting download
+Package: validictory-1.0.0-py_0
+source tree in: /home/ubuntu/miniconda/conda-bld/work/validictory-1.0.0
+found egg: /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/validictory-1.0.0-py2.7.egg
+number of files: 2
+Fixing permissions
+Fixing permissions
+BUILD END: validictory-1.0.0-py_0
+TEST START: validictory-1.0.0-py_0
+Fetching package metadata: ......
+
+WARNING: conda-build appears to be out of date. You have version 1.13.0 but the
+latest version is 1.14.1. Run
+
+conda update -n root conda-build
+
+to get the latest version.
+
+Solving package specifications: .===== testing package: validictory-1.0.0-py_0 =====
+import: u'validictory'
+import: u'validictory.tests'
+===== validictory-1.0.0-py_0 OK =====
+
+The following packages will be downloaded:
+
+    package                    |            build
+    ---------------------------|-----------------
+    validictory-1.0.0          |             py_0          48 KB
+
+The following NEW packages will be INSTALLED:
+
+    openssl:     1.0.1k-1     
+    pip:         7.0.3-py27_0 
+    python:      2.7.10-0     
+    readline:    6.2-2        
+    setuptools:  18.0.1-py27_0
+    sqlite:      3.8.4.1-1    
+    system:      5.8-2        
+    tk:          8.5.18-0     
+    validictory: 1.0.0-py_0   
+    zlib:        1.2.8-0      
+
+Fetching packages ...
+validictory-1.   0% |                              | ETA:  --:--:--   0.00  B/svalidictory-1.  33% |##########                     | ETA:  0:00:00  48.77 MB/svalidictory-1.  66% |####################           | ETA:  0:00:00  60.57 MB/svalidictory-1. 100% |###############################| ETA:  0:00:00  66.97 MB/svalidictory-1. 100% |###############################| Time: 0:00:00  49.27 MB/s
+Extracting packages ...
+[      COMPLETE      ]|                                                  |   0%[validictory         ]|                                                  |   0%[validictory         ]|                                                  |   0%[      COMPLETE      ]|##################################################| 100%
+Linking packages ...
+[      COMPLETE      ]|                                                  |   0%[openssl             ]|                                                  |   0%[openssl             ]|                                                  |   0%[readline            ]|#####                                             |  10%[sqlite              ]|##########                                        |  20%[system              ]|###############                                   |  30%[tk                  ]|####################                              |  40%[zlib                ]|#########################                         |  50%[python              ]|##############################                    |  60%[setuptools          ]|###################################               |  70%[validictory         ]|########################################          |  80%[pip                 ]|#############################################     |  90%[      COMPLETE      ]|##################################################| 100%
+TEST END: validictory-1.0.0-py_0
+# If you want to upload this package to binstar.org later, type:
+#
+# $ binstar upload /home/ubuntu/miniconda/conda-bld/noarch/validictory-1.0.0-py_0.tar.bz2
+#
+# To have conda build upload to binstar automatically, use
+# $ conda config --set binstar_upload yes
+

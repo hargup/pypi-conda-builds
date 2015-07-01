@@ -10,11 +10,11 @@ Downloading ll-xist
 Using cached download
 Unpacking ll-xist...
 done
-working in /tmp/tmpyZuPMGconda_skeleton_ll-xist-5.13.1.tar.bz2
+working in /tmp/tmpw8Hr7econda_skeleton_ll-xist-5.13.1.tar.bz2
 Fetching package metadata: ......
 
 WARNING: conda-build appears to be out of date. You have version 1.13.0 but the
-latest version is 1.14.0. Run
+latest version is 1.14.1. Run
 
 conda update -n root conda-build
 
@@ -27,8 +27,8 @@ Traceback (most recent call last):
     news = list(open("NEWS.rst", "r", encoding="utf-8"))
 TypeError: 'encoding' is an invalid keyword argument for this function
 
-Applying patch: '/tmp/tmpyZuPMGconda_skeleton_ll-xist-5.13.1.tar.bz2/pypi-distutils.patch'
-$PYTHONPATH = /tmp/tmpyZuPMGconda_skeleton_ll-xist-5.13.1.tar.bz2/ll-xist-5.13.1
+Applying patch: '/tmp/tmpw8Hr7econda_skeleton_ll-xist-5.13.1.tar.bz2/pypi-distutils.patch'
+$PYTHONPATH = /tmp/tmpw8Hr7econda_skeleton_ll-xist-5.13.1.tar.bz2/ll-xist-5.13.1
 Error: command failed: /home/ubuntu/miniconda/envs/_build/bin/python setup.py install
 
 conda create -n _pipbuild_ --yes python pip

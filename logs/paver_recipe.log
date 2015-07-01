@@ -1,0 +1,314 @@
+paver not found, trying Paver
+Warning, the following versions were found for Paver
+1.2.4
+1.2.3
+1.2.2
+1.2.1
+1.2.0
+1.1.1
+1.1.0
+1.0.5
+1.0.4
+1.0.3
+1.0.2
+1.0.1
+1.0
+1.0b1
+1.0a4
+1.0a3
+1.0a2
+0.8.1
+0.8
+0.7.3
+0.7.2
+0.7.1
+0.7
+0.4
+Using 1.2.4
+Use --version to specify a different version.
+Using url https://pypi.python.org/packages/source/P/Paver/Paver-1.2.4.tar.gz (321 KB) for Paver.
+Downloading Paver
+Using cached download
+Unpacking Paver...
+done
+working in /tmp/tmpFYlZTqconda_skeleton_Paver-1.2.4.tar.gz
+Fetching package metadata: ......
+
+WARNING: conda-build appears to be out of date. You have version 1.13.0 but the
+latest version is 1.14.1. Run
+
+conda update -n root conda-build
+
+to get the latest version.
+
+Solving package specifications: .patching file core.py
+Hunk #1 succeeded at 168 with fuzz 2 (offset 2 lines).
+running install
+running build
+running build_py
+creating build
+creating build/lib
+creating build/lib/paver
+copying paver/easy.py -> build/lib/paver
+copying paver/path25.py -> build/lib/paver
+copying paver/tasks.py -> build/lib/paver
+copying paver/__main__.py -> build/lib/paver
+copying paver/runtime.py -> build/lib/paver
+copying paver/setuputils.py -> build/lib/paver
+copying paver/path.py -> build/lib/paver
+copying paver/misctasks.py -> build/lib/paver
+copying paver/options.py -> build/lib/paver
+copying paver/shell.py -> build/lib/paver
+copying paver/version.py -> build/lib/paver
+copying paver/virtual.py -> build/lib/paver
+copying paver/bzr.py -> build/lib/paver
+copying paver/defaults.py -> build/lib/paver
+copying paver/release.py -> build/lib/paver
+copying paver/svn.py -> build/lib/paver
+copying paver/ssh.py -> build/lib/paver
+copying paver/__init__.py -> build/lib/paver
+copying paver/command.py -> build/lib/paver
+copying paver/git.py -> build/lib/paver
+copying paver/doctools.py -> build/lib/paver
+creating build/lib/paver/deps
+copying paver/deps/six.py -> build/lib/paver/deps
+copying paver/deps/path2.py -> build/lib/paver/deps
+copying paver/deps/__init__.py -> build/lib/paver/deps
+copying paver/deps/path3.py -> build/lib/paver/deps
+creating build/lib/paver/docs
+copying paver/docs/changelog.html -> build/lib/paver/docs
+copying paver/docs/index.html -> build/lib/paver/docs
+copying paver/docs/ssh.html -> build/lib/paver/docs
+copying paver/docs/paverstdlib.html -> build/lib/paver/docs
+copying paver/docs/features.html -> build/lib/paver/docs
+copying paver/docs/pavement.html -> build/lib/paver/docs
+copying paver/docs/getting_started.html -> build/lib/paver/docs
+copying paver/docs/files.html -> build/lib/paver/docs
+copying paver/docs/virtualenv.html -> build/lib/paver/docs
+copying paver/docs/objects.inv -> build/lib/paver/docs
+copying paver/docs/tips.html -> build/lib/paver/docs
+copying paver/docs/cmdline.html -> build/lib/paver/docs
+copying paver/docs/foreword.html -> build/lib/paver/docs
+copying paver/docs/articles.html -> build/lib/paver/docs
+copying paver/docs/setuptools.html -> build/lib/paver/docs
+copying paver/docs/searchindex.js -> build/lib/paver/docs
+copying paver/docs/doctools.html -> build/lib/paver/docs
+copying paver/docs/search.html -> build/lib/paver/docs
+copying paver/docs/genindex.html -> build/lib/paver/docs
+copying paver/docs/bzr.html -> build/lib/paver/docs
+copying paver/docs/credits.html -> build/lib/paver/docs
+copying paver/docs/svn.html -> build/lib/paver/docs
+copying paver/docs/misctasks.html -> build/lib/paver/docs
+copying paver/docs/py-modindex.html -> build/lib/paver/docs
+creating build/lib/paver/docs/_static
+copying paver/docs/_static/underscore.js -> build/lib/paver/docs/_static
+copying paver/docs/_static/paver_banner.jpg -> build/lib/paver/docs/_static
+copying paver/docs/_static/doctools.js -> build/lib/paver/docs/_static
+copying paver/docs/_static/jquery.js -> build/lib/paver/docs/_static
+copying paver/docs/_static/default.css -> build/lib/paver/docs/_static
+copying paver/docs/_static/plus.png -> build/lib/paver/docs/_static
+copying paver/docs/_static/websupport.js -> build/lib/paver/docs/_static
+copying paver/docs/_static/pygments.css -> build/lib/paver/docs/_static
+copying paver/docs/_static/minus.png -> build/lib/paver/docs/_static
+copying paver/docs/_static/comment-close.png -> build/lib/paver/docs/_static
+copying paver/docs/_static/ajax-loader.gif -> build/lib/paver/docs/_static
+copying paver/docs/_static/sidebar.js -> build/lib/paver/docs/_static
+copying paver/docs/_static/up-pressed.png -> build/lib/paver/docs/_static
+copying paver/docs/_static/basic.css -> build/lib/paver/docs/_static
+copying paver/docs/_static/up.png -> build/lib/paver/docs/_static
+copying paver/docs/_static/comment-bright.png -> build/lib/paver/docs/_static
+copying paver/docs/_static/comment.png -> build/lib/paver/docs/_static
+copying paver/docs/_static/down.png -> build/lib/paver/docs/_static
+copying paver/docs/_static/searchtools.js -> build/lib/paver/docs/_static
+copying paver/docs/_static/down-pressed.png -> build/lib/paver/docs/_static
+copying paver/docs/_static/file.png -> build/lib/paver/docs/_static
+creating build/lib/paver/docs/_images
+copying paver/docs/_images/paver_banner.jpg -> build/lib/paver/docs/_images
+creating build/lib/paver/docs/_sources
+copying paver/docs/_sources/changelog.txt -> build/lib/paver/docs/_sources
+copying paver/docs/_sources/articles.txt -> build/lib/paver/docs/_sources
+copying paver/docs/_sources/ssh.txt -> build/lib/paver/docs/_sources
+copying paver/docs/_sources/paverstdlib.txt -> build/lib/paver/docs/_sources
+copying paver/docs/_sources/pavement.txt -> build/lib/paver/docs/_sources
+copying paver/docs/_sources/credits.txt -> build/lib/paver/docs/_sources
+copying paver/docs/_sources/features.txt -> build/lib/paver/docs/_sources
+copying paver/docs/_sources/bzr.txt -> build/lib/paver/docs/_sources
+copying paver/docs/_sources/svn.txt -> build/lib/paver/docs/_sources
+copying paver/docs/_sources/setuptools.txt -> build/lib/paver/docs/_sources
+copying paver/docs/_sources/cmdline.txt -> build/lib/paver/docs/_sources
+copying paver/docs/_sources/foreword.txt -> build/lib/paver/docs/_sources
+copying paver/docs/_sources/misctasks.txt -> build/lib/paver/docs/_sources
+copying paver/docs/_sources/getting_started.txt -> build/lib/paver/docs/_sources
+copying paver/docs/_sources/tips.txt -> build/lib/paver/docs/_sources
+copying paver/docs/_sources/doctools.txt -> build/lib/paver/docs/_sources
+copying paver/docs/_sources/virtualenv.txt -> build/lib/paver/docs/_sources
+copying paver/docs/_sources/files.txt -> build/lib/paver/docs/_sources
+copying paver/docs/_sources/index.txt -> build/lib/paver/docs/_sources
+running install_lib
+creating /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/paver
+creating /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/paver/deps
+copying build/lib/paver/deps/six.py -> /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/paver/deps
+copying build/lib/paver/deps/path2.py -> /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/paver/deps
+copying build/lib/paver/deps/__init__.py -> /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/paver/deps
+copying build/lib/paver/deps/path3.py -> /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/paver/deps
+copying build/lib/paver/easy.py -> /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/paver
+copying build/lib/paver/path25.py -> /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/paver
+creating /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/paver/docs
+copying build/lib/paver/docs/changelog.html -> /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/paver/docs
+copying build/lib/paver/docs/index.html -> /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/paver/docs
+copying build/lib/paver/docs/ssh.html -> /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/paver/docs
+copying build/lib/paver/docs/paverstdlib.html -> /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/paver/docs
+creating /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/paver/docs/_static
+copying build/lib/paver/docs/_static/underscore.js -> /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/paver/docs/_static
+copying build/lib/paver/docs/_static/paver_banner.jpg -> /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/paver/docs/_static
+copying build/lib/paver/docs/_static/doctools.js -> /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/paver/docs/_static
+copying build/lib/paver/docs/_static/jquery.js -> /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/paver/docs/_static
+copying build/lib/paver/docs/_static/default.css -> /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/paver/docs/_static
+copying build/lib/paver/docs/_static/plus.png -> /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/paver/docs/_static
+copying build/lib/paver/docs/_static/websupport.js -> /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/paver/docs/_static
+copying build/lib/paver/docs/_static/pygments.css -> /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/paver/docs/_static
+copying build/lib/paver/docs/_static/minus.png -> /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/paver/docs/_static
+copying build/lib/paver/docs/_static/comment-close.png -> /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/paver/docs/_static
+copying build/lib/paver/docs/_static/ajax-loader.gif -> /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/paver/docs/_static
+copying build/lib/paver/docs/_static/sidebar.js -> /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/paver/docs/_static
+copying build/lib/paver/docs/_static/up-pressed.png -> /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/paver/docs/_static
+copying build/lib/paver/docs/_static/basic.css -> /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/paver/docs/_static
+copying build/lib/paver/docs/_static/up.png -> /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/paver/docs/_static
+copying build/lib/paver/docs/_static/comment-bright.png -> /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/paver/docs/_static
+copying build/lib/paver/docs/_static/comment.png -> /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/paver/docs/_static
+copying build/lib/paver/docs/_static/down.png -> /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/paver/docs/_static
+copying build/lib/paver/docs/_static/searchtools.js -> /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/paver/docs/_static
+copying build/lib/paver/docs/_static/down-pressed.png -> /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/paver/docs/_static
+copying build/lib/paver/docs/_static/file.png -> /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/paver/docs/_static
+copying build/lib/paver/docs/features.html -> /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/paver/docs
+copying build/lib/paver/docs/pavement.html -> /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/paver/docs
+copying build/lib/paver/docs/getting_started.html -> /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/paver/docs
+copying build/lib/paver/docs/files.html -> /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/paver/docs
+copying build/lib/paver/docs/virtualenv.html -> /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/paver/docs
+copying build/lib/paver/docs/objects.inv -> /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/paver/docs
+copying build/lib/paver/docs/tips.html -> /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/paver/docs
+copying build/lib/paver/docs/cmdline.html -> /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/paver/docs
+copying build/lib/paver/docs/foreword.html -> /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/paver/docs
+copying build/lib/paver/docs/articles.html -> /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/paver/docs
+copying build/lib/paver/docs/setuptools.html -> /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/paver/docs
+copying build/lib/paver/docs/searchindex.js -> /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/paver/docs
+copying build/lib/paver/docs/doctools.html -> /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/paver/docs
+copying build/lib/paver/docs/search.html -> /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/paver/docs
+copying build/lib/paver/docs/genindex.html -> /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/paver/docs
+copying build/lib/paver/docs/bzr.html -> /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/paver/docs
+copying build/lib/paver/docs/credits.html -> /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/paver/docs
+copying build/lib/paver/docs/svn.html -> /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/paver/docs
+copying build/lib/paver/docs/misctasks.html -> /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/paver/docs
+copying build/lib/paver/docs/py-modindex.html -> /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/paver/docs
+creating /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/paver/docs/_images
+copying build/lib/paver/docs/_images/paver_banner.jpg -> /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/paver/docs/_images
+creating /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/paver/docs/_sources
+copying build/lib/paver/docs/_sources/changelog.txt -> /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/paver/docs/_sources
+copying build/lib/paver/docs/_sources/articles.txt -> /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/paver/docs/_sources
+copying build/lib/paver/docs/_sources/ssh.txt -> /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/paver/docs/_sources
+copying build/lib/paver/docs/_sources/paverstdlib.txt -> /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/paver/docs/_sources
+copying build/lib/paver/docs/_sources/pavement.txt -> /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/paver/docs/_sources
+copying build/lib/paver/docs/_sources/credits.txt -> /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/paver/docs/_sources
+copying build/lib/paver/docs/_sources/features.txt -> /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/paver/docs/_sources
+copying build/lib/paver/docs/_sources/bzr.txt -> /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/paver/docs/_sources
+copying build/lib/paver/docs/_sources/svn.txt -> /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/paver/docs/_sources
+copying build/lib/paver/docs/_sources/setuptools.txt -> /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/paver/docs/_sources
+copying build/lib/paver/docs/_sources/cmdline.txt -> /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/paver/docs/_sources
+copying build/lib/paver/docs/_sources/foreword.txt -> /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/paver/docs/_sources
+copying build/lib/paver/docs/_sources/misctasks.txt -> /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/paver/docs/_sources
+copying build/lib/paver/docs/_sources/getting_started.txt -> /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/paver/docs/_sources
+copying build/lib/paver/docs/_sources/tips.txt -> /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/paver/docs/_sources
+copying build/lib/paver/docs/_sources/doctools.txt -> /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/paver/docs/_sources
+copying build/lib/paver/docs/_sources/virtualenv.txt -> /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/paver/docs/_sources
+copying build/lib/paver/docs/_sources/files.txt -> /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/paver/docs/_sources
+copying build/lib/paver/docs/_sources/index.txt -> /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/paver/docs/_sources
+copying build/lib/paver/tasks.py -> /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/paver
+copying build/lib/paver/__main__.py -> /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/paver
+copying build/lib/paver/runtime.py -> /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/paver
+copying build/lib/paver/setuputils.py -> /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/paver
+copying build/lib/paver/path.py -> /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/paver
+copying build/lib/paver/misctasks.py -> /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/paver
+copying build/lib/paver/options.py -> /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/paver
+copying build/lib/paver/shell.py -> /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/paver
+copying build/lib/paver/version.py -> /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/paver
+copying build/lib/paver/virtual.py -> /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/paver
+copying build/lib/paver/bzr.py -> /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/paver
+copying build/lib/paver/defaults.py -> /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/paver
+copying build/lib/paver/release.py -> /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/paver
+copying build/lib/paver/svn.py -> /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/paver
+copying build/lib/paver/ssh.py -> /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/paver
+copying build/lib/paver/__init__.py -> /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/paver
+copying build/lib/paver/command.py -> /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/paver
+copying build/lib/paver/git.py -> /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/paver
+copying build/lib/paver/doctools.py -> /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/paver
+byte-compiling /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/paver/deps/six.py to six.pyc
+byte-compiling /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/paver/deps/path2.py to path2.pyc
+byte-compiling /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/paver/deps/__init__.py to __init__.pyc
+byte-compiling /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/paver/deps/path3.py to path3.pyc
+byte-compiling /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/paver/easy.py to easy.pyc
+byte-compiling /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/paver/path25.py to path25.pyc
+byte-compiling /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/paver/tasks.py to tasks.pyc
+byte-compiling /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/paver/__main__.py to __main__.pyc
+byte-compiling /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/paver/runtime.py to runtime.pyc
+byte-compiling /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/paver/setuputils.py to setuputils.pyc
+byte-compiling /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/paver/path.py to path.pyc
+byte-compiling /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/paver/misctasks.py to misctasks.pyc
+byte-compiling /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/paver/options.py to options.pyc
+byte-compiling /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/paver/shell.py to shell.pyc
+byte-compiling /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/paver/version.py to version.pyc
+byte-compiling /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/paver/virtual.py to virtual.pyc
+byte-compiling /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/paver/bzr.py to bzr.pyc
+byte-compiling /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/paver/defaults.py to defaults.pyc
+byte-compiling /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/paver/release.py to release.pyc
+byte-compiling /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/paver/svn.py to svn.pyc
+byte-compiling /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/paver/ssh.py to ssh.pyc
+byte-compiling /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/paver/__init__.py to __init__.pyc
+byte-compiling /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/paver/command.py to command.pyc
+byte-compiling /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/paver/git.py to git.pyc
+byte-compiling /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/paver/doctools.py to doctools.pyc
+running install_egg_info
+running egg_info
+writing Paver.egg-info/PKG-INFO
+writing top-level names to Paver.egg-info/top_level.txt
+writing dependency_links to Paver.egg-info/dependency_links.txt
+writing entry points to Paver.egg-info/entry_points.txt
+reading manifest file 'Paver.egg-info/SOURCES.txt'
+reading manifest template 'MANIFEST.in'
+writing manifest file 'Paver.egg-info/SOURCES.txt'
+Copying Paver.egg-info to /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/Paver-1.2.4-py2.7.egg-info
+running install_scripts
+Installing paver script to /home/ubuntu/miniconda/envs/_build/bin
+An unexpected error has occurred, please consider sending the
+following traceback to the conda GitHub issue tracker at:
+
+    https://github.com/conda/conda-build/issues
+
+Include the output of the command 'conda info' in your report.
+
+
+
+The following NEW packages will be INSTALLED:
+
+    numpy:  1.9.2-py27_0
+    pyyaml: 3.11-py27_1 
+    yaml:   0.1.6-0     
+
+Linking packages ...
+[                    ]|                                                  |   0%[yaml                ]|                                                  |   0%[numpy               ]|################                                  |  33%[pyyaml              ]|#################################                 |  66%[      COMPLETE      ]|##################################################| 100%
+Applying patch: '/tmp/tmpFYlZTqconda_skeleton_Paver-1.2.4.tar.gz/pypi-distutils.patch'
+Traceback (most recent call last):
+  File "/home/ubuntu/miniconda/bin/conda-skeleton", line 6, in <module>
+    exec(compile(open(__file__).read(), __file__, 'exec'))
+  File "/home/ubuntu/conda-build/bin/conda-skeleton", line 5, in <module>
+    sys.exit(main())
+  File "/home/ubuntu/conda-build/conda_build/main_skeleton.py", line 240, in main
+    args_func(args, p)
+  File "/home/ubuntu/conda-build/conda_build/main_build.py", line 349, in args_func
+    args.func(args, p)
+  File "/home/ubuntu/conda-build/conda_build/main_skeleton.py", line 254, in execute
+    pypi.main(args, parser)
+  File "/home/ubuntu/conda-build/conda_build/pypi.py", line 387, in main
+    get_package_metadata(args, package, d, data)
+  File "/home/ubuntu/conda-build/conda_build/pypi.py", line 485, in get_package_metadata
+    with open(join(tempdir, 'pkginfo.yaml')) as fn:
+IOError: [Errno 2] No such file or directory: '/tmp/tmpFYlZTqconda_skeleton_Paver-1.2.4.tar.gz/pkginfo.yaml'

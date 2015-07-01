@@ -1,0 +1,241 @@
+Removing old build directory
+Removing old work directory
+BUILD START: ssh-1.8.0-py27_0
+Fetching package metadata: ......
+
+WARNING: conda-build appears to be out of date. You have version 1.13.0 but the
+latest version is 1.14.1. Run
+
+conda update -n root conda-build
+
+to get the latest version.
+
+Solving package specifications: .+ /home/ubuntu/miniconda/envs/_build/bin/python setup.py install
+running install
+running bdist_egg
+running egg_info
+writing requirements to ssh.egg-info/requires.txt
+writing ssh.egg-info/PKG-INFO
+writing top-level names to ssh.egg-info/top_level.txt
+writing dependency_links to ssh.egg-info/dependency_links.txt
+reading manifest file 'ssh.egg-info/SOURCES.txt'
+reading manifest template 'MANIFEST.in'
+writing manifest file 'ssh.egg-info/SOURCES.txt'
+installing library code to build/bdist.linux-x86_64/egg
+running install_lib
+running build_py
+creating build
+creating build/lib
+creating build/lib/ssh
+copying ssh/buffered_pipe.py -> build/lib/ssh
+copying ssh/rsakey.py -> build/lib/ssh
+copying ssh/sftp_handle.py -> build/lib/ssh
+copying ssh/dsskey.py -> build/lib/ssh
+copying ssh/agent.py -> build/lib/ssh
+copying ssh/pkey.py -> build/lib/ssh
+copying ssh/sftp_file.py -> build/lib/ssh
+copying ssh/config.py -> build/lib/ssh
+copying ssh/resource.py -> build/lib/ssh
+copying ssh/sftp_client.py -> build/lib/ssh
+copying ssh/win_pageant.py -> build/lib/ssh
+copying ssh/channel.py -> build/lib/ssh
+copying ssh/transport.py -> build/lib/ssh
+copying ssh/message.py -> build/lib/ssh
+copying ssh/sftp.py -> build/lib/ssh
+copying ssh/auth_handler.py -> build/lib/ssh
+copying ssh/file.py -> build/lib/ssh
+copying ssh/util.py -> build/lib/ssh
+copying ssh/sftp_server.py -> build/lib/ssh
+copying ssh/sftp_si.py -> build/lib/ssh
+copying ssh/kex_group1.py -> build/lib/ssh
+copying ssh/client.py -> build/lib/ssh
+copying ssh/packet.py -> build/lib/ssh
+copying ssh/__init__.py -> build/lib/ssh
+copying ssh/kex_gex.py -> build/lib/ssh
+copying ssh/ssh_exception.py -> build/lib/ssh
+copying ssh/compress.py -> build/lib/ssh
+copying ssh/logging22.py -> build/lib/ssh
+copying ssh/ber.py -> build/lib/ssh
+copying ssh/common.py -> build/lib/ssh
+copying ssh/pipe.py -> build/lib/ssh
+copying ssh/sftp_attr.py -> build/lib/ssh
+copying ssh/primes.py -> build/lib/ssh
+copying ssh/server.py -> build/lib/ssh
+copying ssh/hostkeys.py -> build/lib/ssh
+creating build/bdist.linux-x86_64
+creating build/bdist.linux-x86_64/egg
+creating build/bdist.linux-x86_64/egg/ssh
+copying build/lib/ssh/buffered_pipe.py -> build/bdist.linux-x86_64/egg/ssh
+copying build/lib/ssh/rsakey.py -> build/bdist.linux-x86_64/egg/ssh
+copying build/lib/ssh/sftp_handle.py -> build/bdist.linux-x86_64/egg/ssh
+copying build/lib/ssh/dsskey.py -> build/bdist.linux-x86_64/egg/ssh
+copying build/lib/ssh/agent.py -> build/bdist.linux-x86_64/egg/ssh
+copying build/lib/ssh/pkey.py -> build/bdist.linux-x86_64/egg/ssh
+copying build/lib/ssh/sftp_file.py -> build/bdist.linux-x86_64/egg/ssh
+copying build/lib/ssh/config.py -> build/bdist.linux-x86_64/egg/ssh
+copying build/lib/ssh/resource.py -> build/bdist.linux-x86_64/egg/ssh
+copying build/lib/ssh/sftp_client.py -> build/bdist.linux-x86_64/egg/ssh
+copying build/lib/ssh/win_pageant.py -> build/bdist.linux-x86_64/egg/ssh
+copying build/lib/ssh/channel.py -> build/bdist.linux-x86_64/egg/ssh
+copying build/lib/ssh/transport.py -> build/bdist.linux-x86_64/egg/ssh
+copying build/lib/ssh/message.py -> build/bdist.linux-x86_64/egg/ssh
+copying build/lib/ssh/sftp.py -> build/bdist.linux-x86_64/egg/ssh
+copying build/lib/ssh/auth_handler.py -> build/bdist.linux-x86_64/egg/ssh
+copying build/lib/ssh/file.py -> build/bdist.linux-x86_64/egg/ssh
+copying build/lib/ssh/util.py -> build/bdist.linux-x86_64/egg/ssh
+copying build/lib/ssh/sftp_server.py -> build/bdist.linux-x86_64/egg/ssh
+copying build/lib/ssh/sftp_si.py -> build/bdist.linux-x86_64/egg/ssh
+copying build/lib/ssh/kex_group1.py -> build/bdist.linux-x86_64/egg/ssh
+copying build/lib/ssh/client.py -> build/bdist.linux-x86_64/egg/ssh
+copying build/lib/ssh/packet.py -> build/bdist.linux-x86_64/egg/ssh
+copying build/lib/ssh/__init__.py -> build/bdist.linux-x86_64/egg/ssh
+copying build/lib/ssh/kex_gex.py -> build/bdist.linux-x86_64/egg/ssh
+copying build/lib/ssh/ssh_exception.py -> build/bdist.linux-x86_64/egg/ssh
+copying build/lib/ssh/compress.py -> build/bdist.linux-x86_64/egg/ssh
+copying build/lib/ssh/logging22.py -> build/bdist.linux-x86_64/egg/ssh
+copying build/lib/ssh/ber.py -> build/bdist.linux-x86_64/egg/ssh
+copying build/lib/ssh/common.py -> build/bdist.linux-x86_64/egg/ssh
+copying build/lib/ssh/pipe.py -> build/bdist.linux-x86_64/egg/ssh
+copying build/lib/ssh/sftp_attr.py -> build/bdist.linux-x86_64/egg/ssh
+copying build/lib/ssh/primes.py -> build/bdist.linux-x86_64/egg/ssh
+copying build/lib/ssh/server.py -> build/bdist.linux-x86_64/egg/ssh
+copying build/lib/ssh/hostkeys.py -> build/bdist.linux-x86_64/egg/ssh
+byte-compiling build/bdist.linux-x86_64/egg/ssh/buffered_pipe.py to buffered_pipe.pyc
+byte-compiling build/bdist.linux-x86_64/egg/ssh/rsakey.py to rsakey.pyc
+byte-compiling build/bdist.linux-x86_64/egg/ssh/sftp_handle.py to sftp_handle.pyc
+byte-compiling build/bdist.linux-x86_64/egg/ssh/dsskey.py to dsskey.pyc
+byte-compiling build/bdist.linux-x86_64/egg/ssh/agent.py to agent.pyc
+byte-compiling build/bdist.linux-x86_64/egg/ssh/pkey.py to pkey.pyc
+byte-compiling build/bdist.linux-x86_64/egg/ssh/sftp_file.py to sftp_file.pyc
+byte-compiling build/bdist.linux-x86_64/egg/ssh/config.py to config.pyc
+byte-compiling build/bdist.linux-x86_64/egg/ssh/resource.py to resource.pyc
+byte-compiling build/bdist.linux-x86_64/egg/ssh/sftp_client.py to sftp_client.pyc
+byte-compiling build/bdist.linux-x86_64/egg/ssh/win_pageant.py to win_pageant.pyc
+byte-compiling build/bdist.linux-x86_64/egg/ssh/channel.py to channel.pyc
+byte-compiling build/bdist.linux-x86_64/egg/ssh/transport.py to transport.pyc
+byte-compiling build/bdist.linux-x86_64/egg/ssh/message.py to message.pyc
+byte-compiling build/bdist.linux-x86_64/egg/ssh/sftp.py to sftp.pyc
+byte-compiling build/bdist.linux-x86_64/egg/ssh/auth_handler.py to auth_handler.pyc
+byte-compiling build/bdist.linux-x86_64/egg/ssh/file.py to file.pyc
+byte-compiling build/bdist.linux-x86_64/egg/ssh/util.py to util.pyc
+byte-compiling build/bdist.linux-x86_64/egg/ssh/sftp_server.py to sftp_server.pyc
+byte-compiling build/bdist.linux-x86_64/egg/ssh/sftp_si.py to sftp_si.pyc
+byte-compiling build/bdist.linux-x86_64/egg/ssh/kex_group1.py to kex_group1.pyc
+byte-compiling build/bdist.linux-x86_64/egg/ssh/client.py to client.pyc
+byte-compiling build/bdist.linux-x86_64/egg/ssh/packet.py to packet.pyc
+byte-compiling build/bdist.linux-x86_64/egg/ssh/__init__.py to __init__.pyc
+byte-compiling build/bdist.linux-x86_64/egg/ssh/kex_gex.py to kex_gex.pyc
+byte-compiling build/bdist.linux-x86_64/egg/ssh/ssh_exception.py to ssh_exception.pyc
+byte-compiling build/bdist.linux-x86_64/egg/ssh/compress.py to compress.pyc
+byte-compiling build/bdist.linux-x86_64/egg/ssh/logging22.py to logging22.pyc
+byte-compiling build/bdist.linux-x86_64/egg/ssh/ber.py to ber.pyc
+byte-compiling build/bdist.linux-x86_64/egg/ssh/common.py to common.pyc
+byte-compiling build/bdist.linux-x86_64/egg/ssh/pipe.py to pipe.pyc
+byte-compiling build/bdist.linux-x86_64/egg/ssh/sftp_attr.py to sftp_attr.pyc
+byte-compiling build/bdist.linux-x86_64/egg/ssh/primes.py to primes.pyc
+byte-compiling build/bdist.linux-x86_64/egg/ssh/server.py to server.pyc
+byte-compiling build/bdist.linux-x86_64/egg/ssh/hostkeys.py to hostkeys.pyc
+creating build/bdist.linux-x86_64/egg/EGG-INFO
+copying ssh.egg-info/PKG-INFO -> build/bdist.linux-x86_64/egg/EGG-INFO
+copying ssh.egg-info/SOURCES.txt -> build/bdist.linux-x86_64/egg/EGG-INFO
+copying ssh.egg-info/dependency_links.txt -> build/bdist.linux-x86_64/egg/EGG-INFO
+copying ssh.egg-info/requires.txt -> build/bdist.linux-x86_64/egg/EGG-INFO
+copying ssh.egg-info/top_level.txt -> build/bdist.linux-x86_64/egg/EGG-INFO
+zip_safe flag not set; analyzing archive contents...
+creating dist
+creating 'dist/ssh-1.8.0-py2.7.egg' and adding 'build/bdist.linux-x86_64/egg' to it
+removing 'build/bdist.linux-x86_64/egg' (and everything under it)
+Processing ssh-1.8.0-py2.7.egg
+Copying ssh-1.8.0-py2.7.egg to /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages
+Adding ssh 1.8.0 to easy-install.pth file
+
+Installed /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/ssh-1.8.0-py2.7.egg
+Processing dependencies for ssh==1.8.0
+Searching for pycrypto!=2.4,>=2.1
+Reading https://pypi.python.org/simple/pycrypto/
+Best match: pycrypto 2.6.1
+Downloading https://pypi.python.org/packages/source/p/pycrypto/pycrypto-2.6.1.tar.gz#md5=55a61a054aa66812daf5161a0d5d7eda
+Processing pycrypto-2.6.1.tar.gz
+Writing /tmp/easy_install-XSJPVo/pycrypto-2.6.1/setup.cfg
+Running pycrypto-2.6.1/setup.py -q bdist_egg --dist-dir /tmp/easy_install-XSJPVo/pycrypto-2.6.1/egg-dist-tmp-Z2I0zl
+warning: GMP or MPIR library not found; Not building Crypto.PublicKey._fastmath.
+zip_safe flag not set; analyzing archive contents...
+Moving pycrypto-2.6.1-py2.7-linux-x86_64.egg to /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages
+Adding pycrypto 2.6.1 to easy-install.pth file
+
+Installed /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/pycrypto-2.6.1-py2.7-linux-x86_64.egg
+Finished processing dependencies for ssh==1.8.0
+
+The following NEW packages will be INSTALLED:
+
+    openssl:    1.0.1k-1     
+    pip:        7.0.3-py27_0 
+    python:     2.7.10-0     
+    readline:   6.2-2        
+    setuptools: 18.0.1-py27_0
+    sqlite:     3.8.4.1-1    
+    system:     5.8-2        
+    tk:         8.5.18-0     
+    zlib:       1.2.8-0      
+
+Linking packages ...
+[                    ]|                                                  |   0%[openssl             ]|                                                  |   0%[readline            ]|#####                                             |  11%[sqlite              ]|###########                                       |  22%[system              ]|################                                  |  33%[tk                  ]|######################                            |  44%[zlib                ]|###########################                       |  55%[python              ]|#################################                 |  66%[setuptools          ]|######################################            |  77%[pip                 ]|############################################      |  88%[      COMPLETE      ]|##################################################| 100%
+Removing old work directory
+Source cache directory is: /home/ubuntu/miniconda/conda-bld/src_cache
+Found source in cache: ssh-1.8.0.tar.gz
+Extracting download
+Package: ssh-1.8.0-py27_0
+source tree in: /home/ubuntu/miniconda/conda-bld/work/ssh-1.8.0
+found egg: /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/pycrypto-2.6.1-py2.7-linux-x86_64.egg
+found egg: /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/ssh-1.8.0-py2.7.egg
+number of files: 4
+Fixing permissions
+Fixing permissions
+BUILD END: ssh-1.8.0-py27_0
+TEST START: ssh-1.8.0-py27_0
+Fetching package metadata: ......
+
+WARNING: conda-build appears to be out of date. You have version 1.13.0 but the
+latest version is 1.14.1. Run
+
+conda update -n root conda-build
+
+to get the latest version.
+
+Solving package specifications: .
+The following packages will be downloaded:
+
+    package                    |            build
+    ---------------------------|-----------------
+    ssh-1.8.0                  |           py27_0         1.0 MB
+
+The following NEW packages will be INSTALLED:
+
+    openssl:    1.0.1k-1     
+    pip:        7.0.3-py27_0 
+    python:     2.7.10-0     
+    readline:   6.2-2        
+    setuptools: 18.0.1-py27_0
+    sqlite:     3.8.4.1-1    
+    ssh:        1.8.0-py27_0 
+    system:     5.8-2        
+    tk:         8.5.18-0     
+    zlib:       1.2.8-0      
+
+Fetching packages ...
+ssh-1.8.0-py27   0% |                              | ETA:  --:--:--   0.00  B/sssh-1.8.0-py27   1% |                               | ETA:  0:00:00  48.74 MB/sssh-1.8.0-py27   3% |                               | ETA:  0:00:00  59.89 MB/sssh-1.8.0-py27   4% |#                              | ETA:  0:00:00  66.33 MB/sssh-1.8.0-py27   6% |#                              | ETA:  0:00:00  70.61 MB/sssh-1.8.0-py27   7% |##                             | ETA:  0:00:00  73.20 MB/sssh-1.8.0-py27   9% |##                             | ETA:  0:00:00  73.91 MB/sssh-1.8.0-py27  10% |###                            | ETA:  0:00:00  75.75 MB/sssh-1.8.0-py27  12% |###                            | ETA:  0:00:00  77.38 MB/sssh-1.8.0-py27  13% |####                           | ETA:  0:00:00  78.48 MB/sssh-1.8.0-py27  15% |####                           | ETA:  0:00:00  79.57 MB/sssh-1.8.0-py27  16% |#####                          | ETA:  0:00:00  80.49 MB/sssh-1.8.0-py27  18% |#####                          | ETA:  0:00:00  81.17 MB/sssh-1.8.0-py27  19% |######                         | ETA:  0:00:00  81.82 MB/sssh-1.8.0-py27  21% |######                         | ETA:  0:00:00  82.45 MB/sssh-1.8.0-py27  22% |#######                        | ETA:  0:00:00  82.97 MB/sssh-1.8.0-py27  24% |#######                        | ETA:  0:00:00  83.49 MB/sssh-1.8.0-py27  25% |#######                        | ETA:  0:00:00  83.84 MB/sssh-1.8.0-py27  27% |########                       | ETA:  0:00:00  84.26 MB/sssh-1.8.0-py27  28% |########                       | ETA:  0:00:00  84.61 MB/sssh-1.8.0-py27  30% |#########                      | ETA:  0:00:00  84.87 MB/sssh-1.8.0-py27  31% |#########                      | ETA:  0:00:00  85.14 MB/sssh-1.8.0-py27  33% |##########                     | ETA:  0:00:00  85.45 MB/sssh-1.8.0-py27  34% |##########                     | ETA:  0:00:00  85.68 MB/sssh-1.8.0-py27  36% |###########                    | ETA:  0:00:00  85.87 MB/sssh-1.8.0-py27  37% |###########                    | ETA:  0:00:00  31.77 MB/sssh-1.8.0-py27  39% |############                   | ETA:  0:00:00  32.58 MB/sssh-1.8.0-py27  40% |############                   | ETA:  0:00:00  33.34 MB/sssh-1.8.0-py27  42% |#############                  | ETA:  0:00:00  34.10 MB/sssh-1.8.0-py27  43% |#############                  | ETA:  0:00:00  34.85 MB/sssh-1.8.0-py27  45% |##############                 | ETA:  0:00:00  35.58 MB/sssh-1.8.0-py27  46% |##############                 | ETA:  0:00:00  36.30 MB/sssh-1.8.0-py27  48% |###############                | ETA:  0:00:00  37.01 MB/sssh-1.8.0-py27  49% |###############                | ETA:  0:00:00  37.52 MB/sssh-1.8.0-py27  51% |###############                | ETA:  0:00:00  38.18 MB/sssh-1.8.0-py27  52% |################               | ETA:  0:00:00  38.82 MB/sssh-1.8.0-py27  54% |################               | ETA:  0:00:00  39.45 MB/sssh-1.8.0-py27  56% |#################              | ETA:  0:00:00  40.06 MB/sssh-1.8.0-py27  57% |#################              | ETA:  0:00:00  40.66 MB/sssh-1.8.0-py27  59% |##################             | ETA:  0:00:00  41.25 MB/sssh-1.8.0-py27  60% |##################             | ETA:  0:00:00  41.82 MB/sssh-1.8.0-py27  62% |###################            | ETA:  0:00:00  42.38 MB/sssh-1.8.0-py27  63% |###################            | ETA:  0:00:00  42.94 MB/sssh-1.8.0-py27  65% |####################           | ETA:  0:00:00  43.47 ===== testing package: ssh-1.8.0-py27_0 =====
+import: u'ssh'
+===== ssh-1.8.0-py27_0 OK =====
+MB/sssh-1.8.0-py27  66% |####################           | ETA:  0:00:00  43.96 MB/sssh-1.8.0-py27  68% |#####################          | ETA:  0:00:00  44.48 MB/sssh-1.8.0-py27  69% |#####################          | ETA:  0:00:00  44.98 MB/sssh-1.8.0-py27  71% |######################         | ETA:  0:00:00  45.47 MB/sssh-1.8.0-py27  72% |######################         | ETA:  0:00:00  45.95 MB/sssh-1.8.0-py27  74% |######################         | ETA:  0:00:00  46.38 MB/sssh-1.8.0-py27  75% |#######################        | ETA:  0:00:00  46.84 MB/sssh-1.8.0-py27  77% |#######################        | ETA:  0:00:00  47.28 MB/sssh-1.8.0-py27  78% |########################       | ETA:  0:00:00  47.72 MB/sssh-1.8.0-py27  80% |########################       | ETA:  0:00:00  48.16 MB/sssh-1.8.0-py27  81% |#########################      | ETA:  0:00:00  48.58 MB/sssh-1.8.0-py27  83% |#########################      | ETA:  0:00:00  48.98 MB/sssh-1.8.0-py27  84% |##########################     | ETA:  0:00:00  49.40 MB/sssh-1.8.0-py27  86% |##########################     | ETA:  0:00:00  49.80 MB/sssh-1.8.0-py27  87% |###########################    | ETA:  0:00:00  50.20 MB/sssh-1.8.0-py27  89% |###########################    | ETA:  0:00:00  50.58 MB/sssh-1.8.0-py27  90% |############################   | ETA:  0:00:00  50.96 MB/sssh-1.8.0-py27  92% |############################   | ETA:  0:00:00  51.33 MB/sssh-1.8.0-py27  93% |#############################  | ETA:  0:00:00  51.70 MB/sssh-1.8.0-py27  95% |#############################  | ETA:  0:00:00  52.06 MB/sssh-1.8.0-py27  96% |############################## | ETA:  0:00:00  52.42 MB/sssh-1.8.0-py27  98% |############################## | ETA:  0:00:00  52.77 MB/sssh-1.8.0-py27  99% |############################## | ETA:  0:00:00  53.10 MB/sssh-1.8.0-py27 100% |###############################| Time: 0:00:00  52.43 MB/s
+Extracting packages ...
+[      COMPLETE      ]|                                                  |   0%[ssh                 ]|                                                  |   0%[ssh                 ]|                                                  |   0%[      COMPLETE      ]|##################################################| 100%
+Linking packages ...
+[      COMPLETE      ]|                                                  |   0%[openssl             ]|                                                  |   0%[openssl             ]|                                                  |   0%[readline            ]|#####                                             |  10%[sqlite              ]|##########                                        |  20%[system              ]|###############                                   |  30%[tk                  ]|####################                              |  40%[zlib                ]|#########################                         |  50%[python              ]|##############################                    |  60%[setuptools          ]|###################################               |  70%[ssh                 ]|########################################          |  80%[pip                 ]|#############################################     |  90%[      COMPLETE      ]|##################################################| 100%
+TEST END: ssh-1.8.0-py27_0
+# If you want to upload this package to binstar.org later, type:
+#
+# $ binstar upload /home/ubuntu/miniconda/conda-bld/linux-64/ssh-1.8.0-py27_0.tar.bz2
+#
+# To have conda build upload to binstar automatically, use
+# $ conda config --set binstar_upload yes
+
