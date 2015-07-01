@@ -97,7 +97,7 @@ The following NEW packages will be INSTALLED:
     zlib:       1.2.8-0      
 
 Fetching packages ...
-cov-core-1.15.   0% |                              | ETA:  --:--:--   0.00  B/scov-core-1.15. 100% |###############################| ETA:  0:00:00  19.26 MB/scov-core-1.15. 100% |###############################| Time: 0:00:00  11.84 MB/s
+cov-core-1.15.   0% |                              | ETA:  --:--:--   0.00  B/scov-core-1.15. 100% |###############################| ETA:  0:00:00   1.01 MB/scov-core-1.15. 100% |###############################| Time: 0:00:00 982.94 kB/s
 Extracting packages ...
 [                    ]|                                                  |   0%[cov-core            ]|                                                  |   0%[      COMPLETE      ]|##################################################| 100%
 Linking packages ...

@@ -116,7 +116,7 @@ The following NEW packages will be INSTALLED:
     zlib:          1.2.8-0      
 
 Fetching packages ...
-python-digest-   0% |                              | ETA:  --:--:--   0.00  B/spython-digest-  60% |##################             | ETA:  0:00:00  47.62 MB/spython-digest- 100% |###############################| ETA:  0:00:00  50.60 MB/spython-digest- 100% |###############################| Time: 0:00:00  35.95 MB/s
+python-digest-   0% |                              | ETA:  --:--:--   0.00  B/spython-digest-  60% |##################             | ETA:  0:00:00  47.07 MB/spython-digest- 100% |###############################| ETA:  0:00:00  50.27 MB/spython-digest- 100% |###############################| Time: 0:00:00  35.75 MB/s
 Extracting packages ...
 [      COMPLETE      ]|                                                  |   0%[python-digest       ]|                                                  |   0%[python-digest       ]|                                                  |   0%[      COMPLETE      ]|##################################################| 100%
 Linking packages ...

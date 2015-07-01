@@ -111,7 +111,7 @@ The following NEW packages will be INSTALLED:
     zlib:       1.2.8-0      
 
 Fetching packages ...
-bunch-1.0.1-py   0% |                              | ETA:  --:--:--   0.00  B/sbunch-1.0.1-py 100% |###############################| ETA:  0:00:00  36.70 MB/sbunch-1.0.1-py 100% |###############################| Time: 0:00:00  22.00 MB/s
+bunch-1.0.1-py   0% |                              | ETA:  --:--:--   0.00  B/sbunch-1.0.1-py 100% |###############################| ETA:  0:00:00  36.68 MB/sbunch-1.0.1-py 100% |###############################| Time: 0:00:00  20.97 MB/s
 Extracting packages ...
 [      COMPLETE      ]|                                                  |   0%[bunch               ]|                                                  |   0%[bunch               ]|                                                  |   0%[      COMPLETE      ]|##################################################| 100%
 Linking packages ...

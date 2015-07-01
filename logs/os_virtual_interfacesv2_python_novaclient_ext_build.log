@@ -10,38 +10,7 @@ conda update -n root conda-build
 
 to get the latest version.
 
-Solving package specifications: .
-The following packages will be downloaded:
-
-    package                    |            build
-    ---------------------------|-----------------
-    python-novaclient-2.26.0   |           py27_0         330 KB
-
-The following NEW packages will be INSTALLED:
-
-    openssl:           1.0.1k-1     
-    pip:               7.0.3-py27_0 
-    python:            2.7.10-0     
-    python-novaclient: 2.26.0-py27_0
-    readline:          6.2-2        
-    setuptools:        18.0.1-py27_0
-    sqlite:            3.8.4.1-1    
-    system:            5.8-2        
-    tk:                8.5.18-0     
-    zlib:              1.2.8-0      
-
-Fetching packages ...
-python-novacli   0% |                              | ETA:  --:--:--   0.00  B/spython-novacli   4% |#                              | ETA:  0:00:00  34.57 MB/spython-novacli   9% |###                            | ETA:  0:00:00  46.29 MB/spython-novacli  14% |####                           | ETA:  0:00:00  54.25 MB/spython-novacli  19% |######                         | ETA:  0:00:00  59.80 MB/spython-novacli  24% |#######                        | ETA:  0:00:00  63.81 MB/spython-novacli  29% |#########                      | ETA:  0:00:00  66.92 MB/spython-novacli  33% |##########                     | ETA:  0:00:00  69.38 MB/spython-novacli  38% |############                   | ETA:  0:00:00  71.35 MB/spython-novacli  43% |#############                  | ETA:  0:00:00  73.15 MB/spython-novacli  48% |###############                | ETA:  0:00:00  74.61 MB/spython-novacli  53% |################               | ETA:  0:00:00  75.73 MB/spython-novacli  58% |##################             | ETA:  0:00:00  76.86 MB/spython-novacli  62% |###################            | ETA:  0:00:00  77.68 MB/spython-novacli  67% |#####################          | ETA:  0:00:00  78.50 MB/spython-novacli  72% |######################         | ETA:  0:00:00  79.30 MB/spython-novacli  77% |########################       | ETA:  0:00:00  79.90 MB/spython-novacli  82% |#########################      | ETA:  0:00:00  80.52 MB/spython-novacli  87% |###########################    | ETA:  0:00:00  81.00 MB/spython-novacli  92% |############################   | ETA:  0:00:00  26.04 MB/spython-novacli  96% |############################## | ETA:  0:00:00  27.00 MB/spython-novacli 100% |###############################| ETA:  0:00:00  27.48 MB/spython-novacli 100% |###############################| Time: 0:00:00  26.97 MB/s
-Extracting packages ...
-[                    ]|                                                  |   0%[python-novaclient   ]|                                                  |   0%[      COMPLETE      ]|##################################################| 100%
-Linking packages ...
-[      COMPLETE      ]|                                                  |   0%[openssl             ]|                                                  |   0%[openssl             ]|                                                  |   0%[readline            ]|#####                                             |  10%[sqlite              ]|##########                                        |  20%[system              ]|###############                                   |  30%[tk                  ]|####################                              |  40%[zlib                ]|#########################                         |  50%[python              ]|##############################                    |  60%[python-novaclient   ]|###################################               |  70%[setuptools          ]|########################################          |  80%[pip                 ]|#############################################     |  90%[      COMPLETE      ]|##################################################| 100%
-Removing old work directory
-Source cache directory is: /home/ubuntu/miniconda/conda-bld/src_cache
-Found source in cache: os_virtual_interfacesv2_python_novaclient_ext-0.19.tar.gz
-Extracting download
-Package: os_virtual_interfacesv2_python_novaclient_ext-0.19-py27_0
-source tree+ /home/ubuntu/miniconda/envs/_build/bin/python setup.py install
+Solving package specifications: .+ /home/ubuntu/miniconda/envs/_build/bin/python setup.py install
 running install
 running bdist_egg
 running egg_info
@@ -84,10 +53,10 @@ Reading https://pypi.python.org/simple/python-keystoneclient/
 Best match: python-keystoneclient 1.6.0
 Downloading https://pypi.python.org/packages/source/p/python-keystoneclient/python-keystoneclient-1.6.0.tar.gz#md5=7c75a78389644433f2346930ba3a3e2a
 Processing python-keystoneclient-1.6.0.tar.gz
-Writing /tmp/easy_install-j_R1Z7/python-keystoneclient-1.6.0/setup.cfg
-Running python-keystoneclient-1.6.0/setup.py -q bdist_egg --dist-dir /tmp/easy_install-j_R1Z7/python-keystoneclient-1.6.0/egg-dist-tmp-6GNPZF
+Writing /tmp/easy_install-fheoQG/python-keystoneclient-1.6.0/setup.cfg
+Running python-keystoneclient-1.6.0/setup.py -q bdist_egg --dist-dir /tmp/easy_install-fheoQG/python-keystoneclient-1.6.0/egg-dist-tmp-WoJFgx
 
-Installed /tmp/easy_install-j_R1Z7/python-keystoneclient-1.6.0/.eggs/pbr-1.2.0-py2.7.egg
+Installed /tmp/easy_install-fheoQG/python-keystoneclient-1.6.0/.eggs/pbr-1.2.0-py2.7.egg
 creating /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/python_keystoneclient-1.6.0-py2.7.egg
 Extracting python_keystoneclient-1.6.0-py2.7.egg to /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages
 Adding python-keystoneclient 1.6.0 to easy-install.pth file
@@ -99,8 +68,8 @@ Reading https://pypi.python.org/simple/Babel/
 Best match: Babel 1.3
 Downloading https://pypi.python.org/packages/source/B/Babel/Babel-1.3.tar.gz#md5=5264ceb02717843cbc9ffce8e6e06bdb
 Processing Babel-1.3.tar.gz
-Writing /tmp/easy_install-gYpAqf/Babel-1.3/setup.cfg
-Running Babel-1.3/setup.py -q bdist_egg --dist-dir /tmp/easy_install-gYpAqf/Babel-1.3/egg-dist-tmp-wN1xxz
+Writing /tmp/easy_install-bSZYMd/Babel-1.3/setup.cfg
+Running Babel-1.3/setup.py -q bdist_egg --dist-dir /tmp/easy_install-bSZYMd/Babel-1.3/egg-dist-tmp-Qbwmxm
 warning: no previously-included files matching '*' found under directory 'docs/_build'
 warning: no previously-included files matching '*.pyc' found under directory 'tests'
 warning: no previously-included files matching '*.pyo' found under directory 'tests'
@@ -115,8 +84,8 @@ Reading https://pypi.python.org/simple/six/
 Best match: six 1.9.0
 Downloading https://pypi.python.org/packages/source/s/six/six-1.9.0.tar.gz#md5=476881ef4012262dfc8adc645ee786c4
 Processing six-1.9.0.tar.gz
-Writing /tmp/easy_install-l3cKEL/six-1.9.0/setup.cfg
-Running six-1.9.0/setup.py -q bdist_egg --dist-dir /tmp/easy_install-l3cKEL/six-1.9.0/egg-dist-tmp-eod9ge
+Writing /tmp/easy_install-3wfzmH/six-1.9.0/setup.cfg
+Running six-1.9.0/setup.py -q bdist_egg --dist-dir /tmp/easy_install-3wfzmH/six-1.9.0/egg-dist-tmp-H3rWgJ
 no previously-included directories found matching 'documentation/_build'
 zip_safe flag not set; analyzing archive contents...
 six: module references __path__
@@ -130,8 +99,8 @@ Reading https://pypi.python.org/simple/simplejson/
 Best match: simplejson 3.7.3
 Downloading https://pypi.python.org/packages/source/s/simplejson/simplejson-3.7.3.tar.gz#md5=117346e5ee4ed4434ffe485f8e58f5ed
 Processing simplejson-3.7.3.tar.gz
-Writing /tmp/easy_install-PLCZjc/simplejson-3.7.3/setup.cfg
-Running simplejson-3.7.3/setup.py -q bdist_egg --dist-dir /tmp/easy_install-PLCZjc/simplejson-3.7.3/egg-dist-tmp-nE56ER
+Writing /tmp/easy_install-Fz6Fp5/simplejson-3.7.3/setup.cfg
+Running simplejson-3.7.3/setup.py -q bdist_egg --dist-dir /tmp/easy_install-Fz6Fp5/simplejson-3.7.3/egg-dist-tmp-VoHdh5
 zip_safe flag not set; analyzing archive contents...
 simplejson.tests.__init__: module references __file__
 creating /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/simplejson-3.7.3-py2.7-linux-x86_64.egg
@@ -144,8 +113,8 @@ Reading https://pypi.python.org/simple/requests/
 Best match: requests 2.7.0
 Downloading https://pypi.python.org/packages/source/r/requests/requests-2.7.0.tar.gz#md5=29b173fd5fa572ec0764d1fd7b527260
 Processing requests-2.7.0.tar.gz
-Writing /tmp/easy_install-dKhxYC/requests-2.7.0/setup.cfg
-Running requests-2.7.0/setup.py -q bdist_egg --dist-dir /tmp/easy_install-dKhxYC/requests-2.7.0/egg-dist-tmp-fTUllH
+Writing /tmp/easy_install-N84BJX/requests-2.7.0/setup.cfg
+Running requests-2.7.0/setup.py -q bdist_egg --dist-dir /tmp/easy_install-N84BJX/requests-2.7.0/egg-dist-tmp-alzLN2
 creating /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/requests-2.7.0-py2.7.egg
 Extracting requests-2.7.0-py2.7.egg to /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages
 Adding requests 2.7.0 to easy-install.pth file
@@ -156,8 +125,8 @@ Reading https://pypi.python.org/simple/PrettyTable/
 Best match: prettytable 0.7.2
 Downloading https://pypi.python.org/packages/source/P/PrettyTable/prettytable-0.7.2.zip#md5=0c1361104caff8b09f220748f9d69899
 Processing prettytable-0.7.2.zip
-Writing /tmp/easy_install-_QlsFc/prettytable-0.7.2/setup.cfg
-Running prettytable-0.7.2/setup.py -q bdist_egg --dist-dir /tmp/easy_install-_QlsFc/prettytable-0.7.2/egg-dist-tmp-MH5lZK
+Writing /tmp/easy_install-BFENPt/prettytable-0.7.2/setup.cfg
+Running prettytable-0.7.2/setup.py -q bdist_egg --dist-dir /tmp/easy_install-BFENPt/prettytable-0.7.2/egg-dist-tmp-nkHIHm
 zip_safe flag not set; analyzing archive contents...
 Moving prettytable-0.7.2-py2.7.egg to /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages
 Adding prettytable 0.7.2 to easy-install.pth file
@@ -168,10 +137,10 @@ Reading https://pypi.python.org/simple/oslo.utils/
 Best match: oslo.utils 1.7.0
 Downloading https://pypi.python.org/packages/source/o/oslo.utils/oslo.utils-1.7.0.tar.gz#md5=c95d23c6c7c5601f6c56aaba1e20cfbd
 Processing oslo.utils-1.7.0.tar.gz
-Writing /tmp/easy_install-Ur6hBU/oslo.utils-1.7.0/setup.cfg
-Running oslo.utils-1.7.0/setup.py -q bdist_egg --dist-dir /tmp/easy_install-Ur6hBU/oslo.utils-1.7.0/egg-dist-tmp-wQngnf
+Writing /tmp/easy_install-BRu534/oslo.utils-1.7.0/setup.cfg
+Running oslo.utils-1.7.0/setup.py -q bdist_egg --dist-dir /tmp/easy_install-BRu534/oslo.utils-1.7.0/egg-dist-tmp-qhGvYm
 
-Installed /tmp/easy_install-Ur6hBU/oslo.utils-1.7.0/.eggs/pbr-1.2.0-py2.7.egg
+Installed /tmp/easy_install-BRu534/oslo.utils-1.7.0/.eggs/pbr-1.2.0-py2.7.egg
 creating /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/oslo.utils-1.7.0-py2.7.egg
 Extracting oslo.utils-1.7.0-py2.7.egg to /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages
 Adding oslo.utils 1.7.0 to easy-install.pth file
@@ -182,10 +151,10 @@ Reading https://pypi.python.org/simple/oslo.serialization/
 Best match: oslo.serialization 1.6.0
 Downloading https://pypi.python.org/packages/source/o/oslo.serialization/oslo.serialization-1.6.0.tar.gz#md5=61dad806fbe91ce23f282e8de5d57621
 Processing oslo.serialization-1.6.0.tar.gz
-Writing /tmp/easy_install-By1JMl/oslo.serialization-1.6.0/setup.cfg
-Running oslo.serialization-1.6.0/setup.py -q bdist_egg --dist-dir /tmp/easy_install-By1JMl/oslo.serialization-1.6.0/egg-dist-tmp-UF5Qgk
+Writing /tmp/easy_install-SQLeRB/oslo.serialization-1.6.0/setup.cfg
+Running oslo.serialization-1.6.0/setup.py -q bdist_egg --dist-dir /tmp/easy_install-SQLeRB/oslo.serialization-1.6.0/egg-dist-tmp-1MTcmZ
 
-Installed /tmp/easy_install-By1JMl/oslo.serialization-1.6.0/.eggs/pbr-1.2.0-py2.7.egg
+Installed /tmp/easy_install-SQLeRB/oslo.serialization-1.6.0/.eggs/pbr-1.2.0-py2.7.egg
 creating /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/oslo.serialization-1.6.0-py2.7.egg
 Extracting oslo.serialization-1.6.0-py2.7.egg to /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages
 Adding oslo.serialization 1.6.0 to easy-install.pth file
@@ -196,10 +165,10 @@ Reading https://pypi.python.org/simple/oslo.i18n/
 Best match: oslo.i18n 2.0.0
 Downloading https://pypi.python.org/packages/source/o/oslo.i18n/oslo.i18n-2.0.0.tar.gz#md5=a1083637d1b7e81ddff0ceef0859a38e
 Processing oslo.i18n-2.0.0.tar.gz
-Writing /tmp/easy_install-QPjV5q/oslo.i18n-2.0.0/setup.cfg
-Running oslo.i18n-2.0.0/setup.py -q bdist_egg --dist-dir /tmp/easy_install-QPjV5q/oslo.i18n-2.0.0/egg-dist-tmp-VFXr0M
+Writing /tmp/easy_install-wvgf0y/oslo.i18n-2.0.0/setup.cfg
+Running oslo.i18n-2.0.0/setup.py -q bdist_egg --dist-dir /tmp/easy_install-wvgf0y/oslo.i18n-2.0.0/egg-dist-tmp-UdoXZ4
 
-Installed /tmp/easy_install-QPjV5q/oslo.i18n-2.0.0/.eggs/pbr-1.2.0-py2.7.egg
+Installed /tmp/easy_install-wvgf0y/oslo.i18n-2.0.0/.eggs/pbr-1.2.0-py2.7.egg
 creating /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/oslo.i18n-2.0.0-py2.7.egg
 Extracting oslo.i18n-2.0.0-py2.7.egg to /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages
 Adding oslo.i18n 2.0.0 to easy-install.pth file
@@ -210,8 +179,8 @@ Reading https://pypi.python.org/simple/iso8601/
 Best match: iso8601 0.1.10
 Downloading https://pypi.python.org/packages/source/i/iso8601/iso8601-0.1.10.tar.gz#md5=23acb1029acfef9c32069c6c851c3a41
 Processing iso8601-0.1.10.tar.gz
-Writing /tmp/easy_install-daIMQI/iso8601-0.1.10/setup.cfg
-Running iso8601-0.1.10/setup.py -q bdist_egg --dist-dir /tmp/easy_install-daIMQI/iso8601-0.1.10/egg-dist-tmp-0fWAtA
+Writing /tmp/easy_install-eek1wK/iso8601-0.1.10/setup.cfg
+Running iso8601-0.1.10/setup.py -q bdist_egg --dist-dir /tmp/easy_install-eek1wK/iso8601-0.1.10/egg-dist-tmp-YmF6cg
 zip_safe flag not set; analyzing archive contents...
 Moving iso8601-0.1.10-py2.7.egg to /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages
 Adding iso8601 0.1.10 to easy-install.pth file
@@ -222,8 +191,8 @@ Reading https://pypi.python.org/simple/argparse/
 Best match: argparse 1.3.0
 Downloading https://pypi.python.org/packages/source/a/argparse/argparse-1.3.0.tar.gz#md5=9bcf7f612190885c8c85e30ba41db3c7
 Processing argparse-1.3.0.tar.gz
-Writing /tmp/easy_install-6zWds_/argparse-1.3.0/setup.cfg
-Running argparse-1.3.0/setup.py -q bdist_egg --dist-dir /tmp/easy_install-6zWds_/argparse-1.3.0/egg-dist-tmp-En3dn7
+Writing /tmp/easy_install-bnpa8M/argparse-1.3.0/setup.cfg
+Running argparse-1.3.0/setup.py -q bdist_egg --dist-dir /tmp/easy_install-bnpa8M/argparse-1.3.0/egg-dist-tmp-NxQL1N
 warning: no previously-included files matching '*.pyc' found anywhere in distribution
 warning: no previously-included files matching '*.pyo' found anywhere in distribution
 warning: no previously-included files matching '*.orig' found anywhere in distribution
@@ -243,8 +212,8 @@ Reading https://pypi.python.org/simple/pbr/
 Best match: pbr 1.2.0
 Downloading https://pypi.python.org/packages/source/p/pbr/pbr-1.2.0.tar.gz#md5=b5b93565a5c6fd514889d5f5d83a485b
 Processing pbr-1.2.0.tar.gz
-Writing /tmp/easy_install-VS0VdQ/pbr-1.2.0/setup.cfg
-Running pbr-1.2.0/setup.py -q bdist_egg --dist-dir /tmp/easy_install-VS0VdQ/pbr-1.2.0/egg-dist-tmp-C0zKAJ
+Writing /tmp/easy_install-oZgRDF/pbr-1.2.0/setup.cfg
+Running pbr-1.2.0/setup.py -q bdist_egg --dist-dir /tmp/easy_install-oZgRDF/pbr-1.2.0/egg-dist-tmp-FtiX6v
 creating /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/pbr-1.2.0-py2.7.egg
 Extracting pbr-1.2.0-py2.7.egg to /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages
 Adding pbr 1.2.0 to easy-install.pth file
@@ -256,8 +225,8 @@ Reading https://pypi.python.org/simple/stevedore/
 Best match: stevedore 1.5.0
 Downloading https://pypi.python.org/packages/source/s/stevedore/stevedore-1.5.0.tar.gz#md5=e8c98db3f12f36cd23158dfde2431c81
 Processing stevedore-1.5.0.tar.gz
-Writing /tmp/easy_install-gtzLkO/stevedore-1.5.0/setup.cfg
-Running stevedore-1.5.0/setup.py -q bdist_egg --dist-dir /tmp/easy_install-gtzLkO/stevedore-1.5.0/egg-dist-tmp-zgm1T_
+Writing /tmp/easy_install-KI65SR/stevedore-1.5.0/setup.cfg
+Running stevedore-1.5.0/setup.py -q bdist_egg --dist-dir /tmp/easy_install-KI65SR/stevedore-1.5.0/egg-dist-tmp-6k1ADh
 creating /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/stevedore-1.5.0-py2.7.egg
 Extracting stevedore-1.5.0-py2.7.egg to /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages
 Adding stevedore 1.5.0 to easy-install.pth file
@@ -268,8 +237,8 @@ Reading https://pypi.python.org/simple/oslo.config/
 Best match: oslo.config 1.13.0
 Downloading https://pypi.python.org/packages/source/o/oslo.config/oslo.config-1.13.0.tar.gz#md5=35289d2d652bfa4c7f9bd3bca78bfa68
 Processing oslo.config-1.13.0.tar.gz
-Writing /tmp/easy_install-hvNMOj/oslo.config-1.13.0/setup.cfg
-Running oslo.config-1.13.0/setup.py -q bdist_egg --dist-dir /tmp/easy_install-hvNMOj/oslo.config-1.13.0/egg-dist-tmp-Dl_wNM
+Writing /tmp/easy_install-YDM4x1/oslo.config-1.13.0/setup.cfg
+Running oslo.config-1.13.0/setup.py -q bdist_egg --dist-dir /tmp/easy_install-YDM4x1/oslo.config-1.13.0/egg-dist-tmp-weOAZP
 creating /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/oslo.config-1.13.0-py2.7.egg
 Extracting oslo.config-1.13.0-py2.7.egg to /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages
 Adding oslo.config 1.13.0 to easy-install.pth file
@@ -301,8 +270,8 @@ Reading https://pypi.python.org/simple/debtcollector/
 Best match: debtcollector 0.5.0
 Downloading https://pypi.python.org/packages/source/d/debtcollector/debtcollector-0.5.0.tar.gz#md5=27ff96660eaf5ff75af19d678c7d3237
 Processing debtcollector-0.5.0.tar.gz
-Writing /tmp/easy_install-i5iFxH/debtcollector-0.5.0/setup.cfg
-Running debtcollector-0.5.0/setup.py -q bdist_egg --dist-dir /tmp/easy_install-i5iFxH/debtcollector-0.5.0/egg-dist-tmp-2RkKaR
+Writing /tmp/easy_install-gbr0dz/debtcollector-0.5.0/setup.cfg
+Running debtcollector-0.5.0/setup.py -q bdist_egg --dist-dir /tmp/easy_install-gbr0dz/debtcollector-0.5.0/egg-dist-tmp-zw2W2p
 creating /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/debtcollector-0.5.0-py2.7.egg
 Extracting debtcollector-0.5.0-py2.7.egg to /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages
 Adding debtcollector 0.5.0 to easy-install.pth file
@@ -313,8 +282,8 @@ Reading https://pypi.python.org/simple/netifaces/
 Best match: netifaces 0.10.4
 Downloading https://pypi.python.org/packages/source/n/netifaces/netifaces-0.10.4.tar.gz#md5=36da76e2cfadd24cc7510c2c0012eb1e
 Processing netifaces-0.10.4.tar.gz
-Writing /tmp/easy_install-ZS1ANC/netifaces-0.10.4/setup.cfg
-Running netifaces-0.10.4/setup.py -q bdist_egg --dist-dir /tmp/easy_install-ZS1ANC/netifaces-0.10.4/egg-dist-tmp-khVUuB
+Writing /tmp/easy_install-h0mcFL/netifaces-0.10.4/setup.cfg
+Running netifaces-0.10.4/setup.py -q bdist_egg --dist-dir /tmp/easy_install-h0mcFL/netifaces-0.10.4/egg-dist-tmp-T3Bdrk
 checking for getifaddrs...found. 
 checking for getnameinfo...found. 
 checking for optional header files...netash/ash.h netatalk/at.h netax25/ax25.h neteconet/ec.h netipx/ipx.h netpacket/packet.h linux/irda.h linux/atm.h linux/llc.h linux/tipc.h linux/dn.h. 
@@ -333,8 +302,8 @@ Reading https://pypi.python.org/simple/msgpack-python/
 Best match: msgpack-python 0.4.6
 Downloading https://pypi.python.org/packages/source/m/msgpack-python/msgpack-python-0.4.6.tar.gz#md5=8b317669314cf1bc881716cccdaccb30
 Processing msgpack-python-0.4.6.tar.gz
-Writing /tmp/easy_install-xCrcTz/msgpack-python-0.4.6/setup.cfg
-Running msgpack-python-0.4.6/setup.py -q bdist_egg --dist-dir /tmp/easy_install-xCrcTz/msgpack-python-0.4.6/egg-dist-tmp-UoEIn7
+Writing /tmp/easy_install-TtVmIs/msgpack-python-0.4.6/setup.cfg
+Running msgpack-python-0.4.6/setup.py -q bdist_egg --dist-dir /tmp/easy_install-TtVmIs/msgpack-python-0.4.6/egg-dist-tmp-JTkScm
 gcc: error trying to exec 'cc1plus': execvp: No such file or directory
 gcc: error trying to exec 'cc1plus': execvp: No such file or directory
 zip_safe flag not set; analyzing archive contents...
@@ -353,8 +322,8 @@ Reading https://pypi.python.org/simple/wrapt/
 Best match: wrapt 1.10.4
 Downloading https://pypi.python.org/packages/source/w/wrapt/wrapt-1.10.4.tar.gz#md5=db2790d758e5999a295205fc3901a493
 Processing wrapt-1.10.4.tar.gz
-Writing /tmp/easy_install-wpvRzn/wrapt-1.10.4/setup.cfg
-Running wrapt-1.10.4/setup.py -q bdist_egg --dist-dir /tmp/easy_install-wpvRzn/wrapt-1.10.4/egg-dist-tmp-PUMxTX
+Writing /tmp/easy_install-BxGoiQ/wrapt-1.10.4/setup.cfg
+Running wrapt-1.10.4/setup.py -q bdist_egg --dist-dir /tmp/easy_install-BxGoiQ/wrapt-1.10.4/egg-dist-tmp-NAffOk
 zip_safe flag not set; analyzing archive contents...
 Moving wrapt-1.10.4-py2.7-linux-x86_64.egg to /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages
 Adding wrapt 1.10.4 to easy-install.pth file
@@ -367,7 +336,28 @@ Installing nova script to /home/ubuntu/miniconda/envs/_build/bin
 
 Using /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages
 Finished processing dependencies for os-virtual-interfacesv2-python-novaclient-ext==0.19
- in: /home/ubuntu/miniconda/conda-bld/work/os_virtual_interfacesv2_python_novaclient_ext-0.19
+
+The following NEW packages will be INSTALLED:
+
+    openssl:           1.0.1k-1     
+    pip:               7.0.3-py27_0 
+    python:            2.7.10-0     
+    python-novaclient: 2.26.0-py27_0
+    readline:          6.2-2        
+    setuptools:        18.0.1-py27_0
+    sqlite:            3.8.4.1-1    
+    system:            5.8-2        
+    tk:                8.5.18-0     
+    zlib:              1.2.8-0      
+
+Linking packages ...
+[                    ]|                                                  |   0%[openssl             ]|                                                  |   0%[readline            ]|#####                                             |  10%[sqlite              ]|##########                                        |  20%[system              ]|###############                                   |  30%[tk                  ]|####################                              |  40%[zlib                ]|#########################                         |  50%[python              ]|##############################                    |  60%[python-novaclient   ]|###################################               |  70%[setuptools          ]|########################################          |  80%[pip                 ]|#############################################     |  90%[      COMPLETE      ]|##################################################| 100%
+Removing old work directory
+Source cache directory is: /home/ubuntu/miniconda/conda-bld/src_cache
+Found source in cache: os_virtual_interfacesv2_python_novaclient_ext-0.19.tar.gz
+Extracting download
+Package: os_virtual_interfacesv2_python_novaclient_ext-0.19-py27_0
+source tree in: /home/ubuntu/miniconda/conda-bld/work/os_virtual_interfacesv2_python_novaclient_ext-0.19
 found egg dir: /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/simplejson-3.7.3-py2.7-linux-x86_64.egg
 found egg dir: /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/netaddr-0.7.15-py2.7.egg
 found egg dir: /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/oslo.utils-1.7.0-py2.7.egg

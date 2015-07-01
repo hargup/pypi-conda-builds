@@ -227,7 +227,7 @@ The following NEW packages will be INSTALLED:
     zlib:          1.2.8-0      
 
 Fetching packages ...
-django-waffle-   0% |                              | ETA:  --:--:--   0.00  B/sdjango-waffle- 100% |###############################| ETA:  0:00:00  43.48 MB/sdjango-waffle- 100% |###############################| Time: 0:00:00  26.16 MB/s
+django-waffle-   0% |                              | ETA:  --:--:--   0.00  B/sdjango-waffle- 100% |###############################| ETA:  0:00:00  44.28 MB/sdjango-waffle- 100% |###############################| Time: 0:00:00  26.31 MB/s
 Extracting packages ...
 [      COMPLETE      ]|                                                  |   0%[django-waffle       ]|                                                  |   0%[django-waffle       ]|                                                  |   0%[      COMPLETE      ]|##################################################| 100%
 Linking packages ...

@@ -128,7 +128,7 @@ The following NEW packages will be INSTALLED:
     zlib:        1.2.8-0      
 
 Fetching packages ...
-easyprocess-0.   0% |                              | ETA:  --:--:--   0.00  B/seasyprocess-0. 100% |###############################| ETA:  0:00:00  46.81 MB/seasyprocess-0. 100% |###############################| Time: 0:00:00  28.01 MB/s
+easyprocess-0.   0% |                              | ETA:  --:--:--   0.00  B/seasyprocess-0.  99% |############################## | ETA:  0:00:00  46.00 MB/seasyprocess-0. 100% |###############################| Time: 0:00:00  24.55 MB/s
 Extracting packages ...
 [      COMPLETE      ]|                                                  |   0%[easyprocess         ]|                                                  |   0%[easyprocess         ]|                                                  |   0%[      COMPLETE      ]|##################################################| 100%
 Linking packages ...

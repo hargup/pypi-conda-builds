@@ -10,4 +10,46 @@ conda update -n root conda-build
 
 to get the latest version.
 
-Error: No packages found in current linux-64 channels matching: dj-static
+Solving package specifications: .................
+Warning: 4 possible package resolutions (only showing differing packages):
+	[u'dj-database-url-0.3.0-py_0.tar.bz2', u'dj-static-0.0.6-py_0.tar.bz2'],
+	[u'dj-database-url-0.3.0-py_0.tar.bz2', u'dj-static-0.0.6-py27_0.tar.bz2'],
+	[u'dj-database-url-0.3.0-py27_0.tar.bz2', u'dj-static-0.0.6-py27_0.tar.bz2'],
+	[u'dj-database-url-0.3.0-py27_0.tar.bz2', u'dj-static-0.0.6-py_0.tar.bz2'],
+/home/ubuntu/miniconda/pkgs/dj-database-url-0.3.0-py_0/bin/.dj-database-url-pre-link.sh: line 2: /home/ubuntu/miniconda/envs/_build/bin/python: No such file or directory
+
+The following packages will be downloaded:
+
+    package                    |            build
+    ---------------------------|-----------------
+    dj-database-url-0.3.0      |             py_0           3 KB
+    dj-static-0.0.6            |             py_0           4 KB
+    ------------------------------------------------------------
+                                           Total:           7 KB
+
+The following NEW packages will be INSTALLED:
+
+    dj-database-url: 0.3.0-py_0   
+    dj-static:       0.0.6-py_0   
+    django:          1.8.2-py27_0 
+    gunicorn:        19.1.0-py27_0
+    openssl:         1.0.1k-1     
+    pastedeploy:     1.5.2-py27_1 
+    pip:             7.0.3-py27_0 
+    psycopg2:        2.6-py27_1   
+    python:          2.7.10-0     
+    readline:        6.2-2        
+    setuptools:      18.0.1-py27_0
+    sqlite:          3.8.4.1-1    
+    static3:         0.6.1-py27_0 
+    system:          5.8-2        
+    tk:              8.5.18-0     
+    zlib:            1.2.8-0      
+
+Fetching packages ...
+dj-database-ur   0% |                              | ETA:  --:--:--   0.00  B/sdj-database-ur 100% |###############################| ETA:  0:00:00   8.49 MB/sdj-database-ur 100% |###############################| Time: 0:00:00   5.15 MB/s
+dj-static-0.0.   0% |                              | ETA:  --:--:--   0.00  B/sdj-static-0.0. 100% |###############################| Time: 0:00:00  20.87 MB/sdj-static-0.0. 100% |###############################| Time: 0:00:00  11.88 MB/sdj-static-0.0. 100% |###############################| Time: 0:00:00   7.69 MB/s
+Extracting packages ...
+[                    ]|                                                  |   0%[dj-database-url     ]|                                                  |   0%[dj-static           ]|#########################                         |  50%[      COMPLETE      ]|##################################################| 100%
+Linking packages ...
+[      COMPLETE      ]|                                                  |   0%[openssl             ]|                                                  |   0%[openssl             ]|                                                  |   0%[readline            ]|###                                               |   6%[sqlite              ]|######                                            |  12%[system              ]|#########                                         |  18%[tk                  ]|############                                      |  25%[zlib                ]|###############                                   |  31%[dj-database-url     ]|##################                                |  37%Error: pre-link failed: dj-database-url-0.3.0-py_0

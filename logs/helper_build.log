@@ -140,7 +140,7 @@ The following NEW packages will be INSTALLED:
     zlib:       1.2.8-0      
 
 Fetching packages ...
-helper-2.4.1-p   0% |                              | ETA:  --:--:--   0.00  B/shelper-2.4.1-p  37% |###########                    | ETA:  0:00:00  48.46 MB/shelper-2.4.1-p  74% |#######################        | ETA:  0:00:00  59.37 MB/shelper-2.4.1-p 100% |###############################| ETA:  0:00:00  60.12 MB/shelper-2.4.1-p 100% |###############################| Time: 0:00:00  46.63 MB/s
+helper-2.4.1-p   0% |                              | ETA:  --:--:--   0.00  B/shelper-2.4.1-p  37% |###########                    | ETA:  0:00:00  46.68 MB/shelper-2.4.1-p  74% |#######################        | ETA:  0:00:00  58.61 MB/shelper-2.4.1-p 100% |###############################| ETA:  0:00:00  59.58 MB/shelper-2.4.1-p 100% |###############################| Time: 0:00:00  43.47 MB/s
 Extracting packages ...
 [      COMPLETE      ]|                                                  |   0%[helper              ]|                                                  |   0%[helper              ]|                                                  |   0%[      COMPLETE      ]|##################################################| 100%
 Linking packages ...

@@ -181,7 +181,7 @@ The following NEW packages will be INSTALLED:
     zope.interface: 4.1.2-py27_1 
 
 Fetching packages ...
-txamqp-0.6.2-p   0% |                              | ETA:  --:--:--   0.00  B/stxamqp-0.6.2-p  44% |#############                  | ETA:  0:00:00  45.15 MB/stxamqp-0.6.2-p  88% |###########################    | ETA:  0:00:00  57.19 MB/stxamqp-0.6.2-p 100% |###############################| ETA:  0:00:00  50.66 MB/stxamqp-0.6.2-p 100% |###############################| Time: 0:00:00  39.24 MB/s
+txamqp-0.6.2-p   0% |                              | ETA:  --:--:--   0.00  B/stxamqp-0.6.2-p  44% |#############                  | ETA:  0:00:00  48.02 MB/stxamqp-0.6.2-p  88% |###########################    | ETA:  0:00:00  59.78 MB/stxamqp-0.6.2-p 100% |###############################| ETA:  0:00:00  52.55 MB/stxamqp-0.6.2-p 100% |###############################| Time: 0:00:00  39.35 MB/s
 Extracting packages ...
 [      COMPLETE      ]|                                                  |   0%[txamqp              ]|                                                  |   0%[txamqp              ]|                                                  |   0%[      COMPLETE      ]|##################################################| 100%
 Linking packages ...

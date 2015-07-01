@@ -157,7 +157,7 @@ The following NEW packages will be INSTALLED:
     zlib:       1.2.8-0       
 
 Fetching packages ...
-html2text-2015   0% |                              | ETA:  --:--:--   0.00  B/shtml2text-2015  18% |#####                          | ETA:  0:00:00  47.36 MB/shtml2text-2015  36% |###########                    | ETA:  0:00:00  59.04 MB/shtml2text-2015  55% |#################              | ETA:  0:00:00  65.97 MB/shtml2text-2015  73% |######################         | ETA:  0:00:00  70.25 MB/shtml2text-2015  92% |############################   | ETA:  0:00:00  73.34 MB/shtml2text-2015 100% |###############################| ETA:  0:00:00  69.60 MB/shtml2text-2015 100% |###############################| Time: 0:00:00   9.21 MB/s
+html2text-2015   0% |                              | ETA:  --:--:--   0.00  B/shtml2text-2015  18% |#####                          | ETA:  0:00:00  47.23 MB/shtml2text-2015  36% |###########                    | ETA:  0:00:00  58.94 MB/shtml2text-2015  55% |#################              | ETA:  0:00:00  65.97 MB/shtml2text-2015  73% |######################         | ETA:  0:00:00  69.94 MB/shtml2text-2015  92% |############################   | ETA:  0:00:00  73.01 MB/shtml2text-2015 100% |###############################| ETA:  0:00:00  69.31 MB/shtml2text-2015 100% |###############################| Time: 0:00:00  59.68 MB/s
 Extracting packages ...
 [      COMPLETE      ]|                                                  |   0%[html2text           ]|                                                  |   0%[html2text           ]|                                                  |   0%[      COMPLETE      ]|##################################################| 100%
 Linking packages ...

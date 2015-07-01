@@ -111,7 +111,7 @@ The following NEW packages will be INSTALLED:
     zlib:       1.2.8-0      
 
 Fetching packages ...
-filecache-0.75   0% |                              | ETA:  --:--:--   0.00  B/sfilecache-0.75 100% |###############################| ETA:  0:00:00  14.50 MB/sfilecache-0.75 100% |###############################| Time: 0:00:00   8.03 MB/s
+filecache-0.75   0% |                              | ETA:  --:--:--   0.00  B/sfilecache-0.75 100% |###############################| ETA:  0:00:00  13.93 MB/sfilecache-0.75 100% |###############################| Time: 0:00:00   7.87 MB/s
 Extracting packages ...
 [      COMPLETE      ]|                                                  |   0%[filecache           ]|                                                  |   0%[filecache           ]|                                                  |   0%[      COMPLETE      ]|##################################################| 100%
 Linking packages ...

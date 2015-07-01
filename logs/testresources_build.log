@@ -134,7 +134,7 @@ The following NEW packages will be INSTALLED:
     zlib:          1.2.8-0      
 
 Fetching packages ...
-testresources-   0% |                              | ETA:  --:--:--   0.00  B/stestresources-  80% |########################       | ETA:  0:00:00  47.20 MB/stestresources- 100% |###############################| ETA:  0:00:00  39.74 MB/stestresources- 100% |###############################| Time: 0:00:00  26.99 MB/s
+testresources-   0% |                              | ETA:  --:--:--   0.00  B/stestresources-  80% |########################       | ETA:  0:00:00  46.43 MB/stestresources- 100% |###############################| ETA:  0:00:00  39.18 MB/stestresources- 100% |###############################| Time: 0:00:00  27.62 MB/s
 Extracting packages ...
 [      COMPLETE      ]|                                                  |   0%[testresources       ]|                                                  |   0%[testresources       ]|                                                  |   0%[      COMPLETE      ]|##################################################| 100%
 Linking packages ...

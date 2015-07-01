@@ -84,6 +84,7 @@ clint: {build_successful: false}
 cloud: {build_successful: false}
 cm-api: {build_successful: false}
 cmd2: {build_successful: true}
+codecov: {build_successful: false}
 coinor.dippy: {build_successful: false}
 colander: {build_successful: false}
 collective.plonetruegallery: {build_successful: false}
@@ -208,7 +209,7 @@ dnspython: {build_successful: true}
 docker-py: {build_successful: false}
 docopt: {build_successful: true}
 dogapi: {build_successful: true}
-dogpile.cache: {build_successful: true}
+dogpile.cache: {build_successful: false}
 dogpile.core: {build_successful: false}
 dotcloud: {build_successful: false}
 dropbox: {build_successful: false}
@@ -241,7 +242,7 @@ fixtures: {build_successful: true}
 flake8: {build_successful: true}
 flask-admin: {build_successful: false}
 flask-appbuilder: {build_successful: false}
-flask-assets: {build_successful: true}
+flask-assets: {build_successful: false}
 flask-babel: {build_successful: true}
 flask-cache: {build_successful: true}
 flask-cors: {build_successful: true}
@@ -285,6 +286,7 @@ googlefinance: {build_successful: true}
 grab: {build_successful: false}
 graphite-web: {build_successful: false}
 grappelli_safe: {build_successful: false}
+gspread: {build_successful: true}
 gunicorn: {build_successful: false}
 guppy: {build_successful: false}
 hacking: {build_successful: true}
@@ -881,7 +883,7 @@ z3c.form: {build_successful: false}
 z3c.recipe.scripts: {build_successful: false}
 zake: {build_successful: false}
 zc.buildout: {build_successful: false}
-zc.lockfile: {build_successful: false}
+zc.lockfile: {build_successful: true}
 zc.recipe.egg: {build_successful: true}
 zc.recipe.testrunner: {build_successful: false}
 zconfig: {build_successful: false}
@@ -896,7 +898,7 @@ zope.configuration: {build_successful: false}
 zope.container: {build_successful: false}
 zope.contenttype: {build_successful: true}
 zope.deprecation: {build_successful: false}
-zope.dottedname: {build_successful: false}
+zope.dottedname: {build_successful: true}
 zope.event: {build_successful: false}
 zope.exceptions: {build_successful: false}
 zope.filerepresentation: {build_successful: false}
@@ -912,7 +914,7 @@ zope.proxy: {build_successful: false}
 zope.publisher: {build_successful: false}
 zope.schema: {build_successful: false}
 zope.security: {build_successful: false}
-zope.sqlalchemy: {build_successful: false}
+zope.sqlalchemy: {build_successful: true}
 zope.tal: {build_successful: false}
 zope.tales: {build_successful: false}
 zope.testbrowser: {build_successful: false}

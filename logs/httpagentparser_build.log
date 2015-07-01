@@ -109,7 +109,7 @@ The following NEW packages will be INSTALLED:
     zlib:            1.2.8-0      
 
 Fetching packages ...
-httpagentparse   0% |                              | ETA:  --:--:--   0.00  B/shttpagentparse  91% |############################   | ETA:  0:00:00  46.68 MB/shttpagentparse 100% |###############################| ETA:  0:00:00  34.90 MB/shttpagentparse 100% |###############################| Time: 0:00:00  23.62 MB/s
+httpagentparse   0% |                              | ETA:  --:--:--   0.00  B/shttpagentparse  91% |############################   | ETA:  0:00:00  47.36 MB/shttpagentparse 100% |###############################| ETA:  0:00:00  35.17 MB/shttpagentparse 100% |###############################| Time: 0:00:00  23.84 MB/s
 Extracting packages ...
 [      COMPLETE      ]|                                                  |   0%[httpagentparser     ]|                                                  |   0%[httpagentparser     ]|                                                  |   0%[      COMPLETE      ]|##################################################| 100%
 Linking packages ...

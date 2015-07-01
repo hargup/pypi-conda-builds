@@ -124,7 +124,7 @@ The following NEW packages will be INSTALLED:
     zlib:       1.2.8-0      
 
 Fetching packages ...
-py-bcrypt-0.4-   0% |                              | ETA:  --:--:--   0.00  B/spy-bcrypt-0.4-  36% |###########                    | ETA:  0:00:00  47.92 MB/spy-bcrypt-0.4-  73% |######################         | ETA:  0:00:00  58.94 MB/spy-bcrypt-0.4- 100% |###############################| ETA:  0:00:00  60.11 MB/spy-bcrypt-0.4- 100% |###############################| Time: 0:00:00  46.68 MB/s
+py-bcrypt-0.4-   0% |                              | ETA:  --:--:--   0.00  B/spy-bcrypt-0.4-  36% |###########                    | ETA:  0:00:00  47.36 MB/spy-bcrypt-0.4-  73% |######################         | ETA:  0:00:00  58.51 MB/spy-bcrypt-0.4- 100% |###############################| ETA:  0:00:00  59.53 MB/spy-bcrypt-0.4- 100% |###############################| Time: 0:00:00  44.98 MB/s
 Extracting packages ...
 [      COMPLETE      ]|                                                  |   0%[py-bcrypt           ]|                                                  |   0%[py-bcrypt           ]|                                                  |   0%[      COMPLETE      ]|##################################################| 100%
 Linking packages ...

@@ -68,8 +68,8 @@ Reading https://pypi.python.org/simple/jsonpointer/
 Best match: jsonpointer 1.9
 Downloading https://pypi.python.org/packages/source/j/jsonpointer/jsonpointer-1.9.tar.gz#md5=c4d3f28e72ba77062538d1c0864c40a9
 Processing jsonpointer-1.9.tar.gz
-Writing /tmp/easy_install-nd_CKz/jsonpointer-1.9/setup.cfg
-Running jsonpointer-1.9/setup.py -q bdist_egg --dist-dir /tmp/easy_install-nd_CKz/jsonpointer-1.9/egg-dist-tmp-NhNpDQ
+Writing /tmp/easy_install-zaxgNL/jsonpointer-1.9/setup.cfg
+Running jsonpointer-1.9/setup.py -q bdist_egg --dist-dir /tmp/easy_install-zaxgNL/jsonpointer-1.9/egg-dist-tmp-7l_J1Z
 zip_safe flag not set; analyzing archive contents...
 warning: pypandoc module not found, could not convert Markdown to RST
 Moving jsonpointer-1.9-py2.7.egg to /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages

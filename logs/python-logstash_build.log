@@ -95,7 +95,7 @@ The following NEW packages will be INSTALLED:
     zlib:            1.2.8-0      
 
 Fetching packages ...
-python-logstas   0% |                              | ETA:  --:--:--   0.00  B/spython-logstas 100% |###############################| ETA:  0:00:00  28.93 MB/spython-logstas 100% |###############################| Time: 0:00:00  16.27 MB/s
+python-logstas   0% |                              | ETA:  --:--:--   0.00  B/spython-logstas 100% |###############################| ETA:  0:00:00  28.38 MB/spython-logstas 100% |###############################| Time: 0:00:00  16.73 MB/s
 Extracting packages ...
 [      COMPLETE      ]|                                                  |   0%[python-logstash     ]|                                                  |   0%[python-logstash     ]|                                                  |   0%[      COMPLETE      ]|##################################################| 100%
 Linking packages ...

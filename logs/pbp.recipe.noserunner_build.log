@@ -161,10 +161,7 @@ The following packages will be downloaded:
 
     package                    |            build
     ---------------------------|-----------------
-    zc.recipe.egg-2.0.1        |             py_0          93 KB
     pbp.recipe.noserunner-0.2.6|             py_0          80 KB
-    ------------------------------------------------------------
-                                           Total:         172 KB
 
 The following NEW packages will be INSTALLED:
 
@@ -183,10 +180,9 @@ The following NEW packages will be INSTALLED:
     zlib:                  1.2.8-0      
 
 Fetching packages ...
-zc.recipe.egg-   0% |                              | ETA:  --:--:--   0.00  B/szc.recipe.egg-  17% |#####                          | ETA:  0:00:00  46.68 MB/szc.recipe.egg-  34% |##########                     | ETA:  0:00:00  58.02 MB/szc.recipe.egg-  51% |################               | ETA:  0:00:00  64.69 MB/szc.recipe.egg-  69% |#####################          | ETA:  0:00:00  68.48 MB/szc.recipe.egg-  86% |##########################     | ETA:  0:00:00  70.63 MB/szc.recipe.egg- 100% |###############################| ETA:  0:00:00  70.72 MB/szc.recipe.egg- 100% |###############################| Time: 0:00:00  60.14 MB/s
-pbp.recipe.nos   0% |                              | ETA:  --:--:--   0.00  B/spbp.recipe.nos  20% |######                         | Time: 0:00:00  72.80 MB/spbp.recipe.nos  40% |############                   | Time: 0:00:00  74.82 MB/spbp.recipe.nos  60% |##################             | Time: 0:00:00  78.39 MB/spbp.recipe.nos  80% |########################       | Time: 0:00:00  80.61 MB/spbp.recipe.nos 100% |###############################| Time: 0:00:00  81.84 MB/spbp.recipe.nos 100% |###############################| Time: 0:00:00  72.34 MB/spbp.recipe.nos 100% |###############################| Time: 0:00:00  64.09 MB/s
+pbp.recipe.nos   0% |                              | ETA:  --:--:--   0.00  B/spbp.recipe.nos  20% |######                         | ETA:  0:00:00  46.40 MB/spbp.recipe.nos  40% |############                   | ETA:  0:00:00  58.19 MB/spbp.recipe.nos  60% |##################             | ETA:  0:00:00  64.93 MB/spbp.recipe.nos  80% |########################       | ETA:  0:00:00  69.20 MB/spbp.recipe.nos 100% |###############################| ETA:  0:00:00  71.81 MB/spbp.recipe.nos 100% |###############################| Time: 0:00:00  59.36 MB/s
 Extracting packages ...
-[      COMPLETE      ]|                                                  |   0%[zc.recipe.egg       ]|                                                  |   0%[zc.recipe.egg       ]|                                                  |   0%[pbp.recipe.noserunner]|########################                         |  50%[      COMPLETE      ]|##################################################| 100%
+[      COMPLETE      ]|                                                  |   0%[pbp.recipe.noserunner]|                                                 |   0%[pbp.recipe.noserunner]|                                                 |   0%[      COMPLETE      ]|##################################################| 100%
 Linking packages ...
 [      COMPLETE      ]|                                                  |   0%[openssl             ]|                                                  |   0%[openssl             ]|                                                  |   0%[readline            ]|###                                               |   7%[sqlite              ]|#######                                           |  15%[system              ]|###########                                       |  23%[tk                  ]|###############                                   |  30%[zlib                ]|###################                               |  38%[nose                ]|#######################                           |  46%[python              ]|##########################                        |  53%[setuptools          ]|##############################                    |  61%[pip                 ]|##################################                |  69%[zc.buildout         ]|######################################            |  76%[zc.recipe.egg       ]|##########################################        |  84%[pbp.recipe.noserunner]|#############################################    |  92%[      COMPLETE      ]|##################################################| 100%
 TEST END: pbp.recipe.noserunner-0.2.6-py_0

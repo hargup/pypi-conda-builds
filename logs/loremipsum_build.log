@@ -115,7 +115,7 @@ The following NEW packages will be INSTALLED:
     zlib:       1.2.8-0      
 
 Fetching packages ...
-loremipsum-1.0   0% |                              | ETA:  --:--:--   0.00  B/sloremipsum-1.0  75% |#######################        | ETA:  0:00:00  44.77 MB/sloremipsum-1.0 100% |###############################| ETA:  0:00:00  39.53 MB/sloremipsum-1.0 100% |###############################| Time: 0:00:00  27.41 MB/s
+loremipsum-1.0   0% |                              | ETA:  --:--:--   0.00  B/sloremipsum-1.0  75% |#######################        | ETA:  0:00:00  47.79 MB/sloremipsum-1.0 100% |###############################| ETA:  0:00:00  41.42 MB/sloremipsum-1.0 100% |###############################| Time: 0:00:00  28.17 MB/s
 Extracting packages ...
 [      COMPLETE      ]|                                                  |   0%[loremipsum          ]|                                                  |   0%[loremipsum          ]|                                                  |   0%[      COMPLETE      ]|##################################################| 100%
 Linking packages ...

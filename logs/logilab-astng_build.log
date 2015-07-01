@@ -254,8 +254,8 @@ Reading https://pypi.python.org/simple/logilab-common/
 Best match: logilab-common 1.0.0
 Downloading https://pypi.python.org/packages/source/l/logilab-common/logilab-common-1.0.0.tar.gz#md5=1c455d35a539e269670d0c71a9f7b80c
 Processing logilab-common-1.0.0.tar.gz
-Writing /tmp/easy_install-JKnbGQ/logilab-common-1.0.0/setup.cfg
-Running logilab-common-1.0.0/setup.py -q bdist_egg --dist-dir /tmp/easy_install-JKnbGQ/logilab-common-1.0.0/egg-dist-tmp-O3b7N2
+Writing /tmp/easy_install-2M6IgK/logilab-common-1.0.0/setup.cfg
+Running logilab-common-1.0.0/setup.py -q bdist_egg --dist-dir /tmp/easy_install-2M6IgK/logilab-common-1.0.0/egg-dist-tmp-Z2nFec
 warning: no files found matching '*.py' under directory 'test/input'
 warning: no files found matching '*' under directory 'doc/html'
 zip_safe flag not set; analyzing archive contents...
@@ -277,8 +277,8 @@ Reading https://pypi.python.org/simple/six/
 Best match: six 1.9.0
 Downloading https://pypi.python.org/packages/source/s/six/six-1.9.0.tar.gz#md5=476881ef4012262dfc8adc645ee786c4
 Processing six-1.9.0.tar.gz
-Writing /tmp/easy_install-gRUjbJ/six-1.9.0/setup.cfg
-Running six-1.9.0/setup.py -q bdist_egg --dist-dir /tmp/easy_install-gRUjbJ/six-1.9.0/egg-dist-tmp-qz0ZoW
+Writing /tmp/easy_install-j_D_bl/six-1.9.0/setup.cfg
+Running six-1.9.0/setup.py -q bdist_egg --dist-dir /tmp/easy_install-j_D_bl/six-1.9.0/egg-dist-tmp-bowmMR
 no previously-included directories found matching 'documentation/_build'
 zip_safe flag not set; analyzing archive contents...
 six: module references __path__
@@ -355,7 +355,7 @@ The following NEW packages will be INSTALLED:
     zlib:          1.2.8-0      
 
 Fetching packages ...
-logilab-astng-   0% |                              | ETA:  --:--:--   0.00  B/slogilab-astng-   4% |#                              | ETA:  0:00:00  47.89 MB/slogilab-astng-   9% |##                             | ETA:  0:00:00  57.48 MB/slogilab-astng-  13% |####                           | ETA:  0:00:00  64.24 MB/slogilab-astng-  18% |#####                          | ETA:  0:00:00  68.62 MB/slogilab-astng-  22% |#######                        | ETA:  0:00:00  71.73 MB/slogilab-astng-  27% |########                       | ETA:  0:00:00  74.13 MB/slogilab-astng-  32% |#########                      | ETA:  0:00:00  75.99 MB/slogilab-astng-  36% |###########                    | ETA:  0:00:00  77.55 MB/slogilab-astng-  41% |############                   | ETA:  0:00:00  78.81 MB/slogilab-astng-  45% |##############                 | ETA:  0:00:00  79.72 MB/slogilab-astng-  50% |###############                | ETA:  0:00:00  80.60 MB/slogilab-astng-  55% |#################              | ETA:  0:00:00  81.28 MB/slogilab-astng-  59% |##################             | ETA:  0:00:00  81.73 MB/slogilab-astng-  64% |###################            | ETA:  0:00:00  82.39 MB/slogilab-astng-  68% |#####################          | ETA:  0:00:00  82.94 MB/slogilab-astng-  73% |######################         | ETA:  0:00:00  83.43 MB/slogilab-astng-  78% |########################       | ETA:  0:00:00  83.84 MB/slogilab-astng-  82% |#########################      | ETA:  0:00:00  84.14 MB/slogilab-astng-  87% |###########################    | ETA:  0:00:00  84.43 MB/slogilab-astng-  91% |############################   | ETA:  0:00:00  84.71 MB/slogilab-astng-  96% |#############################  | ETA:  0:00:00  85.01 MB/slogilab-astng- 100% |###############################| ETA:  0:00:00  84.59 MB/slogilab-astng- 100% |###############################| Time: 0:00:00  80.22 MB/s
+logilab-astng-   0% |                              | ETA:  --:--:--   0.00  B/slogilab-astng-   4% |#                              | ETA:  0:00:00  48.19 MB/slogilab-astng-   9% |##                             | ETA:  0:00:00  59.24 MB/slogilab-astng-  13% |####                           | ETA:  0:00:00  66.33 MB/slogilab-astng-  18% |#####                          | ETA:  0:00:00  70.23 MB/slogilab-astng-  22% |#######                        | ETA:  0:00:00  73.28 MB/slogilab-astng-  27% |########                       | ETA:  0:00:00  75.56 MB/slogilab-astng-  32% |#########                      | ETA:  0:00:00  77.27 MB/slogilab-astng-  36% |###########                    | ETA:  0:00:00  78.76 MB/slogilab-astng-  41% |############                   | ETA:  0:00:00  79.83 MB/slogilab-astng-  45% |##############                 | ETA:  0:00:00  80.87 MB/slogilab-astng-  50% |###############                | ETA:  0:00:00  81.73 MB/slogilab-astng-  55% |#################              | ETA:  0:00:00  81.57 MB/slogilab-astng-  59% |##################             | ETA:  0:00:00  82.20 MB/slogilab-astng-  64% |###################            | ETA:  0:00:00  82.81 MB/slogilab-astng-  68% |#####################          | ETA:  0:00:00  83.31 MB/slogilab-astng-  73% |######################         | ETA:  0:00:00  83.75 MB/slogilab-astng-  78% |########################       | ETA:  0:00:00  24.34 MB/slogilab-astng-  82% |#########################      | ETA:  0:00:00  25.35 MB/slogilab-astng-  87% |###########################    | ETA:  0:00:00  26.36 MB/slogilab-astng-  91% |############################   | ETA:  0:00:00  27.32 MB/slogilab-astng-  96% |#############################  | ETA:  0:00:00  28.26 MB/slogilab-astng- 100% |###############################| ETA:  0:00:00  28.88 MB/slogilab-astng- 100% |###############################| Time: 0:00:00  28.35 MB/s
 Extracting packages ...
 [      COMPLETE      ]|                                                  |   0%[logilab-astng       ]|                                                  |   0%[logilab-astng       ]|                                                  |   0%[      COMPLETE      ]|##################################################| 100%
 Linking packages ...

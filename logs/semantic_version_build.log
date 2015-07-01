@@ -118,7 +118,7 @@ The following NEW packages will be INSTALLED:
     zlib:             1.2.8-0      
 
 Fetching packages ...
-semantic_versi   0% |                              | ETA:  --:--:--   0.00  B/ssemantic_versi  81% |#########################      | ETA:  0:00:00  47.76 MB/ssemantic_versi 100% |###############################| ETA:  0:00:00  39.50 MB/ssemantic_versi 100% |###############################| Time: 0:00:00  26.83 MB/s
+semantic_versi   0% |                              | ETA:  --:--:--   0.00  B/ssemantic_versi  81% |#########################      | ETA:  0:00:00  44.28 MB/ssemantic_versi 100% |###############################| ETA:  0:00:00  37.45 MB/ssemantic_versi 100% |###############################| Time: 0:00:00  25.87 MB/s
 Extracting packages ...
 [      COMPLETE      ]|                                                  |   0%[semantic_version    ]|                                                  |   0%[semantic_version    ]|                                                  |   0%[      COMPLETE      ]|##################################################| 100%
 Linking packages ...

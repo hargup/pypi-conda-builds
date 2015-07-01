@@ -206,7 +206,7 @@ The following NEW packages will be INSTALLED:
     zlib:       1.2.8-0      
 
 Fetching packages ...
-pexpect-u-2.5.   0% |                              | ETA:  --:--:--   0.00  B/spexpect-u-2.5.  16% |#####                          | ETA:  0:00:00  44.51 MB/spexpect-u-2.5.  33% |##########                     | ETA:  0:00:00  56.70 MB/spexpect-u-2.5.  50% |###############                | ETA:  0:00:00  64.00 MB/spexpect-u-2.5.  67% |#####################          | ETA:  0:00:00  68.48 MB/spexpect-u-2.5.  84% |##########################     | ETA:  0:00:00  71.79 MB/spexpect-u-2.5. 100% |###############################| ETA:  0:00:00  73.02 MB/spexpect-u-2.5. 100% |###############################| Time: 0:00:00  62.68 MB/s
+pexpect-u-2.5.   0% |                              | ETA:  --:--:--   0.00  B/spexpect-u-2.5.  16% |#####                          | ETA:  0:00:00  46.94 MB/spexpect-u-2.5.  33% |##########                     | ETA:  0:00:00  58.51 MB/spexpect-u-2.5.  50% |###############                | ETA:  0:00:00  65.45 MB/spexpect-u-2.5.  67% |#####################          | ETA:  0:00:00  69.57 MB/spexpect-u-2.5.  84% |##########################     | ETA:  0:00:00  72.63 MB/spexpect-u-2.5. 100% |###############################| ETA:  0:00:00  73.80 MB/spexpect-u-2.5. 100% |###############################| Time: 0:00:00  62.51 MB/s
 Extracting packages ...
 [      COMPLETE      ]|                                                  |   0%[pexpect-u           ]|                                                  |   0%[pexpect-u           ]|                                                  |   0%[      COMPLETE      ]|##################################################| 100%
 Linking packages ...

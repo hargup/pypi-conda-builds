@@ -132,7 +132,7 @@ The following NEW packages will be INSTALLED:
     zlib:           1.2.8-0        
 
 Fetching packages ...
-xstatic-jquery   0% |                              | ETA:  --:--:--   0.00  B/sxstatic-jquery  16% |#####                          | ETA:  0:00:00  47.89 MB/sxstatic-jquery  33% |##########                     | ETA:  0:00:00  59.47 MB/sxstatic-jquery  50% |###############                | ETA:  0:00:00  66.33 MB/sxstatic-jquery  67% |####################           | ETA:  0:00:00  70.01 MB/sxstatic-jquery  83% |#########################      | ETA:  0:00:00  72.87 MB/sxstatic-jquery 100% |###############################| ETA:  0:00:00  74.80 MB/sxstatic-jquery 100% |###############################| Time: 0:00:00  64.53 MB/s
+xstatic-jquery   0% |                              | ETA:  --:--:--   0.00  B/sxstatic-jquery  16% |#####                          | ETA:  0:00:00  44.54 MB/sxstatic-jquery  33% |##########                     | ETA:  0:00:00  56.79 MB/sxstatic-jquery  50% |###############                | ETA:  0:00:00  63.85 MB/sxstatic-jquery  67% |####################           | ETA:  0:00:00  68.21 MB/sxstatic-jquery  83% |#########################      | ETA:  0:00:00  71.49 MB/sxstatic-jquery 100% |###############################| ETA:  0:00:00  72.56 MB/sxstatic-jquery 100% |###############################| Time: 0:00:00  61.58 MB/s
 Extracting packages ...
 [      COMPLETE      ]|                                                  |   0%[xstatic-jquery      ]|                                                  |   0%[xstatic-jquery      ]|                                                  |   0%[      COMPLETE      ]|##################################################| 100%
 Linking packages ...

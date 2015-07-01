@@ -397,7 +397,7 @@ The following NEW packages will be INSTALLED:
     zlib:            1.2.8-0      
 
 Fetching packages ...
-django-guardia   0% |                              | ETA:  --:--:--   0.00  B/sdjango-guardia  34% |##########                     | ETA:  0:00:00  47.89 MB/sdjango-guardia  69% |#####################          | ETA:  0:00:00  59.37 MB/sdjango-guardia 100% |###############################| ETA:  0:00:00  63.63 MB/sdjango-guardia 100% |###############################| Time: 0:00:00  48.03 MB/s
+django-guardia   0% |                              | ETA:  --:--:--   0.00  B/sdjango-guardia  35% |##########                     | ETA:  0:00:00  47.62 MB/sdjango-guardia  70% |#####################          | ETA:  0:00:00  58.94 MB/sdjango-guardia 100% |###############################| ETA:  0:00:00  62.89 MB/sdjango-guardia 100% |###############################| Time: 0:00:00  47.59 MB/s
 Extracting packages ...
 [      COMPLETE      ]|                                                  |   0%[django-guardian     ]|                                                  |   0%[django-guardian     ]|                                                  |   0%[      COMPLETE      ]|##################################################| 100%
 Linking packages ...

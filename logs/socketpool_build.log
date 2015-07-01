@@ -134,7 +134,7 @@ The following NEW packages will be INSTALLED:
     zlib:       1.2.8-0      
 
 Fetching packages ...
-socketpool-0.5   0% |                              | ETA:  --:--:--   0.00  B/ssocketpool-0.5  67% |####################           | ETA:  0:00:00  44.51 MB/ssocketpool-0.5 100% |###############################| ETA:  0:00:00  44.21 MB/ssocketpool-0.5 100% |###############################| Time: 0:00:00  30.55 MB/s
+socketpool-0.5   0% |                              | ETA:  --:--:--   0.00  B/ssocketpool-0.5  67% |####################           | ETA:  0:00:00  47.76 MB/ssocketpool-0.5 100% |###############################| ETA:  0:00:00  46.53 MB/ssocketpool-0.5 100% |###############################| Time: 0:00:00  32.92 MB/s
 Extracting packages ...
 [      COMPLETE      ]|                                                  |   0%[socketpool          ]|                                                  |   0%[socketpool          ]|                                                  |   0%[      COMPLETE      ]|##################################################| 100%
 Linking packages ...

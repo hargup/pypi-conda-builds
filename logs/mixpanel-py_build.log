@@ -105,7 +105,7 @@ The following NEW packages will be INSTALLED:
     zlib:        1.2.8-0      
 
 Fetching packages ...
-mixpanel-py-4.   0% |                              | ETA:  --:--:--   0.00  B/smixpanel-py-4.  99% |############################## | ETA:  0:00:00  48.33 MB/smixpanel-py-4. 100% |###############################| Time: 0:00:00  25.53 MB/s
+mixpanel-py-4.   0% |                              | ETA:  --:--:--   0.00  B/smixpanel-py-4.  99% |############################## | ETA:  0:00:00  48.16 MB/smixpanel-py-4. 100% |###############################| Time: 0:00:00  24.24 MB/s
 Extracting packages ...
 [      COMPLETE      ]|                                                  |   0%[mixpanel-py         ]|                                                  |   0%[mixpanel-py         ]|                                                  |   0%[      COMPLETE      ]|##################################################| 100%
 Linking packages ...

@@ -130,7 +130,7 @@ The following NEW packages will be INSTALLED:
     zlib:       1.2.8-0       
 
 Fetching packages ...
-xstatic-d3-3.1   0% |                              | ETA:  --:--:--   0.00  B/sxstatic-d3-3.1  27% |########                       | ETA:  0:00:00  42.66 MB/sxstatic-d3-3.1  55% |#################              | ETA:  0:00:00  55.44 MB/sxstatic-d3-3.1  82% |#########################      | ETA:  0:00:00  62.85 MB/sxstatic-d3-3.1 100% |###############################| ETA:  0:00:00  62.26 MB/sxstatic-d3-3.1 100% |###############################| Time: 0:00:00  50.01 MB/s
+xstatic-d3-3.1   0% |                              | ETA:  --:--:--   0.00  B/sxstatic-d3-3.1  27% |########                       | ETA:  0:00:00  47.07 MB/sxstatic-d3-3.1  55% |#################              | ETA:  0:00:00  57.80 MB/sxstatic-d3-3.1  82% |#########################      | ETA:  0:00:00  64.75 MB/sxstatic-d3-3.1 100% |###############################| ETA:  0:00:00  63.64 MB/sxstatic-d3-3.1 100% |###############################| Time: 0:00:00  50.74 MB/s
 Extracting packages ...
 [      COMPLETE      ]|                                                  |   0%[xstatic-d3          ]|                                                  |   0%[xstatic-d3          ]|                                                  |   0%[      COMPLETE      ]|##################################################| 100%
 Linking packages ...

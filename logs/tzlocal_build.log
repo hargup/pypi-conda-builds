@@ -182,7 +182,7 @@ The following NEW packages will be INSTALLED:
     zlib:       1.2.8-0      
 
 Fetching packages ...
-tzlocal-1.2-py   0% |                              | ETA:  --:--:--   0.00  B/stzlocal-1.2-py  58% |##################             | ETA:  0:00:00  48.19 MB/stzlocal-1.2-py 100% |###############################| ETA:  0:00:00  49.36 MB/stzlocal-1.2-py 100% |###############################| Time: 0:00:00  34.38 MB/s
+tzlocal-1.2-py   0% |                              | ETA:  --:--:--   0.00  B/stzlocal-1.2-py  58% |##################             | ETA:  0:00:00  46.81 MB/stzlocal-1.2-py 100% |###############################| ETA:  0:00:00  51.08 MB/stzlocal-1.2-py 100% |###############################| Time: 0:00:00  35.20 MB/s
 Extracting packages ...
 [      COMPLETE      ]|                                                  |   0%[tzlocal             ]|                                                  |   0%[tzlocal             ]|                                                  |   0%[      COMPLETE      ]|##################################################| 100%
 Linking packages ...

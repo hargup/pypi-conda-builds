@@ -115,7 +115,7 @@ The following NEW packages will be INSTALLED:
     zlib:       1.2.8-0      
 
 Fetching packages ...
-junitxml-0.7-p   0% |                              | ETA:  --:--:--   0.00  B/sjunitxml-0.7-p  78% |########################       | ETA:  0:00:00  45.51 MB/sjunitxml-0.7-p 100% |###############################| ETA:  0:00:00  38.94 MB/sjunitxml-0.7-p 100% |###############################| Time: 0:00:00  26.76 MB/s
+junitxml-0.7-p   0% |                              | ETA:  --:--:--   0.00  B/sjunitxml-0.7-p  78% |########################       | ETA:  0:00:00  47.36 MB/sjunitxml-0.7-p 100% |###############################| ETA:  0:00:00  40.14 MB/sjunitxml-0.7-p 100% |###############################| Time: 0:00:00  28.37 MB/s
 Extracting packages ...
 [      COMPLETE      ]|                                                  |   0%[junitxml            ]|                                                  |   0%[junitxml            ]|                                                  |   0%[      COMPLETE      ]|##################################################| 100%
 Linking packages ...

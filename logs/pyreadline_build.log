@@ -222,7 +222,7 @@ The following NEW packages will be INSTALLED:
     zlib:       1.2.8-0      
 
 Fetching packages ...
-pyreadline-2.0   0% |                              | ETA:  --:--:--   0.00  B/spyreadline-2.0  27% |########                       | ETA:  0:00:00  48.77 MB/spyreadline-2.0  55% |#################              | ETA:  0:00:00  60.36 MB/spyreadline-2.0  82% |#########################      | ETA:  0:00:00  67.07 MB/spyreadline-2.0 100% |###############################| ETA:  0:00:00  65.64 MB/spyreadline-2.0 100% |###############################| Time: 0:00:00  51.89 MB/s
+pyreadline-2.0   0% |                              | ETA:  --:--:--   0.00  B/spyreadline-2.0  27% |########                       | ETA:  0:00:00  47.07 MB/spyreadline-2.0  55% |#################              | ETA:  0:00:00  58.19 MB/spyreadline-2.0  82% |#########################      | ETA:  0:00:00  65.10 MB/spyreadline-2.0 100% |###############################| ETA:  0:00:00  63.73 MB/spyreadline-2.0 100% |###############################| Time: 0:00:00  50.68 MB/s
 Extracting packages ...
 [      COMPLETE      ]|                                                  |   0%[pyreadline          ]|                                                  |   0%[pyreadline          ]|                                                  |   0%[      COMPLETE      ]|##################################################| 100%
 Linking packages ...

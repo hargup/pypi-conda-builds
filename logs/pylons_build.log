@@ -10,4 +10,4 @@ conda update -n root conda-build
 
 to get the latest version.
 
-Error: No packages found in current linux-64 channels matching: webhelpers >=0.6.4
+Error: No packages found in current linux-64 channels matching: pastescript >=1.7.4.2

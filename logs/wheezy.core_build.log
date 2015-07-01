@@ -11,26 +11,33 @@ conda update -n root conda-build
 to get the latest version.
 
 Solving package specifications: .................
-Warning: 8 possible package resolutions (only showing differing packages):
-	[u'pytest-cov-1.8.1-py_0.tar.bz2', u'pytest-pep8-1.0.6-py_0.tar.bz2', u'uuid-1.30-py_0.tar.bz2'],
-	[u'pytest-cov-1.8.1-py_0.tar.bz2', u'pytest-pep8-1.0.6-py_0.tar.bz2', u'uuid-1.30-py27_0.tar.bz2'],
-	[u'pytest-cov-1.8.1-py27_0.tar.bz2', u'pytest-pep8-1.0.6-py_0.tar.bz2', u'uuid-1.30-py_0.tar.bz2'],
-	[u'pytest-cov-1.8.1-py27_0.tar.bz2', u'pytest-pep8-1.0.6-py_0.tar.bz2', u'uuid-1.30-py27_0.tar.bz2'],
-	[u'pytest-cov-1.8.1-py_0.tar.bz2', u'pytest-pep8-1.0.6-py27_0.tar.bz2', u'uuid-1.30-py27_0.tar.bz2'],
-	[u'pytest-cov-1.8.1-py_0.tar.bz2', u'pytest-pep8-1.0.6-py27_0.tar.bz2', u'uuid-1.30-py_0.tar.bz2'],
-	[u'pytest-cov-1.8.1-py27_0.tar.bz2', u'pytest-pep8-1.0.6-py27_0.tar.bz2', u'uuid-1.30-py_0.tar.bz2'],
-	[u'pytest-cov-1.8.1-py27_0.tar.bz2', u'pytest-pep8-1.0.6-py27_0.tar.bz2', u'uuid-1.30-py27_0.tar.bz2'],
+Warning: 16 possible package resolutions (only showing differing packages):
+	[u'pytest-cov-1.8.1-py_0.tar.bz2', u'pytest-pep8-1.0.6-py_0.tar.bz2', u'uuid-1.30-py_0.tar.bz2', u'wsgiref-0.1.2-py_0.tar.bz2'],
+	[u'pytest-cov-1.8.1-py_0.tar.bz2', u'pytest-pep8-1.0.6-py_0.tar.bz2', u'uuid-1.30-py_0.tar.bz2', u'wsgiref-0.1.2-py27_0.tar.bz2'],
+	[u'pytest-cov-1.8.1-py_0.tar.bz2', u'pytest-pep8-1.0.6-py_0.tar.bz2', u'uuid-1.30-py27_0.tar.bz2', u'wsgiref-0.1.2-py27_0.tar.bz2'],
+	[u'pytest-cov-1.8.1-py_0.tar.bz2', u'pytest-pep8-1.0.6-py_0.tar.bz2', u'uuid-1.30-py27_0.tar.bz2', u'wsgiref-0.1.2-py_0.tar.bz2'],
+	[u'pytest-cov-1.8.1-py27_0.tar.bz2', u'pytest-pep8-1.0.6-py_0.tar.bz2', u'uuid-1.30-py_0.tar.bz2', u'wsgiref-0.1.2-py_0.tar.bz2'],
+	[u'pytest-cov-1.8.1-py27_0.tar.bz2', u'pytest-pep8-1.0.6-py_0.tar.bz2', u'uuid-1.30-py_0.tar.bz2', u'wsgiref-0.1.2-py27_0.tar.bz2'],
+	[u'pytest-cov-1.8.1-py27_0.tar.bz2', u'pytest-pep8-1.0.6-py_0.tar.bz2', u'uuid-1.30-py27_0.tar.bz2', u'wsgiref-0.1.2-py27_0.tar.bz2'],
+	[u'pytest-cov-1.8.1-py27_0.tar.bz2', u'pytest-pep8-1.0.6-py_0.tar.bz2', u'uuid-1.30-py27_0.tar.bz2', u'wsgiref-0.1.2-py_0.tar.bz2'],
+	[u'pytest-cov-1.8.1-py_0.tar.bz2', u'pytest-pep8-1.0.6-py27_0.tar.bz2', u'uuid-1.30-py27_0.tar.bz2', u'wsgiref-0.1.2-py_0.tar.bz2'],
+	[u'pytest-cov-1.8.1-py_0.tar.bz2', u'pytest-pep8-1.0.6-py27_0.tar.bz2', u'uuid-1.30-py27_0.tar.bz2', u'wsgiref-0.1.2-py27_0.tar.bz2'],
+	[u'pytest-cov-1.8.1-py_0.tar.bz2', u'pytest-pep8-1.0.6-py27_0.tar.bz2', u'uuid-1.30-py_0.tar.bz2', u'wsgiref-0.1.2-py27_0.tar.bz2'],
+	[u'pytest-cov-1.8.1-py_0.tar.bz2', u'pytest-pep8-1.0.6-py27_0.tar.bz2', u'uuid-1.30-py_0.tar.bz2', u'wsgiref-0.1.2-py_0.tar.bz2'],
+	[u'pytest-cov-1.8.1-py27_0.tar.bz2', u'pytest-pep8-1.0.6-py27_0.tar.bz2', u'uuid-1.30-py_0.tar.bz2', u'wsgiref-0.1.2-py_0.tar.bz2'],
+	[u'pytest-cov-1.8.1-py27_0.tar.bz2', u'pytest-pep8-1.0.6-py27_0.tar.bz2', u'uuid-1.30-py_0.tar.bz2', u'wsgiref-0.1.2-py27_0.tar.bz2'],
+	[u'pytest-cov-1.8.1-py27_0.tar.bz2', u'pytest-pep8-1.0.6-py27_0.tar.bz2', u'uuid-1.30-py27_0.tar.bz2', u'wsgiref-0.1.2-py27_0.tar.bz2'],
+	[u'pytest-cov-1.8.1-py27_0.tar.bz2', u'pytest-pep8-1.0.6-py27_0.tar.bz2', u'uuid-1.30-py27_0.tar.bz2', u'wsgiref-0.1.2-py_0.tar.bz2'],
 
 The following packages will be downloaded:
 
     package                    |            build
     ---------------------------|-----------------
-    uuid-1.30                  |             py_0           7 KB
     pytest-cache-1.0           |             py_0          88 KB
     pytest-cov-1.8.1           |             py_0          80 KB
     pytest-pep8-1.0.6          |             py_0          10 KB
     ------------------------------------------------------------
-                                           Total:         185 KB
+                                           Total:         178 KB
 
 The following NEW packages will be INSTALLED:
 
@@ -53,18 +60,17 @@ The following NEW packages will be INSTALLED:
     system:       5.8-2        
     tk:           8.5.18-0     
     uuid:         1.30-py_0    
-    wsgiref:      0.1.2-py27_0 
+    wsgiref:      0.1.2-py_0   
     zlib:         1.2.8-0      
 
 Fetching packages ...
-uuid-1.30-py_0   0% |                              | ETA:  --:--:--   0.00  B/suuid-1.30-py_0 100% |###############################| ETA:  0:00:00  16.89 MB/suuid-1.30-py_0 100% |###############################| Time: 0:00:00  10.62 MB/s
-pytest-cache-1   0% |                              | ETA:  --:--:--   0.00  B/spytest-cache-1  18% |#####                          | Time: 0:00:00  73.81 MB/spytest-cache-1  36% |###########                    | Time: 0:00:00  77.47 MB/spytest-cache-1  54% |################               | Time: 0:00:00  79.94 MB/spytest-cache-1  72% |######################         | Time: 0:00:00  81.83 MB/spytest-cache-1  91% |############################   | Time: 0:00:00  83.09 MB/spytest-cache-1 100% |###############################| Time: 0:00:00  77.00 MB/spytest-cache-1 100% |###############################| Time: 0:00:00  68.96 MB/spytest-cache-1 100% |###############################| Time: 0:00:00  60.88 MB/s
-pytest-cov-1.8   0% |                              | ETA:  --:--:--   0.00  B/spytest-cov-1.8  19% |######                         | Time: 0:00:00  70.05 MB/spytest-cov-1.8  39% |############                   | Time: 0:00:00  75.02 MB/spytest-cov-1.8  59% |##################             | Time: 0:00:00  78.42 MB/spytest-cov-1.8  79% |########################       | Time: 0:00:00  80.61 MB/spytest-cov-1.8  99% |############################## | Time: 0:00:00  82.18 MB/spytest-cov-1.8 100% |###############################| Time: 0:00:00  72.82 MB/spytest-cov-1.8 100% |###############################| Time: 0:00:00  65.26 MB/spytest-cov-1.8 100% |###############################| Time: 0:00:00  58.58 MB/s
-pytest-pep8-1.   0% |                              | ETA:  --:--:--   0.00  B/spytest-pep8-1. 100% |###############################| Time: 0:00:00  49.24 MB/spytest-pep8-1. 100% |###############################| Time: 0:00:00  28.83 MB/spytest-pep8-1. 100% |###############################| Time: 0:00:00  19.07 MB/s
+pytest-cache-1   0% |                              | ETA:  --:--:--   0.00  B/spytest-cache-1  18% |#####                          | ETA:  0:00:00   1.90 MB/spytest-cache-1  36% |###########                    | ETA:  0:00:00   3.71 MB/spytest-cache-1  54% |################               | ETA:  0:00:00   5.44 MB/spytest-cache-1  72% |######################         | ETA:  0:00:00   7.11 MB/spytest-cache-1  91% |############################   | ETA:  0:00:00   8.69 MB/spytest-cache-1 100% |###############################| ETA:  0:00:00   9.37 MB/spytest-cache-1 100% |###############################| Time: 0:00:00   9.14 MB/s
+pytest-cov-1.8   0% |                              | ETA:  --:--:--   0.00  B/spytest-cov-1.8  19% |######                         | Time: 0:00:00   1.95 MB/spytest-cov-1.8  39% |############                   | Time: 0:00:00   3.81 MB/spytest-cov-1.8  59% |##################             | Time: 0:00:00   5.59 MB/spytest-cov-1.8  79% |########################       | Time: 0:00:00   7.30 MB/spytest-cov-1.8  99% |############################## | Time: 0:00:00   8.94 MB/spytest-cov-1.8 100% |###############################| Time: 0:00:00   8.83 MB/spytest-cov-1.8 100% |###############################| Time: 0:00:00   8.71 MB/spytest-cov-1.8 100% |###############################| Time: 0:00:00   8.55 MB/s
+pytest-pep8-1.   0% |                              | ETA:  --:--:--   0.00  B/spytest-pep8-1. 100% |###############################| Time: 0:00:00  48.26 MB/spytest-pep8-1. 100% |###############################| Time: 0:00:00  28.90 MB/spytest-pep8-1. 100% |###############################| Time: 0:00:00  20.11 MB/s
 Extracting packages ...
-[                    ]|                                                  |   0%[uuid                ]|                                                  |   0%[pytest-cache        ]|############                                      |  25%[pytest-cov          ]|#########################                         |  50%[pytest-pep8         ]|#####################################             |  75%[      COMPLETE      ]|##################################################| 100%
+[                    ]|                                                  |   0%[pytest-cache        ]|                                                  |   0%[pytest-cov          ]|################                                  |  33%[pytest-pep8         ]|#################################                 |  66%[      COMPLETE      ]|##################################################| 100%
 Linking packages ...
-[      COMPLETE      ]|                                                  |   0%[openssl             ]|                                                  |   0%[openssl             ]|                                                  |   0%[readline            ]|##                       + /home/ubuntu/miniconda/envs/_build/bin/python setup.py install
+[      COMPLETE      ]|                                                  |   0%[openssl             ]|                                                  |   0%[openssl             ]|                                                  |   0%[readline            ]|##                                                |   4%[sqlite              ]|####                                              |   9%[system              ]|#######                                           |  14%[tk                  ]|#########                                         |  19%[zlib                ]|###########                                       |  23%[coverage            ]|##############                                    |  28%[cov-core            ]|###########+ /home/ubuntu/miniconda/envs/_build/bin/python setup.py install
 running install
 running bdist_egg
 running egg_info
@@ -169,7 +175,7 @@ Adding wheezy.core 0.1.140 to easy-install.pth file
 Installed /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/wheezy.core-0.1.140-py2.7.egg
 Processing dependencies for wheezy.core==0.1.140
 Finished processing dependencies for wheezy.core==0.1.140
-                         |   4%[sqlite              ]|####                                              |   9%[system              ]|#######                                           |  14%[tk                  ]|#########                                         |  19%[zlib                ]|###########                                       |  23%[coverage            ]|##############                                    |  28%[cov-core            ]|################                                  |  33%[execnet             ]|###################                               |  38%[nose                ]|#####################                             |  42%[pep8                ]|#######################                           |  47%[py                  ]|##########################                        |  52%[pytest              ]|############################                      |  57%[python              ]|##############################                    |  61%[setuptools          ]|#################################                 |  66%[uuid                ]|###################################               |  71%[wsgiref             ]|######################################            |  76%[pip                 ]|########################################          |  80%[pytest-cache        ]|##########################################        |  85%[pytest-cov          ]|#############################################     |  90%[pytest-pep8         ]|###############################################   |  95%[      COMPLETE      ]|##################################################| 100%
+#####                                  |  33%[execnet             ]|###################                               |  38%[nose                ]|#####################                             |  42%[pep8                ]|#######################                           |  47%[py                  ]|##########################                        |  52%[pytest              ]|############################                      |  57%[python              ]|##############################                    |  61%[setuptools          ]|#################################                 |  66%[uuid                ]|###################################               |  71%[wsgiref             ]|######################################            |  76%[pip                 ]|########################################          |  80%[pytest-cache        ]|##########################################        |  85%[pytest-cov          ]|#############################################     |  90%[pytest-pep8         ]|###############################################   |  95%[      COMPLETE      ]|##################################################| 100%
 Removing old work directory
 Source cache directory is: /home/ubuntu/miniconda/conda-bld/src_cache
 Found source in cache: wheezy.core-0.1.140.tar.gz
@@ -193,15 +199,23 @@ conda update -n root conda-build
 to get the latest version.
 
 Solving package specifications: .................
-Warning: 8 possible package resolutions (only showing differing packages):
-	[u'pytest-cov-1.8.1-py_0.tar.bz2', u'pytest-pep8-1.0.6-py_0.tar.bz2', u'uuid-1.30-py_0.tar.bz2'],
-	[u'pytest-cov-1.8.1-py_0.tar.bz2', u'pytest-pep8-1.0.6-py_0.tar.bz2', u'uuid-1.30-py27_0.tar.bz2'],
-	[u'pytest-cov-1.8.1-py27_0.tar.bz2', u'pytest-pep8-1.0.6-py_0.tar.bz2', u'uuid-1.30-py_0.tar.bz2'],
-	[u'pytest-cov-1.8.1-py27_0.tar.bz2', u'pytest-pep8-1.0.6-py_0.tar.bz2', u'uuid-1.30-py27_0.tar.bz2'],
-	[u'pytest-cov-1.8.1-py_0.tar.bz2', u'pytest-pep8-1.0.6-py27_0.tar.bz2', u'uuid-1.30-py27_0.tar.bz2'],
-	[u'pytest-cov-1.8.1-py_0.tar.bz2', u'pytest-pep8-1.0.6-py27_0.tar.bz2', u'uuid-1.30-py_0.tar.bz2'],
-	[u'pytest-cov-1.8.1-py27_0.tar.bz2', u'pytest-pep8-1.0.6-py27_0.tar.bz2', u'uuid-1.30-py_0.tar.bz2'],
-	[u'pytest-cov-1.8.1-py27_0.tar.bz2', u'pytest-pep8-1.0.6-py27_0.tar.bz2', u'uuid-1.30-py27_0.tar.bz2'],
+Warning: 16 possible package resolutions (only showing differing packages):
+	[u'pytest-cov-1.8.1-py_0.tar.bz2', u'pytest-pep8-1.0.6-py_0.tar.bz2', u'uuid-1.30-py_0.tar.bz2', u'wsgiref-0.1.2-py_0.tar.bz2'],
+	[u'pytest-cov-1.8.1-py_0.tar.bz2', u'pytest-pep8-1.0.6-py_0.tar.bz2', u'uuid-1.30-py_0.tar.bz2', u'wsgiref-0.1.2-py27_0.tar.bz2'],
+	[u'pytest-cov-1.8.1-py_0.tar.bz2', u'pytest-pep8-1.0.6-py_0.tar.bz2', u'uuid-1.30-py27_0.tar.bz2', u'wsgiref-0.1.2-py27_0.tar.bz2'],
+	[u'pytest-cov-1.8.1-py_0.tar.bz2', u'pytest-pep8-1.0.6-py_0.tar.bz2', u'uuid-1.30-py27_0.tar.bz2', u'wsgiref-0.1.2-py_0.tar.bz2'],
+	[u'pytest-cov-1.8.1-py27_0.tar.bz2', u'pytest-pep8-1.0.6-py_0.tar.bz2', u'uuid-1.30-py_0.tar.bz2', u'wsgiref-0.1.2-py_0.tar.bz2'],
+	[u'pytest-cov-1.8.1-py27_0.tar.bz2', u'pytest-pep8-1.0.6-py_0.tar.bz2', u'uuid-1.30-py_0.tar.bz2', u'wsgiref-0.1.2-py27_0.tar.bz2'],
+	[u'pytest-cov-1.8.1-py27_0.tar.bz2', u'pytest-pep8-1.0.6-py_0.tar.bz2', u'uuid-1.30-py27_0.tar.bz2', u'wsgiref-0.1.2-py27_0.tar.bz2'],
+	[u'pytest-cov-1.8.1-py27_0.tar.bz2', u'pytest-pep8-1.0.6-py_0.tar.bz2', u'uuid-1.30-py27_0.tar.bz2', u'wsgiref-0.1.2-py_0.tar.bz2'],
+	[u'pytest-cov-1.8.1-py_0.tar.bz2', u'pytest-pep8-1.0.6-py27_0.tar.bz2', u'uuid-1.30-py27_0.tar.bz2', u'wsgiref-0.1.2-py_0.tar.bz2'],
+	[u'pytest-cov-1.8.1-py_0.tar.bz2', u'pytest-pep8-1.0.6-py27_0.tar.bz2', u'uuid-1.30-py27_0.tar.bz2', u'wsgiref-0.1.2-py27_0.tar.bz2'],
+	[u'pytest-cov-1.8.1-py_0.tar.bz2', u'pytest-pep8-1.0.6-py27_0.tar.bz2', u'uuid-1.30-py_0.tar.bz2', u'wsgiref-0.1.2-py27_0.tar.bz2'],
+	[u'pytest-cov-1.8.1-py_0.tar.bz2', u'pytest-pep8-1.0.6-py27_0.tar.bz2', u'uuid-1.30-py_0.tar.bz2', u'wsgiref-0.1.2-py_0.tar.bz2'],
+	[u'pytest-cov-1.8.1-py27_0.tar.bz2', u'pytest-pep8-1.0.6-py27_0.tar.bz2', u'uuid-1.30-py_0.tar.bz2', u'wsgiref-0.1.2-py_0.tar.bz2'],
+	[u'pytest-cov-1.8.1-py27_0.tar.bz2', u'pytest-pep8-1.0.6-py27_0.tar.bz2', u'uuid-1.30-py_0.tar.bz2', u'wsgiref-0.1.2-py27_0.tar.bz2'],
+	[u'pytest-cov-1.8.1-py27_0.tar.bz2', u'pytest-pep8-1.0.6-py27_0.tar.bz2', u'uuid-1.30-py27_0.tar.bz2', u'wsgiref-0.1.2-py27_0.tar.bz2'],
+	[u'pytest-cov-1.8.1-py27_0.tar.bz2', u'pytest-pep8-1.0.6-py27_0.tar.bz2', u'uuid-1.30-py27_0.tar.bz2', u'wsgiref-0.1.2-py_0.tar.bz2'],
 ===== testing package: wheezy.core-0.1.140-py27_0 =====
 import: u'wheezy'
 import: u'wheezy.core'
@@ -235,11 +249,11 @@ The following NEW packages will be INSTALLED:
     tk:           8.5.18-0      
     uuid:         1.30-py_0     
     wheezy.core:  0.1.140-py27_0
-    wsgiref:      0.1.2-py27_0  
+    wsgiref:      0.1.2-py_0    
     zlib:         1.2.8-0       
 
 Fetching packages ...
-wheezy.core-0.   0% |                              | ETA:  --:--:--   0.00  B/swheezy.core-0.  37% |###########                    | Time: 0:00:00  60.65 MB/swheezy.core-0.  75% |#######################        | Time: 0:00:00  68.55 MB/swheezy.core-0. 100% |###############################| Time: 0:00:00  66.11 MB/swheezy.core-0. 100% |###############################| Time: 0:00:00  54.85 MB/swheezy.core-0. 100% |###############################| Time: 0:00:00  44.72 MB/s
+wheezy.core-0.   0% |                              | ETA:  --:--:--   0.00  B/swheezy.core-0.  37% |###########                    | Time: 0:00:00  60.65 MB/swheezy.core-0.  75% |#######################        | Time: 0:00:00  67.41 MB/swheezy.core-0. 100% |###############################| Time: 0:00:00  65.29 MB/swheezy.core-0. 100% |###############################| Time: 0:00:00  54.24 MB/swheezy.core-0. 100% |###############################| Time: 0:00:00  44.27 MB/s
 Extracting packages ...
 [      COMPLETE      ]|                                                  |   0%[wheezy.core         ]|                                                  |   0%[wheezy.core         ]|                                                  |   0%[      COMPLETE      ]|##################################################| 100%
 Linking packages ...

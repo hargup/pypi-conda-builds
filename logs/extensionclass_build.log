@@ -180,7 +180,7 @@ The following NEW packages will be INSTALLED:
     zlib:           1.2.8-0      
 
 Fetching packages ...
-extensionclass   0% |                              | ETA:  --:--:--   0.00  B/sextensionclass  25% |#######                        | ETA:  0:00:00  47.62 MB/sextensionclass  50% |###############                | ETA:  0:00:00  59.47 MB/sextensionclass  76% |#######################        | ETA:  0:00:00  66.50 MB/sextensionclass 100% |###############################| ETA:  0:00:00  69.60 MB/sextensionclass 100% |###############################| Time: 0:00:00  55.38 MB/s
+extensionclass   0% |                              | ETA:  --:--:--   0.00  B/sextensionclass  25% |#######                        | ETA:  0:00:00  48.02 MB/sextensionclass  50% |###############                | ETA:  0:00:00  60.02 MB/sextensionclass  76% |#######################        | ETA:  0:00:00  66.67 MB/sextensionclass 100% |###############################| ETA:  0:00:00  70.23 MB/sextensionclass 100% |###############################| Time: 0:00:00  57.27 MB/s
 Extracting packages ...
 [      COMPLETE      ]|                                                  |   0%[extensionclass      ]|                                                  |   0%[extensionclass      ]|                                                  |   0%[      COMPLETE      ]|##################################################| 100%
 Linking packages ...

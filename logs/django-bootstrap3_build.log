@@ -172,7 +172,7 @@ The following NEW packages will be INSTALLED:
     zlib:              1.2.8-0      
 
 Fetching packages ...
-django-bootstr   0% |                              | ETA:  --:--:--   0.00  B/sdjango-bootstr  51% |###############                | ETA:  0:00:00  46.81 MB/sdjango-bootstr 100% |###############################| ETA:  0:00:00  56.87 MB/sdjango-bootstr 100% |###############################| Time: 0:00:00  39.53 MB/s
+django-bootstr   0% |                              | ETA:  --:--:--   0.00  B/sdjango-bootstr  51% |###############                | ETA:  0:00:00  44.89 MB/sdjango-bootstr 100% |###############################| ETA:  0:00:00  53.60 MB/sdjango-bootstr 100% |###############################| Time: 0:00:00  37.88 MB/s
 Extracting packages ...
 [      COMPLETE      ]|                                                  |   0%[django-bootstrap3   ]|                                                  |   0%[django-bootstrap3   ]|                                                  |   0%[      COMPLETE      ]|##################################################| 100%
 Linking packages ...

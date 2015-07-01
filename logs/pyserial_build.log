@@ -159,7 +159,7 @@ The following NEW packages will be INSTALLED:
     zlib:       1.2.8-0      
 
 Fetching packages ...
-pyserial-2.7-p   0% |                              | ETA:  --:--:--   0.00  B/spyserial-2.7-p  17% |#####                          | ETA:  0:00:00  47.10 MB/spyserial-2.7-p  35% |###########                    | ETA:  0:00:00  56.51 MB/spyserial-2.7-p  53% |################               | ETA:  0:00:00  63.43 MB/spyserial-2.7-p  71% |######################         | ETA:  0:00:00  67.99 MB/spyserial-2.7-p  89% |###########################    | ETA:  0:00:00  70.50 MB/spyserial-2.7-p 100% |###############################| ETA:  0:00:00  68.64 MB/spyserial-2.7-p 100% |###############################| Time: 0:00:00  58.26 MB/s
+pyserial-2.7-p   0% |                              | ETA:  --:--:--   0.00  B/spyserial-2.7-p  17% |#####                          | ETA:  0:00:00  47.79 MB/spyserial-2.7-p  35% |###########                    | ETA:  0:00:00  58.73 MB/spyserial-2.7-p  53% |################               | ETA:  0:00:00  65.45 MB/spyserial-2.7-p  71% |######################         | ETA:  0:00:00  69.73 MB/spyserial-2.7-p  89% |###########################    | ETA:  0:00:00  72.75 MB/spyserial-2.7-p 100% |###############################| ETA:  0:00:00  70.65 MB/spyserial-2.7-p 100% |###############################| Time: 0:00:00  60.94 MB/s
 Extracting packages ...
 [      COMPLETE      ]|                                                  |   0%[pyserial            ]|                                                  |   0%[pyserial            ]|                                                  |   0%[      COMPLETE      ]|##################################################| 100%
 Linking packages ...

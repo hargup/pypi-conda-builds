@@ -16,12 +16,6 @@ Warning: 2 possible package resolutions (only showing differing packages):
 	[u'parse-1.6.6-py27_0.tar.bz2'],
 /home/ubuntu/miniconda/pkgs/parse-1.6.6-py_0/bin/.parse-pre-link.sh: line 2: /home/ubuntu/miniconda/envs/_build/bin/python: No such file or directory
 
-The following packages will be downloaded:
-
-    package                    |            build
-    ---------------------------|-----------------
-    parse-1.6.6                |             py_0          16 KB
-
 The following NEW packages will be INSTALLED:
 
     openssl:    1.0.1k-1     
@@ -35,9 +29,5 @@ The following NEW packages will be INSTALLED:
     tk:         8.5.18-0     
     zlib:       1.2.8-0      
 
-Fetching packages ...
-parse-1.6.6-py   0% |                              | ETA:  --:--:--   0.00  B/sparse-1.6.6-py  97% |############################## | ETA:  0:00:00  35.48 MB/sparse-1.6.6-py 100% |###############################| ETA:  0:00:00  26.89 MB/sparse-1.6.6-py 100% |###############################| Time: 0:00:00  19.69 MB/s
-Extracting packages ...
-[                    ]|                                                  |   0%[parse               ]|                                                  |   0%[      COMPLETE      ]|##################################################| 100%
 Linking packages ...
-[      COMPLETE      ]|                                                  |   0%[openssl             ]|                                                  |   0%[openssl             ]|                                                  |   0%[readline            ]|#####                                             |  10%[sqlite              ]|##########                                        |  20%[system              ]|###############                                   |  30%[tk                  ]|####################                              |  40%[zlib                ]|#########################                         |  50%[parse               ]|##############################                    |  60%Error: pre-link failed: parse-1.6.6-py_0
+[                    ]|                                                  |   0%[openssl             ]|                                                  |   0%[readline            ]|#####                                             |  10%[sqlite              ]|##########                                        |  20%[system              ]|###############                                   |  30%[tk                  ]|####################                              |  40%[zlib                ]|#########################                         |  50%[parse               ]|##############################                    |  60%Error: pre-link failed: parse-1.6.6-py_0

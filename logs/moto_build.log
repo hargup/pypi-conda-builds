@@ -557,9 +557,10 @@ Adding six 1.9.0 to easy-install.pth file
 Using /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages
 Searching for xmltodict==0.9.2
 Best match: xmltodict 0.9.2
+Processing xmltodict-0.9.2-py2.7.egg
 Adding xmltodict 0.9.2 to easy-install.pth file
 
-Using /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages
+Using /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/xmltodict-0.9.2-py2.7.egg
 Searching for requests==2.7.0
 Best match: requests 2.7.0
 Adding requests 2.7.0 to easy-install.pth file
@@ -591,7 +592,7 @@ The following packages will be downloaded:
 
     package                    |            build
     ---------------------------|-----------------
-    xmltodict-0.9.2            |             py_0           6 KB
+    xmltodict-0.9.2            |             py_0          13 KB
 
 The following NEW packages will be INSTALLED:
 
@@ -616,7 +617,7 @@ The following NEW packages will be INSTALLED:
     zlib:         1.2.8-0      
 
 Fetching packages ...
-xmltodict-0.9.   0% |                              | ETA:  --:--:--   0.00  B/sxmltodict-0.9. 100% |###############################| ETA:  0:00:00  12.87 MB/sxmltodict-0.9. 100% |###############################| Time: 0:00:00   8.23 MB/s
+xmltodict-0.9.   0% |                              | ETA:  --:--:--   0.00  B/sxmltodict-0.9. 100% |###############################| ETA:  0:00:00  28.43 MB/sxmltodict-0.9. 100% |###############################| Time: 0:00:00  18.86 MB/s
 Extracting packages ...
 [                    ]|                                                  |   0%[xmltodict           ]|                                                  |   0%[      COMPLETE      ]|##################################################| 100%
 Linking packages ...
@@ -629,7 +630,7 @@ Package: moto-0.4.3-py_0
 source tree in: /home/ubuntu/miniconda/conda-bld/work/moto-0.4.3
 found egg: /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/moto-0.4.3-py2.7.egg
 compiling .pyc files...
-number of files: 42
+number of files: 41
 Fixing permissions
 Fixing permissions
 BUILD END: moto-0.4.3-py_0
@@ -680,7 +681,7 @@ The following NEW packages will be INSTALLED:
     zlib:         1.2.8-0      
 
 Fetching packages ...
-moto-0.4.3-py_   0% |                              | ETA:  --:--:--   0.00  B/smoto-0.4.3-py_   2% |                               | Time: 0:00:00  18.08 MB/smoto-0.4.3-py_   5% |#                              | Time: 0:00:00  29.29 MB/smoto-0.4.3-py_   8% |##                             | Time: 0:00:00  37.61 MB/smoto-0.4.3-py_  11% |###                            | Time: 0:00:00  43.87 MB/smoto-0.4.3-py_  14% |####                           | Time: 0:00:00  48.79 MB/smoto-0.4.3-py_  17% |#####                          | Time: 0:00:00  52.60 MB/smoto-0.4.3-py_  20% |######                         | Time: 0:00:00  55.95 MB/smoto-0.4.3-py_  23% |#######                        | Time: 0:00:00  58.15 MB/smoto-0.4.3-py_  26% |########                       | Time: 0:00:00  60.43 MB/smoto-0.4.3-py_  29% |#########                      | Time: 0:00:00  62.39 MB/smoto-0.4.3-py_  32% |##########                     | Time: 0:00:00  64.25 MB/smoto-0.4.3-py_  35% |###########                    | Time: 0:00:00  65.84 MB/smoto-0.4.3-py_  38% |############                   | Time: 0:00:00  67.23 MB/smoto-0.4.3-py_  41% |############                   | Time: 0:00:00  68.49 MB/smoto-0.4.3-py_  44% |#############                  | Time: 0:00:00  69.66 MB/smoto-0.4.3-py_  47% |##############                 | Time: 0:00:00  70.60 MB/smoto-0.4.3-py_  50% |###############                | Time: 0:00:00  71.40 MB/smoto-0.4.3-py_  53% |################               | Time: 0:00:00  72.28 MB/smoto-0.4.3-py_  56% |#################              | Time: 0:00:00  73.11 MB/smoto-0.4.3-py_  59% |##################             | Time: 0:00:00  73.85 MB/smoto-0.4.3-py_  62% |###################            | Time: 0:00:00  74.47 MB/smoto-0.4.3-py_  65% |####################           | Time: 0:00:00  75.11 MB/smoto-0.4.3-py_  68% |#####################          | Time: 0:00:00  75.70 MB/smoto-0.4.3-py_  71% |######################         | Time: 0:00:00  76.25 MB/smoto-0.4.3-py_  74% |#######################        | Time: 0:00:00  76.69 MB/smoto-0.4.3-py_  77% |########################       | Time: 0:00:00  77.14 MB/smoto-0.4.3-py_  80% |#########################      | Time: 0:00:00  77.64 MB/smoto-0.4.3-py_  83% |#########################      | Time: 0:00:00  78.03 MB/smoto-0.4.3-py_  86% |##########################     | Time: 0:00:00  78.40 MB/smoto-0.4.3-py_  89% |###########################    | Time: 0:00:00  78.52 MB/smoto-0.4.3-py_  92% |############################   | Time: 0:00:00  78.88 MB/smoto-0.4.3-py_  95% |#############################  | Time: 0:00:00  79.17 MB/smoto-0.4.3-py_  98% |############################## | Time: 0:00:00  79.45 MB/smoto-0.4.3-py_ 100% |###############################| Time: 0:00:00  78.81 MB/smoto-0.4.3-py_ 100% |###############################| Time: 0:00:00  77.41 MB/smoto-0.4.3-py_ 100% |###############################| Time: 0:00:00  69.22 MB/s
+moto-0.4.3-py_   0% |                              | ETA:  --:--:--   0.00  B/smoto-0.4.3-py_   2% |                               | Time: 0:00:00  61.14 MB/smoto-0.4.3-py_   5% |#                              | Time: 0:00:00  68.11 MB/smoto-0.4.3-py_   8% |##                             | Time: 0:00:00  72.69 MB/smoto-0.4.3-py_  11% |###                            | Time: 0:00:00  75.33 MB/smoto-0.4.3-py_  14% |####                           | Time: 0:00:00  77.49 MB/smoto-0.4.3-py_  17% |#####                          | Time: 0:00:00  79.08 MB/smoto-0.4.3-py_  20% |######                         | Time: 0:00:00  80.15 MB/smoto-0.4.3-py_  23% |#######                        | Time: 0:00:00  81.16 MB/smoto-0.4.3-py_  26% |########                       | Time: 0:00:00  81.87 MB/smoto-0.4.3-py_  29% |#########                      | Time: 0:00:00  82.54 MB/smoto-0.4.3-py_  32% |##########                     | Time: 0:00:00  83.01 MB/smoto-0.4.3-py_  35% |###########                    | Time: 0:00:00  83.63 MB/smoto-0.4.3-py_  38% |############                   | Time: 0:00:00  84.15 MB/smoto-0.4.3-py_  41% |############                   | Time: 0:00:00  84.55 MB/smoto-0.4.3-py_  44% |#############                  | Time: 0:00:00  84.80 MB/smoto-0.4.3-py_  47% |##############                 | Time: 0:00:00  85.17 MB/smoto-0.4.3-py_  50% |###############                | Time: 0:00:00  85.30 MB/smoto-0.4.3-py_  53% |################               | Time: 0:00:00  85.58 MB/smoto-0.4.3-py_  56% |#################              | Time: 0:00:00  85.75 MB/smoto-0.4.3-py_  59% |##################             | Time: 0:00:00  85.67 MB/smoto-0.4.3-py_  62% |###################            | Time: 0:00:00  85.70 MB/smoto-0.4.3-py_  65% |####################           | Time: 0:00:00  85.92 MB/smoto-0.4.3-py_  68% |#####################          | Time: 0:00:00  86.07 MB/smoto-0.4.3-py_  71% |######################         | Time: 0:00:00  86.16 MB/smoto-0.4.3-py_  74% |#######################        | Time: 0:00:00  86.32 MB/smoto-0.4.3-py_  77% |########################       | Time: 0:00:00  86.44 MB/smoto-0.4.3-py_  80% |########################       | Time: 0:00:00  86.58 MB/smoto-0.4.3-py_  83% |#########################      | Time: 0:00:00  86.70 MB/smoto-0.4.3-py_  86% |##########################     | Time: 0:00:00  86.86 MB/smoto-0.4.3-py_  89% |###########################    | Time: 0:00:00  86.98 MB/smoto-0.4.3-py_  92% |############################   | Time: 0:00:00  87.06 MB/smoto-0.4.3-py_  95% |#############################  | Time: 0:00:00  87.10 MB/smoto-0.4.3-py_  98% |############################## | Time: 0:00:00  87.20 MB/smoto-0.4.3-py_ 100% |###############################| Time: 0:00:00  86.25 MB/smoto-0.4.3-py_ 100% |###############################| Time: 0:00:00  84.55 MB/smoto-0.4.3-py_ 100% |###############################| Time: 0:00:00  82.31 MB/s
 Extracting packages ...
 [      COMPLETE      ]|                                                  |   0%[moto                ]|                                                  |   0%[moto                ]|       ===== testing package: moto-0.4.3-py_0 =====
 import: u'moto'

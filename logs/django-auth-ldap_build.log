@@ -10,36 +10,7 @@ conda update -n root conda-build
 
 to get the latest version.
 
-Solving package specifications: .
-The following packages will be downloaded:
-
-    package                    |            build
-    ---------------------------|-----------------
-    openldap-2.4.36            |                0         3.4 MB
-    python-ldap-2.4.13         |           py27_0         165 KB
-    ------------------------------------------------------------
-                                           Total:         3.5 MB
-
-The following NEW packages will be INSTALLED:
-
-    django:      1.8.2-py27_0 
-    openldap:    2.4.36-0     
-    openssl:     1.0.1k-1     
-    pip:         7.0.3-py27_0 
-    python:      2.7.10-0     
-    python-ldap: 2.4.13-py27_0
-    readline:    6.2-2        
-    setuptools:  18.0.1-py27_0
-    sqlite:      3.8.4.1-1    
-    system:      5.8-2        
-    tk:          8.5.18-0     
-    zlib:        1.2.8-0      
-
-Fetching packages ...
-openldap-2.4.3   0% |                              | ETA:  --:--:--   0.00  B/sopenldap-2.4.3   1% |                               | ETA:  0:00:00  15.05 MB/sopenldap-2.4.3   2% |                               | ETA:  0:00:00  22.13 MB/sopenldap-2.4.3   4% |#                              | ETA:  0:00:00  24.85 MB/sopenldap-2.4.3   5% |#                              | ETA:  0:00:00  28.61 MB/sopenldap-2.4.3   6% |##                             | ETA:  0:00:00  31.07 MB/sopenldap-2.4.3   8% |##                             | ETA:  0:00:00  32.75 MB/sopenldap-2.4.3   9% |###                            | ETA:  0:00:00  34.11 MB/sopenldap-2.4.3  11% |###                            | ETA:  0:00:00  35.68 MB/sopenldap-2.4.3  12% |###                            | ETA:  0:00:00  36.99 MB/sopenldap-2.4.3  13% |####                           | ETA:  0:00:00  23.28 MB/sopenldap-2.4.3  15% |####                           | ETA:  0:00:00  24.78 MB/sopenldap-2.4.3  16% |#####                          | ETA:  0:00:00  25.63 MB/sopenldap-2.4.3  18% |#####                          | ETA:  0:00:00  26.71 MB/sopenldap-2.4.3  19% |######                         | ETA:  0:00:00  27.61 MB/sopenldap-2.4.3  20% |######                         | ETA:  0:00:00  28.37 MB/sopenldap-2.4.3  22% |######                         | ETA:  0:00:00  29.46 MB/sopenldap-2.4.3  23% |#######                        | ETA:  0:00:00  30.21 MB/sopenldap-2.4.3  24% |#######                        | ETA:  0:00:00  31.00 MB/sopenldap-2.4.3  26% |########                       | ETA:  0:00:00  24.84 MB/sopenldap-2.4.3  27% |########                       | ETA:  0:00:00  25.64 MB/sopenldap-2.4.3  29% |#########                      | ETA:  0:00:00  26.33 MB/sopenldap-2.4.3  30% |#########                      | ETA:  0:00:00  26.90 MB/sopenldap-2.4.3  31% |#########                      | ETA:  0:00:00  27.53 MB/sopenldap-2.4.3  33% |##########                     | ETA:  0:00:00  28.12 MB/sopenldap-2.4.3  34% |##########                     | ETA:  0:00:00  28.69 MB/sopenldap-2.4.3  36% |###########                    | ETA:  0:00:00  29.22 MB/sopenldap-2.4.3  37% |###########                    | ETA:  0:00:00  29.71 MB/sopenldap-2.4.3  38% |############                   | ETA:  0:00:00  25.63 MB/sopenldap-2.4.3  40% |############                   | ETA:  0:00:00  26.19 MB/sopenldap-2.4.3  41% |############                   | ETA:  0:00:00  26.66 MB/sopenldap-2.4.3  43% |#############                  | ETA:  0:00:00  27.11 MB/sopenldap-2.4.3  44% |#############                  | ETA:  0:00:00  27.54 MB/sopenldap-2.4.3  45% |##############                 | ETA:  0:00:00  27.98 MB/sopenldap-2.4.3  47% |##############                 | ETA:  0:00:00  28.37 MB/sopenldap-2.4.3  48% |###############                | ETA:  0:00:00  28.75 MB/sopenldap-2.4.3  49% |###############                | ETA:  0:00:00  29.06 MB/sopenldap-2.4.3  51% |###############                | ETA:  0:00:00  25.96 MB/sopenldap-2.4.3  52% |################               | ETA:  0:00:00  26.34 MB/sopenldap-2.4.3  54% |################               | ETA:  0:00:00  26.71 MB/sopenldap-2.4.3  55% |#################              | ETA:  0:00:00  27.06 MB/sopenldap-2.4.3  56% |#################              | ETA:  0:00:00  27.41 MB/sopenldap-2.4.3  58% |##################             | ETA:  0:00:00  27.75 MB/sopenldap-2.4.3  59% |##################             | ETA:  0:00:00  28.05 MB/sopenldap-2.4.3  61% |##################             | ETA:  0:00:00  28.37 MB/sopenldap-2.4.3  62% |###################            | ETA:  0:00:00  28.58 MB/sopenldap-2.4.3  63% |###################            | ETA:  0:00:00  26.19 MB/sopenldap-2.4.3  65% |####################           | ETA:  0:00:00  26.50 MB/sopenldap-2.4.3  66% |####################           | ETA:  0:00:00  26.81 MB/sopenldap-2.4.3  68% |#####################          | ETA:  0:00:00  27.09 MB/sopenldap-2.4.3  69% |#####################          | ETA:  0:00:00  27.36 MB/sopenldap-2.4.3  70% |#####################          | ETA:  0:00:00  27.65 MB/sopenldap-2.4.3  72% |######################         | ETA:  0:00:00  27.83 MB/sopenldap-2.4.3  73% |######################         | ETA:  0:00:00  28.10 MB/sopenldap-2.4.3  74% |#######################        | ETA:  0:00:00  28.37 MB/sopenldap-2.4.3  76% |#######################        | ETA:  0:00:00  28.69 MB/sopenldap-2.4.3  77% |########################       | ETA:  0:00:00  29.03 MB/sopenldap-2.4.3  79% |########################       | ETA:  0:00:00  29.38 MB/sopenldap-2.4.3  80% |########################       | ETA:  0:00:00  29.72 MB/sopenldap-2.4.3  81% |#########################      | ETA:  0:00:00  30.05 MB/sopenldap-2.4.3  83% |#########################      | ETA:  0:00:00  30.38 MB/sopenldap-2.4.3  84% |##########################     | ETA:  0:00:00  30.70 MB/sopenldap-2.4.3  86% |##########################     | ETA:  0:00:00  26.19 MB/sopenldap-2.4.3  87% |###########################    | ETA:  0:00:00  26.48 MB/sopenldap-2.4.3  88% |###########################    | ETA:  0:00:00  26.77 MB/sopenldap-2.4.3  90% |###########################    | ETA:  0:00:00  27.05 MB/sopenldap-2.4.3  91% |############################   | ETA:  0:00:00  27.34 MB/sopenldap-2.4.3  92% |############################   | ETA:  0:00:00  27.61 MB/sopenldap-2.4.3  94% |#############################  | ETA:  0:00:00  27.89 MB/sopenldap-2.4.3  95% |#############################  | ETA:  0:00:00  28.16 MB/sopenldap-2.4.3  97% |############################## | ETA:  0:00:00  28.42 MB/sopenldap-2.4.3  98% |############################## | ETA:  0:00:00  28.70 MB/sopenldap-2.4.3  99% |############################## | ETA:  0:00:00  28.96 MB/sopenldap-2.4.3 100% |###############################| Time: 0:00:00  28.89 MB/s
-python-ldap-2.   0% |                              | ETA:  --:--:--   0.00  B/spython-ldap-2.   9% |###                            | Time: 0:00:00   7.22 MB/spython-ldap-2.  19% |######                         | Time: 0:00:00  11.80 MB/spython-ldap-2.  29% |#########                      | Time: 0:00:00  14.74 MB/spython-ldap-2.  38% |############                   | Time: 0:00:00  17.21 MB/spython-ldap-2.  48% |###############                | Time: 0:00:00  18.81 MB/spython-ldap-2.  58% |##################             | Time: 0:00:00  19.92 MB/spython-ldap-2.  67% |#####################          | Time: 0:00:00  21.30 MB/spython-ldap-2.  77% |########################       | Time: 0:00:00  22.54 MB/spython-ldap-2.  87% |###########################    | Time: 0:00:00  22.45 MB/spython-ldap-2.  96% |############################## | Time: 0:00:00  17.32 MB/spython-ldap-2. 100% |###############################| Time: 0:00:00  17.48 MB/spython-ldap-2. 100% |###############################| Time: 0:00:00  17.21 MB/spython-ldap-2. 100% |###############################| Time: 0:00:00  16.89 MB/s
-Extracting packages ...
-[                    ]|                                                  |   0%[openldap            ]|                                                  |   0%[python-ldap         ]|#########################                         |  50%[      COMPLETE      ]|###############+ /home/ubuntu/miniconda/envs/_build/bin/python setup.py install
+Solving package specifications: .+ /home/ubuntu/miniconda/envs/_build/bin/python setup.py install
 running install
 running bdist_egg
 running egg_info
@@ -108,9 +79,24 @@ Adding Django 1.8.2 to easy-install.pth file
 
 Using /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages
 Finished processing dependencies for django-auth-ldap==1.2.6
-###################################| 100%
+
+The following NEW packages will be INSTALLED:
+
+    django:      1.8.2-py27_0 
+    openldap:    2.4.36-0     
+    openssl:     1.0.1k-1     
+    pip:         7.0.3-py27_0 
+    python:      2.7.10-0     
+    python-ldap: 2.4.13-py27_0
+    readline:    6.2-2        
+    setuptools:  18.0.1-py27_0
+    sqlite:      3.8.4.1-1    
+    system:      5.8-2        
+    tk:          8.5.18-0     
+    zlib:        1.2.8-0      
+
 Linking packages ...
-[      COMPLETE      ]|                                                  |   0%[openssl             ]|                                                  |   0%[openssl             ]|                                                  |   0%[readline            ]|####                                              |   8%[sqlite              ]|########                                          |  16%[system              ]|############                                      |  25%[tk                  ]|################                                  |  33%[zlib                ]|####################                              |  41%[openldap            ]|#########################                         |  50%[django              ]|#############################                     |  58%[python              ]|#################################                 |  66%[python-ldap         ]|#####################################             |  75%[setuptools          ]|#########################################         |  83%[pip                 ]|#############################################     |  91%[      COMPLETE      ]|##################################################| 100%
+[                    ]|                                                  |   0%[openssl             ]|                                                  |   0%[readline            ]|####                                              |   8%[sqlite              ]|########                                          |  16%[system              ]|############                                      |  25%[tk                  ]|################                                  |  33%[zlib                ]|####################                              |  41%[openldap            ]|#########################                         |  50%[django              ]|#############################                     |  58%[python              ]|#################################                 |  66%[python-ldap         ]|#####################################             |  75%[setuptools          ]|#########################################         |  83%[pip                 ]|#############################################     |  91%[      COMPLETE      ]|##################################################| 100%
 Removing old work directory
 Source cache directory is: /home/ubuntu/miniconda/conda-bld/src_cache
 Found source in cache: django-auth-ldap-1.2.6.tar.gz

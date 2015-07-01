@@ -117,7 +117,7 @@ The following NEW packages will be INSTALLED:
     zlib:       1.2.8-0      
 
 Fetching packages ...
-pygeoip-0.3.2-   0% |                              | ETA:  --:--:--   0.00  B/spygeoip-0.3.2-  34% |##########                     | ETA:  0:00:00  47.66 MB/spygeoip-0.3.2-  68% |#####################          | ETA:  0:00:00   2.57 MB/spygeoip-0.3.2- 100% |###############################| ETA:  0:00:00   3.71 MB/spygeoip-0.3.2- 100% |###############################| Time: 0:00:00   3.64 MB/s
+pygeoip-0.3.2-   0% |                              | ETA:  --:--:--   0.00  B/spygeoip-0.3.2-  34% |##########                     | ETA:  0:00:00  45.51 MB/spygeoip-0.3.2-  68% |#####################          | ETA:  0:00:00  57.60 MB/spygeoip-0.3.2- 100% |###############################| ETA:  0:00:00  63.48 MB/spygeoip-0.3.2- 100% |###############################| Time: 0:00:00  47.77 MB/s
 Extracting packages ...
 [      COMPLETE      ]|                                                  |   0%[pygeoip             ]|                                                  |   0%[pygeoip             ]|                                                  |   0%[      COMPLETE      ]|##################################################| 100%
 Linking packages ...

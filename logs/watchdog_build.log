@@ -18,15 +18,6 @@ Warning: 4 possible package resolutions (only showing differing packages):
 	[u'argh-0.26.1-py27_0.tar.bz2', u'pathtools-0.1.2-py_0.tar.bz2'],
 /home/ubuntu/miniconda/pkgs/argh-0.26.1-py_0/bin/.argh-pre-link.sh: line 2: /home/ubuntu/miniconda/envs/_build/bin/python: No such file or directory
 
-The following packages will be downloaded:
-
-    package                    |            build
-    ---------------------------|-----------------
-    argh-0.26.1                |             py_0          19 KB
-    pathtools-0.1.2            |             py_0           6 KB
-    ------------------------------------------------------------
-                                           Total:          25 KB
-
 The following NEW packages will be INSTALLED:
 
     argh:       0.26.1-py_0  
@@ -43,10 +34,5 @@ The following NEW packages will be INSTALLED:
     yaml:       0.1.6-0      
     zlib:       1.2.8-0      
 
-Fetching packages ...
-argh-0.26.1-py   0% |                              | ETA:  --:--:--   0.00  B/sargh-0.26.1-py  85% |##########################     | ETA:  0:00:00  35.08 MB/sargh-0.26.1-py 100% |###############################| ETA:  0:00:00  30.27 MB/sargh-0.26.1-py 100% |###############################| Time: 0:00:00  21.66 MB/s
-pathtools-0.1.   0% |                              | ETA:  --:--:--   0.00  B/spathtools-0.1. 100% |###############################| Time: 0:00:00  31.65 MB/spathtools-0.1. 100% |###############################| Time: 0:00:00  18.66 MB/spathtools-0.1. 100% |###############################| Time: 0:00:00  13.00 MB/s
-Extracting packages ...
-[                    ]|                                                  |   0%[argh                ]|                                                  |   0%[pathtools           ]|#########################                         |  50%[      COMPLETE      ]|##################################################| 100%
 Linking packages ...
-[      COMPLETE      ]|                                                  |   0%[openssl             ]|                                                  |   0%[openssl             ]|                                                  |   0%[readline            ]|###                                               |   7%[sqlite              ]|#######                                           |  15%[system              ]|###########                                       |  23%[tk                  ]|###############                                   |  30%[yaml                ]|###################                               |  38%[zlib                ]|#######################                           |  46%[argh                ]|##########################                        |  53%Error: pre-link failed: argh-0.26.1-py_0
+[                    ]|                                                  |   0%[openssl             ]|                                                  |   0%[readline            ]|###                                               |   7%[sqlite              ]|#######                                           |  15%[system              ]|###########                                       |  23%[tk                  ]|###############                                   |  30%[yaml                ]|###################                               |  38%[zlib                ]|#######################                           |  46%[argh                ]|##########################                        |  53%Error: pre-link failed: argh-0.26.1-py_0

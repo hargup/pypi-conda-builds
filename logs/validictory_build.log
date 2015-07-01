@@ -145,7 +145,7 @@ The following NEW packages will be INSTALLED:
     zlib:        1.2.8-0      
 
 Fetching packages ...
-validictory-1.   0% |                              | ETA:  --:--:--   0.00  B/svalidictory-1.  33% |##########                     | ETA:  0:00:00  48.77 MB/svalidictory-1.  66% |####################           | ETA:  0:00:00  60.57 MB/svalidictory-1. 100% |###############################| ETA:  0:00:00  66.97 MB/svalidictory-1. 100% |###############################| Time: 0:00:00  49.27 MB/s
+validictory-1.   0% |                              | ETA:  --:--:--   0.00  B/svalidictory-1.  33% |##########                     | ETA:  0:00:00  46.28 MB/svalidictory-1.  66% |####################           | ETA:  0:00:00  58.11 MB/svalidictory-1. 100% |###############################| ETA:  0:00:00  64.90 MB/svalidictory-1. 100% |###############################| Time: 0:00:00  49.10 MB/s
 Extracting packages ...
 [      COMPLETE      ]|                                                  |   0%[validictory         ]|                                                  |   0%[validictory         ]|                                                  |   0%[      COMPLETE      ]|##################################################| 100%
 Linking packages ...

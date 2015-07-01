@@ -131,7 +131,7 @@ The following NEW packages will be INSTALLED:
     zlib:             1.2.8-0      
 
 Fetching packages ...
-pyvirtualdispl   0% |                              | ETA:  --:--:--   0.00  B/spyvirtualdispl 100% |###############################| ETA:  0:00:00  31.96 MB/spyvirtualdispl 100% |###############################| Time: 0:00:00  18.15 MB/s
+pyvirtualdispl   0% |                              | ETA:  --:--:--   0.00  B/spyvirtualdispl 100% |###############################| ETA:  0:00:00  32.29 MB/spyvirtualdispl 100% |###############################| Time: 0:00:00  19.10 MB/s
 Extracting packages ...
 [      COMPLETE      ]|                                                  |   0%[pyvirtualdisplay    ]|                                                  |   0%[pyvirtualdisplay    ]|                                                  |   0%[      COMPLETE      ]|##################################################| 100%
 Linking packages ...

@@ -110,7 +110,7 @@ The following NEW packages will be INSTALLED:
     zlib:       1.2.8-0      
 
 Fetching packages ...
-discover-0.4.0   0% |                              | ETA:  --:--:--   0.00  B/sdiscover-0.4.0  19% |######                         | ETA:  0:00:00  45.12 MB/sdiscover-0.4.0  39% |############                   | ETA:  0:00:00  57.29 MB/sdiscover-0.4.0  59% |##################             | ETA:  0:00:00  64.08 MB/sdiscover-0.4.0  79% |########################       | ETA:  0:00:00  68.69 MB/sdiscover-0.4.0  99% |############################## | ETA:  0:00:00  71.99 MB/sdiscover-0.4.0 100% |###############################| Time: 0:00:00  57.93 MB/s
+discover-0.4.0   0% |                              | ETA:  --:--:--   0.00  B/sdiscover-0.4.0  19% |######                         | ETA:  0:00:00  46.15 MB/sdiscover-0.4.0  39% |############                   | ETA:  0:00:00  58.19 MB/sdiscover-0.4.0  59% |##################             | ETA:  0:00:00  65.26 MB/sdiscover-0.4.0  79% |########################       | ETA:  0:00:00  69.27 MB/sdiscover-0.4.0  99% |############################## | ETA:  0:00:00  72.49 MB/sdiscover-0.4.0 100% |###############################| Time: 0:00:00  58.28 MB/s
 Extracting packages ...
 [      COMPLETE      ]|                                                  |   0%[discover            ]|                                                  |   0%[discover            ]|                                                  |   0%[      COMPLETE      ]|##################################################| 100%
 Linking packages ...

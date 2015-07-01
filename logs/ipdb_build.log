@@ -10,28 +10,7 @@ conda update -n root conda-build
 
 to get the latest version.
 
-Solving package specifications: .
-The following packages will be downloaded:
-
-    package                    |            build
-    ---------------------------|-----------------
-    ipython-3.2.0              |           py27_0         3.4 MB
-
-The following NEW packages will be INSTALLED:
-
-    ipython:    3.2.0-py27_0 
-    openssl:    1.0.1k-1     
-    pip:        7.0.3-py27_0 
-    python:     2.7.10-0     
-    readline:   6.2-2        
-    setuptools: 18.0.1-py27_0
-    sqlite:     3.8.4.1-1    
-    system:     5.8-2        
-    tk:         8.5.18-0     
-    zlib:       1.2.8-0      
-
-Fetching packages ...
-ipython-3.2.0-   0% |                              | ETA:  --:--:--   0.00  B/sipython-3.2.0-   1% |                               | ETA:  0:00:00   4.68 MB/sipython-3.2.0-   2% |                               | ETA:  0:00:00   5.57 MB/sipython-3.2.0-   4% |#                              | ETA:  0:00:00   6.96 MB/sipython-3.2.0-   5% |#                              | ETA:  0:00:00   8.04 MB/sipython-3.2.0-   6% |##                             | ETA:  0:00:00   9.67 MB/sipython-3.2.0-   8% |##                             | ETA:  0:00:00  10.26 MB/sipython-3.2.0-   9% |###                            | ETA:  0:00:00  11.52 MB/sipython-3.2.0-  11% |###                            | ETA:  0:00:00  12.63 MB/sipython-3.2.0-  12% |###                            | ETA:  0:00:00  13.67 MB/sipython-3.2.0-  13% |####                           | ETA:  0:00:00  14.65 MB/sipython-3.2.0-  15% |####                           | ETA:  0:00:00  15.53 MB/sipython-3.2.0-  16% |#####                          | ETA:  0:00:00  16.34 MB/sipython-3.2.0-  18% |#####                          | ETA:  0:00:00  17.12 MB/sipython-3.2.0-  19% |######                         | ETA:  0:00:00  17.82 MB/sipython-3.2.0-  20% |######                         | ETA:  0:00:00  18.55 MB/sipython-3.2.0-  22% |######                         | ETA:  0:00:00  19.16 MB/sipython-3.2.0-  23% |#######                        | ETA:  0:00:00  16.51 MB/sipython-3.2.0-  24% |#######                        | ETA:  0:00:00  17.13 MB/sipython-3.2.0-  26% |########                       | ETA:  0:00:00  17.54 MB/sipython-3.2.0-  27% |########                       | ETA:  0:00:00  17.96 MB/sipython-3.2.0-  29% |#########                      | ETA:  0:00:00  18.49 MB/sipython-3.2.0-  30% |#########                      | ETA:  0:00:00  18.99 MB/sipython-3.2.0-  31% |#########                      | ETA:  0:00:00  16.99 MB/sipython-3.2.0-  33% |##########                     | ETA:  0:00:00  17.57 MB/sipython-3.2.0-  34% |##########                     | ETA:  0:00:00  17.98 MB/sipython-3.2.0-  36% |###########                    | ETA:  0:00:00  18.54 MB/sipython-3.2.0-  37% |###########                    | ETA:  0:00:00  18.91 MB/sipython-3.2.0-  38% |############                   | ETA:  0:00:00  19.43 MB/sipython-3.2.0-  40% |############                   | ETA:  0:00:00  19.81 MB/sipython-3.2.0-  41% |############                   | ETA:  0:00:00  20.27 MB/sipython-3.2.0-  43% |#############                  | ETA:  0:00:00  20.66 MB/sipython-3.2.0-  44% |#############                  | ETA:  0:00:00  18.99 MB/sipython-3.2.0-  45% |##############                 | ETA:  0:00:00  19.38 MB/sipython-3.2.0-  47% |##############                 | ETA:  0:00:00  19.74 MB/sipython-3.2.0-  48% |###############                | ETA:  0:00:00  20.06 MB/sipython-3.2.0-  49% |###############                | ETA:  0:00:00  20.45 MB/sipython-3.2.0-  51% |###############                | ETA:  0:00:00  20.77 MB/sipython-3.2.0-  52% |################               | ETA:  0:00:00  21.15 MB/sipython-3.2.0-  54% |################               | ETA:  0:00:00  21.45 MB/sipython-3.2.0-  55% |#################              | ETA:  0:00:00  19.95 MB/sipython-3.2.0-  56% |#################              | ETA:  0:00:00  20.33 MB/sipython-3.2.0-  58% |##################             | ETA:  0:00:00  20.71 MB/sipython-3.2.0-  59% |##################             | ETA:  0:00:00  21.08 + /home/ubuntu/miniconda/envs/_build/bin/python setup.py install
+Solving package specifications: .+ /home/ubuntu/miniconda/envs/_build/bin/python setup.py install
 running install
 running bdist_egg
 running egg_info
@@ -82,11 +61,22 @@ Adding ipython 3.2.0 to easy-install.pth file
 
 Using /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages
 Finished processing dependencies for ipdb==0.8.1
-MB/sipython-3.2.0-  61% |##################             | ETA:  0:00:00  21.44 MB/sipython-3.2.0-  62% |###################            | ETA:  0:00:00  21.81 MB/sipython-3.2.0-  63% |###################            | ETA:  0:00:00  22.17 MB/sipython-3.2.0-  65% |####################           | ETA:  0:00:00  22.53 MB/sipython-3.2.0-  66% |####################           | ETA:  0:00:00  22.88 MB/sipython-3.2.0-  68% |#####################          | ETA:  0:00:00  23.23 MB/sipython-3.2.0-  69% |#####################          | ETA:  0:00:00  23.57 MB/sipython-3.2.0-  70% |#####################          | ETA:  0:00:00  23.92 MB/sipython-3.2.0-  72% |######################         | ETA:  0:00:00  24.25 MB/sipython-3.2.0-  73% |######################         | ETA:  0:00:00  24.59 MB/sipython-3.2.0-  74% |#######################        | ETA:  0:00:00  22.36 MB/sipython-3.2.0-  76% |#######################        | ETA:  0:00:00  22.67 MB/sipython-3.2.0-  77% |########################       | ETA:  0:00:00  22.97 MB/sipython-3.2.0-  79% |########################       | ETA:  0:00:00  23.27 MB/sipython-3.2.0-  80% |########################       | ETA:  0:00:00  23.57 MB/sipython-3.2.0-  81% |#########################      | ETA:  0:00:00  23.86 MB/sipython-3.2.0-  83% |#########################      | ETA:  0:00:00  24.16 MB/sipython-3.2.0-  84% |##########################     | ETA:  0:00:00  24.45 MB/sipython-3.2.0-  86% |##########################     | ETA:  0:00:00  24.73 MB/sipython-3.2.0-  87% |###########################    | ETA:  0:00:00  25.02 MB/sipython-3.2.0-  88% |###########################    | ETA:  0:00:00  25.30 MB/sipython-3.2.0-  90% |###########################    | ETA:  0:00:00  25.58 MB/sipython-3.2.0-  91% |############################   | ETA:  0:00:00  25.86 MB/sipython-3.2.0-  93% |############################   | ETA:  0:00:00  26.13 MB/sipython-3.2.0-  94% |#############################  | ETA:  0:00:00  26.41 MB/sipython-3.2.0-  95% |#############################  | ETA:  0:00:00  26.68 MB/sipython-3.2.0-  97% |############################## | ETA:  0:00:00  26.94 MB/sipython-3.2.0-  98% |############################## | ETA:  0:00:00  27.21 MB/sipython-3.2.0-  99% |############################## | ETA:  0:00:00  27.47 MB/sipython-3.2.0- 100% |###############################| Time: 0:00:00  27.40 MB/s
-Extracting packages ...
-[                    ]|                                                  |   0%[ipython             ]|                                                  |   0%[      COMPLETE      ]|##################################################| 100%
+
+The following NEW packages will be INSTALLED:
+
+    ipython:    3.2.0-py27_0 
+    openssl:    1.0.1k-1     
+    pip:        7.0.3-py27_0 
+    python:     2.7.10-0     
+    readline:   6.2-2        
+    setuptools: 18.0.1-py27_0
+    sqlite:     3.8.4.1-1    
+    system:     5.8-2        
+    tk:         8.5.18-0     
+    zlib:       1.2.8-0      
+
 Linking packages ...
-[      COMPLETE      ]|                                                  |   0%[openssl             ]|                                                  |   0%[openssl             ]|                                                  |   0%[readline            ]|#####                                             |  10%[sqlite              ]|##########                                        |  20%[system              ]|###############                                   |  30%[tk                  ]|####################                              |  40%[zlib                ]|#########################                         |  50%[ipython             ]|##############################                    |  60%[python              ]|###################################               |  70%[setuptools          ]|########################################          |  80%[pip                 ]|#############################################     |  90%[      COMPLETE      ]|##################################################| 100%
+[                    ]|                                                  |   0%[openssl             ]|                                                  |   0%[readline            ]|#####                                             |  10%[sqlite              ]|##########                                        |  20%[system              ]|###############                                   |  30%[tk                  ]|####################                              |  40%[zlib                ]|#########################                         |  50%[ipython             ]|##############################                    |  60%[python              ]|###################################               |  70%[setuptools          ]|########################################          |  80%[pip                 ]|#############################################     |  90%[      COMPLETE      ]|##################################################| 100%
 Removing old work directory
 Source cache directory is: /home/ubuntu/miniconda/conda-bld/src_cache
 Found source in cache: ipdb-0.8.1.zip
@@ -131,7 +121,7 @@ The following NEW packages will be INSTALLED:
     zlib:       1.2.8-0      
 
 Fetching packages ...
-ipdb-0.8.1-py_   0% |                              | ETA:  --:--:--   0.00  B/sipdb-0.8.1-py_  18% |#####                          | Time: 0:00:00  59.96 MB/sipdb-0.8.1-py_  37% |###########                    | Time: 0:00:00  68.11 MB/sipdb-0.8.1-py_  56% |#################              | Time: 0:00:00  73.34 MB/sipdb-0.8.1-py_  74% |#######################        | Time: 0:00:00  76.10 MB/sipdb-0.8.1-py_  93% |#############################  | Time: 0:00:00  78.30 MB/sipdb-0.8.1-py_ 100% |###############################| Time: 0:00:00  72.90 MB/sipdb-0.8.1-py_ 100% |###############################| Time: 0:00:00  65.82 MB/sipdb-0.8.1-py_ 100% |###############################| Time: 0:00:00  59.15 MB/s
+ipdb-0.8.1-py_   0% |                              | ETA:  --:--:--   0.00  B/sipdb-0.8.1-py_  18% |#####                          | ETA:  0:00:00  47.49 MB/sipdb-0.8.1-py_  37% |###########                    | ETA:  0:00:00  59.47 MB/sipdb-0.8.1-py_  56% |#################              | ETA:  0:00:00  66.50 MB/sipdb-0.8.1-py_  74% |#######################        | ETA:  0:00:00  68.41 MB/sipdb-0.8.1-py_  93% |#############################  | ETA:  0:00:00  71.36 MB/sipdb-0.8.1-py_ 100% |###############################| ETA:  0:00:00  67.16 MB/sipdb-0.8.1-py_ 100% |###############################| Time: 0:00:00  57.05 MB/s
 Extracting packages ...
 [      COMPLETE      ]|                                                  |   0%[ipdb                ]|                                                  |   0%[ipdb                ]|                                                  |   0%[      COMPLETE      ]|##################################################| 100%
 Linking packages ...

@@ -142,7 +142,7 @@ The following NEW packages will be INSTALLED:
     zlib:       1.2.8-0      
 
 Fetching packages ...
-mozhttpd-0.7-p   0% |                              | ETA:  --:--:--   0.00  B/smozhttpd-0.7-p  20% |######                         | ETA:  0:00:00  46.31 MB/smozhttpd-0.7-p  40% |############                   | ETA:  0:00:00  57.89 MB/smozhttpd-0.7-p  60% |##################             | ETA:  0:00:00  64.69 MB/smozhttpd-0.7-p  80% |########################       | ETA:  0:00:00  69.06 MB/smozhttpd-0.7-p 100% |###############################| ETA:  0:00:00  72.05 MB/smozhttpd-0.7-p 100% |###############################| Time: 0:00:00  59.05 MB/s
+mozhttpd-0.7-p   0% |                              | ETA:  --:--:--   0.00  B/smozhttpd-0.7-p  19% |######                         | ETA:  0:00:00  45.27 MB/smozhttpd-0.7-p  39% |############                   | ETA:  0:00:00  57.00 MB/smozhttpd-0.7-p  59% |##################             | ETA:  0:00:00  64.00 MB/smozhttpd-0.7-p  79% |########################       | ETA:  0:00:00  68.34 MB/smozhttpd-0.7-p  99% |############################## | ETA:  0:00:00  69.78 MB/smozhttpd-0.7-p 100% |###############################| Time: 0:00:00  56.01 MB/s
 Extracting packages ...
 [      COMPLETE      ]|                                                  |   0%[mozhttpd            ]|                                                  |   0%[mozhttpd            ]|                                                  |   0%[      COMPLETE      ]|##################################################| 100%
 Linking packages ...

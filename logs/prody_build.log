@@ -74,7 +74,7 @@ The following NEW packages will be INSTALLED:
     zlib:       1.2.8-0      
 
 Fetching packages ...
-prody-1.6.1-py   0% |                              | ETA:  --:--:--   0.00  B/sprody-1.6.1-py 100% |###############################| ETA:  0:00:00   5.98 MB/sprody-1.6.1-py 100% |###############################| Time: 0:00:00   3.16 MB/s
+prody-1.6.1-py   0% |                              | ETA:  --:--:--   0.00  B/sprody-1.6.1-py 100% |###############################| ETA:  0:00:00   5.96 MB/sprody-1.6.1-py 100% |###############################| Time: 0:00:00   3.34 MB/s
 Extracting packages ...
 [      COMPLETE      ]|                                                  |   0%[prody               ]|                                                  |   0%[prody               ]|                                                  |   0%[      COMPLETE      ]|##################################################| 100%
 Linking packages ...

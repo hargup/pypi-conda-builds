@@ -112,7 +112,7 @@ The following packages will be downloaded:
 
     package                    |            build
     ---------------------------|-----------------
-    leaderboard-3.3.0          |           py27_0          30 KB
+    leaderboard-3.3.0          |           py27_0          31 KB
 
 The following NEW packages will be INSTALLED:
 
@@ -129,7 +129,7 @@ The following NEW packages will be INSTALLED:
     zlib:        1.2.8-0      
 
 Fetching packages ...
-leaderboard-3.   0% |                              | ETA:  --:--:--   0.00  B/sleaderboard-3.  52% |################               | ETA:  0:00:00  47.92 MB/sleaderboard-3. 100% |###############################| ETA:  0:00:00  57.20 MB/sleaderboard-3. 100% |###############################| Time: 0:00:00  39.24 MB/s
+leaderboard-3.   0% |                              | ETA:  --:--:--   0.00  B/sleaderboard-3.  52% |################               | ETA:  0:00:00  47.62 MB/sleaderboard-3. 100% |###############################| ETA:  0:00:00  57.16 MB/sleaderboard-3. 100% |###############################| Time: 0:00:00  39.52 MB/s
 Extracting packages ...
 [      COMPLETE      ]|                                                  |   0%[leaderboard         ]|                                                  |   0%[leaderboard         ]|                                                  |   0%[      COMPLETE      ]|##################################################| 100%
 Linking packages ...

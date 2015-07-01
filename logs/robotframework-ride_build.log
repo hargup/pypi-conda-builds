@@ -17,8 +17,8 @@ Reading https://pypi.python.org/simple/Pygments/
 Best match: Pygments 2.0.2
 Downloading https://pypi.python.org/packages/source/P/Pygments/Pygments-2.0.2.tar.gz#md5=238587a1370d62405edabd0794b3ec4a
 Processing Pygments-2.0.2.tar.gz
-Writing /tmp/easy_install-yVAplk/Pygments-2.0.2/setup.cfg
-Running Pygments-2.0.2/setup.py -q bdist_egg --dist-dir /tmp/easy_install-yVAplk/Pygments-2.0.2/egg-dist-tmp-3q53aa
+Writing /tmp/easy_install-T7lxxC/Pygments-2.0.2/setup.cfg
+Running Pygments-2.0.2/setup.py -q bdist_egg --dist-dir /tmp/easy_install-T7lxxC/Pygments-2.0.2/egg-dist-tmp-HHT8nX
 creating /home/ubuntu/miniconda/conda-bld/work/robotframework-ride-1.4/.eggs/Pygments-2.0.2-py2.7.egg
 Extracting Pygments-2.0.2-py2.7.egg to /home/ubuntu/miniconda/conda-bld/work/robotframework-ride-1.4/.eggs
 byte-compiling /home/ubuntu/miniconda/conda-bld/work/robotframework-ride-1.4/.eggs/Pygments-2.0.2-py2.7.egg/pygments/formatter.py to formatter.pyc

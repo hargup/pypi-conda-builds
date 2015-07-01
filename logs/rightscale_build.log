@@ -128,7 +128,7 @@ The following NEW packages will be INSTALLED:
     zlib:       1.2.8-0      
 
 Fetching packages ...
-rightscale-0.3   0% |                              | ETA:  --:--:--   0.00  B/srightscale-0.3 100% |###############################| ETA:  0:00:00  26.33 MB/srightscale-0.3 100% |###############################| Time: 0:00:00  15.55 MB/s
+rightscale-0.3   0% |                              | ETA:  --:--:--   0.00  B/srightscale-0.3 100% |###############################| ETA:  0:00:00  26.45 MB/srightscale-0.3 100% |###############################| Time: 0:00:00  15.59 MB/s
 Extracting packages ...
 [      COMPLETE      ]|                                                  |   0%[rightscale          ]|                                                  |   0%[rightscale          ]|                                                  |   0%[      COMPLETE      ]|##################################################| 100%
 Linking packages ...

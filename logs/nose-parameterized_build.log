@@ -114,7 +114,7 @@ The following NEW packages will be INSTALLED:
     zlib:               1.2.8-0      
 
 Fetching packages ...
-nose-parameter   0% |                              | ETA:  --:--:--   0.00  B/snose-parameter 100% |###############################| ETA:  0:00:00  25.08 MB/snose-parameter 100% |###############################| Time: 0:00:00  14.59 MB/s
+nose-parameter   0% |                              | ETA:  --:--:--   0.00  B/snose-parameter 100% |###############################| ETA:  0:00:00  24.71 MB/snose-parameter 100% |###############################| Time: 0:00:00  14.46 MB/s
 Extracting packages ...
 [      COMPLETE      ]|                                                  |   0%[nose-parameterized  ]|                                                  |   0%[nose-parameterized  ]|                                                  |   0%[      COMPLETE      ]|##################################################| 100%
 Linking packages ...

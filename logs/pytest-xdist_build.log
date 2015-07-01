@@ -154,7 +154,7 @@ The following NEW packages will be INSTALLED:
     zlib:         1.2.8-0      
 
 Fetching packages ...
-pytest-xdist-1   0% |                              | ETA:  --:--:--   0.00  B/spytest-xdist-1  17% |#####                          | ETA:  0:00:00  46.28 MB/spytest-xdist-1  34% |##########                     | ETA:  0:00:00  58.29 MB/spytest-xdist-1  51% |################               | ETA:  0:00:00  64.91 MB/spytest-xdist-1  69% |#####################          | ETA:  0:00:00  68.84 MB/spytest-xdist-1  86% |##########################     | ETA:  0:00:00  71.85 MB/spytest-xdist-1 100% |###############################| ETA:  0:00:00  71.83 MB/spytest-xdist-1 100% |###############################| Time: 0:00:00  61.85 MB/s
+pytest-xdist-1   0% |                              | ETA:  --:--:--   0.00  B/spytest-xdist-1  17% |#####                          | ETA:  0:00:00  46.56 MB/spytest-xdist-1  34% |##########                     | ETA:  0:00:00  58.41 MB/spytest-xdist-1  51% |################               | ETA:  0:00:00  65.36 MB/spytest-xdist-1  69% |#####################          | ETA:  0:00:00  69.64 MB/spytest-xdist-1  86% |##########################     | ETA:  0:00:00  72.81 MB/spytest-xdist-1 100% |###############################| ETA:  0:00:00  72.87 MB/spytest-xdist-1 100% |###############################| Time: 0:00:00  61.76 MB/s
 Extracting packages ...
 [      COMPLETE      ]|                                                  |   0%[pytest-xdist        ]|                                                  |   0%[pytest-xdist        ]|                                                  |   0%[      COMPLETE      ]|##################################################| 100%
 Linking packages ...

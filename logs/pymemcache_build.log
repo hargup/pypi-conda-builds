@@ -153,7 +153,7 @@ The following NEW packages will be INSTALLED:
     zlib:       1.2.8-0      
 
 Fetching packages ...
-pymemcache-1.2   0% |                              | ETA:  --:--:--   0.00  B/spymemcache-1.2  30% |#########                      | ETA:  0:00:00  47.10 MB/spymemcache-1.2  61% |##################             | ETA:  0:00:00  59.04 MB/spymemcache-1.2  91% |############################   | ETA:  0:00:00  65.89 MB/spymemcache-1.2 100% |###############################| ETA:  0:00:00  59.66 MB/spymemcache-1.2 100% |###############################| Time: 0:00:00  47.26 MB/s
+pymemcache-1.2   0% |                              | ETA:  --:--:--   0.00  B/spymemcache-1.2  30% |#########                      | ETA:  0:00:00  47.92 MB/spymemcache-1.2  61% |##################             | ETA:  0:00:00  59.57 MB/spymemcache-1.2  91% |############################   | ETA:  0:00:00  66.44 MB/spymemcache-1.2 100% |###############################| ETA:  0:00:00  60.06 MB/spymemcache-1.2 100% |###############################| Time: 0:00:00  48.37 MB/s
 Extracting packages ...
 [      COMPLETE      ]|                                                  |   0%[pymemcache          ]|                                                  |   0%[pymemcache          ]|                                                  |   0%[      COMPLETE      ]|##################################################| 100%
 Linking packages ...

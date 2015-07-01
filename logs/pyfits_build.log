@@ -12,7 +12,7 @@ to get the latest version.
 
 Solving package specifications: .+ /home/ubuntu/miniconda/envs/_build/bin/python setup.py install
 
-Installed /tmp/easy_install-blnByb/stsci.distutils-0.3.7/.eggs/d2to1-0.2.11-py2.7.egg
+Installed /tmp/easy_install-tB2riS/stsci.distutils-0.3.7/.eggs/d2to1-0.2.11-py2.7.egg
 
 Installed /home/ubuntu/miniconda/conda-bld/work/pyfits-3.3/.eggs/stsci.distutils-0.3.7-py2.7.egg
 Searching for d2to1>=0.2.5
@@ -20,8 +20,8 @@ Reading https://pypi.python.org/simple/d2to1/
 Best match: d2to1 0.2.11
 Downloading https://pypi.python.org/packages/source/d/d2to1/d2to1-0.2.11.tar.gz#md5=81addef3dde584ab89b35ada8177c0d0
 Processing d2to1-0.2.11.tar.gz
-Writing /tmp/easy_install-NQ6CtO/d2to1-0.2.11/setup.cfg
-Running d2to1-0.2.11/setup.py -q bdist_egg --dist-dir /tmp/easy_install-NQ6CtO/d2to1-0.2.11/egg-dist-tmp-Nfw6HR
+Writing /tmp/easy_install-YwEZeE/d2to1-0.2.11/setup.cfg
+Running d2to1-0.2.11/setup.py -q bdist_egg --dist-dir /tmp/easy_install-YwEZeE/d2to1-0.2.11/egg-dist-tmp-oWdFGs
 creating /home/ubuntu/miniconda/conda-bld/work/pyfits-3.3/.eggs/d2to1-0.2.11-py2.7.egg
 Extracting d2to1-0.2.11-py2.7.egg to /home/ubuntu/miniconda/conda-bld/work/pyfits-3.3/.eggs
 

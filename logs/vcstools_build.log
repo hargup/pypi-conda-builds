@@ -160,7 +160,7 @@ The following NEW packages will be INSTALLED:
     zlib:            1.2.8-0      
 
 Fetching packages ...
-vcstools-0.1.3   0% |                              | ETA:  --:--:--   0.00  B/svcstools-0.1.3  21% |######                         | ETA:  0:00:00  47.76 MB/svcstools-0.1.3  43% |#############                  | ETA:  0:00:00  59.34 MB/svcstools-0.1.3  65% |####################           | ETA:  0:00:00  65.78 MB/svcstools-0.1.3  86% |##########################     | ETA:  0:00:00  70.01 MB/svcstools-0.1.3 100% |###############################| ETA:  0:00:00  68.16 MB/svcstools-0.1.3 100% |###############################| Time: 0:00:00  55.98 MB/s
+vcstools-0.1.3   0% |                              | ETA:  --:--:--   0.00  B/svcstools-0.1.3  21% |######                         | ETA:  0:00:00  47.76 MB/svcstools-0.1.3  43% |#############                  | ETA:  0:00:00  59.14 MB/svcstools-0.1.3  65% |####################           | ETA:  0:00:00  65.89 MB/svcstools-0.1.3  86% |##########################     | ETA:  0:00:00  70.01 MB/svcstools-0.1.3 100% |###############################| ETA:  0:00:00  68.02 MB/svcstools-0.1.3 100% |###############################| Time: 0:00:00  55.48 MB/s
 Extracting packages ...
 [      COMPLETE      ]|                                                  |   0%[vcstools            ]|                                                  |   0%[vcstools            ]|                                                  |   0%[      COMPLETE      ]|##################################################| 100%
 Linking packages ...

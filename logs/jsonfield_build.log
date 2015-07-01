@@ -106,7 +106,7 @@ The following NEW packages will be INSTALLED:
     zlib:       1.2.8-0      
 
 Fetching packages ...
-jsonfield-1.0.   0% |                              | ETA:  --:--:--   0.00  B/sjsonfield-1.0. 100% |###############################| ETA:  0:00:00  40.88 MB/sjsonfield-1.0. 100% |###############################| Time: 0:00:00  24.51 MB/s
+jsonfield-1.0.   0% |                              | ETA:  --:--:--   0.00  B/sjsonfield-1.0. 100% |###############################| ETA:  0:00:00  39.27 MB/sjsonfield-1.0. 100% |###############################| Time: 0:00:00  23.00 MB/s
 Extracting packages ...
 [      COMPLETE      ]|                                                  |   0%[jsonfield           ]|                                                  |   0%[jsonfield           ]|                                                  |   0%[      COMPLETE      ]|##################################################| 100%
 Linking packages ...

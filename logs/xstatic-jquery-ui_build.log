@@ -20,12 +20,6 @@ Traceback (most recent call last):
     from xstatic.pkg import jquery_ui as xs
 ImportError: cannot import name jquery_ui
 
-The following packages will be downloaded:
-
-    package                    |            build
-    ---------------------------|-----------------
-    xstatic-jquery-1.10.2.1    |             py_0          95 KB
-
 The following NEW packages will be INSTALLED:
 
     openssl:        1.0.1k-1     
@@ -39,12 +33,8 @@ The following NEW packages will be INSTALLED:
     xstatic-jquery: 1.10.2.1-py_0
     zlib:           1.2.8-0      
 
-Fetching packages ...
-xstatic-jquery   0% |                              | ETA:  --:--:--   0.00  B/sxstatic-jquery  16% |#####                          | ETA:  0:00:00  34.71 MB/sxstatic-jquery  33% |##########                     | ETA:  0:00:00  48.41 MB/sxstatic-jquery  50% |###############                | ETA:  0:00:00  56.30 MB/sxstatic-jquery  67% |####################           | ETA:  0:00:00  61.66 MB/sxstatic-jquery  83% |##########################     | ETA:  0:00:00  64.36 MB/sxstatic-jquery 100% |###############################| ETA:  0:00:00  66.96 MB/sxstatic-jquery 100% |###############################| Time: 0:00:00  57.73 MB/s
-Extracting packages ...
-[                    ]|                                                  |   0%[xstatic-jquery      ]|                                                  |   0%[      COMPLETE      ]|##################################################| 100%
 Linking packages ...
-[      COMPLETE      ]|                                                  |   0%[openssl             ]|                                                  |   0%[openssl             ]|                                                  |   0%[readline            ]|#####                                             |  10%[sqlite              ]|##########                                        |  20%[system              ]|###############                                   |  30%[tk                  ]|####################                              |  40%[zlib                ]|#########################                         |  50%[python              ]|##############################                    |  60%[setuptools          ]|###################################               |  70%[xstatic-jquery      ]|########################################          |  80%[pip                 ]|#############################################     |  90%[      COMPLETE      ]|##################################################| 100%
+[                    ]|                                                  |   0%[openssl             ]|                                                  |   0%[readline            ]|#####                                             |  10%[sqlite              ]|##########                                        |  20%[system              ]|###############                                   |  30%[tk                  ]|####################                              |  40%[zlib                ]|#########################                         |  50%[python              ]|##############################                    |  60%[setuptools          ]|###################################               |  70%[xstatic-jquery      ]|########################################          |  80%[pip                 ]|#############################################     |  90%[      COMPLETE      ]|##################################################| 100%
 Removing old work directory
 Source cache directory is: /home/ubuntu/miniconda/conda-bld/src_cache
 Found source in cache: XStatic-jquery-ui-1.11.0.1.tar.gz

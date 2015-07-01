@@ -136,7 +136,7 @@ The following NEW packages will be INSTALLED:
     zlib:           1.2.8-0      
 
 Fetching packages ...
-python-redmine   0% |                              | ETA:  --:--:--   0.00  B/spython-redmine 100% |###############################| ETA:  0:00:00  38.27 MB/spython-redmine 100% |###############################| Time: 0:00:00  21.93 MB/s
+python-redmine   0% |                              | ETA:  --:--:--   0.00  B/spython-redmine 100% |###############################| ETA:  0:00:00  37.13 MB/spython-redmine 100% |###############################| Time: 0:00:00  22.30 MB/s
 Extracting packages ...
 [      COMPLETE      ]|                                                  |   0%[python-redmine      ]|                                                  |   0%[python-redmine      ]|                                                  |   0%[      COMPLETE      ]|##################################################| 100%
 Linking packages ...

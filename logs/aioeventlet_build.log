@@ -52,8 +52,8 @@ Reading https://pypi.python.org/simple/trollius/
 Best match: trollius 1.0.4
 Downloading https://pypi.python.org/packages/source/t/trollius/trollius-1.0.4.tar.gz#md5=3631a464d49d0cbfd30ab2918ef2b783
 Processing trollius-1.0.4.tar.gz
-Writing /tmp/easy_install-NcA9Wk/trollius-1.0.4/setup.cfg
-Running trollius-1.0.4/setup.py -q bdist_egg --dist-dir /tmp/easy_install-NcA9Wk/trollius-1.0.4/egg-dist-tmp-c7HXoW
+Writing /tmp/easy_install-B8Y5Cu/trollius-1.0.4/setup.cfg
+Running trollius-1.0.4/setup.py -q bdist_egg --dist-dir /tmp/easy_install-B8Y5Cu/trollius-1.0.4/egg-dist-tmp-1sGId3
 zip_safe flag not set; analyzing archive contents...
 trollius.test_utils: module references __file__
 creating /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/trollius-1.0.4-py2.7.egg
@@ -68,8 +68,8 @@ Reading http://wiki.secondlife.com/wiki/Eventlet
 Best match: eventlet 0.17.4
 Downloading https://pypi.python.org/packages/source/e/eventlet/eventlet-0.17.4.tar.gz#md5=fea0993b14cc7322f944bdd535c4f24a
 Processing eventlet-0.17.4.tar.gz
-Writing /tmp/easy_install-euSqO8/eventlet-0.17.4/setup.cfg
-Running eventlet-0.17.4/setup.py -q bdist_egg --dist-dir /tmp/easy_install-euSqO8/eventlet-0.17.4/egg-dist-tmp-jeHEOo
+Writing /tmp/easy_install-erx3Vy/eventlet-0.17.4/setup.cfg
+Running eventlet-0.17.4/setup.py -q bdist_egg --dist-dir /tmp/easy_install-erx3Vy/eventlet-0.17.4/egg-dist-tmp-Zkv8oW
 creating /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/eventlet-0.17.4-py2.7.egg
 Extracting eventlet-0.17.4-py2.7.egg to /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages
 Adding eventlet 0.17.4 to easy-install.pth file
@@ -80,8 +80,8 @@ Reading https://pypi.python.org/simple/futures/
 Best match: futures 3.0.3
 Downloading https://pypi.python.org/packages/source/f/futures/futures-3.0.3.tar.gz#md5=32171f72af7e80c266310794adc4db46
 Processing futures-3.0.3.tar.gz
-Writing /tmp/easy_install-3KVCZL/futures-3.0.3/setup.cfg
-Running futures-3.0.3/setup.py -q bdist_egg --dist-dir /tmp/easy_install-3KVCZL/futures-3.0.3/egg-dist-tmp-6IAUQR
+Writing /tmp/easy_install-j4F263/futures-3.0.3/setup.cfg
+Running futures-3.0.3/setup.py -q bdist_egg --dist-dir /tmp/easy_install-j4F263/futures-3.0.3/egg-dist-tmp-Av4vRa
 creating /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/futures-3.0.3-py2.7.egg
 Extracting futures-3.0.3-py2.7.egg to /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages
 Adding futures 3.0.3 to easy-install.pth file
@@ -92,8 +92,8 @@ Reading https://pypi.python.org/simple/greenlet/
 Best match: greenlet 0.4.7
 Downloading https://pypi.python.org/packages/source/g/greenlet/greenlet-0.4.7.zip#md5=c2333a8ff30fa75c5d5ec0e67b461086
 Processing greenlet-0.4.7.zip
-Writing /tmp/easy_install-K8ZRNW/greenlet-0.4.7/setup.cfg
-Running greenlet-0.4.7/setup.py -q bdist_egg --dist-dir /tmp/easy_install-K8ZRNW/greenlet-0.4.7/egg-dist-tmp-MVrHtI
+Writing /tmp/easy_install-FajVw7/greenlet-0.4.7/setup.cfg
+Running greenlet-0.4.7/setup.py -q bdist_egg --dist-dir /tmp/easy_install-FajVw7/greenlet-0.4.7/egg-dist-tmp-zKGxbT
 creating /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/greenlet-0.4.7-py2.7-linux-x86_64.egg
 Extracting greenlet-0.4.7-py2.7-linux-x86_64.egg to /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages
 Adding greenlet 0.4.7 to easy-install.pth file

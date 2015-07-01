@@ -154,7 +154,7 @@ The following NEW packages will be INSTALLED:
     zope.interface: 4.1.2-py27_1 
 
 Fetching packages ...
-datetime-4.0.1   0% |                              | ETA:  --:--:--   0.00  B/sdatetime-4.0.1  50% |###############                | ETA:  0:00:00  46.03 MB/sdatetime-4.0.1 100% |###############################| ETA:  0:00:00  57.27 MB/sdatetime-4.0.1 100% |###############################| Time: 0:00:00  39.57 MB/s
+datetime-4.0.1   0% |                              | ETA:  --:--:--   0.00  B/sdatetime-4.0.1  50% |###############                | ETA:  0:00:00  46.94 MB/sdatetime-4.0.1 100% |###############################| ETA:  0:00:00  57.15 MB/sdatetime-4.0.1 100% |###############################| Time: 0:00:00  39.63 MB/s
 Extracting packages ...
 [      COMPLETE      ]|                                                  |   0%[datetime            ]|                                                  |   0%[datetime            ]|                                                  |   0%[      COMPLETE      ]|##################################################| 100%
 Linking packages ...

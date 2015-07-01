@@ -117,7 +117,7 @@ The following NEW packages will be INSTALLED:
     zlib:             1.2.8-0      
 
 Fetching packages ...
-mozsystemmonit   0% |                              | ETA:  --:--:--   0.00  B/smozsystemmonit 100% |###############################| ETA:  0:00:00  44.32 MB/smozsystemmonit 100% |###############################| Time: 0:00:00  25.25 MB/s
+mozsystemmonit   0% |                              | ETA:  --:--:--   0.00  B/smozsystemmonit 100% |###############################| ETA:  0:00:00  43.06 MB/smozsystemmonit 100% |###############################| Time: 0:00:00  25.77 MB/s
 Extracting packages ...
 [      COMPLETE      ]|                                                  |   0%[mozsystemmonitor    ]|                                                  |   0%[mozsystemmonitor    ]|                                                  |   0%[      COMPLETE      ]|##################################################| 100%
 Linking packages ...

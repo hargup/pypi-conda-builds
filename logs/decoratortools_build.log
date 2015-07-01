@@ -115,7 +115,7 @@ The following NEW packages will be INSTALLED:
     zlib:           1.2.8-0      
 
 Fetching packages ...
-decoratortools   0% |                              | ETA:  --:--:--   0.00  B/sdecoratortools  71% |######################         | ETA:  0:00:00  48.02 MB/sdecoratortools 100% |###############################| ETA:  0:00:00  43.96 MB/sdecoratortools 100% |###############################| Time: 0:00:00  29.54 MB/s
+decoratortools   0% |                              | ETA:  --:--:--   0.00  B/sdecoratortools  71% |######################         | ETA:  0:00:00  46.28 MB/sdecoratortools 100% |###############################| ETA:  0:00:00  42.81 MB/sdecoratortools 100% |###############################| Time: 0:00:00  29.42 MB/s
 Extracting packages ...
 [      COMPLETE      ]|                                                  |   0%[decoratortools      ]|                                                  |   0%[decoratortools      ]|                                                  |   0%[      COMPLETE      ]|##################################################| 100%
 Linking packages ...

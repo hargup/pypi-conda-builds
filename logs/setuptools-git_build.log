@@ -115,7 +115,7 @@ The following NEW packages will be INSTALLED:
     zlib:           1.2.8-0      
 
 Fetching packages ...
-setuptools-git   0% |                              | ETA:  --:--:--   0.00  B/ssetuptools-git  96% |#############################  | ETA:  0:00:00  48.06 MB/ssetuptools-git 100% |###############################| ETA:  0:00:00  32.44 MB/ssetuptools-git 100% |###############################| Time: 0:00:00  21.68 MB/s
+setuptools-git   0% |                              | ETA:  --:--:--   0.00  B/ssetuptools-git  96% |#############################  | ETA:  0:00:00  48.63 MB/ssetuptools-git 100% |###############################| ETA:  0:00:00  34.14 MB/ssetuptools-git 100% |###############################| Time: 0:00:00  22.25 MB/s
 Extracting packages ...
 [      COMPLETE      ]|                                                  |   0%[setuptools-git      ]|                                                  |   0%[setuptools-git      ]|                                                  |   0%[      COMPLETE      ]|##################################################| 100%
 Linking packages ...

@@ -122,12 +122,6 @@ byte-compiling /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/gi
 running install_egg_info
 Writing /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/gitdb-0.6.4-py2.7.egg-info
 
-The following packages will be downloaded:
-
-    package                    |            build
-    ---------------------------|-----------------
-    smmap-0.9.0                |             py_0          17 KB
-
 The following NEW packages will be INSTALLED:
 
     openssl:    1.0.1k-1     
@@ -141,20 +135,15 @@ The following NEW packages will be INSTALLED:
     tk:         8.5.18-0     
     zlib:       1.2.8-0      
 
-Fetching packages ...
-smmap-0.9.0-py   0% |                              | ETA:  --:--:--   0.00  B/ssmmap-0.9.0-py  94% |#############################  | ETA:  0:00:00  34.64 MB/ssmmap-0.9.0-py 100% |###############################| ETA:  0:00:00  27.12 MB/ssmmap-0.9.0-py 100% |###############################| Time: 0:00:00  19.49 MB/s
-Extracting packages ...
-[                    ]|                                                  |   0%[smmap               ]|                                                  |   0%[      COMPLETE      ]|##################################################| 100%
 Linking packages ...
-[      COMPLETE      ]|                                                  |   0%[openssl             ]|                                                  |   0%[openssl             ]|                                                  |   0%[readline            ]|#####                                             |  10%[sqlite              ]|##########                                        |  20%[system              ]|###############                                   |  30%[tk                  ]|####################                              |  40%[zlib                ]|#########################                         |  50%[python              ]|##############################                    |  60%[setuptools          ]|###################################               |  70%[smmap               ]|########################################          |  80%[pip                 ]|#############################################     |  90%[      COMPLETE      ]|##################################################| 100%
+[                    ]|                                                  |   0%[openssl             ]|                                                  |   0%[readline            ]|#####                                             |  10%[sqlite              ]|##########                                        |  20%[system              ]|###############                                   |  30%[tk                  ]|####################                              |  40%[zlib                ]|#########################                         |  50%[python              ]|##############################                    |  60%[setuptools          ]|###################################               |  70%[smmap               ]|########################################          |  80%[pip                 ]|#############################################     |  90%[      COMPLETE      ]|##################################################| 100%
 Removing old work directory
 Source cache directory is: /home/ubuntu/miniconda/conda-bld/src_cache
 Found source in cache: gitdb-0.6.4.tar.gz
 Extracting download
 Package: gitdb-0.6.4-py27_0
 source tree in: /home/ubuntu/miniconda/conda-bld/work/gitdb-0.6.4
-compiling .pyc files...
-number of files: 65
+number of files: 54
 Fixing permissions
 patchelf: file: /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/gitdb/_perf.so
     setting rpath to: $ORIGIN/../../..
@@ -186,7 +175,7 @@ The following packages will be downloaded:
 
     package                    |            build
     ---------------------------|-----------------
-    gitdb-0.6.4                |           py27_0         128 KB
+    gitdb-0.6.4                |           py27_0         115 KB
 
 The following NEW packages will be INSTALLED:
 
@@ -203,7 +192,7 @@ The following NEW packages will be INSTALLED:
     zlib:       1.2.8-0      
 
 Fetching packages ...
-gitdb-0.6.4-py   0% |                              | ETA:  --:--:--   0.00  B/sgitdb-0.6.4-py  12% |###                            | Time: 0:00:00  59.34 MB/sgitdb-0.6.4-py  24% |#######                        | Time: 0:00:00  66.17 MB/sgitdb-0.6.4-py  37% |###########                    | Time: 0:00:00  71.43 MB/sgitdb-0.6.4-py  49% |###############                | Time: 0:00:00  74.55 MB/sgitdb-0.6.4-py  62% |###################            | Time: 0:00:00  76.92 MB/sgitdb-0.6.4-py  74% |#######################        | Time: 0:00:00  78.39 MB/sgitdb-0.6.4-py  87% |###########################    | Time: 0:00:00  79.75 MB/sgitdb-0.6.4-py  99% |############################## | Time: 0:00:00  80.46 MB/sgitdb-0.6.4-py 100% |###############################| Time: 0:00:00  74.37 MB/sgitdb-0.6.4-py 100% |###############################| Time: 0:00:00  69.12 MB/sgitdb-0.6.4-py 100% |###############################| Time: 0:00:00  64.11 MB/s
+gitdb-0.6.4-py   0% |                              | ETA:  --:--:--   0.00  B/sgitdb-0.6.4-py  13% |####                           | ETA:  0:00:00  46.40 MB/sgitdb-0.6.4-py  27% |########                       | ETA:  0:00:00  57.58 MB/sgitdb-0.6.4-py  41% |############                   | ETA:  0:00:00  64.83 MB/sgitdb-0.6.4-py  55% |#################              | ETA:  0:00:00  69.48 MB/sgitdb-0.6.4-py  69% |#####################          | ETA:  0:00:00  72.61 MB/sgitdb-0.6.4-py  83% |#########################      | ETA:  0:00:00  74.64 MB/sgitdb-0.6.4-py  97% |############################## | ETA:  0:00:00  76.05 MB/sgitdb-0.6.4-py 100% |###############################| ETA:  0:00:00  70.43 MB/sgitdb-0.6.4-py 100% |###############################| Time: 0:00:00  61.59 MB/s
 Extracting packages ...
 [      COMPLETE      ]|                                                  |   0%[gitdb               ]|                                                  |   0%[gitdb               ]|                                                  |   0%[      COMPLETE      ]|##################################################| 100%
 Linking packages ...

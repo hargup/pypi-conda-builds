@@ -137,7 +137,7 @@ The following NEW packages will be INSTALLED:
     zlib:            1.2.8-0      
 
 Fetching packages ...
-snowballstemme   0% |                              | ETA:  --:--:--   0.00  B/ssnowballstemme  21% |######                         | ETA:  0:00:00  47.62 MB/ssnowballstemme  43% |#############                  | ETA:  0:00:00  59.37 MB/ssnowballstemme  65% |####################           | ETA:  0:00:00  63.67 MB/ssnowballstemme  86% |##########################     | ETA:  0:00:00  67.49 MB/ssnowballstemme 100% |###############################| ETA:  0:00:00  65.97 MB/ssnowballstemme 100% |###############################| Time: 0:00:00  54.64 MB/s
+snowballstemme   0% |                              | ETA:  --:--:--   0.00  B/ssnowballstemme  21% |######                         | ETA:  0:00:00  44.05 MB/ssnowballstemme  43% |#############                  | ETA:  0:00:00  55.73 MB/ssnowballstemme  65% |####################           | ETA:  0:00:00  63.03 MB/ssnowballstemme  86% |##########################     | ETA:  0:00:00  67.64 MB/ssnowballstemme 100% |###############################| ETA:  0:00:00  66.00 MB/ssnowballstemme 100% |###############################| Time: 0:00:00  54.59 MB/s
 Extracting packages ...
 [      COMPLETE      ]|                                                  |   0%[snowballstemmer     ]|                                                  |   0%[snowballstemmer     ]|                                                  |   0%[      COMPLETE      ]|##################################################| 100%
 Linking packages ...

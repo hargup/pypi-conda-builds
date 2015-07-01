@@ -207,7 +207,7 @@ The following NEW packages will be INSTALLED:
     zlib:              1.2.8-0      
 
 Fetching packages ...
-requests-toolb   0% |                              | ETA:  --:--:--   0.00  B/srequests-toolb  25% |#######                        | ETA:  0:00:00  46.15 MB/srequests-toolb  51% |###############                | ETA:  0:00:00  58.02 MB/srequests-toolb  76% |#######################        | ETA:  0:00:00  65.03 MB/srequests-toolb 100% |###############################| ETA:  0:00:00  68.37 MB/srequests-toolb 100% |###############################| Time: 0:00:00  55.79 MB/s
+requests-toolb   0% |                              | ETA:  --:--:--   0.00  B/srequests-toolb  25% |#######                        | ETA:  0:00:00  46.68 MB/srequests-toolb  51% |###############                | ETA:  0:00:00  58.41 MB/srequests-toolb  76% |#######################        | ETA:  0:00:00  64.77 MB/srequests-toolb 100% |###############################| ETA:  0:00:00  67.91 MB/srequests-toolb 100% |###############################| Time: 0:00:00  54.26 MB/s
 Extracting packages ...
 [      COMPLETE      ]|                                                  |   0%[requests-toolbelt   ]|                                                  |   0%[requests-toolbelt   ]|                                                  |   0%[      COMPLETE      ]|##################################################| 100%
 Linking packages ...

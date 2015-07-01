@@ -130,7 +130,7 @@ The following NEW packages will be INSTALLED:
     zlib:                       1.2.8-0        
 
 Fetching packages ...
-xstatic-jquery   0% |                              | ETA:  --:--:--   0.00  B/sxstatic-jquery  85% |##########################     | ETA:  0:00:00  45.24 MB/sxstatic-jquery 100% |###############################| ETA:  0:00:00  36.45 MB/sxstatic-jquery 100% |###############################| Time: 0:00:00  24.78 MB/s
+xstatic-jquery   0% |                              | ETA:  --:--:--   0.00  B/sxstatic-jquery  85% |##########################     | ETA:  0:00:00  46.53 MB/sxstatic-jquery 100% |###############################| ETA:  0:00:00  37.20 MB/sxstatic-jquery 100% |###############################| Time: 0:00:00  26.22 MB/s
 Extracting packages ...
 [      COMPLETE      ]|                                                  |   0%[xstatic-jquery.tablesorter]|                                            |   0%[xstatic-jquery.tablesorter]|                                            |   0%[      COMPLETE      ]|##################################################| 100%
 Linking packages ...

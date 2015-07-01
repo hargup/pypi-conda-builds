@@ -98,12 +98,6 @@ Adding PyYAML 3.11 to easy-install.pth file
 Using /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages
 Finished processing dependencies for python-coveralls==2.5.0
 
-The following packages will be downloaded:
-
-    package                    |            build
-    ---------------------------|-----------------
-    sh-1.11                    |             py_0          21 KB
-
 The following NEW packages will be INSTALLED:
 
     coverage:   3.7.1-py27_0 
@@ -122,12 +116,8 @@ The following NEW packages will be INSTALLED:
     yaml:       0.1.6-0      
     zlib:       1.2.8-0      
 
-Fetching packages ...
-sh-1.11-py_0.t   0% |                              | ETA:  --:--:--   0.00  B/ssh-1.11-py_0.t  76% |#######################        | ETA:  0:00:00  35.53 MB/ssh-1.11-py_0.t 100% |###############################| ETA:  0:00:00  33.37 MB/ssh-1.11-py_0.t 100% |###############################| Time: 0:00:00  24.71 MB/s
-Extracting packages ...
-[                    ]|                                                  |   0%[sh                  ]|                                                  |   0%[      COMPLETE      ]|##################################################| 100%
 Linking packages ...
-[      COMPLETE      ]|                                                  |   0%[openssl             ]|                                                  |   0%[openssl             ]|                                                  |   0%[readline            ]|###                                               |   6%[sqlite              ]|######                                            |  13%[system              ]|##########                                        |  20%[tk                  ]|#############                                     |  26%[yaml                ]|################                                  |  33%[zlib                ]|####################                              |  40%[coverage            ]|#######################                           |  46%[python              ]|##########################                        |  53%[pyyaml              ]|##############################                    |  60%[requests            ]|#################################                 |  66%[setuptools          ]|####################################              |  73%[sh                  ]|########################################          |  80%[six                 ]|###########################################       |  86%[pip                 ]|##############################################    |  93%[      COMPLETE      ]|##################################################| 100%
+[                    ]|                                                  |   0%[openssl             ]|                                                  |   0%[readline            ]|###                                               |   6%[sqlite              ]|######                                            |  13%[system              ]|##########                                        |  20%[tk                  ]|#############                                     |  26%[yaml                ]|################                                  |  33%[zlib                ]|####################                              |  40%[coverage            ]|#######################                           |  46%[python              ]|##########################                        |  53%[pyyaml              ]|##############################                    |  60%[requests            ]|#################################                 |  66%[setuptools          ]|####################################              |  73%[sh                  ]|########################################          |  80%[six                 ]|###########################################       |  86%[pip                 ]|##############################################    |  93%[      COMPLETE      ]|##################################################| 100%
 Removing old work directory
 Source cache directory is: /home/ubuntu/miniconda/conda-bld/src_cache
 Found source in cache: python-coveralls-2.5.0.tar.gz
@@ -206,7 +196,7 @@ The following NEW packages will be INSTALLED:
     zlib:             1.2.8-0      
 
 Fetching packages ...
-python-coveral   0% |                              | ETA:  --:--:--   0.00  B/spython-coveral  17% |#####                          | Time: 0:00:00  59.39 MB/spython-coveral  34% |##########                     | Time: 0:00:00  67.14 MB/spython-coveral  51% |###############                | Time: 0:00:00  72.62 MB/spython-coveral  68% |#####################          | Time: 0:00:00  75.95 MB/spython-coveral  85% |##########################     | Time: 0:00:00  78.18 MB/spython-coveral 100% |###############################| Time: 0:00:00  78.07 MB/spython-coveral 100% |###############################| Time: 0:00:00  70.36 MB/spython-coveral 100% |###############################| Time: 0:00:00  63.28 MB/s
+python-coveral   0% |                              | ETA:  --:--:--   0.00  B/spython-coveral  17% |#####                          | ETA:  0:00:00  44.89 MB/spython-coveral  34% |##########                     | ETA:  0:00:00  56.79 MB/spython-coveral  51% |###############                | ETA:  0:00:00  63.67 MB/spython-coveral  68% |#####################          | ETA:  0:00:00  67.84 MB/spython-coveral  85% |##########################     | ETA:  0:00:00  70.86 MB/spython-coveral 100% |###############################| ETA:  0:00:00  71.86 MB/spython-coveral 100% |###############################| Time: 0:00:00  61.87 MB/s
 Extracting packages ...
 [      COMPLETE      ]|                                                  |   0%[python-coveralls    ]|                                                  |   0%[python-coveralls    ]|                                                  |   0%[      COMPLETE      ]|##################################################| 100%
 Linking packages ...

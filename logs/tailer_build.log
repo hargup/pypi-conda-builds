@@ -99,7 +99,7 @@ The following NEW packages will be INSTALLED:
     zlib:       1.2.8-0      
 
 Fetching packages ...
-tailer-0.3-py_   0% |                              | ETA:  --:--:--   0.00  B/stailer-0.3-py_  20% |######                         | ETA:  0:00:00  47.20 MB/stailer-0.3-py_  41% |############                   | ETA:  0:00:00  58.29 MB/stailer-0.3-py_  61% |###################            | ETA:  0:00:00  65.26 MB/stailer-0.3-py_  82% |#########################      | ETA:  0:00:00  69.57 MB/stailer-0.3-py_ 100% |###############################| ETA:  0:00:00  70.93 MB/stailer-0.3-py_ 100% |###############################| Time: 0:00:00  58.64 MB/s
+tailer-0.3-py_   0% |                              | ETA:  --:--:--   0.00  B/stailer-0.3-py_  20% |######                         | ETA:  0:00:00  46.03 MB/stailer-0.3-py_  41% |############                   | ETA:  0:00:00  57.80 MB/stailer-0.3-py_  61% |###################            | ETA:  0:00:00  65.03 MB/stailer-0.3-py_  82% |#########################      | ETA:  0:00:00  69.43 MB/stailer-0.3-py_ 100% |###############################| ETA:  0:00:00  70.80 MB/stailer-0.3-py_ 100% |###############################| Time: 0:00:00  58.20 MB/s
 Extracting packages ...
 [      COMPLETE      ]|                                                  |   0%[tailer              ]|                                                  |   0%[tailer              ]|                                                  |   0%[      COMPLETE      ]|##################################################| 100%
 Linking packages ...

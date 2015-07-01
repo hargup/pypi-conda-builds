@@ -16,17 +16,9 @@ Warning: 2 possible package resolutions (only showing differing packages):
 	[u'cssselect-0.9.1-py27_0.tar.bz2'],
 /home/ubuntu/miniconda/pkgs/cssselect-0.9.1-py_0/bin/.cssselect-pre-link.sh: line 2: /home/ubuntu/miniconda/envs/_build/bin/python: No such file or directory
 
-The following packages will be downloaded:
-
-    package                    |            build
-    ---------------------------|-----------------
-    cssselect-0.9.1            |             py_0          23 KB
-
 The following NEW packages will be INSTALLED:
 
     cssselect:  0.9.1-py_0   
-    libxml2:    2.9.0-0      
-    libxslt:    1.1.28-0     
     lxml:       3.4.4-py27_0 
     openssl:    1.0.1k-1     
     pip:        7.0.3-py27_0 
@@ -38,9 +30,5 @@ The following NEW packages will be INSTALLED:
     tk:         8.5.18-0     
     zlib:       1.2.8-0      
 
-Fetching packages ...
-cssselect-0.9.   0% |                              | ETA:  --:--:--   0.00  B/scssselect-0.9.  70% |#####################          | ETA:  0:00:00  34.64 MB/scssselect-0.9. 100% |###############################| ETA:  0:00:00  35.17 MB/scssselect-0.9. 100% |###############################| Time: 0:00:00  25.49 MB/s
-Extracting packages ...
-[                    ]|                                                  |   0%[cssselect           ]|                                                  |   0%[      COMPLETE      ]|##################################################| 100%
 Linking packages ...
-[      COMPLETE      ]|                                                  |   0%[openssl             ]|                                                  |   0%[openssl             ]|                                                  |   0%[readline            ]|###                                               |   7%[sqlite              ]|#######                                           |  15%[system              ]|###########                                       |  23%[tk                  ]|###############                                   |  30%[zlib                ]|###################                               |  38%[libxml2             ]|#######################                           |  46%[libxslt             ]|##########################                        |  53%[cssselect           ]|##############################                    |  61%Error: pre-link failed: cssselect-0.9.1-py_0
+[                    ]|                                                  |   0%[openssl             ]|                                                  |   0%[readline            ]|####                                              |   9%[sqlite              ]|#########                                         |  18%[system              ]|#############                                     |  27%[tk                  ]|##################                                |  36%[zlib                ]|######################                            |  45%[cssselect           ]|###########################                       |  54%Error: pre-link failed: cssselect-0.9.1-py_0

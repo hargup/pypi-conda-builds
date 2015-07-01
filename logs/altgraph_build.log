@@ -130,7 +130,7 @@ The following NEW packages will be INSTALLED:
     zlib:       1.2.8-0      
 
 Fetching packages ...
-altgraph-0.12-   0% |                              | ETA:  --:--:--   0.00  B/saltgraph-0.12-  36% |###########                    | ETA:  0:00:00  47.89 MB/saltgraph-0.12-  72% |######################         | ETA:  0:00:00  58.81 MB/saltgraph-0.12- 100% |###############################| ETA:  0:00:00  61.39 MB/saltgraph-0.12- 100% |###############################| Time: 0:00:00  47.77 MB/s
+altgraph-0.12-   0% |                              | ETA:  --:--:--   0.00  B/saltgraph-0.12-  36% |###########                    | ETA:  0:00:00  46.81 MB/saltgraph-0.12-  72% |######################         | ETA:  0:00:00  58.61 MB/saltgraph-0.12- 100% |###############################| ETA:  0:00:00  61.30 MB/saltgraph-0.12- 100% |###############################| Time: 0:00:00  46.30 MB/s
 Extracting packages ...
 [      COMPLETE      ]|                                                  |   0%[altgraph            ]|                                                  |   0%[altgraph            ]|                                                  |   0%[      COMPLETE      ]|##################################################| 100%
 Linking packages ...

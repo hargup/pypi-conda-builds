@@ -151,7 +151,7 @@ The following NEW packages will be INSTALLED:
     zlib:            1.2.8-0      
 
 Fetching packages ...
-django-annoyin   0% |                              | ETA:  --:--:--   0.00  B/sdjango-annoyin  53% |################               | ETA:  0:00:00  48.33 MB/sdjango-annoyin 100% |###############################| ETA:  0:00:00  56.73 MB/sdjango-annoyin 100% |###############################| Time: 0:00:00  39.07 MB/s
+django-annoyin   0% |                              | ETA:  --:--:--   0.00  B/sdjango-annoyin  53% |################               | ETA:  0:00:00  46.97 MB/sdjango-annoyin 100% |###############################| ETA:  0:00:00  55.39 MB/sdjango-annoyin 100% |###############################| Time: 0:00:00  38.28 MB/s
 Extracting packages ...
 [      COMPLETE      ]|                                                  |   0%[django-annoying     ]|                                                  |   0%[django-annoying     ]|                                                  |   0%[      COMPLETE      ]|##################################################| 100%
 Linking packages ...

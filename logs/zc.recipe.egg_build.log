@@ -161,7 +161,7 @@ The following NEW packages will be INSTALLED:
     zope.testing:    4.2.0-py27_0 
 
 Fetching packages ...
-zc.recipe.egg-   0% |                              | ETA:  --:--:--   0.00  B/szc.recipe.egg-  17% |#####                          | ETA:  0:00:00  47.23 MB/szc.recipe.egg-  34% |##########                     | ETA:  0:00:00  58.94 MB/szc.recipe.egg-  51% |################               | ETA:  0:00:00  65.63 MB/szc.recipe.egg-  69% |#####################          | ETA:  0:00:00  69.57 MB/szc.recipe.egg-  86% |##########################     | ETA:  0:00:00  72.83 MB/szc.recipe.egg- 100% |###############################| ETA:  0:00:00  72.75 MB/szc.recipe.egg- 100% |###############################| Time: 0:00:00  61.73 MB/s
+zc.recipe.egg-   0% |                              | ETA:  --:--:--   0.00  B/szc.recipe.egg-  17% |#####                          | ETA:  0:00:00  44.39 MB/szc.recipe.egg-  34% |##########                     | ETA:  0:00:00  56.58 MB/szc.recipe.egg-  51% |################               | ETA:  0:00:00  63.91 MB/szc.recipe.egg-  69% |#####################          | ETA:  0:00:00  68.41 MB/szc.recipe.egg-  86% |##########################     | ETA:  0:00:00  71.73 MB/szc.recipe.egg- 100% |###############################| ETA:  0:00:00  71.71 MB/szc.recipe.egg- 100% |###############################| Time: 0:00:00  60.81 MB/s
 Extracting packages ...
 [      COMPLETE      ]|                                                  |   0%[zc.recipe.egg       ]|                                                  |   0%[zc.recipe.egg       ]|                                                  |   0%[      COMPLETE      ]|##################################################| 100%
 Linking packages ...

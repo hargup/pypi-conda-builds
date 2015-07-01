@@ -117,7 +117,7 @@ The following NEW packages will be INSTALLED:
     zlib:                     1.2.8-0      
 
 Fetching packages ...
-django-templat   0% |                              | ETA:  --:--:--   0.00  B/sdjango-templat 100% |###############################| ETA:  0:00:00  28.44 MB/sdjango-templat 100% |###############################| Time: 0:00:00  16.89 MB/s
+django-templat   0% |                              | ETA:  --:--:--   0.00  B/sdjango-templat 100% |###############################| ETA:  0:00:00  28.57 MB/sdjango-templat 100% |###############################| Time: 0:00:00  16.90 MB/s
 Extracting packages ...
 [      COMPLETE      ]|                                                  |   0%[django-templatetag-sugar]|                                              |   0%[django-templatetag-sugar]|                                              |   0%[      COMPLETE      ]|##################################################| 100%
 Linking packages ...

@@ -132,7 +132,7 @@ The following NEW packages will be INSTALLED:
     zlib:          1.2.8-0        
 
 Fetching packages ...
-xstatic-qunit-   0% |                              | ETA:  --:--:--   0.00  B/sxstatic-qunit-  79% |########################       | ETA:  0:00:00  47.23 MB/sxstatic-qunit- 100% |###############################| ETA:  0:00:00  39.33 MB/sxstatic-qunit- 100% |###############################| Time: 0:00:00  26.71 MB/s
+xstatic-qunit-   0% |                              | ETA:  --:--:--   0.00  B/sxstatic-qunit-  79% |########################       | ETA:  0:00:00  43.80 MB/sxstatic-qunit- 100% |###############################| ETA:  0:00:00  37.28 MB/sxstatic-qunit- 100% |###############################| Time: 0:00:00  24.97 MB/s
 Extracting packages ...
 [      COMPLETE      ]|                                                  |   0%[xstatic-qunit       ]|                                                  |   0%[xstatic-qunit       ]|                                                  |   0%[      COMPLETE      ]|##################################################| 100%
 Linking packages ...

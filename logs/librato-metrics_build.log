@@ -140,7 +140,7 @@ The following NEW packages will be INSTALLED:
     zlib:            1.2.8-0      
 
 Fetching packages ...
-librato-metric   0% |                              | ETA:  --:--:--   0.00  B/slibrato-metric  46% |##############                 | ETA:  0:00:00  42.11 MB/slibrato-metric  93% |############################   | ETA:  0:00:00  54.98 MB/slibrato-metric 100% |###############################| ETA:  0:00:00  47.37 MB/slibrato-metric 100% |###############################| Time: 0:00:00  36.74 MB/s
+librato-metric   0% |                              | ETA:  --:--:--   0.00  B/slibrato-metric  46% |##############                 | ETA:  0:00:00  45.75 MB/slibrato-metric  93% |############################   | ETA:  0:00:00  57.39 MB/slibrato-metric 100% |###############################| ETA:  0:00:00  49.01 MB/slibrato-metric 100% |###############################| Time: 0:00:00  36.66 MB/s
 Extracting packages ...
 [      COMPLETE      ]|                                                  |   0%[librato-metrics     ]|                                                  |   0%[librato-metrics     ]|                                                  |   0%[      COMPLETE      ]|##################################################| 100%
 Linking packages ...

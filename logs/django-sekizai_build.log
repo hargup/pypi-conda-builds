@@ -214,7 +214,7 @@ The following NEW packages will be INSTALLED:
     zlib:               1.2.8-0      
 
 Fetching packages ...
-django-sekizai   0% |                              | ETA:  --:--:--   0.00  B/sdjango-sekizai 100% |###############################| ETA:  0:00:00  29.32 MB/sdjango-sekizai 100% |###############################| Time: 0:00:00  16.55 MB/s
+django-sekizai   0% |                              | ETA:  --:--:--   0.00  B/sdjango-sekizai 100% |###############################| ETA:  0:00:00  28.31 MB/sdjango-sekizai 100% |###############################| Time: 0:00:00  16.10 MB/s
 Extracting packages ...
 [      COMPLETE      ]|                                                  |   0%[django-sekizai      ]|                                                  |   0%[django-sekizai      ]|                                                  |   0%[      COMPLETE      ]|##################################################| 100%
 Linking packages ...

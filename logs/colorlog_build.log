@@ -118,7 +118,7 @@ The following NEW packages will be INSTALLED:
     zlib:       1.2.8-0      
 
 Fetching packages ...
-colorlog-2.6.0   0% |                              | ETA:  --:--:--   0.00  B/scolorlog-2.6.0 100% |###############################| ETA:  0:00:00  45.30 MB/scolorlog-2.6.0 100% |###############################| Time: 0:00:00  25.83 MB/s
+colorlog-2.6.0   0% |                              | ETA:  --:--:--   0.00  B/scolorlog-2.6.0 100% |###############################| ETA:  0:00:00  44.76 MB/scolorlog-2.6.0 100% |###############################| Time: 0:00:00  26.85 MB/s
 Extracting packages ...
 [      COMPLETE      ]|                                                  |   0%[colorlog            ]|                                                  |   0%[colorlog            ]|                                                  |   0%[      COMPLETE      ]|##################################################| 100%
 Linking packages ...

@@ -212,12 +212,6 @@ Adding six 1.9.0 to easy-install.pth file
 Using /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages
 Finished processing dependencies for django-tastypie==0.12.1
 
-The following packages will be downloaded:
-
-    package                    |            build
-    ---------------------------|-----------------
-    python-mimeparse-0.1.4     |           py27_0           6 KB
-
 The following NEW packages will be INSTALLED:
 
     openssl:          1.0.1k-1     
@@ -233,12 +227,8 @@ The following NEW packages will be INSTALLED:
     tk:               8.5.18-0     
     zlib:             1.2.8-0      
 
-Fetching packages ...
-python-mimepar   0% |                              | ETA:  --:--:--   0.00  B/spython-mimepar 100% |###############################| ETA:  0:00:00  10.41 MB/spython-mimepar 100% |###############################| Time: 0:00:00   7.08 MB/s
-Extracting packages ...
-[                    ]|                                                  |   0%[python-mimeparse    ]|                                                  |   0%[      COMPLETE      ]|##################################################| 100%
 Linking packages ...
-[      COMPLETE      ]|                                                  |   0%[openssl             ]|                                                  |   0%[openssl             ]|                                                  |   0%[readline            ]|####                                              |   8%[sqlite              ]|########                                          |  16%[system              ]|############                                      |  25%[tk                  ]|################                                  |  33%[zlib                ]|####################                              |  41%[python              ]|#########################                         |  50%[python-mimeparse    ]|#############################                     |  58%[setuptools          ]|#################################                 |  66%[six                 ]|#####################################             |  75%[pip                 ]|#########################################         |  83%[python-dateutil     ]|#############################################     |  91%[      COMPLETE      ]|##################################################| 100%
+[                    ]|                                                  |   0%[openssl             ]|                                                  |   0%[readline            ]|####                                              |   8%[sqlite              ]|########                                          |  16%[system              ]|############                                      |  25%[tk                  ]|################                                  |  33%[zlib                ]|####################                              |  41%[python              ]|#########################                         |  50%[python-mimeparse    ]|#############################                     |  58%[setuptools          ]|#################################                 |  66%[six                 ]|#####################################             |  75%[pip                 ]|#########################################         |  83%[python-dateutil     ]|#############################################     |  91%[      COMPLETE      ]|##################################################| 100%
 Removing old work directory
 Source cache directory is: /home/ubuntu/miniconda/conda-bld/src_cache
 Found source in cache: django-tastypie-0.12.1.tar.gz
@@ -289,8 +279,6 @@ The following NEW packages will be INSTALLED:
 
     defusedxml:       0.4.1-py27_0 
     django-tastypie:  0.12.1-py27_0
-    libxml2:          2.9.0-0      
-    libxslt:          1.1.28-0     
     lxml:             3.4.4-py27_0 
     mock:             1.0.1-py27_0 
     openssl:          1.0.1k-1     
@@ -309,9 +297,9 @@ The following NEW packages will be INSTALLED:
     zlib:             1.2.8-0      
 
 Fetching packages ...
-django-tastypi   0% |                              | ETA:  --:--:--   0.00  B/sdjango-tastypi  17% |#####                          | Time: 0:00:00  60.02 MB/sdjango-tastypi  34% |##########                     | Time: 0:00:00  68.11 MB/sdjango-tastypi  51% |###############                | Time: 0:00:00  70.63 MB/sdjango-tastypi  68% |#####################          | Time: 0:00:00  73.07 MB/sdjango-tastypi  85% |##########################     | Time: 0:00:00  75.63 MB/sdjango-tastypi 100% |###############################| Time: 0:00:00  75.78 MB/sdjango-tastypi 100% |###############################| Time: 0:00:00  68.64 MB/sdjango-tastypi 100% |###############################| Time: 0:00:00  60.87 MB/s
+django-tastypi   0% |                              | ETA:  --:--:--   0.00  B/sdjango-tastypi  17% |#####                          | ETA:  0:00:00  47.49 MB/sdjango-tastypi  34% |##########                     | ETA:  0:00:00  59.27 MB/sdjango-tastypi  51% |###############                | ETA:  0:00:00  65.72 MB/sdjango-tastypi  68% |#####################          | ETA:  0:00:00  69.87 MB/sdjango-tastypi  85% |##########################     | ETA:  0:00:00  72.83 MB/sdjango-tastypi 100% |###############################| ETA:  0:00:00  73.37 MB/sdjango-tastypi 100% |###############################| Time: 0:00:00  62.00 MB/s
 Extracting packages ...
 [      COMPLETE      ]|                                                  |   0%[django-tastypie     ]|                                                  |   0%[django-tastypie     ]|                                                  |   0%[      COMPLETE      ]|##################################################| 100%
 Linking packages ...
-[      COMPLETE      ]|                                                  |   0%[openssl             ]|                                                  |   0%[openssl             ]|                                                  |   0%[readline            ]|##                                                |   5%[sqlite              ]|#####                                             |  10%[system              ]|#######                                           |  15%[tk                  ]|##########                                        |  20%[yaml                ]|############                                      |  25%[zlib                ]|###############                                   |  30%[libxml2             ]|#################                                 |  35%[libxslt             ]|####################                              |  40%[defusedxml          ]|######################                            |  45%[lxml                ]|#########################                         |  50%[mock                ]|###########################                       |  55%[python              ]|##############################                    |  60%[python-mimeparse    ]|################################                  |  65%[pyyaml              ]|###################################               |  70%[setuptools          ]|#####################################             |  75%[six                 ]|########################################          |  80%[pip                 ]|##########################################        |  85%[python-dateutil     ]|#############################################     |  90%[django-tastypie     ]|###############################################   |  95%[      COMPLETE      ]|##################################################| 100%
+[      COMPLETE      ]|                                                  |   0%[openssl             ]|                                                  |   0%[openssl             ]|                                                  |   0%[readline            ]|##                                                |   5%[sqlite              ]|#####                                             |  11%[system              ]|########                                          |  16%[tk                  ]|###########                                       |  22%[yaml                ]|#############                                     |  27%[zlib                ]|################                                  |  33%[defusedxml          ]|###################                               |  38%[lxml                ]|######################                            |  44%[mock                ]|#########################                         |  50%[python              ]|###########################                       |  55%[python-mimeparse    ]|##############################                    |  61%[pyyaml              ]|#################################                 |  66%[setuptools          ]|####################################              |  72%[six                 ]|######################################            |  77%[pip                 ]|#########################################         |  83%[python-dateutil     ]|############################################      |  88%[django-tastypie     ]|###############################################   |  94%[      COMPLETE      ]|##################################################| 100%
 TESTS FAILED: django-tastypie-0.12.1-py27_0

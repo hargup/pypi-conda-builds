@@ -157,7 +157,7 @@ The following NEW packages will be INSTALLED:
     zlib:       1.2.8-0      
 
 Fetching packages ...
-radicale-0.10-   0% |                              | ETA:  --:--:--   0.00  B/sradicale-0.10-  32% |##########                     | ETA:  0:00:00  48.19 MB/sradicale-0.10-  65% |####################           | ETA:  0:00:00  59.70 MB/sradicale-0.10-  98% |############################## | ETA:  0:00:00  66.61 MB/sradicale-0.10- 100% |###############################| ETA:  0:00:00  56.94 MB/sradicale-0.10- 100% |###############################| Time: 0:00:00  44.73 MB/s
+radicale-0.10-   0% |                              | ETA:  --:--:--   0.00  B/sradicale-0.10-  32% |##########                     | ETA:  0:00:00  44.28 MB/sradicale-0.10-  65% |####################           | ETA:  0:00:00  56.68 MB/sradicale-0.10-  98% |############################## | ETA:  0:00:00  63.83 MB/sradicale-0.10- 100% |###############################| ETA:  0:00:00  54.62 MB/sradicale-0.10- 100% |###############################| Time: 0:00:00  43.40 MB/s
 Extracting packages ...
 [      COMPLETE      ]|                                                  |   0%[radicale            ]|                                                  |   0%[radicale            ]|                                                  |   0%[      COMPLETE      ]|##################################################| 100%
 Linking packages ...

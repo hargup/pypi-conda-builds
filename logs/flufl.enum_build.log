@@ -148,7 +148,7 @@ The following NEW packages will be INSTALLED:
     zlib:       1.2.8-0      
 
 Fetching packages ...
-flufl.enum-4.0   0% |                              | ETA:  --:--:--   0.00  B/sflufl.enum-4.0  93% |#############################  | ETA:  0:00:00  47.79 MB/sflufl.enum-4.0 100% |###############################| ETA:  0:00:00  34.41 MB/sflufl.enum-4.0 100% |###############################| Time: 0:00:00  22.57 MB/s
+flufl.enum-4.0   0% |                              | ETA:  --:--:--   0.00  B/sflufl.enum-4.0  93% |#############################  | ETA:  0:00:00  47.76 MB/sflufl.enum-4.0 100% |###############################| ETA:  0:00:00  34.67 MB/sflufl.enum-4.0 100% |###############################| Time: 0:00:00  23.17 MB/s
 Extracting packages ...
 [      COMPLETE      ]|                                                  |   0%[flufl.enum          ]|                                                  |   0%[flufl.enum          ]|                                                  |   0%[      COMPLETE      ]|##################################################| 100%
 Linking packages ...

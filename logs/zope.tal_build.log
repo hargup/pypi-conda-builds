@@ -10,4 +10,552 @@ conda update -n root conda-build
 
 to get the latest version.
 
-Error: No packages found in current linux-64 channels matching: zope.i18nmessageid
+Solving package specifications: .+ /home/ubuntu/miniconda/envs/_build/bin/python setup.py install
+running install
+running bdist_egg
+running egg_info
+writing requirements to src/zope.tal.egg-info/requires.txt
+writing src/zope.tal.egg-info/PKG-INFO
+writing namespace_packages to src/zope.tal.egg-info/namespace_packages.txt
+writing top-level names to src/zope.tal.egg-info/top_level.txt
+writing dependency_links to src/zope.tal.egg-info/dependency_links.txt
+reading manifest file 'src/zope.tal.egg-info/SOURCES.txt'
+reading manifest template 'MANIFEST.in'
+writing manifest file 'src/zope.tal.egg-info/SOURCES.txt'
+installing library code to build/bdist.linux-x86_64/egg
+running install_lib
+running build_py
+creating build
+creating build/lib
+creating build/lib/zope
+copying src/zope/__init__.py -> build/lib/zope
+creating build/lib/zope/tal
+copying src/zope/tal/xmlparser.py -> build/lib/zope/tal
+copying src/zope/tal/htmltalparser.py -> build/lib/zope/tal
+copying src/zope/tal/runtest.py -> build/lib/zope/tal
+copying src/zope/tal/talinterpreter.py -> build/lib/zope/tal
+copying src/zope/tal/dummyengine.py -> build/lib/zope/tal
+copying src/zope/tal/interfaces.py -> build/lib/zope/tal
+copying src/zope/tal/taldefs.py -> build/lib/zope/tal
+copying src/zope/tal/timer.py -> build/lib/zope/tal
+copying src/zope/tal/talparser.py -> build/lib/zope/tal
+copying src/zope/tal/__init__.py -> build/lib/zope/tal
+copying src/zope/tal/talgettext.py -> build/lib/zope/tal
+copying src/zope/tal/translationcontext.py -> build/lib/zope/tal
+copying src/zope/tal/talgenerator.py -> build/lib/zope/tal
+copying src/zope/tal/driver.py -> build/lib/zope/tal
+creating build/lib/zope/tal/benchmark
+copying src/zope/tal/benchmark/__init__.py -> build/lib/zope/tal/benchmark
+creating build/lib/zope/tal/tests
+copying src/zope/tal/tests/test_talgettext.py -> build/lib/zope/tal/tests
+copying src/zope/tal/tests/test_talinterpreter.py -> build/lib/zope/tal/tests
+copying src/zope/tal/tests/test_xmlparser.py -> build/lib/zope/tal/tests
+copying src/zope/tal/tests/utils.py -> build/lib/zope/tal/tests
+copying src/zope/tal/tests/test_files.py -> build/lib/zope/tal/tests
+copying src/zope/tal/tests/test_sourcepos.py -> build/lib/zope/tal/tests
+copying src/zope/tal/tests/test_talparser.py -> build/lib/zope/tal/tests
+copying src/zope/tal/tests/run.py -> build/lib/zope/tal/tests
+copying src/zope/tal/tests/__init__.py -> build/lib/zope/tal/tests
+copying src/zope/tal/tests/test_htmltalparser.py -> build/lib/zope/tal/tests
+copying src/zope/tal/tests/markbench.py -> build/lib/zope/tal/tests
+creating build/lib/zope/tal/tests/input
+copying src/zope/tal/tests/input/__init__.py -> build/lib/zope/tal/tests/input
+creating build/lib/zope/tal/tests/output
+copying src/zope/tal/tests/output/__init__.py -> build/lib/zope/tal/tests/output
+copying src/zope/tal/benchmark/dtml01.html -> build/lib/zope/tal/benchmark
+copying src/zope/tal/benchmark/dtml02.html -> build/lib/zope/tal/benchmark
+copying src/zope/tal/benchmark/dtml03.html -> build/lib/zope/tal/benchmark
+copying src/zope/tal/benchmark/dtml04.html -> build/lib/zope/tal/benchmark
+copying src/zope/tal/benchmark/dtml05.html -> build/lib/zope/tal/benchmark
+copying src/zope/tal/benchmark/dtml06.html -> build/lib/zope/tal/benchmark
+copying src/zope/tal/benchmark/dtml07.html -> build/lib/zope/tal/benchmark
+copying src/zope/tal/benchmark/dtml08.html -> build/lib/zope/tal/benchmark
+copying src/zope/tal/benchmark/dtml09.html -> build/lib/zope/tal/benchmark
+copying src/zope/tal/benchmark/dtml10.html -> build/lib/zope/tal/benchmark
+copying src/zope/tal/benchmark/dtml11.html -> build/lib/zope/tal/benchmark
+copying src/zope/tal/benchmark/dtml12.html -> build/lib/zope/tal/benchmark
+copying src/zope/tal/benchmark/tal01.html -> build/lib/zope/tal/benchmark
+copying src/zope/tal/benchmark/tal02.html -> build/lib/zope/tal/benchmark
+copying src/zope/tal/benchmark/tal03.html -> build/lib/zope/tal/benchmark
+copying src/zope/tal/benchmark/tal04.html -> build/lib/zope/tal/benchmark
+copying src/zope/tal/benchmark/tal05.html -> build/lib/zope/tal/benchmark
+copying src/zope/tal/benchmark/tal06.html -> build/lib/zope/tal/benchmark
+copying src/zope/tal/benchmark/tal07.html -> build/lib/zope/tal/benchmark
+copying src/zope/tal/benchmark/tal08.html -> build/lib/zope/tal/benchmark
+copying src/zope/tal/benchmark/tal09.html -> build/lib/zope/tal/benchmark
+copying src/zope/tal/benchmark/tal10.html -> build/lib/zope/tal/benchmark
+copying src/zope/tal/benchmark/tal11.html -> build/lib/zope/tal/benchmark
+copying src/zope/tal/benchmark/tal12.html -> build/lib/zope/tal/benchmark
+copying src/zope/tal/tests/input/acme_template.pt -> build/lib/zope/tal/tests/input
+copying src/zope/tal/tests/input/document_list.pt -> build/lib/zope/tal/tests/input
+copying src/zope/tal/tests/input/pnome_template.pt -> build/lib/zope/tal/tests/input
+copying src/zope/tal/tests/input/test01.html -> build/lib/zope/tal/tests/input
+copying src/zope/tal/tests/input/test01.xml -> build/lib/zope/tal/tests/input
+copying src/zope/tal/tests/input/test02.html -> build/lib/zope/tal/tests/input
+copying src/zope/tal/tests/input/test02.xml -> build/lib/zope/tal/tests/input
+copying src/zope/tal/tests/input/test03.html -> build/lib/zope/tal/tests/input
+copying src/zope/tal/tests/input/test03.xml -> build/lib/zope/tal/tests/input
+copying src/zope/tal/tests/input/test04.html -> build/lib/zope/tal/tests/input
+copying src/zope/tal/tests/input/test04.xml -> build/lib/zope/tal/tests/input
+copying src/zope/tal/tests/input/test05.html -> build/lib/zope/tal/tests/input
+copying src/zope/tal/tests/input/test05.xml -> build/lib/zope/tal/tests/input
+copying src/zope/tal/tests/input/test06.html -> build/lib/zope/tal/tests/input
+copying src/zope/tal/tests/input/test06.xml -> build/lib/zope/tal/tests/input
+copying src/zope/tal/tests/input/test07.html -> build/lib/zope/tal/tests/input
+copying src/zope/tal/tests/input/test07.xml -> build/lib/zope/tal/tests/input
+copying src/zope/tal/tests/input/test08.html -> build/lib/zope/tal/tests/input
+copying src/zope/tal/tests/input/test08.xml -> build/lib/zope/tal/tests/input
+copying src/zope/tal/tests/input/test09.html -> build/lib/zope/tal/tests/input
+copying src/zope/tal/tests/input/test09.xml -> build/lib/zope/tal/tests/input
+copying src/zope/tal/tests/input/test10.html -> build/lib/zope/tal/tests/input
+copying src/zope/tal/tests/input/test11.html -> build/lib/zope/tal/tests/input
+copying src/zope/tal/tests/input/test11.xml -> build/lib/zope/tal/tests/input
+copying src/zope/tal/tests/input/test12.html -> build/lib/zope/tal/tests/input
+copying src/zope/tal/tests/input/test13.html -> build/lib/zope/tal/tests/input
+copying src/zope/tal/tests/input/test14.html -> build/lib/zope/tal/tests/input
+copying src/zope/tal/tests/input/test14.xml -> build/lib/zope/tal/tests/input
+copying src/zope/tal/tests/input/test15.html -> build/lib/zope/tal/tests/input
+copying src/zope/tal/tests/input/test16.html -> build/lib/zope/tal/tests/input
+copying src/zope/tal/tests/input/test16.xml -> build/lib/zope/tal/tests/input
+copying src/zope/tal/tests/input/test17.html -> build/lib/zope/tal/tests/input
+copying src/zope/tal/tests/input/test17.xml -> build/lib/zope/tal/tests/input
+copying src/zope/tal/tests/input/test18.html -> build/lib/zope/tal/tests/input
+copying src/zope/tal/tests/input/test18.xml -> build/lib/zope/tal/tests/input
+copying src/zope/tal/tests/input/test19.html -> build/lib/zope/tal/tests/input
+copying src/zope/tal/tests/input/test19.xml -> build/lib/zope/tal/tests/input
+copying src/zope/tal/tests/input/test20.html -> build/lib/zope/tal/tests/input
+copying src/zope/tal/tests/input/test20.xml -> build/lib/zope/tal/tests/input
+copying src/zope/tal/tests/input/test21.html -> build/lib/zope/tal/tests/input
+copying src/zope/tal/tests/input/test21.xml -> build/lib/zope/tal/tests/input
+copying src/zope/tal/tests/input/test22.html -> build/lib/zope/tal/tests/input
+copying src/zope/tal/tests/input/test22.xml -> build/lib/zope/tal/tests/input
+copying src/zope/tal/tests/input/test23.html -> build/lib/zope/tal/tests/input
+copying src/zope/tal/tests/input/test24.html -> build/lib/zope/tal/tests/input
+copying src/zope/tal/tests/input/test25.html -> build/lib/zope/tal/tests/input
+copying src/zope/tal/tests/input/test26.html -> build/lib/zope/tal/tests/input
+copying src/zope/tal/tests/input/test27.html -> build/lib/zope/tal/tests/input
+copying src/zope/tal/tests/input/test28.html -> build/lib/zope/tal/tests/input
+copying src/zope/tal/tests/input/test29.html -> build/lib/zope/tal/tests/input
+copying src/zope/tal/tests/input/test30.html -> build/lib/zope/tal/tests/input
+copying src/zope/tal/tests/input/test31.html -> build/lib/zope/tal/tests/input
+copying src/zope/tal/tests/input/test32.html -> build/lib/zope/tal/tests/input
+copying src/zope/tal/tests/input/test33.html -> build/lib/zope/tal/tests/input
+copying src/zope/tal/tests/input/test34.html -> build/lib/zope/tal/tests/input
+copying src/zope/tal/tests/input/test35.html -> build/lib/zope/tal/tests/input
+copying src/zope/tal/tests/input/test36.html -> build/lib/zope/tal/tests/input
+copying src/zope/tal/tests/input/test37.html -> build/lib/zope/tal/tests/input
+copying src/zope/tal/tests/input/test_domain.html -> build/lib/zope/tal/tests/input
+copying src/zope/tal/tests/input/test_failed_attr_translation.html -> build/lib/zope/tal/tests/input
+copying src/zope/tal/tests/input/test_metal1.html -> build/lib/zope/tal/tests/input
+copying src/zope/tal/tests/input/test_metal2.html -> build/lib/zope/tal/tests/input
+copying src/zope/tal/tests/input/test_metal3.html -> build/lib/zope/tal/tests/input
+copying src/zope/tal/tests/input/test_metal4.html -> build/lib/zope/tal/tests/input
+copying src/zope/tal/tests/input/test_metal5.html -> build/lib/zope/tal/tests/input
+copying src/zope/tal/tests/input/test_metal6.html -> build/lib/zope/tal/tests/input
+copying src/zope/tal/tests/input/test_metal7.html -> build/lib/zope/tal/tests/input
+copying src/zope/tal/tests/input/test_metal8.html -> build/lib/zope/tal/tests/input
+copying src/zope/tal/tests/input/test_metal9.html -> build/lib/zope/tal/tests/input
+copying src/zope/tal/tests/input/test_sa1.html -> build/lib/zope/tal/tests/input
+copying src/zope/tal/tests/input/test_sa1.xml -> build/lib/zope/tal/tests/input
+copying src/zope/tal/tests/input/test_sa2.html -> build/lib/zope/tal/tests/input
+copying src/zope/tal/tests/input/test_sa2.xml -> build/lib/zope/tal/tests/input
+copying src/zope/tal/tests/input/test_sa3.html -> build/lib/zope/tal/tests/input
+copying src/zope/tal/tests/input/test_sa3.xml -> build/lib/zope/tal/tests/input
+copying src/zope/tal/tests/input/test_sa4.html -> build/lib/zope/tal/tests/input
+copying src/zope/tal/tests/output/acme_template.html -> build/lib/zope/tal/tests/output
+copying src/zope/tal/tests/output/acme_template_source.html -> build/lib/zope/tal/tests/output
+copying src/zope/tal/tests/output/document_list.html -> build/lib/zope/tal/tests/output
+copying src/zope/tal/tests/output/document_list_source.html -> build/lib/zope/tal/tests/output
+copying src/zope/tal/tests/output/test01.html -> build/lib/zope/tal/tests/output
+copying src/zope/tal/tests/output/test01.xml -> build/lib/zope/tal/tests/output
+copying src/zope/tal/tests/output/test02.html -> build/lib/zope/tal/tests/output
+copying src/zope/tal/tests/output/test02.xml -> build/lib/zope/tal/tests/output
+copying src/zope/tal/tests/output/test03.html -> build/lib/zope/tal/tests/output
+copying src/zope/tal/tests/output/test03.xml -> build/lib/zope/tal/tests/output
+copying src/zope/tal/tests/output/test04.html -> build/lib/zope/tal/tests/output
+copying src/zope/tal/tests/output/test04.xml -> build/lib/zope/tal/tests/output
+copying src/zope/tal/tests/output/test05.html -> build/lib/zope/tal/tests/output
+copying src/zope/tal/tests/output/test05.xml -> build/lib/zope/tal/tests/output
+copying src/zope/tal/tests/output/test06.html -> build/lib/zope/tal/tests/output
+copying src/zope/tal/tests/output/test06.xml -> build/lib/zope/tal/tests/output
+copying src/zope/tal/tests/output/test07.html -> build/lib/zope/tal/tests/output
+copying src/zope/tal/tests/output/test07.xml -> build/lib/zope/tal/tests/output
+copying src/zope/tal/tests/output/test08.html -> build/lib/zope/tal/tests/output
+copying src/zope/tal/tests/output/test08.xml -> build/lib/zope/tal/tests/output
+copying src/zope/tal/tests/output/test09.html -> build/lib/zope/tal/tests/output
+copying src/zope/tal/tests/output/test09.xml -> build/lib/zope/tal/tests/output
+copying src/zope/tal/tests/output/test10.html -> build/lib/zope/tal/tests/output
+copying src/zope/tal/tests/output/test11.html -> build/lib/zope/tal/tests/output
+copying src/zope/tal/tests/output/test11.xml -> build/lib/zope/tal/tests/output
+copying src/zope/tal/tests/output/test12.html -> build/lib/zope/tal/tests/output
+copying src/zope/tal/tests/output/test13.html -> build/lib/zope/tal/tests/output
+copying src/zope/tal/tests/output/test14.html -> build/lib/zope/tal/tests/output
+copying src/zope/tal/tests/output/test14.xml -> build/lib/zope/tal/tests/output
+copying src/zope/tal/tests/output/test15.html -> build/lib/zope/tal/tests/output
+copying src/zope/tal/tests/output/test16.html -> build/lib/zope/tal/tests/output
+copying src/zope/tal/tests/output/test16.xml -> build/lib/zope/tal/tests/output
+copying src/zope/tal/tests/output/test17.html -> build/lib/zope/tal/tests/output
+copying src/zope/tal/tests/output/test17.xml -> build/lib/zope/tal/tests/output
+copying src/zope/tal/tests/output/test18.html -> build/lib/zope/tal/tests/output
+copying src/zope/tal/tests/output/test18.xml -> build/lib/zope/tal/tests/output
+copying src/zope/tal/tests/output/test19.html -> build/lib/zope/tal/tests/output
+copying src/zope/tal/tests/output/test19.xml -> build/lib/zope/tal/tests/output
+copying src/zope/tal/tests/output/test20.html -> build/lib/zope/tal/tests/output
+copying src/zope/tal/tests/output/test20.xml -> build/lib/zope/tal/tests/output
+copying src/zope/tal/tests/output/test21.html -> build/lib/zope/tal/tests/output
+copying src/zope/tal/tests/output/test21.xml -> build/lib/zope/tal/tests/output
+copying src/zope/tal/tests/output/test22.html -> build/lib/zope/tal/tests/output
+copying src/zope/tal/tests/output/test22.xml -> build/lib/zope/tal/tests/output
+copying src/zope/tal/tests/output/test23.html -> build/lib/zope/tal/tests/output
+copying src/zope/tal/tests/output/test24.html -> build/lib/zope/tal/tests/output
+copying src/zope/tal/tests/output/test25.html -> build/lib/zope/tal/tests/output
+copying src/zope/tal/tests/output/test26.html -> build/lib/zope/tal/tests/output
+copying src/zope/tal/tests/output/test27.html -> build/lib/zope/tal/tests/output
+copying src/zope/tal/tests/output/test28.html -> build/lib/zope/tal/tests/output
+copying src/zope/tal/tests/output/test29.html -> build/lib/zope/tal/tests/output
+copying src/zope/tal/tests/output/test30.html -> build/lib/zope/tal/tests/output
+copying src/zope/tal/tests/output/test31.html -> build/lib/zope/tal/tests/output
+copying src/zope/tal/tests/output/test32.html -> build/lib/zope/tal/tests/output
+copying src/zope/tal/tests/output/test33.html -> build/lib/zope/tal/tests/output
+copying src/zope/tal/tests/output/test34.html -> build/lib/zope/tal/tests/output
+copying src/zope/tal/tests/output/test35.html -> build/lib/zope/tal/tests/output
+copying src/zope/tal/tests/output/test36.html -> build/lib/zope/tal/tests/output
+copying src/zope/tal/tests/output/test37.html -> build/lib/zope/tal/tests/output
+copying src/zope/tal/tests/output/test_domain.html -> build/lib/zope/tal/tests/output
+copying src/zope/tal/tests/output/test_failed_attr_translation.html -> build/lib/zope/tal/tests/output
+copying src/zope/tal/tests/output/test_metal1.html -> build/lib/zope/tal/tests/output
+copying src/zope/tal/tests/output/test_metal2.html -> build/lib/zope/tal/tests/output
+copying src/zope/tal/tests/output/test_metal3.html -> build/lib/zope/tal/tests/output
+copying src/zope/tal/tests/output/test_metal4.html -> build/lib/zope/tal/tests/output
+copying src/zope/tal/tests/output/test_metal5.html -> build/lib/zope/tal/tests/output
+copying src/zope/tal/tests/output/test_metal6.html -> build/lib/zope/tal/tests/output
+copying src/zope/tal/tests/output/test_metal7.html -> build/lib/zope/tal/tests/output
+copying src/zope/tal/tests/output/test_metal8.html -> build/lib/zope/tal/tests/output
+copying src/zope/tal/tests/output/test_metal9.html -> build/lib/zope/tal/tests/output
+copying src/zope/tal/tests/output/test_sa1.html -> build/lib/zope/tal/tests/output
+copying src/zope/tal/tests/output/test_sa1.xml -> build/lib/zope/tal/tests/output
+copying src/zope/tal/tests/output/test_sa2.html -> build/lib/zope/tal/tests/output
+copying src/zope/tal/tests/output/test_sa2.xml -> build/lib/zope/tal/tests/output
+copying src/zope/tal/tests/output/test_sa3.html -> build/lib/zope/tal/tests/output
+copying src/zope/tal/tests/output/test_sa3.xml -> build/lib/zope/tal/tests/output
+copying src/zope/tal/tests/output/test_sa4.html -> build/lib/zope/tal/tests/output
+creating build/bdist.linux-x86_64
+creating build/bdist.linux-x86_64/egg
+creating build/bdist.linux-x86_64/egg/zope
+creating build/bdist.linux-x86_64/egg/zope/tal
+copying build/lib/zope/tal/xmlparser.py -> build/bdist.linux-x86_64/egg/zope/tal
+copying build/lib/zope/tal/htmltalparser.py -> build/bdist.linux-x86_64/egg/zope/tal
+copying build/lib/zope/tal/runtest.py -> build/bdist.linux-x86_64/egg/zope/tal
+creating build/bdist.linux-x86_64/egg/zope/tal/benchmark
+copying build/lib/zope/tal/benchmark/dtml06.html -> build/bdist.linux-x86_64/egg/zope/tal/benchmark
+copying build/lib/zope/tal/benchmark/dtml02.html -> build/bdist.linux-x86_64/egg/zope/tal/benchmark
+copying build/lib/zope/tal/benchmark/tal11.html -> build/bdist.linux-x86_64/egg/zope/tal/benchmark
+copying build/lib/zope/tal/benchmark/tal10.html -> build/bdist.linux-x86_64/egg/zope/tal/benchmark
+copying build/lib/zope/tal/benchmark/tal03.html -> build/bdist.linux-x86_64/egg/zope/tal/benchmark
+copying build/lib/zope/tal/benchmark/dtml11.html -> build/bdist.linux-x86_64/egg/zope/tal/benchmark
+copying build/lib/zope/tal/benchmark/tal06.html -> build/bdist.linux-x86_64/egg/zope/tal/benchmark
+copying build/lib/zope/tal/benchmark/tal05.html -> build/bdist.linux-x86_64/egg/zope/tal/benchmark
+copying build/lib/zope/tal/benchmark/dtml05.html -> build/bdist.linux-x86_64/egg/zope/tal/benchmark
+copying build/lib/zope/tal/benchmark/tal08.html -> build/bdist.linux-x86_64/egg/zope/tal/benchmark
+copying build/lib/zope/tal/benchmark/tal09.html -> build/bdist.linux-x86_64/egg/zope/tal/benchmark
+copying build/lib/zope/tal/benchmark/tal01.html -> build/bdist.linux-x86_64/egg/zope/tal/benchmark
+copying build/lib/zope/tal/benchmark/dtml12.html -> build/bdist.linux-x86_64/egg/zope/tal/benchmark
+copying build/lib/zope/tal/benchmark/dtml07.html -> build/bdist.linux-x86_64/egg/zope/tal/benchmark
+copying build/lib/zope/tal/benchmark/tal12.html -> build/bdist.linux-x86_64/egg/zope/tal/benchmark
+copying build/lib/zope/tal/benchmark/tal07.html -> build/bdist.linux-x86_64/egg/zope/tal/benchmark
+copying build/lib/zope/tal/benchmark/dtml09.html -> build/bdist.linux-x86_64/egg/zope/tal/benchmark
+copying build/lib/zope/tal/benchmark/dtml03.html -> build/bdist.linux-x86_64/egg/zope/tal/benchmark
+copying build/lib/zope/tal/benchmark/__init__.py -> build/bdist.linux-x86_64/egg/zope/tal/benchmark
+copying build/lib/zope/tal/benchmark/tal02.html -> build/bdist.linux-x86_64/egg/zope/tal/benchmark
+copying build/lib/zope/tal/benchmark/dtml01.html -> build/bdist.linux-x86_64/egg/zope/tal/benchmark
+copying build/lib/zope/tal/benchmark/tal04.html -> build/bdist.linux-x86_64/egg/zope/tal/benchmark
+copying build/lib/zope/tal/benchmark/dtml10.html -> build/bdist.linux-x86_64/egg/zope/tal/benchmark
+copying build/lib/zope/tal/benchmark/dtml08.html -> build/bdist.linux-x86_64/egg/zope/tal/benchmark
+copying build/lib/zope/tal/benchmark/dtml04.html -> build/bdist.linux-x86_64/egg/zope/tal/benchmark
+copying build/lib/zope/tal/talinterpreter.py -> build/bdist.linux-x86_64/egg/zope/tal
+copying build/lib/zope/tal/dummyengine.py -> build/bdist.linux-x86_64/egg/zope/tal
+copying build/lib/zope/tal/interfaces.py -> build/bdist.linux-x86_64/egg/zope/tal
+creating build/bdist.linux-x86_64/egg/zope/tal/tests
+copying build/lib/zope/tal/tests/test_talgettext.py -> build/bdist.linux-x86_64/egg/zope/tal/tests
+copying build/lib/zope/tal/tests/test_talinterpreter.py -> build/bdist.linux-x86_64/egg/zope/tal/tests
+copying build/lib/zope/tal/tests/test_xmlparser.py -> build/bdist.linux-x86_64/egg/zope/tal/tests
+copying build/lib/zope/tal/tests/utils.py -> build/bdist.linux-x86_64/egg/zope/tal/tests
+copying build/lib/zope/tal/tests/test_files.py -> build/bdist.linux-x86_64/egg/zope/tal/tests
+creating build/bdist.linux-x86_64/egg/zope/tal/tests/input
+copying build/lib/zope/tal/tests/input/test10.html -> build/bdist.linux-x86_64/egg/zope/tal/tests/input
+copying build/lib/zope/tal/tests/input/test23.html -> build/bdist.linux-x86_64/egg/zope/tal/tests/input
+copying build/lib/zope/tal/tests/input/test28.html -> build/bdist.linux-x86_64/egg/zope/tal/tests/input
+copying build/lib/zope/tal/tests/input/test05.xml -> build/bdist.linux-x86_64/egg/zope/tal/tests/input
+copying build/lib/zope/tal/tests/input/test13.html -> build/bdist.linux-x86_64/egg/zope/tal/tests/input
+copying build/lib/zope/tal/tests/input/test_metal2.html -> build/bdist.linux-x86_64/egg/zope/tal/tests/input
+copying build/lib/zope/tal/tests/input/test29.html -> build/bdist.linux-x86_64/egg/zope/tal/tests/input
+copying build/lib/zope/tal/tests/input/test_domain.html -> build/bdist.linux-x86_64/egg/zope/tal/tests/input
+copying build/lib/zope/tal/tests/input/test_sa3.xml -> build/bdist.linux-x86_64/egg/zope/tal/tests/input
+copying build/lib/zope/tal/tests/input/test18.html -> build/bdist.linux-x86_64/egg/zope/tal/tests/input
+copying build/lib/zope/tal/tests/input/test19.xml -> build/bdist.linux-x86_64/egg/zope/tal/tests/input
+copying build/lib/zope/tal/tests/input/test_failed_attr_translation.html -> build/bdist.linux-x86_64/egg/zope/tal/tests/input
+copying build/lib/zope/tal/tests/input/test_metal6.html -> build/bdist.linux-x86_64/egg/zope/tal/tests/input
+copying build/lib/zope/tal/tests/input/test06.xml -> build/bdist.linux-x86_64/egg/zope/tal/tests/input
+copying build/lib/zope/tal/tests/input/test16.xml -> build/bdist.linux-x86_64/egg/zope/tal/tests/input
+copying build/lib/zope/tal/tests/input/test19.html -> build/bdist.linux-x86_64/egg/zope/tal/tests/input
+copying build/lib/zope/tal/tests/input/test33.html -> build/bdist.linux-x86_64/egg/zope/tal/tests/input
+copying build/lib/zope/tal/tests/input/test16.html -> build/bdist.linux-x86_64/egg/zope/tal/tests/input
+copying build/lib/zope/tal/tests/input/acme_template.pt -> build/bdist.linux-x86_64/egg/zope/tal/tests/input
+copying build/lib/zope/tal/tests/input/test03.xml -> build/bdist.linux-x86_64/egg/zope/tal/tests/input
+copying build/lib/zope/tal/tests/input/test35.html -> build/bdist.linux-x86_64/egg/zope/tal/tests/input
+copying build/lib/zope/tal/tests/input/test07.xml -> build/bdist.linux-x86_64/egg/zope/tal/tests/input
+copying build/lib/zope/tal/tests/input/test21.html -> build/bdist.linux-x86_64/egg/zope/tal/tests/input
+copying build/lib/zope/tal/tests/input/test_metal9.html -> build/bdist.linux-x86_64/egg/zope/tal/tests/input
+copying build/lib/zope/tal/tests/input/test14.html -> build/bdist.linux-x86_64/egg/zope/tal/tests/input
+copying build/lib/zope/tal/tests/input/test09.xml -> build/bdist.linux-x86_64/egg/zope/tal/tests/input
+copying build/lib/zope/tal/tests/input/test25.html -> build/bdist.linux-x86_64/egg/zope/tal/tests/input
+copying build/lib/zope/tal/tests/input/test22.html -> build/bdist.linux-x86_64/egg/zope/tal/tests/input
+copying build/lib/zope/tal/tests/input/test04.xml -> build/bdist.linux-x86_64/egg/zope/tal/tests/input
+copying build/lib/zope/tal/tests/input/test15.html -> build/bdist.linux-x86_64/egg/zope/tal/tests/input
+copying build/lib/zope/tal/tests/input/test09.html -> build/bdist.linux-x86_64/egg/zope/tal/tests/input
+copying build/lib/zope/tal/tests/input/test22.xml -> build/bdist.linux-x86_64/egg/zope/tal/tests/input
+copying build/lib/zope/tal/tests/input/test_sa1.html -> build/bdist.linux-x86_64/egg/zope/tal/tests/input
+copying build/lib/zope/tal/tests/input/test21.xml -> build/bdist.linux-x86_64/egg/zope/tal/tests/input
+copying build/lib/zope/tal/tests/input/test11.xml -> build/bdist.linux-x86_64/egg/zope/tal/tests/input
+copying build/lib/zope/tal/tests/input/test_sa2.xml -> build/bdist.linux-x86_64/egg/zope/tal/tests/input
+copying build/lib/zope/tal/tests/input/test26.html -> build/bdist.linux-x86_64/egg/zope/tal/tests/input
+copying build/lib/zope/tal/tests/input/test01.xml -> build/bdist.linux-x86_64/egg/zope/tal/tests/input
+copying build/lib/zope/tal/tests/input/test17.html -> build/bdist.linux-x86_64/egg/zope/tal/tests/input
+copying build/lib/zope/tal/tests/input/test18.xml -> build/bdist.linux-x86_64/egg/zope/tal/tests/input
+copying build/lib/zope/tal/tests/input/document_list.pt -> build/bdist.linux-x86_64/egg/zope/tal/tests/input
+copying build/lib/zope/tal/tests/input/test05.html -> build/bdist.linux-x86_64/egg/zope/tal/tests/input
+copying build/lib/zope/tal/tests/input/test37.html -> build/bdist.linux-x86_64/egg/zope/tal/tests/input
+copying build/lib/zope/tal/tests/input/test07.html -> build/bdist.linux-x86_64/egg/zope/tal/tests/input
+copying build/lib/zope/tal/tests/input/test06.html -> build/bdist.linux-x86_64/egg/zope/tal/tests/input
+copying build/lib/zope/tal/tests/input/test24.html -> build/bdist.linux-x86_64/egg/zope/tal/tests/input
+copying build/lib/zope/tal/tests/input/test14.xml -> build/bdist.linux-x86_64/egg/zope/tal/tests/input
+copying build/lib/zope/tal/tests/input/test_sa1.xml -> build/bdist.linux-x86_64/egg/zope/tal/tests/input
+copying build/lib/zope/tal/tests/input/test_metal1.html -> build/bdist.linux-x86_64/egg/zope/tal/tests/input
+copying build/lib/zope/tal/tests/input/test02.xml -> build/bdist.linux-x86_64/egg/zope/tal/tests/input
+copying build/lib/zope/tal/tests/input/test11.html -> build/bdist.linux-x86_64/egg/zope/tal/tests/input
+copying build/lib/zope/tal/tests/input/test_metal5.html -> build/bdist.linux-x86_64/egg/zope/tal/tests/input
+copying build/lib/zope/tal/tests/input/test17.xml -> build/bdist.linux-x86_64/egg/zope/tal/tests/input
+copying build/lib/zope/tal/tests/input/test_sa4.html -> build/bdist.linux-x86_64/egg/zope/tal/tests/input
+copying build/lib/zope/tal/tests/input/test04.html -> build/bdist.linux-x86_64/egg/zope/tal/tests/input
+copying build/lib/zope/tal/tests/input/test32.html -> build/bdist.linux-x86_64/egg/zope/tal/tests/input
+copying build/lib/zope/tal/tests/input/test01.html -> build/bdist.linux-x86_64/egg/zope/tal/tests/input
+copying build/lib/zope/tal/tests/input/test27.html -> build/bdist.linux-x86_64/egg/zope/tal/tests/input
+copying build/lib/zope/tal/tests/input/__init__.py -> build/bdist.linux-x86_64/egg/zope/tal/tests/input
+copying build/lib/zope/tal/tests/input/test_metal7.html -> build/bdist.linux-x86_64/egg/zope/tal/tests/input
+copying build/lib/zope/tal/tests/input/test12.html -> build/bdist.linux-x86_64/egg/zope/tal/tests/input
+copying build/lib/zope/tal/tests/input/test34.html -> build/bdist.linux-x86_64/egg/zope/tal/tests/input
+copying build/lib/zope/tal/tests/input/test_sa3.html -> build/bdist.linux-x86_64/egg/zope/tal/tests/input
+copying build/lib/zope/tal/tests/input/test_metal4.html -> build/bdist.linux-x86_64/egg/zope/tal/tests/input
+copying build/lib/zope/tal/tests/input/test08.html -> build/bdist.linux-x86_64/egg/zope/tal/tests/input
+copying build/lib/zope/tal/tests/input/test31.html -> build/bdist.linux-x86_64/egg/zope/tal/tests/input
+copying build/lib/zope/tal/tests/input/test03.html -> build/bdist.linux-x86_64/egg/zope/tal/tests/input
+copying build/lib/zope/tal/tests/input/test20.xml -> build/bdist.linux-x86_64/egg/zope/tal/tests/input
+copying build/lib/zope/tal/tests/input/test02.html -> build/bdist.linux-x86_64/egg/zope/tal/tests/input
+copying build/lib/zope/tal/tests/input/test20.html -> build/bdist.linux-x86_64/egg/zope/tal/tests/input
+copying build/lib/zope/tal/tests/input/test_sa2.html -> build/bdist.linux-x86_64/egg/zope/tal/tests/input
+copying build/lib/zope/tal/tests/input/test_metal8.html -> build/bdist.linux-x86_64/egg/zope/tal/tests/input
+copying build/lib/zope/tal/tests/input/test36.html -> build/bdist.linux-x86_64/egg/zope/tal/tests/input
+copying build/lib/zope/tal/tests/input/test_metal3.html -> build/bdist.linux-x86_64/egg/zope/tal/tests/input
+copying build/lib/zope/tal/tests/input/test08.xml -> build/bdist.linux-x86_64/egg/zope/tal/tests/input
+copying build/lib/zope/tal/tests/input/test30.html -> build/bdist.linux-x86_64/egg/zope/tal/tests/input
+copying build/lib/zope/tal/tests/input/pnome_template.pt -> build/bdist.linux-x86_64/egg/zope/tal/tests/input
+copying build/lib/zope/tal/tests/test_sourcepos.py -> build/bdist.linux-x86_64/egg/zope/tal/tests
+creating build/bdist.linux-x86_64/egg/zope/tal/tests/output
+copying build/lib/zope/tal/tests/output/test10.html -> build/bdist.linux-x86_64/egg/zope/tal/tests/output
+copying build/lib/zope/tal/tests/output/test23.html -> build/bdist.linux-x86_64/egg/zope/tal/tests/output
+copying build/lib/zope/tal/tests/output/test28.html -> build/bdist.linux-x86_64/egg/zope/tal/tests/output
+copying build/lib/zope/tal/tests/output/test05.xml -> build/bdist.linux-x86_64/egg/zope/tal/tests/output
+copying build/lib/zope/tal/tests/output/test13.html -> build/bdist.linux-x86_64/egg/zope/tal/tests/output
+copying build/lib/zope/tal/tests/output/test_metal2.html -> build/bdist.linux-x86_64/egg/zope/tal/tests/output
+copying build/lib/zope/tal/tests/output/test29.html -> build/bdist.linux-x86_64/egg/zope/tal/tests/output
+copying build/lib/zope/tal/tests/output/test_domain.html -> build/bdist.linux-x86_64/egg/zope/tal/tests/output
+copying build/lib/zope/tal/tests/output/test_sa3.xml -> build/bdist.linux-x86_64/egg/zope/tal/tests/output
+copying build/lib/zope/tal/tests/output/test18.html -> build/bdist.linux-x86_64/egg/zope/tal/tests/output
+copying build/lib/zope/tal/tests/output/test19.xml -> build/bdist.linux-x86_64/egg/zope/tal/tests/output
+copying build/lib/zope/tal/tests/output/test_failed_attr_translation.html -> build/bdist.linux-x86_64/egg/zope/tal/tests/output
+copying build/lib/zope/tal/tests/output/test_metal6.html -> build/bdist.linux-x86_64/egg/zope/tal/tests/output
+copying build/lib/zope/tal/tests/output/test06.xml -> build/bdist.linux-x86_64/egg/zope/tal/tests/output
+copying build/lib/zope/tal/tests/output/document_list_source.html -> build/bdist.linux-x86_64/egg/zope/tal/tests/output
+copying build/lib/zope/tal/tests/output/test16.xml -> build/bdist.linux-x86_64/egg/zope/tal/tests/output
+copying build/lib/zope/tal/tests/output/test19.html -> build/bdist.linux-x86_64/egg/zope/tal/tests/output
+copying build/lib/zope/tal/tests/output/test33.html -> build/bdist.linux-x86_64/egg/zope/tal/tests/output
+copying build/lib/zope/tal/tests/output/test16.html -> build/bdist.linux-x86_64/egg/zope/tal/tests/output
+copying build/lib/zope/tal/tests/output/test03.xml -> build/bdist.linux-x86_64/egg/zope/tal/tests/output
+copying build/lib/zope/tal/tests/output/test35.html -> build/bdist.linux-x86_64/egg/zope/tal/tests/output
+copying build/lib/zope/tal/tests/output/test07.xml -> build/bdist.linux-x86_64/egg/zope/tal/tests/output
+copying build/lib/zope/tal/tests/output/test21.html -> build/bdist.linux-x86_64/egg/zope/tal/tests/output
+copying build/lib/zope/tal/tests/output/acme_template_source.html -> build/bdist.linux-x86_64/egg/zope/tal/tests/output
+copying build/lib/zope/tal/tests/output/test_metal9.html -> build/bdist.linux-x86_64/egg/zope/tal/tests/output
+copying build/lib/zope/tal/tests/output/test14.html -> build/bdist.linux-x86_64/egg/zope/tal/tests/output
+copying build/lib/zope/tal/tests/output/test09.xml -> build/bdist.linux-x86_64/egg/zope/tal/tests/output
+copying build/lib/zope/tal/tests/output/test25.html -> build/bdist.linux-x86_64/egg/zope/tal/tests/output
+copying build/lib/zope/tal/tests/output/test22.html -> build/bdist.linux-x86_64/egg/zope/tal/tests/output
+copying build/lib/zope/tal/tests/output/test04.xml -> build/bdist.linux-x86_64/egg/zope/tal/tests/output
+copying build/lib/zope/tal/tests/output/test15.html -> build/bdist.linux-x86_64/egg/zope/tal/tests/output
+copying build/lib/zope/tal/tests/output/acme_template.html -> build/bdist.linux-x86_64/egg/zope/tal/tests/output
+copying build/lib/zope/tal/tests/output/test09.html -> build/bdist.linux-x86_64/egg/zope/tal/tests/output
+copying build/lib/zope/tal/tests/output/test22.xml -> build/bdist.linux-x86_64/egg/zope/tal/tests/output
+copying build/lib/zope/tal/tests/output/test_sa1.html -> build/bdist.linux-x86_64/egg/zope/tal/tests/output
+copying build/lib/zope/tal/tests/output/test21.xml -> build/bdist.linux-x86_64/egg/zope/tal/tests/output
+copying build/lib/zope/tal/tests/output/test11.xml -> build/bdist.linux-x86_64/egg/zope/tal/tests/output
+copying build/lib/zope/tal/tests/output/test_sa2.xml -> build/bdist.linux-x86_64/egg/zope/tal/tests/output
+copying build/lib/zope/tal/tests/output/test26.html -> build/bdist.linux-x86_64/egg/zope/tal/tests/output
+copying build/lib/zope/tal/tests/output/test01.xml -> build/bdist.linux-x86_64/egg/zope/tal/tests/output
+copying build/lib/zope/tal/tests/output/test17.html -> build/bdist.linux-x86_64/egg/zope/tal/tests/output
+copying build/lib/zope/tal/tests/output/test18.xml -> build/bdist.linux-x86_64/egg/zope/tal/tests/output
+copying build/lib/zope/tal/tests/output/test05.html -> build/bdist.linux-x86_64/egg/zope/tal/tests/output
+copying build/lib/zope/tal/tests/output/test37.html -> build/bdist.linux-x86_64/egg/zope/tal/tests/output
+copying build/lib/zope/tal/tests/output/test07.html -> build/bdist.linux-x86_64/egg/zope/tal/tests/output
+copying build/lib/zope/tal/tests/output/test06.html -> build/bdist.linux-x86_64/egg/zope/tal/tests/output
+copying build/lib/zope/tal/tests/output/test24.html -> build/bdist.linux-x86_64/egg/zope/tal/tests/output
+copying build/lib/zope/tal/tests/output/test14.xml -> build/bdist.linux-x86_64/egg/zope/tal/tests/output
+copying build/lib/zope/tal/tests/output/test_sa1.xml -> build/bdist.linux-x86_64/egg/zope/tal/tests/output
+copying build/lib/zope/tal/tests/output/test_metal1.html -> build/bdist.linux-x86_64/egg/zope/tal/tests/output
+copying build/lib/zope/tal/tests/output/test02.xml -> build/bdist.linux-x86_64/egg/zope/tal/tests/output
+copying build/lib/zope/tal/tests/output/test11.html -> build/bdist.linux-x86_64/egg/zope/tal/tests/output
+copying build/lib/zope/tal/tests/output/test_metal5.html -> build/bdist.linux-x86_64/egg/zope/tal/tests/output
+copying build/lib/zope/tal/tests/output/test17.xml -> build/bdist.linux-x86_64/egg/zope/tal/tests/output
+copying build/lib/zope/tal/tests/output/test_sa4.html -> build/bdist.linux-x86_64/egg/zope/tal/tests/output
+copying build/lib/zope/tal/tests/output/test04.html -> build/bdist.linux-x86_64/egg/zope/tal/tests/output
+copying build/lib/zope/tal/tests/output/test32.html -> build/bdist.linux-x86_64/egg/zope/tal/tests/output
+copying build/lib/zope/tal/tests/output/test01.html -> build/bdist.linux-x86_64/egg/zope/tal/tests/output
+copying build/lib/zope/tal/tests/output/test27.html -> build/bdist.linux-x86_64/egg/zope/tal/tests/output
+copying build/lib/zope/tal/tests/output/__init__.py -> build/bdist.linux-x86_64/egg/zope/tal/tests/output
+copying build/lib/zope/tal/tests/output/test_metal7.html -> build/bdist.linux-x86_64/egg/zope/tal/tests/output
+copying build/lib/zope/tal/tests/output/test12.html -> build/bdist.linux-x86_64/egg/zope/tal/tests/output
+copying build/lib/zope/tal/tests/output/test34.html -> build/bdist.linux-x86_64/egg/zope/tal/tests/output
+copying build/lib/zope/tal/tests/output/test_sa3.html -> build/bdist.linux-x86_64/egg/zope/tal/tests/output
+copying build/lib/zope/tal/tests/output/test_metal4.html -> build/bdist.linux-x86_64/egg/zope/tal/tests/output
+copying build/lib/zope/tal/tests/output/test08.html -> build/bdist.linux-x86_64/egg/zope/tal/tests/output
+copying build/lib/zope/tal/tests/output/test31.html -> build/bdist.linux-x86_64/egg/zope/tal/tests/output
+copying build/lib/zope/tal/tests/output/test03.html -> build/bdist.linux-x86_64/egg/zope/tal/tests/output
+copying build/lib/zope/tal/tests/output/test20.xml -> build/bdist.linux-x86_64/egg/zope/tal/tests/output
+copying build/lib/zope/tal/tests/output/test02.html -> build/bdist.linux-x86_64/egg/zope/tal/tests/output
+copying build/lib/zope/tal/tests/output/test20.html -> build/bdist.linux-x86_64/egg/zope/tal/tests/output
+copying build/lib/zope/tal/tests/output/test_sa2.html -> build/bdist.linux-x86_64/egg/zope/tal/tests/output
+copying build/lib/zope/tal/tests/output/document_list.html -> build/bdist.linux-x86_64/egg/zope/tal/tests/output
+copying build/lib/zope/tal/tests/output/test_metal8.html -> build/bdist.linux-x86_64/egg/zope/tal/tests/output
+copying build/lib/zope/tal/tests/output/test36.html -> build/bdist.linux-x86_64/egg/zope/tal/tests/output
+copying build/lib/zope/tal/tests/output/test_metal3.html -> build/bdist.linux-x86_64/egg/zope/tal/tests/output
+copying build/lib/zope/tal/tests/output/test08.xml -> build/bdist.linux-x86_64/egg/zope/tal/tests/output
+copying build/lib/zope/tal/tests/output/test30.html -> build/bdist.linux-x86_64/egg/zope/tal/tests/output
+copying build/lib/zope/tal/tests/test_talparser.py -> build/bdist.linux-x86_64/egg/zope/tal/tests
+copying build/lib/zope/tal/tests/run.py -> build/bdist.linux-x86_64/egg/zope/tal/tests
+copying build/lib/zope/tal/tests/__init__.py -> build/bdist.linux-x86_64/egg/zope/tal/tests
+copying build/lib/zope/tal/tests/test_htmltalparser.py -> build/bdist.linux-x86_64/egg/zope/tal/tests
+copying build/lib/zope/tal/tests/markbench.py -> build/bdist.linux-x86_64/egg/zope/tal/tests
+copying build/lib/zope/tal/taldefs.py -> build/bdist.linux-x86_64/egg/zope/tal
+copying build/lib/zope/tal/timer.py -> build/bdist.linux-x86_64/egg/zope/tal
+copying build/lib/zope/tal/talparser.py -> build/bdist.linux-x86_64/egg/zope/tal
+copying build/lib/zope/tal/__init__.py -> build/bdist.linux-x86_64/egg/zope/tal
+copying build/lib/zope/tal/talgettext.py -> build/bdist.linux-x86_64/egg/zope/tal
+copying build/lib/zope/tal/translationcontext.py -> build/bdist.linux-x86_64/egg/zope/tal
+copying build/lib/zope/tal/talgenerator.py -> build/bdist.linux-x86_64/egg/zope/tal
+copying build/lib/zope/tal/driver.py -> build/bdist.linux-x86_64/egg/zope/tal
+copying build/lib/zope/__init__.py -> build/bdist.linux-x86_64/egg/zope
+byte-compiling build/bdist.linux-x86_64/egg/zope/tal/xmlparser.py to xmlparser.pyc
+byte-compiling build/bdist.linux-x86_64/egg/zope/tal/htmltalparser.py to htmltalparser.pyc
+byte-compiling build/bdist.linux-x86_64/egg/zope/tal/runtest.py to runtest.pyc
+byte-compiling build/bdist.linux-x86_64/egg/zope/tal/benchmark/__init__.py to __init__.pyc
+byte-compiling build/bdist.linux-x86_64/egg/zope/tal/talinterpreter.py to talinterpreter.pyc
+byte-compiling build/bdist.linux-x86_64/egg/zope/tal/dummyengine.py to dummyengine.pyc
+byte-compiling build/bdist.linux-x86_64/egg/zope/tal/interfaces.py to interfaces.pyc
+byte-compiling build/bdist.linux-x86_64/egg/zope/tal/tests/test_talgettext.py to test_talgettext.pyc
+byte-compiling build/bdist.linux-x86_64/egg/zope/tal/tests/test_talinterpreter.py to test_talinterpreter.pyc
+byte-compiling build/bdist.linux-x86_64/egg/zope/tal/tests/test_xmlparser.py to test_xmlparser.pyc
+byte-compiling build/bdist.linux-x86_64/egg/zope/tal/tests/utils.py to utils.pyc
+byte-compiling build/bdist.linux-x86_64/egg/zope/tal/tests/test_files.py to test_files.pyc
+byte-compiling build/bdist.linux-x86_64/egg/zope/tal/tests/input/__init__.py to __init__.pyc
+byte-compiling build/bdist.linux-x86_64/egg/zope/tal/tests/test_sourcepos.py to test_sourcepos.pyc
+byte-compiling build/bdist.linux-x86_64/egg/zope/tal/tests/output/__init__.py to __init__.pyc
+byte-compiling build/bdist.linux-x86_64/egg/zope/tal/tests/test_talparser.py to test_talparser.pyc
+byte-compiling build/bdist.linux-x86_64/egg/zope/tal/tests/run.py to run.pyc
+byte-compiling build/bdist.linux-x86_64/egg/zope/tal/tests/__init__.py to __init__.pyc
+byte-compiling build/bdist.linux-x86_64/egg/zope/tal/tests/test_htmltalparser.py to test_htmltalparser.pyc
+byte-compiling build/bdist.linux-x86_64/egg/zope/tal/tests/markbench.py to markbench.pyc
+byte-compiling build/bdist.linux-x86_64/egg/zope/tal/taldefs.py to taldefs.pyc
+byte-compiling build/bdist.linux-x86_64/egg/zope/tal/timer.py to timer.pyc
+byte-compiling build/bdist.linux-x86_64/egg/zope/tal/talparser.py to talparser.pyc
+byte-compiling build/bdist.linux-x86_64/egg/zope/tal/__init__.py to __init__.pyc
+byte-compiling build/bdist.linux-x86_64/egg/zope/tal/talgettext.py to talgettext.pyc
+byte-compiling build/bdist.linux-x86_64/egg/zope/tal/translationcontext.py to translationcontext.pyc
+byte-compiling build/bdist.linux-x86_64/egg/zope/tal/talgenerator.py to talgenerator.pyc
+byte-compiling build/bdist.linux-x86_64/egg/zope/tal/driver.py to driver.pyc
+byte-compiling build/bdist.linux-x86_64/egg/zope/__init__.py to __init__.pyc
+creating build/bdist.linux-x86_64/egg/EGG-INFO
+copying src/zope.tal.egg-info/PKG-INFO -> build/bdist.linux-x86_64/egg/EGG-INFO
+copying src/zope.tal.egg-info/SOURCES.txt -> build/bdist.linux-x86_64/egg/EGG-INFO
+copying src/zope.tal.egg-info/dependency_links.txt -> build/bdist.linux-x86_64/egg/EGG-INFO
+copying src/zope.tal.egg-info/namespace_packages.txt -> build/bdist.linux-x86_64/egg/EGG-INFO
+copying src/zope.tal.egg-info/not-zip-safe -> build/bdist.linux-x86_64/egg/EGG-INFO
+copying src/zope.tal.egg-info/requires.txt -> build/bdist.linux-x86_64/egg/EGG-INFO
+copying src/zope.tal.egg-info/top_level.txt -> build/bdist.linux-x86_64/egg/EGG-INFO
+creating dist
+creating 'dist/zope.tal-4.1.1-py2.7.egg' and adding 'build/bdist.linux-x86_64/egg' to it
+removing 'build/bdist.linux-x86_64/egg' (and everything under it)
+Processing zope.tal-4.1.1-py2.7.egg
+creating /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/zope.tal-4.1.1-py2.7.egg
+Extracting zope.tal-4.1.1-py2.7.egg to /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages
+Adding zope.tal 4.1.1 to easy-install.pth file
+
+Installed /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages/zope.tal-4.1.1-py2.7.egg
+Processing dependencies for zope.tal==4.1.1
+Searching for zope.interface==4.1.2
+Best match: zope.interface 4.1.2
+Adding zope.interface 4.1.2 to easy-install.pth file
+
+Using /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages
+Searching for zope.i18nmessageid==4.0.3
+Best match: zope.i18nmessageid 4.0.3
+Adding zope.i18nmessageid 4.0.3 to easy-install.pth file
+
+Using /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages
+Searching for setuptools==15.2
+Best match: setuptools 15.2
+Adding setuptools 15.2 to easy-install.pth file
+Installing easy_install-3.4 script to /home/ubuntu/miniconda/envs/_build/bin
+Installing easy_install script to /home/ubuntu/miniconda/envs/_build/bin
+
+Using /home/ubuntu/miniconda/envs/_build/lib/python2.7/site-packages
+Finished processing dependencies for zope.tal==4.1.1
+
+The following NEW packages will be INSTALLED:
+
+    nose:               1.3.7-py27_0 
+    openssl:            1.0.1k-1     
+    pip:                7.0.3-py27_0 
+    python:             2.7.10-0     
+    readline:           6.2-2        
+    setuptools:         18.0.1-py27_0
+    sqlite:             3.8.4.1-1    
+    system:             5.8-2        
+    tk:                 8.5.18-0     
+    zlib:               1.2.8-0      
+    zope.exceptions:    4.0.7-py_0   
+    zope.i18nmessageid: 4.0.3-py27_0 
+    zope.interface:     4.1.2-py27_1 
+    zope.testing:       4.2.0-py27_0 
+
+Linking packages ...
+[                    ]|                                                  |   0%[openssl             ]|                                                  |   0%[readline            ]|###                                               |   7%[sqlite              ]|#######                                           |  14%[system              ]|##########                                        |  21%[tk                  ]|##############                                    |  28%[zlib                ]|#################                                 |  35%[nose                ]|#####################                             |  42%[python              ]|#########################                         |  50%[setuptools          ]|############################                      |  57%[zope.i18nmessageid  ]|################################                  |  64%[zope.interface      ]|###################################               |  71%[pip                 ]|#######################################           |  78%[zope.exceptions     ]|##########################################        |  85%[zope.testing        ]|##############################################    |  92%[      COMPLETE      ]|##################################################| 100%
+Removing old work directory
+Source cache directory is: /home/ubuntu/miniconda/conda-bld/src_cache
+Found source in cache: zope.tal-4.1.1.tar.gz
+Extracting download
+Package: zope.tal-4.1.1-py_0
+source tree in: /home/ubuntu/miniconda/conda-bld/work/zope.tal-4.1.1
+number of files: 243
+Fixing permissions
+Fixing permissions
+BUILD END: zope.tal-4.1.1-py_0
+TEST START: zope.tal-4.1.1-py_0
+Fetching package metadata: ......
+
+WARNING: conda-build appears to be out of date. You have version 1.13.0 but the
+latest version is 1.14.1. Run
+
+conda update -n root conda-build
+
+to get the latest version.
+
+Error: No packages found in current linux-64 channels matching: zope.testrunner

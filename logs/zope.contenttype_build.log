@@ -147,7 +147,7 @@ The following NEW packages will be INSTALLED:
     zope.contenttype: 4.1.0-py_0   
 
 Fetching packages ...
-zope.contentty   0% |                              | ETA:  --:--:--   0.00  B/szope.contentty  19% |#####                          | ETA:  0:00:00  46.53 MB/szope.contentty  38% |###########                    | ETA:  0:00:00   3.74 MB/szope.contentty  57% |#################              | ETA:  0:00:00   5.49 MB/szope.contentty  77% |#######################        | ETA:  0:00:00   7.17 MB/szope.contentty  96% |#############################  | ETA:  0:00:00   8.79 MB/szope.contentty 100% |###############################| ETA:  0:00:00   8.99 MB/szope.contentty 100% |###############################| Time: 0:00:00   8.76 MB/s
+zope.contentty   0% |                              | ETA:  --:--:--   0.00  B/szope.contentty  19% |#####                          | ETA:  0:00:00  47.23 MB/szope.contentty  38% |###########                    | ETA:  0:00:00  56.89 MB/szope.contentty  57% |#################              | ETA:  0:00:00  64.08 MB/szope.contentty  77% |#######################        | ETA:  0:00:00  68.19 MB/szope.contentty  96% |#############################  | ETA:  0:00:00  71.42 MB/szope.contentty 100% |###############################| ETA:  0:00:00  66.16 MB/szope.contentty 100% |###############################| Time: 0:00:00  55.98 MB/s
 Extracting packages ...
 [      COMPLETE      ]|                                                  |   0%[zope.contenttype    ]|                                                  |   0%[zope.contenttype    ]|                                                  |   0%[      COMPLETE      ]|##################################################| 100%
 Linking packages ...

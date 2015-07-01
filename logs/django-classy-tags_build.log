@@ -174,7 +174,7 @@ The following NEW packages will be INSTALLED:
     zlib:               1.2.8-0      
 
 Fetching packages ...
-django-classy-   0% |                              | ETA:  --:--:--   0.00  B/sdjango-classy-  46% |##############                 | ETA:  0:00:00  46.81 MB/sdjango-classy-  92% |############################   | ETA:  0:00:00  57.77 MB/sdjango-classy- 100% |###############################| ETA:  0:00:00  47.40 MB/sdjango-classy- 100% |###############################| Time: 0:00:00  35.46 MB/s
+django-classy-   0% |                              | ETA:  --:--:--   0.00  B/sdjango-classy-  46% |##############                 | ETA:  0:00:00  47.10 MB/sdjango-classy-  92% |############################   | ETA:  0:00:00  58.53 MB/sdjango-classy- 100% |###############################| ETA:  0:00:00  50.02 MB/sdjango-classy- 100% |###############################| Time: 0:00:00  38.50 MB/s
 Extracting packages ...
 [      COMPLETE      ]|                                                  |   0%[django-classy-tags  ]|                                                  |   0%[django-classy-tags  ]|                                                  |   0%[      COMPLETE      ]|##################################################| 100%
 Linking packages ...

@@ -138,7 +138,7 @@ The following NEW packages will be INSTALLED:
     zlib:              1.2.8-0      
 
 Fetching packages ...
-teamcity-messa   0% |                              | ETA:  --:--:--   0.00  B/steamcity-messa  59% |##################             | ETA:  0:00:00  46.53 MB/steamcity-messa 100% |###############################| ETA:  0:00:00  50.65 MB/steamcity-messa 100% |###############################| Time: 0:00:00  36.32 MB/s
+teamcity-messa   0% |                              | ETA:  --:--:--   0.00  B/steamcity-messa  59% |##################             | ETA:  0:00:00  45.15 MB/steamcity-messa 100% |###############################| ETA:  0:00:00  49.28 MB/steamcity-messa 100% |###############################| Time: 0:00:00  34.00 MB/s
 Extracting packages ...
 [      COMPLETE      ]|                                                  |   0%[teamcity-messages   ]|                                                  |   0%[teamcity-messages   ]|                                                  |   0%[      COMPLETE      ]|##################################################| 100%
 Linking packages ...

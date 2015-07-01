@@ -61,6 +61,7 @@
 |mozlog|:x:|[None](./logs/mozlog_build.log)|
 |bitstring|:+1:|[None](./logs/bitstring_build.log)|
 |kivy|:x:|[None](./logs/kivy_build.log)|
+|coverage|:x:|[None](./logs/coverage_build.log)|
 |wheezy.core|:+1:|[None](./logs/wheezy.core_build.log)|
 |icalendar|:+1:|[None](./logs/icalendar_build.log)|
 |pyodbc|:x:|[None](./logs/pyodbc_build.log)|
@@ -149,11 +150,11 @@
 |python-statsd|:+1:|[None](./logs/python-statsd_build.log)|
 |flask-cors|:+1:|[None](./logs/flask-cors_build.log)|
 |pyinotify|:+1:|[None](./logs/pyinotify_build.log)|
-|dogpile.cache|:+1:|[None](./logs/dogpile.cache_build.log)|
+|dogpile.cache|:x:|[None](./logs/dogpile.cache_build.log)|
 |pyaml|:+1:|[None](./logs/pyaml_build.log)|
 |prody|:x:|[None](./logs/prody_build.log)|
 |http-parser|:+1:|[None](./logs/http-parser_build.log)|
-|zope.sqlalchemy|:x:|[None](./logs/zope.sqlalchemy_build.log)|
+|zope.sqlalchemy|:+1:|[None](./logs/zope.sqlalchemy_build.log)|
 |gnureadline|:x:|[None](./logs/gnureadline_build.log)|
 |serpent|:+1:|[None](./logs/serpent_build.log)|
 |zope.interface|:x:|[None](./logs/zope.interface_build.log)|
@@ -298,6 +299,7 @@
 |os_diskconfig_python_novaclient_ext|:x:|[None](./logs/os_diskconfig_python_novaclient_ext_build.log)|
 |whoosh|:+1:|[None](./logs/whoosh_build.log)|
 |s3config|:+1:|[None](./logs/s3config_build.log)|
+|pysolr|:+1:|[None](./logs/pysolr_build.log)|
 |products.placelesstranslationservice|:x:|[None](./logs/products.placelesstranslationservice_build.log)|
 |stuf|:x:|[None](./logs/stuf_build.log)|
 |django-indexer|:x:|[None](./logs/django-indexer_build.log)|
@@ -382,7 +384,7 @@
 |python-logstash|:+1:|[None](./logs/python-logstash_build.log)|
 |python-openid|:+1:|[None](./logs/python-openid_build.log)|
 |flufl.enum|:x:|[None](./logs/flufl.enum_build.log)|
-|zc.lockfile|:x:|[None](./logs/zc.lockfile_build.log)|
+|zc.lockfile|:+1:|[None](./logs/zc.lockfile_build.log)|
 |django-bootstrap-toolkit|:x:|[None](./logs/django-bootstrap-toolkit_build.log)|
 |django-annoying|:x:|[None](./logs/django-annoying_build.log)|
 |smmap|:+1:|[None](./logs/smmap_build.log)|
@@ -461,7 +463,7 @@
 |weberror|:x:|[None](./logs/weberror_build.log)|
 |pystache|:x:|[None](./logs/pystache_build.log)|
 |pyramid_beaker|:x:|[None](./logs/pyramid_beaker_build.log)|
-|zope.dottedname|:x:|[None](./logs/zope.dottedname_build.log)|
+|zope.dottedname|:+1:|[None](./logs/zope.dottedname_build.log)|
 |dbf|:x:|[None](./logs/dbf_build.log)|
 |pyhammer|:x:|[None](./logs/pyhammer_build.log)|
 |oslotest|:+1:|[None](./logs/oslotest_build.log)|
@@ -604,7 +606,7 @@
 |cql|:+1:|[None](./logs/cql_build.log)|
 |django-pipeline|:x:|[None](./logs/django-pipeline_build.log)|
 |hwrt|:x:|[None](./logs/hwrt_build.log)|
-|btrees|:x:|[None](./logs/btrees_build.log)|
+|gspread|:+1:|[None](./logs/gspread_build.log)|
 |oslosphinx|:+1:|[None](./logs/oslosphinx_build.log)|
 |python-instagram|:x:|[None](./logs/python-instagram_build.log)|
 |xstatic-jquery|:+1:|[None](./logs/xstatic-jquery_build.log)|
@@ -674,7 +676,7 @@
 |zope.index|:x:|[None](./logs/zope.index_build.log)|
 |cssmin|:x:|[None](./logs/cssmin_build.log)|
 |django-webtest|:x:|[None](./logs/django-webtest_build.log)|
-|flask-assets|:+1:|[None](./logs/flask-assets_build.log)|
+|flask-assets|:x:|[None](./logs/flask-assets_build.log)|
 |pycups|:x:|[None](./logs/pycups_build.log)|
 |vcstools|:+1:|[None](./logs/vcstools_build.log)|
 |transaction|:x:|[None](./logs/transaction_build.log)|
@@ -814,7 +816,7 @@
 |dropbox|:x:|[None](./logs/dropbox_build.log)|
 |python-termstyle|:+1:|[None](./logs/python-termstyle_build.log)|
 |watchdog|:x:|[None](./logs/watchdog_build.log)|
-|pysolr|:+1:|[None](./logs/pysolr_build.log)|
+|btrees|:x:|[None](./logs/btrees_build.log)|
 |guppy|:x:|[None](./logs/guppy_build.log)|
 |plone.app.redirector|:x:|[None](./logs/plone.app.redirector_build.log)|
 |fabric|:x:|[None](./logs/fabric_build.log)|
@@ -902,7 +904,7 @@
 |parse_type|:x:|[None](./logs/parse_type_build.log)|
 |django-cms|:x:|[None](./logs/django-cms_build.log)|
 |munerator|:x:|[None](./logs/munerator_build.log)|
-|coverage|:x:|[None](./logs/coverage_build.log)|
+|codecov|:x:|[None](./logs/codecov_build.log)|
 |user-agents|:+1:|[None](./logs/user-agents_build.log)|
 |django-redis-cache|:x:|[None](./logs/django-redis-cache_build.log)|
 |django-braces|:+1:|[None](./logs/django-braces_build.log)|
@@ -924,6 +926,6 @@
 |idna|:x:|[None](./logs/idna_build.log)|
 |zc.recipe.testrunner|:x:|[None](./logs/zc.recipe.testrunner_build.log)|
 
-Succesful builds : 396/923
+Succesful builds : 398/925
 
-Failed Builds: 527/923
+Failed Builds: 527/925

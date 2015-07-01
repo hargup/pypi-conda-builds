@@ -147,7 +147,7 @@ The following NEW packages will be INSTALLED:
     zlib:           1.2.8-0      
 
 Fetching packages ...
-django-tagging   0% |                              | ETA:  --:--:--   0.00  B/sdjango-tagging  43% |#############                  | ETA:  0:00:00  47.62 MB/sdjango-tagging  86% |##########################     | ETA:  0:00:00  59.57 MB/sdjango-tagging 100% |###############################| ETA:  0:00:00  53.02 MB/sdjango-tagging 100% |###############################| Time: 0:00:00  39.63 MB/s
+django-tagging   0% |                              | ETA:  --:--:--   0.00  B/sdjango-tagging  43% |#############                  | ETA:  0:00:00  40.26 MB/sdjango-tagging  86% |##########################     | ETA:  0:00:00   2.56 MB/sdjango-tagging 100% |###############################| ETA:  0:00:00   2.93 MB/sdjango-tagging 100% |###############################| Time: 0:00:00   2.88 MB/s
 Extracting packages ...
 [      COMPLETE      ]|                                                  |   0%[django-tagging      ]|                                                  |   0%[django-tagging      ]|                                                  |   0%[      COMPLETE      ]|##################################################| 100%
 Linking packages ...

@@ -156,7 +156,7 @@ The following NEW packages will be INSTALLED:
     zlib:       1.2.8-0      
 
 Fetching packages ...
-mozprocess-0.2   0% |                              | ETA:  --:--:--   0.00  B/smozprocess-0.2  89% |###########################    | ETA:  0:00:00  45.87 MB/smozprocess-0.2 100% |###############################| ETA:  0:00:00  35.05 MB/smozprocess-0.2 100% |###############################| Time: 0:00:00  23.61 MB/s
+mozprocess-0.2   0% |                              | ETA:  --:--:--   0.00  B/smozprocess-0.2  89% |###########################    | ETA:  0:00:00  45.78 MB/smozprocess-0.2 100% |###############################| ETA:  0:00:00  35.06 MB/smozprocess-0.2 100% |###############################| Time: 0:00:00  23.92 MB/s
 Extracting packages ...
 [      COMPLETE      ]|                                                  |   0%[mozprocess          ]|                                                  |   0%[mozprocess          ]|                                                  |   0%[      COMPLETE      ]|##################################################| 100%
 Linking packages ...

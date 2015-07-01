@@ -16,12 +16,6 @@ Warning: 2 possible package resolutions (only showing differing packages):
 	[u'prettytable-0.7.2-py27_0.tar.bz2'],
 /home/ubuntu/miniconda/pkgs/prettytable-0.7.2-py_0/bin/.prettytable-pre-link.sh: line 2: /home/ubuntu/miniconda/envs/_build/bin/python: No such file or directory
 
-The following packages will be downloaded:
-
-    package                    |            build
-    ---------------------------|-----------------
-    prettytable-0.7.2          |             py_0          12 KB
-
 The following NEW packages will be INSTALLED:
 
     openssl:     1.0.1k-1     
@@ -36,9 +30,5 @@ The following NEW packages will be INSTALLED:
     tk:          8.5.18-0     
     zlib:        1.2.8-0      
 
-Fetching packages ...
-prettytable-0.   0% |                              | ETA:  --:--:--   0.00  B/sprettytable-0. 100% |###############################| ETA:  0:00:00  25.99 MB/sprettytable-0. 100% |###############################| Time: 0:00:00  16.93 MB/s
-Extracting packages ...
-[                    ]|                                                  |   0%[prettytable         ]|                                                  |   0%[      COMPLETE      ]|##################################################| 100%
 Linking packages ...
-[      COMPLETE      ]|                                                  |   0%[openssl             ]|                                                  |   0%[openssl             ]|                                                  |   0%[readline            ]|####                                              |   9%[sqlite              ]|#########                                         |  18%[system              ]|#############                                     |  27%[tk                  ]|##################                                |  36%[zlib                ]|######################                            |  45%[prettytable         ]|###########################                       |  54%Error: pre-link failed: prettytable-0.7.2-py_0
+[                    ]|                                                  |   0%[openssl             ]|                                                  |   0%[readline            ]|####                                              |   9%[sqlite              ]|#########                                         |  18%[system              ]|#############                                     |  27%[tk                  ]|##################                                |  36%[zlib                ]|######################                            |  45%[prettytable         ]|###########################                       |  54%Error: pre-link failed: prettytable-0.7.2-py_0

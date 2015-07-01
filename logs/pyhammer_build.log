@@ -238,7 +238,7 @@ The following NEW packages will be INSTALLED:
     zlib:       1.2.8-0      
 
 Fetching packages ...
-pyhammer-0.5.2   0% |                              | ETA:  --:--:--   0.00  B/spyhammer-0.5.2 100% |###############################| ETA:  0:00:00  30.44 MB/spyhammer-0.5.2 100% |###############################| Time: 0:00:00  17.37 MB/s
+pyhammer-0.5.2   0% |                              | ETA:  --:--:--   0.00  B/spyhammer-0.5.2 100% |###############################| ETA:  0:00:00  30.72 MB/spyhammer-0.5.2 100% |###############################| Time: 0:00:00  17.58 MB/s
 Extracting packages ...
 [      COMPLETE      ]|                                                  |   0%[pyhammer            ]|                                                  |   0%[pyhammer            ]|                                                  |   0%[      COMPLETE      ]|##################################################| 100%
 Linking packages ...

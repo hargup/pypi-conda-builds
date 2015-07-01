@@ -182,7 +182,7 @@ The following NEW packages will be INSTALLED:
     zlib:        1.2.8-0      
 
 Fetching packages ...
-jsonpath-rw-1.   0% |                              | ETA:  --:--:--   0.00  B/sjsonpath-rw-1.  19% |#####                          | ETA:  0:00:00  46.81 MB/sjsonpath-rw-1.  38% |###########                    | ETA:  0:00:00  57.99 MB/sjsonpath-rw-1.  57% |#################              | ETA:  0:00:00  65.10 MB/sjsonpath-rw-1.  76% |#######################        | ETA:  0:00:00  69.41 MB/sjsonpath-rw-1.  95% |#############################  | ETA:  0:00:00  72.63 MB/sjsonpath-rw-1. 100% |###############################| ETA:  0:00:00  67.26 MB/sjsonpath-rw-1. 100% |###############################| Time: 0:00:00  56.81 MB/s
+jsonpath-rw-1.   0% |                              | ETA:  --:--:--   0.00  B/sjsonpath-rw-1.  19% |#####                          | ETA:  0:00:00  47.36 MB/sjsonpath-rw-1.  38% |###########                    | ETA:  0:00:00  58.19 MB/sjsonpath-rw-1.  57% |#################              | ETA:  0:00:00  63.18 MB/sjsonpath-rw-1.  76% |#######################        | ETA:  0:00:00  67.49 MB/sjsonpath-rw-1.  95% |#############################  | ETA:  0:00:00  70.61 MB/sjsonpath-rw-1. 100% |###############################| ETA:  0:00:00  65.96 MB/sjsonpath-rw-1. 100% |###############################| Time: 0:00:00  55.97 MB/s
 Extracting packages ...
 [      COMPLETE      ]|                                                  |   0%[jsonpath-rw         ]|                                                  |   0%[jsonpath-rw         ]|                                                  |   0%[      COMPLETE      ]|##################################################| 100%
 Linking packages ...

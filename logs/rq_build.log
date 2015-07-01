@@ -41,7 +41,7 @@ The following NEW packages will be INSTALLED:
     zlib:       1.2.8-0      
 
 Fetching packages ...
-importlib-1.0.   0% |                              | ETA:  --:--:--   0.00  B/simportlib-1.0. 100% |###############################| ETA:  0:00:00   4.75 MB/simportlib-1.0. 100% |###############################| Time: 0:00:00   2.90 MB/s
+importlib-1.0.   0% |                              | ETA:  --:--:--   0.00  B/simportlib-1.0. 100% |###############################| ETA:  0:00:00   4.83 MB/simportlib-1.0. 100% |###############################| Time: 0:00:00   2.93 MB/s
 Extracting packages ...
 [                    ]|                                                  |   0%[importlib           ]|                                                  |   0%[      COMPLETE      ]|##################################################| 100%
 Linking packages ...

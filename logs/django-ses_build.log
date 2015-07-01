@@ -193,7 +193,7 @@ The following NEW packages will be INSTALLED:
     zlib:       1.2.8-0      
 
 Fetching packages ...
-django-ses-0.7   0% |                              | ETA:  --:--:--   0.00  B/sdjango-ses-0.7  30% |#########                      | ETA:  0:00:00  46.56 MB/sdjango-ses-0.7  61% |###################            | ETA:  0:00:00  57.89 MB/sdjango-ses-0.7  92% |############################   | ETA:  0:00:00  65.10 MB/sdjango-ses-0.7 100% |###############################| ETA:  0:00:00  58.54 MB/sdjango-ses-0.7 100% |###############################| Time: 0:00:00  47.41 MB/s
+django-ses-0.7   0% |                              | ETA:  --:--:--   0.00  B/sdjango-ses-0.7  30% |#########                      | ETA:  0:00:00  46.81 MB/sdjango-ses-0.7  61% |###################            | ETA:  0:00:00  58.71 MB/sdjango-ses-0.7  92% |############################   | ETA:  0:00:00  65.53 MB/sdjango-ses-0.7 100% |###############################| ETA:  0:00:00  58.95 MB/sdjango-ses-0.7 100% |###############################| Time: 0:00:00  47.73 MB/s
 Extracting packages ...
 [      COMPLETE      ]|                                                  |   0%[django-ses          ]|                                                  |   0%[django-ses          ]|                                                  |   0%[      COMPLETE      ]|##################################################| 100%
 Linking packages ...

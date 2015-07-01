@@ -125,7 +125,7 @@ The following NEW packages will be INSTALLED:
     zlib:             1.2.8-0      
 
 Fetching packages ...
-recaptcha-clie   0% |                              | ETA:  --:--:--   0.00  B/srecaptcha-clie 100% |###############################| ETA:  0:00:00   1.27 MB/srecaptcha-clie 100% |###############################| Time: 0:00:00   1.23 MB/s
+recaptcha-clie   0% |                              | ETA:  --:--:--   0.00  B/srecaptcha-clie 100% |###############################| ETA:  0:00:00  32.67 MB/srecaptcha-clie 100% |###############################| Time: 0:00:00  18.47 MB/s
 Extracting packages ...
 [      COMPLETE      ]|                                                  |   0%[recaptcha-client    ]|                                                  |   0%[recaptcha-client    ]|                                                  |   0%[      COMPLETE      ]|##################################################| 100%
 Linking packages ...

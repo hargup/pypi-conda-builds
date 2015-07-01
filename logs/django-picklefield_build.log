@@ -133,7 +133,7 @@ The following NEW packages will be INSTALLED:
     zlib:               1.2.8-0      
 
 Fetching packages ...
-django-picklef   0% |                              | ETA:  --:--:--   0.00  B/sdjango-picklef  90% |###########################    | ETA:  0:00:00  47.79 MB/sdjango-picklef 100% |###############################| ETA:  0:00:00  36.02 MB/sdjango-picklef 100% |###############################| Time: 0:00:00   2.04 MB/s
+django-picklef   0% |                              | ETA:  --:--:--   0.00  B/sdjango-picklef  90% |###########################    | ETA:  0:00:00  45.51 MB/sdjango-picklef 100% |###############################| ETA:  0:00:00  34.67 MB/sdjango-picklef 100% |###############################| Time: 0:00:00  23.65 MB/s
 Extracting packages ...
 [      COMPLETE      ]|                                                  |   0%[django-picklefield  ]|                                                  |   0%[django-picklefield  ]|                                                  |   0%[      COMPLETE      ]|##################################################| 100%
 Linking packages ...

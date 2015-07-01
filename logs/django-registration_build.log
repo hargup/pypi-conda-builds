@@ -419,7 +419,7 @@ The following NEW packages will be INSTALLED:
     zlib:                1.2.8-0      
 
 Fetching packages ...
-django-registr   0% |                              | ETA:  --:--:--   0.00  B/sdjango-registr  35% |##########                     | ETA:  0:00:00  42.90 MB/sdjango-registr  70% |#####################          | ETA:  0:00:00  55.35 MB/sdjango-registr 100% |###############################| ETA:  0:00:00  59.64 MB/sdjango-registr 100% |###############################| Time: 0:00:00  45.47 MB/s
+django-registr   0% |                              | ETA:  --:--:--   0.00  B/sdjango-registr  35% |##########                     | ETA:  0:00:00  47.76 MB/sdjango-registr  70% |#####################          | ETA:  0:00:00  59.47 MB/sdjango-registr 100% |###############################| ETA:  0:00:00  60.93 MB/sdjango-registr 100% |###############################| Time: 0:00:00  46.20 MB/s
 Extracting packages ...
 [      COMPLETE      ]|                                                  |   0%[django-registration ]|                                                  |   0%[django-registration ]|                                                  |   0%[      COMPLETE      ]|##################################################| 100%
 Linking packages ...

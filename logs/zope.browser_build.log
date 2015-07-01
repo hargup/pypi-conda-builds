@@ -143,7 +143,7 @@ The following NEW packages will be INSTALLED:
     zope.interface: 4.1.2-py27_1 
 
 Fetching packages ...
-zope.browser-2   0% |                              | ETA:  --:--:--   0.00  B/szope.browser-2  20% |######                         | ETA:  0:00:00  46.56 MB/szope.browser-2  40% |############                   | ETA:  0:00:00  58.09 MB/szope.browser-2  60% |##################             | ETA:  0:00:00  65.28 MB/szope.browser-2  80% |########################       | ETA:  0:00:00  69.34 MB/szope.browser-2 100% |###############################| ETA:  0:00:00  71.55 MB/szope.browser-2 100% |###############################| Time: 0:00:00  59.17 MB/s
+zope.browser-2   0% |                              | ETA:  --:--:--   0.00  B/szope.browser-2  20% |######                         | ETA:  0:00:00  46.68 MB/szope.browser-2  40% |############                   | ETA:  0:00:00  58.09 MB/szope.browser-2  60% |##################             | ETA:  0:00:00  65.26 MB/szope.browser-2  80% |########################       | ETA:  0:00:00  69.64 MB/szope.browser-2 100% |###############################| ETA:  0:00:00  72.01 MB/szope.browser-2 100% |###############################| Time: 0:00:00  59.40 MB/s
 Extracting packages ...
 [      COMPLETE      ]|                                                  |   0%[zope.browser        ]|                                                  |   0%[zope.browser        ]|                                                  |   0%[      COMPLETE      ]|##################################################| 100%
 Linking packages ...

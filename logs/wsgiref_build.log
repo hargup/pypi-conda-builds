@@ -122,7 +122,7 @@ The following NEW packages will be INSTALLED:
     zlib:       1.2.8-0      
 
 Fetching packages ...
-wsgiref-0.1.2-   0% |                              | ETA:  --:--:--   0.00  B/swsgiref-0.1.2-  38% |###########                    | ETA:  0:00:00  44.28 MB/swsgiref-0.1.2-  76% |#######################        | ETA:  0:00:00  56.21 MB/swsgiref-0.1.2- 100% |###############################| ETA:  0:00:00  56.33 MB/swsgiref-0.1.2- 100% |###############################| Time: 0:00:00  42.57 MB/s
+wsgiref-0.1.2-   0% |                              | ETA:  --:--:--   0.00  B/swsgiref-0.1.2-  38% |###########                    | ETA:  0:00:00  45.78 MB/swsgiref-0.1.2-  76% |#######################        | ETA:  0:00:00  57.51 MB/swsgiref-0.1.2- 100% |###############################| ETA:  0:00:00  55.41 MB/swsgiref-0.1.2- 100% |###############################| Time: 0:00:00  41.99 MB/s
 Extracting packages ...
 [      COMPLETE      ]|                                                  |   0%[wsgiref             ]|                                                  |   0%[wsgiref             ]|                                                  |   0%[      COMPLETE      ]|##################################################| 100%
 Linking packages ...

@@ -33,7 +33,7 @@ The following NEW packages will be INSTALLED:
     zlib:       1.2.8-0      
 
 Fetching packages ...
-lockfile-0.10.   0% |                              | ETA:  --:--:--   0.00  B/slockfile-0.10. 100% |###############################| ETA:  0:00:00  21.48 MB/slockfile-0.10. 100% |###############################| Time: 0:00:00  13.63 MB/s
+lockfile-0.10.   0% |                              | ETA:  --:--:--   0.00  B/slockfile-0.10. 100% |###############################| ETA:  0:00:00  21.10 MB/slockfile-0.10. 100% |###############################| Time: 0:00:00  14.09 MB/s
 Extracting packages ...
 [                    ]|                                                  |   0%[lockfile            ]|                                                  |   0%[      COMPLETE      ]|##################################################| 100%
 Linking packages ...

@@ -16,12 +16,6 @@ Warning: 2 possible package resolutions (only showing differing packages):
 	[u'feedparser-5.2.0-py27_0.tar.bz2'],
 /home/ubuntu/miniconda/pkgs/feedparser-5.2.0-py_0/bin/.feedparser-pre-link.sh: line 2: /home/ubuntu/miniconda/envs/_build/bin/python: No such file or directory
 
-The following packages will be downloaded:
-
-    package                    |            build
-    ---------------------------|-----------------
-    feedparser-5.2.0           |             py_0          48 KB
-
 The following NEW packages will be INSTALLED:
 
     django:      1.8.2-py27_0 
@@ -43,9 +37,5 @@ The following NEW packages will be INSTALLED:
     tk:          8.5.18-0     
     zlib:        1.2.8-0      
 
-Fetching packages ...
-feedparser-5.2   0% |                              | ETA:  --:--:--   0.00  B/sfeedparser-5.2  33% |##########                     | ETA:  0:00:00  35.15 MB/sfeedparser-5.2  66% |####################           | ETA:  0:00:00  48.48 MB/sfeedparser-5.2  99% |############################## | ETA:  0:00:00  55.98 MB/sfeedparser-5.2 100% |###############################| Time: 0:00:00  43.15 MB/s
-Extracting packages ...
-[                    ]|                                                  |   0%[feedparser          ]|                                                  |   0%[      COMPLETE      ]|##################################################| 100%
 Linking packages ...
-[      COMPLETE      ]|                                                  |   0%[jpeg                ]|                                                  |   0%[jpeg                ]|                                                  |   0%[libpng              ]|##                                                |   5%[openssl             ]|#####                                             |  11%[readline            ]|########                                          |  16%[sqlite              ]|###########                                       |  22%[system              ]|#############                                     |  27%[tk                  ]|################                                  |  33%[zlib                ]|###################                               |  38%[freetype            ]|######################                            |  44%[libtiff             ]|#########################                         |  50%[django              ]|###########################                       |  55%[django-mptt         ]|##############################                    |  61%[feedparser          ]|#################################                 |  66%Error: pre-link failed: feedparser-5.2.0-py_0
+[                    ]|                                                  |   0%[jpeg                ]|                                                  |   0%[libpng              ]|##                                                |   5%[openssl             ]|#####                                             |  11%[readline            ]|########                                          |  16%[sqlite              ]|###########                                       |  22%[system              ]|#############                                     |  27%[tk                  ]|################                                  |  33%[zlib                ]|###################                               |  38%[freetype            ]|######################                            |  44%[libtiff             ]|#########################                         |  50%[django              ]|###########################                       |  55%[django-mptt         ]|##############################                    |  61%[feedparser          ]|#################################                 |  66%Error: pre-link failed: feedparser-5.2.0-py_0

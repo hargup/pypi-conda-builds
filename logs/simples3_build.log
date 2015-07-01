@@ -120,7 +120,7 @@ The following NEW packages will be INSTALLED:
     zlib:       1.2.8-0      
 
 Fetching packages ...
-simples3-1.0-p   0% |                              | ETA:  --:--:--   0.00  B/ssimples3-1.0-p  50% |###############                | ETA:  0:00:00  45.63 MB/ssimples3-1.0-p 100% |###############################| ETA:  0:00:00  57.17 MB/ssimples3-1.0-p 100% |###############################| Time: 0:00:00  38.80 MB/s
+simples3-1.0-p   0% |                              | ETA:  --:--:--   0.00  B/ssimples3-1.0-p  50% |###############                | ETA:  0:00:00  46.65 MB/ssimples3-1.0-p 100% |###############################| ETA:  0:00:00  57.84 MB/ssimples3-1.0-p 100% |###############################| Time: 0:00:00  40.28 MB/s
 Extracting packages ...
 [      COMPLETE      ]|                                                  |   0%[simples3            ]|                                                  |   0%[simples3            ]|                                                  |   0%[      COMPLETE      ]|##################################################| 100%
 Linking packages ...

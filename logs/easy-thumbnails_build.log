@@ -347,7 +347,7 @@ The following NEW packages will be INSTALLED:
     zlib:            1.2.8-0      
 
 Fetching packages ...
-easy-thumbnail   0% |                              | ETA:  --:--:--   0.00  B/seasy-thumbnail  17% |#####                          | ETA:  0:00:00  45.00 MB/seasy-thumbnail  35% |##########                     | ETA:  0:00:00  56.70 MB/seasy-thumbnail  52% |################               | ETA:  0:00:00  63.41 MB/seasy-thumbnail  70% |#####################          | ETA:  0:00:00  65.93 MB/seasy-thumbnail  87% |###########################    | ETA:  0:00:00  69.30 MB/seasy-thumbnail 100% |###############################| ETA:  0:00:00  68.49 MB/seasy-thumbnail 100% |###############################| Time: 0:00:00  58.03 MB/s
+easy-thumbnail   0% |                              | ETA:  --:--:--   0.00  B/seasy-thumbnail  17% |#####                          | ETA:  0:00:00  46.56 MB/seasy-thumbnail  35% |##########                     | ETA:  0:00:00  58.51 MB/seasy-thumbnail  52% |################               | ETA:  0:00:00  65.45 MB/seasy-thumbnail  70% |#####################          | ETA:  0:00:00  69.36 MB/seasy-thumbnail  88% |###########################    | ETA:  0:00:00  72.57 MB/seasy-thumbnail 100% |###############################| ETA:  0:00:00  71.74 MB/seasy-thumbnail 100% |###############################| Time: 0:00:00  61.95 MB/s
 Extracting packages ...
 [      COMPLETE      ]|                                                  |   0%[easy-thumbnails     ]|                                                  |   0%[easy-thumbnails     ]|                                                  |   0%[      COMPLETE      ]|##################################################| 100%
 Linking packages ...

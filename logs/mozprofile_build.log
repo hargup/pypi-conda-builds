@@ -30,12 +30,6 @@ Warning: 16 possible package resolutions (only showing differing packages):
 	[u'blessings-1.6-py27_0.tar.bz2', u'manifestparser-1.1-py_0.tar.bz2', u'mozfile-1.1-py_0.tar.bz2', u'mozlog-2.11-py_0.tar.bz2'],
 /home/ubuntu/miniconda/pkgs/blessings-1.6-py_0/bin/.blessings-pre-link.sh: line 2: /home/ubuntu/miniconda/envs/_build/bin/python: No such file or directory
 
-The following packages will be downloaded:
-
-    package                    |            build
-    ---------------------------|-----------------
-    mozfile-1.1                |             py_0           6 KB
-
 The following NEW packages will be INSTALLED:
 
     blessings:      1.6-py_0     
@@ -52,9 +46,5 @@ The following NEW packages will be INSTALLED:
     tk:             8.5.18-0     
     zlib:           1.2.8-0      
 
-Fetching packages ...
-mozfile-1.1-py   0% |                              | ETA:  --:--:--   0.00  B/smozfile-1.1-py 100% |###############################| ETA:  0:00:00  13.64 MB/smozfile-1.1-py 100% |###############################| Time: 0:00:00   8.48 MB/s
-Extracting packages ...
-[                    ]|                                                  |   0%[mozfile             ]|                                                  |   0%[      COMPLETE      ]|##################################################| 100%
 Linking packages ...
-[      COMPLETE      ]|                                                  |   0%[openssl             ]|                                                  |   0%[openssl             ]|                                                  |   0%[readline            ]|###                                               |   7%[sqlite              ]|#######                                           |  15%[system              ]|###########                                       |  23%[tk                  ]|###############                                   |  30%[zlib                ]|###################                               |  38%[blessings           ]|#######################                           |  46%Error: pre-link failed: blessings-1.6-py_0
+[                    ]|                                                  |   0%[openssl             ]|                                                  |   0%[readline            ]|###                                               |   7%[sqlite              ]|#######                                           |  15%[system              ]|###########                                       |  23%[tk                  ]|###############                                   |  30%[zlib                ]|###################                               |  38%[blessings           ]|#######################                           |  46%Error: pre-link failed: blessings-1.6-py_0

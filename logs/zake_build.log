@@ -28,12 +28,6 @@ Include the output of the command 'conda info' in your report.
 
 
 
-The following packages will be downloaded:
-
-    package                    |            build
-    ---------------------------|-----------------
-    kazoo-2.2.1                |             py_0          76 KB
-
 The following NEW packages will be INSTALLED:
 
     kazoo:      2.2.1-py_0   
@@ -48,12 +42,8 @@ The following NEW packages will be INSTALLED:
     tk:         8.5.18-0     
     zlib:       1.2.8-0      
 
-Fetching packages ...
-kazoo-2.2.1-py   0% |                              | ETA:  --:--:--   0.00  B/skazoo-2.2.1-py  21% |######                         | ETA:  0:00:00  34.71 MB/skazoo-2.2.1-py  42% |#############                  | ETA:  0:00:00  47.97 MB/skazoo-2.2.1-py  63% |###################            | ETA:  0:00:00  56.30 MB/skazoo-2.2.1-py  84% |##########################     | ETA:  0:00:00  61.59 MB/skazoo-2.2.1-py 100% |###############################| ETA:  0:00:00  62.74 MB/skazoo-2.2.1-py 100% |###############################| Time: 0:00:00  53.63 MB/s
-Extracting packages ...
-[                    ]|                                                  |   0%[kazoo               ]|                                                  |   0%[      COMPLETE      ]|##################################################| 100%
 Linking packages ...
-[      COMPLETE      ]|                                                  |   0%[openssl             ]|                                                  |   0%[openssl             ]|                                                  |   0%[readline            ]|####                                              |   9%[sqlite              ]|#########                                         |  18%[system              ]|#############                                     |  27%[tk                  ]|##################                                |  36%[zlib                ]|######################                            |  45%[python              ]|###########################                       |  54%[setuptools          ]|###############################                   |  63%[six                 ]|####################################              |  72%[kazoo               ]|########################################          |  81%[pip                 ]|#############################################     |  90%[      COMPLETE      ]|##################################################| 100%
+[                    ]|                                                  |   0%[openssl             ]|                                                  |   0%[readline            ]|####                                              |   9%[sqlite              ]|#########                                         |  18%[system              ]|#############                                     |  27%[tk                  ]|##################                                |  36%[zlib                ]|######################                            |  45%[python              ]|###########################                       |  54%[setuptools          ]|###############################                   |  63%[six                 ]|####################################              |  72%[kazoo               ]|########################################          |  81%[pip                 ]|#############################################     |  90%[      COMPLETE      ]|##################################################| 100%
 Removing old work directory
 Source cache directory is: /home/ubuntu/miniconda/conda-bld/src_cache
 Found source in cache: zake-0.2.2.tar.gz

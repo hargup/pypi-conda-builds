@@ -118,7 +118,7 @@ The following NEW packages will be INSTALLED:
     zlib:       1.2.8-0      
 
 Fetching packages ...
-cssselect-0.9.   0% |                              | ETA:  --:--:--   0.00  B/scssselect-0.9.  27% |########                       | ETA:  0:00:00  46.65 MB/scssselect-0.9.  54% |################               | ETA:  0:00:00  58.71 MB/scssselect-0.9.  81% |#########################      | ETA:  0:00:00  65.18 MB/scssselect-0.9. 100% |###############################| ETA:  0:00:00  65.00 MB/scssselect-0.9. 100% |###############################| Time: 0:00:00  53.07 MB/s
+cssselect-0.9.   0% |                              | ETA:  --:--:--   0.00  B/scssselect-0.9.  27% |########                       | ETA:  0:00:00  44.02 MB/scssselect-0.9.  54% |################               | ETA:  0:00:00  56.49 MB/scssselect-0.9.  81% |#########################      | ETA:  0:00:00  63.67 MB/scssselect-0.9. 100% |###############################| ETA:  0:00:00  63.57 MB/scssselect-0.9. 100% |###############################| Time: 0:00:00  50.46 MB/s
 Extracting packages ...
 [      COMPLETE      ]|                                                  |   0%[cssselect           ]|                                                  |   0%[cssselect           ]|                                                  |   0%[      COMPLETE      ]|##################################################| 100%
 Linking packages ...

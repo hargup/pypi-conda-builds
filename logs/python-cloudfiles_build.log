@@ -138,7 +138,7 @@ The following NEW packages will be INSTALLED:
     zlib:              1.2.8-0      
 
 Fetching packages ...
-python-cloudfi   0% |                              | ETA:  --:--:--   0.00  B/spython-cloudfi  91% |############################   | ETA:  0:00:00  41.37 MB/spython-cloudfi 100% |###############################| ETA:  0:00:00  31.88 MB/spython-cloudfi 100% |###############################| Time: 0:00:00   1.99 MB/s
+python-cloudfi   0% |                              | ETA:  --:--:--   0.00  B/spython-cloudfi  91% |############################   | ETA:  0:00:00  48.02 MB/spython-cloudfi 100% |###############################| ETA:  0:00:00  35.55 MB/spython-cloudfi 100% |###############################| Time: 0:00:00  24.96 MB/s
 Extracting packages ...
 [      COMPLETE      ]|                                                  |   0%[python-cloudfiles   ]|                                                  |   0%[python-cloudfiles   ]|                                                  |   0%[      COMPLETE      ]|##################################################| 100%
 Linking packages ...

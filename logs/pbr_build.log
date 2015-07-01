@@ -217,4 +217,4 @@ conda update -n root conda-build
 
 to get the latest version.
 
-Error: No packages found in current linux-64 channels matching: hacking >=0.10.0,<0.11
+Error: No packages found in current linux-64 channels matching: python-subunit >=0.0.18

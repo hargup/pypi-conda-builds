@@ -116,7 +116,7 @@ The following NEW packages will be INSTALLED:
     zlib:       1.2.8-0      
 
 Fetching packages ...
-pexpect-3.3-py   0% |                              | ETA:  --:--:--   0.00  B/spexpect-3.3-py  26% |########                       | ETA:  0:00:00  47.62 MB/spexpect-3.3-py  52% |################               | ETA:  0:00:00  59.34 MB/spexpect-3.3-py  79% |########################       | ETA:  0:00:00  65.78 MB/spexpect-3.3-py 100% |###############################| ETA:  0:00:00  66.77 MB/spexpect-3.3-py 100% |###############################| Time: 0:00:00  54.57 MB/s
+pexpect-3.3-py   0% |                              | ETA:  --:--:--   0.00  B/spexpect-3.3-py  26% |########                       | ETA:  0:00:00  46.68 MB/spexpect-3.3-py  52% |################               | ETA:  0:00:00  58.84 MB/spexpect-3.3-py  79% |########################       | ETA:  0:00:00  65.01 MB/spexpect-3.3-py 100% |###############################| ETA:  0:00:00  66.14 MB/spexpect-3.3-py 100% |###############################| Time: 0:00:00  52.94 MB/s
 Extracting packages ...
 [      COMPLETE      ]|                                                  |   0%[pexpect             ]|                                                  |   0%[pexpect             ]|                                                  |   0%[      COMPLETE      ]|##################################################| 100%
 Linking packages ...

@@ -140,7 +140,7 @@ The following NEW packages will be INSTALLED:
     zlib:        1.2.8-0      
 
 Fetching packages ...
-factory_boy-2.   0% |                              | ETA:  --:--:--   0.00  B/sfactory_boy-2.  23% |#######                        | ETA:  0:00:00  47.92 MB/sfactory_boy-2.  46% |##############                 | ETA:  0:00:00  59.14 MB/sfactory_boy-2.  70% |#####################          | ETA:  0:00:00  63.83 MB/sfactory_boy-2.  93% |############################   | ETA:  0:00:00  67.84 MB/sfactory_boy-2. 100% |###############################| ETA:  0:00:00  62.44 MB/sfactory_boy-2. 100% |###############################| Time: 0:00:00  51.62 MB/s
+factory_boy-2.   0% |                              | ETA:  --:--:--   0.00  B/sfactory_boy-2.  23% |#######                        | ETA:  0:00:00  45.75 MB/sfactory_boy-2.  46% |##############                 | ETA:  0:00:00  54.80 MB/sfactory_boy-2.  70% |#####################          | ETA:  0:00:00  62.13 MB/sfactory_boy-2.  93% |#############################  | ETA:  0:00:00  66.46 MB/sfactory_boy-2. 100% |###############################| ETA:  0:00:00  61.10 MB/sfactory_boy-2. 100% |###############################| Time: 0:00:00  50.59 MB/s
 Extracting packages ...
 [      COMPLETE      ]|                                                  |   0%[factory_boy         ]|                                                  |   0%[factory_boy         ]|                                                  |   0%[      COMPLETE      ]|##################################################| 100%
 Linking packages ...

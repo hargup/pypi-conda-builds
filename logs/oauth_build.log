@@ -108,7 +108,7 @@ The following NEW packages will be INSTALLED:
     zlib:       1.2.8-0      
 
 Fetching packages ...
-oauth-1.0.1-py   0% |                              | ETA:  --:--:--   0.00  B/soauth-1.0.1-py  86% |##########################     | ETA:  0:00:00   1.93 MB/soauth-1.0.1-py 100% |###############################| ETA:  0:00:00   2.20 MB/soauth-1.0.1-py 100% |###############################| Time: 0:00:00   2.14 MB/s
+oauth-1.0.1-py   0% |                              | ETA:  --:--:--   0.00  B/soauth-1.0.1-py  86% |##########################     | ETA:  0:00:00  46.15 MB/soauth-1.0.1-py 100% |###############################| ETA:  0:00:00  36.31 MB/soauth-1.0.1-py 100% |###############################| Time: 0:00:00  24.74 MB/s
 Extracting packages ...
 [      COMPLETE      ]|                                                  |   0%[oauth               ]|                                                  |   0%[oauth               ]|                                                  |   0%[      COMPLETE      ]|##################################################| 100%
 Linking packages ...

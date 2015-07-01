@@ -131,7 +131,7 @@ The following NEW packages will be INSTALLED:
     zlib:       1.2.8-0      
 
 Fetching packages ...
-hiredis-0.2.0-   0% |                              | ETA:  --:--:--   0.00  B/shiredis-0.2.0-  33% |##########                     | ETA:  0:00:00  46.40 MB/shiredis-0.2.0-  67% |#####################          | ETA:  0:00:00  57.89 MB/shiredis-0.2.0- 100% |###############################| ETA:  0:00:00  64.05 MB/shiredis-0.2.0- 100% |###############################| Time: 0:00:00  49.43 MB/s
+hiredis-0.2.0-   0% |                              | ETA:  --:--:--   0.00  B/shiredis-0.2.0-  33% |##########                     | ETA:  0:00:00  44.42 MB/shiredis-0.2.0-  67% |#####################          | ETA:  0:00:00  56.40 MB/shiredis-0.2.0- 100% |###############################| ETA:  0:00:00  62.98 MB/shiredis-0.2.0- 100% |###############################| Time: 0:00:00  47.74 MB/s
 Extracting packages ...
 [      COMPLETE      ]|                                                  |   0%[hiredis             ]|                                                  |   0%[hiredis             ]|                                                  |   0%[      COMPLETE      ]|##################################################| 100%
 Linking packages ...

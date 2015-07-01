@@ -128,7 +128,7 @@ The following NEW packages will be INSTALLED:
     zlib:            1.2.8-0      
 
 Fetching packages ...
-freezegun-0.3.   0% |                              | ETA:  --:--:--   0.00  B/sfreezegun-0.3. 100% |###############################| ETA:  0:00:00  35.68 MB/sfreezegun-0.3. 100% |###############################| Time: 0:00:00  20.77 MB/s
+freezegun-0.3.   0% |                              | ETA:  --:--:--   0.00  B/sfreezegun-0.3. 100% |###############################| ETA:  0:00:00  37.73 MB/sfreezegun-0.3. 100% |###############################| Time: 0:00:00  22.60 MB/s
 Extracting packages ...
 [      COMPLETE      ]|                                                  |   0%[freezegun           ]|                                                  |   0%[freezegun           ]|                                                  |   0%[      COMPLETE      ]|##################################################| 100%
 Linking packages ...

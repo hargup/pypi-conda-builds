@@ -120,8 +120,8 @@ Reading https://pypi.python.org/simple/websocket-client/
 Best match: websocket-client 0.32.0
 Downloading https://pypi.python.org/packages/source/w/websocket-client/websocket_client-0.32.0.tar.gz#md5=b07a897511a3c585251fe2ea85a9d9d9
 Processing websocket_client-0.32.0.tar.gz
-Writing /tmp/easy_install-fARxiK/websocket_client-0.32.0/setup.cfg
-Running websocket_client-0.32.0/setup.py -q bdist_egg --dist-dir /tmp/easy_install-fARxiK/websocket_client-0.32.0/egg-dist-tmp-Ika4N3
+Writing /tmp/easy_install-1a4dE_/websocket_client-0.32.0/setup.cfg
+Running websocket_client-0.32.0/setup.py -q bdist_egg --dist-dir /tmp/easy_install-1a4dE_/websocket_client-0.32.0/egg-dist-tmp-g_ktFc
 zip_safe flag not set; analyzing archive contents...
 websocket._http: module references __file__
 websocket.tests.test_websocket: module references __file__

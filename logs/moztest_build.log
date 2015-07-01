@@ -166,7 +166,7 @@ The following NEW packages will be INSTALLED:
     zlib:       1.2.8-0      
 
 Fetching packages ...
-moztest-0.7-py   0% |                              | ETA:  --:--:--   0.00  B/smoztest-0.7-py  88% |###########################    | ETA:  0:00:00  41.47 MB/smoztest-0.7-py 100% |###############################| ETA:  0:00:00  33.08 MB/smoztest-0.7-py 100% |###############################| Time: 0:00:00  22.75 MB/s
+moztest-0.7-py   0% |                              | ETA:  --:--:--   0.00  B/smoztest-0.7-py  88% |###########################    | ETA:  0:00:00  46.03 MB/smoztest-0.7-py 100% |###############################| ETA:  0:00:00  35.48 MB/smoztest-0.7-py 100% |###############################| Time: 0:00:00  24.73 MB/s
 Extracting packages ...
 [      COMPLETE      ]|                                                  |   0%[moztest             ]|                                                  |   0%[moztest             ]|                                                  |   0%[      COMPLETE      ]|##################################################| 100%
 Linking packages ...
