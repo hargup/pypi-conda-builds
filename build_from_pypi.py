@@ -1,5 +1,9 @@
 from __future__ import print_function
+from compile_report import compile_all_reports
 from os.path import isdir
+# XXX: urllib2 is not availabe on python 3
+import urllib2
+import json
 import argparse
 import subprocess
 import yaml
@@ -9,7 +13,6 @@ if sys.version_info < (3,):
     from xmlrpclib import ServerProxy, Transport, ProtocolError
 else:
     from xmlrpc.client import ServerProxy
-from compile_report import compile_all_reports
 
 
 parser = argparse.ArgumentParser()
@@ -212,13 +215,28 @@ def yaml_load(file_name, default=None):
 
     return res
 
+
+def get_repo_packages():
+    # TODO: Only skipping linux-64 packages for now, add packages from other
+    # repos and probably take an intersection of them.
+    linux64_url = 'https://repo.continuum.io/pkgs/free/linux-64/repodata.json'
+    return parse_repodata_json(linux64_url)
+
+
+def parse_repodata_json(url):
+    jsonurl = urllib2.urlopen(url)
+    data = json.loads(jsonurl.read())
+    pkgs = set([data[u'packages'][src][u'name']
+                for src in data[u'packages'].keys()])
+    return pkgs
+
 pypi_url = 'http://pypi.python.org/pypi'
 client = ServerProxy(pypi_url)
 
 log_dir = "./logs/"
 recipes_dir = "./recipes/"
 
-anaconda_packages = set(yaml_load('anaconda.yaml', default=[]))
+repo_packages = get_repo_packages()
 greylist_packages = set(yaml_load('greylist.yaml', default=[]))
 packages_data = yaml_load('packages_data.yaml', dict())
 recipes_data = yaml_load('recipes_data.yaml', dict())
@@ -242,8 +260,13 @@ def main(args):
                        pkg in changed_pkgs)
 
     candidate_packages = top_n_packages.union(old_pkgs) \
-        - (anaconda_packages.union(greylist_packages))
+        - (repo_packages.union(greylist_packages))
 
+    for pkg in repo_packages:
+        if pkg not in packages_data.keys():
+            packages_data[pkg] = dict()
+        packages_data[pkg]['package_available'] = True
+        packages_data[pkg]['availability_type'] = 'repo.continuum.io'
 
 
     # TODO: complete the part where list of packages is passed through

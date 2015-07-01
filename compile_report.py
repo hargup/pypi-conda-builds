@@ -30,8 +30,8 @@ def compile_main_report():
     report_lines.append("\nPackages Available: %s/%s" % (num_available_packages, N))
 
     anaconda = sum([1 for package in packages if
-                    packages[package]['availability_type'] == 'Anaconda'])
-    report_lines.append("\nAnaconda: %s/%s" % (anaconda, N))
+                    packages[package]['availability_type'] == 'repo.continuum.io'])
+    report_lines.append("\nrepo.continuum.io: %s/%s" % (anaconda, N))
 
     conda_build = sum([1 for package in packages if
                        packages[package]['availability_type'] == 'conda-build'])
