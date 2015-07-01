@@ -1,120 +1,190 @@
 4suite-xml: {availability_type: null, package_available: false}
+!!python/unicode '_license': {availability_type: repo.continuum.io, package_available: true}
+!!python/unicode 'abstract-rendering': {availability_type: repo.continuum.io, package_available: true}
 accesscontrol: {availability_type: null, package_available: false}
 acquisition: {availability_type: conda-build, package_available: true}
 adrest: {availability_type: null, package_available: false}
+!!python/unicode 'affine': {availability_type: repo.continuum.io, package_available: true}
 aioeventlet: {availability_type: conda-build, package_available: true}
 aiohttp: {availability_type: null, package_available: false}
 ajenti: {availability_type: null, package_available: false}
-alabaster: {availability_type: null, package_available: false}
+alabaster: {availability_type: repo.continuum.io, package_available: true}
 alembic: {availability_type: conda-build, package_available: true}
 altgraph: {availability_type: null, package_available: false}
 amqp: {availability_type: null, package_available: false}
 amqplib: {availability_type: conda-build, package_available: true}
+!!python/unicode 'anaconda': {availability_type: repo.continuum.io, package_available: true}
 aniso8601: {availability_type: conda-build, package_available: true}
+!!python/unicode 'ansi2html': {availability_type: repo.continuum.io, package_available: true}
 ansible: {availability_type: conda-build, package_available: true}
 ansicolors: {availability_type: conda-build, package_available: true}
 anyjson: {availability_type: conda-build, package_available: true}
 apache-libcloud: {availability_type: null, package_available: false}
 appdirs: {availability_type: conda-build, package_available: true}
 appier: {availability_type: null, package_available: false}
+!!python/unicode 'apptools': {availability_type: repo.continuum.io, package_available: true}
 apscheduler: {availability_type: conda-build, package_available: true}
 archetypes.kss: {availability_type: null, package_available: false}
 archetypes.referencebrowserwidget: {availability_type: null, package_available: false}
+!!python/unicode 'argcomplete': {availability_type: repo.continuum.io, package_available: true}
 argh: {availability_type: conda-build, package_available: true}
-argparse: {availability_type: conda-build, package_available: true}
+argparse: {availability_type: repo.continuum.io, package_available: true}
+!!python/unicode 'arraymanagement': {availability_type: repo.continuum.io, package_available: true}
 arrow: {availability_type: conda-build, package_available: true}
 arvados-python-client: {availability_type: null, package_available: false}
 arvados_fuse: {availability_type: null, package_available: false}
 askbot: {availability_type: null, package_available: false}
 aspen: {availability_type: null, package_available: false}
-astroid: {availability_type: null, package_available: false}
+astroid: {availability_type: repo.continuum.io, package_available: true}
+!!python/unicode 'astropy': {availability_type: repo.continuum.io, package_available: true}
 async: {availability_type: null, package_available: false}
+!!python/unicode 'aterm': {availability_type: repo.continuum.io, package_available: true}
+!!python/unicode 'atlas': {availability_type: repo.continuum.io, package_available: true}
+!!python/unicode 'atom': {availability_type: repo.continuum.io, package_available: true}
 autobahn: {availability_type: null, package_available: false}
 autopep8: {availability_type: null, package_available: false}
 avro: {availability_type: null, package_available: false}
 awscli: {availability_type: null, package_available: false}
 awspider: {availability_type: null, package_available: false}
-azure: {availability_type: null, package_available: false}
+azure: {availability_type: repo.continuum.io, package_available: true}
 b1python: {availability_type: null, package_available: false}
-babel: {availability_type: conda-build, package_available: true}
+babel: {availability_type: repo.continuum.io, package_available: true}
 backports.ssl_match_hostname: {availability_type: conda-build, package_available: true}
+!!python/unicode 'bandersnatch': {availability_type: repo.continuum.io, package_available: true}
+!!python/unicode 'basemap': {availability_type: repo.continuum.io, package_available: true}
 bbfreeze: {availability_type: null, package_available: false}
 bcdoc: {availability_type: conda-build, package_available: true}
+!!python/unicode 'bcolz': {availability_type: repo.continuum.io, package_available: true}
 bcrypt: {availability_type: null, package_available: false}
 beaker: {availability_type: null, package_available: false}
 beanstalk-stack: {availability_type: null, package_available: false}
 beanstalkc: {availability_type: conda-build, package_available: true}
+!!python/unicode 'beautiful-soup': {availability_type: repo.continuum.io, package_available: true}
 beautifulsoup: {availability_type: conda-build, package_available: true}
 beaver: {availability_type: null, package_available: false}
 behave: {availability_type: null, package_available: false}
 bellatrix: {availability_type: null, package_available: false}
 bigjob: {availability_type: null, package_available: false}
 billiard: {availability_type: null, package_available: false}
+!!python/unicode 'binstar': {availability_type: repo.continuum.io, package_available: true}
+!!python/unicode 'binstar-build': {availability_type: repo.continuum.io, package_available: true}
+!!python/unicode 'biopython': {availability_type: repo.continuum.io, package_available: true}
+!!python/unicode 'bitarray': {availability_type: repo.continuum.io, package_available: true}
+!!python/unicode 'bitey': {availability_type: repo.continuum.io, package_available: true}
 bitstring: {availability_type: conda-build, package_available: true}
+!!python/unicode 'blaze': {availability_type: repo.continuum.io, package_available: true}
+!!python/unicode 'blaze-core': {availability_type: repo.continuum.io, package_available: true}
 bleach: {availability_type: conda-build, package_available: true}
 blessings: {availability_type: null, package_available: false}
 blinker: {availability_type: conda-build, package_available: true}
-blist: {availability_type: null, package_available: false}
+blist: {availability_type: repo.continuum.io, package_available: true}
 blockdiag: {availability_type: conda-build, package_available: true}
+!!python/unicode 'blockspring': {availability_type: repo.continuum.io, package_available: true}
+!!python/unicode 'blosc': {availability_type: repo.continuum.io, package_available: true}
+!!python/unicode 'blz': {availability_type: repo.continuum.io, package_available: true}
+!!python/unicode 'bokeh': {availability_type: repo.continuum.io, package_available: true}
+!!python/unicode 'boost': {availability_type: repo.continuum.io, package_available: true}
 borg.localrole: {availability_type: null, package_available: false}
+!!python/unicode 'boto': {availability_type: repo.continuum.io, package_available: true}
 botocore: {availability_type: null, package_available: false}
 bottle: {availability_type: conda-build, package_available: true}
+!!python/unicode 'bottleneck': {availability_type: repo.continuum.io, package_available: true}
 braintree: {availability_type: conda-build, package_available: true}
-btrees: {availability_type: null, package_available: false}
+!!python/unicode 'bsddb': {availability_type: repo.continuum.io, package_available: true}
+!!python/unicode 'bsdiff4': {availability_type: repo.continuum.io, package_available: true}
+btrees: {availability_type: repo.continuum.io, package_available: true}
 buildout-versions: {availability_type: null, package_available: false}
 bunch: {availability_type: conda-build, package_available: true}
+!!python/unicode 'bzip2': {availability_type: repo.continuum.io, package_available: true}
+!!python/unicode 'cairo': {availability_type: repo.continuum.io, package_available: true}
 carbon: {availability_type: null, package_available: false}
 cassandra-driver: {availability_type: conda-build, package_available: true}
+!!python/unicode 'casuarius': {availability_type: repo.continuum.io, package_available: true}
 catkin_pkg: {availability_type: null, package_available: false}
 cchardet: {availability_type: null, package_available: false}
+!!python/unicode 'cdecimal': {availability_type: repo.continuum.io, package_available: true}
 celery: {availability_type: null, package_available: false}
-chameleon: {availability_type: conda-build, package_available: true}
+!!python/unicode 'certifi': {availability_type: repo.continuum.io, package_available: true}
+!!python/unicode 'cffi': {availability_type: repo.continuum.io, package_available: true}
+!!python/unicode 'chaco': {availability_type: repo.continuum.io, package_available: true}
+!!python/unicode 'chalmers': {availability_type: repo.continuum.io, package_available: true}
+chameleon: {availability_type: repo.continuum.io, package_available: true}
 characteristic: {availability_type: conda-build, package_available: true}
 chardet: {availability_type: null, package_available: false}
-cheetah: {availability_type: conda-build, package_available: true}
+cheetah: {availability_type: repo.continuum.io, package_available: true}
 cherrypy: {availability_type: conda-build, package_available: true}
+!!python/unicode 'chest': {availability_type: repo.continuum.io, package_available: true}
 chromium_compact_language_detector: {availability_type: null, package_available: false}
+!!python/unicode 'chrpath': {availability_type: repo.continuum.io, package_available: true}
+!!python/unicode 'clawpack': {availability_type: repo.continuum.io, package_available: true}
 clay: {availability_type: null, package_available: false}
 cli53: {availability_type: null, package_available: false}
-click: {availability_type: conda-build, package_available: true}
+click: {availability_type: repo.continuum.io, package_available: true}
 cliff: {availability_type: conda-build, package_available: true}
 cliff-tablib: {availability_type: null, package_available: false}
+!!python/unicode 'cligj': {availability_type: repo.continuum.io, package_available: true}
 clihelper: {availability_type: null, package_available: false}
 clint: {availability_type: null, package_available: false}
+!!python/unicode 'cloog': {availability_type: repo.continuum.io, package_available: true}
 cloud: {availability_type: null, package_available: false}
+!!python/unicode 'cloudpickle': {availability_type: repo.continuum.io, package_available: true}
+!!python/unicode 'clyent': {availability_type: repo.continuum.io, package_available: true}
 cm-api: {availability_type: null, package_available: false}
+!!python/unicode 'cmake': {availability_type: repo.continuum.io, package_available: true}
 cmd2: {availability_type: conda-build, package_available: true}
 codecov: {availability_type: null, package_available: false}
+!!python/unicode 'coffee-grunt': {availability_type: repo.continuum.io, package_available: true}
 coinor.dippy: {availability_type: null, package_available: false}
 colander: {availability_type: null, package_available: false}
 collective.plonetruegallery: {availability_type: null, package_available: false}
 collective.recipe.template: {availability_type: null, package_available: false}
+!!python/unicode 'colorama': {availability_type: repo.continuum.io, package_available: true}
 colorlog: {availability_type: null, package_available: false}
 concurrentloghandler: {availability_type: conda-build, package_available: true}
+!!python/unicode 'conda': {availability_type: repo.continuum.io, package_available: true}
+!!python/unicode 'conda-api': {availability_type: repo.continuum.io, package_available: true}
+!!python/unicode 'conda-build': {availability_type: repo.continuum.io, package_available: true}
+!!python/unicode 'conda-env': {availability_type: repo.continuum.io, package_available: true}
+!!python/unicode 'configobj': {availability_type: repo.continuum.io, package_available: true}
 configparser: {availability_type: null, package_available: false}
 couchbase: {availability_type: null, package_available: false}
 couchdb: {availability_type: null, package_available: false}
 cov-core: {availability_type: conda-build, package_available: true}
-coverage: {availability_type: null, package_available: false}
+coverage: {availability_type: repo.continuum.io, package_available: true}
 coveralls: {availability_type: null, package_available: false}
 cpp-coveralls: {availability_type: conda-build, package_available: true}
 cql: {availability_type: conda-build, package_available: true}
 crcmod: {availability_type: conda-build, package_available: true}
 croniter: {availability_type: conda-build, package_available: true}
+!!python/unicode 'cryptography': {availability_type: repo.continuum.io, package_available: true}
 cssmin: {availability_type: null, package_available: false}
-cssselect: {availability_type: conda-build, package_available: true}
+cssselect: {availability_type: repo.continuum.io, package_available: true}
 cssutils: {availability_type: null, package_available: false}
+!!python/unicode 'csvkit': {availability_type: repo.continuum.io, package_available: true}
 ctrax: {availability_type: null, package_available: false}
 cube-client: {availability_type: conda-build, package_available: true}
+!!python/unicode 'cubes': {availability_type: repo.continuum.io, package_available: true}
 cubicweb: {availability_type: null, package_available: false}
-cx_oracle: {availability_type: null, package_available: false}
+!!python/unicode 'curl': {availability_type: repo.continuum.io, package_available: true}
+!!python/unicode 'cvxopt': {availability_type: repo.continuum.io, package_available: true}
+cx_oracle: {availability_type: repo.continuum.io, package_available: true}
+!!python/unicode 'cymem': {availability_type: repo.continuum.io, package_available: true}
+!!python/unicode 'cython': {availability_type: repo.continuum.io, package_available: true}
+!!python/unicode 'cytoolz': {availability_type: repo.continuum.io, package_available: true}
 d2to1: {availability_type: conda-build, package_available: true}
 dap: {availability_type: null, package_available: false}
+!!python/unicode 'dask': {availability_type: repo.continuum.io, package_available: true}
+!!python/unicode 'datashape': {availability_type: repo.continuum.io, package_available: true}
 datetime: {availability_type: conda-build, package_available: true}
+!!python/unicode 'dateutil': {availability_type: repo.continuum.io, package_available: true}
 dateutils: {availability_type: null, package_available: false}
-dbf: {availability_type: null, package_available: false}
+!!python/unicode 'datrie': {availability_type: repo.continuum.io, package_available: true}
+!!python/unicode 'db': {availability_type: repo.continuum.io, package_available: true}
+dbf: {availability_type: repo.continuum.io, package_available: true}
 ddt: {availability_type: conda-build, package_available: true}
 debtcollector: {availability_type: conda-build, package_available: true}
+!!python/unicode 'debug': {availability_type: repo.continuum.io, package_available: true}
+!!python/unicode 'decorator': {availability_type: repo.continuum.io, package_available: true}
 decoratortools: {availability_type: null, package_available: false}
 deform: {availability_type: null, package_available: false}
 defusedxml: {availability_type: conda-build, package_available: true}
@@ -122,11 +192,13 @@ deliverance: {availability_type: null, package_available: false}
 demjson: {availability_type: conda-build, package_available: true}
 diamond: {availability_type: null, package_available: false}
 dicttoxml: {availability_type: conda-build, package_available: true}
+!!python/unicode 'dill': {availability_type: repo.continuum.io, package_available: true}
+!!python/unicode 'disco': {availability_type: repo.continuum.io, package_available: true}
 discover: {availability_type: null, package_available: false}
-distribute: {availability_type: conda-build, package_available: true}
+distribute: {availability_type: repo.continuum.io, package_available: true}
 dj-database-url: {availability_type: conda-build, package_available: true}
 dj-static: {availability_type: conda-build, package_available: true}
-django: {availability_type: null, package_available: false}
+django: {availability_type: repo.continuum.io, package_available: true}
 django-allauth: {availability_type: null, package_available: false}
 django-annoying: {availability_type: null, package_available: false}
 django-appconf: {availability_type: null, package_available: false}
@@ -205,41 +277,54 @@ django_polymorphic: {availability_type: null, package_available: false}
 djangocms-admin-style: {availability_type: null, package_available: false}
 djangorecipe: {availability_type: conda-build, package_available: true}
 djangorestframework: {availability_type: null, package_available: false}
-dnspython: {availability_type: conda-build, package_available: true}
+dnspython: {availability_type: repo.continuum.io, package_available: true}
 docker-py: {availability_type: null, package_available: false}
-docopt: {availability_type: conda-build, package_available: true}
+docopt: {availability_type: repo.continuum.io, package_available: true}
+!!python/unicode 'docutils': {availability_type: repo.continuum.io, package_available: true}
 dogapi: {availability_type: conda-build, package_available: true}
 dogpile.cache: {availability_type: null, package_available: false}
 dogpile.core: {availability_type: null, package_available: false}
 dotcloud: {availability_type: null, package_available: false}
-dropbox: {availability_type: null, package_available: false}
+dropbox: {availability_type: repo.continuum.io, package_available: true}
+!!python/unicode 'dynd-python': {availability_type: repo.continuum.io, package_available: true}
 easy-thumbnails: {availability_type: conda-build, package_available: true}
 easyprocess: {availability_type: conda-build, package_available: true}
-ecdsa: {availability_type: conda-build, package_available: true}
+ecdsa: {availability_type: repo.continuum.io, package_available: true}
 editra: {availability_type: null, package_available: false}
 eggtestinfo: {availability_type: conda-build, package_available: true}
 elasticsearch: {availability_type: null, package_available: false}
+!!python/unicode 'enable': {availability_type: repo.continuum.io, package_available: true}
+!!python/unicode 'enaml': {availability_type: repo.continuum.io, package_available: true}
 enum: {availability_type: conda-build, package_available: true}
+!!python/unicode 'enum34': {availability_type: repo.continuum.io, package_available: true}
+!!python/unicode 'envisage': {availability_type: repo.continuum.io, package_available: true}
 envoy: {availability_type: null, package_available: false}
+!!python/unicode 'ephem': {availability_type: repo.continuum.io, package_available: true}
+!!python/unicode 'erlang': {availability_type: repo.continuum.io, package_available: true}
+!!python/unicode 'essbasepy': {availability_type: repo.continuum.io, package_available: true}
 eventlet: {availability_type: null, package_available: false}
-execnet: {availability_type: null, package_available: false}
+execnet: {availability_type: repo.continuum.io, package_available: true}
 extensionclass: {availability_type: conda-build, package_available: true}
 extras: {availability_type: null, package_available: false}
 ez_setup: {availability_type: conda-build, package_available: true}
-fabric: {availability_type: null, package_available: false}
+fabric: {availability_type: repo.continuum.io, package_available: true}
 facebook-sdk: {availability_type: conda-build, package_available: true}
 factory_boy: {availability_type: null, package_available: false}
 fake-factory: {availability_type: conda-build, package_available: true}
 fastavro: {availability_type: null, package_available: false}
-feedparser: {availability_type: conda-build, package_available: true}
+!!python/unicode 'fastcache': {availability_type: repo.continuum.io, package_available: true}
+!!python/unicode 'faulthandler': {availability_type: repo.continuum.io, package_available: true}
+feedparser: {availability_type: repo.continuum.io, package_available: true}
 feincms: {availability_type: null, package_available: false}
 filebrowser_safe: {availability_type: null, package_available: false}
 filecache: {availability_type: null, package_available: false}
 filechunkio: {availability_type: conda-build, package_available: true}
+!!python/unicode 'fiona': {availability_type: repo.continuum.io, package_available: true}
 five.customerize: {availability_type: null, package_available: false}
 five.localsitemanager: {availability_type: null, package_available: false}
 fixtures: {availability_type: conda-build, package_available: true}
-flake8: {availability_type: conda-build, package_available: true}
+flake8: {availability_type: repo.continuum.io, package_available: true}
+!!python/unicode 'flask': {availability_type: repo.continuum.io, package_available: true}
 flask-admin: {availability_type: null, package_available: false}
 flask-appbuilder: {availability_type: null, package_available: false}
 flask-assets: {availability_type: null, package_available: false}
@@ -247,7 +332,8 @@ flask-babel: {availability_type: conda-build, package_available: true}
 flask-cache: {availability_type: conda-build, package_available: true}
 flask-cors: {availability_type: conda-build, package_available: true}
 flask-debugtoolbar: {availability_type: conda-build, package_available: true}
-flask-login: {availability_type: conda-build, package_available: true}
+!!python/unicode 'flask-ldap-login': {availability_type: repo.continuum.io, package_available: true}
+flask-login: {availability_type: repo.continuum.io, package_available: true}
 flask-mail: {availability_type: conda-build, package_available: true}
 flask-migrate: {availability_type: null, package_available: false}
 flask-principal: {availability_type: conda-build, package_available: true}
@@ -255,51 +341,71 @@ flask-restful: {availability_type: null, package_available: false}
 flask-script: {availability_type: conda-build, package_available: true}
 flask-sqlalchemy: {availability_type: conda-build, package_available: true}
 flask-testing: {availability_type: null, package_available: false}
-flask-wtf: {availability_type: conda-build, package_available: true}
+flask-wtf: {availability_type: repo.continuum.io, package_available: true}
 flexget: {availability_type: null, package_available: false}
 flower: {availability_type: null, package_available: false}
 flufl.enum: {availability_type: null, package_available: false}
 flup: {availability_type: null, package_available: false}
+!!python/unicode 'fontconfig': {availability_type: repo.continuum.io, package_available: true}
 formencode: {availability_type: null, package_available: false}
 fpconst: {availability_type: conda-build, package_available: true}
+!!python/unicode 'freeglut': {availability_type: repo.continuum.io, package_available: true}
+!!python/unicode 'freetype': {availability_type: repo.continuum.io, package_available: true}
 freezegun: {availability_type: conda-build, package_available: true}
 ftfy: {availability_type: null, package_available: false}
+!!python/unicode 'funcsigs': {availability_type: repo.continuum.io, package_available: true}
 functools32: {availability_type: null, package_available: false}
 funkload: {availability_type: null, package_available: false}
-future: {availability_type: null, package_available: false}
+future: {availability_type: repo.continuum.io, package_available: true}
+!!python/unicode 'futures': {availability_type: repo.continuum.io, package_available: true}
 fuzzywuzzy: {availability_type: null, package_available: false}
-gdal: {availability_type: null, package_available: false}
-gdata: {availability_type: conda-build, package_available: true}
-gensim: {availability_type: null, package_available: false}
+!!python/unicode 'gcc': {availability_type: repo.continuum.io, package_available: true}
+gdal: {availability_type: repo.continuum.io, package_available: true}
+gdata: {availability_type: repo.continuum.io, package_available: true}
+gensim: {availability_type: repo.continuum.io, package_available: true}
 geobasesdev: {availability_type: null, package_available: false}
 geoip2: {availability_type: conda-build, package_available: true}
 geopy: {availability_type: null, package_available: false}
+!!python/unicode 'geos': {availability_type: repo.continuum.io, package_available: true}
+!!python/unicode 'gevent': {availability_type: repo.continuum.io, package_available: true}
+!!python/unicode 'gevent-websocket': {availability_type: repo.continuum.io, package_available: true}
+!!python/unicode 'gevent_zeromq': {availability_type: repo.continuum.io, package_available: true}
 git-review: {availability_type: conda-build, package_available: true}
 gitdb: {availability_type: conda-build, package_available: true}
 gitpython: {availability_type: null, package_available: false}
 glance_store: {availability_type: conda-build, package_available: true}
 glob2: {availability_type: conda-build, package_available: true}
+!!python/unicode 'glueviz': {availability_type: repo.continuum.io, package_available: true}
+!!python/unicode 'gmp': {availability_type: repo.continuum.io, package_available: true}
 gnureadline: {availability_type: null, package_available: false}
 google-api-python-client: {availability_type: null, package_available: false}
-google-apputils: {availability_type: null, package_available: false}
+google-apputils: {availability_type: repo.continuum.io, package_available: true}
+!!python/unicode 'googlecl': {availability_type: repo.continuum.io, package_available: true}
 googlefinance: {availability_type: conda-build, package_available: true}
 grab: {availability_type: null, package_available: false}
-graphite-web: {availability_type: null, package_available: false}
+graphite-web: {availability_type: repo.continuum.io, package_available: true}
 grappelli_safe: {availability_type: null, package_available: false}
+!!python/unicode 'greenlet': {availability_type: repo.continuum.io, package_available: true}
+!!python/unicode 'grin': {availability_type: repo.continuum.io, package_available: true}
 gspread: {availability_type: conda-build, package_available: true}
-gunicorn: {availability_type: null, package_available: false}
+gunicorn: {availability_type: repo.continuum.io, package_available: true}
 guppy: {availability_type: null, package_available: false}
+!!python/unicode 'h5py': {availability_type: repo.continuum.io, package_available: true}
 hacking: {availability_type: conda-build, package_available: true}
 haigha: {availability_type: null, package_available: false}
 happybase: {availability_type: conda-build, package_available: true}
+!!python/unicode 'hdf5': {availability_type: repo.continuum.io, package_available: true}
+!!python/unicode 'headers_workaround': {availability_type: repo.continuum.io, package_available: true}
+!!python/unicode 'heapdict': {availability_type: repo.continuum.io, package_available: true}
 helper: {availability_type: conda-build, package_available: true}
 hexagonit.recipe.download: {availability_type: null, package_available: false}
 hgtools: {availability_type: conda-build, package_available: true}
 hiredis: {availability_type: conda-build, package_available: true}
 holmes: {availability_type: null, package_available: false}
+!!python/unicode 'holoviews': {availability_type: repo.continuum.io, package_available: true}
 honcho: {availability_type: null, package_available: false}
 html2text: {availability_type: conda-build, package_available: true}
-html5lib: {availability_type: conda-build, package_available: true}
+html5lib: {availability_type: repo.continuum.io, package_available: true}
 htseq: {availability_type: null, package_available: false}
 httmock: {availability_type: conda-build, package_available: true}
 http-parser: {availability_type: conda-build, package_available: true}
@@ -308,31 +414,45 @@ httpie: {availability_type: null, package_available: false}
 httplib2: {availability_type: conda-build, package_available: true}
 httpretty: {availability_type: null, package_available: false}
 hwrt: {availability_type: null, package_available: false}
+!!python/unicode 'hyde': {availability_type: repo.continuum.io, package_available: true}
 ibm_db: {availability_type: null, package_available: false}
 icalendar: {availability_type: conda-build, package_available: true}
-idna: {availability_type: null, package_available: false}
+!!python/unicode 'icu': {availability_type: repo.continuum.io, package_available: true}
+idna: {availability_type: repo.continuum.io, package_available: true}
+!!python/unicode 'imaging': {availability_type: repo.continuum.io, package_available: true}
 importlib: {availability_type: conda-build, package_available: true}
 improviser: {availability_type: null, package_available: false}
 infi.recipe.application_packager: {availability_type: null, package_available: false}
 inflect: {availability_type: conda-build, package_available: true}
 informixdb: {availability_type: null, package_available: false}
 initools: {availability_type: conda-build, package_available: true}
+!!python/unicode 'into': {availability_type: repo.continuum.io, package_available: true}
 invoke: {availability_type: null, package_available: false}
 ipaddr: {availability_type: conda-build, package_available: true}
-ipaddress: {availability_type: conda-build, package_available: true}
+ipaddress: {availability_type: repo.continuum.io, package_available: true}
 ipdb: {availability_type: null, package_available: false}
 iptools: {availability_type: null, package_available: false}
 ipy: {availability_type: conda-build, package_available: true}
+!!python/unicode 'ipython': {availability_type: repo.continuum.io, package_available: true}
+!!python/unicode 'ipython-notebook': {availability_type: repo.continuum.io, package_available: true}
+!!python/unicode 'ipython-qtconsole': {availability_type: repo.continuum.io, package_available: true}
+!!python/unicode 'ipywidgets': {availability_type: repo.continuum.io, package_available: true}
 irc: {availability_type: null, package_available: false}
+!!python/unicode 'isl': {availability_type: repo.continuum.io, package_available: true}
 iso8601: {availability_type: conda-build, package_available: true}
 isodate: {availability_type: conda-build, package_available: true}
 isort: {availability_type: null, package_available: false}
+!!python/unicode 'itsdangerous': {availability_type: repo.continuum.io, package_available: true}
+!!python/unicode 'jdcal': {availability_type: repo.continuum.io, package_available: true}
+!!python/unicode 'jedi': {availability_type: repo.continuum.io, package_available: true}
 jenkinsapi: {availability_type: null, package_available: false}
 jinja: {availability_type: null, package_available: false}
+!!python/unicode 'jinja2': {availability_type: repo.continuum.io, package_available: true}
 jlddk: {availability_type: null, package_available: false}
 jmbo-foundry: {availability_type: null, package_available: false}
 jmespath: {availability_type: conda-build, package_available: true}
-joblib: {availability_type: null, package_available: false}
+joblib: {availability_type: repo.continuum.io, package_available: true}
+!!python/unicode 'jpeg': {availability_type: repo.continuum.io, package_available: true}
 jsmin: {availability_type: conda-build, package_available: true}
 jsonfield: {availability_type: conda-build, package_available: true}
 jsonlib: {availability_type: conda-build, package_available: true}
@@ -342,33 +462,60 @@ jsonpath-rw: {availability_type: conda-build, package_available: true}
 jsonpickle: {availability_type: conda-build, package_available: true}
 jsonpointer: {availability_type: conda-build, package_available: true}
 jsonrpclib: {availability_type: null, package_available: false}
+!!python/unicode 'jsonschema': {availability_type: repo.continuum.io, package_available: true}
 junitxml: {availability_type: conda-build, package_available: true}
 kafka-python: {availability_type: null, package_available: false}
 kairos: {availability_type: conda-build, package_available: true}
 kazoo: {availability_type: null, package_available: false}
-keyring: {availability_type: null, package_available: false}
+keyring: {availability_type: repo.continuum.io, package_available: true}
 keystonemiddleware: {availability_type: conda-build, package_available: true}
 kivy: {availability_type: null, package_available: false}
+!!python/unicode 'kiwisolver': {availability_type: repo.continuum.io, package_available: true}
 kombu: {availability_type: null, package_available: false}
 kotti: {availability_type: null, package_available: false}
+!!python/unicode 'krb5': {availability_type: repo.continuum.io, package_available: true}
 kss.core: {availability_type: null, package_available: false}
+!!python/unicode 'lancet-ioam': {availability_type: repo.continuum.io, package_available: true}
 langid: {availability_type: null, package_available: false}
+!!python/unicode 'launcher': {availability_type: repo.continuum.io, package_available: true}
+!!python/unicode 'lcms': {availability_type: repo.continuum.io, package_available: true}
+!!python/unicode 'ldap3': {availability_type: repo.continuum.io, package_available: true}
 leaderboard: {availability_type: conda-build, package_available: true}
 lepl: {availability_type: null, package_available: false}
 lesscpy: {availability_type: conda-build, package_available: true}
 lettuce: {availability_type: null, package_available: false}
+!!python/unicode 'libconda': {availability_type: repo.continuum.io, package_available: true}
+!!python/unicode 'libdynd': {availability_type: repo.continuum.io, package_available: true}
+!!python/unicode 'libevent': {availability_type: repo.continuum.io, package_available: true}
+!!python/unicode 'libffi': {availability_type: repo.continuum.io, package_available: true}
+!!python/unicode 'libgcc': {availability_type: repo.continuum.io, package_available: true}
+!!python/unicode 'libgdal': {availability_type: repo.continuum.io, package_available: true}
+!!python/unicode 'libnetcdf': {availability_type: repo.continuum.io, package_available: true}
+!!python/unicode 'libpng': {availability_type: repo.continuum.io, package_available: true}
 librabbitmq: {availability_type: null, package_available: false}
 librato-metrics: {availability_type: conda-build, package_available: true}
+!!python/unicode 'libsodium': {availability_type: repo.continuum.io, package_available: true}
+!!python/unicode 'libtiff': {availability_type: repo.continuum.io, package_available: true}
+!!python/unicode 'libxml2': {availability_type: repo.continuum.io, package_available: true}
+!!python/unicode 'libxslt': {availability_type: repo.continuum.io, package_available: true}
+!!python/unicode 'line_profiler': {availability_type: repo.continuum.io, package_available: true}
 linecache2: {availability_type: null, package_available: false}
 ll-orasql: {availability_type: null, package_available: false}
 ll-xist: {availability_type: null, package_available: false}
-lockfile: {availability_type: conda-build, package_available: true}
+!!python/unicode 'llvm': {availability_type: repo.continuum.io, package_available: true}
+!!python/unicode 'llvmlite': {availability_type: repo.continuum.io, package_available: true}
+!!python/unicode 'llvmmath': {availability_type: repo.continuum.io, package_available: true}
+!!python/unicode 'llvmpy': {availability_type: repo.continuum.io, package_available: true}
+!!python/unicode 'locket': {availability_type: repo.continuum.io, package_available: true}
+lockfile: {availability_type: repo.continuum.io, package_available: true}
 logbook: {availability_type: conda-build, package_available: true}
 logilab-astng: {availability_type: null, package_available: false}
-logilab-common: {availability_type: null, package_available: false}
+logilab-common: {availability_type: repo.continuum.io, package_available: true}
 logutils: {availability_type: conda-build, package_available: true}
 loremipsum: {availability_type: null, package_available: false}
 luigi: {availability_type: null, package_available: false}
+!!python/unicode 'lxml': {availability_type: repo.continuum.io, package_available: true}
+!!python/unicode 'lzo': {availability_type: repo.continuum.io, package_available: true}
 m2crypto: {availability_type: null, package_available: false}
 makesite: {availability_type: null, package_available: false}
 mako: {availability_type: conda-build, package_available: true}
@@ -377,19 +524,29 @@ manifestparser: {availability_type: null, package_available: false}
 marionette-transport: {availability_type: null, package_available: false}
 marionette_client: {availability_type: null, package_available: false}
 marionette_driver: {availability_type: null, package_available: false}
-markdown: {availability_type: conda-build, package_available: true}
-markdown2: {availability_type: conda-build, package_available: true}
+markdown: {availability_type: repo.continuum.io, package_available: true}
+markdown2: {availability_type: repo.continuum.io, package_available: true}
+!!python/unicode 'markupsafe': {availability_type: repo.continuum.io, package_available: true}
+!!python/unicode 'mathjax': {availability_type: repo.continuum.io, package_available: true}
+!!python/unicode 'matplotlib': {availability_type: repo.continuum.io, package_available: true}
 maxminddb: {availability_type: conda-build, package_available: true}
-mccabe: {availability_type: conda-build, package_available: true}
+!!python/unicode 'mayavi': {availability_type: repo.continuum.io, package_available: true}
+mccabe: {availability_type: repo.continuum.io, package_available: true}
+!!python/unicode 'mdp': {availability_type: repo.continuum.io, package_available: true}
 mechanize: {availability_type: conda-build, package_available: true}
-meld3: {availability_type: null, package_available: false}
-mercurial: {availability_type: null, package_available: false}
+meld3: {availability_type: repo.continuum.io, package_available: true}
+mercurial: {availability_type: repo.continuum.io, package_available: true}
+!!python/unicode 'meta': {availability_type: repo.continuum.io, package_available: true}
 mezzanine: {availability_type: null, package_available: false}
 mimeparse: {availability_type: null, package_available: false}
 minitage.core: {availability_type: null, package_available: false}
 minitage.paste: {availability_type: null, package_available: false}
+!!python/unicode 'mistune': {availability_type: repo.continuum.io, package_available: true}
 mixpanel-py: {availability_type: null, package_available: false}
+!!python/unicode 'mock': {availability_type: repo.continuum.io, package_available: true}
 model_mommy: {availability_type: null, package_available: false}
+!!python/unicode 'mongo-driver': {availability_type: repo.continuum.io, package_available: true}
+!!python/unicode 'mongodb': {availability_type: repo.continuum.io, package_available: true}
 mongoengine: {availability_type: null, package_available: false}
 moto: {availability_type: conda-build, package_available: true}
 mox: {availability_type: conda-build, package_available: true}
@@ -407,35 +564,68 @@ mozrunner: {availability_type: null, package_available: false}
 mozsystemmonitor: {availability_type: null, package_available: false}
 moztest: {availability_type: conda-build, package_available: true}
 mozversion: {availability_type: null, package_available: false}
+!!python/unicode 'mpc': {availability_type: repo.continuum.io, package_available: true}
+!!python/unicode 'mpfr': {availability_type: repo.continuum.io, package_available: true}
+!!python/unicode 'mpi4py': {availability_type: repo.continuum.io, package_available: true}
+!!python/unicode 'mpich2': {availability_type: repo.continuum.io, package_available: true}
+!!python/unicode 'mpmath': {availability_type: repo.continuum.io, package_available: true}
 mr.developer: {availability_type: null, package_available: false}
 mrjob: {availability_type: conda-build, package_available: true}
-msgpack-python: {availability_type: conda-build, package_available: true}
+!!python/unicode 'msgpack': {availability_type: repo.continuum.io, package_available: true}
+msgpack-python: {availability_type: repo.continuum.io, package_available: true}
+!!python/unicode 'mtq': {availability_type: repo.continuum.io, package_available: true}
+!!python/unicode 'multimethods': {availability_type: repo.continuum.io, package_available: true}
+!!python/unicode 'multipledispatch': {availability_type: repo.continuum.io, package_available: true}
 multiprocessing: {availability_type: null, package_available: false}
 munerator: {availability_type: null, package_available: false}
-mysql-python: {availability_type: null, package_available: false}
-ndg-httpsclient: {availability_type: null, package_available: false}
+!!python/unicode 'murmurhash': {availability_type: repo.continuum.io, package_available: true}
+!!python/unicode 'mysql-connector-python': {availability_type: repo.continuum.io,
+  package_available: true}
+mysql-python: {availability_type: repo.continuum.io, package_available: true}
+!!python/unicode 'nano': {availability_type: repo.continuum.io, package_available: true}
+!!python/unicode 'natsort': {availability_type: repo.continuum.io, package_available: true}
+!!python/unicode 'ncurses': {availability_type: repo.continuum.io, package_available: true}
+ndg-httpsclient: {availability_type: repo.continuum.io, package_available: true}
+!!python/unicode 'ndg_httpsclient': {availability_type: repo.continuum.io, package_available: true}
 neptuno2: {availability_type: conda-build, package_available: true}
 netaddr: {availability_type: conda-build, package_available: true}
+!!python/unicode 'netcdf4': {availability_type: repo.continuum.io, package_available: true}
 netifaces: {availability_type: conda-build, package_available: true}
 netius: {availability_type: null, package_available: false}
+!!python/unicode 'networkx': {availability_type: repo.continuum.io, package_available: true}
 newrelic: {availability_type: null, package_available: false}
 newrelic_plugin_agent: {availability_type: null, package_available: false}
+!!python/unicode 'nltk': {availability_type: repo.continuum.io, package_available: true}
 nma-python: {availability_type: null, package_available: false}
+!!python/unicode 'node': {availability_type: repo.continuum.io, package_available: true}
+!!python/unicode 'node-webkit': {availability_type: repo.continuum.io, package_available: true}
 nodeenv: {availability_type: null, package_available: false}
+!!python/unicode 'nose': {availability_type: repo.continuum.io, package_available: true}
 nose-cov: {availability_type: conda-build, package_available: true}
 nose-exclude: {availability_type: conda-build, package_available: true}
 nose-parameterized: {availability_type: null, package_available: false}
 nose-testconfig: {availability_type: conda-build, package_available: true}
 nosexcover: {availability_type: conda-build, package_available: true}
+!!python/unicode 'numba': {availability_type: repo.continuum.io, package_available: true}
+!!python/unicode 'numbapro_cudalib': {availability_type: repo.continuum.io, package_available: true}
+!!python/unicode 'numexpr': {availability_type: repo.continuum.io, package_available: true}
+!!python/unicode 'numpy': {availability_type: repo.continuum.io, package_available: true}
+!!python/unicode 'numpydoc': {availability_type: repo.continuum.io, package_available: true}
 oauth: {availability_type: null, package_available: false}
 oauth2: {availability_type: null, package_available: false}
 oauth2client: {availability_type: null, package_available: false}
 oauthlib: {availability_type: null, package_available: false}
 odict: {availability_type: null, package_available: false}
+!!python/unicode 'odo': {availability_type: repo.continuum.io, package_available: true}
 oerplib: {availability_type: null, package_available: false}
+!!python/unicode 'opencv': {availability_type: repo.continuum.io, package_available: true}
 openexr: {availability_type: null, package_available: false}
 opengroupware: {availability_type: null, package_available: false}
-ordereddict: {availability_type: conda-build, package_available: true}
+!!python/unicode 'openldap': {availability_type: repo.continuum.io, package_available: true}
+!!python/unicode 'openpyxl': {availability_type: repo.continuum.io, package_available: true}
+!!python/unicode 'openssl': {availability_type: repo.continuum.io, package_available: true}
+!!python/unicode 'oracle-instantclient': {availability_type: repo.continuum.io, package_available: true}
+ordereddict: {availability_type: repo.continuum.io, package_available: true}
 os_diskconfig_python_novaclient_ext: {availability_type: null, package_available: false}
 os_networksv2_python_novaclient_ext: {availability_type: conda-build, package_available: true}
 os_virtual_interfacesv2_python_novaclient_ext: {availability_type: conda-build, package_available: true}
@@ -456,31 +646,47 @@ oslosphinx: {availability_type: conda-build, package_available: true}
 oslotest: {availability_type: conda-build, package_available: true}
 osprofiler: {availability_type: conda-build, package_available: true}
 pam: {availability_type: conda-build, package_available: true}
-paramiko: {availability_type: conda-build, package_available: true}
+!!python/unicode 'pandas': {availability_type: repo.continuum.io, package_available: true}
+!!python/unicode 'pandasql': {availability_type: repo.continuum.io, package_available: true}
+!!python/unicode 'param': {availability_type: repo.continuum.io, package_available: true}
+paramiko: {availability_type: repo.continuum.io, package_available: true}
 parse: {availability_type: conda-build, package_available: true}
 parse_type: {availability_type: null, package_available: false}
-passlib: {availability_type: null, package_available: false}
+!!python/unicode 'partd': {availability_type: repo.continuum.io, package_available: true}
+passlib: {availability_type: repo.continuum.io, package_available: true}
 paste: {availability_type: null, package_available: false}
-pastedeploy: {availability_type: null, package_available: false}
+pastedeploy: {availability_type: repo.continuum.io, package_available: true}
 pastescript: {availability_type: null, package_available: false}
+!!python/unicode 'patchelf': {availability_type: repo.continuum.io, package_available: true}
 path.py: {availability_type: conda-build, package_available: true}
 pathlib: {availability_type: conda-build, package_available: true}
 pathtools: {availability_type: conda-build, package_available: true}
+!!python/unicode 'patsy': {availability_type: repo.continuum.io, package_available: true}
 paver: {availability_type: null, package_available: false}
 pbkdf2: {availability_type: conda-build, package_available: true}
 pbp.recipe.noserunner: {availability_type: conda-build, package_available: true}
-pbr: {availability_type: null, package_available: false}
+pbr: {availability_type: repo.continuum.io, package_available: true}
+!!python/unicode 'pcre': {availability_type: repo.continuum.io, package_available: true}
 pdfminer: {availability_type: conda-build, package_available: true}
 pecan: {availability_type: null, package_available: false}
 peewee: {availability_type: null, package_available: false}
+!!python/unicode 'pep381client': {availability_type: repo.continuum.io, package_available: true}
+!!python/unicode 'pep8': {availability_type: repo.continuum.io, package_available: true}
 persistence: {availability_type: null, package_available: false}
-persistent: {availability_type: null, package_available: false}
-pexpect: {availability_type: conda-build, package_available: true}
+persistent: {availability_type: repo.continuum.io, package_available: true}
+pexpect: {availability_type: repo.continuum.io, package_available: true}
 pexpect-u: {availability_type: conda-build, package_available: true}
 phonenumbers: {availability_type: conda-build, package_available: true}
+!!python/unicode 'pigz': {availability_type: repo.continuum.io, package_available: true}
 pika: {availability_type: null, package_available: false}
+!!python/unicode 'pil': {availability_type: repo.continuum.io, package_available: true}
+!!python/unicode 'pillow': {availability_type: repo.continuum.io, package_available: true}
 pint: {availability_type: conda-build, package_available: true}
+!!python/unicode 'pip': {availability_type: repo.continuum.io, package_available: true}
 pisa: {availability_type: null, package_available: false}
+!!python/unicode 'pixman': {availability_type: repo.continuum.io, package_available: true}
+!!python/unicode 'pkgconfig': {availability_type: repo.continuum.io, package_available: true}
+!!python/unicode 'plac': {availability_type: repo.continuum.io, package_available: true}
 plone: {availability_type: null, package_available: false}
 plone.app.content: {availability_type: null, package_available: false}
 plone.app.contentmenu: {availability_type: null, package_available: false}
@@ -519,10 +725,14 @@ plone.session: {availability_type: null, package_available: false}
 plone.theme: {availability_type: null, package_available: false}
 plonetheme.arnolfini: {availability_type: null, package_available: false}
 pluggy: {availability_type: conda-build, package_available: true}
+!!python/unicode 'ply': {availability_type: repo.continuum.io, package_available: true}
 pmxbot: {availability_type: null, package_available: false}
 polib: {availability_type: conda-build, package_available: true}
+!!python/unicode 'portaudio': {availability_type: repo.continuum.io, package_available: true}
 posix_ipc: {availability_type: conda-build, package_available: true}
 poster: {availability_type: null, package_available: false}
+!!python/unicode 'postgresql': {availability_type: repo.continuum.io, package_available: true}
+!!python/unicode 'preshed': {availability_type: repo.continuum.io, package_available: true}
 pretend: {availability_type: conda-build, package_available: true}
 prettytable: {availability_type: conda-build, package_available: true}
 products.archetypes: {availability_type: null, package_available: false}
@@ -540,32 +750,48 @@ products.portaltransforms: {availability_type: null, package_available: false}
 products.resourceregistries: {availability_type: null, package_available: false}
 products.tinymce: {availability_type: null, package_available: false}
 prody: {availability_type: null, package_available: false}
-progressbar: {availability_type: conda-build, package_available: true}
-protobuf: {availability_type: conda-build, package_available: true}
+progressbar: {availability_type: repo.continuum.io, package_available: true}
+protobuf: {availability_type: repo.continuum.io, package_available: true}
+!!python/unicode 'psqlodbc': {availability_type: repo.continuum.io, package_available: true}
+!!python/unicode 'psutil': {availability_type: repo.continuum.io, package_available: true}
 psycogreen: {availability_type: null, package_available: false}
-psycopg2: {availability_type: null, package_available: false}
+psycopg2: {availability_type: repo.continuum.io, package_available: true}
+!!python/unicode 'ptyprocess': {availability_type: repo.continuum.io, package_available: true}
 pudb: {availability_type: null, package_available: false}
 puke: {availability_type: null, package_available: false}
 pupynere: {availability_type: null, package_available: false}
+!!python/unicode 'py': {availability_type: repo.continuum.io, package_available: true}
 py-bcrypt: {availability_type: conda-build, package_available: true}
 py2app: {availability_type: null, package_available: false}
+!!python/unicode 'py2cairo': {availability_type: repo.continuum.io, package_available: true}
 py2neo: {availability_type: null, package_available: false}
 pyamf: {availability_type: null, package_available: false}
+!!python/unicode 'pyamg': {availability_type: repo.continuum.io, package_available: true}
 pyaml: {availability_type: conda-build, package_available: true}
+!!python/unicode 'pyasn1': {availability_type: repo.continuum.io, package_available: true}
 pyasn1-modules: {availability_type: conda-build, package_available: true}
 pycadf: {availability_type: conda-build, package_available: true}
 pycassa: {availability_type: conda-build, package_available: true}
 pychef: {availability_type: null, package_available: false}
 pyck: {availability_type: null, package_available: false}
+!!python/unicode 'pyclaw': {availability_type: repo.continuum.io, package_available: true}
+!!python/unicode 'pycosat': {availability_type: repo.continuum.io, package_available: true}
 pycountry: {availability_type: conda-build, package_available: true}
+!!python/unicode 'pycparser': {availability_type: repo.continuum.io, package_available: true}
+!!python/unicode 'pycrypto': {availability_type: repo.continuum.io, package_available: true}
 pycups: {availability_type: null, package_available: false}
+!!python/unicode 'pycurl': {availability_type: repo.continuum.io, package_available: true}
+!!python/unicode 'pydot': {availability_type: repo.continuum.io, package_available: true}
 pyelasticsearch: {availability_type: conda-build, package_available: true}
 pyenchant: {availability_type: null, package_available: false}
 pyephem: {availability_type: null, package_available: false}
 pyes: {availability_type: null, package_available: false}
+!!python/unicode 'pyface': {availability_type: repo.continuum.io, package_available: true}
 pyfits: {availability_type: null, package_available: false}
+!!python/unicode 'pyflakes': {availability_type: repo.continuum.io, package_available: true}
 pygeoip: {availability_type: conda-build, package_available: true}
 pygithub: {availability_type: conda-build, package_available: true}
+!!python/unicode 'pygments': {availability_type: repo.continuum.io, package_available: true}
 pygraphviz: {availability_type: null, package_available: false}
 pygtail: {availability_type: null, package_available: false}
 pyhamcrest: {availability_type: conda-build, package_available: true}
@@ -573,22 +799,28 @@ pyhammer: {availability_type: null, package_available: false}
 pyinotify: {availability_type: conda-build, package_available: true}
 pyinstaller: {availability_type: conda-build, package_available: true}
 pyjwt: {availability_type: null, package_available: false}
+!!python/unicode 'pykit': {availability_type: repo.continuum.io, package_available: true}
 pylibmc: {availability_type: null, package_available: false}
-pylint: {availability_type: null, package_available: false}
+pylint: {availability_type: repo.continuum.io, package_available: true}
 pylons: {availability_type: null, package_available: false}
 pymatgen: {availability_type: null, package_available: false}
+!!python/unicode 'pymc': {availability_type: repo.continuum.io, package_available: true}
 pymemcache: {availability_type: conda-build, package_available: true}
-pymongo: {availability_type: null, package_available: false}
+pymongo: {availability_type: repo.continuum.io, package_available: true}
 pymssql: {availability_type: null, package_available: false}
-pymysql: {availability_type: null, package_available: false}
+pymysql: {availability_type: repo.continuum.io, package_available: true}
 pyobjc-core: {availability_type: null, package_available: false}
-pyodbc: {availability_type: null, package_available: false}
-pyopengl: {availability_type: null, package_available: false}
+pyodbc: {availability_type: repo.continuum.io, package_available: true}
+pyopengl: {availability_type: repo.continuum.io, package_available: true}
+!!python/unicode 'pyopengl-accelerate': {availability_type: repo.continuum.io, package_available: true}
+!!python/unicode 'pyopenssl': {availability_type: repo.continuum.io, package_available: true}
+!!python/unicode 'pyparsing': {availability_type: repo.continuum.io, package_available: true}
 pypdf: {availability_type: conda-build, package_available: true}
 pypdf2: {availability_type: conda-build, package_available: true}
+!!python/unicode 'pyqt': {availability_type: repo.continuum.io, package_available: true}
 pyquery: {availability_type: null, package_available: false}
 pyrabbit: {availability_type: null, package_available: false}
-pyramid: {availability_type: null, package_available: false}
+pyramid: {availability_type: repo.continuum.io, package_available: true}
 pyramid_beaker: {availability_type: null, package_available: false}
 pyramid_debugtoolbar: {availability_type: null, package_available: false}
 pyramid_jinja2: {availability_type: null, package_available: false}
@@ -598,24 +830,30 @@ pyrax: {availability_type: null, package_available: false}
 pyreadline: {availability_type: null, package_available: false}
 pyro4: {availability_type: conda-build, package_available: true}
 pyrss2gen: {availability_type: conda-build, package_available: true}
+!!python/unicode 'pysal': {availability_type: repo.continuum.io, package_available: true}
+!!python/unicode 'pysam': {availability_type: repo.continuum.io, package_available: true}
 pysaml2: {availability_type: null, package_available: false}
 pyscss: {availability_type: conda-build, package_available: true}
-pyserial: {availability_type: conda-build, package_available: true}
+pyserial: {availability_type: repo.continuum.io, package_available: true}
 pyshp: {availability_type: conda-build, package_available: true}
-pyside: {availability_type: null, package_available: false}
-pysnmp: {availability_type: conda-build, package_available: true}
+pyside: {availability_type: repo.continuum.io, package_available: true}
+pysnmp: {availability_type: repo.continuum.io, package_available: true}
 pysolr: {availability_type: conda-build, package_available: true}
 pysqlite: {availability_type: null, package_available: false}
 pystache: {availability_type: null, package_available: false}
+!!python/unicode 'pystan': {availability_type: repo.continuum.io, package_available: true}
+!!python/unicode 'pytables': {availability_type: repo.continuum.io, package_available: true}
 pyteomics: {availability_type: null, package_available: false}
-pytest-cache: {availability_type: conda-build, package_available: true}
+!!python/unicode 'pytest': {availability_type: repo.continuum.io, package_available: true}
+pytest-cache: {availability_type: repo.continuum.io, package_available: true}
 pytest-cov: {availability_type: conda-build, package_available: true}
 pytest-django: {availability_type: conda-build, package_available: true}
-pytest-pep8: {availability_type: conda-build, package_available: true}
+pytest-pep8: {availability_type: repo.continuum.io, package_available: true}
 pytest-pythonpath: {availability_type: conda-build, package_available: true}
 pytest-runner: {availability_type: conda-build, package_available: true}
 pytest-timeout: {availability_type: conda-build, package_available: true}
 pytest-xdist: {availability_type: conda-build, package_available: true}
+!!python/unicode 'python': {availability_type: repo.continuum.io, package_available: true}
 python-barbicanclient: {availability_type: conda-build, package_available: true}
 python-cdb: {availability_type: conda-build, package_available: true}
 python-ceilometerclient: {availability_type: conda-build, package_available: true}
@@ -624,10 +862,11 @@ python-cjson: {availability_type: conda-build, package_available: true}
 python-cloudfiles: {availability_type: conda-build, package_available: true}
 python-coveralls: {availability_type: conda-build, package_available: true}
 python-daemon: {availability_type: null, package_available: false}
+!!python/unicode 'python-dateutil': {availability_type: repo.continuum.io, package_available: true}
 python-designateclient: {availability_type: conda-build, package_available: true}
 python-digest: {availability_type: conda-build, package_available: true}
 python-geohash: {availability_type: null, package_available: false}
-python-gflags: {availability_type: conda-build, package_available: true}
+python-gflags: {availability_type: repo.continuum.io, package_available: true}
 python-glanceclient: {availability_type: conda-build, package_available: true}
 python-gnupg: {availability_type: conda-build, package_available: true}
 python-heatclient: {availability_type: conda-build, package_available: true}
@@ -635,7 +874,7 @@ python-instagram: {availability_type: null, package_available: false}
 python-ironicclient: {availability_type: conda-build, package_available: true}
 python-jenkins: {availability_type: conda-build, package_available: true}
 python-keystoneclient: {availability_type: conda-build, package_available: true}
-python-ldap: {availability_type: null, package_available: false}
+python-ldap: {availability_type: repo.continuum.io, package_available: true}
 python-levenshtein: {availability_type: null, package_available: false}
 python-logstash: {availability_type: conda-build, package_available: true}
 python-magic: {availability_type: conda-build, package_available: true}
@@ -643,7 +882,7 @@ python-memcached: {availability_type: conda-build, package_available: true}
 python-mimeparse: {availability_type: conda-build, package_available: true}
 python-neutronclient: {availability_type: conda-build, package_available: true}
 python-novaclient: {availability_type: conda-build, package_available: true}
-python-ntlm: {availability_type: null, package_available: false}
+python-ntlm: {availability_type: repo.continuum.io, package_available: true}
 python-openid: {availability_type: conda-build, package_available: true}
 python-openstackclient: {availability_type: conda-build, package_available: true}
 python-quantumclient: {availability_type: null, package_available: false}
@@ -658,27 +897,38 @@ python-termstyle: {availability_type: conda-build, package_available: true}
 python-troveclient: {availability_type: conda-build, package_available: true}
 python-twitter: {availability_type: null, package_available: false}
 pythonbrew: {availability_type: null, package_available: false}
+!!python/unicode 'pytz': {availability_type: repo.continuum.io, package_available: true}
 pyusb: {availability_type: conda-build, package_available: true}
 pyvirtualdisplay: {availability_type: conda-build, package_available: true}
+!!python/unicode 'pywget': {availability_type: repo.continuum.io, package_available: true}
+!!python/unicode 'pyyaml': {availability_type: repo.continuum.io, package_available: true}
+!!python/unicode 'pyzmq': {availability_type: repo.continuum.io, package_available: true}
 qds_sdk: {availability_type: conda-build, package_available: true}
 qrcode: {availability_type: conda-build, package_available: true}
-queuelib: {availability_type: conda-build, package_available: true}
+!!python/unicode 'qt': {availability_type: repo.continuum.io, package_available: true}
+!!python/unicode 'quandl': {availability_type: repo.continuum.io, package_available: true}
+queuelib: {availability_type: repo.continuum.io, package_available: true}
 rackspace-auth-openstack: {availability_type: null, package_available: false}
 rackspace-novaclient: {availability_type: null, package_available: false}
 radicale: {availability_type: conda-build, package_available: true}
 radish-bdd: {availability_type: null, package_available: false}
+!!python/unicode 'rasterio': {availability_type: repo.continuum.io, package_available: true}
 rauth: {availability_type: conda-build, package_available: true}
 raven: {availability_type: null, package_available: false}
 rax_default_network_flags_python_novaclient_ext: {availability_type: conda-build,
   package_available: true}
 rax_scheduled_images_python_novaclient_ext: {availability_type: null, package_available: false}
 rdflib: {availability_type: null, package_available: false}
+!!python/unicode 'readline': {availability_type: repo.continuum.io, package_available: true}
 recaptcha-client: {availability_type: conda-build, package_available: true}
+!!python/unicode 'redis': {availability_type: repo.continuum.io, package_available: true}
+!!python/unicode 'redis-py': {availability_type: repo.continuum.io, package_available: true}
 rednose: {availability_type: conda-build, package_available: true}
 regex: {availability_type: conda-build, package_available: true}
-reportlab: {availability_type: conda-build, package_available: true}
-repoze.lru: {availability_type: null, package_available: false}
+reportlab: {availability_type: repo.continuum.io, package_available: true}
+repoze.lru: {availability_type: repo.continuum.io, package_available: true}
 repoze.who: {availability_type: null, package_available: false}
+!!python/unicode 'requests': {availability_type: repo.continuum.io, package_available: true}
 requests-oauthlib: {availability_type: null, package_available: false}
 requests-toolbelt: {availability_type: conda-build, package_available: true}
 responses: {availability_type: null, package_available: false}
@@ -691,6 +941,7 @@ rightscale: {availability_type: null, package_available: false}
 robotframework: {availability_type: conda-build, package_available: true}
 robotframework-ride: {availability_type: null, package_available: false}
 robotframework-selenium2library: {availability_type: conda-build, package_available: true}
+!!python/unicode 'rope': {availability_type: repo.continuum.io, package_available: true}
 rosinstall: {availability_type: null, package_available: false}
 rospkg: {availability_type: conda-build, package_available: true}
 routes: {availability_type: conda-build, package_available: true}
@@ -702,25 +953,36 @@ rsa: {availability_type: conda-build, package_available: true}
 rsb-python: {availability_type: null, package_available: false}
 rtree: {availability_type: null, package_available: false}
 rtslib-fb: {availability_type: null, package_available: false}
+!!python/unicode 'runipy': {availability_type: repo.continuum.io, package_available: true}
 s3cmd: {availability_type: conda-build, package_available: true}
 s3config: {availability_type: conda-build, package_available: true}
 salt: {availability_type: conda-build, package_available: true}
+!!python/unicode 'sas7bdat': {availability_type: repo.continuum.io, package_available: true}
 scapy: {availability_type: null, package_available: false}
-scrapy: {availability_type: null, package_available: false}
+!!python/unicode 'scikit-bio': {availability_type: repo.continuum.io, package_available: true}
+!!python/unicode 'scikit-image': {availability_type: repo.continuum.io, package_available: true}
+!!python/unicode 'scikit-learn': {availability_type: repo.continuum.io, package_available: true}
+!!python/unicode 'scikits-image': {availability_type: repo.continuum.io, package_available: true}
+!!python/unicode 'scipy': {availability_type: repo.continuum.io, package_available: true}
+!!python/unicode 'scons': {availability_type: repo.continuum.io, package_available: true}
+scrapy: {availability_type: repo.continuum.io, package_available: true}
+!!python/unicode 'seaborn': {availability_type: repo.continuum.io, package_available: true}
 selenium: {availability_type: null, package_available: false}
-semantic_version: {availability_type: conda-build, package_available: true}
+semantic_version: {availability_type: repo.continuum.io, package_available: true}
 sendgrid: {availability_type: conda-build, package_available: true}
 sentimental-skk: {availability_type: conda-build, package_available: true}
 sentry: {availability_type: null, package_available: false}
 serpent: {availability_type: conda-build, package_available: true}
 service_identity: {availability_type: null, package_available: false}
 setproctitle: {availability_type: conda-build, package_available: true}
+!!python/unicode 'setuptools': {availability_type: repo.continuum.io, package_available: true}
 setuptools-git: {availability_type: conda-build, package_available: true}
 setuptools_hg: {availability_type: conda-build, package_available: true}
 setuptools_subversion: {availability_type: conda-build, package_available: true}
-sh: {availability_type: conda-build, package_available: true}
+sh: {availability_type: repo.continuum.io, package_available: true}
 shadowsocks: {availability_type: conda-build, package_available: true}
-shapely: {availability_type: null, package_available: false}
+shapely: {availability_type: repo.continuum.io, package_available: true}
+!!python/unicode 'shiboken': {availability_type: repo.continuum.io, package_available: true}
 shortuuid: {availability_type: conda-build, package_available: true}
 shove: {availability_type: null, package_available: false}
 simplegeneric: {availability_type: conda-build, package_available: true}
@@ -729,44 +991,60 @@ simplekml: {availability_type: conda-build, package_available: true}
 simples3: {availability_type: conda-build, package_available: true}
 simserver: {availability_type: null, package_available: false}
 singledispatch: {availability_type: conda-build, package_available: true}
+!!python/unicode 'sip': {availability_type: repo.continuum.io, package_available: true}
+!!python/unicode 'six': {availability_type: repo.continuum.io, package_available: true}
 slapos.cookbook: {availability_type: null, package_available: false}
 slimit: {availability_type: conda-build, package_available: true}
 slpkg: {availability_type: null, package_available: false}
 slumber: {availability_type: null, package_available: false}
 smmap: {availability_type: conda-build, package_available: true}
 snakebite: {availability_type: null, package_available: false}
-snowballstemmer: {availability_type: conda-build, package_available: true}
+snowballstemmer: {availability_type: repo.continuum.io, package_available: true}
+!!python/unicode 'snuggs': {availability_type: repo.continuum.io, package_available: true}
 socketpool: {availability_type: conda-build, package_available: true}
+!!python/unicode 'sockjs-tornado': {availability_type: repo.continuum.io, package_available: true}
 sorl-thumbnail: {availability_type: null, package_available: false}
 south: {availability_type: null, package_available: false}
+!!python/unicode 'spacy': {availability_type: repo.continuum.io, package_available: true}
 sparqlwrapper: {availability_type: null, package_available: false}
 speaklater: {availability_type: conda-build, package_available: true}
-sphinx_rtd_theme: {availability_type: null, package_available: false}
+!!python/unicode 'sphinx': {availability_type: repo.continuum.io, package_available: true}
+sphinx_rtd_theme: {availability_type: repo.continuum.io, package_available: true}
 sphinxcontrib-httpdomain: {availability_type: null, package_available: false}
 sphinxcontrib-napoleon: {availability_type: null, package_available: false}
 splinter: {availability_type: null, package_available: false}
 splunk-sdk: {availability_type: conda-build, package_available: true}
 sprox: {availability_type: null, package_available: false}
+!!python/unicode 'spyder': {availability_type: repo.continuum.io, package_available: true}
+!!python/unicode 'spyder-app': {availability_type: repo.continuum.io, package_available: true}
+!!python/unicode 'sqlalchemy': {availability_type: repo.continuum.io, package_available: true}
 sqlalchemy-migrate: {availability_type: conda-build, package_available: true}
 sqlalchemy-utils: {availability_type: null, package_available: false}
+!!python/unicode 'sqlite': {availability_type: repo.continuum.io, package_available: true}
 sqlitedict: {availability_type: conda-build, package_available: true}
 sqlobject: {availability_type: null, package_available: false}
-sqlparse: {availability_type: conda-build, package_available: true}
-ssh: {availability_type: conda-build, package_available: true}
+sqlparse: {availability_type: repo.continuum.io, package_available: true}
+ssh: {availability_type: repo.continuum.io, package_available: true}
 ssl: {availability_type: null, package_available: false}
+!!python/unicode 'ssl_match_hostname': {availability_type: repo.continuum.io, package_available: true}
+!!python/unicode 'starcluster': {availability_type: repo.continuum.io, package_available: true}
 static: {availability_type: null, package_available: false}
 statsd: {availability_type: conda-build, package_available: true}
+!!python/unicode 'statsmodels': {availability_type: repo.continuum.io, package_available: true}
 stevedore: {availability_type: conda-build, package_available: true}
 strangecase: {availability_type: null, package_available: false}
 streamcorpus_pipeline: {availability_type: null, package_available: false}
-stripe: {availability_type: conda-build, package_available: true}
+stripe: {availability_type: repo.continuum.io, package_available: true}
 stuf: {availability_type: null, package_available: false}
 subprocess32: {availability_type: conda-build, package_available: true}
 suds: {availability_type: conda-build, package_available: true}
 suds-jurko: {availability_type: conda-build, package_available: true}
-supervisor: {availability_type: null, package_available: false}
+supervisor: {availability_type: repo.continuum.io, package_available: true}
 sure: {availability_type: conda-build, package_available: true}
 surf: {availability_type: null, package_available: false}
+!!python/unicode 'swig': {availability_type: repo.continuum.io, package_available: true}
+!!python/unicode 'sympy': {availability_type: repo.continuum.io, package_available: true}
+!!python/unicode 'system': {availability_type: repo.continuum.io, package_available: true}
 tablib: {availability_type: null, package_available: false}
 tabulate: {availability_type: conda-build, package_available: true}
 tailer: {availability_type: conda-build, package_available: true}
@@ -776,24 +1054,32 @@ tempest-lib: {availability_type: conda-build, package_available: true}
 tempita: {availability_type: conda-build, package_available: true}
 tendenci: {availability_type: null, package_available: false}
 termcolor: {availability_type: conda-build, package_available: true}
+!!python/unicode 'terminado': {availability_type: repo.continuum.io, package_available: true}
 testfixtures: {availability_type: null, package_available: false}
 testrepository: {availability_type: null, package_available: false}
 testresources: {availability_type: conda-build, package_available: true}
 testscenarios: {availability_type: conda-build, package_available: true}
 testtools: {availability_type: conda-build, package_available: true}
 texttable: {availability_type: conda-build, package_available: true}
+!!python/unicode 'theano': {availability_type: repo.continuum.io, package_available: true}
+!!python/unicode 'thinc': {availability_type: repo.continuum.io, package_available: true}
 thrift: {availability_type: conda-build, package_available: true}
 tiddlyweb: {availability_type: null, package_available: false}
 tiddlywebplugins.tiddlyspace: {availability_type: null, package_available: false}
+!!python/unicode 'tk': {availability_type: repo.continuum.io, package_available: true}
 tldextract: {availability_type: conda-build, package_available: true}
+!!python/unicode 'toolz': {availability_type: repo.continuum.io, package_available: true}
+!!python/unicode 'tornado': {availability_type: repo.continuum.io, package_available: true}
 tox: {availability_type: null, package_available: false}
 trac: {availability_type: null, package_available: false}
 traceback2: {availability_type: conda-build, package_available: true}
 trachet: {availability_type: conda-build, package_available: true}
+!!python/unicode 'traits': {availability_type: repo.continuum.io, package_available: true}
+!!python/unicode 'traitsui': {availability_type: repo.continuum.io, package_available: true}
 transaction: {availability_type: null, package_available: false}
 transifex-client: {availability_type: conda-build, package_available: true}
 translate-toolkit: {availability_type: null, package_available: false}
-translationstring: {availability_type: conda-build, package_available: true}
+translationstring: {availability_type: repo.continuum.io, package_available: true}
 treeherder-client: {availability_type: null, package_available: false}
 trisdb-py: {availability_type: conda-build, package_available: true}
 trollius: {availability_type: conda-build, package_available: true}
@@ -801,17 +1087,20 @@ trytond: {availability_type: null, package_available: false}
 turbogears: {availability_type: null, package_available: false}
 tweepy: {availability_type: null, package_available: false}
 twilio: {availability_type: null, package_available: false}
-twisted: {availability_type: null, package_available: false}
+twisted: {availability_type: repo.continuum.io, package_available: true}
 twitter: {availability_type: conda-build, package_available: true}
 twython: {availability_type: null, package_available: false}
 txamqp: {availability_type: conda-build, package_available: true}
 tzlocal: {availability_type: conda-build, package_available: true}
 ua-parser: {availability_type: conda-build, package_available: true}
 ucloudclient: {availability_type: null, package_available: false}
-unidecode: {availability_type: conda-build, package_available: true}
+!!python/unicode 'ujson': {availability_type: repo.continuum.io, package_available: true}
+!!python/unicode 'unicodecsv': {availability_type: repo.continuum.io, package_available: true}
+unidecode: {availability_type: repo.continuum.io, package_available: true}
 unipath: {availability_type: conda-build, package_available: true}
 unittest-xml-reporting: {availability_type: null, package_available: false}
-unittest2: {availability_type: null, package_available: false}
+unittest2: {availability_type: repo.continuum.io, package_available: true}
+!!python/unicode 'unixodbc': {availability_type: repo.continuum.io, package_available: true}
 upy: {availability_type: null, package_available: false}
 uritemplate: {availability_type: conda-build, package_available: true}
 urlfetch: {availability_type: conda-build, package_available: true}
@@ -819,20 +1108,24 @@ urllib3: {availability_type: conda-build, package_available: true}
 urlobject: {availability_type: conda-build, package_available: true}
 urwid: {availability_type: conda-build, package_available: true}
 user-agents: {availability_type: conda-build, package_available: true}
-uuid: {availability_type: conda-build, package_available: true}
+!!python/unicode 'util-linux': {availability_type: repo.continuum.io, package_available: true}
+uuid: {availability_type: repo.continuum.io, package_available: true}
 uwsgi: {availability_type: conda-build, package_available: true}
 validictory: {availability_type: conda-build, package_available: true}
 vcstools: {availability_type: conda-build, package_available: true}
-venusian: {availability_type: null, package_available: false}
+venusian: {availability_type: repo.continuum.io, package_available: true}
 versiontools: {availability_type: conda-build, package_available: true}
-virtualenv: {availability_type: conda-build, package_available: true}
+virtualenv: {availability_type: repo.continuum.io, package_available: true}
 virtualenv-clone: {availability_type: conda-build, package_available: true}
 virtualenvwrapper: {availability_type: null, package_available: false}
+!!python/unicode 'vispy': {availability_type: repo.continuum.io, package_available: true}
 vnc2flv: {availability_type: null, package_available: false}
 vobject: {availability_type: null, package_available: false}
 voluptuous: {availability_type: conda-build, package_available: true}
-w3lib: {availability_type: conda-build, package_available: true}
+!!python/unicode 'vtk': {availability_type: repo.continuum.io, package_available: true}
+w3lib: {availability_type: repo.continuum.io, package_available: true}
 waitress: {availability_type: null, package_available: false}
+!!python/unicode 'wakaridata': {availability_type: repo.continuum.io, package_available: true}
 wand: {availability_type: null, package_available: false}
 warlock: {availability_type: null, package_available: false}
 watchdog: {availability_type: null, package_available: false}
@@ -841,25 +1134,34 @@ webapp2: {availability_type: conda-build, package_available: true}
 webassets: {availability_type: conda-build, package_available: true}
 weberror: {availability_type: null, package_available: false}
 webhelpers: {availability_type: conda-build, package_available: true}
-webob: {availability_type: null, package_available: false}
+webob: {availability_type: repo.continuum.io, package_available: true}
+!!python/unicode 'websocket': {availability_type: repo.continuum.io, package_available: true}
 websocket-client: {availability_type: conda-build, package_available: true}
 websockify: {availability_type: null, package_available: false}
 webtest: {availability_type: null, package_available: false}
+!!python/unicode 'werkzeug': {availability_type: repo.continuum.io, package_available: true}
 wheel: {availability_type: null, package_available: false}
 wheezy.core: {availability_type: conda-build, package_available: true}
-whisper: {availability_type: conda-build, package_available: true}
-whoosh: {availability_type: conda-build, package_available: true}
+whisper: {availability_type: repo.continuum.io, package_available: true}
+whoosh: {availability_type: repo.continuum.io, package_available: true}
 wincertstore: {availability_type: conda-build, package_available: true}
+!!python/unicode 'workerpool': {availability_type: repo.continuum.io, package_available: true}
 wrapt: {availability_type: conda-build, package_available: true}
 wsgi_intercept: {availability_type: null, package_available: false}
 wsgiref: {availability_type: conda-build, package_available: true}
 wsme: {availability_type: conda-build, package_available: true}
-wtforms: {availability_type: conda-build, package_available: true}
+wtforms: {availability_type: repo.continuum.io, package_available: true}
+!!python/unicode 'wxpython': {availability_type: repo.continuum.io, package_available: true}
 xattr: {availability_type: null, package_available: false}
 xenapi: {availability_type: conda-build, package_available: true}
 xhtml2pdf: {availability_type: conda-build, package_available: true}
-xlutils: {availability_type: null, package_available: false}
+!!python/unicode 'xlrd': {availability_type: repo.continuum.io, package_available: true}
+!!python/unicode 'xlsxwriter': {availability_type: repo.continuum.io, package_available: true}
+xlutils: {availability_type: repo.continuum.io, package_available: true}
+!!python/unicode 'xlwt': {availability_type: repo.continuum.io, package_available: true}
+!!python/unicode 'xmlrpc2': {availability_type: repo.continuum.io, package_available: true}
 xmltodict: {availability_type: conda-build, package_available: true}
+!!python/unicode 'xray': {availability_type: repo.continuum.io, package_available: true}
 xstatic: {availability_type: conda-build, package_available: true}
 xstatic-angular: {availability_type: conda-build, package_available: true}
 xstatic-bootstrap-datepicker: {availability_type: conda-build, package_available: true}
@@ -877,9 +1179,12 @@ xstatic-jsencrypt: {availability_type: conda-build, package_available: true}
 xstatic-qunit: {availability_type: conda-build, package_available: true}
 xstatic-rickshaw: {availability_type: conda-build, package_available: true}
 xstatic-spin: {availability_type: conda-build, package_available: true}
+!!python/unicode 'xz': {availability_type: repo.continuum.io, package_available: true}
+!!python/unicode 'yaml': {availability_type: repo.continuum.io, package_available: true}
 yolk: {availability_type: conda-build, package_available: true}
 you-get: {availability_type: null, package_available: false}
 youtube_dl: {availability_type: conda-build, package_available: true}
+!!python/unicode 'yt': {availability_type: repo.continuum.io, package_available: true}
 z3c.form: {availability_type: null, package_available: false}
 z3c.recipe.scripts: {availability_type: null, package_available: false}
 zake: {availability_type: null, package_available: false}
@@ -889,6 +1194,8 @@ zc.recipe.egg: {availability_type: conda-build, package_available: true}
 zc.recipe.testrunner: {availability_type: null, package_available: false}
 zconfig: {availability_type: null, package_available: false}
 zdaemon: {availability_type: null, package_available: false}
+!!python/unicode 'zeromq': {availability_type: repo.continuum.io, package_available: true}
+!!python/unicode 'zlib': {availability_type: repo.continuum.io, package_available: true}
 zodb3: {availability_type: null, package_available: false}
 zope.app.container: {availability_type: null, package_available: false}
 zope.app.form: {availability_type: null, package_available: false}
@@ -898,7 +1205,7 @@ zope.component: {availability_type: null, package_available: false}
 zope.configuration: {availability_type: null, package_available: false}
 zope.container: {availability_type: null, package_available: false}
 zope.contenttype: {availability_type: conda-build, package_available: true}
-zope.deprecation: {availability_type: null, package_available: false}
+zope.deprecation: {availability_type: repo.continuum.io, package_available: true}
 zope.dottedname: {availability_type: conda-build, package_available: true}
 zope.event: {availability_type: null, package_available: false}
 zope.exceptions: {availability_type: null, package_available: false}
@@ -907,7 +1214,7 @@ zope.formlib: {availability_type: null, package_available: false}
 zope.i18n: {availability_type: null, package_available: false}
 zope.i18nmessageid: {availability_type: null, package_available: false}
 zope.index: {availability_type: null, package_available: false}
-zope.interface: {availability_type: null, package_available: false}
+zope.interface: {availability_type: repo.continuum.io, package_available: true}
 zope.lifecycleevent: {availability_type: null, package_available: false}
 zope.location: {availability_type: null, package_available: false}
 zope.pagetemplate: {availability_type: null, package_available: false}
